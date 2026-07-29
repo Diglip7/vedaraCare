@@ -148,8 +148,9 @@ export const homePhysioCoverage = {
     "The Lakes / Springs / Meadows"
   ],
   note: 'For neighbourhoods further from JVC (typically 40+ minutes travel each way), home physiotherapy is available but additional travel surcharge may apply. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> with your address to confirm service availability and any travel surcharge before booking.',
-    image: "/images/home-physiotherapy-coverage-dubai.webp",
-  alt: "Vedara Care home physiotherapy coverage map Dubai 18 neighbourhoods from JVC"
+  image: "/images/home-physiotherapy-coverage-dubai.webp",
+  alt: "Vedara Care home physiotherapy coverage map Dubai 18 neighbourhoods from JVC",
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
 };
 
 export const homePhysioModalities = {
@@ -508,7 +509,8 @@ export const homePhysioClinicTransition = {
     { text: "Read about our JVC physiotherapy clinic →", variant: "link", link: "/physiotherapy-jvc/" }
   ],
   image: "/images/physiotherapy-dubai-clinic-vedara-jvc.webp",
-  alt: "Vedara Care JVC clinic location Jumeirah Village Circle Dubai"
+  alt: "Vedara Care JVC clinic location Jumeirah Village Circle Dubai",
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
 };
 
 export const homePhysioFinalCTA = {

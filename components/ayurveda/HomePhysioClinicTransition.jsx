@@ -11,7 +11,8 @@ const HomePhysioClinicTransition = ({
   clinicInfo = {},
   buttons = [],
   image = "",
-  alt = "Clinic transition image"
+  alt = "Clinic transition image",
+  mapEmbed = ""
 }) => {
   return (
     <section className={`${bgColor} py-24 px-6`}>
@@ -25,7 +26,7 @@ const HomePhysioClinicTransition = ({
           </h2>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-[60fr_40fr] gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[60fr_40fr] gap-16 items-stretch">
           <div className="space-y-6 text-[#6B635A] leading-relaxed">
             <p className="text-[1.05rem] text-[#1C1814] font-medium">
               {description}
@@ -139,34 +140,50 @@ const HomePhysioClinicTransition = ({
             </div>
           </div>
           
-          <div className="relative rounded-xl overflow-hidden aspect-[4/3] bg-[#1C1814]">
-            {image ? (
-              <img 
-                src={image} 
-                alt={alt} 
-                className="w-full h-full object-cover opacity-60"
+          <div className="relative rounded-xl overflow-hidden h-full min-h-[450px] bg-[#1C1814]">
+            {mapEmbed ? (
+              <iframe 
+                src={mapEmbed} 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen="" 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Vedara Care Polyclinic Location Map"
+                className="w-full h-full rounded-xl"
               />
-            ) : null}
-            
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
-              <div className="bg-white rounded-xl shadow-xl p-4 text-center max-w-[220px]">
-                <div className="flex items-center justify-center gap-2 mb-2">
-                  <div className="w-3 h-3 rounded-full bg-[#B8933F]"></div>
-                  <span className="text-xs font-bold text-[#1C1814]">Vedara Care Polyclinic</span>
+            ) : (
+              <>
+                {image ? (
+                  <img 
+                    src={image} 
+                    alt={alt} 
+                    className="w-full h-full object-cover opacity-60"
+                  />
+                ) : null}
+                
+                <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
+                  <div className="bg-white rounded-xl shadow-xl p-4 text-center max-w-[220px]">
+                    <div className="flex items-center justify-center gap-2 mb-2">
+                      <div className="w-3 h-3 rounded-full bg-[#B8933F]"></div>
+                      <span className="text-xs font-bold text-[#1C1814]">Vedara Care Polyclinic</span>
+                    </div>
+                    <div className="text-[10px] text-[#6B635A] leading-relaxed">
+                      Circle Mall Medical Centre<br />
+                      Jumeirah Village Circle (JVC)<br />
+                      Dubai, UAE
+                    </div>
+                  </div>
+                  
+                  <div className="flex gap-2 flex-wrap justify-center">
+                    <span className="bg-white/90 text-[#1C1814] text-[9px] font-medium px-2.5 py-1 rounded-full">Circle Mall</span>
+                    <span className="bg-white/90 text-[#1C1814] text-[9px] font-medium px-2.5 py-1 rounded-full">FIVE Hotel (3 min)</span>
+                    <span className="bg-white/90 text-[#1C1814] text-[9px] font-medium px-2.5 py-1 rounded-full">JSS School (5 min)</span>
+                  </div>
                 </div>
-                <div className="text-[10px] text-[#6B635A] leading-relaxed">
-                  Circle Mall Medical Centre<br />
-                  Jumeirah Village Circle (JVC)<br />
-                  Dubai, UAE
-                </div>
-              </div>
-              
-              <div className="flex gap-2 flex-wrap justify-center">
-                <span className="bg-white/90 text-[#1C1814] text-[9px] font-medium px-2.5 py-1 rounded-full">Circle Mall</span>
-                <span className="bg-white/90 text-[#1C1814] text-[9px] font-medium px-2.5 py-1 rounded-full">FIVE Hotel (3 min)</span>
-                <span className="bg-white/90 text-[#1C1814] text-[9px] font-medium px-2.5 py-1 rounded-full">JSS School (5 min)</span>
-              </div>
-            </div>
+              </>
+            )}
           </div>
         </div>
       </div>

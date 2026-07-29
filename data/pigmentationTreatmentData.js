@@ -89,7 +89,7 @@ export const pigmentationWhenToSeeSpecialist = {
       {
         label: "SPECIALIST CONSULTATION VALUABLE FOR:",
         items: [
-          "Persistent pigmentation",
+          "Permanent pigmentation",
           "Multiple pigmentation types",
           "Pigmentation affecting confidence",
           "Considering significant treatments",
@@ -316,7 +316,7 @@ export const pigmentationPricing = {
   ],
   linkText: "Complete pricing for melasma treatment on our melasma page →",
   linkHref: "/conditions/melasma-treatment-dubai/#pricing",
-  insuranceText: 'Most cosmetic pigmentation treatment is not covered by insurance. Medical aspects of pigmentation evaluation may be covered with appropriate justification. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage questions.'
+  insuranceText: 'Most cosmetic pigmentation treatment is not covered by insurance. Medical aspects of pigmentation evaluation may be covered with appropriate justification. <a href="https://wa.me/971555867466?text=Hi%2C%20I%20have%20questions%20about%20insurance%20coverage%20for%20pigmentation%20treatment%20at%20Vedara%20Care." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage questions.'
 };
 
 export const pigmentationFaqs = {
@@ -379,11 +379,11 @@ export const pigmentationFaqs = {
     },
     {
       question: "Will insurance cover pigmentation treatment?",
-      answer: 'Most cosmetic pigmentation treatment is considered cosmetic by Dubai insurance plans and not covered. Some elements may be covered with appropriate medical justification: initial consultation, evaluation of concerning lesions, specific medical conditions affecting pigmentation. Treatment programmes for cosmetic improvement typically self-pay. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking for specific coverage discussion.'
+      answer: 'Most cosmetic pigmentation treatment is considered cosmetic by Dubai insurance plans and not covered. Some elements may be covered with appropriate medical justification: initial consultation, evaluation of concerning lesions, specific medical conditions affecting pigmentation. Treatment programmes for cosmetic improvement typically self-pay. <a href="https://wa.me/971555867466?text=Hi%2C%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20pigmentation%20treatment%20at%20Vedara%20Care." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking for specific coverage discussion.'
     },
     {
       question: "How do I book a pigmentation consultation?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for asking specific questions about your situation. (2) Call our number — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring photos of your pigmentation if helpful, a list of treatments already tried, list of current medications, and any previous medical reports.'
+      answer: 'Three ways: (1) <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20inquire%20about%20pigmentation%20treatment%20options." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for asking specific questions about your situation. (2) Call our number — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring photos of your pigmentation if helpful, a list of treatments already tried, list of current medications, and any previous medical reports.'
     }
   ],
   buttonText: "Ask Our Team on WhatsApp",
@@ -411,7 +411,7 @@ export const pigmentationTreatmentLocation = {
     "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
   ],
   phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  whatsapp: "971555867466",
   email: "booking@vedaracare.ae",
   hours: {
     monday: "8:30 am to 11:30 pm",
@@ -421,5 +421,5 @@ export const pigmentationTreatmentLocation = {
   description: "Our JVC clinic has dedicated consultation rooms equipped for comprehensive pigmentation examination including Wood's lamp analysis and dermoscopy, specialised treatment rooms for chemical peels and laser procedures, and a discreet environment important for body pigmentation patients.",
   mapAlt: "Map showing Vedara Care clinic location in Jumeirah Village Circle, Dubai",
   buttonText: "Book Pigmentation Consultation",
-  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068345979666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
 };

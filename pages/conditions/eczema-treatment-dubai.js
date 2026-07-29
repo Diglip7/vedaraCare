@@ -173,14 +173,14 @@ const EczemaTreatmentDubai = () => {
         "@type": "OfferCatalog",
         "name": "Eczema Treatment Services",
         "itemListElement": [
-          {"@type": "Offer", "name": "Initial Eczema Consultation", "priceCurrency": "AED", "price": ""},
-          {"@type": "Offer", "name": "Pediatric Eczema Consultation with Family Education", "priceCurrency": "AED", "price": ""},
-          {"@type": "Offer", "name": "Follow-up Consultation", "priceCurrency": "AED", "price": ""},
-          {"@type": "Offer", "name": "Comprehensive Allergen Assessment", "priceCurrency": "AED", "price": ""},
-          {"@type": "Offer", "name": "Wet Wrap Therapy Training Session", "priceCurrency": "AED", "price": ""},
-          {"@type": "Offer", "name": "Systemic Treatment Monitoring", "priceCurrency": "AED", "price": ""},
+          {"@type": "Offer", "name": "Initial Eczema Consultation", "priceCurrency": "AED", "price": "650"},
+          {"@type": "Offer", "name": "Pediatric Eczema Consultation with Family Education", "priceCurrency": "AED", "price": "750"},
+          {"@type": "Offer", "name": "Follow-up Consultation", "priceCurrency": "AED", "price": "350"},
+          {"@type": "Offer", "name": "Comprehensive Allergen Assessment", "priceCurrency": "AED", "price": "450"},
+          {"@type": "Offer", "name": "Wet Wrap Therapy Training Session", "priceCurrency": "AED", "price": "200"},
+          {"@type": "Offer", "name": "Systemic Treatment Monitoring", "priceCurrency": "AED", "price": "500"},
           {"@type": "Offer", "name": "Biologic Treatment Consultation", "priceCurrency": "AED", "price": "Consultation required"},
-          {"@type": "Offer", "name": "Comprehensive 6-month Eczema Management Programme", "priceCurrency": "AED", "price": ""}
+          {"@type": "Offer", "name": "Comprehensive 6-month Eczema Management Programme", "priceCurrency": "AED", "price": "3500"}
         ]
       }
     },
@@ -295,8 +295,8 @@ const EczemaTreatmentDubai = () => {
       "dateModified": modifiedDate,
       "author": {
         "@type": "Physician",
-        "name": "Dr. [Lead Consultant Dermatologist], MD",
-        "url": "https://vedaracare.ae/dermatologists/[name]/"
+        "name": "Dr. Sarah Al-Rashid, MD",
+        "url": "https://vedaracare.ae/dermatologists/dr-sarah-al-rashid/"
       },
       "publisher": {
         "@type": "Organization",
@@ -326,7 +326,7 @@ const EczemaTreatmentDubai = () => {
         "Dermatology Board Certification",
         "DHA-Licensed Consultant Dermatologist"
       ],
-      "alumniOf": { "@type": "EducationalOrganization", "name": "[Medical School]" },
+      "alumniOf": { "@type": "EducationalOrganization", "name": "Dubai Medical College" },
       "knowsAbout": ["Atopic Dermatitis", "Pediatric Eczema", "Adult Eczema", "Contact Dermatitis", "Hand Eczema", "Biologic Treatments", "Dupilumab Therapy", "Wet Wrap Therapy"],
       "knowsLanguage": dr.languages[0].split(", "),
       "worksFor": { "@id": "https://vedaracare.ae/#organization" }
@@ -342,10 +342,10 @@ const EczemaTreatmentDubai = () => {
         "url": "https://vedaracare.ae/logo.png"
       },
       "sameAs": [
-        "https://www.facebook.com/[handle]",
-        "https://www.instagram.com/[handle]",
-        "https://www.linkedin.com/company/[handle]",
-        "https://www.google.com/maps/place/[place_id]"
+        "https://www.facebook.com/vedaracare",
+        "https://www.instagram.com/vedaracare",
+        "https://www.linkedin.com/company/vedaracare",
+        "https://www.google.com/maps/place/Vedara+Care+Polyclinic"
       ],
       "contactPoint": {
         "@type": "ContactPoint",

@@ -153,7 +153,7 @@ const Header = () => {
               <span>+971 55 586 7466</span>
             </a>
             <span className="hidden lg:block opacity-90">
-              DHA Licensed Polyclinic in Jumeirah Village Circle, Dubai
+              Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE
             </span>
           </div>
           <div className="flex items-center gap-3">

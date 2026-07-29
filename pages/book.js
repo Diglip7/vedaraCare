@@ -2,18 +2,18 @@ import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { 
-  Calendar, 
-  Clock, 
-  User, 
-  Phone, 
-  Mail, 
-  MapPin, 
-  CheckCircle2, 
-  ShieldCheck, 
-  Sparkles, 
-  MessageCircle, 
-  ArrowRight, 
+import {
+  Calendar,
+  Clock,
+  User,
+  Phone,
+  Mail,
+  MapPin,
+  CheckCircle2,
+  ShieldCheck,
+  Sparkles,
+  MessageCircle,
+  ArrowRight,
   Activity,
   Heart,
   Stethoscope,
@@ -31,14 +31,129 @@ import {
   ShieldAlert
 } from 'lucide-react';
 
-export default function BookAppointment() {
+// Custom Select Dropdown Component
+function CustomSelect({ name, value, options, onChange }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const dropdownRef = React.useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  // Reset search query when dropdown opens/closes
+  useEffect(() => {
+    if (!isOpen) {
+      setSearchQuery('');
+    }
+  }, [isOpen]);
+
+  const filteredOptions = options.filter(option =>
+    option.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  return (
+    <div className="relative w-full" ref={dropdownRef}>
+      <button
+        type="button"
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full flex items-center justify-between px-4 py-3.5 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A] hover:border-gray-300 text-left font-medium transition-all text-[#1A1A1A]"
+      >
+        <span className="truncate">{value}</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className={`text-gray-500 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+        >
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
+
+      {isOpen && (
+        <div className="absolute z-50 w-full mt-1.5 bg-white border border-gray-200/80 rounded-xl shadow-lg overflow-hidden flex flex-col">
+          {/* Search Input Box */}
+          <div className="p-2 border-b border-gray-100 bg-[#FAF8F5]">
+            <input
+              type="text"
+              placeholder="Search treatment..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full px-3 py-2 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#184C3A] bg-white text-[#1A1A1A]"
+              onClick={(e) => e.stopPropagation()} // Prevent dropdown close on click
+            />
+          </div>
+
+          <ul className="max-h-60 overflow-y-auto py-1.5 scrollbar-custom">
+            {filteredOptions.length > 0 ? (
+              filteredOptions.map((option, idx) => {
+                const isSelected = option === value;
+                return (
+                  <li key={idx}>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        onChange({ target: { name, value: option } });
+                        setIsOpen(false);
+                      }}
+                      className={`w-full text-left px-4 py-2.5 text-sm transition-colors flex items-center justify-between ${isSelected
+                        ? 'bg-[#184C3A] text-white font-semibold'
+                        : 'text-gray-700 hover:bg-[#FAF8F5] hover:text-[#184C3A]'
+                        }`}
+                    >
+                      <span className="truncate">{option}</span>
+                      {isSelected && (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="text-[#C9A55A]"
+                        >
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                      )}
+                    </button>
+                  </li>
+                );
+              })
+            ) : (
+              <li className="px-4 py-2.5 text-xs text-gray-500 italic">No matches found</li>
+            )}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function BookAppointment({ dynamicTreatments }) {
   const router = useRouter();
   const { service, treatment, department, doctor, condition } = router.query;
 
   // Form State
   const [formData, setFormData] = useState({
     department: 'Physiotherapy',
-    treatment: 'Sports Injury & Joint Rehab',
+    treatment: 'General Consultation',
     doctor: 'Any Available DHA Specialist',
     preferredDate: '',
     preferredTime: 'Morning (8:30 AM - 12:00 PM)',
@@ -61,16 +176,79 @@ export default function BookAppointment() {
     if (!router.isReady) return;
 
     let initialDept = 'Physiotherapy';
-    if (department) initialDept = department;
-    else if (service) {
+    let initialTreatment = treatment || condition || '';
+    let initialDoctor = doctor || 'Any Available DHA Specialist';
+
+    // Helper to format slugs from referrer if needed
+    const acronyms = { 'ibs': 'IBS', 'pcos': 'PCOS', 'prp': 'PRP', 'cva': 'CVA' };
+    const slugToTitle = (slug) => {
+      return slug.split('-')
+        .filter(w => w !== 'jvc' && w !== 'dubai')
+        .map(w => acronyms[w.toLowerCase()] || (w.charAt(0).toUpperCase() + w.slice(1)))
+        .join(' ');
+    };
+
+    // 1. Try to infer treatment from referrer if not provided in query params
+    if (!initialTreatment && typeof document !== 'undefined' && document.referrer) {
+      try {
+        const referrerUrl = new URL(document.referrer);
+        if (referrerUrl.host === window.location.host) {
+          const pathParts = referrerUrl.pathname.split('/').filter(Boolean);
+          const lastPart = pathParts[pathParts.length - 1];
+          if (lastPart && lastPart !== 'book') {
+            initialTreatment = slugToTitle(lastPart);
+          }
+        }
+      } catch (e) {
+        console.error("Error parsing referrer:", e);
+      }
+    }
+
+    if (!initialTreatment) {
+      initialTreatment = 'General Consultation';
+    }
+
+    // 2. Set department based on query, service parameter, or auto-detect from treatment
+    if (department) {
+      initialDept = department;
+    } else if (service) {
       if (service.toLowerCase().includes('ayurveda')) initialDept = 'Ayurveda';
       else if (service.toLowerCase().includes('derma') || service.toLowerCase().includes('skin')) initialDept = 'Dermatology';
       else if (service.toLowerCase().includes('home')) initialDept = 'Home Healthcare';
       else initialDept = 'Physiotherapy';
+    } else if (initialTreatment && dynamicTreatments) {
+      // Auto-detect department by looking up the treatment in dynamicTreatments lists
+      const foundDept = Object.keys(dynamicTreatments).find(deptName =>
+        dynamicTreatments[deptName].some(t => t.toLowerCase() === initialTreatment.toLowerCase())
+      );
+      if (foundDept) {
+        initialDept = foundDept;
+      }
     }
 
-    let initialTreatment = treatment || condition || 'General Consultation';
-    let initialDoctor = doctor || 'Any Available DHA Specialist';
+    // If the selected treatment is not in the list for that department, but is in another department, switch to it
+    if (dynamicTreatments && initialTreatment && initialTreatment !== 'General Consultation') {
+      const currentTreatments = dynamicTreatments[initialDept] || [];
+      const existsInCurrent = currentTreatments.some(t => t.toLowerCase() === initialTreatment.toLowerCase());
+      if (!existsInCurrent) {
+        const correctDept = Object.keys(dynamicTreatments).find(deptName =>
+          dynamicTreatments[deptName].some(t => t.toLowerCase() === initialTreatment.toLowerCase())
+        );
+        if (correctDept) {
+          initialDept = correctDept;
+        }
+      }
+    }
+
+    // Ensure the exact casing matches the one in dynamicTreatments if it exists
+    if (dynamicTreatments && dynamicTreatments[initialDept]) {
+      const matchedTreatment = dynamicTreatments[initialDept].find(
+        t => t.toLowerCase() === initialTreatment.toLowerCase()
+      );
+      if (matchedTreatment) {
+        initialTreatment = matchedTreatment;
+      }
+    }
 
     setFormData(prev => ({
       ...prev,
@@ -78,23 +256,14 @@ export default function BookAppointment() {
       treatment: initialTreatment,
       doctor: initialDoctor
     }));
-  }, [router.isReady, department, service, treatment, condition, doctor]);
+  }, [router.isReady, department, service, treatment, condition, doctor, dynamicTreatments]);
 
   const departmentData = {
     'Physiotherapy': {
       icon: Activity,
       badge: 'Joint & Muscle Care',
       desc: 'Sports injury recovery, post-surgical rehab, spine & joint mobilization',
-      treatments: [
-        'Sports Injury & Joint Rehab',
-        'Post-Surgery Rehabilitation (Knee/Shoulder/Spine)',
-        'Neurological Rehabilitation (Stroke & Nerve)',
-        'Pediatric Physiotherapy',
-        'Back Pain & Sciatica Relief',
-        'Pelvic Floor Therapy',
-        'Manual Therapy & Joint Mobilization',
-        'Physiotherapy at Home'
-      ],
+      treatments: dynamicTreatments?.['Physiotherapy'] || ['General Consultation'],
       doctors: [
         'Any Available DHA Specialist',
         'Dr. Sarah Mitchell (Senior Physiotherapist)',
@@ -105,15 +274,7 @@ export default function BookAppointment() {
       icon: Heart,
       badge: 'Holistic Wellness',
       desc: 'Authentic Panchakarma detox, Kativasti, Abhyanga & chronic pain care',
-      treatments: [
-        'Panchakarma Detox & Rejuvenation',
-        'Kativasti Spinal & Lumbar Relief',
-        'Abhyanga Full Body Massage',
-        'Shirodhara Stress & Insomnia Care',
-        'Njavarakizhi Muscle Strengthening',
-        'Ayurvedic Joint & Arthritis Care',
-        'Ayurvedic Skin & Psoriasis Care'
-      ],
+      treatments: dynamicTreatments?.['Ayurveda'] || ['General Consultation'],
       doctors: [
         'Any Available DHA Specialist',
         'Dr. Ananya Sharma (BAMS Ayurveda Consultant)',
@@ -124,14 +285,7 @@ export default function BookAppointment() {
       icon: Stethoscope,
       badge: 'Skin & Aesthetics',
       desc: 'Advanced acne scar removal, PRP hair regrowth & medical dermatology',
-      treatments: [
-        'Acne & Scar Treatment',
-        'PRP Hair Regrowth & Scalp Care',
-        'Chemical Peel & Hyperpigmentation',
-        'Laser & Skin Rejuvenation',
-        'Eczema & Dermatitis Care',
-        'Anti-Aging Consultation'
-      ],
+      treatments: dynamicTreatments?.['Dermatology'] || ['General Consultation'],
       doctors: [
         'Any Available DHA Specialist',
         'Dr. Elena Rostova (Consultant Dermatologist)'
@@ -141,12 +295,7 @@ export default function BookAppointment() {
       icon: HomeIcon,
       badge: 'Doctor & Physio at Home',
       desc: 'DHA-licensed medical consultations & nursing care at your residence',
-      treatments: [
-        'At-Home Physiotherapy Session',
-        'Doctor Home Visit & Assessment',
-        'Post-Stroke & Elderly Nursing Care',
-        'Post-Surgical At-Home Recovery'
-      ],
+      treatments: dynamicTreatments?.['Home Healthcare'] || ['General Consultation'],
       doctors: [
         'Any Available DHA Specialist',
         'Home Healthcare Specialist Team'
@@ -230,13 +379,29 @@ export default function BookAppointment() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
         />
       </Head>
+      <style dangerouslySetInnerHTML={{
+        __html: `
+        .scrollbar-custom::-webkit-scrollbar {
+          width: 6px;
+        }
+        .scrollbar-custom::-webkit-scrollbar-track {
+          background: transparent;
+        }
+        .scrollbar-custom::-webkit-scrollbar-thumb {
+          background-color: #E5DFD3;
+          border-radius: 20px;
+        }
+        .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+          background-color: #C9A55A;
+        }
+      `}} />
 
       <div className="bg-[#FAF8F5] min-h-screen text-[#1A1A1A] font-sans pb-28">
-        
+
         {/* Distinct Light Luxury Hero Section */}
         <section className="bg-gradient-to-b from-white via-[#FAF8F5] to-[#F5F0E8] border-b border-gray-200/60 pt-12 pb-14 px-4 md:px-8">
           <div className="max-w-[1400px] mx-auto">
-            
+
             {/* Top Breadcrumb & Trust Badges */}
             <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
               <nav className="flex items-center gap-2 text-xs font-sans text-[#C9A55A] uppercase tracking-widest font-semibold">
@@ -295,14 +460,14 @@ export default function BookAppointment() {
 
         {/* Spacious Main Layout (Max-Width 1400px) */}
         <section className="max-w-[1400px] mx-auto px-4 md:px-8 pt-10">
-          
+
           {isSubmitted ? (
             /* SUCCESS CONFIRMATION DISPLAY */
             <div className="bg-white rounded-3xl p-8 sm:p-12 shadow-sm border border-gray-200 max-w-2xl mx-auto text-center space-y-6 animate-fade-in my-8">
               <div className="w-20 h-20 bg-[#184C3A] text-white rounded-full flex items-center justify-center mx-auto shadow-md">
                 <CheckCircle2 size={42} />
               </div>
-              
+
               <div>
                 <h2 className="text-2xl sm:text-3xl font-serif font-medium text-[#1A1A1A]">Appointment Request Registered!</h2>
                 <p className="text-xs text-gray-500 mt-1">Our reception desk will call you back within 15 minutes to confirm your visit.</p>
@@ -357,12 +522,12 @@ export default function BookAppointment() {
           ) : (
             /* FULL EXPANDED FORM LAYOUT */
             <div className="grid lg:grid-cols-12 gap-8 items-start">
-              
+
               {/* LEFT: EXPANDED FORM (8 COLS) */}
               <div className="lg:col-span-8 space-y-8">
-                
+
                 <form onSubmit={handleSubmit} className="space-y-8">
-                  
+
                   {/* CARD 1: DEPARTMENT SELECTION (DISTINCT 4-GRID DISPLAY) */}
                   <div className="bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-gray-200/80 space-y-6">
                     <div className="flex items-center justify-between border-b border-gray-100 pb-4">
@@ -390,19 +555,17 @@ export default function BookAppointment() {
                             key={deptKey}
                             type="button"
                             onClick={() => handleDepartmentSelect(deptKey)}
-                            className={`p-5 rounded-2xl border text-left transition-all relative overflow-hidden flex flex-col justify-between ${
-                              isSelected 
-                                ? 'bg-gradient-to-br from-[#184C3A] to-[#123B2D] text-white border-[#184C3A] shadow-md ring-2 ring-[#184C3A]/20' 
-                                : 'bg-white text-gray-900 border-gray-200 hover:border-[#184C3A] hover:bg-[#FAF8F5]'
-                            }`}
+                            className={`p-5 rounded-2xl border text-left transition-all relative overflow-hidden flex flex-col justify-between ${isSelected
+                              ? 'bg-gradient-to-br from-[#184C3A] to-[#123B2D] text-white border-[#184C3A] shadow-md ring-2 ring-[#184C3A]/20'
+                              : 'bg-white text-gray-900 border-gray-200 hover:border-[#184C3A] hover:bg-[#FAF8F5]'
+                              }`}
                           >
                             <div className="flex items-start justify-between gap-3 mb-3">
                               <div className={`p-2.5 rounded-xl ${isSelected ? 'bg-white/20 text-white' : 'bg-[#184C3A]/10 text-[#184C3A]'}`}>
                                 <IconComp size={22} />
                               </div>
-                              <span className={`text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full ${
-                                isSelected ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-600'
-                              }`}>
+                              <span className={`text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full ${isSelected ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-600'
+                                }`}>
                                 {deptObj.badge}
                               </span>
                             </div>
@@ -430,32 +593,24 @@ export default function BookAppointment() {
                         <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
                           Specific Clinical Treatment *
                         </label>
-                        <select
+                        <CustomSelect
                           name="treatment"
                           value={formData.treatment}
+                          options={currentDeptInfo.treatments}
                           onChange={handleInputChange}
-                          className="w-full px-4 py-3.5 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A] font-medium"
-                        >
-                          {currentDeptInfo.treatments.map((tItem, idx) => (
-                            <option key={idx} value={tItem}>{tItem}</option>
-                          ))}
-                        </select>
+                        />
                       </div>
 
                       <div>
                         <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
                           Preferred DHA Specialist / Doctor
                         </label>
-                        <select
+                        <CustomSelect
                           name="doctor"
                           value={formData.doctor}
+                          options={currentDeptInfo.doctors}
                           onChange={handleInputChange}
-                          className="w-full px-4 py-3.5 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A]"
-                        >
-                          {currentDeptInfo.doctors.map((dItem, idx) => (
-                            <option key={idx} value={dItem}>{dItem}</option>
-                          ))}
-                        </select>
+                        />
                       </div>
                     </div>
                   </div>
@@ -495,16 +650,16 @@ export default function BookAppointment() {
                         <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
                           Preferred Time Window *
                         </label>
-                        <select
+                        <CustomSelect
                           name="preferredTime"
                           value={formData.preferredTime}
+                          options={[
+                            "Morning (8:30 AM - 12:00 PM)",
+                            "Afternoon (12:00 PM - 5:00 PM)",
+                            "Evening (5:00 PM - 11:30 PM)"
+                          ]}
                           onChange={handleInputChange}
-                          className="w-full px-4 py-3.5 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A]"
-                        >
-                          <option value="Morning (8:30 AM - 12:00 PM)">Morning (8:30 AM - 12:00 PM)</option>
-                          <option value="Afternoon (12:00 PM - 5:00 PM)">Afternoon (12:00 PM - 5:00 PM)</option>
-                          <option value="Evening (5:00 PM - 11:30 PM)">Evening (5:00 PM - 11:30 PM)</option>
-                        </select>
+                        />
                       </div>
                     </div>
                   </div>
@@ -603,16 +758,12 @@ export default function BookAppointment() {
                         <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
                           Gender
                         </label>
-                        <select
+                        <CustomSelect
                           name="gender"
                           value={formData.gender}
+                          options={["Female", "Male", "Prefer not to say"]}
                           onChange={handleInputChange}
-                          className="w-full px-4 py-3.5 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A]"
-                        >
-                          <option value="Female">Female</option>
-                          <option value="Male">Male</option>
-                          <option value="Prefer not to say">Prefer not to say</option>
-                        </select>
+                        />
                       </div>
 
                       <div>
@@ -650,21 +801,21 @@ export default function BookAppointment() {
                         <label className="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
                           Insurance Provider
                         </label>
-                        <select
+                        <CustomSelect
                           name="insurance"
                           value={formData.insurance}
+                          options={[
+                            "Self-Pay / Cash / Card",
+                            "Daman Health Insurance",
+                            "AXA / GIG Gulf",
+                            "Oman Insurance (Sukoon)",
+                            "Allianz Care",
+                            "Now Health International",
+                            "Bupa / NextCare",
+                            "MetLife"
+                          ]}
                           onChange={handleInputChange}
-                          className="w-full px-4 py-3.5 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A]"
-                        >
-                          <option value="Self-Pay / Cash / Card">Self-Pay / Cash / Card</option>
-                          <option value="Daman Health Insurance">Daman Health Insurance</option>
-                          <option value="AXA / GIG Gulf">AXA / GIG Gulf</option>
-                          <option value="Oman Insurance / Sukoon">Oman Insurance (Sukoon)</option>
-                          <option value="Allianz Care">Allianz Care</option>
-                          <option value="Now Health International">Now Health International</option>
-                          <option value="Bupa / NextCare">Bupa / NextCare</option>
-                          <option value="MetLife">MetLife</option>
-                        </select>
+                        />
                       </div>
 
                       <div>
@@ -729,7 +880,7 @@ export default function BookAppointment() {
 
               {/* RIGHT: RICH LIVE SIDEBAR (4 COLS) */}
               <div className="lg:col-span-4 space-y-6">
-                
+
                 {/* Live Selection Summary Box */}
                 <div className="bg-white p-6 sm:p-7 rounded-3xl shadow-sm border border-gray-200/80 space-y-5">
                   <div className="border-b border-gray-100 pb-3 flex items-center justify-between">
@@ -814,9 +965,9 @@ export default function BookAppointment() {
                       <p className="text-xs text-gray-500">Binghatti Azure, Shop -4, JVC Dubai</p>
                     </div>
                   </div>
-                  <a 
-                    href="https://maps.google.com/?q=Jumeirah+Village+Circle+Dubai" 
-                    target="_blank" 
+                  <a
+                    href="https://maps.app.goo.gl/xiJgqsvRqAJ3pC8f6"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs font-semibold text-[#184C3A] hover:underline flex items-center gap-1 pt-1"
                   >
@@ -833,4 +984,162 @@ export default function BookAppointment() {
       </div>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const fs = require('fs');
+  const path = require('path');
+
+  const pagesDir = path.join(process.cwd(), 'pages');
+  const conditionsDir = path.join(pagesDir, 'conditions');
+  const treatmentsDir = path.join(pagesDir, 'treatments');
+  const physioDir = path.join(pagesDir, 'physiotherapy');
+
+  const getFiles = (dir) => {
+    try {
+      if (fs.existsSync(dir)) {
+        return fs.readdirSync(dir)
+          .filter(file => file.endsWith('.js') || file.endsWith('.jsx') || file.endsWith('.tsx'))
+          .map(file => ({
+            slug: file.replace(/\.(js|jsx|tsx)$/, ''),
+            fullPath: path.join(dir, file)
+          }));
+      }
+    } catch (e) {
+      console.error("Error reading directory: " + dir, e);
+    }
+    return [];
+  };
+
+  const conditions = getFiles(conditionsDir);
+  const treatments = getFiles(treatmentsDir);
+  const physioFiles = getFiles(physioDir);
+
+  // Dynamically discover medical direct pages inside pages/ (excluding utility system pages)
+  const directPages = [];
+  try {
+    if (fs.existsSync(pagesDir)) {
+      const systemPages = [
+        '_app', '_document', 'index', 'book', 'contact', 'about',
+        'careers', 'insurance', 'patient-rights', 'privacy-policy', 'terms-of-service'
+      ];
+      fs.readdirSync(pagesDir)
+        .filter(file => file.endsWith('.js') || file.endsWith('.jsx') || file.endsWith('.tsx'))
+        .forEach(file => {
+          const slug = file.replace(/\.(js|jsx|tsx)$/, '');
+          if (!systemPages.includes(slug)) {
+            directPages.push({
+              slug,
+              fullPath: path.join(pagesDir, file)
+            });
+          }
+        });
+    }
+  } catch (e) {
+    console.error("Error reading pages directory:", e);
+  }
+
+  const physiotherapy = ['General Consultation'];
+  const ayurveda = ['General Consultation'];
+  const dermatology = ['General Consultation'];
+  const homeHealthcare = ['General Consultation'];
+
+  const acronyms = { 'ibs': 'IBS', 'pcos': 'PCOS', 'prp': 'PRP', 'cva': 'CVA' };
+
+  const slugToTitle = (slug) => {
+    return slug.split('-')
+      .filter(w => w !== 'jvc' && w !== 'dubai')
+      .map(w => acronyms[w.toLowerCase()] || (w.charAt(0).toUpperCase() + w.slice(1)))
+      .join(' ');
+  };
+
+  // Process all files in pages/physiotherapy directory directly as Physiotherapy
+  physioFiles.forEach(({ slug }) => {
+    physiotherapy.push(slugToTitle(slug));
+  });
+
+  const processFile = ({ slug, fullPath }) => {
+    const title = slugToTitle(slug);
+
+    // Dynamic fallback classification: Scan file content to determine department
+    try {
+      if (fs.existsSync(fullPath)) {
+        const content = fs.readFileSync(fullPath, 'utf8');
+        const contentLower = content.toLowerCase();
+
+        let ayurvedaScore = 0;
+        let physiotherapyScore = 0;
+        let dermatologyScore = 0;
+        let homeScore = 0;
+
+        // Ayurveda keywords
+        const ayurKeywords = ['ayurveda', 'ayurvedic', 'panchakarma', 'abhyanga', 'kativasti', 'njavarakizhi', 'shirodhara', 'bams', 'cupping', 'massage'];
+        ayurKeywords.forEach(kw => {
+          const regex = new RegExp(kw, 'g');
+          ayurvedaScore += (contentLower.match(regex) || []).length;
+        });
+
+        // Physiotherapy keywords
+        const physioKeywords = ['physiotherapy', 'physiotherapist', 'physio', 'physical therapy', 'rehab', 'sciatica', 'shoulder', 'elbow', 'joints', 'mobilisation', 'exercise'];
+        physioKeywords.forEach(kw => {
+          const regex = new RegExp(kw, 'g');
+          physiotherapyScore += (contentLower.match(regex) || []).length;
+        });
+
+        // Dermatology keywords
+        const dermaKeywords = ['dermatology', 'dermatologist', 'skin & aesthetics', 'skin clinic', 'cosmetic', 'aesthetics', 'prp', 'peel', 'acne', 'melasma', 'eczema', 'psoriasis', 'hair-loss', 'hair loss'];
+        dermaKeywords.forEach(kw => {
+          const regex = new RegExp(kw, 'g');
+          dermatologyScore += (contentLower.match(regex) || []).length;
+        });
+
+        // Home Healthcare keywords
+        const homeKeywords = ['home-healthcare', 'at home', 'home care', 'home nurse', 'home healthcare'];
+        homeKeywords.forEach(kw => {
+          const regex = new RegExp(kw, 'g');
+          homeScore += (contentLower.match(regex) || []).length;
+        });
+
+        // Determine the department with the highest keyword count
+        const maxScore = Math.max(ayurvedaScore, physiotherapyScore, dermatologyScore, homeScore);
+
+        if (homeScore > 0 && homeScore === maxScore) {
+          homeHealthcare.push(title);
+          // If it also contains significant physiotherapy content, add it to physiotherapy too
+          if (physiotherapyScore > 5) {
+            physiotherapy.push(title);
+          }
+        } else if (dermatologyScore === maxScore) {
+          dermatology.push(title);
+        } else if (ayurvedaScore === maxScore) {
+          ayurveda.push(title);
+        } else {
+          physiotherapy.push(title);
+        }
+      } else {
+        physiotherapy.push(title);
+      }
+    } catch (err) {
+      console.error("Error reading file content for dynamic classification: " + slug, err);
+      physiotherapy.push(title);
+    }
+  };
+
+  conditions.forEach(processFile);
+  treatments.forEach(processFile);
+  directPages.forEach(processFile);
+
+  // Deduplicate and filter arrays
+  const uniq = (arr) => Array.from(new Set(arr));
+
+  return {
+    props: {
+      dynamicTreatments: {
+        'Physiotherapy': uniq(physiotherapy),
+        'Ayurveda': uniq(ayurveda),
+        'Dermatology': uniq(dermatology),
+        'Home Healthcare': uniq(homeHealthcare)
+      }
+    }
+  };
 }

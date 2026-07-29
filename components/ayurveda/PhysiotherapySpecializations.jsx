@@ -30,7 +30,7 @@ const PhysiotherapySpecializations = ({
               <div className="text-4xl text-[#C9A55A] font-serif mb-6">
                 {type.number}
               </div>
-              
+
               <div className="space-y-4 flex-grow">
                 <div>
                   {type.href ? (
@@ -40,7 +40,7 @@ const PhysiotherapySpecializations = ({
                   )}
                 </div>
 
-                <div 
+                <div
                   className="text-[14px] text-sm text-[#4A4A4A] font-sans leading-relaxed"
                   dangerouslySetInnerHTML={{ __html: type.description }}
                 />
@@ -73,7 +73,7 @@ const PhysiotherapySpecializations = ({
               </div>
 
               {type.linkText && type.linkHref && (
-                <a 
+                <a
                   href={type.linkHref}
                   className="inline-flex items-center gap-1 text-[14px] font-sans mt-4 text-[#C9A55A] hover:underline"
                 >
@@ -89,9 +89,9 @@ const PhysiotherapySpecializations = ({
         </div>
 
         {footer && (
-          <div 
+          <div
             className="mt-5 text-center max-w-[900px] mx-auto pt-8 text-[#888888] text-sm font-sans leading-relaxed [&_a]:text-[#C9A55A] [&_a]:underline hover:[&_a]:text-[#184C3A]"
-            dangerouslySetInnerHTML={{ __html: footer }} 
+            dangerouslySetInnerHTML={{ __html: footer }}
           />
         )}
       </div>

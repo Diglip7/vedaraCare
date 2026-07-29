@@ -51,6 +51,15 @@ const AdminBlogPost = () => {
   const [activeContentTab, setActiveContentTab] = useState('published');
   const [toasts, setToasts] = useState([]);
   const tokenKey = "adminToken";
+
+  const [deleteModal, setDeleteModal] = useState({
+    isOpen: false,
+    id: null,
+    type: '',
+    title: '',
+    subtitle: '',
+    isDeleting: false
+  });
   
   useEffect(() => {
     const token = localStorage.getItem(tokenKey);
@@ -92,17 +101,69 @@ const AdminBlogPost = () => {
     }
   };
 
-  const handleDeleteAppointment = async (id) => {
-    if (!confirm("Are you sure you want to delete this inquiry record?")) return;
+  const promptDeleteAppointment = (apt) => {
+    setDeleteModal({
+      isOpen: true,
+      id: apt._id,
+      type: 'appointment',
+      title: apt.fullName || 'Inquiry Record',
+      subtitle: apt.concern ? `Concern: ${apt.concern}` : (apt.phone || apt.email || 'Patient Inquiry Record'),
+      isDeleting: false
+    });
+  };
+
+  const promptDeleteBlog = (item, isDraft = false) => {
+    const targetItem = typeof item === 'object' && item !== null ? item : (isDraft ? drafts : posts).find(p => p._id === item) || { _id: item };
+    setDeleteModal({
+      isOpen: true,
+      id: targetItem._id,
+      type: isDraft ? 'draft' : 'published',
+      title: targetItem.title || 'Untitled Story',
+      subtitle: isDraft ? 'Draft Blog Post' : 'Published Story',
+      isDeleting: false
+    });
+  };
+
+  const confirmDeleteAction = async () => {
+    if (!deleteModal.id || deleteModal.isDeleting) return;
+
+    setDeleteModal(prev => ({ ...prev, isDeleting: true }));
+
     try {
-      const res = await axios.delete(`/api/admin/appointments?id=${id}`, getAuthHeaders());
-      if (res.data.success) {
-        showToast("Inquiry deleted successfully", "success");
-        fetchAppointments(appointmentFilter, appointmentSearch);
+      if (deleteModal.type === 'appointment') {
+        const res = await axios.delete(`/api/admin/appointments?id=${deleteModal.id}`, getAuthHeaders());
+        if (res.data.success) {
+          showToast("Inquiry record deleted successfully", "success");
+          fetchAppointments(appointmentFilter, appointmentSearch);
+        } else {
+          showToast("Failed to delete inquiry record", "error");
+        }
+      } else if (deleteModal.type === 'draft' || deleteModal.type === 'published') {
+        const isDraft = deleteModal.type === 'draft';
+        const endpoint = isDraft ? `/api/blog/draft?id=${deleteModal.id}` : `/api/blog/published?id=${deleteModal.id}`;
+        await axios.delete(endpoint, getAuthHeaders());
+        fetchPosts();
+        fetchDrafts();
+        showToast(isDraft ? "Draft deleted successfully!" : "Blog post deleted successfully!", "success");
       }
+      setDeleteModal({ isOpen: false, id: null, type: '', title: '', subtitle: '', isDeleting: false });
     } catch (error) {
-      console.error("Error deleting appointment:", error);
-      showToast("Failed to delete record", "error");
+      console.error("Error performing delete:", error);
+      showToast(error?.response?.data?.message || "Failed to delete entry", "error");
+      setDeleteModal(prev => ({ ...prev, isDeleting: false }));
+    }
+  };
+
+  const handleDeleteAppointment = (aptIdOrObject) => {
+    if (typeof aptIdOrObject === 'object' && aptIdOrObject !== null) {
+      promptDeleteAppointment(aptIdOrObject);
+    } else {
+      const target = appointments.find(a => a._id === aptIdOrObject);
+      if (target) {
+        promptDeleteAppointment(target);
+      } else {
+        promptDeleteAppointment({ _id: aptIdOrObject, fullName: 'Inquiry Record' });
+      }
     }
   };
 
@@ -150,20 +211,8 @@ const AdminBlogPost = () => {
     }
   };
 
-  const handleDelete = async (id, isDraft = false) => {
-    const performDelete = async () => {
-      try {
-        const endpoint = isDraft ? `/api/blog/draft?id=${id}` : `/api/blog/published?id=${id}`;
-        await axios.delete(endpoint, getAuthHeaders());
-        fetchPosts();
-        fetchDrafts();
-        showToast(isDraft ? "Draft deleted successfully!" : "Blog post deleted successfully!", "success");
-      } catch (error) {
-        console.error("Error deleting blog:", error);
-        showToast(isDraft ? "Failed to delete draft" : "Failed to delete blog post", "error");
-      }
-    };
-    performDelete();
+  const handleDelete = (item, isDraft = false) => {
+    promptDeleteBlog(item, isDraft);
   };
 
   const handleEdit = (id, isDraft = false) => {
@@ -686,8 +735,8 @@ const AdminBlogPost = () => {
                                     </button>
                                   )}
                                   <button
-                                    onClick={() => handleDelete(item._id, isDraft)}
-                                    className="p-2.5 bg-[#FAF8EF] hover:bg-[#FAF8EF] text-gray-600 hover:text-[#C9A961] rounded-xl transition-all"
+                                    onClick={() => promptDeleteBlog(item, isDraft)}
+                                    className="p-2.5 bg-[#FAF8EF] hover:bg-[#FAF8EF] text-gray-600 hover:text-[#184C3A] rounded-xl transition-all"
                                     title="Delete"
                                   >
                                     <Trash2 className="w-5 h-5" />
@@ -822,8 +871,8 @@ const AdminBlogPost = () => {
                           </button>
                         )}
                         <button
-                          onClick={() => handleDelete(item._id, isDraft)}
-                          className="p-2.5 bg-white/90 backdrop-blur-xl text-gray-800 rounded-xl hover:bg-[#C9A961] hover:text-white hover:scale-110 transition-all shadow-lg"
+                          onClick={() => promptDeleteBlog(item, isDraft)}
+                          className="p-2.5 bg-white/90 backdrop-blur-xl text-gray-800 rounded-xl hover:bg-[#184C3A] hover:text-white hover:scale-110 transition-all shadow-lg"
                         >
                           <Trash2 className="w-4.5 h-4.5" />
                         </button>
@@ -1055,8 +1104,8 @@ const AdminBlogPost = () => {
                       </div>
 
                       <button
-                        onClick={() => handleDeleteAppointment(apt._id)}
-                        className="p-2 text-gray-400 hover:text-rose-600 hover:bg-rose-50 rounded-xl transition-colors"
+                        onClick={() => promptDeleteAppointment(apt)}
+                        className="p-2 text-gray-400 hover:text-[#184C3A] hover:bg-[#FAF8EF] rounded-xl transition-colors"
                         title="Delete record"
                       >
                         <Trash2 className="w-4 h-4" />
@@ -1080,50 +1129,146 @@ const AdminBlogPost = () => {
         )}
       </div>
 
-      {/* Toast Notifications */}
-      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 space-y-3">
+      {/* Brand-Aligned Decent Delete Confirmation Modal */}
+      {deleteModal.isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm animate-fade-in">
+          <div className="relative w-full max-w-sm bg-white border border-[#E5E5E5] rounded-2xl p-5 shadow-xl overflow-hidden animate-scale-up">
+            {/* Top Brand Accent Line */}
+            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#184C3A] via-[#C9A961] to-[#184C3A]" />
+
+            <button
+              type="button"
+              onClick={() => !deleteModal.isDeleting && setDeleteModal(prev => ({ ...prev, isOpen: false }))}
+              disabled={deleteModal.isDeleting}
+              className="absolute top-3.5 right-3.5 p-1.5 text-gray-400 hover:text-gray-600 rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-40"
+            >
+              <X className="w-4 h-4" />
+            </button>
+
+            <div className="flex items-start gap-3.5 pt-1">
+              <div className="w-10 h-10 rounded-xl bg-[#FAF8EF] border border-[#C9A961]/30 text-[#184C3A] flex items-center justify-center shrink-0">
+                <Trash2 className="w-5 h-5" />
+              </div>
+
+              <div className="flex-1 min-w-0">
+                <h4 className="text-base font-bold text-gray-900 leading-tight">
+                  Delete this entry?
+                </h4>
+                <p className="text-xs text-gray-500 mt-1">
+                  This record will be permanently deleted.
+                </p>
+
+                {/* Target Item Pill */}
+                <div className="mt-3 bg-[#FAF8EF] border border-[#E5E5E5] rounded-xl p-2.5">
+                  <span className="text-[10px] font-bold text-[#C9A961] uppercase tracking-wider block mb-0.5">
+                    {deleteModal.type === 'appointment' ? 'Inquiry Record' : deleteModal.type === 'draft' ? 'Draft Post' : 'Published Story'}
+                  </span>
+                  <p className="font-bold text-gray-800 text-xs truncate">{deleteModal.title}</p>
+                  {deleteModal.subtitle && (
+                    <p className="text-[11px] text-gray-500 truncate">{deleteModal.subtitle}</p>
+                  )}
+                </div>
+
+                {/* Action Buttons */}
+                <div className="flex items-center justify-end gap-2.5 mt-4">
+                  <button
+                    type="button"
+                    onClick={() => setDeleteModal(prev => ({ ...prev, isOpen: false }))}
+                    disabled={deleteModal.isDeleting}
+                    className="px-3.5 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold text-xs transition-colors disabled:opacity-50"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    type="button"
+                    onClick={confirmDeleteAction}
+                    disabled={deleteModal.isDeleting}
+                    className="px-4 py-2 rounded-xl bg-[#184C3A] hover:bg-[#123B2D] text-white font-bold text-xs shadow-md shadow-[#184C3A]/20 flex items-center gap-1.5 transition-all disabled:opacity-50"
+                  >
+                    {deleteModal.isDeleting ? (
+                      <>
+                        <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                        Deleting...
+                      </>
+                    ) : (
+                      <>
+                        <Trash2 className="w-3.5 h-3.5" />
+                        Confirm Delete
+                      </>
+                    )}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Brand-Themed Decent Toast Notifications Stack */}
+      <div className="fixed top-5 right-5 z-50 flex flex-col gap-2.5 max-w-xs w-full pointer-events-none">
         {toasts.map((toast) => (
           <div
             key={toast.id}
-            className={`flex items-center gap-4 px-6 py-4 rounded-2xl shadow-xl border border-[#E5E5E5] backdrop-blur-2xl animate-fade-in-up ${
-              toast.type === 'success'
-                ? 'bg-gradient-to-r from-[#184C3A]/95 to-[#1f5f47]/95 text-white border-[#C9A961]/30'
-                : 'bg-gradient-to-r from-[#C9A961]/95 to-[#C9A961]/95 text-white border-[#184C3A]/30'
-            }`}
+            className="pointer-events-auto relative overflow-hidden flex items-center gap-3 p-3.5 rounded-xl shadow-xl border border-[#C9A961]/30 bg-[#184C3A] text-white backdrop-blur-xl transition-all duration-300 animate-slide-in"
           >
-            {toast.type === 'success' ? (
-              <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center">
-                <CheckCircle2 className="w-5 h-5" />
-              </div>
-            ) : (
-              <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center">
-                <X className="w-5 h-5" />
-              </div>
-            )}
-            <p className="font-semibold">{toast.message}</p>
-            <button 
+            <div className="p-1.5 rounded-lg bg-[#C9A961]/20 text-[#C9A961] shrink-0">
+              {toast.type === 'success' ? <CheckCircle2 className="w-4 h-4" /> :
+               toast.type === 'error' ? <AlertCircle className="w-4 h-4" /> :
+               <Sparkles className="w-4 h-4" />}
+            </div>
+
+            <div className="flex-1 min-w-0">
+              <p className="text-xs font-semibold leading-snug">{toast.message}</p>
+            </div>
+
+            <button
               onClick={() => removeToast(toast.id)}
-              className="ml-4 text-white/70 hover:text-white transition-colors"
+              className="text-white/60 hover:text-white p-1 rounded-lg hover:bg-white/10 transition-colors shrink-0"
             >
-              <X className="w-4.5 h-4.5" />
+              <X className="w-3.5 h-3.5" />
             </button>
+
+            {/* Progress Timer Bar */}
+            <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-white/10">
+              <div className="h-full bg-[#C9A961] animate-toast-progress" />
+            </div>
           </div>
         ))}
       </div>
 
       <style jsx global>{`
-        @keyframes fadeInUp {
+        @keyframes slideIn {
           from {
             opacity: 0;
-            transform: translate(-50%, 10px);
+            transform: translateX(100%) scale(0.95);
           }
           to {
             opacity: 1;
-            transform: translate(-50%, 0);
+            transform: translateX(0) scale(1);
           }
         }
-        .animate-fade-in-up {
-          animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        @keyframes scaleUp {
+          from {
+            opacity: 0;
+            transform: scale(0.92);
+          }
+          to {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+        @keyframes toastProgress {
+          from { width: 100%; }
+          to { width: 0%; }
+        }
+        .animate-slide-in {
+          animation: slideIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .animate-scale-up {
+          animation: scaleUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .animate-toast-progress {
+          animation: toastProgress 3s linear forwards;
         }
       `}</style>
     </div>

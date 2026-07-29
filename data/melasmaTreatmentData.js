@@ -27,8 +27,8 @@ export const melasmaTreatmentHero = {
 export const melasmaTreatmentIntro = {
   label: "THE QUICK ANSWER",
   title: "Melasma treatment at Vedara Care, in one paragraph.",
-  blockquote: "Melasma treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist pigmentation care delivered by DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types (I–VI). Melasma is chronic facial pigmentation typically involving cheeks, forehead, upper lip, and jaw — triggered by hormonal factors (pregnancy, oral contraceptives, perimenopause), aggravated by UV exposure (particularly intense in Dubai), and influenced by genetic and ethnic factors. We treat all presentations: pregnancy-induced melasma (chloasma), oral contraceptive-associated, perimenopausal, sun-aggravated, and mixed melasma with dermal components. Multi-modal evidence-based treatment includes topical agents (hydroquinone for limited courses, tranexamic acid, cysteamine, retinoids, azelaic acid), chemical peels calibrated to skin type, specific laser treatments selected carefully (wrong laser can worsen melasma), microneedling with specific protocols, and rigorous sun protection — the single most important factor. Realistic expectations: substantial improvement achievable for most patients within 4–6 months; complete cure rarely permanent. Patients travel to our JVC clinic from across Dubai for specialist melasma care.",
-  footer: "Medically reviewed by [Lead Consultant Dermatologist Name], MD, DHA-licensed · Last updated June 2026"
+  blockquote: "Melasma treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist pigmentation care delivered by DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types (I–VI). Melasma is chronic facial pigmentation typically involving cheeks, forehead, upper lip, and jaw — triggered by hormonal factors (pregnancy, oral contraceptives, perimenopause), aggravated by UV exposure (typically intense in Dubai), and influenced by genetic and ethnic factors. We treat all presentations: pregnancy-induced melasma (chloasma), oral contraceptive-associated, perimenopausal, sun-aggravated, and mixed melasma with dermal components. Multi-modal evidence-based treatment includes topical agents (hydroquinone for limited courses, tranexamic acid, cysteamine, retinoids, azelaic acid), chemical peels calibrated to skin type, specific laser treatments selected carefully (wrong laser can worsen melasma), microneedling with specific protocols, and rigorous sun protection — the single most important factor. Realistic expectations: substantial improvement achievable for most patients within 4–6 months; complete cure rarely permanent. Patients travel to our JVC clinic from across Dubai for specialist melasma care.",
+  footer: "Medically reviewed by Lead Consultant Dermatologist, MD, DHA-licensed · Last updated June 2026"
 };
 
 export const melasmaTreatmentUnderstanding = {
@@ -78,7 +78,7 @@ export const melasmaTreatmentUnderstanding = {
       { percentage: "3", phase: "DHA-licensed specialists" }
     ],
     image: "/images/melasma-biology-illustration.webp",
-      alt: "Melasma biology skin layers and pigmentation depth illustration"
+    alt: "Melasma biology skin layers and pigmentation depth illustration"
   }
 };
 
@@ -229,7 +229,7 @@ export const melasmaTreatmentCTA = {
   button1Text: "Book Melasma Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/+971555867466",
+  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20inquire%20about%20melasma%20treatment%20options%20and%20book%20a%20consultation.",
   footer: "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 400+ melasma patients treated · All Fitzpatrick skin types · Female and male dermatologists · Multiple languages"
 };
 
@@ -370,7 +370,7 @@ export const melasmaTreatmentPricing = {
     { name: "Maintenance treatment (6 months)", price: "From AED 3,500" },
     { name: "Premium broad-spectrum sunscreen SPF 50+ (patient product)", price: "From AED 180" }
   ],
-  insuranceText: 'Most melasma treatment is considered cosmetic by Dubai insurance plans and not covered. Some elements (medical consultations, hormonal workup, specific medications) may be covered with appropriate justification. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage discussion. Comprehensive treatment programmes provide better value than individual session pricing for committed patients.',
+  insuranceText: 'Most melasma treatment is considered cosmetic by Dubai insurance plans and not covered. Some elements (medical consultations, hormonal workup, specific medications) may be covered with appropriate justification. <a href="https://wa.me/971555867466?text=Hi%2C%20I%20have%20questions%20about%20insurance%20coverage%20for%20melasma%20treatment%20at%20Vedara%20Care." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage discussion. Comprehensive treatment programmes provide better value than individual session pricing for committed patients.',
   insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
 };
 
@@ -466,7 +466,7 @@ export const melasmaTreatmentFaqs = {
     },
     {
       question: "How do I book a melasma consultation?",
-      answer: "Three ways: (1) WhatsApp [number] — fastest response, ideal for asking specific questions about your situation. (2) Call +971 55 586 7466 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: photos of your melasma at its worst if available, list of all products you are using, list of current medications including contraceptives, any previous treatment records, and your questions."
+      answer: "Three ways: (1) WhatsApp +971 55 586 7466 — fastest response, ideal for asking specific questions about your situation. (2) Call +971 55 586 7466 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: photos of your melasma at its worst if available, list of all products you are using, list of current medications including contraceptives, any previous treatment records, and your questions."
     }
   ]
 };
@@ -485,12 +485,11 @@ export const melasmaTreatmentLocation = {
     "Serves JVC, JVT, Al Barsha South, Sports City, Motor City"
   ],
   phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  whatsapp: "971555867466",
   email: "booking@vedaracare.ae",
   hours: "Monday - Sunday: 8:30 am to 11:30 pm",
   description: "Our JVC clinic has dedicated dermatology consultation rooms equipped for Wood's lamp examination and dermoscopy, specialised treatment rooms for chemical peels and laser procedures, comfortable patient experience, and a discreet environment important for patients sensitive about facial pigmentation. Walking distance from Circle Mall — easy access from JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai.",
   mapAlt: "Vedara Care JVC clinic melasma treatment Dubai",
-
   buttonText: "Book Melasma Consultation",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.5783071015536!2d55.20473441501431!3d25.06834598394295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1719740000000!5m2!1sen!2sus"
 };

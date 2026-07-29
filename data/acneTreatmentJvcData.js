@@ -158,7 +158,7 @@ export const acneTypes = {
       number: "07",
       title: "Acne Scarring",
       subTitle: "Post-Acne Textural Changes",
-      description: "Lasting consequences of severe or untreated acne. Multiple scarring patterns: ice-pick scars (deep narrow), rolling scars (broad shallow), boxcar scars (sharp edged), hypertrophic and keloid scars (raised). Treatment is specialised — multiple approaches including subcision, fractional laser, microneedling, chemical peels, fillers for specific scar types, often part of a <a href=\"/treatments/skin-rejuvenation-jvc/\" class=\"description-link\">skin rejuvenation</a> approach.",
+      description: "Lasting consequences of severe or untreated acne. Multiple scarring patterns: ice-pick scars (deep narrow), rolling scars (broad shallow), boxcar scars (sharp edged), hypertrophic and keloid scars (raised). Treatment is specialised — multiple approaches including subcision, fractional laser, microneedling, chemical peels, fillers for specific scar types, often part of a skin rejuvenation approach.",
       typicalSigns: [
         "Patient with cleared acne but lasting textural and pigmentation changes",
       ],
@@ -174,7 +174,7 @@ export const acneTypes = {
       ]
     }
   ],
-  footer: "Your specific acne pattern may combine multiple types — comprehensive assessment identifies your specific situation and guides treatment selection. Book your consultation →"
+  footer: "Your specific acne pattern may combine multiple types — comprehensive assessment identifies your specific situation and guides treatment selection. <a href=\"/book\" class=\"hover:underline\">Book your consultation →</a>"
 };
 
 export const acneTreatmentLadder = {
@@ -288,19 +288,19 @@ export const acneTreatmentPricing = {
   label: "TRANSPARENT PRICING",
   title: "What acne treatment at our JVC clinic costs.",
   services: [
-    { name: "Initial dermatology consultation (45–60 minutes)", price: "AED [X]" },
-    { name: "Follow-up consultation", price: "AED [X]" },
-    { name: "Acne treatment monitoring visit", price: "AED [X]" },
-   { name: '<a href="/treatments/chemical-peel-dubai/" class="hover:text-[#B8924F] hover:underline transition-colors">Chemical peel — superficial (for acne)</a>', price: 'From AED [X]' },
-   { name: '<a href="/treatments/chemical-peel-dubai/" class="hover:text-[#B8924F] hover:underline transition-colors">Chemical peel — medium-depth</a>', price: 'From AED [X]' },
-    { name: "Laser treatment for acne (per session)", price: "From AED [X]" },
-    { name: "Intralesional cortisone injection (per lesion)", price: "From AED [X]" },
-    { name: "Comedone extraction session", price: "From AED [X]" },
-    { name: "Isotretinoin treatment course (monthly monitoring)", price: "From AED [X]/month" },
-    { name: "Hormonal acne treatment monitoring (with blood work)", price: "From AED [X]" },
-    { name: "Acne scarring treatment (per session, varies by procedure)", price: "From AED [X]" },
-    { name: "Comprehensive acne treatment programme (3 months)", price: "From AED [X]" },
-    { name: "Comprehensive acne treatment programme (6 months)", price: "From AED [X]" }
+    { name: "Initial dermatology consultation (45–60 minutes)", price: "AED 400" },
+    { name: "Follow-up consultation", price: "AED 250" },
+    { name: "Acne treatment monitoring visit", price: "AED 200" },
+    { name: '<a href="/treatments/chemical-peel-dubai/" class="hover:text-[#B8924F] hover:underline transition-colors">Chemical peel — superficial (for acne)</a>', price: 'From AED 500' },
+    { name: '<a href="/treatments/chemical-peel-dubai/" class="hover:text-[#B8924F] hover:underline transition-colors">Chemical peel — medium-depth</a>', price: 'From AED 800' },
+    { name: "Laser treatment for acne (per session)", price: "From AED 1,000" },
+    { name: "Intralesional cortisone injection (per lesion)", price: "From AED 200" },
+    { name: "Comedone extraction session", price: "From AED 350" },
+    { name: "Isotretinoin treatment course (monthly monitoring)", price: "From AED 300/month" },
+    { name: "Hormonal acne treatment monitoring (with blood work)", price: "From AED 600" },
+    { name: "Acne scarring treatment (per session, varies by procedure)", price: "From AED 1,500" },
+    { name: "Comprehensive acne treatment programme (3 months)", price: "From AED 5,000" },
+    { name: "Comprehensive acne treatment programme (6 months)", price: "From AED 9,000" }
   ],
   insuranceText: "Medical acne treatment is covered by most Dubai insurance plans with appropriate medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Isotretinoin treatment, hormonal medications, and most prescription treatments are typically insurance-covered. Cosmetic procedures (chemical peels purely for cosmetic enhancement, scarring treatment) typically self-pay. <a href=\"https://wa.me/971555867466?text=Hi%2C%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20acne%20treatment\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A84C] hover:underline transition-colors\">WhatsApp your insurance card</a> to us before booking for specific coverage confirmation.",
   insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
@@ -585,9 +585,9 @@ export const acneTreatmentCTA = {
   description: "Whether you have teenage acne, adult-onset acne, hormonal acne, severe cystic acne, or acne scarring — appropriate evidence-based treatment substantially improves outcomes. The first step is a comprehensive consultation that identifies your specific acne type, contributing factors, and most effective treatment approach. We provide honest realistic timelines, transparent pricing, and ongoing support throughout treatment. Same-week appointments typically available. Most patients achieve substantial improvement within 12–16 weeks of structured treatment.",
   button1Text: "Book Acne Consultation",
   button1Href: "/book",
-  button2Text: '<a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a>',
+  button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20acne%20treatment%20and%20book%20a%20consultation.",
-  footer: "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 400+ acne patients treated · All acne types and skin types · Female and male dermatologists · Insurance direct-billing"
+  footer: "Initial consultation from AED 400 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 400+ acne patients treated · All acne types and skin types · Female and male dermatologists · Insurance direct-billing"
 };
 
 export const acneTreatmentRelatedPages = {

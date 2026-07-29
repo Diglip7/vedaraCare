@@ -6,8 +6,10 @@ export const dermatologyHero = {
   label: "DERMATOLOGY CLINIC · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
   title: "Dermatology clinic in JVC. Specialist medical and cosmetic care. All skin types. All concerns.",
   description: "Specialist dermatology at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists delivering medical dermatology — acne, eczema, pigmentation, skin cancer screening — and aesthetic dermatology: anti-aging treatments, botulinum toxin, dermal fillers, laser treatments, hair restoration. Expertise across all Fitzpatrick skin types. Multiple languages: Arabic, English, Hindi, Urdu.",
-   primaryCTA: "Read Dermatology Consultation",
+   primaryCTA: "Book Dermatology Consultation",
   secondaryCTA: "Explore Treatments",
+  primaryCTAHref: "/book",
+  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20dermatology%20treatments%20and%20book%20a%20consultation.",
   trustSignals: [
     "Consultant dermatologists, DHA-licensed",
     "Medical and aesthetic dermatology",
@@ -72,7 +74,7 @@ export const dermatologyTypes = {
     {
       number: "01",
       title: 'Acne — Adolescent and Adult',
-     description: 'The most common dermatology consultation. We treat adolescent acne, adult-onset acne (increasingly common, particularly in women), hormonal acne, cystic acne, and <a href="/conditions/acne-scars-dubai/" class="text-[#C9A961] hover:text-[#B8963E] hover:underline transition-colors">acne scarring</a>. Treatment ranges from topical and oral medications through to specialised procedures (chemical peels, light treatments, scar revision). Multi-modal approach typically produces best outcomes. Long-term management plan tailored to your specific acne pattern and triggers.',
+      description: 'The most common dermatology consultation. We treat adolescent acne, adult-onset acne (increasingly common, particularly in women), hormonal acne, cystic acne, and <span class="text-[#C9A961]">acne scarring</span>. Treatment ranges from topical and oral medications through to specialised procedures (chemical peels, light treatments, scar revision). Multi-modal approach typically produces best outcomes. Long-term management plan tailored to your specific acne pattern and triggers.',
       linkHref: '/conditions/acne-treatment-jvc/'
     },
     {
@@ -137,7 +139,7 @@ export const dermatologyAestheticTypes = {
     {
       number: "03",
       title: 'Chemical Peels',
-      description: 'Multiple depths and applications. Superficial peels (glycolic, salicylic, lactic acid) for general skin renewal, mild pigmentation, acne maintenance — minimal downtime. Medium-depth peels (TCA-based) for moderate pigmentation, photoaging, <a href="/conditions/acne-scars-dubai/" class="text-[#C9A961] hover:text-[#B8963E] hover:underline transition-colors">acne scarring</a>. Deeper peels for more substantial concerns with appropriate downtime. Peel selection calibrated to skin type — critical for darker Fitzpatrick types.',
+      description: 'Multiple depths and applications. Superficial peels (glycolic, salicylic, lactic acid) for general skin renewal, mild pigmentation, acne maintenance — minimal downtime. Medium-depth peels (TCA-based) for moderate pigmentation, photoaging, <span class="text-[#C9A961]">acne scarring</span>. Deeper peels for more substantial concerns with appropriate downtime. Peel selection calibrated to skin type — critical for darker Fitzpatrick types.',
       linkHref: "/treatments/chemical-peel-dubai/"
     },
     {
@@ -179,6 +181,7 @@ export const dermatologyReviews = {
   buttonBgColor: "white",
   buttonTextColor: "rgb(201, 153, 97)",
   buttonBorderColor: "rgb(201, 153, 97)",
+  buttonHref: "https://www.google.com/maps/search/Vedara+Care+Polyclinic+JVC+Dubai",
   isDarkText: true,
   useKneeStyle: true,
   items: [
@@ -448,7 +451,7 @@ export const dermatologyConsultation = {
       "Timeline considerations (events dates, etc.)"
     ],
     buttonText: "Book Dermatology Consultation",
-    buttonHref: "#"
+    buttonHref: "/book"
   }
 };
 
@@ -490,12 +493,12 @@ export const dermatologyRelatedPages = {
     {
       title: "Acne Treatment Dubai",
       description: "Comprehensive acne treatment for adolescent and adult patients including hormonal, cystic, and scarring presentations.",
-      href: "/conditions/acne-treatment-dubai/ "
+      href: "/conditions/acne-treatment-dubai/"
     },
     {
       title: "Melasma Treatment Dubai",
       description: "Specialist treatment for melasma and hyperpigmentation — particularly common in Dubai given climate and ethnic skin patterns.",
-      href: "/conditions/melasma-treatment-dubai/ "
+      href: "/conditions/melasma-treatment-dubai/"
     },
     {
       title: "Botulinum Toxin Dubai",

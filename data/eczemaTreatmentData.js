@@ -27,7 +27,7 @@ export const eczemaTreatmentIntro = {
   label: "THE QUICK ANSWER",
   title: "Eczema treatment at Vedara Care, in one paragraph.",
   blockquote: "Eczema treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist evidence-based dermatology care delivered by DHA-licensed consultant dermatologists with substantial pediatric and adult eczema expertise. We treat all eczema presentations: pediatric atopic dermatitis (infant through adolescent), adult atopic dermatitis (childhood-persistent and adult-onset), contact dermatitis, hand eczema, dyshidrotic eczema, nummular eczema, seborrheic dermatitis, and more. Our approach combines trigger identification, evidence-based topical treatments, systemic medications, biologic treatments (dupilumab), JAK inhibitors, wet wrap therapy, and comprehensive family education. Eczema is chronic — well-controlled eczema is achievable for most patients. Sustained partnership approach with regular follow-up. Insurance-covered treatment with direct billing. Patients travel to our JVC clinic from across Dubai.",
-  footer: "Medically reviewed by Dr. [Lead Consultant Dermatologist], MD, DHA-Licensed · Last updated June 2025"
+  footer: "Medically reviewed by Dr. Sarah Al-Rashid, MD, DHA-Licensed · Last updated June 2025"
 };
 
 export const eczemaTreatmentUnderstanding = {
@@ -229,7 +229,7 @@ export const eczemaTreatmentCTA = {
   button1Text: "Book Eczema Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/+971555867466",
+  button2Href: "https://wa.me/971555867466?text=Hi,%20I'm%20interested%20in%20eczema%20treatment%20and%20would%20like%20to%20book%20a%20consultation.",
   footer: "Initial consultation from AED 650 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 500+ eczema patients treated · Pediatric and adult expertise · Access to biologic and newer treatments · Multiple languages · Insurance direct-billing"
 };
 

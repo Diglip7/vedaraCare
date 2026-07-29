@@ -39,7 +39,7 @@ const SportsInjuryTypes = ({ label, title, items, footer, variant = 'condition',
                     {item.typicalPatient}
                   </p>
                 )}
-                
+
                 {item.statistic && (
                   <div className="pt-3 border-t text-xs font-medium font-sans text-[#C9A961]" style={{ borderColor: 'rgba(201, 168, 76, 0.3)' }}>
                     {item.statistic}
@@ -47,7 +47,7 @@ const SportsInjuryTypes = ({ label, title, items, footer, variant = 'condition',
                 )}
 
                 {item.linkText && (
-                  <span 
+                  <span
                     className="inline-block text-[14px] font-sans mt-3 text-[#C9A961]"
                   >
                     {item.linkText}
@@ -69,10 +69,10 @@ const SportsInjuryTypes = ({ label, title, items, footer, variant = 'condition',
                     {item.typicalRecovery}
                   </div>
                 )}
-   
-   
+
+
                 {item.linkText && (
-                  <span 
+                  <span
                     className="inline-block text-[14px] font-sans mt-3 text-[#C9A961]"
                   >
                     {item.linkText}
@@ -83,73 +83,73 @@ const SportsInjuryTypes = ({ label, title, items, footer, variant = 'condition',
 
             const isExternalLink = item.linkHref && item.linkHref.startsWith('http');
             const hasLink = !!item.linkHref;
-            
+
             return (
-            variant === 'condition' ? (
-              hasLink ? (
-                isExternalLink ? (
-                  <a 
+              variant === 'condition' ? (
+                hasLink ? (
+                  isExternalLink ? (
+                    <a
+                      key={index}
+                      href={item.linkHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-lg p-6 transition-all duration-300 hover:shadow-md hover:scale-[1.02] block no-underline"
+                      style={{ background: cardBg, borderLeft: '3px solid #C9A961' }}
+                    >
+                      <CardContent />
+                    </a>
+                  ) : (
+                    <Link
+                      key={index}
+                      href={item.linkHref}
+                      className="rounded-lg p-6 transition-all duration-300 hover:shadow-md hover:scale-[1.02] block no-underline"
+                      style={{ background: cardBg, borderLeft: '3px solid #C9A961' }}
+                    >
+                      <CardContent />
+                    </Link>
+                  )
+                ) : (
+                  <div
                     key={index}
-                    href={item.linkHref}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="rounded-lg p-6 transition-all duration-300 hover:shadow-md hover:scale-[1.02] block no-underline"
+                    className="rounded-lg p-6 transition-all hover:shadow-md"
                     style={{ background: cardBg, borderLeft: '3px solid #C9A961' }}
                   >
                     <CardContent />
-                  </a>
-                ) : (
-                  <Link 
-                    key={index}
-                    href={item.linkHref}
-                    className="rounded-lg p-6 transition-all duration-300 hover:shadow-md hover:scale-[1.02] block no-underline"
-                    style={{ background: cardBg, borderLeft: '3px solid #C9A961' }}
-                  >
-                    <CardContent />
-                  </Link>
+                  </div>
                 )
               ) : (
-                <div 
-                  key={index}
-                  className="rounded-lg p-6 transition-all hover:shadow-md"
-                  style={{ background: cardBg, borderLeft: '3px solid #C9A961' }}
-                >
-                  <CardContent />
-                </div>
-              )
-            ) : (
-              hasLink ? (
-                isExternalLink ? (
-                  <a 
+                hasLink ? (
+                  isExternalLink ? (
+                    <a
+                      key={index}
+                      href={item.linkHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-lg p-7 transition-all duration-300 hover:shadow-md hover:scale-[1.02] block no-underline"
+                      style={{ background: cardBg, borderTop: '4px solid #C9A961' }}
+                    >
+                      <AestheticCardContent />
+                    </a>
+                  ) : (
+                    <Link
+                      key={index}
+                      href={item.linkHref}
+                      className="rounded-lg p-7 transition-all duration-300 hover:shadow-md hover:scale-[1.02] block no-underline"
+                      style={{ background: cardBg, borderTop: '4px solid #C9A961' }}
+                    >
+                      <AestheticCardContent />
+                    </Link>
+                  )
+                ) : (
+                  <div
                     key={index}
-                    href={item.linkHref}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="rounded-lg p-7 transition-all duration-300 hover:shadow-md hover:scale-[1.02] block no-underline"
+                    className="rounded-lg p-7 transition-all hover:shadow-md"
                     style={{ background: cardBg, borderTop: '4px solid #C9A961' }}
                   >
                     <AestheticCardContent />
-                  </a>
-                ) : (
-                  <Link 
-                    key={index}
-                    href={item.linkHref}
-                    className="rounded-lg p-7 transition-all duration-300 hover:shadow-md hover:scale-[1.02] block no-underline"
-                    style={{ background: cardBg, borderTop: '4px solid #C9A961' }}
-                  >
-                    <AestheticCardContent />
-                  </Link>
+                  </div>
                 )
-              ) : (
-                <div 
-                  key={index}
-                  className="rounded-lg p-7 transition-all hover:shadow-md"
-                  style={{ background: cardBg, borderTop: '4px solid #C9A961' }}
-                >
-                  <AestheticCardContent />
-                </div>
               )
-            )
             );
           })}
         </div>

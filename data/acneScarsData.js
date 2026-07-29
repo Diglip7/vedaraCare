@@ -492,7 +492,7 @@ export const acneScarsFAQ = {
     { question: "How is acne scar treatment at Vedara different?", answer: "DHA-licensed consultant dermatologists with combination protocol expertise; Fitzpatrick I–VI expertise particularly IV–VI safety; comprehensive scar type recognition; full modality range; honest realistic outcome framing; multilingual capability; female and male dermatologists; JVC clinic near Circle Mall accessible from across Dubai."},
     { question: "How do I book an acne scar consultation?", answer: "Three ways: WhatsApp +971 4 300 0000 for fastest response; call +971 55 586 7466 9AM–9PM seven days a week; book online. Please bring: photos of your scars, list of previous treatments and outcomes, current skincare and medications, event timing if relevant, and specific questions and goals."}
   ],
-  buttonText: '<a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a>',
+  buttonText: "WhatsApp us",
   buttonHref: "https://wa.me/971555867466?text=Hi,%20I%27m%20interested%20in%20acne%20scar%20treatment%20and%20would%20like%20to%20book%20a%20consultation.",
   sidebarLinks: [
     { text: "Active acne treatment", href: "/conditions/acne-treatment-jvc/" },
@@ -537,7 +537,7 @@ export const acneScarsFinalCTA = {
   title: "Comprehensive consultation is the starting point.",
   description: "Whether you have ice pick scars requiring TCA cross, rolling scars requiring subcision, boxcar scars requiring laser and microneedling, post-inflammatory hyperpigmentation requiring peels and topicals, or mixed scar patterns requiring combination protocols — comprehensive consultation identifies your specific situation and designs a personalised approach. DHA-licensed consultant dermatologists at our JVC clinic near Circle Mall provide thorough scar assessment, honest realistic outcome framing, and sustained partnership throughout multi-month treatment programmes. Same-week appointments typically available.",
   button1Text: "Book Acne Scar Consultation",
-  button2Text: '<a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a>',
+  button2Text: "WhatsApp us",
   bullets: [
     "Initial consultation from AED 750",
     "Walking distance from Circle Mall, JVC",

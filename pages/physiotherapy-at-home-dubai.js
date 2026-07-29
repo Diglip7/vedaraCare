@@ -52,15 +52,15 @@ const HomePhysiotherapyDubai = () => {
       "priceRange": "AED 400 - AED 25,000",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "[Street address]",
+        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC)",
         "addressLocality": "Jumeirah Village Circle",
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "[Latitude]",
-        "longitude": "[Longitude]"
+        "latitude": "25.068346",
+        "longitude": "55.2072235"
       },
       "openingHoursSpecification": [
         {
@@ -268,7 +268,7 @@ const HomePhysiotherapyDubai = () => {
       "lastReviewed": modifiedDate,
       "reviewedBy": {
         "@type": "Physician",
-        "name": "[Lead Home Physiotherapist Name]",
+        "name": "Dr. Priya Nair, DPT",
         "hasCredential": {
           "@type": "EducationalCredential",
           "name": "Doctor of Physical Therapy",
@@ -306,7 +306,7 @@ const HomePhysiotherapyDubai = () => {
       "dateModified": modifiedDate,
       "author": {
         "@type": "Physician",
-        "name": "[Lead Home Physiotherapist]"
+        "name": "Dr. Priya Nair, DPT"
       },
       "publisher": {
         "@type": "Organization",

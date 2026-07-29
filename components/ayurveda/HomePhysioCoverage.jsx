@@ -11,7 +11,8 @@ const HomePhysioCoverage = ({
   within3545Minutes = [],
   note = "",
   image = "",
-  alt = "Home physiotherapy coverage image"
+  alt = "Home physiotherapy coverage image",
+  mapEmbed = ""
 }) => {
   return (
     <section className={`${bgColor} py-24 px-4`}>
@@ -30,7 +31,19 @@ const HomePhysioCoverage = ({
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="bg-gray-200 rounded-xl h-[500px] flex items-center justify-center overflow-hidden">
-            {image ? (
+            {mapEmbed ? (
+              <iframe 
+                src={mapEmbed} 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen="" 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Vedara Care Polyclinic Location Map"
+                className="rounded-xl"
+              />
+            ) : image ? (
               <img 
                 src={image} 
                 alt={alt} 

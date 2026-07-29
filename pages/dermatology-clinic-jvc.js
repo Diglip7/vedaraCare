@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import AyurvedaHero from '../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../components/ayurveda/AyurvedaIntro';
 import { SciaticaTreatment } from '../components/ayurveda/SciaticaSections';
@@ -544,12 +545,12 @@ Our JVC clinic has dedicated dermatology consultation rooms, specialised treatme
               </div>
 
               {/* Button */}
-              <button className="bg-[#1A1A1A] text-white px-8 py-4 text-sm font-semibold inline-flex items-center gap-2">
+              <Link href="/book" className="bg-[#1A1A1A] text-white px-8 py-4 text-sm font-semibold inline-flex items-center gap-2">
                 Book Dermatology Consultation
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

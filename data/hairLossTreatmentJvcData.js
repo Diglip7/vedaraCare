@@ -382,7 +382,8 @@ export const hairLossTreatmentReviews = {
     { value: "Multi-modal", label: "evidence-based treatment" },
     { value: "DHA", label: "licensed specialist team" }
   ],
-  buttonText: "Read All Hair Loss Treatment Reviews"
+  buttonText: "Read All Hair Loss Treatment Reviews",
+  buttonHref: "https://www.google.com/maps/search/Vedara+Care+Polyclinic+JVC+Dubai"
 };
 
 export const hairLossTreatmentTeam = {

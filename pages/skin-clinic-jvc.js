@@ -41,13 +41,13 @@ const SkinClinicJvc = () => {
         "name": "Vedara Care Polyclinic"
       },
       "about": [
-        {"@id": "https://vedaracare.ae/dermatology-clinic-jvc/#dermatology"}
+        { "@id": "https://vedaracare.ae/dermatology-clinic-jvc/#dermatology" }
       ],
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://vedaracare.ae/images/skin-clinic-jvc-hero.jpg"
       },
-      "breadcrumb": {"@id": `${currentUrl}#breadcrumb`}
+      "breadcrumb": { "@id": `${currentUrl}#breadcrumb` }
     },
     {
       "@context": "https://schema.org",
@@ -56,7 +56,7 @@ const SkinClinicJvc = () => {
       "name": "Vedara Care Skin Clinic",
       "alternateName": ["Skin Clinic JVC", "Skin Clinic Jumeirah Village Circle"],
       "url": currentUrl,
-      "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
+      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Skin clinic at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed consultant dermatologists treating all skin concerns. Patient-guided navigation helping patients identify appropriate care.",
       "telephone": "+971 4 567 8900",
       "address": {
@@ -72,18 +72,18 @@ const SkinClinicJvc = () => {
         "longitude": "55.2072235"
       },
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Mirdif"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "Jumeirah Village Circle" },
+        { "@type": "Place", "name": "Jumeirah Village Triangle" },
+        { "@type": "Place", "name": "Al Barsha South" },
+        { "@type": "Place", "name": "Dubai Sports City" },
+        { "@type": "Place", "name": "Motor City" },
+        { "@type": "Place", "name": "Arjan" },
+        { "@type": "Place", "name": "Dubai Hills Estate" },
+        { "@type": "Place", "name": "Dubai Marina" },
+        { "@type": "Place", "name": "Downtown Dubai" },
+        { "@type": "Place", "name": "Palm Jumeirah" },
+        { "@type": "Place", "name": "Mirdif" }
       ],
       "sameAs": ["https://vedaracare.ae/dermatology-clinic-jvc/"]
     },
@@ -93,16 +93,16 @@ const SkinClinicJvc = () => {
       "name": "Skin Concern Categories at Vedara Care",
       "description": "Common skin concerns we help patients identify and navigate appropriate care for.",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Acne and Breakouts"},
-        {"@type": "ListItem", "position": 2, "name": "Pigmentation and Melasma"},
-        {"@type": "ListItem", "position": 3, "name": "Signs of Aging"},
-        {"@type": "ListItem", "position": 4, "name": "Hair Loss and Scalp Concerns"},
-        {"@type": "ListItem", "position": 5, "name": "Eczema and Sensitive Skin"},
-        {"@type": "ListItem", "position": 6, "name": "Skin Cancer Screening"},
-        {"@type": "ListItem", "position": 7, "name": "Unwanted Hair Removal"},
-        {"@type": "ListItem", "position": 8, "name": "Skin Health Maintenance"},
-        {"@type": "ListItem", "position": 9, "name": "Hyperhidrosis"},
-        {"@type": "ListItem", "position": 10, "name": "Uncategorised Concerns"}
+        { "@type": "ListItem", "position": 1, "name": "Acne and Breakouts" },
+        { "@type": "ListItem", "position": 2, "name": "Pigmentation and Melasma" },
+        { "@type": "ListItem", "position": 3, "name": "Signs of Aging" },
+        { "@type": "ListItem", "position": 4, "name": "Hair Loss and Scalp Concerns" },
+        { "@type": "ListItem", "position": 5, "name": "Eczema and Sensitive Skin" },
+        { "@type": "ListItem", "position": 6, "name": "Skin Cancer Screening" },
+        { "@type": "ListItem", "position": 7, "name": "Unwanted Hair Removal" },
+        { "@type": "ListItem", "position": 8, "name": "Skin Health Maintenance" },
+        { "@type": "ListItem", "position": 9, "name": "Hyperhidrosis" },
+        { "@type": "ListItem", "position": 10, "name": "Uncategorised Concerns" }
       ]
     },
     {
@@ -110,8 +110,8 @@ const SkinClinicJvc = () => {
       "@type": "BreadcrumbList",
       "@id": `${currentUrl}#breadcrumb`,
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Skin Clinic in JVC", "item": currentUrl}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Skin Clinic in JVC", "item": currentUrl }
       ]
     },
     {
@@ -160,24 +160,24 @@ const SkinClinicJvc = () => {
         ))}
       </Head>
 
-      <AyurvedaHero 
+      <AyurvedaHero
         {...skinClinicHero}
       />
-      
+
       {/* How This Page Works Section */}
-      <HowThisPageWorksSection 
+      <HowThisPageWorksSection
         {...howThisPageWorks}
       />
-      <PhysiotherapySpecializations 
+      <PhysiotherapySpecializations
         {...skinConcernSelector}
         cardBorder="border border-[#E5DFD3]"
       />
-      <SportsInjuryTypes 
+      <SportsInjuryTypes
         {...skinClinicSpecificSituations}
         bgColor="rgb(255, 255, 255)"
         lgColumns={3}
       />
-      <ManualTherapySession 
+      <ManualTherapySession
         bgColor="bg-[#F8F4EE]"
         label={skinClinicWhenToSeeSpecialist.label}
         title={skinClinicWhenToSeeSpecialist.title}
@@ -197,7 +197,7 @@ const SkinClinicJvc = () => {
       />
 
       {/* What to Expect Section */}
-      <WhatToExpectSection 
+      <WhatToExpectSection
         bgColor={skinClinicWhatToExpect.bgColor}
         label={skinClinicWhatToExpect.label}
         title={skinClinicWhatToExpect.title}
@@ -208,7 +208,7 @@ const SkinClinicJvc = () => {
       />
 
       {/* Patient Preferences Section */}
-      <PatientPreferencesSection 
+      <PatientPreferencesSection
         bgColor={skinClinicPatientPreferences.bgColor}
         label={skinClinicPatientPreferences.label}
         title={skinClinicPatientPreferences.title}
@@ -253,13 +253,15 @@ const SkinClinicJvc = () => {
             </a>
           </p>
 
-          <p className="text-center" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7', fontSize: '14px' }}>
-            {skinClinicPricing.insuranceText}
-          </p>
+          <p
+            className="text-center"
+            style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7', fontSize: '14px' }}
+            dangerouslySetInnerHTML={{ __html: skinClinicPricing.insuranceText }}
+          />
         </div>
       </div>
 
-      <FAQ 
+      <FAQ
         bgColor={skinClinicFaqs.bgColor}
         label={skinClinicFaqs.label}
         title={skinClinicFaqs.title}
@@ -272,7 +274,7 @@ const SkinClinicJvc = () => {
         sidebarLinks={skinClinicFaqs.sidebarLinks}
       />
 
-      <FinalCTA 
+      <FinalCTA
         {...skinClinicFinalCTA}
       />
 

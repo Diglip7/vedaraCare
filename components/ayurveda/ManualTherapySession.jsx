@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const ManualTherapySession = ({
   bgColor = "bg-[#F5F0E8]",
@@ -150,12 +151,23 @@ const ManualTherapySession = ({
 
                 {/* CTA Button */}
                 {buttonText && buttonHref && (
-                  <a
-                    href={buttonHref}
-                    className="w-full text-white font-semibold py-3 md:py-4 px-5 md:px-6 rounded flex items-center justify-center gap-2 transition-colors text-xs md:text-sm border-2 border-[#C9A961] bg-[#C9A961] hover:bg-[#B8965A] hover:border-[#B8965A]"
-                  >
-                    {buttonText}
-                  </a>
+                  buttonHref.startsWith('http') ? (
+                    <a
+                      href={buttonHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full text-white font-semibold py-3 md:py-4 px-5 md:px-6 rounded flex items-center justify-center gap-2 transition-colors text-xs md:text-sm border-2 border-[#C9A961] bg-[#C9A961] hover:bg-[#B8965A] hover:border-[#B8965A]"
+                    >
+                      {buttonText}
+                    </a>
+                  ) : (
+                    <Link
+                      href={buttonHref}
+                      className="w-full text-white font-semibold py-3 md:py-4 px-5 md:px-6 rounded flex items-center justify-center gap-2 transition-colors text-xs md:text-sm border-2 border-[#C9A961] bg-[#C9A961] hover:bg-[#B8965A] hover:border-[#B8965A]"
+                    >
+                      {buttonText}
+                    </Link>
+                  )
                 )}
               </div>
             </div>

@@ -24,29 +24,29 @@ const FinalCTA = ({
         <p className="text-[13px] font-sans font-semibold tracking-[0.15em] text-[#C9A961] uppercase block mb-4">
           {label}
         </p>
-        
+
         {title && (
           <h2 className="text-[clamp(1.7rem,2.8vw,2.5rem)] font-serif font-normal text-[#1A1A1A] leading-[1.2] mb-8">
             {title}
           </h2>
         )}
-        
+
         <p className="text-[17px] font-sans leading-[1.8] text-[#6B6B6B] mb-10" dangerouslySetInnerHTML={{ __html: description }} />
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
           <a href={button1Href} className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-md text-[16px] font-medium transition-all"
-                  style={{ backgroundColor: button1BgColor, color: button1TextColor }}>
+            style={{ backgroundColor: button1BgColor, color: button1TextColor }}>
             {button1Text}
           </a>
-          
-         <a
-  href={button2Href}
-  className="inline-flex items-center justify-center gap-2 px-8 py-6 rounded-md text-[16px] font-medium border transition-all duration-300 text-[#25D366] hover:bg-[#25D366] hover:text-white hover:border-[#25D366] hover:shadow-lg"
-  style={{ borderColor: button2BorderColor }}
->
-  <MessageCircle size={24} strokeWidth={2} />
-  {button2Text}
-</a>
+
+          <a
+            href={button2Href}
+            className="inline-flex items-center justify-center gap-2 px-8 py-6 rounded-md text-[16px] font-medium border transition-all duration-300 text-[#25D366] hover:bg-[#25D366] hover:text-white hover:border-[#25D366] hover:shadow-lg"
+            style={{ borderColor: button2BorderColor }}
+          >
+            <MessageCircle size={24} strokeWidth={2} />
+            {button2Text}
+          </a>
         </div>
 
         {footer && (
