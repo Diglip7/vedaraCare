@@ -47,7 +47,7 @@ const TennisElbowDubai = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist tennis elbow (lateral epicondylalgia) treatment at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Evidence-based eccentric and isometric loading protocols, shockwave therapy for chronic cases. Particular expertise in padel-related elbow injuries and office worker patterns. Most tennis elbow patients have never played tennis.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 350 - AED 12,000",
       "address": {
         "@type": "PostalAddress",

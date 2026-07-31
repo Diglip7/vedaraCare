@@ -243,8 +243,8 @@ export const homePhysioBookingLogistics = {
     {
       title: "Initial Contact and Information",
       items: [
-        "Contact via WhatsApp +971 55 586 7466 — fastest, typically 15-minute response during business hours",
-        "Phone +971 55 586 7466 — direct booking, available 9 AM to 9 PM seven days a week",
+        "Contact via WhatsApp +971 55 573 6312 — fastest, typically 15-minute response during business hours",
+        "Phone +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week",
         "Provide: your full address, brief description of your condition, insurance information, preferred timing",
         "We respond with appropriate therapist match, available appointment times, pricing confirmation, and pre-session guidance",
         "Initial appointment scheduling typically takes 30 minutes to a few hours"
@@ -409,10 +409,10 @@ export const homePhysioFaqs = {
       answer: "Yes — post-surgical home physiotherapy is one of our most-utilised services. Particularly common in the first 2–4 weeks after total knee replacement, total hip replacement, ACL reconstruction, spinal surgery, or other procedures when travel is impractical. We typically begin within 24–72 hours of surgical discharge. Coordination with your operating surgeon throughout. Many patients transition from home to clinic visits around weeks 3–6 as mobility improves." },
     {
       question: "Do you do home physiotherapy across all of Dubai?",
-      answer: "We cover all major Dubai neighbourhoods. Standard service area: JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, Al Furjan, Discovery Gardens, Damac Hills, Mudon, Town Square, JBR, Business Bay. For more distant locations (Silicon Oasis, Al Warqa, International City, Academic City), service is available but with additional travel surcharge. WhatsApp +971 55 586 7466 with your address to confirm service availability."  },
+      answer: "We cover all major Dubai neighbourhoods. Standard service area: JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, Al Furjan, Discovery Gardens, Damac Hills, Mudon, Town Square, JBR, Business Bay. For more distant locations (Silicon Oasis, Al Warqa, International City, Academic City), service is available but with additional travel surcharge. WhatsApp +971 55 573 6312 with your address to confirm service availability."  },
     {
       question: "How quickly can I get a home physiotherapy appointment?",
-      answer: "Same-week appointments are typical for most home physiotherapy bookings. For urgent post-hospital-discharge situations or acute injuries, same-day or next-day appointments are often available. WhatsApp +971 55 586 7466 for fastest response — typically within 15 minutes during business hours. For routine elective home physiotherapy, 2–5 day lead time is typical."   },
+      answer: "Same-week appointments are typical for most home physiotherapy bookings. For urgent post-hospital-discharge situations or acute injuries, same-day or next-day appointments are often available. WhatsApp +971 55 573 6312 for fastest response — typically within 15 minutes during business hours. For routine elective home physiotherapy, 2–5 day lead time is typical."   },
     {
       question: "What does home physiotherapy cost?",
       answer: "Standard home physiotherapy session: AED 450 (compared to AED 320 for the same session at our clinic). The home premium reflects therapist travel time and operational costs. Same-day urgent visits may have a small premium. Distant locations (40+ minutes travel each way) may have a travel surcharge. Multi-session packages provide discounted per-session rates."  },
@@ -462,7 +462,7 @@ answer:"We understand that home physiotherapy patients (particularly elderly, po
 },
 {
   question: "How do I book home physiotherapy?",
-  answer:"Three ways: (1) WhatsApp +971 55 586 7466 — fastest response, ideal for sending medical records, hospital discharge summaries, or insurance card details. (2) Call +971 55 586 7466 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please provide: your full address, brief description of your condition, any recent medical reports or hospital discharge summaries, current medication list, insurance card details if applicable, and preferred appointment times."
+  answer:"Three ways: (1) WhatsApp +971 55 573 6312 — fastest response, ideal for sending medical records, hospital discharge summaries, or insurance card details. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please provide: your full address, brief description of your condition, any recent medical reports or hospital discharge summaries, current medication list, insurance card details if applicable, and preferred appointment times."
 }
     ]
 };

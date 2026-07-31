@@ -41,7 +41,7 @@ const MelasmaTreatmentDubai = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist melasma treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists treating melasma across all Fitzpatrick skin types. Comprehensive multi-modal treatment including topical regimens, chemical peels, selective laser treatments, oral tranexamic acid, and rigorous sun protection. Walking distance from Circle Mall.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 18,000",
       "address": {
         "@type": "PostalAddress",
@@ -488,7 +488,7 @@ const MelasmaTreatmentDubai = () => {
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+971 55 586 7466",
+        "telephone": "+971 55 573 6312",
         "contactType": "Customer Service",
         "areaServed": "AE",
         "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]

@@ -467,7 +467,7 @@ export const pcosFaqs = {
       answer: "We offer video consultations for follow-up appointments and for patients located outside Dubai who want to start with an initial assessment before travelling. For first-time PCOS consultations, in-person is strongly preferred — pulse diagnosis, physical examination, and the depth of conversation work better in person. Many of our international patients fly in for the initial consultation and the Panchakarma component, then continue with video follow-ups." },
     {
       question: "How do I start?",
-      answer: "Tap 'Book a PCOS Consultation' on this page, <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20PCOS%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\"><a href=\"https://wa.me/971555867466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> at +971 55 586 7466</a> for the fastest response, or call <a href=\"tel:+971555867466\" class=\"text-[#C9A961] hover:underline transition-colors\">+971 55 586 7466</a>. If you have specific questions before booking, <a href=\"https://wa.me/971555867466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> — our team typically replies within 15 minutes during clinic hours. Many women find it easier to ask their initial questions on WhatsApp first."}
+      answer: "Tap 'Book a PCOS Consultation' on this page, <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20PCOS%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\"><a href=\"https://wa.me/971555867466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> at +971 55 573 6312</a> for the fastest response, or call <a href=\"tel:+971555867466\" class=\"text-[#C9A961] hover:underline transition-colors\">+971 55 573 6312</a>. If you have specific questions before booking, <a href=\"https://wa.me/971555867466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> — our team typically replies within 15 minutes during clinic hours. Many women find it easier to ask their initial questions on WhatsApp first."}
   ]
 };
 
@@ -479,8 +479,8 @@ export const pcosTreatmentLocation = {
   landmarks: [
     "Next to Circle Mall ·FIVE Jumeirah Village · JVC District 12 · JSS Private School "
   ],
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about Ayurvedic PCOS treatment at your JVC clinic in Dubai.",
   hours: "Monday - Sunday: 8:30 am to 11:30 pm",
   description: "Dedicated consultation rooms for women's health, female reception staff available on request, private treatment areas. We schedule PCOS consultations in longer 60-minute slots rather than rushing them into 20-minute appointments.",

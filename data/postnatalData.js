@@ -411,8 +411,8 @@ export const postnatalLocation = {
   title: "We come to you across Dubai. Or visit us at JVC.",
   description: "Most postnatal care happens at your home across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Our doctors and trained female therapists travel to you with all supplies and equipment.<br/><br/>Clinic visits are limited to: initial consultation (if you prefer to come in), 3-5 doctor reviews during the programme, and pregnancy planning consultations. The clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Free patient parking.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi%2C%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
   hours: "Sun-Sat: 8:30 am to 11:30 pm",
   landmarks: [

@@ -6,8 +6,8 @@ const SportsPhysiotherapyLocation = ({ data = {} }) => {
     label = "VISIT US",
     title = "Where physiotherapy happens at Vedara Care JVC.",
     address = "Vedara Care Polyclinic<br />Building 23, District 12<br />Jumeirah Village Circle (JVC), Dubai, UAE",
-    phone = "+971 55 586 7466",
-    whatsapp = "+971 55 586 7466",
+    phone = "+971 55 573 6312",
+    whatsapp = "+971 55 573 6312",
     landmarks = [],
     hours = {
       monday: "9:00 AM – 9:00 PM",

@@ -455,7 +455,7 @@ export const tennisElbowFaqs = {
     },
     {
       question: "How do I book a tennis elbow assessment?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 586 7466</a> — fastest response, ideal for sending brief description of your symptoms. (2) Call +971 55 586 7466 — direct booking, available 9AM to 9PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any imaging if available, medical reports, current medication list, insurance card, comfortable clothing allowing elbow assessment, and information about your activities and triggers.'
+      answer: 'Three ways: (1) <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for sending brief description of your symptoms. (2) Call +971 55 573 6312 — direct booking, available 9AM to 9PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any imaging if available, medical reports, current medication list, insurance card, comfortable clothing allowing elbow assessment, and information about your activities and triggers.'
     }
   ]
 };
@@ -465,7 +465,7 @@ export const tennisElbowLocation = {
   label: "VISIT US",
   title: "Where tennis elbow treatment happens at Vedara Care JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
   hours: {
     monday: " 8:30 am to 11:30 pm",
     tuesday: "9:00 AM – 9:00 PM",

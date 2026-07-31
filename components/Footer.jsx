@@ -29,9 +29,9 @@ const Footer = () => {
                 Jumeirah Village Circle Dubai, UAE
               </p>
               <div className="space-y-2">
-                <a href="tel:+971 55 586 7466" className="flex items-center gap-2 hover:text-white transition-colors">
+                <a href="tel:+971 55 573 6312" className="flex items-center gap-2 hover:text-white transition-colors">
                   <Phone size={14} />
-                  <span>+971 55 586 7466</span>
+                  <span>+971 55 573 6312</span>
                 </a>
                 <a href="mailto:booking@vedaracare.ae" className="flex items-center gap-2 hover:text-white transition-colors">
                   <Mail size={14} />

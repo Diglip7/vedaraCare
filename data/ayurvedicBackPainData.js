@@ -431,7 +431,7 @@ export const ayurvedicBackPainFaqs = {
     },
     {
       question: "How do I start treatment?",
-      answer: "Always with an assessment, never directly with a treatment package. Tap \"Book a Back Pain Consultation\" on this page, WhatsApp us at +971 55 586 7466 for the fastest response, or call the same number. The initial 45-60 minute assessment includes physical examination, history-taking, imaging review if you bring scans, dosha assessment, and a written treatment plan with realistic expectations and pricing."
+      answer: "Always with an assessment, never directly with a treatment package. Tap \"Book a Back Pain Consultation\" on this page, WhatsApp us at +971 55 573 6312 for the fastest response, or call the same number. The initial 45-60 minute assessment includes physical examination, history-taking, imaging review if you bring scans, dosha assessment, and a written treatment plan with realistic expectations and pricing."
     }
   ]
 };
@@ -441,8 +441,8 @@ export const ayurvedicBackPainLocation = {
   label: "VISIT OUR BACK PAIN CLINIC",
   title: "Expert back pain care in Jumeirah Village Circle.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about ayurvedic back pain treatment at your JVC clinic.",
   email: "booking@vedaracare.ae",
   hours: "Saturday - Sunday: 8:30 am to 11:30 pm",

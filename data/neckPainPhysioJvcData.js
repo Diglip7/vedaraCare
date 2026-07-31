@@ -427,8 +427,8 @@ export const neckPainLocation = {
   label: "VISIT US",
   title: "Where neck pain physiotherapy happens at Vedara Care JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   hours: {
     monday: " 8:30 am to 11:30 pm",
     tuesday: "9:00 AM – 9:00 PM",

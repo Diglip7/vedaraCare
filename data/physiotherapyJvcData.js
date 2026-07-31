@@ -499,7 +499,7 @@ export const physiotherapyJvcFaqs = {
     },
     {
       question: "How quickly can I get an appointment at the JVC physiotherapy clinic?",
-      answer: 'Typically same-day or next-day for new patients. Our scheduling allows priority booking for acute injuries (within 24 hours when possible) and structured booking for chronic conditions. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 586 7466</a> for fastest response — typically within 15 minutes during business hours. Saturday and evening slots are available for working patients.'
+      answer: 'Typically same-day or next-day for new patients. Our scheduling allows priority booking for acute injuries (within 24 hours when possible) and structured booking for chronic conditions. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response — typically within 15 minutes during business hours. Saturday and evening slots are available for working patients.'
     },
     {
       question: "How many physiotherapy sessions will I need?",
@@ -541,8 +541,8 @@ export const physiotherapyJvcLocation = {
   label: "VISIT US",
   title: "Where physiotherapy happens at Vedara Care JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br />Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to book a physiotherapy session at your JVC clinic.",
   email: "booking@vedaracare.ae",
   hours: {

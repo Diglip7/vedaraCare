@@ -61,7 +61,7 @@ const SportsInjuryJvc = () => {
       "url": "https://vedaracare.ae/physiotherapy/sports-injury-jvc/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "DHA-licensed sports injury physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DPT-qualified sports physiotherapists treating padel injuries, running injuries, ACL rehabilitation, gym training injuries, and full sports medicine rehabilitation with evidence-based return-to-sport protocols.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 300 - AED 12,000",
       "address": {
         "@type": "PostalAddress",
@@ -300,7 +300,7 @@ const SportsInjuryJvc = () => {
           "name": "Can I get a same-day appointment for an acute sports injury?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes — same-day appointments are typically available for acute sports injuries at our JVC clinic. WhatsApp +971 55 586 7466 for fastest response, or call directly. Saturday and evening appointments also available. For very severe acute injuries with suspected fracture or neurological symptoms, A&E evaluation comes first, then physiotherapy follow-up."
+            "text": "Yes — same-day appointments are typically available for acute sports injuries at our JVC clinic. WhatsApp +971 55 573 6312 for fastest response, or call directly. Saturday and evening appointments also available. For very severe acute injuries with suspected fracture or neurological symptoms, A&E evaluation comes first, then physiotherapy follow-up."
           }
         },
         {

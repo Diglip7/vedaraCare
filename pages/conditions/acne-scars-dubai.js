@@ -41,7 +41,7 @@ const acneScarsTreatment = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist acne scar treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists delivering combination protocols for all acne scar types with particular Fitzpatrick IV-VI expertise.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 500 - AED 50,000",
       "address": {
         "@type": "PostalAddress",

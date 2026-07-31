@@ -39,7 +39,7 @@ const SkinRejuvenationJvc = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist skin rejuvenation at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists delivering personalised multi-modal aesthetic dermatology across all Fitzpatrick skin types. Walking distance from Circle Mall.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 30,000",
       "address": {
         "@type": "PostalAddress",
@@ -257,7 +257,7 @@ const SkinRejuvenationJvc = () => {
       "sameAs": ["https://www.facebook.com/VedaraCare", "https://www.instagram.com/vedaracare/", "https://www.linkedin.com/company/vedara-care/"],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+971 55 586 7466",
+        "telephone": "+971 55 573 6312",
         "contactType": "Customer Service",
         "areaServed": "AE",
         "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]

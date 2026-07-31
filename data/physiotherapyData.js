@@ -399,7 +399,7 @@ export const physiotherapyFaqs = {
     },
     {
       question: "Does Dubai insurance cover physiotherapy?",
-      answer: 'Most plans cover physiotherapy when there is medical justification. Coverage varies significantly: annual session limits, copay percentages, referral requirements, and pre-authorisation requirements all differ across plans. Direct-billing arrangements depend on clinic-insurer relationships. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20physiotherapy.">+971 55 586 7466</a> for specific coverage confirmation before booking multi-session programmes.'
+      answer: 'Most plans cover physiotherapy when there is medical justification. Coverage varies significantly: annual session limits, copay percentages, referral requirements, and pre-authorisation requirements all differ across plans. Direct-billing arrangements depend on clinic-insurer relationships. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20physiotherapy.">+971 55 573 6312</a> for specific coverage confirmation before booking multi-session programmes.'
     },
     {
       question: "Do I need a referral to see a physiotherapist in Dubai?",
@@ -465,11 +465,11 @@ export const physiotherapyFaqs = {
     },
     {
       question: "How quickly can I get an appointment in Dubai?",
-      answer: "At Vedara Care, typically same-day or next-day for new patients, with priority booking for acute injuries within 24 hours when possible. Saturday and evening slots available. WhatsApp <a href='https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20appointment.'>+971 55 586 7466</a> for fastest response. Across Dubai's market, scheduling availability varies enormously — busy clinics may have 1-2 week waits, less busy clinics offer same-day."
+      answer: "At Vedara Care, typically same-day or next-day for new patients, with priority booking for acute injuries within 24 hours when possible. Saturday and evening slots available. WhatsApp <a href='https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20appointment.'>+971 55 573 6312</a> for fastest response. Across Dubai's market, scheduling availability varies enormously — busy clinics may have 1-2 week waits, less busy clinics offer same-day."
     },
     {
       question: "How do I book a physiotherapy assessment?",
-      answer: "Three ways at Vedara Care: WhatsApp <a href='https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20assessment.'>+971 55 586 7466</a> for fastest response (typically within 15 minutes business hours), call +971 55 586 7466 (Monday to Sunday, 8:30 AM to 11:30 PM), or book online. For your first appointment, bring or send: any relevant imaging (X-rays, MRI), medical reports, current medication list, and insurance card if applicable."
+      answer: "Three ways at Vedara Care: WhatsApp <a href='https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20assessment.'>+971 55 573 6312</a> for fastest response (typically within 15 minutes business hours), call +971 55 573 6312 (Monday to Sunday, 8:30 AM to 11:30 PM), or book online. For your first appointment, bring or send: any relevant imaging (X-rays, MRI), medical reports, current medication list, and insurance card if applicable."
     }
 
 
@@ -483,7 +483,7 @@ export const physiotherapyTreatmentLocation = {
   label: "OUR CLINIC",
   title: "Vedara Care's physiotherapy clinic in Jumeirah Village Circle.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai",
-  phone: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: "Monday - Sunday: 8:30 AM - 11:30 PM",
   landmarks: [
@@ -522,7 +522,7 @@ export const physiotherapyInsurance = {
   content: [
     "Insurance coverage for physiotherapy in Dubai varies enormously by insurer and plan. Understanding what your specific plan covers — before you commit to a multi-session programme — prevents most billing surprises.",
     "The major Dubai insurers offering some level of physiotherapy coverage include Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Coverage typically varies across these dimensions: annual session limits (some plans allow 6-10 sessions per year; comprehensive plans allow unlimited with medical justification), copay percentages (often 10-30% patient responsibility), referral requirements (some plans require GP referral; others allow direct access), pre-authorisation requirements (some clinics require pre-authorisation for treatment beyond initial sessions), and direct-billing arrangements (some clinics direct-bill insurers; others require you to pay and claim back).",
-    "At Vedara Care, we are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. The most efficient process for new patients: WhatsApp your insurance card photo to +971 55 586 7466</a> before booking, and our team confirms exactly what is covered, what pre-authorisation is needed, and what your out-of-pocket cost will be. This typically takes 24-48 hours but prevents the most common billing surprises.",
+    "At Vedara Care, we are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. The most efficient process for new patients: WhatsApp your insurance card photo to +971 55 573 6312</a> before booking, and our team confirms exactly what is covered, what pre-authorisation is needed, and what your out-of-pocket cost will be. This typically takes 24-48 hours but prevents the most common billing surprises.",
     "Some realities worth knowing: most plans require medical justification (specific diagnosis, documented condition) rather than wellness physiotherapy. Most plans cover physiotherapy for diagnosed musculoskeletal conditions (like <a href=\"/conditions/back-pain-ayurveda-dubai/\">back pain</a> or <a href=\"/conditions/arthritis-ayurveda-dubai/\">knee OA</a>), post-surgical recovery, and neurological rehabilitation. Coverage for preventive sports performance work, wellness physiotherapy, or maintenance visits varies. <a href=\"/conditions/postnatal-ayurveda-dubai/\">Postnatal physiotherapy</a> coverage has improved substantially in recent years — most major plans now cover pelvic floor rehabilitation with appropriate clinical justification."
   ],
   insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
@@ -627,7 +627,7 @@ export const physiotherapyLocationCustom = {
   clinicHours: [
     { label: "Monday - Sunday", time: "8:30 AM - 11:30 PM" }
   ],
-  contactPhone: "+971 55 586 7466",
+  contactPhone: "+971 55 573 6312",
   contactEmail: "booking@vedaracare.ae",
   description: "Dedicated physiotherapy treatment rooms, gym area for exercise prescription, private consultation rooms, and integrated team offices. Walkable from Circle Mall, with convenient access from Sheikh Mohammed Bin Zayed Road for patients from across Dubai.",
   buttonText: "Book a Physiotherapy Assessment",

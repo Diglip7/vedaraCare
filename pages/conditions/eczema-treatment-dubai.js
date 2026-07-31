@@ -40,7 +40,7 @@ const EczemaTreatmentDubai = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist eczema treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists treating pediatric atopic dermatitis, adult eczema, contact dermatitis, hand eczema, and severe eczema. Access to biologic treatments including dupilumab.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 25,000",
       "address": {
         "@type": "PostalAddress",
@@ -349,7 +349,7 @@ const EczemaTreatmentDubai = () => {
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+971 55 586 7466",
+        "telephone": "+971 55 573 6312",
         "contactType": "Customer Service",
         "areaServed": "AE",
         "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]

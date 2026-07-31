@@ -150,7 +150,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <a href="tel:+971555867466" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Phone size={14} className="fill-current" />
-              <span>+971 55 586 7466</span>
+              <span>+971 55 573 6312</span>
             </a>
             <span className="hidden lg:block opacity-90">
               Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE

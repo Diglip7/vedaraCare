@@ -284,8 +284,8 @@ export const skinRejuvenationLocation = {
   bgColor: "bg-[#F0EBE3]",
   title: "Where skin rejuvenation happens at Vedara Care JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeirah Village Circle (JVC), Dubai, UAE",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'm interested in Skin Rejuvenation treatment. Could you please provide more information?",
   email: "booking@vedaracare.ae",
   hours: "Monday – Sunday:  8:30 am to 11:30 pm",
@@ -541,7 +541,7 @@ export const skinRejuvenationFaqs = {
     },
     {
       question: "How do I book a skin rejuvenation consultation?",
-      answer: 'Three ways: <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 586 7466</a> for fastest response; call +971 55 586 7466 direct booking 9 AM to 9 PM seven days a week; or book online via our website. For your first appointment please bring: photos showing your specific concerns; list of any skincare products you currently use; list of any previous aesthetic treatments and outcomes; list of current medications; specific event timing if relevant.'
+      answer: 'Three ways: <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response; call +971 55 573 6312 direct booking 9 AM to 9 PM seven days a week; or book online via our website. For your first appointment please bring: photos showing your specific concerns; list of any skincare products you currently use; list of any previous aesthetic treatments and outcomes; list of current medications; specific event timing if relevant.'
     }
   ]
 };

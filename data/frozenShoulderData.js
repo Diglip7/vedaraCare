@@ -477,8 +477,8 @@ export const frozenShoulderLocation = {
   label: "VISIT US",
   title: "Where frozen shoulder treatment happens at Vedara Care JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: [
     { day: "Monday – Sunday", time: "8:30 am to 11:30 pm" },

@@ -59,7 +59,7 @@ const PigmentationTreatmentDubai = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist pigmentation treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists treating all pigmentation conditions including melasma, post-inflammatory hyperpigmentation, age spots, sun damage, body pigmentation, vitiligo. Expertise across all Fitzpatrick skin types. Walking distance from Circle Mall.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 18,000",
       "address": {
         "@type": "PostalAddress",
@@ -202,7 +202,7 @@ const PigmentationTreatmentDubai = () => {
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+971 55 586 7466",
+        "telephone": "+971 55 573 6312",
         "contactType": "Customer Service",
         "areaServed": "AE",
         "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]

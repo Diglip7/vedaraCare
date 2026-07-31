@@ -88,7 +88,7 @@ export const drPriyaNair = {
     label: "VISIT DR. NAIR",
     title: "Find us in JVC.",
     address: "Building 7, Street 2<br/>Jumeirah Village Circle<br/>Dubai, United Arab Emirates",
-    phone: "+971 55 586 7466",
+    phone: "+971 55 573 6312",
     email: "booking@vedaracare.ae",
     hours: "Mon-Tue, Thu 10 AM-7 PM<br/>Fri 10 AM-1 PM, 4-8 PM<br/>Sat 10 AM-6 PM<br/>Sun 12-5 PM",
     landmarks: [

@@ -129,7 +129,7 @@ export const cuppingTherapyFaqs = {
     },
     {
       question: "Do you offer Hijama?",
-      answer: 'Yes — Hijama is available at our clinic, performed with sterile single-use equipment and complete respect for both clinical safety and religious significance. We can accommodate traditional Sunnah days for scheduling. <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Hijama%20scheduling." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 586 7466</a> for specific availability and scheduling.'
+      answer: 'Yes — Hijama is available at our clinic, performed with sterile single-use equipment and complete respect for both clinical safety and religious significance. We can accommodate traditional Sunnah days for scheduling. <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Hijama%20scheduling." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for specific availability and scheduling.'
     },
     {
       question: "Does cupping hurt?",
@@ -197,7 +197,7 @@ export const cuppingTherapyFaqs = {
     },
      {
       question: "How do I book a cupping appointment?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20cupping%20appointment." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 586 7466</a> — fastest response, ideal for asking specific questions about which type of cupping would suit you. (2) Call <a href="tel:+971555867466" class="hover:underline">+971 55 586 7466</a> — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For Hijama specifically, inquire about availability and Sunnah days scheduling. Please bring: any relevant medical reports, current medication list, insurance card if applicable, and comfortable clothing allowing access to treatment areas.'
+      answer: 'Three ways: (1) <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20cupping%20appointment." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for asking specific questions about which type of cupping would suit you. (2) Call <a href="tel:+971555867466" class="hover:underline">+971 55 573 6312</a> — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For Hijama specifically, inquire about availability and Sunnah days scheduling. Please bring: any relevant medical reports, current medication list, insurance card if applicable, and comfortable clothing allowing access to treatment areas.'
     },
     
   ]
@@ -208,8 +208,8 @@ export const cuppingTherapyLocation = {
   label: "VISIT US",
   title: "Where cupping therapy happens at Vedara Care JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br />Jumeraih Village Circle (JVC) Dubai ",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   hours: "Saturday – Sunday: 8:30 am to 11:30 pm",
   landmarks: [
     "Walking distance from Circle Mall",

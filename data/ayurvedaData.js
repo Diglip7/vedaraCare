@@ -194,7 +194,7 @@ export const ayurvedaFaqs = {
     },
     {
       question: "How do I book an Ayurveda consultation?",
-      answer: "Three ways: tap Book a Consultation anywhere on this page for live calendar availability, <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20consultation.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">WhatsApp us at +971 55 586 7466</a> for the fastest response (usually under 15 minutes during clinic hours), or <a href=\"tel:+971555867466\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">call us at +971 55 586 7466</a> to speak with our team."
+      answer: "Three ways: tap Book a Consultation anywhere on this page for live calendar availability, <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20consultation.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">WhatsApp us at +971 55 573 6312</a> for the fastest response (usually under 15 minutes during clinic hours), or <a href=\"tel:+971555867466\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">call us at +971 55 573 6312</a> to speak with our team."
     }
   ]
 };
@@ -466,8 +466,8 @@ export const ayurvedaLocation = {
   },
   contact: {
     label: "Contact",
-    phone: "+971 55 586 7466",
-    whatsapp: "+971 55 586 7466",
+    phone: "+971 55 573 6312",
+    whatsapp: "+971 55 573 6312",
     email: "booking@vedaracare.ae"
   },
   hours: {
@@ -705,7 +705,7 @@ export const dubaiHubFaqs = {
     },
     {
       question: "How do I start with Ayurvedic treatment in Dubai?",
-      answer: "Begin with a consultation, not a treatment. A first Ayurvedic consultation is a diagnostic conversation — your doctor will assess your dosha, review your symptoms, and recommend a treatment plan. You decide whether to proceed. At Vedara Care, you can book a consultation using any Book a Consultation button on this page, <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20consultation.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">on WhatsApp at +971 55 586 7466</a>, or by <a href=\"tel:+971555867466\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">calling +971 55 586 7466</a>."
+      answer: "Begin with a consultation, not a treatment. A first Ayurvedic consultation is a diagnostic conversation — your doctor will assess your dosha, review your symptoms, and recommend a treatment plan. You decide whether to proceed. At Vedara Care, you can book a consultation using any Book a Consultation button on this page, <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20consultation.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">on WhatsApp at +971 55 573 6312</a>, or by <a href=\"tel:+971555867466\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">calling +971 55 573 6312</a>."
     }
   ]
 };

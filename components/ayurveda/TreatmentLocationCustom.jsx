@@ -14,7 +14,7 @@ const TreatmentLocationCustom = ({
     { label: 'Friday', time: '2:00 PM - 8:00 PM' },
     { label: 'Saturday', time: '9:00 AM - 6:00 PM' }
   ],
-  contactPhone = '+971 55 586 7466',
+  contactPhone = '+971 55 573 6312',
   contactEmail = 'booking@vedaracare.ae',
   description = 'Our JVC clinic schedules extended consultations for IBS patients — typically 60 minutes for initial, 30 minutes for follow-ups. We allow time to discuss symptoms patients have often stopped mentioning to other clinicians. Walking distance from Circle Mall, easy access from JVC Districts 10, 11, 12, 13, JVT, and Al Barsha South. Female doctors available on request.',
   buttonText = 'Book an IBS Consultation',

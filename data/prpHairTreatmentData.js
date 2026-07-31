@@ -467,9 +467,9 @@ export const prpHairLocation = {
   image: "/images/vedara-jvc-clinic-prp-hair.webp",
   alt: "Vedara Care JVC clinic PRP hair treatment Dubai",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/> Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
-  whatsapp: "+971 55 586 7466",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'm interested in PRP hair treatment and would like to book a consultation.",
   hours: {
     monday: "8:30 am to 11:30 pm",

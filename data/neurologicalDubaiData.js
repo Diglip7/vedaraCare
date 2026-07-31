@@ -216,7 +216,7 @@ export const neurologicalHomePhysiotherapyData = {
     ],
     duration: "60-75 minutes including travel time consideration",
     pricing: "From AED 550 per home session",
-    booking: "WhatsApp +971 55 586 7466 for fastest response",
+    booking: "WhatsApp +971 55 573 6312 for fastest response",
     buttonLink: "/home-healthcare-jvc/",
     buttonText: "Book Home Physiotherapy"
   },
@@ -262,7 +262,7 @@ export const neurologicalPricingData = {
     { service: "Family caregiver training session", price: "AED 350" },
     { service: "Multi-disciplinary case coordination (per case, complex cases)", price: "AED 500" }
   ],
-  footerText: 'Insurance direct-billing with seven major insurers. Long-term neurological physiotherapy typically benefits from annual coverage planning — <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 586 7466</a> to discuss your coverage and out-of-pocket cost before committing to a programme.'
+  footerText: 'Insurance direct-billing with seven major insurers. Long-term neurological physiotherapy typically benefits from annual coverage planning — <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> to discuss your coverage and out-of-pocket cost before committing to a programme.'
 };
 
 export const neurologicalDubaiReviews = {
@@ -363,7 +363,7 @@ export const neurologicalInsuranceCoverageData = {
   sidebar: {
     label: "OUR DIRECT-BILLING INSURERS",
     insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
-    text: 'For long-term neurological conditions, we help families navigate annual coverage planning, pre-authorisation, and appeals. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 586 7466</a> for coverage assistance.',
+    text: 'For long-term neurological conditions, we help families navigate annual coverage planning, pre-authorisation, and appeals. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for coverage assistance.',
     buttonText: "WhatsApp us for Coverage Help",
     buttonHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20ask%20about%20insurance%20coverage%20for%20neurological%20physiotherapy.%20Please%20assist%20me."
   }
@@ -374,7 +374,7 @@ export const neurologicalDubaiLocationData = {
   title: "At our JVC clinic, or at your home across Dubai.",
   description: "Neurological physiotherapy happens at two primary locations depending on patient need: at home across Dubai with our specialised neurological physiotherapists travelling to you (often essential for early recovery, advanced disease, or significant mobility limitations), and at our JVC clinic with specialised equipment including gait training equipment, functional electrical stimulation, and balance equipment (when transport is feasible). Many patients benefit from a combination of both.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
   hours: "Sunday - Saturday: 8:30AM to 11:30PM ",
   landmarks: [
     "Walking distance from Circle Mall",
@@ -421,7 +421,7 @@ export const neurologicalDubaiFAQData = {
     },
     {
       question: "My father had a stroke in India. Can he have rehabilitation in Dubai?",
-      answer: "Yes — international stroke patients are common at our clinic. Many Dubai expats bring elderly parents to Dubai for family care after stroke. We coordinate with the original treating neurologist in the home country (with consent), continue medications as prescribed by the neurologist, and provide structured rehabilitation in Dubai. WhatsApp your father's medical records, current medications, and original neurologist's contact to +971 55 586 7466 before bringing him to assessment."
+      answer: "Yes — international stroke patients are common at our clinic. Many Dubai expats bring elderly parents to Dubai for family care after stroke. We coordinate with the original treating neurologist in the home country (with consent), continue medications as prescribed by the neurologist, and provide structured rehabilitation in Dubai. WhatsApp your father's medical records, current medications, and original neurologist's contact to +971 55 573 6312 before bringing him to assessment."
     },
     {
       question: "How does Parkinson's physiotherapy work long-term?",

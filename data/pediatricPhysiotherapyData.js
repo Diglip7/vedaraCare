@@ -93,17 +93,17 @@ export const pediatricPhysiotherapyInsurance = {
     "What is typically covered well: paediatric physiotherapy with paediatrician referral and documented condition (developmental delay, cerebral palsy, scoliosis, post-surgical conditions, post-injury rehabilitation). Annual session limits vary substantially — some plans allow 12-20 sessions annually; comprehensive plans allow more with continued medical justification.",
     "What may have limits: ongoing maintenance physiotherapy for chronic conditions (often capped annually), preventive or developmental support without specific diagnosed condition, sports physiotherapy for adolescent recreational athletes without specific injury, postural physiotherapy without clear medical justification.",
     "For children with significant conditions (cerebral palsy, muscular dystrophy, scoliosis requiring ongoing care), we help families navigate insurance pre-authorisation, annual coverage planning, and appeal processes when coverage is initially denied. Our experience with the major insurers — Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife — helps families maximise their child's coverage.",
-    "WhatsApp your insurance card to +971 55 586 7466 before booking, along with any paediatrician referral letter and brief description of your child's concern. Our team will confirm exact coverage and out-of-pocket cost before you commit to a programme."
+    "WhatsApp your insurance card to +971 55 573 6312 before booking, along with any paediatrician referral letter and brief description of your child's concern. Our team will confirm exact coverage and out-of-pocket cost before you commit to a programme."
   ],
   insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
   sidebarText: [
     "Some children's hospitals and paediatric specialists in Dubai also refer to us for outpatient physiotherapy. ",
-    "WhatsApp +971 55 586 7466 for coverage confirmation."
+    "WhatsApp +971 55 573 6312 for coverage confirmation."
 
 ,
     
   ],
-  whatsappNumber: "+971 55 586 7466"
+  whatsappNumber: "+971 55 573 6312"
 };
 
 
@@ -247,8 +247,8 @@ export const pediatricPhysiotherapyLocation = {
   title: "A welcoming clinic for children of all ages.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Dubai, Jumeraih Village Circle (JVC) Dubai",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   hours: {
     monday: " 8:30AM to 11:30PM",
     saturday: "8:30AM to 11:30PM",
@@ -497,5 +497,5 @@ export const pediatricPhysiotherapyPricing = {
     { service: "Cerebral palsy ongoing care (per session, structured programme)", price: "AED 370" },
     { service: "Multi-disciplinary case coordination (per case)", price: "AED 250" }
   ],
-  footerText: 'Family pricing available for siblings receiving treatment. Insurance direct-billing with seven major insurers — coverage for paediatric physiotherapy is often substantial with paediatrician referral. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and referral letter to +971 55 586 7466 before booking.'
+  footerText: 'Family pricing available for siblings receiving treatment. Insurance direct-billing with seven major insurers — coverage for paediatric physiotherapy is often substantial with paediatrician referral. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and referral letter to +971 55 573 6312 before booking.'
 };

@@ -37,7 +37,7 @@ const AyurvedaClinicJVC = () => {
       "name": "Vedara Care Polyclinic — Ayurveda Department",
       "url": "https://vedaracare.ae/ayurveda-clinic-jvc/",
       "image": "https://vedaracare.ae/images/ayurveda-clinic-jvc-hero.webp",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "email": "booking@vedaracare.ae",
       "priceRange": "AED",
       "medicalSpecialty": {"@type": "MedicalSpecialty", "name": "Ayurveda", "@id": "https://vedaracare.ae/ayurveda-clinic-jvc/#ayurveda"},

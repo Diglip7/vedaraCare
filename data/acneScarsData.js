@@ -490,7 +490,7 @@ export const acneScarsFAQ = {
     { question: "Can I combine acne scar treatment with other aesthetic treatments?", answer: "Yes — comprehensive aesthetic care often combines scar treatment with skin rejuvenation, pigmentation treatment, or other aesthetic goals. We design combined protocols when appropriate. Coordinated planning ensures optimal outcomes without treatment interference." },
     { question: "What about hypertrophic and keloid scars from acne?", answer: "Different treatment approach than atrophic scars. Intralesional corticosteroid injections, silicone therapy, careful laser selection, sometimes cryotherapy. Genetic predisposition to keloids common in some ethnic backgrounds requires specialist recognition and careful treatment approach." },
     { question: "How is acne scar treatment at Vedara different?", answer: "DHA-licensed consultant dermatologists with combination protocol expertise; Fitzpatrick I–VI expertise particularly IV–VI safety; comprehensive scar type recognition; full modality range; honest realistic outcome framing; multilingual capability; female and male dermatologists; JVC clinic near Circle Mall accessible from across Dubai."},
-    { question: "How do I book an acne scar consultation?", answer: "Three ways: WhatsApp +971 4 300 0000 for fastest response; call +971 55 586 7466 9AM–9PM seven days a week; book online. Please bring: photos of your scars, list of previous treatments and outcomes, current skincare and medications, event timing if relevant, and specific questions and goals."}
+    { question: "How do I book an acne scar consultation?", answer: "Three ways: WhatsApp +971 4 300 0000 for fastest response; call +971 55 573 6312 9AM–9PM seven days a week; book online. Please bring: photos of your scars, list of previous treatments and outcomes, current skincare and medications, event timing if relevant, and specific questions and goals."}
   ],
   buttonText: "WhatsApp us",
   buttonHref: "https://wa.me/971555867466?text=Hi,%20I%27m%20interested%20in%20acne%20scar%20treatment%20and%20would%20like%20to%20book%20a%20consultation.",
@@ -508,8 +508,8 @@ export const acneScarsLocation = {
   image: "/images/vedara-jvc-clinic-acne-scars.webp",
   alt: "Vedara Care JVC clinic acne scar treatment Dubai",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I want to book an Acne Scar Treatment consultation.",
   email: "booking@vedaracare.ae",
   hours: {

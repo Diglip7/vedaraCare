@@ -41,7 +41,7 @@ const PrpHairTreatment = () => {
       "url": currentUrl,
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
       "description": "Specialist PRP hair treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists delivering evidence-based standardised platelet-rich plasma therapy with combination approach.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 20,000",
       "address": {
         "@type": "PostalAddress",
@@ -204,7 +204,7 @@ const PrpHairTreatment = () => {
       "sameAs": ["https://www.facebook.com/", "https://www.instagram.com/", "https://www.linkedin.com/company/", "https://www.google.com/maps/place/"],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+971 55 586 7466",
+        "telephone": "+971 55 573 6312",
         "contactType": "Customer Service",
         "areaServed": "AE",
         "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]

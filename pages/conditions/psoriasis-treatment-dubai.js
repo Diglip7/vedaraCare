@@ -40,7 +40,7 @@ const psoriasistreatment = () => {
       "url": currentUrl,
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
       "description": "Specialist psoriasis treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists treating all psoriasis presentations with access to modern biologic treatments including TNF-α, IL-17, and IL-23 inhibitors.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 60000",
       "address": {"@type": "PostalAddress", "streetAddress": "[Building Name], [Unit Number], [Street], Jumeirah Village Circle (JVC)", "addressLocality": "Jumeirah Village Circle", "addressRegion": "Dubai", "addressCountry": "AE", "postalCode": ""},
       "geo": {"@type": "GeoCoordinates", "latitude": "25.068346", "longitude": "55.2072235"},
@@ -170,7 +170,7 @@ const psoriasistreatment = () => {
       "url": "https://vedaracare.ae/",
       "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"},
       "sameAs": ["https://www.facebook.com/", "https://www.instagram.com/", "https://www.linkedin.com/company/", "https://www.google.com/maps/place/"],
-      "contactPoint": {"@type": "ContactPoint", "telephone": "+971 55 586 7466", "contactType": "Customer Service", "areaServed": "AE", "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]},
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+971 55 573 6312", "contactType": "Customer Service", "areaServed": "AE", "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]},
       "insurancePlan": [
         {"@type": "InsuranceCompany", "name": "Daman"},
         {"@type": "InsuranceCompany", "name": "AXA"},

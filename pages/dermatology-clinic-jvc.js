@@ -505,7 +505,7 @@ const DermatologyClinicJVC = () => {
                   </svg>
                   <div>
                     <p className="text-sm font-semibold text-[#1A1A1A]">Telephone</p>
-                    <p className="text-sm text-[#6B6B6B]">+971 55 586 7466</p>
+                    <p className="text-sm text-[#6B6B6B]">+971 55 573 6312</p>
                   </div>
                 </div>
 

@@ -119,8 +119,8 @@ export const migraineLocation = {
   title: "Where migraine treatment happens at Vedara Care.",
   description: "Our JVC clinic has dedicated Shirodhara treatment rooms with controlled lighting (important for migraine patients with light sensitivity), sound-insulated quiet environment, and Nasya treatment positions. Walking distance from Circle Mall, easy access from JVC Districts 10, 11, 12, 13, JVT, and Al Barsha South. Female doctors available on request.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about Ayurvedic migraine treatment at your JVC clinic in Dubai.",
   email: "booking@vedaracare.ae",
   hours: "Saturday - Sunday: 8:30 am to 11:30 pm",
@@ -323,7 +323,7 @@ export const migraineFaqs = {
     },
     {
       question: "How do I start?",
-      answer: "Always with a thorough assessment. Tap \"Book a Migraine Consultation\" on this page, <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20migraine%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\">WhatsApp us +971 55 586 7466</a>, or call <a href=\"tel:+971555867466\" class=\"text-[#C9A961] hover:underline transition-colors\">+971 55 586 7466</a>. Please bring (or send before consultation): your migraine diary if you keep one, most recent neurologist notes, any MRI/imaging reports, current medication list (preventive and acute), and a list of treatments you have previously tried with response notes. The 60-minute consultation at our JVC clinic includes comprehensive history, subtype identification, and a written treatment plan with realistic expectations."
+      answer: "Always with a thorough assessment. Tap \"Book a Migraine Consultation\" on this page, <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20migraine%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\">WhatsApp us +971 55 573 6312</a>, or call <a href=\"tel:+971555867466\" class=\"text-[#C9A961] hover:underline transition-colors\">+971 55 573 6312</a>. Please bring (or send before consultation): your migraine diary if you keep one, most recent neurologist notes, any MRI/imaging reports, current medication list (preventive and acute), and a list of treatments you have previously tried with response notes. The 60-minute consultation at our JVC clinic includes comprehensive history, subtype identification, and a written treatment plan with realistic expectations."
     }
   ]
 };

@@ -359,7 +359,7 @@ export default function BookAppointment({ dynamicTreatments }) {
     "@type": "MedicalClinic",
     "name": "Vedara Care Polyclinic Dubai",
     "url": "https://vedaracare.ae/book",
-    "telephone": "+971 55 586 7466",
+    "telephone": "+971 55 573 6312",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Binghatti Azure, Shop -4, Jumeirah Village Circle",
@@ -372,7 +372,7 @@ export default function BookAppointment({ dynamicTreatments }) {
     <>
       <Head>
         <title>Book Medical Appointment Online | Vedara Care Polyclinic JVC Dubai</title>
-        <meta name="description" content="Book an appointment online for Physiotherapy, Ayurveda, Dermatology & Home Healthcare at Vedara Care Polyclinic in JVC Dubai. Phone: +971 55 586 7466." />
+        <meta name="description" content="Book an appointment online for Physiotherapy, Ayurveda, Dermatology & Home Healthcare at Vedara Care Polyclinic in JVC Dubai. Phone: +971 55 573 6312." />
         <link rel="canonical" href="https://vedaracare.ae/book" />
         <script
           type="application/ld+json"
@@ -440,7 +440,7 @@ export default function BookAppointment({ dynamicTreatments }) {
                   <span className="text-[11px] font-bold text-[#C9A55A] uppercase tracking-wider block mb-0.5">Need Assistance?</span>
                   <p className="text-xs text-gray-600">Speak directly with reception</p>
                   <a href="tel:+971555867466" className="text-sm font-serif font-bold text-[#184C3A] hover:underline">
-                    +971 55 586 7466
+                    +971 55 573 6312
                   </a>
                 </div>
                 <a
@@ -516,7 +516,7 @@ export default function BookAppointment({ dynamicTreatments }) {
               </div>
 
               <p className="text-[11px] text-gray-500 pt-2">
-                Need urgent assistance? Call our desk directly at <a href="tel:+971555867466" className="text-[#184C3A] font-bold hover:underline">+971 55 586 7466</a>.
+                Need urgent assistance? Call our desk directly at <a href="tel:+971555867466" className="text-[#184C3A] font-bold hover:underline">+971 55 573 6312</a>.
               </p>
             </div>
           ) : (

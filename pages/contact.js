@@ -107,7 +107,7 @@ export default function Contact() {
     },
     {
       q: "How do I verify if my insurance is covered before visiting?",
-      a: "Simply send a photo of your insurance card via WhatsApp to +971 55 586 7466. Our insurance desk will verify direct-billing coverage, pre-authorization needs, and any copay within 15 minutes during operating hours."
+      a: "Simply send a photo of your insurance card via WhatsApp to +971 55 573 6312. Our insurance desk will verify direct-billing coverage, pre-authorization needs, and any copay within 15 minutes during operating hours."
     },
     {
       q: "What should I bring to my first appointment?",
@@ -133,7 +133,7 @@ export default function Contact() {
         "url": "https://vedaracare.ae/contact",
         "logo": "https://vedaracare.ae/logo.png",
         "image": "https://vedaracare.ae/images/clinic-exterior.jpg",
-        "telephone": "+971 55 586 7466",
+        "telephone": "+971 55 573 6312",
         "email": "booking@vedaracare.ae",
         "priceRange": "AED 250 - AED 8,000",
         "address": {
@@ -159,7 +159,7 @@ export default function Contact() {
         "contactPoint": [
           {
             "@type": "ContactPoint",
-            "telephone": "+971 55 586 7466",
+            "telephone": "+971 55 573 6312",
             "contactType": "Customer Service & Appointments",
             "areaServed": "AE",
             "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]
@@ -180,7 +180,7 @@ export default function Contact() {
     <>
       <Head>
         <title>Contact Us | Vedara Care Polyclinic JVC Dubai | Book Appointment</title>
-        <meta name="description" content="Contact Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai. Phone: +971 55 586 7466. Open daily 8:30 AM - 11:30 PM. Book Physiotherapy, Ayurveda, Dermatology & Home Visits." />
+        <meta name="description" content="Contact Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai. Phone: +971 55 573 6312. Open daily 8:30 AM - 11:30 PM. Book Physiotherapy, Ayurveda, Dermatology & Home Visits." />
         <link rel="canonical" href="https://vedaracare.ae/contact" />
         <meta property="og:title" content="Contact Vedara Care Polyclinic — JVC Dubai" />
         <meta property="og:description" content="DHA-licensed polyclinic in Jumeirah Village Circle. Direct appointments, insurance checks, WhatsApp support & home visits across Dubai." />
@@ -271,7 +271,7 @@ export default function Contact() {
                   <Phone size={22} />
                 </div>
                 <span className="text-xs font-semibold uppercase tracking-wider text-[#C9A55A] block mb-1">Direct Call</span>
-                <h4 className="text-lg font-serif font-medium text-[#1A1A1A] mb-1">+971 55 586 7466</h4>
+                <h4 className="text-lg font-serif font-medium text-[#1A1A1A] mb-1">+971 55 573 6312</h4>
                 <p className="text-xs text-gray-500">Available 8:30 AM to 11:30 PM daily</p>
               </div>
               <a href="tel:+971555867466" className="mt-6 inline-flex items-center gap-1.5 text-xs font-bold text-[#184C3A] hover:underline">
@@ -286,7 +286,7 @@ export default function Contact() {
                   <MessageCircle size={22} />
                 </div>
                 <span className="text-xs font-semibold uppercase tracking-wider text-[#C9A55A] block mb-1">WhatsApp Desk</span>
-                <h4 className="text-lg font-serif font-medium text-[#1A1A1A] mb-1">+971 55 586 7466</h4>
+                <h4 className="text-lg font-serif font-medium text-[#1A1A1A] mb-1">+971 55 573 6312</h4>
                 <p className="text-xs text-gray-500">Insurance checks & quick scheduling</p>
               </div>
               <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center gap-1.5 text-xs font-bold text-[#25D366] hover:underline">

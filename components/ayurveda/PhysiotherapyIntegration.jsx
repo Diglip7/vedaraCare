@@ -26,7 +26,7 @@ const PhysiotherapyIntegration = () => {
               Common acute presentations we handle same-day include: ankle sprains and inversion injuries, acute hamstring strains, knee injuries with effusion or instability, shoulder dislocations and subluxations, acute muscle tears, sports-related back injuries, and acute neck injuries from contact sports or falls. For injuries with red flag features — significant trauma, suspected fracture, neurological symptoms, severe deformity — A&E evaluation comes first, then physiotherapy follow-up.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}>
-              <strong style={{ color: 'rgb(26, 26, 26)' }}>How to access same-day:</strong> WhatsApp <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20have%20an%20acute%20sports%20injury%20and%20would%20like%20to%20request%20a%20same-day%20appointment." style={{ color: 'rgb(27, 67, 50)', textDecoration: 'underline' }}>+971 55 586 7466</a> is the fastest route — our team typically confirms availability within 15 minutes during business hours. Saturdays and evenings are also available for working patients with acute injuries.
+              <strong style={{ color: 'rgb(26, 26, 26)' }}>How to access same-day:</strong> WhatsApp <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20have%20an%20acute%20sports%20injury%20and%20would%20like%20to%20request%20a%20same-day%20appointment." style={{ color: 'rgb(27, 67, 50)', textDecoration: 'underline' }}>+971 55 573 6312</a> is the fastest route — our team typically confirms availability within 15 minutes during business hours. Saturdays and evenings are also available for working patients with acute injuries.
             </p>
           </div>
           <div className="space-y-6">
@@ -118,7 +118,7 @@ const PhysiotherapyIntegration = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                Call +971 55 586 7466
+                Call +971 55 573 6312
               </a>
             </div>
           </div>

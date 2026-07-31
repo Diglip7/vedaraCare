@@ -410,7 +410,7 @@ export const pigmentationTreatmentLocation = {
     "Free patient parking",
     "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
   ],
-  phone: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
   whatsapp: "971555867466",
   email: "booking@vedaracare.ae",
   hours: {

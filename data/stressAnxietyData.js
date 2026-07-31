@@ -371,7 +371,7 @@ export const stressAnxietyFaqs = {
     },
     {
       question: "How do I start?",
-      answer: "Always with an honest consultation. Tap \"Book an Anxiety & Stress Consultation\" on this page, WhatsApp us at <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">+971 55 586 7466</a>, or call <a href=\"tel:+971555867466\" class=\"hover:underline\">+971 55 586 7466</a>. If you are currently in mental health crisis, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the UAE Crisis Helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>) first — Ayurvedic treatment is not for crisis care. For chronic ongoing patterns, the 60-minute consultation includes thorough history, pattern identification, and a written treatment plan with realistic expectations."
+      answer: "Always with an honest consultation. Tap \"Book an Anxiety & Stress Consultation\" on this page, WhatsApp us at <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">+971 55 573 6312</a>, or call <a href=\"tel:+971555867466\" class=\"hover:underline\">+971 55 573 6312</a>. If you are currently in mental health crisis, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the UAE Crisis Helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>) first — Ayurvedic treatment is not for crisis care. For chronic ongoing patterns, the 60-minute consultation includes thorough history, pattern identification, and a written treatment plan with realistic expectations."
     }
   ]
 };
@@ -485,7 +485,7 @@ export const stressAnxietyVisitSectionData = {
     line1: "Al Barsha South Fourth, Binghatti Azure, Shop -4,",
     line2: " Jumeraih Village Circle (JVC) Dubai"
   },
-  phone: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
   hours: [
     { label: "Sun - Sat", time: " 8:30 am to 11:30 pm" },
   ],
@@ -503,7 +503,7 @@ export const stressAnxietyLocation = {
   title: "Where stress and anxiety treatment happens at Vedara Care.",
   description: "Our JVC clinic has dedicated Shirodhara treatment rooms with controlled lighting (important for patients with light sensitivity), sound-insulated quiet environment, and Nasya treatment positions. Walking distance from Circle Mall, easy access from JVC Districts 10, 11, 12, 13, JVT, and Al Barsha South. Female doctors available on request.",
   address: "207 Circle Mall, JVC<br/>Jumeirah Village Circle, Dubai, UAE",
-  phone: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: "Mon - Sat: 9:00am - 8:00pm<br/>Sun: 10:00am - 6:00pm",
   landmarks: [

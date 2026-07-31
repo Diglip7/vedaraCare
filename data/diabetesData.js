@@ -178,7 +178,7 @@ export const diabetesTreatmentLocationCustom = {
     { label: "Sunday - Saturday", time: " 8:30 am to 11:30 pm" },
     
   ],
-  contactPhone: "+971 55 586 7466",
+  contactPhone: "+971 55 573 6312",
   contactEmail: "booking@vedaracare.ae",
   description: "Our JVC clinic coordinates with most major Dubai endocrinology practices. Glucose monitoring equipment on-site for clinic visits. Comfortable consultation rooms with privacy for detailed health reviews. Walking distance from Circle Mall, easy access from JVC Districts 10, 11, 12, 13, JVT, and Al Barsha South.",
   buttonText: "Book a Diabetes Consultation",
@@ -532,8 +532,8 @@ export const diabetesTreatmentLocation = {
   label: "WHERE WE TREAT",
   title: "Where diabetes treatment happens at Vedara Care.",
   address: "Vedara Care Polyclinic, Building X, Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, near FIVE Jumeirah Village",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   email: "diabetes@vedaracare.ae",
   hours: {
     monday: "8:00 AM - 8:00 PM",

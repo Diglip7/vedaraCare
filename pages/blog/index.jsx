@@ -445,7 +445,7 @@ export default function BlogListPage() {
                     className="flex items-center justify-center gap-2 w-full py-2.5 bg-white/20 text-white border border-white/30 rounded-lg text-[12px] font-sans font-semibold hover:bg-white/30 transition-colors"
                   >
                     <Phone className="w-4 h-4" />
-                    Call: +971 55 586 7466
+                    Call: +971 55 573 6312
                   </a>
                 </div>
 

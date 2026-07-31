@@ -46,7 +46,7 @@ const FrozenShoulderDubai = () => {
       "url": currentUrl,
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
       "description": "Specialist frozen shoulder treatment at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Phase-specific physiotherapy for adhesive capsulitis delivered by DPT-qualified specialists. Particular expertise in diabetic frozen shoulder. Coordination with rheumatologists for hydrodilatation when appropriate.",
-      "telephone": "+971 55 586 7466",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 350 - AED 18,000",
       "address": {
         "@type": "PostalAddress",

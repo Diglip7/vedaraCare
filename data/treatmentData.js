@@ -113,7 +113,7 @@ export const panchakarmaJVCFaqs = {
     },
     {
       question: "How do I book Panchakarma at your JVC clinic?",
-      answer: 'Booking always begins with a consultation, not a direct package purchase. Tap \"Book a Panchakarma Consultation\" anywhere on this page for live calendar availability, <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20Panchakarma%20consultation%20at%20JVC." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> at <a href="tel:+971555867466" class="text-[#C9A961] hover:underline font-bold">+971 55 586 7466</a> for the fastest response (typically under 15 minutes during clinic hours), or call us at <a href="tel:+971555867466" class="text-[#C9A961] hover:underline font-bold">+971 55 586 7466</a>. Walk-in consultation slots are sometimes available with prior WhatsApp coordination.'
+      answer: 'Booking always begins with a consultation, not a direct package purchase. Tap \"Book a Panchakarma Consultation\" anywhere on this page for live calendar availability, <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20Panchakarma%20consultation%20at%20JVC." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> at <a href="tel:+971555867466" class="text-[#C9A961] hover:underline font-bold">+971 55 573 6312</a> for the fastest response (typically under 15 minutes during clinic hours), or call us at <a href="tel:+971555867466" class="text-[#C9A961] hover:underline font-bold">+971 55 573 6312</a>. Walk-in consultation slots are sometimes available with prior WhatsApp coordination.'
     }
   ]
 };
@@ -123,9 +123,9 @@ export const panchakarmaJVCLocation = {
   label: "VISIT US",
   title: "Our Panchakarma clinic in Jumeirah Village Circle.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
-  whatsapp: "+971 55 586 7466",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hello Vedara Care, I would like to book a visit for Panchakarma at your JVC clinic.",
   hours: "Monday to Sunday: 8:30 am to 11:30 pm",
   landmarks: [
@@ -642,8 +642,8 @@ export const kativastiFinalCTA = {
 export const kativastiLocation = {
   name: "Kativasti at Vedara Care",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/> Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   hours: "Mon-Sun, 8:30 am to 11:30 pm",
   landmarks: [
     "Next to Circle Mall (2 min walk)",
@@ -658,8 +658,8 @@ export const kativastiTreatmentLocation = {
   label: "VISIT US",
   title: "Where Kativasti happens at Vedara Care.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/> Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about kativasti treatment at your JVC clinic.",
   email: "booking@vedaracare.ae",
   hours: "Saturday - Sunday: 8:30 am to 11:30 pm",

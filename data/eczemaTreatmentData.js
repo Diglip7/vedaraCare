@@ -472,7 +472,7 @@ export const eczemaTreatmentFaqs = {
     },
     {
       question: "How do I book an eczema consultation?",
-      answer: 'Three ways: <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 586 7466</a> for fastest response; call direct 9 AM to 9 PM seven days a week; or book online. For your first appointment please bring photos of eczema at its worst, list of all treatments tried, current medications and skincare products, insurance card, and specific questions. For pediatric consultations, both parents are welcome.'
+      answer: 'Three ways: <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response; call direct 9 AM to 9 PM seven days a week; or book online. For your first appointment please bring photos of eczema at its worst, list of all treatments tried, current medications and skincare products, insurance card, and specific questions. For pediatric consultations, both parents are welcome.'
     },
 
   ]
@@ -490,8 +490,8 @@ export const eczemaTreatmentLocation = {
     "Free patient parking",
     "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
   ],
-  phone: "+971 55 586 7466",
-  whatsapp: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
+  whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: "Monday - Sunday: 8:30 am to 11:30 pm",
   description: "",

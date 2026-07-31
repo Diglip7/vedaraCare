@@ -466,7 +466,7 @@ export const melasmaTreatmentFaqs = {
     },
     {
       question: "How do I book a melasma consultation?",
-      answer: "Three ways: (1) WhatsApp +971 55 586 7466 — fastest response, ideal for asking specific questions about your situation. (2) Call +971 55 586 7466 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: photos of your melasma at its worst if available, list of all products you are using, list of current medications including contraceptives, any previous treatment records, and your questions."
+      answer: "Three ways: (1) WhatsApp +971 55 573 6312 — fastest response, ideal for asking specific questions about your situation. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: photos of your melasma at its worst if available, list of all products you are using, list of current medications including contraceptives, any previous treatment records, and your questions."
     }
   ]
 };
@@ -484,7 +484,7 @@ export const melasmaTreatmentLocation = {
     "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road",
     "Serves JVC, JVT, Al Barsha South, Sports City, Motor City"
   ],
-  phone: "+971 55 586 7466",
+  phone: "+971 55 573 6312",
   whatsapp: "971555867466",
   email: "booking@vedaracare.ae",
   hours: "Monday - Sunday: 8:30 am to 11:30 pm",
