@@ -10,7 +10,7 @@ export const ayurvedicMassageJVCHero = {
   primaryCTA: "Book a Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "DHA-Licensed Practitioners",
     "Trained Kerala-Style Therapists",
@@ -131,7 +131,7 @@ export const ayurvedicMassageJVCFaqs = {
   title: "What patients ask before booking.",
   description: "Honest answers from our clinical team. For the deep version on any specific massage, follow the treatment-page link.",
   buttonText: "Ask the Team",
-  buttonHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20ask%20a%20question%20about%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20ask%20a%20question%20about%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.",
   faqs: [
     {
       question: "What is the most common type of Ayurvedic massage at your JVC clinic?",
@@ -179,7 +179,7 @@ export const ayurvedicMassageJVCFaqs = {
     },
     {
       question: "How do I book an Ayurvedic massage at your JVC clinic?",
-      answer: "You can book by tapping the 'Book a Consultation' button, via <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20book%20a%20consultation%20for%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp</a>, or by calling <a href=\"tel:+971555867466\" class=\"hover:underline\">our clinic directly</a>."
+      answer: "You can book by tapping the 'Book a Consultation' button, via <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20book%20a%20consultation%20for%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp</a>, or by calling <a href=\"tel:+971 55 573 6312\" class=\"hover:underline\">our clinic directly</a>."
     }
   ]
 };
@@ -213,7 +213,7 @@ export const ayurvedicMassageJVCCTA = {
   button1Text: "Book a Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.",
   subtext: "First consultation from AED 250 · Free patient parking · Walking distance from Circle Mall"
 };
 

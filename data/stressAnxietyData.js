@@ -10,7 +10,7 @@ export const stressAnxietyHero = {
   primaryCTA: "Book an Anxiety & Stress Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   floatingCard: {
     title: "WE DO NOT ASK YOU TO MEDITATE YOUR WAY OUT OF THIS.",
     subtitle: "Wellness culture often blames patients for not 'managing' their stress. Chronic anxiety is a clinical condition. We treat it as one."
@@ -274,7 +274,7 @@ export const stressAnxietyPrograms = {
       whatsappMessage: "Hi, I'd like to inquire about the Comprehensive 6-month Anxiety Programme at your JVC clinic in Dubai."
     }
   ],
-  footer: "Insurance direct-billing available with seven major insurers. Mental health coverage in Dubai insurance is increasing. <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us your insurance card</a> before booking to confirm coverage."
+  footer: "Insurance direct-billing available with seven major insurers. Mental health coverage in Dubai insurance is increasing. <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us your insurance card</a> before booking to confirm coverage."
 };
 
 export const stressAnxietyFaqs = {
@@ -367,11 +367,11 @@ export const stressAnxietyFaqs = {
     },
     {
       question: "Does insurance cover Ayurvedic mental health treatment in Dubai?",
-      answer: "Mental health coverage in Dubai insurance is increasing but remains inconsistent. Some plans cover Ayurvedic treatment when there is a clear medical indication. We are direct-billing partners with seven major insurers. <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us your insurance card photo</a> and we will confirm coverage before booking."
+      answer: "Mental health coverage in Dubai insurance is increasing but remains inconsistent. Some plans cover Ayurvedic treatment when there is a clear medical indication. We are direct-billing partners with seven major insurers. <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us your insurance card photo</a> and we will confirm coverage before booking."
     },
     {
       question: "How do I start?",
-      answer: "Always with an honest consultation. Tap \"Book an Anxiety & Stress Consultation\" on this page, WhatsApp us at <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">+971 55 573 6312</a>, or call <a href=\"tel:+971555867466\" class=\"hover:underline\">+971 55 573 6312</a>. If you are currently in mental health crisis, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the UAE Crisis Helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>) first — Ayurvedic treatment is not for crisis care. For chronic ongoing patterns, the 60-minute consultation includes thorough history, pattern identification, and a written treatment plan with realistic expectations."
+      answer: "Always with an honest consultation. Tap \"Book an Anxiety & Stress Consultation\" on this page, WhatsApp us at <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">+971 55 573 6312</a>, or call <a href=\"tel:+971 55 573 6312\" class=\"hover:underline\">+971 55 573 6312</a>. If you are currently in mental health crisis, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the UAE Crisis Helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>) first — Ayurvedic treatment is not for crisis care. For chronic ongoing patterns, the 60-minute consultation includes thorough history, pattern identification, and a written treatment plan with realistic expectations."
     }
   ]
 };
@@ -493,7 +493,7 @@ export const stressAnxietyVisitSectionData = {
   button1Text: "Book an Anxiety & Stress Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   alt: "Vedara Care stress and anxiety clinic location in Jumeirah Village Circle Dubai near Circle Mall",
   image: "/images/restorative-environment-vedara-jvc.webp",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
@@ -522,7 +522,7 @@ export const stressAnxietyCTA = {
   button1Text: "Book an Anxiety & Stress Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20stress%20and%20anxiety%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   bullets: [
     "Initial consultation from AED 450",
     "Walking distance from Circle Mall, JVC",

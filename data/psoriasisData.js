@@ -365,7 +365,7 @@ export const psoriasisPricing = {
     { name: "Comprehensive 6-month psoriasis management programme", price: "From AED [X]" },
     { name: "Comprehensive 12-month programme with systemic support", price: "From AED [X]" }
   ],
-  insuranceText: "Medical psoriasis treatment is covered by most Dubai insurance plans with appropriate medical justification. Biologic treatments often require prior authorisation. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href='https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Psoriasis%20treatment.' target='_blank' rel='noopener noreferrer' class='text-[#C9A55A] hover:text-[#B8963E] font-medium transition-colors underline'> WhatsApp your insurance card </a>before booking for specific coverage discussion including biologic coverage.",
+  insuranceText: "Medical psoriasis treatment is covered by most Dubai insurance plans with appropriate medical justification. Biologic treatments often require prior authorisation. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Psoriasis%20treatment.' target='_blank' rel='noopener noreferrer' class='text-[#C9A55A] hover:text-[#B8963E] font-medium transition-colors underline'> WhatsApp your insurance card </a>before booking for specific coverage discussion including biologic coverage.",
   insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
 };
 export const psoriasisLocation = {
@@ -402,7 +402,7 @@ export const psoriasisCTA = {
   button1BgColor: "rgb(184, 150, 90)",
   button1TextColor: "rgb(255, 255, 255)",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'm%20interested%20in%20Psoriasis%20treatment.%20Could%20you%20please%20provide%20more%20information?",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'm%20interested%20in%20Psoriasis%20treatment.%20Could%20you%20please%20provide%20more%20information?",
   button2BorderColor: "rgb(201, 165, 90)",
   button2TextColor: "rgb(201, 165, 90)",
   bullets: [
@@ -448,7 +448,7 @@ export const psoriasisFaqs = {
   title: "What patients ask about psoriasis treatment.",
   description: "For broader dermatology questions, see our dermatology clinic page.",
   primaryCtaText: "Ask Our Team on WhatsApp",
-  primaryCtaHref: "https://wa.me/971555867466?text=Hi,%20I'm%20interested%20in%20Psoriasis%20treatment.%20Could%20you%20please%20provide%20more%20information?",
+  primaryCtaHref: "https://wa.me/971555736312?text=Hi,%20I'm%20interested%20in%20Psoriasis%20treatment.%20Could%20you%20please%20provide%20more%20information?",
   secondaryCtaText: "Full dermatology clinic details →",
   secondaryCtaHref: "/dermatology-clinic-jvc/",
   faqs: [
@@ -490,7 +490,7 @@ export const psoriasisFaqs = {
     },
     {
       question: "Will insurance cover my psoriasis treatment?",
-      answer: "Most Dubai insurance plans cover medical psoriasis treatment with appropriate justification. Biologic treatments — highly effective but substantial cost — often require prior authorisation. Coverage varies by insurance plan and specific biologic. We are direct-billing partners with seven major insurers and support patients through authorisation processes. <a href='https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Psoriasis%20treatment.' target='_blank' rel='noopener noreferrer' class='text-[#C9A55A] hover:text-[#B8963E] font-medium transition-colors underline'> WhatsApp your insurance card</a> before booking for specific coverage discussion."
+      answer: "Most Dubai insurance plans cover medical psoriasis treatment with appropriate justification. Biologic treatments — highly effective but substantial cost — often require prior authorisation. Coverage varies by insurance plan and specific biologic. We are direct-billing partners with seven major insurers and support patients through authorisation processes. <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Psoriasis%20treatment.' target='_blank' rel='noopener noreferrer' class='text-[#C9A55A] hover:text-[#B8963E] font-medium transition-colors underline'> WhatsApp your insurance card</a> before booking for specific coverage discussion."
     },
     {
       question: "Are topical steroids safe for long-term use in psoriasis?",
@@ -530,7 +530,7 @@ export const psoriasisFaqs = {
     },
     {
       question: "How do I book a psoriasis consultation?",
-      answer: 'Three ways: <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for fastest response, call direct booking 9 AM to 9 PM seven days a week, or book online. For your first appointment please bring: photos of psoriasis at its worst if available, list of all treatments you have tried, list of current medications, insurance card, previous medical reports, and specific questions. Comprehensive first consultation supports informed treatment planning.'
+      answer: 'Three ways: <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for fastest response, call direct booking 9 AM to 9 PM seven days a week, or book online. For your first appointment please bring: photos of psoriasis at its worst if available, list of all treatments you have tried, list of current medications, insurance card, previous medical reports, and specific questions. Comprehensive first consultation supports informed treatment planning.'
     }
   ]
 };

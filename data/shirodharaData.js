@@ -10,7 +10,7 @@ export const shirodharaHero = {
   primaryCTA: "Book a Shirodhara Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Shirodhara%20treatments%20at%20your%20JVC%20clinic.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Shirodhara%20treatments%20at%20your%20JVC%20clinic.",
   trustSignals: ["Traditional Copper Dhara Vessel", "Doctor-Prescribed Medicated Oils", "Same-Gender Therapists Always", "From AED 450 per session"],
   floatingCard: {
     title: "BEYOND RELAXATION",
@@ -282,7 +282,7 @@ export const shirodharaFaqs = {
   title: "What patients ask before their first Shirodhara.",
   description: "For comparison with other Ayurvedic therapies, see our category guide. For Abhyanga (often combined with Shirodhara), see the Abhyanga page.",
   buttonText: "Ask the Team",
-  buttonHref: "https://wa.me/971555867466?text=Hi,%20I%20have%20a%20question%20about%20Shirodhara%20treatments%20at%20your%20clinic.",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20Shirodhara%20treatments%20at%20your%20clinic.",
   faqs: [
     {
       question: "What is Shirodhara in simple terms?",
@@ -349,7 +349,7 @@ export const shirodharaFinalCTA = {
   button1Text: "Book Shirodhara Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Shirodhara%20treatments%20at%20your%20JVC%20clinic.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Shirodhara%20treatments%20at%20your%20JVC%20clinic.",
   bullets: [
     "From AED 450 per session",
     "Same-gender therapists",

@@ -10,7 +10,7 @@ export const thyroidHero = {
   primaryCTA: "Book a Thyroid Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20thyroid%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20thyroid%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "We Work With Your Endocrinologist",
     "320+ Thyroid Patients Treated",
@@ -353,7 +353,7 @@ export const thyroidFaqs = {
   title: "Common questions about Ayurvedic thyroid treatment in Dubai.",
   description: `Short, honest answers from our clinical team. <br/><br/><strong>Further Reading:</strong><br/>• <a href="/treatments/panchakarma-dubai/" class="text-[#184C3A] hover:underline">Read about Panchakarma</a><br/>• <a href="/conditions/pcos-ayurveda-dubai/" class="text-[#184C3A] hover:underline">Read about Ayurveda for PCOS</a>`,
   buttonText: "Ask the Clinical Team",
-  buttonHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20ask%20a%20question%20about%20Ayurvedic%20thyroid%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20ask%20a%20question%20about%20Ayurvedic%20thyroid%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   faqs: [
     {
       question: "Can I stop my thyroid medication if I do Ayurvedic treatment?",
@@ -402,7 +402,7 @@ export const thyroidCTA = {
   button1Text: "Book Your Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20thyroid%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20thyroid%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   subtext: "Circle Mall, Jumeirah Village Circle (JVC), Dubai · DHA-Licensed · Open Sat-Thu 9am-8pm",
   button1Class: "bg-[#184C3A] text-white hover:bg-[#123a2c]",
   button2Class: "bg-[#4A7C59] text-white hover:bg-[#3d664a]"

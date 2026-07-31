@@ -9,7 +9,7 @@ export const physiotherapyHero = {
   primaryCTA: "Book a Physiotherapy Assessment",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20physiotherapy%20services%20in%20Dubai.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20physiotherapy%20services%20in%20Dubai.",
   trustSignals: [
     "DPT-qualified physiotherapists",
     "7 specialised treatment areas",
@@ -387,7 +387,7 @@ export const physiotherapyFaqs = {
   title: "What patients ask about physiotherapy in Dubai.",
   description: "For JVC-specific questions (parking, location, hours), see our JVC clinic page..",
   buttonText: "Ask Our Team on WhatsApp",
-  buttonHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20physiotherapy%20in%20Dubai.",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20physiotherapy%20in%20Dubai.",
   faqs: [
     {
       question: "How do I find the best physiotherapy clinic in Dubai?",
@@ -399,7 +399,7 @@ export const physiotherapyFaqs = {
     },
     {
       question: "Does Dubai insurance cover physiotherapy?",
-      answer: 'Most plans cover physiotherapy when there is medical justification. Coverage varies significantly: annual session limits, copay percentages, referral requirements, and pre-authorisation requirements all differ across plans. Direct-billing arrangements depend on clinic-insurer relationships. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20physiotherapy.">+971 55 573 6312</a> for specific coverage confirmation before booking multi-session programmes.'
+      answer: 'Most plans cover physiotherapy when there is medical justification. Coverage varies significantly: annual session limits, copay percentages, referral requirements, and pre-authorisation requirements all differ across plans. Direct-billing arrangements depend on clinic-insurer relationships. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20physiotherapy.">+971 55 573 6312</a> for specific coverage confirmation before booking multi-session programmes.'
     },
     {
       question: "Do I need a referral to see a physiotherapist in Dubai?",
@@ -465,11 +465,11 @@ export const physiotherapyFaqs = {
     },
     {
       question: "How quickly can I get an appointment in Dubai?",
-      answer: "At Vedara Care, typically same-day or next-day for new patients, with priority booking for acute injuries within 24 hours when possible. Saturday and evening slots available. WhatsApp <a href='https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20appointment.'>+971 55 573 6312</a> for fastest response. Across Dubai's market, scheduling availability varies enormously — busy clinics may have 1-2 week waits, less busy clinics offer same-day."
+      answer: "At Vedara Care, typically same-day or next-day for new patients, with priority booking for acute injuries within 24 hours when possible. Saturday and evening slots available. WhatsApp <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20appointment.'>+971 55 573 6312</a> for fastest response. Across Dubai's market, scheduling availability varies enormously — busy clinics may have 1-2 week waits, less busy clinics offer same-day."
     },
     {
       question: "How do I book a physiotherapy assessment?",
-      answer: "Three ways at Vedara Care: WhatsApp <a href='https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20assessment.'>+971 55 573 6312</a> for fastest response (typically within 15 minutes business hours), call +971 55 573 6312 (Monday to Sunday, 8:30 AM to 11:30 PM), or book online. For your first appointment, bring or send: any relevant imaging (X-rays, MRI), medical reports, current medication list, and insurance card if applicable."
+      answer: "Three ways at Vedara Care: WhatsApp <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20assessment.'>+971 55 573 6312</a> for fastest response (typically within 15 minutes business hours), call +971 55 573 6312 (Monday to Sunday, 8:30 AM to 11:30 PM), or book online. For your first appointment, bring or send: any relevant imaging (X-rays, MRI), medical reports, current medication list, and insurance card if applicable."
     }
 
 
@@ -527,9 +527,9 @@ export const physiotherapyInsurance = {
   ],
   insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
   sidebarText: [
-    '<a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20physiotherapy.">971 55 586 7466</a> before booking to confirm specific coverage.'
+    '<a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20physiotherapy.">+971 55 573 6312</a> before booking to confirm specific coverage.'
   ],
-  whatsappNumber: "971555867466"
+  whatsappNumber: "971555736312"
 };
 
 export const physiotherapyPricing = {
@@ -643,7 +643,7 @@ export const physiotherapyFinalCTA = {
   button1Text: "Book a Physiotherapy Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20physiotherapy%20services%20in%20Dubai.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20physiotherapy%20services%20in%20Dubai.",
   button1BgColor: "#1A4D2E",
   button2BgColor: "#22C55E",
   button2TextColor: "#22C55E",

@@ -116,7 +116,7 @@ const AyurvedaPricing = () => {
               </ul>
 
               <a 
-                href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20enquire%20about%20Ayurveda%20pricing%20and%20book%20a%20consultation."
+                href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20enquire%20about%20Ayurveda%20pricing%20and%20book%20a%20consultation."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-10 border border-[#D8D1C7] rounded-full py-4 flex items-center justify-center gap-2 text-[14px] font-sans font-medium hover:bg-white transition">
@@ -145,7 +145,7 @@ const AyurvedaPricing = () => {
           </div>
 
           <p className="mt-6 text-[13px] text-[#6B6B6B] font-sans max-w-md mx-auto">
-            Ayurveda coverage varies by plan. <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Ayurveda." target="_blank" rel="noopener noreferrer" className="underline hover:text-[#C9A961] transition-colors">WhatsApp us your card</a> and we will
+            Ayurveda coverage varies by plan. <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Ayurveda." target="_blank" rel="noopener noreferrer" className="underline hover:text-[#C9A961] transition-colors">WhatsApp us your card</a> and we will
             confirm before booking.
           </p>
         </div>

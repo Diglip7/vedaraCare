@@ -9,7 +9,7 @@ const CTA = ({
   button1Text = "Book a Consultation",
   button2Text = "Chat on WhatsApp",
   button1Href = "/book",
-  button2Href = "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20treatments%20and%20book%20a%20consultation.%20Please%20assist%20me.",
+  button2Href = "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20treatments%20and%20book%20a%20consultation.%20Please%20assist%20me.",
   subtext = "Typical reply time under 15 minutes during clinic hours",
   button1Class = "bg-[#184C3A] text-white hover:bg-[#123a2c]",
   button2Class = "bg-[#4A7C59] text-white hover:bg-[#3d664a]"

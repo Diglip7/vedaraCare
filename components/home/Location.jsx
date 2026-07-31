@@ -31,7 +31,7 @@ const Location = ({
   parkingText = "Free covered parking available for patients",
   tags = ["5 min from JSS School", "3 min from FIVE JVC", "Next to Circle Mall"],
   buttonText = "Book Your Visit",
-  buttonHref = "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20visit%20to%20your%20clinic."
+  buttonHref = "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20visit%20to%20your%20clinic."
 }) => {
   return (
     <section className={`${bgColor} py-24 px-6`}>

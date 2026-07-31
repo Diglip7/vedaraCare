@@ -207,7 +207,7 @@ export const manualTherapyFaqs = {
     },
     {
       question: "How do I book a manual therapy assessment?",
-      answer: "Three ways: (1) <a href=\"https://wa.me/971555867466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp +971 55 573 6312</a> — fastest response, ideal for asking specific questions about whether manual therapy would help your situation. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any relevant medical reports, imaging if available, current medication list, insurance card, and comfortable clothing allowing assessment of the affected area."
+      answer: "Three ways: (1) <a href=\"https://wa.me/971555736312\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp +971 55 573 6312</a> — fastest response, ideal for asking specific questions about whether manual therapy would help your situation. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any relevant medical reports, imaging if available, current medication list, insurance card, and comfortable clothing allowing assessment of the affected area."
     }
   ]
 };
@@ -241,7 +241,7 @@ export const manualTherapyFinalCTA = {
   button1Text: "Book Manual Therapy Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20manual%20therapy%20and%20book%20a%20consultation.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20manual%20therapy%20and%20book%20a%20consultation.",
   footer: "Initial assessment from AED 380 • Walking distance from Circle Mall, JVC • 500+ manual therapy patients treated • Certified specialists • Evidence-based techniques • Insurance direct-billing"
 };
 
@@ -534,6 +534,6 @@ export const manualTherapyPricing = {
     { name: 'Sciatica McKenzie programme (6-8 sessions)', price: 'AED 1,900', bg: 'rgb(255, 255, 255)' },
     { name: 'Sports injury manual therapy programme (variable)', price: 'From AED 2,200', bg: 'rgb(250, 247, 242)' }
   ],
-  insuranceNote: 'Insurance direct-billing with seven major insurers. Manual therapy is part of standard physiotherapy benefits — coverage typically included without separate authorisation. Extended programmes may require pre-authorisation, which we handle on your behalf. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking for specific coverage confirmation.',
+  insuranceNote: 'Insurance direct-billing with seven major insurers. Manual therapy is part of standard physiotherapy benefits — coverage typically included without separate authorisation. Extended programmes may require pre-authorisation, which we handle on your behalf. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking for specific coverage confirmation.',
   insurers: ['Daman', 'AXA', 'Allianz', 'Oman Insurance', 'Now Health', 'Bupa', 'MetLife']
 };

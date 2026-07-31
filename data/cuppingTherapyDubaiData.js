@@ -9,7 +9,7 @@ export const cuppingTherapyHero = {
   description: "Specialist cupping therapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. We offer dry cupping (static and dynamic), massage cupping, and where applicable Hijama (wet cupping) — each with distinct applications and traditions. DHA-licensed practitioners, sterile single-use equipment, transparent about evidence and limitations, with deep cultural respect for Hijama's significance in Islamic tradition.",
   primaryCTA: "Book Cupping Assessment",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20cupping%20therapy%20and%20book%20a%20consultation.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20cupping%20therapy%20and%20book%20a%20consultation.",
   trustSignals: [
     "DHA-licensed practitioners",
     "Sterile single-use equipment",
@@ -129,7 +129,7 @@ export const cuppingTherapyFaqs = {
     },
     {
       question: "Do you offer Hijama?",
-      answer: 'Yes — Hijama is available at our clinic, performed with sterile single-use equipment and complete respect for both clinical safety and religious significance. We can accommodate traditional Sunnah days for scheduling. <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Hijama%20scheduling." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for specific availability and scheduling.'
+      answer: 'Yes — Hijama is available at our clinic, performed with sterile single-use equipment and complete respect for both clinical safety and religious significance. We can accommodate traditional Sunnah days for scheduling. <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Hijama%20scheduling." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for specific availability and scheduling.'
     },
     {
       question: "Does cupping hurt?",
@@ -197,7 +197,7 @@ export const cuppingTherapyFaqs = {
     },
      {
       question: "How do I book a cupping appointment?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20cupping%20appointment." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for asking specific questions about which type of cupping would suit you. (2) Call <a href="tel:+971555867466" class="hover:underline">+971 55 573 6312</a> — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For Hijama specifically, inquire about availability and Sunnah days scheduling. Please bring: any relevant medical reports, current medication list, insurance card if applicable, and comfortable clothing allowing access to treatment areas.'
+      answer: 'Three ways: (1) <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20cupping%20appointment." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for asking specific questions about which type of cupping would suit you. (2) Call <a href="tel:+971 55 573 6312" class="hover:underline">+971 55 573 6312</a> — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For Hijama specifically, inquire about availability and Sunnah days scheduling. Please bring: any relevant medical reports, current medication list, insurance card if applicable, and comfortable clothing allowing access to treatment areas.'
     },
     
   ]
@@ -232,7 +232,7 @@ export const cuppingTherapyFinalCTA = {
   button1Text: "Book Cupping Assessment",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20cupping%20therapy%20and%20book%20a%20consultation.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20cupping%20therapy%20and%20book%20a%20consultation.",
   footer: "Sessions from AED 250 · Walking distance from Circle Mall, JVC · 400+ cupping treatments delivered · DHA-licensed practitioners · Sterile single-use equipment · Cultural and religious respect"
 };
 
@@ -412,7 +412,7 @@ export const cuppingTherapyHijama = {
       }
     ],
     buttonText: "WhatsApp for Hijama Inquiry",
-    buttonHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Hijama%20cupping%20therapy."
+    buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Hijama%20cupping%20therapy."
   }
 };
 
@@ -558,6 +558,6 @@ export const cuppingTherapyPricing = {
     { name: "Chronic pain cupping programme (6 sessions)", price: "AED 1,200", bg: "#FAF7F2" },
     { name: "Cupping integrated into physiotherapy programme (variable)", price: "From AED 1,500", bg: "#FFFFFF" }
   ],
-  insuranceNote: "Insurance coverage for cupping varies by plan and condition — many insurance plans do not cover cupping as standalone treatment but may cover it when integrated with physiotherapy treatment for specific conditions. Hijama is typically not covered by insurance plans. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife for physiotherapy services. <a href=\"https://wa.me/971555867466\" style=\"color: #C9A84C; text-decoration: underline; font-weight: 600;\">WhatsApp for coverage discussion</a>.",
+  insuranceNote: "Insurance coverage for cupping varies by plan and condition — many insurance plans do not cover cupping as standalone treatment but may cover it when integrated with physiotherapy treatment for specific conditions. Hijama is typically not covered by insurance plans. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife for physiotherapy services. <a href=\"https://wa.me/971555736312\" style=\"color: #C9A84C; text-decoration: underline; font-weight: 600;\">WhatsApp for coverage discussion</a>.",
   insurers: []
 };

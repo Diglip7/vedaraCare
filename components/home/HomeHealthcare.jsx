@@ -17,7 +17,7 @@ const HomeHealthcare = ({
     "Elderly Care"
   ],
   button1Text = "Request a Home Visit",
-  button1Href = "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20request%20a%20home%20visit%20for%20home%20healthcare%20services.",
+  button1Href = "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20request%20a%20home%20visit%20for%20home%20healthcare%20services.",
   button2Text = "Learn More",
   button2Href = "/physiotherapy-at-home-dubai",
   footer = "Typical response time within JVC: 30 to 60 minutes"

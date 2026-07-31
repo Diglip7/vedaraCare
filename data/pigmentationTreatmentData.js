@@ -43,7 +43,7 @@ export const pigmentationHowItWorks = {
     }
   ],
   linkText: "Skip the guidance and book a consultation directly",
-  linkHref: "https://wa.me/971555867466?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20pigmentation%20consultation%20at%20Vedara%20Care%20Polyclinic."
+  linkHref: "https://wa.me/971555736312?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20pigmentation%20consultation%20at%20Vedara%20Care%20Polyclinic."
 };
 
 export const pigmentationWhenToSeeSpecialist = {
@@ -115,7 +115,7 @@ export const pigmentationWhenToSeeSpecialist = {
       }
     ],
     buttonText: "Book Consultation",
-    buttonHref: "https://wa.me/971555867466?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20pigmentation%20consultation%20at%20Vedara%20Care%20Polyclinic."
+    buttonHref: "https://wa.me/971555736312?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20pigmentation%20consultation%20at%20Vedara%20Care%20Polyclinic."
   }
 };
 
@@ -125,7 +125,7 @@ export const pigmentationCTA = {
   title: "Whether you know your pigmentation type or need expert assessment — start where you are.",
   description: "If reading this page has helped you identify your pigmentation type and you want detailed information, follow the routing to the specific page for your situation. If you'd prefer expert guidance from the start, book a consultation directly — our consultant dermatologists provide comprehensive assessment regardless of how clearly you can articulate your concerns. Accurate diagnosis is the foundation of effective pigmentation treatment.",
   button1Text: "Book Pigmentation Consultation",
-  button1Href: "https://wa.me/971555867466?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20pigmentation%20consultation%20at%20Vedara%20Care%20Polyclinic.",
+  button1Href: "https://wa.me/971555736312?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20pigmentation%20consultation%20at%20Vedara%20Care%20Polyclinic.",
   button2Text: "Read Detailed Dermatology Information",
   button2Href: "/dermatology-clinic-jvc/",
   footer: "Initial consultation from AED 350 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · All skin types · Multiple languages · Female and male dermatologists"
@@ -220,7 +220,7 @@ export const pigmentationConcernSelector = {
       howToRecognise: "Dark areas on body, often in folds or friction areas",
       commonIn: "Many demographics, particularly women with preferences for even body tone",
       linkText: "Book consultation for body pigmentation →",
-      linkHref: "https://wa.me/971555867466?text=Hi%2C%20I%27m%20interested%20in%20a%20discreet%20consultation%20for%20body%20pigmentation%20at%20Vedara%20Care%20Polyclinic."
+      linkHref: "https://wa.me/971555736312?text=Hi%2C%20I%27m%20interested%20in%20a%20discreet%20consultation%20for%20body%20pigmentation%20at%20Vedara%20Care%20Polyclinic."
     },
     {
       number: "06",
@@ -231,7 +231,7 @@ export const pigmentationConcernSelector = {
       howToRecognise: "White or lighter patches rather than dark patches",
       commonIn: "Various demographics; vitiligo affects approximately 1% of population",
       linkText: "Book consultation for vitiligo →",
-      linkHref: "https://wa.me/971555867466?text=Hi%2C%20I%27m%20interested%20in%20a%20consultation%20for%20vitiligo%20or%20hypopigmentation%20at%20Vedara%20Care%20Polyclinic."
+      linkHref: "https://wa.me/971555736312?text=Hi%2C%20I%27m%20interested%20in%20a%20consultation%20for%20vitiligo%20or%20hypopigmentation%20at%20Vedara%20Care%20Polyclinic."
     },
     {
       number: "07",
@@ -242,7 +242,7 @@ export const pigmentationConcernSelector = {
       howToRecognise: "Pigmentation onset associated with specific medications or procedures",
       commonIn: "Patients on specific medications; patients with adverse procedural outcomes",
       linkText: "Book consultation for assessment →",
-      linkHref: "https://wa.me/971555867466?text=Hi%2C%20I%27m%20interested%20in%20a%20consultation%20for%20drug-induced%20or%20post-procedural%20pigmentation%20at%20Vedara%20Care%20Polyclinic."
+      linkHref: "https://wa.me/971555736312?text=Hi%2C%20I%27m%20interested%20in%20a%20consultation%20for%20drug-induced%20or%20post-procedural%20pigmentation%20at%20Vedara%20Care%20Polyclinic."
     },
     {
       number: "08",
@@ -253,7 +253,7 @@ export const pigmentationConcernSelector = {
       howToRecognise: "Multiple pigmentation patterns or uncertainty about specific type",
       commonIn: "Patients with complex pigmentation history",
       linkText: "Book consultation for assessment →",
-      linkHref: "https://wa.me/971555867466?text=Hi%2C%20I%27m%20interested%20in%20a%20comprehensive%20consultation%20for%20multiple%20or%20unclear%20pigmentation%20concerns%20at%20Vedara%20Care%20Polyclinic."
+      linkHref: "https://wa.me/971555736312?text=Hi%2C%20I%27m%20interested%20in%20a%20comprehensive%20consultation%20for%20multiple%20or%20unclear%20pigmentation%20concerns%20at%20Vedara%20Care%20Polyclinic."
     }
   ]
 };
@@ -269,7 +269,7 @@ export const pigmentationWhatToExpect = {
   ],
   primaryButton: {
     text: "Book Consultation",
-    href: "https://wa.me/971555867466?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20pigmentation%20consultation%20at%20Vedara%20Care%20Polyclinic."
+    href: "https://wa.me/971555736312?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20pigmentation%20consultation%20at%20Vedara%20Care%20Polyclinic."
   },
   secondaryButton: {
     text: "Read full consultation details on our dermatology page",
@@ -316,7 +316,7 @@ export const pigmentationPricing = {
   ],
   linkText: "Complete pricing for melasma treatment on our melasma page →",
   linkHref: "/conditions/melasma-treatment-dubai/#pricing",
-  insuranceText: 'Most cosmetic pigmentation treatment is not covered by insurance. Medical aspects of pigmentation evaluation may be covered with appropriate justification. <a href="https://wa.me/971555867466?text=Hi%2C%20I%20have%20questions%20about%20insurance%20coverage%20for%20pigmentation%20treatment%20at%20Vedara%20Care." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage questions.'
+  insuranceText: 'Most cosmetic pigmentation treatment is not covered by insurance. Medical aspects of pigmentation evaluation may be covered with appropriate justification. <a href="https://wa.me/971555736312?text=Hi%2C%20I%20have%20questions%20about%20insurance%20coverage%20for%20pigmentation%20treatment%20at%20Vedara%20Care." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage questions.'
 };
 
 export const pigmentationFaqs = {
@@ -379,16 +379,16 @@ export const pigmentationFaqs = {
     },
     {
       question: "Will insurance cover pigmentation treatment?",
-      answer: 'Most cosmetic pigmentation treatment is considered cosmetic by Dubai insurance plans and not covered. Some elements may be covered with appropriate medical justification: initial consultation, evaluation of concerning lesions, specific medical conditions affecting pigmentation. Treatment programmes for cosmetic improvement typically self-pay. <a href="https://wa.me/971555867466?text=Hi%2C%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20pigmentation%20treatment%20at%20Vedara%20Care." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking for specific coverage discussion.'
+      answer: 'Most cosmetic pigmentation treatment is considered cosmetic by Dubai insurance plans and not covered. Some elements may be covered with appropriate medical justification: initial consultation, evaluation of concerning lesions, specific medical conditions affecting pigmentation. Treatment programmes for cosmetic improvement typically self-pay. <a href="https://wa.me/971555736312?text=Hi%2C%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20pigmentation%20treatment%20at%20Vedara%20Care." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking for specific coverage discussion.'
     },
     {
       question: "How do I book a pigmentation consultation?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20inquire%20about%20pigmentation%20treatment%20options." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for asking specific questions about your situation. (2) Call our number — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring photos of your pigmentation if helpful, a list of treatments already tried, list of current medications, and any previous medical reports.'
+      answer: 'Three ways: (1) <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20inquire%20about%20pigmentation%20treatment%20options." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for asking specific questions about your situation. (2) Call our number — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring photos of your pigmentation if helpful, a list of treatments already tried, list of current medications, and any previous medical reports.'
     }
   ],
   buttonText: "Ask Our Team on WhatsApp",
   primaryCtaText: "Ask Our Team on WhatsApp",
-  primaryCtaHref: "https://wa.me/971555867466?text=Hi%2C%20I%27d%20like%20to%20ask%20a%20question%20about%20pigmentation%20treatment%20at%20Vedara%20Care%20Polyclinic.",
+  primaryCtaHref: "https://wa.me/971555736312?text=Hi%2C%20I%27d%20like%20to%20ask%20a%20question%20about%20pigmentation%20treatment%20at%20Vedara%20Care%20Polyclinic.",
   secondaryCtaText: "Melasma treatment details →",
   secondaryCtaHref: "/conditions/melasma-treatment-dubai/",
   sidebarLinks: [
@@ -411,7 +411,7 @@ export const pigmentationTreatmentLocation = {
     "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
   ],
   phone: "+971 55 573 6312",
-  whatsapp: "971555867466",
+  whatsapp: "971555736312",
   email: "booking@vedaracare.ae",
   hours: {
     monday: "8:30 am to 11:30 pm",

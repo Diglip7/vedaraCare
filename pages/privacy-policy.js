@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
           <div>
             <h2 className="text-2xl font-bold font-serif mb-3">4. Contact Us</h2>
             <p className="text-gray-700 text-sm md:text-base">
-              For any questions regarding your data or to request record updates, please reach out to <a href="mailto:booking@vedaracare.ae" className="text-[#D4A373] underline font-semibold">booking@vedaracare.ae</a> or call <a href="tel:+971555867466" className="text-[#D4A373] underline font-semibold">+971 55 573 6312</a>.
+              For any questions regarding your data or to request record updates, please reach out to <a href="mailto:booking@vedaracare.ae" className="text-[#D4A373] underline font-semibold">booking@vedaracare.ae</a> or call <a href="tel:+971 55 573 6312" className="text-[#D4A373] underline font-semibold">+971 55 573 6312</a>.
             </p>
           </div>
         </div>

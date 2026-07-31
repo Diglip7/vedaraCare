@@ -34,7 +34,7 @@ export default async function handler(req, res) {
       (preferredTime ? `• *Time Window:* ${preferredTime}\n` : '') +
       (message ? `• *Details:* ${message}\n` : '');
 
-    const whatsappUrl = `https://wa.me/971555867466?text=${encodeURIComponent(waMessageText)}`;
+    const whatsappUrl = `https://wa.me/971555736312?text=${encodeURIComponent(waMessageText)}`;
 
     // Try saving to Database if connected
     let savedInDb = false;

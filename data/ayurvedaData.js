@@ -11,7 +11,7 @@ export const ayurvedaHero = {
   primaryCTA: "Book an Ayurvedic Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.",
   trustSignals: [
     "DHA-Licensed Practitioners",
     "BAMS-Qualified Doctors",
@@ -145,7 +145,7 @@ export const ayurvedaFaqs = {
   bgColor: "bg-[#FAF8F1]",
   label: "AYURVEDA QUESTIONS",
   title: "Honest answers about Ayurveda in Dubai.",
-  description: "Real questions our JVC patients ask before their first visit. If yours is not here, <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">WhatsApp us</a> — usually replied to within 15 minutes.",
+  description: "Real questions our JVC patients ask before their first visit. If yours is not here, <a href=\"https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">WhatsApp us</a> — usually replied to within 15 minutes.",
   buttonText: "Ask Our Ayurveda Team",
   faqs: [
     {
@@ -182,7 +182,7 @@ export const ayurvedaFaqs = {
     },
     {
       question: "Does insurance cover Ayurveda in Dubai?",
-      answer: "Some insurance plans cover Ayurveda, others do not. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife, but Ayurveda coverage varies plan by plan. Send us a photo of your insurance card <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Ayurveda.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">on WhatsApp</a> and we will confirm your specific coverage before you book."
+      answer: "Some insurance plans cover Ayurveda, others do not. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife, but Ayurveda coverage varies plan by plan. Send us a photo of your insurance card <a href=\"https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Ayurveda.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">on WhatsApp</a> and we will confirm your specific coverage before you book."
     },
     {
       question: "Do you offer male and female therapists?",
@@ -194,7 +194,7 @@ export const ayurvedaFaqs = {
     },
     {
       question: "How do I book an Ayurveda consultation?",
-      answer: "Three ways: tap Book a Consultation anywhere on this page for live calendar availability, <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20consultation.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">WhatsApp us at +971 55 573 6312</a> for the fastest response (usually under 15 minutes during clinic hours), or <a href=\"tel:+971555867466\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">call us at +971 55 573 6312</a> to speak with our team."
+      answer: "Three ways: tap Book a Consultation anywhere on this page for live calendar availability, <a href=\"https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20consultation.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">WhatsApp us at +971 55 573 6312</a> for the fastest response (usually under 15 minutes during clinic hours), or <a href=\"tel:+971 55 573 6312\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">call us at +971 55 573 6312</a> to speak with our team."
     }
   ]
 };
@@ -480,7 +480,7 @@ export const ayurvedaLocation = {
   parkingText: "Free covered parking for patients",
   tags: ["Next to Circle Mall", "5 min from FIVE JVC Hotel", "15 mins from JLT/Marina", "Free covered parking"],
   buttonText: "Book Your Ayurvedic Visit",
-  buttonHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20visit."
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20visit."
 };
 
 export const ayurvedaCTA = {
@@ -491,7 +491,7 @@ export const ayurvedaCTA = {
   button1Text: "Book an Ayurveda Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.",
   subtext: "First consultation from AED [price] · Typical WhatsApp reply under 15 minutes"
 };
 
@@ -508,7 +508,7 @@ export const dubaiHubHero = {
   primaryCTA: "Book an Ayurvedic Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Ayurvedic%20treatments.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Ayurvedic%20treatments.",
   trustSignals: [
     "DHA-Licensed Ayurveda Practice",
     "BAMS-Qualified Physicians",
@@ -657,7 +657,7 @@ export const dubaiHubFaqs = {
   title: "The most asked questions about Ayurvedic treatment in Dubai.",
   description: "Honest answers from our DHA-licensed clinical team. For JVC-specific practical details, see our <a href=\"/treatments/panchakarma-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Panchakarma in JVC guide</a>.",
   buttonText: "Ask the Ayurvedic Team",
-  buttonHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.",
   faqs: [
     {
       question: "Is Ayurvedic treatment legal and regulated in Dubai?",
@@ -677,7 +677,7 @@ export const dubaiHubFaqs = {
     },
     {
       question: "Does insurance cover Ayurveda in Dubai?",
-      answer: "Some Dubai insurance plans cover Ayurveda — most commonly Daman, AXA, Now Health, and certain Allianz tiers. Coverage varies enormously by plan. Vedara Care is a direct-billing partner with seven major insurers. Send a photo of your insurance card <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Ayurveda.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">on WhatsApp</a> before booking and our team will confirm your exact coverage."
+      answer: "Some Dubai insurance plans cover Ayurveda — most commonly Daman, AXA, Now Health, and certain Allianz tiers. Coverage varies enormously by plan. Vedara Care is a direct-billing partner with seven major insurers. Send a photo of your insurance card <a href=\"https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Ayurveda.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">on WhatsApp</a> before booking and our team will confirm your exact coverage."
     },
     {
       question: "How long does Ayurvedic treatment take to show results?",
@@ -705,7 +705,7 @@ export const dubaiHubFaqs = {
     },
     {
       question: "How do I start with Ayurvedic treatment in Dubai?",
-      answer: "Begin with a consultation, not a treatment. A first Ayurvedic consultation is a diagnostic conversation — your doctor will assess your dosha, review your symptoms, and recommend a treatment plan. You decide whether to proceed. At Vedara Care, you can book a consultation using any Book a Consultation button on this page, <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20consultation.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">on WhatsApp at +971 55 573 6312</a>, or by <a href=\"tel:+971555867466\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">calling +971 55 573 6312</a>."
+      answer: "Begin with a consultation, not a treatment. A first Ayurvedic consultation is a diagnostic conversation — your doctor will assess your dosha, review your symptoms, and recommend a treatment plan. You decide whether to proceed. At Vedara Care, you can book a consultation using any Book a Consultation button on this page, <a href=\"https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20Ayurvedic%20consultation.\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">on WhatsApp at +971 55 573 6312</a>, or by <a href=\"tel:+971 55 573 6312\" style=\"text-decoration: underline; color: #C9A961; transition: color 0.3s;\" onMouseOver=\"this.style.color='#1A1A1A'\" onMouseOut=\"this.style.color='#C9A961'\">calling +971 55 573 6312</a>."
     }
   ]
 };
@@ -718,7 +718,7 @@ export const dubaiHubCTA = {
   button1Text: "Book a Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Ayurvedic%20treatments.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Ayurvedic%20treatments.",
   subtext: "First consultations from AED 350 · Typical WhatsApp reply under 15 minutes"
 };
 

@@ -218,7 +218,7 @@ export const skinClinicPricing = {
     { name: "Aesthetic treatments (botulinum toxin, fillers, lasers)", price: "AED [X]" }
   ],
   footerText: "Complete pricing details available on our dermatology clinic page →",
-  insuranceText: 'Insurance covers medical dermatology with appropriate justification. Cosmetic treatments typically self-pay. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage questions.'
+  insuranceText: 'Insurance covers medical dermatology with appropriate justification. Cosmetic treatments typically self-pay. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage questions.'
 };
 
 export const skinClinicFaqs = {
@@ -231,7 +231,7 @@ export const skinClinicFaqs = {
   title: "Questions patients ask when exploring skin care options.",
   description: "For specific procedural and clinical questions, see our dermatology clinic page.",
   primaryCtaText: "Ask Our Team on WhatsApp",
-  primaryCtaHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20skin%20care%20and%20book%20a%20consultation.",
+  primaryCtaHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20skin%20care%20and%20book%20a%20consultation.",
   secondaryCtaText: "Full dermatology clinic details →",
   secondaryCtaHref: "/dermatology-clinic-jvc",
   faqs: [
@@ -285,7 +285,7 @@ export const skinClinicFaqs = {
     },
     {
       question: "How quickly can I be seen?",
-      answer: 'Standard appointments typically within 1–2 weeks. Urgent concerns (suspicious lesions, severe acute presentations) often accommodated within 2–3 days. Pre-event preparation appointments depend on event timing. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for fastest response on current availability.'
+      answer: 'Standard appointments typically within 1–2 weeks. Urgent concerns (suspicious lesions, severe acute presentations) often accommodated within 2–3 days. Pre-event preparation appointments depend on event timing. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for fastest response on current availability.'
     },
     {
       question: "What if I have already had treatments elsewhere that did not produce good results?",

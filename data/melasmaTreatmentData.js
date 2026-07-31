@@ -229,7 +229,7 @@ export const melasmaTreatmentCTA = {
   button1Text: "Book Melasma Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20inquire%20about%20melasma%20treatment%20options%20and%20book%20a%20consultation.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20inquire%20about%20melasma%20treatment%20options%20and%20book%20a%20consultation.",
   footer: "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 400+ melasma patients treated · All Fitzpatrick skin types · Female and male dermatologists · Multiple languages"
 };
 
@@ -370,7 +370,7 @@ export const melasmaTreatmentPricing = {
     { name: "Maintenance treatment (6 months)", price: "From AED 3,500" },
     { name: "Premium broad-spectrum sunscreen SPF 50+ (patient product)", price: "From AED 180" }
   ],
-  insuranceText: 'Most melasma treatment is considered cosmetic by Dubai insurance plans and not covered. Some elements (medical consultations, hormonal workup, specific medications) may be covered with appropriate justification. <a href="https://wa.me/971555867466?text=Hi%2C%20I%20have%20questions%20about%20insurance%20coverage%20for%20melasma%20treatment%20at%20Vedara%20Care." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage discussion. Comprehensive treatment programmes provide better value than individual session pricing for committed patients.',
+  insuranceText: 'Most melasma treatment is considered cosmetic by Dubai insurance plans and not covered. Some elements (medical consultations, hormonal workup, specific medications) may be covered with appropriate justification. <a href="https://wa.me/971555736312?text=Hi%2C%20I%20have%20questions%20about%20insurance%20coverage%20for%20melasma%20treatment%20at%20Vedara%20Care." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage discussion. Comprehensive treatment programmes provide better value than individual session pricing for committed patients.',
   insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
 };
 
@@ -384,7 +384,7 @@ export const melasmaTreatmentFaqs = {
   title: "What patients ask about melasma treatment.",
   description: "For broader dermatology questions, see our dermatology clinic page",
   primaryCtaText: "Ask Our Team on WhatsApp",
-  primaryCtaHref: "https://wa.me/971555867466?text=Hi%2C%20I%27d%20like%20to%20ask%20a%20question%20about%20melasma%20treatment%20at%20Vedara%20Care%20Polyclinic.",
+  primaryCtaHref: "https://wa.me/971555736312?text=Hi%2C%20I%27d%20like%20to%20ask%20a%20question%20about%20melasma%20treatment%20at%20Vedara%20Care%20Polyclinic.",
   secondaryCtaText: "Full dermatology clinic details →",
   secondaryCtaHref: "/dermatology-clinic-jvc/",
   faqs: [
@@ -485,7 +485,7 @@ export const melasmaTreatmentLocation = {
     "Serves JVC, JVT, Al Barsha South, Sports City, Motor City"
   ],
   phone: "+971 55 573 6312",
-  whatsapp: "971555867466",
+  whatsapp: "971555736312",
   email: "booking@vedaracare.ae",
   hours: "Monday - Sunday: 8:30 am to 11:30 pm",
   description: "Our JVC clinic has dedicated dermatology consultation rooms equipped for Wood's lamp examination and dermoscopy, specialised treatment rooms for chemical peels and laser procedures, comfortable patient experience, and a discreet environment important for patients sensitive about facial pigmentation. Walking distance from Circle Mall — easy access from JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai.",

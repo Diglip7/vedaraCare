@@ -8,7 +8,7 @@ const Hero = ({
   primaryCTA = "Book Appointment",
   primaryCTAHref = "/book",
   secondaryCTA = "WhatsApp Now",
-  secondaryCTAHref = "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20your%20treatments%20and%20book%20a%20consultation.",
+  secondaryCTAHref = "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20your%20treatments%20and%20book%20a%20consultation.",
   image = "/images/home.jpg",
   badges = [
     { label: "DHA Licensed", type: "shield" },

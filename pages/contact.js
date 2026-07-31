@@ -81,7 +81,7 @@ export default function Contact() {
       setSubmissionResponse({
         success: true,
         referenceId: fallbackRef,
-        whatsappUrl: `https://wa.me/971555867466?text=${waText}`
+        whatsappUrl: `https://wa.me/971555736312?text=${waText}`
       });
       setIsSubmitting(false);
       setIsSubmitted(true);
@@ -247,7 +247,7 @@ export default function Contact() {
                     Have a quick question or need to send insurance documents? Reach our reception team instantly on WhatsApp.
                   </p>
                   <a
-                    href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                    href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20your%20services."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full bg-[#25D366] hover:bg-[#20bd5b] text-white py-3.5 px-6 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-green-500/20"
@@ -274,7 +274,7 @@ export default function Contact() {
                 <h4 className="text-lg font-serif font-medium text-[#1A1A1A] mb-1">+971 55 573 6312</h4>
                 <p className="text-xs text-gray-500">Available 8:30 AM to 11:30 PM daily</p>
               </div>
-              <a href="tel:+971555867466" className="mt-6 inline-flex items-center gap-1.5 text-xs font-bold text-[#184C3A] hover:underline">
+              <a href="tel:+971 55 573 6312" className="mt-6 inline-flex items-center gap-1.5 text-xs font-bold text-[#184C3A] hover:underline">
                 Call Reception Now <ArrowRight size={14} />
               </a>
             </div>
@@ -289,7 +289,7 @@ export default function Contact() {
                 <h4 className="text-lg font-serif font-medium text-[#1A1A1A] mb-1">+971 55 573 6312</h4>
                 <p className="text-xs text-gray-500">Insurance checks & quick scheduling</p>
               </div>
-              <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center gap-1.5 text-xs font-bold text-[#25D366] hover:underline">
+              <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center gap-1.5 text-xs font-bold text-[#25D366] hover:underline">
                 Open WhatsApp Chat <ArrowRight size={14} />
               </a>
             </div>
@@ -578,7 +578,7 @@ export default function Contact() {
                       <h4 className="font-medium text-white">Physiotherapy Department</h4>
                       <p className="text-xs text-white/70">Sports, Rehab, Neuro & Joint care</p>
                     </div>
-                    <a href="tel:+971555867466" className="text-xs font-bold text-[#E6C687] hover:underline flex items-center gap-1">
+                    <a href="tel:+971 55 573 6312" className="text-xs font-bold text-[#E6C687] hover:underline flex items-center gap-1">
                       Call <Phone size={12} />
                     </a>
                   </div>
@@ -588,7 +588,7 @@ export default function Contact() {
                       <h4 className="font-medium text-white">Ayurveda Clinic</h4>
                       <p className="text-xs text-white/70">Panchakarma, Kativasti & Chronic care</p>
                     </div>
-                    <a href="tel:+971555867466" className="text-xs font-bold text-[#E6C687] hover:underline flex items-center gap-1">
+                    <a href="tel:+971 55 573 6312" className="text-xs font-bold text-[#E6C687] hover:underline flex items-center gap-1">
                       Call <Phone size={12} />
                     </a>
                   </div>
@@ -598,7 +598,7 @@ export default function Contact() {
                       <h4 className="font-medium text-white">Dermatology & Skin Care</h4>
                       <p className="text-xs text-white/70">Eczema, PRP Hair, Acne & Peel</p>
                     </div>
-                    <a href="tel:+971555867466" className="text-xs font-bold text-[#E6C687] hover:underline flex items-center gap-1">
+                    <a href="tel:+971 55 573 6312" className="text-xs font-bold text-[#E6C687] hover:underline flex items-center gap-1">
                       Call <Phone size={12} />
                     </a>
                   </div>
@@ -608,7 +608,7 @@ export default function Contact() {
                       <h4 className="font-medium text-white">Home Healthcare Desk</h4>
                       <p className="text-xs text-white/70">Physiotherapy at home across Dubai</p>
                     </div>
-                    <a href="https://wa.me/971555867466?text=Hi,%20I%20need%20information%20about%20Home%20Healthcare." target="_blank" rel="noopener noreferrer" className="text-xs font-bold text-[#25D366] hover:underline flex items-center gap-1">
+                    <a href="https://wa.me/971555736312?text=Hi,%20I%20need%20information%20about%20Home%20Healthcare." target="_blank" rel="noopener noreferrer" className="text-xs font-bold text-[#25D366] hover:underline flex items-center gap-1">
                       WhatsApp <MessageCircle size={12} />
                     </a>
                   </div>
@@ -629,7 +629,7 @@ export default function Contact() {
                   <span className="bg-[#FAF8F5] px-3 py-1.5 rounded-lg border border-gray-100">MetLife</span>
                 </div>
                 <a
-                  href="https://wa.me/971555867466?text=Hi,%20I%20would%20like%20to%20verify%20my%20insurance%20coverage."
+                  href="https://wa.me/971555736312?text=Hi,%20I%20would%20like%20to%20verify%20my%20insurance%20coverage."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-xs font-bold text-[#184C3A] hover:underline pt-2"
@@ -719,7 +719,7 @@ export default function Contact() {
                 Book Appointment Online
               </Link>
               <a
-                href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20appointment."
+                href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20appointment."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#25D366] hover:bg-[#20bd5b] text-white px-8 py-3.5 rounded-xl font-bold text-sm flex items-center gap-2 transition-all shadow-lg"

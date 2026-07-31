@@ -431,7 +431,7 @@ export default function BlogListPage() {
                   </p>
                   
                   <a
-                    href={`https://wa.me/971555867466?text=${encodeURIComponent("Hello! I'm browsing your Vedara Care blogs and would like to ask a question or book a consultation with your team.")}`}
+                    href={`https://wa.me/971555736312?text=${encodeURIComponent("Hello! I'm browsing your Vedara Care blogs and would like to ask a question or book a consultation with your team.")}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 w-full py-2.5 bg-[#25D366] text-white rounded-lg text-[12px] font-sans font-semibold hover:bg-[#22c55e] transition-colors mb-3"
@@ -441,7 +441,7 @@ export default function BlogListPage() {
                   </a>
                   
                   <a
-                    href="tel:+971555867466"
+                    href="tel:+971 55 573 6312"
                     className="flex items-center justify-center gap-2 w-full py-2.5 bg-white/20 text-white border border-white/30 rounded-lg text-[12px] font-sans font-semibold hover:bg-white/30 transition-colors"
                   >
                     <Phone className="w-4 h-4" />

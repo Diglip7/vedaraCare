@@ -4,7 +4,7 @@ export const postnatalHero = {
   description: "Authentic 45-day Sutika Paricharya at our Jumeirah Village Circle (JVC) clinic and at your home across Dubai. Daily Abhyanga, structured dietary protocols, internal medicines for uterine involution and lactation, belly binding, sleep and emotional support — the classical 2,000-year-old postpartum care framework that Western systems do not provide. For mothers who delivered in Dubai, who are far from family, and who deserve more than a six-week check.",
   primaryCTA: "Book a Postnatal Consultation",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "45 Day & Custom Postnatal Programmes",
     "800+ Postpartum Mothers Cared For",
@@ -348,7 +348,7 @@ export const postnatalPricing = {
     }
   ],
   footer: "Insurance direct billing available with some major insurers — coverage for Ayurvedic postnatal care varies by plan. Postpartum care is increasingly covered where there is medical justification.",
-  whatsappUrl: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20postnatal%20care%20and%20book%20a%20consultation.",
+  whatsappUrl: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20postnatal%20care%20and%20book%20a%20consultation.",
   bgColor: "bg-white",
   cardBg: "white",
   buttonBg: "#357c63ff",
@@ -402,7 +402,7 @@ export const postnatalFaqs = {
     }
   ],
   buttonText: "Ask the Clinical Team",
-  buttonHref: "https://wa.me/971555867466?text=Hi%2C%20I%20have%20a%20question%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  buttonHref: "https://wa.me/971555736312?text=Hi%2C%20I%20have%20a%20question%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
   bgColor: "bg-[#F5F1EA]"
 };
 
@@ -436,7 +436,7 @@ export const postnatalFinalCTA = {
   button1Text: "Book a Postnatal Consultation",
   button1Link: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Link: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20postnatal%20care%20and%20book%20a%20consultation.",
+  button2Link: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20postnatal%20care%20and%20book%20a%20consultation.",
   footer: "Initial consultations from AED 450 · Home services across Dubai · JVC clinic next to Circle Mall · Female doctors and therapists available · Insurance direct billing",
   bgColor: "bg-[#FAF8F3]"
 };

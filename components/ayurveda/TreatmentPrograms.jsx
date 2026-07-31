@@ -11,7 +11,7 @@ const TreatmentPrograms = ({
   description = "",
   programs = [],
   footer = "",
-  whatsappNumber = "+971555867466",
+  whatsappNumber = "+971 55 573 6312",
   defaultWhatsappMessage = "Hi, I'd like to inquire about treatment programmes at your clinic."
 }) => {
   // Helper function to build WhatsApp URL

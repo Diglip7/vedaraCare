@@ -10,7 +10,7 @@ export const skinHero = {
   primaryCTA: "Book a Skin Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Ayurvedic%20treatment%20for%20skin%20conditions%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Ayurvedic%20treatment%20for%20skin%20conditions%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "We Work With Dermatology",
     "380+ Skin Patients Treated",
@@ -445,7 +445,7 @@ export const skinPrograms = {
     }
   ],
   defaultWhatsappMessage: "Hi, I'd like to inquire about Ayurvedic skin treatment programmes at your JVC clinic.",
-  footer: "Insurance direct-billing available with some major insurers — coverage for Ayurvedic skin treatment varies by plan. Skin conditions are recognised medical conditions supporting coverage in many plans. <a href=\"https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp your insurance card</a> before booking."
+  footer: "Insurance direct-billing available with some major insurers — coverage for Ayurvedic skin treatment varies by plan. Skin conditions are recognised medical conditions supporting coverage in many plans. <a href=\"https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp your insurance card</a> before booking."
 };
 
 export const skinFaqs = {
@@ -525,7 +525,7 @@ answer: "Yes. We work with several Dubai dermatology practices for joint patient
 },
 {
   question: "Does insurance cover Ayurvedic skin treatment?",
-  answer: "Skin conditions are recognised medical conditions for insurance purposes, which often supports coverage. Some plans cover Ayurvedic treatment for skin conditions, particularly when there is documented dermatological diagnosis and previous treatment trials. We are direct-billing partners with seven major insurers — Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife. <a href=\"https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp your insurance card</a> photo before booking."
+  answer: "Skin conditions are recognised medical conditions for insurance purposes, which often supports coverage. Some plans cover Ayurvedic treatment for skin conditions, particularly when there is documented dermatological diagnosis and previous treatment trials. We are direct-billing partners with seven major insurers — Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife. <a href=\"https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp your insurance card</a> photo before booking."
 },  
 {
   question: "How is this different from regular Ayurvedic facials I see at spas?",
@@ -533,7 +533,7 @@ answer: "Yes. We work with several Dubai dermatology practices for joint patient
 },
 {
   question: "How do I start?",
-  answer: "Always with a thorough assessment. Tap 'Book a Skin Consultation' on this page, <a href=\" https://wa.me/971555867466\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> at <a href=\"https://wa.me/971555867466\" class=\"text-[#C9A961] hover:underline\">+971 55 573 6312</a>, or call <a href=\"tel:+971555867466\" class=\"text-[#C9A961] hover:underline\">+971 55 573 6312</a>. Please bring (or send before consultation): recent dermatologist notes if available, any biopsy or pathology reports, current medication list (topical and systemic), and photos of affected areas (we will also take baseline photos with consent). The 60-minute consultation at our JVC clinic includes comprehensive history, examination, classification, and a written treatment plan with realistic expectations."
+  answer: "Always with a thorough assessment. Tap 'Book a Skin Consultation' on this page, <a href=\" https://wa.me/971555736312\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> at <a href=\"https://wa.me/971555736312\" class=\"text-[#C9A961] hover:underline\">+971 55 573 6312</a>, or call <a href=\"tel:+971 55 573 6312\" class=\"text-[#C9A961] hover:underline\">+971 55 573 6312</a>. Please bring (or send before consultation): recent dermatologist notes if available, any biopsy or pathology reports, current medication list (topical and systemic), and photos of affected areas (we will also take baseline photos with consent). The 60-minute consultation at our JVC clinic includes comprehensive history, examination, classification, and a written treatment plan with realistic expectations."
 },
 ]
 };
@@ -545,7 +545,7 @@ export const skinCTA = {
   button1Text: "Book a Skin Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20skin%20consultation%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20skin%20consultation%20at%20your%20JVC%20clinic%20in%20Dubai.",
   bullets: [
     "Initial consultation from AED 450",
     "Walking distance from Circle Mall, JVC",

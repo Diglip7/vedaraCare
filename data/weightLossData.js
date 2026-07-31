@@ -11,7 +11,7 @@ export const weightLossHero = {
   primaryCTA: "Book a Weight Loss Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "500+ Weight Loss Patients Treated",
     "No Before/After Marketing",
@@ -417,7 +417,7 @@ export const weightLossPrograms = {
       whatsappMessage: "Hi, I'd like to inquire about the Extended Integrated Weight Loss Programme at your JVC clinic in Dubai."
     }
   ],
-  footer: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic weight loss varies by plan and is usually partial. Bariatric-indication coverage may apply for severe obesity. <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us your insurance card</a> before booking to confirm."
+  footer: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic weight loss varies by plan and is usually partial. Bariatric-indication coverage may apply for severe obesity. <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us your insurance card</a> before booking to confirm."
 };
 
 export const weightLossFaqs = {
@@ -426,7 +426,7 @@ export const weightLossFaqs = {
   title: "What patients ask before starting Ayurvedic weight loss treatment.",
   description: "For PCOS-related weight loss, see our PCOS condition page. For specific treatments, see the Panchakarma and Udvartana pages.",
   buttonText: "Ask the Weight Loss Team",
-  buttonHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20ask%20a%20question%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20ask%20a%20question%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   faqs: [
     {
       question: "Does Ayurvedic weight loss treatment actually work?",
@@ -456,7 +456,7 @@ export const weightLossFaqs = {
       answer: "Our clinic is at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif."  },
       {
       question: "How do I start?",
-      answer: "Always with an assessment, never directly with a treatment package. Tap 'Book a Weight Loss Consultation' on this page, <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> for the fastest response, or call us. The initial 60-75 minute consultation at our JVC clinic includes comprehensive history, examination, pattern identification, and a honest written treatment plan with realistic expectations and pricing — including a clear answer to whether Ayurvedic treatment is right for your specific situation."}  ]
+      answer: "Always with an assessment, never directly with a treatment package. Tap 'Book a Weight Loss Consultation' on this page, <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> for the fastest response, or call us. The initial 60-75 minute consultation at our JVC clinic includes comprehensive history, examination, pattern identification, and a honest written treatment plan with realistic expectations and pricing — including a clear answer to whether Ayurvedic treatment is right for your specific situation."}  ]
   
 };
 
@@ -499,7 +499,7 @@ export const weightLossFinalCTA = {
   button1Text: "Book a Weight Loss Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   bullets: [
     "Initial consultation from AED 350",
     "Walking distance from Circle Mall, JVC",

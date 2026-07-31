@@ -10,7 +10,7 @@ export const njavarakizhiHero = {
   primaryCTA: "Book a Njavarakizhi Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20njavarakizhi%20treatment%20at%20your%20JVC%20clinic.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20njavarakizhi%20treatment%20at%20your%20JVC%20clinic.",
   trustSignals: [
     "Authentic Shashtika Rice from Kerala",
     "BAMS-Qualified Doctors",
@@ -238,7 +238,7 @@ export const njavarakizhiPrograms = {
   bgColor: "bg-white",
   label: "PROGRAMMES",
   title: "Three Njavarakizhi protocols, calibrated to clinical need.",
-  whatsappNumber: "+971555867466",
+  whatsappNumber: "+971 55 573 6312",
   defaultWhatsappMessage: "Hi, I'd like to inquire about njavarakizhi treatment programmes at your clinic.",
   programs: [
     {
@@ -335,7 +335,7 @@ export const njavarakizhiFaqs = {
   title: "What patients ask before considering Njavarakizhi.",
   description: "For comparison with other Ayurvedic massages, see our category guide. For Abhyanga or general Ayurvedic care, see the broader treatment pages.",
   buttonText: "Ask the Team",
-  buttonHref: "https://wa.me/971555867466?text=Hi,%20I%20have%20a%20question%20about%20njavarakizhi%20treatment%20at%20your%20clinic.",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20njavarakizhi%20treatment%20at%20your%20clinic.",
   faqs: [
     {
       question: "What is Njavarakizhi in simple terms?",
@@ -391,7 +391,7 @@ export const njavarakizhiFaqs = {
     },
     {
       question: "How do I book Njavarakizhi at your clinic?",
-      answer: 'Njavarakizhi requires advance booking — typically at least 24 hours notice, ideally 48 hours, because of the rice and milk preparation required. For first-time patients, booking begins with a consultation where the doctor confirms Njavarakizhi is the right therapy and selects the appropriate kashayam. Existing patients can rebook directly with the required advance notice. Tap \'Book a Njavarakizhi Consultation\' on this page, <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> at +971 55 573 6312, or call +971 55 573 6312.'
+      answer: 'Njavarakizhi requires advance booking — typically at least 24 hours notice, ideally 48 hours, because of the rice and milk preparation required. For first-time patients, booking begins with a consultation where the doctor confirms Njavarakizhi is the right therapy and selects the appropriate kashayam. Existing patients can rebook directly with the required advance notice. Tap \'Book a Njavarakizhi Consultation\' on this page, <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> at +971 55 573 6312, or call +971 55 573 6312.'
     }
   ]
 };
@@ -427,7 +427,7 @@ export const njavarakizhiFinalCTA = {
   button1Text: "Book Njavarakizhi Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20njavarakizhi%20treatment%20at%20your%20JVC%20clinic.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20njavarakizhi%20treatment%20at%20your%20JVC%20clinic.",
   bullets: [
     "First consultation from AED 150",
     "Sessions require 24-48 hour advance booking",

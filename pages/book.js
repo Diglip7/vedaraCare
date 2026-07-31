@@ -439,12 +439,12 @@ export default function BookAppointment({ dynamicTreatments }) {
                 <div>
                   <span className="text-[11px] font-bold text-[#C9A55A] uppercase tracking-wider block mb-0.5">Need Assistance?</span>
                   <p className="text-xs text-gray-600">Speak directly with reception</p>
-                  <a href="tel:+971555867466" className="text-sm font-serif font-bold text-[#184C3A] hover:underline">
+                  <a href="tel:+971 55 573 6312" className="text-sm font-serif font-bold text-[#184C3A] hover:underline">
                     +971 55 573 6312
                   </a>
                 </div>
                 <a
-                  href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20want%20to%20book%20an%20appointment."
+                  href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20want%20to%20book%20an%20appointment."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#25D366] hover:bg-[#20bd5b] text-white p-3 rounded-xl shadow-xs transition-all shrink-0"
@@ -516,7 +516,7 @@ export default function BookAppointment({ dynamicTreatments }) {
               </div>
 
               <p className="text-[11px] text-gray-500 pt-2">
-                Need urgent assistance? Call our desk directly at <a href="tel:+971555867466" className="text-[#184C3A] font-bold hover:underline">+971 55 573 6312</a>.
+                Need urgent assistance? Call our desk directly at <a href="tel:+971 55 573 6312" className="text-[#184C3A] font-bold hover:underline">+971 55 573 6312</a>.
               </p>
             </div>
           ) : (
@@ -944,7 +944,7 @@ export default function BookAppointment({ dynamicTreatments }) {
                     </p>
                   </div>
                   <a
-                    href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20appointment."
+                    href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20an%20appointment."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full bg-[#25D366] hover:bg-[#20bd5b] text-white py-3.5 px-4 rounded-xl text-xs font-bold flex items-center justify-center gap-2 transition-all shadow-md"

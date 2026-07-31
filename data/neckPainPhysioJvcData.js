@@ -10,7 +10,7 @@ export const neckPainPhysioHero = {
   primaryCTA: "Book Neck Pain Assessment",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20neck%20pain%20physiotherapy%20and%20book%20a%20consultation.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20neck%20pain%20physiotherapy%20and%20book%20a%20consultation.",
   trustSignals: [
     "DPT-qualified physiotherapists",
     "Same-week appointments",
@@ -336,7 +336,7 @@ export const neckPainPricing = {
     { name: "Extended chronic care (20 sessions over 12-24 weeks)", price: "AED 4,200" },
     { name: "Home physiotherapy session (when clinic travel impractical)", price: "AED 400" }
   ],
-  insuranceText: "Insurance direct-billing: Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Most Dubai insurance plans cover neck pain physiotherapy. <a href='https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20neck%20pain%20physiotherapy.' target='_blank' rel='noopener noreferrer' class='text-[#C9A84C] hover:text-[#B8860B] font-medium transition-colors underline'>WhatsApp your insurance card to confirm coverage →</a>",
+  insuranceText: "Insurance direct-billing: Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Most Dubai insurance plans cover neck pain physiotherapy. <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20neck%20pain%20physiotherapy.' target='_blank' rel='noopener noreferrer' class='text-[#C9A84C] hover:text-[#B8860B] font-medium transition-colors underline'>WhatsApp your insurance card to confirm coverage →</a>",
   // insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
 };
 
@@ -377,7 +377,7 @@ export const neckPainFaqs = {
       answer: "Our DHA-licensed clinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai."  },
     {
       question: "How quickly can I get an appointment?",
-      answer: 'Same-week appointments are typical for neck pain assessments. For severe acute neck pain (sudden onset, severe restriction, significant distress), same-day or next-day appointments are often available. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for the fastest response — typically within 15 minutes during business hours (9 AM to 9 PM, seven days a week).',  },
+      answer: 'Same-week appointments are typical for neck pain assessments. For severe acute neck pain (sudden onset, severe restriction, significant distress), same-day or next-day appointments are often available. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for the fastest response — typically within 15 minutes during business hours (9 AM to 9 PM, seven days a week).',  },
     {
       question: "What is dry needling and it is  the same as acupuncture?",
       answer: "Dry needling involves fine needles inserted into trigger points and tight muscle bands — particularly effective for chronic muscle tension patterns contributing to neck pain, including upper trapezius, levator scapulae, and suboccipital muscles. Different from acupuncture in mechanism and theoretical framework. Performed by physiotherapists with specific dry needling certification. Most patients find it more comfortable than expected."  },
@@ -416,7 +416,7 @@ question: "How is Vedara different from other Dubai physiotherapy clinics?",
       
   ,{
     question: "How do I book a neck pain physiotherapy assessment?",
-    answer: 'Three ways: (1) <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for a brief description of your pain and any specific questions. (2) Call us directly — available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any imaging if available, relevant medical reports, current medication list, insurance card, and comfortable clothing allowing neck and shoulder assessment.'  }
+    answer: 'Three ways: (1) <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for a brief description of your pain and any specific questions. (2) Call us directly — available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any imaging if available, relevant medical reports, current medication list, insurance card, and comfortable clothing allowing neck and shoulder assessment.'  }
   
   
     ]
@@ -460,7 +460,7 @@ export const neckPainCTA = {
   button1Text: "Book Neck Pain Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20neck%20pain%20physiotherapy%20and%20book%20a%20consultation.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20neck%20pain%20physiotherapy%20and%20book%20a%20consultation.",
   bullets: [
     "Initial assessment from AED 350",
     " JVC · DPT-qualified physiotherapists",

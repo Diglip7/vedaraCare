@@ -302,7 +302,7 @@ export const acneTreatmentPricing = {
     { name: "Comprehensive acne treatment programme (3 months)", price: "From AED 5,000" },
     { name: "Comprehensive acne treatment programme (6 months)", price: "From AED 9,000" }
   ],
-  insuranceText: "Medical acne treatment is covered by most Dubai insurance plans with appropriate medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Isotretinoin treatment, hormonal medications, and most prescription treatments are typically insurance-covered. Cosmetic procedures (chemical peels purely for cosmetic enhancement, scarring treatment) typically self-pay. <a href=\"https://wa.me/971555867466?text=Hi%2C%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20acne%20treatment\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A84C] hover:underline transition-colors\">WhatsApp your insurance card</a> to us before booking for specific coverage confirmation.",
+  insuranceText: "Medical acne treatment is covered by most Dubai insurance plans with appropriate medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Isotretinoin treatment, hormonal medications, and most prescription treatments are typically insurance-covered. Cosmetic procedures (chemical peels purely for cosmetic enhancement, scarring treatment) typically self-pay. <a href=\"https://wa.me/971555736312?text=Hi%2C%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20acne%20treatment\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A84C] hover:underline transition-colors\">WhatsApp your insurance card</a> to us before booking for specific coverage confirmation.",
   insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
 };
 
@@ -463,7 +463,7 @@ export const acneTreatmentFaqs = {
   title: "What patients ask about acne treatment.",
   description: "For broader dermatology questions, see our dermatology clinic page",
   primaryCtaText: "Ask Our Team on WhatsApp",
-  primaryCtaHref: "https://wa.me/971555867466?text=Hi,%20I%20want%20to%20book%20an%20Acne%20Treatment%20consultation.",
+  primaryCtaHref: "https://wa.me/971555736312?text=Hi,%20I%20want%20to%20book%20an%20Acne%20Treatment%20consultation.",
   secondaryCtaText: "Full dermatology clinic details →",
   secondaryCtaHref: "/dermatology-clinic-jvc/",
   faqs: [
@@ -545,7 +545,7 @@ export const acneTreatmentFaqs = {
     },
     {
       question: "How do I book an acne consultation?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for asking specific questions about your situation. (2) Call our clinic — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: over-the-counter products you have used; previous treatments and outcomes; current medications; insurance card; and any specific questions you want to address.'
+      answer: 'Three ways: (1) <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for asking specific questions about your situation. (2) Call our clinic — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: over-the-counter products you have used; previous treatments and outcomes; current medications; insurance card; and any specific questions you want to address.'
     }
   ]
 };
@@ -586,7 +586,7 @@ export const acneTreatmentCTA = {
   button1Text: "Book Acne Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20acne%20treatment%20and%20book%20a%20consultation.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20acne%20treatment%20and%20book%20a%20consultation.",
   footer: "Initial consultation from AED 400 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 400+ acne patients treated · All acne types and skin types · Female and male dermatologists · Insurance direct-billing"
 };
 

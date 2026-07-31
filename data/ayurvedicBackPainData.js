@@ -10,7 +10,7 @@ export const ayurvedicBackPainHero = {
   primaryCTA: "Book a Back Pain Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20ayurvedic%20back%20pain%20treatment%20at%20your%20JVC%20clinic.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20ayurvedic%20back%20pain%20treatment%20at%20your%20JVC%20clinic.",
   trustSignals: [
     "600+ Back Pain Patients Treated",
     "Integrated Ayurveda + Physiotherapy",
@@ -351,7 +351,7 @@ export const ayurvedicBackPainPricing = {
       footer: "Best for: Complex back pain, disc-related conditions, multiple-region involvement, patients who want maximum-outcome integrated care"
     }
   ],
-  footerNote: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic chronic pain care varies by plan. <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20verify%20my%20insurance%20coverage%20for%20ayurvedic%20back%20pain%20treatment.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\">WhatsApp us your card</a> before booking to confirm."
+  footerNote: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic chronic pain care varies by plan. <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20verify%20my%20insurance%20coverage%20for%20ayurvedic%20back%20pain%20treatment.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\">WhatsApp us your card</a> before booking to confirm."
 };
 
 export const ayurvedicBackPainFaqs = {
@@ -466,7 +466,7 @@ export const ayurvedicBackPainCTA = {
   button1Text: "Book a Back Pain Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20ayurvedic%20back%20pain%20treatment%20at%20your%20JVC%20clinic.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20ayurvedic%20back%20pain%20treatment%20at%20your%20JVC%20clinic.",
   subtext: "Initial consultation from AED 350 · Joint Ayurveda + Physiotherapy assessment available · Insurance direct-billing · Free clinic parking"
 };
 

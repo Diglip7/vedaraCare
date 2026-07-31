@@ -65,10 +65,10 @@ const Journal = ({
 
   const formatDate = (d) => {
     try {
-      return new Date(d).toLocaleDateString(undefined, { 
-        year: "numeric", 
-        month: "short", 
-        day: "numeric" 
+      return new Date(d).toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "short",
+        day: "numeric"
       });
     } catch {
       return "";
@@ -107,9 +107,9 @@ const Journal = ({
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {posts.map((post, index) => (
-              <Link 
-                key={post._id || index} 
-                href={`/blog/${post.paramlink}`} 
+              <Link
+                key={post._id || index}
+                href={`/blog/${post.paramlink}`}
                 className="group cursor-pointer"
               >
                 {/* Image */}

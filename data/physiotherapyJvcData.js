@@ -10,7 +10,7 @@ export const physiotherapyJvcHero = {
   primaryCTA: "Book a Session",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20physiotherapy%20services%20at%20your%20JVC%20clinic.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20physiotherapy%20services%20at%20your%20JVC%20clinic.",
   trustSignals: [
     "DPT-qualified physiotherapists",
     "7 specialised treatment areas",
@@ -386,9 +386,9 @@ export const physiotherapyJvcInsurance = {
     "Our DHA-licensed physiotherapy department at JVC works directly with major insurers. Check your coverage before booking — we'll help you understand your benefits."
   ],
   sidebarText: [
-    '<a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20physiotherapy%20at%20JVC" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm exact coverage and out-of-pocket costs.'
+    '<a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20physiotherapy%20at%20JVC" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm exact coverage and out-of-pocket costs.'
   ],
-  whatsappNumber: "971555867466"
+  whatsappNumber: "971555736312"
 };
 
 export const physiotherapyJvcPricing = {
@@ -499,7 +499,7 @@ export const physiotherapyJvcFaqs = {
     },
     {
       question: "How quickly can I get an appointment at the JVC physiotherapy clinic?",
-      answer: 'Typically same-day or next-day for new patients. Our scheduling allows priority booking for acute injuries (within 24 hours when possible) and structured booking for chronic conditions. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response — typically within 15 minutes during business hours. Saturday and evening slots are available for working patients.'
+      answer: 'Typically same-day or next-day for new patients. Our scheduling allows priority booking for acute injuries (within 24 hours when possible) and structured booking for chronic conditions. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response — typically within 15 minutes during business hours. Saturday and evening slots are available for working patients.'
     },
     {
       question: "How many physiotherapy sessions will I need?",
@@ -507,7 +507,7 @@ export const physiotherapyJvcFaqs = {
     },
     {
       question: "Will my insurance cover physiotherapy at the JVC clinic?",
-      answer: 'Most Dubai insurance plans cover physiotherapy when there is medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Coverage varies by plan — annual session limits, copays, and condition restrictions apply. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking, and our team will confirm exact coverage and your out-of-pocket cost.'
+      answer: 'Most Dubai insurance plans cover physiotherapy when there is medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Coverage varies by plan — annual session limits, copays, and condition restrictions apply. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking, and our team will confirm exact coverage and your out-of-pocket cost.'
     },
     {
       question: "What is the difference between physiotherapy and chiropractic care?",
@@ -573,7 +573,7 @@ export const physiotherapyJvcFinalCTA = {
   button1Text: "Book a Physiotherapy Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20physiotherapy%20and%20book%20a%20consultation.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20physiotherapy%20and%20book%20a%20consultation.",
   footer: "Initial assessment from AED 400 · DHA-licensed JVC clinic · Insurance direct-billing with 7 major insurers · Same-day appointments often available · Home services across Dubai"
 };
 

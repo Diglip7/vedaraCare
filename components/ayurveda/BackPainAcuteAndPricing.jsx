@@ -65,7 +65,7 @@ const BackPainAcuteAndPricing = ({ data }) => {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20back%20pain%20physiotherapy%20and%20book%20a%20same-day%20appointment."
+                  href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20back%20pain%20physiotherapy%20and%20book%20a%20same-day%20appointment."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full text-white font-semibold py-3 px-6 rounded-lg flex items-center justify-center gap-2 transition-colors text-sm"

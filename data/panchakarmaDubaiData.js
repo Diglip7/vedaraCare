@@ -10,7 +10,7 @@ export const panchakarmaDubaiHero = {
   primaryCTA: "Book a Panchakarma Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Panchakarma%20treatment%20at%20your%20JVC%20clinic.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Panchakarma%20treatment%20at%20your%20JVC%20clinic.",
   trustSignals: [
     "DHA-Licensed Practitioners",
     "Programmes from 7 to 21 days",
@@ -271,7 +271,7 @@ export const panchakarmaDubaiPrograms = {
   label: "PROGRAMMES",
   title: "Three Panchakarma programmes, calibrated to what you actually need.",
   description: "Your doctor will recommend the right programme length at consultation based on your condition, constitution, and what you can individually commit to.",
-  whatsappNumber: "+971555867466",
+  whatsappNumber: "+971 55 573 6312",
   defaultWhatsappMessage: "Hi, I'd like to inquire about Panchakarma treatment programmes at your clinic.",
   programs: [
     {
@@ -362,7 +362,7 @@ export const panchakarmaDubaiReviews = {
 
 export const panchakarmaDubaiFaqs = {
   doctor: { firstName: "the Team" }, // Hack to make DoctorFAQ work for general team
-  buttonHref: "https://wa.me/971555867466?text=Hi,%20I%20have%20a%20question%20about%20Panchakarma%20treatment%20at%20your%20clinic.",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20Panchakarma%20treatment%20at%20your%20clinic.",
   faqs: [
     {
       question: "What is Panchakarma, in simple terms?",
@@ -428,6 +428,6 @@ export const panchakarmaDubaiCTA = {
   button1Text: "Book a Panchakarma Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20Panchakarma%20treatment%20at%20your%20JVC%20clinic.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Panchakarma%20treatment%20at%20your%20JVC%20clinic.",
   bullets: ["First consultation from AED 350", "Insurance direct-billing available"]
 };

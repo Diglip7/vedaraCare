@@ -10,7 +10,7 @@ export const arthritisHero = {
   primaryCTA: "Book an Arthritis Consultation",
   secondaryCTA: "Chat on WhatsApp",
   primaryCTAHref: "/book",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'm%20interested%20in%20Arthritis%20treatment.%20Please%20share%20more%20details.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'm%20interested%20in%20Arthritis%20treatment.%20Please%20share%20more%20details.",
   trustSignals: [
     "We Work With Your Rheumatologist",
     "450+ Arthritis Patients Treated",
@@ -190,7 +190,7 @@ export const arthritisCTA = {
   button1Text: "Book an Arthritis Consultation",
   button1Href:   "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href:"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Arthritis%20treatment.%20Please%20assist%20me.",
+  button2Href:"https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Arthritis%20treatment.%20Please%20assist%20me.",
   subtext: "Initial consultation from AED 350 · Walking distance from Circle Mall, JVC · Integrated Ayurveda + physiotherapy · Home services available · Insurance direct-billing",
    bgColor: "bg-[#F5F1E8]",
 };

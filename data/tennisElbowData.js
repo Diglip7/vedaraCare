@@ -359,7 +359,7 @@ export const tennisElbowPricing = {
     { name: "Padel-specific return-to-sport programme", price: "AED 3,600" },
     { name: "Ergonomic workplace assessment (office workers)", price: "AED 550" }
   ],
-  insuranceText: 'Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Tennis elbow physiotherapy is well-covered by Dubai insurance plans with medical justification. Extended programmes and shockwave therapy may require pre-authorisation, which we handle on your behalf. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking for specific coverage confirmation.',
+  insuranceText: 'Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Tennis elbow physiotherapy is well-covered by Dubai insurance plans with medical justification. Extended programmes and shockwave therapy may require pre-authorisation, which we handle on your behalf. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking for specific coverage confirmation.',
   // insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
 };
 
@@ -403,7 +403,7 @@ export const tennisElbowFaqs = {
     },
     {
       question: "How quickly can I get an appointment?",
-      answer: 'Same-week appointments are typical for tennis elbow assessment. Tennis elbow is a chronic progressive condition rather than acute emergency, so same-day appointments are not usually required. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for fastest response — typically within 15 minutes during business hours.'
+      answer: 'Same-week appointments are typical for tennis elbow assessment. Tennis elbow is a chronic progressive condition rather than acute emergency, so same-day appointments are not usually required. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for fastest response — typically within 15 minutes during business hours.'
     },
     {
       question: "Do I need imaging for tennis elbow?",
@@ -411,7 +411,7 @@ export const tennisElbowFaqs = {
     },
     {
       question: "Does insurance cover tennis elbow treatment?",
-      answer: 'Most Dubai insurance plans cover tennis elbow physiotherapy with medical justification. Coverage typically includes initial sessions; extended programmes and shockwave therapy may require pre-authorisation. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm specific coverage.'
+      answer: 'Most Dubai insurance plans cover tennis elbow physiotherapy with medical justification. Coverage typically includes initial sessions; extended programmes and shockwave therapy may require pre-authorisation. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm specific coverage.'
     },
     {
       question: "Can I continue padel during treatment?",
@@ -455,7 +455,7 @@ export const tennisElbowFaqs = {
     },
     {
       question: "How do I book a tennis elbow assessment?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for sending brief description of your symptoms. (2) Call +971 55 573 6312 — direct booking, available 9AM to 9PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any imaging if available, medical reports, current medication list, insurance card, comfortable clothing allowing elbow assessment, and information about your activities and triggers.'
+      answer: 'Three ways: (1) <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for sending brief description of your symptoms. (2) Call +971 55 573 6312 — direct booking, available 9AM to 9PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any imaging if available, medical reports, current medication list, insurance card, comfortable clothing allowing elbow assessment, and information about your activities and triggers.'
     }
   ]
 };
@@ -494,7 +494,7 @@ export const tennisElbowCTA = {
   button1Text: "Book Tennis Elbow Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20tennis%20elbow%20treatment%20and%20book%20a%20consultation.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20tennis%20elbow%20treatment%20and%20book%20a%20consultation.",
   bullets: [
     "Initial assessment from AED 450",
     "Walking distance from Circle Mall, JVC",

@@ -384,7 +384,7 @@ export const hairLossPrograms = {
       bestFor: 'Severe androgenetic alopecia, complex alopecia areata, scalp-condition-driven hair loss, patients wanting maximum integrated outcomes'
     }
   ],
-  footer: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic dermatological care varies by plan. <a href=\"https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20verify%20my%20insurance%20coverage%20for%20hair%20loss%20treatment.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\">WhatsApp us your card</a> before booking to confirm coverage.",
+  footer: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic dermatological care varies by plan. <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20verify%20my%20insurance%20coverage%20for%20hair%20loss%20treatment.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\">WhatsApp us your card</a> before booking to confirm coverage.",
 };
 
 export const hairLossFaqs = {

@@ -229,7 +229,7 @@ export const eczemaTreatmentCTA = {
   button1Text: "Book Eczema Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'm%20interested%20in%20eczema%20treatment%20and%20would%20like%20to%20book%20a%20consultation.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'm%20interested%20in%20eczema%20treatment%20and%20would%20like%20to%20book%20a%20consultation.",
   footer: "Initial consultation from AED 650 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 500+ eczema patients treated · Pediatric and adult expertise · Access to biologic and newer treatments · Multiple languages · Insurance direct-billing"
 };
 
@@ -377,7 +377,7 @@ export const eczemaTreatmentPricing = {
     { name: "Comprehensive 6-month management programme", price: "From AED 3,500" },
     { name: "Family package (multiple family members)", price: "From AED 1,800" }
   ],
-  insuranceText: "Medical eczema treatment is covered by most Dubai insurance plans with appropriate medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Biologic treatment coverage varies significantly by insurance plan. <a href=\"https://wa.me/971555867466?text=Hi%2C%20I%27d%20like%20to%20share%20my%20insurance%20card%20for%20eczema%20treatment%20at%20Vedara%20Care%20Polyclinic.\">WhatsApp your insurance card</a> before booking."
+  insuranceText: "Medical eczema treatment is covered by most Dubai insurance plans with appropriate medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Biologic treatment coverage varies significantly by insurance plan. <a href=\"https://wa.me/971555736312?text=Hi%2C%20I%27d%20like%20to%20share%20my%20insurance%20card%20for%20eczema%20treatment%20at%20Vedara%20Care%20Polyclinic.\">WhatsApp your insurance card</a> before booking."
 };
 
 export const eczemaTreatmentFaqs = {
@@ -390,7 +390,7 @@ export const eczemaTreatmentFaqs = {
   title: "What patients and parents ask about eczema treatment.",
   description: "For broader dermatology questions, see our dermatology clinic page.",
   primaryCtaText: "Ask Our Team on WhatsApp",
-  primaryCtaHref: "https://wa.me/971555867466?text=Hi%2C%20I'd%20like%20to%20ask%20a%20question%20about%20eczema%20treatment%20at%20Vedara%20Care%20Polyclinic.",
+  primaryCtaHref: "https://wa.me/971555736312?text=Hi%2C%20I'd%20like%20to%20ask%20a%20question%20about%20eczema%20treatment%20at%20Vedara%20Care%20Polyclinic.",
   secondaryCtaText: "Full dermatology clinic details →",
   secondaryCtaHref: "/dermatology-clinic-jvc/",
   faqs: [
@@ -472,7 +472,7 @@ export const eczemaTreatmentFaqs = {
     },
     {
       question: "How do I book an eczema consultation?",
-      answer: 'Three ways: <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response; call direct 9 AM to 9 PM seven days a week; or book online. For your first appointment please bring photos of eczema at its worst, list of all treatments tried, current medications and skincare products, insurance card, and specific questions. For pediatric consultations, both parents are welcome.'
+      answer: 'Three ways: <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response; call direct 9 AM to 9 PM seven days a week; or book online. For your first appointment please bring photos of eczema at its worst, list of all treatments tried, current medications and skincare products, insurance card, and specific questions. For pediatric consultations, both parents are welcome.'
     },
 
   ]

@@ -10,7 +10,7 @@ export const pediatricPhysiotherapyHero = {
   primaryCTA: "Book a Paediatric Assessment",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20pediatric%20physiotherapy%20and%20book%20a%20consultation.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20pediatric%20physiotherapy%20and%20book%20a%20consultation.",
   trustSignals: [
     "Paediatric-trained physiotherapists",
     "Infants through adolescents",
@@ -181,7 +181,7 @@ export const pediatricPhysiotherapySportsInjuryTypes ={
       age: 'Typical age range: 0-12 months primarily'
     }
   ],
-  footer: 'Did not find your child\'s condition? <a href="https://wa.me/971555867466?text=Hi%20I%20need%20more%20information%20about%20paediatric%20physiotherapy" className="underline hover:opacity-70 transition-opacity" style={{ color: "rgb(27, 67, 50)" }}>Contact us — we treat the full range of paediatric physiotherapy conditions →</a>',
+  footer: 'Did not find your child\'s condition? <a href="https://wa.me/971555736312?text=Hi%20I%20need%20more%20information%20about%20paediatric%20physiotherapy" className="underline hover:opacity-70 transition-opacity" style={{ color: "rgb(27, 67, 50)" }}>Contact us — we treat the full range of paediatric physiotherapy conditions →</a>',
 };
 
 export const pediatricPhysiotherapyFaqs = {
@@ -271,7 +271,7 @@ export const pediatricPhysiotherapyFinalCTA = {
   button1Text: "Book a Paediatric Physiotherapy Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20pediatric%20physiotherapy%20and%20book%20a%20consultation.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20pediatric%20physiotherapy%20and%20book%20a%20consultation.",
   bullets: [
     "DHA-licensed clinic",
     "DPT-qualified paediatric physiotherapists",
@@ -497,5 +497,5 @@ export const pediatricPhysiotherapyPricing = {
     { service: "Cerebral palsy ongoing care (per session, structured programme)", price: "AED 370" },
     { service: "Multi-disciplinary case coordination (per case)", price: "AED 250" }
   ],
-  footerText: 'Family pricing available for siblings receiving treatment. Insurance direct-billing with seven major insurers — coverage for paediatric physiotherapy is often substantial with paediatrician referral. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and referral letter to +971 55 573 6312 before booking.'
+  footerText: 'Family pricing available for siblings receiving treatment. Insurance direct-billing with seven major insurers — coverage for paediatric physiotherapy is often substantial with paediatrician referral. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and referral letter to +971 55 573 6312 before booking.'
 };

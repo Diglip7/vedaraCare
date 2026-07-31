@@ -462,7 +462,7 @@ export const acneScarsPricing = {
     { name: "Comprehensive 12-month scar treatment programme", price: "From AED 15,000" },
     { name: "Medical-grade skincare (monthly supply)", price: "From AED 350" }
   ],
-  insuranceText: 'Acne scar treatment is typically cosmetic and not insurance covered. Some elements may be covered with medical justification. Direct Billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife for any covered elements. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> for coverage discussion.'
+  insuranceText: 'Acne scar treatment is typically cosmetic and not insurance covered. Some elements may be covered with medical justification. Direct Billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife for any covered elements. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> for coverage discussion.'
 };
 
 export const acneScarsFAQ = {
@@ -493,7 +493,7 @@ export const acneScarsFAQ = {
     { question: "How do I book an acne scar consultation?", answer: "Three ways: WhatsApp +971 4 300 0000 for fastest response; call +971 55 573 6312 9AM–9PM seven days a week; book online. Please bring: photos of your scars, list of previous treatments and outcomes, current skincare and medications, event timing if relevant, and specific questions and goals."}
   ],
   buttonText: "WhatsApp us",
-  buttonHref: "https://wa.me/971555867466?text=Hi,%20I%27m%20interested%20in%20acne%20scar%20treatment%20and%20would%20like%20to%20book%20a%20consultation.",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I%27m%20interested%20in%20acne%20scar%20treatment%20and%20would%20like%20to%20book%20a%20consultation.",
   sidebarLinks: [
     { text: "Active acne treatment", href: "/conditions/acne-treatment-jvc/" },
     { text: "Chemical peel deep dive", href: "/treatments/chemical-peel-dubai/" },

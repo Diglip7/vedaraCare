@@ -10,7 +10,7 @@ export const panchakarmaJVCHero = {
   primaryCTA: "Book a Panchakarma Consultation",
   secondaryCTA: "Chat on WhatsApp",
   primaryCTAHref: "/book",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Panchakarma%20treatments%20at%20your%20JVC%20clinic.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Panchakarma%20treatments%20at%20your%20JVC%20clinic.",
   trustSignals: [
     "Next to Circle Mall, JVC",
     "DHA-Licensed Practitioners",
@@ -97,7 +97,7 @@ export const panchakarmaJVCFaqs = {
     },
     {
       question: "Do you accept insurance for Panchakarma at the JVC clinic?",
-      answer: "We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Panchakarma coverage varies by plan — most often partially covered through Daman, AXA, and Now Health premium tiers. <a href=\"https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Panchakarma%20at%20JVC.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> a photo of your insurance card before booking and we will confirm your coverage in writing."
+      answer: "We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Panchakarma coverage varies by plan — most often partially covered through Daman, AXA, and Now Health premium tiers. <a href=\"https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Panchakarma%20at%20JVC.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> a photo of your insurance card before booking and we will confirm your coverage in writing."
     },
     {
       question: "Do you serve patients from JVT, Al Barsha South, Dubai Sports City, and Motor City?",
@@ -113,7 +113,7 @@ export const panchakarmaJVCFaqs = {
     },
     {
       question: "How do I book Panchakarma at your JVC clinic?",
-      answer: 'Booking always begins with a consultation, not a direct package purchase. Tap \"Book a Panchakarma Consultation\" anywhere on this page for live calendar availability, <a href="https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20Panchakarma%20consultation%20at%20JVC." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> at <a href="tel:+971555867466" class="text-[#C9A961] hover:underline font-bold">+971 55 573 6312</a> for the fastest response (typically under 15 minutes during clinic hours), or call us at <a href="tel:+971555867466" class="text-[#C9A961] hover:underline font-bold">+971 55 573 6312</a>. Walk-in consultation slots are sometimes available with prior WhatsApp coordination.'
+      answer: 'Booking always begins with a consultation, not a direct package purchase. Tap \"Book a Panchakarma Consultation\" anywhere on this page for live calendar availability, <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20Panchakarma%20consultation%20at%20JVC." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> at <a href="tel:+971 55 573 6312" class="text-[#C9A961] hover:underline font-bold">+971 55 573 6312</a> for the fastest response (typically under 15 minutes during clinic hours), or call us at <a href="tel:+971 55 573 6312" class="text-[#C9A961] hover:underline font-bold">+971 55 573 6312</a>. Walk-in consultation slots are sometimes available with prior WhatsApp coordination.'
     }
   ]
 };
@@ -152,7 +152,7 @@ export const panchakarmaJVCLocation = {
    button1Text: "Book a Consultation",
    button2Text: "Chat on WhatsApp",
    button1Href: "/book",
-   button2Href: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20Panchakarma%20consultation%20at%20your%20JVC%20clinic.",
+   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20Panchakarma%20consultation%20at%20your%20JVC%20clinic.",
    subtext: "First consultations from AED 450 · Typical WhatsApp reply under 15 minutes"
  };
  
@@ -161,7 +161,7 @@ export const panchakarmaJVCLocation = {
     label: "PROGRAMMES",
     title: "Three Panchakarma lengths, calibrated to JVC lifestyles.",
     description: "Most JVC patients choose the 14-day programme — long enough for real change, short enough to schedule around work and family.",
-    whatsappNumber: "971555867466",
+    whatsappNumber: "971555736312",
     programs: [
       {
         name: "Panchakarma Reset",
@@ -331,7 +331,7 @@ export const panchakarmaJVCBenefits = {
   primaryCTA: "Book a Kativasti Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20kativasti%20treatment%20at%20your%20JVC%20clinic.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20kativasti%20treatment%20at%20your%20JVC%20clinic.",
   trustSignals: [
     "Classical Kerala Protocol",
     "BAMS-Qualified Doctors",
@@ -488,7 +488,7 @@ export const kativastiPrograms = {
   bgColor: "bg-white",
   label: "PROGRAMMES",
   title: "Three ways patients work with Kativasti at our Dubai clinic.",
-  whatsappNumber: "+971555867466",
+  whatsappNumber: "+971 55 573 6312",
   defaultWhatsappMessage: "Hi, I'd like to inquire about kativasti treatment programmes at your clinic.",
   programs: [
     {
@@ -542,7 +542,7 @@ export const kativastiPrograms = {
       whatsappMessage: "Hi, I'd like to inquire about the Integrated Spine Care programme (Kativasti + Physiotherapy) at your clinic."
     }
   ],
-  footer: 'Insurance direct-billing available with seven major insurers — coverage for Ayurvedic care varies by plan. <a href="https://wa.me/971555867466?text=Hi,%20I\'d%20like%20to%20verify%20my%20insurance%20coverage%20for%20kativasti%20treatment." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> your card before booking to confirm.'
+  footer: 'Insurance direct-billing available with seven major insurers — coverage for Ayurvedic care varies by plan. <a href="https://wa.me/971555736312?text=Hi,%20I\'d%20like%20to%20verify%20my%20insurance%20coverage%20for%20kativasti%20treatment." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> your card before booking to confirm.'
 };
 export const kativastiReviews = {
   bgColor: "bg-[#1A5D4D]",
@@ -585,7 +585,7 @@ export const kativastiFaqs = {
   title: "What patients ask before booking Kativasti.",
   description: "For broader back pain treatment options, see our condition page. For comparison with other Ayurvedic massages, see our category guide.",
   buttonText: "Ask the Team",
-  buttonHref: "https://wa.me/971555867466?text=Hi,%20I%20have%20a%20question%20about%20kativasti%20treatment%20at%20your%20clinic.",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20kativasti%20treatment%20at%20your%20clinic.",
   faqs: [
     {
       question: "What is Kativasti in simple terms?",
@@ -630,7 +630,7 @@ export const kativastiFinalCTA = {
   button1Text: "Book Kativasti Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I'd%20like%20to%20inquire%20about%20kativasti%20treatment%20at%20your%20JVC%20clinic.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20kativasti%20treatment%20at%20your%20JVC%20clinic.",
   bullets: [
     "First consultation from AED 200",
     "Joint Ayurveda + physiotherapy assessment available",

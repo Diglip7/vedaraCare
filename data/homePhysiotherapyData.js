@@ -10,7 +10,7 @@ export const homePhysioHero = {
   primaryCTA: "Book a Home Physiotherapy ",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
-  secondaryCTAHref: "https://wa.me/971555867466?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Home%20Physiotherapy%20services.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Home%20Physiotherapy%20services.",
   trustSignals: [
     "DPT-qualified specialised physiotherapists",
     "Across all major Dubai neighbourhoods",
@@ -147,7 +147,7 @@ export const homePhysioCoverage = {
     "Liwan",
     "The Lakes / Springs / Meadows"
   ],
-  note: 'For neighbourhoods further from JVC (typically 40+ minutes travel each way), home physiotherapy is available but additional travel surcharge may apply. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> with your address to confirm service availability and any travel surcharge before booking.',
+  note: 'For neighbourhoods further from JVC (typically 40+ minutes travel each way), home physiotherapy is available but additional travel surcharge may apply. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> with your address to confirm service availability and any travel surcharge before booking.',
   image: "/images/home-physiotherapy-coverage-dubai.webp",
   alt: "Vedara Care home physiotherapy coverage map Dubai 18 neighbourhoods from JVC",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
@@ -274,7 +274,7 @@ export const homePhysioBookingLogistics = {
   ],
   buttons: [
     { text: "Book Home Physiotherapy", variant: "primary", link: "/book" },
-    { text: "WhatsApp us", variant: "whatsapp", link: "https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20book%20a%20home%20physiotherapy%20session." }
+    { text: "WhatsApp us", variant: "whatsapp", link: "https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20book%20a%20home%20physiotherapy%20session." }
   ]
 };
 
@@ -348,7 +348,7 @@ export const homePhysioPricing = {
       homePrice: "+ AED 130–140"
     }
   ],
-  note: 'Insurance direct-billing with seven major insurers — home physiotherapy is covered by most plans with appropriate medical justification. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and brief condition description before booking for specific coverage confirmation.'
+  note: 'Insurance direct-billing with seven major insurers — home physiotherapy is covered by most plans with appropriate medical justification. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and brief condition description before booking for specific coverage confirmation.'
 };
 
 export const homePhysioOutcomes = {
@@ -396,7 +396,7 @@ export const homePhysioFaqs = {
   title: "What patients ask about home physiotherapy in Dubai.",
   description: "For specialisation-specific questions, see our individual physiotherapy pages.",
   buttonText: "Ask Our Home Physio Team on WhatsApp",
-  buttonHref: "https://wa.me/971555867466?text=Hi,%20I%20have%20a%20question%20about%20Home%20Physiotherapy%20services.",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20Home%20Physiotherapy%20services.",
   faqs: [
     {
       question: "Is home physiotherapy the same quality as clinic-based care?",
@@ -418,7 +418,7 @@ export const homePhysioFaqs = {
       answer: "Standard home physiotherapy session: AED 450 (compared to AED 320 for the same session at our clinic). The home premium reflects therapist travel time and operational costs. Same-day urgent visits may have a small premium. Distant locations (40+ minutes travel each way) may have a travel surcharge. Multi-session packages provide discounted per-session rates."  },
     {
       question: "Does insurance cover home physiotherapy?",
-      answer: 'Most Dubai insurance plans cover home physiotherapy with appropriate medical justification — post-surgical recovery, neurological conditions, documented mobility limitations, postnatal care, and other conditions. Some plans require pre-authorisation for home services specifically. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and brief condition description before booking for specific coverage confirmation.'   },
+      answer: 'Most Dubai insurance plans cover home physiotherapy with appropriate medical justification — post-surgical recovery, neurological conditions, documented mobility limitations, postnatal care, and other conditions. Some plans require pre-authorisation for home services specifically. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and brief condition description before booking for specific coverage confirmation.'   },
     {
       question: "What equipment will the physiotherapist bring?",
       answer: "Our home physiotherapists carry portable equipment in carry bags: assessment tools (goniometers, dynamometers for strength testing, standardised assessment kits for neurological conditions), treatment supplies (manual therapy tools, dry needling supplies if applicable, kinesio tape), exercise equipment (resistance bands, balance equipment, exercise tools), portable ultrasound and modalities for select cases, and any specific equipment relevant to your condition. We do not bring large equipment (parallel bars, gym machines) — for those, clinic visits are needed."  },
@@ -517,11 +517,11 @@ export const homePhysioFinalCTA = {
   bgColor: "bg-[#F7F2EA]",
   label: "READY TO START?",
   title: "Specialised physiotherapy — delivered to your door, across Dubai.",
-  description: 'Whether you are recovering from recent surgery, managing a chronic condition, supporting an elderly parent, recovering postpartum, or experiencing acute pain that makes clinic travel impractical — home physiotherapy can begin within days. <a href="https://wa.me/971555867466" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for fastest response (typically within 15 minutes during business hours), call us, or book online.',
+  description: 'Whether you are recovering from recent surgery, managing a chronic condition, supporting an elderly parent, recovering postpartum, or experiencing acute pain that makes clinic travel impractical — home physiotherapy can begin within days. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for fastest response (typically within 15 minutes during business hours), call us, or book online.',
   button1Text: "Book a Home Physiotherapy",
   button1Href: "/book",
   button2Text: "WhatsApp us",
-  button2Href: "https://wa.me/971555867466?text=Hi,%20I%27d%20like%20to%20book%20a%20home%20physiotherapy%20session.",
+  button2Href: "https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20book%20a%20home%20physiotherapy%20session.",
   button1BgColor: "#1A4D2E",
   button2BgColor: "#22C55E",
   button2TextColor: "#22C55E",
