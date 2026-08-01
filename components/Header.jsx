@@ -141,6 +141,19 @@ const Header = () => {
 
   return (
     <header className="w-full sticky top-0 z-50">
+      {/* Google Tag Manager */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-M3JC2THK');
+          `,
+        }}
+      />
+      {/* End Google Tag Manager */}
       {/* Top Bar */}
       <div
         className={`bg-[#184C3A] text-white overflow-hidden transition-all duration-300 ${showTopBar ? 'h-10 opacity-100' : 'h-0 opacity-0'
@@ -204,8 +217,8 @@ const Header = () => {
 
               <div
                 className={`absolute top-full left-0 pt-2 transition-all duration-200 ${isAyurvedaDropdownOpen
-                    ? "opacity-100 visible translate-y-0"
-                    : "opacity-0 invisible -translate-y-1"
+                  ? "opacity-100 visible translate-y-0"
+                  : "opacity-0 invisible -translate-y-1"
                   }`}
               >
                 <div className={`bg-white rounded-lg shadow-lg border border-gray-100 py-2 min-w-[240px] max-h-[400px] overflow-y-auto ${scrollbarHide}`}>
