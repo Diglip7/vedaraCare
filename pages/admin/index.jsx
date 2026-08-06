@@ -10,7 +10,7 @@ import {
   LayoutGrid, List as ListIcon, Filter, ArrowDownToLine, CheckCircle2, AlertTriangle,
   CalendarDays, Calendar as CalendarIcon, PenLine, Clock as ClockIcon, Image as ImageIcon, Video as VideoIcon, Maximize2,
   Compass, Target, Trophy, Users, Lightbulb, Rocket, Cloud, Grid, Box, GripHorizontal,
-  Phone, Mail, PhoneCall, Inbox, Check, AlertCircle, ShieldCheck, Tag
+  Phone, Mail, PhoneCall, Inbox, Check, AlertCircle, ShieldCheck, Tag, LogOut
 } from 'lucide-react';
 
 const cleanBlogContent = (html) => {
@@ -71,6 +71,11 @@ const AdminBlogPost = () => {
     fetchDrafts();
     fetchAppointments();
   }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem(tokenKey);
+    router.push("/admin/login");
+  };
 
   const fetchAppointments = async (status = appointmentFilter, search = appointmentSearch) => {
     try {
@@ -293,7 +298,9 @@ const AdminBlogPost = () => {
   const getRelativeDate = (dateStr) => {
     const date = new Date(dateStr);
     const now = new Date();
-    const diffDays = Math.floor((now - date) / (1000 * 60 * 60 * 24));
+    const d1 = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    const d2 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const diffDays = Math.round((d2 - d1) / (1000 * 60 * 60 * 24));
     if (diffDays === 0) return 'Today';
     if (diffDays === 1) return 'Yesterday';
     if (diffDays < 7) return `${diffDays} days ago`;
@@ -346,6 +353,43 @@ const AdminBlogPost = () => {
       </div>
 
       <div className="relative z-10 max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Admin Header Bar */}
+        <div className="bg-white border border-[#E5E5E5] rounded-3xl p-5 mb-8 flex flex-col md:flex-row items-center justify-between gap-4 shadow-sm backdrop-blur-xl">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full overflow-hidden border border-[#C9A961]/35 shadow-sm bg-[#0E281F] flex items-center justify-center">
+              <img 
+                src="/images/logo.png" 
+                alt="Vedara Care Logo" 
+                className="w-full h-full object-cover scale-105"
+              />
+            </div>
+            <div>
+              <span className="text-[10px] font-bold text-[#C9A961] uppercase tracking-wider block">Vedara Care Polyclinic</span>
+              <h2 className="text-base font-bold text-gray-900 leading-tight">Admin Control Panel</h2>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 bg-[#FAF8EF] border border-[#C9A961]/25 px-4 py-2 rounded-2xl">
+              <div className="w-8 h-8 rounded-xl bg-[#184C3A]/10 flex items-center justify-center text-[#184C3A]">
+                <User className="w-4 h-4" />
+              </div>
+              <div className="text-left">
+                <p className="text-xs font-bold text-gray-900 leading-tight">Administrator</p>
+                <p className="text-[10px] text-gray-500 font-medium">Session Active</p>
+              </div>
+            </div>
+
+            <button
+              onClick={handleLogout}
+              className="flex items-center gap-2 px-4 py-2 bg-[#FAF8EF] border border-red-200/60 hover:bg-red-50 text-red-600 hover:text-red-700 rounded-2xl text-sm font-semibold transition-all shadow-sm"
+            >
+              <LogOut className="w-4 h-4" />
+              <span>Logout</span>
+            </button>
+          </div>
+        </div>
+
         {/* Top Navigation */}
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-12">
           <div className="flex items-center gap-6">

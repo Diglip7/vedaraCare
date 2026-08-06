@@ -11,10 +11,10 @@ export default function Document() {
       <body className="antialiased">
         {/* Google Tag Manager (noscript) */}
         <noscript>
-          <iframe 
+          <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-M3JC2THK"
-            height="0" 
-            width="0" 
+            height="0"
+            width="0"
             style={{ display: 'none', visibility: 'hidden' }}
           ></iframe>
         </noscript>

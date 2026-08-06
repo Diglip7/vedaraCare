@@ -285,7 +285,7 @@ export const strokeRehabLocation = {
     "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road",
     "Free patient parking · Accessible entrance · Adjustable plinths"
   ],
-  mapEmbed: "",
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   image: "/images/stroke-clinic-jvc.webp",
   alt: "Vedara Care post-stroke rehabilitation clinic JVC Dubai",
   description: "Our JVC clinic has dedicated neurorehabilitation treatment rooms, accessibility features for limited-mobility patients (ramps, accessible bathrooms, adjustable plinths), specialised equipment for stroke rehabilitation including body weight support equipment and FES devices, parallel bars for gait training, and a quiet environment supporting concentration. For patients with mobility limitations, home physiotherapy is available throughout Dubai.",

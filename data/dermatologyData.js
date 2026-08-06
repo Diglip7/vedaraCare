@@ -6,7 +6,7 @@ export const dermatologyHero = {
   label: "DERMATOLOGY CLINIC · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
   title: "Dermatology clinic in JVC. Specialist medical and cosmetic care. All skin types. All concerns.",
   description: "Specialist dermatology at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists delivering medical dermatology — acne, eczema, pigmentation, skin cancer screening — and aesthetic dermatology: anti-aging treatments, botulinum toxin, dermal fillers, laser treatments, hair restoration. Expertise across all Fitzpatrick skin types. Multiple languages: Arabic, English, Hindi, Urdu.",
-   primaryCTA: "Book Dermatology Consultation",
+  primaryCTA: "Book Dermatology Consultation",
   secondaryCTA: "Explore Treatments",
   primaryCTAHref: "/book",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20dermatology%20treatments%20and%20book%20a%20consultation.",
@@ -18,10 +18,11 @@ export const dermatologyHero = {
   ],
   floatingCard: {
     title: "MEDICAL AND COSMETIC EXPERTISE",
-    subtitle: "Our dermatology practice combines medical dermatology (treating skin conditions and disease) with aesthetic dermatology (treatments for appearance and aging concerns). Many patients benefit from both — comprehensive skin care addresses both health and appearance." },
+    subtitle: "Our dermatology practice combines medical dermatology (treating skin conditions and disease) with aesthetic dermatology (treatments for appearance and aging concerns). Many patients benefit from both — comprehensive skin care addresses both health and appearance."
+  },
   image: "/images/dermatologist-near-circle-mall-jvc-hero.webp",
   alt: "Dermatology clinic near Circle Mall JVC Dubai — Vedara Care consultant dermatologists",
- 
+
 };
 
 export const dermatologyIntro = {
@@ -38,28 +39,35 @@ export const dermatologySciaticaSection1 = {
     intro: "Our dermatology practice combines specialist medical expertise with the refined patient experience Dubai's discerning population expects.",
     steps: [
       {
-      description:"Vedara Care's dermatology practice is built on the principle that excellent skin care combines clinical expertise with patient experience. Our consultant dermatologists bring substantial international training, our clinical environment is designed for comfort and discretion, and our approach respects both the medical seriousness of dermatological care and the importance of how patients feel during treatment."
+        description: "Vedara Care's dermatology practice is built on the principle that excellent skin care combines clinical expertise with patient experience. Our consultant dermatologists bring substantial international training, our clinical environment is designed for comfort and discretion, and our approach respects both the medical seriousness of dermatological care and the importance of how patients feel during treatment."
       },
       {
         title: "Comprehensive medical dermatology",
-        description: "Many patients arrive at dermatology with serious medical concerns — persistent acne affecting confidence, chronic eczema affecting quality of life, suspicious lesions requiring expert assessment, pigmentation concerns requiring expert treatment. We provide comprehensive medical dermatology with the same expertise patients would expect from any major Dubai dermatology centre. Specialist consultant dermatologists. Diagnostic dermoscopy. Skin biopsies and minor surgery on site. Coordination with broader medical specialists when needed." },
+        description: "Many patients arrive at dermatology with serious medical concerns — persistent acne affecting confidence, chronic eczema affecting quality of life, suspicious lesions requiring expert assessment, pigmentation concerns requiring expert treatment. We provide comprehensive medical dermatology with the same expertise patients would expect from any major Dubai dermatology centre. Specialist consultant dermatologists. Diagnostic dermoscopy. Skin biopsies and minor surgery on site. Coordination with broader medical specialists when needed."
+      },
       {
         title: "Refined aesthetic dermatology",
-        description: "Aesthetic dermatology requires more than technical skill — it requires understanding patient goals, calibrating treatments to individual features, balancing improvement with natural appearance, and providing experience patients want to return to. Our aesthetic dermatology approach prioritises subtle natural results, expert injection techniques, premium product selection (FDA-approved, EMA-approved brands only — no counterfeit risk), longer consultation time than rushed aesthetic chains, and treatment plans calibrated to age, ethnicity, lifestyle, and personal goals."    },
+        description: "Aesthetic dermatology requires more than technical skill — it requires understanding patient goals, calibrating treatments to individual features, balancing improvement with natural appearance, and providing experience patients want to return to. Our aesthetic dermatology approach prioritises subtle natural results, expert injection techniques, premium product selection (FDA-approved, EMA-approved brands only — no counterfeit risk), longer consultation time than rushed aesthetic chains, and treatment plans calibrated to age, ethnicity, lifestyle, and personal goals."
+      },
       {
         title: "Expertise across all skin types",
-        description: "Dubai's diverse population requires dermatology expertise across all Fitzpatrick skin types. Dark skin (types IV–VI) requires specific expertise — risk of post-inflammatory hyperpigmentation, different laser settings, different chemical peel approaches, different treatment selection. Our dermatologists have substantial experience across all skin types, ensuring appropriate treatment selection and risk management for every patient."  },
+        description: "Dubai's diverse population requires dermatology expertise across all Fitzpatrick skin types. Dark skin (types IV–VI) requires specific expertise — risk of post-inflammatory hyperpigmentation, different laser settings, different chemical peel approaches, different treatment selection. Our dermatologists have substantial experience across all skin types, ensuring appropriate treatment selection and risk management for every patient."
+      },
       {
         title: "Climate-specific knowledge for Dubai",
-        description: "Dubai's climate produces specific dermatological patterns. UV exposure is intense year-round, producing sun damage, melasma, photoaging earlier than in less sunny climates. Heat and humidity produce specific patterns — heat rash, fungal infections, hyperhidrosis. Air conditioning produces dryness and barrier compromise. Pool and beach exposure contributes to chlorine sensitivity and sun damage. Our practice addresses these climate-specific considerations as part of routine care."  },
+        description: "Dubai's climate produces specific dermatological patterns. UV exposure is intense year-round, producing sun damage, melasma, photoaging earlier than in less sunny climates. Heat and humidity produce specific patterns — heat rash, fungal infections, hyperhidrosis. Air conditioning produces dryness and barrier compromise. Pool and beach exposure contributes to chlorine sensitivity and sun damage. Our practice addresses these climate-specific considerations as part of routine care."
+      },
       {
         title: "Multiple languages, cultural understanding",
-        description: "Effective dermatology requires patient communication — about concerns, treatment goals, aftercare, and outcome expectations. Our team includes Arabic-speaking dermatologists, dermatologists fluent in Hindi and Urdu, and substantial English-language practice. Cultural understanding extends beyond language — patient expectations vary across cultures, modesty considerations vary, treatment goals vary. Our practice adapts to your specific needs."  },
+        description: "Effective dermatology requires patient communication — about concerns, treatment goals, aftercare, and outcome expectations. Our team includes Arabic-speaking dermatologists, dermatologists fluent in Hindi and Urdu, and substantial English-language practice. Cultural understanding extends beyond language — patient expectations vary across cultures, modesty considerations vary, treatment goals vary. Our practice adapts to your specific needs."
+      },
       {
         title: "Discretion and patient experience",
-        description: "Some dermatology patients value discretion particularly — high-profile individuals, patients seeking treatments they prefer to keep private, patients in specific cultural contexts. Our clinical environment supports discretion through private treatment rooms, discreet booking processes, separate scheduling, and absolute confidentiality. The premium patient experience matches the clinical quality."   }
+        description: "Some dermatology patients value discretion particularly — high-profile individuals, patients seeking treatments they prefer to keep private, patients in specific cultural contexts. Our clinical environment supports discretion through private treatment rooms, discreet booking processes, separate scheduling, and absolute confidentiality. The premium patient experience matches the clinical quality."
+      }
     ],
-    footer: "Excellent dermatology requires both — the clinical expertise to diagnose and treat skin conditions accurately, and the refined patient experience that makes treatment something patients choose rather than tolerate. We deliver both."    },
+    footer: "Excellent dermatology requires both — the clinical expertise to diagnose and treat skin conditions accurately, and the refined patient experience that makes treatment something patients choose rather than tolerate. We deliver both."
+  },
   rightContent: {
     image: "/images/dermatology-services-vedara-jvc.webp",
     alt: "Dermatology-led care approach Vedara Care JVC"
@@ -134,7 +142,7 @@ export const dermatologyAestheticTypes = {
     {
       number: "02",
       title: 'Dermal Fillers',
-      description: 'Hyaluronic acid fillers (Restylane, Juvederm, Belotero, and other recognised brands) for volume restoration, contouring, and feature enhancement. Common applications: cheek augmentation, lip enhancement, nasolabial folds, tear troughs, jawline contouring, hand rejuvenation. Premium products only. Reversibility with hyaluronidase if needed. Lasts 6–18 months depending on product and area.' 
+      description: 'Hyaluronic acid fillers (Restylane, Juvederm, Belotero, and other recognised brands) for volume restoration, contouring, and feature enhancement. Common applications: cheek augmentation, lip enhancement, nasolabial folds, tear troughs, jawline contouring, hand rejuvenation. Premium products only. Reversibility with hyaluronidase if needed. Lasts 6–18 months depending on product and area.'
     },
     {
       number: "03",
@@ -145,7 +153,7 @@ export const dermatologyAestheticTypes = {
     {
       number: "04",
       title: 'Laser Hair Removal',
-      description: 'Multiple laser platforms for hair removal across all skin types. Alexandrite, diode, and Nd:YAG lasers each have specific applications. Laser selection must match skin type — Nd:YAG appropriate for darker skin types where other lasers carry burn risk. Typical course 6–8 sessions every 4–6 weeks for substantial reduction. Maintenance sessions occasionally needed.'  ,
+      description: 'Multiple laser platforms for hair removal across all skin types. Alexandrite, diode, and Nd:YAG lasers each have specific applications. Laser selection must match skin type — Nd:YAG appropriate for darker skin types where other lasers carry burn risk. Typical course 6–8 sessions every 4–6 weeks for substantial reduction. Maintenance sessions occasionally needed.',
     },
     {
       number: "05",
@@ -229,7 +237,7 @@ export const dermatologyTeam = {
     },
     {
       name: "Dr. Priya Sharma",
-      credentials: "DHA-Licensed · Consultant Dermatologist",  
+      credentials: "DHA-Licensed · Consultant Dermatologist",
       languages: "English, Hindi, Urdu",
       tags: ["Aesthetic ", "Pigmentation", "Anti-Aging"],
       // description: "Aesthetic dermatology specialist with natural-looking results philosophy. Laser and filler expertise across all skin types.",
@@ -282,7 +290,7 @@ export const dermatologyPricing = {
     { name: "Hyperhidrosis treatment (axillary, botulinum toxin)", price: "From AED 2,200" },
 
   ],
-  insuranceText: 'Medical dermatology covered by most Dubai insurance plans with appropriate medical justification. Direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Cosmetic and aesthetic treatments typically self-pay. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking for specific coverage confirmation.',
+  insuranceText: 'Medical dermatology covered by most Dubai insurance plans with appropriate medical justification. Direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Cosmetic and aesthetic treatments typically self-pay. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a>  before booking for specific coverage confirmation.',
 };
 
 export const dermatologyFaqs = {
@@ -297,70 +305,90 @@ export const dermatologyFaqs = {
   faqs: [
     {
       question: "Do I need a referral to see a dermatologist?",
-      answer: "No — patients can self-refer directly to our dermatology clinic. Some insurance plans require GP referral for specialist consultation; check with your insurance about specific requirements. Most patients book directly without referral. For complex cases, GP coordination can be helpful but is not required."  },
+      answer: "No — patients can self-refer directly to our dermatology clinic. Some insurance plans require GP referral for specialist consultation; check with your insurance about specific requirements. Most patients book directly without referral. For complex cases, GP coordination can be helpful but is not required."
+    },
     {
       question: "How quickly can I get an appointment?",
-      answer: 'Standard appointments typically available within 1–2 weeks. For urgent concerns (suspicious lesions, severe presentations, acute conditions), priority appointments often available within 2–3 days. For specific cosmetic appointments (pre-event preparation), scheduling depends on timeline. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response on availability.'  },
+      answer: 'Standard appointments typically available within 1–2 weeks. For urgent concerns (suspicious lesions, severe presentations, acute conditions), priority appointments often available within 2–3 days. For specific cosmetic appointments (pre-event preparation), scheduling depends on timeline. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response on availability.'
+    },
     {
       question: "Where in Dubai is your dermatology clinic?",
-      answer: "Our DHA-licensed clinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Patients travel to us from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai."  },
+      answer: "Our DHA-licensed clinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Patients travel to us from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai."
+    },
     {
       question: "Do you have female dermatologists?",
-      answer: "Yes — our team includes both female and male consultant dermatologists. Patients can request a specific dermatologist or gender preference at booking. For modesty-sensitive consultations (full skin examination, specific treatment areas), female patients may prefer female dermatologists; we accommodate this preference. Chaperones available for any consultation if preferred"  },
+      answer: "Yes — our team includes both female and male consultant dermatologists. Patients can request a specific dermatologist or gender preference at booking. For modesty-sensitive consultations (full skin examination, specific treatment areas), female patients may prefer female dermatologists; we accommodate this preference. Chaperones available for any consultation if preferred"
+    },
     {
       question: "What languages do your dermatologists speak?",
-      answer: "Our team includes Arabic-speaking, English-speaking, Hindi-speaking, and Urdu-speaking dermatologists. Specific language capability per dermatologist varies — we match patients to appropriate language capability. For multi-language families, this is often important. Inquiry at booking confirms specific language matching." },
+      answer: "Our team includes Arabic-speaking, English-speaking, Hindi-speaking, and Urdu-speaking dermatologists. Specific language capability per dermatologist varies — we match patients to appropriate language capability. For multi-language families, this is often important. Inquiry at booking confirms specific language matching."
+    },
     {
       question: "Will insurance cover my dermatology consultation?",
-      answer: 'Most Dubai insurance plans cover medical dermatology consultations with appropriate medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Cosmetic and aesthetic treatments are typically not covered by insurance. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking for specific coverage confirmation.' },
+      answer: 'Most Dubai insurance plans cover medical dermatology consultations with appropriate medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Cosmetic and aesthetic treatments are typically not covered by insurance. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking for specific coverage confirmation.'
+    },
     {
       question: "Do you treat all skin types?",
-      answer: "Yes — comprehensive expertise across all Fitzpatrick skin types (I–VI). Particular expertise with darker skin types where treatment selection differs significantly from lighter skin (laser settings, peel selection, treatment timing, post-inflammatory hyperpigmentation prevention). Dubai's diverse population requires this expertise — we provide it." },
+      answer: "Yes — comprehensive expertise across all Fitzpatrick skin types (I–VI). Particular expertise with darker skin types where treatment selection differs significantly from lighter skin (laser settings, peel selection, treatment timing, post-inflammatory hyperpigmentation prevention). Dubai's diverse population requires this expertise — we provide it."
+    },
     {
       question: "Can I bring my children for dermatology consultation?",
-      answer: "Yes — pediatric dermatology is part of our practice. We treat acne (adolescent and pre-teen), eczema (very common in children), molluscum contagiosum, warts, birthmarks, congenital skin conditions, and other pediatric concerns. Pediatric-specific dermatologists or dermatologists with pediatric experience available depending on case complexity."   },
+      answer: "Yes — pediatric dermatology is part of our practice. We treat acne (adolescent and pre-teen), eczema (very common in children), molluscum contagiosum, warts, birthmarks, congenital skin conditions, and other pediatric concerns. Pediatric-specific dermatologists or dermatologists with pediatric experience available depending on case complexity."
+    },
     {
       question: "Are aesthetic treatments safe?",
-      answer: "When delivered by appropriately qualified practitioners using approved products and evidence-based techniques — yes, aesthetic dermatology treatments are generally safe. Our standards: only DHA-licensed consultant dermatologists delivering injectables and procedures, only FDA-approved or EMA-approved products, comprehensive consultation including risk discussion, informed consent, and emergency protocols. We discuss specific risks for each treatment during consultation." },
+      answer: "When delivered by appropriately qualified practitioners using approved products and evidence-based techniques — yes, aesthetic dermatology treatments are generally safe. Our standards: only DHA-licensed consultant dermatologists delivering injectables and procedures, only FDA-approved or EMA-approved products, comprehensive consultation including risk discussion, informed consent, and emergency protocols. We discuss specific risks for each treatment during consultation."
+    },
     {
       question: "Will my botulinum toxin look obvious or 'frozen'?",
-      answer: "Not when properly administered. Expert injection technique produces natural-looking results — softening lines without eliminating expression, producing the 'you look refreshed' effect rather than the 'you obviously had work done' effect. The most common reason patients look unnatural is over-treatment. We favour conservative dosing with subtle results. Touch-up adjustments at follow-up if needed."  }
- 
- ,{
-question: "How long do dermal fillers last?",
-answer: "Depends on product and area. Lip fillers typically 6–12 months. Cheek fillers typically 12–18 months. Tear trough fillers 9–18 months. Premium hyaluronic acid fillers we use have well-established longevity profiles. Individual variation occurs based on metabolism, lifestyle, and other factors. Reversibility with hyaluronidase available if needed." },
-{
-    question: "What is laser hair removal — and does it really work permanently?",
-    answer: "'Permanent reduction' is the accurate description — typical results 70–90% reduction in hair density after 6–8 sessions. Laser uses specific wavelengths targeting hair pigment to damage follicles, reducing future growth. Some hairs return, often finer and lighter. Maintenance sessions occasionally needed. Effectiveness varies by hair colour, skin colour (laser selection must match skin type), and hormonal factors."},
-{
-    question: "Can I treat melasma effectively?",
-    answer: "Melasma is challenging but treatable. Comprehensive treatment requires: rigorous sun protection (the single most important factor), topical regimens, chemical peels calibrated to your skin type, specific laser treatments where appropriate, and lifestyle modifications. Sustained substantial improvement is achievable for most patients. Ongoing management typically needed as melasma tends to recur."},
+      answer: "Not when properly administered. Expert injection technique produces natural-looking results — softening lines without eliminating expression, producing the 'you look refreshed' effect rather than the 'you obviously had work done' effect. The most common reason patients look unnatural is over-treatment. We favour conservative dosing with subtle results. Touch-up adjustments at follow-up if needed."
+    }
+
+    , {
+      question: "How long do dermal fillers last?",
+      answer: "Depends on product and area. Lip fillers typically 6–12 months. Cheek fillers typically 12–18 months. Tear trough fillers 9–18 months. Premium hyaluronic acid fillers we use have well-established longevity profiles. Individual variation occurs based on metabolism, lifestyle, and other factors. Reversibility with hyaluronidase available if needed."
+    },
+    {
+      question: "What is laser hair removal — and does it really work permanently?",
+      answer: "'Permanent reduction' is the accurate description — typical results 70–90% reduction in hair density after 6–8 sessions. Laser uses specific wavelengths targeting hair pigment to damage follicles, reducing future growth. Some hairs return, often finer and lighter. Maintenance sessions occasionally needed. Effectiveness varies by hair colour, skin colour (laser selection must match skin type), and hormonal factors."
+    },
+    {
+      question: "Can I treat melasma effectively?",
+      answer: "Melasma is challenging but treatable. Comprehensive treatment requires: rigorous sun protection (the single most important factor), topical regimens, chemical peels calibrated to your skin type, specific laser treatments where appropriate, and lifestyle modifications. Sustained substantial improvement is achievable for most patients. Ongoing management typically needed as melasma tends to recur."
+    },
     {
       question: "What about acne scarring — can it be improved?",
-      answer: "Yes, often substantially. Treatment options include subcision (for tethered scars), laser resurfacing (fractional lasers), microneedling, chemical peels, dermal fillers (for specific scar types), and combinations. Realistic expectations: scarring rarely returns to completely normal skin but substantial improvement is typically achievable. Multiple treatment sessions usually needed." }
- 
- 
- ,{
-    question: "How is skin cancer screening done?",
-    answer: "Comprehensive screening includes: detailed history (sun exposure, family history, previous skin cancers), full-body skin examination with appropriate modesty, dermoscopy of suspicious lesions (specialised magnification with light), photographic documentation for monitoring, and biopsy when indicated. Annual screening recommended for higher-risk patients (lighter skin types, substantial sun exposure history, family history of melanoma)."},
+      answer: "Yes, often substantially. Treatment options include subcision (for tethered scars), laser resurfacing (fractional lasers), microneedling, chemical peels, dermal fillers (for specific scar types), and combinations. Realistic expectations: scarring rarely returns to completely normal skin but substantial improvement is typically achievable. Multiple treatment sessions usually needed."
+    }
+
+
+    , {
+      question: "How is skin cancer screening done?",
+      answer: "Comprehensive screening includes: detailed history (sun exposure, family history, previous skin cancers), full-body skin examination with appropriate modesty, dermoscopy of suspicious lesions (specialised magnification with light), photographic documentation for monitoring, and biopsy when indicated. Annual screening recommended for higher-risk patients (lighter skin types, substantial sun exposure history, family history of melanoma)."
+    },
     {
       question: "Will treatments leave scars?",
-      answer: "Most aesthetic treatments do not leave scars when properly performed. Procedures involving incisions (mole excision, biopsy) leave small scars that typically heal well — we discuss expected scarring before any procedure. Injection treatments (botulinum toxin, fillers) do not scar. Laser treatments generally do not scar with appropriate settings and aftercare. Significant scarring is uncommon."  }
- 
- ,{
-  question: "What is the downtime after various treatments?",
-  answer: "Varies substantially. No downtime: botulinum toxin, fillers (minor swelling/bruising possible), superficial chemical peels, hair restoration injections. Minimal downtime: medium chemical peels (3–7 days redness/peeling), non-ablative lasers (1–3 days redness). Substantial downtime: deeper chemical peels, ablative laser resurfacing (1–2 weeks). We discuss specific downtime for any planned treatment." },
+      answer: "Most aesthetic treatments do not leave scars when properly performed. Procedures involving incisions (mole excision, biopsy) leave small scars that typically heal well — we discuss expected scarring before any procedure. Injection treatments (botulinum toxin, fillers) do not scar. Laser treatments generally do not scar with appropriate settings and aftercare. Significant scarring is uncommon."
+    }
 
- {
-  question: "What about pre-event skin preparation — pre-wedding, pre-photoshoot?",
-  answer: "Pre-event programmes are very common in Dubai. Timing matters: botulinum toxin needs 1–2 weeks before events, fillers 2–4 weeks before, chemical peels 3–6 weeks before, laser treatments at varying intervals. Discuss event timing during consultation for appropriate treatment scheduling. Last-minute treatments often produce results that have not optimally settled." },
-  {
-    question: "How is dermatology at Vedara different?",
-    answer: "DHA-licensed consultant dermatologists (not nurses or aestheticians performing medical or aesthetic procedures), substantial international training, longer consultation times (45–60 minutes initial), expertise across all Fitzpatrick skin types, premium product selection only (no counterfeit risk), honest consultation approach (no pressure, no upselling), transparent published pricing, multiple languages (Arabic, English, Hindi, Urdu), female and male dermatologists available." },
+    , {
+      question: "What is the downtime after various treatments?",
+      answer: "Varies substantially. No downtime: botulinum toxin, fillers (minor swelling/bruising possible), superficial chemical peels, hair restoration injections. Minimal downtime: medium chemical peels (3–7 days redness/peeling), non-ablative lasers (1–3 days redness). Substantial downtime: deeper chemical peels, ablative laser resurfacing (1–2 weeks). We discuss specific downtime for any planned treatment."
+    },
+
+    {
+      question: "What about pre-event skin preparation — pre-wedding, pre-photoshoot?",
+      answer: "Pre-event programmes are very common in Dubai. Timing matters: botulinum toxin needs 1–2 weeks before events, fillers 2–4 weeks before, chemical peels 3–6 weeks before, laser treatments at varying intervals. Discuss event timing during consultation for appropriate treatment scheduling. Last-minute treatments often produce results that have not optimally settled."
+    },
+    {
+      question: "How is dermatology at Vedara different?",
+      answer: "DHA-licensed consultant dermatologists (not nurses or aestheticians performing medical or aesthetic procedures), substantial international training, longer consultation times (45–60 minutes initial), expertise across all Fitzpatrick skin types, premium product selection only (no counterfeit risk), honest consultation approach (no pressure, no upselling), transparent published pricing, multiple languages (Arabic, English, Hindi, Urdu), female and male dermatologists available."
+    },
     {
       question: "How do I book a dermatology consultation?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for inquiry about specific concerns or treatment availability. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: insurance card (if applicable), list of current medications and supplements, current skincare products, any previous treatment records, and your questions.'}
- ]
+      answer: 'Three ways: (1) <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for inquiry about specific concerns or treatment availability. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: insurance card (if applicable), list of current medications and supplements, current skincare products, any previous treatment records, and your questions.'
+    }
+  ]
 };
 
 export const dermatologyLocation = {
@@ -405,22 +433,28 @@ export const dermatologyConsultation = {
     },
     {
       title: "The initial consultation",
-      content: "Your first appointment includes detailed history of your specific concerns, comprehensive skin examination using clinical assessment and dermoscopy where appropriate, identification of triggers and contributing factors, discussion of treatment options with honest assessment of expected outcomes and timelines, photographic documentation for treatment monitoring (with consent), discussion of costs and treatment plans, and aftercare guidance."  },
+      content: "Your first appointment includes detailed history of your specific concerns, comprehensive skin examination using clinical assessment and dermoscopy where appropriate, identification of triggers and contributing factors, discussion of treatment options with honest assessment of expected outcomes and timelines, photographic documentation for treatment monitoring (with consent), discussion of costs and treatment plans, and aftercare guidance."
+    },
     {
       title: "For medical concerns",
-      content: "Medical dermatology consultations focus on accurate diagnosis and evidence-based treatment. Some conditions require additional investigations — biopsy, blood tests, allergy assessment, photographic monitoring. Treatment plans may include topical and oral medications, in-clinic procedures, and lifestyle modifications. Follow-up scheduled based on condition — chronic conditions typically require sustained partnership rather than single visits."    },
+      content: "Medical dermatology consultations focus on accurate diagnosis and evidence-based treatment. Some conditions require additional investigations — biopsy, blood tests, allergy assessment, photographic monitoring. Treatment plans may include topical and oral medications, in-clinic procedures, and lifestyle modifications. Follow-up scheduled based on condition — chronic conditions typically require sustained partnership rather than single visits."
+    },
     {
       title: "For aesthetic concerns",
-      content: "Aesthetic dermatology consultations focus on understanding your goals, assessing what is realistic and appropriate for your situation, presenting treatment options honestly, and planning treatment that produces results you want. We do not push treatments you do not need or want. We are honest when treatments would not produce the results patients expect. We respect patient choices about how much or how little intervention they want." },
+      content: "Aesthetic dermatology consultations focus on understanding your goals, assessing what is realistic and appropriate for your situation, presenting treatment options honestly, and planning treatment that produces results you want. We do not push treatments you do not need or want. We are honest when treatments would not produce the results patients expect. We respect patient choices about how much or how little intervention they want."
+    },
     {
       title: "For complex cases",
-      content: "Some patients present with multiple concerns or complex situations requiring comprehensive workup — persistent acne with hormonal contributors, suspicious lesions requiring detailed assessment, post-procedural complications from treatments elsewhere. Complex cases receive appropriately longer consultations and may require multi-visit assessment before treatment recommendations."  },
+      content: "Some patients present with multiple concerns or complex situations requiring comprehensive workup — persistent acne with hormonal contributors, suspicious lesions requiring detailed assessment, post-procedural complications from treatments elsewhere. Complex cases receive appropriately longer consultations and may require multi-visit assessment before treatment recommendations."
+    },
     {
       title: "About cost transparency",
-      content: "We discuss costs openly during consultation. Initial consultation fees are published clearly. Treatment costs are explained before any treatment is performed. Treatment plans may have packaged pricing for multi-session approaches. Patients can decide based on full information rather than receiving costs only at point of treatment. No pressure, no upsell tactics."    },
+      content: "We discuss costs openly during consultation. Initial consultation fees are published clearly. Treatment costs are explained before any treatment is performed. Treatment plans may have packaged pricing for multi-session approaches. Patients can decide based on full information rather than receiving costs only at point of treatment. No pressure, no upsell tactics."
+    },
     {
       title: "Insurance coverage",
-      content: "Medical dermatology is covered by most Dubai insurance plans with appropriate medical justification. We are direct-billing partners with major insurers. Cosmetic and aesthetic treatments are typically self-pay. Some treatments fall in grey areas — for example, hyperhidrosis treatment may be covered when severe and affecting daily life. We provide guidance on specific coverage during consultation."     }
+      content: "Medical dermatology is covered by most Dubai insurance plans with appropriate medical justification. We are direct-billing partners with major insurers. Cosmetic and aesthetic treatments are typically self-pay. Some treatments fall in grey areas — for example, hyperhidrosis treatment may be covered when severe and affecting daily life. We provide guidance on specific coverage during consultation."
+    }
   ],
   safetyCard: {
     label: "YOUR CONSULTATION",
@@ -484,7 +518,7 @@ export const servicePillarsData = {
 };
 
 export const dermatologyRelatedPages = {
-   bgColor: "bg-white",
+  bgColor: "bg-white",
   label: "LEARN MORE",
   title: "Specific dermatology conditions and treatments.",
   linkText: "Browse all dermatology services",

@@ -124,7 +124,7 @@ export const arthritisPillars = {
   pillars: [
     {
       title: "Localised Joint Therapies",
-      description: "The most clinically distinctive Ayurvedic intervention for arthritis. Specific localised therapies depending on affected joint — Janu Vasti (warm medicated oil reservoir over the knee) for<a href=\"/treatments/kativasti-dubai/\" class=\"text-[#C9A961] hover:underline\"> knee arthritis, </a> Greeva Vasti for cervical spondylosis, <a href=\"/treatments/kativasti-dubai/\" class=\"text-[#C9A961] hover:underline\">Kati Vasti</a> for lumbar spondylosis, specific protocols for shoulders, Pizhichil for whole-body arthritis presentations. These therapies deliver medicated oils directly to the affected joint tissue with sustained warmth — typically 30-45 minutes per session, courses of 7-14 sessions."
+      description: "The most clinically distinctive Ayurvedic intervention for arthritis. Specific localised therapies depending on affected joint — Janu Vasti (warm medicated oil reservoir over the knee) for knee arthritis, Greeva Vasti for cervical spondylosis, <a href=\"/treatments/kativasti-dubai/\" class=\"text-[#C9A961] hover:underline\">Kati Vasti</a> for lumbar spondylosis, specific protocols for shoulders, Pizhichil for whole-body arthritis presentations. These therapies deliver medicated oils directly to the affected joint tissue with sustained warmth — typically 30-45 minutes per session, courses of 7-14 sessions."
     },
     {
       title: "Panchakarma Cleansing",
@@ -178,7 +178,7 @@ export const arthritisFaqs = {
     },
     {
       question: "Where exactly is your arthritis clinic in Dubai?",
-      answer: "Our clinic is at [full address] in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. For elderly patients with mobility limitations, we also offer home services for some sessions."
+      answer: "Our clinic is at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. For elderly patients with mobility limitations, we also offer home services for some sessions."
     }
   ]
 };

@@ -7,12 +7,12 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { name, phone, email, service, preferredDate, preferredTime, message } = req.body;
+    const { name, phone, email, service, preferredDate, preferredTime, message, source } = req.body;
 
     if (!name || !phone) {
-      return res.status(400).json({ 
-        success: false, 
-        message: "Full name and phone number are required fields." 
+      return res.status(400).json({
+        success: false,
+        message: "Full name and phone number are required fields."
       });
     }
 
@@ -47,7 +47,7 @@ export default async function handler(req, res) {
         concern: service || "General Contact Inquiry",
         additionalInfo: additionalInfoText,
         preferredDate: preferredDate ? new Date(preferredDate) : undefined,
-        source: "Contact Page Form",
+        source: source || "Contact Page Form",
         status: "new"
       });
       await newAppointment.save();

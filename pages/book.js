@@ -334,7 +334,8 @@ export default function BookAppointment({ dynamicTreatments }) {
         service: `${formData.department} — ${formData.treatment}`,
         preferredDate: formData.preferredDate,
         preferredTime: formData.preferredTime,
-        message: `Patient Type: ${formData.patientType}\nDoctor: ${formData.doctor}\nGender: ${formData.gender}, Age: ${formData.age || 'N/A'}\nInsurance: ${formData.insurance}\nEmirates ID: ${formData.emiratesId || 'N/A'}\nSymptoms: ${formData.symptoms}`
+        message: `Patient Type: ${formData.patientType}\nDoctor: ${formData.doctor}\nGender: ${formData.gender}, Age: ${formData.age || 'N/A'}\nInsurance: ${formData.insurance}\nEmirates ID: ${formData.emiratesId || 'N/A'}\nSymptoms: ${formData.symptoms}`,
+        source: "Booking Page Form"
       };
 
       await fetch('/api/contact', {

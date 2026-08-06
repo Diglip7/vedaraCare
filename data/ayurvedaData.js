@@ -18,11 +18,11 @@ export const ayurvedaHero = {
     "45-60 Min First Consultations",
     "Insurance Accepted"
   ],
-   
-    floatingCard: {
+
+  floatingCard: {
     title: "Led by BAMS-qualified physicians",
     subtitle: "DHA Licensed · 15+ years average experience"
-    
+
   },
 };
 
@@ -42,7 +42,7 @@ export const ayurvedaTherapies = {
   title: "Eight classical therapies. Practised the way they were meant to be.",
   description: "Every treatment at our JVC Ayurveda clinic is prescribed by a BAMS-qualified physician after dosha consultation. We do not offer Ayurveda as massage. We offer it as medicine.",
   footer:
-  '<a href="/treatments/ayurvedic-massage-jvc/">Not sure which Ayurvedic massage you need?</a> → See our comparison guide',
+    '<a href="/treatments/ayurvedic-massage-jvc/">Not sure which Ayurvedic massage you need?</a> → See our comparison guide',
   items: [
     {
       title: "Panchakarma",
@@ -115,8 +115,8 @@ export const ayurvedaTherapies = {
       link: "/treatments/udvartana-dubai/"
     },
 
-   
-  
+
+
   ]
 
 };
@@ -476,7 +476,7 @@ export const ayurvedaLocation = {
     sunday: ""
   },
   // mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
-   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   parkingText: "Free covered parking for patients",
   tags: ["Next to Circle Mall", "5 min from FIVE JVC Hotel", "15 mins from JLT/Marina", "Free covered parking"],
   buttonText: "Book Your Ayurvedic Visit",
@@ -519,7 +519,7 @@ export const dubaiHubHero = {
     title: "EST. DUBAI",
     subtitle: "5,000+ Patients Treated"
   },
-   image: "/images/ayurveda-dubai-hero.webp",
+  image: "/images/ayurveda-dubai-hero.webp",
   alt: "Ayurvedic doctor selecting herbal medicines at a DHA-licensed Ayurveda clinic in Dubai"
 };
 

@@ -10,7 +10,7 @@ const AyurvedaIntro = ({
   return (
     <section className={`${bgColor} py-24 px-6 relative overflow-hidden`}>
       <div className="max-w-[1280px] mx-auto">
-        <div className="max-w-[880px] mx-auto text-center">
+        <div className="max-w-[1100px] mx-auto text-center">
           <p className="text-[13px] font-sans font-semibold tracking-[0.15em] text-[#C9A961] uppercase block">
             {label}
           </p>

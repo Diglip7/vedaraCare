@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, MessageCircle, Globe, Menu, X, Calendar, ChevronDown } from 'lucide-react';
 
 
@@ -57,6 +58,7 @@ const PHYSIOTHERAPY_TREATMENTS = [
 ];
 
 const WELLNESS_TREATMENTS = [
+  { href: '/wellness-clinic-jvc', label: 'Wellness Clinic in JVC' },
   { href: '/treatments/cupping-therapy-dubai', label: 'Cupping Therapy' },
 ];
 
@@ -185,8 +187,17 @@ const Header = () => {
       <nav className="bg-white border-b border-gray-100 shadow-sm relative">
         <div className="max-w-[1440px] mx-auto px-4 md:px-6 flex items-center justify-between h-20 md:h-22">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-3 h-3 bg-[#D4A373] rounded-full mt-1"></div>
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="w-12 h-12 rounded-full overflow-hidden bg-white shadow-sm border border-gray-100 p-0.5 flex items-center justify-center transition-transform group-hover:scale-105">
+              <Image
+                src="/images/logo.png"
+                alt="Vedara Care Logo"
+                width={40}
+                height={40}
+                className="object-contain rounded-full"
+                priority
+              />
+            </div>
             <h1 className="text-[20px] md:text-[24px] font-serif font-medium text-[#1A1A1A] tracking-tight">
               Vedara Care
             </h1>
@@ -392,7 +403,7 @@ const Header = () => {
                 className="flex items-center gap-1 text-[14px] font-sans font-medium text-[#1A1A1A] hover:text-[#184C3A] transition-colors"
                 onClick={() => setIsWellnessDropdownOpen(!isWellnessDropdownOpen)}
               >
-                <span className="hover:text-[#184C3A]">Wellness</span>
+                <Link href="/wellness-clinic-jvc" className="hover:text-[#184C3A]">Wellness</Link>
                 <ChevronDown size={14} className={`transition-transform duration-200 ${isWellnessDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
 
@@ -610,7 +621,7 @@ const Header = () => {
             {/* Mobile Wellness Accordion */}
             <div>
               <div className="flex items-center justify-between">
-                <span className="text-[16px] font-medium text-[#1A1A1A]">Wellness</span>
+                <Link href="/wellness-clinic-jvc" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Wellness</Link>
                 <button
                   onClick={() => setIsMobileWellnessOpen(!isMobileWellnessOpen)}
                   className="p-1 text-[#4A4A4A]"

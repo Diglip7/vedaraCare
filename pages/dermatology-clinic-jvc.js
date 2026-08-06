@@ -416,8 +416,7 @@ const DermatologyClinicJVC = () => {
         useKneeStyle={true}
         useKneeStyleBgColor="bg-white"
       />
-
-      
+     
 
       <div className={`bg-[#FAF8F3] py-24 px-6 ${dermatologyPricing.bgColor}`}>
         <div className="max-w-5xl mx-auto">
@@ -443,9 +442,11 @@ const DermatologyClinicJVC = () => {
             ))}
           </div>
 
-          <p className="text-center mb-8" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7', fontSize: '14px' }}>
-            {dermatologyPricing.insuranceText}
-          </p>
+          <p 
+            className="text-center mb-8" 
+            style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7', fontSize: '14px' }}
+            dangerouslySetInnerHTML={{ __html: dermatologyPricing.insuranceText }}
+          />
           <div className="flex flex-wrap justify-center gap-3">
             {dermatologyPricing.insurances && dermatologyPricing.insurances.map((insurer, index) => (
               <span key={index} className="bg-[#FAF8F5] px-4 py-2 rounded-full text-xs border border-[#E5DFD3]" style={{ color: 'rgb(107, 107, 107)' }}>

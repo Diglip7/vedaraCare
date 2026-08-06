@@ -1,7 +1,21 @@
 import Header from './Header';
 import Footer from './Footer';
+import { useRouter } from 'next/router';
 
 const Layout = ({ children }) => {
+  const router = useRouter();
+  const isAdmin = router.pathname.startsWith('/admin');
+
+  if (isAdmin) {
+    return (
+      <div className="min-h-screen bg-[#FAF8EF]/50">
+        <main className="min-h-screen">
+          {children}
+        </main>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />

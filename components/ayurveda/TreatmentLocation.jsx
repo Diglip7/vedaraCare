@@ -19,12 +19,13 @@ const TreatmentLocation = ({
   buttonText = "",
   buttonHref = "/book",
   mapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
-  appointmentInfo = null
+  appointmentInfo = null,
+  showLocationImage = false
 }) => {
   const isExternalButtonHref = buttonHref && (buttonHref.startsWith('http://') || buttonHref.startsWith('https://'));
   const renderHours = () => {
     if (!hours) return null;
-    
+
     if (typeof hours === 'string') {
       return (
         <div className="bg-[#F5F1E8] p-4 rounded-lg">
@@ -36,7 +37,7 @@ const TreatmentLocation = ({
               </div>
             ))}
           </div>
-         
+
         </div>
       );
     }
@@ -51,7 +52,7 @@ const TreatmentLocation = ({
                 <span className="text-gray-700">{hours.monday}</span>
               </div>
             )}
-           
+
           </div>
         </div>
       );
@@ -63,32 +64,44 @@ const TreatmentLocation = ({
     <section className={`${bgColor} py-24 px-6 relative overflow-hidden`}>
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-12 gap-12 items-start">
-          {/* Map / Image */}
-          <div className="lg:col-span-6">
-            <div className="h-[500px] bg-gray-300 rounded-xl overflow-hidden shadow-lg">
-              {mapEmbed ? (
-                <iframe 
-                  src={mapEmbed}
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Clinic Location Map"
-                ></iframe>
-              ) : image ? (
-                <img 
-                  src={image.startsWith('http') ? image : `/images/${image}`} 
-                  alt={alt} 
+          <div className="lg:col-span-6 space-y-4">
+            {mapEmbed ? (
+              <>
+                <div className={`bg-gray-300 rounded-xl overflow-hidden shadow-lg ${showLocationImage ? 'h-[400px]' : 'h-[600px]'}`}>
+                  <iframe
+                    src={mapEmbed}
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Clinic Location Map"
+                  ></iframe>
+                </div>
+                {showLocationImage && image && (
+                  <div className="h-[300px] rounded-xl overflow-hidden shadow-lg">
+                    <img
+                      src={image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`}
+                      alt={alt}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                )}
+              </>
+            ) : image ? (
+              <div className="h-[600px] rounded-xl overflow-hidden shadow-lg">
+                <img
+                  src={image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`}
+                  alt={alt}
                   className="w-full h-full object-cover"
                 />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center text-gray-600">
-                  [Google Maps Embed - JVC Location]
-                </div>
-              )}
-            </div>
+              </div>
+            ) : (
+              <div className="h-[500px] bg-gray-300 rounded-xl flex items-center justify-center text-gray-600">
+                [Google Maps Embed - JVC Location]
+              </div>
+            )}
           </div>
 
           {/* Location Info */}
@@ -96,7 +109,7 @@ const TreatmentLocation = ({
             <div className="text-[#C8975F] text-sm font-semibold tracking-wider mb-3">
               {label}
             </div>
-            
+
             <h2 className="text-4xl md:text-5xl text-[#1A1A1A] mb-8" style={{ fontFamily: 'Fraunces, Georgia, serif' }}>
               {title}
             </h2>
@@ -121,12 +134,12 @@ const TreatmentLocation = ({
               {whatsapp && (
                 <div className="flex items-start gap-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="text-[#C8975F] shrink-0 mt-1">
-                    <path d="M12 0C5.374 0 0 5.374 0 12c0 5.302 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.626-5.373-12-12-12z"/>
+                    <path d="M12 0C5.374 0 0 5.374 0 12c0 5.302 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.626-5.373-12-12-12z" />
                   </svg>
                   <div className="text-gray-700">
                     <div className="font-medium mb-0.5">WhatsApp</div>
-                    <a href={whatsappMessage 
-                      ? `https://wa.me/${whatsapp.replace(/\s/g, '')}?text=${encodeURIComponent(whatsappMessage)}` 
+                    <a href={whatsappMessage
+                      ? `https://wa.me/${whatsapp.replace(/\s/g, '')}?text=${encodeURIComponent(whatsappMessage)}`
                       : `https://wa.me/${whatsapp.replace(/\s/g, '')}`}
                     >{whatsapp}</a>
                   </div>
@@ -161,7 +174,7 @@ const TreatmentLocation = ({
                 </div>
               )}
             </div>
-        
+
             {/* Operating Hours */}
             {(typeof hours === 'object' || typeof hours === 'string') && renderHours()}
 
@@ -173,12 +186,12 @@ const TreatmentLocation = ({
                 </p>
                 <div className="grid grid-cols-2 gap-2">
                   {landmarks.map((landmark, index) => (
-                    <div 
-                      key={index} 
-                      className="flex items-center gap-2 text-xs" 
+                    <div
+                      key={index}
+                      className="flex items-center gap-2 text-xs"
                       style={{ color: '#6B6B6B' }}>
-                      <CircleCheckBig 
-                        size={14} 
+                      <CircleCheckBig
+                        size={14}
                         style={{ color: '#C9A961' }}
                       />
                       <span>{landmark}</span>

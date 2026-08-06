@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const PhysiotherapyTeam = ({ label, title, description, team = [], members = [], bgColor = "bg-white",gridColumns = "lg:grid-cols-4" }) => {
+const PhysiotherapyTeam = ({ label, title, description, team = [], members = [], bgColor = "bg-white",gridColumns = "lg:grid-cols-4", memberButtonText = "View profile" }) => {
   // Helper function to create a slug from the name
   const createSlug = (name) => {
     return name.toLowerCase().replace(/[.,]/g, '').replace(/\s+/g, '-');
@@ -64,14 +64,14 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
                         href={member.link}
                         className="text-sm text-[#C4A962] hover:text-[#1A1A1A] transition-colors font-medium inline-block"
                       >
-                        View profile →
+                        {memberButtonText} →
                       </Link>
                     ) : (
                       <Link 
                         href={`/physiotherapists/${slug}/`}
                         className="text-sm text-[#C4A962] hover:text-[#1A1A1A] transition-colors font-medium inline-block"
                       >
-                        View profile →
+                        {memberButtonText} →
                       </Link>
                     )}
                   </div>

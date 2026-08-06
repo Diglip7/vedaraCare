@@ -349,6 +349,9 @@ const PRPCombinationSection = ({
   description,
   contentSections,
   sidebar,
+  image,
+  alt,
+  showSectionImage,
 }) => {
   return (
     <section className={`${bgColor}`} style={{ padding: '96px 24px' }}>
@@ -422,6 +425,11 @@ const PRPCombinationSection = ({
                   {sidebar.buttonText}
                 </a>
               )}
+              {showSectionImage && image && (
+                <div className="mt-6 rounded-xl overflow-hidden shadow-md border border-[#E5DFD3]/40 aspect-[4/3] w-full">
+                  <img src={image} alt={alt || "Section Image"} className="w-full h-full object-cover" />
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -442,6 +450,9 @@ const TreatmentTimelineSection = ({
   phases,
   footerNote,
   bottomContent,
+  image,
+  alt,
+  showSectionImage,
 }) => {
   return (
     <section className={`${bgColor}`} style={{ padding: '96px 24px' }}>
@@ -459,6 +470,17 @@ const TreatmentTimelineSection = ({
             </p>
           )}
         </div>
+
+        {/* Render timeline image banner if passed */}
+        {showSectionImage && image && (
+          <div className="max-w-5xl mx-auto mb-12 rounded-xl overflow-hidden shadow-sm aspect-[21/9] max-h-[300px] border border-[#E5DFD3]/30">
+            <img 
+              src={image} 
+              alt={alt || "Timeline Image"} 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {phases.map((phase, index) => (

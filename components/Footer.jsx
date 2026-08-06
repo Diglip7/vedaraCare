@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, Mail, Clock, MapPin, Stethoscope, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 
@@ -17,8 +18,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Info */}
           <div className="space-y-6">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-[#D4A373] rounded-full"></div>
+            <Link href="/" className="flex items-center gap-3">
+              <Image
+                src="/images/logo.png"
+                alt="Vedara Care Logo"
+                width={40}
+                height={40}
+                className="object-contain bg-white rounded-full p-1"
+              />
               <h3 className="text-2xl font-serif font-bold text-white leading-none tracking-tight">Vedara Care</h3>
             </Link>
             <p className="text-[#F8F9FA]/80 text-sm leading-relaxed max-w-[280px]">
@@ -58,7 +65,7 @@ const Footer = () => {
               <li><Link href="/physiotherapy-jvc" className="hover:text-white transition-colors">Physiotherapy in JVC</Link></li>
               <li><Link href="/dermatology-clinic-jvc" className="hover:text-white transition-colors">Dermatology in JVC</Link></li>
               <li><Link href="/home-healthcare-jvc" className="hover:text-white transition-colors">Home Healthcare in Dubai</Link></li>
-              <li><Link href="/wellness-jvc" className="hover:text-white transition-colors">Wellness Treatments</Link></li>
+              <li><Link href="/wellness-clinic-jvc" className="hover:text-white transition-colors">Wellness Clinic in JVC</Link></li>
             </ul>
           </div>
 

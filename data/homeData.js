@@ -116,7 +116,7 @@ export const homeServices = {
       image: '/images/Wellness Treatments.webp',
       features: ['Detox Programs', 'Stress Management', 'Yoga Therapy', 'Nutrition Consultation', 'Weight Management'],
       buttonText: 'Explore Wellness',
-      link: '/ayurveda-clinic-jvc'
+      link: '/wellness-clinic-jvc'
     }
   ]
 };
