@@ -1,231 +1,156 @@
 import React from 'react';
-import { MapPin, Phone, Clock, CircleCheckBig } from 'lucide-react';
 import Link from 'next/link';
 
 const TreatmentLocation = ({
-  bgColor = "bg-[#F5F1E8]",
-  label = "VISIT US",
-  title = "",
-  address = "",
-  phone = "",
-  email = "",
-  whatsapp = "",
-  whatsappMessage = "",
-  hours = "",
-  landmarks = [],
-  image = "",
-  alt = "Clinic location",
-  description = "",
-  buttonText = "",
+  bgColor = "bg-[#FAF8F5]",
+  label = "VISIT OUR JVC CLINIC",
+  title = "Walking distance from Circle Mall, Jumeirah Village Circle.",
+  address = "Jumeirah Village Circle (JVC), Dubai, UAE",
+  phone = "+971 55 573 6312",
+  hours = "MON-SAT<br/>9:00 AM - 9:00 PM<br/>SUNDAY<br/>9:00 AM - 6:00 PM",
+  landmarks = [
+    "Walking distance from Circle Mall",
+    "3 min from FIVE Jumeirah Village Hotel",
+    "5 min from JSS Private School",
+    "Free patient parking"
+  ],
+  distances = [
+    { name: "Marina", time: "20 min" },
+    { name: "Downtown", time: "20 min" },
+    { name: "Business Bay", time: "20 min" },
+    { name: "Al Barsha", time: "15 min" },
+    { name: "Dubai Hills", time: "15 min" },
+    { name: "Palm Jumeirah", time: "20 min" },
+    { name: "JLT", time: "15 min" },
+    { name: "Mirdif", time: "25 min" }
+  ],
+  buttonText = "Book Detox Consultation at Our JVC Clinic",
   buttonHref = "/book",
-  mapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
-  appointmentInfo = null,
-  showLocationImage = false
+  mapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
 }) => {
-  const isExternalButtonHref = buttonHref && (buttonHref.startsWith('http://') || buttonHref.startsWith('https://'));
-  const renderHours = () => {
-    if (!hours) return null;
-
-    if (typeof hours === 'string') {
-      return (
-        <div className="bg-[#F5F1E8] p-4 rounded-lg">
-          <div className="text-xs font-semibold mb-3">Operating Hours</div>
-          <div className="space-y-2">
-            {hours.split('<br/>').map((line, index) => (
-              <div key={index} className="text-sm text-gray-700">
-                {line}
-              </div>
-            ))}
-          </div>
-
-        </div>
-      );
-    }
-    if (typeof hours === 'object' && hours !== null) {
-      return (
-        <div className="bg-[#F5F1E8] p-4 rounded-lg">
-          <div className="text-xs font-semibold mb-3">Operating Hours</div>
-          <div className="space-y-2">
-            {hours.monday && (
-              <div className="flex justify-between text-sm">
-                <span className="text-gray-700">Monday - Sunday</span>
-                <span className="text-gray-700">{hours.monday}</span>
-              </div>
-            )}
-
-          </div>
-        </div>
-      );
-    }
-    return null;
-  };
-
   return (
-    <section className={`${bgColor} py-24 px-6 relative overflow-hidden`}>
-      <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-12 gap-12 items-start">
-          <div className="lg:col-span-6 space-y-4">
-            {mapEmbed ? (
-              <>
-                <div className={`bg-gray-300 rounded-xl overflow-hidden shadow-lg ${showLocationImage ? 'h-[400px]' : 'h-[600px]'}`}>
-                  <iframe
-                    src={mapEmbed}
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Clinic Location Map"
-                  ></iframe>
-                </div>
-                {showLocationImage && image && (
-                  <div className="h-[300px] rounded-xl overflow-hidden shadow-lg">
-                    <img
-                      src={image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`}
-                      alt={alt}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                )}
-              </>
-            ) : image ? (
-              <div className="h-[600px] rounded-xl overflow-hidden shadow-lg">
-                <img
-                  src={image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`}
-                  alt={alt}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            ) : (
-              <div className="h-[500px] bg-gray-300 rounded-xl flex items-center justify-center text-gray-600">
-                [Google Maps Embed - JVC Location]
-              </div>
-            )}
+    <section className={`${bgColor} py-24 px-6 md:px-12`}>
+      <div className="max-w-[1200px] mx-auto">
+        <div className="grid lg:grid-cols-2 gap-16 items-start">
+          
+          {/* Left Column: Map Block */}
+          <div className="space-y-4">
+            <div className="bg-gray-200 rounded-xl overflow-hidden shadow-sm h-[400px] md:h-[480px] border border-[#E5DFD3]">
+              <iframe
+                src={mapEmbed}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Clinic Location Map"
+              ></iframe>
+            </div>
+            <div className="text-center">
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border border-[#C9A961] text-[#C9A961] hover:bg-[#C9A961] hover:text-white px-6 py-2.5 rounded-lg text-xs font-sans font-semibold tracking-wider uppercase transition-all duration-200"
+              >
+                Open in Google Maps →
+              </a>
+            </div>
           </div>
 
-          {/* Location Info */}
-          <div className="lg:col-span-6">
-            <div className="text-[#C8975F] text-sm font-semibold tracking-wider mb-3">
-              {label}
+          {/* Right Column: Location Details */}
+          <div className="space-y-8">
+            <div className="space-y-3">
+              <p className="text-[11px] font-sans font-semibold tracking-[0.2em] text-[#C9A961] uppercase">
+                {label}
+              </p>
+              <h2 className="text-[32px] md:text-[38px] font-serif font-medium text-[#1A1A1A] leading-tight">
+                {title}
+              </h2>
             </div>
 
-            <h2 className="text-4xl md:text-5xl text-[#1A1A1A] mb-8" style={{ fontFamily: 'Fraunces, Georgia, serif' }}>
-              {title}
-            </h2>
-
-            <div className="space-y-5 mb-6">
-              {/* Address */}
-              <div className="flex items-start gap-3">
-                <MapPin size={20} className="text-[#C8975F] shrink-0 mt-1" />
-                <div className="text-gray-700" dangerouslySetInnerHTML={{ __html: address.replace(/<br\/>/g, '<br>') }} />
-              </div>
-
-              {/* Phone */}
-              <div className="flex items-start gap-3">
-                <Phone size={20} className="text-[#C8975F] shrink-0 mt-1" />
-                <div className="text-gray-700">
-                  <div className="font-medium mb-0.5">Phone</div>
-                  <a href={`tel:${phone}`}>{phone}</a>
-                </div>
-              </div>
-
-              {/* WhatsApp */}
-              {whatsapp && (
-                <div className="flex items-start gap-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="text-[#C8975F] shrink-0 mt-1">
-                    <path d="M12 0C5.374 0 0 5.374 0 12c0 5.302 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.626-5.373-12-12-12z" />
-                  </svg>
-                  <div className="text-gray-700">
-                    <div className="font-medium mb-0.5">WhatsApp</div>
-                    <a href={whatsappMessage
-                      ? `https://wa.me/${whatsapp.replace(/\s/g, '')}?text=${encodeURIComponent(whatsappMessage)}`
-                      : `https://wa.me/${whatsapp.replace(/\s/g, '')}`}
-                    >{whatsapp}</a>
-                  </div>
+            {/* Address, Phone, Hours */}
+            <div className="space-y-6 pt-4 border-t border-[#E5DFD3]/40">
+              {address && (
+                <div className="space-y-1">
+                  <span className="text-[10px] font-sans font-bold tracking-wider text-[#A0A0A0] uppercase block">
+                    ADDRESS
+                  </span>
+                  <span className="text-[14px] font-sans text-gray-700 font-medium">
+                    {address}
+                  </span>
                 </div>
               )}
 
-              {/* Appointment Info */}
-              {appointmentInfo && (
-                <div className="flex items-start gap-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#C8975F] shrink-0 mt-1">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <polyline points="12 6 12 12 16 14"></polyline>
-                  </svg>
-                  <div>
-                    <p className="text-sm font-medium" style={{ color: 'rgb(28, 26, 22)' }}>{appointmentInfo.title}</p>
-                    <p className="text-sm" style={{ color: 'rgb(107, 100, 86)' }}>{appointmentInfo.subtitle}</p>
-                  </div>
+              {phone && (
+                <div className="space-y-1">
+                  <span className="text-[10px] font-sans font-bold tracking-wider text-[#A0A0A0] uppercase block">
+                    PHONE
+                  </span>
+                  <a href={`tel:${phone}`} className="text-[14px] font-sans text-gray-700 font-medium hover:underline">
+                    {phone}
+                  </a>
                 </div>
               )}
 
-              {/* Email */}
-              {email && (
-                <div className="flex items-start gap-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#C8975F] shrink-0 mt-1">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                    <path d="M22 6l-10 7L2 6" />
-                  </svg>
-                  <div className="text-gray-700">
-                    <div className="font-medium mb-0.5">Email</div>
-                    <a href={`mailto:${email}`}>{email}</a>
-                  </div>
+              {hours && (
+                <div className="space-y-2">
+                  <span className="text-[10px] font-sans font-bold tracking-wider text-[#A0A0A0] uppercase block">
+                    OPERATING HOURS
+                  </span>
+                  <div 
+                    className="text-[13.5px] font-sans text-gray-700 font-medium leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: hours }}
+                  />
                 </div>
               )}
             </div>
 
-            {/* Operating Hours */}
-            {(typeof hours === 'object' || typeof hours === 'string') && renderHours()}
-
-            {/* Nearby Landmarks */}
+            {/* Landmarks */}
             {landmarks && landmarks.length > 0 && (
-              <div className="mt-6">
-                <p className="text-xs font-semibold mb-3" style={{ color: '#6B6B6B' }}>
-                  Nearby Landmarks
-                </p>
-                <div className="grid grid-cols-2 gap-2">
-                  {landmarks.map((landmark, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center gap-2 text-xs"
-                      style={{ color: '#6B6B6B' }}>
-                      <CircleCheckBig
-                        size={14}
-                        style={{ color: '#C9A961' }}
-                      />
-                      <span>{landmark}</span>
+              <div className="space-y-3">
+                <h4 className="text-[11px] font-sans font-bold tracking-wider text-[#A0A0A0] uppercase">
+                  NEARBY LANDMARKS
+                </h4>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {landmarks.map((item, idx) => (
+                    <li key={idx} className="flex items-center gap-2 text-[12.5px] text-[#5A5A5A] font-sans">
+                      <span className="text-[#C9A961] font-bold">✓</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Distances from Dubai Communities */}
+            {distances && distances.length > 0 && (
+              <div className="bg-white rounded-xl border border-[#E5DFD3] p-6 shadow-sm space-y-4">
+                <h4 className="text-[11px] font-sans font-bold tracking-wider text-[#C9A961] uppercase text-center border-b border-[#FAF6EF] pb-3">
+                  DISTANCE FROM DUBAI COMMUNITIES
+                </h4>
+                <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-[12.5px] font-sans">
+                  {distances.map((dist, idx) => (
+                    <div key={idx} className="flex justify-between py-1 border-b border-[#FAF6EF]">
+                      <span className="text-gray-500">{dist.name}</span>
+                      <span className="text-gray-900 font-semibold">{dist.time}</span>
                     </div>
                   ))}
                 </div>
               </div>
             )}
 
-            {/* Description */}
-            {description && (
-              <p className="text-sm text-gray-600 y-6 p-3 mt-5 border-l-2 border-[#C9A961]" style={{ background: 'rgba(201, 169, 97, 0.05)' }} dangerouslySetInnerHTML={{ __html: description }} />
-            )}
-
             {/* CTA Button */}
-            {buttonText && (
-              isExternalButtonHref ? (
-                <a
-                  href={buttonHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center mt-5 gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all bg-[#1A4D3E] hover:bg-opacity-90 text-white px-10 py-3 w-full justify-center"
-                >
-                  {buttonText}
-                </a>
-              ) : (
-                <Link
-                  href={buttonHref}
-                  className="inline-flex items-center justify-center mt-5 gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all bg-[#1A4D3E] hover:bg-opacity-90 text-white px-10 py-3 w-full justify-center"
-                >
-                  {buttonText}
-                </Link>
-              )
-            )}
+            <div className="pt-4">
+              <Link
+                href={buttonHref}
+                className="w-full inline-flex items-center justify-center bg-[#C9A961] hover:bg-[#b8915a] text-white py-4 rounded-lg font-sans font-semibold tracking-wider text-[13.5px] uppercase transition-all duration-200"
+              >
+                {buttonText}
+              </Link>
+            </div>
+
           </div>
         </div>
       </div>

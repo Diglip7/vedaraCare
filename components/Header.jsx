@@ -77,6 +77,7 @@ const DERMATOLOGY_CONDITIONS = [
 ];
 const DERMATOLOGY_TREATMENTS = [
   { href: '/treatments/chemical-peel-dubai', label: 'Chemical Peel' },
+  { href: '/carbon-laser-peel-jvc', label: 'Carbon Laser Peel' },
   { href: '/treatments/prp-hair-dubai', label: 'PRP Hair Treatment' },
   { href: '/treatments/skin-rejuvenation-jvc', label: 'Skin Rejuvenation' },
 ];
