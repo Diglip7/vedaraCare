@@ -139,6 +139,7 @@ const ContentOnlySection = ({
   title,
   contentSections,
   sidebar,
+  footer,
 }) => {
   return (
     <section className={`${bgColor}`} style={{ padding: '96px 24px' }}>
@@ -178,45 +179,56 @@ const ContentOnlySection = ({
                 )}
               </div>
             ))}
+            {footer && (
+              <p className="text-sm mt-6 italic" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
+                {footer}
+              </p>
+            )}
           </div>
 
           <div className="md:sticky md:top-6 lg:top-8">
-            <div className="rounded-lg border-2 border-[#B8965A] bg-[#FAF7F2] p-7">
-              <h3 className="text-xs tracking-[0.2em] uppercase mb-4" style={{ color: '#C9A84C' }}>
-                {sidebar.label}
-              </h3>
-              <p className="text-sm font-semibold mb-4" style={{ color: 'rgb(26,26,26)' }}>
-                {sidebar.title}
-              </p>
-              {sidebar.features && sidebar.features.length > 0 && (
-                <div className="space-y-2 mb-6">
-                  {sidebar.features.map((feature, index) => (
-                    <div key={index} className="flex items-start gap-2 text-sm">
-                      <svg className="w-4 h-4 text-[#C9A84C] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path>
-                      </svg>
-                      <span style={{ color: 'rgb(26,26,26)' }}>{feature}</span>
-                    </div>
-                  ))}
-                </div>
-              )}
-              {sidebar.note && (
-                <div className="text-xs leading-relaxed" style={{ color: 'rgba(20, 20, 20, 1)' }} dangerouslySetInnerHTML={{ __html: sidebar.note }} />
-              )}
-              {sidebar.footer && (
-                <p className="text-xs mb-8" style={{ color: 'rgb(107,107,107)' }}>
-                  {sidebar.footer}
+            {sidebar.image ? (
+              <div className="rounded-xl overflow-hidden shadow-md border border-[#E5DFD3]/40 aspect-[4/3] w-full">
+                <img src={sidebar.image} alt={sidebar.altText || "Sidebar Image"} className="w-full h-full object-cover" />
+              </div>
+            ) : (
+              <div className="rounded-lg border-2 border-[#B8965A] bg-[#FAF7F2] p-7">
+                <h3 className="text-xs tracking-[0.2em] uppercase mb-4" style={{ color: '#C9A84C' }}>
+                  {sidebar.label}
+                </h3>
+                <p className="text-sm font-semibold mb-4" style={{ color: 'rgb(26,26,26)' }}>
+                  {sidebar.title}
                 </p>
-              )}
-              {sidebar.buttonText && sidebar.buttonHref && (
-                <a
-                  href={sidebar.buttonHref}
-                  className="w-full text-white font-semibold py-4 px-6 rounded flex items-center justify-center gap-2 transition-colors text-sm border-2 border-[#1C1C14] bg-[#1C1C14] hover:bg-[#C9A84C] hover:text-[#1C1C14] hover:border-[#C9A84C]"
-                >
-                  {sidebar.buttonText}
-                </a>
-              )}
-            </div>
+                {sidebar.features && sidebar.features.length > 0 && (
+                  <div className="space-y-2 mb-6">
+                    {sidebar.features.map((feature, index) => (
+                      <div key={index} className="flex items-start gap-2 text-sm">
+                        <svg className="w-4 h-4 text-[#C9A84C] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path>
+                        </svg>
+                        <span style={{ color: 'rgb(26,26,26)' }}>{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {sidebar.note && (
+                  <div className="text-xs leading-relaxed" style={{ color: 'rgba(20, 20, 20, 1)' }} dangerouslySetInnerHTML={{ __html: sidebar.note }} />
+                )}
+                {sidebar.footer && (
+                  <p className="text-xs mb-8" style={{ color: 'rgb(107,107,107)' }}>
+                    {sidebar.footer}
+                  </p>
+                )}
+                {sidebar.buttonText && sidebar.buttonHref && (
+                  <a
+                    href={sidebar.buttonHref}
+                    className="w-full text-white font-semibold py-4 px-6 rounded flex items-center justify-center gap-2 transition-colors text-sm border-2 border-[#1C1C14] bg-[#1C1C14] hover:bg-[#C9A84C] hover:text-[#1C1C14] hover:border-[#C9A84C]"
+                  >
+                    {sidebar.buttonText}
+                  </a>
+                )}
+              </div>
+            )}
           </div>
         </div>
       </div>

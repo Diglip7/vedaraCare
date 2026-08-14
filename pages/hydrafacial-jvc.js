@@ -1,16 +1,16 @@
 import Head from 'next/head';
-import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
-import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
-import ContentWithSidebar from '../../components/ayurveda/ContentWithSidebar';
-import { SciaticaTreatment, SciaticaTypes } from '../../components/ayurveda/SciaticaSections';
-import HydraFacialBenefits from '../../components/ayurveda/HydraFacialBenefits';
+import AyurvedaHero from '../components/ayurveda/AyurvedaHero';
+import AyurvedaIntro from '../components/ayurveda/AyurvedaIntro';
+import ContentWithSidebar from '../components/ayurveda/ContentWithSidebar';
+import { SciaticaTreatment, SciaticaTypes } from '../components/ayurveda/SciaticaSections';
+import HydraFacialBenefits from '../components/ayurveda/HydraFacialBenefits';
 // import PhysiotherapySpecializations from '../../components/ayurveda/PhysiotherapySpecializations';
 // import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 // import PhysiotherapyTeam from '../../components/ayurveda/PhysiotherapyTeam';
-import FAQ from '../../components/home/FAQ';
-import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
+import FAQ from '../components/home/FAQ';
+import TreatmentLocation from '../components/ayurveda/TreatmentLocation';
 // import FinalCTA from '../../components/ayurveda/FinalCTA';
-import RelatedPages from '../../components/ayurveda/RelatedPages';
+import RelatedPages from '../components/ayurveda/RelatedPages';
 import {
   hydrafacialHero,
   hydrafacialIntro,
@@ -26,10 +26,10 @@ import {
   hydrafacialLocation,
   // hydrafacialCTA,
   hydrafacialRelatedPages
-} from '../../data/hydrafacial';
+} from '../data/hydrafacial';
 
 const HydraFacialTreatment = () => {
-  const currentUrl = "https://vedaracare.ae/treatments/hydrafacial-jvc/";
+  const currentUrl = "https://vedaracare.ae/hydrafacial-jvc/";
   const publishedDate = "2026-08-10T08:00:00+04:00";
   const modifiedDate = new Date().toISOString();
 

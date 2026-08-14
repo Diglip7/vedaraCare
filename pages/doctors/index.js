@@ -10,31 +10,72 @@ const practitioners = [
     focus: 'Chronic Pain, PCOS, Migraine',
     image: drPriyaNair.image,
     alt: drPriyaNair.alt,
-    slug: 'dr-priya-nair-ayurveda'
+    slug: 'dr-priya-nair-ayurveda',
+    url: '/doctors/dr-priya-nair-ayurveda'
+  },
+  // {
+  //   name: 'Dr. Meera Krishnan',
+  //   specialty: 'Senior Ayurvedic Physician',
+  //   focus: 'Panchakarma & Detox',
+  //   image: '/images/dr-meera-krishnan-ayurvedic-physician-jvc-dubai.webp',
+  //   alt: 'Dr. Meera Krishnan, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
+  //   slug: 'dr-meera-krishnan-ayurveda',
+  //   url: '/doctors/dr-meera-krishnan-ayurveda'
+  // },
+  // {
+  //   name: 'Dr. James Okafor',
+  //   specialty: 'Lead Physiotherapist',
+  //   focus: 'Sports Rehabilitation',
+  //   image: '/images/dr-james-okafor-physiotherapist-jvc-dubai.webp',
+  //   alt: 'Dr. James Okafor, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
+  //   slug: 'dr-james-okafor-physiotherapy',
+  //   url: '/doctors/dr-james-okafor-physiotherapy'
+  // },
+  // {
+  //   name: 'Dr. Layla Al Rashid',
+  //   specialty: 'Consultant Dermatologist',
+  //   focus: 'Integrative Dermatology',
+  //   image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
+  //   alt: 'Dr. Layla Al Rashid, DHA-licensed consultant dermatologist at Vedara Care Polyclinic, JVC Dubai',
+  //   slug: 'dr-layla-al-rashid-dermatology',
+  //   url: '/doctors/dr-layla-al-rashid-dermatology'
+  // },
+
+  {
+    name: 'Dr. Neethu Karatt',
+    specialty: 'BAMS',
+    focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
+    image: '/images/dr-neetu-karatt-bams-jvc-dubai.webp',
+    alt: 'Dr. Neethu Karatt, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'dr-neethu-karatt-bams',
+    url: '/doctors/dr-neethu-karatt-bams'
   },
   {
-    name: 'Dr. Meera Krishnan',
-    specialty: 'Senior Ayurvedic Physician',
-    focus: 'Panchakarma & Detox',
-    image: '/images/dr-meera-krishnan-ayurvedic-physician-jvc-dubai.webp',
-    alt: 'Dr. Meera Krishnan, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'dr-meera-krishnan-ayurveda'
+    name: 'Dr. Anusha Makkena',
+    specialty: 'MBBS, MS ENT',
+    focus: 'ENT Disorders, Head and Neck Surgery',
+    image: '/images/dr-anusha-makkena-ent-jvc-dubai.webp',
+    alt: 'Dr. Anusha Makkena, MBBS, MS ENT-qualified DHA-licensed ENT specialist at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'dr-anusha-makkena',
+    url: '/doctors/dr-anusha-makkena'
   },
   {
-    name: 'Dr. James Okafor',
-    specialty: 'Lead Physiotherapist',
-    focus: 'Sports Rehabilitation',
-    image: '/images/dr-james-okafor-physiotherapist-jvc-dubai.webp',
-    alt: 'Dr. James Okafor, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'dr-james-okafor-physiotherapy'
-  },
-  {
-    name: 'Dr. Layla Al Rashid',
-    specialty: 'Consultant Dermatologist',
-    focus: 'Integrative Dermatology',
+    name: 'Hafsina K K',
+    specialty: 'Physiotherapist',
+    focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
     image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
-    alt: 'Dr. Layla Al Rashid, DHA-licensed consultant dermatologist at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'dr-layla-al-rashid-dermatology'
+    alt: 'Hafsina K K, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'hafsina-kk-physiotherapist',
+    url: '/doctors/hafsina-kk-physiotherapist'
+  },
+  {
+    name: 'Johanna Dianne U. Bautista',
+    specialty: 'Front Desk Receptionist',
+    focus: 'Patient Coordination & Front Desk Operations',
+    image: '/images/johanna-bautista.jpeg',
+    alt: 'Johanna Dianne U. Bautista, Front Desk Receptionist at Vedara Care, JVC',
+    slug: 'johanna-bautista',
+    url: '/doctors/johanna-bautista'
   }
 ];
 
@@ -64,7 +105,7 @@ export default function DoctorsPage() {
             {practitioners.map((doc, index) => (
               <Link
                 key={index}
-                href={`/doctors/${doc.slug}`}
+                href={doc.url}
                 className="rounded-[8px] overflow-hidden cursor-pointer group"
                 style={{ background: 'rgb(255, 255, 255)', border: '1px solid rgb(229, 223, 211)' }}
               >

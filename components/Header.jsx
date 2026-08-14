@@ -30,6 +30,11 @@ const AYURVEDA_TREATMENTS = [
   { href: '/treatments/panchakarma-dubai', label: 'Panchakarma' },
   { href: '/treatments/panchakarma-jvc', label: 'Panchakarma in JVC' },
   { href: '/treatments/shirodhara-dubai', label: 'Shirodhara' },
+  { href: '/treatments/pizhichil-jvc', label: 'Pizhichil in JVC' },
+  { href: '/treatments/janu-basti-jvs', label: 'Janu Basti in JVC' },
+  { href: '/treatments/nasya-therapy-jvc', label: 'Nasya Therapy in JVC' },
+  { href: '/treatments/patra-pinda-sweda-jvc', label: 'Patra Pinda Sweda in JVC' }
+
 ];
 // Data for dropdown menus
 const PHYSIOTHERAPY_PAGES = [

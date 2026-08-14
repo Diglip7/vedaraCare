@@ -99,10 +99,38 @@ const TreatmentLocation = ({
                   <span className="text-[10px] font-sans font-bold tracking-wider text-[#A0A0A0] uppercase block">
                     OPERATING HOURS
                   </span>
-                  <div 
-                    className="text-[13.5px] font-sans text-gray-700 font-medium leading-relaxed"
-                    dangerouslySetInnerHTML={{ __html: hours }}
-                  />
+                  {typeof hours === 'string' ? (
+                    <div 
+                      className="text-[13.5px] font-sans text-gray-700 font-medium leading-relaxed"
+                      dangerouslySetInnerHTML={{ __html: hours }}
+                    />
+                  ) : Array.isArray(hours) ? (
+                    <div className="text-[13.5px] font-sans text-gray-700 font-medium leading-relaxed space-y-1">
+                      {hours.map((h, i) => (
+                        <div key={i}>
+                          <span className="block font-semibold uppercase">{h.label || h.day}</span>
+                          <span className="block">{h.time}</span>
+                        </div>
+                      ))}
+                    </div>
+                  ) : typeof hours === 'object' ? (
+                    <div className="text-[13.5px] font-sans text-gray-700 font-medium leading-relaxed space-y-1">
+                      {hours.weekdays || hours.label ? (
+                        <>
+                          {hours.label && <span className="block font-semibold uppercase">{hours.label}</span>}
+                          {hours.weekdays && <span className="block">{hours.weekdays}</span>}
+                          {hours.sunday && <span className="block">{hours.sunday}</span>}
+                        </>
+                      ) : (
+                        Object.entries(hours).map(([key, value], i) => value ? (
+                          <div key={i}>
+                            <span className="block font-semibold uppercase">{key}</span>
+                            <span className="block">{value}</span>
+                          </div>
+                        ) : null)
+                      )}
+                    </div>
+                  ) : null}
                 </div>
               )}
             </div>

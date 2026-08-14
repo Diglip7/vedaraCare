@@ -6,7 +6,7 @@ export const carbonLaserPeelHero = {
   ],
   label: "CARBON LASER PEEL · COSMETIC LASER · JVC DUBAI",
   title: "Carbon Laser Peel in JVC: Treatment, Benefits, Results & Cost",
-  description: "Carbon Laser Peel in JVC at Vedara Care Polyclinic — a low-downtime treatment for oily skin, congestion and dull texture. Pairs a thin carbon-based topical layer with a laser pass over the skin to lift surface debris and refine how the skin looks in a single session. Book a skin assessment today.",
+  description: "Dubai’s climate can leave skin feeling oily, tired, or congested, especially when heat, dust, sunscreen, and air conditioning become part of everyday life. If your pores look enlarged, your skin feels rough, or your complexion has lost its natural freshness, Carbon Laser Peel in JVC may be worth considering. The treatment uses a carbon-based layer followed by a gentle laser pass to refresh the skin and improve its overall appearance. At Vedara Care Polyclinic in Jumeirah Village Circle, our dermatology team provides personalised skin treatments based on your concerns and skin condition. This guide explains the procedure, suitability, expected results, and aftercare.",
   primaryCTA: "Book Skin Assessment",
   secondaryCTA: "Understand Carbon Peel",
   primaryCTAHref: "/book",
@@ -28,8 +28,8 @@ export const carbonLaserPeelHero = {
 export const carbonLaserPeelIntro = {
   label: "THE QUICK ANSWER",
   title: "Carbon Laser Peel at Vedara Care, in one paragraph.",
-  blockquote: "Carbon Laser Peel at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — located at Binghatti Azure in Al Barsha South Fourth — is a cosmetic laser-assisted skin treatment designed to target surface oil, congestion, dullness, and uneven skin texture with minimal downtime. The procedure works by applying a thin carbon-based solution to the skin, letting it settle into the pores to bind with sebum and dead cells, and then treating the area with a calibrated laser pass that vaporises the carbon, lifting the impurities away. It is suitable for oily, combination, normal, and even mild acne-prone skin types, though dry and sensitive skin types require a highly customized and cautious approach. Most patients experience a fresher-looking complexion, smoother texture, and a temporary reduction in surface oiliness, making it a popular choice for skin preparation before special events. Before any treatment, our qualified dermatology team performs an individual skin assessment to confirm suitability and design a safe protocol tailored to your skin's starting condition. Consultation is the accurate way to determine session requirements, frequency, and custom pricing.",
-  footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+  blockquote: "Carbon Laser Peel in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, is a non-invasive skin treatment that uses a carbon-based lotion followed by a controlled laser treatment to refresh the skin’s surface. It may be considered for concerns such as excess oil, clogged pores, dullness, uneven texture, and a tired-looking complexion. Before treatment, the skin is assessed to determine whether the procedure is appropriate for your individual needs. Carbon Laser Peel generally involves little downtime, although results and suitability vary depending on skin condition, treatment goals, and the number of sessions recommended by your dermatology professional.",
+  footer: "Medically reviewed by [Lead Consultant Dermatologist Name], MD, DHA-Licensed · Last updated August 2026"
 };
 
 export const carbonLaserPeelHowItWorks = {
@@ -40,7 +40,7 @@ export const carbonLaserPeelHowItWorks = {
     steps: [
       {
         title: "Why Is Carbon Used in the Treatment?",
-        description: "The carbon layer is one of the more distinctive parts of this treatment, and patients often ask what it’s actually doing. In simple terms, a thin coat of a carbon-based lotion or solution is applied across the treatment area and left to settle into the surface of the skin — including into pores, where it can bind with some of the oil and debris sitting there.<br/><div class='my-4 rounded-md overflow-hidden max-w-lg'><img src='/images/carbon-application-step-jvc.jpg' alt='Carbon lotion being applied to skin before laser treatment' class='w-full object-cover' /></div><p class='text-xs text-gray-500 italic mb-4'>The carbon layer is applied and left to settle before laser treatment.</p>Once the laser device passes over the treated area, it interacts with that carbon layer at the surface. As the layer is broken down and lifted away during the procedure, some of the trapped oil, dead skin cells and surface impurities are carried away with it. That’s the general mechanism patients are told about during a consultation — a way of using the carbon as a kind of targeted contact layer, rather than treating the laser and the skin in isolation from each other. We won’t go further into the technical laser physics here, since that detail matters less to a patient than understanding what the process is trying to achieve: clearer-looking pores, reduced surface oil, and a smoother, fresher surface appearance."
+        description: "The carbon layer is one of the more distinctive parts of this treatment, and patients often ask what it’s actually doing. In simple terms, a thin coat of a carbon-based lotion or solution is applied across the treatment area and left to settle into the surface of the skin — including into pores, where it can bind with some of the oil and debris sitting there.<br/><br/>Once the laser device passes over the treated area, it interacts with that carbon layer at the surface. As the layer is broken down and lifted away during the procedure, some of the trapped oil, dead skin cells and surface impurities are carried away with it. That’s the general mechanism patients are told about during a consultation — a way of using the carbon as a kind of targeted contact layer, rather than treating the laser and the skin in isolation from each other. We won’t go further into the technical laser physics here, since that detail matters less to a patient than understanding what the process is trying to achieve: clearer-looking pores, reduced surface oil, and a smoother, fresher surface appearance."
       },
       {
         title: "Stage 1 — Skin evaluation",
@@ -72,7 +72,7 @@ export const carbonLaserPeelHowItWorks = {
   rightContent: {
     image: "/images/skin-assessment-carbon-laser-peel-jvc.jpg",
     alt: "Dermatology team assessing a patient's skin before Carbon Laser Peel",
-    bottomContent: "<p class='text-xs text-gray-500 italic text-center mt-2 mb-6'>Assessing skin type and suitability before confirming treatment.</p><div class='rounded-md overflow-hidden'><img src='/images/carbon-laser-peel-procedure-jvc.jpg' alt='Carbon Laser Peel treatment being performed at Vedara Care in JVC' class='w-full object-cover' style='aspect-ratio: 4/5' /></div><p class='text-xs text-gray-500 italic text-center mt-2'>The laser device passing over the treated area.</p>",
+    bottomContent: "",
     peelDepthsLabel: "KEY TREATMENT PARAMETERS",
     peelDepths: [
       {
@@ -150,7 +150,7 @@ export const carbonLaserPeelFormulations = {
       ]
     }
   ],
-  footer: '<div class="mt-8 flex flex-col items-center"><img src="/images/carbon-laser-peel-consultation-jvc.jpg" alt="Skin consultation before Carbon Laser Peel treatment at Vedara Care in JVC" class="rounded-lg max-w-full h-auto mb-2 shadow-md md:max-w-2xl" /><p class="text-xs text-gray-500 italic">Every session starts with an individual skin assessment.</p></div><div class="mt-6"><a href="/book" class="text-[#C9A55A] hover:underline">Book a skin assessment to confirm your skin is ready and suitable for a Carbon Laser Peel →</a></div>',
+  footer: '<div class="mt-8 flex flex-col items-center"><p class="text-xs text-gray-500 italic">Every session starts with an individual skin assessment.</p></div><div class="mt-6"><a href="/book" class="text-[#C9A55A] hover:underline">Book a skin assessment to confirm your skin is ready and suitable for a Carbon Laser Peel →</a></div>',
   gridCols: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
   borderPosition: "left"
 };
@@ -187,7 +187,7 @@ export const carbonLaserPeelSelection = {
     }
   ],
   sidebar: {
-    image: "",
+    image: "/images/Wellness Treatments.webp",
     altText: "Carbon Laser Peel",
     width: "w-full",
     height: "h-[400px]",
@@ -366,9 +366,9 @@ export const carbonLaserPeelPatientVoices = {
     }
   ],
   stats: [
-    { value: "Laser", description: "Cosmetic laser-assisted skin treatment" },
-    { value: "Carbon", description: "Exfoliates & clears surface oil" },
-    { value: "Minimal", description: "Downtime and quick recovery" }
+    { value: "Laser", label: "Cosmetic laser-assisted skin treatment" },
+    { value: "Carbon", label: "Exfoliates & clears surface oil" },
+    { value: "Minimal", label: "Downtime and quick recovery" }
   ]
 };
 
@@ -551,7 +551,7 @@ export const carbonLaserPeelLocation = {
   email: "info@vedaracare.ae",
   whatsapp: "971555736312",
   whatsappMessage: "Hello, I would like to book a Carbon Laser Peel consultation at Vedara Care in JVC.",
-  hours: "MON-SAT<br/>9:00 AM - 9:00 PM<br/>SUNDAY<br/>9:00 AM - 6:00 PM<div class='mt-6 grid grid-cols-2 gap-4'><div><img src='/images/vedara-care-treatment-room-general-jvc.jpg' alt='Treatment room at Vedara Care Polyclinic in Jumeirah Village Circle' class='rounded-lg shadow-sm w-full object-cover h-24 md:h-32' /><p class='text-[10px] text-gray-500 italic mt-1 leading-normal font-normal font-sans'>A treatment room at Vedara Care Polyclinic, JVC.</p></div><div><img src='/images/vedara-care-reception-jvc.jpg' alt='Reception area at Vedara Care Polyclinic in Jumeirah Village Circle, Dubai' class='rounded-lg shadow-sm w-full object-cover h-24 md:h-32' /><p class='text-[10px] text-gray-500 italic mt-1 leading-normal font-normal font-sans'>Vedara Care Polyclinic, Jumeirah Village Circle, Dubai.</p></div></div>",
+  hours: "MON-SAT<br/>9:00 AM - 9:00 PM<br/>SUNDAY<br/>9:00 AM - 6:00 PM",
   landmarks: [
     "Located in Binghatti Azure, JVC",
     "Close to Al Barsha South Fourth area",
@@ -565,19 +565,18 @@ export const carbonLaserPeelCTA = {
   label: "BOOK A SKIN ASSESSMENT",
   title: "Discuss Carbon Laser Peel in JVC With Vedara Care",
   description: "If you're trying to work out whether Carbon Laser Peel is the right fit for your skin, the most useful next step is a direct conversation rather than guesswork from an article. At Vedara Care Polyclinic, our dermatology team can assess your skin, talk through your concerns, and give you an honest view on suitability, expected results, and aftercare.",
-  primaryCTA: "Book a Consultation",
-  primaryHref: "/book",
-  secondaryCTA: "WhatsApp Us",
-  secondaryHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20Carbon%20Laser%20Peel%20consultation."
+  button1Text: "Book a Carbon Laser Peel  Consultation",
+  button1TextHref: "/book",
+  button2Text: "Whatsapp Us",
+  button2TextHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Carbon%20Laser%20Peel%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai."
 };
-
 export const carbonLaserPeelRelatedPages = {
   label: "EXPLORE MORE",
   title: "Related Dermatology Services",
   pages: [
-    { title: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc", description: "Our main dermatology service hub in Jumeirah Village Circle." },
-    { title: "Skin Clinic in JVC", href: "/skin-clinic-jvc", description: "Explore our full range of aesthetic skin and clinical treatments." },
-    { title: "Chemical Peel Treatment", href: "/treatments/chemical-peel-dubai", description: "Evidence-based chemical peels for pigmentation, texture, and acne." },
-    { title: "Acne Treatment Programme", href: "/conditions/acne-treatment-jvc", description: "Targeted, medically led approach to active inflammatory acne." }
+    { title: "Acne Treatment in JVC", href: "/conditions/acne-treatment-jvc", description: "For patients with active acne, a dermatologist can recommend appropriate treatment alongside or instead of Carbon Laser Peel, depending on the skin condition." },
+    { title: "Chemical Peel in Dubai", href: "/treatments/chemical-peel-dubai", description: "A professional exfoliating treatment that may help improve uneven texture, pigmentation, and selected skin concerns." },
+    { title: "Skin Rejuvenation in JVC", href: "/treatments/skin-rejuvenation-jvc", description: "Personalised skin rejuvenation options designed to support smoother texture, improved tone, hydration, and overall skin appearance." },
+    { title: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc", description: "Get professional skin assessment and personalised treatment recommendations from our dermatology team in Jumeirah Village Circle." }
   ]
 };
