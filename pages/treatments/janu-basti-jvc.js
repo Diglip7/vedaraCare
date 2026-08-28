@@ -248,10 +248,10 @@ const JanuBastiTreatment = () => {
         title={januBastiWarmOil.title}
         contentSections={januBastiWarmOil.paragraphs.map(p => ({ subtitle: '', description: p }))}
         sidebar={{
-          image: "/images/traditional-ayurvedic-warm-oil-preparation-vedara.jpg",
+          image: "/images/traditional-ayurvedic-warm-oil-preparation-vedara.webp",
           altText: "Traditional Ayurvedic warm oil preparation used in Janu Basti knee therapy",
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[900px]",
           borderPosition: "left"
         }}
       />
@@ -266,7 +266,7 @@ const JanuBastiTreatment = () => {
           description: c.description
         }))}
         sidebar={{
-          image: "/images/knee-concerns-ayurvedic-assessment-jvc.jpg",
+          image: "/images/knee-concerns-ayurvedic-assessment-jvc.webp",
           altText: "Ayurvedic practitioner assessing knee concerns before Janu Basti treatment",
           width: "w-full",
           height: "h-[500px]",
@@ -357,7 +357,7 @@ const JanuBastiTreatment = () => {
           { subtitle: '', description: januBastiConsultation.footer }
         ]}
         sidebar={{
-          image: "/images/ayurvedic-knee-assessment-vedara-care-jvc.jpg",
+          image: "/images/ayurvedic-knee-assessment-vedara-care-jvc.webp",
           altText: "Ayurvedic consultation and knee assessment for Janu Basti treatment at Vedara Care",
           width: "w-full",
           height: "h-[500px]",
@@ -466,10 +466,10 @@ const JanuBastiTreatment = () => {
           }
         ]}
         sidebar={{
-          image: "/images/janu-basti-vs-physiotherapy-knee-approach-jvc.jpg",
+          image: "/images/janu-basti-vs-physiotherapy-knee-approach-jvc.webp",
           altText: "Side-by-side concept of Janu Basti Ayurvedic therapy versus physiotherapy rehabilitation for knee concerns",
           width: "w-full",
-          height: "h-[450px]",
+          height: "h-[600px]",
           borderPosition: "right"
         }}
       />
@@ -495,22 +495,14 @@ const JanuBastiTreatment = () => {
 
       />
 
-      <ContentWithSidebar
-        bgColor="bg-white"
-        label="LOCAL ACCESSIBILITY"
-        title={januBastiWhyJvc.title}
-        contentSections={[
-          { subtitle: '', description: januBastiWhyJvc.description }
-        ]}
-        sidebar={{
-          image: januBastiWhyJvc.image,
-          altText: januBastiWhyJvc.alt,
-          width: "w-full",
-          height: "h-[400px]",
-          borderPosition: "right"
-        }}
-        footer={januBastiWhyJvc.caption}
-      />
+      <section className="bg-white py-16 md:py-20 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">LOCAL ACCESSIBILITY</p>
+          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">{januBastiWhyJvc.title}</h2>
+          <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">{januBastiWhyJvc.description}</p>
+          <p className="text-sm italic text-[rgb(107,107,107)]">{januBastiWhyJvc.caption}</p>
+        </div>
+      </section>
 
       {/* <TreatmentLocation
         bgColor="bg-[#F5F0E8]"

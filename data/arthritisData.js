@@ -30,7 +30,7 @@ export const arthritisIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic arthritis treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for arthritis in Dubai is a 3 to 9-month structured medical programme combining classical Panchakarma protocols (typically Virechana for inflammatory patterns; Basti for Vata-pattern joint disease), localised joint therapies (Janu Vasti for knees, Greeva Vasti for cervical, specific protocols for shoulders and other joints), Njavarakizhi (medicated rice bolus therapy for muscle and joint nourishment), internal Ayurvedic medicines (typically including Dashamoola, Yogaraja Guggulu, Maharasnadi Kashayam, Sahacharadi formulations), dietary regulation, and integrated physiotherapy where indicated. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are specific to your arthritis subtype and work alongside rheumatology or orthopaedic care. Initial consultations start from AED 350.",
-  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda), DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated June 2026"
 };
 
 export const arthritisTypesData = {
@@ -188,11 +188,11 @@ export const arthritisCTA = {
   title: "Begin with the assessment that treats your specific arthritis.",
   description: "If you have been managing arthritis with general \"anti-inflammatory\" approaches that do not address your specific type, the first useful step is a 60-minute consultation that takes your specific condition seriously. We confirm your arthritis type, examine your specific joints, review your current treatments, and design a 4-9 month programme tailored to whether you have osteoarthritis, rheumatoid arthritis, gout, ankylosing spondylitis, frozen shoulder, or another specific pattern. We coordinate with your rheumatologist or orthopaedic specialist throughout.",
   button1Text: "Book an Arthritis Consultation",
-  button1Href:   "/book",
+  button1Href: "/book",
   button2Text: "Chat on WhatsApp",
-  button2Href:"https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Arthritis%20treatment.%20Please%20assist%20me.",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Arthritis%20treatment.%20Please%20assist%20me.",
   subtext: "Initial consultation from AED 350 · Walking distance from Circle Mall, JVC · Integrated Ayurveda + physiotherapy · Home services available · Insurance direct-billing",
-   bgColor: "bg-[#F5F1E8]",
+  bgColor: "bg-[#F5F1E8]",
 };
 
 export const arthritisRelatedPages = {

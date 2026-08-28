@@ -35,12 +35,12 @@ const HomePhysioSessionFlow = ({
           </div>
 
           <div className="sticky top-24">
-            <div className="bg-gray-200 rounded-xl h-[500px] flex items-center justify-center overflow-hidden">
+            <div className="bg-gray-200 rounded-xl h-auto flex items-center justify-center overflow-hidden">
               {image ? (
                 <img 
                   src={image} 
                   alt={alt} 
-                  className="w-full h-full object-cover rounded-xl"
+                  className="w-full h-auto object-contain rounded-xl"
                 />
               ) : (
                 <span className="text-gray-500 text-center px-4">

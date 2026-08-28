@@ -24,7 +24,7 @@ const PhysiotherapyMechanism = ({
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-6 text-gray-700 leading-relaxed">
             {content.map((paragraph, index) => (
-              <p 
+              <p
                 key={index}
                 dangerouslySetInnerHTML={{ __html: paragraph }}
               />
@@ -35,15 +35,15 @@ const PhysiotherapyMechanism = ({
               </blockquote>
             )}
           </div>
-          <div className="bg-gray-200 rounded-xl sticky top-24 h-[600px] flex items-center justify-center shrink-0">
+          <div className="bg-gray-200 rounded-xl sticky top-24 h-auto flex items-center justify-center overflow-hidden">
             {image ? (
-              <img 
-                src={image} 
-                alt={alt} 
-                className="w-full h-full object-cover rounded-xl"
+              <img
+                src={image}
+                alt={alt}
+                className="w-full h-auto object-contain rounded-xl"
               />
             ) : (
-              <span className="text-gray-500">
+              <span className="text-gray-500 py-20">
                 {imagePlaceholder}
               </span>
             )}

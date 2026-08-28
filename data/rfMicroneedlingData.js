@@ -25,7 +25,7 @@ export const rfMicroneedlingHero = {
     title: "RF Remodelling",
     subtitle: "Combines fine needles with radiofrequency energy to stimulate collagen remodeling beneath the surface."
   },
-  image: "/images/rf-microneedling-consultation-vedara-care-jvc.jpg",
+  image: "/images/rf-microneedling-consultation-vedara-care-jvc.webp",
   alt: "Dermatology consultation for RF microneedling at Vedara Care Polyclinic in JVC"
 };
 
@@ -33,7 +33,7 @@ export const rfMicroneedlingIntro = {
   label: "THE QUICK ANSWER",
   title: "RF Microneedling in JVC at Vedara Care, in one paragraph",
   blockquote: "RF Microneedling in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, combines microneedling with radiofrequency energy to support collagen production and improve selected skin concerns. It may be considered for acne scars, uneven texture, enlarged pores, and mild skin laxity when conventional skincare or surface treatments have not provided the desired improvement. Before treatment, your skin is assessed to determine whether RF microneedling is appropriate for your concerns and goals. Temporary redness, sensitivity, or swelling may occur after treatment, while results develop gradually as the skin’s natural repair process progresses.",
-  footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+  // footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
 };
 
 export const rfMicroneedlingExplanation = {
@@ -57,14 +57,10 @@ export const rfMicroneedlingExplanation = {
     },
 
   ],
-  image: "/images/rf-microneedling-procedure-vedara-care.jpg",
+  image: "/images/rf-microneedling-procedure-vedara-care.webp",
   imageAlt: "RF microneedling procedure being performed in a professional treatment setting",
 
 };
-
-
-
-
 
 export const rfMicroneedlingEnergyAction = {
   label: "RF ENERGY ACTION",
@@ -186,7 +182,7 @@ export const rfMicroneedlingAppointment = {
     "Leaving the clinic — You're given aftercare guidance covering the following days, and any follow-up session is discussed as part of your overall plan."
   ],
   footer: "Exact appointment length and the specific numbing approach used depend on the treatment plan agreed with your practitioner, so we won't quote a fixed duration here.",
-  image: "/images/skin-preparation-before-rf-microneedling-jvc.jpg",
+  image: "/images/skin-preparation-before-rf-microneedling-jvc.webp",
   alt: "Skin being prepared before an RF microneedling treatment"
 };
 
@@ -210,7 +206,7 @@ export const rfMicroneedlingRecoveryGuide = {
     "Returning to normal skincare — most patients are guided back to their regular routine gradually, following their practitioner's specific instructions rather than a fixed timetable.",
     "Gradual result-development period — visible effects build over subsequent weeks as the skin's remodelling process continues, a stage that lasts considerably longer than the initial downtime."
   ],
-  image: "/images/post-treatment-skincare-rf-microneedling-jvc.jpg",
+  image: "/images/post-treatment-skincare-rf-microneedling-jvc.webp",
   alt: "Post-treatment skincare discussion following RF microneedling"
 };
 
@@ -267,7 +263,7 @@ export const rfMicroneedlingLocation = {
 export const rfMicroneedlingWhyJvc = {
   title: "Why Consider RF Microneedling in JVC?",
   description: "For residents and professionals based in Jumeirah Village Circle, and in neighbouring communities such as Al Barsha South, Jumeirah Village Triangle, Dubai Sports City, and Motor City, having a dermatology-focused clinic within the local area removes one of the practical barriers to a treatment that works best as a course rather than a single visit. RF microneedling typically involves more than one session, and a nearby clinic makes that kind of ongoing plan easier to keep up with. We won't quote specific travel times, since these vary by traffic and starting point, but JVC's position relative to these surrounding communities is part of why patients from the wider area come to Vedara Care Polyclinic for dermatology consultations.",
-  image: "/images/vedara-care-polyclinic-jvc-location.jpg",
+  image: "/images/vedara-care-polyclinic-jvc-location.webp",
   alt: "Vedara Care Polyclinic building in Jumeirah Village Circle, Dubai"
 };
 

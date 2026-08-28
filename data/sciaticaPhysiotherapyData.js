@@ -4,7 +4,7 @@ export const sciaticaPhysioHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Sciatica Physiotherapy in Dubai", active: true }
   ],
-  label: "PHYSIOTHERAPY FOR SCIATICA · DHA-LICENSED · JVC CLINIC",
+  label: "PHYSIOTHERAPY FOR SCIATICA · DHA-LICENSED 2509266 · JVC CLINIC",
   title: "Physiotherapy for sciatica in Dubai. Most sciatica resolves without surgery.",
   description: "Specialist sciatica physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists with specific McKenzie method expertise for sciatica from disc herniation, disc bulges, piriformis syndrome, and spinal stenosis. Most sciatica patients respond to evidence-based physiotherapy without requiring injections or surgery.",
   primaryCTA: "Book Sciatica Assessment",
@@ -29,7 +29,7 @@ export const sciaticaPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Sciatica physiotherapy at Vedara Care, in one paragraph.",
   blockquote: 'Sciatica physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DPT-qualified physiotherapists with McKenzie method certification. Sciatica refers to radiating leg pain caused by irritation of the sciatic nerve or its contributing nerve roots, typically from disc herniation, disc bulges, foraminal stenosis, piriformis syndrome, or spinal stenosis. Most sciatica (approximately 80–90% in research populations) resolves with appropriate conservative treatment within 6–12 weeks without requiring surgery. Our approach combines McKenzie method (Mechanical Diagnosis and Therapy) — the most evidence-supported intervention for disc-related sciatica — specific nerve mobilisation techniques, manual therapy for associated muscle and joint dysfunction, targeted exercise prescription, dry needling for chronic muscle patterns including piriformis-related sciatica, and patient education about the condition. Initial assessment from AED 350; structured sciatica programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. Insurance direct-billing with seven major insurers.',
-  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, DPT, Credentialed MDT (McKenzie), DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, DPT, Credentialed MDT (McKenzie), DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const sciaticaPhysioReviews = {

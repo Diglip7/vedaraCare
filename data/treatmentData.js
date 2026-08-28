@@ -30,7 +30,7 @@ export const panchakarmaJVCIntro = {
   label: "THE QUICK ANSWER",
   title: "Panchakarma in JVC, in one paragraph.",
   blockquote: "Vedara Care Polyclinic offers DHA-licensed, doctor-supervised classical Panchakarma at our clinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall and three minutes from FIVE Jumeirah Village Hotel. We deliver 7-day, 14-day, and 21-day classical Panchakarma programmes prescribed and supervised by BAMS-qualified Ayurvedic physicians. Programmes start from AED 4,500 and treat chronic back pain, PCOS, stress, migraine, and constitutional reset. Free patient parking, daily clinic access for residents of JVC, JVT, Al Barsha South, Dubai Sports City, and Motor City.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed · Read our <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline\">Panchakarma in Dubai guide</a> · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Read our <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline\">Panchakarma in Dubai guide</a> · Last updated May 2026"
 };
 
 export const panchakarmaJVCReviews = {
@@ -122,7 +122,7 @@ export const panchakarmaJVCLocation = {
   bgColor: "bg-[#EDE8DC]",
   label: "VISIT US",
   title: "Our Panchakarma clinic in Jumeirah Village Circle.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   whatsapp: "+971 55 573 6312",
@@ -143,102 +143,102 @@ export const panchakarmaJVCLocation = {
   mapAlt: "Vedara Care Panchakarma clinic location in JVC Dubai next to Circle Mall",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
 };
- 
- export const panchakarmaJVCCTA = {
-   bgColor: "bg-white",
-   label: "READY TO BEGIN?",
-   title: "Panchakarma in JVC starts with a consultation.",
-   description: "We do not sell Panchakarma packages over WhatsApp. Every programme begins with a 45-60 minute consultation where your doctor assesses whether Panchakarma is the right protocol for you, what specific actions to use, and what length your case calls for. For full educational background, see our <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline\">Panchakarma in Dubai guide</a>.",
-   button1Text: "Book a Consultation",
-   button2Text: "Chat on WhatsApp",
-   button1Href: "/book",
-   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20Panchakarma%20consultation%20at%20your%20JVC%20clinic.",
-   subtext: "First consultations from AED 450 · Typical WhatsApp reply under 15 minutes"
- };
- 
- export const panchakarmaJVCPrograms = {
-    bgColor: "bg-white",
-    label: "PROGRAMMES",
-    title: "Three Panchakarma lengths, calibrated to JVC lifestyles.",
-    description: "Most JVC patients choose the 14-day programme — long enough for real change, short enough to schedule around work and family.",
-    whatsappNumber: "971555736312",
-    programs: [
-      {
-        name: "Panchakarma Reset",
-        price: "From AED 4,500",
-        duration: "7 days",
-        features: [
-          "3 days at-clinic preparation",
-          "1-2 doctor-selected main actions",
-          "3 days at-clinic recovery",
-          "All medicines and oils included",
-          "4-week follow-up support"
-        ],
-        bestFor: "First-time Panchakarma, stress reset, mild imbalance",
-        buttonText: "Enquire on WhatsApp",
-        whatsappMessage: "Hello Vedara Care, I would like to inquire about the 7-day Panchakarma Reset program at your JVC clinic."
-      },
-      {
-        name: "Classical Panchakarma",
-        price: "From AED 8,900",
-        duration: "14 days",
-        featured: true,
-        featuredText: "Most Chosen by JVC Patients",
-        features: [
-          "5-7 days at-clinic preparation",
-          "2-3 main actions for your dosha",
-          "4-7 days structured recovery",
-          "All medicines, oils, dietary plan",
-          "8-week follow-up with home protocol"
-        ],
-        bestFor: "PCOS, chronic back pain, weight management, hormonal balance",
-        buttonText: "Enquire on WhatsApp",
-        whatsappMessage: "Hello Vedara Care, I would like to inquire about the 14-day Classical Panchakarma program at your JVC clinic."
-      },
-      {
-        name: "Deep Panchakarma",
-        price: "From AED 14,500",
-        duration: "21 days",
-        features: [
-          "7 days extended preparation",
-          "Up to 4 of the 5 classical actions",
-          "7 days full Panchakarma recovery",
-          "All medicines plus Rasayana rejuvenation",
-          "3-month follow-up support"
-        ],
-        bestFor: "Chronic conditions, deep constitutional reset, post-illness recovery",
-        buttonText: "Enquire on WhatsApp",
-        whatsappMessage: "Hello Vedara Care, I would like to inquire about the 21-day Deep Panchakarma program at your JVC clinic."
-      }
-    ],
-    footer: "Daily clinic time: 3-5 hours. Full pricing in writing after consultation. Insurance direct-billing available."
-  };
- 
- export const panchakarmaJVCRelatedPages = {
-   bgColor: "bg-[#FAF6EF]",
-   label: "EXPLORE FURTHER",
-   title: "Related pages.",
-   linkText: "Browse all Ayurveda treatments",
-   columns: 3,
-   showUrl: true,
-   pages: [
-     {
-       title: "Read the Full Panchakarma Guide →",
-       description: "The complete educational guide to Panchakarma in Dubai. The five actions, three phases, costs across Dubai, and how to choose a clinic.",
-       href: "/treatments/panchakarma-dubai"
-     },
-     {
-       title: "Our Ayurveda Clinic in JVC →",
-       description: "Beyond Panchakarma — our full Ayurvedic services in JVC including consultations, Abhyanga, Shirodhara, and condition-specific treatments.",
-       href: "/ayurveda-clinic-jvc/"
-     },
-     {
-       title: "Meet Your Panchakarma Physician →",
-       description: "Dr. Priya Sharma — BAMS, MD (Ayurveda), DHA-licensed. View full credentials, specialisations, and consultation availability.",
-       href: "/doctors/dr-priya-sharma-ayurveda/"
-     }
-   ]
- };
+
+export const panchakarmaJVCCTA = {
+  bgColor: "bg-white",
+  label: "READY TO BEGIN?",
+  title: "Panchakarma in JVC starts with a consultation.",
+  description: "We do not sell Panchakarma packages over WhatsApp. Every programme begins with a 45-60 minute consultation where your doctor assesses whether Panchakarma is the right protocol for you, what specific actions to use, and what length your case calls for. For full educational background, see our <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline\">Panchakarma in Dubai guide</a>.",
+  button1Text: "Book a Consultation",
+  button2Text: "Chat on WhatsApp",
+  button1Href: "/book",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20Panchakarma%20consultation%20at%20your%20JVC%20clinic.",
+  subtext: "First consultations from AED 450 · Typical WhatsApp reply under 15 minutes"
+};
+
+export const panchakarmaJVCPrograms = {
+  bgColor: "bg-white",
+  label: "PROGRAMMES",
+  title: "Three Panchakarma lengths, calibrated to JVC lifestyles.",
+  description: "Most JVC patients choose the 14-day programme — long enough for real change, short enough to schedule around work and family.",
+  whatsappNumber: "971555736312",
+  programs: [
+    {
+      name: "Panchakarma Reset",
+      price: "From AED 4,500",
+      duration: "7 days",
+      features: [
+        "3 days at-clinic preparation",
+        "1-2 doctor-selected main actions",
+        "3 days at-clinic recovery",
+        "All medicines and oils included",
+        "4-week follow-up support"
+      ],
+      bestFor: "First-time Panchakarma, stress reset, mild imbalance",
+      buttonText: "Enquire on WhatsApp",
+      whatsappMessage: "Hello Vedara Care, I would like to inquire about the 7-day Panchakarma Reset program at your JVC clinic."
+    },
+    {
+      name: "Classical Panchakarma",
+      price: "From AED 8,900",
+      duration: "14 days",
+      featured: true,
+      featuredText: "Most Chosen by JVC Patients",
+      features: [
+        "5-7 days at-clinic preparation",
+        "2-3 main actions for your dosha",
+        "4-7 days structured recovery",
+        "All medicines, oils, dietary plan",
+        "8-week follow-up with home protocol"
+      ],
+      bestFor: "PCOS, chronic back pain, weight management, hormonal balance",
+      buttonText: "Enquire on WhatsApp",
+      whatsappMessage: "Hello Vedara Care, I would like to inquire about the 14-day Classical Panchakarma program at your JVC clinic."
+    },
+    {
+      name: "Deep Panchakarma",
+      price: "From AED 14,500",
+      duration: "21 days",
+      features: [
+        "7 days extended preparation",
+        "Up to 4 of the 5 classical actions",
+        "7 days full Panchakarma recovery",
+        "All medicines plus Rasayana rejuvenation",
+        "3-month follow-up support"
+      ],
+      bestFor: "Chronic conditions, deep constitutional reset, post-illness recovery",
+      buttonText: "Enquire on WhatsApp",
+      whatsappMessage: "Hello Vedara Care, I would like to inquire about the 21-day Deep Panchakarma program at your JVC clinic."
+    }
+  ],
+  footer: "Daily clinic time: 3-5 hours. Full pricing in writing after consultation. Insurance direct-billing available."
+};
+
+export const panchakarmaJVCRelatedPages = {
+  bgColor: "bg-[#FAF6EF]",
+  label: "EXPLORE FURTHER",
+  title: "Related pages.",
+  linkText: "Browse all Ayurveda treatments",
+  columns: 3,
+  // showUrl: true,
+  pages: [
+    {
+      title: "Read the Full Panchakarma Guide →",
+      description: "The complete educational guide to Panchakarma in Dubai. The five actions, three phases, costs across Dubai, and how to choose a clinic.",
+      href: "/treatments/panchakarma-dubai"
+    },
+    {
+      title: "Our Ayurveda Clinic in JVC →",
+      description: "Beyond Panchakarma — our full Ayurvedic services in JVC including consultations, Abhyanga, Shirodhara, and condition-specific treatments.",
+      href: "/ayurveda-clinic-jvc/"
+    },
+    {
+      title: "Meet Your Panchakarma Physician →",
+      description: "Dr. Priya Sharma — BAMS, MD (Ayurveda), DHA-licensed 2509266. View full credentials, specialisations, and consultation availability.",
+      href: "/doctors/dr-priya-sharma-ayurveda/"
+    }
+  ]
+};
 
 export const panchakarmaJVCTimeline = {
   bgColor: "bg-[#F5F0E8]",
@@ -318,14 +318,14 @@ export const panchakarmaJVCBenefits = {
     }
   ]
 };
- 
- export const kativastiHero = {
+
+export const kativastiHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Kativasti in Dubai", active: true }
   ],
-  label: "KATIVASTI FOR LOWER BACK PAIN • DHA-LICENSED",
+  label: "KATIVASTI FOR LOWER BACK PAIN • DHA-LICENSED 2509266",
   title: "A reservoir of warm medicated oil, held over the spine. The most targeted Ayurvedic therapy for chronic back pain.",
   description: "Classical Kativasti — a precise localised oil therapy where warm medicated oil is held over the lumbar spine in a custom dough reservoir for 30 to 45 minutes. Doctor-prescribed at our DHA-licensed Ayurveda clinic in JVC, Dubai, for <a href='/conditions/back-pain-ayurveda-dubai/' class=' hover:underline'>chronic back pain</a>, <a href='/conditions/sciatica-ayurveda-dubai/' class=' hover:underline'>sciatica</a>, and lumbar disc conditions.",
   primaryCTA: "Book a Kativasti Consultation",
@@ -352,7 +352,7 @@ export const kativastiIntro = {
   label: "THE QUICK ANSWER",
   title: "Kativasti in Dubai, in one paragraph.",
   blockquote: "Kativasti (कटिवस्ति) is a classical Ayurvedic therapy in which warm medicated oil is contained over the lumbar spine using a custom-shaped wheat-flour dough reservoir, held in place for 30 to 45 minutes per session. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Kativasti is doctor-prescribed by BAMS-qualified physicians for <a href='/conditions/back-pain-ayurveda-dubai/' class='text-[#C9A961] hover:underline'>chronic lower back pain</a>, <a href='/conditions/sciatica-ayurveda-dubai/' class='text-[#C9A961] hover:underline'>sciatica</a>, lumbar disc issues, and spinal stiffness — typically as a 7 or 14-session course alongside internal Ayurvedic medicines and integrated <a href='/physiotherapy-jvc/' class='text-[#C9A961] hover:underline'>physiotherapy</a>. Sessions start from AED 450.",
-  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed • Last updated May 2026"
+  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266 • Last updated May 2026"
 };
 
 export const kativastiMechanism = {
@@ -511,7 +511,7 @@ export const kativastiPrograms = {
       price: "From AED 5,400",
       duration: "14 sessions over 4-6 weeks",
       featured: true,
-       featuredText: "   Most Common for Chronic Pain",
+      featuredText: "   Most Common for Chronic Pain",
       features: [
         "Comprehensive doctor assessment",
         "14 Kativasti sessions with adjusted oil mid-course if needed",

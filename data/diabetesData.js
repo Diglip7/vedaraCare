@@ -29,7 +29,7 @@ export const diabetesIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic diabetes treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for diabetes in Dubai is a 6-month structured medical programme combining classical <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'><a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a></a> cleansing (typically <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Virechana</a>), dosha-specific herbal medicines (including Guduchi, Methika, Karela, Vijaysar, and pattern-specific Asanadi formulations), individualised dietary protocols, and lifestyle modification — performed alongside your endocrinologist's conventional management. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes for prediabetes typically produce normalisation of HbA1c within 6 months; programmes for early type 2 diabetes typically produce HbA1c reductions of 1-3 points with possible medication reduction under endocrinologist supervision; for long-standing type 2 diabetes, Ayurvedic treatment is supportive and addresses metabolic, inflammatory, and lifestyle factors not addressed by medication alone. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
 };
 
 export const diabetesMechanism1 = {
@@ -96,7 +96,7 @@ export const diabetesMechanism1 = {
       title: "Lifestyle, Sleep & Movement Protocols",
       description: "Diabetes is profoundly responsive to <a href=\"/conditions/stress-anxiety-ayurveda-dubai/\" class=\"hover:underline\">sleep quality, stress regulation</a>, and movement patterns. Our programmes include specific protocols for sleep optimisation, stress regulation (often including Shirodhara), movement prescription appropriate to your fitness and complications status."
     }
-    
+
   ]
 };
 
@@ -156,10 +156,12 @@ export const diabetesArthritisPillars = {
     },
     {
       title: "Pattern-Specific Herbal Medicines",
-      description: "Specific Ayurvedic medicines for diabetes — selected for your dosha pattern, stage, and existing medications. Core formulations include Guduchi (Tinospora cordifolia), Methika (Fenugreek), Karela (Bitter melon), Vijaysar (Pterocarpus marsupium), Saptarangi, and combinations like Madhumehari Churna and Asanadi Kashayam."  },
+      description: "Specific Ayurvedic medicines for diabetes — selected for your dosha pattern, stage, and existing medications. Core formulations include Guduchi (Tinospora cordifolia), Methika (Fenugreek), Karela (Bitter melon), Vijaysar (Pterocarpus marsupium), Saptarangi, and combinations like Madhumehari Churna and Asanadi Kashayam."
+    },
     {
       title: "Individualised Dietary Regulation",
-      description: "The single most powerful pillar for many patients. A specific eating protocol designed around your dosha pattern, your current diabetic stage, your cultural food preferences (Indian, Arabic, Filipino, Western), and your real life in Dubai. Far more sophisticated than 'avoid sugar and white rice.'"  },
+      description: "The single most powerful pillar for many patients. A specific eating protocol designed around your dosha pattern, your current diabetic stage, your cultural food preferences (Indian, Arabic, Filipino, Western), and your real life in Dubai. Far more sophisticated than 'avoid sugar and white rice.'"
+    },
     {
       title: "Lifestyle, Sleep & Movement Protocols",
       description: "Diabetes is profoundly responsive to sleep quality, stress regulation, and movement patterns. Our programmes include specific protocols for sleep optimisation, stress regulation (often including Shirodhara), movement prescription appropriate to your fitness and complications status.."
@@ -176,13 +178,13 @@ export const diabetesTreatmentLocationCustom = {
   addressNote: "Walking distance from FIVE Jumeirah Village Hotel",
   clinicHours: [
     { label: "Sunday - Saturday", time: " 8:30 am to 11:30 pm" },
-    
+
   ],
   contactPhone: "+971 55 573 6312",
   contactEmail: "booking@vedaracare.ae",
   description: "Our JVC clinic coordinates with most major Dubai endocrinology practices. Glucose monitoring equipment on-site for clinic visits. Comfortable consultation rooms with privacy for detailed health reviews. Walking distance from Circle Mall, easy access from JVC Districts 10, 11, 12, 13, JVT, and Al Barsha South.",
   buttonText: "Book a Diabetes Consultation",
-  mapAlt:'Vedara Care diabetes clinic location in Jumeirah Village Circle Dubai near Circle Mall',
+  mapAlt: 'Vedara Care diabetes clinic location in Jumeirah Village Circle Dubai near Circle Mall',
   buttonHref: "/book"
 };
 
@@ -276,7 +278,8 @@ export const diabetesProtocol = {
       expected: "HbA1c reduction of 1-3 points for early type 2 patients, full normalisation for many prediabetes patients, sustained dietary and lifestyle changes"
     }
   ],
-  footer: "This is a representative protocol. Outcomes vary based on stage, duration, complications, medication regimen, and adherence to all four pillars. Your specific timeline and expectations are documented and reviewed monthly."};
+  footer: "This is a representative protocol. Outcomes vary based on stage, duration, complications, medication regimen, and adherence to all four pillars. Your specific timeline and expectations are documented and reviewed monthly."
+};
 
 export const diabetesSymptoms = {
   bgColor: "bg-[#FAF6EF]",
@@ -421,8 +424,8 @@ export const diabetesReviews = {
     { value: "4.9", label: "stars on Google" },
     { value: "68", label: "Diabetes reviews" },
     { value: "82%", label: " HbA1c improvement coordinated with their endocrinologist" },
-    
-  
+
+
   ],
   buttonText: "Read All Diabetes Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
@@ -493,38 +496,45 @@ export const diabetesFaqs = {
     {
       question: "Can Ayurveda cure diabetes?",
       answer: "No — and any clinic that promises this is dangerous. Type 2 diabetes can sometimes be put into remission through sustained metabolic, dietary, and lifestyle changes — meaning HbA1c returns to non-diabetic range without medication. This happens for some early type 2 patients in our 6-month programme, always coordinated with their endocrinologist. But 'remission 'is not the same as 'cure'— the underlying tendency persists, and patients who abandon the protocols typically see diabetes return within 1-2 years. Type 1 diabetes cannot be cured by Ayurveda or any approach."
-  },
+    },
     {
       question: "How much will my HbA1c actually reduce?",
       answer: "Honest stage-specific ranges over 6 months: Prediabetes (HbA1c 5.7-6.4%) typically normalises fully. Newly diagnosed type 2 (under 2 years, HbA1c 6.5-8.0%) typically reduces 1.5-3 points. Established type 2 (over 5 years or HbA1c above 8.0%) typically reduces 0.5-1.5 points. Long-standing with complications: 0.3-1.0 point. Type 1: minimal direct effect. Patients who do not implement dietary and lifestyle protocols see less improvement."
     },
     {
       question: "Will I stop my diabetes medications?",
-      answer: "This is your endocrinologist's decision, never ours. What we have observed: many early-stage type 2 patients on metformin alone may discontinue or reduce metformin with endocrinologist supervision when HbA1c normalises. Patients on multiple oral hypoglycaemics sometimes reduce to fewer agents. Patients on insulin generally maintain insulin — though some may reduce dose. Type 1 patients always maintain insulin. We do not adjust medications. We provide the metabolic improvements that support your endocrinologist's medication decisions." },
+      answer: "This is your endocrinologist's decision, never ours. What we have observed: many early-stage type 2 patients on metformin alone may discontinue or reduce metformin with endocrinologist supervision when HbA1c normalises. Patients on multiple oral hypoglycaemics sometimes reduce to fewer agents. Patients on insulin generally maintain insulin — though some may reduce dose. Type 1 patients always maintain insulin. We do not adjust medications. We provide the metabolic improvements that support your endocrinologist's medication decisions."
+    },
     {
       question: "Will Ayurvedic herbs interfere with my diabetes medications?",
-      answer: "Some herbs can have additive effects with diabetes medications, requiring careful dose monitoring. At our JVC clinic, herbal protocols are designed with attention to your current medication regimen — particularly important for patients on insulin, sulfonylureas, or GLP-1 medications where hypoglycaemia risk exists. We monitor glucose closely during programme transitions and communicate with your endocrinologist about medication-herb interactions."   },
+      answer: "Some herbs can have additive effects with diabetes medications, requiring careful dose monitoring. At our JVC clinic, herbal protocols are designed with attention to your current medication regimen — particularly important for patients on insulin, sulfonylureas, or GLP-1 medications where hypoglycaemia risk exists. We monitor glucose closely during programme transitions and communicate with your endocrinologist about medication-herb interactions."
+    },
     {
       question: "How is this different from my endocrinologist appointments?",
-      answer: "Endocrinologists are highly trained specialists managing diabetes through medication, monitoring, and complications care — but typical appointments are 15-20 minutes every 3-6 months. Ayurvedic treatment is a structured 6-month programme with monthly hour-long doctor reviews focused on dietary protocols, lifestyle modification, root metabolic patterns, and adjunctive therapies. The two are complementary. We do what endocrinology appointments cannot do; endocrinology does what we cannot do." },
+      answer: "Endocrinologists are highly trained specialists managing diabetes through medication, monitoring, and complications care — but typical appointments are 15-20 minutes every 3-6 months. Ayurvedic treatment is a structured 6-month programme with monthly hour-long doctor reviews focused on dietary protocols, lifestyle modification, root metabolic patterns, and adjunctive therapies. The two are complementary. We do what endocrinology appointments cannot do; endocrinology does what we cannot do."
+    },
     {
       question: "How much does Ayurvedic diabetes treatment cost in Dubai?",
-      answer: "At Vedara Care, initial assessment starts from AED 450. A standard 6-month programme starts from AED 15,500. A comprehensive programme with complications focus starts from AED 24,000. Across Dubai, comprehensive Ayurvedic diabetes programmes typically range from AED 12,000 to AED 30,000 over 6 months. Many patients find the investment economical compared to ongoing medication costs and complication management over a lifetime."  },
-       {
+      answer: "At Vedara Care, initial assessment starts from AED 450. A standard 6-month programme starts from AED 15,500. A comprehensive programme with complications focus starts from AED 24,000. Across Dubai, comprehensive Ayurvedic diabetes programmes typically range from AED 12,000 to AED 30,000 over 6 months. Many patients find the investment economical compared to ongoing medication costs and complication management over a lifetime."
+    },
+    {
       question: "Is <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a> safe for diabetic Patients?",
-      answer: "For prediabetes, newly diagnosed type 2, and stable established type 2 without severe complications: yes, with careful glucose monitoring during the programme. For type 1 diabetes, diabetes with severe kidney disease, advanced complications, or recent hypoglycaemic episodes: typically not appropriate or significantly modified. Your stage and stability are assessed at consultation. <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a> is never performed without bloodwork review and endocrinologist coordination for insulin-treated patients."  },
-      {
-        question: "What is dietary for diabetes?",
-        answer: "The dietary protocol is dosha-specific, stage-specific, and culturally integrated — designed around your existing food preferences (whether you eat Indian, Arabic, Filipino, South Asian, or Western cuisines). General principles include managing glycaemic load through specific food combinations, eating timing (often with intermittent fasting protocols where appropriate), specific herbs incorporated as foods (Methika, Karela, Cinnamon, Turmeric), and addressing specific patterns like postprandial spikes through meal structure. Far more sophisticated than 'avoid sugar and white rice.'"  },
-        {
-          question: "Do I have to exercise?",
-          answer: "Yes. Movement is non-negotiable for diabetes management — it directly improves insulin sensitivity. The protocol is calibrated to your fitness, age, and complications. For most patients: 30-45 minutes daily of moderate intensity (brisk walking, swimming, structured resistance training). For patients with neuropathy: modified protocols protecting feet. For elderly patients: gentler protocols emphasising consistency. Specific prescription happens at consultation."
-        },
-        {
-          question: "Where exactly is your diabetes clinic in Dubai?",
-          answer: "Our clinic is at Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif."  }
+      answer: "For prediabetes, newly diagnosed type 2, and stable established type 2 without severe complications: yes, with careful glucose monitoring during the programme. For type 1 diabetes, diabetes with severe kidney disease, advanced complications, or recent hypoglycaemic episodes: typically not appropriate or significantly modified. Your stage and stability are assessed at consultation. <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a> is never performed without bloodwork review and endocrinologist coordination for insulin-treated patients."
+    },
+    {
+      question: "What is dietary for diabetes?",
+      answer: "The dietary protocol is dosha-specific, stage-specific, and culturally integrated — designed around your existing food preferences (whether you eat Indian, Arabic, Filipino, South Asian, or Western cuisines). General principles include managing glycaemic load through specific food combinations, eating timing (often with intermittent fasting protocols where appropriate), specific herbs incorporated as foods (Methika, Karela, Cinnamon, Turmeric), and addressing specific patterns like postprandial spikes through meal structure. Far more sophisticated than 'avoid sugar and white rice.'"
+    },
+    {
+      question: "Do I have to exercise?",
+      answer: "Yes. Movement is non-negotiable for diabetes management — it directly improves insulin sensitivity. The protocol is calibrated to your fitness, age, and complications. For most patients: 30-45 minutes daily of moderate intensity (brisk walking, swimming, structured resistance training). For patients with neuropathy: modified protocols protecting feet. For elderly patients: gentler protocols emphasising consistency. Specific prescription happens at consultation."
+    },
+    {
+      question: "Where exactly is your diabetes clinic in Dubai?",
+      answer: "Our clinic is at Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif."
+    }
   ]
-  
+
 };
 
 export const diabetesTreatmentLocation = {
@@ -555,7 +565,7 @@ export const diabetesTreatmentLocation = {
   buttonText: "Book a Diabetes Consultation",
   directions: "From Sheikh Mohammed Bin Zayed Road: Take Exit 27 for JVC, follow signs for Circle Mall. From Al Khail Road: Take JVC exit, follow signs for Circle Mall. Clinic next to Circle Mall with free parking.",
   mapAlt: "Vedara Care diabetes clinic location in Jumeirah Village Circle Dubai near Circle Mall",
-   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
 };
 
 export const diabetesFinalCTA = {
@@ -568,7 +578,7 @@ export const diabetesFinalCTA = {
   bullets: [
     "Initial consultation from AED 450 ",
     "Coordinated with your endocrinologist ·",
-   "Insurance direct-billing available",
+    "Insurance direct-billing available",
     "Walking distance from Circle Mall, JVC",
     "Free clinic parking"
   ]

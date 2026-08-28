@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Head from 'next/head';
-import { CheckCircle2,HelpCircle, X } from 'lucide-react';
+import { CheckCircle2, HelpCircle, X } from 'lucide-react';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import ContentWithSidebar from '../../components/ayurveda/ContentWithSidebar';
@@ -145,49 +145,49 @@ const RFMicroneedlingJVC = () => {
   const currentUrl = "https://vedaracare.ae/treatments/rf-microneedling-jvc/";
   const publishedDate = "2026-08-11T10:00:00+04:00";
   const modifiedDate = new Date().toISOString();
- const [compareTab, setCompareTab] = useState('hydrafacial');
-const comparisonData = [
-  {
-    treatment: "RF Microneedling",
-    approach: "Needling + RF energy",
-    goals: "Texture, scars, firmness",
-    exfoliation: "Limited",
-    remodelling: "Yes",
-    tightening: "Yes",
-  },
-  {
-    treatment: "Traditional Microneedling",
-    approach: "Controlled needling",
-    goals: "Texture, scars",
-    exfoliation: "Limited",
-    remodelling: "Yes",
-    tightening: "Less focused",
-  },
-  {
-    treatment: "Chemical Peel",
-    approach: "Chemical exfoliation",
-    goals: "Surface texture, pigmentation",
-    exfoliation: "Yes",
-    remodelling: "Varies",
-    tightening: "Not primary",
-  },
-  {
-    treatment: "Laser Resurfacing",
-    approach: "Laser energy",
-    goals: "Texture, pigmentation, resurfacing",
-    exfoliation: "Device-dependent",
-    remodelling: "Yes",
-    tightening: "Device-dependent",
-  },
-  {
-    treatment: "Hydrating / refresh facials",
-    approach: "Cleansing, exfoliation, hydration",
-    goals: "Surface refresh, hydration",
-    exfoliation: "Yes",
-    remodelling: "Not primary",
-    tightening: "Not primary",
-  },
-];
+  const [compareTab, setCompareTab] = useState('hydrafacial');
+  const comparisonData = [
+    {
+      treatment: "RF Microneedling",
+      approach: "Needling + RF energy",
+      goals: "Texture, scars, firmness",
+      exfoliation: "Limited",
+      remodelling: "Yes",
+      tightening: "Yes",
+    },
+    {
+      treatment: "Traditional Microneedling",
+      approach: "Controlled needling",
+      goals: "Texture, scars",
+      exfoliation: "Limited",
+      remodelling: "Yes",
+      tightening: "Less focused",
+    },
+    {
+      treatment: "Chemical Peel",
+      approach: "Chemical exfoliation",
+      goals: "Surface texture, pigmentation",
+      exfoliation: "Yes",
+      remodelling: "Varies",
+      tightening: "Not primary",
+    },
+    {
+      treatment: "Laser Resurfacing",
+      approach: "Laser energy",
+      goals: "Texture, pigmentation, resurfacing",
+      exfoliation: "Device-dependent",
+      remodelling: "Yes",
+      tightening: "Device-dependent",
+    },
+    {
+      treatment: "Hydrating / refresh facials",
+      approach: "Cleansing, exfoliation, hydration",
+      goals: "Surface refresh, hydration",
+      exfoliation: "Yes",
+      remodelling: "Not primary",
+      tightening: "Not primary",
+    },
+  ];
 
   const schemas = [
     {
@@ -386,51 +386,51 @@ const comparisonData = [
     borderPosition: "left"
   };
 
-const beforeBookingItems = [
-  "Is RF microneedling appropriate for my specific skin concern?",
-  "Who will actually perform the treatment, and what is their training?",
-  "What result is realistic for my concern, specifically — not in general terms?",
-  "How many sessions might reasonably be needed, and why?",
-  "What recovery should I expect, and for how long?",
-  "What aftercare will I need to follow?",
-  "What are the potential side effects for someone with my skin?",
-  "Are there alternative treatments I should consider instead, or alongside this one?",
-  "What exactly is included in the quoted treatment cost?",
-  "What should I avoid before and after the procedure?"
-];
+  const beforeBookingItems = [
+    "Is RF microneedling appropriate for my specific skin concern?",
+    "Who will actually perform the treatment, and what is their training?",
+    "What result is realistic for my concern, specifically — not in general terms?",
+    "How many sessions might reasonably be needed, and why?",
+    "What recovery should I expect, and for how long?",
+    "What aftercare will I need to follow?",
+    "What are the potential side effects for someone with my skin?",
+    "Are there alternative treatments I should consider instead, or alongside this one?",
+    "What exactly is included in the quoted treatment cost?",
+    "What should I avoid before and after the procedure?"
+  ];
 
- const compareTabs = {
-  traditionalMicroneedling: {
-    label: "vs Traditional Microneedling",
-    type: "prose",
-    paragraphs: [
-      "The core difference is the addition of radiofrequency heat to the needling process. Traditional microneedling relies on mechanical injury alone, which works well for many texture and mild-scarring concerns. RF microneedling adds a thermal element aimed more directly at firmness and remodelling, which is why it's more often discussed when mild laxity is part of the concern alongside texture. Recovery can be broadly similar, though RF treatment sometimes involves slightly more warmth in the hours after a session, depending on settings."
-    ],
-  },
+  const compareTabs = {
+    traditionalMicroneedling: {
+      label: "vs Traditional Microneedling",
+      type: "prose",
+      paragraphs: [
+        "The core difference is the addition of radiofrequency heat to the needling process. Traditional microneedling relies on mechanical injury alone, which works well for many texture and mild-scarring concerns. RF microneedling adds a thermal element aimed more directly at firmness and remodelling, which is why it's more often discussed when mild laxity is part of the concern alongside texture. Recovery can be broadly similar, though RF treatment sometimes involves slightly more warmth in the hours after a session, depending on settings."
+      ],
+    },
 
-  hydrafacial: {
-    label: "vs Hydrating or Refresh-Style Facials",
-    type: "prose",
-    paragraphs: [
-      "Facials focused on cleansing, exfoliation, and hydration serve a different purpose than RF microneedling. They're generally aimed at a surface-level refresh and are not designed to remodel deeper tissue or address structural concerns like acne scarring or laxity. If your primary goal is an immediate glow with no downtime, a hydrating facial may be a more relevant conversation. If the concern is more structural, RF microneedling addresses a different layer of the problem."   ],
-  },
+    hydrafacial: {
+      label: "vs Hydrating or Refresh-Style Facials",
+      type: "prose",
+      paragraphs: [
+        "Facials focused on cleansing, exfoliation, and hydration serve a different purpose than RF microneedling. They're generally aimed at a surface-level refresh and are not designed to remodel deeper tissue or address structural concerns like acne scarring or laxity. If your primary goal is an immediate glow with no downtime, a hydrating facial may be a more relevant conversation. If the concern is more structural, RF microneedling addresses a different layer of the problem."],
+    },
 
-  peel: {
-    label: "vs Chemical Peel",
-    type: "prose",
-    paragraphs: [
-      "Chemical peels work through controlled chemical exfoliation of the skin's surface, making them a strong option for surface-level texture and some pigmentation concerns. RF microneedling reaches beneath the surface via needling and thermal energy, making it more relevant when the goal includes deeper texture remodelling, scarring, or mild firmness rather than surface renewal alone. The two approaches are sometimes used at different points in a longer-term skin plan rather than treated as competing options."
-    ],
-  },
+    peel: {
+      label: "vs Chemical Peel",
+      type: "prose",
+      paragraphs: [
+        "Chemical peels work through controlled chemical exfoliation of the skin's surface, making them a strong option for surface-level texture and some pigmentation concerns. RF microneedling reaches beneath the surface via needling and thermal energy, making it more relevant when the goal includes deeper texture remodelling, scarring, or mild firmness rather than surface renewal alone. The two approaches are sometimes used at different points in a longer-term skin plan rather than treated as competing options."
+      ],
+    },
 
-  laser: {
-    label: "vs Laser Resurfacing",
-    type: "prose",
-    paragraphs: [
-      "Laser treatments use light energy rather than mechanical needling, and different laser platforms are designed for different concerns — some target pigmentation, others focus on resurfacing texture. Depth of effect and downtime vary considerably between laser types, so a direct comparison depends heavily on which specific laser is being discussed. Neither approach is universally safer or more effective — the right option depends on the concern, the skin type, and what the treating practitioner recommends after assessment."
-    ],
-  },
-};
+    laser: {
+      label: "vs Laser Resurfacing",
+      type: "prose",
+      paragraphs: [
+        "Laser treatments use light energy rather than mechanical needling, and different laser platforms are designed for different concerns — some target pigmentation, others focus on resurfacing texture. Depth of effect and downtime vary considerably between laser types, so a direct comparison depends heavily on which specific laser is being discussed. Neither approach is universally safer or more effective — the right option depends on the concern, the skin type, and what the treating practitioner recommends after assessment."
+      ],
+    },
+  };
 
 
 
@@ -449,31 +449,31 @@ const beforeBookingItems = [
     gridCols: "grid grid-cols-1 md:grid-cols-2 gap-6",
     borderPosition: "left"
   };
- const chooseClinicItems = [
-  "Qualified professionals performing or supervising the treatment",
-  "Appropriate, well-maintained equipment",
-  "Clear hygiene and infection-control practices",
-  "An individual skin assessment before any treatment is agreed",
-  "A clear explanation of how the treatment works, in plain language",
-  "Realistic expectations set from the outset, without guaranteed-results language",
-  "An honest discussion of risks and possible side effects",
-  "Written or verbal aftercare instructions you can actually follow",
-  "Transparent pricing with no pressure to commit to large packages upfront",
-  "Genuine, verifiable patient information rather than generic stock content"
-];
-const redFlagsItems = [
-  "Promises guaranteed results",
-  "Claims permanent removal of acne scarring",
-  "Advertises the treatment as “zero risk”",
-  "Skips a proper consultation before booking you in",
-  "Can't or won't tell you who is performing the treatment",
-  "Shows unclear or questionable hygiene standards",
-  "Uses before-and-after photographs that look edited, inconsistent, or unverifiable",
-  "Pressures you into buying large treatment packages on the spot",
-  "Doesn't discuss risks at all",
-  "Sends you home with no aftercare guidance"
-];
-const hydraRows = [
+  const chooseClinicItems = [
+    "Qualified professionals performing or supervising the treatment",
+    "Appropriate, well-maintained equipment",
+    "Clear hygiene and infection-control practices",
+    "An individual skin assessment before any treatment is agreed",
+    "A clear explanation of how the treatment works, in plain language",
+    "Realistic expectations set from the outset, without guaranteed-results language",
+    "An honest discussion of risks and possible side effects",
+    "Written or verbal aftercare instructions you can actually follow",
+    "Transparent pricing with no pressure to commit to large packages upfront",
+    "Genuine, verifiable patient information rather than generic stock content"
+  ];
+  const redFlagsItems = [
+    "Promises guaranteed results",
+    "Claims permanent removal of acne scarring",
+    "Advertises the treatment as “zero risk”",
+    "Skips a proper consultation before booking you in",
+    "Can't or won't tell you who is performing the treatment",
+    "Shows unclear or questionable hygiene standards",
+    "Uses before-and-after photographs that look edited, inconsistent, or unverifiable",
+    "Pressures you into buying large treatment packages on the spot",
+    "Doesn't discuss risks at all",
+    "Sends you home with no aftercare guidance"
+  ];
+  const hydraRows = [
     ['Main approach', 'Controlled physical micro-injuries to trigger skin repair', 'Multi-step device combining cleansing, exfoliation and extraction with fluid infusion'],
     ['Exfoliation', 'Not the primary focus — channels made directly', 'Combined physical and gentle solution-based exfoliation'],
     ['Extraction', 'Not typically a built-in step', 'Vacuum-based extraction is a core part of the process'],
@@ -551,7 +551,7 @@ const hydraRows = [
 
       <PhysiotherapyTechniques {...rfMicroneedlingExplanation} />
 
- {/* What Does RF Energy Actually Do? */}
+      {/* What Does RF Energy Actually Do? */}
       <section className="py-16 bg-[#FAF7F2]">
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading
@@ -622,7 +622,7 @@ const hydraRows = [
           }
         ]}
         sidebar={{
-          image: "/images/rf-microneedling-procedure-vedara-care.jpg",
+          image: "/images/rf-microneedling-procedure-vedara-care copy.webp",
           altText: "RF Microneedling sensation setting",
           width: "w-full",
           height: "h-[400px]",
@@ -780,217 +780,216 @@ const hydraRows = [
         </div>
       </section>
 
-   <section className="py-16 md:py-28 bg-[#F7F4EF]">
-      <div className="max-w-6xl mx-auto px-6">
+      <section className="py-16 md:py-28 bg-[#F7F4EF]">
+        <div className="max-w-6xl mx-auto px-6">
 
-        {/* Header */}
-        <div className="max-w-3xl mb-12 md:mb-16">
-          
-          <h1
-            className="text-3xl md:text-5xl leading-tight mb-6"
-            style={{
-              fontFamily: "Fraunces, Georgia, serif",
-              color: INK,
-            }}
-          >
-            RF Microneedling vs Other Options
-          </h1>
+          {/* Header */}
+          <div className="max-w-3xl mb-12 md:mb-16">
 
-          <p
-            className="text-base md:text-lg leading-8"
-            style={{ color: "#5F5A54" }}
-          >
-            Choosing between skin treatments usually comes down to which
-            concern is the priority. The comparison below is a starting point,
-            not a recommendation — the right choice depends on your specific
-            skin and goals, best discussed during consultation.
-          </p>
-        </div>
-
-        {/* Desktop Table */}
-        <div className="hidden md:block overflow-hidden rounded-3xl border border-[#DED8D0] bg-white">
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse">
-              <thead>
-                <tr className="bg-[#EEE9E2]">
-                  <th
-                    className="text-left px-6 py-5 text-sm font-semibold"
-                    style={{ color: INK }}
-                  >
-                    Treatment
-                  </th>
-
-                  <th
-                    className="text-left px-6 py-5 text-sm font-semibold"
-                    style={{ color: INK }}
-                  >
-                    Main Approach
-                  </th>
-
-                  <th
-                    className="text-left px-6 py-5 text-sm font-semibold"
-                    style={{ color: INK }}
-                  >
-                    Common Goals
-                  </th>
-
-                  <th
-                    className="text-left px-6 py-5 text-sm font-semibold"
-                    style={{ color: INK }}
-                  >
-                    Surface Exfoliation
-                  </th>
-
-                  <th
-                    className="text-left px-6 py-5 text-sm font-semibold"
-                    style={{ color: INK }}
-                  >
-                    Skin Remodelling
-                  </th>
-
-                  <th
-                    className="text-left px-6 py-5 text-sm font-semibold"
-                    style={{ color: INK }}
-                  >
-                    Tightening Focus
-                  </th>
-                </tr>
-              </thead>
-
-              <tbody>
-                {comparisonData.map((item, index) => (
-                  <tr
-                    key={item.treatment}
-                    className={`border-t border-[#E6E0D8] ${
-                      index === 0 ? "bg-[#FBF8F3]" : "bg-white"
-                    }`}
-                  >
-                    <td className="px-6 py-6 align-top">
-                      <div
-                        className="font-medium leading-6"
-                        style={{
-                          color: index === 0 ? COLORS.rust : INK,
-                        }}
-                      >
-                        {item.treatment}
-                      </div>
-                    </td>
-
-                    <td
-                      className="px-6 py-6 align-top text-sm leading-6"
-                      style={{ color: "#5F5A54" }}
-                    >
-                      {item.approach}
-                    </td>
-
-                    <td
-                      className="px-6 py-6 align-top text-sm leading-6"
-                      style={{ color: "#5F5A54" }}
-                    >
-                      {item.goals}
-                    </td>
-
-                    <td
-                      className="px-6 py-6 align-top text-sm"
-                      style={{ color: "#5F5A54" }}
-                    >
-                      {item.exfoliation}
-                    </td>
-
-                    <td
-                      className="px-6 py-6 align-top text-sm"
-                      style={{ color: "#5F5A54" }}
-                    >
-                      {item.remodelling}
-                    </td>
-
-                    <td
-                      className="px-6 py-6 align-top text-sm"
-                      style={{ color: "#5F5A54" }}
-                    >
-                      {item.tightening}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        {/* Mobile Cards */}
-        <div className="md:hidden space-y-5">
-          {comparisonData.map((item, index) => (
-            <div
-              key={item.treatment}
-              className="rounded-2xl border border-[#DED8D0] bg-white p-6"
+            <h1
+              className="text-3xl md:text-5xl leading-tight mb-6"
+              style={{
+                fontFamily: "Fraunces, Georgia, serif",
+                color: INK,
+              }}
             >
-              <h3
-                className="text-xl mb-5"
-                style={{
-                  fontFamily: "Fraunces, Georgia, serif",
-                  color: index === 0 ? COLORS.rust : INK,
-                }}
-              >
-                {item.treatment}
-              </h3>
+              RF Microneedling vs Other Options
+            </h1>
 
-              <div className="space-y-4">
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-[#8A837B] mb-1">
-                    Main Approach
-                  </p>
-                  <p className="text-sm leading-6 text-[#5F5A54]">
-                    {item.approach}
-                  </p>
-                </div>
+            <p
+              className="text-base md:text-lg leading-8"
+              style={{ color: "#5F5A54" }}
+            >
+              Choosing between skin treatments usually comes down to which
+              concern is the priority. The comparison below is a starting point,
+              not a recommendation — the right choice depends on your specific
+              skin and goals, best discussed during consultation.
+            </p>
+          </div>
 
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-[#8A837B] mb-1">
-                    Common Goals
-                  </p>
-                  <p className="text-sm leading-6 text-[#5F5A54]">
-                    {item.goals}
-                  </p>
-                </div>
+          {/* Desktop Table */}
+          <div className="hidden md:block overflow-hidden rounded-3xl border border-[#DED8D0] bg-white">
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr className="bg-[#EEE9E2]">
+                    <th
+                      className="text-left px-6 py-5 text-sm font-semibold"
+                      style={{ color: INK }}
+                    >
+                      Treatment
+                    </th>
 
-                <div className="grid grid-cols-2 gap-4 pt-2">
-                  <div>
-                    <p className="text-xs uppercase tracking-wider text-[#8A837B] mb-1">
+                    <th
+                      className="text-left px-6 py-5 text-sm font-semibold"
+                      style={{ color: INK }}
+                    >
+                      Main Approach
+                    </th>
+
+                    <th
+                      className="text-left px-6 py-5 text-sm font-semibold"
+                      style={{ color: INK }}
+                    >
+                      Common Goals
+                    </th>
+
+                    <th
+                      className="text-left px-6 py-5 text-sm font-semibold"
+                      style={{ color: INK }}
+                    >
                       Surface Exfoliation
+                    </th>
+
+                    <th
+                      className="text-left px-6 py-5 text-sm font-semibold"
+                      style={{ color: INK }}
+                    >
+                      Skin Remodelling
+                    </th>
+
+                    <th
+                      className="text-left px-6 py-5 text-sm font-semibold"
+                      style={{ color: INK }}
+                    >
+                      Tightening Focus
+                    </th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  {comparisonData.map((item, index) => (
+                    <tr
+                      key={item.treatment}
+                      className={`border-t border-[#E6E0D8] ${index === 0 ? "bg-[#FBF8F3]" : "bg-white"
+                        }`}
+                    >
+                      <td className="px-6 py-6 align-top">
+                        <div
+                          className="font-medium leading-6"
+                          style={{
+                            color: index === 0 ? COLORS.rust : INK,
+                          }}
+                        >
+                          {item.treatment}
+                        </div>
+                      </td>
+
+                      <td
+                        className="px-6 py-6 align-top text-sm leading-6"
+                        style={{ color: "#5F5A54" }}
+                      >
+                        {item.approach}
+                      </td>
+
+                      <td
+                        className="px-6 py-6 align-top text-sm leading-6"
+                        style={{ color: "#5F5A54" }}
+                      >
+                        {item.goals}
+                      </td>
+
+                      <td
+                        className="px-6 py-6 align-top text-sm"
+                        style={{ color: "#5F5A54" }}
+                      >
+                        {item.exfoliation}
+                      </td>
+
+                      <td
+                        className="px-6 py-6 align-top text-sm"
+                        style={{ color: "#5F5A54" }}
+                      >
+                        {item.remodelling}
+                      </td>
+
+                      <td
+                        className="px-6 py-6 align-top text-sm"
+                        style={{ color: "#5F5A54" }}
+                      >
+                        {item.tightening}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* Mobile Cards */}
+          <div className="md:hidden space-y-5">
+            {comparisonData.map((item, index) => (
+              <div
+                key={item.treatment}
+                className="rounded-2xl border border-[#DED8D0] bg-white p-6"
+              >
+                <h3
+                  className="text-xl mb-5"
+                  style={{
+                    fontFamily: "Fraunces, Georgia, serif",
+                    color: index === 0 ? COLORS.rust : INK,
+                  }}
+                >
+                  {item.treatment}
+                </h3>
+
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-xs uppercase tracking-wider text-[#8A837B] mb-1">
+                      Main Approach
                     </p>
-                    <p className="text-sm text-[#5F5A54]">
-                      {item.exfoliation}
+                    <p className="text-sm leading-6 text-[#5F5A54]">
+                      {item.approach}
                     </p>
                   </div>
 
                   <div>
                     <p className="text-xs uppercase tracking-wider text-[#8A837B] mb-1">
-                      Skin Remodelling
+                      Common Goals
                     </p>
-                    <p className="text-sm text-[#5F5A54]">
-                      {item.remodelling}
+                    <p className="text-sm leading-6 text-[#5F5A54]">
+                      {item.goals}
                     </p>
                   </div>
-                </div>
 
-                <div className="pt-2 border-t border-[#E6E0D8]">
-                  <p className="text-xs uppercase tracking-wider text-[#8A837B] mb-1">
-                    Tightening Focus
-                  </p>
-                  <p className="text-sm text-[#5F5A54]">
-                    {item.tightening}
-                  </p>
+                  <div className="grid grid-cols-2 gap-4 pt-2">
+                    <div>
+                      <p className="text-xs uppercase tracking-wider text-[#8A837B] mb-1">
+                        Surface Exfoliation
+                      </p>
+                      <p className="text-sm text-[#5F5A54]">
+                        {item.exfoliation}
+                      </p>
+                    </div>
+
+                    <div>
+                      <p className="text-xs uppercase tracking-wider text-[#8A837B] mb-1">
+                        Skin Remodelling
+                      </p>
+                      <p className="text-sm text-[#5F5A54]">
+                        {item.remodelling}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="pt-2 border-t border-[#E6E0D8]">
+                    <p className="text-xs uppercase tracking-wider text-[#8A837B] mb-1">
+                      Tightening Focus
+                    </p>
+                    <p className="text-sm text-[#5F5A54]">
+                      {item.tightening}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
         </div>
-
-      </div>
-    </section>
+      </section>
 
 
-        {/* Comparisons */}
+      {/* Comparisons */}
       <section className="py-16" style={{ backgroundColor: COLORS.deep }}>
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-2xl mb-10">
@@ -1060,7 +1059,7 @@ const hydraRows = [
       </section>
 
 
-{/* Choose a clinic + red flags */}
+      {/* Choose a clinic + red flags */}
       <section className="py-16" style={{ backgroundColor: COLORS.sage }}>
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
           <div>
@@ -1079,38 +1078,38 @@ const hydraRows = [
             </ul>
           </div>
           <div
-  className="rounded-2xl p-7 h-fit"
-  style={{
-    backgroundColor: COLORS.rustBg,
-    border: `1px solid ${COLORS.rustLine}`,
-  }}
->
-  <h3
-    className="text-xl font-serif mt-4 mb-3"
-    style={{
-      fontFamily: "Fraunces, Georgia, serif",
-      color: INK,
-    }}
-  >
-    Red Flags 
-  </h3>
+            className="rounded-2xl p-7 h-fit"
+            style={{
+              backgroundColor: COLORS.rustBg,
+              border: `1px solid ${COLORS.rustLine}`,
+            }}
+          >
+            <h3
+              className="text-xl font-serif mt-4 mb-3"
+              style={{
+                fontFamily: "Fraunces, Georgia, serif",
+                color: INK,
+              }}
+            >
+              Red Flags
+            </h3>
 
-  <p className="mb-4">
-    Be cautious of any provider, in JVC or elsewhere, who:
-  </p>
+            <p className="mb-4">
+              Be cautious of any provider, in JVC or elsewhere, who:
+            </p>
 
-  <ul className="space-y-3">
-    {redFlagsItems.map((item, index) => (
-      <li key={index} className="flex items-start gap-3">
-        <span className="mt-1">●</span>
-        <span>{item}</span>
-      </li>
-    ))}
-  </ul>
-</div>
+            <ul className="space-y-3">
+              {redFlagsItems.map((item, index) => (
+                <li key={index} className="flex items-start gap-3">
+                  <span className="mt-1">●</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
-        {/* Before booking */}
+      {/* Before booking */}
       <section className="max-w-6xl mx-auto px-6 py-16">
         <SectionHeading
           eyebrow="Before Booking Microneedling"
@@ -1154,7 +1153,7 @@ const hydraRows = [
       />
 
 
-       {/* Why JVC */}
+      {/* Why JVC */}
       <ContentWithSidebar
         bgColor="bg-white"
         label="LOCAL ACCESSIBILITY"
@@ -1186,11 +1185,11 @@ const hydraRows = [
 
       {/* FAQs */}
       <FAQ faqs={rfMicroneedlingFAQ.faqs} />
-  <MedicalDisclaimer text={rfMicroneedlingCTA.disclaimer} />
+      <MedicalDisclaimer text={rfMicroneedlingCTA.disclaimer} />
       <FinalCTA {...rfMicroneedlingDCTA} />
 
       {/* Medical Disclaimer */}
-    
+
 
       <RelatedPages {...relatedPagesData} />
     </>

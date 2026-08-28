@@ -137,32 +137,38 @@ const ContentOnlySection = ({
   bgColor,
   label,
   title,
+  description,
   contentSections,
   sidebar,
   footer,
 }) => {
   return (
-    <section className={`${bgColor}`} style={{ padding: '96px 24px' }}>
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <div className="text-sm tracking-[0.2em] uppercase mb-4" style={{ color: '#C9A84C' }}>
+    <section className={`${bgColor}`} style={{ padding: '72px 24px' }}>
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-10">
+          <div className="text-sm tracking-[0.2em] uppercase mb-3" style={{ color: '#C9A84C' }}>
             {label}
           </div>
           <h2 className="text-3xl md:text-4xl" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)' }}>
             {title}
           </h2>
+          {description && (
+            <p className="text-base mt-4 max-w-3xl mx-auto" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
+              {description}
+            </p>
+          )}
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-[60fr_40fr] gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[50fr_50fr] gap-8 items-start">
           <div className="space-y-6">
-            {contentSections.map((section, index) => (
+            {(contentSections || []).map((section, index) => (
               <div key={index}>
-                  {section.subtitle && (
-                    <h3
-                      className="text-lg font-serif mb-3"
-                      style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)' }}
-                      dangerouslySetInnerHTML={{ __html: section.subtitle }}
-                    />
-                    )}
+                {section.subtitle && (
+                  <h3
+                    className="text-lg font-serif mb-3"
+                    style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)' }}
+                    dangerouslySetInnerHTML={{ __html: section.subtitle }}
+                  />
+                )}
                 {section.description && (
                   <p className="text-base" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
                     {section.description}
@@ -187,21 +193,25 @@ const ContentOnlySection = ({
           </div>
 
           <div className="md:sticky md:top-6 lg:top-8">
-            {sidebar.image ? (
-              <div className="rounded-xl overflow-hidden shadow-md border border-[#E5DFD3]/40 aspect-[4/3] w-full">
-                <img src={sidebar.image} alt={sidebar.altText || "Sidebar Image"} className="w-full h-full object-cover" />
+            {sidebar && sidebar.image ? (
+              <div className="rounded-md overflow-hidden">
+                <img
+                  src={sidebar.image}
+                  alt={sidebar.altText || 'Sidebar Image'}
+                  className="w-full h-auto rounded-xl object-contain"
+                />
               </div>
             ) : (
               <div className="rounded-lg border-2 border-[#B8965A] bg-[#FAF7F2] p-7">
                 <h3 className="text-xs tracking-[0.2em] uppercase mb-4" style={{ color: '#C9A84C' }}>
-                  {sidebar.label}
+                  {sidebar && sidebar.label}
                 </h3>
                 <p className="text-sm font-semibold mb-4" style={{ color: 'rgb(26,26,26)' }}>
-                  {sidebar.title}
+                  {sidebar && sidebar.title}
                 </p>
-                {sidebar.features && sidebar.features.length > 0 && (
+                {sidebar && sidebar.features && sidebar.features.length > 0 && (
                   <div className="space-y-2 mb-6">
-                    {sidebar.features.map((feature, index) => (
+                    {sidebar && sidebar.features.map((feature, index) => (
                       <div key={index} className="flex items-start gap-2 text-sm">
                         <svg className="w-4 h-4 text-[#C9A84C] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path>
@@ -211,20 +221,20 @@ const ContentOnlySection = ({
                     ))}
                   </div>
                 )}
-                {sidebar.note && (
+                {sidebar && sidebar.note && (
                   <div className="text-xs leading-relaxed" style={{ color: 'rgba(20, 20, 20, 1)' }} dangerouslySetInnerHTML={{ __html: sidebar.note }} />
                 )}
-                {sidebar.footer && (
+                {sidebar && sidebar.footer && (
                   <p className="text-xs mb-8" style={{ color: 'rgb(107,107,107)' }}>
-                    {sidebar.footer}
+                    {sidebar && sidebar.footer}
                   </p>
                 )}
-                {sidebar.buttonText && sidebar.buttonHref && (
+                {sidebar && sidebar.buttonText && sidebar.buttonHref && (
                   <a
                     href={sidebar.buttonHref}
                     className="w-full text-white font-semibold py-4 px-6 rounded flex items-center justify-center gap-2 transition-colors text-sm border-2 border-[#1C1C14] bg-[#1C1C14] hover:bg-[#C9A84C] hover:text-[#1C1C14] hover:border-[#C9A84C]"
                   >
-                    {sidebar.buttonText}
+                    {sidebar && sidebar.buttonText}
                   </a>
                 )}
               </div>
@@ -256,22 +266,22 @@ const WorkupSection = ({
           <h2 className="text-3xl md:text-4xl" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)' }}>
             {title}
           </h2>
-          {contentSections[0]?.description && !contentSections[0]?.subtitle && (
+          {(contentSections || [])[0]?.description && !(contentSections || [])[0]?.subtitle && (
             <p className="text-base mt-4" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7', maxWidth: '600px', margin: '16px auto 0 auto' }}>
-              {contentSections[0].description}
+              {(contentSections || [])[0].description}
             </p>
           )}
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-[55fr_45fr] gap-12 items-start">
           <div className="space-y-6">
-            {contentSections.slice(1).map((section, index) => {
-              const isHighlighted = section.isHighlighted || 
-                (index === contentSections.slice(1).length - 1 && contentSections.length > 3);
-              
+            {(contentSections || []).slice(1).map((section, index) => {
+              const isHighlighted = section.isHighlighted ||
+                (index === (contentSections || []).slice(1).length - 1 && (contentSections || []).length > 3);
+
               return (
-                <div 
-                  key={index} 
-                  className={isHighlighted ? 'p-6 rounded-xl' : ''} 
+                <div
+                  key={index}
+                  className={isHighlighted ? 'p-6 rounded-xl' : ''}
                   style={isHighlighted ? { backgroundColor: '#F0EBE3' } : {}}
                 >
                   {section.subtitle && (
@@ -383,7 +393,7 @@ const PRPCombinationSection = ({
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-[55fr_45fr] gap-12 items-start">
           <div className="space-y-6">
-            {contentSections.map((section, index) => (
+            {(contentSections || []).map((section, index) => (
               <div key={index}>
                 {section.subtitle && (
                   <h3 className="text-lg font-serif mb-3" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)' }}>
@@ -439,7 +449,7 @@ const PRPCombinationSection = ({
               )}
               {showSectionImage && image && (
                 <div className="mt-6 rounded-xl overflow-hidden shadow-md border border-[#E5DFD3]/40 aspect-[4/3] w-full">
-                  <img src={image} alt={alt || "Section Image"} className="w-full h-full object-cover" />
+                  <img src={image} alt={alt || 'Section Image'} className="w-full h-full object-cover" />
                 </div>
               )}
             </div>
@@ -455,7 +465,7 @@ const PRPCombinationSection = ({
 // ============================================
 const TreatmentTimelineSection = ({
   bgColor,
-  cardBg='bg-white',
+  cardBg = 'bg-white',
   label,
   title,
   intro,
@@ -486,9 +496,9 @@ const TreatmentTimelineSection = ({
         {/* Render timeline image banner if passed */}
         {showSectionImage && image && (
           <div className="max-w-5xl mx-auto mb-12 rounded-xl overflow-hidden shadow-sm aspect-[21/9] max-h-[300px] border border-[#E5DFD3]/30">
-            <img 
-              src={image} 
-              alt={alt || "Timeline Image"} 
+            <img
+              src={image}
+              alt={alt || 'Timeline Image'}
               className="w-full h-full object-cover"
             />
           </div>
@@ -497,12 +507,12 @@ const TreatmentTimelineSection = ({
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {phases.map((phase, index) => (
             <div key={index} className={`relative ${cardBg} rounded-xl p-6 overflow-hidden`}>
-              <div className="absolute top-0 left-0 right-0 h-1" style={{ 
-                background: 'linear-gradient(90deg, #B8965A 0%, #C9A84C 50%, #B8965A 100%)' 
+              <div className="absolute top-0 left-0 right-0 h-1" style={{
+                background: 'linear-gradient(90deg, #B8965A 0%, #C9A84C 50%, #B8965A 100%)'
               }}></div>
-              <div className="absolute top-4 right-4 text-5xl font-medium" style={{ 
-                fontFamily: 'Fraunces, Georgia, serif', 
-                color: 'rgba(201, 168, 76, 0.15)' 
+              <div className="absolute top-4 right-4 text-5xl font-medium" style={{
+                fontFamily: 'Fraunces, Georgia, serif',
+                color: 'rgba(201, 168, 76, 0.15)'
               }}>
                 {phase.phaseNumber}
               </div>
@@ -593,8 +603,7 @@ const PricingSection = ({
         <div className="bg-white rounded-lg border border-[#E5DFD3] overflow-hidden mb-12">
           {(services || []).map((service, index) => (
             <div key={index} className={`flex items-center justify-between px-8 py-5 ${index % 2 === 1 ? 'bg-[#FAF8F5]' : 'bg-white'}`}>
-              <p className="text-sm" style={{ color: 'rgb(26, 26, 26)' }}dangerouslySetInnerHTML={{ __html: service.name }}>
-            
+              <p className="text-sm" style={{ color: 'rgb(26, 26, 26)' }} dangerouslySetInnerHTML={{ __html: service.name }}>
               </p>
               <p style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(201, 168, 76)' }}>
                 {service.price}
@@ -615,7 +624,7 @@ const PricingSection = ({
             text-decoration: underline;
           }
         `}</style>
-       
+
       </div>
     </section>
   );

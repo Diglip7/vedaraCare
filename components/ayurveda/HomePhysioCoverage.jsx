@@ -30,7 +30,7 @@ const HomePhysioCoverage = ({
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          <div className="bg-gray-200 rounded-xl h-[500px] flex items-center justify-center overflow-hidden">
+          <div className="bg-gray-200 rounded-xl h-[500px] md:h-auto flex items-center justify-center overflow-hidden">
             {mapEmbed ? (
               <iframe 
                 src={mapEmbed} 
@@ -41,13 +41,13 @@ const HomePhysioCoverage = ({
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Vedara Care Polyclinic Location Map"
-                className="rounded-xl"
+                className="rounded-xl min-h-[500px]"
               />
             ) : image ? (
               <img 
                 src={image} 
                 alt={alt} 
-                className="w-full h-full object-cover rounded-xl"
+                className="w-full h-auto object-contain rounded-xl"
               />
             ) : (
               <span className="text-gray-500 text-center px-4">

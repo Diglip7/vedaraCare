@@ -19,7 +19,7 @@ export const hydrafacialHero = {
     title: "Protocol quality matters.",
     subtitle: "HydraFacial outcomes depend heavily on clinician judgement during extraction and serum selection — not just the device. Dermatology-led delivery means your skin type and sensitivities guide every step, not a one-size-fits-all routine."
   },
-  image: "/images/skin-consultation-vedara-jvc.webp",
+  image: "",
   alt: "HydraFacial treatment consultation at Vedara Care JVC with dermatologist"
 };
 
@@ -81,7 +81,7 @@ export const hydrafacialHowItWorks = {
     footer: "\"It’s a fairly logical, low-drama process — which is part of the appeal for people who want visible results without an elaborate recovery plan."
   },
   rightContent: {
-    image: "/images/skin-rejuvenation-consultation-vedara-jvc.webp",
+    image: "",
     alt: "HydraFacial steps diagram consultation",
     peelDepthsLabel: "TYPICAL HYDRAFACIAL STEPS",
     peelDepths: [
@@ -460,7 +460,7 @@ export const hydrafacialTeam = {
       specialties: ["HydraFacial", "Aesthetic Dermatology", "Skin of Color", "Skin Rejuvenation"],
       description: "",
       languages: ["Arabic", "English"],
-      image: "/images/sample.jpeg",
+      image: "",
       alt: "Dr. Sarah Al-Rashidi consultant dermatologist HydraFacial specialist Vedara Care JVC",
       link: "/dermatologists/dr-sarah-al-rashidi/"
     },
@@ -470,7 +470,7 @@ export const hydrafacialTeam = {
       specialties: ["HydraFacial", "Anti-Aging", "Acne Treatment", "Pigmentation"],
       description: "",
       languages: ["English", "Hindi", "Urdu"],
-      image: "/images/sample.jpeg",
+      image: "",
       alt: "Dr. Priya Mehta consultant dermatologist HydraFacial specialist Vedara Care JVC",
       link: "/dermatologists/dr-priya-mehta/"
     },
@@ -480,7 +480,7 @@ export const hydrafacialTeam = {
       specialties: ["HydraFacial Protocols", "Aesthetic Dermatology", "Skin of Color", "Facial Aesthetics"],
       description: "",
       languages: ["Arabic", "English"],
-      image: "/images/sample.jpeg",
+      image: "",
       alt: "Dr. Ahmed Hassan consultant dermatologist HydraFacial specialist Vedara Care JVC",
       link: "/dermatologists/dr-ahmed-hassan/"
     },
@@ -490,7 +490,7 @@ export const hydrafacialTeam = {
       specialties: ["Fitzpatrick IV–VI Facials", "Acne Support", "Pigmentation", "Skin Maintenance"],
       description: "",
       languages: ["English", "Hindi", "Malayalam"],
-      image: "/images/sample.jpeg",
+      image: "",
       alt: "Dr. Riya Nair consultant dermatologist HydraFacial specialist Vedara Care JVC",
       link: "/dermatologists/dr-riya-nair/"
     }
@@ -644,7 +644,7 @@ export const hydrafacialLocation = {
   bgColor: "bg-[#FAF7F2]",
   label: "FIND US",
   title: "Visit Our JVC Clinic",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   whatsapp: "+971 55 573 6312",

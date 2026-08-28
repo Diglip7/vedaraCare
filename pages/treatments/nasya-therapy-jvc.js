@@ -253,8 +253,8 @@ const NasyaTherapyJVC = () => {
         sidebar={{
           image: nasyaTherapyExplanation.image,
           altText: nasyaTherapyExplanation.alt,
-          width: "w-full",
-          height: "h-[450px]",
+         width: "w-full",
+        height: "h-[500px] ",
           borderPosition: "right"
         }}
         footer={nasyaTherapyExplanation.caption}
@@ -269,7 +269,7 @@ const NasyaTherapyJVC = () => {
           image: nasyaTherapyPanchakarma.image,
           altText: nasyaTherapyPanchakarma.alt,
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[500px]",
           borderPosition: "left"
         }}
         footer={nasyaTherapyPanchakarma.caption}
@@ -286,26 +286,7 @@ const NasyaTherapyJVC = () => {
           <p className="text-base text-[rgb(107,107,107)] mb-10 max-w-3xl leading-relaxed">
             {nasyaTherapyTypes.description}
           </p>
-          <div className="grid md:grid-cols-5 gap-8 mb-10 items-start">
-            <div className="md:col-span-2 rounded-2xl overflow-hidden border border-[#E5DFD3] bg-white order-2 md:order-1">
-              <img
-                src="/images/practitioner-preparing-nasya-oil-jvc.jpg"
-                alt="Ayurvedic practitioner preparing medicated oil for Nasya therapy"
-                className="w-full h-[340px] object-cover"
-              />
-              <p className="text-xs italic text-[rgb(107,107,107)] px-5 py-3 leading-relaxed">
-                The selected preparation is handled with care before administration.
-              </p>
-            </div>
-            <div className="md:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-5 order-1 md:order-2">
-              {nasyaTherapyTypes.typesList.map((type, idx) => (
-                <div key={idx} className="rounded-2xl p-6 bg-white border border-[#E5DFD3]">
-                  <h3 className="text-lg font-serif mb-3 text-[rgb(26,26,26)]">{type.title}</h3>
-                  <p className="text-sm text-[rgb(107,107,107)] leading-relaxed">{type.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          
           <p className="text-xs italic text-[rgb(107,107,107)] leading-relaxed">
             {nasyaTherapyTypes.footer}
           </p>
@@ -336,7 +317,7 @@ const NasyaTherapyJVC = () => {
             </div>
             <div className="md:col-span-2 rounded-2xl overflow-hidden border border-[#E5DFD3] bg-[#FAF7F2]">
               <img
-                src="/images/nasya-treatment-preparation-vedara-care.jpg"
+                src="/images/nasya-treatment-preparation-matters.webp"
                 alt="Preparation of an Ayurvedic Nasya treatment at Vedara Care Polyclinic"
                 className="w-full h-[380px] object-cover"
               />
@@ -361,7 +342,7 @@ const NasyaTherapyJVC = () => {
           description: c.description
         }))}
         sidebar={{
-          image: "/images/migraine-diary-review-consultation-vedara-jvc.webp",
+          image: "/images/nasya-concerns-jvc.webp",
           altText: "Ayurvedic practitioner assessing head and sinus concerns before Nasya treatment",
           width: "w-full",
           height: "h-[500px]",
@@ -452,7 +433,7 @@ const NasyaTherapyJVC = () => {
           { subtitle: '', description: nasyaTherapyConsultation.footer }
         ]}
         sidebar={{
-          image: "/images/nasya-therapy-consultation-jvc.jpg",
+          image: "/images/nasya-therapy-consultation-jvc.webp",
           altText: "Ayurvedic practitioner consulting a patient about Nasya Therapy in JVC",
           width: "w-full",
           height: "h-[500px]",
@@ -475,7 +456,7 @@ const NasyaTherapyJVC = () => {
           <div className="grid md:grid-cols-2 gap-6 mb-12">
             <div className="rounded-2xl overflow-hidden border border-[#E5DFD3] bg-[#FAF7F2]">
               <img
-                src="/images/nasya-treatment-setup-jvc.jpg"
+                src="/images/nasya-treatment-setup-jvc.webp"
                 alt="Professional Nasya Ayurvedic treatment setup in JVC"
                 className="w-full h-[300px] object-cover"
               />
@@ -485,7 +466,8 @@ const NasyaTherapyJVC = () => {
             </div>
             <div className="rounded-2xl overflow-hidden border border-[#E5DFD3] bg-[#FAF7F2]">
               <img
-                src="/images/ayurvedic-head-face-preparation-nasya.jpg"
+                src="/images/ayurvedic-head-face-preparation-nasya.webp
+                "
                 alt="Ayurvedic head and face preparation before Nasya therapy"
                 className="w-full h-[300px] object-cover"
               />
@@ -527,16 +509,7 @@ const NasyaTherapyJVC = () => {
                 {nasyaTherapyExperience.sensation.description}
               </p>
             </div>
-            <div className="md:col-span-2 rounded-2xl overflow-hidden border border-[#E5DFD3] bg-white">
-              <img
-                src="/images/patient-receiving-nasya-therapy-dubai.jpg"
-                alt="Patient receiving supervised Nasya Ayurvedic therapy in Dubai"
-                className="w-full h-[320px] object-cover"
-              />
-              <p className="text-xs italic text-[rgb(107,107,107)] px-5 py-3 leading-relaxed">
-                Nasya is always carried out under practitioner supervision.
-              </p>
-            </div>
+            
           </div>
 
           <div>
@@ -567,16 +540,7 @@ const NasyaTherapyJVC = () => {
           </div>
 
           <div className="grid md:grid-cols-5 gap-8 items-start">
-            <div className="md:col-span-2 rounded-2xl overflow-hidden border border-[#E5DFD3] bg-white">
-              <img
-                src="/images/nasya-aftercare-consultation-jvc.jpg"
-                alt="Post-treatment consultation following Nasya therapy in JVC"
-                className="w-full h-[320px] object-cover"
-              />
-              <p className="text-xs italic text-[rgb(107,107,107)] px-5 py-3 leading-relaxed">
-                Aftercare guidance is discussed after every session.
-              </p>
-            </div>
+            
             <div className="md:col-span-3 space-y-4">
               <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
                 {nasyaTherapyExperience.aftercare.title}
@@ -609,22 +573,14 @@ const NasyaTherapyJVC = () => {
         {...nasyaTherapyLocation}
       />
 
-      <ContentWithSidebar
-        bgColor="bg-white"
-        label="LOCAL ACCESSIBILITY"
-        title={nasyaTherapyWhyJvc.title}
-        contentSections={[
-          { subtitle: '', description: nasyaTherapyWhyJvc.description }
-        ]}
-        sidebar={{
-          image: "/images/vedara-care-ayurveda-environment-jvc.jpg",
-          altText: "Vedara Care Polyclinic Ayurveda treatment environment in Jumeirah Village Circle",
-          width: "w-full",
-          height: "h-[400px]",
-          borderPosition: "right"
-        }}
-        footer="Vedara Care Polyclinic, Jumeirah Village Circle, Dubai."
-      />
+      <section className="bg-white py-16 md:py-20 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">LOCAL ACCESSIBILITY</p>
+          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">{nasyaTherapyWhyJvc.title}</h2>
+          <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">{nasyaTherapyWhyJvc.description}</p>
+          <p className="text-sm italic text-[rgb(107,107,107)]">Vedara Care Polyclinic, Jumeirah Village Circle, Dubai.</p>
+        </div>
+      </section>
 
      
       <MedicalDisclaimer text={nasyaTherapyCTA.disclaimer} />

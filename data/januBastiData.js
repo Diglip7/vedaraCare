@@ -23,7 +23,7 @@ export const januBastiHero = {
     title: "Localised Knee Warmth",
     subtitle: "Janu Basti (Janu Vasti) is a traditional Ayurvedic retention therapy in which warm herbal oil is held over the knee joint within a custom boundary."
   },
-  image: "/images/janu-basti-knee-therapy-consultation-vedara-care-jvc.jpg",
+  image: "/images/janu-basti-knee-therapy-consultation-vedara-care-jvc.webp",
   alt: "Janu Basti treatment consultation at Vedara Care Polyclinic in JVC",
   caption: "Every Janu Basti plan begins with an individual knee consultation."
 };
@@ -32,20 +32,21 @@ export const januBastiIntro = {
   label: "THE QUICK ANSWER",
   title: "What is Janu Basti Treatment in JVC?",
   blockquote: "Janu Basti (also spelled Janu Vasti) is a localized Ayurvedic therapy focused specifically on the knee joint. During the treatment, a practitioner forms a low reservoir — traditionally made using a dough-like paste or a specially designed frame — around the knee. Warm herbal oil, or another Ayurvedic liquid selected by the practitioner, is then poured into this reservoir and retained over the knee for a period of time determined individually for each patient.\n\nWithin Ayurvedic practice, Janu Basti may be considered as part of an individualized care plan for selected knee-related concerns, including general stiffness, discomfort, reduced flexibility, and certain chronic musculoskeletal complaints affecting the knee. It is not applied the same way for every person, and it is not intended as a one-size-fits-all solution.\n\nWhether Janu Basti is suitable depends heavily on the underlying cause of your knee symptoms. It is not presented as a cure for osteoarthritis or for structural damage within the joint. A proper assessment — ideally combined with awareness of any relevant medical history — helps determine whether this therapy has a role in your care.",
-  footer: "Reviewed by Ayurveda Team, DHA-Licensed · Last updated August 2026"
+  footer: "Reviewed by Ayurveda Team, DHA-Licensed 2509266 · Last updated August 2026"
 };
 
 export const januBastiExplanation = {
   label: "THE THERAPY",
   title: "What Is Janu Basti?",
-  description: "In Ayurveda, the term \"Janu\" refers to the knee, while \"Basti\" in this context describes a localized retention therapy — quite different from the internal Basti procedures used in Panchakarma. Janu Basti, therefore, translates roughly to a \"knee-retention therapy,\" in which warm oil is held in place over the knee joint rather than administered internally. You may also see this treatment written as Janu Vasti — the two names refer to the same therapy, and the difference is purely one of transliteration from Sanskrit rather than a distinct clinical procedure.",
+  // description: "In Ayurveda, the term \"Janu\" refers to the knee, while \"Basti\" in this context describes a localized retention therapy — quite different from the internal Basti procedures used in Panchakarma. Janu Basti, therefore, translates roughly to a \"knee-retention therapy,\" in which warm oil is held in place over the knee joint rather than administered internally. You may also see this treatment written as Janu Vasti — the two names refer to the same therapy, and the difference is purely one of transliteration from Sanskrit rather than a distinct clinical procedure.",
   paragraphs: [
+
     "In Ayurveda, the term “Janu” refers to the knee, while “Basti” in this context describes a localized retention therapy — quite different from the internal Basti procedures used in Panchakarma. Janu Basti, therefore, translates roughly to a “knee-retention therapy,” in which warm oil is held in place over the knee joint rather than administered internally. You may also see this treatment written as Janu Vasti — the two names refer to the same therapy, and the difference is purely one of transliteration from Sanskrit rather than a distinct clinical procedure.",
     "Traditional Ayurvedic texts describe the knee as a joint that can be particularly affected by imbalance, especially as people age or place repeated stress on it through daily activity. Because the knee is a weight-bearing joint with relatively less surrounding soft tissue than areas like the lower back, Ayurvedic tradition holds that localized, sustained warmth may be more comfortably and effectively delivered through an external retention method rather than a brief massage alone.",
     "Unlike oral Ayurvedic medicines, which work through the digestive and metabolic systems over time, Janu Basti is an external, localized application. The oil is meant to stay in direct, prolonged contact with the skin over the knee, rather than being absorbed through general circulation. This is one of the reasons Ayurvedic practitioners view it as a targeted therapy rather than a whole-body treatment.",
     "It's worth emphasizing early on: Janu Basti is not standardized in the way a manufactured pharmaceutical product might be. The oil selected, the duration of retention, and the overall treatment plan are meant to be personalized based on an individual's constitution, symptoms, and health history, as assessed by the treating practitioner."
   ],
-  image: "/images/janu-basti-warm-oil-therapy-knee-ayurveda-jvc.jpg",
+  image: "/images/janu-basti-warm-oil-therapy-knee-ayurveda-jvc.webp",
   alt: "Janu Basti Ayurvedic warm-oil knee therapy being prepared at a JVC clinic",
   caption: "Warm herbal oil is retained around the knee within a specially formed boundary."
 };
@@ -240,7 +241,7 @@ export const januBastiVsPhysiotherapy = {
     "Structured rehabilitation following injury or surgery"
   ],
   januBastiDescription: "Janu Basti, by contrast, is a localized Ayurvedic retention therapy centered on warmth and traditional principles rather than active strengthening or movement-based rehabilitation. Where clinically appropriate, a practitioner may view these two approaches as complementary rather than interchangeable — but this isn't automatic, and not every patient will need both.",
-  footer: "If you're also looking into structured rehabilitation, you can learn more on our Physiotherapy in JVC page."
+  // footer: "If you're also looking into structured rehabilitation, you can learn more on our Physiotherapy in JVC page."
 };
 
 export const januBastiLocation = {
@@ -255,7 +256,7 @@ export const januBastiLocation = {
 export const januBastiWhyJvc = {
   title: "Why Choose Janu Basti Treatment in JVC?",
   description: "Jumeirah Village Circle has grown into one of Dubai's most established residential communities, with a steady population of residents from neighbouring areas including Al Barsha South, Jumeirah Village Triangle, Dubai Sports City and Motor City who look locally for Ayurvedic therapy options rather than travelling across the city. For a traditional, session-based therapy like Janu Basti — where a course of sessions rather than a single visit is often involved — having a clinic within the community makes it far more practical to stay consistent with a treatment plan.",
-  image: "/images/ayurveda-knee-consultation-jvc-dubai.jpg",
+  image: "/images/ayurveda-knee-consultation-jvc-dubai.webp",
   alt: "Ayurvedic knee consultation and Janu Basti planning session at a JVC clinic",
   caption: "A proper assessment helps confirm whether Janu Basti is suitable for your knee concern."
 };

@@ -4,7 +4,7 @@ export const shoulderPhysioHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Shoulder Pain Physiotherapy in Dubai", active: true }
   ],
-  label: "SHOULDER PAIN PHYSIOTHERAPY · DHA-LICENSED · JVC CLINIC",
+  label: "SHOULDER PAIN PHYSIOTHERAPY · DHA-LICENSED 2509266 · JVC CLINIC",
   title: "Shoulder pain physiotherapy in Dubai. Comprehensive care across all shoulder conditions.",
   titleAccent: "Comprehensive care",
   description: "Specialist shoulder physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists treating the full range of shoulder conditions — rotator cuff problems, shoulder impingement, AC joint pain, biceps tendinopathy, shoulder instability, post-surgical shoulder recovery, and more. Most shoulder pain responds excellently to evidence-based physiotherapy without requiring surgery.",
@@ -30,7 +30,7 @@ export const shoulderPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Shoulder pain physiotherapy at Vedara Care, in one paragraph.",
   blockquote: "Shoulder pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based comprehensive treatment delivered by DPT-qualified specialists across the full range of shoulder conditions. The shoulder is the most mobile joint in the body, making it vulnerable to a wide range of problems requiring different specific treatment approaches: rotator cuff conditions (tears, tendinopathies, strains — the most common shoulder presentation), shoulder impingement syndrome (subacromial impingement, internal impingement), AC joint pain (acromioclavicular joint problems), biceps tendinopathy (long head of biceps tendon issues), shoulder instability (dislocations, hyperlaxity, post-traumatic instability), shoulder bursitis, calcific tendinopathy, post-surgical shoulder recovery (rotator cuff repair, labral repair, shoulder replacement), and frozen shoulder (adhesive capsulitis — see our <a href='/conditions/frozen-shoulder-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>dedicated frozen shoulder page</a> for phase-based deep-dive). Our approach starts with accurate diagnosis (the foundation of effective treatment), then applies condition-specific evidence-based protocols. Most shoulder pain responds excellently to physiotherapy without requiring surgery. Initial assessment from AED 350; structured programmes from AED 2,400. Patients travel to our JVC clinic from across Dubai. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Sarah Al-Hassan, DPT, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Sarah Al-Hassan, DPT, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const shoulderPhysioTreatment = {
@@ -97,8 +97,8 @@ export const shoulderPhysioReviews = {
   ],
   stats: [
     { value: "4.9", label: "stars on Google" },
-    { value: "380+",label:"shoulder patients treated" },
-    { value: "93%", label:"achieve substantial improvement within 12 weeks" },
+    { value: "380+", label: "shoulder patients treated" },
+    { value: "93%", label: "achieve substantial improvement within 12 weeks" },
   ],
   buttonText: "Read All Shoulder Pain Reviews →"
 };
@@ -141,7 +141,7 @@ export const shoulderPhysioTeam = {
     {
       name: "Dr. Omar Al-Rashidi, DPT",
       qualification: "DHA-Licensed · Shoulder Specialist",
-      specialties: ["Rotator Cuff", "Scapular Rehab","Calcific Tendinopathy"],
+      specialties: ["Rotator Cuff", "Scapular Rehab", "Calcific Tendinopathy"],
       experience: "Specialist in post-traumatic shoulder conditions and shoulder instability.",
       languages: ["English", "Arabic"],
       image: "/images/dr-omar-al-rashidi.webp",
@@ -265,7 +265,7 @@ export const shoulderPhysioLocation = {
     "3 min from FIVE Jumeirah Village",
     "5 min from JSS Private School",
   ],
-  description:"Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym with shoulder-specific equipment, dry needling and shockwave therapy equipment, and accessibility for patients with limited shoulder mobility. Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai.",
+  description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym with shoulder-specific equipment, dry needling and shockwave therapy equipment, and accessibility for patients with limited shoulder mobility. Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai.",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1781603404!5m2!1sen!2sus",
   image: "/images/shoulder-pain-clinic-location.webp",
   alt: "Vedara Care shoulder pain clinic JVC Dubai",

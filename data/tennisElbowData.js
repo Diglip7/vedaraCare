@@ -4,7 +4,7 @@ export const tennisElbowHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Tennis Elbow Treatment in Dubai", active: true }
   ],
-  label: "Tennis Elbow Treatment · DHA-Licensed · JVC Clinic",
+  label: "Tennis Elbow Treatment · DHA-Licensed 2509266 · JVC Clinic",
   title: "Tennis elbow treatment in Dubai. Evidence-based loading protocols. Most patients have never played tennis.",
   description: "Specialist tennis elbow treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists treating lateral epicondylalgia using evidence-based progressive loading protocols, eccentric and isometric exercise prescription, manual therapy, and shockwave therapy for chronic cases.",
   primaryCTA: "Book Tennis Elbow Assessment",
@@ -31,7 +31,7 @@ export const tennisElbowIntro = {
   label: "THE QUICK ANSWER",
   title: "Tennis elbow treatment at Vedara Care, in one paragraph.",
   blockquote: "Tennis elbow treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DPT-qualified physiotherapists. Tennis elbow (formally lateral epicondylalgia, sometimes called lateral epicondylitis) is a tendinopathy of the common extensor tendon at the outer elbow, affecting the muscles that extend the wrist and fingers. Despite the name, most tennis elbow patients have never played tennis — the condition develops from any repetitive gripping or wrist extension activity. Common Dubai triggers: padel (very significant in our patient population), office mouse use and prolonged gripping, gym training (deadlifts, pull-ups, rows), tennis, manual work, childcare, and many daily activities. Our approach combines evidence-based progressive loading protocols (eccentric and isometric exercises — the gold standard treatment), manual therapy for associated muscle and joint dysfunction, activity modification and ergonomic guidance, dry needling, shockwave therapy for chronic cases (12+ weeks of symptoms), and patient education for sustainable self-management. We avoid cortisone injections as first-line treatment given current evidence showing worse long-term outcomes. Most patients see substantial improvement within 12–24 weeks. Patients travel to our JVC clinic from across Dubai. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Sarah Al-Rashid, DPT, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Sarah Al-Rashid, DPT, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const tennisElbowSciaticaSection2 = {
@@ -464,7 +464,7 @@ export const tennisElbowLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
   title: "Where tennis elbow treatment happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   hours: {
     monday: " 8:30 am to 11:30 pm",

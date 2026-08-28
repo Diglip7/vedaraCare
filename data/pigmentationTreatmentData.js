@@ -5,7 +5,7 @@ export const pigmentationTreatmentHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Pigmentation treatment in Dubai", active: true }
   ],
-  label: "PIGMENTATION TREATMENT · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "PIGMENTATION TREATMENT · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
   title: "Pigmentation treatment in JVC, Dubai. Identify your specific pigmentation — find the right care.",
   description: "Patients arrive at our Jumeirah Village Circle (JVC) clinic with many different pigmentation types — melasma, post-inflammatory hyperpigmentation, vitiligo, and others. Different pigmentation types require different treatments. This page helps you identify your specific concern and guides you to the most relevant care pathway. DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types.",
   primaryCTA: "Identify My Pigmentation Type",
@@ -402,7 +402,7 @@ export const pigmentationTreatmentLocation = {
   bgColor: "bg-[#F5F0E8]",
   label: "VISIT US",
   title: "Where pigmentation treatment happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",

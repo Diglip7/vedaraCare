@@ -14,17 +14,17 @@ const AyurvedaIntro = ({
           <p className="text-[13px] font-sans font-semibold tracking-[0.15em] text-[#C9A961] uppercase block">
             {label}
           </p>
-          
+
           <h2 className="mt-4 mb-10 text-[clamp(1.7rem,2.8vw,2.5rem)] font-serif font-normal text-[#1A1A1A] leading-[1.2]  mx-auto">
             {title}
           </h2>
-          
-          <blockquote 
+
+          <blockquote
             className="text-[18px] leading-[1.8] text-gray-700 text-left border-l-[3px] border-[#C5A572] pl-[28px] mb-8"
             dangerouslySetInnerHTML={{ __html: blockquote }}
           />
 
-          <p 
+          <p
             className="mt-8 text-[13px] text-[#6B6B6B] font-sans"
             dangerouslySetInnerHTML={{ __html: footer }}
           />

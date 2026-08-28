@@ -4,7 +4,7 @@ export const acneTreatmentHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Acne Treatment in JVC", active: true }
   ],
-  label: "ACNE TREATMENT · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "ACNE TREATMENT · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
   title: "Acne treatment in JVC. Specialist care for every type, every skin, every age.",
   description: "Specialist acne treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists treating adolescent acne, adult acne, hormonal acne, cystic acne, comedonal acne, inflammatory acne, body acne, and acne scarring. Comprehensive evidence-based treatment combining topical therapies, oral medications, in-clinic procedures, and lifestyle modifications. Particular expertise across all Fitzpatrick skin types — managing post-inflammatory hyperpigmentation risk that is substantial in darker skin. Realistic 12-24 week timelines for substantial improvement.",
   primaryCTA: "Book Acne Consultation",
@@ -28,7 +28,7 @@ export const acneTreatmentIntro = {
   label: "THE QUICK ANSWER",
   title: "Acne treatment at Vedara Care, in one paragraph.",
   blockquote: "Acne treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist evidence-based dermatology treatment delivered by DHA-licensed consultant dermatologists. We treat all acne presentations including adolescent acne, adult-onset acne (particularly common in women), hormonal acne, cystic and nodular acne, comedonal acne (blackheads and whiteheads), inflammatory acne (papules and pustules), back and body acne, acne scarring, and post-inflammatory hyperpigmentation from acne. Our approach combines topical therapies (retinoids, benzoyl peroxide, azelaic acid, specialised formulations), oral medications when indicated (antibiotics for limited courses, hormonal treatment for acne in women, isotretinoin for severe cases with appropriate monitoring), in-clinic procedures (chemical peels, laser treatments, extractions where appropriate), and lifestyle and skincare guidance. Particular expertise across all Fitzpatrick skin types (I–VI) — especially important for managing post-inflammatory hyperpigmentation risk in darker skin types. Most patients see substantial improvement within 12–16 weeks of starting structured treatment; complete clearance often achievable. Realistic timelines, transparent pricing, and comprehensive treatment plans rather than quick fixes. Insurance covers medical acne treatment with appropriate justification. Patients travel to our JVC clinic from across Dubai for specialist acne care.",
-  footer: "Medically reviewed by Dr. Layla Al-Hassan, MD, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Layla Al-Hassan, MD, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const acneUnderstanding = {
@@ -38,8 +38,8 @@ export const acneUnderstanding = {
     intro: "Acne is one of the most common medical conditions globally, but it is also one of the most misunderstood. Effective treatment requires understanding what is happening in the skin.",
     steps: [
       {
-        title:"",
-        description:"Acne is a chronic inflammatory condition of the pilosebaceous units (hair follicles with their associated oil glands) in the skin. While it most commonly affects the face, it can also affect the chest, back, shoulders, and upper arms. Understanding the pathophysiology helps explain why some treatments work and others fail.",
+        title: "",
+        description: "Acne is a chronic inflammatory condition of the pilosebaceous units (hair follicles with their associated oil glands) in the skin. While it most commonly affects the face, it can also affect the chest, back, shoulders, and upper arms. Understanding the pathophysiology helps explain why some treatments work and others fail.",
       },
       {
         title: "The four factors in acne pathophysiology",
@@ -341,7 +341,7 @@ export const acneIsotretinoin = {
         { text: "Isotretinoin has historically been associated with depression and suicidal ideation concerns. The current evidence base is mixed — some studies show increased risk, others show no association, and some show decreased risk as acne improves. We take this seriously: patients with pre-existing depression need careful evaluation; mood changes during treatment should be reported immediately; we monitor mood throughout treatment with structured check-ins.", icon: "warning" },
       ],
     },
-     {
+    {
       subtitle: "The honest weighing of benefits and considerations",
       items: [
         { text: "For patients with severe acne, scarring acne, or psychologically devastating acne, isotretinoin's benefits typically outweigh its considerations substantially — many patients describe their treatment course as life-changing. For patients with milder acne that has not been adequately treated with other approaches, the calculation is more nuanced. We provide honest information about your specific situation, support your decision-making, and respect whatever decision you reach.", icon: "warning" },
@@ -363,7 +363,7 @@ export const acneIsotretinoin = {
     ],
     note: "<div style='margin-top: 20px; margin-bottom: 20px; border-top: 1px solid rgba(229, 223, 211); border-bottom: 1px solid rgba(229, 223, 211); padding-top: 20px 0;'>TREATMENT TIMELINE:<br/><div style='display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px;'><div>Pre-treatment evaluation</div><div style='font-weight: 600;'>1–2 weeks</div></div><div style='display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px;'><div>Treatment course</div><div style='font-weight: 600;'>6–9 months typically</div></div><div style='display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px;'><div>Post-treatment monitoring</div><div style='font-weight: 600;'>3–6 months</div></div><div style='display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px;'><div>Long-term follow-up</div><div style='font-weight: 600;'>As appropriate</div></div></div><div style='margin-top: 20px; margin-bottom: 20px; border-bottom: 1px solid rgba(229, 223, 211); padding-bottom: 20px 0;'>PATIENT SUPPORT:<br/><ul style='margin-top: 8px; font-size: 12px; list-style: none; padding: 0; margin: 0;'><li style='margin-bottom: 4px;'>• Detailed written guidance materials</li><li style='margin-bottom: 4px;'>• Direct contact for side effect concerns</li><li style='margin-bottom: 4px;'>• Monthly check-in appointments</li><li style='margin-bottom: 4px;'>• Adjustment if side effects challenging</li></ul></div>",
     footer: "",
-   
+
   },
 };
 
@@ -557,7 +557,7 @@ export const acneTreatmentLocation = {
   sections: [
     {
       label: "Address",
-      content: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai<br/><br/>"
+      content: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai<br/><br/>"
     },
     {
       label: "Phone",

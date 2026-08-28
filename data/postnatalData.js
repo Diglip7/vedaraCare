@@ -28,7 +28,7 @@ export const postnatalIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic postnatal care in Dubai, in one paragraph.",
   blockquote: "Ayurvedic postnatal care in Dubai is the classical 45-day Sutika Paricharya programme — a structured, comprehensive postpartum recovery system from classical Ayurvedic medicine combining daily Abhyanga (warm medicated oil massage), specific internal medicines for uterine involution and lactation, dietary protocols calibrated by week, Udar Bandhana (belly binding), Yoni Pichu (intimate area care), sleep and emotional support, and integrated mother-baby bonding optimisation. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes are delivered primarily at your home across Dubai (JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown), beginning ideally within 7-10 days of delivery. Care is integrated with your obstetric postpartum follow-up. Programmes start from AED 12,500 for the full 45 days.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA Licensed · Last updated May 2024"
+  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA Licensed 2509266 · Last updated May 2024"
 };
 
 export const postnatalMechanism1 = {
@@ -410,7 +410,7 @@ export const postnatalLocation = {
   label: "WHERE WE WORK",
   title: "We come to you across Dubai. Or visit us at JVC.",
   description: "Most postnatal care happens at your home across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Our doctors and trained female therapists travel to you with all supplies and equipment.<br/><br/>Clinic visits are limited to: initial consultation (if you prefer to come in), 3-5 doctor reviews during the programme, and pregnancy planning consultations. The clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Free patient parking.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi%2C%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",

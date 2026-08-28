@@ -702,7 +702,7 @@ const MicroneedlingTreatment = () => {
           }
         ]}
         sidebar={{
-          image: "/images/microneedling-sensation-jvc.jpg",
+          image: "/images/microneedling-sensation-jvc.webp",
           altText: "Microneedling Sensation",
           width: "w-full",
           height: "h-[400px]",

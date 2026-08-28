@@ -4,7 +4,7 @@ export const homePhysioHero = {
     { label: "Home", href: "/" },
     { label: "Physiotherapy at Home in Dubai", active: true }
   ],
-  label: "PHYSIOTHERAPY AT HOME · ACROSS DUBAI · DHA-LICENSED",
+  label: "PHYSIOTHERAPY AT HOME · ACROSS DUBAI · DHA-LICENSED 2509266 ",
   title: "Physiotherapy at home in Dubai. The same expertise. At your door.",
   description: "DPT-qualified physiotherapists from our Jumeirah Village Circle (JVC) clinic, travelling to your home across Dubai. Same specialised expertise as our clinic — post-surgical recovery, neurological rehabilitation, pelvic floor physiotherapy, sports injuries, paediatric care, geriatric mobility — delivered in your home environment. Often more therapeutically valuable than clinic-based care for patients who cannot easily travel.",
   primaryCTA: "Book a Home Physiotherapy ",
@@ -19,7 +19,8 @@ export const homePhysioHero = {
   ],
   floatingCard: {
     title: "Dubai-Wide — 18+ Neighbourhoods",
-    subtitle: "JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Same-week booking typical. Same-day for urgent post-discharge cases."  },
+    subtitle: "JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Same-week booking typical. Same-day for urgent post-discharge cases."
+  },
   image: "/images/physiotherapy-at-home-dubai-hero.webp",
   alt: "Home physiotherapy session at patient home across Dubai from Vedara Care JVC"
 };
@@ -29,7 +30,7 @@ export const homePhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Physiotherapy at home in Dubai with Vedara Care, in one paragraph.",
   blockquote: "Physiotherapy at home in Dubai with Vedara Care Polyclinic is delivered by DPT-qualified physiotherapists from our Jumeirah Village Circle (JVC) clinic — walking distance from Circle Mall — travelling to patient homes across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. We provide all major physiotherapy specialisations at home: post-surgical rehabilitation (knee replacement, hip replacement, ACL, spinal surgery, rotator cuff repair), neurological rehabilitation (post-stroke, Parkinson's, MS, TBI), women's health and postnatal physiotherapy, paediatric physiotherapy for children with significant needs, geriatric mobility and falls prevention, and acute musculoskeletal care for patients with severe pain limiting travel. Sessions are 60–75 minutes including travel time consideration. Same-week appointments typical; same-day available for urgent post-hospital-discharge situations. Sessions from AED 450 per visit. Insurance direct-billing with seven major insurers including Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-  footer: "Medically reviewed by Dr. Priya Nair, DPT, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Priya Nair, DPT, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const homePhysioSituations = {
@@ -41,29 +42,35 @@ export const homePhysioSituations = {
     {
       number: "01",
       title: "Before the session",
-      description: "Booking confirmation includes the physiotherapist's name, arrival time window (typically 30-minute window), and your contact details for any traffic-related updates. You receive guidance on session preparation: a clear space for the assessment and exercises (approximately 2×2 metres minimum), comfortable clothes for movement, any equipment you have (yoga mat, exercise band, walker, etc.), water, and any medical documents or imaging relevant to your condition."   },
+      description: "Booking confirmation includes the physiotherapist's name, arrival time window (typically 30-minute window), and your contact details for any traffic-related updates. You receive guidance on session preparation: a clear space for the assessment and exercises (approximately 2×2 metres minimum), comfortable clothes for movement, any equipment you have (yoga mat, exercise band, walker, etc.), water, and any medical documents or imaging relevant to your condition."
+    },
     {
       number: "02",
       title: "On arrival (5–10 minutes)",
-      description: "The physiotherapist arrives with portable equipment in carry bags — assessment tools, treatment supplies, exercise equipment appropriate to your condition. Brief introduction, identification confirmation if first visit, and quick assessment of the home environment to identify the most suitable space for the session."  },
+      description: "The physiotherapist arrives with portable equipment in carry bags — assessment tools, treatment supplies, exercise equipment appropriate to your condition. Brief introduction, identification confirmation if first visit, and quick assessment of the home environment to identify the most suitable space for the session."
+    },
     {
       number: "03",
       title: "Initial assessment (for first visit, 30–45 minutes)",
-      description: "Detailed history-taking, comprehensive physical examination, review of any imaging or medical reports, and discussion of your goals. The home environment often reveals factors not visible in clinic assessments — your actual postural habits at home, your sleeping arrangement, your work-from-home setup, fall risks in your home, family dynamics that affect rehabilitation engagement. This contextual information improves treatment planning." },
+      description: "Detailed history-taking, comprehensive physical examination, review of any imaging or medical reports, and discussion of your goals. The home environment often reveals factors not visible in clinic assessments — your actual postural habits at home, your sleeping arrangement, your work-from-home setup, fall risks in your home, family dynamics that affect rehabilitation engagement. This contextual information improves treatment planning."
+    },
     {
       number: "04",
       title: "Active treatment (typically 45–60 minutes for treatment sessions)",
-      description: "Hands-on manual therapy, exercise prescription appropriate to your condition, modalities where applicable (we bring portable equipment including portable ultrasound for select cases), functional re-education in your actual environment, and family education when appropriate. The home environment allows treatment to address real-life functional patterns — practising stairs in your actual stairs, walking in your actual hallways, transferring from your actual bed, exercising with the equipment you actually have at home."    },
+      description: "Hands-on manual therapy, exercise prescription appropriate to your condition, modalities where applicable (we bring portable equipment including portable ultrasound for select cases), functional re-education in your actual environment, and family education when appropriate. The home environment allows treatment to address real-life functional patterns — practising stairs in your actual stairs, walking in your actual hallways, transferring from your actual bed, exercising with the equipment you actually have at home."
+    },
     {
       number: "05",
       title: "Documentation and planning (10–15 minutes)",
-      description: "Discussion of findings, treatment plan, home exercise prescription documented in writing or via WhatsApp message with video links if needed, scheduling for follow-up sessions, and any coordination with other healthcare providers. Family members are often included in these discussions to ensure home programme compliance."   },
+      description: "Discussion of findings, treatment plan, home exercise prescription documented in writing or via WhatsApp message with video links if needed, scheduling for follow-up sessions, and any coordination with other healthcare providers. Family members are often included in these discussions to ensure home programme compliance."
+    },
     {
       number: "06",
       title: "Total session time",
-      description: "Typical home session is 60–75 minutes from arrival to departure, including the time-cost of being a home visit. Some sessions are slightly shorter (for follow-up visits with established patients) or longer (for initial assessments or complex cases). The session time is included in your fee — no additional time-billing."  }
+      description: "Typical home session is 60–75 minutes from arrival to departure, including the time-cost of being a home visit. Some sessions are slightly shorter (for follow-up visits with established patients) or longer (for initial assessments or complex cases). The session time is included in your fee — no additional time-billing."
+    }
   ],
- quote: "Home physiotherapy is not diluted clinic physiotherapy. For many patients, treating in the actual environment where they need to function produces better outcomes than treating in a sterile clinical setting that does not resemble their real life.",
+  quote: "Home physiotherapy is not diluted clinic physiotherapy. For many patients, treating in the actual environment where they need to function produces better outcomes than treating in a sterile clinical setting that does not resemble their real life.",
   image: "/images/home-physiotherapy-situations-dubai.webp",
   alt: "Home physiotherapy use cases at Vedara Care Dubai including post-surgical neurological postnatal"
 };
@@ -98,7 +105,7 @@ export const homePhysioSessionFlow = {
       description: "Initial home assessment: 75 minutes. Standard follow-up sessions: 60 minutes. Extended sessions (90 minutes) available for complex conditions or multiple treatment areas."
     }
   ],
-   quote: "Home physiotherapy is not diluted clinic physiotherapy. For many patients, treating in the actual environment where they need to function produces better outcomes than treating in a sterile clinical setting that does not resemble their real life.",
+  quote: "Home physiotherapy is not diluted clinic physiotherapy. For many patients, treating in the actual environment where they need to function produces better outcomes than treating in a sterile clinical setting that does not resemble their real life.",
   image: "/images/home-physiotherapy-session-dubai.webp",
   alt: "Home physiotherapy session walkthrough Vedara Care Dubai"
 };
@@ -137,9 +144,9 @@ export const homePhysioCoverage = {
     "Mirdif",
     "Al Quoz",
     "Umm Suqeim",
-   
+
   ],
-   within3545Minutes: [
+  within3545Minutes: [
     "Dubai Silicon Oasis",
     "Al Warqa",
     "International City",
@@ -162,27 +169,33 @@ export const homePhysioModalities = {
     {
       number: "01",
       title: "Early Post-Surgical Recovery (Weeks 0–4)",
-      description: "After joint replacement, ACL reconstruction, spinal surgery, C-section, or other significant procedures, the first 2–4 weeks involve substantial mobility limitations. Travel to clinic during this phase can set back recovery — getting in and out of cars is painful, stairs may be inaccessible, sitting for travel is uncomfortable. Home physiotherapy allows proper early-phase rehabilitation without the recovery costs of travel. Typically transitions to clinic visits around weeks 3–6 as mobility improves. Approximately 40% of our home physiotherapy patients are in this category."  },
+      description: "After joint replacement, ACL reconstruction, spinal surgery, C-section, or other significant procedures, the first 2–4 weeks involve substantial mobility limitations. Travel to clinic during this phase can set back recovery — getting in and out of cars is painful, stairs may be inaccessible, sitting for travel is uncomfortable. Home physiotherapy allows proper early-phase rehabilitation without the recovery costs of travel. Typically transitions to clinic visits around weeks 3–6 as mobility improves. Approximately 40% of our home physiotherapy patients are in this category."
+    },
     {
       number: "02",
       title: "Post-Stroke and Neurological Patients",
-      description: "Patients recovering from stroke, managing Parkinson's, MS, or other neurological conditions often have significant mobility limitations. The first 6 months post-stroke is when most recovery happens and intensive rehabilitation matters most — but it is also when patients are least able to travel. Advanced Parkinson's with freezing and fall risk, MS during relapses, end-stage progressive conditions all benefit from home delivery. Many neurological patients require home physiotherapy for months or years."  },
+      description: "Patients recovering from stroke, managing Parkinson's, MS, or other neurological conditions often have significant mobility limitations. The first 6 months post-stroke is when most recovery happens and intensive rehabilitation matters most — but it is also when patients are least able to travel. Advanced Parkinson's with freezing and fall risk, MS during relapses, end-stage progressive conditions all benefit from home delivery. Many neurological patients require home physiotherapy for months or years."
+    },
     {
       number: "03",
       title: "Elderly Patients with Mobility Limitations",
-      description: "Elderly patients — particularly expat parents brought to Dubai for family care — often have multiple factors making clinic visits difficult: mobility limitations, transportation challenges, fatigue from travel, anxiety in unfamiliar environments. Home physiotherapy in the familiar home setting often produces better engagement and outcomes. Falls prevention work is also more effective when performed in the actual home environment where fall risks need to be identified."    },
+      description: "Elderly patients — particularly expat parents brought to Dubai for family care — often have multiple factors making clinic visits difficult: mobility limitations, transportation challenges, fatigue from travel, anxiety in unfamiliar environments. Home physiotherapy in the familiar home setting often produces better engagement and outcomes. Falls prevention work is also more effective when performed in the actual home environment where fall risks need to be identified."
+    },
     {
       number: "04",
       title: "Postnatal Mothers in Early Recovery (Weeks 0–6)",
-      description: "Postnatal mothers in the first 6 weeks postpartum face significant practical barriers to clinic visits — newborn care, breastfeeding schedules, C-section recovery, pelvic floor concerns. Home physiotherapy for postnatal patients allows pelvic floor rehabilitation, diastasis recti work, and recovery support without requiring the mother to navigate clinic visits with a newborn. Particularly valuable in the first 4–6 weeks postpartum."  },
+      description: "Postnatal mothers in the first 6 weeks postpartum face significant practical barriers to clinic visits — newborn care, breastfeeding schedules, C-section recovery, pelvic floor concerns. Home physiotherapy for postnatal patients allows pelvic floor rehabilitation, diastasis recti work, and recovery support without requiring the mother to navigate clinic visits with a newborn. Particularly valuable in the first 4–6 weeks postpartum."
+    },
     {
       number: "05",
       title: "Patients with Severe Acute Pain or Acute Injury",
-      description: "Patients with acute severe back pain, recent significant injury, or other conditions where clinic travel is genuinely painful or impractical benefit from home physiotherapy until acute symptoms improve enough to enable clinic visits. Sometimes 2–4 home visits enable patients to transition to clinic care."   },
+      description: "Patients with acute severe back pain, recent significant injury, or other conditions where clinic travel is genuinely painful or impractical benefit from home physiotherapy until acute symptoms improve enough to enable clinic visits. Sometimes 2–4 home visits enable patients to transition to clinic care."
+    },
     {
       number: "06",
       title: "Long-Term Conditions Requiring Ongoing Home Support",
-      description: "Some patients have long-term conditions that genuinely require ongoing home physiotherapy rather than periodic clinic visits — late-stage progressive neurological conditions, palliative care patients, patients with significant permanent disabilities, patients with chronic conditions where home environment is integral to care. We support long-term home physiotherapy relationships for these patients."  }
+      description: "Some patients have long-term conditions that genuinely require ongoing home physiotherapy rather than periodic clinic visits — late-stage progressive neurological conditions, palliative care patients, patients with significant permanent disabilities, patients with chronic conditions where home environment is integral to care. We support long-term home physiotherapy relationships for these patients."
+    }
   ],
   footer: "If your situation does not clearly fit one of these categories, contact us for a discussion. Some patients benefit from a brief assessment to determine whether home physiotherapy is appropriate, or whether a combination of home and clinic care suits their needs."
 };
@@ -193,11 +206,12 @@ export const homePhysioSpecialisations = {
   label: "Specialised Care at Home",
   title: "All seven specialisations — available at your home.",
   description: "Some clinics offer \"home physiotherapy\" but only basic musculoskeletal care. We provide all our clinical specialisations at home — the same expertise that we provide at our JVC clinic, delivered to where you are.",
-    types: [
+  types: [
     {
       number: "01",
       title: "Musculoskeletal Home Physiotherapy",
-      description: "The most common home physiotherapy service — chronic back pain, acute injuries, joint conditions, postural issues. Manual therapy, exercise prescription, modalities as appropriate. Particularly valuable for patients with acute pain that makes clinic travel impractical, or for chronic conditions where home environment factors need to be addressed."  },
+      description: "The most common home physiotherapy service — chronic back pain, acute injuries, joint conditions, postural issues. Manual therapy, exercise prescription, modalities as appropriate. Particularly valuable for patients with acute pain that makes clinic travel impractical, or for chronic conditions where home environment factors need to be addressed."
+    },
     {
       number: "02",
       title: "Post-Surgical Home Physiotherapy",
@@ -213,13 +227,14 @@ export const homePhysioSpecialisations = {
     {
       number: "04",
       title: "Women's Health and Postnatal Home Physiotherapy",
-      description: "Pelvic floor rehabilitation, diastasis recti work, postnatal recovery, pregnancy-related conditions — all delivered at home by trained female physiotherapists. Particularly utilised by postnatal mothers in the first 6 weeks postpartum. Combined with our 45-day Sutika Paricharya Ayurvedic postnatal programme for integrated home-based postnatal care."  ,
-   href: "/conditions/pelvic-floor-physiotherapy-dubai/"}
-,      {
+      description: "Pelvic floor rehabilitation, diastasis recti work, postnatal recovery, pregnancy-related conditions — all delivered at home by trained female physiotherapists. Particularly utilised by postnatal mothers in the first 6 weeks postpartum. Combined with our 45-day Sutika Paricharya Ayurvedic postnatal programme for integrated home-based postnatal care.",
+      href: "/conditions/pelvic-floor-physiotherapy-dubai/"
+    }
+    , {
       number: "05",
       title: "Sports Injury Home Physiotherapy",
       description: "Less common for sports patients (most prefer clinic access to equipment and gym), but appropriate for severe acute injuries limiting mobility, post-acute sports injury phases, and athletes with logistical reasons making clinic visits impractical. Same evidence-based sports physiotherapy approach delivered at home.",
-          href: "/physiotherapy/sports-injury-jvc/"
+      href: "/physiotherapy/sports-injury-jvc/"
     },
     {
       number: "06",
@@ -230,7 +245,8 @@ export const homePhysioSpecialisations = {
     {
       number: "07",
       title: "Geriatric and Falls Prevention Home Physiotherapy",
-      description: "Specialised care for elderly patients with mobility limitations, falls risk, post-illness deconditioning, and chronic conditions affecting older adults. Falls prevention work is particularly valuable when performed in the actual home environment where fall risks can be identified and addressed. Often combined with caregiver education for family members."  }
+      description: "Specialised care for elderly patients with mobility limitations, falls risk, post-illness deconditioning, and chronic conditions affecting older adults. Falls prevention work is particularly valuable when performed in the actual home environment where fall risks can be identified and addressed. Often combined with caregiver education for family members."
+    }
   ],
   footer: "<a href=\"/physiotherapy-jvc/\">Browser All Physiotherapy Services -></a>"
 };
@@ -363,14 +379,14 @@ export const homePhysioOutcomes = {
       details: "Dubai Marina · February 2026"
     },
     {
-      quote:"My mother had a stroke at 71 while staying with us. Vedara's team started home physiotherapy within 72 hours of hospital discharge. Eight months of structured rehabilitation, mostly at our home in Dubai Hills. She walks independently now, returned to her home in Pakistan able to manage independently. The team coordinated with her neurologist in Karachi throughout.",
+      quote: "My mother had a stroke at 71 while staying with us. Vedara's team started home physiotherapy within 72 hours of hospital discharge. Eight months of structured rehabilitation, mostly at our home in Dubai Hills. She walks independently now, returned to her home in Pakistan able to manage independently. The team coordinated with her neurologist in Karachi throughout.",
       author: "Aisha K.",
       condition: "Family member of post-stroke patient",
       details: "8-Month Home Rehabilitation<br />Dubai Hills · January 2026"
-   
+
     },
     {
-      quote: "C-section recovery with my second baby — leaving the house with a newborn was impossible. Vedara's postnatal physiotherapist came to our home in JVT three times a week for six weeks. Pelvic floor recovery, diastasis recti work, scar mobilisation. Female therapist, made the whole experience comfortable. Transitioned to clinic at six weeks postpartum." ,
+      quote: "C-section recovery with my second baby — leaving the house with a newborn was impossible. Vedara's postnatal physiotherapist came to our home in JVT three times a week for six weeks. Pelvic floor recovery, diastasis recti work, scar mobilisation. Female therapist, made the whole experience comfortable. Transitioned to clinic at six weeks postpartum.",
       author: "Sarah K.",
       condition: "Postnatal Home Physiotherapy",
       details: "JVT · March 2026"
@@ -385,7 +401,7 @@ export const homePhysioOutcomes = {
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai"
 };
 
- 
+
 export const homePhysioFaqs = {
   bgColor: "bg-[#F5F1E8]",
   label: "COMMON QUESTIONS",
@@ -400,71 +416,89 @@ export const homePhysioFaqs = {
   faqs: [
     {
       question: "Is home physiotherapy the same quality as clinic-based care?",
-      answer: "For most patient situations, yes — and for some patients, home physiotherapy actually produces better outcomes than clinic-based care. Treating in the actual environment where you need to function (your home stairs, your actual hallways, your real workspace setup) produces stronger functional transfer than treating in a sterile clinical environment. Our home physiotherapy is delivered by the same DPT-qualified specialised physiotherapists who work in our JVC clinic — same expertise, different setting."  },
+      answer: "For most patient situations, yes — and for some patients, home physiotherapy actually produces better outcomes than clinic-based care. Treating in the actual environment where you need to function (your home stairs, your actual hallways, your real workspace setup) produces stronger functional transfer than treating in a sterile clinical environment. Our home physiotherapy is delivered by the same DPT-qualified specialised physiotherapists who work in our JVC clinic — same expertise, different setting."
+    },
     {
       question: "When should I choose home physiotherapy over clinic visits?",
-      answer: "Home physiotherapy is the right choice when: you cannot easily travel to clinic (early post-surgical recovery, severe acute pain, significant mobility limitations), the home environment is therapeutically valuable (falls prevention in elderly patients, environmental assessment for functional patterns), practical barriers make clinic visits impractical (newborn care, multiple children at home, transportation challenges), or you have a preference and the means to support home-based care. Clinic visits are preferable when specialised equipment access matters (gym-based strengthening, specific machines, gait training equipment)."  },
+      answer: "Home physiotherapy is the right choice when: you cannot easily travel to clinic (early post-surgical recovery, severe acute pain, significant mobility limitations), the home environment is therapeutically valuable (falls prevention in elderly patients, environmental assessment for functional patterns), practical barriers make clinic visits impractical (newborn care, multiple children at home, transportation challenges), or you have a preference and the means to support home-based care. Clinic visits are preferable when specialised equipment access matters (gym-based strengthening, specific machines, gait training equipment)."
+    },
     {
       question: "Can you do home physiotherapy after surgery?",
-      answer: "Yes — post-surgical home physiotherapy is one of our most-utilised services. Particularly common in the first 2–4 weeks after total knee replacement, total hip replacement, ACL reconstruction, spinal surgery, or other procedures when travel is impractical. We typically begin within 24–72 hours of surgical discharge. Coordination with your operating surgeon throughout. Many patients transition from home to clinic visits around weeks 3–6 as mobility improves." },
+      answer: "Yes — post-surgical home physiotherapy is one of our most-utilised services. Particularly common in the first 2–4 weeks after total knee replacement, total hip replacement, ACL reconstruction, spinal surgery, or other procedures when travel is impractical. We typically begin within 24–72 hours of surgical discharge. Coordination with your operating surgeon throughout. Many patients transition from home to clinic visits around weeks 3–6 as mobility improves."
+    },
     {
       question: "Do you do home physiotherapy across all of Dubai?",
-      answer: "We cover all major Dubai neighbourhoods. Standard service area: JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, Al Furjan, Discovery Gardens, Damac Hills, Mudon, Town Square, JBR, Business Bay. For more distant locations (Silicon Oasis, Al Warqa, International City, Academic City), service is available but with additional travel surcharge. WhatsApp +971 55 573 6312 with your address to confirm service availability."  },
+      answer: "We cover all major Dubai neighbourhoods. Standard service area: JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, Al Furjan, Discovery Gardens, Damac Hills, Mudon, Town Square, JBR, Business Bay. For more distant locations (Silicon Oasis, Al Warqa, International City, Academic City), service is available but with additional travel surcharge. WhatsApp +971 55 573 6312 with your address to confirm service availability."
+    },
     {
       question: "How quickly can I get a home physiotherapy appointment?",
-      answer: "Same-week appointments are typical for most home physiotherapy bookings. For urgent post-hospital-discharge situations or acute injuries, same-day or next-day appointments are often available. WhatsApp +971 55 573 6312 for fastest response — typically within 15 minutes during business hours. For routine elective home physiotherapy, 2–5 day lead time is typical."   },
+      answer: "Same-week appointments are typical for most home physiotherapy bookings. For urgent post-hospital-discharge situations or acute injuries, same-day or next-day appointments are often available. WhatsApp +971 55 573 6312 for fastest response — typically within 15 minutes during business hours. For routine elective home physiotherapy, 2–5 day lead time is typical."
+    },
     {
       question: "What does home physiotherapy cost?",
-      answer: "Standard home physiotherapy session: AED 450 (compared to AED 320 for the same session at our clinic). The home premium reflects therapist travel time and operational costs. Same-day urgent visits may have a small premium. Distant locations (40+ minutes travel each way) may have a travel surcharge. Multi-session packages provide discounted per-session rates."  },
+      answer: "Standard home physiotherapy session: AED 450 (compared to AED 320 for the same session at our clinic). The home premium reflects therapist travel time and operational costs. Same-day urgent visits may have a small premium. Distant locations (40+ minutes travel each way) may have a travel surcharge. Multi-session packages provide discounted per-session rates."
+    },
     {
       question: "Does insurance cover home physiotherapy?",
-      answer: 'Most Dubai insurance plans cover home physiotherapy with appropriate medical justification — post-surgical recovery, neurological conditions, documented mobility limitations, postnatal care, and other conditions. Some plans require pre-authorisation for home services specifically. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and brief condition description before booking for specific coverage confirmation.'   },
+      answer: 'Most Dubai insurance plans cover home physiotherapy with appropriate medical justification — post-surgical recovery, neurological conditions, documented mobility limitations, postnatal care, and other conditions. Some plans require pre-authorisation for home services specifically. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and brief condition description before booking for specific coverage confirmation.'
+    },
     {
       question: "What equipment will the physiotherapist bring?",
-      answer: "Our home physiotherapists carry portable equipment in carry bags: assessment tools (goniometers, dynamometers for strength testing, standardised assessment kits for neurological conditions), treatment supplies (manual therapy tools, dry needling supplies if applicable, kinesio tape), exercise equipment (resistance bands, balance equipment, exercise tools), portable ultrasound and modalities for select cases, and any specific equipment relevant to your condition. We do not bring large equipment (parallel bars, gym machines) — for those, clinic visits are needed."  },
+      answer: "Our home physiotherapists carry portable equipment in carry bags: assessment tools (goniometers, dynamometers for strength testing, standardised assessment kits for neurological conditions), treatment supplies (manual therapy tools, dry needling supplies if applicable, kinesio tape), exercise equipment (resistance bands, balance equipment, exercise tools), portable ultrasound and modalities for select cases, and any specific equipment relevant to your condition. We do not bring large equipment (parallel bars, gym machines) — for those, clinic visits are needed."
+    },
     {
       question: "What do I need to prepare for a home physiotherapy session?",
-      answer: "Minimal preparation needed. We recommend: a clear space approximately 2×2 metres minimum (living room floor space typically works), comfortable clothing you can move in, any medical documents or imaging relevant to your condition, any equipment you have (yoga mat, exercise band, walker, etc.), water, and ideally a family member present for first visit (helpful for history-taking and ongoing programme support)."   },
+      answer: "Minimal preparation needed. We recommend: a clear space approximately 2×2 metres minimum (living room floor space typically works), comfortable clothing you can move in, any medical documents or imaging relevant to your condition, any equipment you have (yoga mat, exercise band, walker, etc.), water, and ideally a family member present for first visit (helpful for history-taking and ongoing programme support)."
+    },
     {
       question: "Will my family be involved in the session?",
-      answer: "Family involvement is welcomed and often valuable, particularly for patients who require ongoing home programme compliance. For neurological patients, post-surgical patients, and elderly patients, family education during sessions improves outcomes substantially. Family members can be present throughout sessions, included in education discussions, and integrated into the home exercise programme support."   },
-  
-  {question: "Can you do home physiotherapy for elderly parents who visit me in Dubai?",
-    answer: "Yes — this is one of our common patient categories. Many Dubai expats bring elderly parents from India, Pakistan, Lebanon, Egypt, or other countries for family care after illness or for general health concerns. We provide home physiotherapy throughout their stay. Common situations: post-stroke parents recovering at family home, elderly parents with mobility limitations, parents with chronic conditions needing physiotherapy support during Dubai visits."
-  },
-{
-  question: "Do you offer postnatal home physiotherapy?",
-  answer:"Yes — postnatal home physiotherapy is a major service. Particularly valuable for the first 6 weeks postpartum when leaving home with a newborn is impractical. Pelvic floor rehabilitation, diastasis recti assessment and treatment, postnatal back pain, C-section scar work, and gradual return to exercise — all delivered at your home by trained female physiotherapists. Often combined with our 45-day Sutika Paricharya Ayurvedic postnatal programme for integrated home-based care." },
-{
-  question: "Can you coordinate home physiotherapy with my hospital discharge?",
-  answer:"Yes — hospital discharge coordination is a frequent service. For patients discharging from major Dubai hospitals (American Hospital, Mediclinic, NMC, Aster, Saudi German, King's College Hospital), we can begin home physiotherapy within 24–72 hours of discharge. Process: contact us with discharge planning information, we coordinate timing, first home visit typically within 1–3 days of discharge. We coordinate with hospital physiotherapy teams when appropriate." },
+      answer: "Family involvement is welcomed and often valuable, particularly for patients who require ongoing home programme compliance. For neurological patients, post-surgical patients, and elderly patients, family education during sessions improves outcomes substantially. Family members can be present throughout sessions, included in education discussions, and integrated into the home exercise programme support."
+    },
 
-  {question: "What if I have severe acute pain and cannot move at all?",
-    answer: "Acute severe pain — particularly acute back pain — is one of the common situations where home physiotherapy is most valuable. We can typically arrange a same-day or next-day home visit. The initial visit focuses on pain assessment, immediate treatment (manual therapy, positioning education, pain-relieving techniques), and short-term plan. Many patients with acute severe pain need only 2–4 home visits before they can transition to clinic care as mobility improves." },
+    {
+      question: "Can you do home physiotherapy for elderly parents who visit me in Dubai?",
+      answer: "Yes — this is one of our common patient categories. Many Dubai expats bring elderly parents from India, Pakistan, Lebanon, Egypt, or other countries for family care after illness or for general health concerns. We provide home physiotherapy throughout their stay. Common situations: post-stroke parents recovering at family home, elderly parents with mobility limitations, parents with chronic conditions needing physiotherapy support during Dubai visits."
+    },
+    {
+      question: "Do you offer postnatal home physiotherapy?",
+      answer: "Yes — postnatal home physiotherapy is a major service. Particularly valuable for the first 6 weeks postpartum when leaving home with a newborn is impractical. Pelvic floor rehabilitation, diastasis recti assessment and treatment, postnatal back pain, C-section scar work, and gradual return to exercise — all delivered at your home by trained female physiotherapists. Often combined with our 45-day Sutika Paricharya Ayurvedic postnatal programme for integrated home-based care."
+    },
+    {
+      question: "Can you coordinate home physiotherapy with my hospital discharge?",
+      answer: "Yes — hospital discharge coordination is a frequent service. For patients discharging from major Dubai hospitals (American Hospital, Mediclinic, NMC, Aster, Saudi German, King's College Hospital), we can begin home physiotherapy within 24–72 hours of discharge. Process: contact us with discharge planning information, we coordinate timing, first home visit typically within 1–3 days of discharge. We coordinate with hospital physiotherapy teams when appropriate."
+    },
+
+    {
+      question: "What if I have severe acute pain and cannot move at all?",
+      answer: "Acute severe pain — particularly acute back pain — is one of the common situations where home physiotherapy is most valuable. We can typically arrange a same-day or next-day home visit. The initial visit focuses on pain assessment, immediate treatment (manual therapy, positioning education, pain-relieving techniques), and short-term plan. Many patients with acute severe pain need only 2–4 home visits before they can transition to clinic care as mobility improves."
+    },
     {
       question: "Where exactly are you based?",
-      answer: "Our clinic is at Circle Mall Medical Centre, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. The clinic is our base — therapists travel from there to your home across Dubai. For clinic visits, free patient parking is available. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road."  },
-    {
-      question : "Are your home physiotherapists male or female?",
-      answer:"Both male and female physiotherapists available. For specific situations where gender preference matters — pelvic floor work, postnatal care, certain cultural preferences, or personal comfort — request your preference when booking. All pelvic floor and postnatal home physiotherapy is delivered by female specialists for female patients. For most general physiotherapy needs, therapist matching prioritises clinical specialisation over gender, but gender preferences are accommodated when requested."
+      answer: "Our clinic is at Circle Mall Medical Centre, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. The clinic is our base — therapists travel from there to your home across Dubai. For clinic visits, free patient parking is available. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road."
     },
     {
-      question : "How is home physiotherapy different from home healthcare?",
-      answer:"Home physiotherapy is specifically physiotherapy delivered at home — DPT-qualified physiotherapists providing the same physiotherapy services as our clinic. Home healthcare is broader — including nursing care, Ayurveda home services, medication management, and other services beyond physiotherapy. Some patients need both. For broader home healthcare needs beyond physiotherapy, see our home healthcare page. For combined care, both services can be coordinated through Vedara Care."
+      question: "Are your home physiotherapists male or female?",
+      answer: "Both male and female physiotherapists available. For specific situations where gender preference matters — pelvic floor work, postnatal care, certain cultural preferences, or personal comfort — request your preference when booking. All pelvic floor and postnatal home physiotherapy is delivered by female specialists for female patients. For most general physiotherapy needs, therapist matching prioritises clinical specialisation over gender, but gender preferences are accommodated when requested."
     },
     {
-      question : "Can my child have home physiotherapy?",
-      answer:"Yes — paediatric home physiotherapy is available for children with significant disabilities, infants with positional concerns, children with neurological conditions, and children where home environment is therapeutically essential. Delivered by paediatric-trained physiotherapists. For most children with less significant needs, clinic visits are typically preferable (better equipment access, social environment, age-appropriate spaces). Discuss your child's specific situation when booking."  }
+      question: "How is home physiotherapy different from home healthcare?",
+      answer: "Home physiotherapy is specifically physiotherapy delivered at home — DPT-qualified physiotherapists providing the same physiotherapy services as our clinic. Home healthcare is broader — including nursing care, Ayurveda home services, medication management, and other services beyond physiotherapy. Some patients need both. For broader home healthcare needs beyond physiotherapy, see our home healthcare page. For combined care, both services can be coordinated through Vedara Care."
+    },
+    {
+      question: "Can my child have home physiotherapy?",
+      answer: "Yes — paediatric home physiotherapy is available for children with significant disabilities, infants with positional concerns, children with neurological conditions, and children where home environment is therapeutically essential. Delivered by paediatric-trained physiotherapists. For most children with less significant needs, clinic visits are typically preferable (better equipment access, social environment, age-appropriate spaces). Discuss your child's specific situation when booking."
+    }
 
-,{question: "What happens if I need to cancel a home physiotherapy appointment?",
+    , {
+      question: "What happens if I need to cancel a home physiotherapy appointment?",
 
-answer:"We understand that home physiotherapy patients (particularly elderly, post-surgical, and neurological patients) sometimes experience unexpected challenges that require cancellation or rescheduling. We ask for as much notice as possible (24 hours preferred) but accommodate genuine urgent cancellations. Late cancellations or no-shows may have a small fee given the therapist travel time already invested. We work flexibly with patients facing genuine difficulties."
-},
-{
-  question: "How do I book home physiotherapy?",
-  answer:"Three ways: (1) WhatsApp +971 55 573 6312 — fastest response, ideal for sending medical records, hospital discharge summaries, or insurance card details. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please provide: your full address, brief description of your condition, any recent medical reports or hospital discharge summaries, current medication list, insurance card details if applicable, and preferred appointment times."
-}
-    ]
+      answer: "We understand that home physiotherapy patients (particularly elderly, post-surgical, and neurological patients) sometimes experience unexpected challenges that require cancellation or rescheduling. We ask for as much notice as possible (24 hours preferred) but accommodate genuine urgent cancellations. Late cancellations or no-shows may have a small fee given the therapist travel time already invested. We work flexibly with patients facing genuine difficulties."
+    },
+    {
+      question: "How do I book home physiotherapy?",
+      answer: "Three ways: (1) WhatsApp +971 55 573 6312 — fastest response, ideal for sending medical records, hospital discharge summaries, or insurance card details. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please provide: your full address, brief description of your condition, any recent medical reports or hospital discharge summaries, current medication list, insurance card details if applicable, and preferred appointment times."
+    }
+  ]
 };
 
 export const homePhysioClinicTransition = {
@@ -532,7 +566,7 @@ export const homePhysioFinalCTA = {
     "18+ Dubai neighbourhoods",
     "Same-day urgent appointments available",
     "Insurance direct-billing with 7 major insurers",
-    
+
   ]
 };
 
@@ -568,10 +602,10 @@ export const homePhysioTeam = {
     {
       name: "Dr. Marcus Chen, DPT",
       qualification: "DHA-Licensed · Geriatric & Falls Prevention",
-      specialties: ["Geriatric", "Falls Prevention","Home Physio"],
+      specialties: ["Geriatric", "Falls Prevention", "Home Physio"],
       experience: "Geriatric physiotherapy and falls prevention specialist. Skilled in home environment assessment and mobility optimisation for elderly patients.",
       image: "/images/dr-marcus-chen-home-physiotherapy-dubai.webp",
-      alt: "Dr. Marcus Chen, DPT home physiotherapist Vedara Care Dubai JVC" 
+      alt: "Dr. Marcus Chen, DPT home physiotherapist Vedara Care Dubai JVC"
     }
   ]
 };
@@ -617,5 +651,5 @@ export const homePhysioRelatedPages = {
       href: "/physiotherapy/home-healthcare-jvc/"
     }
   ],
- 
+
 };

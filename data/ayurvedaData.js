@@ -32,7 +32,7 @@ export const ayurvedaIntro = {
   label: "About Our Ayurveda Practice",
   title: "Ayurveda is the world's oldest continuously practised system of medicine. At our JVC clinic, it is also our most rigorous.",
   blockquote: "Our Ayurveda department at Vedara Care Polyclinic in Jumeirah Village Circle, Dubai is led by BAMS-qualified Ayurvedic physicians registered with the Dubai Health Authority. We practise classical Ayurveda - pulse-based diagnosis, dosha analysis, herbal medicines, and Panchakarma - alongside modern diagnostics. Our patients come to us for chronic back pain, PCOS, hair loss, migraine, stress, and metabolic conditions where conventional care has not given lasting answers.",
-  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda) · DHA License XXXXX · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda) · DHA License 2509266 · Last updated May 2026"
 };
 
 
@@ -96,7 +96,7 @@ export const ayurvedaTherapies = {
       duration: "30-45 min",
       bestFor: "chronic sinusitis, migraine, hair loss",
       alt: "Nasya nasal therapy treatment at our JVC Ayurveda clinic",
-      link: "/treatments/nasya-dubai/"
+      link: "/treatments/nasya-therapy-jvc"
     },
     {
       title: "Basti",
@@ -104,7 +104,7 @@ export const ayurvedaTherapies = {
       duration: "Course-based",
       bestFor: "chronic pain, neurological conditions, IBS",
       alt: "Doctor-supervised Basti treatment room at Vedara Care, Jumeirah Village Circle",
-      link: "/treatments/basti-dubai/"
+      link: "/treatments/janu-basti-jvc"
     },
     {
       title: "Udvartana",
@@ -131,7 +131,7 @@ export const ayurvedaPhysician = {
   stats: [
     { value: "15+", label: "Years of Practice" },
     { value: "5,000+", label: "Patients Treated" },
-    { value: "DHA #XXXXX", label: "License Number" }
+    { value: "DHA 2509266", label: "License Number" }
   ],
   languages: "Speaks English · Hindi · Malayalam · Arabic",
   button1Text: "Book with Dr. Menon",
@@ -528,7 +528,7 @@ export const dubaiHubIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurveda in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment is officially recognised and regulated in Dubai by the Dubai Health Authority (DHA), which licenses both Ayurvedic clinics and individual physicians. Authentic Ayurveda in Dubai is practised by BAMS-qualified doctors (a 5.5-year medical degree from India) and uses classical methods — pulse diagnosis, dosha assessment, Panchakarma detoxification, and constitution-based herbal medicines — to treat chronic conditions like back pain, PCOS, migraine, stress, and hair loss. Costs typically range from AED 200 to AED 800 per session, with some insurance plans offering partial coverage.",
-  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const dubaiHubTherapies = {

@@ -24,7 +24,7 @@ export const stressAnxietyIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic stress and anxiety treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for chronic stress, anxiety, and burnout in Dubai is a 3 to 6-month structured medical programme combining Shirodhara (continuous warm medicated oil therapy on the forehead, the classical treatment for nervous-system disorders), Abhyanga (full-body warm oil therapy), dosha-specific herbal medicines (typically including Ashwagandha, Brahmi, Jatamansi, and Shankhapushpi), individualised dietary regulation, and lifestyle protocols addressing sleep, screen patterns, and daily rhythm. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes work alongside psychiatry and psychotherapy where appropriate, never as a replacement. Realistic outcomes: sleep improvement within 2-4 weeks for most patients; baseline anxiety reduction over 8-16 weeks. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026"
+  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
 };
 
 export const stressAnxietyMechanism = {
@@ -280,7 +280,7 @@ export const stressAnxietyPrograms = {
 export const stressAnxietyFaqs = {
   label: "STRESS & ANXIETY QUESTIONS",
   title: "What patients ask before starting Ayurvedic stress and anxiety treatment.",
-   sidebarLinks: [
+  sidebarLinks: [
     {
       text: "Read about Shirodhara",
       href: "/treatments/shirodhara-dubai/"

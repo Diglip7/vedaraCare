@@ -4,7 +4,7 @@ export const eczemaTreatmentHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Eczema Treatment in Dubai", active: true }
   ],
-  label: "ECZEMA TREATMENT · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "ECZEMA TREATMENT · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
   title: "Eczema treatment in JVC, Dubai. Specialist care for children and adults. Every type. Every skin type.",
   description: "Specialist eczema treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists treating pediatric atopic dermatitis, adult eczema, contact dermatitis, hand eczema, dyshidrotic eczema, nummular eczema, and seborrheic dermatitis. Comprehensive care including trigger identification, evidence-based topical treatments, biologic treatments (dupilumab), and JAK inhibitors.",
   primaryCTA: "Book Eczema Consultation",
@@ -27,7 +27,7 @@ export const eczemaTreatmentIntro = {
   label: "THE QUICK ANSWER",
   title: "Eczema treatment at Vedara Care, in one paragraph.",
   blockquote: "Eczema treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist evidence-based dermatology care delivered by DHA-licensed consultant dermatologists with substantial pediatric and adult eczema expertise. We treat all eczema presentations: pediatric atopic dermatitis (infant through adolescent), adult atopic dermatitis (childhood-persistent and adult-onset), contact dermatitis, hand eczema, dyshidrotic eczema, nummular eczema, seborrheic dermatitis, and more. Our approach combines trigger identification, evidence-based topical treatments, systemic medications, biologic treatments (dupilumab), JAK inhibitors, wet wrap therapy, and comprehensive family education. Eczema is chronic — well-controlled eczema is achievable for most patients. Sustained partnership approach with regular follow-up. Insurance-covered treatment with direct billing. Patients travel to our JVC clinic from across Dubai.",
-  footer: "Medically reviewed by Dr. Sarah Al-Rashid, MD, DHA-Licensed · Last updated June 2025"
+  footer: "Medically reviewed by Dr. Sarah Al-Rashid, MD, DHA-Licensed 2509266 · Last updated June 2025"
 };
 
 export const eczemaTreatmentUnderstanding = {
@@ -134,7 +134,7 @@ export const eczemaTreatmentTypes = {
       number: "08",
       title: "Severe or Treatment-Resistant Eczema",
       description: "Patients with substantial eczema burden despite conventional topical treatments — candidates for advanced treatments including systemic immunosuppressants, biologic therapies (dupilumab), JAK inhibitors, phototherapy, and wet wrap therapy. These treatments have transformed previously difficult-to-treat eczema.",
-      typicalSigns: ["Severe eczema affecting quality of life, inadequately controlled with conventional topicals",""]
+      typicalSigns: ["Severe eczema affecting quality of life, inadequately controlled with conventional topicals", ""]
     }
   ],
   footer: 'Your specific eczema may combine features of multiple types — <a href="/book">comprehensive assessment identifies your specific situation</a> and guides treatment selection —'
@@ -482,7 +482,7 @@ export const eczemaTreatmentLocation = {
   bgColor: "bg-[#F0EBE3]",
   label: "VISIT US",
   title: "Where eczema treatment happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",

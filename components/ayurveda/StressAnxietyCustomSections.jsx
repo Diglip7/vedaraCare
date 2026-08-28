@@ -1,7 +1,7 @@
 import React from 'react';
 import { Check, MessageCircle } from 'lucide-react';
 
-export const StressAnxietyTimeline = ({ 
+export const StressAnxietyTimeline = ({
   label = "WHAT TO EXPECT",
   title = "What three to six months of Ayurvedic stress and anxiety treatment at our JVC clinic looks like.",
   description = "A representative protocol for chronic stress with secondary generalised anxiety. Your specific plan varies based on pattern, severity, and concurrent psychiatric or therapeutic care.",
@@ -75,7 +75,7 @@ export const StressAnxietySleepSection = ({
   content = [],
   subheading = "Why Shirodhara Specifically Helps Sleep",
   subheadingContent = "",
-  linkText = "Read about Shirodhara",
+  linkText = "Read abora",
   linkHref = "/treatments/shirodhara-dubai/",
   image = "",
   alt = ""
@@ -99,7 +99,7 @@ export const StressAnxietySleepSection = ({
                 {text}
               </p>
             ))}
-            
+
             <div className="pt-4">
               <h3 className="text-lg text-[#B8915A] mb-4 font-serif font-medium">{subheading}</h3>
               <p className="leading-relaxed text-[#4A4A4A] text-base font-sans">
@@ -114,9 +114,9 @@ export const StressAnxietySleepSection = ({
             </div>
           </div>
           <div className="relative">
-            <img 
-              src={image} 
-              alt={alt || title} 
+            <img
+              src={image}
+              alt={alt || title}
               className="rounded-xl w-full h-auto object-cover aspect-[4/3]"
             />
           </div>
@@ -150,7 +150,7 @@ export const StressAnxietyVisitSection = ({
           <div className="lg:col-span-6">
             <div className="h-[500px] bg-gray-300 rounded-xl overflow-hidden shadow-lg">
               {mapEmbed ? (
-                <iframe 
+                <iframe
                   src={mapEmbed}
                   width="100%"
                   height="100%"
@@ -186,7 +186,7 @@ export const StressAnxietyVisitSection = ({
             <div className="space-y-5 mb-6">
               <div className="flex items-start gap-3">
                 <div className="w-5 h-5 rounded-full bg-[#F5F0E8] flex items-center justify-center shrink-0 mt-1">
-                   <div className="w-1.5 h-1.5 rounded-full bg-[#B8915A]"></div>
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#B8915A]"></div>
                 </div>
                 <div>
                   <p className="text-gray-700 font-sans">{address.line1}</p>
@@ -195,11 +195,11 @@ export const StressAnxietyVisitSection = ({
               </div>
 
               <div className="flex items-start gap-3">
-                 <MessageCircle size={18} className="text-[#B8915A] mt-1 shrink-0" />
-                 <div className="text-gray-700">
-                   <div className="font-medium mb-0.5 font-sans">Phone</div>
-                   <a href={`tel:${phone}`} className="font-sans">{phone}</a>
-                 </div>
+                <MessageCircle size={18} className="text-[#B8915A] mt-1 shrink-0" />
+                <div className="text-gray-700">
+                  <div className="font-medium mb-0.5 font-sans">Phone</div>
+                  <a href={`tel:${phone}`} className="font-sans">{phone}</a>
+                </div>
               </div>
 
               {hours && hours.length > 0 && (
@@ -218,9 +218,9 @@ export const StressAnxietyVisitSection = ({
 
             {description && (
               <div className="bg-[#F6F1E9] border border-[#F5F0E8] rounded-lg p-6 mb-6">
-                 <p className="leading-relaxed text-gray-600 text-sm font-sans">
+                <p className="leading-relaxed text-gray-600 text-sm font-sans">
                   {description}
-                 </p>
+                </p>
               </div>
             )}
 

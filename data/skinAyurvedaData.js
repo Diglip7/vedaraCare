@@ -30,7 +30,7 @@ export const skinIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic skin treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for skin conditions in Dubai is a 4 to 9-month structured medical programme combining classical Panchakarma protocols (typically Virechana for Pitta-driven skin patterns, sometimes Rakta Mokshana for severe inflammatory skin conditions), specific internal medicines (Manjishtadi Kashayam, Mahatiktaka Ghrita, Patolakaturohinyadi Kashayam, Khadirarishta, condition-specific formulations), individualised dietary regulation, and external treatments (medicated oils, Mukha Lepa facial protocols where appropriate). At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are calibrated to your specific skin condition (eczema, psoriasis, chronic acne, rosacea, melasma, urticaria) and dosha pattern, working alongside dermatology including our own DHA-licensed dermatology department. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const skinMechanism = {
@@ -378,7 +378,7 @@ export const skinReviews = {
     { label: "Improvement Reported", value: "74%" },
     { label: "Reduced Topical Needs", value: "62%" }
   ],
-  
+
   buttonText: "Read All Skin Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
 };
@@ -496,46 +496,46 @@ export const skinFaqs = {
       answer: "Yes, significantly. Dubai's UV intensity, heat, AC exposure, and pool/sea exposure all affect skin conditions. Our protocols include specific Dubai-climate guidance: UV protection (essential for melasma, pigmentation, photosensitive conditions, post-treatment phases), heat management for Pitta-dominant conditions like rosacea, AC dryness counterbalance for eczema, and pool chlorine considerations. Climate is genuinely a Dubai-specific factor we address."
     },
     {
-    question: "Can pregnant women have Ayurvedic skin treatment?",
-    answer: "Modified Ayurvedic protocols are available during pregnancy. Active Panchakarma is not performed. We focus on pregnancy-safe internal medicines, external treatments where appropriate, and dietary regulation. For pregnancy-related skin changes (melasma, pregnancy acne, pregnancy eczema), pregnancy-safe protocols are designed with obstetric coordination. Postpartum skin issues are often best addressed as part of the integrated <a href=\"/conditions/postnatal-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline\">postnatal programme</a>."
+      question: "Can pregnant women have Ayurvedic skin treatment?",
+      answer: "Modified Ayurvedic protocols are available during pregnancy. Active Panchakarma is not performed. We focus on pregnancy-safe internal medicines, external treatments where appropriate, and dietary regulation. For pregnancy-related skin changes (melasma, pregnancy acne, pregnancy eczema), pregnancy-safe protocols are designed with obstetric coordination. Postpartum skin issues are often best addressed as part of the integrated <a href=\"/conditions/postnatal-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline\">postnatal programme</a>."
     },
     {
-question: "What about children with eczema?",
-answer: "Paediatric eczema is common — affecting up to 20% of children in Dubai's expat population. For adolescents (typically 12+) with parental consultation and often alongside paediatric dermatology, modified Ayurvedic programmes are available — gentler protocols, age-appropriate doses, strong emphasis on family-coordinated dietary approaches and identifying triggers. For younger children, the focus is on dietary and environmental modifications rather than directed treatment programmes."
-},
-{
-question: "What about acne scarring? Can Ayurveda help?",
-answer: "Active acne treatment is well-suited to Ayurvedic adjunctive care. Acne scarring (atrophic scars, ice-pick scars, rolling scars) is primarily a dermatological treatment area — chemical peels, microneedling, laser resurfacing, fractional treatments. Ayurvedic adjunctive treatment can support skin restoration alongside these treatments and address post-inflammatory pigmentation, but is not the primary treatment for established scarring."
-},
-{
-question: "What about melasma and Dubai's UV exposure?",
-answer: "Melasma is one of the more challenging conditions because UV exposure is a major driver and Dubai's UV intensity is severe. Ayurvedic treatment addresses hormonal patterns, Rakta dhatu factors, and includes specific Mukha lepa external treatments. However, lifelong UV protection (broad-spectrum SPF 50+, hat, hours of UV avoidance) is essential — both during treatment and after. Without sun protection, no melasma treatment (Ayurvedic or otherwise) produces sustained results."
-},
-{
-question: "Where exactly is your skin clinic in Dubai?",
-answer: "Our clinic is at Building 38, District 12, Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif."
-},
-{
-question: "Do you coordinate with my existing dermatologist?",
-answer: "Yes. We work with several Dubai dermatology practices for joint patients, including dermatologists at major Dubai hospitals and specialised clinics. With your consent, we coordinate with your existing dermatologist throughout the programme. For patients without dermatologists, our DHA-licensed dermatology department at the JVC clinic offers internal referral options."
-},
-{
-  question: "Do you have female doctors for skin consultations?",
-  answer: "Yes. Many female patients prefer female doctors for skin consultations — particularly for hormonal acne, facial conditions like rosacea and melasma, intimate skin conditions, or any consultation requiring detailed body examination. We have female BAMS-qualified physicians available at the JVC clinic. Request a female doctor when booking."
-},
-{
-  question: "Does insurance cover Ayurvedic skin treatment?",
-  answer: "Skin conditions are recognised medical conditions for insurance purposes, which often supports coverage. Some plans cover Ayurvedic treatment for skin conditions, particularly when there is documented dermatological diagnosis and previous treatment trials. We are direct-billing partners with seven major insurers — Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife. <a href=\"https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp your insurance card</a> photo before booking."
-},  
-{
-  question: "How is this different from regular Ayurvedic facials I see at spas?",
-  answer: "Substantially different. Spa 'Ayurvedic facials' are cosmetic treatments — pleasant but limited in clinical impact for chronic skin conditions. Authentic Ayurvedic skin treatment at our JVC clinic is a medical programme led by BAMS-qualified physicians, including systemic internal medicines, Panchakarma, dietary regulation, and external treatments selected for your specific medical condition. It is not a beauty service. It is medical treatment for skin disease."
-},
-{
-  question: "How do I start?",
-  answer: "Always with a thorough assessment. Tap 'Book a Skin Consultation' on this page, <a href=\" https://wa.me/971555736312\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> at <a href=\"https://wa.me/971555736312\" class=\"text-[#C9A961] hover:underline\">+971 55 573 6312</a>, or call <a href=\"tel:+971 55 573 6312\" class=\"text-[#C9A961] hover:underline\">+971 55 573 6312</a>. Please bring (or send before consultation): recent dermatologist notes if available, any biopsy or pathology reports, current medication list (topical and systemic), and photos of affected areas (we will also take baseline photos with consent). The 60-minute consultation at our JVC clinic includes comprehensive history, examination, classification, and a written treatment plan with realistic expectations."
-},
-]
+      question: "What about children with eczema?",
+      answer: "Paediatric eczema is common — affecting up to 20% of children in Dubai's expat population. For adolescents (typically 12+) with parental consultation and often alongside paediatric dermatology, modified Ayurvedic programmes are available — gentler protocols, age-appropriate doses, strong emphasis on family-coordinated dietary approaches and identifying triggers. For younger children, the focus is on dietary and environmental modifications rather than directed treatment programmes."
+    },
+    {
+      question: "What about acne scarring? Can Ayurveda help?",
+      answer: "Active acne treatment is well-suited to Ayurvedic adjunctive care. Acne scarring (atrophic scars, ice-pick scars, rolling scars) is primarily a dermatological treatment area — chemical peels, microneedling, laser resurfacing, fractional treatments. Ayurvedic adjunctive treatment can support skin restoration alongside these treatments and address post-inflammatory pigmentation, but is not the primary treatment for established scarring."
+    },
+    {
+      question: "What about melasma and Dubai's UV exposure?",
+      answer: "Melasma is one of the more challenging conditions because UV exposure is a major driver and Dubai's UV intensity is severe. Ayurvedic treatment addresses hormonal patterns, Rakta dhatu factors, and includes specific Mukha lepa external treatments. However, lifelong UV protection (broad-spectrum SPF 50+, hat, hours of UV avoidance) is essential — both during treatment and after. Without sun protection, no melasma treatment (Ayurvedic or otherwise) produces sustained results."
+    },
+    {
+      question: "Where exactly is your skin clinic in Dubai?",
+      answer: "Our clinic is at Building 38, District 12, Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif."
+    },
+    {
+      question: "Do you coordinate with my existing dermatologist?",
+      answer: "Yes. We work with several Dubai dermatology practices for joint patients, including dermatologists at major Dubai hospitals and specialised clinics. With your consent, we coordinate with your existing dermatologist throughout the programme. For patients without dermatologists, our DHA-licensed dermatology department at the JVC clinic offers internal referral options."
+    },
+    {
+      question: "Do you have female doctors for skin consultations?",
+      answer: "Yes. Many female patients prefer female doctors for skin consultations — particularly for hormonal acne, facial conditions like rosacea and melasma, intimate skin conditions, or any consultation requiring detailed body examination. We have female BAMS-qualified physicians available at the JVC clinic. Request a female doctor when booking."
+    },
+    {
+      question: "Does insurance cover Ayurvedic skin treatment?",
+      answer: "Skin conditions are recognised medical conditions for insurance purposes, which often supports coverage. Some plans cover Ayurvedic treatment for skin conditions, particularly when there is documented dermatological diagnosis and previous treatment trials. We are direct-billing partners with seven major insurers — Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife. <a href=\"https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp your insurance card</a> photo before booking."
+    },
+    {
+      question: "How is this different from regular Ayurvedic facials I see at spas?",
+      answer: "Substantially different. Spa 'Ayurvedic facials' are cosmetic treatments — pleasant but limited in clinical impact for chronic skin conditions. Authentic Ayurvedic skin treatment at our JVC clinic is a medical programme led by BAMS-qualified physicians, including systemic internal medicines, Panchakarma, dietary regulation, and external treatments selected for your specific medical condition. It is not a beauty service. It is medical treatment for skin disease."
+    },
+    {
+      question: "How do I start?",
+      answer: "Always with a thorough assessment. Tap 'Book a Skin Consultation' on this page, <a href=\" https://wa.me/971555736312\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> at <a href=\"https://wa.me/971555736312\" class=\"text-[#C9A961] hover:underline\">+971 55 573 6312</a>, or call <a href=\"tel:+971 55 573 6312\" class=\"text-[#C9A961] hover:underline\">+971 55 573 6312</a>. Please bring (or send before consultation): recent dermatologist notes if available, any biopsy or pathology reports, current medication list (topical and systemic), and photos of affected areas (we will also take baseline photos with consent). The 60-minute consultation at our JVC clinic includes comprehensive history, examination, classification, and a written treatment plan with realistic expectations."
+    },
+  ]
 };
 
 export const skinCTA = {

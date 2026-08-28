@@ -5,7 +5,7 @@ export const melasmaTreatmentHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Melasma Treatment in Dubai", active: true }
   ],
-  label: "MELASMA TREATMENT · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "MELASMA TREATMENT · DHA-LICENSED  · JVC",
   title: "Melasma treatment in JVC, Dubai. Specialist care for chronic facial pigmentation across all skin types.",
   description: "Specialist melasma treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall — serving patients from across Dubai. DHA-licensed consultant dermatologists treating all melasma presentations: pregnancy-induced, hormonal, sun-aggravated, and mixed melasma with dermal components. Particular expertise across all Fitzpatrick skin types, especially the darker skin types (III–VI) that predominate in Dubai's diverse population. Multi-modal evidence-based approach with honest, realistic expectations.",
   primaryCTA: "Book Melasma Consultation",
@@ -28,7 +28,7 @@ export const melasmaTreatmentIntro = {
   label: "THE QUICK ANSWER",
   title: "Melasma treatment at Vedara Care, in one paragraph.",
   blockquote: "Melasma treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist pigmentation care delivered by DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types (I–VI). Melasma is chronic facial pigmentation typically involving cheeks, forehead, upper lip, and jaw — triggered by hormonal factors (pregnancy, oral contraceptives, perimenopause), aggravated by UV exposure (typically intense in Dubai), and influenced by genetic and ethnic factors. We treat all presentations: pregnancy-induced melasma (chloasma), oral contraceptive-associated, perimenopausal, sun-aggravated, and mixed melasma with dermal components. Multi-modal evidence-based treatment includes topical agents (hydroquinone for limited courses, tranexamic acid, cysteamine, retinoids, azelaic acid), chemical peels calibrated to skin type, specific laser treatments selected carefully (wrong laser can worsen melasma), microneedling with specific protocols, and rigorous sun protection — the single most important factor. Realistic expectations: substantial improvement achievable for most patients within 4–6 months; complete cure rarely permanent. Patients travel to our JVC clinic from across Dubai for specialist melasma care.",
-  footer: "Medically reviewed by Lead Consultant Dermatologist, MD, DHA-licensed · Last updated June 2026"
+  footer: "Medically reviewed by Lead Consultant Dermatologist, MD, DHA-licensed 2509266 · Last updated June 2026"
 };
 
 export const melasmaTreatmentUnderstanding = {
@@ -475,7 +475,7 @@ export const melasmaTreatmentLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
   title: "Where melasma treatment happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",

@@ -11,6 +11,7 @@ import TreatmentProtocol from '../../components/ayurveda/TreatmentProtocol';
 // import ConditionSymptoms from '../../components/ayurveda/ConditionSymptoms';
 import ConditionBoundaries from '../../components/ayurveda/ConditionBoundaries';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
+import AyurvedicTeam from '../../components/ayurveda/AyurvedicTeam';
 import TreatmentPrograms from '../../components/ayurveda/TreatmentPrograms';
 import FAQ from '../../components/home/FAQ';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
@@ -35,6 +36,11 @@ import {
   weightLossFinalCTA,
   weightLossRelatedPages
 } from '../../data/weightLossData';
+
+import {
+  weightLossJvcReviews,
+  weightLossTeam
+} from '../../data/weightLossAyurvedaJvcData';
 
 const WeightLossAyurvedaDubai = () => {
   const [mounted, setMounted] = React.useState(false);
@@ -626,7 +632,10 @@ const WeightLossAyurvedaDubai = () => {
       <ConditionBoundaries {...weightLossBoundaries} />
 
       {/* Section 10: Treatment Reviews */}
-      <TreatmentReviews {...weightLossReviews} />
+      <TreatmentReviews {...weightLossJvcReviews} useKneeStyle={true} />
+
+      {/* Ayurvedic Team */}
+      <AyurvedicTeam {...weightLossTeam} />
 
       {/* Section 11: Treatment Programs */}
       <TreatmentPrograms {...weightLossPrograms} />

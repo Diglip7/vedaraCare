@@ -30,7 +30,7 @@ export const pelvicFloorIntro = {
   label: "THE QUICK ANSWER",
   title: "Pelvic floor physiotherapy at Vedara Care, in one paragraph.",
   blockquote: "Pelvic floor physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist women's health and pelvic health treatment delivered exclusively by female DPT-qualified physiotherapists with specific pelvic floor training. We treat postnatal pelvic floor recovery, urinary incontinence (stress, urge, and mixed types), pelvic organ prolapse (cystocele, rectocele, uterine prolapse — conservative management), pregnancy-related pelvic floor issues, sexual function concerns (painful intercourse, vaginismus, postnatal sexual recovery), chronic pelvic pain, diastasis recti, and men's pelvic health. Our approach respects cultural and personal preferences — comprehensive external assessment is available for patients who prefer this, with internal assessment offered as an option with consent. Treatment includes pelvic floor muscle training, biofeedback, manual therapy, postural and breathing work, exercise prescription, and patient education. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Rania Al-Hassan, DPT, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Rania Al-Hassan, DPT, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const pelvicFloorSciaticaSection1 = {

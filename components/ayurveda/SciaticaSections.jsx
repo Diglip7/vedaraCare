@@ -285,7 +285,7 @@ export const SciaticaPricing = ({
             let bgClass = 'bg-white';
             let borderClass = '';
             let priceColor = 'rgb(26, 26, 26)';
-            
+
             if (
               service.name === "Acute sciatica package — 10 sessions over 6-8 weeks" ||
               service.name === "Chronic sciatica programme — 16 sessions over 8-12 weeks"
@@ -409,7 +409,7 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
           <div className="md:sticky md:top-6 lg:top-8 space-y-5 md:space-y-6 w-full max-w-md mx-auto md:max-w-none">
             {rightContent.image && (
               <div className="rounded-md overflow-hidden">
-                <img src={rightContent.image} alt={rightContent.alt || ''} className="w-full object-cover" style={{ aspectRatio: '4/5' }} />
+                <img src={rightContent.image} alt={rightContent.alt || ''} className="w-full h-auto object-contain" />
               </div>
             )}
             {showComparison && (
@@ -474,6 +474,25 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
                 </div>
               </div>
             )}
+            {rightContentStyle === 'checklist' && rightContent.items && rightContent.items.length > 0 && (
+              <div className="bg-white p-6 rounded-lg border border-[#E5DFD3] shadow-sm w-full mt-4">
+                {rightContent.label && (
+                  <div className="text-[11px] font-bold tracking-[0.08em] uppercase mb-4" style={{ color: '#C9A84C' }}>
+                    {rightContent.label}
+                  </div>
+                )}
+                <div className="space-y-3">
+                  {rightContent.items.map((item, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <svg className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: '#C9A84C' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span style={{ fontSize: '12px', color: '#666666', lineHeight: '1.5' }}>{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
             {rightContentStyle === 'list' && rightContent.items && rightContent.items.length > 0 && (
               <div className="bg-white p-5 rounded-md border border-gray-200 shadow-sm w-full">
                 {rightContent.label && (
@@ -484,7 +503,7 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
                 <div className="space-y-2.5">
                   {rightContent.items.map((item, index) => (
                     <div key={index} className="flex items-center gap-3 py-1">
-                      <div className="w-7 h-7 rounded-full bg-[#1C1A16] flex items-center justify-center text-white text-xs font-serif flex-shrink-0" style={{color: '#C49A2C',fontFamily: 'Fraunces, Georgia, serif' }}>
+                      <div className="w-7 h-7 rounded-full bg-[#1C1A16] flex items-center justify-center text-white text-xs font-serif flex-shrink-0" style={{ color: '#C49A2C', fontFamily: 'Fraunces, Georgia, serif' }}>
                         {item.number}
                       </div>
                       <span style={{ fontSize: '13px', color: '#1C1C14', fontFamily: 'Inter, system-ui, sans-serif', lineHeight: '1.4' }}>{item.text}</span>
@@ -529,8 +548,8 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
                 )}
                 <div className="space-y-3">
                   {rightContent.keyAnatomy.map((item, index) => (
-                    <div 
-                      key={index} 
+                    <div
+                      key={index}
                       className="pb-3 last:pb-0"
                       style={{ borderBottom: index < rightContent.keyAnatomy.length - 1 ? "1px solid rgba(28, 21, 10, 0.06)" : "none" }}
                     >
@@ -646,36 +665,36 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
                       <rect x="20" y="60" width="300" height="50" fill="#F7E8D0" rx="8"></rect>
                       <rect x="20" y="110" width="300" height="70" fill="#E9D4BC" rx="8"></rect>
                       <rect x="20" y="180" width="300" height="60" fill="#E5CDB7" rx="8"></rect>
-                      
+
                       {/* Layer Labels */}
                       <text x="30" y="55" fontFamily="DM Sans, sans-serif" fontSize="9" fill="#777777" fontWeight="600">EPIDERMIS</text>
                       <text x="30" y="105" fontFamily="DM Sans, sans-serif" fontSize="9" fill="#777777" fontWeight="600">DERMIS</text>
                       <text x="30" y="175" fontFamily="DM Sans, sans-serif" fontSize="9" fill="#777777" fontWeight="600">SUB-DERMIS</text>
-                      
+
                       {/* Ice Pick Scar */}
                       <rect x="70" y="78" width="30" height="30" fill="#5F5F5F" rx="3" opacity="0.8"></rect>
                       <line x1="85" y1="60" x2="85" y2="78" stroke="#1F1F1F" strokeWidth="3"></line>
                       <text x="55" y="145" fontFamily="DM Sans, sans-serif" fontSize="9" fill="#1F1F1F" fontWeight="600">Ice Pick</text>
                       <text x="55" y="155" fontFamily="DM Sans, sans-serif" fontSize="8" fill="#777777">Deep, narrow</text>
-                      
+
                       {/* Boxcar Scar */}
                       <rect x="130" y="85" width="40" height="35" fill="#5F5F5F" rx="3" opacity="0.6"></rect>
                       <text x="130" y="145" fontFamily="DM Sans, sans-serif" fontSize="9" fill="#1F1F1F" fontWeight="600">Boxcar</text>
                       <text x="130" y="155" fontFamily="DM Sans, sans-serif" fontSize="8" fill="#777777">Wide, defined edges</text>
-                      
+
                       {/* Rolling Scar */}
                       <path d="M 190 90 Q 205 100 220 90 Q 235 80 250 90" fill="none" stroke="#5F5F5F" strokeWidth="3" strokeLinecap="round" opacity="0.8"></path>
                       <text x="190" y="145" fontFamily="DM Sans, sans-serif" fontSize="9" fill="#1F1F1F" fontWeight="600">Rolling</text>
                       <text x="190" y="155" fontFamily="DM Sans, sans-serif" fontSize="8" fill="#777777">Undulating surface</text>
-                      
+
                       {/* Hypertrophic Scar */}
                       <ellipse cx="275" cy="55" rx="22" ry="14" fill="#1F1F1F" opacity="0.8"></ellipse>
                       <text x="245" y="85" fontFamily="DM Sans, sans-serif" fontSize="9" fill="#1F1F1F" fontWeight="600">Hypertrophic</text>
                       <text x="245" y="95" fontFamily="DM Sans, sans-serif" fontSize="8" fill="#777777">Raised scar</text>
-                      
+
                       {/* Skin Surface */}
                       <text x="240" y="45" fontFamily="DM Sans, sans-serif" fontSize="8" fill="#777777">SKIN SURFACE</text>
-                      
+
                       {/* Dashed Line */}
                       <line x1="20" y1="60" x2="320" y2="60" stroke="#C9A961" strokeWidth="1" strokeDasharray="5,5"></line>
                     </svg>

@@ -38,7 +38,7 @@ const CuppingTherapyDubai = () => {
       "name": "Vedara Care Cupping Therapy",
       "alternateName": ["Vedara Cupping Dubai", "Vedara Hijama JVC"],
       "url": "https://vedaracare.ae/treatments/cupping-therapy-dubai/",
-      "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
+      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist cupping therapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Dry cupping, massage cupping, and Hijama (wet cupping) delivered by DHA-licensed practitioners. Sterile single-use equipment for Hijama. Integrated with physiotherapy for musculoskeletal applications. Cultural and religious respect for Hijama as Islamic Sunnah practice.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 200 - AED 5,000",
@@ -69,18 +69,18 @@ const CuppingTherapyDubai = () => {
         }
       ],
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Mirdif"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "Jumeirah Village Circle" },
+        { "@type": "Place", "name": "Jumeirah Village Triangle" },
+        { "@type": "Place", "name": "Al Barsha South" },
+        { "@type": "Place", "name": "Dubai Sports City" },
+        { "@type": "Place", "name": "Motor City" },
+        { "@type": "Place", "name": "Arjan" },
+        { "@type": "Place", "name": "Dubai Hills Estate" },
+        { "@type": "Place", "name": "Dubai Marina" },
+        { "@type": "Place", "name": "Downtown Dubai" },
+        { "@type": "Place", "name": "Palm Jumeirah" },
+        { "@type": "Place", "name": "Mirdif" }
       ],
       "medicalSpecialty": [
         "Cupping Therapy",
@@ -90,11 +90,11 @@ const CuppingTherapyDubai = () => {
       ],
       "isAcceptingNewPatients": true,
       "availableService": [
-        {"@type": "MedicalProcedure", "name": "Dry Cupping"},
-        {"@type": "MedicalProcedure", "name": "Massage Cupping"},
-        {"@type": "MedicalProcedure", "name": "Hijama"},
-        {"@type": "MedicalProcedure", "name": "Sports Cupping"},
-        {"@type": "MedicalProcedure", "name": "Trigger Point Cupping"}
+        { "@type": "MedicalProcedure", "name": "Dry Cupping" },
+        { "@type": "MedicalProcedure", "name": "Massage Cupping" },
+        { "@type": "MedicalProcedure", "name": "Hijama" },
+        { "@type": "MedicalProcedure", "name": "Sports Cupping" },
+        { "@type": "MedicalProcedure", "name": "Trigger Point Cupping" }
       ],
       "memberOf": {
         "@type": "Organization",
@@ -123,10 +123,10 @@ const CuppingTherapyDubai = () => {
       "@context": "https://schema.org",
       "@type": "Service",
       "name": "Cupping Therapy Services in Dubai",
-      "provider": {"@id": "https://vedaracare.ae/treatments/cupping-therapy-dubai/#cupping"},
+      "provider": { "@id": "https://vedaracare.ae/treatments/cupping-therapy-dubai/#cupping" },
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "United Arab Emirates" }
       ],
       "serviceType": "Cupping Therapy and Hijama",
       "hasOfferCatalog": {
@@ -175,9 +175,9 @@ const CuppingTherapyDubai = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://vedaracare.ae/treatments/"},
-        {"@type": "ListItem", "position": 3, "name": "Cupping Therapy in Dubai", "item": "https://vedaracare.ae/treatments/cupping-therapy-dubai/"}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://vedaracare.ae/treatments/" },
+        { "@type": "ListItem", "position": 3, "name": "Cupping Therapy in Dubai", "item": "https://vedaracare.ae/treatments/cupping-therapy-dubai/" }
       ]
     },
     {
@@ -208,8 +208,8 @@ const CuppingTherapyDubai = () => {
         "name": "Vedara Care Polyclinic"
       },
       "about": [
-        {"@type": "MedicalProcedure", "name": "Cupping Therapy"},
-        {"@type": "MedicalProcedure", "name": "Hijama"}
+        { "@type": "MedicalProcedure", "name": "Cupping Therapy" },
+        { "@type": "MedicalProcedure", "name": "Hijama" }
       ],
       "mainEntityOfPage": "https://vedaracare.ae/treatments/cupping-therapy-dubai/"
     },
@@ -254,13 +254,13 @@ const CuppingTherapyDubai = () => {
       <main>
         <AyurvedaHero {...cuppingTherapyHero} />
         <AyurvedaIntro {...cuppingTherapyIntro} />
-        <SciaticaTreatment 
-          data={cuppingTherapyWhatIs.data} 
+        <SciaticaTreatment
+          data={cuppingTherapyWhatIs.data}
           bgColor={cuppingTherapyWhatIs.bgColor}
           showBorderLeft={false}
           rightContentStyle="simpleBox"
         />
-        <PostnatalComponents 
+        <PostnatalComponents
           bgColor={cuppingTherapyConditions.bgColor}
           cardBg={cuppingTherapyConditions.cardBg}
           label={cuppingTherapyConditions.label}
@@ -273,7 +273,7 @@ const CuppingTherapyDubai = () => {
           row1Count={3}
           techniquesLabel="CUPPING TYPE TYPICALLY USED:"
         />
-        <ManualTherapySession 
+        <ManualTherapySession
           bgColor={cuppingTherapySession.bgColor}
           label={cuppingTherapySession.label}
           title={cuppingTherapySession.title}
@@ -281,7 +281,7 @@ const CuppingTherapyDubai = () => {
           sections={cuppingTherapySession.sections}
           safetyCard={cuppingTherapySession.safetyCard}
         />
-        <HijamaSection 
+        <HijamaSection
           bgColor={cuppingTherapyHijama.bgColor}
           label={cuppingTherapyHijama.label}
           title={cuppingTherapyHijama.title}
@@ -290,7 +290,7 @@ const CuppingTherapyDubai = () => {
           rightSide={cuppingTherapyHijama.rightSide}
         />
         <TreatmentReviews {...cuppingTherapyReviews} />
-        <PhysiotherapyTeam 
+        <PhysiotherapyTeam
           label={cuppingTherapyTeam.label}
           title={cuppingTherapyTeam.title}
           description={cuppingTherapyTeam.description}

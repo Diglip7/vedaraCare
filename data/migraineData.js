@@ -29,7 +29,7 @@ export const migraineIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic migraine treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for migraine in Dubai is a 4 to 6-month structured medical programme combining classical Shirodhara (continuous warm medicated oil therapy on the forehead, the foundational treatment for headache disorders in Ayurveda), Nasya (medicated nasal therapy, classically the most direct treatment for head conditions), Takradhara (buttermilk variant for inflammatory migraine patterns), internal herbal medicines (typically including Brahmi, Pathyadi Kashayam, Shirashooladi Vajra Ras, and Pittahara formulations), trigger identification and management, and lifestyle modification. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes work alongside neurology and existing migraine medications, never as replacement. Realistic outcomes: 40-70% reduction in migraine days for episodic migraine over 6 months. Initial consultations start from AED 350.",
-  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026"
+  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const migraineMechanism = {
@@ -55,7 +55,7 @@ export const migrainePillars = {
     {
       title: "<a href='/treatments/shirodhara-dubai/'>Shirodhara — The Foundational Therapy</a>",
       description: "Continuous warm medicated oil poured rhythmically across the forehead for 35 minutes per session. The classical Ayurvedic treatment for headache disorders. For migraine specifically, typically prescribed as 14-21 sessions over the active treatment phase. Oils selected for your pattern — Chandanadi Taila (cooling, for Pitta-pattern migraine), Ksheerabala Taila (for Vata-pattern with stress component), or buttermilk-based Takradhara for inflammatory or hormonal patterns. Most patients describe deep improvement and reduced attack frequency by session 7-10."
-    
+
     },
     {
       title: "Nasya — The Direct Head Therapy",
@@ -118,7 +118,7 @@ export const migraineBoundaries = {
 export const migraineLocation = {
   title: "Where migraine treatment happens at Vedara Care.",
   description: "Our JVC clinic has dedicated Shirodhara treatment rooms with controlled lighting (important for migraine patients with light sensitivity), sound-insulated quiet environment, and Nasya treatment positions. Walking distance from Circle Mall, easy access from JVC Districts 10, 11, 12, 13, JVT, and Al Barsha South. Female doctors available on request.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about Ayurvedic migraine treatment at your JVC clinic in Dubai.",

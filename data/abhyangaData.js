@@ -4,7 +4,7 @@ export const abhyangaHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Abhyanga Massage in Dubai", active: true }
   ],
-  label: "ABHYANGA OIL MASSAGE IN DUBAI • DHA-LICENSED",
+  label: "ABHYANGA OIL MASSAGE IN DUBAI • DHA-LICENSED 2509266",
   title: "Warm oil, two pairs of hands, ninety minutes of silence.",
   description: "Classical Abhyanga — the foundational full-body Ayurvedic oil massage performed by two synchronized therapists. Doctor-prescribed at our DHA-licensed Ayurveda clinic in JVC, Dubai. The treatment that changes how you sleep, move, and think.",
   primaryCTA: "Book Abhyanga Consultation",
@@ -28,7 +28,7 @@ export const abhyangaIntro = {
   label: "THE QUICK ANSWER",
   title: "Abhyanga in Dubai, in one paragraph.",
   blockquote: "Abhyanga (अभ्यङ्ग) is the classical full-body Ayurvedic oil massage — a 60 to 90-minute therapy in which warm dosha-specific medicated oils are applied head-to-toe in synchronized strokes by two trained therapists. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Abhyanga is doctor-prescribed by BAMS-qualified physicians after dosha assessment, performed on traditional wooden droni tables, and used both as a standalone weekly therapy and as the foundation of <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">Panchakarma</a> protocols. Sessions start from AED 450.",
-  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda),DHA License 2509266 · Last updated May 2026"
 };
 
 export const abhyangaMechanism = {
@@ -85,9 +85,11 @@ export const abhyangaProtocol = {
     {
       time: "80-90 MIN",
       title: "Phase 7 — Stillness & Recovery",
-      content: "The final 10 minutes are stillness. You remain on the droni with oil on the body — no further manipulation. This rest period is non-negotiable. The oil and the work need time to absorb. Premature movement undoes the therapy."}
+      content: "The final 10 minutes are stillness. You remain on the droni with oil on the body — no further manipulation. This rest period is non-negotiable. The oil and the work need time to absorb. Premature movement undoes the therapy."
+    }
   ],
-  footer: "Followed by Swedana (medicated steam therapy) on most days, included in your session price. Showering happens after Swedana, not directly after Abhyanga."};
+  footer: "Followed by Swedana (medicated steam therapy) on most days, included in your session price. Showering happens after Swedana, not directly after Abhyanga."
+};
 
 export const abhyangaOils = {
   bgColor: "bg-[#FAF6EF]",
@@ -124,7 +126,7 @@ export const abhyangaApplications = {
   description: "Abhyanga can be used as standalone therapy or as part of a larger treatment plan. Honest guidance on what it does best.",
   strongIndicationsLabel: "STANDALONE TREATMENT",
   complementaryUseLabel: "COMBINED THERAPY",
-   honestLimitsDescription: "Conditions where Abhyanga is one component of a larger treatment plan — combined with internal medicines, dietary correction, or other therapies.",
+  honestLimitsDescription: "Conditions where Abhyanga is one component of a larger treatment plan — combined with internal medicines, dietary correction, or other therapies.",
   whereItExcels: [
     {
       title: "Chronic stress and burnout",
@@ -136,7 +138,7 @@ export const abhyangaApplications = {
     },
     {
       title: "General joint stiffness (without acute pathology)",
-      
+
     },
     {
       title: "Anxiety (alongside conventional care)",
@@ -144,19 +146,19 @@ export const abhyangaApplications = {
     },
     {
       title: "Daily fatigue and low energy",
-      
+
     },
     {
       title: "Dry skin and skin texture issues",
-     
+
     },
     {
       title: "Pre-menstrual symptoms",
-     
+
     },
     {
       title: "Constitutional reset (Vata pacification)",
-      
+
     }
   ],
   honestLimitsList: [
@@ -186,11 +188,11 @@ export const abhyangaApplications = {
     },
     {
       title: "Cervical spondylosis (with Greeva Vasti, Nasya)",
-      
+
     },
     {
       title: "Sciatica (with Kativasti, Basti)",
-     
+
     }
   ],
   // honestNote: "Real Ayurvedic not the primary answer. Abhyanga is foundational — but not always sufficient alone",
@@ -356,14 +358,17 @@ export const abhyangaFaqs = {
     },
     {
       question: "What oils do you use at Vedara Care?",
-      answer: "The oils used depend on your dosha and condition. Common bases are sesame oil (for Vata), coconut oil (for Pitta), and mustard oil (for Kapha). These are then medicated with classical preparations such as Mahanarayana taila, Dhanvantaram taila, Chandanadi taila, Pinda taila, or Murchita taila — depending on what your doctor prescribes. All our oils are sourced from classical Ayurvedic pharmacies in Kerala and Maharashtra with documented quality testing. "},
+      answer: "The oils used depend on your dosha and condition. Common bases are sesame oil (for Vata), coconut oil (for Pitta), and mustard oil (for Kapha). These are then medicated with classical preparations such as Mahanarayana taila, Dhanvantaram taila, Chandanadi taila, Pinda taila, or Murchita taila — depending on what your doctor prescribes. All our oils are sourced from classical Ayurvedic pharmacies in Kerala and Maharashtra with documented quality testing. "
+    },
     {
       question: "Where exactly is your Abhyanga clinic in Dubai?",
-      answer: "Our clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients regularly travel from JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Dubai Marina, Downtown, and Palm Jumeirah."},
+      answer: "Our clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients regularly travel from JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Dubai Marina, Downtown, and Palm Jumeirah."
+    },
     {
       question: "Do you offer Abhyanga at home in Dubai?",
-      answer: "Yes. Our home Ayurvedic team brings authentic Abhyanga to your home across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Marina, Downtown, Palm Jumeirah, Mirdif, and all Dubai neighbourhoods. They bring a portable wooden droni table, warm medicated oils, and all required equipment. Pricing is slightly higher to cover travel and setup. Most-requested for postnatal mothers, elderly patients, and busy executives." },
-    
+      answer: "Yes. Our home Ayurvedic team brings authentic Abhyanga to your home across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Marina, Downtown, Palm Jumeirah, Mirdif, and all Dubai neighbourhoods. They bring a portable wooden droni table, warm medicated oils, and all required equipment. Pricing is slightly higher to cover travel and setup. Most-requested for postnatal mothers, elderly patients, and busy executives."
+    },
+
     {
       question: "How do I book Abhyanga at your clinic?",
       answer: 'For first-time patients, booking begins with a brief consultation (15–20 minutes, AED 150) where your doctor confirms Abhyanga is the right therapy and selects the right oils for your dosha. Existing patients can rebook directly. Tap \"Book Abhyanga Consultation\" anywhere on this page, <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> at +971 55 573 6312 for the fastest response, or call +971 55 573 6312.'
@@ -392,8 +397,8 @@ export const abhyangaFinalCTA = {
   bgColor: "bg-[#FFFFFF]",
   label: "READY?",
   title: ["Begin with a brief consultation.",
-    <br/>,
-  "The right oils will follow."],
+    <br />,
+    "The right oils will follow."],
   description: "First-time Abhyanga always begins with a brief consultation — we cannot select the right medicated oils for your body without it. Returning patients book directly. The consultation takes 15 to 20 minutes and costs AED 150.",
   button1Text: "Book Abhyanga Consultation",
   button2Text: "Chat on WhatsApp",

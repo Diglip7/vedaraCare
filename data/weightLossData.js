@@ -22,7 +22,7 @@ export const weightLossHero = {
     title: "WE DO NOT WEIGH YOU AT EVERY VISIT.",
     subtitle: "Weight loss consultation at our JVC clinic begins with lab review, pattern identification, and honest expectations."
   },
-  image: "/images/weight-loss-ayurveda-dubai-hero.webp",
+  image: "images/weight-loss-ayurveda-jvc-hero.webp",
   alt: "Ayurvedic doctor in weight loss consultation reviewing lab results with patient at Vedara Care JVC Dubai",
   altText: "Ayurvedic doctor in weight loss consultation reviewing lab results with patient at Vedara Care JVC Dubai"
 };
@@ -32,20 +32,20 @@ export const weightLossIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic weight loss treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for weight loss in Dubai is a 4 to 6-month structured medical programme combining classical Panchakarma protocols (typically Virechana cleansing and selective Udvartana herbal powder massage), dosha-specific herbal medicines for metabolic correction, individualised dietary regulation, and lifestyle modification addressing sleep, stress, and movement patterns. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes are calibrated to your specific Kapha-Vata-Pitta metabolic pattern rather than generic protocols, and address root causes including insulin resistance, hormonal patterns, emotional eating, and lifestyle factors. Realistic outcomes: 6 to 15 kilograms over 6 months with sustained maintenance. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Sharma Patel, BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Sharma Patel, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const weightLossMechanism1 = {
   bgColor: "bg-[#FAF8F3]",
   label: "AN HONEST OBSERVATION",
-  title:"Why most weight loss approaches in Dubai produce short-term results and long-term frustration.",
+  title: "Why most weight loss approaches in Dubai produce short-term results and long-term frustration.",
   content: [
     "Dubai has a saturated weight loss market — IV drip clinics, 21-day 'Ayurvedic detox' packages, GLP-1 prescription services, weight loss spas, surgical clinics offering bariatric procedures, supplement brands, influencer-promoted herbal teas. Most patients arriving at our JVC clinic have tried two or three of these. Most have lost weight and gained it back. Many have ended up heavier than when they started.",
     "The reason is simple. Weight is a downstream marker of upstream patterns — insulin metabolism, hormonal balance, sleep quality, cortisol patterns, emotional regulation, gut function, dosha-specific metabolic tendency, and lifestyle factors. Approaches that address only the marker (calorie restriction, drug-induced suppression, lymphatic drainage, fat-burning herbs) produce short-term scale changes without changing what produced the weight in the first place. When the intervention stops — or the body adapts — the weight returns, often with interest.",
     "\"Authentic Ayurvedic weight loss treatment works because it addresses upstream patterns over enough time for the body to actually adapt. Panchakarma cleansing resets metabolic patterns. Internal medicines correct dosha-specific imbalances. Dietary regulation addresses the eating patterns producing the problem. Lifestyle modification addresses sleep, stress, and movement systematically. This requires 4-6 months minimum. There are no Ayurvedic shortcuts — anyone selling them is selling you the same problem in a different package.\""
   ],
   quote: "The clinic that promises you the fastest weight loss is usually the one whose patients are the heaviest two years later",
-  
+
   pillars: [
     {
       number: "1",
@@ -72,7 +72,7 @@ export const weightLossMechanism1 = {
 };
 
 
-  // footer: "The 'herbal supplement alone,' 'Panchakarma package alone,' or 'just eat less' approaches that dominate the Dubai weight loss market all fail because they address one pillar without the others. Real change requires all four for 4-6 months minimum."
+// footer: "The 'herbal supplement alone,' 'Panchakarma package alone,' or 'just eat less' approaches that dominate the Dubai weight loss market all fail because they address one pillar without the others. Real change requires all four for 4-6 months minimum."
 
 
 export const weightLossMechanism2 = {
@@ -88,7 +88,7 @@ export const weightLossMechanism2 = {
   // image: "https://images.unsplash.com/photo-1545840716-c82e9eec6930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxheXVydmVkaWMlMjBtZWRpY2luZSUyMGhlcmJzJTIwb2lsJTIwcHJlcGFyYXRpb258ZW58MXx8fHwxNzc5ODA0MzE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
   image: "/images/weight-loss-consultation-vedara-jvc.webp",
   alt: "Sustainable healthy lifestyle imagery — Ayurvedic weight loss approach in Dubai",
-  
+
   imageLeft: false,
   imageHeight: "h-[500px]"
 };
@@ -323,7 +323,8 @@ export const weightLossBoundaries = {
       ]
     }
   ],
-  footer: "Real Ayurvedic doctors at our JVC clinic refer to endocrinology, gastroenterology, or psychiatry when appropriate — and coordinate care rather than compete with it. For patients with complex weight loss situations, integrated care produces the strongest outcomes."};
+  footer: "Real Ayurvedic doctors at our JVC clinic refer to endocrinology, gastroenterology, or psychiatry when appropriate — and coordinate care rather than compete with it. For patients with complex weight loss situations, integrated care produces the strongest outcomes."
+};
 
 export const weightLossReviews = {
   bgColor: "bg-[#2D5F4F]",
@@ -352,7 +353,7 @@ export const weightLossReviews = {
     { value: "94", label: "Weight Loss  reviews" },
     { value: "78%", label: "achieved their target range" },
     { value: "4.9", label: "stars on Google " },
-      { value: "97%", label: " maintained it at 12 months " }
+    { value: "97%", label: " maintained it at 12 months " }
   ],
   buttonText: "Read All Weight Loss Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
@@ -430,34 +431,42 @@ export const weightLossFaqs = {
   faqs: [
     {
       question: "Does Ayurvedic weight loss treatment actually work?",
-      answer: "Yes — when it is a structured 4-6 month medical programme, not a single supplement or detox package. Most of our weight loss patients at the JVC clinic lose 6-15 kg over 6 months and maintain it at 12-month follow-up. What does not work: Ayurvedic supplements alone, '21-day Ayurvedic detox' packages, herbal teas, or any approach that promises rapid results. We will tell you honestly at consultation whether your specific situation is suited to Ayurvedic treatment."  },
-  
+      answer: "Yes — when it is a structured 4-6 month medical programme, not a single supplement or detox package. Most of our weight loss patients at the JVC clinic lose 6-15 kg over 6 months and maintain it at 12-month follow-up. What does not work: Ayurvedic supplements alone, '21-day Ayurvedic detox' packages, herbal teas, or any approach that promises rapid results. We will tell you honestly at consultation whether your specific situation is suited to Ayurvedic treatment."
+    },
+
     {
       question: "How much weight will I actually lose?",
-      answer: "Honest ranges: Kapha-predominant patients typically lose 6-10 kg over 6 months. Insulin-resistance patterns with Panchakarma typically lose 8-15 kg over 6 months. Stress-pattern patients typically lose 3-7 kg over 4 months. PCOS-related patterns typically lose 5-12 kg over 6 months. Some patients exceed these ranges; some land below them. Patients who do not implement dietary and lifestyle protocols lose less. We do not promise specific numbers — that is how the rest of the Dubai weight loss market disappoints patients." },
+      answer: "Honest ranges: Kapha-predominant patients typically lose 6-10 kg over 6 months. Insulin-resistance patterns with Panchakarma typically lose 8-15 kg over 6 months. Stress-pattern patients typically lose 3-7 kg over 4 months. PCOS-related patterns typically lose 5-12 kg over 6 months. Some patients exceed these ranges; some land below them. Patients who do not implement dietary and lifestyle protocols lose less. We do not promise specific numbers — that is how the rest of the Dubai weight loss market disappoints patients."
+    },
     {
       question: "How is this different from GLP-1 medications like Ozempic?",
-      answer: "GLP-1 medications reduce appetite and improve glucose handling through pharmacological mechanism. They are powerful but address the chemistry without changing the underlying behaviours, metabolic patterns, sleep, stress, or dietary habits that produced the weight. When the medication stops, the weight typically returns unless the underlying patterns have changed. Ayurvedic treatment addresses these patterns directly over 4-6 months — producing change that does not require ongoing medication. For some patients, the strongest outcomes come from using both strategically."  },
+      answer: "GLP-1 medications reduce appetite and improve glucose handling through pharmacological mechanism. They are powerful but address the chemistry without changing the underlying behaviours, metabolic patterns, sleep, stress, or dietary habits that produced the weight. When the medication stops, the weight typically returns unless the underlying patterns have changed. Ayurvedic treatment addresses these patterns directly over 4-6 months — producing change that does not require ongoing medication. For some patients, the strongest outcomes come from using both strategically."
+    },
 
     {
       question: "Can I do Ayurvedic weight loss treatment while on Ozempic, Wegovy, or Mounjaro?",
-      answer: "Yes. We have a growing population of patients on GLP-1 medications who add Ayurvedic treatment specifically to address what the medication does not — the dietary habits, lifestyle factors, and metabolic root patterns that determine long-term outcomes. The two approaches are compatible. We coordinate with your prescribing physician throughout."   },
+      answer: "Yes. We have a growing population of patients on GLP-1 medications who add Ayurvedic treatment specifically to address what the medication does not — the dietary habits, lifestyle factors, and metabolic root patterns that determine long-term outcomes. The two approaches are compatible. We coordinate with your prescribing physician throughout."
+    },
 
     {
       question: "How much does Ayurvedic weight loss treatment cost in Dubai?",
-      answer: "At Vedara Care, initial assessment starts from AED 450. A standard 6-month programme starts from AED 18,500. An extended integrated programme starts from AED 28,500. Across Dubai, comprehensive Ayurvedic weight loss programmes typically range from AED 10,000 to AED 30,000 depending on length and intensity. This is comparable to or less than the annual cost of GLP-1 medications without insurance coverage." },
+      answer: "At Vedara Care, initial assessment starts from AED 450. A standard 6-month programme starts from AED 18,500. An extended integrated programme starts from AED 28,500. Across Dubai, comprehensive Ayurvedic weight loss programmes typically range from AED 10,000 to AED 30,000 depending on length and intensity. This is comparable to or less than the annual cost of GLP-1 medications without insurance coverage."
+    },
 
     {
       question: "Will I gain the weight back when I stop?",
-      answer: "Most of our patients do not — at 12-month follow-up, 91% have maintained their loss within 2-3 kg. The programme is specifically designed to produce sustainable change rather than temporary loss. Patients who do regain are typically those who completely abandon the dietary and lifestyle protocols rather than maintaining the modified versions. Some annual or biannual return visits are common for ongoing support."  },
+      answer: "Most of our patients do not — at 12-month follow-up, 91% have maintained their loss within 2-3 kg. The programme is specifically designed to produce sustainable change rather than temporary loss. Patients who do regain are typically those who completely abandon the dietary and lifestyle protocols rather than maintaining the modified versions. Some annual or biannual return visits are common for ongoing support."
+    },
 
     {
       question: "Where exactly is your weight loss clinic in Dubai?",
-      answer: "Our clinic is at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif."  },
-      {
+      answer: "Our clinic is at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif."
+    },
+    {
       question: "How do I start?",
-      answer: "Always with an assessment, never directly with a treatment package. Tap 'Book a Weight Loss Consultation' on this page, <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> for the fastest response, or call us. The initial 60-75 minute consultation at our JVC clinic includes comprehensive history, examination, pattern identification, and a honest written treatment plan with realistic expectations and pricing — including a clear answer to whether Ayurvedic treatment is right for your specific situation."}  ]
-  
+      answer: "Always with an assessment, never directly with a treatment package. Tap 'Book a Weight Loss Consultation' on this page, <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> for the fastest response, or call us. The initial 60-75 minute consultation at our JVC clinic includes comprehensive history, examination, pattern identification, and a honest written treatment plan with realistic expectations and pricing — including a clear answer to whether Ayurvedic treatment is right for your specific situation."
+    }]
+
 };
 
 export const weightLossTreatmentLocation = {

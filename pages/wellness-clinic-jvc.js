@@ -260,7 +260,7 @@ const WellnessClinicJVC = () => {
 
       {/* 1. Hero Section */}
       <AyurvedaHero {...wellnessHero} />
-      
+
       {/* 2. Quick Answer Section */}
       <AyurvedaIntro {...wellnessIntro} />
 
