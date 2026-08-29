@@ -265,7 +265,7 @@ const PatraPindaSwedaJVC = () => {
           description: c.description
         }))}
         sidebar={{
-          image: "/images/patra-pinda-sweda-shoulder-treatment-jvc.jpg",
+          image: "/images/patra-pinda-sweda-shoulder-jvc.webp",
           altText: "Practitioner performing Patra Pinda Sweda therapy on a patient’s shoulder",
           width: "w-full",
           height: "h-[550px]",
@@ -360,47 +360,60 @@ const PatraPindaSwedaJVC = () => {
       />
 
       {/* Section 17-22: Experience, Duration, Sessions, Recovery & Aftercare */}
-      <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
-        <div className="max-w-5xl mx-auto space-y-12">
-          {/* What Does Patra Pinda Sweda Feel Like */}
-          <div>
+      <div className="bg-[#FAF7F2] py-16 md:py-24 px-6">
+        <div className="max-w-4xl mx-auto">
+
+          {/* Section Header — centered */}
+          <div className="text-center mb-14">
             <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-3 uppercase">
               PATIENT EXPERIENCE
             </p>
-            <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
-              {patraPindaSwedaExperience.sensation.title}
-            </h3>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl whitespace-pre-line">
-              {patraPindaSwedaExperience.sensation.description}
-            </p>
+            <h2 className="text-3xl md:text-4xl font-serif text-[rgb(26,26,26)] leading-snug">
+              What to Expect During &amp; After Treatment
+            </h2>
+            <div className="mt-4 mx-auto w-12 h-[2px] rounded-full" style={{ backgroundColor: '#C9A55A' }} />
           </div>
 
-          {/* Does Patra Pinda Sweda Hurt */}
-          <div>
-            <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
-              {patraPindaSwedaExperience.pain.title}
-            </h3>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl whitespace-pre-line">
-              {patraPindaSwedaExperience.pain.description}
-            </p>
+          {/* Cards grid: sensation + pain side by side */}
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+
+            {/* What Does Patra Pinda Sweda Feel Like */}
+            <div className="bg-white rounded-2xl p-8 border border-[#E5DFD3] flex flex-col">
+              <h3 className="text-xl md:text-2xl font-serif mb-4 text-[rgb(26,26,26)]">
+                {patraPindaSwedaExperience.sensation.title}
+              </h3>
+              <p className="text-sm text-[rgb(107,107,107)] leading-relaxed whitespace-pre-line flex-1">
+                {patraPindaSwedaExperience.sensation.description}
+              </p>
+            </div>
+
+            {/* Does Patra Pinda Sweda Hurt */}
+            <div className="bg-white rounded-2xl p-8 border border-[#E5DFD3] flex flex-col">
+              <h3 className="text-xl md:text-2xl font-serif mb-4 text-[rgb(26,26,26)]">
+                {patraPindaSwedaExperience.pain.title}
+              </h3>
+              <p className="text-sm text-[rgb(107,107,107)] leading-relaxed whitespace-pre-line flex-1">
+                {patraPindaSwedaExperience.pain.description}
+              </p>
+            </div>
           </div>
 
-          {/* How Long Does a Session Take */}
-          <div>
-            <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
+          {/* How Long Does a Session Take — full width card */}
+          <div className="bg-white rounded-2xl p-8 border border-[#E5DFD3] mb-8">
+            <h3 className="text-xl md:text-2xl font-serif mb-4 text-[rgb(26,26,26)]">
               {patraPindaSwedaExperience.duration.title}
             </h3>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl">
+            <p className="text-sm text-[rgb(107,107,107)] leading-relaxed">
               {patraPindaSwedaExperience.duration.description}
             </p>
           </div>
 
-          {/* How Many Sessions May Be Needed */}
-          <div className="bg-white rounded-2xl p-8 border border-[#E5DFD3]">
-            <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
+          {/* How Many Sessions May Be Needed — highlighted card */}
+          <div className="rounded-2xl p-8 border border-[#C9A55A] mb-8" style={{ backgroundColor: '#FFFBF5' }}>
+            <h3 className="text-xl md:text-2xl font-serif mb-4 text-[rgb(26,26,26)]">
               {patraPindaSwedaExperience.sessions.title}
             </h3>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-6">
+            <p className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-6">
               {patraPindaSwedaExperience.sessions.description}
             </p>
             <ul className="space-y-3 mb-6">
@@ -416,12 +429,12 @@ const PatraPindaSwedaJVC = () => {
             </p>
           </div>
 
-          {/* Recovery */}
-          <div>
-            <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
+          {/* Recovery — full width card */}
+          <div className="bg-white rounded-2xl p-8 border border-[#E5DFD3] mb-6">
+            <h3 className="text-xl md:text-2xl font-serif mb-4 text-[rgb(26,26,26)]">
               {patraPindaSwedaExperience.recovery.title}
             </h3>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-6">
+            <p className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-6">
               {patraPindaSwedaExperience.recovery.description}
             </p>
             <ul className="space-y-3 mb-6">
@@ -432,31 +445,32 @@ const PatraPindaSwedaJVC = () => {
                 </li>
               ))}
             </ul>
-            <p className="text-xs italic text-[rgb(107,107,107)] leading-relaxed max-w-3xl">
+            <p className="text-xs italic text-[rgb(107,107,107)] leading-relaxed">
               {patraPindaSwedaExperience.recovery.footer}
             </p>
           </div>
 
-          {/* Aftercare */}
-          <ContentWithSidebar
-            bgColor="bg-white"
-            label="POST-TREATMENT"
-            title={patraPindaSwedaExperience.aftercare.title}
-            description={patraPindaSwedaExperience.aftercare.description}
-            contentSections={patraPindaSwedaExperience.aftercare.points.map((pt, i) => ({
-              subtitle: `Guidance ${i + 1}`,
-              description: pt
-            }))}
-            sidebar={{
-              image: patraPindaSwedaExperience.aftercare.image,
-              altText: patraPindaSwedaExperience.aftercare.alt,
-              width: "w-full",
-              height: "h-[400px]",
-              borderPosition: "left"
-            }}
-            footer={patraPindaSwedaExperience.aftercare.caption}
-          />
         </div>
+
+        {/* Aftercare — full-width ContentWithSidebar outside constrained container */}
+        <ContentWithSidebar
+          bgColor="bg-white"
+          label="POST-TREATMENT"
+          title={patraPindaSwedaExperience.aftercare.title}
+          description={patraPindaSwedaExperience.aftercare.description}
+          contentSections={patraPindaSwedaExperience.aftercare.points.map((pt, i) => ({
+            subtitle: `Guidance ${i + 1}`,
+            description: pt
+          }))}
+          sidebar={{
+            image: patraPindaSwedaExperience.aftercare.image,
+            altText: patraPindaSwedaExperience.aftercare.alt,
+            width: "w-full",
+            height: "h-[400px]",
+            borderPosition: "left"
+          }}
+          footer={patraPindaSwedaExperience.aftercare.caption}
+        />
       </div>
 
       {/* Section 23-24: Who May Consider vs Who May Not Be Suitable */}
@@ -719,19 +733,20 @@ const PatraPindaSwedaJVC = () => {
 
       {/* PART 5 — RELATED CONDITIONS AND TREATMENTS Section */}
       <section className="bg-[#FAF7F2] py-16 md:py-20 px-6">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-3xl mx-auto text-center">
           <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
             {patraPindaSwedaRelatedConditions.label}
           </p>
-          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
+          <h2 className="text-3xl md:text-4xl font-serif mb-4 text-[rgb(26,26,26)]">
             {patraPindaSwedaRelatedConditions.title}
           </h2>
-          <div className="space-y-4 text-base text-[rgb(107,107,107)] leading-relaxed max-w-4xl">
+          <div className="mt-4 mx-auto w-12 h-[2px] rounded-full mb-8" style={{ backgroundColor: '#C9A55A' }} />
+          <div className="space-y-5 text-sm text-[rgb(107,107,107)] leading-relaxed text-left">
             <p>
-              Stiffness and pain can have many different underlying causes, and Patra Pinda Sweda Therapy in JVC is only one possible part of a broader, individualized Ayurvedic care plan. Because the right treatment depends heavily on what’s actually causing your symptoms, we’d encourage a proper Ayurvedic consultation before assuming this particular therapy is the right fit.
+              Stiffness and pain can have many different underlying causes, and Patra Pinda Sweda Therapy in JVC is only one possible part of a broader, individualized Ayurvedic care plan. Because the right treatment depends heavily on what's actually causing your symptoms, we'd encourage a proper Ayurvedic consultation before assuming this particular therapy is the right fit.
             </p>
             <p>
-              If your concern is specifically knee-related, our <Link href="/treatments/janu-basti-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Janu Basti Treatment in JVC</Link> page covers a different, knee-specific Ayurvedic therapy. For head, sinus, or neck-related concerns, our <Link href="/treatments/nasya-therapy-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Nasya Therapy in JVC</Link> page may be more directly relevant. If you’re interested in broader Ayurvedic oil massage, our <Link href="/treatments/abhyanga-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Abhyanga in JVC</Link> page explains that therapy in more detail, and our <Link href="/treatments/panchakarma-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Panchakarma in JVC</Link> page covers the wider classical Ayurvedic framework that Patra Pinda Sweda can sometimes form part of.
+              If your concern is specifically knee-related, our <Link href="/treatments/janu-basti-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Janu Basti Treatment in JVC</Link> page covers a different, knee-specific Ayurvedic therapy. For head, sinus, or neck-related concerns, our <Link href="/treatments/nasya-therapy-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Nasya Therapy in JVC</Link> page may be more directly relevant. If you're interested in broader Ayurvedic oil massage, our <Link href="/treatments/abhyanga-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Abhyanga in JVC</Link> page explains that therapy in more detail, and our <Link href="/treatments/panchakarma-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Panchakarma in JVC</Link> page covers the wider classical Ayurvedic framework that Patra Pinda Sweda can sometimes form part of.
             </p>
             <p>
               For musculoskeletal concerns with a stronger functional or rehabilitation component — such as building strength or restoring movement after injury — our <Link href="/physiotherapy-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Physiotherapy in JVC</Link> service may be a more directly relevant starting point, either instead of or alongside Ayurvedic therapy. You can also explore our full range of services on our <Link href="/ayurveda-clinic-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Ayurveda Treatment in JVC</Link> page.
@@ -741,39 +756,23 @@ const PatraPindaSwedaJVC = () => {
       </section>
 
       {/* Location Sections */}
-      <ContentWithSidebar
-        bgColor="bg-white"
-        label="OUR LOCATION"
-        title={patraPindaSwedaLocation.title}
-        contentSections={[
-          { subtitle: '', description: patraPindaSwedaLocation.address }
-        ]}
-        sidebar={{
-          image: patraPindaSwedaLocation.image,
-          altText: patraPindaSwedaLocation.alt,
-          width: "w-full",
-          height: "h-[400px]",
-          borderPosition: "left"
-        }}
-        footer={patraPindaSwedaLocation.caption}
-      />
+      <section className="bg-white py-16 md:py-20 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">OUR LOCATION</p>
+          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">{patraPindaSwedaLocation.title}</h2>
+          <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">{patraPindaSwedaLocation.address}</p>
+          <p className="text-sm italic text-[rgb(107,107,107)]">{patraPindaSwedaLocation.caption}</p>
+        </div>
+      </section>
 
-      <ContentWithSidebar
-        bgColor="bg-[#F5F0E8]"
-        label="LOCAL ACCESSIBILITY"
-        title={patraPindaSwedaWhyJvc.title}
-        contentSections={[
-          { subtitle: '', description: patraPindaSwedaWhyJvc.description }
-        ]}
-        sidebar={{
-          image: patraPindaSwedaWhyJvc.image,
-          altText: patraPindaSwedaWhyJvc.alt,
-          width: "w-full",
-          height: "h-[400px]",
-          borderPosition: "right"
-        }}
-        footer={patraPindaSwedaWhyJvc.caption}
-      />
+      <section className="bg-[#F5F0E8] py-16 md:py-20 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">LOCAL ACCESSIBILITY</p>
+          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">{patraPindaSwedaWhyJvc.title}</h2>
+          <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">{patraPindaSwedaWhyJvc.description}</p>
+          <p className="text-sm italic text-[rgb(107,107,107)]">{patraPindaSwedaWhyJvc.caption}</p>
+        </div>
+      </section>
 
       <TreatmentLocation
         bgColor="bg-[#FAF7F2]"

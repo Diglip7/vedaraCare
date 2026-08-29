@@ -23,7 +23,7 @@ export const pizhichilHero = {
     title: "Warm Oil Bath Therapy",
     subtitle: "Pizhichil (Sarvanga Dhara / Kaya Seka) combines continuous warm medicated oil pouring with synchronized massage under practitioner supervision."
   },
-  image: "/images/pizhichil-treatment-room-setup-jvc.jpg",
+  image: "/images/pizhichil-treatment-room-setup-jvc.webp",
   alt: "Treatment room set up for Pizhichil therapy at an Ayurveda clinic in JVC",
   caption: "A quiet, prepared space is part of a supervised Pizhichil session."
 };
@@ -44,7 +44,7 @@ export const pizhichilWhatIs = {
     "What sets Pizhichil apart from an ordinary oil massage is the continuous or repeated stream of warm liquid that accompanies the massage strokes. A standard massage applies oil to the skin and works it in through pressure and movement. Pizhichil adds a further layer — liquid is poured over the body in a monitored, rhythmic manner, sometimes from a cloth or vessel, while the massage continues underneath it. It is this combination of pouring and kneading, sustained over a period of time, that traditional Ayurvedic texts associate with a distinct therapeutic experience compared to massage alone.",
     "It is worth being upfront that Ayurvedic terminology is not perfectly standardised across every clinic or lineage. Some practitioners use Pizhichil and Sarvanga Dhara interchangeably, while others draw finer distinctions based on the liquid used, the technique, or the region the tradition originates from. This page describes Pizhichil in general terms; the exact protocol followed at any given visit is set by the treating practitioner."
   ],
-  image: "/images/pizhichil-treatment-room-setup-jvc.jpg",
+  image: "/images/pizhichil-room-setup-jvc.webp",
   alt: "Pizhichil therapy setup at Vedara Care Polyclinic in JVC",
   caption: "Pizhichil combines continuous warm liquid pouring with rhythmic massage."
 };
@@ -65,7 +65,7 @@ export const pizhichilUsedDuring = {
   title: "What Is Used During Pizhichil?",
   description: "Pizhichil may involve medicated oils, herbal oil preparations, or other liquids selected specifically for the purpose of the session. There is no single, universal formula used across every clinic — the selection is a clinical decision made by the treating Ayurvedic practitioner, not a fixed recipe applied to every patient.",
   content: "Factors that may influence what is chosen include the practitioner's Ayurvedic assessment of the patient, the individual's constitution, the objective of the treatment, the specific body area being addressed, the patient's skin sensitivity, and relevant medical history.",
-  image: "/images/ayurvedic-practitioner-preparing-oil-jvc.jpg",
+  image: "/images/ayurvedic-practitioner-preparing-oil-jvc.webp",
   alt: "Ayurvedic practitioner preparing medicated oil for Pizhichil therapy in JVC",
   caption: "Oil selection and preparation follow individual Ayurvedic assessment.",
   footer: "Because this decision is individualized, we do not describe a specific product or formulation as 'the' Pizhichil oil used at Vedara Care — that detail is something your practitioner will discuss with you directly during consultation."
@@ -84,7 +84,7 @@ export const pizhichilFeelLike = {
   label: "SENSORY EXPERIENCE",
   title: "What Does Pizhichil Feel Like?",
   description: "Patients commonly describe a sensation of gentle, sustained warmth as the oil flows over the skin, paired with the rhythm of light massage strokes underneath. Many find the herbal aroma of the oil and the quiet, unhurried pace of the session contribute to an overall feeling of relaxation. The oil temperature should always remain within a comfortable range — never uncomfortably hot.",
-  image: "/images/patient-receiving-pizhichil-oil-therapy-jvc.jpg",
+  image: "/images/patient-receiving-pizhichil-oil-therapy-jvc.webp",
   alt: "Patient receiving Pizhichil warm oil therapy at a JVC Ayurveda clinic",
   caption: "Sessions are supervised throughout by a trained practitioner.",
   footer: "If, at any point, the oil feels excessively warm, or the sensation becomes uncomfortable rather than soothing, you should tell your therapist immediately so the temperature or flow can be adjusted. A well-run Pizhichil session depends on this kind of open communication between patient and therapist throughout the treatment."
@@ -105,7 +105,7 @@ export const pizhichilHowPerformed = {
     { title: "Step 8 — Completion", description: "The session concludes according to the plan set out for you, rather than a fixed universal endpoint." },
     { title: "Step 9 — Post-treatment guidance", description: "You receive individualized aftercare guidance based on how your body responded and what the practitioner recommends going forward." }
   ],
-  image: "/images/controlled-oil-pouring-pizhichil-technique.jpg",
+  image: "/images/controlled-oil-pouring-pizhichil-technique.webp",
   alt: "Practitioner performing controlled warm oil pouring during Pizhichil therapy",
   caption: "A rhythmic, monitored pour is central to the Pizhichil technique."
 };
@@ -275,7 +275,7 @@ export const pizhichilHeatSafety = {
     "Dizziness",
     "Dehydration or general discomfort"
   ],
-  image: "/images/warm-oil-preparation-ayurveda-jvc.jpg",
+  image: "/images/warm-oil-preparation-ayurveda-jvc.webp",
   alt: "Warm oil being prepared safely for Ayurvedic Pizhichil therapy",
   caption: "Temperature control begins before the session, not during it.",
   footer: "You should always be able to communicate clearly with your therapist if the oil temperature feels uncomfortable, and a properly run session depends on that communication being welcomed and acted on immediately. Pizhichil should never be attempted at home or without a trained practitioner — improvised or DIY versions carry real risk of burns and should be avoided."
@@ -295,7 +295,7 @@ export const pizhichilPracticalGuidance = {
       "After your session, allow yourself some time to rest rather than rushing straight into a demanding activity. Follow whatever specific instructions your practitioner gives you.",
       "If advised, avoid sudden exposure to extreme temperatures immediately afterward. Maintain your normal hydration unless you have been medically advised otherwise, and follow any dietary guidance your practitioner provides. These are general principles, not rigid universal rules — your aftercare should reflect what your practitioner recommends for you specifically."
     ],
-    image: "/images/post-treatment-consultation-pizhichil-jvc.jpg",
+    image: "/images/post-treatment-consultation-pizhichil-jvc.webp",
     alt: "Practitioner giving aftercare guidance following a Pizhichil therapy session",
     caption: "Aftercare guidance is individualized, not one-size-fits-all."
   },
@@ -450,7 +450,7 @@ export const pizhichilFAQ = {
 export const pizhichilLocation = {
   title: "Pizhichil Therapy in Jumeirah Village Circle",
   address: "For residents of JVC and nearby areas such as Al Barsha South, accessing traditional Ayurvedic therapies close to home can make it easier to follow through on a treatment plan that may involve more than one visit. Vedara Care Polyclinic is located at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE, offering Pizhichil Therapy alongside a wider range of Ayurvedic services for patients across JVC and the broader Dubai area. Whether you are new to Ayurveda or have experience with therapies such as Abhyanga or Panchakarma elsewhere, a proper consultation is the starting point for understanding whether Pizhichil fits your particular situation.",
-  image: "/images/ayurveda-treatment-room-vedara-care-jvc.jpg",
+  // image: "/images/ayurveda-treatment-room-vedara-care-jvc.jpg",
   alt: "Ayurveda treatment room at Vedara Care Polyclinic in Jumeirah Village Circle",
   caption: "Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, JVC, Dubai"
 };

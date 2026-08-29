@@ -4,7 +4,7 @@ export const shirodharaHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Shirodhara in Dubai", active: true }
   ],
-  label: "SHIRODHARA OIL THERAPY IN DUBAI • DHA-LICENSED",
+  label: "SHIRODHARA OIL THERAPY IN DUBAI • DHA-LICENSED 2509266",
   title: "Warm oil. A copper vessel. Forty-five minutes of stillness on the forehead.",
   description: "Classical Shirodhara — the continuous warm medicated oil stream poured rhythmically across the forehead. Doctor-prescribed at our DHA-licensed clinic in JVC, Dubai, for <a href='/conditions/stress-anxiety-ayurveda-dubai/' class=' hover:underline transition-colors'>chronic stress</a>, <a href='/conditions/insomnia-ayurveda-dubai/' class=' hover:underline transition-colors'>insomnia</a>, <a href='/conditions/stress-anxiety-ayurveda-dubai/' class=' hover:underline transition-colors'>anxiety</a>, and <a href='/conditions/migraine-ayurveda-dubai/' class='hover:underline transition-colors'>migraine</a>.",
   primaryCTA: "Book a Shirodhara Consultation",
@@ -25,7 +25,7 @@ export const shirodharaIntro = {
   label: "THE QUICK ANSWER",
   title: "Shirodhara in Dubai, in one paragraph.",
   blockquote: "Shirodhara (शिरोधారా) is the classical Ayurvedic therapy in which a continuous stream of warm medicated oil is poured rhythmically across the forehead — specifically targeting the Ajna marma point above and between the eyebrows — for 30 to 60 minutes. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Shirodhara is doctor-prescribed by BAMS-qualified physicians for <a href='/conditions/insomnia-ayurveda-dubai/' class=' hover:underline transition-colors'>chronic insomnia</a>, <a href='/conditions/stress-anxiety-ayurveda-dubai/' class=' hover:underline transition-colors'>anxiety</a>, <a href='/conditions/migraine-ayurveda-dubai/' class=' hover:underline transition-colors'>migraine</a>, ADHD support, and stress-related disorders. Sessions start from AED 450 and are often most powerful when delivered as a 7 to 14-session course.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const shirodharaMechanism = {

@@ -19,6 +19,8 @@ const DoctorArticles = ({ doctor }) => {
           }));
           setPosts(postsWithData.slice(0, 3)); // Show 3 latest
         }
+      } catch (error) {
+        // Suppress error to avoid Next.js dev overlay
       } finally {
         setLoading(false);
       }

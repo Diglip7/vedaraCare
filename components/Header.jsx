@@ -31,7 +31,7 @@ const AYURVEDA_TREATMENTS = [
   { href: '/treatments/panchakarma-jvc', label: 'Panchakarma in JVC' },
   { href: '/treatments/shirodhara-dubai', label: 'Shirodhara' },
   { href: '/treatments/pizhichil-jvc', label: 'Pizhichil in JVC' },
-  { href: '/treatments/janu-basti-jvs', label: 'Janu Basti in JVC' },
+  { href: '/treatments/janu-basti-jvc', label: 'Janu Basti in JVC' },
   { href: '/treatments/nasya-therapy-jvc', label: 'Nasya Therapy in JVC' },
   { href: '/treatments/patra-pinda-sweda-jvc', label: 'Patra Pinda Sweda in JVC' }
 
@@ -85,6 +85,15 @@ const DERMATOLOGY_TREATMENTS = [
   { href: '/carbon-laser-peel-jvc', label: 'Carbon Laser Peel' },
   { href: '/treatments/prp-hair-dubai', label: 'PRP Hair Treatment' },
   { href: '/treatments/skin-rejuvenation-jvc', label: 'Skin Rejuvenation' },
+  { href: '/treatments/fractional-co2-laser-jvc', label: 'Fractional CO2 Laser in JVC' },
+  { href: '/treatments/laser-pigmentation-removal-jvc', label: 'Laser Pigmentation Removal' },
+  { href: '/treatments/laser-scar-removal-jvc', label: 'Laser Scar Removal in JVC' },
+  { href: '/treatments/skin-tightening-treatment-jvc', label: 'Skin Tightening Treatment in JVC' },
+  { href: '/treatments/non-surgical-facelift-jvc', label: 'Non-Surgical Facelift in JVC' },
+  { href: "/treatments/skin-tag-removal-jvc", label: 'Skin Tag Removal in JVC' },
+  { href: "/treatments/mole-removal-jvc", label: 'Mole Removal in JVC' },
+  { href: '/treatments/laser-skin-tightening-jvc', label: 'Laser Skin Tightening in JVC' },
+
 ];
 
 const HOME_HEALTHCARE_PAGES = [

@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { drPriyaNair } from '../../data/doctorData';
+import { drPriyaNair, drNeethu } from '../../data/doctorData';
 
 const practitioners = [
   {
@@ -12,6 +12,15 @@ const practitioners = [
     alt: drPriyaNair.alt,
     slug: 'dr-priya-nair-ayurveda',
     url: '/doctors/dr-priya-nair-ayurveda'
+  },
+  {
+    name: 'Dr. Neethu',
+    specialty: 'Ayurveda Practitioner · BAMS',
+    focus: 'PCOS, Nadi Pareeksha, Musculoskeletal, Postnatal',
+    image: drNeethu.image,
+    alt: drNeethu.alt,
+    slug: 'dr-neethu-ayurveda',
+    url: '/doctors/dr-neethu-ayurveda'
   },
   // {
   //   name: 'Dr. Meera Krishnan',
@@ -76,6 +85,15 @@ const practitioners = [
     alt: 'Johanna Dianne U. Bautista, Front Desk Receptionist at Vedara Care, JVC',
     slug: 'johanna-bautista',
     url: '/doctors/johanna-bautista'
+  },
+  {
+    name: 'Dr. Sanjida Islam Suchana',
+    specialty: 'General Practitioner | Clinical Dermatology',
+    focus: 'Skin Health, Primary Care, Women\'s Health & Infertility',
+    image: '/images/default-avatar.png',
+    alt: 'Dr. Sanjida Islam Suchana, DHA-licensed General Practitioner at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'dr-sanjida-islam-suchana',
+    url: '/doctors/dr-sanjida-islam-suchana'
   }
 ];
 

@@ -29,7 +29,7 @@ export const physiotherapyIntro = {
   label: "THE QUICK ANSWER",
   title: "Physiotherapy in Dubai at Vedara Care, in one paragraph.",
   blockquote: "Physiotherapy in Dubai is provided across many clinics with significantly varying quality. Vedara Care Polyclinic offers comprehensive DHA-licensed physiotherapy at our Jumeirah Village Circle (JVC) clinic — walking distance from Circle Mall, with patients traveling from across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. Our DPT-qualified physiotherapists cover seven specialised areas: musculoskeletal physiotherapy, sports physiotherapy, post-surgical rehabilitation, neurological rehabilitation, women's health physiotherapy, paediatric physiotherapy, and cardiopulmonary rehabilitation. We offer integrated Ayurveda + physiotherapy programmes for specific chronic conditions where combined care produces stronger outcomes. Single sessions from AED 350; structured programmes from AED 1,800. Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-  footer: "Medically reviewed by Dr. Sarah Mitchell, DPT, DHA-Licensed · Last updated 2026"
+  footer: "Medically reviewed by Dr. Sarah Mitchell, DPT, DHA-Licensed 2509266 · Last updated 2026"
 };
 
 export const physiotherapyMechanism = {

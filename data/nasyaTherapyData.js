@@ -23,7 +23,7 @@ export const nasyaTherapyHero = {
     title: "Ayurvedic Nasal Care",
     subtitle: "Nasya is a traditional Ayurvedic therapy in which a selected medicated preparation is administered through the nasal passages under practitioner guidance."
   },
-  image: "/images/nasya-procedure-jvc-ayurveda.webp",
+  image: "/images/nasya-therapy.jvc.webp.webp",
   alt: "Nasya Therapy procedure consultation at Vedara Care Polyclinic in JVC",
   caption: "Every Nasya plan begins with an individual consultation."
 };
@@ -32,7 +32,7 @@ export const nasyaTherapyIntro = {
   label: "THE QUICK ANSWER",
   title: "What is Nasya Therapy in JVC?",
   blockquote: "Nasya is a traditional Ayurvedic therapy that involves administering an appropriate medicated preparation through the nasal passages, carried out under practitioner guidance rather than at home. Within classical Ayurvedic thought, the nasal route has long been connected to the care of the head and neck region, and Nasya is one of several therapies practitioners may draw on when addressing concerns in this area.\n\nThe specific preparation used, and the way the treatment is carried out, can vary considerably from patient to patient. A practitioner will typically take into account your individual constitution, your current symptoms, what you're hoping to achieve from treatment, and their own clinical assessment before deciding on an appropriate protocol — there isn't a single standard version of Nasya that applies to everyone.\n\nPeople sometimes look into Nasya Therapy in JVC as part of a broader Ayurvedic care plan for selected concerns involving the nose, sinuses, head, or neck. That said, it's important to be upfront: Nasya is not appropriate for every person, and it is not a default answer for every sinus issue or headache. Whether it has a place in your care depends on a proper individual assessment.",
-  footer: "Reviewed by Ayurveda Team, DHA-Licensed · Last updated August 2026"
+  // footer: "Reviewed by Ayurveda Team, DHA-Licensed · Last updated August 2026"
 };
 
 export const nasyaTherapyExplanation = {
@@ -43,7 +43,7 @@ export const nasyaTherapyExplanation = {
     "Ayurvedic tradition has, for centuries, described the nose as a route with a particular connection to the head — sometimes referred to in classical texts using language along the lines of the nose being a \"gateway\" relevant to the head region. It's worth being clear about what this means and doesn't mean: this is a traditional Ayurvedic concept describing the rationale behind the therapy, not an established anatomical or biomedical claim about brain function. We mention it here because it helps explain why Ayurvedic practitioners have historically directed treatment toward the head and neck through the nasal route — not as a statement of modern medical fact.",
     "It's also worth distinguishing therapeutic Nasya, as practiced in a clinical Ayurvedic setting, from the casual, informal use of nasal oils some people may have come across outside of a professional context. Therapeutic Nasya is meant to be carried out under supervision, using a preparation and protocol chosen specifically for the individual — not a generic routine performed without assessment. This distinction matters both for safety and for whether the treatment is likely to be appropriate for your particular situation."
   ],
-  image: "/images/nasya-procedure-jvc-ayurveda.webp",
+  image: "/images/nasya-therapy-jvc.webp",
   alt: "Nasya Ayurvedic nasal therapy being prepared at a JVC clinic",
   caption: "A selected medicated preparation is administered through the nasal passages under practitioner supervision."
 };
@@ -55,7 +55,7 @@ export const nasyaTherapyPanchakarma = {
     "Nasya is often mentioned alongside Panchakarma, the broader classical Ayurvedic framework of purification-oriented therapies, and it's worth clarifying how the two relate. Nasya is traditionally recognized as one of the therapies that can form part of a Panchakarma programme. However, receiving Nasya on its own does not automatically mean you are undergoing a full Panchakarma course — the two are not the same thing, and a single Nasya session is not equivalent to a complete Panchakarma protocol.",
     "Whether Nasya is offered as a standalone therapy or as part of a broader multi-therapy Panchakarma plan depends entirely on your practitioner's assessment of your symptoms, goals, and overall health. At Vedara Care, Nasya is listed among the classical Ayurvedic therapies offered as part of our JVC Ayurveda service, and it's discussed with each patient in relation to their specific head, sinus, or neck-related concerns — not applied as a default add-on to every visit."
   ],
-  image: "/images/panchakarma-droni-treatment-room-jvc.webp",
+  image: "/images/nasya-pan-jvc.webp",
   alt: "Ayurvedic Panchakarma treatment environment at Vedara Care JVC",
   caption: "Nasya may be offered as a standalone therapy or as part of a broader Panchakarma plan, depending on assessment."
 };
@@ -115,7 +115,7 @@ export const nasyaTherapyConcerns = {
     },
     {
       title: "Nasya and Migraine",
-      description: "Migraine deserves particularly careful treatment on a page like this, because it is a recognized neurological condition, not simply a severe headache. Migraine symptoms and triggers vary considerably from person to person, and established migraine management — whether through medication, trigger identification, or specialist care — should not be replaced by Ayurvedic therapy alone.\n\nIf you have diagnosed migraine and are considering Nasya, it's important to continue discussing your ongoing migraine treatment with the healthcare professional managing that condition. In selected cases, and following proper assessment, Nasya may be considered as a complementary Ayurvedic approach alongside your existing care — but it is not presented here as a cure for migraine, and it should not be treated as one."
+      description: "Migraine deserves particularly careful treatment on a page like this, because it is a recognized neurological condition, not simply a severe headache. Migraine symptoms and triggers vary considerably from person to person, and established migraine management — whether through medication, trigger identification, or specialist care — should not be replaced by Ayurvedic therapy alone.If you have diagnosed migraine and are considering Nasya, it's important to continue discussing your ongoing migraine treatment with the healthcare professional managing that condition. In selected cases, and following proper assessment, Nasya may be considered as a complementary Ayurvedic approach alongside your existing care — but it is not presented here as a cure for migraine, and it should not be treated as one."
     },
     {
       title: "Nasya for Neck Stiffness",
@@ -123,7 +123,7 @@ export const nasyaTherapyConcerns = {
     },
     {
       title: "Nasya for Head Heaviness and Nasal Discomfort",
-      description: "Patients sometimes describe a cluster of related sensations — head heaviness, nasal blockage, facial pressure, dryness, or general congestion — that don't necessarily point to one single diagnosis. These descriptions are genuinely useful during a consultation, but on their own they don't establish what's actually causing the symptoms.\n\nIf these symptoms are mild, occasional, or clearly linked to something like seasonal changes, they may be reasonable to discuss within an Ayurvedic consultation. If they are persistent, worsening, or accompanied by other symptoms, we'd encourage a proper assessment — Ayurvedic or conventional — rather than assuming a cause and proceeding straight to treatment."
+      description: "Patients sometimes describe a cluster of related sensations — head heaviness, nasal blockage, facial pressure, dryness, or general congestion — that don't necessarily point to one single diagnosis. These descriptions are genuinely useful during a consultation, but on their own they don't establish what's actually causing the symptoms.If these symptoms are mild, occasional, or clearly linked to something like seasonal changes, they may be reasonable to discuss within an Ayurvedic consultation. If they are persistent, worsening, or accompanied by other symptoms, we'd encourage a proper assessment — Ayurvedic or conventional — rather than assuming a cause and proceeding straight to treatment."
     }
   ]
 };
@@ -257,7 +257,7 @@ export const nasyaTherapyExperience = {
 export const nasyaTherapyLocation = {
   title: "Nasya Therapy at Vedara Care Polyclinic",
   address: "Vedara Care Polyclinic is located at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE. Patients considering Nasya Therapy in JVC begin with a consultation and individual assessment, so that any treatment plan reflects their specific head, sinus, or neck concern, medical history, and goals rather than a one-size-fits-all approach.\n\nOur approach centres on personalised Ayurvedic care planning: understanding your symptoms, your history, and your objectives before recommending whether Nasya genuinely fits your needs, and explaining clearly what it can realistically support within a responsible framework. Patient education is part of every consultation, so you leave understanding not just what the treatment involves, but why it has (or has not) been recommended for your specific concern.",
-  image: "/images/vedara-care-ayurveda-clinic-jvc-dubai.webp",
+  image: "",
   alt: "Vedara Care Polyclinic Ayurveda clinic environment in Jumeirah Village Circle, Dubai",
   caption: "Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, JVC, Dubai"
 };
@@ -265,7 +265,7 @@ export const nasyaTherapyLocation = {
 export const nasyaTherapyWhyJvc = {
   title: "Why Choose Nasya Therapy in JVC?",
   description: "Jumeirah Village Circle has grown into one of Dubai's most established residential communities, with a steady population of residents from neighbouring areas including Al Barsha South, Jumeirah Village Triangle, Dubai Sports City and Motor City who look locally for Ayurvedic therapy options rather than travelling across the city. For a traditional, session-based therapy like Nasya — where a course of sessions rather than a single visit is often involved — having a clinic within the community makes it far more practical to stay consistent with a treatment plan.",
-  image: "/images/ayurveda-clinic-jvc-hero.webp",
+  image: "",
   alt: "Ayurvedic consultation and Nasya planning session at a JVC clinic",
   caption: "A proper assessment helps confirm whether Nasya is suitable for your head, sinus, or neck concern."
 };

@@ -4,7 +4,7 @@ export const hairLossTreatmentHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Hair Loss Treatment in JVC", active: true }
   ],
-  label: "HAIR LOSS TREATMENT · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "HAIR LOSS TREATMENT · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
   title: "Hair loss treatment in JVC. Every type of hair loss. Every gender. Honest expectations.",
   description: "Specialist hair loss treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists treating male pattern hair loss, female pattern hair loss, postnatal hair loss, alopecia areata, telogen effluvium, and scalp conditions. Comprehensive workup including hormonal evaluation, nutritional assessment, and trichoscopy. Realistic expectations: hair treatment requires months not weeks; most patients see meaningful improvement with structured intervention.",
   primaryCTA: "Book Hair Loss Consultation",
@@ -27,7 +27,7 @@ export const hairLossTreatmentIntro = {
   label: "THE QUICK ANSWER",
   title: "Hair loss treatment at Vedara Care, in one paragraph.",
   blockquote: "Hair loss treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is comprehensive medical hair loss care delivered by DHA-licensed consultant dermatologists. We treat male pattern hair loss (androgenetic alopecia), female pattern hair loss, postnatal hair loss (telogen effluvium after childbirth), alopecia areata (autoimmune patchy hair loss), telogen effluvium from stress, illness, or nutritional causes, traction alopecia from tight hairstyles, and scalp conditions affecting hair growth. Treatment begins with comprehensive workup — detailed history, scalp examination, trichoscopy, hormonal evaluation, nutritional assessment, and blood work for underlying contributors. Evidence-based treatments include topical minoxidil, oral finasteride or dutasteride, hormonal treatments for female pattern hair loss, PRP (platelet-rich plasma) injections, hair mesotherapy with growth factors, scalp microneedling, and typically coordination with qualified hair transplant surgeons when appropriate. Meaningful results visible at 4–6 months with continued improvement at 12 months. Patients travel to our JVC clinic from across Dubai.",
-  footer: "Medically reviewed by Lead Consultant Dermatologist, MD, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Lead Consultant Dermatologist, MD, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const hairLossUnderstanding = {
@@ -538,7 +538,7 @@ export const hairLossTreatmentFaqs = {
 
 export const hairLossTreatmentLocation = {
   sections: [
-    { label: "Address", content: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeraih Village Circle (JVC) Dubai" },
+    { label: "Address", content: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai" },
     { label: "Phone", content: "+971 55 573 6312" },
     { label: "Clinic Hours", content: "Sunday - Saturday: 9:00AM to 10:00PM" }
   ],

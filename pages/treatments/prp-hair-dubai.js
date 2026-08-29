@@ -39,7 +39,7 @@ const PrpHairTreatment = () => {
       "name": "Vedara Care PRP Hair Treatment JVC",
       "alternateName": ["Vedara PRP Hair JVC", "Vedara Platelet-Rich Plasma Hair Treatment Dubai", "Vedara PRP Hair Restoration"],
       "url": currentUrl,
-      "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
+      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist PRP hair treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists delivering evidence-based standardised platelet-rich plasma therapy with combination approach.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 20,000",
@@ -59,7 +59,7 @@ const PrpHairTreatment = () => {
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
           "opens": "09:00",
           "closes": "21:00"
         },
@@ -71,28 +71,28 @@ const PrpHairTreatment = () => {
         }
       ],
       "areaServed": [
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Mirdif"}
+        { "@type": "Place", "name": "Jumeirah Village Circle" },
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "Jumeirah Village Triangle" },
+        { "@type": "Place", "name": "Al Barsha South" },
+        { "@type": "Place", "name": "Dubai Sports City" },
+        { "@type": "Place", "name": "Motor City" },
+        { "@type": "Place", "name": "Arjan" },
+        { "@type": "Place", "name": "Dubai Hills Estate" },
+        { "@type": "Place", "name": "Dubai Marina" },
+        { "@type": "Place", "name": "Downtown Dubai" },
+        { "@type": "Place", "name": "Palm Jumeirah" },
+        { "@type": "Place", "name": "Mirdif" }
       ],
       "medicalSpecialty": ["Dermatology", "Hair Restoration", "PRP Therapy", "Aesthetic Dermatology"],
       "isAcceptingNewPatients": true,
       "availableService": [
-        {"@type": "MedicalProcedure", "name": "PRP Hair Treatment"},
-        {"@type": "MedicalProcedure", "name": "Platelet-Rich Plasma Therapy for Hair"},
-        {"@type": "MedicalProcedure", "name": "PRP with Combination Medications"},
-        {"@type": "MedicalProcedure", "name": "Hair Loss Assessment"},
-        {"@type": "MedicalProcedure", "name": "Trichoscopy"},
-        {"@type": "MedicalProcedure", "name": "Postpartum Hair Loss Treatment"}
+        { "@type": "MedicalProcedure", "name": "PRP Hair Treatment" },
+        { "@type": "MedicalProcedure", "name": "Platelet-Rich Plasma Therapy for Hair" },
+        { "@type": "MedicalProcedure", "name": "PRP with Combination Medications" },
+        { "@type": "MedicalProcedure", "name": "Hair Loss Assessment" },
+        { "@type": "MedicalProcedure", "name": "Trichoscopy" },
+        { "@type": "MedicalProcedure", "name": "Postpartum Hair Loss Treatment" }
       ],
       "memberOf": {
         "@type": "Organization",
@@ -109,9 +109,9 @@ const PrpHairTreatment = () => {
 
     // Schema 2: Medical Procedure Entities
     ...[
-      {"@context": "https://schema.org", "@type": "MedicalProcedure", "name": "PRP Hair Treatment", "alternateName": "Platelet-Rich Plasma Hair Treatment", "procedureType": "https://schema.org/PercutaneousProcedure", "howPerformed": "Blood draw, centrifugation to concentrate platelets, injection of PRP into scalp hair loss areas. Typical protocol 4-6 initial monthly sessions followed by maintenance every 3-6 months.", "preparation": "Comprehensive dermatology consultation and hair assessment", "followup": "Monthly for initial sessions; every 3-6 months for maintenance"},
-      {"@context": "https://schema.org", "@type": "MedicalProcedure", "name": "PRP with Combination Medications", "procedureType": "https://schema.org/TherapeuticProcedure", "howPerformed": "PRP treatment combined with topical minoxidil, and for appropriate patients systemic medications (finasteride, dutasteride, hormonal treatment) for superior outcomes"},
-      {"@context": "https://schema.org", "@type": "MedicalProcedure", "name": "Trichoscopy", "procedureType": "https://schema.org/DiagnosticProcedure", "howPerformed": "Dermoscopic examination of scalp and hair for diagnostic assessment"}
+      { "@context": "https://schema.org", "@type": "MedicalProcedure", "name": "PRP Hair Treatment", "alternateName": "Platelet-Rich Plasma Hair Treatment", "procedureType": "https://schema.org/PercutaneousProcedure", "howPerformed": "Blood draw, centrifugation to concentrate platelets, injection of PRP into scalp hair loss areas. Typical protocol 4-6 initial monthly sessions followed by maintenance every 3-6 months.", "preparation": "Comprehensive dermatology consultation and hair assessment", "followup": "Monthly for initial sessions; every 3-6 months for maintenance" },
+      { "@context": "https://schema.org", "@type": "MedicalProcedure", "name": "PRP with Combination Medications", "procedureType": "https://schema.org/TherapeuticProcedure", "howPerformed": "PRP treatment combined with topical minoxidil, and for appropriate patients systemic medications (finasteride, dutasteride, hormonal treatment) for superior outcomes" },
+      { "@context": "https://schema.org", "@type": "MedicalProcedure", "name": "Trichoscopy", "procedureType": "https://schema.org/DiagnosticProcedure", "howPerformed": "Dermoscopic examination of scalp and hair for diagnostic assessment" }
     ],
 
     // Schema 3: Service with OfferCatalog
@@ -119,21 +119,21 @@ const PrpHairTreatment = () => {
       "@context": "https://schema.org",
       "@type": "Service",
       "name": "PRP Hair Treatment Services at JVC Dubai",
-      "provider": {"@id": `${currentUrl}#prp-hair`},
-      "areaServed": [{"@type": "Place", "name": "Jumeirah Village Circle"}, {"@type": "City", "name": "Dubai"}, {"@type": "Place", "name": "United Arab Emirates"}],
+      "provider": { "@id": `${currentUrl}#prp-hair` },
+      "areaServed": [{ "@type": "Place", "name": "Jumeirah Village Circle" }, { "@type": "City", "name": "Dubai" }, { "@type": "Place", "name": "United Arab Emirates" }],
       "serviceType": "PRP Hair Restoration Therapy",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "PRP Hair Treatment Services",
         "itemListElement": [
-          {"@type": "Offer", "name": "Initial Hair Consultation", "priceCurrency": "AED", "price": "650"},
-          {"@type": "Offer", "name": "Comprehensive Hair Workup", "priceCurrency": "AED", "price": "450"},
-          {"@type": "Offer", "name": "Single PRP Hair Session", "priceCurrency": "AED", "price": "1800"},
-          {"@type": "Offer", "name": "PRP Hair Package 4 Sessions", "priceCurrency": "AED", "price": "6500"},
-          {"@type": "Offer", "name": "PRP Hair Package 6 Sessions", "priceCurrency": "AED", "price": "9200"},
-          {"@type": "Offer", "name": "Maintenance PRP Session", "priceCurrency": "AED", "price": "1500"},
-          {"@type": "Offer", "name": "Combination Programme 6 Months", "priceCurrency": "AED", "price": "12500"},
-          {"@type": "Offer", "name": "Comprehensive 12-Month Programme", "priceCurrency": "AED", "price": "20000"}
+          { "@type": "Offer", "name": "Initial Hair Consultation", "priceCurrency": "AED", "price": "650" },
+          { "@type": "Offer", "name": "Comprehensive Hair Workup", "priceCurrency": "AED", "price": "450" },
+          { "@type": "Offer", "name": "Single PRP Hair Session", "priceCurrency": "AED", "price": "1800" },
+          { "@type": "Offer", "name": "PRP Hair Package 4 Sessions", "priceCurrency": "AED", "price": "6500" },
+          { "@type": "Offer", "name": "PRP Hair Package 6 Sessions", "priceCurrency": "AED", "price": "9200" },
+          { "@type": "Offer", "name": "Maintenance PRP Session", "priceCurrency": "AED", "price": "1500" },
+          { "@type": "Offer", "name": "Combination Programme 6 Months", "priceCurrency": "AED", "price": "12500" },
+          { "@type": "Offer", "name": "Comprehensive 12-Month Programme", "priceCurrency": "AED", "price": "20000" }
         ]
       }
     },
@@ -143,9 +143,9 @@ const PrpHairTreatment = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://vedaracare.ae/treatments/"},
-        {"@type": "ListItem", "position": 3, "name": "PRP Hair Treatment in JVC Dubai", "item": currentUrl}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://vedaracare.ae/treatments/" },
+        { "@type": "ListItem", "position": 3, "name": "PRP Hair Treatment in JVC Dubai", "item": currentUrl }
       ]
     },
 
@@ -156,7 +156,7 @@ const PrpHairTreatment = () => {
       "mainEntity": prpHairFAQ.faqs.map((faq) => ({
         "@type": "Question",
         "name": faq.question,
-        "acceptedAnswer": {"@type": "Answer", "text": faq.answer}
+        "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
       }))
     },
 
@@ -168,12 +168,12 @@ const PrpHairTreatment = () => {
       "image": "https://vedaracare.ae/images/prp-hair-jvc-dubai-hero.jpg",
       "datePublished": publishedDate,
       "dateModified": modifiedDate,
-      "author": {"@type": "Physician", "name": "Lead Consultant Dermatologist", "url": "https://vedaracare.ae/dermatologists/"},
-      "publisher": {"@type": "Organization", "name": "Vedara Care Polyclinic", "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}},
+      "author": { "@type": "Physician", "name": "Lead Consultant Dermatologist", "url": "https://vedaracare.ae/dermatologists/" },
+      "publisher": { "@type": "Organization", "name": "Vedara Care Polyclinic", "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" } },
       "about": [
-        {"@type": "MedicalProcedure", "name": "PRP Hair Treatment"},
-        {"@type": "MedicalProcedure", "name": "Platelet-Rich Plasma Therapy"},
-        {"@type": "MedicalCondition", "name": "Androgenetic Alopecia"}
+        { "@type": "MedicalProcedure", "name": "PRP Hair Treatment" },
+        { "@type": "MedicalProcedure", "name": "Platelet-Rich Plasma Therapy" },
+        { "@type": "MedicalCondition", "name": "Androgenetic Alopecia" }
       ],
       "mainEntityOfPage": currentUrl
     },
@@ -187,10 +187,10 @@ const PrpHairTreatment = () => {
       "image": `https://vedaracare.ae${member.image}`,
       "medicalSpecialty": ["Dermatology", "Hair Restoration", "PRP Therapy", ...member.specialties],
       "hasCredential": ["MD", "Dermatology Board Certification", "DHA-Licensed Consultant Dermatologist"],
-      "alumniOf": {"@type": "EducationalOrganization", "name": ""},
+      "alumniOf": { "@type": "EducationalOrganization", "name": "" },
       "knowsAbout": ["PRP Hair Treatment", "Platelet-Rich Plasma Therapy", "Hair Loss", "Androgenetic Alopecia", "Combination Hair Restoration", "Trichoscopy"],
       "knowsLanguage": member.languages,
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
+      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
     })),
 
     // Schema 8: Organization
@@ -200,7 +200,7 @@ const PrpHairTreatment = () => {
       "@type": ["Organization", "MedicalOrganization"],
       "name": "Vedara Care Polyclinic",
       "url": "https://vedaracare.ae/",
-      "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"},
+      "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" },
       "sameAs": ["https://www.facebook.com/", "https://www.instagram.com/", "https://www.linkedin.com/company/", "https://www.google.com/maps/place/"],
       "contactPoint": {
         "@type": "ContactPoint",
@@ -210,30 +210,30 @@ const PrpHairTreatment = () => {
         "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]
       },
       "insurancePlan": [
-        {"@type": "InsuranceCompany", "name": "Daman"},
-        {"@type": "InsuranceCompany", "name": "AXA"},
-        {"@type": "InsuranceCompany", "name": "Allianz"},
-        {"@type": "InsuranceCompany", "name": "Oman Insurance"},
-        {"@type": "InsuranceCompany", "name": "Now Health"},
-        {"@type": "InsuranceCompany", "name": "Bupa"},
-        {"@type": "InsuranceCompany", "name": "MetLife"}
+        { "@type": "InsuranceCompany", "name": "Daman" },
+        { "@type": "InsuranceCompany", "name": "AXA" },
+        { "@type": "InsuranceCompany", "name": "Allianz" },
+        { "@type": "InsuranceCompany", "name": "Oman Insurance" },
+        { "@type": "InsuranceCompany", "name": "Now Health" },
+        { "@type": "InsuranceCompany", "name": "Bupa" },
+        { "@type": "InsuranceCompany", "name": "MetLife" }
       ],
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Circle Mall"},
-        {"@type": "Place", "name": "FIVE Jumeirah Village"},
-        {"@type": "Place", "name": "JSS Private School"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Mirdif"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "Jumeirah Village Circle" },
+        { "@type": "Place", "name": "Circle Mall" },
+        { "@type": "Place", "name": "FIVE Jumeirah Village" },
+        { "@type": "Place", "name": "JSS Private School" },
+        { "@type": "Place", "name": "Jumeirah Village Triangle" },
+        { "@type": "Place", "name": "Al Barsha South" },
+        { "@type": "Place", "name": "Dubai Sports City" },
+        { "@type": "Place", "name": "Motor City" },
+        { "@type": "Place", "name": "Arjan" },
+        { "@type": "Place", "name": "Dubai Hills Estate" },
+        { "@type": "Place", "name": "Dubai Marina" },
+        { "@type": "Place", "name": "Downtown Dubai" },
+        { "@type": "Place", "name": "Palm Jumeirah" },
+        { "@type": "Place", "name": "Mirdif" }
       ]
     }
   ];
@@ -284,7 +284,7 @@ const PrpHairTreatment = () => {
         bgColor="bg-[#F5F0E8]"
         showStepNumbers={false}
       />
- <SciaticaTypes
+      <SciaticaTypes
         bgColor={prpHairProcedure.bgColor}
         cardBg={prpHairProcedure.cardBg}
         label={prpHairProcedure.label}
@@ -344,7 +344,7 @@ const PrpHairTreatment = () => {
         team={prpHairTeam.team}
         gridColumns="lg:grid-cols-3"
       />
-       <ContentWithSidebar
+      <ContentWithSidebar
         bgColor={prpHairPricing.bgColor}
         label={prpHairPricing.label}
         title={prpHairPricing.title}

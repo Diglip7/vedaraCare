@@ -37,7 +37,7 @@ const PhysiotherapyTechniques = ({
               <img
                 src={image}
                 alt={imageAlt}
-                className="w-full h-[500px] object-cover rounded-xl shadow-lg"
+                className="w-full h-auto object-contain rounded-xl shadow-lg"
               />
             )}
           </div>

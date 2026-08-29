@@ -3,7 +3,7 @@ export const skinClinicHero = {
     { label: "Home", href: "/" },
     { label: "Skin Clinic in JVC", active: true }
   ],
-  label: "SKIN CLINIC · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "SKIN CLINIC · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
   title: "Your skin clinic in JVC. Tell us what concerns you — we will guide you to the right care.",
   description: "Patients arrive at our Jumeirah Village Circle clinic with many different skin concerns — and often uncertain about what treatment they actually need. This page helps you identify your primary concern and guides you to the most relevant care pathway. Whether your concern is medical or aesthetic — or you simply do not know yet — start here.",
   primaryCTA: "Identify My Skin Concern",

@@ -272,7 +272,7 @@ const acneScarsTreatment = () => {
         {...acneScarsCombination}
       />
 
-       <ContentWithSidebar
+      <ContentWithSidebar
         bgColor={acneScarsExpectations.bgColor}
         cardBg={acneScarsExpectations.cardBg}
         label={acneScarsExpectations.label}

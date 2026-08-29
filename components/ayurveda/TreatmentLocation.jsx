@@ -24,7 +24,7 @@ const TreatmentLocation = ({
     { name: "JLT", time: "15 min" },
     { name: "Mirdif", time: "25 min" }
   ],
-  buttonText = "Book Detox Consultation at Our JVC Clinic",
+  buttonText = "Book Consultation at Our JVC Clinic",
   buttonHref = "/book",
   mapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
 }) => {
@@ -32,7 +32,7 @@ const TreatmentLocation = ({
     <section className={`${bgColor} py-24 px-6 md:px-12`}>
       <div className="max-w-[1200px] mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
-          
+
           {/* Left Column: Map Block */}
           <div className="space-y-4">
             <div className="bg-gray-200 rounded-xl overflow-hidden shadow-sm h-[400px] md:h-[480px] border border-[#E5DFD3]">
@@ -48,7 +48,7 @@ const TreatmentLocation = ({
               ></iframe>
             </div>
             <div className="text-center">
-              <a 
+              <a
                 href="https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -100,7 +100,7 @@ const TreatmentLocation = ({
                     OPERATING HOURS
                   </span>
                   {typeof hours === 'string' ? (
-                    <div 
+                    <div
                       className="text-[13.5px] font-sans text-gray-700 font-medium leading-relaxed"
                       dangerouslySetInnerHTML={{ __html: hours }}
                     />

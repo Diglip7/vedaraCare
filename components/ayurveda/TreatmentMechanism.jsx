@@ -43,7 +43,7 @@ const TreatmentMechanism = ({
           /* Content + Image Grid */
           <div className="flex flex-col lg:flex-row gap-12 items-start">
             {/* Text Content */}
-            <div className={`lg:w-[55%] space-y-6 text-gray-700 leading-relaxed ${imageLeft ? 'lg:order-2' : 'lg:order-1'}`}>
+            <div className={`lg:w-[50%] space-y-6 text-gray-700 leading-relaxed ${imageLeft ? 'lg:order-2' : 'lg:order-1'}`}>
               {content.map((paragraph, index) => (
                 <p 
                   key={index}
@@ -82,12 +82,12 @@ const TreatmentMechanism = ({
             </div>
 
             {/* Image + Key Fact / Comparison */}
-            <div className={`lg:w-[45%] sticky top-24 self-start ${imageLeft ? 'lg:order-1' : 'lg:order-2'}`}>
+            <div className={`lg:w-[50%] sticky top-24 self-start ${imageLeft ? 'lg:order-1' : 'lg:order-2'}`}>
               {image && (
                 <img 
                   src={image} 
                   alt={alt} 
-                  className="w-full h-[600px] object-cover rounded-xl shadow-lg"/>
+                  className="w-full h-auto object-contain rounded-xl shadow-lg"/>
               )}
 
               {/* Comparison Section */}

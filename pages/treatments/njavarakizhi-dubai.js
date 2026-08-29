@@ -6,8 +6,8 @@ import TreatmentProtocol from '../../components/ayurveda/TreatmentProtocol';
 import TreatmentOils from '../../components/ayurveda/TreatmentOils';
 import TreatmentApplications from '../../components/ayurveda/TreatmentApplications';
 import TreatmentBenefits from '../../components/ayurveda/TreatmentBenefits';
-import TreatmentHomeHealthcare from '../../components/ayurveda/TreatmentHomeHealthcare';
 import TreatmentPrograms from '../../components/ayurveda/TreatmentPrograms';
+import TreatmentHomeHealthcare from '../../components/ayurveda/TreatmentHomeHealthcare';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import FAQ from '../../components/home/FAQ';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
@@ -16,13 +16,13 @@ import RelatedPages from '../../components/ayurveda/RelatedPages';
 import { 
   njavarakizhiHero, 
   njavarakizhiIntro, 
-  njavarakizhiMechanism, 
-  njavarakizhiProtocol, 
+  njavarakizhiMechanism,
+  njavarakizhiProtocol,
   njavarakizhiOils,
   njavarakizhiApplications,
   njavarakizhiBenefits,
-  njavarakizhiHomeHealthcare,
   njavarakizhiPrograms,
+  njavarakizhiHomeHealthcare,
   njavarakizhiReviews,
   njavarakizhiFaqs,
   njavarakizhiTreatmentLocation,
@@ -282,40 +282,37 @@ const NjavarakizhiDubai = () => {
         ))}
       </Head>
 
-      {/* Section 1 - Hero with Image 1 */}
+      {/* Section 1 - Hero with Image */}
       <AyurvedaHero {...njavarakizhiHero} />
       
-      {/* Section 2 - Intro with Image 2 */}
+      {/* Section 2 - Intro */}
       <AyurvedaIntro {...njavarakizhiIntro} />
       
-      {/* 
-      <TreatmentProtocol {...njavarakizhiProtocol} />Section 3 - Mechanism with Image 3 */}
+      {/* Section 3 - Mechanism with Image */}
       <TreatmentMechanism {...njavarakizhiMechanism} />
       
-      {/* Section 4 - Protocol with Image 4 */}
-     <TreatmentProtocol {...njavarakizhiProtocol} />
+      {/* Section 4 - Protocol with Image (4 phases) */}
+      <TreatmentProtocol {...njavarakizhiProtocol} />
       
-      
-      {/* Section 5 - Oils/Kashayams with Image 5 */}
+      {/* Section 5 - Oils/Kashayams (Clinical Variations) */}
       <TreatmentOils {...njavarakizhiOils} />
       
-      {/* Section 6 - Applications with Image 1 */}
+      {/* Section 6 - Applications */}
       <TreatmentApplications {...njavarakizhiApplications} />
       
-      {/* Section 7 - Benefits (PATIENTS WHO BENEFIT MOST) with new UI */}
+      {/* Section 7 - Benefits (PATIENTS WHO BENEFIT MOST) */}
       <TreatmentBenefits {...njavarakizhiBenefits} />
       
-      {/* Section 8 - Protocols with TreatmentPrograms */}
+      {/* Section 8 - Programmes */}
       <TreatmentPrograms {...njavarakizhiPrograms} 
-     
-      buttonBg="#C9A55B"
-      buttonText="Book Assessment"
+        buttonBg="#C9A55B"
+        buttonText="Book Assessment"
       />
       
-      {/* Section 9 - Home Healthcare with new UI */}
+      {/* Section 9 - Home Healthcare */}
       <TreatmentHomeHealthcare {...njavarakizhiHomeHealthcare} />
       
-      {/* Section 10 - Reviews with Image 5 (dark green background) */}
+      {/* Section 10 - Reviews */}
       <TreatmentReviews {...njavarakizhiReviews} />
       
       {/* Section 11 - FAQ */}
@@ -324,10 +321,10 @@ const NjavarakizhiDubai = () => {
       {/* Section 12 - Location */}
       <TreatmentLocation {...njavarakizhiTreatmentLocation} />
       
-      {/* Section 13 - Final CTA with Image 3 */}
+      {/* Section 13 - Final CTA */}
       <FinalCTA {...njavarakizhiFinalCTA} />
       
-      {/* Section 14 - Related Pages with Image 4 */}
+      {/* Section 14 - Related Pages */}
       <RelatedPages {...njavarakizhiRelatedPages} />
     </>
   );

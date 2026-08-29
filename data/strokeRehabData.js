@@ -4,7 +4,7 @@ export const strokeRehabHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Post-Stroke Rehabilitation in Dubai", active: true }
   ],
-  label: "POST-STROKE REHABILITATION · DHA-LICENSED · JVC + HOME ACROSS DUBAI",
+  label: "POST-STROKE REHABILITATION · DHA-LICENSED 2509266 · JVC + HOME ACROSS DUBAI",
   title: "Post-stroke rehabilitation in Dubai. Evidence-based recovery. Honest about timelines. Family-centred.",
   description: "Specialist post-stroke physiotherapy at our Jumeirah Village Circle (JVC) clinic, and across Dubai through our home physiotherapy service. Delivered by DPT-qualified physiotherapists with specific neurorehabilitation training using evidence-based protocols — constraint-induced movement therapy, mirror therapy, functional electrical stimulation, task-specific training, gait training, spasticity management coordination with your treating neurologist, balance retraining for falls prevention. We help you recover what matters to you: honest expectations and sustained partnerships. We start where you are, at home or in our clinic.",
   primaryCTA: "Book Stroke Rehabilitation Assessment",
@@ -27,7 +27,7 @@ export const strokeRehabIntro = {
   label: "THE QUICK ANSWER",
   title: "Post-stroke rehabilitation at Vedara Care, in one paragraph.",
   blockquote: "Post-stroke rehabilitation at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — and across Dubai through our home physiotherapy service is evidence-based specialist neurorehabilitation delivered by DPT-qualified physiotherapists with specific stroke rehabilitation training. We treat ischaemic stroke recovery, haemorrhagic stroke recovery, transient ischaemic attack (TIA) recovery, brainstem stroke recovery, and cerebellar stroke recovery. Our approach uses current evidence-based protocols: constraint-induced movement therapy (CIMT) for upper limb hemiparesis, mirror therapy for motor recovery, functional electrical stimulation (FES) for foot drop and upper limb function, task-specific training for daily activities, body weight supported gait training, spasticity management coordination with your treating neurologist, balance retraining for falls prevention, and family caregiver education throughout. Care is delivered at our JVC clinic, at your home across Dubai, or in combination as recovery progresses. Initial assessment from AED 450; structured programmes from AED 3,800. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, DPT, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, DPT, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const strokeRehabRecovery = {

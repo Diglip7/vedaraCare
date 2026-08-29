@@ -44,9 +44,9 @@ const defaultFaqs = [
   }
 ];
 
-const FAQ = ({ 
+const FAQ = ({
   bgColor = "bg-white",
-  label = "QUESTIONS, ANSWERED", 
+  label = "QUESTIONS, ANSWERED",
   title = "Everything patients ask before their first visit.",
   description = "Short, honest answers from our clinical team. Cannot find what you are looking for? WhatsApp us, usually answered in under 15 minutes.",
   faqs = [],
@@ -64,16 +64,16 @@ const FAQ = ({
         <div className="grid lg:grid-cols-[40%_60%] gap-12">
           {/* Left Side: Header Content */}
           <div className="space-y-6">
-            
-              <span className="text-[13px] font-sans tracking-[0.1em] text-[#C9A961] uppercase block">
-                {label}
-              </span>
-              <h2 className="text-[42px] font-serif font-medium text-[#1A1A1A] leading-[1.2] ">
-                {title}
-              </h2>
-            
-            
-            <p 
+
+            <span className="text-[13px] font-sans tracking-[0.1em] text-[#C9A961] uppercase block">
+              {label}
+            </span>
+            <h2 className="text-[42px] font-serif font-medium text-[#1A1A1A] leading-[1.2] ">
+              {title}
+            </h2>
+
+
+            <p
               className="text-[16px] text-[#6B6B6B] font-sans leading-relaxed "
               dangerouslySetInnerHTML={{ __html: description }}
             />
@@ -92,9 +92,9 @@ const FAQ = ({
             {sidebarLinks.length > 0 && (
               <div className="space-y-2 pt-2">
                 {sidebarLinks.map((link, idx) => (
-                  <a 
-                    key={idx} 
-                    href={link.href} 
+                  <a
+                    key={idx}
+                    href={link.href}
                     target={link.href.startsWith('http') ? '_blank' : '_self'}
                     rel={link.href.startsWith('http') ? 'noopener noreferrer' : ''}
                     className="block text-[14px] font-sans text-[#C4A962] hover:text-[#b89a56] hover:underline"
@@ -110,7 +110,7 @@ const FAQ = ({
           <div className="divide-y divide-gray-200 lg:max-h-[650px] lg:overflow-y-auto lg:pr-8 pr-0 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
             {faqs.map((faq, index) => (
               <div key={index} className="py-6 first:pt-0">
-                <button 
+                <button
                   onClick={() => setOpenIndex(openIndex === index ? null : index)}
                   className="w-full flex justify-between items-center text-left group"
                 >
@@ -119,9 +119,9 @@ const FAQ = ({
                     {openIndex === index ? <Minus size={20} /> : <Plus size={20} />}
                   </span>
                 </button>
-                
+
                 <div className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index ? 'max-h-40 mt-4' : 'max-h-0'}`}>
-                  <p 
+                  <p
                     className="text-[16px] text-[#6B6B6B] font-sans leading-relaxed"
                     dangerouslySetInnerHTML={{ __html: faq.answer?.trim() }}
                   />

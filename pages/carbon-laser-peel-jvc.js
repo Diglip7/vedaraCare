@@ -7,6 +7,7 @@ import TreatmentReviews from '../components/ayurveda/TreatmentReviews';
 import FAQ from '../components/home/FAQ';
 import TreatmentLocation from '../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../components/ayurveda/FinalCTA';
+import MedicalDisclaimer from '@/components/ayurveda/MedicalDisclaimer';
 import RelatedPages from '../components/ayurveda/RelatedPages';
 import {
   carbonLaserPeelHero,
@@ -24,6 +25,7 @@ import {
   carbonLaserPeelFAQ,
   carbonLaserPeelLocation,
   carbonLaserPeelCTA,
+  carbonLaserPeelmedia,
   carbonLaserPeelRelatedPages
 } from '../data/carbonlaserpeel';
 
@@ -328,7 +330,7 @@ const CarbonLaserPeelPage = () => {
       />
 
       {/* Visible Medical Disclaimer on UI */}
-      <section className="bg-white py-12 px-6 border-t border-[#E5DFD3]/40">
+      {/* <section className="bg-white py-12 px-6 border-t border-[#E5DFD3]/40">
         <div className="max-w-4xl mx-auto text-center space-y-4">
           <p className="text-xs tracking-[0.2em] uppercase text-[#A0A0A0] font-sans font-bold">
             MEDICAL DISCLAIMER
@@ -337,7 +339,9 @@ const CarbonLaserPeelPage = () => {
             This page provides general information about Carbon Laser Peel and does not constitute medical advice. Suitability for this treatment varies from person to person, and results differ between individuals — nothing on this page should be read as a guarantee of outcome. A professional skin assessment is recommended before undergoing treatment. Cosmetic treatments such as Carbon Laser Peel do not replace appropriate medical dermatology care, and patients with persistent, painful, or concerning skin problems should seek a full professional evaluation rather than relying on a cosmetic treatment alone.
           </p>
         </div>
-      </section>
+      </section> */}
+
+      <MedicalDisclaimer text={carbonLaserPeelmedia.disclaimer} />
 
       <FinalCTA
         {...carbonLaserPeelCTA}

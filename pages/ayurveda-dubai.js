@@ -129,7 +129,7 @@ const AyurvedaDubai = () => {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "License",
         "name": "DHA Healthcare Facility License",
-        "identifier": "[DHA License Number]"
+        "identifier": "DHA license number- 2509266"
       }
     },
     {

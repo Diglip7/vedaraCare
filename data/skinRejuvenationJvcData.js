@@ -4,7 +4,7 @@ export const skinRejuvenationHero = {
     { label: "Treatments", href: "/treatments/" },
     { label: "Skin Rejuvenation in JVC", active: true }
   ],
-  label: "SKIN REJUVENATION · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "SKIN REJUVENATION · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
   title: "Skin rejuvenation in JVC. Dermatologist-led aesthetic care for lasting results across all skin types.",
   description: "Specialist skin rejuvenation at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists delivering personalised multi-modal treatment plans combining chemical peels, medical microneedling, PRP therapy, mesotherapy, laser rejuvenation, and skin boosters. Particular expertise across all Fitzpatrick skin types (I–VI).",
   primaryCTA: "Book Skin Rejuvenation Consultation",
@@ -27,7 +27,7 @@ export const skinRejuvenationIntro = {
   label: "THE QUICK ANSWER",
   title: "Skin rejuvenation at Vedara Care, in one paragraph.",
   blockquote: "Skin rejuvenation at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is sophisticated aesthetic dermatology delivered by DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types (I–VI). Our approach combines multiple evidence-based modalities into personalised plans: chemical peels tailored to skin type, medical microneedling with growth factors or PRP, mesotherapy with vitamin and hyaluronic acid cocktails, laser skin rejuvenation using appropriate platforms, skin boosters for deep hydration, and coordination with injectables. Patients seek us for photoaging correction, texture improvement, pore refinement, uneven tone, mild-to-moderate acne scarring, pre-wedding preparation, and general aesthetic maintenance. Multi-modal combinations produce superior outcomes to single treatments. Initial consultation includes comprehensive skin analysis and personalised treatment plan. Cosmetic treatments are not insurance-covered. Patients travel to our JVC clinic from across Dubai for specialist skin rejuvenation care.",
-  footer: "Medically reviewed by Dr. Layla Hassan, MD, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Layla Hassan, MD, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const skinRejuvenationUnderstanding = {
@@ -306,7 +306,7 @@ export const skinRejuvenationLocation = {
 
 export const skinRejuvenationExpectations = {
   bgColor: "bg-white",
-  cardBg:"bg-[#F5F0E8]",
+  cardBg: "bg-[#F5F0E8]",
   label: "REALISTIC EXPECTATIONS",
   title: "What skin rejuvenation can and cannot achieve.",
   intro: "Honest framing of realistic outcomes helps you make informed decisions about aesthetic investment.",

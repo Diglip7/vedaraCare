@@ -45,7 +45,7 @@ const TreatmentReviews = ({
             {items.map((review, index) => (
               <div 
                 key={index} 
-                className="rounded-xl p-8 flex flex-col relative h-full"
+                className={`rounded-xl p-8 flex flex-col relative h-full ${cardBgColor.startsWith('bg-') ? cardBgColor : ''}`}
                 style={{ 
                   backgroundColor: cardBgColor.startsWith('bg-') ? undefined : cardBgColor,
                 }}

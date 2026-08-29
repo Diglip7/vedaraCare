@@ -128,7 +128,7 @@ export const oxygenFacialConcerns = {
     },
     {
       title: "Oily Skin",
-      description: "It's a common misconception that oily skin doesn't need hydration. In reality, oily skin can be dehydrated at the same time — a lack of water content in the skin, separate from oil production, can actually trigger the skin to produce more oil to compensate. For this reason, an Oxygen Facial is not automatically a bad fit for oily skin, but the specific products used should be adjusted rather than applying a one-size-fits-all approach that assumes oily skin should be stripped.\n\nIf oiliness is linked to active acne rather than general oil production, that's a different situation — see the acne-specific section below."
+      description: "It's a common misconception that oily skin doesn't need hydration. In reality, oily skin can be dehydrated at the same time — a lack of water content in the skin, separate from oil production, can actually trigger the skin to produce more oil to compensate. For this reason, an Oxygen Facial is not automatically a bad fit for oily skin, but the specific products used should be adjusted rather than applying a one-size-fits-all approach that assumes oily skin should be stripped.If oiliness is linked to active acne rather than general oil production, that's a different situation — see the acne-specific section below."
     },
     {
       title: "Combination Skin",
@@ -136,7 +136,7 @@ export const oxygenFacialConcerns = {
     },
     {
       title: "Sensitive Skin",
-      description: "Sensitive skin is not automatically excluded from having a facial, but it does change what should happen during the session. Product sensitivity, fragrance reactions, and general irritability all need to be discussed before treatment — not assumed to be non-issues just because the treatment is described as gentle.\n\nIf your skin is currently reacting to something — actively irritated, inflamed, or in the middle of a flare of a diagnosed condition — that's a reason to pause and get it assessed before adding a facial treatment on top, rather than assuming \"non-invasive\" automatically means \"safe regardless of current skin state.\""
+      description: "Sensitive skin is not automatically excluded from having a facial, but it does change what should happen during the session. Product sensitivity, fragrance reactions, and general irritability all need to be discussed before treatment — not assumed to be non-issues just because the treatment is described as gentle.If your skin is currently reacting to something — actively irritated, inflamed, or in the middle of a flare of a diagnosed condition — that's a reason to pause and get it assessed before adding a facial treatment on top, rather than assuming \"non-invasive\" automatically means \"safe regardless of current skin state.\""
     },
     {
       title: "Acne-Prone Skin",

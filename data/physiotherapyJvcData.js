@@ -29,7 +29,7 @@ export const physiotherapyJvcIntro = {
   label: "THE QUICK ANSWER",
   title: "Physiotherapy at our JVC clinic, in one paragraph.",
   blockquote: "Vedara Care Polyclinic offers comprehensive DHA-licensed physiotherapy at our Jumeirah Village Circle (JVC), Dubai clinic — walking distance from Circle Mall. Our DPT-qualified physiotherapists provide treatment across seven specialised areas: musculoskeletal physiotherapy (back pain, neck pain, joint conditions), sports physiotherapy (acute injuries, performance, return-to-play), post-surgical rehabilitation (ACL, joint replacement, spinal surgery), neurological rehabilitation (post-stroke, MS, Parkinson's), women's health physiotherapy (pelvic floor, postnatal, prenatal), paediatric physiotherapy (developmental, sports injuries in children), and cardiopulmonary rehabilitation. Techniques include manual therapy, dry needling, IFC, ultrasound therapy, neurodynamic mobilisation, exercise prescription, and integrated Ayurveda + physiotherapy programmes for chronic conditions. Single sessions from AED 350; structured programmes for chronic conditions from AED 1,800. Insurance direct-billing with seven major insurers.",
-  footer: "  Medically reviewed by Dr. Sarah Mitchell, DPT, DHA-Licensed · Last updated June 2026",
+  footer: "  Medically reviewed by Dr. Sarah Mitchell, DPT, DHA-Licensed 2509266 · Last updated June 2026",
 };
 
 export const physiotherapyJvcSpecializations = {
@@ -540,7 +540,7 @@ export const physiotherapyJvcLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
   title: "Where physiotherapy happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br />Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to book a physiotherapy session at your JVC clinic.",

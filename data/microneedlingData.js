@@ -23,7 +23,7 @@ export const microneedlingHero = {
     title: "Collagen Induction",
     subtitle: "Microneedling uses controlled micro-injuries to prompt the skin's own biological repair process, gradually rebuilding collagen and elastin structures over time."
   },
-  image: "/images/microneedling-consultation-vedara-care-jvc.jpg",
+  image: "/images/microneedling-consultation-vedara-care-jvc.webp",
   alt: "Patient consultation before microneedling treatment at Vedara Care in JVC"
 };
 
@@ -31,7 +31,7 @@ export const microneedlingIntro = {
   label: "THE QUICK ANSWER",
   title: "Microneedling at Vedara Care, in one paragraph.",
   blockquote: "Microneedling in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, is a minimally invasive skin treatment that uses fine needles to create controlled micro-injuries in the skin. This process can support the skin’s natural repair response and collagen production, making it a treatment option for concerns such as acne scars, uneven texture, visible pores, and fine lines. Before treatment, your skin is assessed to determine whether microneedling is suitable for your needs. Recovery varies between individuals, but temporary redness or sensitivity may occur after treatment. Results depend on your skin condition, treatment plan, and response.",
-  footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+  // footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
 };
 
 export const microneedlingExplanation = {
@@ -42,7 +42,7 @@ export const microneedlingExplanation = {
     `That might sound counterintuitive as a beauty treatment, but the logic behind it is straightforward. Skin has a built-in repair response to injury. When that response is triggered in a controlled, superficial way, it can lead to changes in the skin's collagen and elastin-related processes over the following weeks — the proteins broadly associated with skin structure and firmness. This is why microneedling is sometimes referred to as collagen induction therapy.
 Two things follow from this mechanism, and they're worth understanding before you book anything. First, the improvement isn't primarily a surface effect you see immediately — it develops gradually as the skin remodels itself. Second, because the treatment relies on the skin's own biological response, results are not identical from one patient to the next; how your particular skin repairs and remodels is not something that can be fully predicted in advance.`
   ],
-  image: "/images/microneedling-device-closeup-vedara-care.jpg",
+  image: "/images/microneedling-device-closeup-vedara-care.webp",
   alt: "Close-up of a professional microneedling device during treatment",
   caption: "Fine needles create controlled, superficial micro-injuries during treatment."
 };
@@ -72,7 +72,7 @@ export const microneedlingHowItWorks = {
     ]
   },
   rightContent: {
-    image: "/images/skin-assessment-microneedling-jvc.jpg",
+    image: "/images/skin-assessment-microneedling-jvc.webp",
     alt: "Skin assessment being carried out before microneedling treatment",
     caption: "A thorough skin assessment helps determine whether microneedling is appropriate.",
     peelDepthsLabel: "TREATMENT PARAMETERS",
@@ -101,7 +101,7 @@ export const microneedlingAppointment = {
   title: "What Happens During Your Appointment?",
   description: "A responsible microneedling appointment doesn't start with the device — it starts with a conversation.",
 
-  image: "/images/microneedling-treatment-procedure-jvc.jpg",
+  image: "/images/microneedling-treatment-procedure-jvc.webp",
   alt: "Professional microneedling treatment being performed at Vedara Care in JVC",
   caption: "The microneedling device is passed across the skin in a controlled pattern.",
   steps: [

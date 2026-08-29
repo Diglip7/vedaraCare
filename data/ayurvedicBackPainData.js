@@ -30,7 +30,7 @@ export const ayurvedicBackPainIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic back pain treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for back pain in Dubai typically combines Kativasti (warm medicated oil reservoir over the lumbar spine), Abhyanga (full-body warm oil massage), specific internal Ayurvedic medicines selected for your dosha and condition, dietary regulation, and where appropriate, classical Panchakarma protocols. At Vedara Care Polyclinic in Jumeirah Village Circle, our BAMS-qualified Ayurvedic physicians work alongside DPT-qualified physiotherapists for integrated back pain care. Programmes typically run 4 to 8 weeks. Initial consultations start from AED 350 and include physical examination, imaging review where relevant, and a written treatment plan.",
-  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026"
+  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
 };
 
 export const ayurvedicBackPainAssessment = {
@@ -357,7 +357,7 @@ export const ayurvedicBackPainPricing = {
 export const ayurvedicBackPainFaqs = {
   label: "BACK PAIN QUESTIONS",
   title: "What patients ask before starting Ayurvedic back pain treatment.",
-    sidebarLinks: [
+  sidebarLinks: [
     {
       text: "Read about Kativasti",
       href: "/treatments/kativasti-dubai/"
@@ -440,7 +440,7 @@ export const ayurvedicBackPainLocation = {
   bgColor: "bg-[#F5F3EE]",
   label: "VISIT OUR BACK PAIN CLINIC",
   title: "Expert back pain care in Jumeirah Village Circle.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about ayurvedic back pain treatment at your JVC clinic.",

@@ -4,7 +4,7 @@ export const manualTherapyHero = {
     { label: "Treatments", href: "/treatments" },
     { label: "Manual Therapy in Dubai", active: true }
   ],
-  label: "MANUAL THERAPY · DHA-LICENSED · JVC",
+  label: "MANUAL THERAPY · DHA-LICENSED 2509266 · JVC",
   title: "Manual therapy in Dubai. Hands-on physiotherapy. Specific techniques. Not chiropractic. Not massage.",
   description: "Specialist manual therapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. Delivered by DPT-qualified physiotherapists with specific training in Maitland mobilisation, Mulligan mobilisation with movement, Kaltenborn technique, McKenzie method, myofascial release, soft tissue mobilisation, and integrated comprehensive physiotherapy programmes for sustainable outcomes.",
   primaryCTA: "Book Manual Therapy Assessment",
@@ -26,7 +26,7 @@ export const manualTherapyIntro = {
   label: "THE QUICK ANSWER",
   title: "Manual therapy at Vedara Care, in one paragraph.",
   blockquote: "Manual therapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is the hands-on component of evidence-based physiotherapy, delivered by DPT-qualified physiotherapists with specific manual therapy training. It encompasses several specific techniques: joint mobilisation (Maitland grades I-IV, Kaltenborn technique) for restricted joints and joint pain; mobilisation with movement (Mulligan technique) combining therapist mobilisation with patient active movement; McKenzie method (MDT — Mechanical Diagnosis and Therapy) for spinal pain particularly sciatica and disc-related conditions; myofascial release for fascial restrictions and chronic tension patterns; soft tissue mobilisation for muscle and connective tissue dysfunction; neural mobilisation for nerve-related pain conditions; and spinal manipulation (high-velocity low-amplitude techniques) for appropriate patients with informed consent. We use manual therapy for chronic back and neck pain, frozen shoulder, sciatica, sports injuries, post-surgical rehabilitation, headaches with cervical contribution, TMJ dysfunction, and many other musculoskeletal conditions. It is fundamentally different from chiropractic and massage therapy. Single sessions from AED 380; structured programmes from AED 1,800. Manual therapy is rarely standalone — integrated with exercise prescription, patient education, and other modalities for sustainable outcomes. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Layla Hassan, DPT, Manual Therapy Certified, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Layla Hassan, DPT, Manual Therapy Certified, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const manualTherapyWhatIs = {
@@ -86,7 +86,7 @@ export const manualTherapyReviews = {
   title: "Real recoveries. Real outcomes.",
   bgColor: "bg-white",
   cardBgColor: "bg-[#F5F0E6]",
-    isDarkText: true,
+  isDarkText: true,
   items: [
     {
       quote: "Chronic neck pain and tension headaches for three years. Multiple providers without progress. Vedara's approach combined Mulligan mobilisation with movement and specific Maitland techniques for the cervical spine — immediate improvement in the first session, substantial resolution over eight sessions. The integration with postural work and exercises was key. Two years later, still controlled with occasional maintenance sessions.",
@@ -118,7 +118,7 @@ export const manualTherapyFaqs = {
   label: "COMMON QUESTIONS",
   title: "What patients ask about manual therapy before booking.",
   description: "For broader physiotherapy questions, see our main physiotherapy page.",
-   sidebarLinks: [
+  sidebarLinks: [
     {
       text: "Visit physiotherapy main page",
       href: "/physiotherapy-jvc/"

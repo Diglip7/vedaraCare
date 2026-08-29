@@ -4,7 +4,7 @@ export const njavarakizhiHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Njavarakizhi in Dubai", active: true }
   ],
-  label: "NJAVARAKIZHI THERAPY IN DUBAI • DHA-LICENSED",
+  label: "NJAVARAKIZHI THERAPY IN DUBAI • DHA-LICENSED 2509266",
   title: "Massage with warm rice. The classical Ayurvedic therapy for what other treatments cannot reach.",
   description: "Njavarakizhi — also written Navarakizhi, and called Shashtika Shali Pinda Sweda in Sanskrit — is performed using small cloth boluses filled with a special variety of rice cooked in herbal medicated milk. At our DHA-licensed Ayurveda clinic in Jumeirah Village Circle, Dubai, it is doctor-prescribed for muscle wasting, post-illness recovery, neurological rehabilitation, and chronic inflammatory conditions.",
   primaryCTA: "Book a Njavarakizhi Consultation",
@@ -30,7 +30,7 @@ export const njavarakizhiIntro = {
   label: "THE QUICK ANSWER",
   title: "Njavarakizhi in Dubai, in one paragraph.",
   blockquote: "Njavarakizhi (नवरకిజీ) — known in classical Sanskrit as Shashtika Shali Pinda Sweda — is a specialised Ayurvedic massage therapy performed using small cloth boluses filled with Shashtika rice cooked in herbal medicated milk. The boluses are dipped repeatedly in warm milk and used to massage the body with synchronized strokes for 60 to 75 minutes. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Njavarakizhi is doctor-prescribed by BAMS-qualified physicians for muscle wasting, post-illness recovery, neurological rehabilitation, paralysis support, rheumatoid conditions, and degenerative muscle disorders. Sessions start from AED 480.",
-  footer: "Medically reviewed by Dr. Priya Nair, BAMS, MD (Ayurveda), DHA-Licensed • Last updated May 2026"
+  footer: "Medically reviewed by Dr. Priya Nair, BAMS, MD (Ayurveda), DHA-Licensed 2509266 • Last updated May 2026"
 };
 
 export const njavarakizhiMechanism = {
@@ -108,7 +108,8 @@ export const njavarakizhiOils = {
       indication: "Postpartum recovery, Post-caesarean rehabilitation, Postnatal weakness"
     }
   ],
-  footer: "Your doctor will select the appropriate herbal preparation after clinical assessment. The Njavara rice and herbs used at Vedara Care are sourced from authenticated Kerala suppliers with documented quality testing."};
+  footer: "Your doctor will select the appropriate herbal preparation after clinical assessment. The Njavara rice and herbs used at Vedara Care are sourced from authenticated Kerala suppliers with documented quality testing."
+};
 
 export const njavarakizhiApplications = {
   bgColor: "bg-white",
@@ -400,7 +401,7 @@ export const njavarakizhiTreatmentLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
   title: "Where Njavarakizhi happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about njavarakizhi treatment at your JVC clinic.",
@@ -409,14 +410,14 @@ export const njavarakizhiTreatmentLocation = {
   landmarks: [
     "Next to Circle Mall ",
     "3 min from FIVE Jumeirah Village",
-    " 5 min from JSS Private School " ,
+    " 5 min from JSS Private School ",
     "Free patient parking available"
   ],
   description: "Two dedicated Njavarakizhi treatment rooms with traditional Kerala-style wooden droni tables, insulated brass vessels, and rice-preparation stations. Our kitchen prepares Njavara rice and herbal kashayams fresh for every session — which is why advance booking is required.",
   buttonText: "Book Njavarakizhi Consultation",
   buttonHref: "/book",
   mapAlt: "Vedara Care Njavarakizhi specialised therapy clinic in Jumeirah Village Circle Dubai",
-   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
 };
 
 export const njavarakizhiFinalCTA = {

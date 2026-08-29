@@ -19,7 +19,8 @@ export const neckPainPhysioHero = {
   ],
   floatingCard: {
     title: "Educational Approach",
-    subtitle: "This page is designed to help you understand neck pain before you book. Skip ahead to book directly, or read on to learn what we treat and how." },
+    subtitle: "This page is designed to help you understand neck pain before you book. Skip ahead to book directly, or read on to learn what we treat and how."
+  },
   image: "/images/neck-pain-physiotherapy-jvc-hero.webp",
   alt: "Physiotherapist assessing patient neck pain at Vedara Care JVC Dubai clinic"
 };
@@ -28,7 +29,7 @@ export const neckPainPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Neck pain physiotherapy at our JVC clinic, in one paragraph.",
   blockquote: "Neck pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based conventional physiotherapy delivered by DPT-qualified specialists. We treat acute neck pain (recent onset, often work or sleep-related), chronic neck pain (persistent patterns from posture, repetitive strain, or trauma), forward head posture and tech neck, cervical spondylosis, whiplash, cervicogenic headaches, and cervical radiculopathy. Treatment combines hands-on manual therapy (cervical mobilisation, soft tissue work), specific exercise prescription (postural correction, motor control, strengthening), dry needling for chronic muscle patterns, and ergonomic education for prevention. Patients travel to our JVC clinic from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Aisha Khalid, DPT · DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Aisha Khalid, DPT · DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const neckPainWhyEpidemic = {
@@ -131,7 +132,8 @@ export const neckPainShouldYouSee = {
     "Severe night pain that wakes you from sleep",
     "Severe headache with neck stiffness (could indicate meningitis — emergency)"
   ],
-  imagingNote: "Current evidence does not support routine imaging for mechanical neck pain. Many people have significant imaging findings without any pain. Imaging may be appropriate if symptoms do not improve or significant neurological features develop. Your physiotherapist can advise during assessment."};
+  imagingNote: "Current evidence does not support routine imaging for mechanical neck pain. Many people have significant imaging findings without any pain. Imaging may be appropriate if symptoms do not improve or significant neurological features develop. Your physiotherapist can advise during assessment."
+};
 
 export const neckPainHowTreat = {
   bgColor: "bg-white",
@@ -148,7 +150,8 @@ export const neckPainHowTreat = {
     "<strong>Postural and ergonomic education</strong><br/>For most neck pain patients, the sustained patterns of daily life are part of the problem — workstation setup, screen position, device use habits, sleep positioning. We provide specific guidance on optimising these factors. Many patients find that workstation changes alone produce meaningful symptom improvement.",
     "<strong>Home programme and self-management</strong><br/>What you do between sessions matters more than what happens during sessions. We provide structured home exercise programmes, specific guidance on movement breaks during work, sleep position recommendations, and ongoing self-management strategies. The goal is enabling you to manage your own neck health long-term."
   ],
-  quote: "Treating neck pain without addressing the sustained patterns that created it is treating symptoms while the cause continues. The treatment must address the patterns — or the patterns will recreate the pain."};
+  quote: "Treating neck pain without addressing the sustained patterns that created it is treating symptoms while the cause continues. The treatment must address the patterns — or the patterns will recreate the pain."
+};
 
 export const neckPainPhases = {
   bgColor: "bg-[#EDE8DE]",
@@ -225,27 +228,33 @@ export const neckPainModalities = {
     {
       number: "01",
       title: "<a href='/treatments/manual-therapy-dubai/' class='text-inherit hover:text-[#C9A55A] transition-colors'>Cervical Manual Therapy</a>",
-      description: "Spinal mobilisation (graded oscillatory movements to restore cervical joint motion), manipulation in carefully selected patients, soft tissue work for muscle tension, and manual stretching. Evidence-based for both acute and chronic neck pain. Performed by DPT-qualified physiotherapists with manual therapy training."  },
+      description: "Spinal mobilisation (graded oscillatory movements to restore cervical joint motion), manipulation in carefully selected patients, soft tissue work for muscle tension, and manual stretching. Evidence-based for both acute and chronic neck pain. Performed by DPT-qualified physiotherapists with manual therapy training."
+    },
     {
       number: "02",
       title: "Deep Cervical Flexor Training",
-      description: "Specific exercise prescription targeting the deep cervical flexor muscles (longus colli, longus capitis) which are weakened in most chronic neck pain patterns. Modern motor control training is meaningfully different from generic neck exercises — calibrated to your specific dysfunction. Highly evidence-supported."  },
+      description: "Specific exercise prescription targeting the deep cervical flexor muscles (longus colli, longus capitis) which are weakened in most chronic neck pain patterns. Modern motor control training is meaningfully different from generic neck exercises — calibrated to your specific dysfunction. Highly evidence-supported."
+    },
     {
       number: "03",
       title: "Dry Needling",
-      description: "Fine needles inserted into trigger points and tight muscle bands — particularly effective for upper trapezius tension, levator scapulae trigger points, and suboccipital muscle patterns. Different from acupuncture in mechanism. Performed by physiotherapists with specific dry needling certification."    },
+      description: "Fine needles inserted into trigger points and tight muscle bands — particularly effective for upper trapezius tension, levator scapulae trigger points, and suboccipital muscle patterns. Different from acupuncture in mechanism. Performed by physiotherapists with specific dry needling certification."
+    },
     {
       number: "04",
       title: "Thoracic Spine Mobilisation",
-      description: "Most chronic neck pain involves restricted thoracic spine mobility. When the thoracic spine is stiff, the cervical spine compensates. Thoracic mobilisation often produces substantial neck pain improvement — a component frequently overlooked elsewhere. Specific to our neck pain treatment approach."  },
+      description: "Most chronic neck pain involves restricted thoracic spine mobility. When the thoracic spine is stiff, the cervical spine compensates. Thoracic mobilisation often produces substantial neck pain improvement — a component frequently overlooked elsewhere. Specific to our neck pain treatment approach."
+    },
     {
       number: "05",
       title: "Postural Re-Education",
-      description: "Structured retraining of postural patterns through specific exercises, sustained postural awareness work, and habit change strategies. Specific motor learning protocols — meaningfully different from generic advice. Particularly important for significant forward head posture and tech neck."  },
+      description: "Structured retraining of postural patterns through specific exercises, sustained postural awareness work, and habit change strategies. Specific motor learning protocols — meaningfully different from generic advice. Particularly important for significant forward head posture and tech neck."
+    },
     {
       number: "06",
       title: "Workplace Ergonomic Assessment",
-      description: "For desk-working patients — the majority of our neck pain presentations — workplace ergonomic optimisation is integral to treatment. Workstation height, screen position, keyboard and mouse placement, chair selection, lighting, and break patterns all contribute meaningfully to recovery."   }
+      description: "For desk-working patients — the majority of our neck pain presentations — workplace ergonomic optimisation is integral to treatment. Workstation height, screen position, keyboard and mouse placement, chair selection, lighting, and break patterns all contribute meaningfully to recovery."
+    }
   ]
 };
 
@@ -344,7 +353,7 @@ export const neckPainFaqs = {
   bgColor: "bg-[#F2EDE5]",
   label: "COMMON QUESTIONS",
   sidebarLinks: [
-   
+
     { text: "physiotherapy main page", href: "/physiotherapy-jvc/" },
     { text: "Back pain physiotherapy", href: "/conditions/back-pain-physiotherapy-jvc/" }
   ],
@@ -365,68 +374,85 @@ export const neckPainFaqs = {
     },
     {
       question: "Do I need imaging (MRI or X-ray) before physiotherapy?",
-      answer: "Usually no. Current evidence-based guidelines do not recommend routine imaging for mechanical neck pain. Most imaging findings (disc bulges, degenerative changes) are present in many people without any pain at all. Imaging may be appropriate if red flag symptoms are present, significant neurological features develop, or if treatment is not progressing as expected. Your physiotherapist can advise during assessment."    },
+      answer: "Usually no. Current evidence-based guidelines do not recommend routine imaging for mechanical neck pain. Most imaging findings (disc bulges, degenerative changes) are present in many people without any pain at all. Imaging may be appropriate if red flag symptoms are present, significant neurological features develop, or if treatment is not progressing as expected. Your physiotherapist can advise during assessment."
+    },
     {
       question: "Can physiotherapy help tech neck and forward head posture?",
-      answer: "Yes — tech neck and forward head posture is one of our most common presentations. Treatment combines manual therapy to address restricted areas, deep cervical flexor strengthening, thoracic mobility work, postural correction exercises, and workplace ergonomic adjustments. Most patients see meaningful improvement within 8–12 weeks of structured treatment."  },
+      answer: "Yes — tech neck and forward head posture is one of our most common presentations. Treatment combines manual therapy to address restricted areas, deep cervical flexor strengthening, thoracic mobility work, postural correction exercises, and workplace ergonomic adjustments. Most patients see meaningful improvement within 8–12 weeks of structured treatment."
+    },
     {
       question: "What if my neck pain comes with headaches?",
-      answer: "Cervicogenic headaches (headaches originating from the neck) are very responsive to physiotherapy. We assess for the specific cervical sources contributing to your headache pattern and treat accordingly. Many patients with chronic headaches have a significant cervical component that has gone undiagnosed — distinct from migraine and tension-type headaches in both diagnosis and treatment approach." },
+      answer: "Cervicogenic headaches (headaches originating from the neck) are very responsive to physiotherapy. We assess for the specific cervical sources contributing to your headache pattern and treat accordingly. Many patients with chronic headaches have a significant cervical component that has gone undiagnosed — distinct from migraine and tension-type headaches in both diagnosis and treatment approach."
+    },
     {
       question: "Where exactly in JVC is your clinic?",
-      answer: "Our DHA-licensed clinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai."  },
+      answer: "Our DHA-licensed clinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai."
+    },
     {
       question: "How quickly can I get an appointment?",
-      answer: 'Same-week appointments are typical for neck pain assessments. For severe acute neck pain (sudden onset, severe restriction, significant distress), same-day or next-day appointments are often available. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for the fastest response — typically within 15 minutes during business hours (9 AM to 9 PM, seven days a week).',  },
+      answer: 'Same-week appointments are typical for neck pain assessments. For severe acute neck pain (sudden onset, severe restriction, significant distress), same-day or next-day appointments are often available. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for the fastest response — typically within 15 minutes during business hours (9 AM to 9 PM, seven days a week).',
+    },
     {
       question: "What is dry needling and it is  the same as acupuncture?",
-      answer: "Dry needling involves fine needles inserted into trigger points and tight muscle bands — particularly effective for chronic muscle tension patterns contributing to neck pain, including upper trapezius, levator scapulae, and suboccipital muscles. Different from acupuncture in mechanism and theoretical framework. Performed by physiotherapists with specific dry needling certification. Most patients find it more comfortable than expected."  },
+      answer: "Dry needling involves fine needles inserted into trigger points and tight muscle bands — particularly effective for chronic muscle tension patterns contributing to neck pain, including upper trapezius, levator scapulae, and suboccipital muscles. Different from acupuncture in mechanism and theoretical framework. Performed by physiotherapists with specific dry needling certification. Most patients find it more comfortable than expected."
+    },
     {
       question: "Does insurance cover neck pain physiotherapy?",
-      answer: "Most Dubai insurance plans cover neck pain physiotherapy with medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. WhatsApp your insurance card before booking to confirm specific coverage and out-of-pocket cost."    },
+      answer: "Most Dubai insurance plans cover neck pain physiotherapy with medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. WhatsApp your insurance card before booking to confirm specific coverage and out-of-pocket cost."
+    },
     {
       question: "How long does a course of treatment take?",
-      answer: "Highly variable by presentation. Acute neck pain often resolves in 4–6 weeks (6–8 sessions typically). Chronic neck pain typically requires 12–20 sessions over 6–12 weeks. Whiplash often takes 8–12 weeks. Cervicogenic headaches often resolve within 6–12 weeks. At initial assessment, you receive a specific estimated session count and timeline for your presentation." },
+      answer: "Highly variable by presentation. Acute neck pain often resolves in 4–6 weeks (6–8 sessions typically). Chronic neck pain typically requires 12–20 sessions over 6–12 weeks. Whiplash often takes 8–12 weeks. Cervicogenic headaches often resolve within 6–12 weeks. At initial assessment, you receive a specific estimated session count and timeline for your presentation."
+    },
     {
-      question:" What if my chronic neck pain has not responded to other treatment?",
-      answer: "Chronic neck pain that has not responded to previous treatment is one of our specialised areas. Our approach: thorough assessment to identify patterns missed by previous providers, structured evidence-based intervention combining manual therapy and specific exercise, attention to underlying postural patterns, and realistic expectation-setting. Many patients with long-standing neck pain achieve substantial improvement." },
+      question: " What if my chronic neck pain has not responded to other treatment?",
+      answer: "Chronic neck pain that has not responded to previous treatment is one of our specialised areas. Our approach: thorough assessment to identify patterns missed by previous providers, structured evidence-based intervention combining manual therapy and specific exercise, attention to underlying postural patterns, and realistic expectation-setting. Many patients with long-standing neck pain achieve substantial improvement."
+    },
     {
       question: "Can poor sleeping position cause neck pain?",
-      answer: "Sleep position can contribute to neck pain — both as a triggering factor for acute episodes and as a sustaining factor for chronic patterns. We provide specific guidance on sleep positioning, pillow selection, and mattress considerations. Many patients find that small adjustments to their sleep setup produce meaningful improvement, particularly for morning neck pain and stiffness."  },
-   
-     {
+      answer: "Sleep position can contribute to neck pain — both as a triggering factor for acute episodes and as a sustaining factor for chronic patterns. We provide specific guidance on sleep positioning, pillow selection, and mattress considerations. Many patients find that small adjustments to their sleep setup produce meaningful improvement, particularly for morning neck pain and stiffness."
+    },
+
+    {
       question: "What about workplace ergonomics - does that matters?",
-      answer: "Workplace ergonomic factors are integral to most chronic neck pain. We assess your specific setup (workstation height, screen position, keyboard placement, chair selection, lighting) and provide specific guidance. For desk-working patients — the majority of our neck pain patients — workplace adjustments are often the difference between recurrent and fully resolved neck pain."  },
+      answer: "Workplace ergonomic factors are integral to most chronic neck pain. We assess your specific setup (workstation height, screen position, keyboard placement, chair selection, lighting) and provide specific guidance. For desk-working patients — the majority of our neck pain patients — workplace adjustments are often the difference between recurrent and fully resolved neck pain."
+    },
     {
       question: "Can I have physiotherapy for neck pain if i am pregnant?",
-      answer: "Yes — neck pain in pregnancy is common and treatable. Treatment is calibrated to pregnancy considerations: modified positions, exercises appropriate to pregnancy stage, avoidance of certain modalities. Postural patterns often change during pregnancy and frequently contribute to neck pain. Female physiotherapists are available for patient preference."  },
+      answer: "Yes — neck pain in pregnancy is common and treatable. Treatment is calibrated to pregnancy considerations: modified positions, exercises appropriate to pregnancy stage, avoidance of certain modalities. Postural patterns often change during pregnancy and frequently contribute to neck pain. Female physiotherapists are available for patient preference."
+    },
     {
       question: "Can physiotherapy help cervical spondylosis (age-related changes)?",
-      answer: "Yes — cervical spondylosis is a very common condition that responds well to physiotherapy. While the structural changes are permanent, the pain and dysfunction respond meaningfully to treatment. Manual therapy, structured exercise, postural correction, and lifestyle adjustment substantially improve outcomes — even in patients with significant imaging findings."   },
+      answer: "Yes — cervical spondylosis is a very common condition that responds well to physiotherapy. While the structural changes are permanent, the pain and dysfunction respond meaningfully to treatment. Manual therapy, structured exercise, postural correction, and lifestyle adjustment substantially improve outcomes — even in patients with significant imaging findings."
+    },
     {
       question: "Can children and adolescents develop neck pain from device use?",
-      answer: "Yes — increasingly common. Adolescents with significant device use develop forward head posture and tech neck patterns previously seen only in adults. Our physiotherapists provide age-appropriate treatment for younger patients. Early intervention typically produces better outcomes than allowing patterns to become entrenched."  },
+      answer: "Yes — increasingly common. Adolescents with significant device use develop forward head posture and tech neck patterns previously seen only in adults. Our physiotherapists provide age-appropriate treatment for younger patients. Early intervention typically produces better outcomes than allowing patterns to become entrenched."
+    },
     {
       question: "What if my neck pain radiates to my arm?",
-      answer: "Neck pain with arm symptoms (radiating pain, numbness, tingling, or weakness) may indicate cervical radiculopathy (nerve root irritation). We assess for the specific cause, identify nerve involvement, and treat with specific protocols including McKenzie method, nerve mobilisation, and postural correction. For significant neurological features, medical evaluation alongside physiotherapy may be appropriate." }
-  
-    ,  {
-question: "How is Vedara different from other Dubai physiotherapy clinics?",
-      answer: "DPT-qualified specialists, evidence-based protocols including specific deep cervical flexor training (frequently missed elsewhere), longer sessions (45–60 minutes), same therapist throughout treatment, specific assessment for each patient rather than a generic protocol, workplace ergonomic guidance integrated into treatment, transparent published pricing, and walking distance from Circle Mall in JVC." }
-      
-  ,{
-    question: "How do I book a neck pain physiotherapy assessment?",
-    answer: 'Three ways: (1) <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for a brief description of your pain and any specific questions. (2) Call us directly — available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any imaging if available, relevant medical reports, current medication list, insurance card, and comfortable clothing allowing neck and shoulder assessment.'  }
-  
-  
-    ]
+      answer: "Neck pain with arm symptoms (radiating pain, numbness, tingling, or weakness) may indicate cervical radiculopathy (nerve root irritation). We assess for the specific cause, identify nerve involvement, and treat with specific protocols including McKenzie method, nerve mobilisation, and postural correction. For significant neurological features, medical evaluation alongside physiotherapy may be appropriate."
+    }
+
+    , {
+      question: "How is Vedara different from other Dubai physiotherapy clinics?",
+      answer: "DPT-qualified specialists, evidence-based protocols including specific deep cervical flexor training (frequently missed elsewhere), longer sessions (45–60 minutes), same therapist throughout treatment, specific assessment for each patient rather than a generic protocol, workplace ergonomic guidance integrated into treatment, transparent published pricing, and walking distance from Circle Mall in JVC."
+    }
+
+    , {
+      question: "How do I book a neck pain physiotherapy assessment?",
+      answer: 'Three ways: (1) <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for a brief description of your pain and any specific questions. (2) Call us directly — available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any imaging if available, relevant medical reports, current medication list, insurance card, and comfortable clothing allowing neck and shoulder assessment.'
+    }
+
+
+  ]
 };
 
 export const neckPainLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
   title: "Where neck pain physiotherapy happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   hours: {
@@ -502,7 +528,7 @@ export const neckPainRelatedPages = {
       description: "Evidence-based physiotherapy for acute and chronic back pain — same approach, different spinal region.",
       href: "/conditions/back-pain-physiotherapy-jvc/"
     },
-  
+
     {
       title: "Sports Injury Physiotherapy",
       description: "For sports-related neck pain — gym training, contact sports, padel-related cervical strain.",

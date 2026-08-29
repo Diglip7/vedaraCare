@@ -4,7 +4,7 @@ export const cuppingTherapyHero = {
     { label: "Treatments", href: "/treatments" },
     { label: "Cupping Therapy in Dubai", active: true }
   ],
-  label: "CUPPING THERAPY · DHA-LICENSED · JVC",
+  label: "CUPPING THERAPY · DHA-LICENSED 2509266 · JVC",
   title: "Cupping therapy in Dubai. Dry cupping, massage cupping, and Hijama. Evidence-balanced clinical care.",
   description: "Specialist cupping therapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. We offer dry cupping (static and dynamic), massage cupping, and where applicable Hijama (wet cupping) — each with distinct applications and traditions. DHA-licensed practitioners, sterile single-use equipment, transparent about evidence and limitations, with deep cultural respect for Hijama's significance in Islamic tradition.",
   primaryCTA: "Book Cupping Assessment",
@@ -28,7 +28,7 @@ export const cuppingTherapyIntro = {
   label: "THE QUICK ANSWER",
   title: "Cupping therapy at Vedara Care, in one paragraph.",
   blockquote: "Cupping therapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — encompasses several distinct practices delivered by DHA-licensed practitioners. Dry cupping uses cups (silicone, glass, or plastic) applied to the skin with suction to create localised vacuum effect, addressing chronic muscle tension, trigger points, sports recovery, and various musculoskeletal conditions. Massage cupping (dynamic cupping) involves moving cups across oiled skin for broader soft tissue treatment. Hijama (wet cupping) involves controlled small skin incisions to draw small amounts of blood — practiced widely in Islamic tradition as a Sunnah practice with both religious and therapeutic significance; where offered, performed with sterile single-use equipment and appropriate clinical standards. We integrate dry and massage cupping into physiotherapy programmes for chronic back and shoulder pain, sports muscle recovery, chronic muscle tension, fibromyalgia, and select other conditions. Evidence base for cupping is moderate for musculoskeletal applications. Cupping leaves visible circular marks (1-2 weeks typically) which are normal therapeutic effects, not bruises. Single sessions from AED 250; structured programmes from AED 1,200. Patients travel to our JVC clinic from across Dubai.",
-  footer: "Medically reviewed by Lead Physiotherapist, DPT, DHA-Licensed · Last updated June 2025"
+  footer: "Medically reviewed by Lead Physiotherapist, DPT, DHA-Licensed 2509266 · Last updated June 2025"
 };
 
 export const cuppingTherapyWhatIs = {
@@ -74,6 +74,10 @@ export const cuppingTherapyWhatIs = {
   },
   bgColor: "bg-[#EDE5D8]"
 };
+
+
+
+
 export const cuppingTherapyReviews = {
   label: "PATIENT STORIES",
   title: "Real experiences from our patients.",
@@ -112,7 +116,7 @@ export const cuppingTherapyFaqs = {
   label: "COMMON QUESTIONS",
   title: "What patients ask about cupping before booking.",
   description: "For broader physiotherapy questions, see our main physiotherapy page.",
-   sidebarLinks: [
+  sidebarLinks: [
     {
       text: "Visit physiotherapy main page",
       href: "/physiotherapy-jvc/"
@@ -191,15 +195,15 @@ export const cuppingTherapyFaqs = {
       question: "How is cupping at Vedara different?",
       answer: "DHA-licensed practitioners with appropriate training, sterile single-use equipment for Hijama (where offered), comprehensive contraindication screening, integration with broader physiotherapy treatment for musculoskeletal conditions, transparent published pricing, honest discussion of evidence, respect for religious significance of Hijama for Muslim patients, and cultural and modesty sensitivity for all patients."
     },
-     {
+    {
       question: "Can children receive cupping?",
       answer: "Cupping for children requires careful assessment. Generally not recommended for very young children. For adolescents with specific conditions (sports injuries, chronic muscle tension), modified cupping may be appropriate. Hijama specifically is generally not performed on children. We assess on a case-by-case basis with appropriate caution."
     },
-     {
+    {
       question: "How do I book a cupping appointment?",
       answer: 'Three ways: (1) <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20cupping%20appointment." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for asking specific questions about which type of cupping would suit you. (2) Call <a href="tel:+971 55 573 6312" class="hover:underline">+971 55 573 6312</a> — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For Hijama specifically, inquire about availability and Sunnah days scheduling. Please bring: any relevant medical reports, current medication list, insurance card if applicable, and comfortable clothing allowing access to treatment areas.'
     },
-    
+
   ]
 };
 
@@ -338,7 +342,7 @@ export const cuppingTherapySession = {
       "Pregnancy (certain areas — modified approach)",
       "Diabetes with circulation issues",
       "Anemia (particularly for Hijama)",
-      
+
     ],
     sideEffectsLabel: "IMPORTANT TO KNOW",
     sideEffectsBg: "rgba(250, 247, 242, 1)",

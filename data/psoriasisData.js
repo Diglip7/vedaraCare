@@ -4,17 +4,17 @@ export const psoriasisHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Psoriasis Treatment in JVC", active: true }
   ],
-  label: "PSORIASIS TREATMENT · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
-  title:"Psoriasis treatment in JVC, Dubai. Specialist care including modern biologic treatments for lasting improvement",
+  label: "PSORIASIS TREATMENT · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
+  title: "Psoriasis treatment in JVC, Dubai. Specialist care including modern biologic treatments for lasting improvement",
   description:
     "Specialist psoriasis treatment at our Jumeirah Village Circle (JVC) clinic — walking distance from Circle Mall. DHA-licensed consultant dermatologists treating all psoriasis presentations, including chronic plaque, scalp, nail, guttate, inverse, pustular, palmoplantar, and psoriatic arthritis considerations. Comprehensive care from topicals through modern biologic treatments (adalimumab, secukinumab, ustekinumab, ixekizumab, guselkumab, risankizumab) that have transformed outcomes.",
   primaryCTA: "Book Psoriasis Consultation",
   secondaryCTA: "Understand Treatment Options",
   trustSignals: [
     "DHA-licensed consultant dermatologists",
-"All psoriasis types treated",
-"Access to modern biologic treatments",
-"Walking distance from Circle Mall, JVC"
+    "All psoriasis types treated",
+    "Access to modern biologic treatments",
+    "Walking distance from Circle Mall, JVC"
   ],
   floatingCard: {
     title: "Modern psoriasis treatment is transformative.",
@@ -30,7 +30,7 @@ export const psoriasisIntro = {
   title:
     "Psoriasis treatment at Vedara Care, in one paragraph.",
   blockquote: "Psoriasis treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist evidence-based dermatology care delivered by DHA-licensed consultant dermatologists with substantial expertise across all psoriasis presentations. We treat: chronic plaque psoriasis (the most common form), scalp psoriasis, nail psoriasis, guttate psoriasis, inverse psoriasis, pustular psoriasis, palmoplantar psoriasis, and considerations for psoriatic arthritis. Our approach combines comprehensive assessment (skin, nails, joints, associated systemic conditions), evidence-based topical treatments, phototherapy where available, oral systemic treatments (methotrexate, cyclosporine, acitretin, apremilast), and modern biologic treatments — including TNF inhibitors (adalimumab, etanercept), IL-17 inhibitors (secukinumab, ixekizumab), IL-23 inhibitors (guselkumab, risankizumab, tildrakizumab), and IL-12/23 inhibitor (ustekinumab). Realistic framing: well-controlled psoriasis with clear or nearly clear skin is achievable for most patients with modern treatments. Sustained partnership approach with regular follow-up. Medical psoriasis treatment is covered by most insurance with appropriate justification. Patients travel to our JVC clinic from across Dubai for specialist psoriasis care.",
-  footer:"Medically reviewed by Lead Consultant Dermatologist, MD, DHA-Licensed · Last updated July 2026"
+  footer: "Medically reviewed by Lead Consultant Dermatologist, MD, DHA-Licensed 2509266 · Last updated July 2026"
 };
 
 export const psoriasisUnderstanding = {
@@ -305,7 +305,7 @@ export const psoriasisExpectations = {
     }
   ],
 
-   footerNote:
+  footerNote:
     "These timelines describe typical treatment patterns. Individual progress varies depending on psoriasis type, severity, chosen treatment approach, adherence, and individual response. The strongest predictor of long-term success is consistent partnership with a specialist dermatologist, appropriate treatment selection, and realistic expectations regarding chronic disease management."
 };
 export const psoriasisTeam = {
@@ -328,7 +328,7 @@ export const psoriasisTeam = {
       name: "Dr. Priya Menon, MD",
       qualification: "DHA-Licensed · Consultant Dermatologist",
       specialties: ["Autoimmune Skin", "Biologics", "Nail Psoriasis"],
-     description: "Expertise in autoimmune dermatology with substantial experience treating diverse skin types including Fitzpatrick IV–VI.",
+      description: "Expertise in autoimmune dermatology with substantial experience treating diverse skin types including Fitzpatrick IV–VI.",
       languages: ["English", "Hindi", "Malayalam"],
       link: "/dermatologists/dr-priya-menon/",
       image: "/images/doctors/dr-priya-menon.jpg",
@@ -372,7 +372,7 @@ export const psoriasisLocation = {
   label: "VISIT US",
   bgColor: "bg-[#F0EBE3]",
   title: "Where psoriasis treatment happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'm interested in Psoriasis treatment. Could you please provide more information?",

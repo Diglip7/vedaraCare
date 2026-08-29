@@ -80,7 +80,7 @@ const AyurvedaClinicJVC = () => {
         "@type":"EducationalOccupationalCredential",
         "credentialCategory":"License",
         "name":"DHA Healthcare Facility License",
-        "identifier":"[DHA License Number]",
+        "identifier":"DHA license number- 2509266",
         "recognizedBy": {"@type": "Organization", "name": "Dubai Health Authority", "url": "https://www.dha.gov.ae/", "sameAs": "https://en.wikipedia.org/wiki/Dubai_Health_Authority"}
       },
       "sameAs": [

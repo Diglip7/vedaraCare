@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import DoctorPage from '@/components/doctor/DoctorPage';
-
+import DoctorPageTemplate from '@/components/doctor/DoctorPageTemplate';
+import { drPriyaNairTemplate } from '@/data/doctorData';
 const doctorData = {
   name: 'Dr. Priya Nair',
   firstName: 'Priya',
@@ -367,7 +367,7 @@ export default function DoctorSlugPage() {
           ]
         })}} />
       </Head>
-      <DoctorPage />
+      <DoctorPageTemplate doctor={drPriyaNairTemplate} />
     </>
   );
 }

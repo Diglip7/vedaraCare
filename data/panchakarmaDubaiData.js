@@ -4,7 +4,7 @@ export const panchakarmaDubaiHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai" },
     { label: "Panchakarma Treatment in Dubai", active: true }
   ],
-  label: "PANCHAKARMA TREATMENT IN DUBAI · DHA-LICENSED",
+  label: "PANCHAKARMA TREATMENT IN DUBAI · DHA-LICENSED 2509266",
   title: "Classical\nPanchakarma in\nDubai, the way it\nwas meant to be\npractised.",
   description: "Authentic 7-day, 14-day, and 21-day Panchakarma programmes at our <a href=\"/ayurveda-clinic-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Jumeirah Village Circle clinic</a>, doctor-supervised by BAMS-qualified physicians. The five-action classical detoxification — properly assessed, properly executed, properly followed up.",
   primaryCTA: "Book a Panchakarma Consultation",
@@ -30,7 +30,7 @@ export const panchakarmaDubaiIntro = {
   label: "THE QUICK ANSWER",
   title: "Panchakarma in Dubai, in one paragraph.",
   blockquote: "Panchakarma is the classical five-action Ayurvedic detoxification programme, supervised by a BAMS-qualified physician over 7, 14, or 21 days. It includes preparation (oleation and sudation), main therapies (Virechana, Basti, Nasya — and Vamana or Raktamokshana when indicated), and a structured recovery phase. At Vedara Care Polyclinic in <a href=\"/ayurveda-clinic-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Jumeirah Village Circle</a>, Dubai, authentic Panchakarma programmes start from AED 8,500 and address <a href=\"/conditions/back-pain-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">chronic back pain</a>, <a href=\"/conditions/pcos-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">PCOS</a>, <a href=\"/conditions/migraine-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">migraine</a>, stress, weight management, and full constitutional reset.",
-  footer: "Medically reviewed by Dr. Priya Nair, BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Priya Nair, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const panchakarmaDubaiFoundation = {
@@ -57,7 +57,7 @@ export const panchakarmaDubaiPhysician = {
   stats: [
     { value: "500+", label: "Programmes supervised" },
     { value: "14+", label: "Years of practice" },
-    { value: "DHA", label: "Licensed" }
+    { value: "DHA 2509266", label: "Licensed" }
   ],
   languages: "Languages: English · Hindi · Malayalam · Arabic (basic)",
   button1Text: "Book with Dr. Nair",
@@ -403,7 +403,7 @@ export const panchakarmaDubaiLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "THE CLINIC",
   title: "Our Panchakarma clinic in Jumeirah Village Circle.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about Panchakarma treatment at your JVC clinic.",

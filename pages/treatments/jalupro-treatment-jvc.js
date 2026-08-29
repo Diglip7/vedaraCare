@@ -633,39 +633,23 @@ const JaluproTreatment = () => {
         ]}
       />
 
-      <ContentWithSidebar
-        bgColor="bg-[#F5F0E8]"
-        label="OUR LOCATION"
-        title={jaluproLocation.title}
-        contentSections={[
-          { subtitle: '', description: jaluproLocation.address }
-        ]}
-        sidebar={{
-          image: jaluproLocation.image,
-          altText: jaluproLocation.alt,
-          width: "w-full",
-          height: "h-[400px]",
-          borderPosition: "left"
-        }}
-        footer={jaluproLocation.caption}
-      />
+      <section className="bg-[#F5F0E8] py-16 md:py-20 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">OUR LOCATION</p>
+          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">{jaluproLocation.title}</h2>
+          <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">{jaluproLocation.address}</p>
+          <p className="text-sm italic text-[rgb(107,107,107)]">{jaluproLocation.caption}</p>
+        </div>
+      </section>
 
-      <ContentWithSidebar
-        bgColor="bg-white"
-        label="LOCAL ACCESSIBILITY"
-        title={jaluproWhyJvc.title}
-        contentSections={[
-          { subtitle: '', description: jaluproWhyJvc.description }
-        ]}
-        sidebar={{
-          image: jaluproWhyJvc.image,
-          altText: jaluproWhyJvc.alt,
-          width: "w-full",
-          height: "h-[400px]",
-          borderPosition: "right"
-        }}
-        footer={jaluproWhyJvc.caption}
-      />
+      <section className="bg-white py-16 md:py-20 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">LOCAL ACCESSIBILITY</p>
+          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">{jaluproWhyJvc.title}</h2>
+          <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">{jaluproWhyJvc.description}</p>
+          <p className="text-sm italic text-[rgb(107,107,107)]">{jaluproWhyJvc.caption}</p>
+        </div>
+      </section>
 
       <TreatmentLocation
         bgColor="bg-[#FAF7F2]"

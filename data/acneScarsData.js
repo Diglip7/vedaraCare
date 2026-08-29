@@ -4,7 +4,7 @@ export const acneScarsHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Acne Scars Treatment in JVC Dubai", active: true }
   ],
-  label: "ACNE SCARS TREATMENT · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "ACNE SCARS TREATMENT · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
   title: "Best clinic for acne scars in Dubai. Dermatology-led combination protocols at our JVC clinic.",
   description: "Specialist acne scar treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists treating all acne scar types — ice pick, boxcar, rolling, hypertrophic, keloid — with personalised combination protocols. Particular expertise for Fitzpatrick IV-VI skin types.",
   primaryCTA: "Book Acne Scar Consultation",
@@ -27,7 +27,7 @@ export const acneScarsIntro = {
   label: "THE QUICK ANSWER",
   title: "Acne scar treatment at Vedara Care, in one paragraph.",
   blockquote: "Acne scar treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist dermatology-led scar treatment delivered by DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types (I-VI). We treat all acne scar types: atrophic scars (ice pick, boxcar, rolling); hypertrophic and keloid scars; and post-inflammatory hyperpigmentation (PIH). Our combination protocols address multiple scar types typically present in the same patient — microneedling with PRP, subcision, fractional lasers, TCA cross, dermal fillers, chemical peels, and topical treatments. Skin-type-safe protocols are particularly critical for Fitzpatrick IV-VI skin types, where wrong treatment produces hyperpigmentation worse than original scarring. A series of 6-12 sessions over 6-12 months is typical for substantial improvement; complete resolution is rare for severe scarring, and honest realistic framing supports informed decisions. Patients travel from across Dubai for specialist acne scar care.",
-  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, MD, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, MD, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const acneScarsPatientVoices = {
@@ -322,7 +322,7 @@ export const acneScarsCombination = {
           "Ongoing maintenance: Annual"
         ]
       },
-        {
+      {
         title: "For darker skin (Fitzpatrick IV–VI):",
         items: [
           "Skin-type-safe modalities prioritised",
@@ -489,8 +489,8 @@ export const acneScarsFAQ = {
     { question: "What is the difference between acne treatment and acne scar treatment?", answer: "Fundamentally different clinical challenges. Active acne requires medical treatment (antibiotics, retinoids, isotretinoin, hormonal therapy) addressing inflammation. Established scars require procedural treatment (subcision, lasers, microneedling, fillers, peels) addressing structural damage. Patients often need both sequentially." },
     { question: "Can I combine acne scar treatment with other aesthetic treatments?", answer: "Yes — comprehensive aesthetic care often combines scar treatment with skin rejuvenation, pigmentation treatment, or other aesthetic goals. We design combined protocols when appropriate. Coordinated planning ensures optimal outcomes without treatment interference." },
     { question: "What about hypertrophic and keloid scars from acne?", answer: "Different treatment approach than atrophic scars. Intralesional corticosteroid injections, silicone therapy, careful laser selection, sometimes cryotherapy. Genetic predisposition to keloids common in some ethnic backgrounds requires specialist recognition and careful treatment approach." },
-    { question: "How is acne scar treatment at Vedara different?", answer: "DHA-licensed consultant dermatologists with combination protocol expertise; Fitzpatrick I–VI expertise particularly IV–VI safety; comprehensive scar type recognition; full modality range; honest realistic outcome framing; multilingual capability; female and male dermatologists; JVC clinic near Circle Mall accessible from across Dubai."},
-    { question: "How do I book an acne scar consultation?", answer: "Three ways: WhatsApp +971 4 300 0000 for fastest response; call +971 55 573 6312 9AM–9PM seven days a week; book online. Please bring: photos of your scars, list of previous treatments and outcomes, current skincare and medications, event timing if relevant, and specific questions and goals."}
+    { question: "How is acne scar treatment at Vedara different?", answer: "DHA-licensed consultant dermatologists with combination protocol expertise; Fitzpatrick I–VI expertise particularly IV–VI safety; comprehensive scar type recognition; full modality range; honest realistic outcome framing; multilingual capability; female and male dermatologists; JVC clinic near Circle Mall accessible from across Dubai." },
+    { question: "How do I book an acne scar consultation?", answer: "Three ways: WhatsApp +971 4 300 0000 for fastest response; call +971 55 573 6312 9AM–9PM seven days a week; book online. Please bring: photos of your scars, list of previous treatments and outcomes, current skincare and medications, event timing if relevant, and specific questions and goals." }
   ],
   buttonText: "WhatsApp us",
   buttonHref: "https://wa.me/971555736312?text=Hi,%20I%27m%20interested%20in%20acne%20scar%20treatment%20and%20would%20like%20to%20book%20a%20consultation.",
@@ -507,7 +507,7 @@ export const acneScarsLocation = {
   title: "Vedara Care Polyclinic, Jumeirah Village Circle, Dubai",
   image: "/images/vedara-jvc-clinic-acne-scars.webp",
   alt: "Vedara Care JVC clinic acne scar treatment Dubai",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I want to book an Acne Scar Treatment consultation.",

@@ -21,7 +21,7 @@ export const carbonLaserPeelHero = {
     title: "Why is Carbon Used?",
     subtitle: "The carbon layer is one of the more distinctive parts of this treatment, and patients often ask what it’s actually doing. In simple terms, a thin coat of a carbon-based lotion or solution is applied across the treatment area and left to settle into the surface of the skin — including into pores, where it can bind with some of the oil and debris sitting there."
   },
-  image: "/images/carbon-laser-peel-consultation-jvc.jpg",
+  image: "/images/carbon-laser-jvc.webp",
   alt: "Skin consultation before Carbon Laser Peel treatment at Vedara Care in JVC"
 };
 
@@ -29,7 +29,7 @@ export const carbonLaserPeelIntro = {
   label: "THE QUICK ANSWER",
   title: "Carbon Laser Peel at Vedara Care, in one paragraph.",
   blockquote: "Carbon Laser Peel in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, is a non-invasive skin treatment that uses a carbon-based lotion followed by a controlled laser treatment to refresh the skin’s surface. It may be considered for concerns such as excess oil, clogged pores, dullness, uneven texture, and a tired-looking complexion. Before treatment, the skin is assessed to determine whether the procedure is appropriate for your individual needs. Carbon Laser Peel generally involves little downtime, although results and suitability vary depending on skin condition, treatment goals, and the number of sessions recommended by your dermatology professional.",
-  footer: "Medically reviewed by [Lead Consultant Dermatologist Name], MD, DHA-Licensed · Last updated August 2026"
+  // footer: "Medically reviewed by [Lead Consultant Dermatologist Name], MD, DHA-Licensed · Last updated August 2026"
 };
 
 export const carbonLaserPeelHowItWorks = {
@@ -70,7 +70,7 @@ export const carbonLaserPeelHowItWorks = {
     footer: "\"The carbon layer binds with oil and debris, so the laser targets the carbon rather than the skin directly, providing a clean surface exfoliation.\""
   },
   rightContent: {
-    image: "/images/skin-assessment-carbon-laser-peel-jvc.jpg",
+    image: "/images/cabon-layer.webp",
     alt: "Dermatology team assessing a patient's skin before Carbon Laser Peel",
     bottomContent: "",
     peelDepthsLabel: "KEY TREATMENT PARAMETERS",
@@ -150,7 +150,7 @@ export const carbonLaserPeelFormulations = {
       ]
     }
   ],
-  footer: '<div class="mt-8 flex flex-col items-center"><p class="text-xs text-gray-500 italic">Every session starts with an individual skin assessment.</p></div><div class="mt-6"><a href="/book" class="text-[#C9A55A] hover:underline">Book a skin assessment to confirm your skin is ready and suitable for a Carbon Laser Peel →</a></div>',
+  footer: '<div class="mt-8 flex flex-col items-center"><p class="text-xs text-gray-500 italic"></p></div><div class="mt-6"><a href="/book" class="text-[#C9A55A] hover:underline">Book a skin assessment to confirm your skin is ready and suitable for a Carbon Laser Peel →</a></div>',
   gridCols: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
   borderPosition: "left"
 };
@@ -187,7 +187,7 @@ export const carbonLaserPeelSelection = {
     }
   ],
   sidebar: {
-    image: "/images/Wellness Treatments.webp",
+    image: "/images/carbon-peel.webp",
     altText: "Carbon Laser Peel",
     width: "w-full",
     height: "h-[400px]",
@@ -383,7 +383,7 @@ export const carbonLaserPeelTeam = {
       name: "Dermatology Specialist Team",
       qualification: "DHA-Licensed Specialists",
       description: "Our approach is to talk through your specific skin concerns and goals first, and only then agree on whether Carbon Laser Peel — or a different treatment entirely — is the right fit. You can review our full range of skin services through our dermatology clinic in JVC and skin clinic in JVC pages, or see our dermatology team’s profiles before booking.<br/><br/><em class='text-xs text-gray-500'>Inside the dermatology treatment room at Vedara Care, JVC.</em>",
-      image: "/images/vedara-care-laser-treatment-room-jvc.jpg",
+      image: "/images/carbon.derma..webp",
       alt: "Dermatology treatment room used for Carbon Laser Peel at Vedara Care"
     }
   ]
@@ -579,4 +579,8 @@ export const carbonLaserPeelRelatedPages = {
     { title: "Skin Rejuvenation in JVC", href: "/treatments/skin-rejuvenation-jvc", description: "Personalised skin rejuvenation options designed to support smoother texture, improved tone, hydration, and overall skin appearance." },
     { title: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc", description: "Get professional skin assessment and personalised treatment recommendations from our dermatology team in Jumeirah Village Circle." }
   ]
+};
+
+export const carbonLaserPeelmedia = {
+  "disclaimer": " This page provides general information about Carbon Laser Peel and does not constitute medical advice. Suitability for this treatment varies from person to person, and results differ between individuals — nothing on this page should be read as a guarantee of outcome. A professional skin assessment is recommended before undergoing treatment. Cosmetic treatments such as Carbon Laser Peel do not replace appropriate medical dermatology care, and patients with persistent, painful, or concerning skin problems should seek a full professional evaluation rather than relying on a cosmetic treatment alone."
 };

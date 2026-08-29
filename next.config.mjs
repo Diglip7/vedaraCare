@@ -1,8 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   /* config options here */
+
   reactCompiler: true,
   reactStrictMode: true,
+
+  allowedDevOrigins: [
+    'contrite-reawake-trickily.ngrok-free.dev',
+  ],
+
   images: {
     remotePatterns: [
       {
@@ -11,6 +17,7 @@ const nextConfig = {
       },
     ],
   },
+
   async redirects() {
     return [
       {

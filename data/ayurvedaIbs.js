@@ -29,7 +29,7 @@ export const ayurvedaIbsIntro = {
   label: 'THE QUICK ANSWER',
   title: 'Ayurvedic IBS treatment in Dubai, in one paragraph.',
   blockquote: 'Ayurvedic treatment for IBS in Dubai is a 3 to 6-month structured medical programme combining classical Panchakarma protocols (typically Virechana for IBS with bloating and inflammation; Basti for chronic IBS patterns), specific internal Ayurvedic medicines (Hingvashtaka Churna, Dadimashtaka Churna, Kutaja Ghana Vati, Bilva Marmala, Chitrakadi Vati, and pattern-specific formulations), individualised dietary regulation calibrated to your IBS subtype, and lifestyle protocols addressing the brain-gut axis. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are specific to your subtype (IBS-D, IBS-C, IBS-M, post-infectious, or SIBO-related) and work alongside your gastroenterologist where applicable. Initial consultations start from AED [price].',
-  footer: 'Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed · Last updated May 2026'
+  footer: 'Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026'
 };
 
 export const ayurvedaIbsArthritisTypes = {
@@ -42,7 +42,8 @@ export const ayurvedaIbsArthritisTypes = {
       title: "IBS-D (Diarrhoea-Predominant)",
       sanskritName: "Pitta-Vata Pattern Grahani in classical Sanskrit",
       description: "The most common IBS subtype in Dubai expat populations. Loose or watery stools 25%+ of the time, urgency, often morning bowel movements, post-meal urgency, sometimes food-specific triggers. Linked to gut hypermotility, sometimes post-infectious origin, frequently exacerbated by stress and certain foods (caffeine, fatty foods, alcohol). Often associated with food anxiety and social restriction.",
-      emphasis: "Pitta-pacifying protocols, Kutaja Ghana Vati, Sangrahi (binding) herbs, Bilva-based medicines, dietary regulation for hypermotility, brain-gut axis support"   },
+      emphasis: "Pitta-pacifying protocols, Kutaja Ghana Vati, Sangrahi (binding) herbs, Bilva-based medicines, dietary regulation for hypermotility, brain-gut axis support"
+    },
     {
       title: "IBS-C (Constipation-Predominant)",
       sanskritName: "Vata Pattern Grahani in classical Sanskrit",
@@ -67,7 +68,7 @@ export const ayurvedaIbsArthritisTypes = {
       description: "Small intestinal bacterial overgrowth presenting with IBS-like symptoms — particularly bloating, distension, and changes after carbohydrate-containing meals. Increasingly diagnosed via breath testing. Conventional treatment usually involves rifaximin or other antimicrobials. Ayurvedic treatment addresses underlying gut motility and Agni patterns that allow SIBO to develop and recur.",
       emphasis: "Agni-strengthening protocols, specific anti-bacterial herbs (Vidanga, Pippali), motility support, coordination with gastroenterology for testing and antibiotic timing"
     }
-  
+
   ],
   footer: "Most patients arrive at our JVC clinic with a clear IBS diagnosis from their GP or gastroenterologist but uncertainty about subtype or with multiple subtype features. Pattern identification at consultation includes detailed bowel diary review, symptom mapping, and where indicated, recommendations for additional testing (breath testing for SIBO, food intolerance assessment)."
 };
@@ -111,17 +112,20 @@ export const ayurvedaIbsPillars = {
   pillars: [
     {
       title: "Agni Restoration (Digestive Fire)",
-      description: "The foundational concept in Ayurvedic gut treatment. Agni is the digestive fire — the capacity of the gut to process food properly. Most IBS patients have disordered Agni — either weak (mandagni, causing slow digestion and bloating), erratic (vishamagni, causing irregular bowel patterns), or sharp (tikshnagni, causing rapid transit and diarrhoea). Treatment includes specific herbs (Pippali, Trikatu, Chitrakadi Vati), dietary timing protocols, and lifestyle factors that restore proper Agni function. Without this foundation, other treatments produce only partial results."    },
+      description: "The foundational concept in Ayurvedic gut treatment. Agni is the digestive fire — the capacity of the gut to process food properly. Most IBS patients have disordered Agni — either weak (mandagni, causing slow digestion and bloating), erratic (vishamagni, causing irregular bowel patterns), or sharp (tikshnagni, causing rapid transit and diarrhoea). Treatment includes specific herbs (Pippali, Trikatu, Chitrakadi Vati), dietary timing protocols, and lifestyle factors that restore proper Agni function. Without this foundation, other treatments produce only partial results."
+    },
     {
       title: "Ama Clearance and <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a>",
       description: "Ama refers to incompletely digested metabolic byproducts that accumulate when Agni is impaired and contribute to gut symptoms, inflammation, and systemic effects. For IBS, classical <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> — typically Virechana for IBS-D and IBS with bloating, Basti for IBS-C and Vata-pattern presentations — addresses accumulated Ama and resets gut function. Typically performed once during the programme, in month 2. For SIBO-related IBS, <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> is coordinated with any antimicrobial treatment your gastroenterologist may have prescribed."
     },
     {
       title: "Subtype-Specific Internal Medicines",
-      description: "Specific Ayurvedic medicines selected for your IBS subtype and dosha pattern. For IBS-D: Kutaja Ghana Vati, Bilva Marmala, Dadimashtaka Churna, Hingvashtaka Churna. For IBS-C: Triphala formulations, Avipattikara Churna, Trivrit Lehyam. For IBS-M: balanced combinations adjusted to current presentation. For SIBO: Vidanga, Pippali-based formulations. Doses are individualised, adjusted monthly, and selected with attention to interactions with any conventional medications."    },
+      description: "Specific Ayurvedic medicines selected for your IBS subtype and dosha pattern. For IBS-D: Kutaja Ghana Vati, Bilva Marmala, Dadimashtaka Churna, Hingvashtaka Churna. For IBS-C: Triphala formulations, Avipattikara Churna, Trivrit Lehyam. For IBS-M: balanced combinations adjusted to current presentation. For SIBO: Vidanga, Pippali-based formulations. Doses are individualised, adjusted monthly, and selected with attention to interactions with any conventional medications."
+    },
     {
       title: "Dietary Regulation & Brain-Gut Protocols",
-      description: "The single most powerful pillar for many IBS patients. A specific eating protocol designed around your subtype, your dosha pattern, your cultural food preferences, and your real life in Dubai. Significantly more sophisticated than low-FODMAP or gluten-free elimination. Addresses: meal timing (extremely important for IBS), food combinations, eating environment and mindfulness, specific foods to favour and avoid by subtype, and the brain-gut axis through stress reduction protocols (often including Shirodhara for patients with significant anxiety-gut component). Implemented gradually over 4-6 weeks."    }
+      description: "The single most powerful pillar for many IBS patients. A specific eating protocol designed around your subtype, your dosha pattern, your cultural food preferences, and your real life in Dubai. Significantly more sophisticated than low-FODMAP or gluten-free elimination. Addresses: meal timing (extremely important for IBS), food combinations, eating environment and mindfulness, specific foods to favour and avoid by subtype, and the brain-gut axis through stress reduction protocols (often including Shirodhara for patients with significant anxiety-gut component). Implemented gradually over 4-6 weeks."
+    }
   ]
 };
 
@@ -232,7 +236,7 @@ export const ayurvedaIbsPrograms = {
         'IBS subtype classification',
         'Pulse diagnosis and dosha assessment',
         'Written treatment plan with realistic expectations',
-        
+
       ],
       bestFor: 'First step for every IBS patient — required before any treatment programme'
     },
@@ -265,11 +269,13 @@ export const ayurvedaIbsPrograms = {
         'Coordination with gastroenterology for SIBO management',
         'Extended dietary support',
         '12-month follow-up programme',
-        
+
       ],
-      bestFor: 'IBS-M, post-infectious IBS, SIBO-related IBS, treatment-resistant IBS, severe IBS with significant anxiety-gut component'   }
+      bestFor: 'IBS-M, post-infectious IBS, SIBO-related IBS, treatment-resistant IBS, severe IBS with significant anxiety-gut component'
+    }
   ],
-  footer: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic IBS treatment varies. IBS is recognised as a medical condition for insurance purposes which often supports coverage.<a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20verify%20my%20insurance%20coverage%20for%20ayurvedic%20IBS%20%20treatment.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\">WhatsApp us your insurance card</a>  before booking."};
+  footer: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic IBS treatment varies. IBS is recognised as a medical condition for insurance purposes which often supports coverage.<a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20verify%20my%20insurance%20coverage%20for%20ayurvedic%20IBS%20%20treatment.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\">WhatsApp us your insurance card</a>  before booking."
+};
 
 export const ayurvedaIbsFaqs = {
   bgColor: 'bg-[#F5F3EE] ',
@@ -280,31 +286,39 @@ export const ayurvedaIbsFaqs = {
   faqs: [
     {
       question: 'Does Ayurvedic treatment actually work for IBS?',
-      answer: 'Yes — substantially, for most IBS subtypes, when treatment is a structured 3-6 month medical programme rather than supplements alone. Across our 400+ IBS patients at the JVC clinic, IBS-D and IBS-C patients typically see 50-70% reduction in symptomatic days over 3-6 months. Post-infectious IBS often responds particularly well. IBS-M is more variable but most patients see meaningful improvement. The single biggest predictor of outcome is consistent adherence to the dietary protocol — not the herbs or Panchakarma alone.'   },
+      answer: 'Yes — substantially, for most IBS subtypes, when treatment is a structured 3-6 month medical programme rather than supplements alone. Across our 400+ IBS patients at the JVC clinic, IBS-D and IBS-C patients typically see 50-70% reduction in symptomatic days over 3-6 months. Post-infectious IBS often responds particularly well. IBS-M is more variable but most patients see meaningful improvement. The single biggest predictor of outcome is consistent adherence to the dietary protocol — not the herbs or Panchakarma alone.'
+    },
     {
       question: 'Can Ayurveda cure IBS?',
-      answer: 'No. IBS is a chronic functional GI disorder that does not have a permanent "cure" in either conventional or Ayurvedic medicine. What sustained Ayurvedic treatment can produce: substantial reduction in symptom frequency and severity, expanded dietary tolerance, reduced impact on daily life, improved confidence around food and social eating, and often years of stable improvement. Some patients return for brief annual programmes to maintain results; others maintain through home protocols alone.'   },
+      answer: 'No. IBS is a chronic functional GI disorder that does not have a permanent "cure" in either conventional or Ayurvedic medicine. What sustained Ayurvedic treatment can produce: substantial reduction in symptom frequency and severity, expanded dietary tolerance, reduced impact on daily life, improved confidence around food and social eating, and often years of stable improvement. Some patients return for brief annual programmes to maintain results; others maintain through home protocols alone.'
+    },
     {
       question: 'How long does Ayurvedic IBS treatment take?',
-      answer: 'Most IBS-D and IBS-C patients respond well to 3-month structured programmes with substantial improvement by month 2. IBS-M, post-infectious IBS, and SIBO-related IBS often need 6 months. Complex IBS with significant anxiety-gut component or treatment-resistant patterns may need 9 months. We will give you a realistic timeline at consultation based on your specific subtype and severity.'    },
+      answer: 'Most IBS-D and IBS-C patients respond well to 3-month structured programmes with substantial improvement by month 2. IBS-M, post-infectious IBS, and SIBO-related IBS often need 6 months. Complex IBS with significant anxiety-gut component or treatment-resistant patterns may need 9 months. We will give you a realistic timeline at consultation based on your specific subtype and severity.'
+    },
     {
       question: 'How is Ayurvedic IBS treatment different from low-FODMAP diet?',
-      answer: 'Low-FODMAP is one dietary approach that helps some IBS patients identify trigger foods through elimination. Ayurvedic dietary regulation is fundamentally different — it is dosha-specific, subtype-specific, addresses meal timing and food combinations beyond ingredient selection, and is designed for long-term sustainable eating rather than elimination. Some patients benefit from combining both approaches. We do not insist on either; we design a protocol that addresses your specific IBS pattern.'  },
+      answer: 'Low-FODMAP is one dietary approach that helps some IBS patients identify trigger foods through elimination. Ayurvedic dietary regulation is fundamentally different — it is dosha-specific, subtype-specific, addresses meal timing and food combinations beyond ingredient selection, and is designed for long-term sustainable eating rather than elimination. Some patients benefit from combining both approaches. We do not insist on either; we design a protocol that addresses your specific IBS pattern.'
+    },
     {
       question: 'Can I do Ayurvedic treatment while on IBS medications?',
-      answer: 'Yes. Many of our IBS patients are on antispasmodics (mebeverine, hyoscine), low-dose antidepressants for IBS (amitriptyline, paroxetine), antidiarrhoeals (loperamide), or other GI medications. Ayurvedic treatment is compatible with all of these. We do not adjust your medications — that is your prescribing physician decision based on response. Many patients reduce medication use naturally as IBS improves; some continue medications throughout the programme.'  },
-   
+      answer: 'Yes. Many of our IBS patients are on antispasmodics (mebeverine, hyoscine), low-dose antidepressants for IBS (amitriptyline, paroxetine), antidiarrhoeals (loperamide), or other GI medications. Ayurvedic treatment is compatible with all of these. We do not adjust your medications — that is your prescribing physician decision based on response. Many patients reduce medication use naturally as IBS improves; some continue medications throughout the programme.'
+    },
+
     {
       question: 'How much does Ayurvedic IBS treatment cost in Dubai?',
-      answer: 'At Vedara Care, initial assessment starts from AED [price]. A standard 3-month IBS programme starts from AED [price]. A comprehensive 6-month programme starts from AED [price]. Across Dubai, comprehensive Ayurvedic IBS programmes typically range from AED 6,000 to AED 25,000. We are direct-billing partners with seven major insurers.'  },
-    
+      answer: 'At Vedara Care, initial assessment starts from AED [price]. A standard 3-month IBS programme starts from AED [price]. A comprehensive 6-month programme starts from AED [price]. Across Dubai, comprehensive Ayurvedic IBS programmes typically range from AED 6,000 to AED 25,000. We are direct-billing partners with seven major insurers.'
+    },
+
     {
       question: 'What if my IBS is worse with stress?',
-      answer: 'Stress-responsive IBS is common — and we treat it as a real biological pattern, not a personality issue. Brain-gut axis protocols are integrated into your IBS treatment, including Shirodhara for patients with significant anxiety-gut component, specific nervine herbs (Brahmi, Jatamansi), and sleep regulation. Patients with prominent anxiety-IBS overlap often benefit from combined IBS and <a href="/conditions/stress-anxiety-ayurveda-dubai/" class="doctor-specialty-link">stress treatment</a> in one integrated programme.'  },
+      answer: 'Stress-responsive IBS is common — and we treat it as a real biological pattern, not a personality issue. Brain-gut axis protocols are integrated into your IBS treatment, including Shirodhara for patients with significant anxiety-gut component, specific nervine herbs (Brahmi, Jatamansi), and sleep regulation. Patients with prominent anxiety-IBS overlap often benefit from combined IBS and <a href="/conditions/stress-anxiety-ayurveda-dubai/" class="doctor-specialty-link">stress treatment</a> in one integrated programme.'
+    },
     {
       question: 'Where exactly is your IBS clinic in Dubai?',
-      answer: 'Our clinic is at [full address] in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif.'  },
-   
+      answer: 'Our clinic is at [full address] in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif.'
+    },
+
   ]
 };
 

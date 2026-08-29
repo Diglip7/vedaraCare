@@ -3,7 +3,7 @@ export const dermatologyHero = {
     { label: "Home", href: "/" },
     { label: "Dermatology Clinic in JVC", active: true }
   ],
-  label: "DERMATOLOGY CLINIC · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "DERMATOLOGY CLINIC · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
   title: "Dermatology clinic in JVC. Specialist medical and cosmetic care. All skin types. All concerns.",
   description: "Specialist dermatology at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists delivering medical dermatology — acne, eczema, pigmentation, skin cancer screening — and aesthetic dermatology: anti-aging treatments, botulinum toxin, dermal fillers, laser treatments, hair restoration. Expertise across all Fitzpatrick skin types. Multiple languages: Arabic, English, Hindi, Urdu.",
   primaryCTA: "Book Dermatology Consultation",
@@ -29,7 +29,7 @@ export const dermatologyIntro = {
   label: "THE QUICK ANSWER",
   title: "Dermatology at Vedara Care, in one paragraph.",
   blockquote: "Dermatology at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist medical and aesthetic dermatology delivered by DHA-licensed consultant dermatologists with expertise across all Fitzpatrick skin types (I–VI), particularly important for Dubai's diverse expat and Emirati population. Medical dermatology services include acne treatment (adolescent and adult), melasma and pigmentation treatment, eczema and atopic dermatitis management, psoriasis treatment, rosacea management, hyperhidrosis treatment, skin cancer screening and mole assessment, dermatology surgery, chronic skin condition management, and pediatric dermatology. Aesthetic dermatology services include botulinum toxin, dermal fillers, chemical peels, laser treatments (hair removal, pigmentation, skin resurfacing, vascular lesions), skin rejuvenation, and hair restoration. Climate-specific expertise addressing Dubai's specific patterns — sun damage, melasma, photoaging, hyperhidrosis, fungal conditions. Multiple languages including Arabic, English, Hindi, Urdu. Female and male dermatologists available. Initial consultation from AED 500. Insurance covers medical dermatology with appropriate justification; cosmetic procedures typically self-pay. Patients travel to our JVC clinic from across Dubai for specialist dermatology care.",
-  footer: "Medically reviewed by Dr. Layla Al-Hassan, MD, FRCP, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Layla Al-Hassan, MD, FRCP, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const dermatologySciaticaSection1 = {
@@ -396,7 +396,7 @@ export const dermatologyLocation = {
   label: "VISIT US",
   title: "Where dermatology happens at Vedara Care JVC.",
   address1: "Vedara Care Polyclinic",
-  address2: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai ",
+  address2: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai ",
   addressNote: "",
   contactPhone: "+971 55 573 6312",
   contactEmail: "booking@vedaracare.ae",

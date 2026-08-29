@@ -50,14 +50,14 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <button 
+            <button
               onClick={() => toggleSection('services')}
               className="w-full flex items-center justify-between text-left mb-6 md:cursor-default"
             >
               <h4 className="text-lg font-bold text-white">Services</h4>
-              <ChevronDown 
-                size={18} 
-                className={`md:hidden transition-transform duration-300 ${openSection === 'services' ? 'rotate-180' : ''}`} 
+              <ChevronDown
+                size={18}
+                className={`md:hidden transition-transform duration-300 ${openSection === 'services' ? 'rotate-180' : ''}`}
               />
             </button>
             <ul className={`space-y-4 text-[#F8F9FA]/80 text-sm ${openSection === 'services' ? 'block' : 'hidden md:block'}`}>
@@ -71,14 +71,14 @@ const Footer = () => {
 
           {/* Popular Treatments */}
           <div>
-            <button 
+            <button
               onClick={() => toggleSection('treatments')}
               className="w-full flex items-center justify-between text-left mb-6 md:cursor-default"
             >
               <h4 className="text-lg font-bold text-white">Popular Treatments</h4>
-              <ChevronDown 
-                size={18} 
-                className={`md:hidden transition-transform duration-300 ${openSection === 'treatments' ? 'rotate-180' : ''}`} 
+              <ChevronDown
+                size={18}
+                className={`md:hidden transition-transform duration-300 ${openSection === 'treatments' ? 'rotate-180' : ''}`}
               />
             </button>
             <ul className={`space-y-4 text-[#F8F9FA]/80 text-sm ${openSection === 'treatments' ? 'block' : 'hidden md:block'}`}>
@@ -87,7 +87,7 @@ const Footer = () => {
               <li><Link href="/treatments/panchakarma-dubai/" className="hover:text-white transition-colors">Panchakarma in Dubai</Link></li>
               <li><Link href="/treatments/abhyanga-dubai/" className="hover:text-white transition-colors">Abhyanga Massage</Link></li>
               <li><Link href="/treatments/shirodhara-dubai/" className="hover:text-white transition-colors">Shirodhara</Link></li>
-              
+
               {showAllTreatments && (
                 <>
                   <li><Link href="/treatments/skin-rejuvenation-jvc/" className="hover:text-white transition-colors">Skin Rejuvenation</Link></li>
@@ -100,8 +100,8 @@ const Footer = () => {
               )}
 
               <li>
-                <button 
-                  onClick={() => setShowAllTreatments(!showAllTreatments)} 
+                <button
+                  onClick={() => setShowAllTreatments(!showAllTreatments)}
                   className="text-[#D4A373] hover:text-white transition-colors text-xs font-semibold pt-1 flex items-center gap-1"
                 >
                   <span>{showAllTreatments ? '− Show less' : '+ View 6 more treatments'}</span>
@@ -112,14 +112,14 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <button 
+            <button
               onClick={() => toggleSection('company')}
               className="w-full flex items-center justify-between text-left mb-6 md:cursor-default"
             >
               <h4 className="text-lg font-bold text-white">Company</h4>
-              <ChevronDown 
-                size={18} 
-                className={`md:hidden transition-transform duration-300 ${openSection === 'company' ? 'rotate-180' : ''}`} 
+              <ChevronDown
+                size={18}
+                className={`md:hidden transition-transform duration-300 ${openSection === 'company' ? 'rotate-180' : ''}`}
               />
             </button>
             <ul className={`space-y-4 text-[#F8F9FA]/80 text-sm ${openSection === 'company' ? 'block' : 'hidden md:block'}`}>
@@ -144,7 +144,7 @@ const Footer = () => {
             <span>Now Health</span>
             <span>Bupa</span>
             <span>MetLife</span>
-            <span className="text-white/80">DHA License XXXXX</span>
+            <span className="text-white/80">DHA License No: 2509266</span>
           </div>
         </div>
 

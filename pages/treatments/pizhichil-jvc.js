@@ -319,7 +319,7 @@ const PizhichilJVC = () => {
           description: c.description
         }))}
         sidebar={{
-          image: "/images/pizhichil-treatment-room-setup-jvc.jpg",
+          image: "/images/pizhichil-treatment-roomie-setup-jvc.webp",
           altText: "Treatment room set up for Pizhichil therapy at an Ayurveda clinic in JVC",
           width: "w-full",
           height: "h-[550px]",
@@ -683,23 +683,25 @@ const PizhichilJVC = () => {
         </div>
       </section>
 
-      {/* Location Sections */}
-      <ContentWithSidebar
-        bgColor="bg-white"
-        label="OUR LOCATION"
-        title={pizhichilLocation.title}
-        contentSections={[
-          { subtitle: '', description: pizhichilLocation.address }
-        ]}
-        sidebar={{
-          image: pizhichilLocation.image,
-          altText: pizhichilLocation.alt,
-          width: "w-full",
-          height: "h-[400px]",
-          borderPosition: "left"
-        }}
-        footer={pizhichilLocation.caption}
-      />
+      {/* Location Section */}
+      <section className="bg-white" style={{ padding: '96px 24px' }}>
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="text-sm tracking-[0.2em] uppercase mb-4" style={{ color: '#C9A84C' }}>
+            OUR LOCATION
+          </div>
+          <h2 className="text-3xl md:text-4xl mb-8" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)' }}>
+            {pizhichilLocation.title}
+          </h2>
+          <p className="text-base" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
+            {pizhichilLocation.address}
+          </p>
+          {pizhichilLocation.caption && (
+            <p className="text-sm mt-6 italic" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
+              {pizhichilLocation.caption}
+            </p>
+          )}
+        </div>
+      </section>
 
       <TreatmentLocation
         bgColor="bg-[#FAF7F2]"

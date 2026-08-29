@@ -4,7 +4,7 @@ export const postSurgeryRehabHero = {
     { label: "Physiotherapy in JVC", href: "/physiotherapy-jvc" },
     { label: "Post-Surgery Rehabilitation in Dubai", active: true }
   ],
-  label: "POST-SURGERY REHABILITATION · DHA-LICENSED · COORDINATED WITH YOUR SURGEON",
+  label: "POST-SURGERY REHABILITATION · DHA-LICENSED 2509266 · COORDINATED WITH YOUR SURGEON",
   title: "Post-surgery\nrehabilitation in Dubai.\nSurgeon-coordinated.\nProcedure-specific.\nHome or clinic.",
   description: "Structured post-operative rehabilitation at our Jumeirah Village Circle (JVC) clinic and at your home across Dubai. DPT-qualified physiotherapists trained in procedure-specific protocols for knee replacement, hip replacement, ACL reconstruction, spinal surgery, rotator cuff repair, and other orthopaedic and surgical procedures. We coordinate with your operating surgeon — whether they practise in Dubai or internationally. Home physiotherapy available for the early recovery phase.",
   primaryCTA: "Book a Post-Surgery Consultation",
@@ -30,7 +30,7 @@ export const postSurgeryRehabIntro = {
   label: "THE QUICK ANSWER",
   title: "Post-surgery rehabilitation at Vedara Care, in one paragraph.",
   blockquote: "Post-surgery rehabilitation at Vedara Care Polyclinic — at our Jumeirah Village Circle (JVC), Dubai clinic walking distance from Circle Mall, and at patient homes across Dubai — is procedure-specific structured rehabilitation delivered by DPT-qualified physiotherapists working in coordination with your operating surgeon. We provide rehabilitation programmes for total knee replacement (typical 4-6 months), total hip replacement (3-4 months), ACL reconstruction (9-12 months), rotator cuff repair (4-6 months), spinal surgery (3-6 months depending on procedure), meniscus surgery, hip arthroscopy, shoulder arthroscopy, post-mastectomy rehabilitation, and other orthopaedic and surgical procedures. For patients with surgery overseas (UK, India, Germany, USA, and other countries), we coordinate directly with the operating surgeon to follow their specific protocols. Home physiotherapy is available for the early post-operative phase across Dubai. Initial consultation from AED 350; structured rehabilitation programmes from AED 5,500. Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-  footer: "Medically reviewed by Dr. Sarah Mitchell, DPT, DHA-Licensed · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Sarah Mitchell, DPT, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const postSurgeryRehabMechanism = {
