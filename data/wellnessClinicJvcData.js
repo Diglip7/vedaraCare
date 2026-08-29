@@ -462,7 +462,7 @@ export const wellnessSchemaFaqs = [
   },
   {
     question: "How do I book a JVC wellness consultation?",
-    answer: "Three ways: WhatsApp +971 55 573 6312 for fastest response including same-day availability; call +971 55 573 6312 , 8:30 AM – 11:30 PM seven days a week; or book online. Please bring list of current health concerns, current medications, insurance card if applicable, family health information if JVC family wellness relevant, and specific wellness questions and goals."
+    answer: "Three ways: WhatsApp +971 55 573 6312 for fastest response including same-day availability; call +971 55 573 6312 , 9:00AM to 10:00PM seven days a week; or book online. Please bring list of current health concerns, current medications, insurance card if applicable, family health information if JVC family wellness relevant, and specific wellness questions and goals."
   }
 ];
 
@@ -485,7 +485,7 @@ export const wellnessLocation = {
   email: "booking@vedaracare.ae",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hello, I would like to book a wellness consultation at your JVC clinic.",
-  hours: "Monday – Sunday<br/>8:30 AM – 11:30 PM",
+  hours: "Monday – Sunday<br/>9:00AM to 10:00PM",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",

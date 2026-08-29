@@ -156,7 +156,7 @@ export default function BookAppointment({ dynamicTreatments }) {
     treatment: 'General Consultation',
     doctor: 'Any Available DHA Specialist',
     preferredDate: '',
-    preferredTime: 'Morning (8:30 AM - 12:00 PM)',
+    preferredTime: 'Morning (9:00AM to 10:00PM)',
     patientType: 'First-time Patient',
     name: '',
     phone: '',
@@ -941,7 +941,7 @@ export default function BookAppointment({ dynamicTreatments }) {
                   <div>
                     <h4 className="font-serif text-lg font-medium">Instant WhatsApp Desk</h4>
                     <p className="text-xs text-white/80 max-w-xs mx-auto mt-1">
-                      Prefer to book via chat? Our medical coordinator is available 8:30 AM – 11:30 PM daily.
+                      Prefer to book via chat? Our medical coordinator is available 9:00AM to 10:00PM daily.
                     </p>
                   </div>
                   <a

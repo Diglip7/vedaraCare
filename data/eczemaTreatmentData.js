@@ -493,7 +493,7 @@ export const eczemaTreatmentLocation = {
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
-  hours: "Monday - Sunday: 8:30 am to 11:30 pm",
+  hours: "Monday - Sunday: 9:00AM to 10:00PM",
   description: "",
   mapAlt: "Vedara Care JVC clinic eczema treatment Dubai",
   buttonText: "Book Eczema Consultation",

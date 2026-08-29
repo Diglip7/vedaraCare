@@ -469,7 +469,7 @@ export const weightLossTreatmentLocation = {
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: {
-    monday: "8:30 am to 11:30 pm",
+    monday: "9:00AM to 10:00PM",
     tuesday: "8:00 AM - 8:00 PM",
     wednesday: "8:00 AM - 8:00 PM",
     thursday: "8:00 AM - 8:00 PM",

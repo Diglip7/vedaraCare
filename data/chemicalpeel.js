@@ -487,7 +487,7 @@ export const chemicalPeelLocation = {
   email: "booking@vedaracare.ae",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'm interested in Chemical Peel treatment. Could you please provide more information?",
-  hours: "8:30 am to 11:30 pm, Seven days a week",
+  hours: "9:00AM to 10:00PM, Seven days a week",
   landmarks: [
     "3 min from FIVE Jumeirah Village Hotel",
     "5 min from JSS Private School",

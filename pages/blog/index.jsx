@@ -546,7 +546,7 @@ export default function BlogListPage() {
                     <div className="flex items-start gap-2">
                       <ClockIcon className="w-3.5 h-3.5 text-[#184C3A] shrink-0 mt-0.5" />
                       <div>
-                        <p>Mon - Sun: 8:30AM to 11:30PM</p>
+                        <p>Mon - Sun: 9:00AM to 10:00PM</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-2">

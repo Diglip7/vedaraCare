@@ -256,9 +256,9 @@ export const shoulderPhysioLocation = {
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: {
-    monday: "8:30 am to 11:30 pm",
-    saturday: "8:30 am to 11:30 pm",
-    sunday: "8:30 am to 11:30 pm"
+    monday: "9:00AM to 10:00PM",
+    saturday: "9:00AM to 10:00PM",
+    sunday: "9:00AM to 10:00PM"
   },
   landmarks: [
     "Circle Mall Walking distance",

@@ -381,7 +381,7 @@ export const abhyangaTreatmentLocation = {
   ],
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
-  hours: "Monday - Sunday: 8:30 am to 11:30 pm",
+  hours: "Monday - Sunday: 9:00AM to 10:00PM",
   description: "Five private Abhyanga treatment rooms, each with traditional Kerala-style wooden droni table and brass oil-warming station. Heated rooms maintained at 26–28°C during sessions. Free patient parking available.",
   mapAlt: "Vedara Care Abhyanga clinic location in Jumeirah Village Circle Dubai near Circle Mall",
   buttonText: "Book Abhyanga Consultation",

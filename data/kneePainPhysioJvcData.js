@@ -412,13 +412,13 @@ export const kneePainLocation = {
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: {
-    monday: " 8:30 am to 11:30 pm",
-    tuesday: " 8:30 am to 11:30 pm",
-    wednesday: " 8:30 am to 11:30 pm",
-    thursday: " 8:30 am to 11:30 pm",
-    friday: " 8:30 am to 11:30 pm",
-    saturday: " 8:30 am to 11:30 pm",
-    sunday: " 8:30 am to 11:30 pm"
+    monday: " 9:00AM to 10:00PM",
+    tuesday: " 9:00AM to 10:00PM",
+    wednesday: " 9:00AM to 10:00PM",
+    thursday: " 9:00AM to 10:00PM",
+    friday: " 9:00AM to 10:00PM",
+    saturday: "9:00AM to 10:00PM",
+    sunday: " 9:00AM to 10:00PM"
   },
   landmarks: [
     "Walking distance from Circle Mall",

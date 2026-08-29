@@ -40,7 +40,7 @@ const DetoxTreatment = () => {
       "alternateName": ["Vedara Care Detox Dubai", "Vedara Detox JVC"],
       "url": "https://vedaracare.ae/detox-treatment/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Authentic Ayurvedic detox and classical Panchakarma at Vedara Care Polyclinic, Binghatti Azure, Shop 4, Jumeirah Village Circle (JVC), Dubai. Supervised by DHA-licensed Ayurvedic doctors delivering traditional Purvakarma, Pradhanakarma, and Paschatkarma protocols. Open Monday to Sunday 8:30 AM to 11:30 PM.",
+      "description": "Authentic Ayurvedic detox and classical Panchakarma at Vedara Care Polyclinic, Binghatti Azure, Shop 4, Jumeirah Village Circle (JVC), Dubai. Supervised by DHA-licensed Ayurvedic doctors delivering traditional Purvakarma, Pradhanakarma, and Paschatkarma protocols. Open Monday to Sunday 9:00AM to 10:00PM.",
       "telephone": "+971 55 573 6312",
       "email": "  ing@vedaracare.ae",
       "priceRange": "AED 350 - AED 13,000",
@@ -55,8 +55,8 @@ const DetoxTreatment = () => {
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          "opens": "08:30",
-          "closes": "23:30"
+          "opens": "09:00",
+          "closes": "22:00"
         }
       ],
       "areaServed": [

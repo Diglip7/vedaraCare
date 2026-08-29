@@ -482,7 +482,7 @@ export const pcosTreatmentLocation = {
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about Ayurvedic PCOS treatment at your JVC clinic in Dubai.",
-  hours: "Monday - Sunday: 8:30 am to 11:30 pm",
+  hours: "Monday - Sunday: 9:00AM to 10:00PM",
   description: "Dedicated consultation rooms for women's health, female reception staff available on request, private treatment areas. We schedule PCOS consultations in longer 60-minute slots rather than rushing them into 20-minute appointments.",
   buttonText: "Book PCOS Consultation",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",

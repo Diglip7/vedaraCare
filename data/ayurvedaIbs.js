@@ -338,7 +338,7 @@ export const ayurvedaIbsTreatmentLocationCustom = {
   address2: 'Al Barsha South Fourth, Binghatti Azure, Shop -4,<br /> Jumeraih Village Circle (JVC) Dubai',
   addressNote: 'Next to Circle Mall · 3 min from FIVE Jumeirah Village Hotel',
   clinicHours: [
-    { label: 'Sunday - Monday', time: '8:30 am to 11:30 pm' },
+    { label: 'Sunday - Monday', time: '9:00AM to 10:00PM' },
    
   ],
   contactPhone: '+971 55 573 6312',

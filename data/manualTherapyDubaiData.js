@@ -219,7 +219,7 @@ export const manualTherapyLocation = {
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br /> Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
-  hours: "8:30 am to 11:30 pm • 7 days a week",
+  hours: "9:00AM to 10:00PM • 7 days a week",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",

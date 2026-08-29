@@ -328,7 +328,7 @@ export const homeLocation = {
   },
   hours: {
     label: "Hours",
-    weekdays: "Mon - Sun: 8:30 am to 11:30 pm",
+    weekdays: "Mon - Sun: 9:00AM to 10:00PM",
     sunday: ""
   },
   parkingText: "Free covered parking available for patients",
