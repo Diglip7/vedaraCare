@@ -4,15 +4,7 @@ import Link from 'next/link';
 import { drPriyaNair, drNeethu } from '../../data/doctorData';
 
 const practitioners = [
-  {
-    name: 'Dr. Priya Nair',
-    specialty: 'Senior Ayurvedic Physician',
-    focus: 'Chronic Pain, PCOS, Migraine',
-    image: drPriyaNair.image,
-    alt: drPriyaNair.alt,
-    slug: 'dr-priya-nair-ayurveda',
-    url: '/doctors/dr-priya-nair-ayurveda'
-  },
+
   {
     name: 'Dr. Neethu',
     specialty: 'Ayurveda Practitioner · BAMS',
@@ -50,15 +42,15 @@ const practitioners = [
   //   url: '/doctors/dr-layla-al-rashid-dermatology'
   // },
 
-  {
-    name: 'Dr. Neethu Karatt',
-    specialty: 'BAMS',
-    focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
-    image: '/images/dr-neetu-karatt-bams-jvc-dubai.webp',
-    alt: 'Dr. Neethu Karatt, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'dr-neethu-karatt-bams',
-    url: '/doctors/dr-neethu-karatt-bams'
-  },
+  // {
+  //   name: 'Dr. Neethu Karatt',
+  //   specialty: 'BAMS',
+  //   focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
+  //   image: '/images/dr-neetu-karatt-bams-jvc-dubai.webp',
+  //   alt: 'Dr. Neethu Karatt, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
+  //   slug: 'dr-neethu-karatt-bams',
+  //   url: '/doctors/dr-neethu-karatt-bams'
+  // },
   {
     name: 'Dr. Anusha Makkena',
     specialty: 'MBBS, MS ENT',
