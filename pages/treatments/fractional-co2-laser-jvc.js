@@ -610,7 +610,7 @@ const FractionalCO2Laser = () => {
 
       {/* <MedicalDisclaimer text={co2LaserCTA.disclaimer} /> */}
 
-      <FinalCTA
+      {/* <FinalCTA
         bgColor='white'
         title={co2LaserCTA.title}
         description={co2LaserCTA.description}
@@ -619,7 +619,7 @@ const FractionalCO2Laser = () => {
         button1TextHref={co2LaserCTA.button1TextHref}
         button2Text={co2LaserCTA.button2Text}
         button2TextHref={co2LaserCTA.button2TextHref}
-      />
+      /> */}
 
       <RelatedPages {...co2LaserRelatedPages} />
     </>

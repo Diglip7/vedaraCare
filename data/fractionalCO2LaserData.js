@@ -413,32 +413,32 @@ export const co2LaserRelatedPages = {
   title: "Related Services and Resources",
   pages: [
     {
-      title: "Dermatology clinic in JVC",
+      title: "Dermatology Clinic in JVC",
       description: "",
       href: "/dermatology-clinic-jvc"
     },
     {
-      title: "microneedling treatment",
+      title: "Microneedling Treatment",
       description: "",
       href: "/treatments/microneedling-jvc"
     },
     {
-      title: "rf microneedling",
+      title: "RF Microneedling",
       description: "",
       href: "/treatments/rf-microneedling-jvc"
     },
     {
-      title: "chemical peel treatment",
+      title: "Chemical Peel treatment",
       description: "",
       href: "/treatments/chemical-peel-dubai"
     },
     {
-      title: "Acne scar treatment",
+      title: "Acne Scar Treatment",
       description: "",
       href: "/conditions/acne-scars-dubai"
     },
     {
-      title: "skin rejuvenation services",
+      title: "Skin Rejuvenation Services",
       description: "",
       href: "/treatments/skin-rejuvenation-jvc"
     }
