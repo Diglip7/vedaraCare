@@ -390,7 +390,7 @@ export const co2LaserFAQ = {
 
 export const co2LaserLocation = {
   title: "At Our JVC Dermatology Clinic",
-  address: "Vedara Care Polyclinic\nAl Barsha South Fourth, Binghatti Azure, Shop 4, Jumeirah Village Circle (JVC), Dubai, UAE\nPhone: +971 55 573 6312\nHours: Sunday–Saturday, 8:00 AM–11:00 PM",
+  address: "Vedara Care Polyclinic\nAl Barsha South Fourth, Binghatti Azure, Shop 4, Jumeirah Village Circle (JVC), Dubai, UAE\nPhone: +971 55 573 6312\nHours: Monday - Sunday, 9:00 AM–10:00 PM",
   caption: ""
 };
 

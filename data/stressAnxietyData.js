@@ -505,7 +505,7 @@ export const stressAnxietyLocation = {
   address: "207 Circle Mall, JVC<br/>Jumeirah Village Circle, Dubai, UAE",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
-  hours: "Mon - Sat: 9:00am - 8:00pm<br/>Sun: 10:00am - 6:00pm",
+  hours: "Mon - Sun: 9:00am - 10:00pm",
   landmarks: [
     "Circle Mall, JVC",
     "Jumeirah Village Circle, Dubai"

@@ -178,7 +178,7 @@ export const diabetesTreatmentLocationCustom = {
   addressNote: "Walking distance from FIVE Jumeirah Village Hotel",
   clinicHours: [
     { label: "Sunday - Saturday", time: "9:00AM to 10:00PM" },
-    
+
   ],
   contactPhone: "+971 55 573 6312",
   contactEmail: "booking@vedaracare.ae",
@@ -546,13 +546,7 @@ export const diabetesTreatmentLocation = {
   whatsapp: "+971 55 573 6312",
   email: "diabetes@vedaracare.ae",
   hours: {
-    monday: "8:00 AM - 8:00 PM",
-    tuesday: "8:00 AM - 8:00 PM",
-    wednesday: "8:00 AM - 8:00 PM",
-    thursday: "8:00 AM - 8:00 PM",
-    friday: "Closed",
-    saturday: "9:00 AM - 6:00 PM",
-    sunday: "Closed"
+    "Mon-Sun": "9:00 AM - 10:00 PM",
   },
   landmarks: [
     "Walking distance from Circle Mall",

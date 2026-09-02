@@ -10,9 +10,8 @@ const TreatmentLocationCustom = ({
   address2 = '',
   addressNote = '',
   clinicHours = [
-    { label: 'Sunday - Thursday', time: '9:00 AM - 8:00 PM' },
-    { label: 'Friday', time: '2:00 PM - 8:00 PM' },
-    { label: 'Saturday', time: '9:00 AM - 6:00 PM' }
+    { label: 'Monday - Sunday', time: '9:00 AM - 10:00 PM' },
+
   ],
   contactPhone = '+971 55 573 6312',
   contactEmail = 'booking@vedaracare.ae',
@@ -92,7 +91,7 @@ const TreatmentLocationCustom = ({
           </div>
           <div className="bg-[#F5F3EE] rounded-xl overflow-hidden aspect-square">
             {mapEmbed ? (
-              <iframe 
+              <iframe
                 src={mapEmbed}
                 width="100%"
                 height="100%"

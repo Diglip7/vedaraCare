@@ -460,9 +460,7 @@ export const sportsPhysiotherapyLocation = {
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: {
-    monday: "9:00 AM - 9:00 PM",
-    saturday: "9:00 AM - 7:00 PM",
-    sunday: "10:00 AM - 6:00 PM"
+    "MON-SUN": "9:00 AM - 10:00 PM"
   },
   landmarks: [
     "Walking distance from Circle Mall",

@@ -331,9 +331,7 @@ export const ayurvedaIbsTreatmentLocation = {
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: {
-    monday: "9:00 AM - 8:00 PM",
-    friday: "2:00 PM - 8:00 PM",
-    saturday: "9:00 AM - 6:00 PM"
+    "Mon-Sun": "9:00 AM - 10:00 PM"
   },
   landmarks: [
     "Next to Circle Mall",
@@ -353,7 +351,7 @@ export const ayurvedaIbsTreatmentLocationCustom = {
   addressNote: 'Next to Circle Mall · 3 min from FIVE Jumeirah Village Hotel',
   clinicHours: [
     { label: 'Sunday - Monday', time: '9:00AM to 10:00PM' },
-   
+
   ],
   contactPhone: '+971 55 573 6312',
   contactEmail: 'booking@vedaracare.ae',

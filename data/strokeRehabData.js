@@ -274,9 +274,7 @@ export const strokeRehabLocation = {
   phone: "+971 55 573 6312",
   email: "",
   hours: {
-    monday: "8:00 AM - 11:30 PM",
-    saturday: "9:00 AM - 7:00 PM",
-    sunday: "9:00 AM - 5:00 PM"
+    "Mon - Sun": "9:00 AM - 10:00 PM"
   },
   landmarks: [
     "Walking distance from Circle Mall",

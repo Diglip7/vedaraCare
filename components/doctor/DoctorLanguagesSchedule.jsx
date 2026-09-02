@@ -2,13 +2,8 @@ import React from 'react';
 
 const DoctorLanguagesSchedule = ({ doctor }) => {
   const schedule = [
-    { day: 'Monday', time: '10:00 AM - 7:00 PM', off: false },
-    { day: 'Tuesday', time: '10:00 AM - 7:00 PM', off: false },
-    { day: 'Wednesday', time: 'Off', off: true },
-    { day: 'Thursday', time: '10:00 AM - 7:00 PM', off: false },
-    { day: 'Friday', time: '10:00 AM - 1:00 PM, 4:00 PM - 8:00 PM', off: false },
-    { day: 'Saturday', time: '10:00 AM - 6:00 PM', off: false },
-    { day: 'Sunday', time: '12:00 PM - 5:00 PM', off: false }
+    { day: 'All 7 days', time: '9:00 AM - 10:00 PM', off: false },
+
   ];
 
   const languages = ['English', 'Hindi', 'Malayalam', 'Arabic (conversational)'];
@@ -25,7 +20,7 @@ const DoctorLanguagesSchedule = ({ doctor }) => {
             <h2 className="mb-6" style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '28px', fontWeight: '500', color: 'rgb(26, 26, 26)' }}>
               {doctor.firstName} consults in four languages.
             </h2>
-            
+
             <div className="flex flex-wrap gap-3 mb-6">
               {languages.map((lang, index) => (
                 <span
@@ -37,7 +32,7 @@ const DoctorLanguagesSchedule = ({ doctor }) => {
                 </span>
               ))}
             </div>
-            
+
             <p className="text-[15px] leading-[1.78]" style={{ color: 'rgb(107, 107, 107)' }}>
               Most JVC patients consult in English. South Asian expats often switch to Hindi or Malayalam for comfort. Translation support is available for other languages — please mention when booking.
             </p>
@@ -51,7 +46,7 @@ const DoctorLanguagesSchedule = ({ doctor }) => {
             <h3 className="mb-6" style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '28px', fontWeight: '500', color: 'rgb(26, 26, 26)' }}>
               {doctor.firstName}'s clinic schedule.
             </h3>
-            
+
             <div className="rounded-[8px] overflow-hidden mb-5" style={{ border: '1px solid rgb(229, 223, 211)' }}>
               {schedule.map((item, index) => (
                 <div
@@ -71,7 +66,7 @@ const DoctorLanguagesSchedule = ({ doctor }) => {
                 </div>
               ))}
             </div>
-            
+
             <p className="text-[13px] mb-5" style={{ color: 'rgb(107, 107, 107)' }}>
               Same-day slots are typically available with 2-hour notice via WhatsApp.
             </p>

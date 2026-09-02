@@ -520,7 +520,7 @@ export const profhiloLaserPeelLocation = {
     email: "info@vedaracare.ae",
     whatsapp: "971555736312",
     whatsappMessage: "Hello, I would like to book a Profhilo Treatment consultation at Vedara Care in JVC.",
-    hours: "MON-SAT<br/>9:00 AM - 9:00 PM<br/>SUNDAY<br/>9:00 AM - 6:00 PM",
+    hours: "MON-SUN<br/>9:00 AM - 10:00 PM<br/>",
     landmarks: [
         "Located in Binghatti Azure, JVC",
         "Close to Al Barsha South Fourth area",

@@ -7,7 +7,7 @@ const TreatmentLocation = ({
   title = "Walking distance from Circle Mall, Jumeirah Village Circle.",
   address = "Jumeirah Village Circle (JVC), Dubai, UAE",
   phone = "+971 55 573 6312",
-  hours = "MON-SAT<br/>9:00 AM - 9:00 PM<br/>SUNDAY<br/>9:00 AM - 6:00 PM",
+  hours = "MON-SUN<br/>9:00 AM - 10:00 PM<br/>",
   landmarks = [
     "Walking distance from Circle Mall",
     "3 min from FIVE Jumeirah Village Hotel",
