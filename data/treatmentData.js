@@ -662,7 +662,7 @@ export const kativastiTreatmentLocation = {
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about kativasti treatment at your JVC clinic.",
   email: "booking@vedaracare.ae",
-  hours: "Saturday - Sunday: 9:00AM to 10:00PM",
+  hours: "Monday - Sunday - 9:00AM to 10:00PM",
   landmarks: [
     "Circle Mall (2 min walk)",
     "FIVE Jumeirah Village Hotel (3 min drive)",
