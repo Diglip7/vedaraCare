@@ -714,7 +714,7 @@ const PizhichilJVC = () => {
         whatsappMessage="Hello Vedara Care, I would like to inquire about Pizhichil Therapy at your JVC clinic in Dubai."
         hours={[
           { day: "Monday - Sunday", time: "9:00 AM – 10:00 PM" },
-          { day: "Sunday", time: "By appointment" }
+
         ]}
         landmarks={[
           "Binghatti Azure building, Al Barsha South Fourth",

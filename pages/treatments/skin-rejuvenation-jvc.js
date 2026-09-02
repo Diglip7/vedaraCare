@@ -273,7 +273,7 @@ const SkinRejuvenationJvc = () => {
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow, max-image-preview:large" />
         <meta name="bingbot" content="index, follow" />
-        
+
         {/* Open Graph */}
         <meta property="og:title" content="Skin Rejuvenation in JVC — Dermatologist-Led Aesthetic Care | Vedara Care" />
         <meta property="og:description" content="Sophisticated skin rejuvenation at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists delivering personalised multi-modal treatment plans combining chemical peels, medical microneedling, PRP therapy, mesotherapy, laser rejuvenation, and skin boosters. Particular expertise across all Fitzpatrick skin types." />
@@ -281,13 +281,13 @@ const SkinRejuvenationJvc = () => {
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="en_AE" />
-        
+
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Skin Rejuvenation in JVC — Dermatologist-Led | Vedara Care" />
         <meta name="twitter:description" content="DHA-licensed consultant dermatologists delivering personalised multi-modal skin rejuvenation across all Fitzpatrick skin types." />
         <meta name="twitter:image" content="https://vedaracare.ae/og-images/skin-rejuvenation-jvc.jpg" />
-        
+
         {/* Canonical & Hreflang */}
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
@@ -306,10 +306,10 @@ const SkinRejuvenationJvc = () => {
 
       {/* Section 1 - Hero */}
       <AyurvedaHero {...skinRejuvenationHero} />
-      
+
       {/* Section 2 - Intro */}
       <AyurvedaIntro {...skinRejuvenationIntro} />
-      
+
       {/* Section 3 - Understanding */}
       <SciaticaTreatment
         data={skinRejuvenationUnderstanding}
@@ -318,7 +318,7 @@ const SkinRejuvenationJvc = () => {
         bgColor="bg-[#F0EBE3]"
         showStepNumbers={true}
       />
-      
+
       {/* Section 4 - Treatment Types */}
       <SciaticaTypes
         bgColor={skinRejuvenationTypes.bgColor}
@@ -332,7 +332,7 @@ const SkinRejuvenationJvc = () => {
         typicalSignsLabel="BEST FOR:"
         borderPosition="left"
       />
-      
+
       <ContentWithSidebar
         bgColor={skinRejuvenationTreatmentPlan.bgColor}
         label={skinRejuvenationTreatmentPlan.label}
@@ -341,7 +341,7 @@ const SkinRejuvenationJvc = () => {
         contentSections={skinRejuvenationTreatmentPlan.contentSections}
         sidebar={skinRejuvenationTreatmentPlan.sidebar}
       />
-       {/* Section 6 - Realistic Expectations */}
+      {/* Section 6 - Realistic Expectations */}
       <ContentWithSidebar
         bgColor={skinRejuvenationExpectations.bgColor}
         cardBg={skinRejuvenationExpectations.cardBg}
@@ -382,7 +382,7 @@ const SkinRejuvenationJvc = () => {
         team={skinRejuvenationTeam.team}
         gridColumns="lg:grid-cols-4"
       />
-      
+
       <ContentWithSidebar
         bgColor={skinRejuvenationPricing.bgColor}
         label={skinRejuvenationPricing.label}
@@ -391,7 +391,10 @@ const SkinRejuvenationJvc = () => {
         insuranceText={skinRejuvenationPricing.insuranceText}
         insurances={skinRejuvenationPricing.insurances}
       />
-{/* Section 9 - FAQ */}
+
+
+      {/* Section 9 - FAQ */}
+
       <FAQ
         bgColor={skinRejuvenationFaqs.bgColor}
         label={skinRejuvenationFaqs.label}
@@ -415,7 +418,7 @@ const SkinRejuvenationJvc = () => {
         hours={skinRejuvenationLocation.hours}
         landmarks={skinRejuvenationLocation.landmarks}
         mapEmbed={skinRejuvenationLocation.mapEmbed}
-        
+
         buttonText={skinRejuvenationLocation.buttonText}
         buttonHref={skinRejuvenationLocation.buttonHref}
         label={skinRejuvenationLocation.label}
@@ -423,11 +426,11 @@ const SkinRejuvenationJvc = () => {
       />
       {/* Section 11 - Final CTA */}
       <FinalCTA {...skinRejuvenationCTA} />
-      
+
       {/* Section 12 - Related Pages */}
       <RelatedPages {...skinRejuvenationRelatedPages} />
-      
-     
+
+
     </>
   );
 };

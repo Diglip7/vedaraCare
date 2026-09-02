@@ -288,7 +288,7 @@ const WellnessClinicJVC = () => {
           </div>
 
           {/* Pillars Image - Premium Banner Placement */}
-          <div className="max-w-5xl mx-auto mb-16 rounded-xl overflow-hidden shadow-sm aspect-[21/9] max-h-[350px] border border-[#E5DFD3]/30">
+          <div className="max-w-5xl mx-auto mb-16 rounded-xl overflow-hidden shadow-sm aspect-[16/9] max-h-[350px] border border-[#E5DFD3]/30">
             <img
               src="/images/jvc-wellness-service-pillars-vedara.webp"
               alt="Ayurveda wellness Panchakarma at JVC clinic Vedara Care"
@@ -342,6 +342,7 @@ const WellnessClinicJVC = () => {
 
       {/* 6. Wellness Journey */}
       <ContentWithSidebar {...wellnessJourney} />
+
 
       {/* 7. Real Wellness Outcomes (TreatmentReviews) */}
       <TreatmentReviews {...wellnessOutcomes} />

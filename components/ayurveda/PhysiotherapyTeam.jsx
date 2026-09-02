@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const PhysiotherapyTeam = ({ label, title, description, team = [], members = [], bgColor = "bg-white",gridColumns = "lg:grid-cols-4", memberButtonText = "View profile" }) => {
+const PhysiotherapyTeam = ({ label, title, description, team = [], members = [], bgColor = "bg-white", gridColumns = "lg:grid-cols-4", memberButtonText = "View profile" }) => {
   // Helper function to create a slug from the name
   const createSlug = (name) => {
     return name.toLowerCase().replace(/[.,]/g, '').replace(/\s+/g, '-');
@@ -20,20 +20,20 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
             {description}
           </p>}
         </div>
-        
+
         <div className={`grid md:grid-cols-2 ${gridColumns} gap-6 mb-8`}>
           {displayTeam.map((member, index) => {
             const slug = createSlug(member.name);
             return (
               <div key={index} className="bg-[#FAF8F5] rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col">
-              <div className="aspect-[5/5] bg-gray-100 overflow-hidden">
-                {member.image && (
-                  <img 
-                    src={member.image} 
-                    alt={member.alt} 
-                    className="w-full h-full object-cover"
-                  />
-                )}
+                <div className="aspect-[2/1] bg-gray-100 overflow-hidden">
+                  {member.image && (
+                    <img
+                      src={member.image}
+                      alt={member.alt}
+                      className="w-full h-full object-cover"
+                    />
+                  )}
                 </div>
                 <div className="p-4 space-y-3 flex flex-col flex-grow">
                   <h4 className="text-lg" style={{ fontFamily: 'Fraunces, serif', fontWeight: 500, color: '#1A1A1A' }}>{member.name}</h4>
@@ -60,14 +60,14 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
                   )}
                   <div className="mt-auto pt-2">
                     {member.link ? (
-                      <Link 
+                      <Link
                         href={member.link}
                         className="text-sm text-[#C4A962] hover:text-[#1A1A1A] transition-colors font-medium inline-block"
                       >
                         {memberButtonText} →
                       </Link>
                     ) : (
-                      <Link 
+                      <Link
                         href={`/physiotherapists/${slug}/`}
                         className="text-sm text-[#C4A962] hover:text-[#1A1A1A] transition-colors font-medium inline-block"
                       >
@@ -80,14 +80,14 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
             );
           })}
         </div>
-        
+
         <div className="text-center">
-         <Link
-          href="/doctors"
-          className="text-[#C4A962] hover:text-[#030213] transition-colors font-medium"
-        >
-          Meet the full team →
-        </Link>
+          <Link
+            href="/doctors"
+            className="text-[#C4A962] hover:text-[#030213] transition-colors font-medium"
+          >
+            Meet the full team →
+          </Link>
         </div>
       </div>
     </section>

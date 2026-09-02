@@ -289,28 +289,28 @@ export const wellnessTeam = {
   description: "Wellness at our JVC clinic — walking distance from Circle Mall — is delivered by our multi-disciplinary team of DHA-licensed practitioners across Ayurveda, physiotherapy, dermatology, and home healthcare. Practitioners at our JVC clinic coordinate care sharing patient information with consent. Female and male practitioners across specialties. Multiple languages including Arabic, English, Hindi, Urdu serving JVC's diverse community.",
   members: [
     {
-      image: "/images/jvc-multi-specialty-team-vedara.webp",
+      image: "/images/jvc-multi-team-vedara.webp",
       alt: "Ayurveda details",
       name: "Ayurveda Practitioners at JVC",
       description: "DHA-licensed Ayurvedic doctors with authentic training serving JVC's community with traditional wellness, Panchakarma, and constitutional care.",
       link: "/ayurveda-clinic-jvc/"
     },
     {
-      image: "/images/jvc-multi-specialty-team-vedara.webp",
+      image: "/images/jvc-specialty-team-vedara.webp",
       alt: "Physiotherapy details",
       name: "Physiotherapists at JVC",
       description: "DHA-licensed physiotherapists across specialisations serving JVC's active demographic — sports, post-surgery, elderly, pediatric, and manual therapy.",
       link: "/physiotherapy-jvc/"
     },
     {
-      image: "/images/jvc-multi-specialty-team-vedara.webp",
+      image: "/images/jvc-specialty-team.webp",
       alt: "Dermatology details",
       name: "Dermatologists at JVC",
       description: "DHA-licensed consultant dermatologists with Fitzpatrick I-VI expertise for JVC's diverse community — medical and aesthetic dermatology.",
       link: "/dermatology-clinic-jvc/"
     },
     {
-      image: "/images/jvc-multi-specialty-team-vedara.webp",
+      image: "/images/jvc-multi.webp",
       alt: "Home healthcare details",
       name: "Home Healthcare Team from JVC",
       description: "Nurses, physiotherapists, and support staff delivering care to JVC homes and surrounding areas — nursing, physiotherapy at home, elderly care.",
@@ -480,7 +480,7 @@ export const wellnessLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT OUR JVC WELLNESS CLINIC",
   title: "Where wellness care happens at Vedara Care JVC.",
-  address: "Vedara Care Polyclinic<br/>Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC)<br/>Dubai, United Arab Emirates",
+  address: "Vedara Care Polyclinic , Al Barsha South Fourth, Binghatti Azure, Shop-4, Jumeraih Village Circle (JVC) Dubai, United Arab Emirates",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   whatsapp: "+971 55 573 6312",
@@ -554,7 +554,7 @@ export const wellnessFourPillarsExplore = {
 
 export const wellnessRelatedArticles = {
   label: "EXPLORE FURTHER",
-  title: "Related JVC wellness content.",
+  title: "Related JVC Wellness Content.",
   articles: [
     {
       tag: "INTEGRATION",
