@@ -411,7 +411,7 @@ export const thyroidCTA = {
 export const thyroidLocation = {
   title: "Where thyroid treatment happens at Vedara Care.",
   description: "Our JVC clinic has dedicated Panchakarma treatment rooms, private consultation spaces, and a calm environment essential for endocrine health. Walking distance from Circle Mall, easy access from JVC, JVT, and Al Barsha South.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/> Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: "Saturday - Sunday: 9:00AM to 10:00PM",

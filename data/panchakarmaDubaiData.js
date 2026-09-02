@@ -408,7 +408,7 @@ export const panchakarmaDubaiLocation = {
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about Panchakarma treatment at your JVC clinic.",
   email: "booking@vedaracare.ae",
-  hours: "Sunday - Saturday: 9:00AM to 10:00PM",
+  hours: "Monday - Sunday: 9:00AM to 10:00PM",
   landmarks: [
     "Five private Panchakarma treatment rooms",
     "Wooden droni tables (traditional Kerala style)",

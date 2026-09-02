@@ -22,7 +22,7 @@ export const weightLossHero = {
     title: "WE DO NOT WEIGH YOU AT EVERY VISIT.",
     subtitle: "Weight loss consultation at our JVC clinic begins with lab review, pattern identification, and honest expectations."
   },
-  image: "images/weight-loss-ayurveda-jvc-hero.webp",
+  image: "/images/weight-loss-ayurveda-jvc-hero.webp",
   alt: "Ayurvedic doctor in weight loss consultation reviewing lab results with patient at Vedara Care JVC Dubai",
   altText: "Ayurvedic doctor in weight loss consultation reviewing lab results with patient at Vedara Care JVC Dubai"
 };
@@ -473,7 +473,7 @@ export const weightLossTreatmentLocation = {
   bgColor: "bg-[#F8FAF3]",
   label: "WHERE WE TREAT",
   title: "Where weight loss treatment happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/> Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",

@@ -255,11 +255,7 @@ export const pediatricPhysiotherapyLocation = {
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
-  hours: {
-    monday: " 9:00AM to 10:00PM",
-    saturday: "9:00AM to 10:00PM",
-    sunday: " 9:00AM to 10:00PM"
-  },
+  hours: "Mon-Sun - 9:00 AM - 10:00 PM",
 
   description: "Our JVC clinic has a dedicated paediatric area with age-appropriate equipment, sensory-friendly elements, and a small waiting area suitable for children and siblings. Free parking. Easy access from JVC, JVT, Al Barsha South, and across Dubai. Particularly convenient for JSS Private School families — schedule around school pickup. Convenient for Circle Mall family time.",
   image: "/images/vedara-care-clinic-exterior.webp",

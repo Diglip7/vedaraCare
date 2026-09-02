@@ -270,7 +270,7 @@ export const strokeRehabLocation = {
   bgColor: "bg-[#F8F5EE]",
   label: "VISIT US",
   title: "Where post-stroke rehabilitation happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/> Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   email: "",
   hours: {

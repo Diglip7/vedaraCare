@@ -323,7 +323,7 @@ export const shirodharaTreatmentLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
   title: "Where Shirodhara happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/> Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about Shirodhara treatments at your JVC clinic.",

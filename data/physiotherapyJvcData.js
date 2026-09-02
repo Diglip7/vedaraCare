@@ -545,11 +545,7 @@ export const physiotherapyJvcLocation = {
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to book a physiotherapy session at your JVC clinic.",
   email: "booking@vedaracare.ae",
-  hours: {
-    monday: " 9:00AM to 10:00PM",
-    saturday: "9:00AM to 10:00PM",
-    sunday: "9:00AM to 10:00PM"
-  },
+  hours: "Mon-Sun - 9:00 AM - 10:00 PM",
   landmarks: [
     "Circle Mall (5 min walking distance)",
     "FIVE Jumeirah Village (3 min)",

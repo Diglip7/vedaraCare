@@ -380,7 +380,7 @@ export const abhyangaTreatmentLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
   title: "Where Abhyanga happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/> Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   landmarks: [
     "Next to Circle Mall · Near FIVE Hotel · 5 min from JSS School"
   ],

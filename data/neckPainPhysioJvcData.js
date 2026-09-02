@@ -455,10 +455,7 @@ export const neckPainLocation = {
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
-  hours: {
-    Hours: " 9:00AM to 10:00PM",
-
-  },
+  hours: "Mon-Sun - 9:00 AM - 10:00 PM",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",

@@ -191,7 +191,7 @@ export const ayurvedicMassageJVCLocation = {
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
-  hours: "Sunday - Saturday: 9:00AM to 10:00PM",
+  hours: "Mon-Sun - 9:00 AM - 10:00 PM",
   landmarks: [
     "Next to Circle Mall (2 min walk)",
     "3 minutes from FIVE Jumeirah Village",

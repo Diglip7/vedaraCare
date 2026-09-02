@@ -260,7 +260,7 @@ export const whereWeWorkData = {
   description: "Post-surgical rehabilitation happens at two locations depending on your stage: the early phase (typically weeks 0-4) often at your home across Dubai with our DPT-qualified physiotherapists travelling to you. The active rehabilitation phase (typically weeks 4 onwards) at our JVC clinic with full rehabilitation equipment, treatment rooms, and gym access. Some patients prefer home-based throughout — we accommodate.",
   details: {
     address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
-    hours: "Sunday - Saturday: 9:00AM to 10:00PM",
+    hours: "Monday - Sunday : 9:00AM to 10:00PM",
     phone: "+971 55 573 6312",
     email: "booking@vedaracare.ae"
   },

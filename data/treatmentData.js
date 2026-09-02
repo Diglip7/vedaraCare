@@ -641,7 +641,7 @@ export const kativastiFinalCTA = {
 
 export const kativastiLocation = {
   name: "Kativasti at Vedara Care",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/> Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   hours: "Mon-Sun, 9:00AM to 10:00PM",
@@ -657,7 +657,7 @@ export const kativastiTreatmentLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
   title: "Where Kativasti happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/> Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about kativasti treatment at your JVC clinic.",

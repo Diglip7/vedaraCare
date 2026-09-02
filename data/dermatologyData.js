@@ -401,7 +401,7 @@ export const dermatologyLocation = {
   contactPhone: "+971 55 573 6312",
   contactEmail: "booking@vedaracare.ae",
   clinicHours: [
-    { label: "Sunday - Saturday", time: "9:00AM to 10:00PM" },
+    { label: "Monday - Sunday", time: "9:00AM to 10:00PM" },
   ],
   mapEmbed: "//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   description: "Our JVC clinic has dedicated dermatology consultation rooms, specialised treatment rooms for laser procedures, surgical room for biopsies and minor procedures, premium clinical environment with patient comfort prioritised, full equipment for all procedures described, and discreet booking and treatment process. Easy access from JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai.",

@@ -413,11 +413,7 @@ export const pigmentationTreatmentLocation = {
   phone: "+971 55 573 6312",
   whatsapp: "971555736312",
   email: "booking@vedaracare.ae",
-  hours: {
-    monday: "9:00AM to 10:00PM",
-    saturday: "9:00AM to 10:00PM",
-    sunday: "9:00AM to 10:00PM"
-  },
+  hours: "Mon-Sun - 9:00 AM - 10:00 PM",
   description: "Our JVC clinic has dedicated consultation rooms equipped for comprehensive pigmentation examination including Wood's lamp analysis and dermoscopy, specialised treatment rooms for chemical peels and laser procedures, and a discreet environment important for body pigmentation patients.",
   mapAlt: "Map showing Vedara Care clinic location in Jumeirah Village Circle, Dubai",
   buttonText: "Book Pigmentation Consultation",

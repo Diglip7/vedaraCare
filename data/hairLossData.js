@@ -440,15 +440,11 @@ export const hairLossTreatmentLocation = {
   bgColor: 'bg-[#F7F3EC]',
   label: 'WHERE WE TREAT',
   title: 'Our hair loss clinic in Jumeirah Village Circle (JVC), Dubai.',
-  address: 'Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/> Jumeraih Village Circle (JVC) Dubai',
+  address: 'Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai',
   phone: '+971 55 573 6312',
   whatsapp: '+971 55 573 6312',
   email: 'booking@vedaracare.ae',
-  hours: {
-    monday: ' 9:00AM to 10:00PM',
-    saturday: ' 9:00AM to 10:00PM',
-    sunday: 'Closed'
-  },
+  hours: 'Mon-Sun - 9:00 AM - 10:00 PM',
   landmarks: [
     'Walking distance from Circle Mall, JVC',
 
