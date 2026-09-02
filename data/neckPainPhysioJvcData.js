@@ -456,7 +456,7 @@ export const neckPainLocation = {
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   hours: {
-    monday: " 8:30 am to 11:30 pm",
+    monday: " 9:00AM to 10:00PM",
     tuesday: "9:00 AM – 9:00 PM",
     wednesday: "9:00 AM – 9:00 PM",
     thursday: "9:00 AM – 9:00 PM",

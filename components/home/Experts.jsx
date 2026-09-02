@@ -33,11 +33,11 @@ const Experts = ({
           {items.map((doc, index) => (
             <div key={index} data-slot="card" className="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col gap-6 group">
               {/* Image Container */}
-              <div className="relative h-80 overflow-hidden">
-                <img 
-                  src={doc.image} 
+              <div className="relative h-100 overflow-hidden ">
+                <img
+                  src={doc.image}
                   alt={doc.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
                 <div className="absolute top-4 right-4 bg-[#184C3A]/90 backdrop-blur-sm text-white text-[10px] font-medium px-3 py-1.5 rounded-full flex items-center gap-1.5">
                   <ShieldCheck size={12} />

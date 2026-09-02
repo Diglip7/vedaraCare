@@ -217,14 +217,14 @@ const RFMicroneedlingJVC = () => {
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-          "opens": "08:30",
-          "closes": "23:30"
+          "opens": "09:00",
+          "closes": "22:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Sunday",
-          "opens": "08:30",
-          "closes": "23:30"
+          "opens": "09:00",
+          "closes": "22:00"
         }
       ],
       "areaServed": [

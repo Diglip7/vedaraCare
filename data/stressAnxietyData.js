@@ -487,7 +487,7 @@ export const stressAnxietyVisitSectionData = {
   },
   phone: "+971 55 573 6312",
   hours: [
-    { label: "Sun - Sat", time: " 8:30 am to 11:30 pm" },
+    { label: "Sun - Sat", time: "9:00AM to 10:00PM" },
   ],
   description: "Our JVC clinic has private treatment rooms designed for nervous-system restoration — gentle lighting, sound insulation, temperature-controlled comfort. We allow extended time for consultations and never rush mental health appointments. Female doctors available on request. Walking distance from Circle Mall, easy access from JVC Districts 10, 11, 12, 13, JVT, and Al Barsha South.",
   button1Text: "Book an Anxiety & Stress Consultation",

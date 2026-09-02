@@ -42,7 +42,7 @@ const PhysiotherapyDubai = () => {
       "alternateName": ["Vedara Care Physio Dubai", "Vedara Physiotherapy"],
       "url": "https://vedaracare.ae/physiotherapy-dubai/",
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
-      "description": "DHA-licensed physiotherapy at Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai. DPT-qualified physiotherapists serving patients from across Dubai including JVC, Marina, Downtown, Palm Jumeirah, Mirdif. Seven specialisations available for conditions like back pain, knee OA, post-surgical rehab, and more. Open Monday to Sunday 8:30 AM to 11:30 PM.",
+      "description": "DHA-licensed physiotherapy at Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai. DPT-qualified physiotherapists serving patients from across Dubai including JVC, Marina, Downtown, Palm Jumeirah, Mirdif. Seven specialisations available for conditions like back pain, knee OA, post-surgical rehab, and more. Open Monday to Sunday 9:00AM to 10:00PM.",
       "telephone": "+971 55 573 6312",
       "email": "booking@vedaracare.ae",
       "priceRange": "AED 250 - AED 8,000",
@@ -57,8 +57,8 @@ const PhysiotherapyDubai = () => {
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          "opens": "08:30",
-          "closes": "23:30"
+          "opens": "09:00",
+          "closes": "22:00"
         }
       ],
       "areaServed": [

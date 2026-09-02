@@ -348,7 +348,7 @@ const SkinTagRemovalJVC = () => {
         whatsapp="+971555736312"
         whatsappMessage="Hello Vedara Care, I would like to inquire about Skin Tag Removal at your JVC clinic in Dubai."
         hours={[
-          { day: "Sunday - Saturday", time: "8:30 AM – 11:30 PM" }
+          { day: "Monday - Sunday", time: "9:00 AM – 10:00 PM" }
         ]}
         landmarks={[
           "Binghatti Azure building, Al Barsha South Fourth",

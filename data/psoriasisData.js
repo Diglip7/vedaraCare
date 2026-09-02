@@ -377,7 +377,7 @@ export const psoriasisLocation = {
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'm interested in Psoriasis treatment. Could you please provide more information?",
   email: "booking@vedaracare.ae",
-  hours: "Monday–Sunday: 8:30 am to 11:30 pm",
+  hours: "Monday–Sunday: 9:00AM to 10:00PM",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",

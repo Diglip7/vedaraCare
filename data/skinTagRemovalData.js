@@ -5,8 +5,8 @@ export const skinTagRemovalHero = {
     { label: "Skin Tag Removal in JVC", active: true }
   ],
   label: "DERMATOLOGY · SKIN TAG REMOVAL · DHA-LICENSED · JVC DUBAI",
-  title: "Skin Tag Removal in JVC:\nDermatologist-Led Assessment and Removal of Unwanted Skin Tags",
-  description: "Skin tags are small, mostly harmless growths that tend to appear where skin rubs against skin or against clothing — the neck, underarms, eyelids, and other areas of friction. They're extremely common, and most people who want them gone aren't worried about anything serious; they're simply tired of a tag catching on a necklace, getting nicked while shaving, or standing out in a way they'd rather it didn't.\n\nAt the same time, not every small growth that looks like a skin tag actually is one. Some benign lesions can resemble a skin tag closely enough that a proper look is worth taking before anything is removed. That's why Skin Tag Removal in JVC at Vedara Care Polyclinic starts with a dermatologist assessing the growth itself — its size, location, shape, and history — before recommending how (or whether) it should be treated. The right removal method isn't the same for a small skin tag on the neck as it is for one near the eyelid or tucked into a skin fold.If you're in Jumeirah Village Circle and have been putting off dealing with a skin tag, a short consultation at our JVC clinic is a reasonable place to start.",
+  title: "Skin Tag Removal in JVC | Dermatologist-Led Treatment",
+  description: "Skin tags are small, harmless growths commonly found on the neck, underarms, eyelids, and other areas where skin or clothing rubs together. They are usually removed for comfort or cosmetic reasons, especially when they catch on jewellery, clothing, or during shaving. However, not every growth that looks like a skin tag is actually one, so proper assessment is important before removal. At Vedara Care Polyclinic in JVC, a dermatologist examines the growth, considering its size, shape, location, and history before recommending the most suitable removal method. Treatment is personalised, as the approach may differ for skin tags on the neck, eyelid, or skin folds.",
   primaryCTA: "Book a Skin Tag Assessment",
   secondaryCTA: "WhatsApp Us",
   primaryCTAHref: "/book",
@@ -171,7 +171,10 @@ export const skinTagProcedure = {
     { title: "1. Assessment", description: "The dermatologist examines the growth (or growths), asks about its history and any symptoms, and confirms it's suitable for removal." },
     { title: "2. Treatment Selection", description: "Based on the assessment, a removal technique is recommended — taking into account the lesion's size, location, and the patient's skin type and preferences." },
     { title: "3. Removal", description: "The chosen technique is carried out under appropriate clinical conditions, with local anaesthesia used where relevant." },
-    { title: "4. Aftercare", description: "The patient is given specific guidance for the treated area, along with information on what's normal to expect during healing and when to get back in touch if something seems off." }
+    { title: "4. Aftercare", description: "The patient is given specific guidance for the treated area, along with information on what's normal to expect during healing and when to get back in touch if something seems off." },
+    { title: "5. Healing & Monitoring", description: "The treated area is monitored as it heals. Mild redness, tenderness, or temporary sensitivity may occur, depending on the removal method and location." },
+    { title: "6. Follow-Up", description: "A follow-up may be recommended when needed to check healing, discuss the final outcome, and address any concerns or additional treatment requirements." }
+
   ],
   image: "/images/skin-tag-removal-procedure-jvc-clinic.webp",
   alt: "skin tag removal procedure setup",
@@ -335,7 +338,7 @@ export const skinTagFAQ = {
 
 export const skinTagLocation = {
   title: "Skin Tag Assessment and Removal at Our JVC Dermatology Clinic",
-  address: "Vedara Care Polyclinic\nAl Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE\nPhone: +971 55 573 6312\nHours: Sunday–Saturday, 8:30 AM–11:30 PM",
+  address: "Vedara Care Polyclinic\nAl Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE\nPhone: +971 55 573 6312\nHours: Sunday–Saturday, 9:00 AM–10:00 PM",
   caption: "Our JVC clinic is a convenient option for patients across Jumeirah Village Circle and nearby communities including JVT, Al Barsha South, Sports City, Dubai Hills, and Arjan who are looking for dermatologist-led skin tag assessment and removal close to home."
 };
 

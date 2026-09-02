@@ -120,7 +120,7 @@ export const skinTighteningHowItWorks = {
     paragraphs: [
       "Skin-tightening technologies vary considerably, and which is appropriate for you depends on your skin laxity, skin tone, the treatment area, the intensity of improvement you're looking for, how much downtime you can accommodate, your medical history, and any previous treatments you've had.",
       "Broadly, fractional laser works on the skin in a controlled pattern that leaves surrounding tissue intact to support faster healing. Non-ablative lasers work beneath the surface without disrupting the outer skin layer as significantly. Radiofrequency and HIFU microfocused-ultrasound energy for skin tightening may also be technologies that some patients discuss alongside or instead of laser, depending on their goals.",
-     
+
     ],
   },
 };
@@ -298,7 +298,7 @@ export const skinTighteningLocation = {
   title: "At our JVC dermatology clinic",
   address: "Vedara Care Polyclinic: Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE",
   phone: "+971 55 573 6312",
-  hours: "Sunday to Saturday, 8:30 AM – 11:30 PM",
+  hours: "Monday to Sunday, 9:00 AM – 10:00 PM",
   note: "Our clinic is centrally located within JVC, making it accessible for patients from JVC, Al Barsha South, Dubai Sports City, and Arjan. We're a short distance from Circle Mall, with parking available nearby.",
 };
 

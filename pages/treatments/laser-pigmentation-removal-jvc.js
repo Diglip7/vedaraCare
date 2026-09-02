@@ -254,7 +254,7 @@ const LaserPigmentationRemoval = () => {
                 alt="Laser device used during pigmentation treatment session"
                 className="w-full rounded-2xl border border-[#E5DFD3]"
               />
-             
+
             </div>
           </div>
         </div>
@@ -281,39 +281,39 @@ const LaserPigmentationRemoval = () => {
 
       {/* Before and After */}
       <div className="bg-white py-16 md:py-20 px-6">
-  <div className="max-w-5xl mx-auto">
-    <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-      {pigmentationBeforeAfter.label}
-    </p>
-
-    <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
-      {pigmentationBeforeAfter.title}
-    </h2>
-
-    <div className="grid md:grid-cols-2 gap-12 items-center">
-      <div className="space-y-6">
-        {pigmentationBeforeAfter.paragraphs.map((p, i) => (
-          <p
-            key={i}
-            className="text-base text-[rgb(107,107,107)] leading-relaxed"
-          >
-            {p}
+        <div className="max-w-5xl mx-auto">
+          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
+            {pigmentationBeforeAfter.label}
           </p>
-        ))}
-      </div>
 
-      <div>
-        <div className="bg-[#FAF7F2] rounded-2xl overflow-hidden border border-[#E5DFD3] h-[300px]">
-          <img
-            src="/images/laser.webp"
-            alt="Laser pigmentation treatment"
-            className="w-full h-full object-cover"
-          />
+          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
+            {pigmentationBeforeAfter.title}
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              {pigmentationBeforeAfter.paragraphs.map((p, i) => (
+                <p
+                  key={i}
+                  className="text-base text-[rgb(107,107,107)] leading-relaxed"
+                >
+                  {p}
+                </p>
+              ))}
+            </div>
+
+            <div>
+              <div className="bg-[#FAF7F2] rounded-2xl overflow-hidden border border-[#E5DFD3] h-[300px]">
+                <img
+                  src="/images/laser.webp"
+                  alt="Laser pigmentation treatment"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
       {/* Suitability */}
       <div className="bg-[#F5F0E8] py-16 md:py-20 px-6">
@@ -510,41 +510,7 @@ const LaserPigmentationRemoval = () => {
         </div>
       </div>
 
-      {/* Insurance & Results */}
-      <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
-          <div>
-            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-              {pigmentationInsurance.label}
-            </p>
-            <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
-              {pigmentationInsurance.title}
-            </h2>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">
-              {pigmentationInsurance.description}
-            </p>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed">
-              {pigmentationInsurance.additionalInfo}
-            </p>
-          </div>
-          <div>
-            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-              {pigmentationResults.label}
-            </p>
-            <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
-              {pigmentationResults.title}
-            </h2>
-            <div className="bg-white rounded-2xl p-6 border border-[#E5DFD3]">
-              <p className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4">
-                {pigmentationResults.testimonialPlaceholder}
-              </p>
-              <p className="text-xs italic text-[rgb(107,107,107)] leading-relaxed">
-                {pigmentationResults.note}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       {/* Specialists */}
       {/* <div className="bg-white py-16 md:py-20 px-6">
@@ -624,7 +590,7 @@ const LaserPigmentationRemoval = () => {
         whatsapp="+971555736312"
         whatsappMessage="Hello Vedara Care, I would like to inquire about Laser Pigmentation Removal at your JVC clinic in Dubai."
         hours={[
-          { day: "Monday - Sunday", time: "8:30 AM – 11:30 PM" }
+          { day: "Monday - Sunday", time: "9:00 AM – 10:00 PM" }
         ]}
         landmarks={[
           "Binghatti Azure building, Al Barsha South Fourth",

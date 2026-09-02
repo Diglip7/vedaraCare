@@ -546,9 +546,9 @@ export const physiotherapyJvcLocation = {
   whatsappMessage: "Hi, I'd like to book a physiotherapy session at your JVC clinic.",
   email: "booking@vedaracare.ae",
   hours: {
-    monday: " 8:30 AM to 11:30 PM",
-    saturday: "8:30 AM to 11:30 PM",
-    sunday: "8:30 AM to 11:30 PM"
+    monday: " 9:00AM to 10:00PM",
+    saturday: "9:00AM to 10:00PM",
+    sunday: "9:00AM to 10:00PM"
   },
   landmarks: [
     "Circle Mall (5 min walking distance)",

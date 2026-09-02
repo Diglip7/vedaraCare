@@ -113,7 +113,7 @@ const defaultLocation = {
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
-  hours: "Saturday - Sunday: 8:30 am to 11:30 pm",
+  hours: "Monday - Sunday: 9:00 am to 10:00 pm",
   landmarks: [
     "Next to Circle Mall",
     "3 min from FIVE Jumeirah Village Hotel",
@@ -698,7 +698,7 @@ export const hafsinaKKTemplate = {
   name: 'Hafsina K K',
   firstName: 'Hafsina K K',
   title: 'Bachelor of Physiotherapy — DHA Licensed Physiotherapist',
-  image: '/images/hafsina-kk-physiotherapist-dubai-jvc.webp',
+  image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
   alt: 'Hafsina K K, DHA Licensed Physiotherapist at Vedara Care Polyclinic, JVC Dubai',
   heroBadge: 'DHA LICENSED PHYSIOTHERAPIST — VEDARA CARE, JVC',
   heroStats: 'DHA Licensed • 7+ Years of Clinical Experience',
@@ -1846,7 +1846,7 @@ export const drNeethu = {
     whatsapp: "+971 55 573 6312",
     whatsappMessage: "Hi, I'd like to inquire about booking a consultation with Dr. Neethu at your JVC clinic.",
     email: "booking@vedaracare.ae",
-    hours: "Saturday - Sunday: 8:30 am to 11:30 pm",
+    hours: "Monday - Sunday: 9:00 am to 10:00 pm",
     landmarks: [
       "Walking distance from Circle Mall",
       "3 minutes from FIVE Jumeirah Village Hotel",

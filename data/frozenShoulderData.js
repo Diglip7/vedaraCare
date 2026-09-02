@@ -504,8 +504,8 @@ export const frozenShoulderLocation = {
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: [
-    { day: "Monday – Sunday", time: "8:30 am to 11:30 pm" },
-
+    { day: "Monday – Sunday", time: "9:00AM to 10:00PM" },
+    
   ],
   locationMarkers: [
     { name: "Walking distance from Circle Mall" },

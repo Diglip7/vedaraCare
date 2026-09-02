@@ -160,13 +160,15 @@ export const homeExperts = {
   subtitle: "Experienced healthcare professionals dedicated to your wellbeing",
   items: [
     {
-      name: "Dr. Priya Nair",
-      qualification: "BAMS, MD (Ayurveda)",
-      role: "Ayurvedic Physician",
-      experience: "15+ years experience",
-      languages: "English, Hindi, Arabic",
-      image: "/images/dr-priya-nair-ayurvedic-physician-jvc-dubai.webp",
-      link: "/doctors/priya-nair"
+      name: 'Hafsina K K',
+      role: 'Physiotherapist',
+      experience: "7+ years experience",
+      languages: "English, Malayalam & Hindi",
+      qualification: "Bachelor of Physiotherapy - DHA Licensed Physiotherapist",
+      image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
+      alt: 'Hafsina K K, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
+      slug: 'hafsina-kk-physiotherapist',
+      link: '/doctors/hafsina-kk-physiotherapist'
     },
     {
       name: "Dr. Ahmed Al-Mansoori",
@@ -328,7 +330,7 @@ export const homeLocation = {
   },
   hours: {
     label: "Hours",
-    weekdays: "Mon - Sun: 8:30 am to 11:30 pm",
+    weekdays: "Mon - Sun: 9:00AM to 10:00PM",
     sunday: ""
   },
   parkingText: "Free covered parking available for patients",

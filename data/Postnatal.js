@@ -468,7 +468,7 @@ export const postnataljvcLocation = {
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi%2C%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
-  hours: "Sun‑Sat: 8:30 am to 11:30 pm",
+  hours: "Sun‑Sat: 9:00 am to 10:00 pm",
   landmarks: [
     "3 min walk from Circle Mall",
     "3 min from FIVE Jumeirah Village",

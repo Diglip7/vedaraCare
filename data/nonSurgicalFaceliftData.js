@@ -401,7 +401,7 @@ export const nonSurgicalFaceliftLocation = {
   clinicName: "Vedara Care Polyclinic",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop 4, Jumeirah Village Circle (JVC), Dubai, UAE",
   phone: "+971 55 573 6312",
-  hours: "Sunday to Saturday, 8:30 AM – 11:30 PM",
+  hours: "Monday to Sunday, 9:00 AM – 10:00 PM",
   note: "Our clinic serves patients across JVC and neighbouring communities including JVC, Al Barsha South, Dubai Hills, Sports City, and Arjan, with convenient access near Circle Mall.",
 };
 

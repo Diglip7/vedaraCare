@@ -516,7 +516,7 @@ const KneePainPhysioDubai = () => {
         address2={kneePainLocation.address}
         // addressNote="Next to Circle Mall · 3 min from FIVE Jumeirah Village Hotel"
         clinicHours={[
-          { label: "Monday - Sunday", time: "8:30 am to 11:30 pm" },
+          { label: "Monday - Sunday", time: "9:00AM to 10:00PM" },
          
         ]}
         contactPhone={kneePainLocation.phone}

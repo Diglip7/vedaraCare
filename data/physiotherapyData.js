@@ -469,7 +469,7 @@ export const physiotherapyFaqs = {
     },
     {
       question: "How do I book a physiotherapy assessment?",
-      answer: "Three ways at Vedara Care: WhatsApp <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20assessment.'>+971 55 573 6312</a> for fastest response (typically within 15 minutes business hours), call +971 55 573 6312 (Monday to Sunday, 8:30 AM to 11:30 PM), or book online. For your first appointment, bring or send: any relevant imaging (X-rays, MRI), medical reports, current medication list, and insurance card if applicable."
+      answer: "Three ways at Vedara Care: WhatsApp <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20physiotherapy%20assessment.'>+971 55 573 6312</a> for fastest response (typically within 15 minutes business hours), call +971 55 573 6312 (Monday to Sunday, 9:00AM to 10:00PM), or book online. For your first appointment, bring or send: any relevant imaging (X-rays, MRI), medical reports, current medication list, and insurance card if applicable."
     }
 
 
@@ -485,7 +485,7 @@ export const physiotherapyTreatmentLocation = {
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
-  hours: "Monday - Sunday: 8:30 AM - 11:30 PM",
+  hours: "Monday - Sunday: 9:00AM to 10:00PM",
   landmarks: [
     "Next to Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",
@@ -625,7 +625,7 @@ export const physiotherapyLocationCustom = {
   address1: "Vedara Care Polyclinic",
   address2: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai",
   clinicHours: [
-    { label: "Monday - Sunday", time: "8:30 AM - 11:30 PM" }
+    { label: "Monday - Sunday", time: "9:00AM to 10:00PM" }
   ],
   contactPhone: "+971 55 573 6312",
   contactEmail: "booking@vedaracare.ae",

@@ -202,7 +202,7 @@ export const laserScarTreatmentLocation = {
     "Vedara Care Polyclinic is based in Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle — easily reachable from JVC, JVT, Motor City, Dubai Sports City, and surrounding communities.",
 
   contactText:
-    "Open Sunday to Saturday, 8:30 AM – 11:30 PM. Call or WhatsApp:",
+    "Open Monday to Sunday, 9:00 AM – 10:00 PM. Call or WhatsApp:",
 
   phone: "+971 55 573 6312",
   phoneLink: "tel:+971555736312",

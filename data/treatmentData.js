@@ -127,7 +127,7 @@ export const panchakarmaJVCLocation = {
   email: "booking@vedaracare.ae",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hello Vedara Care, I would like to book a visit for Panchakarma at your JVC clinic.",
-  hours: "Monday to Sunday: 8:30 am to 11:30 pm",
+  hours: "Monday to Sunday: 9:00AM to 10:00PM",
   landmarks: [
     "Next to Circle Mall (walking distance)",
     "5 min from JSS Private School",
@@ -644,7 +644,7 @@ export const kativastiLocation = {
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/> Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
-  hours: "Mon-Sun, 8:30 am to 11:30 pm",
+  hours: "Mon-Sun, 9:00AM to 10:00PM",
   landmarks: [
     "Next to Circle Mall (2 min walk)",
     "3 min from FIVE Jumeirah Village Hotel",
@@ -662,7 +662,7 @@ export const kativastiTreatmentLocation = {
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about kativasti treatment at your JVC clinic.",
   email: "booking@vedaracare.ae",
-  hours: "Saturday - Sunday: 8:30 am to 11:30 pm",
+  hours: "Saturday - Sunday: 9:00AM to 10:00PM",
   landmarks: [
     "Circle Mall (2 min walk)",
     "FIVE Jumeirah Village Hotel (3 min drive)",

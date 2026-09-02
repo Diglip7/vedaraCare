@@ -487,7 +487,7 @@ export const melasmaTreatmentLocation = {
   phone: "+971 55 573 6312",
   whatsapp: "971555736312",
   email: "booking@vedaracare.ae",
-  hours: "Monday - Sunday: 8:30 am to 11:30 pm",
+  hours: "Monday - Sunday: 9:00AM to 10:00PM",
   description: "Our JVC clinic has dedicated dermatology consultation rooms equipped for Wood's lamp examination and dermoscopy, specialised treatment rooms for chemical peels and laser procedures, comfortable patient experience, and a discreet environment important for patients sensitive about facial pigmentation. Walking distance from Circle Mall — easy access from JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai.",
   mapAlt: "Vedara Care JVC clinic melasma treatment Dubai",
   buttonText: "Book Melasma Consultation",

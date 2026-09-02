@@ -164,7 +164,7 @@ const HafsinaKKPage = () => {
       "@id": "https://vedaracare.ae/#contact-organization",
       "name": "Vedara Care Polyclinic",
       "url": "https://vedaracare.ae/",
-      "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"},
+      "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" },
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+971-55-573-6312",
@@ -184,7 +184,7 @@ const HafsinaKKPage = () => {
 
         <meta property="og:title" content="Hafsina K K — DHA Licensed Physiotherapist | Vedara Care" />
         <meta property="og:description" content="Hafsina K K is a DHA Licensed Physiotherapist with 7+ years of rehabilitation experience across orthopedics, neurology, sports and women's health in India and the UAE." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/hafsina-kk-physiotherapist.jpg" />
+        <meta property="og:image" content="https://vedaracare.ae/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp" />
         <meta property="og:url" content="https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/" />
         <meta property="og:type" content="profile" />
         <meta property="profile:first_name" content="Hafsina" />
@@ -193,7 +193,7 @@ const HafsinaKKPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hafsina K K — DHA Licensed Physiotherapist | Vedara Care" />
         <meta name="twitter:description" content="DHA Licensed Physiotherapist with 7+ years of experience in orthopedic, neurological, sports and women's health rehabilitation." />
-        <meta name="twitter:image" content="https://vedaracare.ae/og-images/hafsina-kk-physiotherapist.jpg" />
+        <meta name="twitter:image" content="https://vedaracare.ae/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp" />
 
         <link rel="canonical" href="https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/" />

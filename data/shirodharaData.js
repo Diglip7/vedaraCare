@@ -328,7 +328,7 @@ export const shirodharaTreatmentLocation = {
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about Shirodhara treatments at your JVC clinic.",
   email: "booking@vedaracare.ae",
-  hours: "Saturday - Sunday: 8:30 am to 11:30 pm",
+  hours: "Saturday - Sunday: 9:00AM to 10:00PM",
   landmarks: [
     "Next to Circle Mall (3 min walk) ",
     "5 min from FIVE Jumeirah Village Hotel",

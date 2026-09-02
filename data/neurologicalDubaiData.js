@@ -388,7 +388,7 @@ export const neurologicalDubaiLocationData = {
   description: "Neurological physiotherapy happens at two primary locations depending on patient need: at home across Dubai with our specialised neurological physiotherapists travelling to you (often essential for early recovery, advanced disease, or significant mobility limitations), and at our JVC clinic with specialised equipment including gait training equipment, functional electrical stimulation, and balance equipment (when transport is feasible). Many patients benefit from a combination of both.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
-  hours: "Sunday - Saturday: 8:30AM to 11:30PM ",
+  hours: "Sunday - Saturday: 9:00AM to 10:00PM ",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village",

@@ -42,15 +42,15 @@ const practitioners = [
   //   url: '/doctors/dr-layla-al-rashid-dermatology'
   // },
 
-  // {
-  //   name: 'Dr. Neethu Karatt',
-  //   specialty: 'BAMS',
-  //   focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
-  //   image: '/images/dr-neetu-karatt-bams-jvc-dubai.webp',
-  //   alt: 'Dr. Neethu Karatt, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
-  //   slug: 'dr-neethu-karatt-bams',
-  //   url: '/doctors/dr-neethu-karatt-bams'
-  // },
+  {
+    name: 'Dr. Neethu Karatt',
+    specialty: 'BAMS',
+    focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
+    image: '/images/dr-neetu-karatt-bams-jvc-dubai.webp',
+    alt: 'Dr. Neethu Karatt, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'dr-neethu-karatt-bams',
+    url: '/doctors/dr-neethu-karatt-bams'
+  },
   {
     name: 'Dr. Anusha Makkena',
     specialty: 'MBBS, MS ENT',
@@ -119,11 +119,11 @@ export default function DoctorsPage() {
                 className="rounded-[8px] overflow-hidden cursor-pointer group"
                 style={{ background: 'rgb(255, 255, 255)', border: '1px solid rgb(229, 223, 211)' }}
               >
-                <div className="overflow-hidden" style={{ aspectRatio: '4 / 3', background: 'rgb(228, 216, 200)' }}>
+                <div className="overflow-hidden" style={{ aspectRatio: '4 / 5', background: 'rgb(228, 216, 200)' }}>
                   <img
                     src={doc.image}
                     alt={doc.alt}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
                 <div className="p-5">

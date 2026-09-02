@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { 
-  Phone, 
-  Mail, 
-  Clock, 
-  MapPin, 
-  MessageCircle, 
-  CheckCircle2, 
-  Send, 
-  Navigation, 
-  Calendar, 
-  ShieldCheck, 
+import {
+  Phone,
+  Mail,
+  Clock,
+  MapPin,
+  MessageCircle,
+  CheckCircle2,
+  Send,
+  Navigation,
+  Calendar,
+  ShieldCheck,
   ChevronDown,
   Sparkles,
   ArrowRight,
@@ -28,7 +28,7 @@ export default function Contact() {
     email: '',
     service: 'Physiotherapy',
     preferredDate: '',
-    preferredTime: 'Morning (8:30 AM - 12:00 PM)',
+    preferredTime: 'Morning (9:00AM to 10:00PM)',
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -37,14 +37,14 @@ export default function Contact() {
   const [openFaq, setOpenFaq] = useState(null);
   const [isOpenNow, setIsOpenNow] = useState(true);
 
-  // Check if clinic is open currently (8:30 AM - 11:30 PM)
+  // Check if clinic is open currently (9:00AM to 10:00PM)
   useEffect(() => {
     const now = new Date();
     const hours = now.getHours();
     const minutes = now.getMinutes();
     const timeInMinutes = hours * 60 + minutes;
-    const openTime = 8 * 60 + 30; // 8:30 AM
-    const closeTime = 23 * 60 + 30; // 11:30 PM
+    const openTime = 9 * 60;       // 9:00 AM
+    const closeTime = 22 * 60;     // 10:00 PM
     setIsOpenNow(timeInMinutes >= openTime && timeInMinutes <= closeTime);
   }, []);
 
@@ -155,8 +155,8 @@ export default function Contact() {
           {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "opens": "08:30",
-            "closes": "23:30"
+            "opens": "09:00",
+            "closes": "22:00"
           }
         ],
         "contactPoint": [
@@ -183,7 +183,7 @@ export default function Contact() {
     <>
       <Head>
         <title>Contact Us | Vedara Care Polyclinic JVC Dubai | Book Appointment</title>
-        <meta name="description" content="Contact Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai. Phone: +971 55 573 6312. Open daily 8:30 AM - 11:30 PM. Book Physiotherapy, Ayurveda, Dermatology & Home Visits." />
+        <meta name="description" content="Contact Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai. Phone: +971 55 573 6312. Open daily 9:00AM to 10:00PM. Book Physiotherapy, Ayurveda, Dermatology & Home Visits." />
         <link rel="canonical" href="https://vedaracare.ae/contact" />
         <meta property="og:title" content="Contact Vedara Care Polyclinic — JVC Dubai" />
         <meta property="og:description" content="DHA-licensed polyclinic in Jumeirah Village Circle. Direct appointments, insurance checks, WhatsApp support & home visits across Dubai." />
@@ -226,7 +226,7 @@ export default function Contact() {
                 <div className="flex flex-wrap items-center gap-3 pt-2">
                   <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-lg border border-white/15 text-sm font-medium">
                     <span className={`w-2.5 h-2.5 rounded-full ${isOpenNow ? 'bg-[#25D366] animate-pulse' : 'bg-amber-400'}`} />
-                    <span>{isOpenNow ? 'Open Now (8:30 AM - 11:30 PM)' : 'Opening at 8:30 AM'}</span>
+                    <span>{isOpenNow ? 'Open Now (9:00AM to 10:00PM)' : 'Opening at 9:00AM'}</span>
                   </div>
                   <div className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-lg border border-white/15 text-sm font-medium">
                     <Clock size={15} className="text-[#E6C687]" />
@@ -275,7 +275,7 @@ export default function Contact() {
                 </div>
                 <span className="text-xs font-semibold uppercase tracking-wider text-[#C9A55A] block mb-1">Direct Call</span>
                 <h4 className="text-lg font-serif font-medium text-[#1A1A1A] mb-1">+971 55 573 6312</h4>
-                <p className="text-xs text-gray-500">Available 8:30 AM to 11:30 PM daily</p>
+                <p className="text-xs text-gray-500">Available 9:00AM to 10:00PM daily</p>
               </div>
               <a href="tel:+971 55 573 6312" className="mt-6 inline-flex items-center gap-1.5 text-xs font-bold text-[#184C3A] hover:underline">
                 Call Reception Now <ArrowRight size={14} />
@@ -332,7 +332,7 @@ export default function Contact() {
         {/* Main 2-Column Interactive Form & Clinic Info Section */}
         <section className="max-w-[1400px] mx-auto px-4 md:px-8 pb-16 md:pb-24">
           <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-            
+
             {/* LEFT: Interactive Contact / Appointment Form */}
             <div className="lg:col-span-7 bg-white p-6 sm:p-8 md:p-10 rounded-3xl shadow-sm border border-gray-100">
               <div className="mb-8">
@@ -350,11 +350,10 @@ export default function Contact() {
                     key={dept.name}
                     type="button"
                     onClick={() => handleTabChange(dept.name)}
-                    className={`px-4 py-2 rounded-full text-xs font-semibold transition-all ${
-                      activeTab === dept.name
-                        ? 'bg-[#184C3A] text-white shadow-sm'
-                        : 'bg-[#FAF8F5] text-gray-600 hover:bg-gray-200/60'
-                    }`}
+                    className={`px-4 py-2 rounded-full text-xs font-semibold transition-all ${activeTab === dept.name
+                      ? 'bg-[#184C3A] text-white shadow-sm'
+                      : 'bg-[#FAF8F5] text-gray-600 hover:bg-gray-200/60'
+                      }`}
                   >
                     {dept.name}
                   </button>
@@ -372,7 +371,7 @@ export default function Contact() {
                   <p className="text-sm text-gray-600 max-w-md mx-auto leading-relaxed">
                     Thank you, <strong className="text-[#1A1A1A]">{formData.name}</strong>. Your inquiry for <strong className="text-[#184C3A]">{formData.service}</strong> has been logged in our system. Our reception desk will contact you within 15 minutes.
                   </p>
-                  
+
                   <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
                     <Link
                       href="/"
@@ -476,7 +475,7 @@ export default function Contact() {
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A] transition-colors"
                       >
-                        <option value="Morning (8:30 AM - 12:00 PM)">Morning (8:30 AM - 12:00 PM)</option>
+                        <option value="Morning (9:00 AM - 10:00 PM)">Morning (9:00 AM - 10:00 PM)</option>
                         <option value="Afternoon (12:00 PM - 5:00 PM)">Afternoon (12:00 PM - 5:00 PM)</option>
                         <option value="Evening (5:00 PM - 11:30 PM)">Evening (5:00 PM - 11:30 PM)</option>
                       </select>
@@ -522,7 +521,7 @@ export default function Contact() {
 
             {/* RIGHT: Detailed Information & Department Desks */}
             <div className="lg:col-span-5 space-y-8">
-              
+
               {/* Detailed Location & Address Card */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 space-y-6">
                 <div>
@@ -547,7 +546,7 @@ export default function Contact() {
                     <div>
                       <strong className="text-[#1A1A1A]">Opening Hours:</strong>
                       <p className="leading-relaxed">
-                        Monday – Sunday: <span className="font-semibold text-[#184C3A]">8:30 AM to 11:30 PM</span><br />
+                        Monday – Sunday: <span className="font-semibold text-[#184C3A]">9:00AM to 10:00PM</span><br />
                         <span className="text-xs text-gray-500">Open 7 days a week including public holidays</span>
                       </p>
                     </div>
@@ -690,9 +689,8 @@ export default function Contact() {
                   <span className="font-serif text-lg font-medium text-[#1A1A1A]">{faq.q}</span>
                   <ChevronDown
                     size={20}
-                    className={`text-[#C9A55A] shrink-0 transition-transform duration-200 ${
-                      openFaq === idx ? 'rotate-180' : ''
-                    }`}
+                    className={`text-[#C9A55A] shrink-0 transition-transform duration-200 ${openFaq === idx ? 'rotate-180' : ''
+                      }`}
                   />
                 </button>
                 {openFaq === idx && (

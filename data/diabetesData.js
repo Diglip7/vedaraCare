@@ -177,8 +177,8 @@ export const diabetesTreatmentLocationCustom = {
   address2: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   addressNote: "Walking distance from FIVE Jumeirah Village Hotel",
   clinicHours: [
-    { label: "Sunday - Saturday", time: " 8:30 am to 11:30 pm" },
-
+    { label: "Sunday - Saturday", time: "9:00AM to 10:00PM" },
+    
   ],
   contactPhone: "+971 55 573 6312",
   contactEmail: "booking@vedaracare.ae",

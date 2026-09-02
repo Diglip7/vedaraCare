@@ -10,7 +10,7 @@ export const pigmentationHero = {
   ],
   label: "PIGMENTATION · LASER DERMATOLOGY · DHA-LICENSED · JVC",
   title: "Laser Pigmentation Removal in JVC for Dark Spots and Uneven Skin Tone",
-  description: "Pigmentation is one of the most common reasons patients visit a dermatologist, and it's also one of the most misunderstood. Dark spots, patches, and areas of uneven tone can develop for very different reasons — sun exposure, hormonal changes, inflammation, or skin injury — and not all of these respond the same way to the same treatment.\n\nLaser treatment may help with certain types of pigmentation, particularly sun spots and some localised marks, but it isn't automatically the right first step for every case. Conditions like melasma, for example, can sometimes worsen if treated with the wrong laser or settings. This is why an accurate diagnosis needs to come before any device is switched on.\n\nAt Vedara Care in JVC, pigmentation concerns are assessed by a dermatologist before a treatment plan is discussed. If laser treatment is appropriate for your specific pigmentation, it will be planned around your skin type, your pigmentation history, and a realistic understanding of what results to expect.",
+  description: "Pigmentation is a common skin concern caused by factors such as sun exposure, hormonal changes, inflammation, or previous skin injury. While laser treatment can effectively improve certain types of pigmentation, including sun spots and some localised dark marks, it may not be suitable for everyone. Conditions such as melasma can sometimes worsen with inappropriate laser treatment or settings. That’s why an accurate diagnosis is essential before starting any procedure. At Vedara Care in JVC, pigmentation concerns are carefully assessed by a dermatologist. If laser treatment is appropriate, your plan is personalised according to your skin type, pigmentation history, condition, and treatment goals, helping achieve safer, more natural-looking, and realistic results.",
   canonicalUrl: "https://vedaracare.ae/treatments/laser-pigmentation-removal-jvc/",
   h1: "Laser Pigmentation Removal in JVC",
   primaryCTA: "Book a Pigmentation Consultation",
@@ -260,8 +260,8 @@ export const pigmentationSideEffects = {
     "Dryness and flaking",
     "Temporary darkening of the treated pigmentation before it fades"
   ],
-  rareEffectsIntro: "Less common risks include burns, blistering, infection, scarring, prolonged redness, and — notably — post-inflammatory hyperpigmentation or hypopigmentation, where the treated area ends up darker or lighter than the surrounding skin.",
-  safetyNote: "Risk varies according to the device used, the settings selected, your skin type, the treatment area, the practitioner's technique, and how closely aftercare instructions are followed. Laser pigmentation treatment is not risk-free, and this is discussed as part of informed consent before any treatment begins."
+  rareEffectsIntro: "Less common risks include burns, blistering, infection, scarring, prolonged redness, and changes in skin colour. These may include post-inflammatory hyperpigmentation, where the treated area becomes darker, or hypopigmentation, where it becomes lighter than the surrounding skin.",
+  safetyNote: "The level of risk varies depending on the laser device, treatment settings, skin type, pigmentation condition, treatment area, practitioner’s technique, and adherence to aftercare instructions. People with darker or more sensitive skin may require particularly careful treatment planning to reduce the risk of unwanted pigmentation changes.Laser pigmentation treatment is not completely risk-free. A dermatologist should discuss the potential benefits, limitations, side effects, and individual risks as part of informed consent before treatment begins. Proper assessment and personalised settings can help improve safety and treatment outcomes."
 };
 
 export const pigmentationCombinations = {
@@ -400,7 +400,7 @@ export const pigmentationFAQ = {
 
 export const pigmentationLocation = {
   title: "Where Laser Pigmentation Treatment Happens at Vedara Care JVC",
-  address: "Vedara Care Polyclinic\nAl Barsha South Fourth, Binghatti Azure, Shop 4, Jumeirah Village Circle (JVC), Dubai, UAE\nPhone: +971 55 573 6312\nHours: Monday–Sunday, 8:30 AM–11:30 PM",
+  address: "Vedara Care Polyclinic\nAl Barsha South Fourth, Binghatti Azure, Shop 4, Jumeirah Village Circle (JVC), Dubai, UAE\nPhone: +971 55 573 6312\nHours: 9:00 AM–10:00 PM",
   caption: "The clinic is within walking distance of Circle Mall, with easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road, and free patient parking is available."
 };
 
@@ -417,20 +417,20 @@ export const pigmentationRelatedPages = {
   label: "RELATED SERVICES AND RESOURCES",
   title: "Related Dermatology Services and Resources",
   pages: [
-    { title: "Pigmentation treatment in JVC", description: "", href: "/treatments/laser-pigmentation-removal-jvc" },
-    { title: "Melasma treatment", description: "", href: "/treatments/melasma-treatment-dubai" },
-    { title: "Dermatology clinic in JVC", description: "", href: "/dermatology-clinic-jvc" },
-    { title: "Skin rejuvenation", description: "", href: "/treatments/skin-rejuvenation-jvc" },
-    { title: "Chemical peel treatment", description: "", href: "/treatments/chemical-peel-dubai" },
-    { title: "Microneedling treatment", description: "", href: "/treatments/microneedling-jvc" },
-    { title: "RF microneedling", description: "", href: "/treatments/rf-microneedling-jvc" },
-    { title: "Acne treatment", description: "", href: "/conditions/acne-treatment-jvc" }
+    { title: "Pigmentation treatment in JVC", description: "Uneven skin tone, dark spots, and sun pigmentation can be treated with a personalised approach. Our dermatology team assesses your skin first and recommends the most suitable treatment.", href: "/treatments/laser-pigmentation-removal-jvc" },
+    { title: "Melasma treatment", description: "Melasma can be difficult to manage and may require more than one approach. A dermatologist can assess your pigmentation and create a treatment plan designed to help improve skin tone while reducing the risk of recurrence.", href: "/treatments/melasma-treatment-dubai" },
+    { title: "Dermatology clinic in JVC", description: "From everyday skin concerns to more complex conditions, our dermatology team provides professional assessment and personalised treatment plans for patients in Jumeirah Village Circle.", href: "/dermatology-clinic-jvc" },
+    { title: "Skin rejuvenation", description: "If your skin looks dull, uneven, or tired, skin rejuvenation treatments can help improve its overall appearance and texture. Your dermatologist can recommend an option based on your specific skin concerns.", href: "/treatments/skin-rejuvenation-jvc" },
+    { title: "Chemical peel treatment", description: "Chemical peels can help improve pigmentation, uneven tone, acne marks, and skin texture. The type and strength of peel are selected according to your skin and treatment goals.", href: "/treatments/chemical-peel-dubai" },
+    { title: "Microneedling treatment", description: "Microneedling uses controlled micro-injuries to support the skin’s natural renewal process. It may help improve acne scars, uneven texture, and the overall appearance of the skin.", href: "/treatments/microneedling-jvc" },
+    { title: "RF microneedling", description: "RF microneedling combines microneedling with radiofrequency energy to target skin texture and firmness. It can be considered for concerns such as acne scars, enlarged pores, and mild skin laxity.", href: "/treatments/rf-microneedling-jvc" },
+    { title: "Acne treatment", description: "Persistent acne can affect both your skin and confidence. A dermatologist can identify the type and severity of acne and recommend treatment aimed at controlling breakouts and reducing the risk of lasting marks.", href: "/conditions/acne-treatment-jvc" }
   ]
 };
 
 export const pigmentationCTA = {
   title: "Book a Pigmentation Consultation",
-  description: "",
+  description: "Not sure what’s causing your pigmentation or which treatment is right for you? A consultation with a dermatologist is a good place to start. At Vedara Care in JVC, we’ll take a close look at your skin, understand your concerns, and recommend a treatment plan that suits you.",
   address: "",
   button1Text: "Book a Dermatology Consultation",
   button1TextHref: "/book",

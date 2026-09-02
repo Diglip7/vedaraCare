@@ -517,7 +517,7 @@ const DermatologyClinicJVC = () => {
                   </svg>
                   <div>
                     <p className="text-sm font-semibold text-[#1A1A1A]">Clinic Hours</p>
-                    <p className="text-sm text-[#6B6B6B]">Sunday – Saturday: 8:30 am to 11:30 pm</p>
+                    <p className="text-sm text-[#6B6B6B]">Sunday – Saturday: 9:00AM to 10:00PM</p>
                   </div>
                 </div>
               </div>

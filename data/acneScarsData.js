@@ -513,9 +513,9 @@ export const acneScarsLocation = {
   whatsappMessage: "Hi, I want to book an Acne Scar Treatment consultation.",
   email: "booking@vedaracare.ae",
   hours: {
-    monday: "8:30AM to 11:30PM",
-    saturday: "8:30AM to 11:30PM",
-    sunday: "8:30AM to 11:30PM"
+    monday: "9:00AM to 10:00PM",
+    saturday: "9:00AM to 10:00PM",
+    sunday: "9:00AM to 10:00PM"
   },
   landmarks: [
     "Walking distance from Circle Mall",

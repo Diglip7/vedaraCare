@@ -256,9 +256,9 @@ export const pediatricPhysiotherapyLocation = {
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   hours: {
-    monday: " 8:30AM to 11:30PM",
-    saturday: "8:30AM to 11:30PM",
-    sunday: " 8:30AM to 11:30PM"
+    monday: " 9:00AM to 10:00PM",
+    saturday: "9:00AM to 10:00PM",
+    sunday: " 9:00AM to 10:00PM"
   },
 
   description: "Our JVC clinic has a dedicated paediatric area with age-appropriate equipment, sensory-friendly elements, and a small waiting area suitable for children and siblings. Free parking. Easy access from JVC, JVT, Al Barsha South, and across Dubai. Particularly convenient for JSS Private School families — schedule around school pickup. Convenient for Circle Mall family time.",

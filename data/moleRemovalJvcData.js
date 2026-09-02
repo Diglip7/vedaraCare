@@ -368,7 +368,7 @@ export const moleRemovalLocation = {
   description: "Our dermatology clinic is conveniently located for patients across JVC, JVT, Al Barsha South, Dubai Hills, Sports City, and Arjan, offering dermatologist-led mole assessment and removal close to home.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeirah Village Circle (JVC) Dubai, UAE",
   phone: "+971 55 573 6312",
-  hours: "Sunday–Saturday, 8:30 AM–11:30 PM"
+  hours: "Monday - Sunday, 9:00 AM - 10:00 PM"
 };
 
 export const moleRemovalCTA = {
@@ -385,12 +385,12 @@ export const moleRemovalRelatedPages = {
   title: "Related Dermatology Services and Resources",
 
   pages: [
-    { title: "Dermatology in JVC", description:"Explore personalised dermatology care for a wide range of skin concerns, with treatment plans based on your skin type and individual needs.", href: "/dermatology-clinic-jvc" },
-    { title: "Skin Diseases", description:"Get professional assessment and personalised care for common and ongoing skin concerns affecting the face and body.", href: "/skin-clinic-jvc" },
-    { title: "Pigmentation Treatment", description:"Learn about treatment options designed to improve the appearance of uneven skin tone, dark spots, and pigmentation concerns.", href: "/conditions/pigmentation-treatment-dubai" },
-    { title: "Scar Treatment", description:"Discover personalised approaches for reducing the appearance of acne scars, surgical scars, and other types of skin scarring.", href: "/treatments/laser-scar-removal-jvc" },
-    { title: "Skin Rejuvenation", description:"Laser skin treatment to remove scarring and improve skin textureExplore non-surgical treatments that can help refresh the skin, improve texture, and support a healthier-looking appearance.", href: "/treatments/skin-rejuvenation-jvc" },
-  
+    { title: "Dermatology in JVC", description: "Explore personalised dermatology care for a wide range of skin concerns, with treatment plans based on your skin type and individual needs.", href: "/dermatology-clinic-jvc" },
+    { title: "Skin Diseases", description: "Get professional assessment and personalised care for common and ongoing skin concerns affecting the face and body.", href: "/skin-clinic-jvc" },
+    { title: "Pigmentation Treatment", description: "Learn about treatment options designed to improve the appearance of uneven skin tone, dark spots, and pigmentation concerns.", href: "/conditions/pigmentation-treatment-dubai" },
+    { title: "Scar Treatment", description: "Discover personalised approaches for reducing the appearance of acne scars, surgical scars, and other types of skin scarring.", href: "/treatments/laser-scar-removal-jvc" },
+    { title: "Skin Rejuvenation", description: "Laser skin treatment to remove scarring and improve skin textureExplore non-surgical treatments that can help refresh the skin, improve texture, and support a healthier-looking appearance.", href: "/treatments/skin-rejuvenation-jvc" },
+
 
   ]
 };
