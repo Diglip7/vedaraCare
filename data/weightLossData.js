@@ -478,7 +478,13 @@ export const weightLossTreatmentLocation = {
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   hours: {
-    "Mon - Sun - 9:00 AM - 10:00 PM"
+    monday: "9:00 AM - 10:00 PM",
+    tuesday: "9:00 AM - 10:00 PM",
+    wednesday: "9:00 AM - 10:00 PM",
+    thursday: "9:00 AM - 10:00 PM",
+    friday: "9:00 AM - 10:00 PM",
+    saturday: "9:00 AM - 10:00 PM",
+    sunday: "9:00 AM - 10:00 PM"
   },
   landmarks: [
     "Walking distance from Circle Mall",
