@@ -15,7 +15,7 @@ import {
   jaluproFormulations,
   jaluproConcerns,
   jaluproTreatmentAreas,
-  jaluproSuitability, 
+  jaluproSuitability,
   jaluproConsultation,
   jaluproAppointment,
   jaluproSensation,
@@ -137,24 +137,24 @@ const JaluproTreatment = () => {
       }))
     }
   ];
-  
- const beforeBookingItems = [
-  "Which Jalupro formulation is recommended for me? Should be based on your assessed skin, not a default product.",
-  "Why is Jalupro suitable for my particular concern?",
-  "What areas can be treated with the selected formulation?",
-  "What results should I realistically expect?",
-  "How many sessions might I need?",
-  "How long may results last?",
-  "What temporary side effects can occur?",
-  "How much recovery time should I expect?",
-  "What should I avoid before and after treatment?",
-  "Who will perform my treatment?",
-  "How can I verify the product being used?",
-  "What alternatives may suit me?",
-  "Can Jalupro be combined with another treatment?",
-  "What is the current treatment cost?",
-  "When should I contact the clinic with post-treatment concerns?"
-];
+
+  const beforeBookingItems = [
+    "Which Jalupro formulation is recommended for me? Should be based on your assessed skin, not a default product.",
+    "Why is Jalupro suitable for my particular concern?",
+    "What areas can be treated with the selected formulation?",
+    "What results should I realistically expect?",
+    "How many sessions might I need?",
+    "How long may results last?",
+    "What temporary side effects can occur?",
+    "How much recovery time should I expect?",
+    "What should I avoid before and after treatment?",
+    "Who will perform my treatment?",
+    "How can I verify the product being used?",
+    "What alternatives may suit me?",
+    "Can Jalupro be combined with another treatment?",
+    "What is the current treatment cost?",
+    "When should I contact the clinic with post-treatment concerns?"
+  ];
 
   return (
     <>
@@ -303,56 +303,56 @@ const JaluproTreatment = () => {
       </div>
 
 
-         <section className="bg-[#FEFDFC] py-16 md:py-20 px-6">
-  <div className="max-w-5xl mx-auto">
-    <div className="grid md:grid-cols-2 gap-8">
+      <section className="bg-[#FEFDFC] py-16 md:py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
 
-      {/* Who May Consider Jalupro */}
-      <div className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
-        <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-          SUITABILITY
-        </p>
+            {/* Who May Consider Jalupro */}
+            <div className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
+              <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
+                SUITABILITY
+              </p>
 
-        <h2 className="text-2xl md:text-3xl font-serif mb-5 text-[rgb(26,26,26)]">
-          Who May Consider Jalupro?
-        </h2>
+              <h2 className="text-2xl md:text-3xl font-serif mb-5 text-[rgb(26,26,26)]">
+                Who May Consider Jalupro?
+              </h2>
 
-        <p className="text-base text-[rgb(107,107,107)] leading-relaxed">
-          Patients may look into Jalupro Treatment in JVC for improved skin
-          hydration, better-looking skin quality and texture, a reduction in
-          how noticeable certain fine lines appear, improvement in a dull
-          complexion, addressing early signs of skin ageing, or a non-surgical
-          approach to rejuvenation. Interest in these goals doesn’t
-          automatically make someone an ideal candidate — that requires a
-          proper clinical assessment.
-        </p>
-      </div>
+              <p className="text-base text-[rgb(107,107,107)] leading-relaxed">
+                Patients may look into Jalupro Treatment in JVC for improved skin
+                hydration, better-looking skin quality and texture, a reduction in
+                how noticeable certain fine lines appear, improvement in a dull
+                complexion, addressing early signs of skin ageing, or a non-surgical
+                approach to rejuvenation. Interest in these goals doesn’t
+                automatically make someone an ideal candidate — that requires a
+                proper clinical assessment.
+              </p>
+            </div>
 
-      {/* Who May Not Be Suitable */}
-      <div className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
-        <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-          IMPORTANT CONSIDERATIONS
-        </p>
+            {/* Who May Not Be Suitable */}
+            <div className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
+              <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
+                IMPORTANT CONSIDERATIONS
+              </p>
 
-        <h2 className="text-2xl md:text-3xl font-serif mb-5 text-[rgb(26,26,26)]">
-          Who May Not Be Suitable?
-        </h2>
+              <h2 className="text-2xl md:text-3xl font-serif mb-5 text-[rgb(26,26,26)]">
+                Who May Not Be Suitable?
+              </h2>
 
-        <p className="text-base text-[rgb(107,107,107)] leading-relaxed">
-          Situations where Jalupro may need to be postponed, avoided, or
-          medically reviewed first can include, but are not limited to:
-          active infection near the treatment area, open wounds or significant
-          inflammation, relevant known allergies, certain bleeding or clotting
-          conditions, medications affecting bruising or healing, pregnancy or
-          breastfeeding where clinical advice is required, and other relevant
-          medical conditions. This list is not exhaustive — only a qualified
-          clinician can determine suitability.
-        </p>
-      </div>
+              <p className="text-base text-[rgb(107,107,107)] leading-relaxed">
+                Situations where Jalupro may need to be postponed, avoided, or
+                medically reviewed first can include, but are not limited to:
+                active infection near the treatment area, open wounds or significant
+                inflammation, relevant known allergies, certain bleeding or clotting
+                conditions, medications affecting bruising or healing, pregnancy or
+                breastfeeding where clinical advice is required, and other relevant
+                medical conditions. This list is not exhaustive — only a qualified
+                clinician can determine suitability.
+              </p>
+            </div>
 
-    </div>
-  </div>
-           </section>
+          </div>
+        </div>
+      </section>
 
 
       <ContentWithSidebar
@@ -606,8 +606,8 @@ const JaluproTreatment = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
           {beforeBookingItems.map((q) => (
-            <div 
-              key={q} 
+            <div
+              key={q}
               className="rounded-xl p-5 text-[13.5px] leading-relaxed flex gap-3 bg-[#FAF7F2] border border-[#E5DFD3] text-[rgb(26,26,26)]"
             >
               <span className="shrink-0 mt-0.5 text-[rgb(160,113,63)] font-bold">?</span>
@@ -661,8 +661,8 @@ const JaluproTreatment = () => {
         whatsapp="+971555736312"
         whatsappMessage="Hello Vedara Care, I would like to inquire about Jalupro Treatment at your JVC clinic in Dubai."
         hours={[
-          { day: "Monday - Saturday", time: "9:00 AM – 9:00 PM" },
-          { day: "Sunday", time: "By appointment" }
+          { day: "Monday - Sunday", time: "9:00 AM – 10:00 PM" },
+
         ]}
         landmarks={[
           "Binghatti Azure building, Al Barsha South Fourth",

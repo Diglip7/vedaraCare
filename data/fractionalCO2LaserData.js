@@ -396,7 +396,7 @@ export const co2LaserLocation = {
 
 export const co2LaserWhyJvc = {
   title: "Why JVC for Fractional CO2 Laser?",
-  description: "Our clinic is located within JVC, offering dermatology consultations and fractional CO2 laser treatment for patients across the surrounding Dubai community.\n\nCTA: Book a Dermatology Consultation",
+  description: "Our clinic is located within JVC, offering dermatology consultations and fractional CO2 laser treatment for patients across the surrounding Dubai community.",
   // caption: "Suggested: embed Google Maps location widget here"
 };
 
@@ -414,32 +414,32 @@ export const co2LaserRelatedPages = {
   pages: [
     {
       title: "Dermatology Clinic in JVC",
-      description: "",
+      description: "Our dermatology services cover a wide range of skin concerns, with personalized treatment plans based on your skin type, condition, and goals.",
       href: "/dermatology-clinic-jvc"
     },
     {
       title: "Microneedling Treatment",
-      description: "",
+      description: "Microneedling uses controlled micro-injuries to support collagen production and improve the appearance of acne scars, uneven texture, enlarged pores, and other skin concerns.",
       href: "/treatments/microneedling-jvc"
     },
     {
       title: "RF Microneedling",
-      description: "",
+      description: "RF microneedling combines microneedling with radiofrequency energy to support collagen remodeling, skin tightening, and overall skin rejuvenation.",
       href: "/treatments/rf-microneedling-jvc"
     },
     {
       title: "Chemical Peel treatment",
-      description: "",
+      description: "Chemical peels can help improve uneven skin tone, pigmentation, acne, dullness, and surface texture by encouraging controlled exfoliation and skin renewal.",
       href: "/treatments/chemical-peel-dubai"
     },
     {
       title: "Acne Scar Treatment",
-      description: "",
+      description: "Explore treatment options for reducing the appearance of acne scars and improving skin texture. Treatment selection depends on the type, depth, and severity of scarring.",
       href: "/conditions/acne-scars-dubai"
     },
     {
       title: "Skin Rejuvenation Services",
-      description: "",
+      description: "Discover personalized skin rejuvenation treatments designed to improve skin texture, tone, firmness, and overall appearance while supporting healthier-looking skin.",
       href: "/treatments/skin-rejuvenation-jvc"
     }
 

@@ -339,7 +339,7 @@ export const weightLossJvcLocation = {
   description: "Our DHA-licensed Ayurvedic clinic is conveniently located for patients across JVC, JVT, Al Barsha South, Dubai Hills, Sports City, and Arjan — offering authentic constitutional weight management close to home.",
   address: "Jumeirah Village Circle (JVC), Dubai, UAE Walking distance from Circle Mall · 3 min from FIVE Jumeirah Village 5 min from JSS Private School · Free patient parking",
   phone: "+971 55 573 6312",
-  hours: "9:00 AM – 9:00 PM · Seven days a week",
+  hours: "9:00 AM – 10:00 PM · Seven days a week",
   buttonText: "Book Weight Management Consultation at Our JVC Clinic",
   buttonHref: "/contact-us"
 };

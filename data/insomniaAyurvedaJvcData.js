@@ -368,8 +368,8 @@ export const insomniaJvcLocation = {
   parking: "Dedicated patient parking available immediately outside.",
   metro: "15 minutes from Mall of the Emirates Metro via taxi/bus.",
   hours: [
-    { day: "Monday to Saturday", time: "9:00 AM – 9:00 PM" },
-    { day: "Sunday", time: "9:00 AM – 6:00 PM" }
+    { day: "Monday to Sunday", time: "9:00 AM – 10:00 PM" },
+
   ]
 };
 

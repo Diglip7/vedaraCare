@@ -467,13 +467,8 @@ export const tennisElbowLocation = {
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   hours: {
-    monday: " 9:00AM to 10:00PM",
-    tuesday: "9:00 AM – 9:00 PM",
-    wednesday: "9:00 AM – 9:00 PM",
-    thursday: "9:00 AM – 9:00 PM",
-    friday: "9:00 AM – 9:00 PM",
-    saturday: "9:00 AM – 7:00 PM",
-    sunday: " 9:00AM to 10:00PM"
+    Hours: " 9:00AM to 10:00PM",
+
   },
   landmarks: [
     "Walking distance from Circle Mall",

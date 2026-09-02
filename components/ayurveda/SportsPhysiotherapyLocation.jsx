@@ -10,13 +10,8 @@ const SportsPhysiotherapyLocation = ({ data = {} }) => {
     whatsapp = "+971 55 573 6312",
     landmarks = [],
     hours = {
-      monday: "9:00 AM – 9:00 PM",
-      tuesday: "9:00 AM – 9:00 PM",
-      wednesday: "9:00 AM – 9:00 PM",
-      thursday: "9:00 AM – 9:00 PM",
-      friday: "9:00 AM – 9:00 PM",
-      saturday: "9:00 AM – 7:00 PM",
-      sunday: "10:00 AM – 6:00 PM"
+      Time: "9:00 AM – 10:00 PM",
+
     },
     description = "",
     buttonText = "Book an Assessment",
@@ -33,7 +28,7 @@ const SportsPhysiotherapyLocation = ({ data = {} }) => {
           {/* Map Section */}
           <div className="relative rounded-xl overflow-hidden h-[450px]">
             {mapEmbed ? (
-              <iframe 
+              <iframe
                 src={mapEmbed}
                 width="100%"
                 height="100%"
@@ -44,8 +39,8 @@ const SportsPhysiotherapyLocation = ({ data = {} }) => {
                 title="Clinic Location Map"
               ></iframe>
             ) : image ? (
-              <img 
-                src={image} 
+              <img
+                src={image}
                 alt={alt}
                 className="w-full h-full object-cover"
               />

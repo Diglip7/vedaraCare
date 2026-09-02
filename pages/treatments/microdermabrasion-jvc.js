@@ -730,8 +730,7 @@ const MicrodermabrasionJVC = () => {
         whatsapp="+971555736312"
         whatsappMessage="Hello Vedara Care, I would like to inquire about Microdermabrasion treatment at your JVC clinic in Dubai."
         hours={[
-          { day: "Monday - Saturday", time: "9:00 AM – 9:00 PM" },
-          { day: "Sunday", time: "By appointment" }
+          { day: "Monday - Sunday", time: "9:00 AM – 10:00 PM" },
         ]}
         landmarks={[
           "Binghatti Azure building, Al Barsha South Fourth",
