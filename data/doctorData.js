@@ -377,117 +377,6 @@ export const drPriyaNairTemplate = {
 };
 
 // =====================================================
-// DR. NEETHU KARATT — FULL TEMPLATE DATA (BAMS, Neurology Focus)
-// =====================================================
-export const drNeethuKarattTemplate = {
-  name: 'Dr. Neethu Karatt',
-  firstName: 'Dr. Neethu Karatt',
-  title: 'BAMS | Neurological & Musculoskeletal Ayurveda',
-  image: '/images/dr-neetu-karatt-bams-jvc-dubai.webp',
-  alt: 'Dr. Neethu Karatt, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
-  heroBadge: 'BAMS • NEURO-MUSCULOSKELETAL AYURVEDA',
-  heroStats: 'DHA Licensed • 8+ years clinical experience',
-  ratingText: '',
-  primaryCtaHref: '/book',
-  secondaryCtaHref: 'https://wa.me/971555736312?text=' + encodeURIComponent("Hi, I'd like to book a consultation with Dr. Neethu Karatt at your JVC clinic."),
-  bio: "Dr. Neethu Karatt is a BAMS-qualified, DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. With 8+ years of clinical experience focused on neurological rehabilitation, musculoskeletal recovery, post-immobilisation care, and conditions affecting strength and mobility in adults and elderly patients. Her practice combines classical Kerala Panchakarma protocols with structured exercise and lifestyle guidance calibrated for Dubai's professional and elderly populations.",
-  pageTitle: 'Ayurvedic Doctor at our JVC clinic, Dubai.',
-  aboutH2: 'About Dr. Neethu Karatt, in one paragraph.',
-  summaryTitle: "Neurological & musculoskeletal recovery — Dr. Karatt's clinical approach.",
-  summaryParagraph1: "Dr. Neethu Karatt is a DHA-licensed, BAMS-qualified Ayurvedic physician at <a href=\"/\">Vedara Care Polyclinic</a> in Jumeirah Village Circle, Dubai. Her clinical focus is neurological rehabilitation (post-stroke, Bell's palsy, certain forms of paralysis), musculoskeletal recovery after surgery or prolonged immobilisation, and the Ayurvedic management of conditions affecting strength, mobility, and muscle mass in adult and elderly patients.",
-  summaryParagraph2: "She works closely with our DHA-licensed physiotherapy team to develop integrated programmes where Ayurvedic therapies — including Njavarakizhi, Pizhichil, Abhyanga, and Basti — are sequenced alongside physiotherapy. This integrated approach is particularly used in our post-stroke, post-spine-surgery, and sarcopenia programmes.",
-  summaryParagraph3: "She consults at our JVC clinic, accessible from JVC, Marina, Springs, Meadows, Downtown, Business Bay, JLT, and across Dubai.",
-  approach: [
-    { title: 'Integrated neuro-rehab focus', description: 'Specialised in conditions where Ayurvedic therapy and physiotherapy work together: post-stroke recovery, Bell\'s palsy, post-surgical musculoskeletal rehabilitation, and age-related muscle strength decline.' },
-    { title: 'Therapy sequencing over single sessions', description: 'For neurological and musculoskeletal recovery, the sequence of therapies and exercises across weeks matters more than any single session. The therapy plan is structured in phases.' },
-    { title: 'Close coordination with physiotherapy', description: "Daily clinical coordination with Hafsina KK (our lead physiotherapist) where integrated programmes are delivered. Shared case notes, weekly case reviews, and aligned goals." },
-    { title: 'Sarcopenia & elderly strength', description: 'Particular interest in elderly patients experiencing gradual loss of muscle strength, balance, and general mobility — structured Njavarakizhi, Abhyanga, and Basti protocols.' },
-    { title: 'Post-immobilisation recovery', description: "After prolonged bed rest, surgery, or cast immobilisation: structured restoration of movement, strength, soft tissue flexibility, and confidence in daily activities." },
-    { title: 'Classical Keralite procedure execution', description: 'Strict adherence to classical procedure durations, oil temperatures, and stroke sequences — not shortened versions. Where other clinics abbreviate, she does not.' },
-    { title: 'Family-aware discharge planning', description: "For elderly and post-stroke patients: discharge plan written for family members assisting at home, including home-care handover to Vedara Care Home Healthcare where appropriate." }
-  ],
-  specialtiesList: [
-    { number: '01', title: 'Post-Stroke Rehabilitation', description: 'Integrated Ayurveda + Physiotherapy post-stroke recovery programme. Mahanarayana + Bala-based external therapies, Abhyanga, Pizhichil, Njavarakizhi, Basti protocols in phases coordinated with physiotherapy.', related: 'Integrated neuro-rehab programmes at JVC clinic' },
-    { number: '02', title: "Bell's Palsy Recovery", description: "Structured protocols combining Nasya, Shirodhara, face Marma Abhyanga, and internal medicines for Bell's palsy — beginning ideally within the first weeks after onset.", related: 'Facial paralysis integrated recovery programmes' },
-    { number: '03', title: 'Post-Surgical Musculoskeletal Recovery', description: "After spine surgery, orthopaedic surgery, or joint procedures: structured phased return to movement and strength in coordination with surgeon clearance and physiotherapy.", related: 'Post-surgical integrated recovery programmes' },
-    { number: '04', title: 'Sarcopenia & Elderly Mobility', description: 'Njavarakizhi, Abhyanga, and MatraBasti protocols for age-related muscle mass loss, balance decline, and generalised weakness in elderly patients.', related: 'Elderly strength & mobility programmes' },
-    { number: '05', title: 'Prolonged Immobilisation Recovery', description: 'Restoring range of motion, strength, circulation, and tissue flexibility after long periods of bed rest, ICU stays, or cast immobilisation.', related: 'Deconditioning recovery programmes' },
-    { number: '06', title: 'Chronic Lower Back & Sciatica', description: 'KatiVasti, Abhyanga, PatraPindaSweda, and MatraBasti protocols for chronic lumbar disc, facet, and sciatica concerns when surgical intervention is not indicated.', related: 'Chronic back pain programmes JVC' },
-    { number: '07', title: 'Cervical Spondylosis & Neck Stiffness', description: 'GreevaVasti, ShiroAbhyanga, Nasya, and lifestyle postural correction protocols for chronic cervical stiffness, spondylosis, and cervicogenic headache.', related: 'Neck pain programmes' },
-    { number: '08', title: 'Osteoarthritis & Joint Stiffness', description: 'JanuVasti (knee), KatiVasti (lumbar), and Abhyanga protocols for knee, hip, and shoulder osteoarthritis pain and stiffness management.', related: 'Joint stiffness programmes JVC' },
-    { number: '09', title: 'Parkinson\'s Supportive Ayurveda', description: 'Supportive Ayurvedic protocols alongside neurology-led management — Abhyanga, Shirodhara, Basti, and internal medicines to improve daily function and comfort.', related: 'Supportive care alongside neurology treatment' },
-    { number: '10', title: 'Njavarakizhi Programme Design', description: 'Designs and supervises classical Njavarakizhi programmes (7, 14, 21, or 30 sessions) with kashayam selection matched to the patient\'s clinical indication.', related: 'Njavarakizhi therapy in Dubai' },
-    { number: '11', title: 'Home Therapy Coordination', description: 'Coordinates closely with Vedara Care Home Healthcare for home-delivered Abhyanga, Njavarakizhi, and physiotherapy for immobile or elderly patients.', related: 'Home healthcare at Vedara Care' }
-  ],
-  specialtiesLabel: 'EXPERTISE AREAS',
-  specialtiesTitle: "Dr. Neethu Karatt's documented neurological & musculoskeletal expertise areas.",
-  specialtiesSubtitle: "Specialised Ayurvedic practice focused on rehabilitation, recovery, and strength. Particular focus on integrated programmes with physiotherapy at Vedara Care JVC clinic.",
-  specialtiesFooter: "Comprehensive consultation with Dr. Karatt identifies whether a single- or multi-disciplinary programme is appropriate →",
-  credentialsTitle: "Dr. Neethu Karatt's qualifications, credentials, and professional background.",
-  education: [
-    'Primary Medical Degree — BAMS (Bachelor of Ayurvedic Medicine and Surgery)',
-    'Educational Institution — Kerala Ayurvedic University',
-    'DHA License — DHA-Licensed to practice Ayurvedic medicine in Dubai',
-    'Years of Clinical Experience — 8+ years focused on neurological & musculoskeletal rehabilitation',
-    'Current Position — Ayurvedic Doctor, Neuro-Rehab & Musculoskeletal, Vedara Care Polyclinic, JVC'
-  ],
-  languagesSpoken: ['English (professional fluency)', 'Malayalam', 'Hindi', 'Additional languages on request'],
-  professionalMemberships: ['Dubai Health Authority (DHA) — licensed practitioner', 'Additional memberships & certifications on request'],
-  continuingEducation: "Continuing education in Ayurvedic neurology, musculoskeletal rehabilitation, and interdisciplinary care coordination. Specific certifications available on request.",
-  credentialsFooter: "All qualifications verified and DHA-licensed to practice Ayurvedic medicine in Dubai. DHA license verification available via DHA Sheryan directory. Vedara Care Polyclinic holds valid DHA facility license.",
-  conditionsTitle: "Conditions Dr. Neethu Karatt treats at our JVC clinic.",
-  conditionsTreated: {
-    subtitle: "Rehabilitation-focused practice — frequently integrated with physiotherapy for structured outcomes.",
-    categories: [
-      {
-        category: "Neurological Rehabilitation",
-        conditions: [
-          { title: "Post-Stroke Recovery", description: "Integrated Ayurveda + Physio post-stroke programme in phases. Typically 6–16 week programmes." },
-          { title: "Bell's Palsy", description: "Structured Nasya, Marma, and external therapy protocols — best results when started early." },
-          { title: "Facial Palsy / Hemiplegia", description: "Supportive rehabilitation alongside neurology management." },
-          { title: "Parkinson's (Supportive)", description: "Improving daily function and comfort alongside neurology-led management." }
-        ]
-      },
-      {
-        category: "Musculoskeletal Recovery",
-        conditions: [
-          { title: "Post-Surgical Rehab", description: "Structured phased recovery after spine, hip, knee, or shoulder surgery with physiotherapy coordination." },
-          { title: "Prolonged Immobilisation", description: "Recovery of strength and range of motion after long bed rest, ICU stay, or cast immobilisation." },
-          { title: "Sarcopenia / Elderly Strength", description: "Structured strength restoration programmes for elderly patients with muscle loss and balance decline." },
-          { title: "Chronic Back & Sciatica", description: "Non-surgical KatiVasti-based chronic lumbar and sciatica programmes." }
-        ]
-      },
-      {
-        category: "Joint & Neck Concerns",
-        conditions: [
-          { title: "Osteoarthritis (Knee / Hip)", description: "JanuVasti, Abhyanga, and exercise protocols for pain and stiffness management." },
-          { title: "Cervical Spondylosis", description: "GreevaVasti, Nasya, and posture protocols for chronic neck stiffness." },
-          { title: "Frozen Shoulder", description: "Abhyanga + physiotherapy integrated shoulder mobility protocols." },
-          { title: "Sports Injury Rehab", description: "Structured return to activity alongside physiotherapy after musculoskeletal injuries." }
-        ]
-      }
-    ],
-    footer: "See Njavarakizhi Dubai and Physiotherapy Home Health pages for related procedures →"
-  },
-  reviews: defaultReviews("Dr. Neethu Karatt"),
-  consultation: defaultConsultation("Dr. Neethu Karatt"),
-  pricing: defaultPricing(),
-  faqs: defaultFaqs("Dr. Neethu Karatt"),
-  location: defaultLocation,
-  cta: defaultFinalCta("Dr. Neethu Karatt"),
-  relatedPages: defaultRelatedPages("Dr. Neethu Karatt", [
-    { title: "Njavarakizhi Dubai", description: "Classical rice bolus therapy — Dr. Karatt supervises and designs these programmes.", href: "/treatments/njavarakizhi-dubai/" },
-    { title: "Physiotherapy Home Health", description: "Home physiotherapy for post-op, neuro, and elderly patients.", href: "/physiotherapy-at-home-dubai" },
-    { title: "Back Pain Ayurveda Dubai", description: "Chronic back and sciatica programmes.", href: "/conditions/back-pain-ayurveda-dubai/" },
-    { title: "Abhyanga Dubai", description: "Classical Ayurvedic full-body oil massage used in recovery protocols.", href: "/treatments/abhyanga-dubai/" },
-    { title: "Postnatal Care Ayurveda", description: "Post-delivery recovery with structured Sutika programmes.", href: "/conditions/postnatal-ayurveda-dubai/" },
-    { title: "Ayurveda Clinic JVC", description: "Clinic context, therapies, and full integrated services menu.", href: "/ayurveda-clinic-jvc/" },
-    { title: "Detox Treatment", description: "Multi-phase Panchakarma programmes when detox is indicated.", href: "/detox-treatment/" },
-    { title: "Migraine Ayurveda Dubai", description: "Chronic migraine and headache protocols.", href: "/conditions/migraine-ayurveda-dubai/" }
-  ])
-};
-
-// =====================================================
 // DR. ANUSHA MAKKENA — FULL TEMPLATE DATA (BAMS, Women/Detox Focus)
 // =====================================================
 export const drAnusha = {
@@ -673,7 +562,7 @@ export const drAnusha = {
       slug: "dr-priya-nair",
     },
     {
-      name: "Dr. Neethu Karatt",
+      name: "Dr. Neethu",
       specialty: "Neurological Rehab, Musculoskeletal Care",
       slug: "dr-neethu-karatt",
     },
@@ -983,7 +872,7 @@ export const hafsinaKKTemplate = {
     columns: 4,
     pages: [
       { title: "Dr. Priya Nair", description: "Senior Ayurvedic Physician | Chronic Pain, PCOS, Migraine", href: "/doctors/dr-priya-nair" },
-      { title: "Dr. Neethu Karatt", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-neethu-ayurveda" },
+      { title: "Dr. Neethu", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-neethu-ayurveda" },
       { title: "Dr. Anusha Makkena", description: "MBBS, MS ENT | General Practitioner | Aesthetic Medicine & ENT Consultations", href: "/doctors/dr-anusha-makkena" },
       { title: "Johanna Dianne U. Bautista", description: "Front Desk Receptionist | Patient Care & Operations Specialist", href: "/doctors/johanna-dianne-bautista" }
     ]
@@ -1251,7 +1140,7 @@ export const drAnushaMakkenaTemplate = {
     columns: 4,
     pages: [
       { title: "Dr. Priya Nair", description: "Senior Ayurvedic Physician | Chronic Pain, PCOS, Migraine", href: "/doctors/dr-priya-nair" },
-      { title: "Dr. Neethu Karatt", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-neethu-ayurveda" },
+      { title: "Dr. Neethu", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-neethu-ayurveda" },
       { title: "Hafsina K K", description: "DHA Licensed Physiotherapist | Orthopedic, Neurological & Women's Health Rehabilitation", href: "/doctors/hafsina-kk-physiotherapist" },
       { title: "Johanna Dianne U. Bautista", description: "Front Desk Receptionist | Patient Care & Operations Specialist", href: "/doctors/johanna-dianne-bautista" }
     ]
@@ -1460,7 +1349,7 @@ export const drNeethu = {
   name: 'Dr. Neethu',
   firstName: 'Dr. Neethu',
   title: 'BAMS | Ayurveda Practitioner',
-  image: '/images/default-avatar.png',
+  image: '/images/dr-neetu-ayurveda-jvc.webp',
   alt: 'Dr. Neethu, BAMS-qualified DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, JVC Dubai',
   heroBadge: 'AYURVEDIC DOCTOR · DHA-LICENSED · BAMS-QUALIFIED · JUMEIRAH VILLAGE CIRCLE',
   heroStats: 'BAMS · DHA-Licensed Ayurvedic Doctor · Personalised Holistic Care',

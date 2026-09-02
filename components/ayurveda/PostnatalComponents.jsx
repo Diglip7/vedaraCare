@@ -81,7 +81,7 @@ const ComponentCard = ({ item, cardBg, techniquesLabel }) => (
     {item.techniques && (
       <div className="mt-6 pt-4 border-t border-[#C9A961]/30">
         <p className="text-[11px] font-sans font-semibold tracking-[0.15em] uppercase text-[#C9A961] mb-2">{techniquesLabel}</p>
-        <p className="text-[13px] text-[#4A4A4A] font-sans leading-relaxed">{item.techniques}</p>
+        <p className="text-[13px] text-[#4A4A4A] font-sans leading-relaxed" dangerouslySetInnerHTML={{ __html: item.techniques }} />
       </div>
     )}
   </div>

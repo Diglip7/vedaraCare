@@ -4,12 +4,20 @@ import Link from 'next/link';
 import { drPriyaNair, drNeethu } from '../../data/doctorData';
 
 const practitioners = [
-
   {
-    name: 'Dr. Neethu',
+    name: 'Johanna Dianne U. Bautista',
+    specialty: 'Front Desk Receptionist',
+    focus: 'Patient Coordination & Front Desk Operations',
+    image: '/images/johanna-bautista.jpeg',
+    alt: 'Johanna Dianne U. Bautista, Front Desk Receptionist at Vedara Care, JVC',
+    slug: 'johanna-bautista',
+    url: '/doctors/johanna-bautista'
+  },
+  {
+    name: 'Dr. Neethu Karatt',
     specialty: 'Ayurveda Practitioner · BAMS',
     focus: 'PCOS, Nadi Pareeksha, Musculoskeletal, Postnatal',
-    image: drNeethu.image,
+    image: '/images/dr-neetu-ayurveda-jvc.webp',
     alt: drNeethu.alt,
     slug: 'dr-neethu-ayurveda',
     url: '/doctors/dr-neethu-ayurveda'
@@ -42,14 +50,25 @@ const practitioners = [
   //   url: '/doctors/dr-layla-al-rashid-dermatology'
   // },
 
+
   {
-    name: 'Dr. Neethu Karatt',
-    specialty: 'BAMS',
+    name: 'Hafsina K K',
+    specialty: 'Physiotherapist',
     focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
-    image: '/images/dr-neetu-karatt-bams-jvc-dubai.webp',
-    alt: 'Dr. Neethu Karatt, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'dr-neethu-karatt-bams',
-    url: '/doctors/dr-neethu-karatt-bams'
+    image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
+    alt: 'Hafsina K K, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'hafsina-kk-physiotherapist',
+    url: '/doctors/hafsina-kk-physiotherapist'
+  },
+
+  {
+    name: 'Dr. Sanjida Islam Suchana',
+    specialty: 'General Practitioner | Clinical Dermatology',
+    focus: 'Skin Health, Primary Care, Women\'s Health & Infertility',
+    image: '/images/default-avatar.png',
+    alt: 'Dr. Sanjida Islam Suchana, DHA-licensed General Practitioner at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'dr-sanjida-islam-suchana',
+    url: '/doctors/dr-sanjida-islam-suchana'
   },
   {
     name: 'Dr. Anusha Makkena',
@@ -60,33 +79,7 @@ const practitioners = [
     slug: 'dr-anusha-makkena',
     url: '/doctors/dr-anusha-makkena'
   },
-  {
-    name: 'Hafsina K K',
-    specialty: 'Physiotherapist',
-    focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
-    image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
-    alt: 'Hafsina K K, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'hafsina-kk-physiotherapist',
-    url: '/doctors/hafsina-kk-physiotherapist'
-  },
-  {
-    name: 'Johanna Dianne U. Bautista',
-    specialty: 'Front Desk Receptionist',
-    focus: 'Patient Coordination & Front Desk Operations',
-    image: '/images/johanna-bautista.jpeg',
-    alt: 'Johanna Dianne U. Bautista, Front Desk Receptionist at Vedara Care, JVC',
-    slug: 'johanna-bautista',
-    url: '/doctors/johanna-bautista'
-  },
-  {
-    name: 'Dr. Sanjida Islam Suchana',
-    specialty: 'General Practitioner | Clinical Dermatology',
-    focus: 'Skin Health, Primary Care, Women\'s Health & Infertility',
-    image: '/images/default-avatar.png',
-    alt: 'Dr. Sanjida Islam Suchana, DHA-licensed General Practitioner at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'dr-sanjida-islam-suchana',
-    url: '/doctors/dr-sanjida-islam-suchana'
-  }
+
 ];
 
 export default function DoctorsPage() {

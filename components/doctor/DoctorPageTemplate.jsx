@@ -269,8 +269,8 @@ const DoctorPageTemplate = ({ doctor }) => {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-5">
                     {(cat.conditions || []).map((cond, cIdx) => (
                       <div key={cIdx} className="p-6 rounded-[8px] border" style={{ backgroundColor: '#FBF7F1', borderColor: '#E5DFD3' }}>
-                        <p className="text-[14px] font-semibold mb-3" style={{ color: '#1A1A1A' }}>{cond.title}</p>
-                        <p className="text-[12.5px] leading-relaxed" style={{ color: '#6B6B6B' }}>{cond.description}</p>
+                        <p className="condition-title text-[14px] font-semibold mb-3" style={{ color: '#1A1A1A' }} dangerouslySetInnerHTML={{ __html: cond.title }} />
+                        <p className="text-[12.5px] leading-relaxed" style={{ color: '#6B6B6B' }} dangerouslySetInnerHTML={{ __html: cond.description }} />
                       </div>
                     ))}
                   </div>
