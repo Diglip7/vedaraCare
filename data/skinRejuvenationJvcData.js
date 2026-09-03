@@ -283,7 +283,7 @@ export const skinRejuvenationLocation = {
   label: "VISIT US",
   bgColor: "bg-[#F0EBE3]",
   title: "Where skin rejuvenation happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeirah Village Circle (JVC), Dubai, UAE",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'm interested in Skin Rejuvenation treatment. Could you please provide more information?",

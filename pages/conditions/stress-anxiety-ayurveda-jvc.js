@@ -971,7 +971,7 @@ const StressAnxietyAyurvedaJvc = () => {
               >
                 {/* Doctor Image */}
                 <img
-                  src=""
+                  src="/images/dr-neetu-ayurveda-jvc.webp"
                   alt="Dr. Neethu, Lead Ayurvedic Doctor at Vedara Care JVC clinic"
                   style={{
                     width: "100%",
@@ -1257,8 +1257,8 @@ const StressAnxietyAyurvedaJvc = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {stressJvcRelatedArticles.articles.map((article, index) => (
                 <div key={index} className="flex flex-col rounded-xl overflow-hidden border border-[#E5DFD3]/40 hover:shadow-md transition-all duration-300">
-                  <div className="aspect-[16/10] w-full overflow-hidden bg-gray-100">
-                    <img src={article.image} alt={article.title} className="w-full h-full object-cover" />
+                  <div className="aspect-[4/3] w-full overflow-hidden bg-gray-100">
+                    <img src={article.image} alt={article.title} className="w-full h-full object-cover object-top" />
                   </div>
                   <div className="p-6 flex flex-col justify-between flex-grow bg-[#FAF8F5]">
                     <div className="space-y-3">

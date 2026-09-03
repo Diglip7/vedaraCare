@@ -9,7 +9,7 @@ const StressManagementTeam = ({
   leadDoctor = {
     label: "LEAD AYURVEDIC DOCTOR",
     name: "Dr. Neethu",
-    image: "/images/dr-neethu.jpg", // We can use the Neethu image
+    image: "/images/dr-neetu-ayurveda-jvc.webp", // Updated image path
     description: "DHA-licensed BAMS-qualified Ayurvedic Doctor with substantial stress and anxiety management expertise. Female practitioner providing comprehensive constitutional assessment, personalised treatment planning, and sustained partnership approach. Cultural competence across Dubai's diverse community. Specialised expertise across all stress and anxiety presentations from chronic work stress to burnout recovery.",
     tags: ["DHA-Licensed", "BAMS Qualified", "Female Practitioner", "Malayalam Speaker", "Stress Specialist"],
     linkText: "View full profile →",

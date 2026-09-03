@@ -216,7 +216,7 @@ export const manualTherapyLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
   title: "Where manual therapy happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br /> Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   hours: "9:00AM to 10:00PM • 7 days a week",

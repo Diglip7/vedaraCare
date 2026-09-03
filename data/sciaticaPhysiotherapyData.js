@@ -220,6 +220,10 @@ export const sciaticaPhysioLocation = {
   email: "booking@vedaracare.ae",
   hours: {
     monday: "9:00AM to 10:00PM",
+    tuesday: "9:00AM to 10:00PM",
+    wednesday: "9:00AM to 10:00PM",
+    thursday: "9:00AM to 10:00PM",
+    friday: "9:00AM to 10:00PM",
     saturday: "9:00AM to 10:00PM",
     sunday: "9:00AM to 10:00PM"
   },

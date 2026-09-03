@@ -93,7 +93,7 @@ export const stressAnxietyPositioning = {
     },
     {
       title: "If You Are in Therapy",
-      content: "Therapy — particularly CBT, DBT, <a href=\"#\" class=\"hover:underline\">trauma-informed therapy</a>, or psychoanalysis — addresses cognitive patterns, beliefs, and emotional processing that Ayurveda cannot directly access. Many of our most successful patients combine Ayurvedic nervous-system restoration with ongoing therapy. The two approaches work on different mechanisms — Ayurveda on the biological substrate, therapy on the cognitive and emotional layer."
+      content: "Therapy — particularly CBT, DBT, trauma-informed therapy, or psychoanalysis — addresses cognitive patterns, beliefs, and emotional processing that Ayurveda cannot directly access. Many of our most successful patients combine Ayurvedic nervous-system restoration with ongoing therapy. The two approaches work on different mechanisms — Ayurveda on the biological substrate, therapy on the cognitive and emotional layer."
     },
     {
       title: "If You Have Not Yet Engaged Either",

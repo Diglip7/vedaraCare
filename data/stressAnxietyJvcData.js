@@ -553,10 +553,10 @@ export const stressManagementJourney = {
 export const stressJvcLocation = {
   title: "Where stress management care happens at Vedara Care JVC.",
   description: "Our JVC clinic has private treatment rooms designed for nervous-system restoration — gentle lighting, sound insulation, temperature-controlled comfort. Extended time for consultations. Female doctors available. Walking distance from Circle Mall.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeirah Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4 , Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
-  hours: "Sun - Sat: 8:30am to 11:30pm",
+  hours: "Mon - Sun: 09:00am to 10:00pm",
   landmarks: ["Circle Mall, JVC", "Jumeirah Village Circle, Dubai"],
   buttonText: "Book Consultation with Dr. Neethu",
   buttonSecondaryText: "WhatsApp Us",
@@ -597,7 +597,7 @@ export const stressJvcRelatedArticles = {
       title: "Dr. Neethu — Ayurvedic Doctor",
       description: "Meet your Ayurvedic doctor. Female DHA-licensed BAMS practitioner with substantial stress and anxiety expertise.",
       href: "/doctors/dr-neethu-ayurveda/",
-      image: "/images/dr-neethu-ayurveda-vedara-care-jvc.webp"
+      image: "/images/dr-neetu-ayurveda-jvc.webp"
     },
     {
 
@@ -614,11 +614,10 @@ export const stressJvcRelatedArticles = {
       image: "/images/ayurveda-clinic-jvc-hero.webp"
     },
     {
-
       title: "Integrated Wellness JVC",
       description: "Multi-disciplinary wellness combining Ayurveda with physiotherapy, dermatology, home healthcare.",
       href: "/wellness-clinic-jvc/",
-      image: "/images/integrated-wellness-jvc-hero.webp"
+      image: "/images/wellness-clinic-jvc-hero.webp"
     }
   ]
 };
@@ -632,7 +631,7 @@ export const stressAnxietyTeam = {
     "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial stress management expertise. Female practitioner (Dr. Neethu) available. Multi-language including Arabic, English, Hindi, Malayalam, Urdu.",
 
   leadDoctor: {
-    image: "/images/dr-neethu.webp",
+    image: "/images/dr-neetu-ayurveda-jvc.webp",
     alt: "Dr Neethu Ayurvedic stress management team Vedara Care JVC",
 
     label: "LEAD AYURVEDIC DOCTOR",

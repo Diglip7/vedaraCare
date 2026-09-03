@@ -429,7 +429,7 @@ export const kneePainLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
   title: "Where knee pain physiotherapy happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Jumeirah Village Circle (JVC), Dubai, UAE",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",

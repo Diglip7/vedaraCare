@@ -557,7 +557,7 @@ export const acneTreatmentLocation = {
   sections: [
     {
       label: "Address",
-      content: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai<br/><br/>"
+      content: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai"
     },
     {
       label: "Phone",

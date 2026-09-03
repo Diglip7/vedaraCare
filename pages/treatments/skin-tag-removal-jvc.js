@@ -182,7 +182,7 @@ const SkinTagRemovalJVC = () => {
         sidebar={{
           image: skinTagLocations.image,
           altText: skinTagLocations.alt,
-          width: "w-[950px]",
+          width: "w-full",
           height: "h-[500px]",
           borderPosition: "left"
         }}

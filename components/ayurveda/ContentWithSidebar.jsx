@@ -194,11 +194,11 @@ const ContentOnlySection = ({
 
           <div className="md:sticky md:top-6 lg:top-8">
             {sidebar && sidebar.image ? (
-              <div className="rounded-md overflow-hidden">
+              <div className={`rounded-xl overflow-hidden ${sidebar.height || 'h-auto'} ${sidebar.width || 'w-full'}`}>
                 <img
                   src={sidebar.image}
                   alt={sidebar.altText || 'Sidebar Image'}
-                  className="w-full h-auto rounded-xl object-contain"
+                  className={`w-full h-full ${sidebar.height ? 'object-cover' : 'object-contain'}`}
                 />
               </div>
             ) : (

@@ -46,7 +46,7 @@ const DermatologyClinicJVC = () => {
       "name": "Vedara Care Dermatology Clinic",
       "alternateName": ["Vedara Dermatologist JVC", "Vedara Dermatology Dubai"],
       "url": currentUrl,
-      "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
+      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist dermatology clinic at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed consultant dermatologists delivering medical dermatology (acne, melasma, eczema, psoriasis, rosacea, skin cancer screening, hyperhidrosis, hair and scalp conditions) and aesthetic dermatology (botulinum toxin, dermal fillers, chemical peels, laser treatments, hair restoration, skin rejuvenation). Expertise across all Fitzpatrick skin types (I-VI). Multiple languages including Arabic, English, Hindi, Urdu. Premium clinical environment with premium FDA/EMA-approved products including Botox, Restylane, Juvederm, Belotero.",
       "telephone": "+971 4 567 8900",
       "priceRange": "AED 400 - AED 20,000",
@@ -77,18 +77,18 @@ const DermatologyClinicJVC = () => {
         }
       ],
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Mirdif"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "Jumeirah Village Circle" },
+        { "@type": "Place", "name": "Jumeirah Village Triangle" },
+        { "@type": "Place", "name": "Al Barsha South" },
+        { "@type": "Place", "name": "Dubai Sports City" },
+        { "@type": "Place", "name": "Motor City" },
+        { "@type": "Place", "name": "Arjan" },
+        { "@type": "Place", "name": "Dubai Hills Estate" },
+        { "@type": "Place", "name": "Dubai Marina" },
+        { "@type": "Place", "name": "Downtown Dubai" },
+        { "@type": "Place", "name": "Palm Jumeirah" },
+        { "@type": "Place", "name": "Mirdif" }
       ],
       "medicalSpecialty": [
         "Dermatology",
@@ -99,24 +99,24 @@ const DermatologyClinicJVC = () => {
       ],
       "isAcceptingNewPatients": true,
       "availableService": [
-        {"@type": "MedicalProcedure", "name": "Dermatology Consultation"},
-        {"@type": "MedicalProcedure", "name": "Acne Treatment"},
-        {"@type": "MedicalProcedure", "name": "Melasma Treatment"},
-        {"@type": "MedicalProcedure", "name": "Eczema Treatment"},
-        {"@type": "MedicalProcedure", "name": "Psoriasis Treatment"},
-        {"@type": "MedicalProcedure", "name": "Skin Cancer Screening"},
-        {"@type": "MedicalProcedure", "name": "Mole Removal"},
-        {"@type": "MedicalProcedure", "name": "Skin Biopsy"},
-        {"@type": "MedicalProcedure", "name": "Dermoscopy"},
-        {"@type": "MedicalProcedure", "name": "Hyperhidrosis Treatment"},
-        {"@type": "MedicalProcedure", "name": "Botulinum Toxin Injection"},
-        {"@type": "MedicalProcedure", "name": "Dermal Filler Injection"},
-        {"@type": "MedicalProcedure", "name": "Chemical Peel"},
-        {"@type": "MedicalProcedure", "name": "Laser Hair Removal"},
-        {"@type": "MedicalProcedure", "name": "Pigmentation Laser Treatment"},
-        {"@type": "MedicalProcedure", "name": "Skin Resurfacing Laser"},
-        {"@type": "MedicalProcedure", "name": "PRP Hair Restoration"},
-        {"@type": "MedicalProcedure", "name": "Mesotherapy"}
+        { "@type": "MedicalProcedure", "name": "Dermatology Consultation" },
+        { "@type": "MedicalProcedure", "name": "Acne Treatment" },
+        { "@type": "MedicalProcedure", "name": "Melasma Treatment" },
+        { "@type": "MedicalProcedure", "name": "Eczema Treatment" },
+        { "@type": "MedicalProcedure", "name": "Psoriasis Treatment" },
+        { "@type": "MedicalProcedure", "name": "Skin Cancer Screening" },
+        { "@type": "MedicalProcedure", "name": "Mole Removal" },
+        { "@type": "MedicalProcedure", "name": "Skin Biopsy" },
+        { "@type": "MedicalProcedure", "name": "Dermoscopy" },
+        { "@type": "MedicalProcedure", "name": "Hyperhidrosis Treatment" },
+        { "@type": "MedicalProcedure", "name": "Botulinum Toxin Injection" },
+        { "@type": "MedicalProcedure", "name": "Dermal Filler Injection" },
+        { "@type": "MedicalProcedure", "name": "Chemical Peel" },
+        { "@type": "MedicalProcedure", "name": "Laser Hair Removal" },
+        { "@type": "MedicalProcedure", "name": "Pigmentation Laser Treatment" },
+        { "@type": "MedicalProcedure", "name": "Skin Resurfacing Laser" },
+        { "@type": "MedicalProcedure", "name": "PRP Hair Restoration" },
+        { "@type": "MedicalProcedure", "name": "Mesotherapy" }
       ],
       "memberOf": {
         "@type": "Organization",
@@ -136,69 +136,69 @@ const DermatologyClinicJVC = () => {
         "@type": "MedicalCondition",
         "name": "Acne Vulgaris",
         "alternateName": ["Acne", "Adult Acne"],
-        "code": {"@type": "MedicalCode", "code": "L70", "codingSystem": "ICD-10"},
-        "possibleTreatment": {"@type": "MedicalProcedure", "name": "Acne Treatment"}
+        "code": { "@type": "MedicalCode", "code": "L70", "codingSystem": "ICD-10" },
+        "possibleTreatment": { "@type": "MedicalProcedure", "name": "Acne Treatment" }
       },
       {
         "@context": "https://schema.org",
         "@type": "MedicalCondition",
         "name": "Melasma",
         "alternateName": ["Chloasma", "Pregnancy Mask"],
-        "code": {"@type": "MedicalCode", "code": "L81.1", "codingSystem": "ICD-10"},
-        "possibleTreatment": {"@type": "MedicalProcedure", "name": "Melasma Treatment"}
+        "code": { "@type": "MedicalCode", "code": "L81.1", "codingSystem": "ICD-10" },
+        "possibleTreatment": { "@type": "MedicalProcedure", "name": "Melasma Treatment" }
       },
       {
         "@context": "https://schema.org",
         "@type": "MedicalCondition",
         "name": "Atopic Dermatitis",
         "alternateName": ["Eczema"],
-        "code": {"@type": "MedicalCode", "code": "L20", "codingSystem": "ICD-10"},
-        "possibleTreatment": {"@type": "MedicalProcedure", "name": "Eczema Treatment"}
+        "code": { "@type": "MedicalCode", "code": "L20", "codingSystem": "ICD-10" },
+        "possibleTreatment": { "@type": "MedicalProcedure", "name": "Eczema Treatment" }
       },
       {
         "@context": "https://schema.org",
         "@type": "MedicalCondition",
         "name": "Psoriasis",
-        "code": {"@type": "MedicalCode", "code": "L40", "codingSystem": "ICD-10"},
-        "possibleTreatment": {"@type": "MedicalProcedure", "name": "Psoriasis Treatment"}
+        "code": { "@type": "MedicalCode", "code": "L40", "codingSystem": "ICD-10" },
+        "possibleTreatment": { "@type": "MedicalProcedure", "name": "Psoriasis Treatment" }
       },
       {
         "@context": "https://schema.org",
         "@type": "MedicalCondition",
         "name": "Rosacea",
-        "code": {"@type": "MedicalCode", "code": "L71", "codingSystem": "ICD-10"},
-        "possibleTreatment": {"@type": "MedicalProcedure", "name": "Rosacea Treatment"}
+        "code": { "@type": "MedicalCode", "code": "L71", "codingSystem": "ICD-10" },
+        "possibleTreatment": { "@type": "MedicalProcedure", "name": "Rosacea Treatment" }
       },
       {
         "@context": "https://schema.org",
         "@type": "MedicalCondition",
         "name": "Hyperhidrosis",
-        "code": {"@type": "MedicalCode", "code": "R61", "codingSystem": "ICD-10"},
-        "possibleTreatment": {"@type": "MedicalProcedure", "name": "Hyperhidrosis Treatment"}
+        "code": { "@type": "MedicalCode", "code": "R61", "codingSystem": "ICD-10" },
+        "possibleTreatment": { "@type": "MedicalProcedure", "name": "Hyperhidrosis Treatment" }
       },
       {
         "@context": "https://schema.org",
         "@type": "MedicalCondition",
         "name": "Androgenetic Alopecia",
         "alternateName": ["Pattern Hair Loss"],
-        "code": {"@type": "MedicalCode", "code": "L64", "codingSystem": "ICD-10"},
-        "possibleTreatment": {"@type": "MedicalProcedure", "name": "Hair Restoration"}
+        "code": { "@type": "MedicalCode", "code": "L64", "codingSystem": "ICD-10" },
+        "possibleTreatment": { "@type": "MedicalProcedure", "name": "Hair Restoration" }
       },
       {
         "@context": "https://schema.org",
         "@type": "MedicalCondition",
         "name": "Skin Cancer",
-        "possibleTreatment": {"@type": "MedicalProcedure", "name": "Skin Cancer Screening"}
+        "possibleTreatment": { "@type": "MedicalProcedure", "name": "Skin Cancer Screening" }
       }
     ],
     {
       "@context": "https://schema.org",
       "@type": "Service",
       "name": "Dermatology Services in JVC Dubai",
-      "provider": {"@id": `${currentUrl}#dermatology`},
+      "provider": { "@id": `${currentUrl}#dermatology` },
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "United Arab Emirates" }
       ],
       "serviceType": "Medical and Aesthetic Dermatology",
       "hasOfferCatalog": {
@@ -247,8 +247,8 @@ const DermatologyClinicJVC = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Dermatology Clinic in JVC", "item": currentUrl}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Dermatology Clinic in JVC", "item": currentUrl }
       ]
     },
     {
@@ -297,8 +297,8 @@ const DermatologyClinicJVC = () => {
         "name": "Vedara Care Polyclinic"
       },
       "about": [
-        {"@type": "MedicalSpecialty", "name": "Dermatology"},
-        {"@type": "MedicalSpecialty", "name": "Cosmetic Dermatology"}
+        { "@type": "MedicalSpecialty", "name": "Dermatology" },
+        { "@type": "MedicalSpecialty", "name": "Cosmetic Dermatology" }
       ],
       "mainEntityOfPage": currentUrl
     },
@@ -311,7 +311,7 @@ const DermatologyClinicJVC = () => {
       "gender": member.name.toLowerCase().includes("dr. amina") || member.name.toLowerCase().includes("dr. zainab") ? "Female" : "Male",
       "medicalSpecialty": ["Dermatology", "Medical Dermatology", "Cosmetic Dermatology"],
       "hasCredential": ["MD (Doctor of Medicine)", "DHA-Licensed Consultant Dermatologist"],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
+      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
     })),
     {
       "@context": "https://schema.org",
@@ -346,16 +346,16 @@ const DermatologyClinicJVC = () => {
         ))}
       </Head>
 
-      <AyurvedaHero 
+      <AyurvedaHero
         {...dermatologyHero}
         patientsTreated={dermatologyHero.patientsTreated}
       />
-      
-      <AyurvedaIntro 
+
+      <AyurvedaIntro
         {...dermatologyIntro}
       />
-      
-     
+
+
       <SciaticaTreatment
         data={dermatologySciaticaSection1}
         showBorderLeft={false}
@@ -364,7 +364,7 @@ const DermatologyClinicJVC = () => {
         showStepNumbers={false}
       />
 
-      <SportsInjuryTypes 
+      <SportsInjuryTypes
         {...dermatologyTypes}
         bgColor="rgb(255, 255, 255)"
         description={dermatologyTypes.description}
@@ -374,7 +374,7 @@ const DermatologyClinicJVC = () => {
         alt={dermatologyTypes.alt}
       />
 
-      <SportsInjuryTypes 
+      <SportsInjuryTypes
         {...dermatologyAestheticTypes}
         bgColor="rgb(248, 244, 238)"
         description={dermatologyAestheticTypes.description}
@@ -393,7 +393,7 @@ const DermatologyClinicJVC = () => {
       /> */}
 
 
- <ManualTherapySession 
+      <ManualTherapySession
         {...dermatologyConsultation}
         image={dermatologyConsultation.image}
         alt={dermatologyConsultation.alt}
@@ -401,14 +401,14 @@ const DermatologyClinicJVC = () => {
 
 
 
-      <PhysiotherapyTeam 
+      <PhysiotherapyTeam
         bgColor="bg-[#F8F4EE]"
         cardColor="bg-white"
         {...dermatologyTeam}
       />
 
 
-      <TreatmentReviews 
+      <TreatmentReviews
         bgColor="bg-white"
         label={dermatologyReviews.label}
         title={dermatologyReviews.title}
@@ -416,7 +416,7 @@ const DermatologyClinicJVC = () => {
         useKneeStyle={true}
         useKneeStyleBgColor="bg-white"
       />
-     
+
 
       <div className={`bg-[#FAF8F3] py-24 px-6 ${dermatologyPricing.bgColor}`}>
         <div className="max-w-5xl mx-auto">
@@ -442,8 +442,8 @@ const DermatologyClinicJVC = () => {
             ))}
           </div>
 
-          <p 
-            className="text-center mb-8" 
+          <p
+            className="text-center mb-8"
             style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7', fontSize: '14px' }}
             dangerouslySetInnerHTML={{ __html: dermatologyPricing.insuranceText }}
           />
@@ -464,13 +464,13 @@ const DermatologyClinicJVC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left side - Map */}
             <div className="rounded-xl overflow-hidden aspect-[4/3]">
-              <iframe 
-                src={dermatologyLocation.mapEmbed} 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                allowFullScreen 
-                loading="lazy" 
+              <iframe
+                src={dermatologyLocation.mapEmbed}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Vedara Care Polyclinic Location"
               />
@@ -490,8 +490,8 @@ const DermatologyClinicJVC = () => {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <svg className="text-[#C9A961] flex-shrink-0 mt-1" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1118 0z"/>
-                    <circle cx="12" cy="10" r="3"/>
+                    <path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1118 0z" />
+                    <circle cx="12" cy="10" r="3" />
                   </svg>
                   <div>
                     <p className="text-sm font-semibold text-[#1A1A1A]">Address</p>
@@ -502,7 +502,7 @@ const DermatologyClinicJVC = () => {
 
                 <div className="flex items-start gap-3">
                   <svg className="text-[#C9A961] flex-shrink-0 mt-1" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
                   </svg>
                   <div>
                     <p className="text-sm font-semibold text-[#1A1A1A]">Telephone</p>
@@ -512,12 +512,12 @@ const DermatologyClinicJVC = () => {
 
                 <div className="flex items-start gap-3">
                   <svg className="text-[#C9A961] flex-shrink-0 mt-1" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <circle cx="12" cy="12" r="10"/>
-                    <polyline points="12 6 12 12 16 14"/>
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
                   </svg>
                   <div>
                     <p className="text-sm font-semibold text-[#1A1A1A]">Clinic Hours</p>
-                    <p className="text-sm text-[#6B6B6B]">Sunday – Saturday: 9:00AM to 10:00PM</p>
+                    <p className="text-sm text-[#6B6B6B]">Monday - Sunday : 9:00AM to 10:00PM</p>
                   </div>
                 </div>
               </div>
@@ -541,7 +541,7 @@ const DermatologyClinicJVC = () => {
               {/* Description */}
               <div className="border-l-2 border-[#C9A961] pl-4">
                 <p className="text-xs text-[#6B6B6B] leading-relaxed">
-Our JVC clinic has dedicated dermatology consultation rooms, specialised treatment rooms for laser procedures, surgical room for biopsies and minor procedures, premium clinical environment with patient comfort prioritised, full equipment for all procedures described, and discreet booking and treatment process. Easy access from JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai.
+                  Our JVC clinic has dedicated dermatology consultation rooms, specialised treatment rooms for laser procedures, surgical room for biopsies and minor procedures, premium clinical environment with patient comfort prioritised, full equipment for all procedures described, and discreet booking and treatment process. Easy access from JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai.
                 </p>
               </div>
 
@@ -549,7 +549,7 @@ Our JVC clinic has dedicated dermatology consultation rooms, specialised treatme
               <Link href="/book" className="bg-[#1A1A1A] text-white px-8 py-4 text-sm font-semibold inline-flex items-center gap-2">
                 Book Dermatology Consultation
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                  <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </Link>
             </div>
@@ -558,15 +558,15 @@ Our JVC clinic has dedicated dermatology consultation rooms, specialised treatme
       </section>
 
 
-      <FinalCTA 
+      <FinalCTA
         {...dermatologyCTA}
         title="Consultant dermatology. Medical and aesthetic. All skin types."
       />
 
-     
+
 
       <ServicePillars data={servicePillarsData} />
- <RelatedPages {...dermatologyRelatedPages} />
+      <RelatedPages {...dermatologyRelatedPages} />
     </>
   );
 };

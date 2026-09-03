@@ -532,7 +532,7 @@ export const homePhysioClinicTransition = {
   clinicInfo: {
     title: "Our JVC clinic",
     address: "Circle Mall Medical Centre, Jumeirah Village Circle (JVC), Dubai",
-    hours: "Saturday - Thursday: 8 AM - 9 PM · Friday: 2 PM - 9 PM",
+    hours: "Monday - Sunday : 9:00AM to 10:00PM",
     amenities: [
       "Free patient parking on-site · Easy access from Sheikh Mohammed Bin Zayed Road",
       "Full physiotherapy equipment · Dedicated rehabilitation gym · Accessibility features for limited-mobility patients"
