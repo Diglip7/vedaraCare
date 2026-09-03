@@ -33,7 +33,7 @@ const DiabetesAyurvedaDubai = () => {
         <title>Ayurveda for Diabetes in Dubai | JVC Clinic | Vedara Care</title>
         <meta name="description" content="DHA-licensed Ayurvedic diabetes treatment at our JVC clinic, Dubai — structured 6-month programmes for prediabetes, type 2 diabetes, and complications. Works with your endocrinologist." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        
+
         {/* Open Graph */}
         <meta property="og:title" content="Ayurveda for Diabetes in Dubai — Integrated Treatment at Our JVC Clinic" />
         <meta property="og:description" content="DHA-licensed Ayurvedic diabetes treatment at our Jumeirah Village Circle clinic. Stage-specific 6-month medical programmes coordinated with your endocrinologist." />
@@ -64,42 +64,42 @@ const DiabetesAyurvedaDubai = () => {
             "name": "Type 2 Diabetes Mellitus",
             "alternateName": ["Diabetes", "Type 2 Diabetes", "Madhumeha", "Prameha", "Adult-Onset Diabetes"],
             "code": [
-              {"@type": "MedicalCode", "code": "E11", "codingSystem": "ICD-10"},
-              {"@type": "MedicalCode", "code": "E11.9", "codingSystem": "ICD-10"},
-              {"@type": "MedicalCode", "code": "R73.03", "codingSystem": "ICD-10"}
+              { "@type": "MedicalCode", "code": "E11", "codingSystem": "ICD-10" },
+              { "@type": "MedicalCode", "code": "E11.9", "codingSystem": "ICD-10" },
+              { "@type": "MedicalCode", "code": "R73.03", "codingSystem": "ICD-10" }
             ],
             "associatedAnatomy": [
-              {"@type": "AnatomicalStructure", "name": "Pancreas"},
-              {"@type": "AnatomicalStructure", "name": "Endocrine system"},
-              {"@type": "AnatomicalStructure", "name": "Metabolic system"}
+              { "@type": "AnatomicalStructure", "name": "Pancreas" },
+              { "@type": "AnatomicalStructure", "name": "Endocrine system" },
+              { "@type": "AnatomicalStructure", "name": "Metabolic system" }
             ],
             "signOrSymptom": [
-              {"@type": "MedicalSymptom", "name": "Elevated blood glucose"},
-              {"@type": "MedicalSymptom", "name": "Polyuria"},
-              {"@type": "MedicalSymptom", "name": "Polydipsia"},
-              {"@type": "MedicalSymptom", "name": "Polyphagia"},
-              {"@type": "MedicalSymptom", "name": "Unexplained weight loss or gain"},
-              {"@type": "MedicalSymptom", "name": "Fatigue"},
-              {"@type": "MedicalSymptom", "name": "Blurred vision"},
-              {"@type": "MedicalSymptom", "name": "Peripheral neuropathy"}
+              { "@type": "MedicalSymptom", "name": "Elevated blood glucose" },
+              { "@type": "MedicalSymptom", "name": "Polyuria" },
+              { "@type": "MedicalSymptom", "name": "Polydipsia" },
+              { "@type": "MedicalSymptom", "name": "Polyphagia" },
+              { "@type": "MedicalSymptom", "name": "Unexplained weight loss or gain" },
+              { "@type": "MedicalSymptom", "name": "Fatigue" },
+              { "@type": "MedicalSymptom", "name": "Blurred vision" },
+              { "@type": "MedicalSymptom", "name": "Peripheral neuropathy" }
             ],
             "possibleTreatment": [
-              {"@type": "MedicalProcedure", "name": "Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-              {"@type": "MedicalProcedure", "name": "Virechana"},
-              {"@type": "MedicalTherapy", "name": "Ayurvedic anti-diabetic herbal medicines"},
-              {"@type": "MedicalTherapy", "name": "Dietary regulation"},
-              {"@type": "MedicalTherapy", "name": "Lifestyle modification"},
-              {"@type": "MedicalProcedure", "name": "Padabhyanga for diabetic neuropathy"}
+              { "@type": "MedicalProcedure", "name": "Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/" },
+              { "@type": "MedicalProcedure", "name": "Virechana" },
+              { "@type": "MedicalTherapy", "name": "Ayurvedic anti-diabetic herbal medicines" },
+              { "@type": "MedicalTherapy", "name": "Dietary regulation" },
+              { "@type": "MedicalTherapy", "name": "Lifestyle modification" },
+              { "@type": "MedicalProcedure", "name": "Padabhyanga for diabetic neuropathy" }
             ],
             "riskFactor": [
-              {"@type": "MedicalRiskFactor", "name": "Insulin resistance"},
-              {"@type": "MedicalRiskFactor", "name": "Genetic predisposition"},
-              {"@type": "MedicalRiskFactor", "name": "Obesity"},
-              {"@type": "MedicalRiskFactor", "name": "Sedentary lifestyle"},
-              {"@type": "MedicalRiskFactor", "name": "Chronic stress"},
-              {"@type": "MedicalRiskFactor", "name": "South Asian or Middle Eastern ethnicity"},
-              {"@type": "MedicalRiskFactor", "name": "PCOS"},
-              {"@type": "MedicalRiskFactor", "name": "Gestational diabetes history"}
+              { "@type": "MedicalRiskFactor", "name": "Insulin resistance" },
+              { "@type": "MedicalRiskFactor", "name": "Genetic predisposition" },
+              { "@type": "MedicalRiskFactor", "name": "Obesity" },
+              { "@type": "MedicalRiskFactor", "name": "Sedentary lifestyle" },
+              { "@type": "MedicalRiskFactor", "name": "Chronic stress" },
+              { "@type": "MedicalRiskFactor", "name": "South Asian or Middle Eastern ethnicity" },
+              { "@type": "MedicalRiskFactor", "name": "PCOS" },
+              { "@type": "MedicalRiskFactor", "name": "Gestational diabetes history" }
             ]
           })
         }}
@@ -116,40 +116,40 @@ const DiabetesAyurvedaDubai = () => {
                 "@type": "MedicalCondition",
                 "name": "Prediabetes",
                 "alternateName": ["Impaired Glucose Tolerance", "Impaired Fasting Glucose"],
-                "code": {"@type": "MedicalCode", "code": "R73.03", "codingSystem": "ICD-10"},
+                "code": { "@type": "MedicalCode", "code": "R73.03", "codingSystem": "ICD-10" },
                 "signOrSymptom": [
-                  {"@type": "MedicalSymptom", "name": "Elevated fasting glucose (5.6-6.9 mmol/L)"},
-                  {"@type": "MedicalSymptom", "name": "Elevated HbA1c (5.7-6.4%)"},
-                  {"@type": "MedicalSymptom", "name": "Insulin resistance"}
+                  { "@type": "MedicalSymptom", "name": "Elevated fasting glucose (5.6-6.9 mmol/L)" },
+                  { "@type": "MedicalSymptom", "name": "Elevated HbA1c (5.7-6.4%)" },
+                  { "@type": "MedicalSymptom", "name": "Insulin resistance" }
                 ],
                 "possibleTreatment": [
-                  {"@type": "MedicalProcedure", "name": "Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-                  {"@type": "MedicalTherapy", "name": "Insulin-sensitising Ayurvedic herbs"}
+                  { "@type": "MedicalProcedure", "name": "Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/" },
+                  { "@type": "MedicalTherapy", "name": "Insulin-sensitising Ayurvedic herbs" }
                 ]
               },
               {
                 "@type": "MedicalCondition",
                 "name": "Newly Diagnosed Type 2 Diabetes",
                 "signOrSymptom": [
-                  {"@type": "MedicalSymptom", "name": "Elevated HbA1c"},
-                  {"@type": "MedicalSymptom", "name": "Fasting glucose elevation"},
-                  {"@type": "MedicalSymptom", "name": "Insulin resistance"}
+                  { "@type": "MedicalSymptom", "name": "Elevated HbA1c" },
+                  { "@type": "MedicalSymptom", "name": "Fasting glucose elevation" },
+                  { "@type": "MedicalSymptom", "name": "Insulin resistance" }
                 ],
                 "possibleTreatment": [
-                  {"@type": "MedicalProcedure", "name": "Virechana-led Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-                  {"@type": "MedicalTherapy", "name": "Guduchi-Methika-Karela combination"}
+                  { "@type": "MedicalProcedure", "name": "Virechana-led Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/" },
+                  { "@type": "MedicalTherapy", "name": "Guduchi-Methika-Karela combination" }
                 ]
               },
               {
                 "@type": "MedicalCondition",
                 "name": "Established Type 2 Diabetes",
                 "signOrSymptom": [
-                  {"@type": "MedicalSymptom", "name": "Long-standing elevated blood glucose"},
-                  {"@type": "MedicalSymptom", "name": "Fatigue"},
-                  {"@type": "MedicalSymptom", "name": "Neuropathy"}
+                  { "@type": "MedicalSymptom", "name": "Long-standing elevated blood glucose" },
+                  { "@type": "MedicalSymptom", "name": "Fatigue" },
+                  { "@type": "MedicalSymptom", "name": "Neuropathy" }
                 ],
                 "possibleTreatment": [
-                  {"@type": "MedicalTherapy", "name": "Ayurvedic supportive care"}
+                  { "@type": "MedicalTherapy", "name": "Ayurvedic supportive care" }
                 ]
               },
               {
@@ -157,20 +157,20 @@ const DiabetesAyurvedaDubai = () => {
                 "name": "Type 1 Diabetes",
                 "alternateName": ["Insulin-Dependent Diabetes"],
                 "signOrSymptom": [
-                  {"@type": "MedicalSymptom", "name": "Insulin deficiency"}
+                  { "@type": "MedicalSymptom", "name": "Insulin deficiency" }
                 ],
                 "possibleTreatment": [
-                  {"@type": "MedicalTherapy", "name": "Insulin (primary, with Ayurvedic supportive care only)"}
+                  { "@type": "MedicalTherapy", "name": "Insulin (primary, with Ayurvedic supportive care only)" }
                 ]
               },
               {
                 "@type": "MedicalCondition",
                 "name": "Gestational Diabetes",
                 "signOrSymptom": [
-                  {"@type": "MedicalSymptom", "name": "Pregnancy-related elevated blood glucose"}
+                  { "@type": "MedicalSymptom", "name": "Pregnancy-related elevated blood glucose" }
                 ],
                 "possibleTreatment": [
-                  {"@type": "MedicalTherapy", "name": "Pregnancy-safe Ayurvedic supportive care, coordinated with obstetrician"}
+                  { "@type": "MedicalTherapy", "name": "Pregnancy-safe Ayurvedic supportive care, coordinated with obstetrician" }
                 ]
               }
             ]
@@ -188,10 +188,10 @@ const DiabetesAyurvedaDubai = () => {
             "@id": "https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/#webpage",
             "name": "Ayurveda for Diabetes in Dubai",
             "url": "https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/",
-            "about": {"@id": "https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/#condition"},
+            "about": { "@id": "https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/#condition" },
             "audience": {
               "@type": "PatientAudience",
-              "geographicArea": {"@type": "Place", "name": "Dubai, United Arab Emirates"}
+              "geographicArea": { "@type": "Place", "name": "Dubai, United Arab Emirates" }
             },
             "lastReviewed": currentDate,
             "reviewedBy": {
@@ -212,17 +212,17 @@ const DiabetesAyurvedaDubai = () => {
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "Ayurvedic Diabetes Treatment Programmes",
-            "provider": {"@id": "https://vedaracare.ae/#organization"},
+            "provider": { "@id": "https://vedaracare.ae/#organization" },
             "areaServed": [
-              {"@type": "Place", "name": "Jumeirah Village Circle"},
-              {"@type": "Place", "name": "Jumeirah Village Triangle"},
-              {"@type": "Place", "name": "Al Barsha South"},
-              {"@type": "Place", "name": "Dubai Sports City"},
-              {"@type": "Place", "name": "Motor City"},
-              {"@type": "Place", "name": "Arjan"},
-              {"@type": "Place", "name": "Dubai Hills Estate"},
-              {"@type": "City", "name": "Dubai"},
-              {"@type": "Place", "name": "United Arab Emirates"}
+              { "@type": "Place", "name": "Jumeirah Village Circle" },
+              { "@type": "Place", "name": "Jumeirah Village Triangle" },
+              { "@type": "Place", "name": "Al Barsha South" },
+              { "@type": "Place", "name": "Dubai Sports City" },
+              { "@type": "Place", "name": "Motor City" },
+              { "@type": "Place", "name": "Arjan" },
+              { "@type": "Place", "name": "Dubai Hills Estate" },
+              { "@type": "City", "name": "Dubai" },
+              { "@type": "Place", "name": "United Arab Emirates" }
             ],
             "serviceType": "Ayurvedic Treatment for Diabetes",
             "hasOfferCatalog": {
@@ -275,7 +275,7 @@ const DiabetesAyurvedaDubai = () => {
             "publisher": {
               "@type": "Organization",
               "name": "Vedara Care Polyclinic",
-              "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}
+              "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" }
             },
             "mainEntityOfPage": "https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/"
           })
@@ -305,9 +305,9 @@ const DiabetesAyurvedaDubai = () => {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-              {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-              {"@type": "ListItem", "position": 3, "name": "Ayurveda for Diabetes in Dubai", "item": "https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/"}
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
+              { "@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/" },
+              { "@type": "ListItem", "position": 3, "name": "Ayurveda for Diabetes in Dubai", "item": "https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/" }
             ]
           })
         }}
@@ -348,12 +348,12 @@ const DiabetesAyurvedaDubai = () => {
             </h2>
             <p className="text-[16px] text-[#6B6B6B] font-sans leading-relaxed max-w-3xl mx-auto" dangerouslySetInnerHTML={{ __html: diabetesMechanism1.description }} />
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             {diabetesMechanism1.phenotypes.map((phenotype, index) => (
               <div key={index} className="bg-white p-8 rounded-xl border flex flex-col gap-6 space-y-4"
-                style={{ 
-                  borderColor: "rgb(201, 169, 97)" 
+                style={{
+                  borderColor: "rgb(201, 169, 97)"
                 }} >
                 <div className="text-4xl md:text-5xl font-serif text-[#C9A961]">
                   {phenotype.letter}
@@ -367,7 +367,7 @@ const DiabetesAyurvedaDubai = () => {
               </div>
             ))}
           </div>
-          
+
           <p className="text-center mt-12 max-w-3xl mx-auto text-[15px] text-[#6B6B6B] font-sans" dangerouslySetInnerHTML={{ __html: diabetesMechanism1.footer }} />
         </div>
       </section>
@@ -383,7 +383,7 @@ const DiabetesAyurvedaDubai = () => {
               What Ayurvedic treatment is — and is not — in diabetes care.
             </h2>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6" style={{ color: 'rgb(107, 114, 128)', lineHeight: '1.7' }}>
               <p>
@@ -395,21 +395,21 @@ const DiabetesAyurvedaDubai = () => {
               <p>
                 <strong style={{ color: 'rgb(17, 24, 39)' }}>What we will never do at our JVC clinic:</strong> ask you to stop your prescribed diabetes medication without your endocrinologist's input; claim Ayurveda can "cure" diabetes; promise specific HbA1c reductions; replace insulin in any patient who requires it; treat diabetic emergencies.
               </p>
-              
+
               <p>
                 <strong style={{ color: 'rgb(17, 24, 39)' }}>What we will do:</strong> provide a structured 6-month programme that addresses what conventional care cannot, coordinate with your endocrinologist throughout, and produce sustained metabolic improvements that may — under your endocrinologist's supervision — allow medication adjustment.
               </p>
-              
+
               <blockquote className="text-xl italic py-8" style={{ fontFamily: 'Georgia, serif', color: 'rgb(201, 169, 97)' }}>
                 "The clinic that promises to cure your diabetes is the clinic that will harm your diabetes. Run from it."
               </blockquote>
             </div>
-            
+
             <div>
-              <img 
-                src={diabetesMechanism2.image} 
-                alt={diabetesMechanism2.alt} 
-                className="rounded-xl w-full h-auto object-cover shadow-lg" 
+              <img
+                src={diabetesMechanism2.image}
+                alt={diabetesMechanism2.alt}
+                className="rounded-xl w-full h-auto object-cover shadow-lg"
               />
             </div>
           </div>
@@ -432,15 +432,15 @@ const DiabetesAyurvedaDubai = () => {
               For diabetes complications, Ayurvedic adjunctive care is often most valuable.
             </h2>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div className="space-y-8">
               <p className="text-base leading-relaxed" style={{ color: 'rgb(107, 114, 128)' }}>
                 While Ayurvedic treatment for primary diabetes management is most powerful in prediabetes and early type 2, the value shifts as the disease progresses. For long-standing diabetes, the largest clinical gains often come from addressing complications and preventing their progression.
               </p>
-              
+
               <div className="h-px" style={{ backgroundColor: 'rgb(201, 169, 97)' }}></div>
-              
+
               <div className="space-y-3">
                 <h4 className="text-xl font-semibold" style={{ fontFamily: 'Georgia, serif', color: 'rgb(201, 169, 97)' }}>
                   Diabetic Neuropathy
@@ -449,7 +449,7 @@ const DiabetesAyurvedaDubai = () => {
                   Peripheral neuropathy is one of the most distressing diabetic complications and one where Ayurveda has its strongest adjunctive role. Specific protocols including <a href='/treatments/padabhyanga-dubai/' class='doctor-specialty-link'>Padabhyanga</a> (medicated foot massage), Snehapana, internal medicines including Brahmi and Ashwagandha-based formulations, and Vata-pacification often reduce burning, tingling, and pain meaningfully. Best results combine Ayurvedic treatment with conventional neuropathy medications.
                 </p>
               </div>
-              
+
               <div className="space-y-3">
                 <h4 className="text-xl font-semibold" style={{ fontFamily: 'Georgia, serif', color: 'rgb(201, 169, 97)' }}>
                   Diabetic Nephropathy (Early Stage)
@@ -458,7 +458,7 @@ const DiabetesAyurvedaDubai = () => {
                   For early-stage diabetic kidney disease (microalbuminuria, mildly elevated creatinine), Ayurvedic adjunctive care alongside nephrology can slow progression. Specific formulations including Punarnava and Gokshura-based protocols, dietary modifications, and lifestyle protocols. Always coordinated with your nephrologist — never as a replacement for blood pressure control and ACE inhibitor therapy.
                 </p>
               </div>
-              
+
               <div className="space-y-3">
                 <h4 className="text-xl font-semibold" style={{ fontFamily: 'Georgia, serif', color: 'rgb(201, 169, 97)' }}>
                   Diabetic Foot Care
@@ -470,10 +470,10 @@ const DiabetesAyurvedaDubai = () => {
             </div>
 
             <div>
-              <img 
-                src="/images/ayurveda-endocrinology-integrated-diabetes-jvc.webp" 
-                alt="Ayurvedic doctor performing diabetic foot examination at Vedara Care JVC Dubai" 
-                className="rounded-xl w-full h-auto object-cover shadow-lg" 
+              <img
+                src="/images/ayurveda-endocrinology-integrated-diabetes-jvc.webp"
+                alt="Ayurvedic doctor performing diabetic foot examination at Vedara Care JVC Dubai"
+                className="rounded-xl w-full h-auto object-cover shadow-lg"
               />
             </div>
           </div>
@@ -491,7 +491,7 @@ const DiabetesAyurvedaDubai = () => {
               {diabetesGLP1.title}
             </h2>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             {diabetesGLP1.cards.map((card, index) => (
               <div
@@ -508,7 +508,7 @@ const DiabetesAyurvedaDubai = () => {
               </div>
             ))}
           </div>
-          
+
           <p className="text-[15px] text-[#6B6B6B] font-sans text-center mt-8 max-w-3xl mx-auto">
             {diabetesGLP1.footer}
           </p>
@@ -529,7 +529,7 @@ const DiabetesAyurvedaDubai = () => {
               Ayurvedic diabetes treatment is powerful in specific contexts. It is dangerous in others.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6">
               <div className="text-sm font-medium uppercase tracking-wider" style={{ color: '#dc2626' }}>
@@ -626,7 +626,7 @@ const DiabetesAyurvedaDubai = () => {
         </div>
       </section>
 
- {/* Section 12: FAQ */}
+      {/* Section 12: FAQ */}
       <section className="bg-white py-24 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-5 gap-12">
@@ -652,8 +652,8 @@ const DiabetesAyurvedaDubai = () => {
                 {diabetesFaqs.faqs.map((faq, index) => (
                   <div key={index} className="border border-gray-200 rounded-lg px-6 bg-white">
                     <h3 className="flex">
-                      <button 
-                        type="button" 
+                      <button
+                        type="button"
                         className="flex flex-1 items-start justify-between gap-4 rounded-md text-sm text-left font-medium py-4 w-full"
                         style={{ color: 'rgb(17, 24, 39)' }}
                         onClick={() => {
@@ -669,17 +669,17 @@ const DiabetesAyurvedaDubai = () => {
                       >
                         <span dangerouslySetInnerHTML={{ __html: faq.question }} />
 
-                        <svg 
+                        <svg
                           id={`faq-chevron-${index}`}
-                          xmlns="http://www.w3.org/2000/svg" 
-                          width="24" 
-                          height="24" 
-                          viewBox="0 0 24 24" 
-                          fill="none" 
-                          stroke="currentColor" 
-                          strokeWidth="2" 
-                          strokeLinecap="round" 
-                          strokeLinejoin="round" 
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           className="text-gray-500 size-4 shrink-0 translate-y-0.5 transition-transform duration-200"
                           style={{ color: 'rgb(107, 114, 128)' }}
                         >
@@ -687,10 +687,10 @@ const DiabetesAyurvedaDubai = () => {
                         </svg>
                       </button>
                     </h3>
-                    <div 
-                      id={`faq-content-${index}`} 
-                      className="text-sm pb-4" 
-                      style={{ color: 'rgb(107, 114, 128)' }} 
+                    <div
+                      id={`faq-content-${index}`}
+                      className="text-sm pb-4"
+                      style={{ color: 'rgb(107, 114, 128)' }}
                       hidden
                       dangerouslySetInnerHTML={{ __html: faq.answer }}
                     />
@@ -778,19 +778,17 @@ const DiabetesAyurvedaDubai = () => {
         </div>
       </section>
 
-     
+
 
       {/* Section 13: Treatment Location */}
       <TreatmentLocationCustom {...diabetesTreatmentLocationCustom} />
 
 
 
-{/* Section 15: Related Pages */}
-      <RelatedPages {...diabetesRelatedPages} />
       {/* Section 14: Final CTA */}
       <FinalCTA {...diabetesFinalCTA} />
 
-      
+      <RelatedPages {...diabetesRelatedPages} />
     </>
   );
 };

@@ -483,7 +483,7 @@ export const pcosTreatmentLocation = {
   bgColor: "bg-[#FFFFFF]",
   label: "VISIT US",
   title: "Where PCOS treatment happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,<br/>Circle Mall, Jumeirah Village Circle Dubai, UAE",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4 , Circle Mall, Jumeirah Village Circle Dubai, UAE",
   landmarks: [
     "Next to Circle Mall ·FIVE Jumeirah Village · JVC District 12 · JSS Private School "
   ],
