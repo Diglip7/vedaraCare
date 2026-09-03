@@ -328,7 +328,7 @@ export const homeLocation = {
     whatsapp: "+971 55 573 6312",
     email: "booking@vedaracare.ae"
   },
-  hours: "Mon-Sun - 9:00 AM - 10:00 PM",
+  hours: "Monday - Sunday : 9:00AM to 10:00PM",
   parkingText: "Free covered parking available for patients",
   tags: ["5 min from JSS School", "3 min from FIVE JVC", "Next to Circle Mall"],
   buttonText: "Book Your Visit"

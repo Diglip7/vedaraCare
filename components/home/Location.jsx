@@ -131,10 +131,14 @@ WhatsApp: <a
                   <Clock size={20} className="text-[#184C3A]" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="text-[16px] font-sans font-bold text-[#1A1A1A]">{hours.label}</h4>
+                  <h4 className="text-[16px] font-sans font-bold text-[#1A1A1A]">{hours.label || 'Hours'}</h4>
                   <p className="text-[15px] text-[#6B6B6B] font-sans leading-relaxed">
-                    {hours.weekdays}<br />
-                    {hours.sunday}
+                    {typeof hours === 'string' ? hours : (
+                      <>
+                        {hours.weekdays}
+                        {hours.sunday && <><br />{hours.sunday}</>}
+                      </>
+                    )}
                   </p>
                 </div>
               </div>
