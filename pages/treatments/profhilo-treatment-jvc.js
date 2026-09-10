@@ -184,7 +184,6 @@ const ProfhiloTreatment = () => {
                 <meta name="description" content="Considering Profhilo Treatment in JVC? Learn how this injectable skin-quality treatment works, who it may suit, and book a consultation at Vedara Care." />
                 <link rel="canonical" href={currentUrl} />
                 <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-                <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/profhilo-treatment-jvc/" />
                 <link rel="alternate" hrefLang="x-default" href={currentUrl} />
                 <meta property="og:title" content="Profhilo Treatment in JVC | Vedara Care Polyclinic" />
                 <meta property="og:description" content="Considering Profhilo Treatment in JVC? Learn how this injectable skin-quality treatment works, who it may suit, and book a consultation at Vedara Care. DHA-licensed dermatology team. Individual skin assessment before treatment." />

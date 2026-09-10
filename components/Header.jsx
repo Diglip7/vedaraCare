@@ -11,16 +11,20 @@ const AYURVEDA_PAGES = [
 const AYURVEDA_CONDITIONS = [
   { href: '/conditions/arthritis-ayurveda-dubai', label: 'Arthritis (Ayurveda)' },
   { href: '/conditions/back-pain-ayurveda-dubai', label: 'Back Pain (Ayurveda)' },
+  { href: '/conditions/back-pain-ayurveda-jvc', label: 'Back Pain in JVC (Ayurveda)' },
+    { href: '/conditions/cervical-spondylosis-ayurveda-jvc', label: 'Cervical Spondylosis in JVC' },
   { href: '/conditions/diabetes-ayurveda-dubai', label: 'Diabetes (Ayurveda)' },
   { href: '/conditions/hair-loss-ayurveda-dubai', label: 'Hair Loss (Ayurveda)' },
   { href: '/conditions/ibs-ayurveda-dubai', label: 'IBS (Ayurveda)' },
   { href: '/conditions/migraine-ayurveda-dubai', label: 'Migraine (Ayurveda)' },
+  { href: '/conditions/neck-pain-ayurveda-jvc', label: 'Neck Pain in JVC (Ayurveda)' },
   { href: '/conditions/pcos-ayurveda-dubai', label: 'PCOS (Ayurveda)' },
   { href: '/conditions/postnatal-ayurveda-dubai', label: 'Postnatal Care (Ayurveda)' },
   { href: '/conditions/skin-ayurveda-dubai', label: 'Skin Conditions (Ayurveda)' },
   { href: '/conditions/stress-anxiety-ayurveda-dubai', label: 'Stress & Anxiety (Ayurveda)' },
   { href: '/conditions/thyroid-ayurveda-dubai', label: 'Thyroid (Ayurveda)' },
   { href: '/conditions/weight-loss-ayurveda-dubai', label: 'Weight Loss (Ayurveda)' },
+  { href: '/conditions/sciatica-ayurveda-jvc', label: 'Sciatica in JVC (Ayurveda)' }
 ];
 const AYURVEDA_TREATMENTS = [
   { href: '/treatments/abhyanga-dubai', label: 'Abhyanga' },

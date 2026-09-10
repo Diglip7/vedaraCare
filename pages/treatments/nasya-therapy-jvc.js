@@ -214,7 +214,6 @@ const NasyaTherapyJVC = () => {
         <meta name="description" content="Nasya Therapy in JVC at Vedara Care — traditional Ayurvedic nasal therapy for head and sinus concerns. Book a professional consultation in JVC, Dubai." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/nasya-therapy-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Nasya Therapy in JVC | Vedara Care Polyclinic" />
         <meta property="og:description" content="Nasya Therapy in JVC at Vedara Care — traditional Ayurvedic nasal therapy for head and sinus concerns. Book a professional consultation in JVC, Dubai." />

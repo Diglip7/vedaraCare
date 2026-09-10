@@ -115,7 +115,7 @@ export const pigmentationWhenToSeeSpecialist = {
       }
     ],
     buttonText: "Book Consultation",
-    buttonHref: "https://wa.me/971555736312?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20pigmentation%20consultation%20at%20Vedara%20Care%20Polyclinic."
+    buttonHref: "/book"
   }
 };
 

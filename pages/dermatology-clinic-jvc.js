@@ -328,7 +328,6 @@ const DermatologyClinicJVC = () => {
         <meta name="description" content="Specialist dermatology clinic in JVC, Dubai. Consultant dermatologists, DHA-licensed. Medical dermatology (acne, melasma, eczema, skin cancer) and aesthetic (botulinum toxin, fillers, lasers). All skin types. Multiple languages. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/dermatology-clinic-jvc/" />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta property="og:title" content="Dermatologist in JVC — Medical & Aesthetic Dermatology | Vedara Clinic Dubai" />
         <meta property="og:description" content="Specialist dermatology clinic at Jumeirah Village Circle, Dubai. Consultant dermatologists with international training delivering medical dermatology (acne, melasma, eczema, psoriasis, skin cancer screening) and aesthetic dermatology (botulinum toxin, dermal fillers, lasers, chemical peels, hair restoration). Expertise across all Fitzpatrick skin types. Multiple languages including Arabic, English, Hindi, Urdu." />

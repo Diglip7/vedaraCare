@@ -646,7 +646,7 @@ export const homePhysioRelatedPages = {
       href: "/physiotherapy/neurological-dubai"
     },
     {
-      title: "Home Healthcare IN jvc ",
+      title: "Home Healthcare in JVC",
       description: "Beyond physiotherapy — comprehensive home healthcare services including Ayurveda, nursing, and combined care programmes.",
       href: "/physiotherapy/home-healthcare-jvc/"
     }

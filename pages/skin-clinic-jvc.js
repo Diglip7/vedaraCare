@@ -141,7 +141,6 @@ const SkinClinicJvc = () => {
         <meta name="description" content="Not sure what skin treatment you need? Our JVC skin clinic helps you identify your concern and find the right care. Acne, pigmentation, aging, hair, eczema, skin cancer — guidance for every concern. Consultant dermatologists. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/skin-clinic-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Skin Clinic in JVC — Find the Right Care for Your Concerns | Vedara Care" />
         <meta property="og:description" content="Patient-guided skin clinic at Jumeirah Village Circle, Dubai. Identify your skin concern from acne to aging to skin cancer screening, and navigate to the right care. DHA-licensed consultant dermatologists. Multiple languages. Both medical and aesthetic guidance." />

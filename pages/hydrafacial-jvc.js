@@ -216,7 +216,6 @@ const HydraFacialTreatment = () => {
         <meta name="description" content="Specialist HydraFacial treatment at our JVC clinic, Dubai. DHA-licensed consultant dermatologists. Skin-type-adjusted protocols across all Fitzpatrick skin types. Structured cleansing, exfoliation, extraction, and hydration. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/hydrafacial-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="HydraFacial in JVC, Dubai — Skin-Type-Adjusted Protocols | Vedara Care" />
         <meta property="og:description" content="Specialist HydraFacial treatment at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists delivering structured multi-step HydraFacial protocols: cleansing, gentle exfoliation, controlled extraction, and targeted hydrating serums, all adjusted to patient skin type and concerns. Particular expertise for Fitzpatrick IV–VI skin types where conservative protocol adjustment prevents irritation and post-inflammatory hyperpigmentation." />

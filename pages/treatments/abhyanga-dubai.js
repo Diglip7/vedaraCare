@@ -333,7 +333,6 @@ const AbhyangaDubai = () => {
         {/* Canonical & Hreflang */}
         <link rel="canonical" href="https://vedaracare.ae/treatments/abhyanga-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/treatments/abhyanga-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/treatments/abhyanga-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/treatments/abhyanga-dubai/" />
 
         {/* Schema Markup */}

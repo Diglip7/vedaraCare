@@ -246,7 +246,6 @@ const PostnatalAyurvedaJvc = () => {
 
         <link rel="canonical" href="https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/conditions/postnatal-care-ayurveda-JVC/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/" />
 
         <script

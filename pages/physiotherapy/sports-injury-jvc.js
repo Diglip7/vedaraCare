@@ -461,7 +461,6 @@ const SportsInjuryJvc = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/physiotherapy/sports-injury-jvc/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/physiotherapy/sports-injury-jvc/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/physiotherapy/sports-injury-jvc/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/physiotherapy/sports-injury-jvc/" />
 
         {/* Schema Markup */}

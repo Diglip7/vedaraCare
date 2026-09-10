@@ -309,7 +309,6 @@ const PostnatalAyurvedaDubai = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/conditions/postnatal-ayurveda-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/postnatal-ayurveda-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/conditions/postnatal-ayurveda-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/postnatal-ayurveda-dubai/" />
 
         <script

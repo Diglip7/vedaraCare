@@ -163,7 +163,6 @@ const JaluproTreatment = () => {
         <meta name="description" content="Considering Jalupro Treatment in JVC? Learn how this amino-acid and hyaluronic acid injectable works, who it may suit, and book a consultation." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/jalupro-treatment-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Jalupro Treatment in JVC | Vedara Care Polyclinic" />
         <meta property="og:description" content="Considering Jalupro Treatment in JVC? Learn how this amino-acid and hyaluronic acid injectable works, who it may suit, and book a consultation at Vedara Care Polyclinic in JVC, Dubai." />

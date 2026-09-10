@@ -57,7 +57,6 @@ export default function DoctorSlugPage() {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/doctors/dr-priya-nair-ayurveda/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/doctors/dr-priya-nair-ayurveda/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/doctors/dr-priya-nair-ayurveda/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/doctors/dr-priya-nair-ayurveda/" />
 
         {/* Preload Hero Image for LCP */}

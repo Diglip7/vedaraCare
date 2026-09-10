@@ -245,7 +245,6 @@ const PrpHairTreatment = () => {
         <meta name="description" content="Specialist PRP hair treatment at our JVC clinic, Dubai. DHA-licensed consultant dermatologists. Evidence-based standardised protocols. Combination approach with proven medications for superior outcomes. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/prp-hair-dubai/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="PRP Hair Treatment in JVC Dubai — Evidence-Based Dermatology-Led Care | Vedara" />
         <meta property="og:description" content="Specialist PRP hair treatment at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists delivering evidence-based standardised platelet-rich plasma therapy for hair restoration. Combination approach with proven medications produces superior outcomes to PRP alone." />

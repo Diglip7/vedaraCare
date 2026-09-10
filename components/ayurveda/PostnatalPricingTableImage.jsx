@@ -58,9 +58,7 @@ const PostnatalPricingTableImage = ({ data }) => {
         </div>
 
         <div className="mt-8 max-w-5xl">
-          <p className="text-[12px] text-[#6B6B6B] font-sans leading-relaxed">
-            {footer}
-          </p>
+          <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "rgb(119, 119, 119)", textAlign: "center", maxWidth: "720px", margin: "32px auto 0px" }}>{footer}</p>
         </div>
       </div>
     </section>

@@ -406,7 +406,6 @@ const NeurologicalDubai = () => {
         <meta name="description" content="Specialist neurological physiotherapy at our DHA-licensed JVC clinic and home services across Dubai. Stroke rehabilitation, Parkinson's, MS, TBI, spinal cord injury. Neurologist coordination. LSVT-BIG certified. Insurance direct-billing with 7 major insurers." />
         <link rel="canonical" href="https://vedaracare.ae/physiotherapy/neurological-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/physiotherapy/neurological-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/physiotherapy/neurological-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/physiotherapy/neurological-dubai/" />
         <meta property="og:title" content="Neurological Physiotherapy in Dubai — Specialist Long-Term Care | Vedara JVC" />
         <meta property="og:description" content="DHA-licensed neurological physiotherapy at our Jumeirah Village Circle clinic and home services across Dubai. Specialised treatment for stroke recovery, Parkinson's, MS, TBI, spinal cord injury, motor neurone disease, and other neurological conditions. Neurologist-coordinated care." />

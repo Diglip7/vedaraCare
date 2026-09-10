@@ -65,10 +65,20 @@ const practitioners = [
     name: 'Dr. Sanjida Islam Suchana',
     specialty: 'General Practitioner | Clinical Dermatology',
     focus: 'Skin Health, Primary Care, Women\'s Health & Infertility',
-    image: '/images/default-avatar.png',
+    image: '/images/dr-sanjida-islam-suchana-gp-dubai.webp',
     alt: 'Dr. Sanjida Islam Suchana, DHA-licensed General Practitioner at Vedara Care Polyclinic, JVC Dubai',
     slug: 'dr-sanjida-islam-suchana',
     url: '/doctors/dr-sanjida-islam-suchana'
+  },
+
+  {
+    name: 'Emiel Sanchez',
+    specialty: 'Clinic Receptionist',
+    focus: 'Administrative & Patient Relations',
+    image: '/images/emiel-sanchez-receptionist.webp',
+    alt: 'Emiel Sanchez, Clinic Receptionist at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'emiel-sanchez',
+    url: '/doctors/emiel-sanchez'
   },
   {
     name: 'Dr. Anusha Makkena',
@@ -78,8 +88,7 @@ const practitioners = [
     alt: 'Dr. Anusha Makkena, MBBS, MS ENT-qualified DHA-licensed ENT specialist at Vedara Care Polyclinic, JVC Dubai',
     slug: 'dr-anusha-makkena',
     url: '/doctors/dr-anusha-makkena'
-  },
-
+  }
 ];
 
 export default function DoctorsPage() {

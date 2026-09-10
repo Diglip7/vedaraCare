@@ -183,7 +183,6 @@ const PanchakarmaDubai = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/treatments/panchakarma-dubai/" />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
 
         {/* Robots & Indexing */}

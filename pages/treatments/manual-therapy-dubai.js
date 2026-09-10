@@ -242,7 +242,6 @@ const ManualTherapyDubai = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://vedaracare.ae/treatments/manual-therapy-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/treatments/manual-therapy-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/treatments/manual-therapy-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/treatments/manual-therapy-dubai/" />
 
         {schemaMarkup.map((schema, index) => (

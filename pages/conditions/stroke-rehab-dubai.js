@@ -320,7 +320,6 @@ const StrokeRehabDubai = () => {
 
         <link rel="canonical" href="https://vedaracare.ae/conditions/stroke-rehab-dubai/" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/stroke-rehab-dubai/" hreflang="en-AE" />
-        <link rel="alternate" href="https://vedaracare.ae/ar/conditions/stroke-rehab-dubai/" hreflang="ar-AE" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/stroke-rehab-dubai/" hreflang="x-default" />
       </Head>
 

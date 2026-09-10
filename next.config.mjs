@@ -20,13 +20,9 @@ const nextConfig = {
 
   async redirects() {
     return [
-      {
-        source: '/ayurveda',
-        destination: '/ayurveda-clinic-jvc/',
-        permanent: false,
-      },
+      { source: '/:path*/', destination: '/:path*', permanent: true },
+      { source: '/ayurveda', destination: '/ayurveda-clinic-jvc', permanent: true }, // see next issue
     ];
-  },
+  }
 };
-
 export default nextConfig;

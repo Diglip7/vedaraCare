@@ -323,7 +323,6 @@ const StressAnxietyAyurvedaJvc = () => {
         <meta name="description" content="Authentic Ayurvedic stress and anxiety treatment at our JVC clinic Dubai. Female DHA-licensed doctor. Shirodhara, herbal medicines, personalised care. Multi-language. Coordinated with modern mental health." />
         <link rel="canonical" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/conditions/stress-anxiety-ayurveda-jvc/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/" />
         <meta property="og:title" content="Stress & Anxiety Ayurvedic Treatment at Our JVC Clinic Dubai | Vedara Care" />
         <meta property="og:description" content="Authentic Ayurvedic stress and anxiety care at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Neethu. Shirodhara, Nasya, Abhyanga, herbal medicines. Multi-language. Coordinated with modern mental health care." />

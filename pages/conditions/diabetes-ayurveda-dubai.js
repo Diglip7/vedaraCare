@@ -49,7 +49,6 @@ const DiabetesAyurvedaDubai = () => {
         {/* Canonical & Language */}
         <link rel="canonical" href="https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/conditions/diabetes-ayurveda-dubai/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/conditions/diabetes-ayurveda-dubai/" />
       </Head>
 

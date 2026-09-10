@@ -656,7 +656,6 @@ const FrozenShoulderDubai = () => {
         <meta name="description" content="Specialist frozen shoulder treatment at our JVC clinic, Dubai. Phase-specific physiotherapy for adhesive capsulitis. DPT-qualified specialists with diabetic frozen shoulder expertise. Realistic timelines. Walking distance from Circle Mall. Insurance direct-billing." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/conditions/frozen-shoulder-dubai/" />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <meta property="og:title" content="Frozen Shoulder Treatment in Dubai — Phase-Specific Specialist Care | Vedara JVC" />

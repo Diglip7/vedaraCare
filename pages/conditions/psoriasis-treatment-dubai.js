@@ -207,7 +207,6 @@ const psoriasistreatment = () => {
         <meta name="description" content="Specialist psoriasis treatment at our JVC clinic, Dubai. DHA-licensed consultant dermatologists. Access to modern biologic treatments (secukinumab, ustekinumab, guselkumab). All psoriasis types. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/conditions/psoriasis-treatment-dubai/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Psoriasis Treatment in JVC Dubai — Modern Biologic Specialist Care | Vedara" />
         <meta property="og:description" content="Specialist psoriasis treatment at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists treating chronic plaque psoriasis, scalp psoriasis, nail psoriasis, palmoplantar psoriasis, and severe psoriasis. Access to full range of modern biologic treatments including TNF-α, IL-17, and IL-23 inhibitors. Comprehensive systemic assessment." />

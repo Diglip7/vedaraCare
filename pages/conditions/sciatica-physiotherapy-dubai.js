@@ -290,7 +290,6 @@ const SciaticaPhysiotherapyDubai = () => {
         
         <link rel="canonical" href="https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/" hrefLang="en-AE" />
-        <link rel="alternate" href="https://vedaracare.ae/ar/conditions/sciatica-physiotherapy-dubai/" hrefLang="ar-AE" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/" hrefLang="x-default" />
       </Head>
       

@@ -266,7 +266,6 @@ const AcneTreatmentJvc = () => {
         <meta name="description" content="Specialist acne treatment in JVC, Dubai. DHA-licensed consultant dermatologists treating adult acne, hormonal acne, cystic acne, acne scarring. All skin types. Comprehensive evidence-based care including isotretinoin. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/conditions/acne-treatment-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Acne Treatment in JVC — Specialist Dermatologists | Vedara Care Dubai" />
         <meta property="og:description" content="Specialist acne treatment at our Jumeirah Village Circle clinic. DHA-licensed consultant dermatologists treating adolescent acne, adult acne, hormonal acne, cystic acne, and acne scarring across all Fitzpatrick skin types. Evidence-based comprehensive treatment including topical, oral, and procedural approaches. Realistic timelines, transparent pricing." />

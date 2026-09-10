@@ -1792,7 +1792,7 @@ export const drSanjida = {
   title: 'MBBS | DHA-Licensed General Practitioner | Clinical Dermatology | Women\'s Health',
   designation: 'General Practitioner',
   pageTitle: 'General Practitioner at our JVC Clinic, Dubai.',
-  image: '/images/default-avatar.png',
+  image: '/images/dr-sanjida-islam-suchana-gp-dubai.webp',
   alt: 'Dr. Sanjida Islam Suchana, DHA-licensed General Practitioner at Vedara Care Polyclinic, JVC Dubai',
   heroBadge: 'GENERAL PRACTITIONER · DHA-LICENSED · CLINICAL DERMATOLOGY',
   heroStats: 'MBBS · DHA-Licensed GP · Clinical Dermatology · Women\'s Health',
@@ -1911,3 +1911,87 @@ export const drSanjida = {
   }
 };
 
+
+export const emielSanchezData = {
+  name: 'Emiel Sanchez',
+  firstName: 'Emiel',
+  title: 'Clinic Receptionist | Administrative & Patient Relations',
+  designation: 'Clinic Receptionist',
+  pageTitle: 'Clinic Receptionist at our JVC Clinic, Dubai.',
+  image: '/images/emiel-sanchez-receptionist.webp',
+  alt: 'Emiel Sanchez, Clinic Receptionist at Vedara Care Polyclinic, JVC Dubai',
+  heroBadge: 'CLINIC RECEPTIONIST · PATIENT RELATIONS',
+  heroStats: 'Medical Technology Background · Patient Communication',
+  subtitle: 'Clinic Receptionist · Administrative & Patient Relations',
+  bio: 'A professional and approachable healthcare administrative professional with a background in Medical Technology and experience in a clinical healthcare environment. Skilled in front-desk operations, patient communication, appointment coordination, and providing a welcoming and organized experience for patients.',
+  about: 'A professional and approachable healthcare administrative professional with a background in Medical Technology and experience in a clinical healthcare environment. Skilled in front-desk operations, patient communication, appointment coordination, and providing a welcoming and organized experience for patients.<br/><br/>With a healthcare background, she is able to communicate effectively with patients, understand basic medical terminology, and coordinate smoothly with clinical teams while maintaining professionalism, confidentiality, and excellent customer service.',
+  aboutLabel: 'ABOUT EMIEL',
+  aboutH2: 'Emiel Sanchez — Clinic Receptionist & Patient Relations at JVC.',
+  summaryTitle: 'Welcoming and organized patient experience.',
+  summaryParagraph1: 'Emiel is dedicated to providing a professional and welcoming experience for every patient. With a background in Medical Technology, she brings a deep understanding of the healthcare environment to her role at the front desk.',
+  summaryParagraph2: '"With a healthcare background, I am able to communicate effectively with patients, understand basic medical terminology, and coordinate smoothly with clinical teams while maintaining professionalism, confidentiality, and excellent customer service."',
+  trustSignals: [
+    'BSc Medical Technology',
+    'Registered Medical Technologist (RMT)',
+    'ASCPI Certified',
+    'Speaks English and Filipino'
+  ],
+  education: [
+    'Bachelor of Science in Medical Technology — College of Our Lady of Mt. Carmel, Philippines',
+    'Registered Medical Technologist (RMT) — Professional Regulation Commission, Philippines',
+    'ASCPI Certified',
+    'DHA Eligibility'
+  ],
+  languagesSpoken: [
+    'English',
+    'Filipino'
+  ],
+  specialtiesList: [
+    {
+      number: '01',
+      title: 'Front Desk & Reception Management',
+      description: 'Ensuring a smooth, welcoming, and organized experience for every patient entering the clinic.',
+      related: ['Patient Registration', 'Appointment Scheduling']
+    },
+    {
+      number: '02',
+      title: 'Patient Communication & Customer Service',
+      description: 'Providing clear, professional, and compassionate communication to assist patients with their inquiries and needs.',
+      related: ['Patient Follow-Up', 'Coordination']
+    },
+    {
+      number: '03',
+      title: 'Clinic Administrative Support',
+      description: 'Coordinating smoothly with clinical teams and managing records with a solid understanding of medical terminology.',
+      related: ['Records Management', 'Healthcare Knowledge']
+    }
+  ],
+  approachList: [
+    {
+      title: 'Patient-First Communication',
+      description: 'Prioritizing clear and empathetic communication to ensure patients feel welcomed and understood from the moment they arrive.'
+    },
+    {
+      title: 'Efficient Organization',
+      description: 'Managing appointments and administrative tasks effectively to minimize wait times and streamline clinic operations.'
+    },
+    {
+      title: 'Clinical Coordination',
+      description: 'Leveraging a background in Medical Technology to seamlessly collaborate with the medical team for optimal patient care.'
+    }
+  ],
+  approachFooter: 'Dedicated to professionalism, confidentiality, and providing excellent customer service.',
+  relatedPages: {
+    label: 'EXPLORE',
+    title: 'Explore our clinic and healthcare team.',
+    linkText: 'All our doctors',
+    linkHref: '/doctors/',
+    columns: 4,
+    pages: [
+      { title: 'Our Doctors', description: '', href: '/doctors/' },
+      { title: 'Wellness Clinic JVC', description: '', href: '/wellness-clinic-jvc/' },
+      { title: 'Ayurveda Clinic JVC', description: '', href: '/ayurveda-clinic-jvc/' },
+      { title: 'Book a Consultation', description: '', href: '/book/' }
+    ]
+  }
+};

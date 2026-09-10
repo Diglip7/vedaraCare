@@ -197,7 +197,6 @@ const HafsinaKKPage = () => {
 
         <link rel="canonical" href="https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/doctors/hafsina-kk-physiotherapist/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/" />
 
         {schemaMarkup.map((schema, index) => (

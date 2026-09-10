@@ -325,7 +325,6 @@ const HomePhysiotherapyDubai = () => {
         
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/physiotherapy-at-home-dubai/" />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
 
         <meta name="robots" content="index, follow, max-image-preview:large" />

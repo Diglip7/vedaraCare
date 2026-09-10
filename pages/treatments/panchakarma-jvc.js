@@ -179,7 +179,6 @@ const PanchakarmaJVC = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/treatments/panchakarma-jvc/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/treatments/panchakarma-jvc/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/treatments/panchakarma-jvc/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/treatments/panchakarma-jvc/" />
 
         <meta name="robots" content="index, follow, max-image-preview:large" />

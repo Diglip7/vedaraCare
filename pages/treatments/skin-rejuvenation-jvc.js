@@ -291,7 +291,6 @@ const SkinRejuvenationJvc = () => {
         {/* Canonical & Hreflang */}
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/skin-rejuvenation-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
 
         {/* Schema Markup */}

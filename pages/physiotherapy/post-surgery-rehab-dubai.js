@@ -590,7 +590,6 @@ const PostSurgeryRehabDubai = () => {
         <meta name="description" content="Procedure-specific post-surgery rehabilitation in Dubai — knee, hip, ACL, spinal, rotator cuff, more. DPT-qualified physiotherapists at our JVC clinic + home physiotherapy across Dubai. Surgeon-coordinated whether your surgery was in Dubai or overseas." />
         <link rel="canonical" href="https://vedaracare.ae/physiotherapy/post-surgery-rehab-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/physiotherapy/post-surgery-rehab-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/physiotherapy/post-surgery-rehab-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/physiotherapy/post-surgery-rehab-dubai/" />
         <meta property="og:title" content="Post-Surgery Rehabilitation in Dubai — Surgeon-Coordinated | Vedara JVC" />
         <meta property="og:description" content="DPT-qualified post-surgical physiotherapy at our Jumeirah Village Circle clinic + home physiotherapy across Dubai. Procedure-specific protocols for knee replacement, hip replacement, ACL, spinal surgery, rotator cuff repair, and more. We coordinate with your surgeon — local or international." />

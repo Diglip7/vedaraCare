@@ -166,7 +166,6 @@ const JanuBastiTreatment = () => {
         <meta name="description" content="Janu Basti Treatment in JVC at Vedara Care — traditional Ayurvedic knee therapy. Personalized consultation available in Jumeirah Village Circle, Dubai." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/ayurveda/janu-basti-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Janu Basti Treatment in JVC | Vedara Care Polyclinic" />
         <meta property="og:description" content="Janu Basti Treatment in JVC at Vedara Care — traditional Ayurvedic knee therapy. Personalized consultation available in Jumeirah Village Circle, Dubai." />
@@ -206,7 +205,7 @@ const JanuBastiTreatment = () => {
           image: januBastiExplanation.image,
           altText: januBastiExplanation.alt,
           width: "w-full",
-          height: "h-[450px]",
+          height: "h-auto",
           borderPosition: "right"
         }}
         footer={januBastiExplanation.caption}

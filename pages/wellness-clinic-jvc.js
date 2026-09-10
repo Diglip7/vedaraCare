@@ -230,7 +230,6 @@ const WellnessClinicJVC = () => {
         <meta name="description" content="JVC's integrated wellness destination — walking distance from Circle Mall. DHA-licensed practitioners across Ayurveda, physiotherapy, dermatology, home healthcare. JVC family and corporate wellness. Multi-language." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/wellness-clinic-jvc/" />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow, max-image-preview:large" />

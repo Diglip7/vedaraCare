@@ -269,7 +269,6 @@ const NjavarakizhiDubai = () => {
         {/* Canonical & Hreflang */}
         <link rel="canonical" href="https://vedaracare.ae/treatments/njavarakizhi-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/treatments/njavarakizhi-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/treatments/njavarakizhi-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/treatments/njavarakizhi-dubai/" />
 
         {/* Schema Markup */}

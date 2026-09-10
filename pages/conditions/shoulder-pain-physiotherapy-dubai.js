@@ -325,7 +325,6 @@ const ShoulderPainPhysiotherapyDubai = () => {
 
         <link rel="canonical" href="https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/" hreflang="en-AE" />
-        <link rel="alternate" href="https://vedaracare.ae/ar/conditions/shoulder-pain-physiotherapy-dubai/" hreflang="ar-AE" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/" hreflang="x-default" />
       </Head>
 

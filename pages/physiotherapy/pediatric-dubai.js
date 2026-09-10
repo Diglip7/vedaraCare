@@ -550,7 +550,6 @@ const PediatricDubai = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/physiotherapy/pediatric-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/physiotherapy/pediatric-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/physiotherapy/pediatric-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/physiotherapy/pediatric-dubai/" />
         
         {/* Schema Markup */}

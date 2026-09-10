@@ -541,7 +541,6 @@ const MelasmaTreatmentDubai = () => {
         <meta name="bingbot" content="index, follow" />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/conditions/melasma-treatment-dubai/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Melasma Treatment in JVC Dubai — Specialist Pigmentation Care | Vedara Care" />
         <meta property="og:description" content="Specialist melasma treatment at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists treating pregnancy-induced melasma, hormonal melasma, sun-aggravated melasma across all Fitzpatrick skin types I-VI. Multi-modal evidence-based treatment combining topical regimens, chemical peels, specific laser treatments, oral tranexamic acid, and rigorous sun protection." />

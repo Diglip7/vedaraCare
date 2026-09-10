@@ -183,7 +183,6 @@ const AyurvedaDubai = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/ayurveda-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/ayurveda-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/ayurveda-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/ayurveda-dubai/" />
 
         {/* Schema Markup */}

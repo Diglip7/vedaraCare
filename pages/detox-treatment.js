@@ -223,7 +223,6 @@ const DetoxTreatment = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/detox-treatment/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/detox-treatment/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/detox-treatment/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/detox-treatment/" />
 
         {/* Schema Markup */}

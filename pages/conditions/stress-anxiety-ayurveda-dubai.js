@@ -289,7 +289,6 @@ const AyurvedaStressAnxiety = () => {
         <meta name="description" content="DHA-licensed Ayurvedic treatment for chronic stress, anxiety, and burnout at our JVC clinic, Dubai. Shirodhara, herbal medicines, sleep protocols. Alongside psychiatry where appropriate." />
         <link rel="canonical" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/conditions/stress-anxiety-ayurveda-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/" />
         <meta property="og:title" content="Ayurveda for Stress & Anxiety in Dubai — Treatment at Our JVC Clinic" />
         <meta property="og:description" content="DHA-licensed Ayurvedic treatment for chronic stress, anxiety, burnout, and post-trauma patterns at our Jumeirah Village Circle clinic. Alongside psychiatry and therapy where appropriate." />

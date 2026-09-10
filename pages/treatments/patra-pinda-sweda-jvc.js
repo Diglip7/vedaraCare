@@ -165,7 +165,6 @@ const PatraPindaSwedaJVC = () => {
         <meta name="description" content="Patra Pinda Sweda Therapy in JVC at Vedara Care — traditional Ayurvedic herbal bolus therapy for stiffness and pain. Book a personalized consultation in JVC." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/patra-pinda-sweda-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Patra Pinda Sweda Therapy in JVC | Vedara Care" />
         <meta property="og:description" content="Patra Pinda Sweda Therapy in JVC at Vedara Care — traditional Ayurvedic herbal bolus therapy for stiffness and pain. Book a personalized consultation in JVC." />

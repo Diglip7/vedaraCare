@@ -521,7 +521,6 @@ const PelvicFloorDubai = () => {
         <meta name="description" content="Pelvic floor physiotherapy at our JVC clinic, Dubai. Female DPT-qualified specialists exclusively. Postnatal recovery, urinary incontinence, prolapse, sexual function concerns. Cultural and modesty sensitive. External and internal assessment options. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/conditions/pelvic-floor-physiotherapy-dubai/" />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <meta property="og:title" content="Pelvic Floor Physiotherapy in Dubai — Female Specialists | Vedara Care JVC" />

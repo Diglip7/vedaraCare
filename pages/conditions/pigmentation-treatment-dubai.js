@@ -329,7 +329,6 @@ const PigmentationTreatmentDubai = () => {
         <meta name="bingbot" content="index, follow" />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/conditions/pigmentation-treatment-dubai/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Pigmentation Treatment in JVC Dubai — All Types of Pigmentation Care | Vedara" />
         <meta property="og:description" content="Patient-guided pigmentation hub at our Jumeirah Village Circle clinic, Dubai. Identify your specific pigmentation type from melasma to post-inflammatory hyperpigmentation to age spots to body pigmentation to vitiligo. DHA-licensed consultant dermatologists. Expertise across all Fitzpatrick skin types." />

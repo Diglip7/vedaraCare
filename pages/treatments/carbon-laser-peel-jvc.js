@@ -1,4 +1,4 @@
-ï»¿import Head from 'next/head';
+import Head from 'next/head';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import ContentWithSidebar from '../../components/ayurveda/ContentWithSidebar';
@@ -40,7 +40,7 @@ const CarbonLaserPeelTreatment = () => {
       "@id": "https://vedaracare.ae/carbon-laser-peel-jvc",
       "url": "https://vedaracare.ae/carbon-laser-peel-jvc",
       "name": "Carbon Laser Peel in JVC: Treatment, Benefits, Results & Cost",
-      "description": "Carbon Laser Peel in JVC at Vedara Care Polyclinic â€” a low-downtime treatment for oily skin, congestion and dull texture. Book a skin assessment.",
+      "description": "Carbon Laser Peel in JVC at Vedara Care Polyclinic — a low-downtime treatment for oily skin, congestion and dull texture. Book a skin assessment.",
       "inLanguage": "en",
       "isPartOf": {
         "@type": "WebSite",
@@ -128,7 +128,7 @@ const CarbonLaserPeelTreatment = () => {
     {
       "@context": "https://schema.org",
       "@type": "MedicalScholarlyArticle",
-      "headline": "Carbon Laser Peel in JVC Dubai â€” Treatment, Benefits, Results & Cost Guide",
+      "headline": "Carbon Laser Peel in JVC Dubai — Treatment, Benefits, Results & Cost Guide",
       "image": "https://vedaracare.ae/images/carbon-laser-peel-consultation-jvc.jpg",
       "datePublished": publishedDate,
       "dateModified": modifiedDate,
@@ -158,20 +158,19 @@ const CarbonLaserPeelTreatment = () => {
     <>
       <Head>
         <title>Carbon Laser Peel in JVC | Treatment &amp; Results | Vedara Care</title>
-        <meta name="description" content="Carbon Laser Peel in JVC at Vedara Care Polyclinic â€” a low-downtime treatment for oily skin, congestion and dull texture. Book a skin assessment." />
+        <meta name="description" content="Carbon Laser Peel in JVC at Vedara Care Polyclinic — a low-downtime treatment for oily skin, congestion and dull texture. Book a skin assessment." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/carbon-laser-peel-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Carbon Laser Peel in JVC | Treatment & Results | Vedara Care" />
-        <meta property="og:description" content="Carbon Laser Peel in JVC at Vedara Care Polyclinic â€” a low-downtime treatment for oily skin, congestion and dull texture. DHA-licensed dermatology team. Individual skin assessment before treatment. Book a consultation." />
+        <meta property="og:description" content="Carbon Laser Peel in JVC at Vedara Care Polyclinic — a low-downtime treatment for oily skin, congestion and dull texture. DHA-licensed dermatology team. Individual skin assessment before treatment. Book a consultation." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/carbon-laser-peel-jvc-dubai.jpg" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Carbon Laser Peel in JVC | Treatment & Results | Vedara Care" />
-        <meta name="twitter:description" content="Carbon Laser Peel in JVC at Vedara Care Polyclinic â€” low-downtime treatment for oily skin, congestion and dull texture. DHA-licensed dermatology team." />
+        <meta name="twitter:description" content="Carbon Laser Peel in JVC at Vedara Care Polyclinic — low-downtime treatment for oily skin, congestion and dull texture. DHA-licensed dermatology team." />
         <meta name="twitter:image" content="https://vedaracare.ae/og-images/carbon-laser-peel-jvc-dubai.jpg" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow, max-image-preview:large" />

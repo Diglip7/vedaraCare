@@ -444,7 +444,6 @@ const AyurvedaMigraine = () => {
         <meta name="description" content="DHA-licensed Ayurvedic migraine treatment at our JVC clinic, Dubai. Subtype-specific 6-month programmes for episodic, chronic, menstrual, and vestibular migraine. Coordinated with your neurologist." />
         <link rel="canonical" href="https://vedaracare.ae/conditions/migraine-ayurveda-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/migraine-ayurveda-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/conditions/migraine-ayurveda-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/migraine-ayurveda-dubai/" />
         
         <meta property="og:title" content="Ayurveda for Migraine in Dubai — Integrated Treatment at Our JVC Clinic" />

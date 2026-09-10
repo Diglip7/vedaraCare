@@ -5,6 +5,7 @@ const TreatmentLocation = ({
   bgColor = "bg-[#FAF8F5]",
   label = "VISIT OUR JVC CLINIC",
   title = "Walking distance from Circle Mall, Jumeirah Village Circle.",
+  description,
   address = "Jumeirah Village Circle (JVC), Dubai, UAE",
   phone = "+971 55 573 6312",
   hours = "MON-SUN<br/>9:00 AM - 10:00 PM<br/>",
@@ -68,6 +69,11 @@ const TreatmentLocation = ({
               <h2 className="text-[32px] md:text-[38px] font-serif font-medium text-[#1A1A1A] leading-tight">
                 {title}
               </h2>
+              {description && (
+                <p className="text-[16px] font-sans text-gray-600 leading-relaxed pt-2">
+                  {description}
+                </p>
+              )}
             </div>
 
             {/* Address, Phone, Hours */}

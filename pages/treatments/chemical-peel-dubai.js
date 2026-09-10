@@ -223,7 +223,6 @@ const ChemicalPeelTreatment = () => {
         <meta name="description" content="Specialist chemical peel treatment at our JVC clinic, Dubai. DHA-licensed consultant dermatologists. Full range of peel formulations. Skin-type-safe expertise particularly for Fitzpatrick IV-VI. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/chemical-peel-dubai/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Chemical Peel in JVC Dubai — Skin-Type-Safe Medical Peels | Vedara Care" />
         <meta property="og:description" content="Specialist chemical peel treatment at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists delivering evidence-based standardised peel protocols across full range of formulations. Particular expertise for Fitzpatrick IV-VI skin types where wrong peel selection can produce hyperpigmentation worse than the original concern." />

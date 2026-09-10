@@ -210,7 +210,6 @@ const AyurvedaArthritis = () => {
         <meta name="description" content="DHA-licensed Ayurvedic arthritis treatment at our JVC clinic, Dubai — type-specific programmes for osteoarthritis, RA, gout, frozen shoulder, spondylosis. Integrated with rheumatology." />
         <link rel="canonical" href="https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/conditions/arthritis-ayurveda-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/" />
         
         <meta property="og:title" content="Ayurveda for Arthritis in Dubai — Type-Specific Treatment at Our JVC Clinic" />

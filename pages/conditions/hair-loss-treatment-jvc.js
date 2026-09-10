@@ -426,7 +426,6 @@ const HairLossTreatmentJvc = () => {
         <meta name="description" content="Specialist hair loss treatment in JVC, Dubai. DHA-licensed consultant dermatologists. Male and female pattern hair loss, postnatal hair loss, alopecia areata. Comprehensive workup, PRP, mesotherapy, medical treatment. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/conditions/hair-loss-treatment-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Hair Loss Treatment in JVC — Specialist Dermatology | Vedara Care Dubai" />
         <meta property="og:description" content="Specialist hair loss treatment at our Jumeirah Village Circle clinic. DHA-licensed consultant dermatologists treating male and female pattern hair loss, postnatal hair loss, alopecia areata, telogen effluvium. Comprehensive workup including hormonal and nutritional evaluation. Evidence-based treatment with PRP, mesotherapy, topical and oral medications, hair transplant coordination." />

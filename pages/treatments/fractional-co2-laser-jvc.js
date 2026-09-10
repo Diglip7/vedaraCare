@@ -128,7 +128,6 @@ const FractionalCO2Laser = () => {
         <meta name="description" content="Fractional CO2 laser in JVC at Vedara Care Polyclinic. Dermatology-led skin resurfacing for acne scars, texture and fine lines. Book a consultation to learn more." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/fractional-co2-laser-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Fractional CO2 Laser in JVC | Vedara Care Dubai" />
         <meta property="og:description" content="Fractional CO2 laser in JVC at Vedara Care Polyclinic. Dermatology-led skin resurfacing for acne scars, texture and fine lines. Book a consultation." />

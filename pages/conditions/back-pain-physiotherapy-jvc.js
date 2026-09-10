@@ -50,7 +50,6 @@ const BackPainPhysioJvc = () => {
 
         <link rel="canonical" href="https://vedaracare.ae/conditions/back-pain-physiotherapy-jvc/" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/back-pain-physiotherapy-jvc/" hrefLang="en-AE" />
-        <link rel="alternate" href="https://vedaracare.ae/ar/conditions/back-pain-physiotherapy-jvc/" hrefLang="ar-AE" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/back-pain-physiotherapy-jvc/" hrefLang="x-default" />
       </Head>
 

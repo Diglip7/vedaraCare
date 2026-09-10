@@ -225,7 +225,6 @@ const DrNeethuPage = () => {
 
         <link rel="canonical" href="https://vedaracare.ae/doctors/dr-neethu-ayurveda/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/doctors/dr-neethu-ayurveda/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/doctors/dr-neethu-ayurveda/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/doctors/dr-neethu-ayurveda/" />
 
         {schemaMarkup.map((schema, index) => (

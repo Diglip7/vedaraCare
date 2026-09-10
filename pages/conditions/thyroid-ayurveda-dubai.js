@@ -232,7 +232,6 @@ const AyurvedaThyroid = () => {
         />
         <link
           rel="alternate"
-          hreflang="ar-AE"
           href="https://vedaracare.ae/ar/conditions/thyroid-ayurveda-dubai/"
         />
         <link

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 
 export const SciaticaTypes = ({
@@ -325,8 +325,13 @@ export const SciaticaPricing = ({
   );
 };
 
-export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentStyle = 'tags', bgColor = 'bg-white', showStepNumbers = false, showComparison = false, colRatio = 'lg:grid-cols-[55%_45%]' }) => {
+export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentStyle = 'tags', bgColor = 'bg-white', showStepNumbers = false, showComparison = false, colRatio = 'lg:grid-cols-[55%_45%]', showscetion = false }) => {
+  const [openAccordionIndex, setOpenAccordionIndex] = useState(null);
   const { treatment = {}, rightContent = {} } = data || {};
+
+  const toggleAccordion = (index) => {
+    setOpenAccordionIndex(openAccordionIndex === index ? null : index);
+  };
 
   return (
     <section className={`${bgColor} py-16 md:py-24 px-4 md:px-6 lg:px-12`}>
@@ -345,42 +350,75 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
         )}
         <div className={`grid grid-cols-1 ${colRatio} gap-8 lg:gap-12 items-start`}>
           <div className="space-y-6 md:space-y-8">
-            {(treatment.steps || []).map((step, index) => {
-              const displayNumber = step.number || (index + 1 < 10 ? `0${index + 1}` : `${index + 1}`);
-              const hasTitle = step.title && step.title.trim() !== '';
-              return (
-                <div key={index} className={`space-y-3 ${showBorderLeft ? 'border-l-4 border-[#C9A84C] pl-6' : ''}`}>
-                  {showStepNumbers ? (
-                    <>
-                      {hasTitle && (
-                        <div className="flex items-start gap-3">
-                          <div className="w-7 h-7 rounded-full bg-white border-2 border-[#C9A84C] flex items-center justify-center text-xs font-serif flex-shrink-0" style={{ color: '#C9A84C', fontFamily: 'Fraunces, Georgia, serif' }}>
-                            {displayNumber}
+            {showscetion ? (
+              <div className="flex flex-col gap-6">
+                {(treatment.steps || []).map((step, index) => {
+                  if (!step.title || step.title.trim() === '') {
+                    return (
+                      <p key={index} className="text-[15px]" style={{ color: 'rgb(31, 31, 31)', lineHeight: '1.8' }} dangerouslySetInnerHTML={{ __html: step.description }} />
+                    );
+                  }
+                  return (
+                    <div key={index} style={{ borderBottom: "1px solid rgba(0, 0, 0, 0.08)" }}>
+                      <button onClick={() => toggleAccordion(index)} className="w-full flex items-center justify-between gap-4 py-4 text-left focus:outline-none">
+                        <span className="text-[14px] font-medium" style={{ color: "rgb(31, 31, 31)" }}>{step.title}</span>
+                        <span className="flex-shrink-0 text-[#C8A87F]">
+                          {openAccordionIndex === index ? (
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M5 10h10" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                            </svg>
+                          ) : (
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M5 10h10M10 5v10" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                            </svg>
+                          )}
+                        </span>
+                      </button>
+                      <div className={`overflow-hidden transition-all duration-300 ${openAccordionIndex === index ? 'max-h-[800px] opacity-100' : 'max-h-0 opacity-0'}`}>
+                        <p className="text-[14px] leading-[1.75] pb-4" style={{ color: "rgb(85, 85, 85)" }} dangerouslySetInnerHTML={{ __html: step.description }} />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              (treatment.steps || []).map((step, index) => {
+                const displayNumber = step.number || (index + 1 < 10 ? `0${index + 1}` : `${index + 1}`);
+                const hasTitle = step.title && step.title.trim() !== '';
+                return (
+                  <div key={index} className={`space-y-3 ${showBorderLeft ? 'border-l-4 border-[#C9A84C] pl-6' : ''}`}>
+                    {showStepNumbers ? (
+                      <>
+                        {hasTitle && (
+                          <div className="flex items-start gap-3">
+                            <div className="w-7 h-7 rounded-full bg-white border-2 border-[#C9A84C] flex items-center justify-center text-xs font-serif flex-shrink-0" style={{ color: '#C9A84C', fontFamily: 'Fraunces, Georgia, serif' }}>
+                              {displayNumber}
+                            </div>
+                            <h3 className="text-lg font-serif" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)', fontSize: '19px', fontWeight: 600 }} dangerouslySetInnerHTML={{ __html: step.title }}>
+                            </h3>
                           </div>
+                        )}
+                        {step.description && (
+                          <p className={hasTitle ? "text-base ml-10" : "text-base"} style={{ color: 'rgb(107,107,107)', lineHeight: '1.8', fontSize: '15px' }} dangerouslySetInnerHTML={{ __html: step.description }}>
+                          </p>
+                        )}
+                      </>
+                    ) : (
+                      <>
+                        {hasTitle && (
                           <h3 className="text-lg font-serif" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)', fontSize: '19px', fontWeight: 600 }} dangerouslySetInnerHTML={{ __html: step.title }}>
                           </h3>
-                        </div>
-                      )}
-                      {step.description && (
-                        <p className={hasTitle ? "text-base ml-10" : "text-base"} style={{ color: 'rgb(107,107,107)', lineHeight: '1.8', fontSize: '15px' }} dangerouslySetInnerHTML={{ __html: step.description }}>
-                        </p>
-                      )}
-                    </>
-                  ) : (
-                    <>
-                      {hasTitle && (
-                        <h3 className="text-lg font-serif" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)', fontSize: '19px', fontWeight: 600 }} dangerouslySetInnerHTML={{ __html: step.title }}>
-                        </h3>
-                      )}
-                      {step.description && (
-                        <p className="text-base" style={{ color: 'rgb(107,107,107)', lineHeight: '1.8', fontSize: '15px' }} dangerouslySetInnerHTML={{ __html: step.description }}>
-                        </p>
-                      )}
-                    </>
-                  )}
-                </div>
-              );
-            })}
+                        )}
+                        {step.description && (
+                          <p className="text-base" style={{ color: 'rgb(107,107,107)', lineHeight: '1.8', fontSize: '15px' }} dangerouslySetInnerHTML={{ __html: step.description }}>
+                          </p>
+                        )}
+                      </>
+                    )}
+                  </div>
+                );
+              })
+            )}
             {treatment.whatWeRecommendAgainst && (
               <div className="mt-10 p-8 rounded-xl" style={{ backgroundColor: 'rgb(255, 248, 248)', border: '1px solid rgba(212, 24, 61, 0.1)' }}>
                 <h3 className="mb-6 text-base font-semibold" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26, 26, 26)' }}>
@@ -409,7 +447,7 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
           <div className="md:sticky md:top-6 lg:top-8 space-y-5 md:space-y-6 w-full max-w-md mx-auto md:max-w-none">
             {rightContent.image && (
               <div className="rounded-md overflow-hidden">
-                <img src={rightContent.image} alt={rightContent.alt || ''} className="w-full h-auto object-contain" />
+                <img src={rightContent.image} alt={rightContent.alt || ''} className={rightContent.imageClassName || "w-full h-auto object-contain"} />
               </div>
             )}
             {showComparison && (
@@ -519,7 +557,7 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
                     {rightContent.label}
                   </div>
                 )}
-                <p style={{ fontSize: '15px', color: '#1C1C14', fontFamily: 'Inter, system-ui, sans-serif', lineHeight: '1.7' }}>{rightContent.text || rightContent.description}</p>
+                <div style={{ fontSize: '15px', color: '#1C1C14', fontFamily: 'Inter, system-ui, sans-serif', lineHeight: '1.7' }}>{rightContent.text || rightContent.description}</div>
               </div>
             )}
             {rightContentStyle === 'bulletList' && rightContent.items && rightContent.items.length > 0 && (

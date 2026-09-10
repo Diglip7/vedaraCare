@@ -157,7 +157,6 @@ export default function DrAnushaMakkenaPage() {
 
         <link rel="canonical" href="https://vedaracare.ae/doctors/dr-anusha-makkena/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/doctors/dr-anusha-makkena/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/doctors/dr-anusha-makkena/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/doctors/dr-anusha-makkena/" />
 
         {schemaMarkup.map((schema, index) => (

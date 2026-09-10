@@ -21,7 +21,7 @@ export const physiotherapyJvcHero = {
     title: "INTEGRATED WITH AYURVEDA — WHEN APPROPRIATE.",
     subtitle: "Standalone physiotherapy for most patients. Integrated Ayurveda + physiotherapy programmes for chronic conditions where combined care produces stronger outcomes."
   },
-  image: "/images/physiotherapy-jvc-hero.webp",
+  image: "/images/physiotherapy-jvc-hero .webp",
   alt: "Physiotherapist providing manual therapy at Vedara Care JVC clinic Dubai"
 };
 

@@ -170,16 +170,21 @@ const ContentOnlySection = ({
                   />
                 )}
                 {section.description && (
-                  <p className="text-base" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
-                    {section.description}
-                  </p>
+                  <p 
+                    className="text-base" 
+                    style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}
+                    dangerouslySetInnerHTML={{ __html: section.description }}
+                  />
                 )}
                 {section.items && section.items.length > 0 && (
                   <div className="mt-4 space-y-2">
                     {section.items.map((item, idx) => (
-                      <p key={idx} className="text-base" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
-                        {item.text}
-                      </p>
+                      <p 
+                        key={idx} 
+                        className="text-base" 
+                        style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}
+                        dangerouslySetInnerHTML={{ __html: item.text }}
+                      />
                     ))}
                   </div>
                 )}
@@ -401,9 +406,11 @@ const PRPCombinationSection = ({
                   </h3>
                 )}
                 {section.description && (
-                  <p className="text-base" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
-                    {section.description}
-                  </p>
+                  <p 
+                    className="text-base" 
+                    style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}
+                    dangerouslySetInnerHTML={{ __html: section.description }}
+                  />
                 )}
               </div>
             ))}

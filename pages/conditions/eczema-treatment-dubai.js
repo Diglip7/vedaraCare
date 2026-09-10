@@ -367,7 +367,6 @@ const EczemaTreatmentDubai = () => {
         <meta name="bingbot" content="index, follow" />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/conditions/eczema-treatment-dubai/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Eczema Treatment in JVC Dubai — Pediatric & Adult Specialist Care | Vedara" />
         <meta property="og:description" content="Specialist eczema treatment at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists treating pediatric atopic dermatitis, adult eczema, contact dermatitis, hand eczema, and severe eczema across all Fitzpatrick skin types. Access to biologic treatments including dupilumab." />

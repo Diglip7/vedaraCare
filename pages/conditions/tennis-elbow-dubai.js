@@ -361,7 +361,6 @@ const TennisElbowDubai = () => {
         <meta name="description" content="Specialist tennis elbow treatment at our JVC clinic, Dubai. Evidence-based eccentric loading protocols, shockwave therapy for chronic cases. Padel and office worker expertise. Most tennis elbow resolves without cortisone injection. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/conditions/tennis-elbow-dubai/" />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <meta property="og:title" content="Tennis Elbow Treatment in Dubai — Evidence-Based Specialist Care | Vedara JVC" />

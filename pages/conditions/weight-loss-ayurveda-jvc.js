@@ -146,7 +146,6 @@ const WeightLossAyurvedaJvc = () => {
         <meta name="description" content="Sustainable Ayurvedic weight management at our JVC clinic Dubai. Female DHA-licensed doctor. Panchakarma, Udvartana, constitutional approach. Multi-language. No crash diets." />
         <link rel="canonical" href="https://vedaracare.ae/conditions/weight-loss-ayurveda-jvc/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/weight-loss-ayurveda-jvc/" />
-        <link rel="alternate" hreflang="ar-AE" href="https://vedaracare.ae/ar/conditions/weight-loss-ayurveda-jvc/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/weight-loss-ayurveda-jvc/" />
 
         <meta property="og:title" content="Sustainable Weight Management Through Ayurveda at Our JVC Clinic Dubai | Vedara Care" />
