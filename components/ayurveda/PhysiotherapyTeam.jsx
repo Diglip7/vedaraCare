@@ -47,8 +47,8 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
                       </span>
                     ))}
                   </div>
-                  <p 
-                    className="text-sm text-[#6B7280]" 
+                  <p
+                    className="text-sm text-[#6B7280]"
                     style={{ lineHeight: '1.6' }}
                     dangerouslySetInnerHTML={{ __html: member.experience || member.description }}
                   />

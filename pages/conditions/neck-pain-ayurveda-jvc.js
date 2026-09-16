@@ -482,7 +482,7 @@ const NeckPainAyurvedaJvc = () => {
               alt: "Sleep posture neck pain Ayurveda Vedara Care"
             }
           ]}
-          footer="<a href='/book'>Comprehensive consultation identifies your specific neck pain pattern and appropriate approach →"
+          footer="<a href='/book'>Comprehensive consultation identifies your specific neck pain pattern and appropriate approach →</a>"
         />
 
         {/* Section 6: ContentWithSidebar — Treatment Components */}

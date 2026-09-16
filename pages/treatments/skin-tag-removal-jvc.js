@@ -164,7 +164,7 @@ const SkinTagRemovalJVC = () => {
           image: skinTagWhatIs.image,
           altText: skinTagWhatIs.alt,
           width: "w-full",
-          height: "h-[550px]",
+          height: "h-[400px]",
           borderPosition: "right"
         }}
         footer={skinTagWhatIs.caption}

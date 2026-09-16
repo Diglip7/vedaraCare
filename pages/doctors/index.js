@@ -89,15 +89,15 @@ const practitioners = [
     slug: 'arfah-owais',
     url: '/doctors/arfah-owais'
   },
-  {
-    name: 'Dr. Anusha Makkena',
-    specialty: 'MBBS, MS ENT',
-    focus: 'ENT Disorders, Head and Neck Surgery',
-    image: '/images/dr-anusha-makkena-ent-jvc-dubai.webp',
-    alt: 'Dr. Anusha Makkena, MBBS, MS ENT-qualified DHA-licensed ENT specialist at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'dr-anusha-makkena',
-    url: '/doctors/dr-anusha-makkena'
-  },
+  // {
+  //   name: 'Dr. Anusha Makkena',
+  //   specialty: 'MBBS, MS ENT',
+  //   focus: 'ENT Disorders, Head and Neck Surgery',
+  //   image: '/images/dr-anusha-makkena-ent-jvc-dubai.webp',
+  //   alt: 'Dr. Anusha Makkena, MBBS, MS ENT-qualified DHA-licensed ENT specialist at Vedara Care Polyclinic, JVC Dubai',
+  //   slug: 'dr-anusha-makkena',
+  //   url: '/doctors/dr-anusha-makkena'
+  // },
 
 ];
 
