@@ -1,6 +1,5 @@
 import Header from './Header';
 import Footer from './Footer';
-import OpeningSoonPopup from './OpeningSoonPopup';
 import { useRouter } from 'next/router';
 
 const Layout = ({ children }) => {
@@ -26,7 +25,6 @@ const Layout = ({ children }) => {
       <Footer />
 
       {/* Global Opening Soon Popup (triggers 3s after visiting any page) */}
-      <OpeningSoonPopup />
 
       {/* Floating WhatsApp Button */}
       <a

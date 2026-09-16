@@ -171,22 +171,24 @@ export const homeExperts = {
       link: '/doctors/hafsina-kk-physiotherapist'
     },
     {
-      name: "Dr. Ahmed Al-Mansoori",
-      qualification: "DPT, MSc",
-      role: "Physiotherapist",
-      experience: "12+ years experience",
-      languages: "English, Arabic, Urdu",
-      image: "",
-      link: "/doctors"
+      name: "Dr. Ansiya",
+      qualification: "Ayurveda Practitioner · BAMS",
+      role: "Ayurveda Practitioner",
+      experience: "PCOS, Nadi Pareeksha",
+      languages: "English, Malayalam, Hindi",
+      image: "/images/dr-ansiya-ayurveda-jvc.webp",
+      alt: "Dr. Ansiya, Ayurvedic Doctor at Vedara Care Polyclinic, JVC Dubai",
+      link: "/doctors/dr-ansiya-ayurveda"
     },
     {
-      name: "Dr. Sarah Khan",
-      qualification: "MBBS, MD (Dermatology)",
-      role: "Dermatologist",
-      experience: "10+ years experience",
-      languages: "English, Arabic, Hindi",
-      image: "",
-      link: "/doctors"
+      name: "Johanna Dianne U. Bautista",
+      qualification: "Front Desk",
+      role: "Front Desk Receptionist",
+      experience: "Patient Coordination",
+      languages: "English",
+      image: "/images/johanna-bautista.jpeg",
+      alt: "Johanna Dianne U. Bautista, Front Desk Receptionist at Vedara Care, JVC",
+      link: "/doctors/johanna-bautista"
     }
   ]
 };
