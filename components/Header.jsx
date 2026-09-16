@@ -32,6 +32,7 @@ const AYURVEDA_TREATMENTS = [
   { href: '/treatments/janu-basti-jvc', label: 'Janu Basti in JVC' },
   { href: '/treatments/kativasti-dubai', label: 'Kativasti' },
   { href: '/treatments/nasya-therapy-jvc', label: 'Nasya Therapy in JVC' },
+  { href: '/treatments/nadi-pareeksha-jvc/', label: 'Nadi Pareeksha in JVC' },
   { href: '/treatments/njavarakizhi-dubai', label: 'Njavarakizhi' },
   { href: '/treatments/nasya-basti-udvartana-jvc', label: 'Nasya, Basti & Udvartana' },
   { href: '/treatments/panchakarma-dubai', label: 'Panchakarma' },
