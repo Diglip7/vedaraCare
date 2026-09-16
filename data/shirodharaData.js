@@ -363,7 +363,7 @@ export const shirodharaFinalCTA = {
 };
 
 export const shirodharaRelatedPages = {
-  bgColor: "bg-[#FAF7F2]",
+  bgColor: "bg-white",
   label: "EXPLORE FURTHER",
   title: "Related pages.",
   linkText: "Browse all Ayurvedic treatments",

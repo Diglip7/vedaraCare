@@ -26,7 +26,7 @@ export const oxygenFacialHero = {
     title: "Skin Hydration",
     subtitle: "Combines skin cleansing, hydration-focused products, and a gentle cosmetic oxygen step for general radiance."
   },
-  image: "/images/oxygen-facial-consultation-vedara-care-jvc.jpg",
+  image: "/images/oxygen-facial-consultation-vedara-care-jvc.webp",
   alt: "Oxygen Facial consultation at Vedara Care Polyclinic in JVC"
 };
 
@@ -59,7 +59,7 @@ export const oxygenFacialExplanation = {
     "Some protocols use a device designed to deliver a fine mist or spray toward the skin's surface, sometimes alongside a hydrating serum. Others build the \"oxygen\" element around the broader treatment environment rather than a single dramatic step.",
     "Because there is no single industry-standard version of this treatment, it is reasonable — and encouraged — to ask any clinic exactly what equipment and products they use before booking. We would rather explain this clearly than let the name imply more precision than the treatment category actually has."
   ],
-  image: "/images/oxygen-related-facial-treatment-procedure.jpg",
+  image: "/images/oxygen-related-facial-treatment-procedure.webp",
   alt: "Oxygen-related facial treatment step being performed",
   caption: "The oxygen-related step varies depending on the equipment used."
 };
@@ -212,7 +212,7 @@ export const oxygenFacialAppointment = {
     "Step 6 — Hydrating or finishing skincare: A moisturiser or protective finishing product is typically applied to complete the session.",
     "Step 7 — Post-treatment advice: You'll be given guidance appropriate to how your skin responded and the protocol used."
   ],
-  image: "/images/professional-facial-skin-assessment-jvc.jpg",
+  image: "/images/professional-facial-skin-assessment-jvc.webp",
   alt: "Professional facial skin assessment in JVC"
 };
 
@@ -220,7 +220,7 @@ export const oxygenFacialSensation = {
   title: "What Does an Oxygen Facial Feel Like?",
   description: "Most patients describe the treatment as relaxing and low-sensation. Depending on the equipment and protocol, you might notice coolness, gentle pressure, a light airflow sensation, mild tingling, or slight warmth at different points.",
   notes: "Sensations vary by device and by individual — we wouldn't claim every patient experiences the treatment as completely sensation-free.",
-  image: "/images/patient-receiving-oxygen-facial-dubai.jpg",
+  image: "/images/patient-receiving-oxygen-facial-dubai.webp",
   alt: "Patient receiving an Oxygen Facial treatment"
 };
 

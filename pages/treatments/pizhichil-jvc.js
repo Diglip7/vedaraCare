@@ -229,7 +229,7 @@ const PizhichilJVC = () => {
           image: pizhichilUsedDuring.image,
           altText: pizhichilUsedDuring.alt,
           width: "w-full",
-          height: "h-[450px]",
+          height: "h-[320px]",
           borderPosition: "right"
         }}
         footer={pizhichilUsedDuring.caption}
@@ -265,7 +265,7 @@ const PizhichilJVC = () => {
           image: pizhichilFeelLike.image,
           altText: pizhichilFeelLike.alt,
           width: "w-full",
-          height: "h-[450px]",
+          height: "h-[400px]",
           borderPosition: "left"
         }}
         footer={pizhichilFeelLike.caption}
@@ -285,7 +285,7 @@ const PizhichilJVC = () => {
           image: pizhichilHowPerformed.image,
           altText: pizhichilHowPerformed.alt,
           width: "w-full",
-          height: "h-[500px]",
+          height: "h-[420px]",
           borderPosition: "right"
         }}
         footer={pizhichilHowPerformed.caption}
@@ -529,7 +529,7 @@ const PizhichilJVC = () => {
               image: pizhichilPracticalGuidance.aftercare.image,
               altText: pizhichilPracticalGuidance.aftercare.alt,
               width: "w-full",
-              height: "h-[400px]",
+              height: "h-[300px]",
               borderPosition: "left"
             }}
             footer={pizhichilPracticalGuidance.aftercare.caption}

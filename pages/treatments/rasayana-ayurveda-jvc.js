@@ -39,7 +39,7 @@ const RasayanaAyurvedaJvc = () => {
       "alternateName": ["Vedara Rasayana JVC", "Classical Ayurvedic Rejuvenation JVC Dubai", "Vedara Rasayana Tantra Care"],
       "url": "https://vedaracare.ae/treatments/rasayana-ayurveda-jvc/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Authentic classical Rasayana Ayurvedic rejuvenation at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Rasayana Tantra — one of eight branches of classical Ashtanga Ayurveda. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu with Ayurvedic Rejuvenation explicitly documented in her expertise areas. Comprehensive classical Rasayana approach through Vatatapika Rasayana programme design, Medhya Rasayana cognitive rejuvenation, Aachara Rasayana behavioural framework, Chyawanprash and classical Rasayana herbal preparations, Panchakarma preparation coordination when appropriate, sustained wellness practice partnership. Coordinated with modern medical care.",
+      "description": "Authentic classical Rasayana Ayurvedic rejuvenation at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Rasayana Tantra — one of eight branches of classical Ashtanga Ayurveda. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya with Ayurvedic Rejuvenation explicitly documented in her expertise areas. Comprehensive classical Rasayana approach through Vatatapika Rasayana programme design, Medhya Rasayana cognitive rejuvenation, Aachara Rasayana behavioural framework, Chyawanprash and classical Rasayana herbal preparations, Panchakarma preparation coordination when appropriate, sustained wellness practice partnership. Coordinated with modern medical care.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 45,000",
       "address": { "@type": "PostalAddress", "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4", "addressLocality": "Jumeirah Village Circle", "addressRegion": "Dubai", "addressCountry": "AE", "postalCode": "" },
@@ -90,7 +90,7 @@ const RasayanaAyurvedaJvc = () => {
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "800", "bestRating": "5", "worstRating": "1" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-09-07"
     },
     [
@@ -193,7 +193,7 @@ const RasayanaAyurvedaJvc = () => {
         { "@type": "Question", "name": "Is Rasayana appropriate for women during perimenopause?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — perimenopausal and post-menopausal women's Rasayana approach available with Shatavari emphasis (classical women's Rasayana herb) combined with constitutional-matched preparations, comprehensive Aachara Rasayana framework, coordination with women's health approach. Effective classical approach for sustained wellness through perimenopausal transition and beyond." } },
         { "@type": "Question", "name": "Can Rasayana help with chronic fatigue and burnout?", "acceptedAnswer": { "@type": "Answer", "text": "Constitutional restoration through Rasayana for chronic fatigue and burnout particularly prevalent in Dubai's high-performing professional demographic. Vata-Pitta constitutional patterns typical. Naimittika Rasayana approach with Ashwagandha emphasis for Vata-pacifying vitality, Chyawanprash foundation, comprehensive Aachara Rasayana framework. Sustained partnership approach." } },
         { "@type": "Question", "name": "Where in Dubai is your clinic?", "acceptedAnswer": { "@type": "Answer", "text": "DHA-licensed clinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Accessible from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif." } },
-        { "@type": "Question", "name": "Do you have female Ayurvedic doctor for Rasayana?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Neethu is female DHA-licensed BAMS-qualified Ayurvedic doctor with Ayurvedic Rejuvenation explicitly documented in her expertise areas. Female practitioner important for cultural preferences." } },
+        { "@type": "Question", "name": "Do you have female Ayurvedic doctor for Rasayana?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with Ayurvedic Rejuvenation explicitly documented in her expertise areas. Female practitioner important for cultural preferences." } },
         { "@type": "Question", "name": "Is Rasayana suitable for elderly patients?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Rasayana with careful sustained approach appropriate for elderly patients. Comprehensive medication and comorbidity review essential, gentler initial protocols, careful herbal prescription with coordination of prescribing doctors, sustained gentle partnership approach. Older patients frequently benefit substantially from sustained Rasayana practice framework." } },
         { "@type": "Question", "name": "Can Rasayana replace modern medications?", "acceptedAnswer": { "@type": "Answer", "text": "No — Rasayana complements rather than replaces modern medical care. Rasayana provides sustained wellness practice framework supporting vitality and healthy ageing. Established medical conditions requiring modern medical management continue to require modern medical care. Coordination with treating doctors essential." } },
         { "@type": "Question", "name": "How long does a Rasayana programme take?", "acceptedAnswer": { "@type": "Answer", "text": "Rasayana is sustained wellness practice framework requiring sustained practice for sustained benefit. Initial comprehensive programme typically 3-6 months establishing sustained practice framework. Then sustained maintenance partnership indefinitely with periodic reassessment, seasonal adaptations, evolving programme. Long-term partnership approach — Rasayana as lifelong wellness framework." } },
@@ -201,7 +201,7 @@ const RasayanaAyurvedaJvc = () => {
         { "@type": "Question", "name": "Which languages do you speak?", "acceptedAnswer": { "@type": "Answer", "text": "Arabic, English, Hindi, Malayalam (particularly relevant for Kerala Ayurvedic Rasayana tradition), Urdu across our team." } },
         { "@type": "Question", "name": "Is Rasayana covered by insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Rasayana programmes are wellness-focused rather than condition treatment — typically not covered by insurance. May have insurance coverage for related medical conditions with appropriate documentation. Direct billing with seven major insurers for covered elements when applicable." } },
         { "@type": "Question", "name": "Can Rasayana support immunity?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — immunity building sustained Rasayana approach with Guduchi/Amrita emphasis for immunomodulatory Rasayana, Chyawanprash foundation, constitutional matching, comprehensive Aachara Rasayana framework, seasonal Ritucharya adaptations. Sustained approach appropriate for sustained immunity building." } },
-        { "@type": "Question", "name": "How do I book Rasayana consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying Rasayana consultation ideally with Dr. Neethu; call 9AM-9PM seven days a week; book online. Please bring: description of rejuvenation goals, current medications and medical conditions, any previous Ayurvedic experience, cultural preferences, insurance card if applicable, specific questions and goals." } }
+        { "@type": "Question", "name": "How do I book Rasayana consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying Rasayana consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: description of rejuvenation goals, current medications and medical conditions, any previous Ayurvedic experience, cultural preferences, insurance card if applicable, specific questions and goals." } }
       ]
     },
     {
@@ -217,7 +217,7 @@ const RasayanaAyurvedaJvc = () => {
         { "@type": "MedicalProcedure", "name": "Chyawanprash Prescription" }
       ],
       "mainContentOfPage": { "@type": "WebPageElement", "cssSelector": "main" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-09-07",
       "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
       "medicalAudience": "Patient",
@@ -226,9 +226,9 @@ const RasayanaAyurvedaJvc = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician",
-      "name": "Dr. Neethu",
-      "url": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/",
+      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
+      "name": "Dr. Ansiya",
+      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
       "medicalSpecialty": ["Ayurveda", "Ayurvedic Rejuvenation", "Rasayana", "Integrative Medicine"],
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
@@ -295,7 +295,7 @@ const RasayanaAyurvedaJvc = () => {
 
         {/* Open Graph Tags */}
         <meta property="og:title" content="Rasayana Ayurvedic Rejuvenation at Our JVC Clinic Dubai — Classical Rasayana Tantra Tradition | Vedara Care" />
-        <meta property="og:description" content="Authentic classical Rasayana Ayurvedic rejuvenation at Vedara Care JVC clinic, walking distance from Circle Mall. Rasayana Tantra — one of eight branches of classical Ayurveda. Female DHA-licensed BAMS Ayurvedic doctor Dr. Neethu with Ayurvedic Rejuvenation expertise. Chyawanprash foundation, Medhya Rasayana cognitive, Aachara Rasayana behavioural framework. Multi-language." />
+        <meta property="og:description" content="Authentic classical Rasayana Ayurvedic rejuvenation at Vedara Care JVC clinic, walking distance from Circle Mall. Rasayana Tantra — one of eight branches of classical Ayurveda. Female DHA-licensed BAMS Ayurvedic doctor Dr. Ansiya with Ayurvedic Rejuvenation expertise. Chyawanprash foundation, Medhya Rasayana cognitive, Aachara Rasayana behavioural framework. Multi-language." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/rasayana-ayurveda-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/treatments/rasayana-ayurveda-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -371,7 +371,7 @@ const RasayanaAyurvedaJvc = () => {
                   <div className="text-xs tracking-[0.1em] uppercase font-medium mb-1" style={{ color: "rgb(200, 168, 127)" }}>Phase 1 · Weeks 1–2</div>
                   <h3 className="font-display font-medium leading-[1.3]" style={{ fontSize: "20px", color: "rgb(31, 31, 31)" }}>Comprehensive Assessment and Foundation</h3>
                 </div>
-                <p className="text-sm leading-[1.7]" style={{ color: "rgb(85, 85, 85)" }}>90-minute initial consultation with Dr. Neethu identifying constitutional pattern, rejuvenation goals, digestive vitality, medications and comorbidities, cognitive and sleep patterns. Realistic Rasayana framing discussion — sustained wellness practice rather than transformation programme. Personalised Rasayana programme design. Foundation Aachara Rasayana practices initiated.</p>
+                <p className="text-sm leading-[1.7]" style={{ color: "rgb(85, 85, 85)" }}>90-minute initial consultation with Dr. Ansiya identifying constitutional pattern, rejuvenation goals, digestive vitality, medications and comorbidities, cognitive and sleep patterns. Realistic Rasayana framing discussion — sustained wellness practice rather than transformation programme. Personalised Rasayana programme design. Foundation Aachara Rasayana practices initiated.</p>
               </div>
               <div className="p-7 flex flex-col gap-4" style={{ background: "rgb(245, 240, 232)", borderRadius: "8px", borderTop: "4px solid rgb(200, 168, 127)" }}>
                 <div className="text-2xl" style={{ color: "rgb(200, 168, 127)" }}>◑</div>
@@ -438,20 +438,20 @@ const RasayanaAyurvedaJvc = () => {
             <div className="text-center mb-12">
               <div className="text-xs font-medium tracking-[0.14em] uppercase mb-3" style={{ color: "rgb(200, 168, 127)" }}>The Team</div>
               <h2 className="font-display font-medium mb-4" style={{ fontSize: "clamp(28px, 3.5vw, 44px)", color: "rgb(31, 31, 31)" }}>Ayurvedic doctors for Rasayana rejuvenation at our JVC clinic.</h2>
-              <p className="max-w-2xl mx-auto leading-[1.7]" style={{ color: "rgb(85, 85, 85)" }}>DHA-licensed BAMS-qualified Ayurvedic doctors. Female practitioner (Dr. Neethu) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Coordinated with modern medical care.</p>
+              <p className="max-w-2xl mx-auto leading-[1.7]" style={{ color: "rgb(85, 85, 85)" }}>DHA-licensed BAMS-qualified Ayurvedic doctors. Female practitioner (Dr. Ansiya) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Coordinated with modern medical care.</p>
             </div>
             <div className="fade-in grid lg:grid-cols-2 gap-8 visible">
               <div className="p-8 flex gap-6" style={{ background: "rgb(245, 240, 232)", borderRadius: "8px", border: "1px solid rgba(200, 168, 127, 0.2)" }}>
                 <div className="flex-shrink-0">
                   <div className="overflow-hidden" style={{ width: "88px", height: "88px", borderRadius: "50%", background: "rgb(232, 224, 212)" }}>
-                    <img alt="Dr. Neethu, DHA-Licensed Ayurvedic Doctor" className="w-full h-full object-cover" src="/images/dr-neetu-ayurveda-jvc.webp" loading="lazy" />
+                    <img alt="Dr. Ansiya, DHA-Licensed Ayurvedic Doctor" className="w-full h-full object-cover" src="/images/dr-ansiya-ayurveda-jvc.webp" loading="lazy" />
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="text-xs tracking-[0.1em] uppercase font-medium" style={{ color: "rgb(200, 168, 127)" }}>Lead Ayurvedic Doctor</div>
-                  <h3 className="font-display font-medium text-xl" style={{ color: "rgb(31, 31, 31)" }}>Dr. Neethu</h3>
+                  <h3 className="font-display font-medium text-xl" style={{ color: "rgb(31, 31, 31)" }}>Dr. Ansiya</h3>
                   <p className="text-sm leading-[1.65]" style={{ color: "rgb(85, 85, 85)" }}>DHA-Licensed BAMS-Qualified Ayurvedic Doctor with Ayurvedic Rejuvenation explicitly documented in her expertise areas. Female practitioner. Kerala Ayurvedic training with classical Rasayana tradition. Chyawanprash, Medhya Rasayana, and Aachara Rasayana framework expertise.</p>
-                  <a href="/doctors/dr-neethu-ayurveda/" className="text-sm font-medium mt-1" style={{ color: "rgb(200, 168, 127)" }}>View Dr. Neethu's full profile →</a>
+                  <a href="/doctors/dr-ansiya-ayurveda/" className="text-sm font-medium mt-1" style={{ color: "rgb(200, 168, 127)" }}>View Dr. Ansiya's full profile →</a>
                 </div>
               </div>
               <div className="grid grid-rows-3 gap-4">

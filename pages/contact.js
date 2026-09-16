@@ -73,6 +73,14 @@ export default function Contact() {
         })
       });
       const data = await response.json();
+      if (response.ok) {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'generate_lead',
+          form_name: 'contact_form',
+          page_path: window.location.pathname,
+        });
+      }
       setSubmissionResponse(data);
       setIsSubmitting(false);
       setIsSubmitted(true);

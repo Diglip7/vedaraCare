@@ -1,7 +1,7 @@
 export const postnataljvcHero = {
   label: "Postnatal Ayurvedic Care · DHA-Licensed · Authentic Traditional Sutika Paricharya · JVC Clinic + Home Delivery Across Dubai",
   title: "Postnatal Ayurvedic care in Dubai. Traditional Sutika Paricharya at our JVC clinic and home delivery across Dubai.",
-  description: "Authentic postnatal Ayurvedic care at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall — with home delivery across Dubai. Traditional Sutika Paricharya delivered by female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu. Integrated with physiotherapy for pelvic floor recovery.",
+  description: "Authentic postnatal Ayurvedic care at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall — with home delivery across Dubai. Traditional Sutika Paricharya delivered by female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya. Integrated with physiotherapy for pelvic floor recovery.",
   primaryCTA: "Book a Postnatal Consultation",
   secondaryCTA: "Chat on WhatsApp",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
@@ -28,8 +28,8 @@ export const postnataljvcHero = {
 export const postnataljvcIntro = {
   label: "THE QUICK ANSWER",
   title: "Postnatal Ayurvedic care at Vedara Care, in one paragraph.",
-  blockquote: "Postnatal Ayurvedic care at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic traditional Sutika Paricharya (40-42 day postnatal Ayurvedic protocol) delivered by female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu, with home delivery across Dubai. Traditional care components include: daily Ayurvedic Abhyanga oil massage, herbal medicated baths, steam therapy, belly binder wrapping, nourishing postnatal dietary protocols, internal herbal medicines, herbal galactagogues supporting lactation, breast care protocols, sitz baths for perineal healing, and emotional wellness support. Programme options from 21-day focused recovery to full 42-day traditional Sutika Paricharya, plus specialised C-section, older mother, and twin/multiple pregnancy programmes. Integrated with physiotherapy for pelvic floor recovery and home healthcare team for nursing support. Female practitioner throughout. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Home visits serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and every Dubai community.",
-  footer: "Medically reviewed by Dr. Neethu, BAMS, DHA-Licensed Ayurvedic Doctor · Updated August 2026"
+  blockquote: "Postnatal Ayurvedic care at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic traditional Sutika Paricharya (40-42 day postnatal Ayurvedic protocol) delivered by female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya, with home delivery across Dubai. Traditional care components include: daily Ayurvedic Abhyanga oil massage, herbal medicated baths, steam therapy, belly binder wrapping, nourishing postnatal dietary protocols, internal herbal medicines, herbal galactagogues supporting lactation, breast care protocols, sitz baths for perineal healing, and emotional wellness support. Programme options from 21-day focused recovery to full 42-day traditional Sutika Paricharya, plus specialised C-section, older mother, and twin/multiple pregnancy programmes. Integrated with physiotherapy for pelvic floor recovery and home healthcare team for nursing support. Female practitioner throughout. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Home visits serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and every Dubai community.",
+  footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Updated August 2026"
 };
 
 
@@ -63,7 +63,7 @@ export const postnataljvcMechanism1 = {
     label: "INTEGRATION WITH MODERN CARE",
     description: "Authentic Sutika Paricharya at DHA-licensed clinic integrates with modern postnatal medical care rather than replacing it. Modern medical postpartum check-ups continue. Medications and modern treatments are coordinated with Ayurvedic care.",
     image: "/images/ayurveda/postnatal-ayurveda-dubai-hero.jpg",
-    alt: "Traditional postnatal Ayurvedic care Dr Neethu Vedara Care JVC"
+    alt: "Traditional postnatal Ayurvedic care Dr Ansiya Vedara Care JVC"
   }
 };
 export const postnataljvcMechanism2 = {
@@ -371,7 +371,7 @@ export const postnataljvcPricing = {
 export const postnataljvcFaqs = {
   label: "Common Questions",
   title: "What new mothers ask about postnatal Ayurvedic care.",
-  description: "For related topics:</br><br/><a href=\"/doctors/dr-neethu-ayurveda\" class=\"text-[#C9A961] hover:underline\">Dr. Neethu's profile </a><br/><a href=\"/home-healthcare-jvc/\" class=\"text-[#C9A961] hover:underline\">Home Healthcare from JVC</a><br/><a href=\"/physiotherapy-jvc/\" class=\"text-[#C9A961] hover:underline\">Physiotherapy at JVC </a><br/><a href=\"/ayurveda-clinic-jvc/\" class=\"text-[#C9A961] hover:underline\">Ayurveda Clinic JVC  </a><br/>",
+  description: "For related topics:</br><br/><a href=\"/doctors/dr-ansiya-ayurveda\" class=\"text-[#C9A961] hover:underline\">Dr. Ansiya's profile </a><br/><a href=\"/home-healthcare-jvc/\" class=\"text-[#C9A961] hover:underline\">Home Healthcare from JVC</a><br/><a href=\"/physiotherapy-jvc/\" class=\"text-[#C9A961] hover:underline\">Physiotherapy at JVC </a><br/><a href=\"/ayurveda-clinic-jvc/\" class=\"text-[#C9A961] hover:underline\">Ayurveda Clinic JVC  </a><br/>",
   faqs: [
     {
       question: "What is Sutika Paricharya?",
@@ -387,7 +387,7 @@ export const postnataljvcFaqs = {
     },
     {
       question: "Is my postnatal care provider female?",
-      answer: "Yes — female practitioners throughout postnatal care. Dr. Neethu (female DHA-licensed Ayurvedic doctor) provides consultations and programme oversight. Female therapists deliver home visit components. Same-gender care essential for postnatal comfort and cultural preferences."
+      answer: "Yes — female practitioners throughout postnatal care. Dr. Ansiya (female DHA-licensed Ayurvedic doctor) provides consultations and programme oversight. Female therapists deliver home visit components. Same-gender care essential for postnatal comfort and cultural preferences."
     },
     {
       question: "How long is traditional Sutika Paricharya?",
@@ -485,7 +485,7 @@ export const postnataljvcLocation = {
 export const postnataljvcFinalCTA = {
   label: "Ready for Authentic Postnatal Ayurvedic Care?",
   title: "Consultation is the starting point — ideally during pregnancy.",
-  description: "Whether you're pregnant planning postnatal care, in immediate postpartum period needing programme start, recovering from C-section, older mother with additional recovery considerations, or first-time mother needing comprehensive support without extended family — comprehensive consultation with Dr. Neethu (female DHA-licensed BAMS Ayurvedic doctor) identifies appropriate programme for your situation. Home delivery across Dubai. Female practitioners throughout. Multi-language capability. Same-week consultation appointments typically available at our JVC clinic.",
+  description: "Whether you're pregnant planning postnatal care, in immediate postpartum period needing programme start, recovering from C-section, older mother with additional recovery considerations, or first-time mother needing comprehensive support without extended family — comprehensive consultation with Dr. Ansiya (female DHA-licensed BAMS Ayurvedic doctor) identifies appropriate programme for your situation. Home delivery across Dubai. Female practitioners throughout. Multi-language capability. Same-week consultation appointments typically available at our JVC clinic.",
   button1Text: "Book a Postnatal Consultation",
   button1Link: "/book",
   button2Text: "Chat on WhatsApp",
@@ -501,9 +501,9 @@ export const postnataljvcRelatedPages = {
   linkHref: "/conditions/",
   pages: [
     {
-      title: "Dr. Neethu — Ayurvedic Doctor",
+      title: "Dr. Ansiya — Ayurvedic Doctor",
       description: "Meet your postnatal Ayurvedic doctor. Female DHA-licensed BAMS practitioner with substantial postnatal expertise.",
-      href: "/doctors/dr-neethu-ayurveda/"
+      href: "/doctors/dr-ansiya-ayurveda/"
     },
     {
       title: "Home Healthcare from JVC",
@@ -581,7 +581,7 @@ export const postnataljvcProgrammeOptions = {
   includes: {
     label: "ALL PROGRAMMES INCLUDE",
     items: [
-      "Female Ayurvedic doctor (Dr. Neethu)",
+      "Female Ayurvedic doctor (Dr. Ansiya)",
       "Home delivery across Dubai",
       "Physiotherapy integration option",
       "Home healthcare coordination option",
@@ -636,18 +636,18 @@ export const postnataljvcCareTeam = {
   subtitle: "Postnatal Ayurvedic care at Vedara Care is delivered by our female practitioners throughout. Same-gender care essential for postnatal comfort, cultural preferences, and appropriate delivery of intimate recovery care. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.",
   leadDoctor: {
     label: "LEAD POSTNATAL AYURVEDIC DOCTOR",
-    name: "Dr. Neethu",
+    name: "Dr. Ansiya",
     credentials: "DHA-Licensed BAMS-Qualified Ayurvedic Doctor",
     description: "Female practitioner providing comprehensive Sutika Paricharya consultations, programme design, and ongoing care coordination. Cultural competence across Dubai's diverse maternal community.",
-    linkText: "View Dr. Neethu's full profile →",
-    link: "/doctors/dr-neethu-ayurveda/",
-    image: "/images/ayurveda/dr-neethu.jpg",
-    alt: "Female postnatal care team Dr Neethu Vedara Care JVC"
+    linkText: "View Dr. Ansiya's full profile →",
+    link: "/doctors/dr-ansiya-ayurveda/",
+    image: "/images/ayurveda/dr-ansiya.jpg",
+    alt: "Female postnatal care team Dr Ansiya Vedara Care JVC"
   },
   teamMembers: [
     {
       title: "Female Ayurvedic Therapists",
-      description: "Trained female therapists delivering home-based Sutika Paricharya components including Abhyanga, herbal baths, steam therapy, belly binder wrapping under Dr. Neethu's supervision. Multi-language capability."
+      description: "Trained female therapists delivering home-based Sutika Paricharya components including Abhyanga, herbal baths, steam therapy, belly binder wrapping under Dr. Ansiya's supervision. Multi-language capability."
     },
     {
       title: "Home Healthcare Team Coordination",
@@ -669,7 +669,7 @@ export const postnataljvcPricingTable = {
   title: "Postnatal Ayurvedic care programme pricing at our Dubai clinic.",
   headers: ["PROGRAMME / SERVICE", "DURATION", "INVESTMENT"],
   rows: [
-    { service: "Initial postnatal consultation with Dr. Neethu", duration: "90 min", price: "AED 450" },
+    { service: "Initial postnatal consultation with Dr. Ansiya", duration: "90 min", price: "AED 450" },
     { service: "Postnatal follow-up consultation", duration: "30-45 min", price: "AED 250" },
     { service: "★ Standard 42-Day Traditional Sutika Paricharya", duration: "42 days", price: "From AED 12,500", highlight: true },
     { service: "30-Day Accelerated Programme", duration: "30 days", price: "From AED 9,000" },
@@ -693,19 +693,19 @@ export const postnataljvcReviewsNew = {
   alt: "Postnatal patient testimonials Vedara Care JVC Dubai",
   items: [
     {
-      quote: "First-time mother in Dubai with no extended family support. Chose Vedara's 42-day postnatal Ayurvedic programme with Dr. Neethu — daily home visits to our Business Bay apartment. Complete transformation of postnatal experience. Substantial physical recovery, established breastfeeding, emotional stability during hormonal fluctuations. Dr. Neethu's female practitioner presence and cultural continuity for our Indian family made the programme deeply meaningful beyond physical benefits.",
+      quote: "First-time mother in Dubai with no extended family support. Chose Vedara's 42-day postnatal Ayurvedic programme with Dr. Ansiya — daily home visits to our Business Bay apartment. Complete transformation of postnatal experience. Substantial physical recovery, established breastfeeding, emotional stability during hormonal fluctuations. Dr. Ansiya's female practitioner presence and cultural continuity for our Indian family made the programme deeply meaningful beyond physical benefits.",
       author: "Female patient, 31, first-time mother",
       details: "42-Day Sutika Paricharya - Business Bay - February 2026",
       verified: true
     },
     {
-      quote: "C-section recovery for my second baby. First recovery without traditional postnatal care was substantially harder than expected. Chose Vedara's C-section recovery extended programme this time — modified programme accommodating C-section timeline. Dr. Neethu's home visits to our Downtown Dubai apartment. Substantially better recovery experience: better wound healing support, more sustained energy recovery, easier breastfeeding establishment. Wish I had this programme for my first baby.",
+      quote: "C-section recovery for my second baby. First recovery without traditional postnatal care was substantially harder than expected. Chose Vedara's C-section recovery extended programme this time — modified programme accommodating C-section timeline. Dr. Ansiya's home visits to our Downtown Dubai apartment. Substantially better recovery experience: better wound healing support, more sustained energy recovery, easier breastfeeding establishment. Wish I had this programme for my first baby.",
       author: "Female patient, 34, second-time mother",
       details: "C-Section Recovery Programme - Downtown Dubai - January 2026",
       verified: true
     },
     {
-      quote: "Older mother (age 39) with twins delivered by C-section. Extensive recovery needs. Vedara's modified programme accommodating multiple pregnancy recovery and older maternal age — extended duration, adjusted intensity, coordination with home healthcare team. Dr. Neethu's female practitioner presence essential given intimate C-section recovery care needs. Home visits to our Palm Jumeirah apartment throughout. Programme investment worth every dirham for foundational recovery quality.",
+      quote: "Older mother (age 39) with twins delivered by C-section. Extensive recovery needs. Vedara's modified programme accommodating multiple pregnancy recovery and older maternal age — extended duration, adjusted intensity, coordination with home healthcare team. Dr. Ansiya's female practitioner presence essential given intimate C-section recovery care needs. Home visits to our Palm Jumeirah apartment throughout. Programme investment worth every dirham for foundational recovery quality.",
       author: "Female patient, 39, twin mother",
       details: "Modified Twin Recovery Programme - Palm Jumeirah - March 2026",
       verified: true

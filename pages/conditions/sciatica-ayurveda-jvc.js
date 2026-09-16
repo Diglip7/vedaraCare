@@ -39,7 +39,7 @@ const SciaticaAyurvedaJvc = () => {
       "alternateName": ["Vedara Sciatica Ayurveda JVC", "Ayurvedic Gridhrasi Care JVC Dubai", "Vedara Basti Treatment for Sciatica"],
       "url": "https://vedaracare.ae/conditions/sciatica-ayurveda-jvc/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Authentic Ayurvedic sciatica management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Classical Gridhrasi tradition. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu delivering constitutional approach through Basti flagship classical therapy for Gridhrasi, Kativasti with lower body extension, Panchakarma programmes with Basti emphasis (Yoga Basti, Kala Basti, Karma Basti protocols), Abhyanga, Elakizhi, Pizhichil, herbal medicines, and lifestyle counselling. Coordinated with modern medical care and physiotherapy.",
+      "description": "Authentic Ayurvedic sciatica management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Classical Gridhrasi tradition. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya delivering constitutional approach through Basti flagship classical therapy for Gridhrasi, Kativasti with lower body extension, Panchakarma programmes with Basti emphasis (Yoga Basti, Kala Basti, Karma Basti protocols), Abhyanga, Elakizhi, Pizhichil, herbal medicines, and lifestyle counselling. Coordinated with modern medical care and physiotherapy.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 45,000",
       "address": { "@type": "PostalAddress", "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4", "addressLocality": "Jumeirah Village Circle", "addressRegion": "Dubai", "addressCountry": "AE", "postalCode": "" },
@@ -90,7 +90,7 @@ const SciaticaAyurvedaJvc = () => {
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-09-07"
     },
     [
@@ -264,7 +264,7 @@ const SciaticaAyurvedaJvc = () => {
         { "@type": "City", "name": "Dubai" }
       ],
       "mainContentOfPage": { "@type": "WebPageElement", "cssSelector": "main" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-09-07",
       "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
       "medicalAudience": "Patient",
@@ -273,9 +273,9 @@ const SciaticaAyurvedaJvc = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician",
-      "name": "Dr. Neethu",
-      "url": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/",
+      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
+      "name": "Dr. Ansiya",
+      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
       "medicalSpecialty": ["Ayurveda", "Musculoskeletal Medicine", "Sciatica Treatment", "Gridhrasi Care"],
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
@@ -347,7 +347,7 @@ const SciaticaAyurvedaJvc = () => {
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/conditions/sciatica-ayurveda-jvc/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/conditions/sciatica-ayurveda-jvc/" />
         <meta property="og:title" content="Sciatica Ayurvedic Treatment at Our JVC Clinic Dubai — Classical Gridhrasi Care | Vedara Care" />
-        <meta property="og:description" content="Authentic Ayurvedic sciatica management at Vedara Care JVC clinic, walking distance from Circle Mall. Classical Gridhrasi tradition. Female DHA-licensed BAMS Ayurvedic doctor Dr. Neethu. Basti flagship therapy, Kativasti with lower body extension, Panchakarma, herbal medicines. Multi-language." />
+        <meta property="og:description" content="Authentic Ayurvedic sciatica management at Vedara Care JVC clinic, walking distance from Circle Mall. Classical Gridhrasi tradition. Female DHA-licensed BAMS Ayurvedic doctor Dr. Ansiya. Basti flagship therapy, Kativasti with lower body extension, Panchakarma, herbal medicines. Multi-language." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/sciatica-ayurveda-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/sciatica-ayurveda-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -453,7 +453,7 @@ const SciaticaAyurvedaJvc = () => {
                 {
                   phase: "Phase 1 · Week 1",
                   title: "Assessment & Foundation",
-                  body: "Comprehensive 90-minute initial consultation with Dr. Neethu identifying sciatica pattern, Gridhrasi type, constitutional factors, functional impact, and current medications. Sciatica red flag screening including cauda equina and neurological screening. Personalised treatment plan design. First Kativasti session may begin. Initial herbal medicines prescribed."
+                  body: "Comprehensive 90-minute initial consultation with Dr. Ansiya identifying sciatica pattern, Gridhrasi type, constitutional factors, functional impact, and current medications. Sciatica red flag screening including cauda equina and neurological screening. Personalised treatment plan design. First Kativasti session may begin. Initial herbal medicines prescribed."
                 },
                 {
                   phase: "Phase 2 · Weeks 2–4",
@@ -744,8 +744,8 @@ const SciaticaAyurvedaJvc = () => {
               <a href="/conditions/" style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", color: "rgb(85, 85, 85)", textDecoration: "none", borderBottom: "1px solid rgb(200, 168, 127)" }}>Browse all conditions →</a>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "24px" }}>
-              <a href="/doctors/dr-neethu-ayurveda/" style={{ textDecoration: "none", background: "rgb(255, 255, 255)", borderRadius: "8px", padding: "28px", borderTop: "4px solid rgb(200, 168, 127)", display: "block", transition: "box-shadow 200ms", boxShadow: "rgba(0, 0, 0, 0.04) 0px 2px 12px" }}>
-                <h4 style={{ fontFamily: "Fraunces, serif", fontSize: "18px", fontWeight: 500, color: "rgb(31, 31, 31)", margin: "0px 0px 12px", lineHeight: 1.3 }}>Dr. Neethu — Ayurvedic Doctor</h4>
+              <a href="/doctors/dr-ansiya-ayurveda/" style={{ textDecoration: "none", background: "rgb(255, 255, 255)", borderRadius: "8px", padding: "28px", borderTop: "4px solid rgb(200, 168, 127)", display: "block", transition: "box-shadow 200ms", boxShadow: "rgba(0, 0, 0, 0.04) 0px 2px 12px" }}>
+                <h4 style={{ fontFamily: "Fraunces, serif", fontSize: "18px", fontWeight: 500, color: "rgb(31, 31, 31)", margin: "0px 0px 12px", lineHeight: 1.3 }}>Dr. Ansiya — Ayurvedic Doctor</h4>
                 <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.65, color: "rgb(85, 85, 85)", margin: "0px 0px 16px" }}>Female DHA-licensed BAMS practitioner with substantial musculoskeletal expertise including specific Gridhrasi capability.</p>
                 <span style={{ fontFamily: "Inter, sans-serif", fontSize: "13px", color: "rgb(200, 168, 127)", fontWeight: 500 }}>Read more →</span>
               </a>

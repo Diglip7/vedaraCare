@@ -2,10 +2,10 @@ import React from 'react';
 
 const PostnatalPricingTableImage = ({ data }) => {
   if (!data) return null;
-  const { label, title, headers, rows, footer } = data;
+  const { label, title, headers, rows, footer, bgColor } = data;
 
   return (
-    <section className="py-24 px-6 bg-[#FAF8F5]">
+    <section className={`py-24 px-6 ${bgColor || 'bg-[#FAF8F5]'}`}>
       <div className="max-w-[1200px] mx-auto">
         <div className="text-center mb-16 mx-auto max-w-4xl">
           <p className="text-[12px] font-sans font-semibold tracking-[0.15em] text-[#C9A961] uppercase mb-4">
@@ -16,42 +16,99 @@ const PostnatalPricingTableImage = ({ data }) => {
           </h2>
         </div>
 
-        <div className="bg-white rounded-lg overflow-hidden shadow-sm border border-transparent">
+        {/* Mobile View (Cards) */}
+        <div className="md:hidden flex flex-col gap-4">
+          {rows.map((row, index) => {
+            if (row.isCategory) {
+              return (
+                <div key={index} className="pt-4 pb-2 border-b border-[#EAEAEA]">
+                  <span className="text-[11px] font-sans font-bold tracking-[0.15em] text-[#C9A961] uppercase">
+                    {row.service}
+                  </span>
+                </div>
+              );
+            }
+            return (
+              <div key={index} className="bg-white rounded-lg p-5 shadow-sm border border-[#EAEAEA]">
+                <div className="mb-4">
+                  <span className="text-[10px] font-sans font-semibold tracking-[0.15em] text-[#8B8B8B] uppercase mb-2 block">
+                    {headers[0]}
+                  </span>
+                  <h3 className={`text-[14px] font-sans font-medium leading-snug ${row.highlight ? 'text-[#1A1A1A]' : 'text-[#4A4A4A]'}`}>
+                    {row.service}
+                  </h3>
+                </div>
+                <div className="flex justify-between items-center border-t border-[#EAEAEA] pt-4 mt-4">
+                  <div>
+                    <span className="text-[10px] font-sans font-semibold tracking-[0.15em] text-[#8B8B8B] uppercase mb-1 block">
+                      {headers[1]}
+                    </span>
+                    <span className="text-[14px] text-[#6B6B6B] font-sans">
+                      {row.duration}
+                    </span>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-[10px] font-sans font-semibold tracking-[0.15em] text-[#8B8B8B] uppercase mb-1 block">
+                      {headers[2]}
+                    </span>
+                    <span className="text-[15px] font-sans font-semibold text-[#1A1A1A]">
+                      {row.price}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Tablet/Desktop View (Table) */}
+        <div className="hidden md:block bg-white rounded-lg overflow-hidden shadow-sm border border-transparent">
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="bg-[#1A1A1A] text-white">
-                  <th className="py-4 px-6 text-[11px] font-sans font-semibold tracking-[0.15em] uppercase w-1/2">
+                  <th className="py-4 px-6 text-[11px] font-sans font-semibold tracking-[0.15em] uppercase w-[50%]">
                     {headers[0]}
                   </th>
-                  <th className="py-4 px-6 text-[11px] font-sans font-semibold tracking-[0.15em] uppercase">
+                  <th className="py-4 px-6 text-[11px] font-sans font-semibold tracking-[0.15em] uppercase w-[25%]">
                     {headers[1]}
                   </th>
-                  <th className="py-4 px-6 text-[11px] font-sans font-semibold tracking-[0.15em] uppercase text-right">
+                  <th className="py-4 px-6 text-[11px] font-sans font-semibold tracking-[0.15em] uppercase text-right w-[25%]">
                     {headers[2]}
                   </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-[#EAEAEA]">
-                {rows.map((row, index) => (
-                  <tr key={index} className="hover:bg-[#FAF8F5] transition-colors">
-                    <td className="py-5 px-6">
-                      <span className={`text-[14px] font-sans font-medium ${row.highlight ? 'text-[#1A1A1A]' : 'text-[#4A4A4A]'}`}>
-                        {row.service}
-                      </span>
-                    </td>
-                    <td className="py-5 px-6">
-                      <span className="text-[14px] text-[#6B6B6B] font-sans">
-                        {row.duration}
-                      </span>
-                    </td>
-                    <td className="py-5 px-6 text-right">
-                      <span className="text-[14px] font-sans font-semibold text-[#1A1A1A]">
-                        {row.price}
-                      </span>
-                    </td>
-                  </tr>
-                ))}
+                {rows.map((row, index) => {
+                  if (row.isCategory) {
+                    return (
+                      <tr key={index} className="bg-[#FAF8F5]">
+                        <td colSpan="3" className="py-4 px-6 text-[11px] font-sans font-bold tracking-[0.15em] text-[#C9A961] uppercase border-y border-[#EAEAEA]">
+                          {row.service}
+                        </td>
+                      </tr>
+                    );
+                  }
+                  return (
+                    <tr key={index} className="hover:bg-[#FAF8F5] transition-colors">
+                      <td className="py-5 px-6">
+                        <span className={`text-[14px] font-sans font-medium ${row.highlight ? 'text-[#1A1A1A]' : 'text-[#4A4A4A]'}`}>
+                          {row.service}
+                        </span>
+                      </td>
+                      <td className="py-5 px-6">
+                        <span className="text-[14px] text-[#6B6B6B] font-sans">
+                          {row.duration}
+                        </span>
+                      </td>
+                      <td className="py-5 px-6 text-right">
+                        <span className="text-[14px] font-sans font-semibold text-[#1A1A1A]">
+                          {row.price}
+                        </span>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>

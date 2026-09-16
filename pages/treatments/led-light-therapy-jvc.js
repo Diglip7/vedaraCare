@@ -218,7 +218,7 @@ const LEDLightTherapyJVC = () => {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {ledLightTherapyWavelengths.list.slice(0, 2).map((item, idx) => (
               <div key={idx} className="rounded-2xl p-6 bg-white border border-[#E5DFD3]">
-                <img src={item.image} alt={item.alt} className="w-full h-48 object-cover rounded-xl mb-4 shadow-sm" />
+                <img src={item.image} alt={item.alt} className="w-full h-78 object-cover rounded-xl mb-4 shadow-sm" />
                 {item.caption && (
                   <p className="text-xs italic text-[rgb(107,107,107)] mb-4 leading-relaxed">
                     {item.caption}
@@ -448,7 +448,7 @@ const LEDLightTherapyJVC = () => {
           image: ledLightTherapySensation.image,
           altText: ledLightTherapySensation.alt,
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[280px]",
           borderPosition: "left"
         }}
         footer={ledLightTherapySensation.caption}
@@ -747,7 +747,7 @@ const LEDLightTherapyJVC = () => {
           image: ledLightTherapyWhyJvc.image,
           altText: ledLightTherapyWhyJvc.alt,
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[300px]",
           borderPosition: "right"
         }}
         footer={ledLightTherapyWhyJvc.caption}

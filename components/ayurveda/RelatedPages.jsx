@@ -61,6 +61,14 @@ const RelatedPages = ({
                 boxShadow: page.highlight ? '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)' : 'none'
               }}
             >
+              {page.label && (
+                <span
+                  className="text-[10px] font-bold tracking-widest uppercase mb-1"
+                  style={{ color: 'rgb(184, 145, 90)', fontFamily: 'var(--font-sans), sans-serif' }}
+                >
+                  {page.label}
+                </span>
+              )}
               <h3
                 className="text-sm font-medium"
                 style={{

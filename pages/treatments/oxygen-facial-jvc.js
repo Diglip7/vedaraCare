@@ -495,7 +495,7 @@ const OxygenFacialJVC = () => {
           image: oxygenFacialExplanation.image,
           altText: oxygenFacialExplanation.alt,
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[550px]",
           borderPosition: "right"
         }}
         footer={oxygenFacialExplanation.caption}
@@ -610,7 +610,7 @@ const OxygenFacialJVC = () => {
           image: oxygenFacialAppointment.image,
           altText: oxygenFacialAppointment.alt,
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[650px]",
           borderPosition: "right"
         }}
         footer={oxygenFacialAppointment.description}
@@ -635,7 +635,7 @@ const OxygenFacialJVC = () => {
           image: oxygenFacialSensation.image,
           altText: oxygenFacialSensation.alt,
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[300px]",
           borderPosition: "left"
         }}
       />

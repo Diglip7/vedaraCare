@@ -13,7 +13,7 @@ const AyurvedaHero = ({
   primaryCTA = "",
   secondaryCTA = "",
   primaryCTAHref = "/book",
-  secondaryCTAHref =  "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20treatments%20and%20book%20a%20consultation.%20Please%20assist%20me.",
+  secondaryCTAHref = "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20treatments%20and%20book%20a%20consultation.%20Please%20assist%20me.",
   trustSignals = [],
   floatingCard = {},
   patientsTreated = null
@@ -54,30 +54,30 @@ const AyurvedaHero = ({
                     {title}
                   </h1>
                 </div>
-                
-                <p 
+
+                <p
                   className="text-[16px] sm:text-[18px] font-sans leading-[1.75] text-[#4A4A4A] max-w-full lg:max-w-[540px]"
                   dangerouslySetInnerHTML={{ __html: description }}
                 />
               </div>
-              
+
               {/* Desktop: Buttons + Trust Signals (below desc) */}
               <div className="hidden lg:block space-y-5 sm:space-y-7 mt-5 sm:mt-7">
-               <div className="flex flex-wrap gap-3 pt-2">
-                <Link
-                  href={primaryCTAHref}
-                  className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#1F4538] text-white rounded-md hover:bg-[#184C3A] transition-all text-[14px] sm:text-[15px] font-sans font-bold shadow-lg">
-                  {primaryCTA}
-                </Link>
-                <a
-                  href={secondaryCTAHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#4A7C59] text-white rounded-md hover:opacity-95 transition-all text-[14px] sm:text-[15px] font-sans font-bold shadow-lg">
-                  <MessageCircle size={20} className="fill-current" />
-                  {secondaryCTA}
-                </a>
-              </div>
+                <div className="flex flex-wrap gap-3 pt-2">
+                  <Link
+                    href={primaryCTAHref}
+                    className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#1F4538] text-white rounded-md hover:bg-[#184C3A] transition-all text-[14px] sm:text-[15px] font-sans font-bold shadow-lg">
+                    {primaryCTA}
+                  </Link>
+                  <a
+                    href={secondaryCTAHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#4A7C59] text-white rounded-md hover:opacity-95 transition-all text-[14px] sm:text-[15px] font-sans font-bold shadow-lg">
+                    <MessageCircle size={20} className="fill-current" />
+                    {secondaryCTA}
+                  </a>
+                </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-4 sm:gap-x-8 pt-4 sm:pt-6">
                   {trustSignals.map((signal, index) => (
                     <div key={index} className="flex items-center gap-2 text-[13px] font-sans text-[#5a5a5a]">
@@ -92,9 +92,9 @@ const AyurvedaHero = ({
             {/* Right Column: Image */}
             <div className="relative order-2 lg:col-span-1 w-full">
               <div className="relative aspect-[4/5] rounded-[12px] overflow-hidden shadow-2xl max-h-[500px] sm:max-h-[628px] w-full">
-                <img 
-                  src={image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`} 
-                  alt={alt} 
+                <img
+                  src={image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`}
+                  alt={alt}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -114,7 +114,7 @@ const AyurvedaHero = ({
                 <p className="text-[11px] sm:text-[12px] font-sans font-medium text-[#C9A961] mb-0.5">
                   {floatingCard.title}
                 </p>
-                <p 
+                <p
                   className="text-[11px] sm:text-[12px] text-[#5a5a5a] font-sans leading-snug"
                   dangerouslySetInnerHTML={{ __html: floatingCard.subtitle }}
                 />
@@ -124,20 +124,20 @@ const AyurvedaHero = ({
             {/* Mobile & Tablet Only: Buttons + Trust Signals (below image) */}
             <div className="order-3 lg:hidden space-y-5 mt-5">
               <div className="flex flex-wrap gap-3 pt-2">
-              <Link
-                href={primaryCTAHref}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-[#1F4538] text-white rounded-md hover:bg-[#184C3A] transition-all text-[14px] font-sans font-bold shadow-lg">
-                {primaryCTA}
-              </Link>
-              <a
-                href={secondaryCTAHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-[#4A7C59] text-white rounded-md hover:opacity-95 transition-all text-[14px] font-sans font-bold shadow-lg" >
-                <MessageCircle size={18} className="fill-current" />
-                {secondaryCTA}
-              </a>
-            </div>
+                <Link
+                  href={primaryCTAHref}
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-[#1F4538] text-white rounded-md hover:bg-[#184C3A] transition-all text-[14px] font-sans font-bold shadow-lg">
+                  {primaryCTA}
+                </Link>
+                <a
+                  href={secondaryCTAHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-[#4A7C59] text-white rounded-md hover:opacity-95 transition-all text-[14px] font-sans font-bold shadow-lg" >
+                  <MessageCircle size={18} className="fill-current" />
+                  {secondaryCTA}
+                </a>
+              </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-4 sm:gap-x-8 pt-4">
                 {trustSignals.map((signal, index) => (
                   <div key={index} className="flex items-center gap-2 text-[13px] font-sans text-[#5a5a5a]">

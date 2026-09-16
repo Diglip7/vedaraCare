@@ -38,7 +38,7 @@ const InsomniaAyurvedaJvc = () => {
       "alternateName": ["Vedara Insomnia Ayurveda JVC", "Ayurvedic Sleep Restoration JVC Dubai", "Vedara Sleep Ayurvedic Care"],
       "url": "https://vedaracare.ae/conditions/insomnia-ayurveda-jvc/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Authentic Ayurvedic insomnia and sleep treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu delivering comprehensive sleep restoration through Shirodhara, Padabhyanga, Nasya, Abhyanga, sleep-supporting herbal medicines, and sleep hygiene counselling. Coordinated with modern sleep medicine.",
+      "description": "Authentic Ayurvedic insomnia and sleep treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya delivering comprehensive sleep restoration through Shirodhara, Padabhyanga, Nasya, Abhyanga, sleep-supporting herbal medicines, and sleep hygiene counselling. Coordinated with modern sleep medicine.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 20,000",
       "address": { "@type": "PostalAddress", "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4", "addressLocality": "Jumeirah Village Circle", "addressRegion": "Dubai", "addressCountry": "AE", "postalCode": "00000" },
@@ -86,7 +86,7 @@ const InsomniaAyurvedaJvc = () => {
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-08-20"
     },
     {
@@ -197,19 +197,19 @@ const InsomniaAyurvedaJvc = () => {
         { "@type": "Question", "name": "Can Ayurveda replace sleep medication?", "acceptedAnswer": { "@type": "Answer", "text": "Depends on situation and clinical judgement. Many patients with primary insomnia successfully transition from sleep medications to Ayurvedic approach with medical coordination. Severe insomnia disorders, suspected sleep apnea, and specific medical conditions may require continued modern medical management. Discussion with prescribing doctor essential before medication changes." } },
         { "@type": "Question", "name": "What if I suspect sleep apnea?", "acceptedAnswer": { "@type": "Answer", "text": "Suspected sleep apnea requires sleep specialist referral for sleep study evaluation — we do not attempt to treat sleep apnea with Ayurvedic approach alone. Signs warranting sleep specialist evaluation: loud snoring, witnessed pauses in breathing during sleep, daytime sleepiness disproportionate to sleep duration, morning headaches. Consultation includes screening; referral to modern sleep specialist provided when appropriate." } },
         { "@type": "Question", "name": "Where in Dubai is your clinic?", "acceptedAnswer": { "@type": "Answer", "text": "DHA-licensed clinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Accessible from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif." } },
-        { "@type": "Question", "name": "Do you have female Ayurvedic doctor for sleep concerns?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Neethu is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial sleep concern expertise particularly important for hormonal sleep disruption (perimenopausal, menstrual-related, postpartum) and cultural preferences for same-gender consultation." } },
+        { "@type": "Question", "name": "Do you have female Ayurvedic doctor for sleep concerns?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial sleep concern expertise particularly important for hormonal sleep disruption (perimenopausal, menstrual-related, postpartum) and cultural preferences for same-gender consultation." } },
         { "@type": "Question", "name": "How long does Ayurvedic sleep treatment take?", "acceptedAnswer": { "@type": "Answer", "text": "Timeline varies substantially by presentation. Some patients experience initial sleep improvement within 2-3 weeks. Substantial sustained improvement typically 6-8 weeks with committed programme. Chronic long-duration insomnia typically requires longer restoration journey. Long-term sleep hygiene is ongoing partnership rather than time-limited treatment." } },
         { "@type": "Question", "name": "Do you offer sleep support during Ramadan?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Ramadan sleep pattern guidance available for Muslim patients. Ayurvedic approach supports sustained wellness within Ramadan practice — dietary timing at Suhoor and Iftar supporting sleep quality during limited sleep window, appropriate practices, herbal support consistent with fasting, cultural respect throughout guidance." } },
         { "@type": "Question", "name": "What about jet lag and travel-related sleep concerns?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — jet lag support programmes available for Dubai's substantial international travel demographic. Constitutional assessment, targeted Shirodhara series, herbal circadian support, sleep hygiene protocol for travel and post-travel recovery, timing guidance for eastbound and westbound travel patterns." } },
         { "@type": "Question", "name": "What about shift work sleep concerns?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — shift work sleep support available for Dubai's substantial hospitality, healthcare, security, and aviation demographics. Constitutional assessment, sleep support matched to shift patterns, herbal medicines supporting alternative sleep times, sleep environment optimisation for daytime sleep, sustainable approach for shift workers." } },
-        { "@type": "Question", "name": "What about menopausal or hormonal sleep concerns?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — hormonal sleep concerns among Dubai's substantial female demographic addressed with specialised approach. Female practitioner (Dr. Neethu) available. Constitutional assessment addressing hormonal factors, targeted herbal medicines for hormonal sleep support, coordinated care with gynaecological assessment when relevant." } },
+        { "@type": "Question", "name": "What about menopausal or hormonal sleep concerns?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — hormonal sleep concerns among Dubai's substantial female demographic addressed with specialised approach. Female practitioner (Dr. Ansiya) available. Constitutional assessment addressing hormonal factors, targeted herbal medicines for hormonal sleep support, coordinated care with gynaecological assessment when relevant." } },
         { "@type": "Question", "name": "Can I do Ayurvedic treatment while on sleep medications?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — coordination essential. All current medications reviewed during consultation. Ayurvedic herbs selected for compatibility with your sleep medications. Any medication reduction discussed with your prescribing doctor as appropriate. We do not recommend abrupt sleep medication cessation — coordinated tapering with prescribing doctor when appropriate." } },
         { "@type": "Question", "name": "Which languages do you speak?", "acceptedAnswer": { "@type": "Answer", "text": "Arabic, English, Hindi, Malayalam (particularly relevant for Kerala Ayurvedic tradition), Urdu across our team." } },
         { "@type": "Question", "name": "Is Ayurvedic sleep treatment covered by insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Typically self-pay as wellness/complementary care. Some elements may be covered with medical justification for chronic insomnia disorder or sleep concerns with underlying medical condition. Direct billing with seven major insurers for covered elements." } },
         { "@type": "Question", "name": "Can I do Ayurvedic sleep treatment as complete beginner?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — no prior Ayurvedic experience required. Comprehensive initial consultation includes education about Ayurvedic sleep principles, treatment approaches, expected experience, realistic outcomes. Patient education central to informed engagement throughout programme." } },
         { "@type": "Question", "name": "What about children and sleep concerns?", "acceptedAnswer": { "@type": "Answer", "text": "Pediatric Ayurvedic sleep support available for adolescents and older children with age-appropriate approaches. Gentler protocols. Consultation identifies whether Ayurvedic approach suitable for child's situation. Some pediatric sleep concerns require pediatric sleep specialist assessment as primary approach." } },
-        { "@type": "Question", "name": "How is sleep care at Vedara different from other Ayurveda clinics in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Neethu. Comprehensive constitutional and sleep assessment including sleep apnea screening. Multi-modal approach. Coordinated with modern sleep medicine when appropriate. Integrated with stress and anxiety care given substantial overlap. Multi-language capability. Cultural competence including Ramadan considerations." } },
-        { "@type": "Question", "name": "How do I book sleep consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying sleep consultation ideally with Dr. Neethu; call 9AM-9PM seven days a week; book online. Please bring: description of sleep concerns and duration, current sleep patterns, current medications including sleep medications, previous sleep management approaches, sleep environment description, insurance card if applicable, cultural preferences, specific questions and goals." } }
+        { "@type": "Question", "name": "How is sleep care at Vedara different from other Ayurveda clinics in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Ansiya. Comprehensive constitutional and sleep assessment including sleep apnea screening. Multi-modal approach. Coordinated with modern sleep medicine when appropriate. Integrated with stress and anxiety care given substantial overlap. Multi-language capability. Cultural competence including Ramadan considerations." } },
+        { "@type": "Question", "name": "How do I book sleep consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying sleep consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: description of sleep concerns and duration, current sleep patterns, current medications including sleep medications, previous sleep management approaches, sleep environment description, insurance card if applicable, cultural preferences, specific questions and goals." } }
       ]
     },
     {
@@ -224,7 +224,7 @@ const InsomniaAyurvedaJvc = () => {
         { "@type": "MedicalCondition", "name": "Non-Restorative Sleep" }
       ],
       "mainContentOfPage": { "@type": "WebPageElement", "cssSelector": "main" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-08-20",
       "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
       "medicalAudience": "Patient",
@@ -233,9 +233,9 @@ const InsomniaAyurvedaJvc = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician",
-      "name": "Dr. Neethu",
-      "url": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/",
+      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
+      "name": "Dr. Ansiya",
+      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
       "medicalSpecialty": ["Ayurveda", "Sleep Medicine", "Insomnia Treatment"],
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
@@ -286,7 +286,7 @@ const InsomniaAyurvedaJvc = () => {
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/insomnia-ayurveda-jvc/" />
 
         <meta property="og:title" content="Insomnia Ayurvedic Treatment at Our JVC Clinic Dubai | Vedara Care" />
-        <meta property="og:description" content="Authentic Ayurvedic sleep restoration at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Neethu. Shirodhara, Padabhyanga, Nasya, Abhyanga, sleep-supporting herbal medicines. Multi-language. Coordinated with modern sleep medicine." />
+        <meta property="og:description" content="Authentic Ayurvedic sleep restoration at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Ansiya. Shirodhara, Padabhyanga, Nasya, Abhyanga, sleep-supporting herbal medicines. Multi-language. Coordinated with modern sleep medicine." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/insomnia-ayurveda-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/insomnia-ayurveda-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -351,7 +351,7 @@ const InsomniaAyurvedaJvc = () => {
 
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "24px", marginBottom: "48px" }}>
               {[
-                { phase: "Phase 1", title: "Assessment & Foundation", time: "Week 1", desc: "Comprehensive 90-minute initial consultation with Dr. Neethu identifying your sleep patterns, constitutional factors, life context, previous sleep management approaches, current medications, and treatment goals. Sleep apnea screening. Personalised treatment plan design. First treatments may begin. Foundation sleep hygiene recommendations initiated. Initial herbal medicines prescribed if appropriate." },
+                { phase: "Phase 1", title: "Assessment & Foundation", time: "Week 1", desc: "Comprehensive 90-minute initial consultation with Dr. Ansiya identifying your sleep patterns, constitutional factors, life context, previous sleep management approaches, current medications, and treatment goals. Sleep apnea screening. Personalised treatment plan design. First treatments may begin. Foundation sleep hygiene recommendations initiated. Initial herbal medicines prescribed if appropriate." },
                 { phase: "Phase 2", title: "Active Treatment Intensive", time: "Weeks 2–4", desc: "Regular treatment sessions building sustained sleep improvement. Shirodhara series (twice weekly typical), Padabhyanga integration, possible Nasya and Abhyanga, herbal medicine adjustments based on response, dietary and sleep hygiene implementation. Initial sleep improvements often visible — easier sleep onset, better sleep continuity, more restorative sleep quality." },
                 { phase: "Phase 3", title: "Sleep Quality Consolidation", time: "Weeks 4-8", desc: "Continued treatments at reducing frequency, herbal medicine maintenance and adjustment, sleep hygiene practices becoming sustained habits. Substantial sleep improvement typically apparent — reliable sleep onset, sustained continuity, restorative quality, improved daytime function. Sleep medication reduction discussed with prescribing doctor as appropriate." },
                 { phase: "Phase 4", title: "Long-Term Sleep Hygiene Partnership", time: "Month 2+", desc: "Transitioned to sustained sleep hygiene partnership with periodic treatments, ongoing lifestyle practices, seasonal adjustments as needed. Some patients continue monthly maintenance Shirodhara; others transition to quarterly programme with intensification during high-stress periods or travel." }
@@ -413,7 +413,7 @@ const InsomniaAyurvedaJvc = () => {
                 </thead>
                 <tbody>
                   {[
-                    { service: "Initial insomnia consultation with Dr. Neethu (Nadi Pareeksha + Prakriti + sleep history + treatment plan)", duration: "90 min", price: "AED [X]", alt: false },
+                    { service: "Initial insomnia consultation with Dr. Ansiya (Nadi Pareeksha + Prakriti + sleep history + treatment plan)", duration: "90 min", price: "AED [X]", alt: false },
                     { service: "Follow-up consultation", duration: "30–45 min", price: "AED [X]", alt: true },
                     { service: "Individual Shirodhara session", duration: "60–75 min", price: "AED [X]", alt: false },
                     { service: "Shirodhara package (7 sessions)", duration: "3–4 weeks", price: "From AED [X]", alt: true },

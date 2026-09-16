@@ -235,7 +235,7 @@ export const panchakarmaJVCRelatedPages = {
     {
       title: "Meet Your Panchakarma Physician →",
       description: "Dr. Priya Sharma — BAMS, MD (Ayurveda), DHA-licensed 2509266. View full credentials, specialisations, and consultation availability.",
-      href: "/doctors/dr-priya-sharma-ayurveda/"
+      href: "/doctors"
     }
   ]
 };

@@ -104,7 +104,7 @@ export const drPriyaNair = {
   }
 };
 
-// ========== DR. PRIYA NAIR — TEMPLATE-READY EXTENDED OBJECT (SAME UI AS DR. NEETHU) ==========
+// ========== DR. PRIYA NAIR — TEMPLATE-READY EXTENDED OBJECT (SAME UI AS DR) ==========
 const defaultLocation = {
   bgColor: "bg-white",
   label: "VISIT THE CLINIC",
@@ -562,9 +562,9 @@ export const drAnusha = {
       slug: "dr-priya-nair",
     },
     {
-      name: "Dr. Neethu",
+      name: "Dr. Ansiya",
       specialty: "Neurological Rehab, Musculoskeletal Care",
-      slug: "dr-neethu-karatt",
+      slug: "dr-ansiya",
     },
     {
       name: "Hafsina K K",
@@ -872,7 +872,7 @@ export const hafsinaKKTemplate = {
     columns: 4,
     pages: [
       { title: "Dr. Priya Nair", description: "Senior Ayurvedic Physician | Chronic Pain, PCOS, Migraine", href: "/doctors/dr-priya-nair" },
-      { title: "Dr. Neethu", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-neethu-ayurveda" },
+      { title: "Dr. Ansiya", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-ansiya-ayurveda" },
       { title: "Dr. Anusha Makkena", description: "MBBS, MS ENT | General Practitioner | Aesthetic Medicine & ENT Consultations", href: "/doctors/dr-anusha-makkena" },
       { title: "Johanna Dianne U. Bautista", description: "Front Desk Receptionist | Patient Care & Operations Specialist", href: "/doctors/johanna-dianne-bautista" }
     ]
@@ -1140,7 +1140,7 @@ export const drAnushaMakkenaTemplate = {
     columns: 4,
     pages: [
       { title: "Dr. Priya Nair", description: "Senior Ayurvedic Physician | Chronic Pain, PCOS, Migraine", href: "/doctors/dr-priya-nair" },
-      { title: "Dr. Neethu", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-neethu-ayurveda" },
+      { title: "Dr. Ansiya", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-ansiya-ayurveda" },
       { title: "Hafsina K K", description: "DHA Licensed Physiotherapist | Orthopedic, Neurological & Women's Health Rehabilitation", href: "/doctors/hafsina-kk-physiotherapist" },
       { title: "Johanna Dianne U. Bautista", description: "Front Desk Receptionist | Patient Care & Operations Specialist", href: "/doctors/johanna-dianne-bautista" }
     ]
@@ -1345,49 +1345,49 @@ export const ayurvedaConsultationData = {
   footer: "First consultation duration: 45 to 60 minutes • From AED 350"
 };
 
-export const drNeethu = {
-  name: 'Dr. Neethu',
-  firstName: 'Dr. Neethu',
+export const drAnsiya = {
+  name: 'Dr. Ansiya',
+  firstName: 'Dr. Ansiya',
   title: 'BAMS | Ayurveda Practitioner',
-  image: '/images/dr-neetu-ayurveda-jvc.webp',
-  alt: 'Dr. Neethu, BAMS-qualified DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, JVC Dubai',
+  image: '/images/dr-ansiya-ayurveda-jvc.webp',
+  alt: 'Dr. Ansiya, BAMS-qualified DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, JVC Dubai',
   heroBadge: 'AYURVEDIC DOCTOR · DHA-LICENSED · BAMS-QUALIFIED · JUMEIRAH VILLAGE CIRCLE',
   heroStats: 'BAMS · DHA-Licensed Ayurvedic Doctor · Personalised Holistic Care',
-  bio: "Dr. Neethu is a DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC) — walking distance from Circle Mall. BAMS-qualified with expertise across Nadi Pareeksha, Panchakarma, women's health including PCOS, musculoskeletal disorders, skin conditions, hair health, stress management, weight management, postnatal care, and Ayurvedic rejuvenation. Female doctor available. Serving JVC families and patients from across Dubai.",
-  about: "Dr. Neethu is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. She provides authentic Ayurvedic care combining Nadi Pareeksha (pulse examination), Prakriti constitution assessment, classical Ayurvedic principles, individually selected therapies, herbal internal medicines, and personalised diet and lifestyle counselling. Her 11 documented expertise areas include Nadi Pareeksha and Ayurvedic assessment; Panchakarma and detoxification; women's health and PCOS; musculoskeletal disorders including back pain, sciatica, and spondylosis; skin disorders with special interest in eczema and psoriasis; hair and scalp disorders; stress, anxiety, and sleep concerns; weight management and lifestyle disorders; postnatal Ayurvedic care; Ayurvedic rejuvenation (Rasayana); and diet and lifestyle counselling based on body constitution. Female doctor available. Multi-language capability including English, Malayalam, and Hindi. Patients travel from JVC, JVT, Al Barsha, Sports City, Dubai Hills, Marina, Downtown, Business Bay, Palm Jumeirah, Mirdif, and across Dubai. Same-week appointments typically available.  ",
+  bio: "Dr. Ansiya is a DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC) — walking distance from Circle Mall. BAMS-qualified with expertise across Nadi Pareeksha, Panchakarma, women's health including PCOS, musculoskeletal disorders, skin conditions, hair health, stress management, weight management, postnatal care, and Ayurvedic rejuvenation. Female doctor available. Serving JVC families and patients from across Dubai.",
+  about: "Dr. Ansiya is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. She provides authentic Ayurvedic care combining Nadi Pareeksha (pulse examination), Prakriti constitution assessment, classical Ayurvedic principles, individually selected therapies, herbal internal medicines, and personalised diet and lifestyle counselling. Her 11 documented expertise areas include Nadi Pareeksha and Ayurvedic assessment; Panchakarma and detoxification; women's health and PCOS; musculoskeletal disorders including back pain, sciatica, and spondylosis; skin disorders with special interest in eczema and psoriasis; hair and scalp disorders; stress, anxiety, and sleep concerns; weight management and lifestyle disorders; postnatal Ayurvedic care; Ayurvedic rejuvenation (Rasayana); and diet and lifestyle counselling based on body constitution. Female doctor available. Multi-language capability including English, Malayalam, and Hindi. Patients travel from JVC, JVT, Al Barsha, Sports City, Dubai Hills, Marina, Downtown, Business Bay, Palm Jumeirah, Mirdif, and across Dubai. Same-week appointments typically available.  ",
   specialties: "Women's health & PCOS, Musculoskeletal, Skin & Hair, Stress & Sleep, Postnatal, Rasayana",
   fee: 'From AED [X] (initial consultation)',
   languages: 'English (professional fluency), Malayalam, Hindi, Additional languages — to be confirmed',
   availability: 'Mon-Sat at JVC clinic',
-  summaryTitle: 'Personalised holistic Ayurvedic care — Dr. Neethu\'s clinical approach.',
-  summaryParagraph1: 'Dr. Neethu follows a personalized and holistic Ayurvedic approach rooted in classical Ayurvedic principles combined with modern clinical care standards. Her practice at our JVC clinic serves patients from across Dubai seeking authentic Ayurvedic consultation and sustained wellness partnership.',
+  summaryTitle: 'Personalised holistic Ayurvedic care — Dr. Ansiya\'s clinical approach.',
+  summaryParagraph1: 'Dr. Ansiya follows a personalized and holistic Ayurvedic approach rooted in classical Ayurvedic principles combined with modern clinical care standards. Her practice at our JVC clinic serves patients from across Dubai seeking authentic Ayurvedic consultation and sustained wellness partnership.',
   summaryParagraph2: 'Personalised Ayurvedic care begins with understanding the patient — not just the condition. My approach combines genuine listening, authentic Ayurvedic assessment, and classical principles applied to each individual\'s specific situation.',
   section: 'She consults at our JVC clinic, accessible from Jumeirah Village Circle, Dubai Marina, Downtown Dubai, Business Bay, Al Barsha, Dubai Hills Estate, Jumeirah Lake Towers, Mirdif, and every Dubai community.',
   description: [
     {
       title: "Listening first — comprehensive patient understanding",
       description:
-        "Dr. Neethu's consultation begins with genuine listening. She takes time to understand your health concerns, lifestyle context, previous treatment history, cultural considerations, and specific wellness goals. This foundational understanding shapes everything that follows. Consultation duration reflects this commitment — meaningful assessment cannot be rushed."
+        "Dr. Ansiya's consultation begins with genuine listening. She takes time to understand your health concerns, lifestyle context, previous treatment history, cultural considerations, and specific wellness goals. This foundational understanding shapes everything that follows. Consultation duration reflects this commitment — meaningful assessment cannot be rushed."
     },
     {
       title: "Nadi Pareeksha — authentic Ayurvedic pulse assessment",
       description:
-        "Nadi Pareeksha is the traditional Ayurvedic diagnostic method reading pulse characteristics to understand internal balance. Dr. Neethu's expertise provides insights into your current state (Vikriti), individual constitutional patterns (Prakriti), and specific imbalances requiring attention."
+        "Nadi Pareeksha is the traditional Ayurvedic diagnostic method reading pulse characteristics to understand internal balance. Dr. Ansiya's expertise provides insights into your current state (Vikriti), individual constitutional patterns (Prakriti), and specific imbalances requiring attention."
     },
     {
       title: "Prakriti assessment — understanding your individual constitution",
       description:
-        "Individual constitution (Prakriti) profoundly affects appropriate treatment approach. Vata, Pitta, Kapha, and combination constitutions respond differently to same treatments. Dr. Neethu's Prakriti assessment identifies your specific constitutional pattern guiding personalised recommendations."
+        "Individual constitution (Prakriti) profoundly affects appropriate treatment approach. Vata, Pitta, Kapha, and combination constitutions respond differently to same treatments. Dr. Ansiya's Prakriti assessment identifies your specific constitutional pattern guiding personalised recommendations."
     },
     {
       title: "Classical principles integrated with modern clinical care",
       description:
-        "Dr. Neethu combines classical Ayurvedic principles with modern clinical standards expected at a DHA-licensed medical clinic. Modern medical history reviewed, medications noted for interactions, chronic conditions acknowledged, coordination with modern medical care when relevant."
+        "Dr. Ansiya combines classical Ayurvedic principles with modern clinical standards expected at a DHA-licensed medical clinic. Modern medical history reviewed, medications noted for interactions, chronic conditions acknowledged, coordination with modern medical care when relevant."
     },
     {
       title: "Sustained partnership approach",
       description:
-        "Ayurvedic care is a journey rather than one-time treatment. Dr. Neethu maintains sustained partnership through regular follow-ups, treatment adjustments based on response, seasonal wellness recommendations, and long-term wellness support — particularly valuable for chronic conditions and women's health."
+        "Ayurvedic care is a journey rather than one-time treatment. Dr. Ansiya maintains sustained partnership through regular follow-ups, treatment adjustments based on response, seasonal wellness recommendations, and long-term wellness support — particularly valuable for chronic conditions and women's health."
     }
   ],
   education: [
@@ -1449,7 +1449,7 @@ export const drNeethu = {
     {
       number: '07',
       title: '<a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress, Anxiety & Sleep Concerns</a>',
-      description: 'Stress, anxiety, and sleep concerns are a primary clinical focus. Comprehensive multi-modal JVC programme combining <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a> therapy, constitutional herbal medicines (Brahmi, Ashwagandha, Jatamansi, Shankhpushpi), personalised lifestyle guidance, and sustained follow-up. Particularly effective for Dubai\'s high-pressure professional environment, expatriate adjustment stress, burnout recovery, and patients complementing modern mental health care. Medically reviewed by Dr. Neethu across the dedicated <a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress & Anxiety Ayurveda JVC</a> page.',
+      description: 'Stress, anxiety, and sleep concerns are a primary clinical focus. Comprehensive multi-modal JVC programme combining <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a> therapy, constitutional herbal medicines (Brahmi, Ashwagandha, Jatamansi, Shankhpushpi), personalised lifestyle guidance, and sustained follow-up. Particularly effective for Dubai\'s high-pressure professional environment, expatriate adjustment stress, burnout recovery, and patients complementing modern mental health care. Medically reviewed by Dr. Ansiya across the dedicated <a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress & Anxiety Ayurveda JVC</a> page.',
       related: 'Related: <a href="/conditions/stress-anxiety-ayurveda-jvc/">Stress & Anxiety Ayurveda JVC</a> · <a href="/treatments/shirodhara-dubai/">Shirodhara Dubai</a> · Insomnia Ayurveda'
     },
     {
@@ -1477,7 +1477,7 @@ export const drNeethu = {
       related: 'Foundation for: All Ayurveda treatment programmes at our JVC clinic'
     }
   ],
-  specialtiesFooter: 'Comprehensive consultation with Dr. Neethu identifies which of her expertise areas apply to your situation →',
+  specialtiesFooter: 'Comprehensive consultation with Dr. Ansiya identifies which of her expertise areas apply to your situation →',
   conditionsTreated: {
     subtitle: 'Comprehensive Ayurvedic approach across women\'s health, musculoskeletal, skin, hair, stress, weight, postnatal, and lifestyle conditions.',
     categories: [
@@ -1513,7 +1513,7 @@ export const drNeethu = {
       {
         category: 'Stress & Sleep',
         conditions: [
-          { title: '<a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress & Anxiety (JVC clinic)</a>', description: 'Comprehensive stress and anxiety management programme at JVC through <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a>, constitutional support, herbal medicines, and lifestyle guidance — DHA-licensed female Ayurvedic doctor Dr. Neethu. Medical review: Stress & Anxiety Ayurveda JVC page.' },
+          { title: '<a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress & Anxiety (JVC clinic)</a>', description: 'Comprehensive stress and anxiety management programme at JVC through <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a>, constitutional support, herbal medicines, and lifestyle guidance — DHA-licensed female Ayurvedic doctor Dr. Ansiya. Medical review: Stress & Anxiety Ayurveda JVC page.' },
           { title: 'Sleep Concerns & Insomnia', description: 'Shirodhara and constitutional approach for sleep quality and sleep hygiene as part of dedicated JVC stress management programme.' }
         ]
       },
@@ -1525,7 +1525,7 @@ export const drNeethu = {
         ]
       }
     ],
-    footer: 'For treatment procedures Dr. Neethu delivers, see our Ayurveda Clinic JVC and Detox Treatment pages →'
+    footer: 'For treatment procedures Dr. Ansiya delivers, see our Ayurveda Clinic JVC and Detox Treatment pages →'
   },
   reviews: {
     bgColor: "bg-[#FAF6EF]",
@@ -1533,21 +1533,21 @@ export const drNeethu = {
     isDarkText: true,
     useKneeStyle: true,
     label: "PATIENT VOICES",
-    title: "Real patient experiences with Dr. Neethu at our JVC clinic.",
+    title: "Real patient experiences with Dr. Ansiya at our JVC clinic.",
     // description: "Ayurvedic care outcomes measured over weeks and months, not single visits. These are representative patient stories from our Jumeirah Village Circle clinic.",
     items: [
       {
-        quote: "Consulted Dr. Neethu at Vedara's JVC clinic for PCOS after years of frustrating experiences at other Dubai clinics. Her approach was completely different — genuine 90-minute initial consultation with detailed Nadi Pareeksha and Prakriti assessment, discussion of my complete lifestyle and cultural dietary patterns, personalised treatment plan combining herbal medicines, dietary guidance matched to my constitution, and Panchakarma programme. Six months of sustained partnership: substantial cycle regularity, weight management progress, energy transformation.",
+        quote: "Consulted Dr. Ansiya at Vedara's JVC clinic for PCOS after years of frustrating experiences at other Dubai clinics. Her approach was completely different — genuine 90-minute initial consultation with detailed Nadi Pareeksha and Prakriti assessment, discussion of my complete lifestyle and cultural dietary patterns, personalised treatment plan combining herbal medicines, dietary guidance matched to my constitution, and Panchakarma programme. Six months of sustained partnership: substantial cycle regularity, weight management progress, energy transformation.",
         author: "Female patient, 32 · PCOS Ayurvedic Management",
         details: "Dubai Marina Resident · February 2026"
       },
       {
-        quote: "Chronic lower back pain from years of Dubai office work. Consulted Dr. Neethu at Vedara's JVC clinic on referral. Comprehensive assessment identified constitutional factors and lifestyle patterns contributing to my back pain. Personalised programme: Kativasti oil therapy series, internal Ayurvedic medicines, dietary guidance, ergonomic recommendations. Substantial pain reduction within 4 weeks, sustained improvement over 6 months. Dr. Neethu's genuine listening and sustained partnership completely different from rushed consultations elsewhere in Dubai.",
+        quote: "Chronic lower back pain from years of Dubai office work. Consulted Dr. Ansiya at Vedara's JVC clinic on referral. Comprehensive assessment identified constitutional factors and lifestyle patterns contributing to my back pain. Personalised programme: Kativasti oil therapy series, internal Ayurvedic medicines, dietary guidance, ergonomic recommendations. Substantial pain reduction within 4 weeks, sustained improvement over 6 months. Dr. Ansiya's genuine listening and sustained partnership completely different from rushed consultations elsewhere in Dubai.",
         author: "Male patient, 41 · Musculoskeletal Ayurvedic Management",
         details: "Business Bay Resident · January 2026"
       },
       {
-        quote: "Postnatal Ayurvedic care at Dr. Neethu's JVC practice after having my daughter. Comprehensive 6-week programme following traditional Kerala postnatal Ayurvedic practice — gentle therapies, nourishing dietary guidance, herbal support for recovery and lactation, home care recommendations. Also physiotherapy support from Vedara's team — integrated multi-disciplinary approach at single JVC clinic. Substantially better postnatal recovery than friends who had received only modern medical postnatal care. Transformative experience.",
+        quote: "Postnatal Ayurvedic care at Dr. Ansiya's JVC practice after having my daughter. Comprehensive 6-week programme following traditional Kerala postnatal Ayurvedic practice — gentle therapies, nourishing dietary guidance, herbal support for recovery and lactation, home care recommendations. Also physiotherapy support from Vedara's team — integrated multi-disciplinary approach at single JVC clinic. Substantially better postnatal recovery than friends who had received only modern medical postnatal care. Transformative experience.",
         author: "Female patient, 34 · Postnatal Ayurvedic Care",
         details: "JVC Family · March 2026"
       }
@@ -1562,7 +1562,7 @@ export const drNeethu = {
   },
   consultation: {
     label: "YOUR CONSULTATION",
-    title: "What to expect at your Ayurvedic consultation with Dr. Neethu.",
+    title: "What to expect at your Ayurvedic consultation with Dr. Ansiya.",
     description: "Understanding the consultation process helps you prepare and set appropriate expectations.",
     phases: [
       {
@@ -1605,7 +1605,7 @@ export const drNeethu = {
   },
   pricing: {
     label: "TRANSPARENT PRICING",
-    title: "Consultation with Dr. Neethu — pricing and insurance.",
+    title: "Consultation with Dr. Ansiya — pricing and insurance.",
     consultationRows: [
       { type: "Initial consultation (Nadi Pareeksha + Prakriti assessment + treatment plan)", duration: "90 minutes", price: "AED [X]" },
       { type: "Follow-up consultation", duration: "30–45 minutes", price: "AED [X]" },
@@ -1630,29 +1630,29 @@ export const drNeethu = {
       { text: "Browse our other doctors", href: "/doctors/" },
       { text: "See the JVC clinic page", href: "/ayurveda-clinic-jvc/" }
     ],
-    title: "What patients ask about consulting Dr. Neethu.",
+    title: "What patients ask about consulting Dr. Ansiya.",
     description: "For related topics, explore:",
     buttonText: "Ask the Team",
-    buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20consulting%20Dr.%20Neethu%20at%20your%20JVC%20clinic.",
+    buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20consulting%20Dr.%20Ansiya%20at%20your%20JVC%20clinic.",
     faqs: [
       {
-        question: "Who is Dr. Neethu?",
-        answer: "Dr. Neethu is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. She provides authentic Ayurvedic care with 11 documented expertise areas including Nadi Pareeksha, Panchakarma, women's health and PCOS, musculoskeletal disorders, skin and hair conditions, stress management, weight management, and postnatal care."
+        question: "Who is Dr. Ansiya?",
+        answer: "Dr. Ansiya is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. She provides authentic Ayurvedic care with 11 documented expertise areas including Nadi Pareeksha, Panchakarma, women's health and PCOS, musculoskeletal disorders, skin and hair conditions, stress management, weight management, and postnatal care."
       },
       {
-        question: "What are Dr. Neethu's qualifications?",
+        question: "What are Dr. Ansiya's qualifications?",
         answer: "BAMS (Bachelor of Ayurvedic Medicine and Surgery). DHA-licensed to practice Ayurvedic medicine in Dubai. Substantial clinical experience across authentic Ayurvedic assessment methods and multi-modal treatment approach. Full qualifications listed in the Credentials section above."
       },
       {
-        question: "Where does Dr. Neethu practice?",
-        answer: "Dr. Neethu practices at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. Central Dubai location accessible from Marina, Downtown, Business Bay, Al Barsha, Dubai Hills, JLT, Mirdif, and every Dubai community."
+        question: "Where does Dr. Ansiya practice?",
+        answer: "Dr. Ansiya practices at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. Central Dubai location accessible from Marina, Downtown, Business Bay, Al Barsha, Dubai Hills, JLT, Mirdif, and every Dubai community."
       },
       {
-        question: "Is Dr. Neethu female?",
-        answer: "Yes — Dr. Neethu is a female Ayurvedic doctor. Female doctor availability is important for many women preferring same-gender consultation particularly for women's health concerns."
+        question: "Is Dr. Ansiya female?",
+        answer: "Yes — Dr. Ansiya is a female Ayurvedic doctor. Female doctor availability is important for many women preferring same-gender consultation particularly for women's health concerns."
       },
       {
-        question: "What conditions does Dr. Neethu treat?",
+        question: "What conditions does Dr. Ansiya treat?",
         answer: "Comprehensive Ayurvedic care across 11 expertise areas: women's health and PCOS, musculoskeletal disorders (back pain, neck pain, sciatica, spondylosis), skin conditions (eczema, psoriasis), hair and scalp concerns, stress and sleep concerns, weight management, postnatal care, and Ayurvedic rejuvenation."
       },
       {
@@ -1661,59 +1661,59 @@ export const drNeethu = {
       },
       {
         question: "What is Prakriti assessment?",
-        answer: "Prakriti is your individual Ayurvedic constitution — Vata, Pitta, Kapha, or combination. Different constitutions respond differently to same treatments. Dr. Neethu assesses your Prakriti to guide personalised treatment recommendations."
+        answer: "Prakriti is your individual Ayurvedic constitution — Vata, Pitta, Kapha, or combination. Different constitutions respond differently to same treatments. Dr. Ansiya assesses your Prakriti to guide personalised treatment recommendations."
       },
       {
-        question: "How long is initial consultation with Dr. Neethu?",
+        question: "How long is initial consultation with Dr. Ansiya?",
         answer: "90 minutes for initial consultation — allowing comprehensive assessment including Nadi Pareeksha, Prakriti evaluation, discussion of health concerns and lifestyle, review of medical history, and personalised treatment plan discussion. Follow-up consultations typically 30-45 minutes."
       },
       {
-        question: "Does Dr. Neethu do Panchakarma?",
-        answer: "Yes — Dr. Neethu has substantial Panchakarma expertise. Panchakarma programmes at our JVC clinic delivered by DHA-licensed Ayurvedic doctors with authentic multi-phase protocols."
+        question: "Does Dr. Ansiya do Panchakarma?",
+        answer: "Yes — Dr. Ansiya has substantial Panchakarma expertise. Panchakarma programmes at our JVC clinic delivered by DHA-licensed Ayurvedic doctors with authentic multi-phase protocols."
       },
       {
-        question: "Does Dr. Neethu treat PCOS?",
-        answer: "Yes — women's health and PCOS is one of Dr. Neethu's specialised expertise areas. Ayurvedic PCOS management combines constitutional assessment, herbal medicines, Panchakarma when appropriate, dietary guidance, and lifestyle recommendations."
+        question: "Does Dr. Ansiya treat PCOS?",
+        answer: "Yes — women's health and PCOS is one of Dr. Ansiya's specialised expertise areas. Ayurvedic PCOS management combines constitutional assessment, herbal medicines, Panchakarma when appropriate, dietary guidance, and lifestyle recommendations."
       },
       {
-        question: "What languages does Dr. Neethu speak?",
+        question: "What languages does Dr. Ansiya speak?",
         answer: "English (professional fluency), Malayalam, Hindi, and additional languages serving Dubai's diverse community. Language capability specified during booking."
       },
       {
-        question: "Is Dr. Neethu DHA-licensed?",
-        answer: "Yes — Dr. Neethu is DHA (Dubai Health Authority) licensed to practice Ayurvedic medicine in Dubai. License verification is public record via DHA Sheryan directory."
+        question: "Is Dr. Ansiya DHA-licensed?",
+        answer: "Yes — Dr. Ansiya is DHA (Dubai Health Authority) licensed to practice Ayurvedic medicine in Dubai. License verification is public record via DHA Sheryan directory."
       },
       {
-        question: "Does Dr. Neethu treat men?",
-        answer: "Yes — Dr. Neethu treats both male and female patients across all her expertise areas. Musculoskeletal disorders, stress management, weight management, and skin conditions common in male patient demographic."
+        question: "Does Dr. Ansiya treat men?",
+        answer: "Yes — Dr. Ansiya treats both male and female patients across all her expertise areas. Musculoskeletal disorders, stress management, weight management, and skin conditions common in male patient demographic."
       },
       {
-        question: "Does Dr. Neethu treat children?",
-        answer: "Consultation identifies appropriate approach for pediatric patients. Some conditions and treatments appropriate for children; others require adult protocols only. Discussion during booking identifies whether Dr. Neethu is appropriate for your child's situation."
+        question: "Does Dr. Ansiya treat children?",
+        answer: "Consultation identifies appropriate approach for pediatric patients. Some conditions and treatments appropriate for children; others require adult protocols only. Discussion during booking identifies whether Dr. Ansiya is appropriate for your child's situation."
       },
       {
         question: "How is Ayurvedic treatment coordinated with modern medicine?",
-        answer: "Dr. Neethu's approach integrates classical Ayurvedic principles with modern clinical care standards. Modern medications reviewed, chronic conditions acknowledged, coordination with modern medical care when relevant. Not alternative-to-medicine — complementary integration."
+        answer: "Dr. Ansiya's approach integrates classical Ayurvedic principles with modern clinical care standards. Modern medications reviewed, chronic conditions acknowledged, coordination with modern medical care when relevant. Not alternative-to-medicine — complementary integration."
       },
       {
-        question: "Does Dr. Neethu do postnatal Ayurvedic care?",
-        answer: "Yes — postnatal Ayurvedic care is one of Dr. Neethu's specialised expertise areas. Multi-week postnatal programmes typically beginning weeks 3-8 postpartum supporting recovery, nourishment, strength, and overall wellbeing."
+        question: "Does Dr. Ansiya do postnatal Ayurvedic care?",
+        answer: "Yes — postnatal Ayurvedic care is one of Dr. Ansiya's specialised expertise areas. Multi-week postnatal programmes typically beginning weeks 3-8 postpartum supporting recovery, nourishment, strength, and overall wellbeing."
       },
       {
-        question: "Does Dr. Neethu prescribe herbal medicines?",
+        question: "Does Dr. Ansiya prescribe herbal medicines?",
         answer: "Yes — internal Ayurvedic herbal medicines are standard component of Ayurvedic treatment. Herbal preparations matched to your constitution, condition, and treatment goals. All prescriptions from DHA-approved Ayurvedic pharmacy sources."
       },
       {
-        question: "Can I book WhatsApp consultation with Dr. Neethu?",
+        question: "Can I book WhatsApp consultation with Dr. Ansiya?",
         answer: "WhatsApp consultation follow-ups available for existing patients only. Initial consultation must be in-person at our JVC clinic for comprehensive assessment including Nadi Pareeksha which requires physical presence."
       },
       {
-        question: "How is Dr. Neethu's approach different from other Ayurvedic doctors in Dubai?",
+        question: "How is Dr. Ansiya's approach different from other Ayurvedic doctors in Dubai?",
         answer: "DHA-licensed BAMS-qualified authentic Ayurvedic doctor. 11 documented expertise areas rather than generalised practice. Personalised holistic approach with comprehensive Nadi Pareeksha assessment. Sustained partnership approach. Female doctor availability. Multi-language capability. Integrated with Vedara Care multi-disciplinary team at JVC clinic."
       },
       {
-        question: "How do I book consultation with Dr. Neethu?",
-        answer: "Three ways: WhatsApp specifying you want appointment with Dr. Neethu — fastest response; call 9AM-9PM seven days a week; book online. Please bring for initial consultation: current health concerns, current medications, previous medical reports if relevant, insurance card if applicable, specific questions and treatment goals."
+        question: "How do I book consultation with Dr. Ansiya?",
+        answer: "Three ways: WhatsApp specifying you want appointment with Dr. Ansiya — fastest response; call 9AM-9PM seven days a week; book online. Please bring for initial consultation: current health concerns, current medications, previous medical reports if relevant, insurance card if applicable, specific questions and treatment goals."
       }
     ]
   },
@@ -1729,11 +1729,11 @@ export const drNeethu = {
   location: {
     bgColor: "bg-white",
     label: "VISIT US",
-    title: "Where Dr. Neethu practices — Vedara Care JVC clinic.",
+    title: "Where Dr. Ansiya practices — Vedara Care JVC clinic.",
     address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeirah Village Circle (JVC) Dubai",
     phone: "+971 55 573 6312",
     whatsapp: "+971 55 573 6312",
-    whatsappMessage: "Hi, I'd like to inquire about booking a consultation with Dr. Neethu at your JVC clinic.",
+    whatsappMessage: "Hi, I'd like to inquire about booking a consultation with Dr. Ansiya at your JVC clinic.",
     email: "booking@vedaracare.ae",
     hours: "Monday - Sunday: 9:00 am to 10:00 pm",
     landmarks: [
@@ -1743,21 +1743,21 @@ export const drNeethu = {
       "Free patient parking available",
       "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
     ],
-    description: "Dr. Neethu consults at Vedara Care Polyclinic JVC with dedicated Ayurvedic consultation rooms, Panchakarma treatment suites, and access to integrated physiotherapy and dermatology services within the same clinic.",
-    buttonText: "Book Dr. Neethu Consultation",
+    description: "Dr. Ansiya consults at Vedara Care Polyclinic JVC with dedicated Ayurvedic consultation rooms, Panchakarma treatment suites, and access to integrated physiotherapy and dermatology services within the same clinic.",
+    buttonText: "Book Dr. Ansiya Consultation",
     buttonHref: "/book",
-    mapAlt: "Vedara Care Polyclinic location in Jumeirah Village Circle — Dr. Neethu's clinic",
+    mapAlt: "Vedara Care Polyclinic location in Jumeirah Village Circle — Dr. Ansiya's clinic",
     mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
   },
   cta: {
     bgColor: "bg-[#FAF6EF]",
     label: "READY?",
     title: "Comprehensive Ayurvedic consultation is the starting point.",
-    description: "Whether you're seeking Ayurvedic care for PCOS, chronic musculoskeletal issues, persistent skin or hair conditions, stress and sleep concerns, weight management, postnatal recovery, or Ayurvedic rejuvenation — comprehensive consultation with Dr. Neethu identifies whether her expertise matches your situation. DHA-licensed BAMS-qualified doctor. 90-minute assessment including Nadi Pareeksha and Prakriti evaluation. Same-week consultation appointments typically available at our JVC clinic.",
-    button1Text: "Book Dr. Neethu Consultation",
+    description: "Whether you're seeking Ayurvedic care for PCOS, chronic musculoskeletal issues, persistent skin or hair conditions, stress and sleep concerns, weight management, postnatal recovery, or Ayurvedic rejuvenation — comprehensive consultation with Dr. Ansiya identifies whether her expertise matches your situation. DHA-licensed BAMS-qualified doctor. 90-minute assessment including Nadi Pareeksha and Prakriti evaluation. Same-week consultation appointments typically available at our JVC clinic.",
+    button1Text: "Book Dr. Ansiya Consultation",
     button1Href: "/book",
     button2Text: "Chat on WhatsApp",
-    button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20booking%20a%20consultation%20with%20Dr.%20Neethu%20at%20your%20JVC%20clinic.",
+    button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20booking%20a%20consultation%20with%20Dr.%20Ansiya%20at%20your%20JVC%20clinic.",
     bullets: [
       "Initial consultation from AED [X] · 90-minute comprehensive assessment",
       "DHA-Licensed BAMS Ayurvedic Doctor 11 documented expertise areas",
@@ -1769,14 +1769,14 @@ export const drNeethu = {
   relatedPages: {
     bgColor: "bg-[#F5F0E8]",
     label: "EXPLORE",
-    title: "Explore Dr. Neethu's expertise areas.",
+    title: "Explore Dr. Ansiya's expertise areas.",
     linkText: "All our doctors",
     linkHref: "/doctors/",
     columns: 4,
     pages: [
       { title: "Ayurveda Clinic JVC", description: "Comprehensive Ayurveda services at our JVC clinic — full range of treatments, consultations, and specialised programmes.", href: "/ayurveda-clinic-jvc/" },
       { title: "Detox Treatment Dubai", description: "Authentic Panchakarma programmes at our JVC clinic. Multi-day traditional detoxification protocols delivered by DHA-licensed doctors.", href: "/treatments/detox-dubai/" },
-      { title: "PCOS Ayurvedic Treatment Dubai  ", description: "Comprehensive PCOS Ayurvedic management at our JVC clinic — one of Dr. Neethu's specialised expertise areas.", href: "/conditions/pcos-ayurveda-dubai/" },
+      { title: "PCOS Ayurvedic Treatment Dubai  ", description: "Comprehensive PCOS Ayurvedic management at our JVC clinic — one of Dr. Ansiya's specialised expertise areas.", href: "/conditions/pcos-ayurveda-dubai/" },
       { title: "Integrated Wellness JVC", description: "Multi-disciplinary wellness combining Ayurveda with physiotherapy, dermatology, and home healthcare at our JVC clinic.", href: "/wellness-clinic-jvc/" },
 
     ]
@@ -1992,6 +1992,126 @@ export const emielSanchezData = {
       { title: 'Wellness Clinic JVC', description: '', href: '/wellness-clinic-jvc/' },
       { title: 'Ayurveda Clinic JVC', description: '', href: '/ayurveda-clinic-jvc/' },
       { title: 'Book a Consultation', description: '', href: '/book/' }
+    ]
+  }
+};
+
+// =====================================================
+// AESTHETICIAN ARFAH OWAIS — FULL TEMPLATE DATA
+// =====================================================
+export const arfahOwaisTemplate = {
+  name: 'Aesthetician Arfah Owais',
+  firstName: 'Arfah',
+  title: 'DHA Licensed Aesthetician | CIBTAC-UK Diploma Holder | NCLC Certified | PMU Certified | Advanced Skin Treatments | Luxury Skin Care.',
+  image: '/images/arfah-owais-aesthetician.webp',
+  alt: 'Aesthetician Arfah Owais',
+  heroBadge: 'AESTHETICIAN',
+  heroStats: '8+ Years Clinical Experience',
+  subtitle: 'Advanced Facial Therapy & Aesthetic Skincare',
+  ratingText: '',
+  primaryCtaText: 'Book an Appointment',
+  secondaryCtaText: 'Chat on WhatsApp',
+  primaryCtaHref: '/book',
+  secondaryCtaHref: 'https://wa.me/971555736312?text=' + encodeURIComponent("Hi, I'd like to book an appointment with Aesthetician Arfah Owais."),
+  bio: 'With 8+ years of hands-on clinical experience, specialising in advanced facial therapy, skincare treatment planning and aesthetic skincare. Committed to continuous professional development while maintaining the highest standards of patient safety, hygiene and DHA-compliant practice.',
+  trustSignals: [
+    "DHA Licensed Aesthetician",
+    "CIBTAC-UK Diploma Holder",
+    "NCLC Certified",
+    "PMU Certified"
+  ],
+  floatingCardTitle: "DHA LICENSED AESTHETICIAN",
+  floatingCardSubtitle: "In-clinic appointments at Vedara Care Polyclinic JVC, Dubai. Near Circle Mall.",
+  pageTitle: 'Aesthetician Arfah Owais',
+  aboutH2: 'PROFILE SUMMARY',
+  aboutLabel: "PROFILE SUMMARY",
+  summaryTitle: "With 8+ years of hands-on clinical experience, specialising in advanced facial therapy, skincare treatment planning and aesthetic skincare.",
+  summaryParagraph1: "Committed to continuous professional development while maintaining the highest standards of patient safety, hygiene and DHA-compliant practice.",
+  // summaryParagraph2: "",
+  aboutFooter: "DHA Licensed Aesthetician | CIBTAC-UK Diploma Holder | NCLC Certified | PMU Certified",
+  approach: [
+    { title: 'Comprehensive Skin Analysis', description: "" },
+    { title: 'Personalized Treatment Planning', description: "" },
+    { title: 'Customized Facial Protocols', description: "" },
+    { title: 'Pre- & Post-Treatment Skincare Guidance', description: "" }
+  ],
+  specialtiesList: [
+    { number: '01', title: 'Advanced Aesthetic & Skin Rejuvenation', description: 'Comprehensive skin renewal therapies designed to restore youthful vitality, improve overall skin health, and address various aesthetic concerns.', related: 'CORE STRENGTH: Skin Rejuvenation' },
+    { number: '02', title: 'Advanced Facial Rejuvenation & Skin Renewal', description: 'Targeted facial treatments utilizing premium products and techniques to deeply nourish, repair, and revitalize aging or damaged skin.', related: 'CORE STRENGTH: Skin Renewal' },
+    { number: '03', title: 'HydraFacial & Oxy-Geneo Facial Treatments', description: 'State-of-the-art, non-invasive facial treatments providing deep cleansing, exfoliation, extraction, and intense hydration for an immediate glow.', related: 'CORE STRENGTH: Advanced Facials' },
+    { number: '04', title: 'Microdermabrasion & Controlled Skin Resurfacing', description: 'Mechanical exfoliation to gently remove the outermost layer of dead skin cells, promoting cell turnover and revealing smoother, brighter skin.', related: 'CORE STRENGTH: Skin Resurfacing' },
+    { number: '05', title: 'Exosome Skin Rejuvenation & Regeneration', description: 'Cutting-edge regenerative therapy using exosomes to stimulate cellular repair, boost collagen production, and significantly improve skin texture.', related: 'CORE STRENGTH: Regenerative Therapy' },
+    { number: '06', title: 'Mesotherapy & Skin Revitalization', description: 'Micro-injections of potent vitamins, enzymes, and plant extracts to rejuvenate and tighten skin, whilst addressing pigmentation and dehydration.', related: 'CORE STRENGTH: Skin Revitalization' },
+    { number: '07', title: 'Dermaplaning and Skin Resurfacing', description: 'Manual exfoliation technique that safely removes dead skin and vellus hair, leaving the skin exceptionally smooth and radiant.', related: 'CORE STRENGTH: Exfoliation' },
+    { number: '08', title: 'PRP Facial Treatments', description: 'Platelet-Rich Plasma therapy harnessing your body\'s natural healing factors to stimulate collagen, reduce fine lines, and rejuvenate the complexion.', related: 'CORE STRENGTH: PRP Therapy' },
+    { number: '09', title: 'Customized Anti-Aging & Skin-Firming Protocols', description: 'Tailored treatment plans combining various modalities to effectively target skin laxity, wrinkles, and signs of aging for firmer, younger-looking skin.', related: 'CORE STRENGTH: Anti-Aging' }
+  ],
+  specialtiesLabel: 'AREAS OF EXPERTISE',
+  specialtiesTitle: 'Areas of Expertise',
+  specialtiesSubtitle: 'With 8+ years of hands-on clinical experience, Arfah provides customized and effective skincare solutions for a wide range of aesthetic concerns.',
+  specialtiesFooter: 'A thorough skin analysis with Arfah will determine the best course of treatment for your skin →',
+  credentialsTitle: 'The training behind every treatment.',
+  credentialsSubtitle: 'We believe patients deserve to know the qualifications and training behind the person treating them.',
+  education: [
+    'DHA Licensed Aesthetician',
+    'CIBTAC-UK Diploma Holder',
+    'NCLC Certified',
+    'PMU Certified'
+  ],
+  languagesSpoken: ['English'],
+  professionalMemberships: [
+    'DHA Licensed Aesthetician'
+  ],
+  certifications: [
+    'CIBTAC-UK Diploma Holder',
+    'NCLC Certified',
+    'PMU Certified'
+  ],
+  conditionsTitle: 'Advanced Skincare & Treatment Protocols',
+  conditionsTreated: {
+    subtitle: '',
+    categories: [
+      {
+        category: 'Advanced Device-Based Treatments',
+        conditions: [
+          { title: 'HIFU (High-Intensity Focused Ultrasound)', description: 'for Skin Lifting & Tightening' },
+          { title: 'Radiofrequency (RF)', description: 'Skin Tightening' },
+          { title: 'RF Microneedling', description: 'for Skin Resurfacing & Rejuvenation' },
+          { title: 'Carbon Laser Peel', description: '' },
+          { title: 'Laser Skin Rejuvenation & Laser Toning', description: '' }
+        ]
+      },
+      {
+        category: 'Corrective Skin Treatments',
+        conditions: [
+          { title: 'Pigmentation & Uneven Skin Tone Management', description: '' },
+          { title: 'Skin Brightening & Complexion Refinement', description: '' },
+          { title: 'Acne Scar Treatments', description: '' },
+          { title: 'Pore & Skin Texture Refinement', description: '' },
+          { title: 'Skin Firmness & Early Signs of Aging', description: '' }
+        ]
+      },
+      {
+        category: 'Professional Skin Management',
+        conditions: [
+          { title: 'Comprehensive Skin Analysis', description: '' },
+          { title: 'Personalized Treatment Planning', description: '' },
+          { title: 'Customized Facial Protocols', description: '' },
+          { title: 'Pre- & Post-Treatment Skincare Guidance', description: '' }
+        ]
+      }
+    ]
+  },
+  relatedPages: {
+    label: 'EXPLORE',
+    title: 'Explore our clinic and healthcare team.',
+    linkText: 'All our practitioners',
+    linkHref: '/doctors/',
+    columns: 4,
+    pages: [
+      { title: 'Our Doctors', description: '', href: '/doctors/' },
+      { title: 'Wellness Clinic JVC', description: '', href: '/wellness-clinic-jvc/' },
+      { title: 'Book an Appointment', description: '', href: '/book/' }
     ]
   }
 };

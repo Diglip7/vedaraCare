@@ -141,7 +141,7 @@ export const homeConditions = {
   items: [
     { title: "Chronic Back Pain", category: "Pain", description: "Integrated treatment combining manual therapy and Ayurvedic protocols", sub: "Ayurveda and Physio", link: "/conditions/back-pain-ayurveda-dubai/" },
     { title: "PCOS", category: "Womens Health", description: "Hormonal balance through traditional Ayurvedic medicine", sub: "Ayurveda", link: "/conditions/pcos-ayurveda-dubai/" },
-    { title: "Hair Loss", category: "Skin and Hair", description: "Combined approach for hair restoration and scalp health", sub: "Dermatology and Ayurveda", link: "/conditions/hair-loss-ayurveda-dubai/" },
+    { title: "Hair Loss Treatment in JVC", category: "Skin and Hair", description: "Combined approach for hair restoration and scalp health", sub: "Dermatology and Ayurveda", link: "/conditions/hair-loss-treatment-jvc" },
     { title: "Neck and Shoulder Pain", category: "Pain", description: "Manual therapy and targeted rehabilitation", sub: "Physio", link: "/conditions/neck-pain-physiotherapy-jvc" },
     { title: "Sports Injuries", category: "Pain", description: "Evidence-based sports injury rehabilitation", sub: "Physio", link: "/physiotherapy/sports-injury-jvc" },
     { title: "Acne and Scars", category: "Skin and Hair", description: "Medical-grade acne treatment and scar reduction", sub: "Dermatology", link: "/conditions/acne-scars-dubai" },

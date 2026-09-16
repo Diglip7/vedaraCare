@@ -23,7 +23,7 @@ export const jaluproHero = {
     title: "Formulation-Led Hydration",
     subtitle: "Jalupro is a family of injectable products combining amino acids and hyaluronic acid — formulations differ, so treatment is matched to individual skin and goals."
   },
-  image: "/images/jalupro-consultation-vedara-care-jvc.jpg",
+  image: "/images/jalupro-consultation-vedara-care-jvc.webp",
   alt: "Jalupro treatment consultation at Vedara Care Polyclinic in JVC",
   caption: "Every Jalupro treatment plan begins with a one-to-one consultation."
 };
@@ -42,7 +42,7 @@ export const jaluproExplanation = {
   content: [
     "This is a more accurate description than calling Jalupro \"a miracle skin booster.\" Because it spans multiple formulations, the product actually used in your treatment — and why — should be explained clearly by your clinician rather than assumed from marketing language. The specific Jalupro formulation used depends on the treatment plan and clinical assessment."
   ],
-  image: "/images/patient-clinician-discussion-jalupro-jvc.jpg",
+  image: "/images/patient-clinician-discussion-jalupro-jvc.webp",
   alt: "Patient discussing skin concerns with a clinician in Jumeirah Village Circle",
   // caption: "Open discussion of goals and concerns supports a more personalised treatment plan."
 };
@@ -54,7 +54,7 @@ export const jaluproHowItWorks = {
   points: [
     "In practical terms, this combination is generally discussed in relation to skin quality, hydration, texture and elasticity, rather than one dramatic change.",
     "Individual biological response plays a significant role, and these mechanisms should not be read as promises of a specific clinical outcome.",
-    
+
   ]
 };
 
@@ -154,7 +154,7 @@ export const jaluproAppointment = {
     "Aftercare Instructions: You receive clear guidance for the days following."
   ],
   footer: "Exact injection points, depth, quantity or session duration are protocol-specific and depend on your individual plan, discussed directly with you rather than presented as fixed figures.",
-  image: "/images/jalupro-injection-procedure-professional-treatment-jvc.jpg",
+  image: "/images/jalupro-injection-procedure-professional-treatment-jvc.webp",
   alt: "Professional Jalupro injection procedure being administered at a JVC clinic",
   caption: "Jalupro is administered at carefully selected injection points per protocol"
 };
@@ -408,12 +408,12 @@ export const jaluproRelatedPages = {
   label: "EXPLORE MORE",
   title: "Related Dermatology Services",
   pages: [
-    { title: "Profhilo Treatment in JVC", href: "//treatments/profhilo-treatment-jvc", description: "Another injectable skin-quality treatment that may be considered depending on hydration and skin-laxity concerns." },
-    { title: "Skin Boosters in JVC", href: "/skin-clinic-jvc", description: "A broader category of injectable hydration treatments that may suit certain skin-quality goals" },
+    { title: "Profhilo Treatment in JVC", href: "/treatments/profhilo-treatment-jvc", description: "Another injectable skin-quality treatment that may be considered depending on hydration and skin-laxity concerns." },
+    { title: "Skin Boosters in JVC", href: "/treatments/skin-boosters-jvc", description: "A broader category of injectable hydration treatments that may suit certain skin-quality goals" },
     { title: "HydraFacial in JVC", href: "/hydrafacial-jvc", description: "A non-invasive facial approach combining cleansing, exfoliation and hydration depending on the protocol" },
     { title: "Microneedling in JVC", href: "/treatments/microneedling-jvc", description: "A collagen-focused skin treatment that may be considered for selected texture and rejuvenation concerns." },
     { title: "RF Microneedling in JVC ", href: "/treatments/rf-microneedling-jvc", description: "A treatment combining microneedling with radiofrequency energy for selected texture and tightening concerns." },
     { title: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc", description: "A professional skin assessment can help determine which treatment is most appropriate for your individual concerns." },
-   
+
   ]
 };

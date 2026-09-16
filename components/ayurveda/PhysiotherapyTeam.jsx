@@ -47,9 +47,11 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
                       </span>
                     ))}
                   </div>
-                  <p className="text-sm text-[#6B7280]" style={{ lineHeight: '1.6' }}>
-                    {member.experience || member.description}
-                  </p>
+                  <p 
+                    className="text-sm text-[#6B7280]" 
+                    style={{ lineHeight: '1.6' }}
+                    dangerouslySetInnerHTML={{ __html: member.experience || member.description }}
+                  />
                   {member.languages && member.languages.length > 0 && (
                     <div className="space-y-1">
                       <div className="text-xs text-[#6B7280] uppercase tracking-[0.15em] font-semibold">Languages spoken</div>

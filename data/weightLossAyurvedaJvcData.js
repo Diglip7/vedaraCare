@@ -33,8 +33,8 @@ export const weightLossJvcHero = {
 export const weightLossJvcIntro = {
   label: "QUICK ANSWER",
   title: "Weight management Ayurvedic care at Vedara Care, in one paragraph.",
-  blockquote: "Weight management Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic sustainable constitutional Ayurvedic approach delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Neethu with substantial expertise in weight management and lifestyle disorders. Comprehensive approach: constitutional assessment (Prakriti and Vikriti) identifying your specific metabolic patterns, Nadi Pareeksha pulse-based assessment, Agni (digestive fire) evaluation, and personalised treatment plan matched to your presentation. Treatment components combine Panchakarma detoxification programmes for metabolic reset, Udvartana traditional herbal powder massage specifically for weight management, Ayurvedic herbal medicines matched to constitution (Triphala, Guggul, Medohar preparations), personalised dietary guidance with cultural sensitivity for Dubai's diverse community, and comprehensive lifestyle recommendations. Realistic outcome framing throughout — sustainable weight management is journey of months rather than quick-fix approach. No extreme dietary restrictions, no crash diets, no rapid weight loss promises. Female practitioner (Dr. Neethu) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.",
-  footer: "Medically reviewed by Dr. Neethu, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated August 2026"
+  blockquote: "Weight management Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic sustainable constitutional Ayurvedic approach delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya with substantial expertise in weight management and lifestyle disorders. Comprehensive approach: constitutional assessment (Prakriti and Vikriti) identifying your specific metabolic patterns, Nadi Pareeksha pulse-based assessment, Agni (digestive fire) evaluation, and personalised treatment plan matched to your presentation. Treatment components combine Panchakarma detoxification programmes for metabolic reset, Udvartana traditional herbal powder massage specifically for weight management, Ayurvedic herbal medicines matched to constitution (Triphala, Guggul, Medohar preparations), personalised dietary guidance with cultural sensitivity for Dubai's diverse community, and comprehensive lifestyle recommendations. Realistic outcome framing throughout — sustainable weight management is journey of months rather than quick-fix approach. No extreme dietary restrictions, no crash diets, no rapid weight loss promises. Female practitioner (Dr. Ansiya) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.",
+  footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated August 2026"
 };
 
 export const weightLossJvcMechanism = {
@@ -68,7 +68,7 @@ export const weightLossJvcMechanism = {
   },
   rightContent: {
     image: "/images/ayurveda-weight-management-consultation-jvc-dubai.webp",
-    alt: "Traditional Ayurvedic weight management Dr Neethu Vedara Care JVC",
+    alt: "Traditional Ayurvedic weight management Dr Ansiya Vedara Care JVC",
     label: "DHA-LICENSED AYURVEDIC CARE",
     items: [
       "Constitutional Prakriti & Vikriti assessment",
@@ -111,7 +111,7 @@ export const weightLossJvcConditions = {
     {
       number: "04",
       title: "Perimenopausal Weight Changes",
-      description: "Hormonal weight changes during perimenopausal transition — distinct pattern from other weight concerns. Female practitioner (Dr. Neethu) particularly important. Approach addresses hormonal factors alongside metabolic support.<br/><br/><span style='color:#C9A961;font-size:12px;font-weight:600;'>Typical Approach:</span> <span style='font-size:12px;color:#C9A961;'>Female practitioner consultation · Hormonal-metabolic assessment · Coordinated gynaecological care</span>",
+      description: "Hormonal weight changes during perimenopausal transition — distinct pattern from other weight concerns. Female practitioner (Dr. Ansiya) particularly important. Approach addresses hormonal factors alongside metabolic support.<br/><br/><span style='color:#C9A961;font-size:12px;font-weight:600;'>Typical Approach:</span> <span style='font-size:12px;color:#C9A961;'>Female practitioner consultation · Hormonal-metabolic assessment · Coordinated gynaecological care</span>",
       alt: "Perimenopausal weight changes Ayurveda Vedara Care"
     },
     {
@@ -276,15 +276,15 @@ export const weightLossJvcApproaches = {
 export const weightLossTeam = {
   label: "THE TEAM",
   title: "Ayurvedic doctors for weight management at our JVC clinic serving Dubai.",
-  subtitle: "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial expertise in weight management, lifestyle disorders, and metabolic wellness. Female practitioner (Dr. Neethu) available particularly important for hormonal weight concerns, post-pregnancy, and cultural preferences. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.",
+  subtitle: "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial expertise in weight management, lifestyle disorders, and metabolic wellness. Female practitioner (Dr. Ansiya) available particularly important for hormonal weight concerns, post-pregnancy, and cultural preferences. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.",
   cards: [
     {
-      name: "Dr. Neethu",
+      name: "Dr. Ansiya",
       role: "Lead Weight Management Ayurvedic Doctor",
       tag: "FEMALE PRACTITIONER",
       description: "DHA-Licensed BAMS-Qualified Ayurvedic Doctor with substantial weight management and lifestyle disorders expertise. Female practitioner providing comprehensive constitutional assessment, personalised sustainable programme design, sustained partnership approach. Cultural competence across Dubai's diverse community for dietary sensitivity. Integrated expertise with PCOS care, postnatal care, and stress-related weight patterns.",
-      linkText: "View Dr. Neethu's full profile →",
-      link: "/doctors/dr-neethu-ayurveda/"
+      linkText: "View Dr. Ansiya's full profile →",
+      link: "/doctors/dr-ansiya-ayurveda/"
     },
     {
       name: "Ayurvedic Therapy Team",
@@ -314,9 +314,9 @@ export const weightLossFaqs = {
     { question: "How much weight can I lose with Ayurvedic approach?", answer: "Individual variation is substantial based on starting metabolic status, constitutional factors, adherence to lifestyle recommendations, and personal response. We do not promise specific weight loss amounts. Realistic framing — sustainable weight management is journey of months producing gradual sustained changes reflecting genuine metabolic improvement rather than rapid loss followed by regain." },
     { question: "How long does Ayurvedic weight management take?", answer: "Sustainable weight management is journey of months rather than weeks. Some patients experience initial improvements (better digestion, improved energy, initial modest weight changes) within first month. Substantial sustainable progress typically 3–6 months with committed programme. Long-term sustained results require ongoing lifestyle partnership rather than time-limited programme completion." },
     { question: "Where in Dubai is your clinic?", answer: "DHA-licensed clinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Accessible from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, and Mirdif." },
-    { question: "Do you have a female Ayurvedic doctor?", answer: "Yes — Dr. Neethu is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial weight management expertise particularly important for hormonal weight concerns (perimenopausal, PCOS-related, post-pregnancy) and cultural preferences for same-gender consultation." },
+    { question: "Do you have a female Ayurvedic doctor?", answer: "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial weight management expertise particularly important for hormonal weight concerns (perimenopausal, PCOS-related, post-pregnancy) and cultural preferences for same-gender consultation." },
     { question: "Will you make me follow an extreme diet?", answer: "No. Our approach uses sustainable dietary guidance matched to your constitution and cultural preferences — not extreme restrictions or calorie counting. Cultural dietary sensitivity essential for Dubai's diverse community. Sustainable dietary changes producing sustained lifestyle patterns rather than temporary compliance with unsustainable rules." },
-    { question: "What if I have PCOS?", answer: "PCOS-related weight concerns require integrated approach addressing hormonal and metabolic factors simultaneously. Weight management programme can be integrated with our PCOS care for coordinated hormonal-metabolic approach. Dr. Neethu has substantial expertise in both conditions." },
+    { question: "What if I have PCOS?", answer: "PCOS-related weight concerns require integrated approach addressing hormonal and metabolic factors simultaneously. Weight management programme can be integrated with our PCOS care for coordinated hormonal-metabolic approach. Dr. Ansiya has substantial expertise in both conditions." },
     { question: "What about post-pregnancy weight?", answer: "Post-pregnancy weight retention requires sustained approach recognising postpartum body needs sustained recovery. Not appropriate for crash diet approaches. Coordinated with our postnatal Ayurvedic care for weaning mothers. Approach accommodates breastfeeding considerations when relevant." },
     { question: "Do you offer weight management guidance during Ramadan?", answer: "Yes — Ramadan weight pattern guidance available for Muslim patients. Ayurvedic approach supports sustained wellness within Ramadan practice — dietary timing at Suhoor and Iftar supporting metabolic function, appropriate food choices, herbal support consistent with fasting, cultural respect throughout all guidance." },
     { question: "What if I have an eating disorder?", answer: "Patients with active eating disorder patterns require specialist mental health care rather than weight-focused programme. Consultation includes screening for disordered eating indicators. We provide appropriate escalation to specialist mental health care rather than reinforcing potentially harmful patterns. This safety approach protects vulnerable patients." },
@@ -324,10 +324,10 @@ export const weightLossFaqs = {
     { question: "Which languages do you speak?", answer: "Arabic, English, Hindi, Malayalam (particularly relevant for Kerala Ayurvedic tradition), and Urdu across our team. Cultural dietary competence essential — team accommodates diverse cultural food preferences including Indian, Arab, Filipino, and Western dietary patterns." },
     { question: "Is Ayurvedic weight management covered by insurance?", answer: "Typically self-pay as wellness/complementary care. Some elements may be covered with medical justification for specific conditions (metabolic syndrome, obesity classification). Direct billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife for covered elements." },
     { question: "How long before I see results?", answer: "Realistic framing is essential — some patients notice improved digestion, energy levels, and modest initial changes within the first 4–6 weeks. Substantial sustainable weight changes typically reflect 3–6 months of committed programme. Results are gradual by design: sustainable metabolic change rather than rapid loss." },
-    { question: "How do I book a weight management consultation?", answer: "Three ways: WhatsApp us specifying weight management consultation ideally with Dr. Neethu — fastest response; call our JVC clinic 9AM–9PM seven days a week; or book online. Please bring your weight history, previous approaches tried, current medications, insurance card if applicable, and cultural dietary preferences." }
+    { question: "How do I book a weight management consultation?", answer: "Three ways: WhatsApp us specifying weight management consultation ideally with Dr. Ansiya — fastest response; call our JVC clinic 9AM–9PM seven days a week; or book online. Please bring your weight history, previous approaches tried, current medications, insurance card if applicable, and cultural dietary preferences." }
   ],
   sidebarLinks: [
-    { text: "Dr. Neethu's profile", href: "/doctors/dr-neethu-ayurveda/" },
+    { text: "Dr. Ansiya's profile", href: "/doctors/dr-ansiya-ayurveda/" },
     { text: "Detox treatment", href: "/treatments/detox-dubai/" },
     { text: "PCOS care", href: "/conditions/pcos-ayurveda-dubai/" },
     { text: "Stress & anxiety care", href: "/conditions/stress-anxiety-ayurveda-jvc/" }
@@ -346,9 +346,9 @@ export const weightLossJvcLocation = {
 
 export const weightLossCTA = {
   title: "Comprehensive consultation is the starting point.",
-  description: "Whether you're seeking sustainable healthy weight management after unsatisfactory experiences with crash diets, managing post-pregnancy weight retention, addressing PCOS-related weight concerns, navigating perimenopausal weight changes, managing stress-related weight patterns, supporting metabolic syndrome, or wanting preventive metabolic wellness — comprehensive consultation with Dr. Neethu identifies your specific situation and designs sustainable personalised approach. DHA-licensed authentic Ayurvedic care coordinated with modern medical care when appropriate. Same-week consultation appointments typically available at our JVC clinic walking distance from Circle Mall.",
-  button1Text: "Book Consultation with Dr. Neethu",
-  button1TextHref: "/doctors/dr-neethu-ayurveda/",
+  description: "Whether you're seeking sustainable healthy weight management after unsatisfactory experiences with crash diets, managing post-pregnancy weight retention, addressing PCOS-related weight concerns, navigating perimenopausal weight changes, managing stress-related weight patterns, supporting metabolic syndrome, or wanting preventive metabolic wellness — comprehensive consultation with Dr. Ansiya identifies your specific situation and designs sustainable personalised approach. DHA-licensed authentic Ayurvedic care coordinated with modern medical care when appropriate. Same-week consultation appointments typically available at our JVC clinic walking distance from Circle Mall.",
+  button1Text: "Book Consultation with Dr. Ansiya",
+  button1TextHref: "/doctors/dr-ansiya-ayurveda/",
   button2Text: "WhatsApp Us",
   button2TextHref: "https://wa.me/971555736312",
   bullets: [
@@ -371,7 +371,7 @@ export const weightLossJvcRelatedPages = {
   label: "Explore Further",
   title: "Related pages for sustainable wellness.",
   pages: [
-    { title: "Dr. Neethu — Ayurvedic Doctor", description: "Female DHA-licensed BAMS practitioner with substantial weight management and lifestyle disorders expertise.", href: "/doctors/dr-neethu-ayurveda/" },
+    { title: "Dr. Ansiya — Ayurvedic Doctor", description: "Female DHA-licensed BAMS practitioner with substantial weight management and lifestyle disorders expertise.", href: "/doctors/dr-ansiya-ayurveda/" },
     { title: "Panchakarma Detox Treatment Dubai", description: "Detailed information on Panchakarma metabolic reset — the foundation for comprehensive weight management programmes.", href: "/treatments/detox-dubai/" },
     { title: "PCOS Ayurvedic Care Dubai", description: "Related condition — PCOS and weight concerns commonly intersect. Integrated hormonal-metabolic approach.", href: "/conditions/pcos-ayurveda-dubai/" },
     { title: "Stress & Anxiety Ayurvedic Care JVC", description: "Stress and weight patterns are bidirectional. Integrated stress management for weight-related presentations.", href: "/conditions/stress-anxiety-ayurveda-jvc/" },
@@ -418,13 +418,13 @@ export const weightLossJvcReviews = {
   title: "Real sustainable weight management outcomes with Ayurvedic care at our JVC clinic.",
   items: [
     {
-      quote: "Indian expat mother living in Downtown Dubai. Sustained weight gain after two pregnancies plus Dubai lifestyle transition. Tried multiple crash diets over years with typical yo-yo pattern. Consulted Dr. Neethu at Vedara's JVC clinic seeking sustainable approach. Comprehensive 90-minute assessment identified my Kapha-predominant constitutional pattern. Six months in: sustained gradual weight changes reflecting genuine metabolic improvement — not the rapid loss followed by regain I experienced before. Better energy, improved digestion, healthier relationship with food. Sustainable partnership continuing.",
+      quote: "Indian expat mother living in Downtown Dubai. Sustained weight gain after two pregnancies plus Dubai lifestyle transition. Tried multiple crash diets over years with typical yo-yo pattern. Consulted Dr. Ansiya at Vedara's JVC clinic seeking sustainable approach. Comprehensive 90-minute assessment identified my Kapha-predominant constitutional pattern. Six months in: sustained gradual weight changes reflecting genuine metabolic improvement — not the rapid loss followed by regain I experienced before. Better energy, improved digestion, healthier relationship with food. Sustainable partnership continuing.",
       author: "Female patient, 36",
       details: "Post-Pregnancy Weight Management - Downtown Dubai",
       details1: "February 2026"
     },
     {
-      quote: "Perimenopausal weight gain around abdomen despite maintaining same diet and exercise as before. Frustrating and unresponsive to typical approaches. Consulted Dr. Neethu — female Ayurvedic doctor important for hormonal concerns. Personalised programme integrating hormonal and metabolic support: Panchakarma, Udvartana series, herbal medicines including Shatavari and Guggul. Four months: sustainable gradual improvement in abdominal weight patterns, restored energy, better sleep, improved hormonal balance. Female practitioner sensitivity throughout completely different from generic weight loss programmes.",
+      quote: "Perimenopausal weight gain around abdomen despite maintaining same diet and exercise as before. Frustrating and unresponsive to typical approaches. Consulted Dr. Ansiya — female Ayurvedic doctor important for hormonal concerns. Personalised programme integrating hormonal and metabolic support: Panchakarma, Udvartana series, herbal medicines including Shatavari and Guggul. Four months: sustainable gradual improvement in abdominal weight patterns, restored energy, better sleep, improved hormonal balance. Female practitioner sensitivity throughout completely different from generic weight loss programmes.",
       author: "Female patient, 49",
       details: "Perimenopausal Weight Management - Dubai Marina",
       details1: "January 2026"

@@ -5,15 +5,15 @@ const StressManagementTeam = ({
   bgColor = "bg-white",
   label = "THE TEAM",
   title = "Ayurvedic doctors for stress and anxiety care at our JVC clinic.",
-  subtitle = "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial stress management expertise. Female practitioner (Dr. Neethu) available. Multi-language including Arabic, English, Hindi, Malayalam, Urdu.",
+  subtitle = "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial stress management expertise. Female practitioner (Dr. Ansiya) available. Multi-language including Arabic, English, Hindi, Malayalam, Urdu.",
   leadDoctor = {
     label: "LEAD AYURVEDIC DOCTOR",
-    name: "Dr. Neethu",
-    image: "/images/dr-neetu-ayurveda-jvc.webp", // Updated image path
+    name: "Dr. Ansiya",
+    image: "/images/dr-ansiya-ayurveda-jvc.webp", // Updated image path
     description: "DHA-licensed BAMS-qualified Ayurvedic Doctor with substantial stress and anxiety management expertise. Female practitioner providing comprehensive constitutional assessment, personalised treatment planning, and sustained partnership approach. Cultural competence across Dubai's diverse community. Specialised expertise across all stress and anxiety presentations from chronic work stress to burnout recovery.",
     tags: ["DHA-Licensed", "BAMS Qualified", "Female Practitioner", "Malayalam Speaker", "Stress Specialist"],
     linkText: "View full profile →",
-    link: "/doctors/dr-neethu-ayurveda"
+    link: "/doctors/dr-ansiya-ayurveda"
   },
   teamMembers = [
     {
@@ -50,8 +50,8 @@ const StressManagementTeam = ({
           {/* Left Column: Lead Doctor */}
           <div className="bg-[#FAF8F5] rounded-xl p-8 flex flex-col md:flex-row gap-8 border border-[#E5DFD3]/40">
             <div className="w-full md:w-[42%] h-[320px] md:h-auto shrink-0 relative overflow-hidden rounded-lg">
-              <img 
-                src={leadDoctor.image} 
+              <img
+                src={leadDoctor.image}
                 alt={leadDoctor.name}
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -73,8 +73,8 @@ const StressManagementTeam = ({
                 {leadDoctor.tags && leadDoctor.tags.length > 0 && (
                   <div className="flex flex-wrap gap-2 mb-6">
                     {leadDoctor.tags.map((tag, idx) => (
-                      <span 
-                        key={idx} 
+                      <span
+                        key={idx}
                         className="px-2.5 py-1 rounded text-[11px] font-sans font-medium"
                         style={{ backgroundColor: 'rgb(240, 233, 221)', color: 'rgb(85, 75, 60)' }}
                       >
@@ -83,7 +83,7 @@ const StressManagementTeam = ({
                     ))}
                   </div>
                 )}
-                
+
                 <Link href={leadDoctor.link || "#"}>
                   <span className="text-[13px] font-sans font-semibold text-[#C9A961] hover:text-[#B3924E] pb-0.5 transition-colors inline-block cursor-pointer">
                     {leadDoctor.linkText}
@@ -96,11 +96,11 @@ const StressManagementTeam = ({
           {/* Right Column: Team Members Stack */}
           <div className="flex flex-col gap-6 justify-between">
             {teamMembers.map((member, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="rounded-xl p-7 flex-grow flex flex-col justify-center"
-                style={{ 
-                  background: 'rgb(250, 246, 239)', 
+                style={{
+                  background: 'rgb(250, 246, 239)',
                   borderLeft: '4px solid rgb(201, 169, 97)',
                   borderTop: '1px solid rgb(229, 223, 211)',
                   borderRight: '1px solid rgb(229, 223, 211)',

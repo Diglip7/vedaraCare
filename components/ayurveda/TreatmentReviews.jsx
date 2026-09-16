@@ -23,7 +23,7 @@ const TreatmentReviews = ({
   const isWhiteCard = cardBgColor === 'bg-white' || cardBgColor === 'white' || cardBgColor === '#FFFFFF' || cardBgColor === 'rgb(255, 255, 255)' || cardBgColor === 'rgb(248, 244, 238)';
   const isWhiteStatsBg = statsBgColor === 'bg-white' || statsBgColor === 'white' || statsBgColor === '#FFFFFF' || statsBgColor === 'rgb(255, 255, 255)' || statsBgColor === 'rgb(248, 244, 238)';
   const isExternalLink = buttonHref && (buttonHref.startsWith('http://') || buttonHref.startsWith('https://') || buttonHref.startsWith('mailto:') || buttonHref.startsWith('tel:') || buttonHref.startsWith('whatsapp:'));
-  
+
   if (useKneeStyle) {
     return (
       <section className={`${bgColor} py-24 px-6 relative overflow-hidden`}>
@@ -43,25 +43,25 @@ const TreatmentReviews = ({
           {/* Reviews Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             {items.map((review, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className={`rounded-xl p-8 flex flex-col relative h-full ${cardBgColor.startsWith('bg-') ? cardBgColor : ''}`}
-                style={{ 
+                style={{
                   backgroundColor: cardBgColor.startsWith('bg-') ? undefined : cardBgColor,
                 }}
               >
                 <div className="flex gap-1 mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <Star 
-                      key={i} 
-                      size={16} 
-                      style={{ fill: '#B8965A', color: '#B8965A' }} 
+                    <Star
+                      key={i}
+                      size={16}
+                      style={{ fill: '#B8965A', color: '#B8965A' }}
                     />
                   ))}
                 </div>
-                
+
                 <h3 className="font-serif text-[14px] font-normal text-[#1C1917] leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: review.quote }} />
-                
+
                 <div className="mt-auto pt-4" style={{ borderTop: '1px solid rgba(28, 25, 23, 0.1)' }}>
                   <div className="space-y-0.5">
                     <p className="font-sans font-bold text-base text-[#1C1917]" dangerouslySetInnerHTML={{ __html: review.author }} />
@@ -74,11 +74,11 @@ const TreatmentReviews = ({
 
           {/* Stats Row */}
           {stats && stats.length > 0 && (
-            <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 mb-16">
+            <div className="flex flex-wrap md:flex-nowrap justify-between items-start gap-6 md:gap-4 lg:gap-8 xl:gap-16 mb-16 w-full">
               {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <h4 className="text-4xl font-serif font-medium leading-none mb-2 text-[#C9A961]">{stat.value}</h4>
-                  <p className="text-xs font-sans tracking-wider text-[#5A4F47]">{stat.label}</p>
+                <div key={index} className="text-center flex-1 px-1">
+                  <h4 className="text-[18px] md:text-[24px] lg:text-[32px] xl:text-4xl font-serif font-medium leading-none mb-2 text-[#C9A961]">{stat.value}</h4>
+                  <p className="text-[11px] lg:text-xs font-sans tracking-wider text-[#5A4F47]">{stat.label}</p>
                 </div>
               ))}
             </div>
@@ -88,7 +88,7 @@ const TreatmentReviews = ({
             <div className="text-center">
               {buttonHref ? (
                 isExternalLink ? (
-                  <a 
+                  <a
                     href={buttonHref}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -97,7 +97,7 @@ const TreatmentReviews = ({
                     {buttonText}
                   </a>
                 ) : (
-                  <Link 
+                  <Link
                     href={buttonHref}
                     className="inline-flex items-center px-0 py-3.5 font-sans font-bold text-sm hover:opacity-90 transition-all duration-300 text-[#B8965A]"
                   >
@@ -105,7 +105,7 @@ const TreatmentReviews = ({
                   </Link>
                 )
               ) : (
-                <button 
+                <button
                   className="inline-flex items-center px-0 py-3.5 font-sans font-bold text-sm hover:opacity-90 transition-all duration-300 text-[#B8965A]"
                 >
                   {buttonText}
@@ -117,7 +117,7 @@ const TreatmentReviews = ({
       </section>
     );
   }
-  
+
   return (
     <section className={`${bgColor} py-24 px-6 relative overflow-hidden`}>
       <div className="max-w-[1170px] mx-auto">
@@ -136,38 +136,38 @@ const TreatmentReviews = ({
         {/* Reviews Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {items.map((review, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`rounded-xl p-8 flex flex-col relative h-full ${cardBgColor.startsWith('bg-') ? cardBgColor : ''}`}
-              style={{ 
+              style={{
                 backgroundColor: cardBgColor.startsWith('bg-') ? undefined : cardBgColor,
                 border: isDarkText ? '1px solid rgba(26, 26, 26, 0.1)' : '1px solid rgba(245, 240, 232, 0.2)'
               }}
             >
               <div className="flex gap-1 mb-6">
                 {[...Array(5)].map((_, i) => (
-                  <Star 
-                    key={i} 
-                    size={16} 
-                    style={{ fill: '#C9A961', color: '#C9A961' }} 
+                  <Star
+                    key={i}
+                    size={16}
+                    style={{ fill: '#C9A961', color: '#C9A961' }}
                   />
                 ))}
               </div>
-              
-              <h3 style={{ 
+
+              <h3 style={{
                 fontFamily: 'Fraunces, Georgia, serif',
-                fontSize: '14px', 
-                fontWeight: '400', 
-                fontStyle: 'normal', 
-                color: (isDarkText || isWhiteCard) ? '#1A1A1A' : '#F5F0E8', 
-                lineHeight: '1.5', 
-                marginBottom: '17px' 
+                fontSize: '14px',
+                fontWeight: '400',
+                fontStyle: 'normal',
+                color: (isDarkText || isWhiteCard) ? '#1A1A1A' : '#F5F0E8',
+                lineHeight: '1.5',
+                marginBottom: '17px'
               }} dangerouslySetInnerHTML={{ __html: `"${review.quote}"` }} />
-              
+
               {review.content && (
                 <p className="text-[14px] font-sans  leading-[1.75] mb-8 flex-grow" style={{ color: (isDarkText || isWhiteCard) ? '#4A4A4A' : 'rgba(245, 240, 232, 0.7)' }} dangerouslySetInnerHTML={{ __html: review.content }} />
               )}
-              
+
               <div className="mt-auto pt-4">
                 <div className="space-y-0.5">
                   <p className="font-sans font-bold text-[15px]" style={{ color: (isDarkText || isWhiteCard) ? '#1A1A1A' : '#F5F0E8' }} dangerouslySetInnerHTML={{ __html: review.author }} />
@@ -181,11 +181,29 @@ const TreatmentReviews = ({
 
         {/* Stats Row */}
         {stats && stats.length > 0 && (
-          <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 mb-16">
+          <div className="grid grid-cols-4 gap-8 lg:gap-12 xl:gap-16 mb-16 w-full">
             {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <h4 className="text-[48px] font-serif font-medium leading-none mb-2" style={{ color: '#C9A961' }}>{stat.value}</h4>
-                <p className="text-[13px] font-sans tracking-widest uppercase" style={{ color: isDarkText ? '#6B6B6B' : 'rgba(245, 240, 232, 0.7)' }}>{stat.label}</p>
+              <div
+                key={index}
+                className="text-center min-w-0"
+              >
+                <h4
+                  className="text-[32px] sm:text-[40px] lg:text-[48px] font-serif font-medium leading-none mb-2 whitespace-nowrap"
+                  style={{ color: '#C9A961' }}
+                >
+                  {stat.value}
+                </h4>
+
+                <p
+                  className="text-[12px] sm:text-[14px] font-sans whitespace-nowrap"
+                  style={{
+                    color: isDarkText
+                      ? '#6B6B6B'
+                      : 'rgba(245, 240, 232, 0.7)',
+                  }}
+                >
+                  {stat.label}
+                </p>
               </div>
             ))}
           </div>
@@ -195,7 +213,7 @@ const TreatmentReviews = ({
           <div className="text-center">
             {buttonHref ? (
               isExternalLink ? (
-                <a 
+                <a
                   href={buttonHref}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -204,7 +222,7 @@ const TreatmentReviews = ({
                   {buttonText}
                 </a>
               ) : (
-                <Link 
+                <Link
                   href={buttonHref}
                   className="inline-flex items-center px-8 py-3.5 border border-[#C9A961] text-[#C9A961] font-sans font-bold text-[14px] rounded-md hover:bg-[#C9A961] hover:text-white transition-all duration-300"
                 >
@@ -212,7 +230,7 @@ const TreatmentReviews = ({
                 </Link>
               )
             ) : (
-              <button 
+              <button
                 className="inline-flex items-center px-8 py-3.5 border border-[#C9A961] text-[#C9A961] font-sans font-bold text-[14px] rounded-md hover:bg-[#C9A961] hover:text-white transition-all duration-300"
               >
                 {buttonText}

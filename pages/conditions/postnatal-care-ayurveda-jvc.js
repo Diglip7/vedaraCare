@@ -131,7 +131,7 @@ const PostnatalAyurvedaJvc = () => {
         "@type": "OfferCatalog",
         "name": "Postnatal Care Programmes",
         "itemListElement": [
-          {"@type": "Offer", "name": "Initial Postnatal Consultation with Dr. Neethu", "priceCurrency": "AED", "price": "450"},
+          {"@type": "Offer", "name": "Initial Postnatal Consultation with Dr. Ansiya", "priceCurrency": "AED", "price": "450"},
           {"@type": "Offer", "name": "Standard 42-Day Traditional Sutika Paricharya Programme", "priceCurrency": "AED", "price": "12500"},
           {"@type": "Offer", "name": "30-Day Accelerated Postnatal Programme", "priceCurrency": "AED", "price": "9000"},
           {"@type": "Offer", "name": "21-Day Acute Recovery Focus Programme", "priceCurrency": "AED", "price": "6500"},
@@ -158,7 +158,7 @@ const PostnatalAyurvedaJvc = () => {
         {"@type": "Question", "name": "What is Sutika Paricharya?", "acceptedAnswer": {"@type": "Answer", "text": "Sutika Paricharya is traditional Ayurvedic postnatal care system developed over thousands of years for maternal recovery after childbirth. Comprehensive 40-42 day protocol including Ayurvedic Abhyanga oil massage, herbal medicated baths, steam therapy, belly binder wrapping, nourishing dietary support, herbal medicines, lactation support, and structured rest."}},
         {"@type": "Question", "name": "When should postnatal Ayurvedic care start?", "acceptedAnswer": {"@type": "Answer", "text": "Ideally programme initiation within first week postpartum. Consultation and programme planning ideally during pregnancy (30+ weeks). Post-hospital-discharge start possible but earlier initiation delivers better outcomes."}},
         {"@type": "Question", "name": "Do you provide home visits across Dubai?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — home delivery across Dubai is core service since new mothers cannot easily travel. Home visits to Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and every Dubai community."}},
-        {"@type": "Question", "name": "Is my postnatal care provider female?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — female practitioners throughout. Dr. Neethu (female DHA-licensed Ayurvedic doctor) provides consultations. Female therapists deliver home visits. Same-gender care essential for postnatal comfort."}},
+        {"@type": "Question", "name": "Is my postnatal care provider female?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — female practitioners throughout. Dr. Ansiya (female DHA-licensed Ayurvedic doctor) provides consultations. Female therapists deliver home visits. Same-gender care essential for postnatal comfort."}},
         {"@type": "Question", "name": "How long is traditional Sutika Paricharya?", "acceptedAnswer": {"@type": "Answer", "text": "Traditional Sutika Paricharya is 40-42 days. We offer standard 42-day programme (recommended), condensed 30-day and focused 21-day programmes for different situations and constraints."}},
         {"@type": "Question", "name": "Can you accommodate C-section recovery?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — dedicated C-section recovery extended programme accommodating C-section timeline. Extended incision care support, modified early recovery approach, coordination with modern surgical follow-up. Female practitioner particularly important."}},
         {"@type": "Question", "name": "Can you accommodate twin/multiple pregnancy recovery?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — modified programme for twin/multiple pregnancy recovery. Extended duration, adjusted intensity, additional support. Home healthcare team coordination recommended."}},
@@ -184,23 +184,23 @@ const PostnatalAyurvedaJvc = () => {
       "image": "https://vedaracare.ae/images/postnatal-ayurvedic-care-dubai-jvc-hero.jpg",
       "datePublished": "2026-06-03",
       "dateModified": "2026-06-03",
-      "author": {"@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician"},
+      "author": {"@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician"},
       "publisher": {"@type": "Organization", "name": "Vedara Care Polyclinic", "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}},
       "about": [
         {"@type": "MedicalCondition", "name": "Postpartum Recovery"},
         {"@type": "MedicalProcedure", "name": "Sutika Paricharya"},
         {"@type": "MedicalSpecialty", "name": "Ayurveda"}
       ],
-      "reviewedBy": {"@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician"},
+      "reviewedBy": {"@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician"},
       "lastReviewed": "2026-06-03",
       "mainEntityOfPage": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/"
     },
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician",
-      "name": "Dr. Neethu",
-      "url": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/",
+      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
+      "name": "Dr. Ansiya",
+      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
       "medicalSpecialty": ["Ayurveda", "Postnatal Care", "Women's Health"],
       "hasCredential": [
         {"@type": "EducationalOccupationalCredential", "name": "BAMS"},

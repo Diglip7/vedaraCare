@@ -85,13 +85,7 @@ const AyurvedaClinicJVC = () => {
       },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Ayurveda"
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "[live count]",
-        "bestRating": "5"
-      }
+      ]
     },
     {
       "@context": "https://schema.org",
@@ -207,7 +201,7 @@ const AyurvedaClinicJVC = () => {
         <meta property="og:title" content="Ayurveda Clinic in JVC, Dubai | Vedara Care Polyclinic" />
         <meta property="og:description" content="DHA-licensed Ayurveda clinic in Jumeirah Village Circle. BAMS-qualified doctors. Authentic Panchakarma, Abhyanga, Shirodhara." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/ayurveda-clinic-jvc.jpg" />
-        <meta property="og:url" content="https://vedaracare.ae/ayurveda-clinic-jvc/" />
+        <meta property="og:url" content="https://vedaracare.ae/ayurveda-clinic-jvc" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_AE" />
 
@@ -217,7 +211,7 @@ const AyurvedaClinicJVC = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/ayurveda-clinic-jvc" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/ayurveda-clinic-jvc" />
-        <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/ayurveda-clinic-jvc/" />
+        <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/ayurveda-clinic-jvc" />
 
         {/* Schema Markup */}
         {schemaMarkup.map((schema, index) => (

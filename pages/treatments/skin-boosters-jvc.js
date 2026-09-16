@@ -587,7 +587,7 @@ const SkinBoostersJVC = () => {
       </section>
 
       {/* Hydration vs Skin Quality */}
-      <PhysiotherapyTechniques
+      {/* <PhysiotherapyTechniques
         bgColor="bg-[#F5F0E8]"
         label={skinBoostersHydrationVsQuality.label}
         title={skinBoostersHydrationVsQuality.title}
@@ -595,7 +595,7 @@ const SkinBoostersJVC = () => {
           title: idx === 0 ? "Two terms, two different meanings" : idx === 1 ? "The practical difference" : "Why this matters for your consultation",
           description: p
         }))}
-      />
+      /> */}
 
       {/* How Skin Boosters Work */}
       <section className="py-16 bg-white">
@@ -636,7 +636,7 @@ const SkinBoostersJVC = () => {
           }
         ]}
         sidebar={{
-          image: "/images/skin-clinic-products-consultation-jvc.jpg",
+          image: "/images/skin-clinic-products-consultation-jvc.webp",
           altText: "Dermatologist reviewing skin booster products during consultation",
           width: "w-full",
           height: "h-[400px]",
@@ -688,10 +688,10 @@ const SkinBoostersJVC = () => {
           }
         ]}
         sidebar={{
-          image: "/images/dermatologist-consultation-assessment-jvc.jpg",
+          image: "/images/dermatologist-consultation-assessment-jvc.webp",
           altText: "Dermatologist conducting a skin assessment during consultation",
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[280px]",
           borderPosition: "right"
         }}
       />
@@ -715,7 +715,7 @@ const SkinBoostersJVC = () => {
           image: skinBoostersAppointment.image,
           altText: skinBoostersAppointment.alt,
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-auto",
           borderPosition: "left"
         }}
         footer={skinBoostersAppointment.footer}
@@ -737,10 +737,10 @@ const SkinBoostersJVC = () => {
           }
         ]}
         sidebar={{
-          image: "/images/patient-receiving-injectable-skin-treatment.jpg",
+          image: "/images/patient-receiving-injectable-skin-treatment.webp",
           altText: "Skin booster injectable treatment setting",
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[350px]",
           borderPosition: "right"
         }}
       />
@@ -1184,7 +1184,7 @@ const SkinBoostersJVC = () => {
       />
 
       {/* Why JVC */}
-      <ContentWithSidebar
+      {/* <ContentWithSidebar
         bgColor="bg-white"
         label="LOCAL ACCESSIBILITY"
         title={skinBoostersWhyJvc.title}
@@ -1201,10 +1201,10 @@ const SkinBoostersJVC = () => {
           height: "h-[400px]",
           borderPosition: "right"
         }}
-      />
+      /> */}
 
 
-
+      {/* 
       <section className="py-16 bg-[#FAF7F2] border-t border-[#E5DFD3]">
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="SUMMARY" title={skinBoostersSummary1.title} />
@@ -1214,7 +1214,7 @@ const SkinBoostersJVC = () => {
         </div>
       </section>
 
-      {/* Summary */}
+     
       <section className="py-16 bg-[#FAF7F2] border-t border-[#E5DFD3]">
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="" title={skinBoostersSummary.title} />
@@ -1222,7 +1222,7 @@ const SkinBoostersJVC = () => {
             {skinBoostersSummary.description}
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQs */}
       <FAQ faqs={skinBoostersFAQ.faqs} />
@@ -1231,7 +1231,7 @@ const SkinBoostersJVC = () => {
       {/* Medical Disclaimer */}
       <MedicalDisclaimer text={skinBoostersDCTA.disclaimer} />
 
-   {/* Final CTA */}
+      {/* Final CTA */}
       <FinalCTA {...skinBoostersDCTA} />
 
 

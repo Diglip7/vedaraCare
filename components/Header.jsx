@@ -12,7 +12,7 @@ const AYURVEDA_CONDITIONS = [
   { href: '/conditions/arthritis-ayurveda-dubai', label: 'Arthritis (Ayurveda)' },
   { href: '/conditions/back-pain-ayurveda-dubai', label: 'Back Pain (Ayurveda)' },
   { href: '/conditions/back-pain-ayurveda-jvc', label: 'Back Pain in JVC (Ayurveda)' },
-    { href: '/conditions/cervical-spondylosis-ayurveda-jvc', label: 'Cervical Spondylosis in JVC' },
+  { href: '/conditions/cervical-spondylosis-ayurveda-jvc', label: 'Cervical Spondylosis in JVC' },
   { href: '/conditions/diabetes-ayurveda-dubai', label: 'Diabetes (Ayurveda)' },
   { href: '/conditions/hair-loss-ayurveda-dubai', label: 'Hair Loss (Ayurveda)' },
   { href: '/conditions/ibs-ayurveda-dubai', label: 'IBS (Ayurveda)' },
@@ -29,15 +29,17 @@ const AYURVEDA_CONDITIONS = [
 const AYURVEDA_TREATMENTS = [
   { href: '/treatments/abhyanga-dubai', label: 'Abhyanga' },
   { href: '/treatments/ayurvedic-massage-jvc', label: 'Ayurvedic Massage' },
+  { href: '/treatments/janu-basti-jvc', label: 'Janu Basti in JVC' },
   { href: '/treatments/kativasti-dubai', label: 'Kativasti' },
+  { href: '/treatments/nasya-therapy-jvc', label: 'Nasya Therapy in JVC' },
   { href: '/treatments/njavarakizhi-dubai', label: 'Njavarakizhi' },
+  { href: '/treatments/nasya-basti-udvartana-jvc', label: 'Nasya, Basti & Udvartana' },
   { href: '/treatments/panchakarma-dubai', label: 'Panchakarma' },
   { href: '/treatments/panchakarma-jvc', label: 'Panchakarma in JVC' },
-  { href: '/treatments/shirodhara-dubai', label: 'Shirodhara' },
   { href: '/treatments/pizhichil-jvc', label: 'Pizhichil in JVC' },
-  { href: '/treatments/janu-basti-jvc', label: 'Janu Basti in JVC' },
-  { href: '/treatments/nasya-therapy-jvc', label: 'Nasya Therapy in JVC' },
-  { href: '/treatments/patra-pinda-sweda-jvc', label: 'Patra Pinda Sweda in JVC' }
+  { href: '/treatments/patra-pinda-sweda-jvc', label: 'Patra Pinda Sweda in JVC' },
+  { href: "/treatments/rasayana-ayurveda-jvc", label: "Rasayana Ayurvedic Rejuvenation " },
+  { href: '/treatments/shirodhara-dubai', label: 'Shirodhara' }
 
 ];
 // Data for dropdown menus
@@ -86,7 +88,7 @@ const DERMATOLOGY_CONDITIONS = [
 ];
 const DERMATOLOGY_TREATMENTS = [
   { href: '/treatments/chemical-peel-dubai', label: 'Chemical Peel' },
-  { href: '/carbon-laser-peel-jvc', label: 'Carbon Laser Peel' },
+  { href: '/treatments/carbon-laser-peel-jvc', label: 'Carbon Laser Peel' },
   { href: '/treatments/prp-hair-dubai', label: 'PRP Hair Treatment' },
   { href: '/treatments/skin-rejuvenation-jvc', label: 'Skin Rejuvenation' },
   { href: '/treatments/fractional-co2-laser-jvc', label: 'Fractional CO2 Laser in JVC' },

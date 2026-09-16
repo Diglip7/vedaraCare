@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { drPriyaNair, drNeethu } from '../../data/doctorData';
+import { drPriyaNair, drAnsiya } from '../../data/doctorData';
 
 const practitioners = [
   {
@@ -14,13 +14,13 @@ const practitioners = [
     url: '/doctors/johanna-bautista'
   },
   {
-    name: 'Dr. Neethu Karatt',
+    name: 'Dr. Ansiya',
     specialty: 'Ayurveda Practitioner · BAMS',
     focus: 'PCOS, Nadi Pareeksha, Musculoskeletal, Postnatal',
-    image: '/images/dr-neetu-ayurveda-jvc.webp',
-    alt: drNeethu.alt,
-    slug: 'dr-neethu-ayurveda',
-    url: '/doctors/dr-neethu-ayurveda'
+    image: '/images/dr-ansiya-ayurveda-jvc.webp',
+    alt: drAnsiya.alt,
+    slug: 'dr-ansiya-ayurveda',
+    url: '/doctors/dr-ansiya-ayurveda'
   },
   // {
   //   name: 'Dr. Meera Krishnan',
@@ -81,6 +81,15 @@ const practitioners = [
     url: '/doctors/emiel-sanchez'
   },
   {
+    name: 'Aesthetician Arfah Owais',
+    specialty: 'DHA Licensed Aesthetician',
+    focus: 'Advanced Facial Therapy & Skincare',
+    image: '/images/arfah-owais-aesthetician.webp',
+    alt: 'Aesthetician Arfah Owais, DHA Licensed Aesthetician at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'arfah-owais',
+    url: '/doctors/arfah-owais'
+  },
+  {
     name: 'Dr. Anusha Makkena',
     specialty: 'MBBS, MS ENT',
     focus: 'ENT Disorders, Head and Neck Surgery',
@@ -88,7 +97,8 @@ const practitioners = [
     alt: 'Dr. Anusha Makkena, MBBS, MS ENT-qualified DHA-licensed ENT specialist at Vedara Care Polyclinic, JVC Dubai',
     slug: 'dr-anusha-makkena',
     url: '/doctors/dr-anusha-makkena'
-  }
+  },
+
 ];
 
 export default function DoctorsPage() {

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import axios from 'axios';
 import { Mail, Lock, Eye, EyeOff, ShieldCheck, ArrowRight, Sparkles, CheckCircle } from 'lucide-react';
+import Head from 'next/head';
 
 export default function AdminLogin() {
   const [email, setEmail] = useState('');
@@ -26,10 +27,13 @@ export default function AdminLogin() {
       setLoading(false);
     }
   };
-
   return (
-    <div className="min-h-screen bg-[#FAF8F5] flex items-center justify-center p-0 md:p-6 relative overflow-hidden font-sans">
-      {/* Decorative Background Elements */}
+    <>
+      <Head>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
+      <div className="min-h-screen bg-[#FAF8F5] flex items-center justify-center p-0 md:p-6 relative overflow-hidden font-sans">
+        {/* Decorative Background Elements */}
       <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-[#184C3A]/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-[#C9A961]/5 rounded-full blur-3xl pointer-events-none" />
 
@@ -171,5 +175,6 @@ export default function AdminLogin() {
         </div>
       </div>
     </div>
+    </>
   );
 }

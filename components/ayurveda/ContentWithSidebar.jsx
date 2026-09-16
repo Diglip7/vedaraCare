@@ -198,7 +198,19 @@ const ContentOnlySection = ({
           </div>
 
           <div className="md:sticky md:top-6 lg:top-8">
-            {sidebar && sidebar.image ? (
+            {sidebar && sidebar.image && sidebar.imagePosition === 'top' && (
+              <div className={`mb-6 rounded-xl overflow-hidden ${sidebar.height || 'h-auto'} ${sidebar.width || 'w-full'}`}>
+                <img
+                  src={sidebar.image}
+                  alt={sidebar.altText || 'Sidebar Image'}
+                  className={`w-full h-full ${sidebar.height ? 'object-cover' : 'object-contain'}`}
+                />
+                {sidebar.imageCaption && (
+                  <p className="text-xs text-gray-500 font-sans mt-2 not-italic px-1">{sidebar.imageCaption}</p>
+                )}
+              </div>
+            )}
+            {sidebar && sidebar.image && (!sidebar.imagePosition || sidebar.imagePosition !== 'top') ? (
               <div className={`rounded-xl overflow-hidden ${sidebar.height || 'h-auto'} ${sidebar.width || 'w-full'}`}>
                 <img
                   src={sidebar.image}
@@ -206,7 +218,7 @@ const ContentOnlySection = ({
                   className={`w-full h-full ${sidebar.height ? 'object-cover' : 'object-contain'}`}
                 />
               </div>
-            ) : (
+            ) : sidebar && (sidebar.title || sidebar.label) ? (
               <div className="rounded-lg border-2 border-[#B8965A] bg-[#FAF7F2] p-7">
                 <h3 className="text-xs tracking-[0.2em] uppercase mb-4" style={{ color: '#C9A84C' }}>
                   {sidebar && sidebar.label}
@@ -243,7 +255,7 @@ const ContentOnlySection = ({
                   </a>
                 )}
               </div>
-            )}
+            ) : null}
           </div>
         </div>
       </div>
@@ -397,9 +409,9 @@ const PRPCombinationSection = ({
           )}
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-[55fr_45fr] gap-12 items-start">
-          <div className="space-y-6">
+          <div className="space-y-8">
             {(contentSections || []).map((section, index) => (
-              <div key={index}>
+              <div key={index} className={index !== contentSections.length - 1 ? "pb-8 border-b border-[#E5DFD3]" : ""}>
                 {section.subtitle && (
                   <h3 className="text-lg font-serif mb-3" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)' }}>
                     {section.subtitle}
@@ -417,7 +429,7 @@ const PRPCombinationSection = ({
           </div>
 
           <div className="md:sticky md:top-6 lg:top-8">
-            <div className="rounded-lg border-2 border-[#B8965A] bg-[#FAF7F2] p-7">
+            <div className={`rounded-lg border-2 border-[#B8965A] ${sidebar.bgColor || 'bg-[#FAF7F2]'} p-7`}>
               <h3 className="text-xs tracking-[0.2em] uppercase mb-4" style={{ color: '#C9A84C' }}>
                 {sidebar.label}
               </h3>
@@ -427,15 +439,15 @@ const PRPCombinationSection = ({
                   {sidebar.groups.map((group, gIdx) => (
                     <div key={gIdx} className={gIdx < sidebar.groups.length - 1 ? 'pb-4 border-b border-[#E5DFD3]' : ''}>
                       {group.title && (
-                        <p className="text-sm font-semibold mb-3" style={{ color: 'rgb(26,26,26)' }}>
+                        <p className="text-xs tracking-[0.1em] font-semibold uppercase mb-3" style={{ color: 'rgb(150, 150, 150)' }}>
                           {group.title}
                         </p>
                       )}
                       <div className="space-y-2">
                         {group.items.map((item, iIdx) => (
                           <div key={iIdx} className="flex items-start gap-2 text-sm">
-                            <svg className="w-4 h-4 text-[#C9A84C] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 text-[#C9A84C] flex-shrink-0 mt-0.5">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                             <span style={{ color: 'rgb(107,107,107)' }}>{item}</span>
                           </div>

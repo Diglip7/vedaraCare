@@ -6,7 +6,7 @@ export const backPainJvcHero = {
   ],
   label: "Back Pain Ayurvedic Treatment · DHA-Licensed · Jumeirah Village Circle",
   title: "Back pain Ayurvedic treatment at our JVC clinic, Dubai.",
-  description: "Authentic Ayurvedic back pain management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall — serving Dubai's community with Kativasti, Panchakarma, Abhyanga, herbal medicines, and personalised lifestyle counselling. Female practitioner Dr. Neethu available. Coordinated with modern medical care. Serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, and every Dubai community.",
+  description: "Authentic Ayurvedic back pain management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall — serving Dubai's community with Kativasti, Panchakarma, Abhyanga, herbal medicines, and personalised lifestyle counselling. Female practitioner Dr. Ansiya available. Coordinated with modern medical care. Serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, and every Dubai community.",
   primaryCTA: "Book a Back Pain Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
@@ -29,8 +29,8 @@ export const backPainJvcIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
   title: "Back pain Ayurvedic care at Vedara Care, in one paragraph.",
-  blockquote: "Back pain Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic back pain management delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Neethu with substantial musculoskeletal expertise. Comprehensive approach: constitutional assessment (Prakriti and Vikriti) identifying your specific back pain pattern, Nadi Pareeksha pulse-based assessment, red flag symptom screening for concerning presentations requiring immediate specialist referral. Treatment components typically combine: Kativasti (flagship traditional Ayurvedic back-focused therapy — warm medicated oil retained on lower back within a dough dam for sustained therapeutic contact), Panchakarma for chronic back pain patterns, Abhyanga oil massage, Elakizhi herbal leaf pouch therapy, Pizhichil oil pouring therapy, Ayurvedic herbal medicines matched to constitution. Coordinated with modern medical care throughout. Female practitioner (Dr. Neethu) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and across Dubai.",
-  footer: "Medically reviewed by Dr. Neethu, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
+  blockquote: "Back pain Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic back pain management delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya with substantial musculoskeletal expertise. Comprehensive approach: constitutional assessment (Prakriti and Vikriti) identifying your specific back pain pattern, Nadi Pareeksha pulse-based assessment, red flag symptom screening for concerning presentations requiring immediate specialist referral. Treatment components typically combine: Kativasti (flagship traditional Ayurvedic back-focused therapy — warm medicated oil retained on lower back within a dough dam for sustained therapeutic contact), Panchakarma for chronic back pain patterns, Abhyanga oil massage, Elakizhi herbal leaf pouch therapy, Pizhichil oil pouring therapy, Ayurvedic herbal medicines matched to constitution. Coordinated with modern medical care throughout. Female practitioner (Dr. Ansiya) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and across Dubai.",
+  footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
 };
 
 export const backPainJvcMechanism = {
@@ -49,7 +49,7 @@ export const backPainJvcMechanism = {
       },
       {
         title: "Constitutional approach — why different back pain patterns need different treatment",
-        description: "Different Ayurvedic constitutions (Prakriti) produce different back pain vulnerability patterns and respond differently to the same treatments. Vata constitutions typically experience sharp shooting pain, spasm patterns, cold-worsened pain requiring warming therapies and oleation. Pitta constitutions typically experience inflammatory pain patterns requiring cooling therapies. Kapha constitutions experience heavy dull stiffness, particularly on morning waking, requiring stimulating therapies. Dr. Neethu's constitutional assessment identifies your specific pattern during initial consultation."
+        description: "Different Ayurvedic constitutions (Prakriti) produce different back pain vulnerability patterns and respond differently to the same treatments. Vata constitutions typically experience sharp shooting pain, spasm patterns, cold-worsened pain requiring warming therapies and oleation. Pitta constitutions typically experience inflammatory pain patterns requiring cooling therapies. Kapha constitutions experience heavy dull stiffness, particularly on morning waking, requiring stimulating therapies. Dr. Ansiya's constitutional assessment identifies your specific pattern during initial consultation."
       },
       {
         title: "Why Kativasti is the flagship Ayurvedic therapy specifically for back pain",
@@ -145,7 +145,7 @@ export const backPainJvcTypes = {
     {
       number: "10",
       title: "Pregnancy-Related Back Pain",
-      description: "Back pain during pregnancy requiring pregnancy-safe approach. Female practitioner Dr. Neethu provides pregnancy-appropriate care coordinated with obstetric care.",
+      description: "Back pain during pregnancy requiring pregnancy-safe approach. Female practitioner Dr. Ansiya provides pregnancy-appropriate care coordinated with obstetric care.",
       typicalSigns: ["Pregnancy-safe assessment, appropriate positioning throughout, gentle pregnancy-safe therapies, avoidance of contraindicated therapies, obstetric coordination"]
     },
     {
@@ -179,7 +179,7 @@ export const backPainJvcApproaches = {
     },
     {
       subtitle: "Comprehensive Back Pain Assessment",
-      description: "Foundation of authentic Ayurvedic back pain care. Initial 90-minute consultation with Dr. Neethu including detailed back pain history (onset, character, radiation patterns, aggravating and relieving factors, functional impact), Nadi Pareeksha pulse examination, Prakriti and Vikriti assessment, review of any imaging (X-rays, MRI, CT) and previous medical assessments, review of current medications including pain medications, red flag symptom screening for concerning presentations requiring immediate specialist referral. Foundation for personalised treatment plan."
+      description: "Foundation of authentic Ayurvedic back pain care. Initial 90-minute consultation with Dr. Ansiya including detailed back pain history (onset, character, radiation patterns, aggravating and relieving factors, functional impact), Nadi Pareeksha pulse examination, Prakriti and Vikriti assessment, review of any imaging (X-rays, MRI, CT) and previous medical assessments, review of current medications including pain medications, red flag symptom screening for concerning presentations requiring immediate specialist referral. Foundation for personalised treatment plan."
     },
     {
       subtitle: "Kativasti — Flagship Ayurvedic Back Therapy",
@@ -274,19 +274,19 @@ export const backPainJvcReviews = {
   alt: "Back pain management patient testimonials Vedara Care JVC Dubai",
   items: [
     {
-      quote: "Business Bay executive with chronic lower back pain for eight years from sedentary work patterns and previous gym injury. Tried multiple modern approaches — pain medications with side effects, physiotherapy with temporary relief. Consulted Dr. Neethu at Vedara's JVC clinic. Personalised programme: 14-session Kativasti series with Ksheerabala oil, followed by 14-day Panchakarma programme with Basti therapy emphasis, Yogaraj Guggulu and Rasnasaptakam Kwatham herbal medicines, comprehensive ergonomic counselling for my office setup. Three months in: substantially reduced pain intensity, improved function, reduced medication dependence. Kativasti therapy is fundamentally different from any back massage I experienced previously.",
+      quote: "Business Bay executive with chronic lower back pain for eight years from sedentary work patterns and previous gym injury. Tried multiple modern approaches — pain medications with side effects, physiotherapy with temporary relief. Consulted Dr. Ansiya at Vedara's JVC clinic. Personalised programme: 14-session Kativasti series with Ksheerabala oil, followed by 14-day Panchakarma programme with Basti therapy emphasis, Yogaraj Guggulu and Rasnasaptakam Kwatham herbal medicines, comprehensive ergonomic counselling for my office setup. Three months in: substantially reduced pain intensity, improved function, reduced medication dependence. Kativasti therapy is fundamentally different from any back massage I experienced previously.",
       author: "MALE PATIENT, 47",
       details: "Chronic Lower Back Pain · Business Bay Executive ",
       details1: "February 2026"
     },
     {
-      quote: "Filipina nurse in Dubai's healthcare sector — sustained back pain from years of nursing work, patient handling, long shifts. Cultural preference for traditional Ayurvedic approach. Consulted Dr. Neethu at Vedara's JVC clinic. Comprehensive assessment addressing my occupational back concerns. Programme: Kativasti series with appropriate oil selection, Abhyanga full-body support, Elakizhi herbal leaf pouch therapy for muscular tension, lifestyle guidance accommodating shift work realities. Ten weeks in: sustained back pain improvement enabling continued nursing work with better tolerance. Traditional Ayurvedic approach through DHA-licensed doctor provided authentic care different from spa-based back treatments I tried previously.",
+      quote: "Filipina nurse in Dubai's healthcare sector — sustained back pain from years of nursing work, patient handling, long shifts. Cultural preference for traditional Ayurvedic approach. Consulted Dr. Ansiya at Vedara's JVC clinic. Comprehensive assessment addressing my occupational back concerns. Programme: Kativasti series with appropriate oil selection, Abhyanga full-body support, Elakizhi herbal leaf pouch therapy for muscular tension, lifestyle guidance accommodating shift work realities. Ten weeks in: sustained back pain improvement enabling continued nursing work with better tolerance. Traditional Ayurvedic approach through DHA-licensed doctor provided authentic care different from spa-based back treatments I tried previously.",
       author: "FEMALE PATIENT, 39",
       details: "Occupational Back Pain · Dubai Healthcare Sector ",
       details1: "MARCH 2026"
     },
     {
-      quote: "Perimenopausal patient in Al Barsha with post-pregnancy chronic back pain that never fully resolved after my two pregnancies, worsening with hormonal changes. Consulted Dr. Neethu — female Ayurvedic doctor important for hormonal-related patterns. Personalised programme integrating Kativasti series, Panchakarma programme for constitutional reset, herbal medicines addressing both musculoskeletal and hormonal factors including Shatavari alongside Guggul preparations. Four months of coordinated care: substantial sustained improvement in chronic back pain, better hormonal balance, improved general function. Female practitioner sensitivity for integrated hormonal-musculoskeletal approach was crucial.",
+      quote: "Perimenopausal patient in Al Barsha with post-pregnancy chronic back pain that never fully resolved after my two pregnancies, worsening with hormonal changes. Consulted Dr. Ansiya — female Ayurvedic doctor important for hormonal-related patterns. Personalised programme integrating Kativasti series, Panchakarma programme for constitutional reset, herbal medicines addressing both musculoskeletal and hormonal factors including Shatavari alongside Guggul preparations. Four months of coordinated care: substantial sustained improvement in chronic back pain, better hormonal balance, improved general function. Female practitioner sensitivity for integrated hormonal-musculoskeletal approach was crucial.",
       author: "FEMALE PATIENT, 46",
       details: "Post-Pregnancy Chronic Back Pain · Al Barsha Resident",
       details1: "February 2026"
@@ -295,8 +295,9 @@ export const backPainJvcReviews = {
   stats: [
     { value: "4.9★", label: "Google Rating" },
     { value: "5000+", label: "Patients Treated" },
+    { value: "Female", label: "Practitioner Available" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
-    { value: "Female", label: "Practitioner Available" }
+
   ]
 };
 
@@ -333,7 +334,7 @@ export const backPainJvcFaqs = {
   label: "Common Questions",
   title: "What patients ask about Ayurvedic back pain care at our JVC clinic.",
   sidebarLinks: [
-    { text: "Dr. Neethu's Profile", href: "/doctors/dr-neethu-ayurveda" },
+    { text: "Dr. Ansiya's Profile", href: "/doctors/dr-ansiya-ayurveda" },
     { text: "Kativasti treatment detail", href: "/treatments/kativasti-dubai/" },
     { text: "Ayurveda clinic JVC", href: "/ayurveda-clinic-jvc/" },
     { text: "Physiotherapy at JVC", href: "/physiotherapy-jvc/" },
@@ -377,11 +378,11 @@ export const backPainJvcFaqs = {
     },
     {
       question: "Do you have a female Ayurvedic doctor for back pain?",
-      answer: "Yes — Dr. Neethu is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial musculoskeletal expertise. Female practitioner particularly important for pregnancy-related back concerns, post-pregnancy back care, and cultural preferences."
+      answer: "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial musculoskeletal expertise. Female practitioner particularly important for pregnancy-related back concerns, post-pregnancy back care, and cultural preferences."
     },
     {
       question: "Can you treat back pain during pregnancy?",
-      answer: "Yes — pregnancy-safe Ayurvedic back pain support available. Some therapies contraindicated during pregnancy; appropriate protocols available. Female practitioner (Dr. Neethu) provides pregnancy-appropriate care. Coordinated with obstetric care throughout."
+      answer: "Yes — pregnancy-safe Ayurvedic back pain support available. Some therapies contraindicated during pregnancy; appropriate protocols available. Female practitioner (Dr. Ansiya) provides pregnancy-appropriate care. Coordinated with obstetric care throughout."
     },
     {
       question: "What about post-surgical back pain?",
@@ -393,7 +394,7 @@ export const backPainJvcFaqs = {
     },
     {
       question: "Can I have imaging (X-ray/MRI) reviewed as part of consultation?",
-      answer: "Yes — please bring any imaging reports and images to consultation. Dr. Neethu will review alongside clinical assessment. Coordination with treating specialists as appropriate. Imaging findings guide treatment planning and identify presentations requiring specialist coordination."
+      answer: "Yes — please bring any imaging reports and images to consultation. Dr. Ansiya will review alongside clinical assessment. Coordination with treating specialists as appropriate. Imaging findings guide treatment planning and identify presentations requiring specialist coordination."
     },
     {
       question: "What if I have a disc problem?",
@@ -417,18 +418,18 @@ export const backPainJvcFaqs = {
     },
     {
       question: "How is back pain care at Vedara different from other clinics in Dubai?",
-      answer: "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Neethu with substantial musculoskeletal expertise. Comprehensive constitutional assessment including red flag screening. Flagship Kativasti therapy delivered by trained therapists. Multi-modal approach including Panchakarma. Coordinated with modern medical care and physiotherapy at same JVC clinic. Multi-language capability."
+      answer: "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Ansiya with substantial musculoskeletal expertise. Comprehensive constitutional assessment including red flag screening. Flagship Kativasti therapy delivered by trained therapists. Multi-modal approach including Panchakarma. Coordinated with modern medical care and physiotherapy at same JVC clinic. Multi-language capability."
     },
     {
       question: "How do I book a back pain consultation?",
-      answer: "Three ways: WhatsApp [number] specifying back pain consultation ideally with Dr. Neethu; call [phone] 9AM–9PM seven days a week; book online. Please bring: description of back pain history and current pattern, any imaging reports and images, current medications including pain medications, previous back pain treatments, insurance card if applicable, specific questions and goals."
+      answer: "Three ways: WhatsApp [number] specifying back pain consultation ideally with Dr. Ansiya; call [phone] 9AM–9PM seven days a week; book online. Please bring: description of back pain history and current pattern, any imaging reports and images, current medications including pain medications, previous back pain treatments, insurance card if applicable, specific questions and goals."
     }
   ]
 };
 
 export const backPainJvcLocation = {
   title: "Ayurvedic back pain care at our Jumeirah Village Circle clinic.",
-  description: "Our JVC clinic houses dedicated Ayurvedic treatment rooms including specialised Kativasti treatment facilities with authentic protocol delivery capabilities, Panchakarma treatment rooms, Abhyanga and Elakizhi treatment spaces, and consultation rooms suited for comprehensive Ayurvedic assessment. Physiotherapy treatment areas also on site for integrated back pain care. Female practitioner (Dr. Neethu) and female therapist availability.",
+  description: "Our JVC clinic houses dedicated Ayurvedic treatment rooms including specialised Kativasti treatment facilities with authentic protocol delivery capabilities, Panchakarma treatment rooms, Abhyanga and Elakizhi treatment spaces, and consultation rooms suited for comprehensive Ayurvedic assessment. Physiotherapy treatment areas also on site for integrated back pain care. Female practitioner (Dr. Ansiya) and female therapist availability.",
   address: "Jumeirah Village Circle (JVC), Dubai, UAE",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
@@ -436,7 +437,7 @@ export const backPainJvcLocation = {
   landmarks: ["Walking distance from Circle Mall", "3 min from FIVE Jumeirah Village Hotel", "5 min from JSS Private School", "Free patient parking"],
   buttonText: "Book Consultation at Our JVC Clinic",
   buttonSecondaryText: "WhatsApp Us",
-  buttonSecondaryHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20book%20a%20back%20pain%20consultation%20with%20Dr.%20Neethu%20at%20your%20JVC%20clinic.",
+  buttonSecondaryHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20book%20a%20back%20pain%20consultation%20with%20Dr.%20Ansiya%20at%20your%20JVC%20clinic.",
   buttonHref: "/book",
   image: "/images/vedara-jvc-clinic-back-pain.webp",
   alt: "Vedara Care JVC clinic back pain treatment Dubai",
@@ -446,7 +447,7 @@ export const backPainJvcLocation = {
 export const backPainJvcCTA = {
   label: "Ready for Authentic Ayurvedic Back Pain Care?",
   title: "Comprehensive back pain consultation is the starting point.",
-  description: "Whether you're experiencing acute lower back pain from muscular strain, chronic back pain lasting months affecting daily function, postural back pain from Dubai's sedentary work environment, lumbar spondylosis or age-related degenerative changes, sciatica with back pain component, pregnancy-related back pain, or post-pregnancy back concerns — comprehensive consultation with Dr. Neethu (female DHA-licensed BAMS Ayurvedic doctor with substantial musculoskeletal expertise) identifies your specific pattern and designs personalised approach. DHA-licensed authentic Ayurvedic care with flagship Kativasti therapy, coordinated with modern medical care when appropriate. Same-week consultation appointments typically available at our JVC clinic walking distance from Circle Mall.",
+  description: "Whether you're experiencing acute lower back pain from muscular strain, chronic back pain lasting months affecting daily function, postural back pain from Dubai's sedentary work environment, lumbar spondylosis or age-related degenerative changes, sciatica with back pain component, pregnancy-related back pain, or post-pregnancy back concerns — comprehensive consultation with Dr. Ansiya (female DHA-licensed BAMS Ayurvedic doctor with substantial musculoskeletal expertise) identifies your specific pattern and designs personalised approach. DHA-licensed authentic Ayurvedic care with flagship Kativasti therapy, coordinated with modern medical care when appropriate. Same-week consultation appointments typically available at our JVC clinic walking distance from Circle Mall.",
   button1Text: "Book Back Pain Consultation at Our JVC Clinic",
   button1Href: "/book",
   button2Text: "WhatsApp Us",
@@ -471,9 +472,9 @@ export const backPainJvcRelatedPages = {
   linkHref: "/conditions/",
   pages: [
     {
-      title: "Dr. Neethu — Ayurvedic Doctor",
+      title: "Dr. Ansiya — Ayurvedic Doctor",
       description: "Female DHA-licensed BAMS practitioner with substantial musculoskeletal expertise across back pain, sciatica, spondylosis conditions.",
-      href: "/doctors/dr-neethu-ayurveda/"
+      href: "/doctors/dr-ansiya-ayurveda/"
     },
     {
       title: "Back Pain Physiotheraphy Care JVC",
@@ -528,15 +529,15 @@ export const backPainJvcRelatedArticles = {
 export const backPainJvcTeam = {
   eyebrow: "THE TEAM",
   title: "Ayurvedic doctors for back pain care at our JVC clinic serving Dubai.",
-  intro: "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial musculoskeletal expertise. Female practitioner (Dr. Neethu) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.",
+  intro: "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial musculoskeletal expertise. Female practitioner (Dr. Ansiya) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.",
   teamMembers: [
     {
-      name: "Dr. Neethu",
+      name: "Dr. Ansiya",
       role: "Lead Musculoskeletal Ayurvedic Doctor",
       tags: "DHA-Licensed · BAMS-Qualified · Female Practitioner",
       description: "Substantial musculoskeletal expertise across back pain, neck pain, joint disorders, sciatica, cervical spondylosis, and lumbar spondylosis. Comprehensive assessment, personalised programme design, sustained partnership approach. Kativasti expertise for back-focused traditional therapy. Cultural competence across Dubai's diverse community.",
-      image: "/images/dr-neetu-ayurveda-jvc.webp",
-      alt: "Dr. Neethu"
+      image: "/images/dr-ansiya-ayurveda-jvc.webp",
+      alt: "Dr. Ansiya"
     },
     {
       name: "Ayurvedic Therapy Team",

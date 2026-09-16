@@ -11,7 +11,7 @@ const StressManagementJourney = ({
       phase: "PHASE 1",
       title: "Assessment & Foundation",
       time: "Week 1",
-      description: "Comprehensive 90-minute initial consultation with Dr. Neethu identifying your stress patterns, constitutional factors, life context, previous approaches, and treatment goals. Personalised treatment plan design. First treatments may begin. Foundation lifestyle recommendations initiated. Initial herbal medicines prescribed if appropriate."
+      description: "Comprehensive 90-minute initial consultation with Dr. Ansiya identifying your stress patterns, constitutional factors, life context, previous approaches, and treatment goals. Personalised treatment plan design. First treatments may begin. Foundation lifestyle recommendations initiated. Initial herbal medicines prescribed if appropriate."
     },
     {
       phase: "PHASE 2",

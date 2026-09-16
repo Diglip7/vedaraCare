@@ -54,10 +54,10 @@ const PostnatalPlanAhead = ({
 
           {/* Image Content (Right) */}
           <div className="relative">
-            <div className="aspect-[4/5] rounded-[12px] overflow-hidden shadow-2xl">
-              <img 
-                src={image} 
-                alt={alt} 
+            <div className="aspect-[5/4] rounded-[12px] overflow-hidden shadow-2xl">
+              <img
+                src={image}
+                alt={alt}
                 className="w-full h-full object-cover"
               />
             </div>

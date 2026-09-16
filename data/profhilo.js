@@ -21,7 +21,7 @@ export const profhiloHero = {
         title: "Skin Quality from Within",
         subtitle: "Profhilo is a specific injectable product associated with skin hydration, quality and bio-remodelling, rather than facial volume or contouring."
     },
-    image: "/images/profhilo-consultation-vedara-care-jvc.jpg",
+    image: "/images/profhilo-consultation-vedara-care-jvc.webp",
     alt: "Profhilo treatment consultation at Vedara Care Polyclinic in JVC"
 };
 
@@ -78,7 +78,7 @@ export const profhiloLaserPeelHowItWorks = {
         footer: "\"Profhilo is injected into carefully selected points within the treated area, using a formulation designed with a particular mechanism in mind. Exact injection depth, number of points, or product amount are protocol-specific and vary by patient.\""
     },
     rightContent: {
-        image: "/images/skin-assessment-profhilo-jvc.jpg",
+        image: "/images/skin-assessment-profhilo-jvc.webp",
         alt: "Clinician performing a skin assessment before Profhilo treatment in JVC",
         bottomContent: "",
         peelDepthsLabel: "KEY TREATMENT PARAMETERS",
@@ -150,10 +150,10 @@ export const profhiloLaserPeelSelection = {
         }
     ],
     sidebar: {
-        image: "/images/patient-clinician-discussion-jvc.jpg",
+        image: "/images/patient-clinician-discussion-jvc.webp",
         altText: "Patient discussing skin concerns with a clinician in Jumeirah Village Circle",
         width: "w-full",
-        height: "h-[400px]",
+        height: "h-auto",
         borderPosition: "left"
     }
 };
@@ -274,7 +274,7 @@ export const profhiloLaserPeelAftercareAndSafety = {
             description: "Temporary effects can include small injection-site bumps, mild redness, some swelling, possible bruising, tenderness and general sensitivity. These vary meaningfully between patients — this is not a “zero downtime” treatment, even though many people resume normal activities quickly."
         },
         {
-            subtitle: "Profhilo Aftercare<br/><div class='my-4 rounded-lg overflow-hidden max-w-2xl'><img src='/images/profhilo-injection-procedure-jvc.jpg' alt='Profhilo injectable treatment being administered at a clinic in JVC' class='w-full object-cover' /><p class='text-xs text-gray-500 font-sans mt-2 not-italic'>Profhilo is administered by injection into targeted skin areas.</p></div>",
+            subtitle: "Profhilo Aftercare",
             description: "Follow your clinician’s specific instructions above all else. General principles include: avoiding unnecessary touching of the area, keeping treated skin clean, protecting it from excessive sun exposure, following any post-treatment skincare guidance, and temporarily avoiding activities your provider advises against."
         },
         {
@@ -283,6 +283,10 @@ export const profhiloLaserPeelAftercareAndSafety = {
         }
     ],
     sidebar: {
+        image: "/images/profhilo-injection-procedure-jvc.webp",
+        altText: "Profhilo injectable treatment being administered at a clinic in JVC",
+        imageCaption: "Profhilo is administered by injection into targeted skin areas.",
+        imagePosition: "top",
         label: "AT A GLANCE",
         title: "Profhilo Recovery Summary",
         features: [
@@ -360,7 +364,7 @@ export const profhiloLaserPeelTeam = {
             name: "Dermatology Specialist Team",
             qualification: "DHA-Licensed Specialists",
             description: "For patients considering Profhilo Treatment in JVC, our approach centres on a genuine consultation before any decision, a thorough skin assessment, personalised planning rather than a fixed package, open discussion of goals and what’s realistic, careful consideration of product suitability, patient education throughout, and clear aftercare guidance.<br/><br/>We do not present unverified claims about awards, patient volumes, success rates, reviews, specific credentials, product brands, testimonials, or before-and-after outcomes here. For specific, up-to-date details, please ask directly during consultation.<br/><br/><em class='text-xs text-gray-500'>A dedicated treatment room used for aesthetic and injectable procedures.</em>",
-            image: "/images/vedara-care-treatment-room-jvc.jpg",
+            image: "/images/vedara-care-treatment-room-jvc.webp",
             alt: "Treatment room at Vedara Care Polyclinic in Jumeirah Village Circle"
         }
     ]
@@ -432,7 +436,7 @@ export const profhiloFAQ = {
     buttonHref: "/book",
     sidebarLinks: [
         { label: "Skin Boosters in JVC", href: "/treatments/skin-boosters-jvc" },
-        { label: "HydraFacial in JVC", href: "/treatments/hydrafacial-jvc" },
+        { label: "HydraFacial in JVC", href: "/hydrafacial-jvc" },
         { label: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc" }
     ],
     faqs: [

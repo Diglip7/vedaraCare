@@ -38,7 +38,7 @@ const NeckPainAyurvedaJvc = () => {
     "alternateName": ["Vedara Neck Pain Ayurveda JVC", "Ayurvedic Neck Pain Care JVC Dubai", "Vedara Griva Basti Treatment"],
     "url": "https://vedaracare.ae/conditions/neck-pain-ayurveda-jvc/",
     "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-    "description": "Authentic Ayurvedic neck pain management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu delivering constitutional approach through Griva Basti flagship cervical therapy, Nasya nasal medication, Shiroabhyanga head massage, Panchakarma programmes, Abhyanga, Elakizhi, herbal medicines, and ergonomic lifestyle counselling. Coordinated with modern medical care and physiotherapy.",
+    "description": "Authentic Ayurvedic neck pain management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya delivering constitutional approach through Griva Basti flagship cervical therapy, Nasya nasal medication, Shiroabhyanga head massage, Panchakarma programmes, Abhyanga, Elakizhi, herbal medicines, and ergonomic lifestyle counselling. Coordinated with modern medical care and physiotherapy.",
     "telephone": "+971 55 573 6312",
     "priceRange": "AED 400 - AED 35,000",
     "address": {
@@ -95,7 +95,7 @@ const NeckPainAyurvedaJvc = () => {
     ],
     "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "1100", "bestRating": "5", "worstRating": "1" },
-    "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+    "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
     "lastReviewed": "2026-09-01"
   };
 
@@ -246,7 +246,7 @@ const NeckPainAyurvedaJvc = () => {
       { "@type": "Question", "name": "What is Panchakarma and how does it help neck pain?", "acceptedAnswer": { "@type": "Answer", "text": "Panchakarma is traditional five-action Ayurvedic detoxification approach substantially valuable for chronic neck pain patterns. Multi-phase authentic protocol with Nasya integration particularly emphasised for cervical region. Programme provides comprehensive constitutional reset supporting sustained neck pain management. Duration typically 7-21 days." } },
       { "@type": "Question", "name": "Can Ayurveda help cervicogenic headache?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — cervicogenic headache (headache originating from cervical spine) responds well to Ayurvedic approach addressing cervical origin. Griva Basti for cervical foundation, Shiroabhyanga for head-neck connection particularly valuable, Nasya integration for classical head/neck pathway. Comprehensive assessment distinguishes cervicogenic headache from primary headache disorders for appropriate treatment." } },
       { "@type": "Question", "name": "Where in Dubai is your clinic?", "acceptedAnswer": { "@type": "Answer", "text": "DHA-licensed clinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Accessible from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif." } },
-      { "@type": "Question", "name": "Do you have female Ayurvedic doctor for neck pain?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Neethu is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial musculoskeletal expertise. Female practitioner important for cultural preferences and for female patients preferring same-gender practitioner for therapeutic procedures." } },
+      { "@type": "Question", "name": "Do you have female Ayurvedic doctor for neck pain?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial musculoskeletal expertise. Female practitioner important for cultural preferences and for female patients preferring same-gender practitioner for therapeutic procedures." } },
       { "@type": "Question", "name": "What about post-whiplash neck pain?", "acceptedAnswer": { "@type": "Answer", "text": "Post-whiplash supportive Ayurvedic care available. Requires appropriate medical assessment for cervical structural concerns before Ayurvedic treatment initiation. Coordinated with modern medical assessment throughout. Imaging review and specialist coordination when appropriate." } },
       { "@type": "Question", "name": "What about cervical spondylosis?", "acceptedAnswer": { "@type": "Answer", "text": "Cervical spondylosis responds well to sustained Ayurvedic management. Griva Basti series, Panchakarma with Nasya integration, Trayodashang Guggulu herbal medicine, sustained partnership approach with periodic maintenance. Progressive condition requiring sustained management rather than time-limited treatment." } },
       { "@type": "Question", "name": "How long does Ayurvedic neck pain treatment take?", "acceptedAnswer": { "@type": "Answer", "text": "Timeline varies by presentation. Acute neck pain typically improves within 2-4 weeks of active treatment. Chronic neck pain requires sustained approach — meaningful improvement typically 6-12 weeks. Long-term chronic conditions benefit from sustained partnership approach with periodic maintenance." } },
@@ -254,7 +254,7 @@ const NeckPainAyurvedaJvc = () => {
       { "@type": "Question", "name": "Which languages do you speak?", "acceptedAnswer": { "@type": "Answer", "text": "Arabic, English, Hindi, Malayalam (particularly relevant for Kerala Ayurvedic tradition), Urdu across our team." } },
       { "@type": "Question", "name": "Is Ayurvedic neck pain treatment covered by insurance?", "acceptedAnswer": { "@type": "Answer", "text": "May be covered with medical justification particularly for chronic diagnosed conditions (cervical spondylosis, cervical disc conditions, coordinated care with modern medical management). Direct billing with seven major insurers for covered elements." } },
       { "@type": "Question", "name": "Can I combine Ayurvedic and physiotherapy neck pain treatment?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — many patients benefit from combined approach. Our JVC clinic houses both approaches enabling coordinated care. Combined programme available with treatment planning between Ayurvedic and physiotherapy teams." } },
-      { "@type": "Question", "name": "How do I book neck pain consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying neck pain consultation ideally with Dr. Neethu; call 9AM-9PM seven days a week; book online. Please bring: description of neck pain history and current pattern, screen use patterns and typical work setup, any imaging reports and images, current medications, previous treatments, insurance card if applicable, specific questions and goals." } }
+      { "@type": "Question", "name": "How do I book neck pain consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying neck pain consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: description of neck pain history and current pattern, screen use patterns and typical work setup, any imaging reports and images, current medications, previous treatments, insurance card if applicable, specific questions and goals." } }
     ]
   };
 
@@ -272,20 +272,20 @@ const NeckPainAyurvedaJvc = () => {
       { "@type": "MedicalCondition", "name": "Cervical Disc Concerns" }
     ],
     "mainContentOfPage": { "@type": "WebPageElement", "cssSelector": "main" },
-    "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+    "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
     "lastReviewed": "2026-09-01",
     "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
     "medicalAudience": "Patient",
     "specialty": { "@type": "MedicalSpecialty", "name": "Ayurveda" }
   };
 
-  // ─── Schema 7: Physician (Dr. Neethu Entity Graph) ─────────────────────────
+  // ─── Schema 7: Physician (Dr. Ansiya Entity Graph) ─────────────────────────
   const schema7 = {
     "@context": "https://schema.org",
     "@type": "Physician",
-    "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician",
-    "name": "Dr. Neethu",
-    "url": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/",
+    "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
+    "name": "Dr. Ansiya",
+    "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
     "medicalSpecialty": ["Ayurveda", "Musculoskeletal Medicine", "Cervical Care"],
     "hasCredential": [
       { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
@@ -354,7 +354,7 @@ const NeckPainAyurvedaJvc = () => {
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/conditions/neck-pain-ayurveda-jvc/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/conditions/neck-pain-ayurveda-jvc/" />
         <meta property="og:title" content="Neck Pain Ayurvedic Treatment at Our JVC Clinic Dubai | Vedara Care" />
-        <meta property="og:description" content="Authentic Ayurvedic neck pain management at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Neethu. Griva Basti flagship therapy, Nasya nasal medication, Shiroabhyanga, Panchakarma, herbal medicines. Tech neck expertise. Multi-language." />
+        <meta property="og:description" content="Authentic Ayurvedic neck pain management at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Ansiya. Griva Basti flagship therapy, Nasya nasal medication, Shiroabhyanga, Panchakarma, herbal medicines. Tech neck expertise. Multi-language." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/neck-pain-ayurveda-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/neck-pain-ayurveda-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -546,7 +546,7 @@ const NeckPainAyurvedaJvc = () => {
                 {
                   phase: "Phase 1",
                   title: "Phase 1 — Assessment and Foundation",
-                  body: "Comprehensive 90-minute initial consultation with Dr. Neethu identifying neck pain pattern, constitutional factors, screen use patterns, functional impact, previous treatments, current medications, and treatment goals. Cervical red flag symptom screening including neurological screening for myelopathy. Personalised treatment plan design. First Griva Basti session may begin. Foundation ergonomic recommendations initiated."
+                  body: "Comprehensive 90-minute initial consultation with Dr. Ansiya identifying neck pain pattern, constitutional factors, screen use patterns, functional impact, previous treatments, current medications, and treatment goals. Cervical red flag symptom screening including neurological screening for myelopathy. Personalised treatment plan design. First Griva Basti session may begin. Foundation ergonomic recommendations initiated."
                 },
                 {
                   phase: "Phase 2 ",
@@ -647,12 +647,12 @@ const NeckPainAyurvedaJvc = () => {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "24px" }}>
               <div style={{ background: "rgb(250, 247, 242)", borderRadius: "8px", padding: "28px" }}>
                 <div style={{ width: "64px", height: "64px", borderRadius: "50%", background: "rgb(232, 224, 213)", marginBottom: "20px", overflow: "hidden" }}>
-                  <img alt="Dr Neethu Ayurvedic neck pain team Vedara Care JVC" src="/images/dr-neetu-ayurveda-jvc.webp" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                  <img alt="Dr Ansiya Ayurvedic neck pain team Vedara Care JVC" src="/images/dr-ansiya-ayurveda-jvc.webp" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                 </div>
-                <h4 style={{ fontFamily: "Fraunces, serif", fontWeight: 500, fontSize: "20px", color: "rgb(31, 31, 31)", marginBottom: "8px" }}>Dr. Neethu</h4>
+                <h4 style={{ fontFamily: "Fraunces, serif", fontWeight: 500, fontSize: "20px", color: "rgb(31, 31, 31)", marginBottom: "8px" }}>Dr. Ansiya</h4>
                 <p style={{ fontFamily: "Inter, sans-serif", fontSize: "13px", fontWeight: 600, color: "rgb(200, 168, 127)", letterSpacing: "0.04em", marginBottom: "12px" }}>Lead Musculoskeletal Ayurvedic Doctor</p>
                 <p style={{ fontFamily: "Inter, sans-serif", fontSize: "15px", lineHeight: 1.7, color: "rgb(85, 85, 85)", marginBottom: "16px" }}>DHA-Licensed BAMS-Qualified Ayurvedic Doctor with substantial musculoskeletal expertise across back pain, neck pain, joint disorders, cervical spondylosis, and lumbar spondylosis. Female practitioner providing comprehensive assessment and sustained partnership approach. Griva Basti and Nasya expertise for cervical-focused traditional therapies.</p>
-                <a href="/doctors/dr-neethu-ayurveda" style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", color: "rgb(200, 168, 127)", textDecoration: "none", borderBottom: "1px solid rgb(200, 168, 127)" }}>View Dr. Neethu&apos;s full profile</a>
+                <a href="/doctors/dr-ansiya-ayurveda" style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", color: "rgb(200, 168, 127)", textDecoration: "none", borderBottom: "1px solid rgb(200, 168, 127)" }}>View Dr. Ansiya&apos;s full profile</a>
               </div>
               <div style={{ background: "rgb(250, 247, 242)", borderRadius: "8px", padding: "28px" }}>
                 <h4 style={{ fontFamily: "Fraunces, serif", fontWeight: 500, fontSize: "20px", color: "rgb(31, 31, 31)", marginBottom: "8px" }}>Ayurvedic Therapy Team</h4>

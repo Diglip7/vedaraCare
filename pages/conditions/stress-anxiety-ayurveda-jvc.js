@@ -57,8 +57,8 @@ const StressAnxietyAyurvedaJvc = () => {
       "name": "Vedara Care Stress & Anxiety Ayurvedic Treatment JVC",
       "alternateName": ["Vedara Stress Ayurveda JVC", "Ayurvedic Stress Management JVC Dubai"],
       "url": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/",
-      "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
-      "description": "Authentic Ayurvedic stress and anxiety treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu delivering comprehensive stress management through Shirodhara, Nasya, Abhyanga, herbal medicines, and personalised lifestyle counselling. Coordinated with modern mental health care.",
+      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
+      "description": "Authentic Ayurvedic stress and anxiety treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya delivering comprehensive stress management through Shirodhara, Nasya, Abhyanga, herbal medicines, and personalised lifestyle counselling. Coordinated with modern mental health care.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 25,000",
       "address": {
@@ -68,50 +68,50 @@ const StressAnxietyAyurvedaJvc = () => {
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": "25.068346", "longitude": "55.207223"},
+      "geo": { "@type": "GeoCoordinates", "latitude": "25.068346", "longitude": "55.207223" },
       "hasMap": "https://maps.google.com/?q=Vedara+Care+Polyclinic+JVC",
       "openingHoursSpecification": [
-        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:30", "closes": "23:30"},
-        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "08:30", "closes": "23:30"}
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "08:30", "closes": "23:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "08:30", "closes": "23:30" }
       ],
       "areaServed": [
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Circle Mall JVC Vicinity"},
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Business Bay"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Jumeirah Lake Towers"},
-        {"@type": "Place", "name": "Emirates Hills"},
-        {"@type": "Place", "name": "Arabian Ranches"},
-        {"@type": "Place", "name": "Mirdif"}
+        { "@type": "Place", "name": "Jumeirah Village Circle" },
+        { "@type": "Place", "name": "Circle Mall JVC Vicinity" },
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "Jumeirah Village Triangle" },
+        { "@type": "Place", "name": "Al Barsha" },
+        { "@type": "Place", "name": "Al Barsha South" },
+        { "@type": "Place", "name": "Dubai Sports City" },
+        { "@type": "Place", "name": "Motor City" },
+        { "@type": "Place", "name": "Arjan" },
+        { "@type": "Place", "name": "Dubai Hills Estate" },
+        { "@type": "Place", "name": "Dubai Marina" },
+        { "@type": "Place", "name": "Downtown Dubai" },
+        { "@type": "Place", "name": "Business Bay" },
+        { "@type": "Place", "name": "Palm Jumeirah" },
+        { "@type": "Place", "name": "Jumeirah Lake Towers" },
+        { "@type": "Place", "name": "Emirates Hills" },
+        { "@type": "Place", "name": "Arabian Ranches" },
+        { "@type": "Place", "name": "Mirdif" }
       ],
       "medicalSpecialty": ["Ayurveda", "Stress Management", "Anxiety Management", "Integrative Medicine", "Mental Wellness", "Traditional Medicine"],
       "isAcceptingNewPatients": true,
       "availableService": [
-        {"@type": "MedicalProcedure", "name": "Ayurvedic Stress Management Consultation"},
-        {"@type": "MedicalProcedure", "name": "Shirodhara Therapy"},
-        {"@type": "MedicalProcedure", "name": "Nasya Therapy"},
-        {"@type": "MedicalProcedure", "name": "Abhyanga Oil Massage"},
-        {"@type": "MedicalProcedure", "name": "Ayurvedic Herbal Medicine Prescription"},
-        {"@type": "MedicalProcedure", "name": "Constitutional Assessment (Prakriti and Vikriti)"},
-        {"@type": "MedicalProcedure", "name": "Nadi Pareeksha"},
-        {"@type": "MedicalProcedure", "name": "Comprehensive Stress Management Programme"},
-        {"@type": "MedicalProcedure", "name": "Burnout Recovery Programme"},
-        {"@type": "MedicalProcedure", "name": "Pre-Event Stress Support Programme"},
-        {"@type": "MedicalProcedure", "name": "Corporate Stress Management Programme"}
+        { "@type": "MedicalProcedure", "name": "Ayurvedic Stress Management Consultation" },
+        { "@type": "MedicalProcedure", "name": "Shirodhara Therapy" },
+        { "@type": "MedicalProcedure", "name": "Nasya Therapy" },
+        { "@type": "MedicalProcedure", "name": "Abhyanga Oil Massage" },
+        { "@type": "MedicalProcedure", "name": "Ayurvedic Herbal Medicine Prescription" },
+        { "@type": "MedicalProcedure", "name": "Constitutional Assessment (Prakriti and Vikriti)" },
+        { "@type": "MedicalProcedure", "name": "Nadi Pareeksha" },
+        { "@type": "MedicalProcedure", "name": "Comprehensive Stress Management Programme" },
+        { "@type": "MedicalProcedure", "name": "Burnout Recovery Programme" },
+        { "@type": "MedicalProcedure", "name": "Pre-Event Stress Support Programme" },
+        { "@type": "MedicalProcedure", "name": "Corporate Stress Management Programme" }
       ],
-      "memberOf": {"@type": "Organization", "name": "Dubai Health Authority"},
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "1200", "bestRating": "5", "worstRating": "1"},
-      "reviewedBy": {"@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician"},
+      "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "1200", "bestRating": "5", "worstRating": "1" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-08-20"
     },
     {
@@ -120,11 +120,11 @@ const StressAnxietyAyurvedaJvc = () => {
       "@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/#chronic-stress",
       "name": "Chronic Stress",
       "alternateName": ["Chronic Stress Disorder", "Chronic Work Stress"],
-      "code": {"@type": "MedicalCode", "code": "F43.9", "codingSystem": "ICD-10"},
+      "code": { "@type": "MedicalCode", "code": "F43.9", "codingSystem": "ICD-10" },
       "possibleTreatment": [
-        {"@type": "MedicalTherapy", "name": "Ayurvedic Stress Management"},
-        {"@type": "MedicalTherapy", "name": "Shirodhara"},
-        {"@type": "MedicalTherapy", "name": "Constitutional Ayurvedic Care"}
+        { "@type": "MedicalTherapy", "name": "Ayurvedic Stress Management" },
+        { "@type": "MedicalTherapy", "name": "Shirodhara" },
+        { "@type": "MedicalTherapy", "name": "Constitutional Ayurvedic Care" }
       ]
     },
     {
@@ -133,11 +133,11 @@ const StressAnxietyAyurvedaJvc = () => {
       "@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/#gad",
       "name": "Generalised Anxiety Disorder",
       "alternateName": ["GAD", "Generalized Anxiety"],
-      "code": {"@type": "MedicalCode", "code": "F41.1", "codingSystem": "ICD-10"},
+      "code": { "@type": "MedicalCode", "code": "F41.1", "codingSystem": "ICD-10" },
       "possibleTreatment": [
-        {"@type": "MedicalTherapy", "name": "Ayurvedic Anxiety Management"},
-        {"@type": "MedicalTherapy", "name": "Shirodhara"},
-        {"@type": "MedicalTherapy", "name": "Ayurvedic Herbal Medicines"}
+        { "@type": "MedicalTherapy", "name": "Ayurvedic Anxiety Management" },
+        { "@type": "MedicalTherapy", "name": "Shirodhara" },
+        { "@type": "MedicalTherapy", "name": "Ayurvedic Herbal Medicines" }
       ]
     },
     {
@@ -146,11 +146,11 @@ const StressAnxietyAyurvedaJvc = () => {
       "@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/#burnout",
       "name": "Burnout Syndrome",
       "alternateName": ["Occupational Burnout", "Professional Burnout"],
-      "code": {"@type": "MedicalCode", "code": "Z73.0", "codingSystem": "ICD-10"},
+      "code": { "@type": "MedicalCode", "code": "Z73.0", "codingSystem": "ICD-10" },
       "possibleTreatment": [
-        {"@type": "MedicalTherapy", "name": "Ayurvedic Burnout Recovery Programme"},
-        {"@type": "MedicalTherapy", "name": "Panchakarma"},
-        {"@type": "MedicalTherapy", "name": "Rasayana Rejuvenation"}
+        { "@type": "MedicalTherapy", "name": "Ayurvedic Burnout Recovery Programme" },
+        { "@type": "MedicalTherapy", "name": "Panchakarma" },
+        { "@type": "MedicalTherapy", "name": "Rasayana Rejuvenation" }
       ]
     },
     {
@@ -158,28 +158,28 @@ const StressAnxietyAyurvedaJvc = () => {
       "@type": "MedicalCondition",
       "@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/#stress-insomnia",
       "name": "Stress-Related Insomnia",
-      "code": {"@type": "MedicalCode", "code": "F51.0", "codingSystem": "ICD-10"}
+      "code": { "@type": "MedicalCode", "code": "F51.0", "codingSystem": "ICD-10" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/#panic",
       "name": "Panic Disorder",
-      "code": {"@type": "MedicalCode", "code": "F41.0", "codingSystem": "ICD-10"}
+      "code": { "@type": "MedicalCode", "code": "F41.0", "codingSystem": "ICD-10" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/#ptsd",
       "name": "Post-Traumatic Stress Response",
-      "code": {"@type": "MedicalCode", "code": "F43.1", "codingSystem": "ICD-10"}
+      "code": { "@type": "MedicalCode", "code": "F43.1", "codingSystem": "ICD-10" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/#adjustment",
       "name": "Adjustment Disorder",
-      "code": {"@type": "MedicalCode", "code": "F43.2", "codingSystem": "ICD-10"}
+      "code": { "@type": "MedicalCode", "code": "F43.2", "codingSystem": "ICD-10" }
     },
     {
       "@context": "https://schema.org",
@@ -189,13 +189,13 @@ const StressAnxietyAyurvedaJvc = () => {
       "alternateName": ["Shirodhara Therapy", "Ayurvedic Oil Flow Therapy"],
       "procedureType": "Ayurvedic Therapeutic Procedure",
       "howPerformed": "Continuous warm medicated oil flow across forehead for stress and anxiety management",
-      "bodyLocation": {"@type": "AnatomicalStructure", "name": "Forehead"},
+      "bodyLocation": { "@type": "AnatomicalStructure", "name": "Forehead" },
       "preparation": "Constitutional assessment identifies appropriate oil selection",
       "indication": [
-        {"@type": "MedicalCondition", "name": "Chronic Stress"},
-        {"@type": "MedicalCondition", "name": "Anxiety"},
-        {"@type": "MedicalCondition", "name": "Sleep Concerns"},
-        {"@type": "MedicalCondition", "name": "Burnout"}
+        { "@type": "MedicalCondition", "name": "Chronic Stress" },
+        { "@type": "MedicalCondition", "name": "Anxiety" },
+        { "@type": "MedicalCondition", "name": "Sleep Concerns" },
+        { "@type": "MedicalCondition", "name": "Burnout" }
       ]
     },
     {
@@ -220,35 +220,35 @@ const StressAnxietyAyurvedaJvc = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Stress & Anxiety Ayurvedic Treatment at JVC", "item": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/"}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/" },
+        { "@type": "ListItem", "position": 3, "name": "Stress & Anxiety Ayurvedic Treatment at JVC", "item": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/" }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "Can Ayurveda help with stress and anxiety?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — Ayurveda has addressed stress and anxiety-like conditions for over three thousand years, developing sophisticated multi-modal approach combining constitutional assessment, therapies (particularly Shirodhara), herbal medicines, and lifestyle guidance. Substantial documented effectiveness for chronic work stress, generalised anxiety, sleep concerns from stress, burnout, and related conditions."}},
-        {"@type": "Question", "name": "What is Shirodhara and why is it used for stress?", "acceptedAnswer": {"@type": "Answer", "text": "Shirodhara is continuous warm oil flow across forehead — flagship Ayurvedic therapy for stress and anxiety. Produces profound nervous system calming, documented cortisol reduction, sleep quality improvement, sustained calming effects. Series of 7-14 sessions typical for meaningful outcomes."}},
-        {"@type": "Question", "name": "How is Ayurvedic stress management different from spa relaxation?", "acceptedAnswer": {"@type": "Answer", "text": "Authentic Ayurvedic stress management is medical care delivered by DHA-licensed BAMS-qualified Ayurvedic doctors with comprehensive assessment, personalised multi-modal treatment, ongoing monitoring, and coordination with modern medical care. Spa treatments provide temporary relaxation without medical foundation."}},
-        {"@type": "Question", "name": "Where in Dubai is your clinic?", "acceptedAnswer": {"@type": "Answer", "text": "DHA-licensed clinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Accessible from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif."}},
-        {"@type": "Question", "name": "Do you have female Ayurvedic doctor for stress management?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — Dr. Neethu is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial stress and anxiety management expertise. Female practitioner particularly important for many stress patients discussing personal circumstances."}},
-        {"@type": "Question", "name": "Can Ayurveda replace anti-anxiety medication?", "acceptedAnswer": {"@type": "Answer", "text": "Not universally. Many patients with mild-to-moderate stress and anxiety successfully manage with Ayurvedic approach as primary care. Severe anxiety disorders, panic disorder, PTSD typically require modern specialist care; Ayurveda supports alongside rather than replaces."}},
-        {"@type": "Question", "name": "What Ayurvedic herbs help with stress and anxiety?", "acceptedAnswer": {"@type": "Answer", "text": "Common Ayurvedic herbs include Brahmi (Bacopa monnieri) supporting cognitive function and reducing anxiety, Ashwagandha (Withania somnifera) supporting stress response and reducing cortisol, Jatamansi (Nardostachys jatamansi) with calming nervous system effects, Shankhpushpi (Convolvulus pluricaulis) supporting mental clarity. Prescribed by qualified Ayurvedic doctors matched to individual constitution."}},
-        {"@type": "Question", "name": "How long does Ayurvedic stress treatment take?", "acceptedAnswer": {"@type": "Answer", "text": "Timeline varies. Some patients experience initial improvement within 2-3 weeks of intensive programme. Substantial sustained improvement typically 6-12 weeks. Long-term stress management is ongoing partnership rather than time-limited treatment."}},
-        {"@type": "Question", "name": "Which languages do you speak?", "acceptedAnswer": {"@type": "Answer", "text": "Arabic, English, Hindi, Malayalam (particularly relevant for Kerala Ayurvedic tradition), Urdu across our team."}},
-        {"@type": "Question", "name": "Is Ayurvedic stress treatment covered by insurance?", "acceptedAnswer": {"@type": "Answer", "text": "Typically self-pay as wellness/complementary care. Some elements may be covered with medical justification. Direct billing with seven major insurers for covered elements."}},
-        {"@type": "Question", "name": "Can I do Ayurvedic treatment while on anti-anxiety medication?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — coordination essential. All current medications reviewed during consultation. Ayurvedic herbs selected for compatibility. Modern medical care continues alongside Ayurvedic approach. Complementary integration."}},
-        {"@type": "Question", "name": "What if I have severe depression or suicidal thoughts?", "acceptedAnswer": {"@type": "Answer", "text": "Severe mental health concerns require modern specialist care — psychiatrist or psychologist. If experiencing suicidal thoughts, contact modern mental health emergency services immediately. Ayurvedic approach supports alongside modern specialist care but should not substitute for specialist attention in severe conditions."}},
-        {"@type": "Question", "name": "What is corporate stress management programme?", "acceptedAnswer": {"@type": "Answer", "text": "Organisation-level programmes for Dubai-based businesses supporting employee stress management. Includes individual consultations, group education sessions, therapy sessions at JVC clinic or on-site at employer premises."}},
-        {"@type": "Question", "name": "Do you offer stress management during pregnancy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — pregnancy-safe Ayurvedic stress support available. Comprehensive consultation identifies appropriate pregnancy-safe approach coordinated with obstetric care."}},
-        {"@type": "Question", "name": "What about pre-event anxiety like for wedding or exam?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — pre-event stress support programmes with time-bounded intensive approach. Typically 3-6 weeks leading up to event with intensive Shirodhara series, calming herbal medicines, breath practices, personalised event-day guidance."}},
-        {"@type": "Question", "name": "How is stress from Dubai lifestyle specifically addressed?", "acceptedAnswer": {"@type": "Answer", "text": "Ayurvedic approach recognises Dubai's specific stress factors: high-pressure professional environment, expatriate isolation, cultural adjustment, long working hours, cost-of-living pressure, extreme climate effects. Lifestyle counselling accommodates these realities with practical sustainable recommendations."}},
-        {"@type": "Question", "name": "Can I do Ayurvedic stress treatment as complete beginner?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — no prior Ayurvedic experience required. Comprehensive initial consultation includes education about Ayurvedic principles, treatment approaches, expected experience, realistic outcomes."}},
-        {"@type": "Question", "name": "What about children and stress?", "acceptedAnswer": {"@type": "Answer", "text": "Pediatric Ayurvedic stress support available for adolescents with age-appropriate approaches. Gentler protocols, family-integrated approach where appropriate."}},
-        {"@type": "Question", "name": "How is stress management at Vedara different from other Ayurveda clinics in Dubai?", "acceptedAnswer": {"@type": "Answer", "text": "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Neethu. Comprehensive constitutional assessment. Multi-modal approach. Coordinated with modern mental health care. Integrated with dermatology, physiotherapy, home healthcare at same JVC clinic. Multi-language capability."}},
-        {"@type": "Question", "name": "How do I book stress management consultation?", "acceptedAnswer": {"@type": "Answer", "text": "Three ways: WhatsApp specifying stress management consultation ideally with Dr. Neethu; call 9AM-9PM seven days a week; book online. Please bring: description of stress and anxiety concerns, current medications, previous approaches, insurance card if applicable, cultural preferences, specific questions and goals."}}
+        { "@type": "Question", "name": "Can Ayurveda help with stress and anxiety?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Ayurveda has addressed stress and anxiety-like conditions for over three thousand years, developing sophisticated multi-modal approach combining constitutional assessment, therapies (particularly Shirodhara), herbal medicines, and lifestyle guidance. Substantial documented effectiveness for chronic work stress, generalised anxiety, sleep concerns from stress, burnout, and related conditions." } },
+        { "@type": "Question", "name": "What is Shirodhara and why is it used for stress?", "acceptedAnswer": { "@type": "Answer", "text": "Shirodhara is continuous warm oil flow across forehead — flagship Ayurvedic therapy for stress and anxiety. Produces profound nervous system calming, documented cortisol reduction, sleep quality improvement, sustained calming effects. Series of 7-14 sessions typical for meaningful outcomes." } },
+        { "@type": "Question", "name": "How is Ayurvedic stress management different from spa relaxation?", "acceptedAnswer": { "@type": "Answer", "text": "Authentic Ayurvedic stress management is medical care delivered by DHA-licensed BAMS-qualified Ayurvedic doctors with comprehensive assessment, personalised multi-modal treatment, ongoing monitoring, and coordination with modern medical care. Spa treatments provide temporary relaxation without medical foundation." } },
+        { "@type": "Question", "name": "Where in Dubai is your clinic?", "acceptedAnswer": { "@type": "Answer", "text": "DHA-licensed clinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Accessible from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif." } },
+        { "@type": "Question", "name": "Do you have female Ayurvedic doctor for stress management?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial stress and anxiety management expertise. Female practitioner particularly important for many stress patients discussing personal circumstances." } },
+        { "@type": "Question", "name": "Can Ayurveda replace anti-anxiety medication?", "acceptedAnswer": { "@type": "Answer", "text": "Not universally. Many patients with mild-to-moderate stress and anxiety successfully manage with Ayurvedic approach as primary care. Severe anxiety disorders, panic disorder, PTSD typically require modern specialist care; Ayurveda supports alongside rather than replaces." } },
+        { "@type": "Question", "name": "What Ayurvedic herbs help with stress and anxiety?", "acceptedAnswer": { "@type": "Answer", "text": "Common Ayurvedic herbs include Brahmi (Bacopa monnieri) supporting cognitive function and reducing anxiety, Ashwagandha (Withania somnifera) supporting stress response and reducing cortisol, Jatamansi (Nardostachys jatamansi) with calming nervous system effects, Shankhpushpi (Convolvulus pluricaulis) supporting mental clarity. Prescribed by qualified Ayurvedic doctors matched to individual constitution." } },
+        { "@type": "Question", "name": "How long does Ayurvedic stress treatment take?", "acceptedAnswer": { "@type": "Answer", "text": "Timeline varies. Some patients experience initial improvement within 2-3 weeks of intensive programme. Substantial sustained improvement typically 6-12 weeks. Long-term stress management is ongoing partnership rather than time-limited treatment." } },
+        { "@type": "Question", "name": "Which languages do you speak?", "acceptedAnswer": { "@type": "Answer", "text": "Arabic, English, Hindi, Malayalam (particularly relevant for Kerala Ayurvedic tradition), Urdu across our team." } },
+        { "@type": "Question", "name": "Is Ayurvedic stress treatment covered by insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Typically self-pay as wellness/complementary care. Some elements may be covered with medical justification. Direct billing with seven major insurers for covered elements." } },
+        { "@type": "Question", "name": "Can I do Ayurvedic treatment while on anti-anxiety medication?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — coordination essential. All current medications reviewed during consultation. Ayurvedic herbs selected for compatibility. Modern medical care continues alongside Ayurvedic approach. Complementary integration." } },
+        { "@type": "Question", "name": "What if I have severe depression or suicidal thoughts?", "acceptedAnswer": { "@type": "Answer", "text": "Severe mental health concerns require modern specialist care — psychiatrist or psychologist. If experiencing suicidal thoughts, contact modern mental health emergency services immediately. Ayurvedic approach supports alongside modern specialist care but should not substitute for specialist attention in severe conditions." } },
+        { "@type": "Question", "name": "What is corporate stress management programme?", "acceptedAnswer": { "@type": "Answer", "text": "Organisation-level programmes for Dubai-based businesses supporting employee stress management. Includes individual consultations, group education sessions, therapy sessions at JVC clinic or on-site at employer premises." } },
+        { "@type": "Question", "name": "Do you offer stress management during pregnancy?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — pregnancy-safe Ayurvedic stress support available. Comprehensive consultation identifies appropriate pregnancy-safe approach coordinated with obstetric care." } },
+        { "@type": "Question", "name": "What about pre-event anxiety like for wedding or exam?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — pre-event stress support programmes with time-bounded intensive approach. Typically 3-6 weeks leading up to event with intensive Shirodhara series, calming herbal medicines, breath practices, personalised event-day guidance." } },
+        { "@type": "Question", "name": "How is stress from Dubai lifestyle specifically addressed?", "acceptedAnswer": { "@type": "Answer", "text": "Ayurvedic approach recognises Dubai's specific stress factors: high-pressure professional environment, expatriate isolation, cultural adjustment, long working hours, cost-of-living pressure, extreme climate effects. Lifestyle counselling accommodates these realities with practical sustainable recommendations." } },
+        { "@type": "Question", "name": "Can I do Ayurvedic stress treatment as complete beginner?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — no prior Ayurvedic experience required. Comprehensive initial consultation includes education about Ayurvedic principles, treatment approaches, expected experience, realistic outcomes." } },
+        { "@type": "Question", "name": "What about children and stress?", "acceptedAnswer": { "@type": "Answer", "text": "Pediatric Ayurvedic stress support available for adolescents with age-appropriate approaches. Gentler protocols, family-integrated approach where appropriate." } },
+        { "@type": "Question", "name": "How is stress management at Vedara different from other Ayurveda clinics in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Ansiya. Comprehensive constitutional assessment. Multi-modal approach. Coordinated with modern mental health care. Integrated with dermatology, physiotherapy, home healthcare at same JVC clinic. Multi-language capability." } },
+        { "@type": "Question", "name": "How do I book stress management consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying stress management consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: description of stress and anxiety concerns, current medications, previous approaches, insurance card if applicable, cultural preferences, specific questions and goals." } }
       ]
     },
     {
@@ -258,28 +258,28 @@ const StressAnxietyAyurvedaJvc = () => {
       "name": "Stress and Anxiety Ayurvedic Treatment at Our JVC Clinic Dubai",
       "url": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/",
       "about": [
-        {"@type": "MedicalCondition", "name": "Chronic Stress"},
-        {"@type": "MedicalCondition", "name": "Generalised Anxiety"},
-        {"@type": "MedicalCondition", "name": "Burnout Syndrome"}
+        { "@type": "MedicalCondition", "name": "Chronic Stress" },
+        { "@type": "MedicalCondition", "name": "Generalised Anxiety" },
+        { "@type": "MedicalCondition", "name": "Burnout Syndrome" }
       ],
-      "mainContentOfPage": {"@type": "WebPageElement", "cssSelector": "main"},
-      "reviewedBy": {"@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician"},
+      "mainContentOfPage": { "@type": "WebPageElement", "cssSelector": "main" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-08-20",
-      "audience": {"@type": "MedicalAudience", "audienceType": "Patient"},
+      "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
       "medicalAudience": "Patient",
-      "specialty": {"@type": "MedicalSpecialty", "name": "Ayurveda"}
+      "specialty": { "@type": "MedicalSpecialty", "name": "Ayurveda" }
     },
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician",
-      "name": "Dr. Neethu",
-      "url": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/",
-      "image": "https://vedaracare.ae/og-images/dr-neethu.jpg",
+      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
+      "name": "Dr. Ansiya",
+      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
+      "image": "https://vedaracare.ae/og-images/dr-ansiya.jpg",
       "medicalSpecialty": ["Ayurveda", "Stress Management", "Anxiety Management"],
       "hasCredential": [
-        {"@type": "EducationalOccupationalCredential", "name": "BAMS"},
-        {"@type": "EducationalOccupationalCredential", "name": "DHA-Licensed Ayurvedic Doctor"}
+        { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
+        { "@type": "EducationalOccupationalCredential", "name": "DHA-Licensed Ayurvedic Doctor" }
       ],
       "gender": "Female",
       "knowsAbout": [
@@ -297,7 +297,7 @@ const StressAnxietyAyurvedaJvc = () => {
         "Expatriate Wellness"
       ],
       "knowsLanguage": ["English", "Arabic", "Hindi", "Malayalam", "Urdu"],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
+      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
     },
     {
       "@context": "https://schema.org",
@@ -305,7 +305,7 @@ const StressAnxietyAyurvedaJvc = () => {
       "@type": ["Organization", "MedicalOrganization"],
       "name": "Vedara Care Polyclinic",
       "url": "https://vedaracare.ae/",
-      "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"},
+      "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" },
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+971 55 573 6312",
@@ -325,7 +325,7 @@ const StressAnxietyAyurvedaJvc = () => {
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/" />
         <meta property="og:title" content="Stress & Anxiety Ayurvedic Treatment at Our JVC Clinic Dubai | Vedara Care" />
-        <meta property="og:description" content="Authentic Ayurvedic stress and anxiety care at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Neethu. Shirodhara, Nasya, Abhyanga, herbal medicines. Multi-language. Coordinated with modern mental health care." />
+        <meta property="og:description" content="Authentic Ayurvedic stress and anxiety care at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Ansiya. Shirodhara, Nasya, Abhyanga, herbal medicines. Multi-language. Coordinated with modern mental health care." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/stress-anxiety-ayurveda-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -513,7 +513,7 @@ const StressAnxietyAyurvedaJvc = () => {
                     lineHeight: 1.7,
                   }}
                 >
-                  Comprehensive 90-minute initial consultation with Dr. Neethu
+                  Comprehensive 90-minute initial consultation with Dr. Ansiya
                   identifying your stress patterns, constitutional factors, life
                   context, previous approaches, and treatment goals. Personalised
                   treatment plan design. First treatments may begin. Foundation
@@ -944,7 +944,7 @@ const StressAnxietyAyurvedaJvc = () => {
                 }}
               >
                 DHA-licensed BAMS-qualified Ayurvedic doctors with substantial stress
-                management expertise. Female practitioner (Dr. Neethu) available.
+                management expertise. Female practitioner (Dr. Ansiya) available.
                 Multi-language including Arabic, English, Hindi, Malayalam, Urdu.
               </p>
             </div>
@@ -970,8 +970,8 @@ const StressAnxietyAyurvedaJvc = () => {
               >
                 {/* Doctor Image */}
                 <img
-                  src="/images/dr-neetu-ayurveda-jvc.webp"
-                  alt="Dr. Neethu, Lead Ayurvedic Doctor at Vedara Care JVC clinic"
+                  src="/images/dr-ansiya-ayurveda-jvc.webp"
+                  alt="Dr. Ansiya, Lead Ayurvedic Doctor at Vedara Care JVC clinic"
                   style={{
                     width: "100%",
                     height: "100%",
@@ -1010,7 +1010,7 @@ const StressAnxietyAyurvedaJvc = () => {
                       marginBottom: "16px",
                     }}
                   >
-                    Dr. Neethu
+                    Dr. Ansiya
                   </h3>
 
                   <p
@@ -1064,7 +1064,7 @@ const StressAnxietyAyurvedaJvc = () => {
 
                   {/* Profile Link */}
                   <Link
-                    href="/doctors/dr-neethu-ayurveda/"
+                    href="/doctors/dr-ansiya-ayurveda/"
                     style={{
                       fontSize: "14px",
                       color: "rgb(200, 168, 127)",

@@ -268,7 +268,7 @@ const JanuBastiTreatment = () => {
           image: "/images/knee-concerns-ayurvedic-assessment-jvc.webp",
           altText: "Ayurvedic practitioner assessing knee concerns before Janu Basti treatment",
           width: "w-full",
-          height: "h-[500px]",
+          height: "h-[700px]",
           borderPosition: "right"
         }}
       />

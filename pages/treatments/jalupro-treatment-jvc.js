@@ -220,10 +220,10 @@ const JaluproTreatment = () => {
           }))
         ]}
         sidebar={{
-          image: "/images/hyaluronic-acid-amino-acid-injectable-mechanism.jpg",
+          image: "/images/hyaluronic-acid-amino-acid-injectable-mechanism.webp",
           altText: "Amino acid and hyaluronic acid skin-quality injectable mechanism concept",
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[550px]",
           borderPosition: "left"
         }}
       />
@@ -266,10 +266,10 @@ const JaluproTreatment = () => {
           description: c.description
         }))}
         sidebar={{
-          image: "/images/skin-concerns-hydration-dullness-fine-lines-jalupro.jpg",
+          image: "/images/skin-concerns-hydration-dullness-fine-lines-jalupro.webp",
           altText: "Hydration, dullness, fine lines and skin-quality concerns commonly associated with Jalupro treatment discussions",
           width: "w-full",
-          height: "h-[500px]",
+          height: "h-[375px]",
           borderPosition: "left"
         }}
       />
@@ -362,10 +362,10 @@ const JaluproTreatment = () => {
           { subtitle: '', description: jaluproConsultation.description }
         ]}
         sidebar={{
-          image: "/images/skin-assessment-clinical-consultation-jalupro-dubai.jpg",
+          image: "/images/skin-assessment-clinical-consultation-jalupro-dubai.webp",
           altText: "Clinical skin assessment and consultation before injectable Jalupro treatment",
           width: "w-full",
-          height: "h-[400px]",
+          height: "h-[240px]",
           borderPosition: "right"
         }}
       />
@@ -627,7 +627,7 @@ const JaluproTreatment = () => {
         sidebarLinks={[
           { text: "Profhilo Treatment in JVC", href: "/treatments/profhilo-treatment-jvc" },
           { text: "Skin Boosters in JVC", href: "/treatments/skin-boosters-jvc" },
-          { text: "HydraFacial in JVC", href: "/treatments/hydrafacial-jvc" },
+          { text: "HydraFacial in JVC", href: "/hydrafacial-jvc" },
           { text: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc" }
         ]}
       />

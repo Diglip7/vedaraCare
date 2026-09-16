@@ -19,7 +19,7 @@ export const hydrafacialHero = {
     title: "Protocol quality matters.",
     subtitle: "HydraFacial outcomes depend heavily on clinician judgement during extraction and serum selection — not just the device. Dermatology-led delivery means your skin type and sensitivities guide every step, not a one-size-fits-all routine."
   },
-  image: "",
+  image: "/images/hydra-facial.hero.webp",
   alt: "HydraFacial treatment consultation at Vedara Care JVC with dermatologist"
 };
 
@@ -70,18 +70,11 @@ export const hydrafacialHowItWorks = {
         title: "Aftercare guidance",
         description: "Patients are typically told how to care for their skin over the following day or two, including what to avoid."
       },
-
-
-
-
-
-
-
     ],
     footer: "\"It’s a fairly logical, low-drama process — which is part of the appeal for people who want visible results without an elaborate recovery plan."
   },
   rightContent: {
-    image: "",
+    image: "/images/hydra-facial.step.webp",
     alt: "HydraFacial steps diagram consultation",
     peelDepthsLabel: "TYPICAL HYDRAFACIAL STEPS",
     peelDepths: [
@@ -687,54 +680,54 @@ export const hydrafacialRelatedPages = {
   linkHref: "/treatments/",
   pages: [
     {
-      title: "	Dermatology Clinic in JVC ",
-      description: "an overview of our full range of dermatology services for JVC patients, useful if you’re exploring more than one skin concern at once.",
+      title: "Dermatology Clinic in JVC",
+      description: "an overview of our full range of dermatology services for JVC patients, useful if you're exploring more than one skin concern at once.",
       href: "/dermatology-clinic-jvc/"
     },
     {
-      title: "Skin Clinic in JVC ",
+      title: "Skin Clinic in JVC",
       description: "— a broader look at the skin treatments available locally, helpful if HydraFacial turns out not to be the right fit for your specific concern.",
       href: "/skin-clinic-jvc/"
     },
     {
-      title: "Acne Treatment in JVC ",
+      title: "Acne Treatment in JVC",
       description: "for patients dealing with active or persistent acne that needs more than a cosmetic facial.",
       href: "/conditions/acne-treatment-jvc/"
     },
     {
-      title: "Acne Scars Treatment ",
+      title: "Acne Scars Treatment",
       description: "relevant if your main concern is scarring rather than active breakouts.",
       href: "/conditions/acne-scars-treatment-jvc/"
     },
     {
       title: "Chemical Peel",
-      description: "an alternative or complementary treatment worth understanding if you’re comparing exfoliation options.",
+      description: "an alternative or complementary treatment worth understanding if you're comparing exfoliation options.",
       href: "/chemical-peel-jvc/"
     },
     {
       title: "Skin Rejuvenation",
       description: "for patients interested in a broader anti-aging or rejuvenation approach beyond a single facial.",
-      href: "/conditions/melasma-treatment-dubai/"
+      href: "/treatments/skin-rejuvenation-jvc/"
     },
     {
       title: "Pigmentation Treatment",
       description: "a better starting point if pigmentation, rather than texture or congestion, is your primary concern.",
-      href: "/"
+      href: "/conditions/pigmentation-treatment-dubai/"
     },
     {
-      title: "Melasma Treatment ",
+      title: "Melasma Treatment",
       description: "for patients whose discolouration concerns are specifically melasma-related.",
-      href: "/"
+      href: "/conditions/melasma-treatment-dubai/"
     },
     {
-      title: "Skin Conditions We Treat  ",
+      title: "Skin Conditions We Treat",
       description: "for sensitive or reactive skin, including eczema and psoriasis, requiring medical care before or instead of a cosmetic facial.",
-      href: "/"
+      href: "/conditions/"
     },
     {
-      title: "Our Dermatology Team  ",
+      title: "Our Dermatology Team",
       description: "meet the clinicians who assess and deliver treatments at Vedara Care.",
-      href: "/"
+      href: "/doctors/"
     }
   ]
 };

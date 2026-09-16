@@ -3,7 +3,7 @@ import React from 'react';
 const TeamSectionGrid = ({ 
   eyebrow = "The Team", 
   title = "Ayurvedic doctors for back pain care at our JVC clinic serving Dubai.", 
-  intro = "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial musculoskeletal expertise. Female practitioner (Dr. Neethu) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.", 
+  intro = "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial musculoskeletal expertise. Female practitioner (Dr. Ansiya) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.", 
   teamMembers = [] 
 }) => {
   return (

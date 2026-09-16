@@ -30,8 +30,8 @@ export const cervicalJvcIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
   title: "Cervical spondylosis Ayurvedic care at Vedara Care, in one paragraph.",
-  blockquote: "Cervical spondylosis Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic sustained management delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Neethu with substantial musculoskeletal expertise. Cervical spondylosis is classically understood through the Greeva Sandhigata Vata framework — cervical joint degeneration from Vata dosha — extensively described in Charaka Samhita and Sushruta Samhita. The additional classical term Manyastambha describes cervical stiffness. Comprehensive approach includes constitutional assessment, Nadi Pareeksha, cervical myelopathy screening (hand clumsiness, gait disturbance, bilateral arm symptoms, bladder/bowel changes, hyperreflexia requiring immediate specialist referral), and personalised sustained management plan. Treatment combines Griva Basti (warm medicated oil retained on cervical region within dough dam), Nasya (nasal medication classically emphasised specifically for cervical spondylosis), Shiroabhyanga, Panchakarma with Nasya integration, Abhyanga, Elakizhi, and Trayodashang Guggulu (compound herbal preparation specifically emphasised in classical texts for cervical spondylosis). Sustained partnership approach appropriate for progressive degenerative condition — realistic framing rather than curative promises. Female practitioner available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Serving patients from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and across Dubai.",
-  footer: "Medically reviewed by Dr. Neethu, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
+  blockquote: "Cervical spondylosis Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic sustained management delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya with substantial musculoskeletal expertise. Cervical spondylosis is classically understood through the Greeva Sandhigata Vata framework — cervical joint degeneration from Vata dosha — extensively described in Charaka Samhita and Sushruta Samhita. The additional classical term Manyastambha describes cervical stiffness. Comprehensive approach includes constitutional assessment, Nadi Pareeksha, cervical myelopathy screening (hand clumsiness, gait disturbance, bilateral arm symptoms, bladder/bowel changes, hyperreflexia requiring immediate specialist referral), and personalised sustained management plan. Treatment combines Griva Basti (warm medicated oil retained on cervical region within dough dam), Nasya (nasal medication classically emphasised specifically for cervical spondylosis), Shiroabhyanga, Panchakarma with Nasya integration, Abhyanga, Elakizhi, and Trayodashang Guggulu (compound herbal preparation specifically emphasised in classical texts for cervical spondylosis). Sustained partnership approach appropriate for progressive degenerative condition — realistic framing rather than curative promises. Female practitioner available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Serving patients from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and across Dubai.",
+  footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
 };
 
 export const cervicalJvcMechanism = {
@@ -72,7 +72,7 @@ export const cervicalJvcMechanism = {
   },
   rightContent: {
     image: "/images/basti-cervical spondylosis-vedara-jvc.webp",
-    alt: "Classical Greeva Sandhigata Vata Ayurvedic care Dr Neethu Vedara Care JVC",
+    alt: "Classical Greeva Sandhigata Vata Ayurvedic care Dr Ansiya Vedara Care JVC",
     imageClassName: "w-full h-[400px] lg:h-[500px] object-cover object-center",
     description: (
       <div style={{ background: "rgb(255, 255, 255)", borderRadius: "8px", padding: "24px", marginTop: "20px", borderLeft: "3px solid var(--gold)" }}>
@@ -304,19 +304,19 @@ export const cervicalJvcReviews = {
   alt: "Cervical spondylosis Greeva Sandhigata Vata patient testimonials Vedara Care JVC Dubai",
   items: [
     {
-      quote: "Retired British engineer in Dubai Marina, 68 years old — cervical spondylosis diagnosed on MRI eight years ago with chronic cervical pain, morning stiffness, and increasing cervicogenic headaches. Had been on sustained NSAIDs with gastrointestinal effects for years. Dr. Neethu's 90-minute assessment identified my Vata-Kapha constitutional pattern. After 14-day Panchakarma with Nasya integration, sustained Griva Basti series, and Trayodashang Guggulu coordinated with my GP — six months in: substantially reduced cervical pain, dramatically reduced cervicogenic headaches, tapered chronic NSAIDs completely. Sustained partnership approach exactly right for progressive nature.",
+      quote: "Retired British engineer in Dubai Marina, 68 years old — cervical spondylosis diagnosed on MRI eight years ago with chronic cervical pain, morning stiffness, and increasing cervicogenic headaches. Had been on sustained NSAIDs with gastrointestinal effects for years. Dr. Ansiya's 90-minute assessment identified my Vata-Kapha constitutional pattern. After 14-day Panchakarma with Nasya integration, sustained Griva Basti series, and Trayodashang Guggulu coordinated with my GP — six months in: substantially reduced cervical pain, dramatically reduced cervicogenic headaches, tapered chronic NSAIDs completely. Sustained partnership approach exactly right for progressive nature.",
       author: "MALE PATIENT, 68",
       details: " Cervical Spondylosis with Cervicogenic Headache · Dubai Marina Retiree",
       details1: "February 2026 · ✓ Verified patient"
     },
     {
-      quote: "Indian expatriate accountant, 42 years old — earlier-onset cervical spondylosis from years of laptop work in Dubai. Cultural preference for traditional Greeva Sandhigata Vata approach given family history of Ayurvedic use. Consulted Dr. Neethu — a female DHA-licensed Ayurvedic doctor, culturally important for me. Comprehensive assessment identifying screen-related presentation. Griva Basti series, Nasya integration, Trayodashang Guggulu, complete ergonomic overhaul of home office. Four months in: substantial symptomatic improvement, better cervical range of motion, dramatically reduced daily discomfort. Classical Ayurvedic approach through a DHA-licensed female doctor provided authentic, culturally-familiar care.",
+      quote: "Indian expatriate accountant, 42 years old — earlier-onset cervical spondylosis from years of laptop work in Dubai. Cultural preference for traditional Greeva Sandhigata Vata approach given family history of Ayurvedic use. Consulted Dr. Ansiya — a female DHA-licensed Ayurvedic doctor, culturally important for me. Comprehensive assessment identifying screen-related presentation. Griva Basti series, Nasya integration, Trayodashang Guggulu, complete ergonomic overhaul of home office. Four months in: substantial symptomatic improvement, better cervical range of motion, dramatically reduced daily discomfort. Classical Ayurvedic approach through a DHA-licensed female doctor provided authentic, culturally-familiar care.",
       author: "FEMALE PATIENT, 42",
       details: "Screen-Related Earlier-Onset Cervical Spondylosis Al Barsha Family ",
       details1: "January 2026 · ✓ Verified patient"
     },
     {
-      quote: "Retired Emirati grandmother in Mirdif, 71 years old — cervical spondylosis with radiculopathy producing radiating arm pain for four years. On gabapentin with cognitive side effects concerning to my family. Dr. Neethu's assessment included cervical myelopathy screening, imaging review, and careful medication and comorbidity review. Personalised gentler programme: Griva Basti, Nasya, Trayodashang Guggulu coordinated with my prescribing doctors. Treatment discussions in Arabic were reassuring. Six months in with monthly maintenance: substantial improvement in radiating pain, gabapentin tapered with prescribing doctor, improved sleep quality, better daily function.",
+      quote: "Retired Emirati grandmother in Mirdif, 71 years old — cervical spondylosis with radiculopathy producing radiating arm pain for four years. On gabapentin with cognitive side effects concerning to my family. Dr. Ansiya's assessment included cervical myelopathy screening, imaging review, and careful medication and comorbidity review. Personalised gentler programme: Griva Basti, Nasya, Trayodashang Guggulu coordinated with my prescribing doctors. Treatment discussions in Arabic were reassuring. Six months in with monthly maintenance: substantial improvement in radiating pain, gabapentin tapered with prescribing doctor, improved sleep quality, better daily function.",
       author: "Female patient, 71",
       details: "Cervical Spondylosis with Radiculopathy · Mirdif Emirati Family",
       details1: "March 2026 · ✓ Verified patient"
@@ -325,8 +325,9 @@ export const cervicalJvcReviews = {
   stats: [
     { value: "4.9★", label: "Google Rating" },
     { value: "1200+", label: "Reviews" },
+    { value: "Female", label: "Practitioner Available" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
-    { value: "Female", label: "Practitioner Available" }
+
   ]
 };
 
@@ -337,7 +338,7 @@ export const cervicalJvcPricing = {
   rows: [
     {
       service:
-        "Initial cervical spondylosis consultation with Dr. Neethu (Nadi Pareeksha + Greeva Sandhigata Vata assessment + myelopathy screening + treatment plan)",
+        "Initial cervical spondylosis consultation with Dr. Ansiya (Nadi Pareeksha + Greeva Sandhigata Vata assessment + myelopathy screening + treatment plan)",
       duration: "90 min",
       price: "AED [X]",
     },
@@ -453,7 +454,7 @@ export const cervicalJvcFaqs = {
   label: "Common Questions",
   title: "What patients ask about Ayurvedic cervical spondylosis care at our JVC clinic.",
   sidebarLinks: [
-    { text: "Dr. Neethu's profile", href: "/doctors/dr-neethu-ayurveda/" },
+    { text: "Dr. Ansiya's profile", href: "/doctors/dr-ansiya-ayurveda/" },
     { text: "Neck pain Ayurveda", href: "/conditions/neck-pain-ayurveda-jvc/" },
     { text: "Back pain Ayurveda", href: "/conditions/back-pain-ayurveda-jvc/" },
     { text: "Panchakarma treatment", href: "/treatments/panchakarma-dubai/" },
@@ -509,7 +510,7 @@ export const cervicalJvcFaqs = {
     },
     {
       "question": "Do you have female Ayurvedic doctor for cervical spondylosis?",
-      "answer": "Yes — Dr. Neethu is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial musculoskeletal expertise including specific cervical spondylosis capability. Female practitioner important for cultural preferences."
+      "answer": "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial musculoskeletal expertise including specific cervical spondylosis capability. Female practitioner important for cultural preferences."
     },
     {
       "question": "Do you treat older patients with cervical spondylosis?",
@@ -525,7 +526,7 @@ export const cervicalJvcFaqs = {
     },
     {
       "question": "Can I have imaging (MRI/X-ray) reviewed as part of consultation?",
-      "answer": "Yes — please bring any imaging reports and images to consultation. Dr. Neethu will review alongside clinical assessment. Coordination with treating specialists as appropriate. Imaging findings guide treatment planning and identify presentations requiring specialist coordination."
+      "answer": "Yes — please bring any imaging reports and images to consultation. Dr. Ansiya will review alongside clinical assessment. Coordination with treating specialists as appropriate. Imaging findings guide treatment planning and identify presentations requiring specialist coordination."
     },
     {
       "question": "Which languages do you speak?",
@@ -541,7 +542,7 @@ export const cervicalJvcFaqs = {
     },
     {
       "question": "How do I book cervical spondylosis consultation?",
-      "answer": "Three ways: WhatsApp specifying cervical spondylosis consultation ideally with Dr. Neethu; call 9AM-9PM seven days a week; book online. Please bring: description of cervical spondylosis history and symptoms, any imaging reports and images (X-rays, MRI, CT), current medications including chronic NSAIDs and gabapentinoids, previous treatments, insurance card if applicable."
+      "answer": "Three ways: WhatsApp specifying cervical spondylosis consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: description of cervical spondylosis history and symptoms, any imaging reports and images (X-rays, MRI, CT), current medications including chronic NSAIDs and gabapentinoids, previous treatments, insurance card if applicable."
     }
   ]
 };
@@ -565,8 +566,8 @@ export const cervicalJvcLocation = {
 export const cervicalJvcCTA = {
   label: "Ready for Classical Ayurvedic Greeva Sandhigata Vata Care?",
   title: "Comprehensive cervical spondylosis consultation is the starting point for sustained partnership.",
-  description: "Whether you're experiencing cervical spondylosis without myelopathy or radiculopathy, cervical spondylosis with radiculopathy producing radiating arm pain, cervical spondylosis with myelopathy features requiring specialist coordination, cervical disc degeneration or displacement, cervical spondylosis with cervicogenic headache, post-cervical surgery continuing symptoms, screen-related earlier-onset cervical spondylosis common in Dubai's professional demographic, or cervical spondylosis in older age requiring careful sustained approach — comprehensive consultation with Dr. Neethu identifies your specific pattern and designs personalised sustained management. DHA-licensed authentic Ayurvedic care with classical Greeva Sandhigata Vata protocols, Griva Basti, Nasya, Trayodashang Guggulu, coordinated with modern medical care. Same-week appointments typically available.",
-  button1Text: "Book Consultation with Dr. Neethu",
+  description: "Whether you're experiencing cervical spondylosis without myelopathy or radiculopathy, cervical spondylosis with radiculopathy producing radiating arm pain, cervical spondylosis with myelopathy features requiring specialist coordination, cervical disc degeneration or displacement, cervical spondylosis with cervicogenic headache, post-cervical surgery continuing symptoms, screen-related earlier-onset cervical spondylosis common in Dubai's professional demographic, or cervical spondylosis in older age requiring careful sustained approach — comprehensive consultation with Dr. Ansiya identifies your specific pattern and designs personalised sustained management. DHA-licensed authentic Ayurvedic care with classical Greeva Sandhigata Vata protocols, Griva Basti, Nasya, Trayodashang Guggulu, coordinated with modern medical care. Same-week appointments typically available.",
+  button1Text: "Book Consultation with Dr. Ansiya",
   button1Href: "/book",
   button2Text: "WhatsApp Us",
   button2Href: "https://wa.me/971555736312",
@@ -583,9 +584,9 @@ export const cervicalJvcRelatedPages = {
   linkHref: "/conditions/",
   pages: [
     {
-      title: "Dr. Neethu — Ayurvedic Doctor",
+      title: "Dr. Ansiya — Ayurvedic Doctor",
       description: "Female DHA-licensed BAMS practitioner with substantial musculoskeletal expertise including specific Greeva Sandhigata Vata capability.",
-      href: "/doctors/dr-neethu-ayurveda/"
+      href: "/doctors/dr-ansiya-ayurveda/"
     },
     {
       title: "Neck Pain Ayurvedic Care JVC",
@@ -622,15 +623,15 @@ export const cervicalJvcRelatedArticles = {
 export const cervicalJvcTeam = {
   eyebrow: "THE TEAM",
   title: "Ayurvedic doctors for cervical spondylosis care at our JVC clinic serving Dubai.",
-  intro: "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial musculoskeletal expertise. Female practitioner Dr. Neethu available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Cultural competence across Dubai's diverse community.",
+  intro: "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial musculoskeletal expertise. Female practitioner Dr. Ansiya available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Cultural competence across Dubai's diverse community.",
   teamMembers: [
     {
       tags: "DHA-LICENSED · BAMS-QUALIFIED",
-      name: "Dr. Neethu",
+      name: "Dr. Ansiya",
       role: "Lead Musculoskeletal Ayurvedic Doctor </br> Female Practitioner · DHA-Licensed BAMS",
-      description: "Substantial musculoskeletal expertise including cervical spondylosis explicitly. Comprehensive Greeva Sandhigata Vata assessment, Griva Basti, Nasya, and Trayodashang Guggulu expertise. Cultural competence across Dubai's diverse community. 90-minute initial consultations.<br><br><a href=\"/doctors/dr-neethu-ayurveda/\" class=\"hover:underline\" style=\"color: #C9A55A; text-decoration: underline;\">View Dr. Neethu's full profile →</a>",
-      image: "/images/dr-neetu-ayurveda-jvc.webp",
-      alt: "Dr Neethu Ayurvedic cervical spondylosis team Vedara Care JVC"
+      description: "Substantial musculoskeletal expertise including cervical spondylosis explicitly. Comprehensive Greeva Sandhigata Vata assessment, Griva Basti, Nasya, and Trayodashang Guggulu expertise. Cultural competence across Dubai's diverse community. 90-minute initial consultations.<br><br><a href=\"/doctors/dr-ansiya-ayurveda/\" class=\"hover:underline\" style=\"color: #C9A55A; text-decoration: underline;\">View Dr. Ansiya's full profile →</a>",
+      image: "/images/dr-ansiya-ayurveda-jvc.webp",
+      alt: "Dr Ansiya Ayurvedic cervical spondylosis team Vedara Care JVC"
     },
     {
       tags: "UNDER DOCTOR SUPERVISION",

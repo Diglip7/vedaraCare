@@ -24,7 +24,7 @@ export const skinBoostersHero = {
     title: "Skin Quality",
     subtitle: "Injectable treatment placed within the skin to support hydration, texture and overall skin quality rather than add facial volume."
   },
-  image: "/images/skin-boosters-consultation-vedara-care-jvc.jpg",
+  image: "/images/skin-boosters-consultation-vedara-care-jvc.webp",
   alt: "Dermatology consultation for skin boosters at Vedara Care Polyclinic in JVC"
 };
 
@@ -58,7 +58,7 @@ export const skinBoostersExplanation = {
     "What generally sets skin boosters apart from a conventional facial is that they are injected into the skin rather than applied to its surface, which is intended to allow the product to be distributed within the skin itself rather than sitting on top of it.",
     "What sets them apart from dermal fillers, in most cases, is intent and placement: skin boosters are generally discussed in relation to hydration and skin quality, while fillers are commonly used for volume, contouring and structural enhancement. Product characteristics do vary, however, and the treating clinician is best placed to explain how a specific product behaves."
   ],
-  image: "/images/skin-boosters-treatment-explanation-vedara-care.jpg",
+  image: "/images/skin-boosters-treatment-explanation-vedara-care.webp",
   alt: "Skin booster injectable treatment illustration",
   caption: "Product placement and intent differ from volumizing fillers."
 };
@@ -207,7 +207,8 @@ export const skinBoostersAppointment = {
     "Step 6 — Immediate assessment: The treated area is checked immediately after injection.",
     "Step 7 — Aftercare guidance: You're given specific instructions for the hours and days following treatment."
   ],
-  image: "/images/skin-boosters-treatment-preparation-jvc.jpg",
+  image: "/images/skin-boosters-treatment-preparation-jvc.webp",
+
   alt: "Skin preparation before a skin booster injection treatment"
 };
 
@@ -317,7 +318,7 @@ export const skinBoostersCanReplaceSkincare = {
 export const skinBoostersLocation = {
   title: "Skin Boosters at Vedara Care Polyclinic",
   address: "Vedara Care Polyclinic is located at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE. Skin boosters are discussed as part of the clinic's dermatologist-led skin rejuvenation programme — meaning the starting point is always an individual skin assessment rather than a fixed, one-size-fits-all product recommendation.\n\nA typical path through the clinic looks like this: an initial consultation to discuss your concern and review your history, a skin assessment to check suitability and identify any factors that might affect product choice, and a personalised treatment plan built around what's realistic for your skin. Patient education is treated as part of the process, not an afterthought — you should leave a consultation understanding what the treatment can and can't do for your specific concern, which product is being proposed and why, and what the recovery and aftercare would likely involve.",
-  image: "/images/treatment-room-vedara-care-polyclinic-jvc.jpg",
+  image: "/images/treatment-room-vedara-care-polyclinic-jvc.webp",
   alt: "Treatment room at Vedara Care Polyclinic in Jumeirah Village Circle"
 };
 
@@ -331,12 +332,14 @@ export const skinBoostersWhyJvc = {
 
 export const skinBoostersSummary1 = {
   title: "Skin Boosters at Vedara Care Polyclinic",
-  description: "Vedara Care Polyclinic is a DHA-licensed clinic located at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE. Skin boosters are offered as part of our dermatologist-led skin rejuvenation programme, delivered by DHA-licensed consultant dermatologists, including Dr. Meera Patel, whose areas of focus include skin boosters, mesotherapy and anti-ageing treatment.A skin-booster consultation at Vedara Care includes a skin assessment, a discussion of your goals and relevant medical history, product-specific information, and a personalised treatment plan, followed by clear aftercare guidance. We don't select a product for you before assessment, and we don't promise a specific result — our aim is to give you accurate information so you can decide whether treatment is right for you."};
+  description: "Vedara Care Polyclinic is a DHA-licensed clinic located at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE. Skin boosters are offered as part of our dermatologist-led skin rejuvenation programme, delivered by DHA-licensed consultant dermatologists, including Dr. Meera Patel, whose areas of focus include skin boosters, mesotherapy and anti-ageing treatment.A skin-booster consultation at Vedara Care includes a skin assessment, a discussion of your goals and relevant medical history, product-specific information, and a personalised treatment plan, followed by clear aftercare guidance. We don't select a product for you before assessment, and we don't promise a specific result — our aim is to give you accurate information so you can decide whether treatment is right for you."
+};
 
 
 export const skinBoostersSummary = {
   title: "Skin Boosters in Jumeirah Village Circle, Dubai",
-  description: "For patients researching skin boosters in JVC, Dubai, the treatment sits within a broader dermatology and skin-quality service offered at Vedara Care Polyclinic, a DHA-licensed clinic serving JVC and the wider Dubai community. If you're still deciding whether a skin booster, a different skin-quality treatment, or a combined approach is right for you, our team can talk you through the options at consultation."};
+  description: "For patients researching skin boosters in JVC, Dubai, the treatment sits within a broader dermatology and skin-quality service offered at Vedara Care Polyclinic, a DHA-licensed clinic serving JVC and the wider Dubai community. If you're still deciding whether a skin booster, a different skin-quality treatment, or a combined approach is right for you, our team can talk you through the options at consultation."
+};
 
 export const skinBoostersFAQ = {
   faqs: [

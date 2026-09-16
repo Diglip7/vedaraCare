@@ -37,7 +37,7 @@ const WeightLossAyurvedaJvc = () => {
       "alternateName": ["Vedara Weight Loss Ayurveda JVC", "Ayurvedic Weight Management JVC Dubai", "Vedara Metabolic Ayurvedic Care"],
       "url": "https://vedaracare.ae/conditions/weight-loss-ayurveda-jvc/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Sustainable Ayurvedic weight management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu delivering comprehensive metabolic care through Panchakarma, Udvartana, herbal medicines, and constitutional dietary guidance. Coordinated with modern medical care.",
+      "description": "Sustainable Ayurvedic weight management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya delivering comprehensive metabolic care through Panchakarma, Udvartana, herbal medicines, and constitutional dietary guidance. Coordinated with modern medical care.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 20,000",
       "address": { "@type": "PostalAddress", "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4", "addressLocality": "Jumeirah Village Circle", "addressRegion": "Dubai", "addressCountry": "AE", "postalCode": "00000" },
@@ -82,7 +82,7 @@ const WeightLossAyurvedaJvc = () => {
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-08-20"
     },
     {
@@ -114,9 +114,9 @@ const WeightLossAyurvedaJvc = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician",
-      "name": "Dr. Neethu",
-      "url": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/",
+      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
+      "name": "Dr. Ansiya",
+      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
       "medicalSpecialty": ["Ayurveda", "Weight Management"],
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
@@ -149,7 +149,7 @@ const WeightLossAyurvedaJvc = () => {
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/weight-loss-ayurveda-jvc/" />
 
         <meta property="og:title" content="Sustainable Weight Management Through Ayurveda at Our JVC Clinic Dubai | Vedara Care" />
-        <meta property="og:description" content="Sustainable Ayurvedic weight management at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Neethu. Panchakarma metabolic reset, Udvartana, herbal medicines, constitutional approach." />
+        <meta property="og:description" content="Sustainable Ayurvedic weight management at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Ansiya. Panchakarma metabolic reset, Udvartana, herbal medicines, constitutional approach." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/weight-loss-ayurveda-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/weight-loss-ayurveda-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -210,7 +210,7 @@ const WeightLossAyurvedaJvc = () => {
 
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "24px", marginBottom: "48px" }}>
               {[
-                { phase: "Phase 1", title: "Assessment & Foundation", time: "Week 1-2", desc: "Comprehensive 90-minute initial consultation with Dr. Neethu identifying your weight history, metabolic patterns, constitutional factors, and treatment goals. Personalised treatment plan design. Foundation dietary recommendations initiated based on constitution. Initial herbal medicines prescribed to support Agni." },
+                { phase: "Phase 1", title: "Assessment & Foundation", time: "Week 1-2", desc: "Comprehensive 90-minute initial consultation with Dr. Ansiya identifying your weight history, metabolic patterns, constitutional factors, and treatment goals. Personalised treatment plan design. Foundation dietary recommendations initiated based on constitution. Initial herbal medicines prescribed to support Agni." },
                 { phase: "Phase 2", title: "Metabolic Reset & Detox", time: "Weeks 3–6", desc: "Active Panchakarma metabolic reset phase, potentially including Virechana, supported by Udvartana (herbal powder massage) sessions. Deep internal cleansing and preparation of the tissues for sustained metabolic shifts." },
                 { phase: "Phase 3", title: "Metabolic Consolidation", time: "Weeks 7–12", desc: "Continued Udvartana or Abhyanga treatments at reducing frequency, herbal medicine maintenance and adjustment, dietary practices becoming sustained habits. Substantial sustained improvements in body composition, energy, and digestion typically apparent." },
                 { phase: "Phase 4", title: "Long-Term Sustained Wellness", time: "Month 3+", desc: "Transitioned to sustained lifestyle partnership with periodic check-ins, ongoing lifestyle practices, seasonal detox adjustments as needed. A focus on maintaining a balanced Agni and healthy weight without extreme restriction." }

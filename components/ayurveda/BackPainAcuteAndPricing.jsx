@@ -21,9 +21,7 @@ const BackPainAcuteAndPricing = ({ data }) => {
               <p className="text-base" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7' }}>
                 {acute.description1}
               </p>
-              <p className="text-base" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7' }}>
-                {acute.description2}
-              </p>
+              <p className="text-base" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7' }} dangerouslySetInnerHTML={{ __html: acute.description2 }} />
               <p className="text-base" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7' }}>
                 {acute.description3}
               </p>
@@ -60,7 +58,7 @@ const BackPainAcuteAndPricing = ({ data }) => {
                       <svg className="w-4 h-4 flex-shrink-0" style={{ color: 'rgb(26,77,46)' }} fill="currentColor" viewBox="0 0 24 24">
                         <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path>
                       </svg>
-                      <span style={{ color: 'rgb(107, 107, 107)' }}>{point}</span>
+                      <span style={{ color: 'rgb(107, 107, 107)' }} dangerouslySetInnerHTML={{ __html: point }} />
                     </li>
                   ))}
                 </ul>

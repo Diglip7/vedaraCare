@@ -338,11 +338,20 @@ export default function BookAppointment({ dynamicTreatments }) {
         source: "Booking Page Form"
       };
 
-      await fetch('/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       });
+
+      if (response.ok) {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'generate_lead',
+          form_name: 'booking_form',
+          page_path: window.location.pathname,
+        });
+      }
 
       setIsSubmitting(false);
       setIsSubmitted(true);

@@ -20,8 +20,9 @@ const nextConfig = {
 
   async redirects() {
     return [
-      { source: '/:path*/', destination: '/:path*', permanent: true },
+      // { source: '/:path*/', destination: '/:path*', permanent: true },
       { source: '/ayurveda', destination: '/ayurveda-clinic-jvc', permanent: true }, // see next issue
+      { source: '/carbon-laser-peel-jvc', destination: '/treatments/carbon-laser-peel-jvc', permanent: true },
     ];
   }
 };

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import ModernBlogEditorV1 from './blog-editor';
 import axios from 'axios';
+import Head from 'next/head';
 import {
   PlusCircle, Search, Heart, MessageCircle, Bookmark, Edit3, Trash2,
   Eye, Clock, User, Hash, Sparkles, Flame, BarChart3, ExternalLink,
@@ -344,8 +345,12 @@ const AdminBlogPost = () => {
   const draftMonthGroups = groupByMonth(filteredDrafts);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#FAF8EF] via-[#F8F9FA] to-white text-gray-800 font-sans selection:bg-[#C9A961]/30">
-      {/* Soft Background Effects */}
+    <>
+      <Head>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-br from-[#FAF8EF] via-[#F8F9FA] to-white text-gray-800 font-sans selection:bg-[#C9A961]/30">
+        {/* Soft Background Effects */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
         <div className="absolute top-[-20%] left-[-10%] w-[500px] h-[500px] bg-[#C9A961]/20 rounded-full blur-3xl animate-pulse" />
         <div className="absolute top-[40%] right-[-5%] w-[400px] h-[400px] bg-[#184C3A]/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
@@ -1316,6 +1321,7 @@ const AdminBlogPost = () => {
         }
       `}</style>
     </div>
+    </>
   );
 };
 

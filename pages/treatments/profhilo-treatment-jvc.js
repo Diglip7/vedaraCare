@@ -303,7 +303,7 @@ const ProfhiloTreatment = () => {
                 faqs={profhiloFAQ.faqs}
                 buttonText={profhiloFAQ.buttonText}
                 buttonHref={profhiloFAQ.buttonHref}
-                sidebarLinks={profhiloFAQ.sidebarLinks}
+            // sidebarLinks={profhiloFAQ.sidebarLinks}
             />
 
             <TreatmentLocation

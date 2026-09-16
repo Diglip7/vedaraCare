@@ -6,7 +6,7 @@ export const sciaticaJvcHero = {
   ],
   label: "Sciatica Ayurvedic Treatment · Gridhrasi · DHA-Licensed · Jumeirah Village Circle",
   title: "Sciatica Ayurvedic treatment at our JVC clinic, Dubai — classical Gridhrasi care.",
-  description: "Authentic Ayurvedic sciatica management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. Classical Gridhrasi care through Basti, Kativasti, Panchakarma, and constitutional assessment. Female practitioner Dr. Neethu available. Coordinated with modern medical care for red flag presentations.",
+  description: "Authentic Ayurvedic sciatica management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. Classical Gridhrasi care through Basti, Kativasti, Panchakarma, and constitutional assessment. Female practitioner Dr. Ansiya available. Coordinated with modern medical care for red flag presentations.",
   primaryCTA: "Book a Sciatica Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
@@ -30,8 +30,8 @@ export const sciaticaJvcIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
   title: "Sciatica Ayurvedic care at Vedara Care, in one paragraph.",
-  blockquote: "Sciatica Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai — is authentic multi-modal care delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Neethu. Sciatica is classically termed Gridhrasi in Ayurveda, extensively described in Charaka Samhita and Sushruta Samhita with dedicated traditional treatment protocols emphasising Basti (medicated enema) as classically most powerful therapy for Vata pacification. Comprehensive approach includes constitutional assessment, classical Basti series (Yoga Basti 8-day, Kala Basti 16-day, Karma Basti 30-day protocols), Kativasti with extended lower body attention, Panchakarma with Basti emphasis, Abhyanga, Elakizhi, Pizhichil, Ayurvedic herbal medicines (Rasnadi Kwatham, Trayodashang Guggulu, Guggul preparations), and personalised lifestyle counselling. Covers acute sciatica, chronic sciatica, piriformis-related, disc-related with specialist coordination, pregnancy-related (Basti contraindicated — modified protocol), post-surgical, and bilateral presentations. Explicit escalation for red flag symptoms including cauda equina features. Serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and all Dubai communities.",
-  footer: "Medically reviewed by Dr. Neethu, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
+  blockquote: "Sciatica Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai — is authentic multi-modal care delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya. Sciatica is classically termed Gridhrasi in Ayurveda, extensively described in Charaka Samhita and Sushruta Samhita with dedicated traditional treatment protocols emphasising Basti (medicated enema) as classically most powerful therapy for Vata pacification. Comprehensive approach includes constitutional assessment, classical Basti series (Yoga Basti 8-day, Kala Basti 16-day, Karma Basti 30-day protocols), Kativasti with extended lower body attention, Panchakarma with Basti emphasis, Abhyanga, Elakizhi, Pizhichil, Ayurvedic herbal medicines (Rasnadi Kwatham, Trayodashang Guggulu, Guggul preparations), and personalised lifestyle counselling. Covers acute sciatica, chronic sciatica, piriformis-related, disc-related with specialist coordination, pregnancy-related (Basti contraindicated — modified protocol), post-surgical, and bilateral presentations. Explicit escalation for red flag symptoms including cauda equina features. Serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and all Dubai communities.",
+  footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
 };
 
 export const sciaticaJvcMechanism = {
@@ -54,7 +54,7 @@ export const sciaticaJvcMechanism = {
       },
       {
         title: "Constitutional approach — why different sciatica patterns need different treatment",
-        description: "Different Ayurvedic constitutions (Prakriti) produce different sciatica vulnerability patterns. Vata constitutions: sharp shooting pain, spasm, cold-worsened — requiring warming and oleation. Pitta constitutions: burning radiating pain with inflammation — requiring cooling within Vata pacification. Kapha constitutions: heavy dull pain with stiffness — requiring stimulating approaches. Dr. Neethu's assessment identifies your specific pattern during initial consultation."
+        description: "Different Ayurvedic constitutions (Prakriti) produce different sciatica vulnerability patterns. Vata constitutions: sharp shooting pain, spasm, cold-worsened — requiring warming and oleation. Pitta constitutions: burning radiating pain with inflammation — requiring cooling within Vata pacification. Kapha constitutions: heavy dull pain with stiffness — requiring stimulating approaches. Dr. Ansiya's assessment identifies your specific pattern during initial consultation."
       },
       {
         title: "Kativasti with lower body extension for sciatica",
@@ -70,7 +70,7 @@ export const sciaticaJvcMechanism = {
   },
   rightContent: {
     image: "/images/basti-sciatica-vedara-jvc.webp",
-    alt: "Classical Gridhrasi Ayurvedic treatment Dr Neethu Vedara Care JVC",
+    alt: "Classical Gridhrasi Ayurvedic treatment Dr Ansiya Vedara Care JVC",
   }
 };
 
@@ -183,7 +183,7 @@ export const sciaticaJvcApproaches = {
     },
     {
       subtitle: "Comprehensive Sciatica Assessment",
-      description: "Initial 90-minute consultation with Dr. Neethu including detailed sciatica history, Nadi Pareeksha, Prakriti and Vikriti assessment, Gridhrasi type identification (Vataja vs Vata-Kaphaja), imaging review, current medications review, and neurological examination including straight-leg raise, dermatomal sensory testing, motor strength assessment, and cauda equina screening."
+      description: "Initial 90-minute consultation with Dr. Ansiya including detailed sciatica history, Nadi Pareeksha, Prakriti and Vikriti assessment, Gridhrasi type identification (Vataja vs Vata-Kaphaja), imaging review, current medications review, and neurological examination including straight-leg raise, dermatomal sensory testing, motor strength assessment, and cauda equina screening."
     },
     {
       subtitle: "Basti — Flagship Classical Therapy for Gridhrasi",
@@ -280,13 +280,13 @@ export const sciaticaJvcReviews = {
   alt: "Sciatica Gridhrasi management patient testimonials Vedara Care JVC Dubai",
   items: [
     {
-      quote: "Business Bay executive with chronic sciatica for six years — radiating pain into right leg with intermittent foot numbness from L5-S1 disc bulge. Tried gabapentin with cognitive side effects, physiotherapy with temporary relief, considered spinal injection and disc surgery. Dr. Neethu's comprehensive assessment identified my Vata-predominant Vataja Gridhrasi presentation. The 16-day Kala Basti protocol was unlike any sciatica treatment I'd encountered. Four months in: substantially reduced radiating pain, dramatically reduced foot numbness, tapered gabapentin with prescribing doctor coordination, avoided disc surgery.",
+      quote: "Business Bay executive with chronic sciatica for six years — radiating pain into right leg with intermittent foot numbness from L5-S1 disc bulge. Tried gabapentin with cognitive side effects, physiotherapy with temporary relief, considered spinal injection and disc surgery. Dr. Ansiya's comprehensive assessment identified my Vata-predominant Vataja Gridhrasi presentation. The 16-day Kala Basti protocol was unlike any sciatica treatment I'd encountered. Four months in: substantially reduced radiating pain, dramatically reduced foot numbness, tapered gabapentin with prescribing doctor coordination, avoided disc surgery.",
       author: "MALE PATIENT, 45",
       details: " Chronic Sciatica L5-S1 Disc-Related",
       details1: "Business Bay Executive · February 2026"
     },
     {
-      quote: "Indian expat mother with post-pregnancy sciatica never fully resolved after my second child — radiating right buttock and thigh pain for two years. Cultural preference for traditional Ayurvedic approach given familiarity with Gridhrasi tradition. Dr. Neethu as female Ayurvedic doctor was important for my cultural preferences. The Yoga Basti 8-day protocol, Kativasti series, and sustained postural counselling for infant care patterns produced substantial sustained improvement. Traditional Gridhrasi approach through DHA-licensed female doctor provided authentic care I couldn't find elsewhere.",
+      quote: "Indian expat mother with post-pregnancy sciatica never fully resolved after my second child — radiating right buttock and thigh pain for two years. Cultural preference for traditional Ayurvedic approach given familiarity with Gridhrasi tradition. Dr. Ansiya as female Ayurvedic doctor was important for my cultural preferences. The Yoga Basti 8-day protocol, Kativasti series, and sustained postural counselling for infant care patterns produced substantial sustained improvement. Traditional Gridhrasi approach through DHA-licensed female doctor provided authentic care I couldn't find elsewhere.",
       author: "FEMALE PATIENT, 34",
       details: "Post-Pregnancy Chronic Sciatica",
       details1: "Al Barsha Family · January 2026"
@@ -313,7 +313,7 @@ export const sciaticaJvcPricing = {
   rows: [
     {
       service:
-        "Initial sciatica consultation with Dr. Neethu (Nadi Pareeksha + Prakriti + Gridhrasi type + red flag screening + neurological examination + treatment plan)",
+        "Initial sciatica consultation with Dr. Ansiya (Nadi Pareeksha + Prakriti + Gridhrasi type + red flag screening + neurological examination + treatment plan)",
       duration: "90 min",
       price: "AED 400",
     },
@@ -419,7 +419,7 @@ export const sciaticaJvcFaqs = {
   label: "Common Questions",
   title: "What patients ask about Ayurvedic sciatica care at our JVC clinic.",
   sidebarLinks: [
-    { text: "Dr. Neethu's Profile", href: "/doctors/dr-neethu-ayurveda" },
+    { text: "Dr. Ansiya's Profile", href: "/doctors/dr-ansiya-ayurveda" },
     { text: "Ayurveda clinic JVC", href: "/ayurveda-clinic-jvc/" },
     { text: "Physiotherapy at JVC", href: "/physiotherapy-jvc/" }
   ],
@@ -473,11 +473,11 @@ export const sciaticaJvcFaqs = {
     },
     {
       "question": "Do you have female Ayurvedic doctor for sciatica?",
-      "answer": "Yes — Dr. Neethu is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial musculoskeletal expertise including specific sciatica/Gridhrasi capability. Female practitioner particularly important for pregnancy-related sciatica, post-pregnancy sciatica, and cultural preferences."
+      "answer": "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial musculoskeletal expertise including specific sciatica/Gridhrasi capability. Female practitioner particularly important for pregnancy-related sciatica, post-pregnancy sciatica, and cultural preferences."
     },
     {
       "question": "Can you treat sciatica during pregnancy?",
-      "answer": "Yes — pregnancy-safe Ayurvedic sciatica support available. Important: Basti (medicated enema) is specifically contraindicated in pregnancy — modified approach without Basti for pregnant patients. Female practitioner Dr. Neethu provides pregnancy-appropriate care. Coordinated with obstetric care throughout."
+      "answer": "Yes — pregnancy-safe Ayurvedic sciatica support available. Important: Basti (medicated enema) is specifically contraindicated in pregnancy — modified approach without Basti for pregnant patients. Female practitioner Dr. Ansiya provides pregnancy-appropriate care. Coordinated with obstetric care throughout."
     },
     {
       "question": "What about post-surgical continuing sciatica?",
@@ -489,7 +489,7 @@ export const sciaticaJvcFaqs = {
     },
     {
       "question": "Can I have imaging (MRI) reviewed as part of consultation?",
-      "answer": "Yes — please bring any imaging reports and images to consultation. Dr. Neethu will review alongside clinical assessment. Coordination with treating specialists as appropriate. Imaging findings guide treatment planning and identify presentations requiring specialist coordination."
+      "answer": "Yes — please bring any imaging reports and images to consultation. Dr. Ansiya will review alongside clinical assessment. Coordination with treating specialists as appropriate. Imaging findings guide treatment planning and identify presentations requiring specialist coordination."
     },
     {
       "question": "Which languages do you speak?",
@@ -505,7 +505,7 @@ export const sciaticaJvcFaqs = {
     },
     {
       "question": "How do I book sciatica consultation?",
-      "answer": "Three ways: WhatsApp specifying sciatica consultation ideally with Dr. Neethu; call 9AM-9PM seven days a week; book online. Please bring: description of sciatica history and radiating pain distribution, any imaging reports and images, current medications including gabapentinoids, previous treatments including any injection history, insurance card if applicable."
+      "answer": "Three ways: WhatsApp specifying sciatica consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: description of sciatica history and radiating pain distribution, any imaging reports and images, current medications including gabapentinoids, previous treatments including any injection history, insurance card if applicable."
     }
   ]
 };
@@ -529,7 +529,7 @@ export const sciaticaJvcLocation = {
 export const sciaticaJvcCTA = {
   label: "Ready for Classical Ayurvedic Gridhrasi Care?",
   title: "Comprehensive sciatica consultation is the starting point.",
-  description: "Whether you're experiencing acute radiating leg pain, chronic sciatica lasting months or years, recurrent episodic sciatica, piriformis-related sciatica from Dubai's sedentary work environment, disc-related sciatica requiring specialist coordination, post-injury or post-surgical continuing sciatica, pregnancy-related sciatica requiring a pregnancy-safe approach, or chronic pain sciatica on sustained gabapentinoid medications — comprehensive consultation with Dr. Neethu identifies your specific pattern and designs a personalised approach. DHA-licensed authentic Ayurvedic care with classical Basti therapy for Gridhrasi, Kativasti with lower body extension, coordinated with modern medical care when appropriate. Same-week appointments typically available.",
+  description: "Whether you're experiencing acute radiating leg pain, chronic sciatica lasting months or years, recurrent episodic sciatica, piriformis-related sciatica from Dubai's sedentary work environment, disc-related sciatica requiring specialist coordination, post-injury or post-surgical continuing sciatica, pregnancy-related sciatica requiring a pregnancy-safe approach, or chronic pain sciatica on sustained gabapentinoid medications — comprehensive consultation with Dr. Ansiya identifies your specific pattern and designs a personalised approach. DHA-licensed authentic Ayurvedic care with classical Basti therapy for Gridhrasi, Kativasti with lower body extension, coordinated with modern medical care when appropriate. Same-week appointments typically available.",
   button1Text: "Book Sciatica Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp Us",
@@ -552,9 +552,9 @@ export const sciaticaJvcRelatedPages = {
   linkHref: "/conditions/",
   pages: [
     {
-      title: "Dr. Neethu — Ayurvedic Doctor",
+      title: "Dr. Ansiya — Ayurvedic Doctor",
       description: "Female DHA-licensed BAMS practitioner with substantial musculoskeletal expertise including specific Gridhrasi capability.",
-      href: "/doctors/dr-neethu-ayurveda/"
+      href: "/doctors/dr-ansiya-ayurveda/"
     },
     {
       title: "Back Pain Ayurvedic Care JVC",
@@ -595,11 +595,11 @@ export const sciaticaJvcTeam = {
   teamMembers: [
     {
       tags: "DHA-LICENSED · BAMS-QUALIFIED",
-      name: "Dr. Neethu",
+      name: "Dr. Ansiya",
       role: "Lead Musculoskeletal Ayurvedic Doctor",
-      description: "Female practitioner with substantial musculoskeletal expertise including specific sciatica/Gridhrasi capability. Classical Gridhrasi treatment protocols, personalised programme design, sustained partnership approach. Basti expertise for classical Gridhrasi treatment. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.<br><br><a href=\"/doctors/dr-neethu-ayurveda/\" class=\"hover:underline\" style=\"color: #C9A55A; text-decoration: underline;\">View Dr. Neethu's full profile →</a>",
-      image: "/images/dr-neetu-ayurveda-jvc.webp",
-      alt: "Dr Neethu Ayurvedic sciatica team Vedara Care JVC"
+      description: "Female practitioner with substantial musculoskeletal expertise including specific sciatica/Gridhrasi capability. Classical Gridhrasi treatment protocols, personalised programme design, sustained partnership approach. Basti expertise for classical Gridhrasi treatment. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.<br><br><a href=\"/doctors/dr-ansiya-ayurveda/\" class=\"hover:underline\" style=\"color: #C9A55A; text-decoration: underline;\">View Dr. Ansiya's full profile →</a>",
+      image: "/images/dr-ansiya-ayurveda-jvc.webp",
+      alt: "Dr Ansiya Ayurvedic sciatica team Vedara Care JVC"
     },
     {
       tags: "UNDER DOCTOR SUPERVISION",

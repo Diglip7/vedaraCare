@@ -275,8 +275,9 @@ export const wellnessOutcomes = {
   stats: [
     { value: "4.9★", label: "on Google" },
     { value: "5,000+", label: "wellness patients treated" },
+    { value: "JVC", label: "family & corporate expertise" },
     { value: "Multi-disciplinary", label: "integrated team" },
-    { value: "JVC", label: "family & corporate expertise" }
+
   ],
   buttonText: "Read All JVC Wellness Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",

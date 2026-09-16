@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
+import Link from 'next/link';
 
 export default function AdminSetup() {
   const [name, setName] = useState('');
@@ -32,7 +34,11 @@ export default function AdminSetup() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-green-50 flex items-center justify-center p-4">
+    <>
+      <Head>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-green-50 flex items-center justify-center p-4">
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8">
         <h1 className="text-3xl font-bold text-center text-gray-900 mb-2">Setup Admin User</h1>
         <p className="text-center text-gray-600 mb-8">Create your first admin account to get started</p>
@@ -93,12 +99,13 @@ export default function AdminSetup() {
         <div className="mt-6 text-center">
           <p className="text-sm text-gray-500">
             Already have an admin?{' '}
-            <a href="/admin/login" className="text-green-600 hover:text-green-700 font-medium">
+            <Link href="/admin/login" className="text-green-600 hover:text-green-700 font-medium">
               Login here
-            </a>
+            </Link>
           </p>
         </div>
       </div>
     </div>
+    </>
   );
 }

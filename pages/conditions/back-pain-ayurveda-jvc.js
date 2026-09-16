@@ -41,7 +41,7 @@ const BackPainAyurvedaJvc = () => {
       "alternateName": ["Vedara Back Pain Ayurveda JVC", "Ayurvedic Back Pain Care JVC Dubai", "Vedara Kativasti Treatment"],
       "url": "https://vedaracare.ae/conditions/back-pain-ayurveda-jvc/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Authentic Ayurvedic back pain management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu delivering constitutional approach through Kativasti flagship back therapy, Panchakarma programmes, Abhyanga, Elakizhi, Pizhichil, herbal medicines, and lifestyle counselling. Coordinated with modern medical care and physiotherapy.",
+      "description": "Authentic Ayurvedic back pain management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya delivering constitutional approach through Kativasti flagship back therapy, Panchakarma programmes, Abhyanga, Elakizhi, Pizhichil, herbal medicines, and lifestyle counselling. Coordinated with modern medical care and physiotherapy.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 35,000",
       "address": {
@@ -96,7 +96,7 @@ const BackPainAyurvedaJvc = () => {
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "1400", "bestRating": "5", "worstRating": "1" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-08-21"
     },
     {
@@ -185,7 +185,7 @@ const BackPainAyurvedaJvc = () => {
         { "@type": "MedicalCondition", "name": "Lumbar Disc Concerns" }
       ],
       "mainContentOfPage": { "@type": "WebPageElement", "cssSelector": "main" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-08-21",
       "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
       "medicalAudience": "Patient",
@@ -194,9 +194,9 @@ const BackPainAyurvedaJvc = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician",
-      "name": "Dr. Neethu",
-      "url": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/",
+      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
+      "name": "Dr. Ansiya",
+      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
       "medicalSpecialty": ["Ayurveda", "Musculoskeletal Medicine", "Back Pain Treatment"],
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
@@ -326,7 +326,7 @@ const BackPainAyurvedaJvc = () => {
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/conditions/back-pain-ayurveda-jvc/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/conditions/back-pain-ayurveda-jvc/" />
         <meta property="og:title" content="Back Pain Ayurvedic Treatment at Our JVC Clinic Dubai | Vedara Care" />
-        <meta property="og:description" content="Authentic Ayurvedic back pain management at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Neethu. Kativasti flagship therapy, Panchakarma, Abhyanga, Elakizhi, herbal medicines. Multi-language. Coordinated with modern medical care." />
+        <meta property="og:description" content="Authentic Ayurvedic back pain management at Vedara Care JVC clinic, walking distance from Circle Mall. Female DHA-licensed BAMS Ayurvedic doctor Dr. Ansiya. Kativasti flagship therapy, Panchakarma, Abhyanga, Elakizhi, herbal medicines. Multi-language. Coordinated with modern medical care." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/back-pain-ayurveda-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/back-pain-ayurveda-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -428,7 +428,7 @@ const BackPainAyurvedaJvc = () => {
                 {
                   phase: "Phase 1 · Week 1",
                   title: "Assessment & Foundation",
-                  body: "Comprehensive 90-minute initial consultation with Dr. Neethu identifying back pain pattern, constitutional factors, functional impact, previous treatments, current medications, and treatment goals. Red flag symptom screening. Personalised treatment plan design. First Kativasti session may begin. Foundation lifestyle recommendations initiated. Initial herbal medicines prescribed if appropriate."
+                  body: "Comprehensive 90-minute initial consultation with Dr. Ansiya identifying back pain pattern, constitutional factors, functional impact, previous treatments, current medications, and treatment goals. Red flag symptom screening. Personalised treatment plan design. First Kativasti session may begin. Foundation lifestyle recommendations initiated. Initial herbal medicines prescribed if appropriate."
                 },
                 {
                   phase: "Phase 2 · Weeks 2–4",

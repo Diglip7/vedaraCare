@@ -23,7 +23,7 @@ export const ledLightTherapyHero = {
     title: "Light Therapy",
     subtitle: "Uses specific wavelengths of light to work with the skin's surface for gentler, non-invasive support."
   },
-  image: "/images/led-light-therapy-consultation-vedara-care-jvc.jpg",
+  image: "/images/led-light-therapy-consultation-vedara-care-jvc.webp",
   alt: "LED Light Therapy consultation at Vedara Care Polyclinic in JVC",
   caption: "Every LED Light Therapy plan starts with a consultation"
 };
@@ -43,7 +43,7 @@ export const ledLightTherapyExplanation = {
     "It helps to be clear about what LED therapy is not. It is not a laser treatment — lasers use a single, highly concentrated wavelength of light at much higher intensity to create a controlled effect in the skin, often causing some degree of controlled injury as part of how they work. LED light therapy works at a much lower intensity and does not aim to injure or resurface the skin. It also does not involve needles, as microneedling and RF microneedling do, and it does not rely on chemical exfoliation, as a chemical peel does.",
     "Because of this, LED therapy is generally categorised as a low-intensity, non-invasive treatment. That does not mean it is appropriate for every skin concern or every patient — it means the treatment works through light exposure rather than physical or chemical intervention, which is why it is often discussed as an option for patients specifically looking to avoid downtime."
   ],
-  image: "/images/led-device-positioning-professional-treatment.jpg",
+  image: "/images/led-device-positioning-professional-treatment.webp",
   alt: "LED light device being positioned during professional skincare treatment",
   caption: "Careful positioning is part of a supervised LED session"
 };
@@ -76,14 +76,14 @@ export const ledLightTherapyWavelengths = {
     {
       name: "Blue Light",
       description: "Blue light sits at a shorter wavelength and is commonly discussed in relation to acne-focused skincare. It is often associated with interactions involving acne-related bacteria on the skin's surface. Blue light is not a cure for acne, and it does not replace prescription treatment for moderate-to-severe or cystic acne. It is more accurately described as a supportive option that some patients explore alongside a broader acne management plan.",
-      image: "/images/blue-led-light-therapy-concept-acne.jpg",
+      image: "/images/blue-led-light-therapy-concept-acne.webp",
       alt: "Blue LED light therapy concept associated with acne-focused skincare",
       caption: "Blue light is commonly discussed in relation to acne-prone skin"
     },
     {
       name: "Red Light",
       description: "Red light sits at a longer wavelength and is more often discussed in relation to overall skin appearance, calming the look of redness, and tissue-supporting processes in the skin. It is sometimes associated with discussions around collagen-related activity, but no professional treatment can guarantee collagen production as a fixed, measurable outcome, and claims like this should be treated with caution.",
-      image: "/images/red-led-light-therapy-concept-skin.jpg",
+      image: "/images/red-led-light-therapy-concept-skin.webp",
       alt: "Red LED light therapy concept associated with skin appearance and redness",
       caption: "Red light is commonly discussed for overall skin appearance"
     },
@@ -171,7 +171,7 @@ export const ledLightTherapyAppointment = {
     { title: "Step 6 — Post-treatment guidance", description: "You receive instructions on aftercare appropriate to your skin and the protocol used." }
   ],
   footer: "We do not state a fixed session length here, since this depends on the device and the treatment plan agreed during your consultation.",
-  image: "/images/professional-led-treatment-session-jvc.jpg",
+  image: "/images/professional-led-treatment-session-jvc.webp",
   alt: "Professional LED Light Therapy treatment session in JVC",
   caption: "An LED device positioned during a professional treatment session"
 };
@@ -180,7 +180,7 @@ export const ledLightTherapySensation = {
   label: "TREATMENT EXPERIENCE",
   title: "What Does LED Light Therapy Feel Like?",
   description: "Most patients describe LED therapy as a low-sensation treatment. You can generally expect to notice the light itself, a sense of warmth, and an overall feeling of relaxation during the session. Some patients report little to no discomfort at all, though individual sensitivity varies, and we would not claim that every patient finds the treatment completely sensation-free.",
-  image: "/images/patient-facial-led-therapy-session-dubai.jpg",
+  image: "/images/patient-facial-led-therapy-session-dubai.webp",
   alt: "Patient receiving facial LED Light Therapy",
   caption: "LED Light Therapy is delivered as a low-intensity, non-invasive session"
 };
@@ -354,7 +354,7 @@ export const ledLightTherapyWhyJvc = {
   label: "LOCAL ACCESSIBILITY",
   title: "Why Choose LED Light Therapy in JVC?",
   description: "Jumeirah Village Circle has grown into one of Dubai's most established residential communities, with a steady population of residents from neighbouring areas including Al Barsha South, Jumeirah Village Triangle, Dubai Sports City and Motor City who look locally for skin treatment options rather than travelling across the city. For a low-intensity, non-invasive treatment like LED therapy — where a course of sessions rather than a single visit is often involved — having a clinic within the community makes it far more practical to stay consistent with a treatment plan.",
-  image: "/images/professional-skincare-consultation-jvc-dubai.jpg",
+  image: "/images/professional-skincare-consultation-jvc-dubai.webp",
   alt: "Professional skincare consultation at a JVC dermatology clinic",
   caption: "A skin assessment helps confirm whether LED therapy is suitable"
 };
@@ -362,7 +362,7 @@ export const ledLightTherapyWhyJvc = {
 export const ledLightTherapyLocation = {
   title: "LED Light Therapy at Vedara Care Polyclinic",
   address: "Vedara Care Polyclinic is located at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE. Patients considering LED Light Therapy in JVC begin with a consultation and skin assessment, so that any treatment plan reflects their specific concern rather than a one-size-fits-all protocol.\n\nOur approach centres on personalised treatment planning: understanding your skin, your history, and your goals before recommending whether LED therapy — and which wavelength — is genuinely appropriate for you, and explaining clearly what it can realistically support. Patient education is part of every consultation, so you leave understanding not just what the treatment involves, but why it has (or has not) been recommended for your specific concern.",
-  image: "/images/vedara-care-polyclinic-jvc-treatment-environment.jpg",
+  image: "/images/vedara-care-polyclinic-jvc-treatment-environment.webp",
   alt: "Vedara Care Polyclinic treatment environment in Jumeirah Village Circle, Dubai",
   caption: "Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, JVC, Dubai"
 };

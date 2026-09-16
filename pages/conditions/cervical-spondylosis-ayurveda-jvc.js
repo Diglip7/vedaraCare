@@ -39,7 +39,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
       "alternateName": ["Vedara Cervical Spondylosis Ayurveda JVC", "Ayurvedic Greeva Sandhigata Vata Care JVC Dubai", "Vedara Cervical Degenerative Care"],
       "url": "https://vedaracare.ae/conditions/cervical-spondylosis-ayurveda-jvc/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Authentic Ayurvedic cervical spondylosis sustained management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Classical Greeva Sandhigata Vata tradition. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Neethu delivering constitutional approach through Griva Basti flagship cervical therapy, Nasya (classically emphasised for cervical spondylosis), Shiroabhyanga, Panchakarma programmes with Nasya integration, Abhyanga, Elakizhi, Trayodashang Guggulu (herbal medicine specifically emphasised in classical texts for cervical spondylosis), and sustained partnership approach. Coordinated with modern medical care and physiotherapy.",
+      "description": "Authentic Ayurvedic cervical spondylosis sustained management at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Classical Greeva Sandhigata Vata tradition. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya delivering constitutional approach through Griva Basti flagship cervical therapy, Nasya (classically emphasised for cervical spondylosis), Shiroabhyanga, Panchakarma programmes with Nasya integration, Abhyanga, Elakizhi, Trayodashang Guggulu (herbal medicine specifically emphasised in classical texts for cervical spondylosis), and sustained partnership approach. Coordinated with modern medical care and physiotherapy.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 45,000",
       "address": { "@type": "PostalAddress", "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4", "addressLocality": "Jumeirah Village Circle", "addressRegion": "Dubai", "addressCountry": "AE", "postalCode": "" },
@@ -90,7 +90,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "1200", "bestRating": "5", "worstRating": "1" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-09-07"
     },
     [
@@ -229,7 +229,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
         { "@type": "MedicalCondition", "name": "Cervical Disc Degeneration" }
       ],
       "mainContentOfPage": { "@type": "WebPageElement", "cssSelector": "main" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "[ISO date]",
       "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
       "medicalAudience": "Patient",
@@ -238,9 +238,9 @@ const CervicalSpondylosisAyurvedaJvc = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/#physician",
-      "name": "Dr. Neethu",
-      "url": "https://vedaracare.ae/doctors/dr-neethu-ayurveda/",
+      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
+      "name": "Dr. Ansiya",
+      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
       "medicalSpecialty": ["Ayurveda", "Musculoskeletal Medicine", "Cervical Spondylosis Care", "Greeva Sandhigata Vata Care"],
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
@@ -306,7 +306,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
 
         {/* Open Graph Tags */}
         <meta property="og:title" content="Cervical Spondylosis Ayurvedic Treatment at Our JVC Clinic Dubai — Classical Greeva Sandhigata Vata Care | Vedara Care" />
-        <meta property="og:description" content="Authentic Ayurvedic cervical spondylosis management at Vedara Care JVC clinic, walking distance from Circle Mall. Classical Greeva Sandhigata Vata tradition. Female DHA-licensed BAMS Ayurvedic doctor Dr. Neethu. Griva Basti flagship therapy, Nasya (classically emphasised), Trayodashang Guggulu, Panchakarma. Sustained partnership approach. Multi-language." />
+        <meta property="og:description" content="Authentic Ayurvedic cervical spondylosis management at Vedara Care JVC clinic, walking distance from Circle Mall. Classical Greeva Sandhigata Vata tradition. Female DHA-licensed BAMS Ayurvedic doctor Dr. Ansiya. Griva Basti flagship therapy, Nasya (classically emphasised), Trayodashang Guggulu, Panchakarma. Sustained partnership approach. Multi-language." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/cervical-spondylosis-ayurveda-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/cervical-spondylosis-ayurveda-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -380,7 +380,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
                   <span style={{ fontSize: "11px", color: "var(--caption)", background: "var(--soft-sand)", padding: "3px 8px", borderRadius: "2px", letterSpacing: "0.04em" }}>Weeks 1–2</span>
                 </div>
                 <h4 className="font-display" style={{ fontSize: "18px", fontWeight: 500, color: "var(--charcoal)", marginBottom: "12px", lineHeight: 1.3 }}>Comprehensive Assessment &amp; Foundation</h4>
-                <p style={{ fontSize: "13px", lineHeight: 1.75, color: "var(--muted)" }}>90-minute initial consultation with Dr. Neethu: detailed cervical spondylosis history, Nadi Pareeksha, Prakriti and Vikriti assessment, Greeva Sandhigata Vata pattern identification, imaging review, medication review including chronic NSAIDs, cervical myelopathy screening (Hoffman sign, Lhermitte sign, hyperreflexia). Personalised sustained management plan. First Griva Basti session may begin. Trayodashang Guggulu and herbal medicines prescribed.</p>
+                <p style={{ fontSize: "13px", lineHeight: 1.75, color: "var(--muted)" }}>90-minute initial consultation with Dr. Ansiya: detailed cervical spondylosis history, Nadi Pareeksha, Prakriti and Vikriti assessment, Greeva Sandhigata Vata pattern identification, imaging review, medication review including chronic NSAIDs, cervical myelopathy screening (Hoffman sign, Lhermitte sign, hyperreflexia). Personalised sustained management plan. First Griva Basti session may begin. Trayodashang Guggulu and herbal medicines prescribed.</p>
                 <div className="hide-mobile" style={{ position: "absolute", right: "-13px", top: "50%", transform: "translateY(-50%)", width: "24px", height: "24px", background: "var(--gold)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 1 }}>
                   <span style={{ color: "rgb(255, 255, 255)", fontSize: "12px", fontWeight: 700 }}>›</span>
                 </div>
@@ -413,7 +413,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
                   <span style={{ fontSize: "11px", color: "var(--caption)", background: "var(--soft-sand)", padding: "3px 8px", borderRadius: "2px", letterSpacing: "0.04em" }}>Month 4+</span>
                 </div>
                 <h4 className="font-display" style={{ fontSize: "18px", fontWeight: 500, color: "var(--charcoal)", marginBottom: "12px", lineHeight: 1.3 }}>Sustained Maintenance &amp; Long-Term Partnership</h4>
-                <p style={{ fontSize: "13px", lineHeight: 1.75, color: "var(--muted)" }}>Transitioned to sustained wellness partnership. Periodic Griva Basti maintenance (typically monthly to quarterly), sustained herbal medicine programme, seasonal Panchakarma intensifications — particularly winter months when Vata aggravation is typical. Ongoing partnership with Dr. Neethu monitoring progression and adjusting approach as cervical spondylosis progresses.</p>
+                <p style={{ fontSize: "13px", lineHeight: 1.75, color: "var(--muted)" }}>Transitioned to sustained wellness partnership. Periodic Griva Basti maintenance (typically monthly to quarterly), sustained herbal medicine programme, seasonal Panchakarma intensifications — particularly winter months when Vata aggravation is typical. Ongoing partnership with Dr. Ansiya monitoring progression and adjusting approach as cervical spondylosis progresses.</p>
               </div>
             </div>
             <div style={{ maxWidth: "720px", margin: "0px auto", textAlign: "center" }}>
@@ -621,8 +621,8 @@ const CervicalSpondylosisAyurvedaJvc = () => {
               <a href="/conditions/" style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", color: "rgb(85, 85, 85)", textDecoration: "none", borderBottom: "1px solid rgb(200, 168, 127)" }}>Browse all conditions →</a>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "24px" }}>
-              <a href="/doctors/dr-neethu-ayurveda/" style={{ textDecoration: "none", background: "rgb(255, 255, 255)", borderRadius: "8px", padding: "28px", borderTop: "4px solid rgb(200, 168, 127)", display: "block", transition: "box-shadow 200ms", boxShadow: "rgba(0, 0, 0, 0.04) 0px 2px 12px" }}>
-                <h4 style={{ fontFamily: "Fraunces, serif", fontSize: "18px", fontWeight: 500, color: "rgb(31, 31, 31)", margin: "0px 0px 12px", lineHeight: 1.3 }}>Dr. Neethu — Ayurvedic Doctor</h4>
+              <a href="/doctors/dr-ansiya-ayurveda/" style={{ textDecoration: "none", background: "rgb(255, 255, 255)", borderRadius: "8px", padding: "28px", borderTop: "4px solid rgb(200, 168, 127)", display: "block", transition: "box-shadow 200ms", boxShadow: "rgba(0, 0, 0, 0.04) 0px 2px 12px" }}>
+                <h4 style={{ fontFamily: "Fraunces, serif", fontSize: "18px", fontWeight: 500, color: "rgb(31, 31, 31)", margin: "0px 0px 12px", lineHeight: 1.3 }}>Dr. Ansiya — Ayurvedic Doctor</h4>
                 <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.65, color: "rgb(85, 85, 85)", margin: "0px 0px 16px" }}>Female DHA-licensed BAMS practitioner with substantial musculoskeletal expertise including specific Gridhrasi capability.</p>
                 <span style={{ fontFamily: "Inter, sans-serif", fontSize: "13px", color: "rgb(200, 168, 127)", fontWeight: 500 }}>Read more →</span>
               </a>

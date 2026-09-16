@@ -341,7 +341,7 @@ export const backPainPhysioLocation = {
 };
 
 export const backPainPhysioCTA = {
-  bgColor: "bg-[#FAF8F5]",
+  bgColor: "white",
   label: "Ready to Address Your Back Pain?",
   title: "Evidence-based physiotherapy. Same-week appointments. JVC clinic.",
   description: "Whether your back pain is acute (recent onset, severe), chronic (long-standing, persistent), or recurring (intermittent flares), the first useful step is a 60-minute back pain physiotherapy assessment at our JVC clinic. We assess thoroughly, identify the specific pattern driving your pain, design an evidence-based treatment plan with realistic timeline, and typically provide your first treatment intervention the same session. Same-day appointments often available for severe acute presentations.",

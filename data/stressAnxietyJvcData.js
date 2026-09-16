@@ -6,7 +6,7 @@ export const stressJvcHero = {
   ],
   label: "Stress & Anxiety Ayurvedic Treatment · DHA-Licensed · Jumeirah Village Circle",
   title: "Stress and anxiety Ayurvedic treatment at our JVC clinic, Dubai.",
-  description: "Authentic Ayurvedic stress and anxiety care at our DHA-licensed clinic in Jumeirah Village Circle — walking distance from Circle Mall. DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Neethu, delivering comprehensive stress management through constitutional assessment, Shirodhara flagship therapy, herbal medicines, and personalised lifestyle counselling.",
+  description: "Authentic Ayurvedic stress and anxiety care at our DHA-licensed clinic in Jumeirah Village Circle — walking distance from Circle Mall. DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya, delivering comprehensive stress management through constitutional assessment, Shirodhara flagship therapy, herbal medicines, and personalised lifestyle counselling.",
   primaryCTA: "Book a Stress & Anxiety Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
@@ -29,8 +29,8 @@ export const stressJvcIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
   title: "Stress and anxiety Ayurvedic care at Vedara Care, in one paragraph.",
-  blockquote: "Stress and anxiety Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic care delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Neethu. Comprehensive approach includes constitutional assessment (Prakriti and Vikriti), Nadi Pareeksha pulse examination, and a personalised treatment plan combining Shirodhara (flagship therapy — continuous warm oil flow across forehead calming the nervous system), Nasya nasal therapy, Abhyanga oil massage, constitution-matched herbal medicines (Brahmi, Ashwagandha, Jatamansi, Shankhpushpi), dietary guidance, and lifestyle recommendations sustainable within Dubai professional life. Conditions addressed span chronic work stress, generalised anxiety, sleep concerns, burnout, expatriate adjustment stress, and panic episodes. Coordinated with modern mental health care throughout — complementary, not a replacement. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, and across Dubai.",
-  footer: "Medically reviewed by Dr. Neethu, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated August 2026"
+  blockquote: "Stress and anxiety Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic care delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya. Comprehensive approach includes constitutional assessment (Prakriti and Vikriti), Nadi Pareeksha pulse examination, and a personalised treatment plan combining Shirodhara (flagship therapy — continuous warm oil flow across forehead calming the nervous system), Nasya nasal therapy, Abhyanga oil massage, constitution-matched herbal medicines (Brahmi, Ashwagandha, Jatamansi, Shankhpushpi), dietary guidance, and lifestyle recommendations sustainable within Dubai professional life. Conditions addressed span chronic work stress, generalised anxiety, sleep concerns, burnout, expatriate adjustment stress, and panic episodes. Coordinated with modern mental health care throughout — complementary, not a replacement. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, and across Dubai.",
+  footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated August 2026"
 };
 
 export const stressJvcMechanism = {
@@ -45,7 +45,7 @@ export const stressJvcMechanism = {
       },
       {
         title: "Constitutional approach — why individual patterns matter",
-        description: "Different Ayurvedic constitutions (Prakriti) produce different stress vulnerability patterns. Vata constitutions typically experience anxiety and sleep fragmentation. Pitta constitutions experience irritability, burnout, and digestive symptoms. Kapha constitutions experience depression-adjacent patterns. Dr. Neethu's constitutional assessment identifies your specific pattern during initial consultation — foundation for personalised treatment producing better outcomes than one-size-fits-all approach."
+        description: "Different Ayurvedic constitutions (Prakriti) produce different stress vulnerability patterns. Vata constitutions typically experience anxiety and sleep fragmentation. Pitta constitutions experience irritability, burnout, and digestive symptoms. Kapha constitutions experience depression-adjacent patterns. Dr. Ansiya's constitutional assessment identifies your specific pattern during initial consultation — foundation for personalised treatment producing better outcomes than one-size-fits-all approach."
       },
       {
         title: "Multi-modal approach — why single treatments produce limited results",
@@ -219,7 +219,7 @@ export const stressJvcApproaches = {
     },
     {
       subtitle: "Comprehensive Constitutional Assessment",
-      description: "Foundation of authentic Ayurvedic care. Initial 90-minute consultation with Dr. Neethu including detailed discussion of stress patterns and life context, Nadi Pareeksha (Ayurvedic pulse examination), Prakriti and Vikriti assessment, review of modern medical history including any current mental health treatment. Cannot be rushed — meaningful assessment requires time. Foundation for the personalised treatment plan."
+      description: "Foundation of authentic Ayurvedic care. Initial 90-minute consultation with Dr. Ansiya including detailed discussion of stress patterns and life context, Nadi Pareeksha (Ayurvedic pulse examination), Prakriti and Vikriti assessment, review of modern medical history including any current mental health treatment. Cannot be rushed — meaningful assessment requires time. Foundation for the personalised treatment plan."
     },
     {
       subtitle: "Shirodhara Therapy Series",
@@ -327,19 +327,19 @@ export const stressJvcReviews = {
   alt: "Stress management patient testimonials Vedara Care JVC Dubai",
   items: [
     {
-      quote: "Dubai Marina professional in demanding financial services. Chronic work stress for years affecting sleep, energy, digestion, and mood. Had considered anti-anxiety medication but wanted non-pharmaceutical approach first. Consulted Dr. Neethu at Vedara's JVC clinic. Comprehensive 90-minute initial consultation identifying my Pitta-predominant constitutional pattern. Personalised programme: Shirodhara series (initially twice weekly then weekly), Ashwagandha and Brahmi herbal medicines, dietary adjustments, breath practices sustainable within professional life. Three months in: substantially different baseline state — better sleep, reduced reactivity, improved digestion, sustained calmer mental state.",
+      quote: "Dubai Marina professional in demanding financial services. Chronic work stress for years affecting sleep, energy, digestion, and mood. Had considered anti-anxiety medication but wanted non-pharmaceutical approach first. Consulted Dr. Ansiya at Vedara's JVC clinic. Comprehensive 90-minute initial consultation identifying my Pitta-predominant constitutional pattern. Personalised programme: Shirodhara series (initially twice weekly then weekly), Ashwagandha and Brahmi herbal medicines, dietary adjustments, breath practices sustainable within professional life. Three months in: substantially different baseline state — better sleep, reduced reactivity, improved digestion, sustained calmer mental state.",
       author: "MALE PATIENT, 38",
       details: "Chronic Work Stress, Dubai Marina",
       details1: "MARCH 2026"
     },
     {
-      quote: "Indian expatriate mother of two in Downtown Dubai with husband working long hours. Substantial expatriate adjustment stress plus chronic parenting stress plus family separation from India. Cultural preference for Ayurvedic approach given familiarity from home. Consulted Dr. Neethu — Malayalam-speaking female Ayurvedic doctor, cultural continuity was a substantial factor. Programme combining Shirodhara sessions, Nasya therapy, herbal medicines including Jatamansi and Ashwagandha, lifestyle counselling accommodating family responsibilities. Cultural continuity, female practitioner, and comprehensive traditional approach transformative.",
+      quote: "Indian expatriate mother of two in Downtown Dubai with husband working long hours. Substantial expatriate adjustment stress plus chronic parenting stress plus family separation from India. Cultural preference for Ayurvedic approach given familiarity from home. Consulted Dr. Ansiya — Malayalam-speaking female Ayurvedic doctor, cultural continuity was a substantial factor. Programme combining Shirodhara sessions, Nasya therapy, herbal medicines including Jatamansi and Ashwagandha, lifestyle counselling accommodating family responsibilities. Cultural continuity, female practitioner, and comprehensive traditional approach transformative.",
       author: "FEMALE PATIENT, 41",
       details: "Expatriate and Parenting Stress, Downtown Dubai",
       details1: "MARCH 2026"
     },
     {
-      quote: "Corporate wellness participant through my Business Bay technology company. Individual consultation with Dr. Neethu identifying my specific burnout pattern. Comprehensive burnout recovery programme: Panchakarma programme discussion, sustained Shirodhara series, Rasayana rejuvenation approach, comprehensive lifestyle recommendations, coordination with modern mental health support I was accessing separately. Four months in: substantial burnout recovery, restored engagement with work, sustained energy, better sleep, improved relationships. Multi-modal Ayurvedic combined with modern mental health substantially better than either alone.",
+      quote: "Corporate wellness participant through my Business Bay technology company. Individual consultation with Dr. Ansiya identifying my specific burnout pattern. Comprehensive burnout recovery programme: Panchakarma programme discussion, sustained Shirodhara series, Rasayana rejuvenation approach, comprehensive lifestyle recommendations, coordination with modern mental health support I was accessing separately. Four months in: substantial burnout recovery, restored engagement with work, sustained energy, better sleep, improved relationships. Multi-modal Ayurvedic combined with modern mental health substantially better than either alone.",
       author: "MALE, 44",
       details: "Burnout Recovery, Business Bay Corporate ",
       details1: "FEBRUARY 2026"
@@ -361,7 +361,7 @@ export const stressJvcPricing = {
   title: "Stress and anxiety Ayurvedic care consultation and treatment pricing at our JVC clinic.",
   headers: [" SERVICE", "DURATION", "INVESTMENT"],
   rows: [
-    { service: "Initial stress consultation with Dr. Neethu (Nadi Pareeksha + Prakriti + treatment plan)", duration: "90 min", price: "AED [X]" },
+    { service: "Initial stress consultation with Dr. Ansiya (Nadi Pareeksha + Prakriti + treatment plan)", duration: "90 min", price: "AED [X]" },
     { service: "Follow-up consultation", duration: "30-45 min", price: "AED [X]" },
     { service: "Extended follow-up (complex cases)", duration: "60 min", price: "From AED [X]" },
     { service: "Individual Shirodhara session", duration: "60-75 min", price: "From AED [X]" },
@@ -385,7 +385,7 @@ export const stressJvcFaqs = {
   label: "Common Questions",
   title: "What patients ask about Ayurvedic stress and anxiety care at our JVC clinic.",
   sidebarLinks: [
-    { text: "Dr. Neethu's Profile", href: "/doctors/dr-neethu-ayurveda" },
+    { text: "Dr. Ansiya's Profile", href: "/doctors/dr-ansiya-ayurveda" },
     { text: "Shirodhara treatment detail", href: "/treatments/shirodhara-dubai/" },
     { text: "Ayurveda pillar", href: "/ayurveda-clinic-jvc/" },
     { text: "Integrated wellness", href: "/wellness-clinic-jvc/" },
@@ -414,7 +414,7 @@ export const stressJvcFaqs = {
     },
     {
       question: "Do you have a female Ayurvedic doctor for stress management?",
-      answer: "Yes — Dr. Neethu is a female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial stress and anxiety management expertise. Female practitioner availability is particularly important for many stress patients discussing personal circumstances and cultural preferences."
+      answer: "Yes — Dr. Ansiya is a female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial stress and anxiety management expertise. Female practitioner availability is particularly important for many stress patients discussing personal circumstances and cultural preferences."
     },
     {
       question: "Can Ayurveda replace anti-anxiety medication?",
@@ -470,11 +470,11 @@ export const stressJvcFaqs = {
     },
     {
       question: "How is Vedara different from other Ayurveda clinics in Dubai?",
-      answer: "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Neethu — not aestheticians or spa therapists. Comprehensive constitutional assessment. Multi-modal approach. Coordinated with modern mental health care. Integrated with dermatology, physiotherapy, and home healthcare at the same JVC clinic. Multi-language capability."
+      answer: "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Ansiya — not aestheticians or spa therapists. Comprehensive constitutional assessment. Multi-modal approach. Coordinated with modern mental health care. Integrated with dermatology, physiotherapy, and home healthcare at the same JVC clinic. Multi-language capability."
     },
     {
       question: "How do I book a stress management consultation?",
-      answer: "Three ways: WhatsApp us specifying stress management consultation ideally with Dr. Neethu — fastest response; call +971 4 XXX XXXX 9AM–9PM seven days a week; book online. Please bring a description of your stress and anxiety concerns, current medications, previous approaches, insurance card if applicable, and any specific questions and goals."
+      answer: "Three ways: WhatsApp us specifying stress management consultation ideally with Dr. Ansiya — fastest response; call +971 4 XXX XXXX 9AM–9PM seven days a week; book online. Please bring a description of your stress and anxiety concerns, current medications, previous approaches, insurance card if applicable, and any specific questions and goals."
     }
   ]
 };
@@ -495,7 +495,7 @@ export const stressManagementJourney = {
       title: "Assessment & Foundation",
       weeks: "Week 1",
       description:
-        "Comprehensive 90-minute initial consultation with Dr. Neethu identifying your stress patterns, constitutional factors, life context, previous approaches, and treatment goals. Personalised treatment plan design. First treatments may begin. Foundation lifestyle recommendations initiated. Initial herbal medicines prescribed if appropriate.",
+        "Comprehensive 90-minute initial consultation with Dr. Ansiya identifying your stress patterns, constitutional factors, life context, previous approaches, and treatment goals. Personalised treatment plan design. First treatments may begin. Foundation lifestyle recommendations initiated. Initial herbal medicines prescribed if appropriate.",
     },
 
     {
@@ -558,9 +558,9 @@ export const stressJvcLocation = {
   email: "booking@vedaracare.ae",
   hours: "Mon - Sun: 09:00am to 10:00pm",
   landmarks: ["Circle Mall, JVC", "Jumeirah Village Circle, Dubai"],
-  buttonText: "Book Consultation with Dr. Neethu",
+  buttonText: "Book Consultation with Dr. Ansiya",
   buttonSecondaryText: "WhatsApp Us",
-  buttonSecondaryHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20book%20a%20stress%20consultation%20with%20Dr.%20Neethu%20at%20your%20JVC%20clinic.",
+  buttonSecondaryHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20book%20a%20stress%20consultation%20with%20Dr.%20Ansiya%20at%20your%20JVC%20clinic.",
   buttonHref: "/book",
   image: "/images/restorative-environment-vedara-jvc.webp",
   alt: "Vedara Care JVC clinic stress management Dubai",
@@ -570,7 +570,7 @@ export const stressJvcLocation = {
 export const stressJvcCTA = {
   label: "Ready for Authentic Ayurvedic Stress Management?",
   title: "Comprehensive consultation is the starting point.",
-  description: "Whether you're a Dubai professional experiencing chronic work stress, an expatriate managing distance from family, a patient wanting non-pharmaceutical anxiety management, someone recovering from burnout, or a patient complementing modern mental health treatment with Ayurvedic support — comprehensive consultation with Dr. Neethu identifies your specific situation and designs a personalised approach. Same-week consultation appointments typically available.",
+  description: "Whether you're a Dubai professional experiencing chronic work stress, an expatriate managing distance from family, a patient wanting non-pharmaceutical anxiety management, someone recovering from burnout, or a patient complementing modern mental health treatment with Ayurvedic support — comprehensive consultation with Dr. Ansiya identifies your specific situation and designs a personalised approach. Same-week consultation appointments typically available.",
   button1Text: "Book Stress Management Consultation at Our JVC Clinic",
   button1Href: "/book",
   button2Text: "WhatsApp Us",
@@ -594,10 +594,10 @@ export const stressJvcRelatedArticles = {
   articles: [
     {
 
-      title: "Dr. Neethu — Ayurvedic Doctor",
+      title: "Dr. Ansiya — Ayurvedic Doctor",
       description: "Meet your Ayurvedic doctor. Female DHA-licensed BAMS practitioner with substantial stress and anxiety expertise.",
-      href: "/doctors/dr-neethu-ayurveda/",
-      image: "/images/dr-neetu-ayurveda-jvc.webp"
+      href: "/doctors/dr-ansiya-ayurveda/",
+      image: "/images/dr-ansiya-ayurveda-jvc.webp"
     },
     {
 
@@ -628,15 +628,15 @@ export const stressAnxietyTeam = {
     "Ayurvedic doctors for stress and anxiety care at our JVC clinic serving Dubai.",
 
   intro:
-    "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial stress management expertise. Female practitioner (Dr. Neethu) available. Multi-language including Arabic, English, Hindi, Malayalam, Urdu.",
+    "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial stress management expertise. Female practitioner (Dr. Ansiya) available. Multi-language including Arabic, English, Hindi, Malayalam, Urdu.",
 
   leadDoctor: {
-    image: "/images/dr-neetu-ayurveda-jvc.webp",
-    alt: "Dr Neethu Ayurvedic stress management team Vedara Care JVC",
+    image: "/images/dr-ansiya-ayurveda-jvc.webp",
+    alt: "Dr Ansiya Ayurvedic stress management team Vedara Care JVC",
 
     label: "LEAD AYURVEDIC DOCTOR",
 
-    name: "Dr. Neethu",
+    name: "Dr. Ansiya",
 
     description:
       "DHA-licensed BAMS-qualified Ayurvedic Doctor with substantial stress and anxiety management expertise. Female practitioner providing comprehensive constitutional assessment, personalised treatment planning, and sustained partnership approach. Cultural competence across Dubai's diverse community. Specialised expertise across stress and anxiety presentations, from chronic work stress to burnout recovery.",
@@ -649,8 +649,8 @@ export const stressAnxietyTeam = {
       "Stress Specialist",
     ],
 
-    linkText: "View Dr. Neethu's full profile",
-    link: "/doctors/dr-neethu-ayurveda/",
+    linkText: "View Dr. Ansiya's full profile",
+    link: "/doctors/dr-ansiya-ayurveda/",
   },
 
   supportingCards: [
@@ -685,9 +685,9 @@ export const stressJvcRelatedPages = {
   linkHref: "/conditions/",
   pages: [
     {
-      title: "Dr. Neethu — Ayurvedic Doctor",
+      title: "Dr. Ansiya — Ayurvedic Doctor",
       description: "Female DHA-licensed BAMS Ayurvedic doctor with specialised stress and anxiety management expertise.",
-      href: "/doctors/dr-neethu-ayurveda/"
+      href: "/doctors/dr-ansiya-ayurveda/"
     },
     {
       title: "Shirodhara Treatment Dubai",

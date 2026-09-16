@@ -6,7 +6,7 @@ export const insomniaJvcHero = {
   ],
   label: "INSOMNIA AYURVEDIC TREATMENT • DHA-LICENSED 2509266 • JUMEIRAH VILLAGE CIRCLE",
   title: "Insomnia Ayurvedic\ntreatment at our JVC\nclinic, Dubai.",
-  description: "Authentic Ayurvedic sleep restoration at our DHA-licensed clinic at Jumeirah Village Circle — serving Dubai's community across chronic primary insomnia, stress-related sleep disruption, hormonal sleep changes, jet lag, shift work concerns, and age-related sleep patterns. DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Neethu, delivering comprehensive sleep restoration through constitutional assessment, Shirodhara flagship therapy, Padabhyanga, herbal medicines, and personalised sleep hygiene counselling.",
+  description: "Authentic Ayurvedic sleep restoration at our DHA-licensed clinic at Jumeirah Village Circle — serving Dubai's community across chronic primary insomnia, stress-related sleep disruption, hormonal sleep changes, jet lag, shift work concerns, and age-related sleep patterns. DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya, delivering comprehensive sleep restoration through constitutional assessment, Shirodhara flagship therapy, Padabhyanga, herbal medicines, and personalised sleep hygiene counselling.",
   image: "/og-images/insomnia-ayurveda-jvc-hero.webp",
   alt: "Insomnia Ayurvedic treatment sleep restoration Vedara Care JVC Dubai",
   primaryCTA: "Book Sleep Consultation",
@@ -28,8 +28,8 @@ export const insomniaJvcHero = {
 export const insomniaJvcIntro = {
   label: "The Quick Answer",
   title: "Insomnia Ayurvedic care at Vedara Care, in one paragraph.",
-  blockquote: "Insomnia Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic sleep restoration delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Neethu with substantial expertise in sleep concerns and stress-related sleep disruption. Our comprehensive approach combines constitutional assessment (Prakriti and Vikriti analysis), Nadi Pareeksha pulse examination, detailed sleep history, and personalised treatment spanning Shirodhara (flagship therapy — documented sleep quality improvement), Padabhyanga foot massage specifically effective for sleep concerns via marma points, Nasya nasal therapy, Abhyanga full-body oil massage, constitution-matched Ayurvedic herbal medicines including Ashwagandha, Jatamansi, Brahmi, and Tagara, dietary guidance, and comprehensive sleep hygiene counselling adapted to Dubai's lifestyle patterns. We address chronic primary insomnia, sleep-onset difficulty, sleep-maintenance insomnia, early-morning awakening, non-restorative sleep, stress-related and anxiety-related sleep disruption, hormonal sleep changes, jet lag, shift work sleep concerns, age-related sleep changes, and chronic condition-related sleep disruption. Coordinated with modern sleep medicine throughout — with explicit escalation to sleep specialists for suspected sleep apnea, severe sleep disorders, and conditions requiring specialist assessment. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and across Dubai."
-  , footer: "Medically reviewed by Dr. Neethu, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated August 2026"
+  blockquote: "Insomnia Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic sleep restoration delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya with substantial expertise in sleep concerns and stress-related sleep disruption. Our comprehensive approach combines constitutional assessment (Prakriti and Vikriti analysis), Nadi Pareeksha pulse examination, detailed sleep history, and personalised treatment spanning Shirodhara (flagship therapy — documented sleep quality improvement), Padabhyanga foot massage specifically effective for sleep concerns via marma points, Nasya nasal therapy, Abhyanga full-body oil massage, constitution-matched Ayurvedic herbal medicines including Ashwagandha, Jatamansi, Brahmi, and Tagara, dietary guidance, and comprehensive sleep hygiene counselling adapted to Dubai's lifestyle patterns. We address chronic primary insomnia, sleep-onset difficulty, sleep-maintenance insomnia, early-morning awakening, non-restorative sleep, stress-related and anxiety-related sleep disruption, hormonal sleep changes, jet lag, shift work sleep concerns, age-related sleep changes, and chronic condition-related sleep disruption. Coordinated with modern sleep medicine throughout — with explicit escalation to sleep specialists for suspected sleep apnea, severe sleep disorders, and conditions requiring specialist assessment. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and across Dubai."
+  , footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated August 2026"
 };
 
 export const insomniaJvcMechanism = {
@@ -129,7 +129,7 @@ export const insomniaJvcConditions = {
     {
       number: "08",
       title: "Hormonal Sleep Disruption",
-      description: "Sleep concerns associated with perimenopausal night sweats, menstrual-related sleep changes, and postpartum sleep concerns. Female Ayurvedic doctor Dr. Neethu particularly important for these presentations.<br/><br/><span style='color:#C9A961;font-size:12px;font-weight:600;'>Approach:</span> <span style='font-size:12px;color:#C9A961;'>Female practitioner consultation, hormonal herbal medicines, coordinated gynaecological care</span>",
+      description: "Sleep concerns associated with perimenopausal night sweats, menstrual-related sleep changes, and postpartum sleep concerns. Female Ayurvedic doctor Dr. Ansiya particularly important for these presentations.<br/><br/><span style='color:#C9A961;font-size:12px;font-weight:600;'>Approach:</span> <span style='font-size:12px;color:#C9A961;'>Female practitioner consultation, hormonal herbal medicines, coordinated gynaecological care</span>",
       alt: "Hormonal sleep disruption menopausal Ayurveda Vedara Care"
     },
     {
@@ -269,12 +269,12 @@ export const insomniaTeam = {
   cards: [
     {
       initial: "D",
-      name: "Dr. Neethu",
+      name: "Dr. Ansiya",
       role: "Lead Insomnia & Sleep Ayurvedic Doctor",
       tag: "FEMALE PRACTITIONER",
       description: "DHA-Licensed BAMS-Qualified Ayurvedic Doctor with substantial sleep concern and stress-related sleep expertise. Provides comprehensive constitutional and sleep assessment, personalised treatment planning, and sustained partnership approach. Specialised expertise across all sleep concern presentations from chronic primary insomnia to hormonal sleep disruption to shift work sleep concerns.",
-      linkText: "View Dr. Neethu's full profile →",
-      link: "/doctors/dr-neethu-ayurveda/"
+      linkText: "View Dr. Ansiya's full profile →",
+      link: "/doctors/dr-ansiya-ayurveda/"
     },
     {
       initial: "A",
@@ -322,7 +322,7 @@ export const insomniaFaqs = {
     },
     {
       question: "Do you have female Ayurvedic doctor for sleep concerns?",
-      answer: "Yes — Dr. Neethu is a female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial sleep concern expertise, particularly important for hormonal sleep disruption (perimenopausal, menstrual-related, postpartum) and cultural preferences for same-gender consultation."
+      answer: "Yes — Dr. Ansiya is a female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial sleep concern expertise, particularly important for hormonal sleep disruption (perimenopausal, menstrual-related, postpartum) and cultural preferences for same-gender consultation."
     },
     {
       question: "How long does Ayurvedic sleep treatment take?",
@@ -338,7 +338,7 @@ export const insomniaFaqs = {
     },
     {
       question: "How is Vedara different from other Ayurveda clinics in Dubai?",
-      answer: "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Neethu — not aestheticians or spa therapists. Comprehensive constitutional and sleep assessment including sleep apnea screening. Multi-modal approach. Coordinated with modern sleep medicine when appropriate. Integrated with stress and anxiety care given substantial overlap. Multi-language capability and cultural competence including Ramadan considerations."
+      answer: "DHA-licensed BAMS-qualified doctors including female practitioner Dr. Ansiya — not aestheticians or spa therapists. Comprehensive constitutional and sleep assessment including sleep apnea screening. Multi-modal approach. Coordinated with modern sleep medicine when appropriate. Integrated with stress and anxiety care given substantial overlap. Multi-language capability and cultural competence including Ramadan considerations."
     },
     {
       question: "Can I do Ayurvedic treatment while on sleep medications?",
@@ -346,13 +346,13 @@ export const insomniaFaqs = {
     },
     {
       question: "How do I book a sleep consultation?",
-      answer: "Three ways: WhatsApp us specifying a sleep consultation ideally with Dr. Neethu — fastest response; call +971 XX XXX XXXX (9AM–9PM seven days); or book online. Please bring: description of sleep concerns and duration, current sleep patterns, current medications, previous sleep management approaches, insurance card if applicable."
+      answer: "Three ways: WhatsApp us specifying a sleep consultation ideally with Dr. Ansiya — fastest response; call +971 XX XXX XXXX (9AM–9PM seven days); or book online. Please bring: description of sleep concerns and duration, current sleep patterns, current medications, previous sleep management approaches, insurance card if applicable."
     },
   ],
   buttonText: "Ask Our Team on WhatsApp",
   buttonHref: "https://wa.me/971555736312?text=Hi,%20I%27m%20interested%20in%20HydraFacial%20treatment%20and%20have%20a%20question.",
   sidebarLinks: [
-    { text: "Dr. Neethu's Profile", href: "/doctors/dr-neethu-ayurveda" },
+    { text: "Dr. Ansiya's Profile", href: "/doctors/dr-ansiya-ayurveda" },
     { text: "Shirodhara Treatment", href: "/treatments/shirodhara-dubai" },
     { text: "Stress & Anxiety Care", href: "/conditions/stress-anxiety-ayurveda-dubai" },
     { text: "Ayurveda clinic JVC", href: "/ayurveda-clinic-jvc" }
@@ -376,8 +376,8 @@ export const insomniaJvcLocation = {
 export const insomniaCTA = {
   label: "Ready for Authentic Ayurvedic Sleep Restoration?",
   title: "Comprehensive sleep consultation is the starting point.",
-  description: "Whether you're experiencing chronic primary insomnia affecting daily function, sleep-onset difficulty, mid-night waking, non-restorative sleep, hormonal sleep concerns, jet lag, shift work sleep concerns, or sleep disrupted by chronic conditions — comprehensive consultation with Dr. Neethu identifies your specific sleep pattern and designs a personalised sleep restoration approach. DHA-licensed authentic Ayurvedic care coordinated with modern sleep medicine when needed. Same-week appointments typically available at our JVC clinic, walking distance from Circle Mall.",
-  button1Text: "Book Consultation with Dr. Neethu",
+  description: "Whether you're experiencing chronic primary insomnia affecting daily function, sleep-onset difficulty, mid-night waking, non-restorative sleep, hormonal sleep concerns, jet lag, shift work sleep concerns, or sleep disrupted by chronic conditions — comprehensive consultation with Dr. Ansiya identifies your specific sleep pattern and designs a personalised sleep restoration approach. DHA-licensed authentic Ayurvedic care coordinated with modern sleep medicine when needed. Same-week appointments typically available at our JVC clinic, walking distance from Circle Mall.",
+  button1Text: "Book Consultation with Dr. Ansiya",
   button1Href: "/book",
   button1BgColor: "rgb(184, 150, 90)",
   button1TextColor: "rgb(255, 255, 255)",
@@ -394,9 +394,9 @@ export const insomniaJvcRelatedPages = {
   title: "Related pages for sleep restoration.",
   pages: [
     {
-      title: "Dr. Neethu — Ayurvedic Doctor",
+      title: "Dr. Ansiya — Ayurvedic Doctor",
       description: "Female DHA-licensed BAMS practitioner with substantial sleep and stress-related sleep expertise.",
-      href: "/doctors/dr-neethu-ayurveda/"
+      href: "/doctors/dr-ansiya-ayurveda/"
     },
     {
       title: "Shirodhara Treatment Dubai",
@@ -425,19 +425,19 @@ export const insomniaJvcReviews = {
   title: "Real sleep restoration outcomes with authentic Ayurvedic care at our JVC clinic.",
   items: [
     {
-      quote: "Chronic sleep-onset insomnia for years affecting my professional performance in Dubai financial services. Tried prescription sleep medications with substantial side effects — daytime fog, dependency concerns. Consulted Dr. Neethu at Vedara's JVC clinic. Comprehensive assessment identifying my Vata-predominant pattern and anxiety-driven sleep onset difficulty. Personalised Shirodhara series with Ksheerabala oil, Padabhyanga, Ashwagandha and Jatamansi herbal medicines, and sleep hygiene counselling addressing screen exposure. Six weeks in: reliable sleep onset within 20 minutes rather than hours. Three months: transformed sleep quality without sleep medications.",
+      quote: "Chronic sleep-onset insomnia for years affecting my professional performance in Dubai financial services. Tried prescription sleep medications with substantial side effects — daytime fog, dependency concerns. Consulted Dr. Ansiya at Vedara's JVC clinic. Comprehensive assessment identifying my Vata-predominant pattern and anxiety-driven sleep onset difficulty. Personalised Shirodhara series with Ksheerabala oil, Padabhyanga, Ashwagandha and Jatamansi herbal medicines, and sleep hygiene counselling addressing screen exposure. Six weeks in: reliable sleep onset within 20 minutes rather than hours. Three months: transformed sleep quality without sleep medications.",
       author: "Male patient, 39",
       details: "Chronic Sleep-Onset Insomnia · Dubai Marina · February 2026",
       details1: "February 2026"
     },
     {
-      quote: "Perimenopausal sleep concerns — night sweats disrupting sleep, unable to return to sleep after waking, exhaustion affecting family and work life. Cultural preference for non-pharmaceutical approach. Consulted Dr. Neethu — female Ayurvedic doctor critically important for hormonal sleep concerns. Shirodhara with cooling Chandanadi oil for Pitta-predominant patterns, Padabhyanga, herbal medicines targeting hormonal sleep support including Shatavari alongside sleep-specific preparations. Substantial improvement in sleep maintenance over 8 weeks. Female practitioner and comprehensive cultural sensitivity throughout completely different from previous fragmented care.",
+      quote: "Perimenopausal sleep concerns — night sweats disrupting sleep, unable to return to sleep after waking, exhaustion affecting family and work life. Cultural preference for non-pharmaceutical approach. Consulted Dr. Ansiya — female Ayurvedic doctor critically important for hormonal sleep concerns. Shirodhara with cooling Chandanadi oil for Pitta-predominant patterns, Padabhyanga, herbal medicines targeting hormonal sleep support including Shatavari alongside sleep-specific preparations. Substantial improvement in sleep maintenance over 8 weeks. Female practitioner and comprehensive cultural sensitivity throughout completely different from previous fragmented care.",
       author: "Female patient, 51",
       details: "Perimenopausal Sleep Disruption · Downtown Dubai · January 2026",
       details1: "January 2026"
     },
     {
-      quote: "Aviation industry professional with substantial jet lag from frequent international travel out of Dubai. Chronic circadian rhythm disruption affecting sleep quality even during Dubai-based periods. Consulted Dr. Neethu for a sustainable approach. Personalised programme: Shirodhara series during Dubai-based recovery periods, targeted herbal support including Ashwagandha and Tagara, sleep hygiene protocol adapted for aviation schedule realities, sustained partnership approach with intensification during major schedule disruption periods. Substantially better sleep quality within 8 weeks. Realistic approach acknowledging my professional constraints rather than idealistic prescriptions made the programme actually sustainable.",
+      quote: "Aviation industry professional with substantial jet lag from frequent international travel out of Dubai. Chronic circadian rhythm disruption affecting sleep quality even during Dubai-based periods. Consulted Dr. Ansiya for a sustainable approach. Personalised programme: Shirodhara series during Dubai-based recovery periods, targeted herbal support including Ashwagandha and Tagara, sleep hygiene protocol adapted for aviation schedule realities, sustained partnership approach with intensification during major schedule disruption periods. Substantially better sleep quality within 8 weeks. Realistic approach acknowledging my professional constraints rather than idealistic prescriptions made the programme actually sustainable.",
       author: "Male patient, 44",
       details: "Aviation Jet Lag & Circadian Disruption · Business Bay · March 2026",
       details1: "March 2026"
