@@ -9,7 +9,24 @@ import AyurvedaIntro from '../ayurveda/AyurvedaIntro';
 import AyurvedaHero from '../ayurveda/AyurvedaHero';
 import { SciaticaTreatment } from '../ayurveda/SciaticaSections';
 import PostnatalComponents from '../ayurveda/PostnatalComponents';
+import { drAnsiya } from '../../data/doctorData';
+
 const DoctorPageTemplate = ({ doctor }) => {
+  const replaceName = (obj) => {
+    if (!obj) return null;
+    const docName = doctor.firstName || doctor.name || '';
+    // Replace "Dr. Ansiya" with full doc name, and just "Ansiya" with the name without "Dr." if it exists
+    const str = JSON.stringify(obj)
+      .replace(/Dr\\?\. Ansiya/g, docName)
+      .replace(/Ansiya/g, docName.replace('Dr. ', ''));
+    return JSON.parse(str);
+  };
+
+  const reviews = doctor.reviews || replaceName(drAnsiya.reviews);
+  const consultation = doctor.consultation || replaceName(drAnsiya.consultation);
+  const pricing = doctor.pricing || replaceName(drAnsiya.pricing);
+  const faqs = doctor.faqs || replaceName(drAnsiya.faqs);
+  const location = doctor.location || replaceName(drAnsiya.location);
   return (
     <>
       {/* ================= SECTION 1: HERO (Image Right, Content Left) ================= */}
@@ -41,7 +58,7 @@ const DoctorPageTemplate = ({ doctor }) => {
       />
       {/* ================= SECTION 2: QUICK ANSWER ================= */}
       <AyurvedaIntro
-        label={doctor.aboutLabel || "THE QUICK ANSWER"}
+        label={"THE QUICK ANSWER"}
         title={
           doctor.aboutH2 ||
           `About ${doctor.firstName || doctor.name}, in one paragraph.`
@@ -58,14 +75,14 @@ const DoctorPageTemplate = ({ doctor }) => {
         showBorderLeft={false}
 
         rightContentStyle="tags"
-        bgColor="bg-white"
+        bgColor="bg-[#F0EBE3]"
         data={{
           treatment: {
-            label: doctor.aboutLabel || doctor.summaryLabel || "PROFILE SUMMARY",
+            label: `ABOUT DR. ${(doctor.firstName || doctor.name).toUpperCase().replace('DR. ', '')}`,
             title:
               doctor.summaryTitle ||
               "Personalised care — clinical approach.",
-            intro: doctor.specialtiesSubtitle,
+            intro: doctor.summaryIntro || null,
             steps: [
               {
                 title: "",
@@ -289,25 +306,25 @@ const DoctorPageTemplate = ({ doctor }) => {
       )}
 
       {/* ================= SECTION 6: REVIEWS ================= */}
-      {doctor.reviews && (
-        <section style={{ backgroundColor: doctor.reviews.bgColor || '#FAF6EF' }} className="py-20 md:py-28">
+      {reviews && (
+        <section style={{ backgroundColor: '#F0EBE3' }} className="py-20 md:py-28">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <span className="text-[13px] font-semibold tracking-[0.1em] uppercase block mb-4" style={{ color: '#C9A55B' }}>
-                {doctor.reviews.label}
+                {reviews.label}
               </span>
               <h2 style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '44px', fontWeight: '500', color: '#1A1A1A', lineHeight: '1.2', marginBottom: '24px' }}>
-                {doctor.reviews.title}
+                {reviews.title}
               </h2>
-              {doctor.reviews.description && <p className="text-[16px]" style={{ color: '#6B6B6B' }}>{doctor.reviews.description}</p>}
+              {reviews.description && <p className="text-[16px]" style={{ color: '#6B6B6B' }}>{reviews.description}</p>}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
-              {(doctor.reviews.items || []).map((r, i) => (
+              {(reviews.items || []).map((r, i) => (
                 <div
                   key={i}
                   className="relative p-8 rounded-tr-[32px] rounded-[8px] shadow-md border"
-                  style={{ backgroundColor: doctor.reviews.cardBgColor || 'white', borderColor: '#E5DFD3' }}
+                  style={{ backgroundColor: reviews.cardBgColor || 'white', borderColor: '#E5DFD3' }}
                 >
                   <div className="flex items-center gap-1 mb-5">
                     {[1, 2, 3, 4, 5].map(s => (
@@ -325,9 +342,9 @@ const DoctorPageTemplate = ({ doctor }) => {
               ))}
             </div>
 
-            {doctor.reviews.stats && doctor.reviews.stats.length > 0 && (
+            {reviews.stats && reviews.stats.length > 0 && (
               <div className="flex items-center justify-center gap-10 flex-wrap mb-10">
-                {doctor.reviews.stats.map((s, i) => (
+                {reviews.stats.map((s, i) => (
                   <div key={i} className="text-center">
                     <div style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '40px', fontWeight: '500', color: '#C9A55B' }}>{s.value}</div>
                     <p className="text-[13px] mt-2" style={{ color: '#6B6B6B' }}>{s.label}</p>
@@ -336,10 +353,10 @@ const DoctorPageTemplate = ({ doctor }) => {
               </div>
             )}
 
-            {doctor.reviews.buttonText && (
+            {reviews.buttonText && (
               <div className="text-center">
-                <a href={doctor.reviews.buttonHref || '#'} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-[6px] border font-medium text-[15px]" style={{ borderColor: '#1F4538', color: '#1F4538' }}>
-                  {doctor.reviews.buttonText}
+                <a href={reviews.buttonHref || '#'} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-[6px] border font-medium text-[15px]" style={{ borderColor: '#1F4538', color: '#1F4538' }}>
+                  {reviews.buttonText}
                 </a>
               </div>
             )}
@@ -349,23 +366,23 @@ const DoctorPageTemplate = ({ doctor }) => {
       {/* ================= SECTION 2: QUICK ANSWER / ABOUT DOCTOR ================= */}
 
       {/* ================= SECTION 7: CONSULTATION 4-PHASE + BRING BOX ================= */}
-      {doctor.consultation && (
+      {consultation && (
         <section className="py-20 md:py-28 bg-white">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <span className="text-[13px] font-semibold tracking-[0.1em] uppercase block mb-4" style={{ color: '#C9A55B' }}>
-                {doctor.consultation.label || 'YOUR CONSULTATION'}
+                {consultation.label || 'YOUR CONSULTATION'}
               </span>
               <h2 style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '44px', fontWeight: '500', color: '#1A1A1A', lineHeight: '1.2', marginBottom: '24px' }}>
-                {doctor.consultation.title || `What to expect at your consultation with ${doctor.firstName || doctor.name}.`}
+                {consultation.title || `What to expect at your consultation with ${doctor.firstName || doctor.name}.`}
               </h2>
-              {doctor.consultation.description && (
-                <p className="text-[16px] max-w-xl mx-auto" style={{ color: '#6B6B6B' }}>{doctor.consultation.description}</p>
+              {consultation.description && (
+                <p className="text-[16px] max-w-xl mx-auto" style={{ color: '#6B6B6B' }}>{consultation.description}</p>
               )}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 mb-14">
-              {(doctor.consultation.phases || []).map((ph, i) => (
+              {(consultation.phases || []).map((ph, i) => (
                 <div
                   key={i}
                   className="p-7 rounded-[8px] border-t-4"
@@ -385,13 +402,13 @@ const DoctorPageTemplate = ({ doctor }) => {
               ))}
             </div>
 
-            {doctor.consultation.bringBox && (
+            {consultation.bringBox && (
               <div className="max-w-3xl mx-auto p-8 rounded-[8px]" style={{ backgroundColor: '#FAF6EF' }}>
                 <p className="text-[12px] font-semibold tracking-[0.1em] uppercase mb-4" style={{ color: '#C9A55B' }}>
-                  {doctor.consultation.bringBox.label}
+                  {consultation.bringBox.label}
                 </p>
                 <p className="text-[15px] leading-relaxed" style={{ color: '#4A4A4A' }}>
-                  {(doctor.consultation.bringBox.items || []).join(' · ')}.
+                  {(consultation.bringBox.items || []).join(' · ')}.
                 </p>
               </div>
             )}
@@ -400,19 +417,19 @@ const DoctorPageTemplate = ({ doctor }) => {
       )}
 
       {/* ================= SECTION 8: PRICING & INSURANCE TABLE ================= */}
-      {doctor.pricing && (
+      {pricing && (
         <section className="py-20 md:py-28" style={{ backgroundColor: '#FAF6EF' }}>
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <span className="text-[13px] font-semibold tracking-[0.1em] uppercase block mb-4" style={{ color: '#C9A55B' }}>
-                {doctor.pricing.label || 'TRANSPARENT PRICING'}
+                {pricing.label || 'TRANSPARENT PRICING'}
               </span>
               <h2 style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '44px', fontWeight: '500', color: '#1A1A1A', lineHeight: '1.2' }}>
-                {doctor.pricing.title || `Consultation with ${doctor.firstName || doctor.name} — pricing and insurance.`}
+                {pricing.title || `Consultation with ${doctor.firstName || doctor.name} — pricing and insurance.`}
               </h2>
             </div>
 
-            {doctor.pricing.consultationRows && doctor.pricing.consultationRows.length > 0 && (
+            {pricing.consultationRows && pricing.consultationRows.length > 0 && (
               <div className="rounded-[10px] overflow-hidden shadow-lg mb-10">
                 <table className="w-full">
                   <thead>
@@ -423,7 +440,7 @@ const DoctorPageTemplate = ({ doctor }) => {
                     </tr>
                   </thead>
                   <tbody>
-                    {doctor.pricing.consultationRows.map((row, i) => (
+                    {pricing.consultationRows.map((row, i) => (
                       <tr key={i} style={{ backgroundColor: i % 2 === 0 ? 'white' : '#FBF7F1', borderBottom: '1px solid #E5DFD3' }}>
                         <td className="p-5 text-[14.5px]" style={{ color: '#1A1A1A' }}>{row.type}</td>
                         <td className="p-5 text-[14px]" style={{ color: '#4A4A4A' }}>{row.duration}</td>
@@ -436,21 +453,21 @@ const DoctorPageTemplate = ({ doctor }) => {
             )}
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {doctor.pricing.insurance && (
+              {pricing.insurance && (
                 <div className="p-8 rounded-[8px] bg-white shadow-sm border border-[#E5DFD3]">
                   <h3 style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '24px', fontWeight: '500', color: '#1A1A1A', marginBottom: '16px' }}>
-                    {doctor.pricing.insurance.title}
+                    {pricing.insurance.title}
                   </h3>
-                  {doctor.pricing.insurance.paragraph1 && <p className="text-[14.5px] leading-relaxed mb-4" style={{ color: '#4A4A4A' }}>{doctor.pricing.insurance.paragraph1}</p>}
-                  {doctor.pricing.insurance.paragraph2 && <p className="text-[14.5px] leading-relaxed" style={{ color: '#4A4A4A' }}>{doctor.pricing.insurance.paragraph2}</p>}
+                  {pricing.insurance.paragraph1 && <p className="text-[14.5px] leading-relaxed mb-4" style={{ color: '#4A4A4A' }}>{pricing.insurance.paragraph1}</p>}
+                  {pricing.insurance.paragraph2 && <p className="text-[14.5px] leading-relaxed" style={{ color: '#4A4A4A' }}>{pricing.insurance.paragraph2}</p>}
                 </div>
               )}
-              {doctor.pricing.treatmentCosts && (
+              {pricing.treatmentCosts && (
                 <div className="p-8 rounded-[8px] bg-white shadow-sm border border-[#E5DFD3]">
                   <h3 style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '24px', fontWeight: '500', color: '#1A1A1A', marginBottom: '16px' }}>
-                    {doctor.pricing.treatmentCosts.title}
+                    {pricing.treatmentCosts.title}
                   </h3>
-                  <p className="text-[14.5px] leading-relaxed" style={{ color: '#4A4A4A' }}>{doctor.pricing.treatmentCosts.description}</p>
+                  <p className="text-[14.5px] leading-relaxed" style={{ color: '#4A4A4A' }}>{pricing.treatmentCosts.description}</p>
                 </div>
               )}
             </div>
@@ -459,10 +476,10 @@ const DoctorPageTemplate = ({ doctor }) => {
       )}
 
       {/* ================= SECTION 9: FAQ ================= */}
-      {doctor.faqs && <FAQ {...doctor.faqs} />}
+      {faqs && <FAQ {...faqs} />}
 
       {/* ================= SECTION 10: LOCATION ================= */}
-      {doctor.location && <TreatmentLocation {...doctor.location} />}
+      {location && <TreatmentLocation {...location} bgColor="bg-[#F0EBE3]" />}
 
       {/* ================= SECTION 11: FINAL CTA ================= */}
       {doctor.cta && <FinalCTA {...doctor.cta} />}

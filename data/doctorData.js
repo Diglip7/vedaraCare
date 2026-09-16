@@ -607,7 +607,7 @@ export const hafsinaKKTemplate = {
   floatingCardTitle: "DHA LICENSED PHYSIOTHERAPIST",
   floatingCardSubtitle: "In-clinic appointments at Vedara Care Polyclinic JVC, Dubai. Near Circle Mall. JVC / Marina / Downtown / Business Bay / Al Barsha / Dubai Hills.",
   pageTitle: 'Bachelor of Physiotherapy — DHA Licensed Physiotherapist',
-  aboutH2: 'PROFILE SUMMARY',
+  // aboutH2: 'PROFILE SUMMARY',
   aboutLabel: "PROFILE SUMMARY",
   summaryTitle: "Hands-on rehabilitation, built on a strong clinical foundation.",
   summaryParagraph1: "Hafsina K K is a Physiotherapist at <a href=\"/\">Vedara Care</a> in Jumeirah Village Circle, Dubai, bringing more than seven years of experience treating orthopedic, neurological, sports-related, and women's health conditions across India and the UAE. She takes a thorough, hands-on approach to assessment, identifying the root cause of pain or dysfunction rather than treating symptoms in isolation.",
@@ -2001,11 +2001,11 @@ export const emielSanchezData = {
 // =====================================================
 export const arfahOwaisTemplate = {
   name: 'Aesthetician Arfah Owais',
-  firstName: 'Arfah',
+  firstName: 'Dr. Arfah',
   title: 'DHA Licensed Aesthetician | CIBTAC-UK Diploma Holder | NCLC Certified | PMU Certified | Advanced Skin Treatments | Luxury Skin Care.',
   image: '/images/arfah-owais-aesthetician.webp',
   alt: 'Aesthetician Arfah Owais',
-  heroBadge: 'AESTHETICIAN',
+  heroBadge: 'Aesthetician · Advanced Facial Therapy & Aesthetic Skincare',
   heroStats: '8+ Years Clinical Experience',
   subtitle: 'Advanced Facial Therapy & Aesthetic Skincare',
   ratingText: '',
@@ -2023,17 +2023,17 @@ export const arfahOwaisTemplate = {
   floatingCardTitle: "DHA LICENSED AESTHETICIAN",
   floatingCardSubtitle: "In-clinic appointments at Vedara Care Polyclinic JVC, Dubai. Near Circle Mall.",
   pageTitle: 'Aesthetician Arfah Owais',
-  aboutH2: 'PROFILE SUMMARY',
+  aboutH2: 'About Arfah, in one paragraph.',
+  about: "Aesthetician Arfah Owais is a DHA Licensed Aesthetician at Vedara Care Polyclinic in JVC, Dubai, with 8+ years of hands-on experience in advanced facial therapy, aesthetic skincare, and personalized treatment planning. Her professional expertise includes facial rejuvenation, skin resurfacing, pigmentation management, skin hydration, acne-scar care, and skin texture refinement. Arfah takes a patient-focused approach, assessing individual skincare concerns before recommending suitable treatment options. Her professional training and certifications support her commitment to safe, hygienic, and DHA-compliant aesthetic care. She provides personalized skincare guidance and treatment protocols designed around each patient's skin needs and aesthetic goals.",
   aboutLabel: "PROFILE SUMMARY",
-  summaryTitle: "With 8+ years of hands-on clinical experience, specialising in advanced facial therapy, skincare treatment planning and aesthetic skincare.",
-  summaryParagraph1: "Committed to continuous professional development while maintaining the highest standards of patient safety, hygiene and DHA-compliant practice.",
-  // summaryParagraph2: "",
+  summaryTitle: "Advanced facial therapy and personalized aesthetic skincare—Arfah Owais’s clinical approach.",
+  summaryParagraph1: "With 8+ years of hands-on clinical experience, Arfah Owais specializes in advanced facial therapy, skincare treatment planning, and aesthetic skincare at Vedara Care Polyclinic in JVC, Dubai.",
+  quote: "Every skin is different. My approach begins with understanding your skin, your concerns, and your goals so that your skincare plan is personalised to you.",
   aboutFooter: "DHA Licensed Aesthetician | CIBTAC-UK Diploma Holder | NCLC Certified | PMU Certified",
-  approach: [
-    { title: 'Comprehensive Skin Analysis', description: "" },
-    { title: 'Personalized Treatment Planning', description: "" },
-    { title: 'Customized Facial Protocols', description: "" },
-    { title: 'Pre- & Post-Treatment Skincare Guidance', description: "" }
+  description: [
+    { title: 'Personalized skincare—understanding your individual needs', description: "Arfah takes a patient-focused approach to skincare, beginning with an understanding of your skin concerns, current condition, lifestyle, previous treatments, and aesthetic goals. This helps guide a more personalized approach rather than applying the same treatment plan to every patient." },
+    { title: 'Advanced facial and aesthetic skincare expertise', description: "Her areas of practice include advanced facial treatments, skin rejuvenation, HydraFacial, Oxy-Geneo, microdermabrasion, dermaplaning, pigmentation care, skin texture refinement, and selected aesthetic treatment protocols. Treatment recommendations are based on individual skin needs and suitability." },
+    { title: 'Safety, hygiene, and DHA-compliant practice', description: "Patient safety, hygiene, comfort, and appropriate treatment selection remain central to Arfah’s approach. She follows professional standards within her DHA-licensed practice and continues to develop her knowledge and skills in modern aesthetic skincare." }
   ],
   specialtiesList: [
     { number: '01', title: 'Advanced Aesthetic & Skin Rejuvenation', description: 'Comprehensive skin renewal therapies designed to restore youthful vitality, improve overall skin health, and address various aesthetic concerns.', related: 'CORE STRENGTH: Skin Rejuvenation' },
@@ -2051,7 +2051,7 @@ export const arfahOwaisTemplate = {
   specialtiesSubtitle: 'With 8+ years of hands-on clinical experience, Arfah provides customized and effective skincare solutions for a wide range of aesthetic concerns.',
   specialtiesFooter: 'A thorough skin analysis with Arfah will determine the best course of treatment for your skin →',
   credentialsTitle: 'The training behind every treatment.',
-  credentialsSubtitle: 'We believe patients deserve to know the qualifications and training behind the person treating them.',
+
   education: [
     'DHA Licensed Aesthetician',
     'CIBTAC-UK Diploma Holder',
@@ -2069,36 +2069,167 @@ export const arfahOwaisTemplate = {
   ],
   conditionsTitle: 'Advanced Skincare & Treatment Protocols',
   conditionsTreated: {
-    subtitle: '',
+    subtitle: 'Aesthetician Arfah Owais provides personalized aesthetic skincare and facial treatment protocols for a range of common skin concerns. Treatment recommendations are based on an individual skin assessment, concerns, skin condition, and suitability for the proposed procedure. Her approach combines professional skincare knowledge with modern aesthetic techniques to support healthier-looking, smoother, more refreshed skin.',
+    footer: 'Treatment suitability varies from person to person. A professional skin assessment is recommended before starting an advanced aesthetic treatment.',
     categories: [
       {
         category: 'Advanced Device-Based Treatments',
         conditions: [
-          { title: 'HIFU (High-Intensity Focused Ultrasound)', description: 'for Skin Lifting & Tightening' },
-          { title: 'Radiofrequency (RF)', description: 'Skin Tightening' },
-          { title: 'RF Microneedling', description: 'for Skin Resurfacing & Rejuvenation' },
-          { title: 'Carbon Laser Peel', description: '' },
-          { title: 'Laser Skin Rejuvenation & Laser Toning', description: '' }
+          { title: 'HIFU (High-Intensity Focused Ultrasound)', description: 'Non-invasive ultrasound-based treatment used in suitable cases to support skin lifting, tightening, and firmness.' },
+          { title: 'Radiofrequency (RF)', description: 'Controlled radiofrequency treatment designed to support skin tightening and improve the appearance of skin firmness.' },
+          { title: 'RF Microneedling', description: 'A combination of microneedling and radiofrequency technology used for skin resurfacing, texture refinement, and rejuvenation.' },
+          { title: 'Carbon Laser Peel', description: 'A laser-based facial treatment commonly used to refresh the appearance of the skin and improve the look of pores, oiliness, and uneven texture.' },
+          { title: 'Laser Skin Rejuvenation & Laser Toning', description: 'Professional laser-based approaches used in selected cases to address concerns such as uneven skin tone, pigmentation, and overall skin appearance.' }
         ]
       },
       {
         category: 'Corrective Skin Treatments',
         conditions: [
-          { title: 'Pigmentation & Uneven Skin Tone Management', description: '' },
-          { title: 'Skin Brightening & Complexion Refinement', description: '' },
-          { title: 'Acne Scar Treatments', description: '' },
-          { title: 'Pore & Skin Texture Refinement', description: '' },
-          { title: 'Skin Firmness & Early Signs of Aging', description: '' }
+          { title: 'Pigmentation & Uneven Skin Tone Management', description: 'Personalized treatment approaches for the appearance of pigmentation, discoloration, and uneven skin tone.' },
+          { title: 'Skin Brightening & Complexion Refinement', description: 'Skincare and facial protocols designed to improve the appearance of dull, tired, or uneven-looking skin.' },
+          { title: 'Acne Scar Treatments', description: 'Individualized approaches focused on improving the appearance of acne-related scarring and uneven skin texture.' },
+          { title: 'Pore & Skin Texture Refinement', description: 'Targeted skincare and aesthetic treatments to help improve the appearance of enlarged pores, roughness, and uneven texture.' },
+          { title: 'Skin Firmness & Early Signs of Aging', description: 'Personalized protocols addressing visible concerns such as fine lines, reduced firmness, and early signs of skin aging.' }
         ]
       },
       {
         category: 'Professional Skin Management',
         conditions: [
-          { title: 'Comprehensive Skin Analysis', description: '' },
-          { title: 'Personalized Treatment Planning', description: '' },
-          { title: 'Customized Facial Protocols', description: '' },
-          { title: 'Pre- & Post-Treatment Skincare Guidance', description: '' }
+          { title: 'Comprehensive Skin Analysis', description: 'An assessment of the skin\'s visible condition and individual concerns to help guide appropriate treatment recommendations.' },
+          { title: 'Personalized Treatment Planning', description: 'A tailored skincare and aesthetic treatment plan based on the patient\'s concerns, skin characteristics, and treatment goals.' },
+          { title: 'Customized Facial Protocols', description: 'Facial treatments selected and adapted according to individual skincare needs rather than using a one-size-fits-all approach.' },
+          { title: 'Pre- & Post-Treatment Skincare Guidance', description: 'Practical skincare guidance to help patients prepare for selected treatments and care for their skin afterwards.' }
         ]
+      }
+    ]
+  },
+  consultation: {
+    label: "YOUR CONSULTATION",
+    title: "What to expect during your aesthetic skincare consultation with Arfah Owais.",
+    description: "Understanding the consultation and treatment process helps you prepare for your appointment and choose an approach that matches your skin concerns and aesthetic goals.",
+    phases: [
+      {
+        phase: 'Phase 1',
+        time: 'INITIAL APPOINTMENT',
+        title: 'Skin Assessment & Consultation',
+        description: 'Your appointment begins with a discussion about your current skin concerns, skincare routine, previous aesthetic treatments, sensitivities, and desired results. Arfah assesses your skin condition and discusses factors that may influence treatment suitability.'
+      },
+      {
+        phase: 'Phase 2',
+        time: 'DURING YOUR CONSULTATION',
+        title: 'Treatment Plan Discussion',
+        description: 'Based on your skin assessment and goals, Arfah discusses suitable treatment options and explains what each approach involves. Your personalised plan may include facial treatments, skin resurfacing, pigmentation-focused care, hydration treatments, or selected aesthetic procedures where appropriate.'
+      },
+      {
+        phase: 'Phase 3',
+        time: 'AS RECOMMENDED',
+        title: 'Treatment Session',
+        description: 'Once the treatment approach is agreed upon, your selected procedure or facial protocol can be performed according to your individual needs. Arfah focuses on appropriate treatment execution and patient comfort.'
+      },
+      {
+        phase: 'Phase 4',
+        time: 'AFTER YOUR TREATMENT',
+        title: 'Aftercare & Follow-Up',
+        description: 'After your treatment, Arfah provides appropriate aftercare and skincare guidance based on the procedure performed and your individual skin needs. This may include recommendations for skincare, sun protection, temporary activity considerations, and when to schedule your next appointment. Follow-up may be recommended when a treatment requires multiple sessions or ongoing skin management. Your skincare plan can be reviewed and adjusted according to how your skin responds over time.'
+      }
+    ],
+    bringBox: {
+      label: "PLEASE BRING TO YOUR FIRST CONSULTATION",
+      items: [
+        "Your current skincare products or routine, if available",
+        "List of current medications and supplements",
+        "Details of previous aesthetic or facial treatments",
+        "Previous skincare or treatment records if relevant",
+        "Information about known skin sensitivities or allergies",
+        "Any relevant medical conditions or recent procedures",
+        "List of your main skin concerns and treatment goals",
+        "Photos of previous treatments or products used, if helpful",
+        "Insurance card if applicable"
+      ]
+    }
+  },
+  faqs: {
+    label: "COMMON QUESTIONS",
+    sidebarLinks: [
+      { text: "Browse our other doctors", href: "/doctors/" },
+      { text: "See the JVC clinic page", href: "/wellness-clinic-jvc/" }
+    ],
+    title: "What patients ask about consulting Aesthetician Arfah Owais.",
+    description: "For related topics, explore:",
+    buttonText: "Ask the Team",
+    buttonHref: "https://wa.me/971555736312?text=" + encodeURIComponent("Hi, I have a question about consulting Aesthetician Arfah Owais at your JVC clinic."),
+    faqs: [
+      {
+        question: "1. Who is Aesthetician Arfah Owais?",
+        answer: "Arfah Owais is a DHA Licensed Aesthetician at Vedara Care Polyclinic in JVC, Dubai. She has 8+ years of hands-on clinical experience and specialises in advanced facial therapy, aesthetic skincare, skin treatment planning, and personalised facial protocols."
+      },
+      {
+        question: "2. Is Arfah Owais a DHA Licensed Aesthetician in Dubai?",
+        answer: "Yes. Arfah Owais is a DHA Licensed Aesthetician practising at Vedara Care Polyclinic in JVC, Dubai. Her professional qualifications also include a CIBTAC-UK Diploma, NCLC Certification, and PMU Certification."
+      },
+      {
+        question: "3. What aesthetic treatments does Arfah Owais provide in JVC Dubai?",
+        answer: "Arfah provides a range of aesthetic skincare and facial treatments, including HydraFacial, Oxy-Geneo, microdermabrasion, dermaplaning, mesotherapy, PRP facial treatments, and selected skin rejuvenation and device-based protocols."
+      },
+      {
+        question: "4. Can Arfah help with pigmentation and uneven skin tone?",
+        answer: "Yes. Arfah provides professional skincare approaches for pigmentation and uneven skin tone. Depending on your skin condition, a skin assessment can help determine which treatment or combination of treatments may be appropriate."
+      },
+      {
+        question: "5. Does Arfah provide HydraFacial in JVC, Dubai?",
+        answer: "Yes. HydraFacial is one of Arfah’s areas of expertise at Vedara Care Polyclinic in JVC. The treatment can include cleansing, exfoliation, extraction, and hydration, depending on the selected protocol and your skin’s needs."
+      },
+      {
+        question: "6. Can I see Arfah for acne scars and uneven skin texture?",
+        answer: "Yes. Arfah works with patients seeking aesthetic skincare support for acne scars, uneven texture, visible pores, and other surface-level skin concerns. Treatment options are selected according to the individual's skin condition and suitability."
+      },
+      {
+        question: "7. Does Arfah provide RF Microneedling treatment?",
+        answer: "RF Microneedling is included among Arfah’s advanced device-based treatment protocols. Because suitability can vary depending on skin type, sensitivity, medical history, and the concern being addressed, an appropriate assessment is recommended before treatment."
+      },
+      {
+        question: "8. What treatments can help improve the appearance of ageing skin?",
+        answer: "Depending on individual suitability, options may include advanced facials, radiofrequency, HIFU, RF Microneedling, skin resurfacing, and personalised skincare protocols. Arfah can assess your skin and discuss which options may be appropriate for your goals."
+      },
+      {
+        question: "9. Does Arfah provide treatments for skin hydration and dull-looking skin?",
+        answer: "Yes. Arfah provides facial and skincare treatments that may support hydration, skin smoothness, and a more refreshed appearance. HydraFacial and other personalised facial protocols may be considered depending on your skin condition."
+      },
+      {
+        question: "10. Does Arfah perform a skin analysis before treatment?",
+        answer: "A skin assessment is an important part of personalised aesthetic treatment planning. Arfah considers your skin concerns, current condition, previous treatments, and goals before recommending an appropriate skincare or aesthetic protocol."
+      },
+      {
+        question: "11. What is the best facial treatment for my skin?",
+        answer: "There is no single facial that is suitable for everyone. The appropriate treatment depends on factors such as your skin type, current concerns, sensitivity, previous treatments, and desired outcome. Arfah can assess your skin and discuss suitable options."
+      },
+      {
+        question: "12. Does Arfah provide personalised skincare treatment plans?",
+        answer: "Yes. Arfah provides personalised treatment planning based on individual skin concerns and aesthetic goals. The plan may include facial treatments, skincare guidance, or selected aesthetic procedures where appropriate."
+      },
+      {
+        question: "13. Where can I see Aesthetician Arfah Owais in Dubai?",
+        answer: "Arfah Owais sees patients at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, near Circle Mall. In-clinic appointments are available for patients seeking professional aesthetic skincare and facial treatments."
+      },
+      {
+        question: "14. What qualifications does Aesthetician Arfah Owais have?",
+        answer: "Arfah is a DHA Licensed Aesthetician and holds a CIBTAC-UK Diploma. She is also NCLC Certified and PMU Certified, with 8+ years of hands-on clinical experience in aesthetic skincare and facial therapy."
+      },
+      {
+        question: "15. What languages does Arfah Owais speak?",
+        answer: "Arfah speaks English and can communicate with patients in English during their aesthetic skincare consultation and treatment planning."
+      },
+      {
+        question: "16. How can I book an appointment with Aesthetician Arfah Owais?",
+        answer: "You can book an appointment with Arfah Owais at Vedara Care Polyclinic in JVC, Dubai, through the clinic’s appointment booking page or WhatsApp. When booking, you can mention the skin concern or treatment you would like to discuss."
+      },
+      {
+        question: "17. Is aesthetic treatment suitable for every skin type?",
+        answer: "Not every treatment is suitable for every person or skin type. Factors such as skin sensitivity, current skin condition, previous procedures, medications, and medical history can affect treatment suitability. A professional assessment should be completed before selected advanced treatments."
+      },
+      {
+        question: "18. Can I get skincare advice after my aesthetic treatment?",
+        answer: "Yes. Pre- and post-treatment skincare guidance forms part of Arfah’s approach to aesthetic care. Depending on the treatment performed, you may receive guidance on appropriate skincare and aftercare."
       }
     ]
   },

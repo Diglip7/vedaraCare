@@ -140,11 +140,9 @@ export default function JohannaBautistaPage() {
       { label: "Doctors & Team", href: "/doctors/" },
       { label: staff.name }
     ],
-    aboutLabel: "PROFILE SUMMARY",
     aboutH2: staff.profileSummaryHeading,
     about: staff.profileSummaryP1,
     aboutFooter: staff.profileUpdated,
-    summaryLabel: "PROFILE SUMMARY",
     summaryTitle: staff.profileSummaryHeading,
     summaryParagraph1: staff.profileSummaryP2,
     description: [],
