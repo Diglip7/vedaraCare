@@ -340,7 +340,7 @@ export const detoxLocation = {
   label: "VISIT OUR JVC CLINIC",
   title: "Walking distance from Circle Mall, Jumeirah Village Circle.",
   address: "Jumeirah Village Circle (JVC), Dubai, UAE",
-  phone: "+971 4 XXX XXXX",
+  phone: "+971 55 573 6312",
   hours: "MON-SUN - 9:00 AM - 10:00 PM",
   landmarks: [
     "Walking distance from Circle Mall",

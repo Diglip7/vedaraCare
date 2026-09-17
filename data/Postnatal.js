@@ -451,7 +451,7 @@ export const postnataljvcFaqs = {
     },
     {
       question: "How do I book postnatal care consultation?",
-      answer: "Three ways: WhatsApp +9714555736312 for fastest response including same-day availability; call +971 4 XXX XXXX 9AM-9PM seven days a week; book online. Ideally book during pregnancy (30+ weeks) for programme planning."
+      answer: "Three ways: WhatsApp +971 55 573 6312 for fastest response including same-day availability; call +971 55 573 6312 9AM-9PM seven days a week; book online. Ideally book during pregnancy (30+ weeks) for programme planning."
     }
 
   ],

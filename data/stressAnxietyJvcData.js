@@ -474,7 +474,7 @@ export const stressJvcFaqs = {
     },
     {
       question: "How do I book a stress management consultation?",
-      answer: "Three ways: WhatsApp us specifying stress management consultation ideally with Dr. Ansiya — fastest response; call +971 4 XXX XXXX 9AM–9PM seven days a week; book online. Please bring a description of your stress and anxiety concerns, current medications, previous approaches, insurance card if applicable, and any specific questions and goals."
+      answer: "Three ways: WhatsApp us specifying stress management consultation ideally with Dr. Ansiya — fastest response; call +971 55 573 6312 9AM–9PM seven days a week; book online. Please bring a description of your stress and anxiety concerns, current medications, previous approaches, insurance card if applicable, and any specific questions and goals."
     }
   ]
 };

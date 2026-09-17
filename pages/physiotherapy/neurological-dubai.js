@@ -46,7 +46,7 @@ const NeurologicalDubai = () => {
       "url": "https://vedaracare.ae/physiotherapy/neurological-dubai/",
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
       "description": "DHA-licensed neurological physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Specialised long-term care for stroke recovery, Parkinson's disease, multiple sclerosis, traumatic brain injury, spinal cord injury, motor neurone disease, and other neurological conditions. Home physiotherapy across Dubai. Neurologist-coordinated care.",
-      "telephone": "+971 4 XXX XXXX",
+      "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 25,000",
       "address": {
         "@type": "PostalAddress",
