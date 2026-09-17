@@ -14,23 +14,18 @@ const PostnatalJvcClinicLocation = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-start">
-          {/* Left: Image with Overlay */}
-          <div className="relative rounded-xl overflow-hidden aspect-[4/3] group shadow-sm">
-            <img
-              src="/images/vedara-care-jvc-clinic-dubai.jpg"
-              alt="Vedara Care Polyclinic JVC"
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/5" />
-
-            {/* Center floating card */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-8 py-6 rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] text-center w-[85%] max-w-[320px]">
-              <h3 className="font-serif text-[22px] text-[#1A1A1A] mb-2">Vedara Care Polyclinic</h3>
-              <p className="text-[14px] text-gray-600 mb-5">Jumeirah Village Circle, Dubai</p>
-              <a href="https://maps.app.goo.gl/y5jZ7" target="_blank" rel="noreferrer" className="text-[#C9A961] text-[13px] font-semibold tracking-wide flex items-center justify-center gap-2 hover:opacity-80 transition-opacity">
-                Open in Google Maps <span className="text-[16px] leading-none">→</span>
-              </a>
-            </div>
+          {/* Left: Map Embed */}
+          <div className="relative rounded-xl overflow-hidden aspect-[4/3] shadow-sm bg-[#E5E0D8]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Vedara Care Polyclinic JVC Location"
+            ></iframe>
           </div>
 
           {/* Right: Text Content */}
