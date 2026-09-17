@@ -109,7 +109,7 @@ const defaultLocation = {
   bgColor: "bg-white",
   label: "VISIT THE CLINIC",
   title: "Where they practice — Vedara Care JVC clinic.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeirah Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
@@ -292,7 +292,7 @@ const defaultFaqs = (name) => {
     label: "FREQUENTLY ASKED",
     sidebarLinks: [
       { text: "Browse our other doctors", href: "/doctors/" },
-      { text: "See the JVC clinic page", href: "/ayurveda-clinic-jvc/" }
+      // { text: "See the JVC clinic page", href: "/ayurveda-clinic-jvc/" }
     ],
     title: `What patients ask about consulting ${name}.`,
     description: "Short, honest answers. For a clinical recommendation specific to your situation, a proper consultation is the starting point. Cannot find what you are looking for? WhatsApp us — usually answered within 15 minutes.",
@@ -586,82 +586,55 @@ export default drAnusha;
 export const hafsinaKKTemplate = {
   name: 'Hafsina K K',
   firstName: 'Hafsina K K',
-  title: 'Bachelor of Physiotherapy — DHA Licensed Physiotherapist',
+  title: 'Bachelor of Physiotherapy · DHA-Licensed Physiotherapist · Hands-On, Evidence-Based Rehabilitation',
   image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
   alt: 'Hafsina K K, DHA Licensed Physiotherapist at Vedara Care Polyclinic, JVC Dubai',
-  heroBadge: 'DHA LICENSED PHYSIOTHERAPIST — VEDARA CARE, JVC',
-  heroStats: 'DHA Licensed • 7+ Years of Clinical Experience',
-  subtitle: 'Orthopedic, Neurological & Women\'s Health Rehabilitation',
+  heroBadge: "DHA LICENSED PHYSIOTHERAPIST · ORTHOPEDIC, NEUROLOGICAL & WOMEN'S HEALTH REHABILITATION · JUMEIRAH VILLAGE CIRCLE",
+  heroStats: 'DHA Licensed Physiotherapist—7+ Years of Clinical Experience',
+  subtitle: 'Bachelor of Physiotherapy · DHA-Licensed Physiotherapist · Hands-On, Evidence-Based Rehabilitation',
   ratingText: '',
-  primaryCtaText: 'Book an Appointment',
-  secondaryCtaText: 'Chat on WhatsApp',
+  primaryCtaText: 'Book an Appointment with Hafsina K K',
   primaryCtaHref: '/book',
-  secondaryCtaHref: 'https://wa.me/971555736312?text=' + encodeURIComponent("Hi, I'd like to book a physiotherapy consultation with Hafsina K K at Vedara Care JVC."),
-  bio: "Hafsina K K is a DHA licensed Physiotherapist with over 7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE. She combines hands-on manual therapy with structured, evidence-based rehabilitation programmes, helping patients recover function, manage pain, and return to the activities that matter to them.",
-  trustSignals: [
-    "DHA Licensed Physiotherapist — 7+ Years of Clinical Experience",
-    "Fluent in English, Malayalam & Hindi",
-    "Certified in Dry Needling, Biomechanical Cupping & IASTM",
-    "Antenatal/Postnatal Fitness Certified & AHA BLS Certified"
-  ],
-  floatingCardTitle: "DHA LICENSED PHYSIOTHERAPIST",
-  floatingCardSubtitle: "In-clinic appointments at Vedara Care Polyclinic JVC, Dubai. Near Circle Mall. JVC / Marina / Downtown / Business Bay / Al Barsha / Dubai Hills.",
-  pageTitle: 'Bachelor of Physiotherapy — DHA Licensed Physiotherapist',
-  // aboutH2: 'PROFILE SUMMARY',
-  aboutLabel: "PROFILE SUMMARY",
+  secondaryCtaText: 'Chat on WhatsApp',
+  secondaryCtaHref: 'https://wa.me/971555736312',
+  bio: "Hafsina's consultations begin with genuine listening — understanding the patient's condition, symptoms, medical background, physical limitations, and specific rehabilitation goals. Patient-centred rehabilitation built around real recovery targets, not a fixed protocol.",
+  pageTitle: 'Physiotherapist at our JVC clinic, Dubai.',
+  aboutLabel: "THE QUICK ANSWER",
+  aboutH2: 'About Hafsina K K, in one paragraph.',
+  about: "Hafsina K K is a DHA licensed Physiotherapist at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. She holds a Bachelor of Physiotherapy and brings more than 7 years of clinical experience across orthopedic, neurological, sports injury, and women's health rehabilitation, gained across India and the UAE. Her 7 documented areas of clinical focus include orthopedic rehabilitation; neurological rehabilitation; sports injury rehabilitation; women's health and antenatal/postnatal fitness; dry needling; biomechanical cupping; and instrument-assisted soft tissue mobilization (IASTM). She is certified in Antenatal & Postnatal Fitness and holds AHA Basic Life Support (BLS) certification, alongside her specialised manual therapy certifications. Fluent in English, Malayalam, and Hindi. Patients travel to see her from JVC, JVT, Al Barsha, Sports City, Dubai Hills, Marina, Downtown, Business Bay, Palm Jumeirah, Mirdif, and across Dubai, drawn by her hands-on assessment style and structured, goal-oriented rehabilitation plans.",
   summaryTitle: "Hands-on rehabilitation, built on a strong clinical foundation.",
-  summaryParagraph1: "Hafsina K K is a Physiotherapist at <a href=\"/\">Vedara Care</a> in Jumeirah Village Circle, Dubai, bringing more than seven years of experience treating orthopedic, neurological, sports-related, and women's health conditions across India and the UAE. She takes a thorough, hands-on approach to assessment, identifying the root cause of pain or dysfunction rather than treating symptoms in isolation.",
-  summaryParagraph2: "Her toolkit spans manual therapy techniques and specialised modalities, including dry needling, biomechanical cupping, and instrument-assisted soft tissue mobilization (IASTM), allowing her to tailor treatment to each patient's specific condition, activity level, and recovery goals.",
-  // summaryParagraph3: "Profile last updated August 2026",
-  aboutFooter: "DHA Licensed Physiotherapist · 7+ Years of Clinical Experience · In-clinic at JVC",
-  approach: [
-    { title: 'Understanding the patient before treatment', description: "The consultation begins with understanding the patient's condition, symptoms, medical background, and specific rehabilitation goals." },
-    { title: 'Medical assessment and appropriate patient selection', description: "Not every technique is appropriate for every patient. Clinical assessment guides the selection of physiotherapy approaches and modalities." },
-    { title: 'Individualised rehabilitation planning', description: "Rehabilitation plans are developed around the patient's condition, activity level, and recovery goals — not a standardised template." },
-    { title: 'Evidence-informed physiotherapy techniques', description: "Applying evidence-informed techniques including manual therapy, dry needling, cupping, and IASTM where clinically appropriate." },
-    { title: 'Functional recovery and mobility', description: "Focused on measurable functional improvement — mobility, strength, and a return to the activities that matter to the patient." },
-    { title: 'Safety-focused treatment decisions', description: "Patient safety is prioritised throughout treatment planning, technique selection, and progression decisions." },
-    { title: 'Realistic expectations and informed treatment choices', description: "Patients are supported to understand what rehabilitation can deliver, including realistic timelines and expectations." },
-    { title: 'Ongoing professional education', description: "Continuing professional development across Hafsina's rehabilitation focus areas and certified techniques." }
+  summaryParagraph1: "Hafsina K K is a Physiotherapist at Vedara Care in Jumeirah Village Circle, Dubai, bringing more than seven years of experience treating orthopedic, neurological, sports-related, and women's health conditions across India and the UAE. Her practice at our JVC clinic serves patients from across Dubai seeking structured, hands-on physiotherapy care rather than generic exercise sheets.",
+  quote: "The consultation begins with understanding the patient's condition, symptoms, medical background, and specific rehabilitation goals.",
+  aboutFooter: "DHA Licensed Physiotherapist at Vedara Care Polyclinic, JVC Dubai",
+  description: [
+    { title: 'Listening first — understanding the whole patient', description: "The consultation begins with understanding the patient's condition, symptoms, medical background, physical limitations, previous treatment history, and specific rehabilitation goals. This foundational understanding shapes the assessment and every stage of the plan that follows — recovery looks different for a post-surgical patient, an athlete, and a new mother, and Hafsina's intake reflects that." },
+    { title: 'Thorough, hands-on assessment', description: "Hafsina takes a thorough, hands-on approach to assessment, working to identify the root cause of pain or dysfunction rather than treating symptoms in isolation. Movement patterns, posture, joint mobility, and muscular imbalances are assessed together, so that the treatment plan addresses the underlying contributor to the problem, not just the area where pain is felt." },
+    { title: 'A toolkit built for individual cases', description: "Her toolkit spans manual therapy techniques and specialised modalities, including dry needling, biomechanical cupping, and instrument-assisted soft tissue mobilization (IASTM), allowing her to tailor treatment to each patient's specific condition, activity level, and recovery goals. Not every technique is appropriate for every patient — selection is guided by clinical assessment, patient comfort, and the stage of recovery." },
+    { title: 'Structured, evidence-based rehabilitation', description: "Alongside manual therapy, Hafsina builds structured, evidence-based rehabilitation programmes designed to help patients recover function, manage pain, and return to the activities — work, sport, family life — that matter to them. Exercise progressions are staged deliberately, so patients are neither pushed too fast nor held back once they are ready to progress." },
+    { title: 'A practice shaped by breadth of experience', description: "Her clinical background across both India and the UAE spans orthopedic, neurological, sports, and women's health rehabilitation, giving her a broad frame of reference when assessing and planning care for patients with varied conditions, ages, and recovery goals. This cross-setting experience is reflected in how comprehensively she reviews a new patient's history before recommending a treatment direction." },
+    { title: 'Sustained, responsive care', description: "Rehabilitation is rarely a single session — progress is monitored across the treatment period, with the plan adjusted as the patient's function, pain levels, and goals evolve, rather than following a fixed template from start to finish." }
   ],
+  specialtiesLabel: 'AREAS OF EXPERTISE',
+  specialtiesTitle: "Hafsina K K's documented areas of clinical expertise at our JVC clinic.",
+  specialtiesSubtitle: "Every experienced physiotherapist has areas where their patients notice a genuine difference. At Vedara Care, Hafsina is known for thorough assessment, hands-on technique, and rehabilitation plans that are built around real recovery goals rather than a one-size-fits-all programme.",
+  specialtiesFooter: "Comprehensive consultation with Hafsina K K identifies which rehabilitation approach — or combination of approaches — is appropriate for your condition →",
   specialtiesList: [
-    { number: '01', title: 'Orthopedic Rehabilitation', description: 'Assessment and rehabilitation for joint, muscle, and post-surgical orthopedic conditions, focused on restoring strength, mobility, and function.', related: 'CORE STRENGTH: Orthopedic rehab & recovery' },
-    { number: '02', title: 'Neurological Rehabilitation', description: 'Supporting patients recovering from neurological conditions with structured rehabilitation aimed at improving movement, coordination, and independence.', related: 'CORE STRENGTH: Neurological rehabilitation' },
-    { number: '03', title: 'Sports Injury Rehabilitation', description: 'Treating sports-related injuries and guiding athletes and active individuals through safe, staged return-to-activity programmes.', related: 'CORE STRENGTH: Sports injury recovery' },
-    { number: '04', title: 'Women\'s Health & Antenatal/Postnatal Fitness', description: 'Certified in antenatal and postnatal fitness, supporting women through pregnancy-related musculoskeletal changes and safe post-delivery recovery.', related: 'CORE STRENGTH: Women\'s health & pre/postnatal rehab' },
-    { number: '05', title: 'Dry Needling', description: 'Using dry needling to target trigger points, release muscular tension, and support pain relief as part of a broader treatment plan.', related: 'CORE STRENGTH: Dry needling therapy' },
-    { number: '06', title: 'Biomechanical Cupping', description: 'Applying biomechanical cupping techniques to improve tissue mobility, circulation, and recovery alongside manual therapy.', related: 'CORE STRENGTH: Biomechanical cupping therapy' },
-    { number: '07', title: 'IASTM (Instrument-Assisted Soft Tissue Mobilization)', description: 'Using IASTM to address soft tissue restrictions, scar tissue, and chronic tightness that can limit movement and prolong recovery.', related: 'CORE STRENGTH: Instrument-assisted soft tissue mobilization' }
+    { number: '01', title: 'Orthopedic Rehabilitation', description: 'Assessment and rehabilitation for joint, muscle, and post-surgical orthopedic conditions, focused on restoring strength, mobility, and function. Treatment plans are adapted to the stage of recovery, from early post-operative protection and pain management through to progressive strength work and return-to-function training, drawing on more than seven years of orthopedic caseload experience.', related: 'CORE STRENGTH: Orthopedic rehab & recovery' },
+    { number: '02', title: 'Neurological Rehabilitation', description: 'Supporting patients recovering from neurological conditions with structured rehabilitation aimed at improving movement, coordination, and independence. Programmes are built around each patient\'s functional goals — whether that is walking more confidently, regaining fine motor control, or reducing dependence on assistance — and are paced according to clinical progress rather than a fixed timeline.', related: 'CORE STRENGTH: Neurological rehabilitation' },
+    { number: '03', title: 'Sports Injury Rehabilitation', description: 'Treating sports-related injuries and guiding athletes and active individuals through safe, staged return-to-activity programmes. The focus is on restoring strength, range of motion, and confidence in the injured area before a full return to sport or training, reducing the risk of re-injury from returning too early.', related: 'CORE STRENGTH: Sports injury recovery' },
+    { number: '04', title: "Women's Health & Antenatal/Postnatal Fitness", description: 'Certified in antenatal and postnatal fitness, Hafsina supports women through pregnancy-related musculoskeletal changes and safe post-delivery recovery. Care is adapted to each stage of pregnancy or postnatal recovery and the individual\'s physical readiness, with attention to core and pelvic floor considerations relevant to this stage of life.', related: "CORE STRENGTH: Women's health & pre/postnatal rehab" },
+    { number: '05', title: 'Dry Needling', description: 'Using dry needling to target trigger points, release muscular tension, and support pain relief as part of a broader treatment plan. It is typically combined with manual therapy and exercise rather than used as a standalone treatment, and is selected where clinical assessment indicates it is likely to help.', related: 'CORE STRENGTH: Dry Needling therapy' },
+    { number: '06', title: 'Biomechanical Cupping', description: 'Applying biomechanical cupping techniques to improve tissue mobility, circulation, and recovery alongside manual therapy. This can support patients dealing with tightness, restricted movement, or slow-healing soft tissue, and is often used in combination with other modalities within the same session.', related: 'CORE STRENGTH: Biomechanical cupping therapy' },
+    { number: '07', title: 'IASTM (Instrument-Assisted Soft Tissue Mobilization)', description: 'Using IASTM to address soft tissue restrictions, scar tissue, and chronic tightness that can limit movement and prolong recovery. Often used alongside dry needling and manual therapy within the same rehabilitation plan, particularly for patients dealing with longstanding stiffness or post-surgical scar tissue.', related: 'CORE STRENGTH: Instrument-assisted soft tissue mobilization' }
   ],
-  specialtiesLabel: 'CLINICAL & REHABILITATION FOCUS',
-  specialtiesTitle: "What Hafsina is known for.",
-  specialtiesSubtitle: "Every experienced physiotherapist has areas where their patients notice a genuine difference. At Vedara Care, Hafsina is known for thorough assessment, hands-on technique, and rehabilitation plans that are built around real recovery goals.",
-  specialtiesFooter: "Comprehensive consultation with Hafsina K K identifies which rehabilitation approach is appropriate for your condition →",
-  credentialsTitle: "The training behind every rehab plan.",
-  credentialsSubtitle: "We believe patients deserve to know the qualifications and training behind the person treating them — not just the techniques on offer, but the therapist performing them.",
+  credentialsTitle: "Hafsina K K's qualifications, certifications, and professional background.",
   education: [
-    'Education',
     'Bachelor of Physiotherapy (2010–2015)',
-    '',
-    'Licenses',
-    'Dubai Health Authority (DHA) — Licensed Physiotherapist',
-    '',
-    'Certifications',
-    'Dry Needling',
-    'Biomechanical Cupping',
-    'IASTM (Instrument-Assisted Soft Tissue Mobilization)',
-    'Antenatal & Postnatal Fitness',
-    'AHA BLS (Basic Life Support)',
-    '',
-    'Languages',
-    'English (Fluent)',
-    'Malayalam (Fluent)',
-    'Hindi (Fluent)'
+    'DHA-Licensed to practice Physiotherapy in Dubai',
+    '7+ years of clinical experience across India and the UAE',
+    'Physiotherapist, Vedara Care Polyclinic, JVC Dubai'
   ],
-  languagesSpoken: ['English (Fluent)', 'Malayalam (Fluent)', 'Hindi (Fluent)'],
-  professionalMemberships: [
-    'Dubai Health Authority (DHA) — Licensed Physiotherapist'
-  ],
+  languagesSpoken: ['English', 'Malayalam', 'Hindi'],
   certifications: [
     'Dry Needling',
     'Biomechanical Cupping',
@@ -669,114 +642,107 @@ export const hafsinaKKTemplate = {
     'Antenatal & Postnatal Fitness',
     'AHA BLS (Basic Life Support)'
   ],
-  continuingEducation: "Active continuing professional development in physiotherapy. Specific certifications include Dry Needling, Biomechanical Cupping, IASTM, Antenatal/Postnatal Fitness, and AHA BLS. Full CPD log available on request.",
-  credentialsFooter: "All physiotherapy qualifications and DHA license verified. DHA public record via Sheryan directory. DHA facility license HC3284 Vedara Care Polyclinic.",
-  conditionsTitle: "Conditions and rehabilitation needs Hafsina K K works with.",
+  professionalMemberships: [
+    'Dubai Health Authority (DHA) — Licensed Physiotherapist'
+  ],
+  continuingEducation: "Active continuing professional development in physiotherapy, with certifications spanning Dry Needling, Biomechanical Cupping, IASTM, Antenatal/Postnatal Fitness, and AHA BLS — a combination that supports both manual, hands-on treatment and safe emergency response within the clinic. Full CPD log available on request. All qualifications verified and DHA-licensed to practice Physiotherapy in Dubai. DHA license verification is public record via the Dubai Health Authority Sheryan directory. Vedara Care Polyclinic holds a valid DHA facility license.",
+  conditionsTitle: "Conditions and rehabilitation needs Hafsina K K works with at our JVC clinic.",
   conditionsTreated: {
-    subtitle: "The following categories are supported by the supplied professional profile. Specific clinical scope confirmed during consultation.",
+    subtitle: "The categories below reflect Hafsina's documented clinical experience across orthopedic, neurological, sports, and women's health rehabilitation. Specific clinical scope for your case, and which techniques are appropriate, are confirmed during consultation rather than assumed in advance.",
     categories: [
       {
         category: "Orthopedic Rehabilitation",
         conditions: [
-          { title: "Musculoskeletal rehabilitation", description: "Rehabilitation support for musculoskeletal conditions affecting movement and function." },
-          { title: "Orthopedic rehabilitation needs", description: "Orthopedic-focused physiotherapy for joint, muscle, and post-surgical recovery." },
-          { title: "Movement and functional rehabilitation", description: "Supporting restoration of movement, strength, and functional independence." },
-          { title: "General orthopedic physiotherapy", description: "Broad orthopedic physiotherapy scope as part of documented clinical experience." }
+          { title: "Musculoskeletal Rehabilitation", description: "Rehabilitation support for musculoskeletal conditions affecting movement and function, including joint stiffness, muscular strain, and restricted range of motion." },
+          { title: "Orthopedic Rehabilitation Needs", description: "Orthopedic-focused physiotherapy for joint, muscle, and post-surgical recovery, including graduated strengthening as healing progresses." },
+          { title: "Movement & Functional Rehabilitation", description: "Supporting restoration of movement, strength, and functional independence for daily activities and work demands." },
+          { title: "General Orthopedic Physiotherapy", description: "Broad orthopedic physiotherapy scope as part of documented clinical experience, covering a range of joint and soft-tissue presentations." }
         ]
       },
       {
         category: "Neurological Rehabilitation",
         conditions: [
-          { title: "Neurological rehabilitation", description: "Physiotherapy support for neurological rehabilitation needs." },
-          { title: "Functional mobility rehabilitation", description: "Focus on mobility, coordination, and functional movement recovery." },
-          { title: "Movement-related rehabilitation needs", description: "Supporting patients with movement limitations linked to neurological conditions." },
-          { title: "Neuro-rehabilitation physiotherapy", description: "Part of Hafsina's documented professional rehabilitation experience." }
+          { title: "Neurological Rehabilitation", description: "Physiotherapy support for neurological rehabilitation needs, working on movement quality and safety." },
+          { title: "Functional Mobility Rehabilitation", description: "Focus on mobility, coordination, and functional movement recovery relevant to everyday tasks." },
+          { title: "Movement-Related Rehabilitation Needs", description: "Supporting patients with movement limitations linked to neurological conditions, at a pace matched to clinical progress." },
+          { title: "Neuro-Rehabilitation Physiotherapy", description: "Part of Hafsina's documented professional rehabilitation experience, drawing on structured neurological rehabilitation approaches." }
         ]
       },
       {
         category: "Sports Rehabilitation",
         conditions: [
-          { title: "Sports injury rehabilitation", description: "Rehabilitation following sports-related injuries." },
-          { title: "Functional rehabilitation following sports injuries", description: "Functional and performance-focused rehabilitation after sports injuries." },
-          { title: "Return-to-activity rehabilitation", description: "Staged progression toward safe return to sport and physical activity." },
-          { title: "Sports-focused physiotherapy", description: "Included within Hafsina's documented areas of professional experience." }
+          { title: "Sports Injury Rehabilitation", description: "Rehabilitation following sports-related injuries, from acute injury management through to full functional recovery." },
+          { title: "Functional Rehabilitation Following Sports Injuries", description: "Functional and performance-focused rehabilitation after sports injuries, addressing strength, balance, and movement control." },
+          { title: "Return-to-Activity Rehabilitation", description: "Staged progression toward safe return to sport and physical activity, reducing the risk of re-injury." },
+          { title: "Sports-Focused Physiotherapy", description: "Included within Hafsina's documented areas of professional experience, supporting both competitive and recreational athletes." }
         ]
       },
       {
         category: "Women's Health Rehabilitation",
         conditions: [
-          { title: "Women's health physiotherapy", description: "Physiotherapy support for women's health musculoskeletal needs." },
-          { title: "Antenatal fitness", description: "Antenatal fitness support as part of professional certification scope." },
-          { title: "Postnatal fitness", description: "Certified in postnatal fitness, supporting safe post-delivery recovery." },
-          { title: "Postnatal rehabilitation", description: "Women's health physiotherapy for postnatal musculoskeletal recovery." }
+          { title: "Women's Health Physiotherapy", description: "Physiotherapy support for women's health musculoskeletal needs, addressing changes across different life stages." },
+          { title: "Antenatal Fitness", description: "Antenatal fitness support as part of professional certification scope, adapted to each stage of pregnancy." },
+          { title: "Postnatal Fitness", description: "Certified in postnatal fitness, supporting safe post-delivery recovery and gradual return to activity." },
+          { title: "Postnatal Rehabilitation", description: "Women's health physiotherapy for postnatal musculoskeletal recovery, including core and general strength rebuilding." }
         ]
       }
     ],
-    footer: "Specific conditions within each category are confirmed during clinical assessment →"
+    footer: "Specific conditions within each category, and the right combination of techniques for your case, are confirmed during clinical assessment →"
   },
   reviews: {
     bgColor: "bg-[#FAF6EF]",
     cardBgColor: "white",
     isDarkText: true,
     useKneeStyle: true,
-    label: "PATIENT EXPERIENCE",
-    title: "A rehabilitation plan built around you.",
-    description: "What to expect when you call, WhatsApp, or visit Hafsina at Vedara Care Polyclinic.",
-    items: [],
-    steps: [
+    label: "PATIENT VOICES",
+    title: "Real patient experiences with Hafsina K K at our JVC clinic.",
+    description: "",
+    items: [
       {
-        number: '01',
-        title: 'A Thorough Physical Assessment',
-        description: 'Hafsina begins with a detailed assessment of your pain, movement, and medical history to understand the root cause of your condition, not just the symptoms.'
+        quote: "I visited Hafsina for ongoing back pain that was affecting my daily routine. She took time to understand when the pain started, my work habits, movement limitations, and what activities I wanted to get back to. The exercises were explained clearly, and each session felt structured around my progress rather than following the same routine every time.",
+        author: "Male patient",
+        details: "Back Pain Physiotherapy · JVC Dubai"
       },
       {
-        number: '02',
-        title: 'A Personalized Rehabilitation Plan',
-        description: 'Based on your condition, activity level, and recovery goals, she builds a treatment plan combining manual therapy, targeted exercises, and specialised techniques where appropriate.'
+        quote: "Hafsina was very thorough during my physiotherapy assessment. She explained what she was checking and discussed the rehabilitation plan before starting treatment. I appreciated her hands-on approach and the way she explained the exercises so I could continue them correctly between sessions.",
+        author: "Female patient",
+        details: "Orthopedic Physiotherapy · Dubai"
       },
       {
-        number: '03',
-        title: 'Hands-On Treatment',
-        description: 'Sessions may include manual therapy, dry needling, biomechanical cupping, or IASTM, chosen specifically for your condition and how your body responds.'
+        quote: "I consulted Hafsina for rehabilitation after an injury and found her approach professional and reassuring. She listened carefully to my concerns, explained each stage of the rehabilitation process, and gradually progressed the exercises according to my ability. The communication throughout the sessions made the treatment experience comfortable and easy to follow.",
+        author: "Male patient",
+        details: "Sports Injury Rehabilitation · JVC Dubai"
       },
-      {
-        number: '04',
-        title: 'Progress Tracking & Follow-Up',
-        description: 'Your plan is adjusted as you progress, with clear guidance on home exercises and milestones so you know exactly what recovery looks like.'
-      }
+
     ],
     stats: [],
     buttonText: '',
     buttonHref: ''
   },
-  philosophy: {
-    title: "Hands-on, evidence-based, and recovery-focused.",
-    content: "Hafsina's approach combines hands-on manual therapy with structured, evidence-based rehabilitation. Rather than treating pain in isolation, she assesses movement patterns and underlying causes to build a plan that addresses the source of the problem, not just where it hurts. Her broad experience across orthopedic, neurological, sports, and women's health rehabilitation means she adapts her approach to each patient's stage of life, activity level, and specific condition — with safety and steady, sustainable progress as the priority throughout."
-  },
   consultation: {
-    label: "WHAT TO EXPECT",
+    label: "YOUR CONSULTATION",
     title: "What to expect during a physiotherapy consultation with Hafsina K K.",
-    description: "Physiotherapy consultation and rehabilitation structured around the patient's individual needs and clinical assessment.",
+    description: "Physiotherapy consultation and rehabilitation is structured around the patient's individual needs and clinical assessment. Understanding this process in advance helps patients prepare and set appropriate expectations for their recovery timeline.",
     phases: [
       {
         phase: 'Phase 1', time: '', title: 'Initial Assessment',
-        description: "The initial appointment should begin with understanding the patient's symptoms, physical limitations, rehabilitation needs and treatment goals. The exact assessment process and consultation duration should be confirmed by the clinic."
+        description: "The initial appointment at our JVC clinic begins with understanding the patient's symptoms, physical limitations, rehabilitation needs, and treatment goals. Relevant medical history, prior surgeries, and diagnostic reports are reviewed where available, alongside a hands-on physical assessment of movement, posture, and affected areas to identify the underlying cause of the problem."
       },
       {
         phase: 'Phase 2', time: '', title: 'Rehabilitation Planning',
-        description: 'Based on the clinical assessment, an individualized physiotherapy plan can be developed around the patient\'s rehabilitation needs and functional goals.'
+        description: "Based on the clinical assessment, an individualized physiotherapy plan is developed around the patient's rehabilitation needs and functional goals. This may include a combination of manual therapy, specific modalities such as dry needling or IASTM, and a structured exercise programme, with an honest discussion of expected timeline where possible."
       },
       {
         phase: 'Phase 3', time: '', title: 'Physiotherapy Treatment',
-        description: "Treatment may incorporate appropriate physiotherapy techniques and modalities based on the patient's condition and clinical assessment. Her documented certifications include: Dry Needling, Biomechanical Cupping, IASTM, Antenatal/Postnatal Fitness. Not every technique is appropriate for every patient."
+        description: "Treatment may incorporate appropriate physiotherapy techniques and modalities based on the patient's condition and clinical assessment, drawing on Hafsina's certifications in Dry Needling, Biomechanical Cupping, IASTM, and Antenatal/Postnatal Fitness. Not every technique is appropriate for every patient — selection is guided by the individual case, response to earlier sessions, and stage of recovery."
       },
       {
         phase: 'Phase 4', time: '', title: 'Rehabilitation Progression',
-        description: "The rehabilitation plan can be adjusted according to the patient's response, functional progress and ongoing clinical needs."
+        description: "The rehabilitation plan is adjusted according to the patient's response, functional progress, and ongoing clinical needs, with follow-up sessions scheduled as appropriate to the condition. For patients returning to sport or physical work, this phase typically includes a staged progression back to full activity."
       }
     ],
     bringBox: {
-      label: "PLEASE BRING / NOTE",
+      label: "PLEASE BRING TO YOUR FIRST CONSULTATION",
       items: [
         "List of symptoms and when they began",
         "Any surgical notes, discharge letters, or surgeon reports",
@@ -789,92 +755,112 @@ export const hafsinaKKTemplate = {
   },
   pricing: {
     label: "PRICING & INSURANCE",
-    title: "Physiotherapy consultation with Hafsina K K — Pricing and Insurance.",
+    title: "Physiotherapy consultation with Hafsina K K — pricing and insurance.",
     consultationRows: [
-      { type: "Physiotherapy consultation", duration: "[To be confirmed]", price: "[To be confirmed]" },
-      { type: "Follow-up consultation", duration: "[To be confirmed]", price: "[To be confirmed]" },
-      { type: "Dry Needling treatment", duration: "[To be confirmed]", price: "[To be confirmed]" },
-      { type: "Cupping treatment", duration: "[To be confirmed]", price: "[To be confirmed]" },
-      { type: "Insurance accepted", duration: "[To be confirmed]", price: "[To be confirmed]" },
-      { type: "Direct billing", duration: "[To be confirmed]", price: "[To be confirmed]" }
+      { type: "Physiotherapy consultation", duration: "[VERIFY]", price: "[VERIFY]" },
+      { type: "Follow-up consultation", duration: "[VERIFY]", price: "[VERIFY]" },
+      { type: "Dry Needling treatment", duration: "[VERIFY]", price: "[VERIFY]" },
+      { type: "Biomechanical Cupping treatment", duration: "[VERIFY]", price: "[VERIFY]" },
+      { type: "IASTM treatment", duration: "[VERIFY]", price: "[VERIFY]" }
     ],
     insurance: {
       title: "Insurance Information",
-      paragraph1: "Current consultation pricing and insurance information should be confirmed by the clinic. Do not publish unconfirmed prices in visible content or structured data.",
-      paragraph2: "For current pricing and insurance eligibility, please contact the clinic directly at +971 55 573 6312 or email booking@vedaracare.ae."
+      paragraph1: "Physiotherapy consultations for medically indicated conditions may be covered by some Dubai insurance policies with appropriate justification, subject to the patient's individual policy terms.",
+      paragraph2: "Current consultation pricing and insurance eligibility should be confirmed directly with the clinic before booking. Do not publish unconfirmed prices in visible content or structured data. For current pricing and insurance eligibility, contact Vedara Care directly at +971\u00A055\u00A0573\u00A06312 or WhatsApp the clinic before booking."
     },
     treatmentCosts: {
-      title: "Important Note",
-      description: "All pricing information displayed above is pending clinic confirmation. Contact Vedara Care for current consultation pricing, treatment pricing, and insurance eligibility before booking."
+      title: "Treatment Costs",
+      description: "Treatment costs are separate from consultation pricing. Dry Needling, Biomechanical Cupping, and IASTM sessions are priced per treatment or programme."
     }
   },
   faqs: {
-    label: "QUESTIONS, ANSWERED",
+    label: "COMMON QUESTIONS",
     sidebarLinks: [
       { text: "Browse our other doctors", href: "/doctors/" },
-      { text: "Contact the front desk", href: "https://wa.me/971555736312" }
+      // { text: "See the JVC clinic page", href: "/physiotherapy-jvc/" }
     ],
-    title: "What patients ask before their visit.",
-    description: "Honest answers to the most common questions about physiotherapy sessions with Hafsina. Not here? WhatsApp us — typically replied to in under 15 minutes.",
+    title: "What patients ask about consulting Hafsina K K.",
+    description: "For related topics, explore:",
     buttonText: "Ask the Team",
     buttonHref: "https://wa.me/971555736312",
     faqs: [
-      { question: "Is Hafsina a licensed physiotherapist in Dubai?", answer: "Yes. Hafsina is a DHA licensed Physiotherapist with a Bachelor of Physiotherapy and over 7 years of clinical experience in India and the UAE." },
-      { question: "What conditions does she treat?", answer: "She treats orthopedic, neurological, sports-related, and women's health conditions, including post-surgical rehab, joint and muscle injuries, and pregnancy-related musculoskeletal concerns." },
-      { question: "What is dry needling, and is it painful?", answer: "Dry needling targets trigger points in muscle tissue to release tension and reduce pain. Most patients feel a brief sensation at the point of insertion, followed by relief as the muscle releases." },
-      { question: "Can she help during or after pregnancy?", answer: "Yes. Hafsina is certified in antenatal and postnatal fitness and can support you through pregnancy-related changes and safe post-delivery recovery." },
-      { question: "What languages does Hafsina speak?", answer: "English, Malayalam, and Hindi." },
-      { question: "How do I book a session?", answer: "Call, WhatsApp, or email using our contact details (+971 55 573 6312 / booking@vedaracare.ae), or book directly through the Vedara Care website." }
+      { question: "Who is Hafsina K K?", answer: "Hafsina K K is a DHA licensed Physiotherapist at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. She provides hands-on physiotherapy care with 7 documented areas of clinical focus, including orthopedic rehabilitation, neurological rehabilitation, sports injury rehabilitation, and women's health with antenatal/postnatal fitness." },
+      { question: "Is Hafsina a licensed physiotherapist in Dubai?", answer: "Yes. Hafsina holds a valid DHA (Dubai Health Authority) license to practise physiotherapy in Dubai. This can be independently verified through the DHA Sheryan directory." },
+      { question: "What are Hafsina's qualifications?", answer: "Bachelor of Physiotherapy (2010–2015). DHA-licensed to practice physiotherapy in Dubai. Over 7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE. Full qualifications listed in the Background & Education section above." },
+      { question: "Where does Hafsina practice?", answer: "Hafsina practices at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai—walking distance from Circle Mall. Central Dubai location accessible from Marina, Downtown, Business Bay, Al Barsha, Dubai Hills, JLT, and Mirdif." },
+      { question: "What conditions does Hafsina treat?", answer: "Her documented clinical experience spans orthopedic rehabilitation, neurological rehabilitation, sports injury rehabilitation, and women's health, including antenatal and postnatal fitness. Specific suitability for your condition is confirmed during a hands-on consultation." },
+      { question: "What is dry needling, and is it painful?", answer: "Dry needling is a technique using fine needles to target trigger points and release muscular tension, typically used alongside manual therapy and exercise rather than as a standalone treatment. Sensations vary by individual and by the area treated, and this is discussed with you before the technique is used." },
+      { question: "What is biomechanical cupping used for?", answer: "Biomechanical cupping is used to improve tissue mobility, circulation, and recovery, often alongside manual therapy for patients with tightness, restricted movement, or slow-healing soft tissue." },
+      { question: "What is IASTM?", answer: "IASTM (Instrument-Assisted Soft Tissue Mobilization) uses handheld instruments to address soft tissue restrictions, scar tissue, and chronic tightness that can limit movement and prolong recovery. It is often combined with dry needling and manual therapy within the same plan." },
+      { question: "Can she help during or after pregnancy?", answer: "Yes. Hafsina is certified in Antenatal & Postnatal Fitness and supports women through pregnancy-related musculoskeletal changes and safe post-delivery recovery, with care adapted to each stage of pregnancy or postpartum recovery." },
+      { question: "Does she treat sports injuries?", answer: "Yes. Sports injury rehabilitation is one of her documented areas of clinical focus, including staged return-to-activity programmes for athletes and active individuals returning from injury." },
+      { question: "Does she treat neurological conditions?", answer: "Neurological rehabilitation is one of her documented clinical areas, with structured rehabilitation aimed at improving movement, coordination, and independence at a pace matched to clinical progress." },
+      { question: "Does she treat post-surgical patients?", answer: "Orthopedic rehabilitation, including post-surgical recovery, is one of Hafsina's documented areas of clinical focus. Programmes are adapted to the stage of healing and the surgeon's protocol where one has been provided." },
+      { question: "How does Hafsina decide which technique to use?", answer: "Technique selection — whether manual therapy, dry needling, biomechanical cupping, or IASTM — is based on the clinical assessment findings, the patient's condition, and their comfort with the approach. Not every technique is appropriate for every patient." },
+      { question: "What languages does Hafsina speak?", answer: "She is fluent in English, Malayalam, and Hindi, supporting clear communication with patients from Dubai's diverse community." },
+      { question: "How long is the initial consultation?", answer: "[VERIFY — exact consultation duration was not confirmed in the supplied content.]" },
+      { question: "How much does a physiotherapy consultation cost?", answer: "[VERIFY — pricing was not confirmed in the supplied content; contact the clinic directly.]" },
+      { question: "Does Vedara Care accept insurance for physiotherapy?", answer: "[VERIFY — insurance and direct billing details for physiotherapy were not confirmed in the supplied content.]" },
+      { question: "What should I bring to my first session?", answer: "A list of your symptoms and when they began, any surgical notes or surgeon reports, relevant radiology or MRI/X-ray reports, your current medications, comfortable exercise clothing, and any specific questions about your rehabilitation." },
+      { question: "How do I book a session with Hafsina?", answer: "You can book an appointment online, call the clinic at +971 55 573 6312, or message the team on WhatsApp specifying that you would like to see Hafsina." }
     ]
   },
   location: {
-    ...defaultLocation,
     bgColor: "bg-white",
-    label: "REACH HAFSINA",
-    title: "Get in touch with her team.",
-    description: "Have questions about physiotherapy treatments, rehabilitation programmes, or appointment availability? Hafsina and the front desk team are here to help.",
-    address: "Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, Shop-4, JVC, Dubai, UAE",
+    label: "VISIT US",
+    title: "Where Hafsina K K practises — Vedara Care JVC clinic.",
+    address: "Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, Shop-4, Jumeirah Village Circle (JVC), Dubai, UAE",
     phone: "+971 55 573 6312",
     whatsapp: "+971 55 573 6312",
     email: "booking@vedaracare.ae",
-    landmarksLabel: "Nearby Landmarks & Access",
+    hours: "Monday – Sunday: 9:00 am to 10:00 pm",
     landmarks: [
       "Next to Circle Mall (2 min walk)",
       "3 min from FIVE Jumeirah Village Hotel",
       "5 min from JSS Private School",
       "Free covered parking available for patients"
     ],
+    description: "Hafsina consults at Vedara Care Polyclinic JVC, with dedicated physiotherapy treatment space and access to integrated Ayurveda and general medical services within the same clinic — useful for patients whose recovery benefits from a multi-disciplinary approach.",
     buttonText: "Book an Appointment",
-    buttonHref: "/book"
+    buttonHref: "/book",
+    mapAlt: "Vedara Care Polyclinic location in Jumeirah Village Circle",
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus'
   },
   cta: {
-    ...defaultFinalCta("Hafsina K K", "Hi, I'd like to book a physiotherapy consultation with Hafsina K K at Vedara Care JVC."),
-    label: "REACH HAFSINA",
-    title: "Get in touch with her team.",
-    description: "Have questions about physiotherapy treatments, rehabilitation programmes, or appointment availability? Hafsina and the front desk team at Vedara Care JVC are here to help.",
-    button1Text: "Book an Appointment",
+    bgColor: "bg-[#FAF6EF]",
+    label: "READY?",
+    title: "Comprehensive physiotherapy consultation is the starting point.",
+    description: "Whether you're recovering from an orthopedic injury or surgery, managing a neurological condition, returning from a sports injury, or navigating pregnancy-related or postnatal physical changes — a hands-on consultation with Hafsina K K identifies whether her approach matches your situation. DHA licensed physiotherapist with 7+ years of clinical experience across India and the UAE, and specialised certifications in Dry Needling, Biomechanical Cupping, and IASTM. In-clinic appointments available at our JVC location, walking distance from Circle Mall.",
+    button1Text: "Book an Appointment with Hafsina K K",
     button1Href: "/book",
     button2Text: "Chat on WhatsApp",
-    button2Href: `https://wa.me/971555736312?text=${encodeURIComponent("Hi, I'd like to book a physiotherapy consultation with Hafsina K K at Vedara Care JVC.")}`,
+    button2Href: "https://wa.me/971555736312",
     bullets: [
-      "DHA Licensed Physiotherapist — 7+ Years Clinical Experience",
-      "In-person at JVC clinic — walkable from Circle Mall",
-      "Fluent in English, Malayalam & Hindi"
+      "DHA Licensed Physiotherapist — 7+ years of clinical experience",
+      "7 documented areas of clinical focus",
+      "Certified in Dry Needling, Biomechanical Cupping & IASTM",
+      "Fluent in English, Malayalam & Hindi",
+      "Walking distance from Circle Mall, JVC"
     ]
   },
   relatedPages: {
-    ...defaultRelatedPages("Hafsina K K"),
-    bgColor: "bg-[#F5F0E8]",
-    label: "OUR TEAM",
-    title: "Meet the rest of the clinical team.",
-    linkText: "View all team members",
-    linkHref: "/doctors/",
+    label: 'EXPLORE',
+    title: 'Explore Hafsina K K’s physiotherapy expertise.',
+    description: 'Discover Hafsina K K’s areas of physiotherapy care, along with related rehabilitation services and other healthcare professionals at Vedara Care Polyclinic, JVC, Dubai.',
+    linkText: 'View All Team Members',
+    linkHref: '/doctors',
     columns: 4,
     pages: [
-      { title: "Dr. Priya Nair", description: "Senior Ayurvedic Physician | Chronic Pain, PCOS, Migraine", href: "/doctors/dr-priya-nair" },
-      { title: "Dr. Ansiya", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-ansiya-ayurveda" },
-      { title: "Dr. Anusha Makkena", description: "MBBS, MS ENT | General Practitioner | Aesthetic Medicine & ENT Consultations", href: "/doctors/dr-anusha-makkena" },
-      { title: "Johanna Dianne U. Bautista", description: "Front Desk Receptionist | Patient Care & Operations Specialist", href: "/doctors/johanna-dianne-bautista" }
+      { title: 'Physiotherapy Clinic in JVC', description: 'Explore physiotherapy care in JVC, including personalised rehabilitation for orthopaedic, neurological, sports and women’s health needs.', href: '/physiotherapy-jvc/' },
+      { title: 'Neurological Physiotherapy', description: 'Learn about physiotherapy approaches that may support mobility, balance, strength and functional recovery for neurological conditions.', href: '/physiotherapy/neurological-dubai' },
+      { title: 'Sports Injury Physiotherapy', description: 'Explore rehabilitation and movement-focused care for sports injuries, helping patients work towards a safe return to everyday or sporting activities.', href: '/physiotherapy/sports-injury-jvc' },
+      { title: 'Post-Surgery Rehabilitation', description: 'Discover structured physiotherapy support following surgery, with treatment plans adapted to recovery needs and functional goals.', href: '/physiotherapy/post-surgery-rehab-dubai' },
+      { title: 'Manual Therapy', description: 'Learn about manual therapy techniques used as part of appropriate physiotherapy treatment plans to support movement and physical function.', href: '/treatments/manual-therapy-dubai' },
+      { title: 'Pelvic Floor Physiotherapy', description: 'Explore specialised physiotherapy support for pelvic floor concerns, including personalised assessment and rehabilitation where appropriate.', href: '/conditions/pelvic-floor-physiotherapy-dubai' },
+      { title: 'Back Pain Physiotherapy', description: 'Understand how physiotherapy assessment and rehabilitation may be used as part of care for back pain.', href: '/conditions/back-pain-physiotherapy-jvc' },
+      { title: 'Knee Pain Physiotherapy', description: 'Learn about physiotherapy approaches for knee pain, movement limitations and rehabilitation needs.', href: '/conditions/knee-pain-physiotherapy-dubai' },
+      { title: 'Dr. Ansiya — Ayurvedic Doctor', description: 'Meet Dr. Ansiya, DHA-Licensed BAMS Ayurvedic Doctor, for personalised Ayurvedic care at Vedara Care.', href: '/doctors/dr-ansiya-ayurveda' },
+      { title: 'Johanna Dianne U. Bautista', description: 'Explore another member of the Vedara Care team and our patient-centred approach to healthcare support.', href: '/doctors/johanna-bautista' }
     ]
   }
 };
@@ -1617,7 +1603,7 @@ export const drAnsiya = {
     insurance: {
       title: "Insurance Information",
       paragraph1: "Ayurvedic consultations for medically indicated conditions may be covered by some Dubai insurance policies with appropriate justification. Direct billing available with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-      paragraph2: "WhatsApp your insurance card to +971 XX XXX XXXX before booking for specific coverage discussion."
+      paragraph2: "WhatsApp your insurance card to +971 155 573 6312  for specific coverage discussion."
     },
     treatmentCosts: {
       title: "Treatment Costs",
@@ -1628,7 +1614,7 @@ export const drAnsiya = {
     label: "COMMON QUESTIONS",
     sidebarLinks: [
       { text: "Browse our other doctors", href: "/doctors/" },
-      { text: "See the JVC clinic page", href: "/ayurveda-clinic-jvc/" }
+      // { text: "See the JVC clinic page", href: "/ayurveda-clinic-jvc/" }
     ],
     title: "What patients ask about consulting Dr. Ansiya.",
     description: "For related topics, explore:",
@@ -1730,7 +1716,7 @@ export const drAnsiya = {
     bgColor: "bg-white",
     label: "VISIT US",
     title: "Where Dr. Ansiya practices — Vedara Care JVC clinic.",
-    address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeirah Village Circle (JVC) Dubai",
+    address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
     phone: "+971 55 573 6312",
     whatsapp: "+971 55 573 6312",
     whatsappMessage: "Hi, I'd like to inquire about booking a consultation with Dr. Ansiya at your JVC clinic.",
@@ -1789,212 +1775,261 @@ export const drAnsiya = {
 export const drSanjida = {
   name: 'Dr. Sanjida Islam Suchana',
   firstName: 'Dr. Sanjida',
-  title: 'MBBS | DHA-Licensed General Practitioner | Clinical Dermatology | Women\'s Health',
-  designation: 'General Practitioner',
-  pageTitle: 'General Practitioner at our JVC Clinic, Dubai.',
+  title: 'MBBS · DHA-Licensed General Practitioner · Primary Care & Clinical Dermatology',
   image: '/images/dr-sanjida-islam-suchana-gp-dubai.webp',
-  alt: 'Dr. Sanjida Islam Suchana, DHA-licensed General Practitioner at Vedara Care Polyclinic, JVC Dubai',
-  heroBadge: 'GENERAL PRACTITIONER · DHA-LICENSED · CLINICAL DERMATOLOGY',
-  heroStats: 'MBBS · DHA-Licensed GP · Clinical Dermatology · Women\'s Health',
-  subtitle: 'MBBS · DHA-Licensed GP · Clinical Dermatology · Women\'s Health',
-  bio: 'Dr. Sanjida Islam Suchana is a DHA-licensed General Practitioner with experience in primary healthcare, clinical dermatology and wellness-focused patient care. She provides comprehensive medical assessment and management of both acute and chronic conditions, with a strong emphasis on personalized, patient-centred care.',
-  about: 'Dr. Sanjida Islam Suchana is a DHA-licensed General Practitioner with experience in primary healthcare, clinical dermatology and wellness-focused patient care. She provides comprehensive medical assessment and management of both acute and chronic conditions, with a strong emphasis on personalized, patient-centred care.<br/><br/>With a background in General Practice and additional training in Dermatology, Dr. Sanjida has clinical experience in assessing and managing common dermatological conditions including acne, eczema, fungal infections and dermatitis. Her approach combines careful clinical assessment, appropriate investigation, individualized treatment planning and ongoing follow-up to support healthy skin and overall wellbeing.<br/><br/>She also has experience in managing common acute and chronic medical conditions within primary care, including diabetes, hypertension, dyslipidemia, asthma and COPD. She is skilled in clinical history taking, physical examination, investigation interpretation, patient counselling and treatment planning.<br/><br/>In addition, Dr. Sanjida has clinical experience in women\'s health and infertility care, including patient counselling and coordination of fertility-related care.<br/><br/>Her clinical philosophy is centred around understanding each patient\'s concerns, providing clear guidance and developing individualized treatment plans. Through a combination of primary care, dermatology and wellness-focused healthcare, Dr. Sanjida aims to help patients achieve healthier skin, improved wellbeing and better long-term health.',
-  aboutLabel: 'ABOUT DR. SANJIDA',
-  aboutH2: 'Dr. Sanjida Islam Suchana — General Practitioner & Clinical Dermatology at JVC.',
-  summaryTitle: 'Personalised general practice care — Dr. Sanjida\'s clinical approach.',
-  summaryParagraph1: 'Dr. Sanjida follows a patient-centred approach combining primary care, clinical dermatology and wellness-focused healthcare. Her practice at our JVC clinic serves patients from across Dubai seeking comprehensive GP care and skin health management.',
-  summaryParagraph2: 'Personalised care begins with understanding the patient — not just the condition. My approach combines careful assessment, clear guidance, and individually tailored treatment plans.',
-  trustSignals: [
-    'MBBS — Anwer Khan Modern Medical College',
-    'Diploma in Dermatology — RCPI Ireland',
-    'DHA Licensed General Practitioner',
-    'Speaks English, Hindi/Urdu, Bengali',
-  ],
-  education: [
-    'MBBS — Anwer Khan Modern Medical College & Hospital, Bangladesh',
-    'Professional Diploma in Dermatology — Royal College of Physicians of Ireland (RCPI), Ireland',
-    'DHA Licensed General Practitioner',
-    'BMDC Licensed General Practitioner',
-    'ACLS — American Safety & Health Institute (ASHI)',
-    'BLS — American Safety & Health Institute (ASHI)',
-  ],
-  languagesSpoken: [
-    'English (professional fluency)',
-    'Hindi / Urdu',
-    'Bengali',
-  ],
-  specialtiesList: [
-    {
-      number: '01',
-      title: 'Clinical Dermatology & Skin Health',
-      description: 'Management of common skin conditions and skin health concerns — acne, eczema, fungal infections, dermatitis and more.',
-      related: ['Acne', 'Eczema', 'Dermatitis', 'Fungal Infections']
-    },
-    {
-      number: '02',
-      title: 'Acute & Chronic Disease Management',
-      description: 'Assessment and management of common acute and chronic conditions including diabetes, hypertension, dyslipidemia, asthma and COPD.',
-      related: ['Diabetes', 'Hypertension', 'Asthma', 'COPD']
-    },
-    {
-      number: '03',
-      title: 'Primary Care & OPD Consultation',
-      description: 'Patient assessment, diagnosis, treatment planning and follow-up care for a wide range of primary care presentations.',
-      related: ['General Consultation', 'Health Screening', 'Follow-up Care']
-    },
-    {
-      number: '04',
-      title: "Women's Health & Infertility Care",
-      description: 'Infertility counselling, IUI coordination and fertility treatment support alongside comprehensive women\'s primary healthcare.',
-      related: ['Infertility Counselling', 'IUI', 'Fertility Coordination']
-    },
-    {
-      number: '05',
-      title: 'Patient Counselling & Treatment Planning',
-      description: 'Personalised treatment plans with clear patient education, ongoing monitoring and supportive follow-up.',
-      related: ['Treatment Planning', 'Patient Education', 'Follow-up']
-    },
-    {
-      number: '06',
-      title: 'Clinical Assessment & Investigation Interpretation',
-      description: 'Comprehensive clinical evaluation, physical examination and interpretation of diagnostic investigations.',
-      related: ['Clinical Evaluation', 'Diagnostic Interpretation', 'Evidence-Based Care']
-    },
-  ],
+  alt: 'Dr. Sanjida Islam Suchana, DHA-Licensed General Practitioner at Vedara Care Polyclinic, JVC Dubai',
+  heroBadge: 'GENERAL PRACTITIONER · DHA-LICENSED · MBBS · JUMEIRAH VILLAGE CIRCLE',
+  heroStats: 'DHA Licensed General Practitioner · MBBS & Diploma in Dermatology · Experience Across UAE & Bangladesh · Primary Care & Chronic Disease Management',
+  subtitle: 'MBBS · DHA-Licensed General Practitioner · Primary Care & Clinical Dermatology',
+  ratingText: '',
+  primaryCtaText: 'Book Consultation with Dr. Sanjida',
+  primaryCtaHref: '/book',
+  secondaryCtaText: 'WhatsApp Us',
+  secondaryCtaHref: 'https://wa.me/971555736312',
+  bio: "Dr. Sanjida Islam Suchana is a DHA-licensed general practitioner at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, with clinical experience in primary care, clinical dermatology, chronic disease management, and women's health. MBBS-qualified with a professional diploma in dermatology, she combines detailed clinical assessment, investigation review, and individualized treatment planning to help patients understand their healthcare needs. Her clinical experience spans healthcare settings across the UAE and Bangladesh. Serving JVC families and patients from across Dubai.",
+  pageTitle: 'General Practitioner at our JVC clinic, Dubai.',
+  aboutLabel: "The Quick Answer",
+  aboutH2: 'About Dr. Sanjida Islam Suchana, in one paragraph.',
+  about: "Dr. Sanjida Islam Suchana is a DHA-licensed general practitioner at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, with clinical experience in primary healthcare, clinical dermatology, chronic disease management, and women's health. Her professional background includes an MBBS from Anwer Khan Modern Medical College &amp; Hospital, Bangladesh, together with a Professional Diploma in Dermatology from the Royal College of Physicians of Ireland (RCPI).<br/><br/>She is also licensed with the Bangladesh Medical &amp; Dental Council (BMDC) and holds certifications in Advanced Cardiovascular Life Support (ACLS) and Basic Life Support (BLS), both through ASHI. Her seven documented areas of clinical expertise cover general practice and primary care; clinical dermatology and skin health; acute and chronic disease management; women's health; fertility and infertility counselling; patient counselling and treatment planning; and clinical assessment and investigation interpretation.<br/><br/>She speaks English, Hindi/Urdu, and Bengali fluently, and her clinical experience spans healthcare settings in both the UAE and Bangladesh. At Vedara Care's JVC clinic, she combines detailed history-taking, physical assessment, and review of relevant diagnostic investigations to support individualized treatment planning for each patient—for common outpatient concerns, skin conditions, chronic disease follow-up, and women's health concerns including fertility counselling.",
+  summaryTitle: "General Practice & Clinical Care",
+  summaryParagraph1: "Experienced in primary healthcare and dermatology, Dr. Sanjida combines structured clinical assessment with clear patient communication—helping patients understand both their diagnosis and their treatment options.",
+  summaryIntro: "Dr. Sanjida begins consultations by understanding the patient's symptoms, medical history, lifestyle factors, and reason for seeking care. Each consultation is approached according to the patient's individual presentation, with appropriate examination and investigation review carried out where clinically indicated.",
+  quote: "",
+  aboutFooter: "Reviewed by Dr. Sanjida Islam Suchana, MBBS, DHA-licensed General Practitioner",
   description: [
-    {
-      title: 'Listening first — comprehensive patient understanding',
-      description: 'Dr. Sanjida\'s consultations begin with genuine listening. She takes time to understand your health concerns, medical history, lifestyle context and specific wellness goals. This patient-centred approach shapes her entire clinical assessment and treatment plan.'
-    },
-    {
-      title: 'Clinical dermatology — personalised skin assessment',
-      description: 'With additional training in dermatology from the Royal College of Physicians of Ireland, Dr. Sanjida provides thorough clinical skin assessment. She combines careful examination, appropriate investigations and individualised treatment planning to support healthy skin and overall wellbeing.'
-    },
-    {
-      title: 'Chronic disease management with ongoing support',
-      description: 'Dr. Sanjida manages a broad range of chronic conditions including diabetes, hypertension and respiratory conditions. Her approach emphasises regular monitoring, medication review and lifestyle counselling to support better long-term health outcomes.'
-    },
-    {
-      title: "Women's health and fertility care",
-      description: 'Dr. Sanjida has clinical experience in women\'s health concerns and infertility care, including patient counselling, IUI coordination and fertility treatment support — delivered with sensitivity and clear communication.'
-    },
+    { title: 'Listening first—understanding each patient\'s presentation', description: "Rather than working from a standard checklist, Dr. Sanjida takes time to understand what has actually brought a patient in—their symptoms, relevant history, and any lifestyle factors that may be contributing—before moving to examination and assessment." },
+    { title: 'Primary care grounded in clinical assessment', description: "As a general practitioner, she manages a broad range of common outpatient concerns, drawing on structured clinical assessment—history taking, physical examination, and review of relevant investigations—to guide diagnosis and management decisions." },
+    { title: 'Clinical dermatology as a focused interest', description: "Her professional diploma in dermatology from RCPI supports a particular clinical interest in skin health, allowing her to assess and manage common dermatological concerns such as acne, eczema, and dermatitis as part of general practice care." },
+    { title: 'Chronic disease management and follow-up', description: "For patients managing ongoing conditions such as diabetes, hypertension, dyslipidemia, asthma, or COPD, Dr. Sanjida provides structured follow-up — reviewing progress and adjusting management plans according to each patient's clinical needs." },
+    { title: 'Women\'s health and fertility counselling', description: "Women's health is a documented area of her clinical practice, including assessment and counselling for relevant women's health concerns, alongside experience in infertility counselling and fertility-related care coordination." }
   ],
-  cta: {
-    bgColor: 'rgb(31, 69, 56)',
-    label: 'BOOK AN APPOINTMENT',
-    title: 'Consult with Dr. Sanjida at Vedara Care, JVC.',
-    description: 'Same-week appointments typically available at our Jumeirah Village Circle polyclinic.',
-    button1Text: 'Book a Consultation',
-    button1TextHref: '/book',
-    button2Text: 'Chat on WhatsApp',
-    button2TextHref: 'https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20consultation%20with%20Dr.%20Sanjida.',
+  specialtiesLabel: 'Documented Clinical Expertise',
+  specialtiesTitle: "Dr. Sanjida Islam Suchana's documented areas of clinical expertise.",
+  specialtiesSubtitle: "Her clinical experience includes primary care, clinical dermatology, chronic disease management, and women's health.",
+  specialtiesList: [
+    { number: '01', title: 'General Practice & Primary Care', description: 'Dr. Sanjida has experience in general practice and primary healthcare, assessing and managing a wide range of common outpatient medical concerns. Her approach combines structured history-taking with clear explanation of findings, helping patients understand their condition and the reasoning behind any recommended investigation or treatment plan.', related: 'Core Strength: Primary Care Consultations' },
+    { number: '02', title: 'Clinical Dermatology & Skin Health', description: 'Her additional Professional Diploma in Dermatology from the Royal College of Physicians of Ireland supports her clinical dermatology focus, including assessment and management of common skin concerns such as acne, eczema, and dermatitis, within the scope of general practice care.', related: 'Core Strength: Acne, Eczema, Dermatitis' },
+    { number: '03', title: 'Acute & Chronic Disease Management', description: 'Her documented clinical experience includes management of common acute concerns alongside chronic conditions such as diabetes, hypertension, dyslipidemia, asthma, and COPD — with structured follow-up to review progress and adjust treatment plans as needed.', related: 'Core Strength: Chronic Disease Follow-Up' },
+    { number: '04', title: "Women's Health", description: "Women's health is one of Dr. Sanjida's documented clinical areas, including counselling and assessment of relevant women's health concerns as part of general practice consultations.", related: "Core Strength: General Women's Health Concerns" },
+    { number: '05', title: 'Fertility & Infertility Counselling', description: 'Dr. Sanjida has experience in infertility counselling and fertility-related care coordination, helping patients understand their situation and options as part of a broader women\'s health consultation.', related: 'Core Strength: Fertility Counselling' },
+    { number: '06', title: 'Patient Counselling & Treatment Planning', description: 'She focuses on explaining clinical findings clearly and developing treatment plans according to each patient\'s condition and individual healthcare needs, so patients leave a consultation understanding both their diagnosis and their options.', related: 'Core Strength: Treatment Planning' },
+    { number: '07', title: 'Clinical Assessment & Investigation Interpretation', description: 'Her clinical approach includes detailed history-taking, physical assessment, and review of relevant diagnostic investigations to support clinical decision-making, ensuring management plans are grounded in a clear clinical picture rather than symptoms alone.', related: 'Core Strength: Investigation Review' }
+  ],
+  credentialsTitle: "Dr. Sanjida Islam Suchana's qualifications, licenses, certifications, and professional background.",
+  education: [
+    'MBBS, Anwer Khan Modern Medical College & Hospital, Bangladesh',
+    'Professional Diploma in Dermatology, Royal College of Physicians of Ireland (RCPI)',
+    'DHA Licensed General Practitioner',
+    'Experience across UAE & Bangladesh',
+    'General Practitioner, Vedara Care Polyclinic, JVC, Dubai'
+  ],
+  languagesSpoken: ['English', 'Hindi/Urdu', 'Bengali'],
+  certifications: [
+    'DHA Licensed General Practitioner',
+    'Bangladesh Medical & Dental Council (BMDC) Licensed Physician',
+    'Certified in Advanced Cardiovascular Life Support (ACLS) (ASHI)',
+    'Certified in Basic Life Support (BLS) (ASHI)'
+  ],
+  professionalMemberships: [
+    '[VERIFY - Not specified]'
+  ],
+  continuingEducation: "All qualifications and licenses listed reflect information provided. DHA license verification is public record via the Dubai Health Authority Sheryan directory. Vedara Care Polyclinic holds a valid DHA facility license.",
+  conditionsTitle: "Conditions Dr. Sanjida treats at our JVC clinic serving Dubai.",
+  conditionsTreated: {
+    subtitle: "Comprehensive general practice care across primary health concerns, chronic disease, clinical dermatology, and women's health.",
+    categories: [
+      {
+        category: "General & Primary Care",
+        conditions: [
+          { title: "Common Acute Illnesses", description: "Assessment and management of common outpatient concerns such as infections, minor injuries, and general symptoms." },
+          { title: "General Health Checks", description: "Routine consultations and health assessments as part of primary care." },
+          { title: "Investigation-Led Assessment", description: "Clinical assessment supported by relevant diagnostic investigation review." }
+        ]
+      },
+      {
+        category: "Chronic Disease Management",
+        conditions: [
+          { title: "Diabetes", description: "Ongoing management and monitoring of blood sugar control." },
+          { title: "Hypertension", description: "Blood pressure management and lifestyle guidance." },
+          { title: "Dyslipidemia", description: "Cholesterol management as part of chronic disease follow-up." },
+          { title: "Asthma", description: "Respiratory condition management and monitoring." },
+          { title: "COPD", description: "Chronic respiratory condition follow-up and management." }
+        ]
+      },
+      {
+        category: "Clinical Dermatology",
+        conditions: [
+          { title: "Acne", description: "Clinical assessment and management of acne." },
+          { title: "Eczema", description: "Dermatological care for eczema and related skin concerns." },
+          { title: "Dermatitis", description: "Assessment and management of dermatitis presentations." }
+        ]
+      },
+      {
+        category: "Women's Health & Fertility",
+        conditions: [
+          { title: "General Women's Health Concerns", description: "Assessment and counselling for relevant women's health concerns." },
+          { title: "Infertility Counselling", description: "Counselling and guidance for patients navigating fertility concerns." },
+          { title: "Fertility-Related Care Coordination", description: "Coordinating care and next steps for patients exploring fertility options." }
+        ]
+      }
+    ],
+    // footer: "For related services, see our Dermatology Clinic JVC page "
+  },
+  reviews: {
+    bgColor: "bg-[#FAF6EF]",
+    cardBgColor: "white",
+    isDarkText: true,
+    useKneeStyle: true,
+    label: "PATIENT VOICES",
+    title: "Sample patient experiences with Dr. Sanjida Islam Suchana.",
+    description: "",
+    items: [
+      { quote: "“She took the time to understand my concerns.” I appreciated how carefully Dr. Sanjida listened before discussing my concerns. She asked about my medical history, explained her assessment clearly, and answered my questions without rushing the consultation. I felt comfortable discussing my symptoms and left with a much clearer understanding of the next steps.", author: "Female Patient", details: "General Practice Consultation · JVC Dubai" },
+      { quote: "“Everything was explained clearly.” Dr. Sanjida was thorough during my consultation and reviewed my medical history and previous reports carefully. She explained the findings in straightforward language and discussed the follow-up plan with me. The consultation felt organised and focused, and I appreciated having the opportunity to ask questions about my ongoing care.", author: "Male Patient", details: "Chronic Disease Follow-Up · Dubai" },
+      { quote: "“I felt comfortable discussing my health concerns.” I was looking for a female doctor for a private health concern and felt comfortable speaking with Dr. Sanjida. She listened respectfully, asked relevant questions, and explained the available next steps clearly. I appreciated her calm communication and the time she took to make sure I understood the consultation.", author: "Female Patient", details: "Women’s Health Consultation · JVC Dubai" }
+    ],
+
+    buttonText: '',
+    buttonHref: ''
+  },
+  consultation: {
+    label: "YOUR CONSULTATION",
+    title: "What to expect during a consultation with Dr. Sanjida Islam Suchana.",
+    description: "Dr. Sanjida provides an individualised clinical assessment and management plan.",
+    phases: [
+      {
+        phase: 'Phase 1', time: '', title: 'Initial Clinical Assessment',
+        description: "The consultation begins with understanding the patient's symptoms, medical history, current concerns, and relevant lifestyle factors. Dr. Sanjida takes time to understand the full clinical picture before moving to examination, so the assessment reflects each patient's individual presentation rather than a standard checklist."
+      },
+      {
+        phase: 'Phase 2', time: '', title: 'Clinical Evaluation and Investigation Review',
+        description: "Where appropriate, Dr. Sanjida may review existing diagnostic investigations or recommend additional investigations based on the patient's clinical presentation, to support an accurate and well-informed assessment before any treatment plan is proposed."
+      },
+      {
+        phase: 'Phase 3', time: '', title: 'Individualised Treatment Planning',
+        description: "Following clinical assessment, an individualised management plan can be developed, which may involve medical management, lifestyle guidance, referral, or ongoing monitoring — tailored to the patient's specific condition, preferences, and circumstances."
+      },
+      {
+        phase: 'Phase 4', time: '', title: 'Follow-up and Progress Review',
+        description: "Patients with ongoing medical or chronic conditions may require follow-up. The management plan is reviewed according to the patient's clinical needs, with adjustments made as the patient's condition or response to treatment evolves."
+      }
+    ],
+    bringBox: {
+      label: "Please Bring to Your First Consultation",
+      items: [
+        "List of current health concerns",
+        "List of current medications and supplements",
+        "Previous medical reports or investigation results if relevant",
+        "Insurance card if applicable",
+        "List of specific questions and treatment goals",
+        "Information about relevant family health history if applicable to your concerns"
+      ]
+    }
+  },
+  pricing: {
+    label: "Transparent Pricing",
+    title: "Consultation with Dr. Sanjida — pricing and insurance.",
+    consultationRows: [
+      { type: "Initial GP consultation", duration: "[VERIFY]", price: "AED [X]" },
+      { type: "Follow-up consultation", duration: "[VERIFY]", price: "AED [X]" },
+      { type: "Chronic disease follow-up consultation", duration: "[VERIFY]", price: "AED [X]" },
+      { type: "Dermatology-focused consultation", duration: "[VERIFY]", price: "AED [X]" },
+      { type: "Women's health / fertility counselling consultation", duration: "[VERIFY]", price: "AED [X]" }
+    ],
+    insurance: {
+      title: "Insurance Information",
+      paragraph1: "General practice consultations for medically indicated concerns may be covered by some Dubai insurance policies, depending on your individual plan and insurer approval. Direct billing may be available with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife",
+      paragraph2: "WhatsApp your insurance card to +971\u00A055\u00A0573\u00A06312 before booking for a specific coverage discussion."
+    },
+    treatmentCosts: {
+      title: "Treatment Costs",
+      description: "Consultation and treatment costs depend on the nature of your concern, the assessment required, and the care recommended by the doctorAny additional investigations, procedures, medications, or follow-up care are priced separately where applicable. The recommended care and associated costs can be discussed with you before proceeding, so you have a clear understanding of your treatment plan.For insurance patients, coverage, approval requirements, co-payments and reimbursement terms can vary by policy. Please confirm your specific benefits with your insurance provider before treatment."
+    }
+  },
+  faqs: {
+    label: "Frequently Asked Questions",
+    sidebarLinks: [
+      { text: "Browse our other doctors", href: "/doctors/" },
+      // { text: "See the JVC clinic page", href: "/physiotherapy-jvc/" }
+    ],
+    title: "What patients ask about consulting Dr. Sanjida Islam Suchana.",
+    description: "",
+    buttonText: "Ask the Team",
+    buttonHref: "https://wa.me/971555736312",
+    faqs: [
+      { question: "Who is Dr. Sanjida Islam Suchana?", answer: "She is a DHA-licensed general practitioner at Vedara Care Polyclinic in JVC, Dubai, with clinical experience in primary care, clinical dermatology, chronic disease management, and women's health." },
+      { question: "Is Dr. Sanjida Islam Suchana DHA licensed?", answer: "Yes—she is a DHA-licensed general practitioner. License verification is a public record via the Dubai Health Authority Sheryan directory." },
+      { question: "What is Dr. Sanjida Islam Suchana's qualification?", answer: "She holds an MBBS from Anwer Khan Modern Medical College & Hospital, Bangladesh, and a Professional Diploma in Dermatology from the Royal College of Physicians of Ireland (RCPI)." },
+      { question: "Does Dr. Sanjida have dermatology training?", answer: "Yes — she holds a Professional Diploma in Dermatology from RCPI, supporting her clinical dermatology focus alongside general practice." },
+      { question: "What skin conditions does Dr. Sanjida treat?", answer: "Her documented dermatology focus includes common skin concerns such as acne, eczema, and dermatitis, assessed and managed within general practice." },
+      { question: "What chronic conditions does Dr. Sanjida manage?", answer: "Her documented experience includes management of chronic conditions such as diabetes, hypertension, dyslipidemia, asthma, and COPD, with structured follow-up." },
+      { question: "Does Dr. Sanjida provide women's health consultations?", answer: "Yes — women's health is one of her documented clinical areas, including assessment and counselling for relevant concerns." },
+      { question: "Does Dr. Sanjida provide infertility counselling?", answer: "Yes — she has experience in infertility counselling and fertility-related care coordination." },
+      { question: "Does Dr. Sanjida provide fertility treatment?", answer: "[VERIFY] Her documented experience covers infertility counselling and care coordination; whether she performs fertility treatment procedures directly should be confirmed before publishing." },
+      { question: "Does Dr. Sanjida perform IUI?", answer: "[VERIFY] This is not confirmed in the information provided — please verify before publishing rather than assuming." },
+      { question: "What languages does Dr. Sanjida speak?", answer: "English, Hindi/Urdu, and Bengali, all fluently." },
+      { question: "What certifications does Dr. Sanjida have?", answer: "DHA Licensed General Practitioner, BMDC Licensed Physician, ACLS certified, and BLS certified." },
+      { question: "Does Dr. Sanjida provide chronic disease follow-up?", answer: "Yes — structured follow-up for chronic conditions is part of her documented clinical practice." },
+      { question: "Does Dr. Sanjida review medical investigations?", answer: "Yes — her clinical approach includes reviewing relevant diagnostic investigations to support clinical decision-making." },
+      { question: "Where does Dr. Sanjida practice?", answer: "At Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall." },
+      { question: "What is Dr. Sanjida's clinical approach?", answer: "She begins consultations by understanding symptoms, medical history, and lifestyle factors, with examination and investigation review where clinically indicated, followed by an individualised treatment plan." },
+      { question: "How can I book a consultation with Dr. Sanjida?", answer: "Through the clinic's booking page, by phone, or via WhatsApp." }
+    ]
   },
   location: {
-    label: 'FIND US',
-    title: 'Vedara Care Polyclinic, JVC',
-    address: 'Jumeirah Village Circle, Dubai, UAE',
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.1!2d55.2!3d25.05!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVmVkYXJhIENhcmU!5e0!3m2!1sen!2sae!4v1234567890',
+    bgColor: "bg-white",
+    label: "Clinic Location",
+    title: "Consult with Dr. Sanjida Islam Suchana at our JVC clinic.",
+    address: "Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, Shop-4, Jumeirah Village Circle (JVC), Dubai, UAE",
+    phone: "+971 55 573 6312",
+    whatsapp: "+971 55 573 6312",
+    email: "booking@vedaracare.ae",
+    hours: "Monday–Sunday, 9:00 am–10:00 pm",
+    landmarks: [
+      "Walking distance from Circle Mall",
+      "3 minutes from FIVE Jumeirah Village Hotel",
+      "5 min from JSS Private School",
+      "Free patient parking available",
+      "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
+    ],
+    description: "Patients can book through the clinic's appointment page, telephone, or WhatsApp booking channels.",
+    buttonText: "Book Consultation with Dr. Sanjida",
+    buttonHref: "/book",
+    mapAlt: "Vedara Care Polyclinic location in Jumeirah Village Circle",
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus'
+  },
+  cta: {
+    bgColor: "bg-[#FAF6EF]",
+    label: "Ready?",
+    title: "A clinical consultation is the starting point.",
+    description: "Whether you're managing a chronic condition, dealing with a persistent skin concern, seeking general health guidance, or exploring women's health or fertility questions, a consultation with Dr. Sanjida begins with a full clinical assessment — history, examination, and investigation review where indicated — before any treatment plan is proposed. DHA Licensed General Practitioner with MBBS and dermatology training. Consultations available at our JVC clinic.",
+    button1Text: "Book Consultation with Dr. Sanjida",
+    button1Href: "/book",
+    button2Text: "WhatsApp Us",
+    button2Href: "https://wa.me/971555736312",
+    bullets: [
+      "DHA Licensed General Practitioner",
+      "MBBS & Diploma in Dermatology",
+      "Experience Across UAE & Bangladesh",
+      "Walking distance from Circle Mall, JVC",
+      "English, Hindi/Urdu & Bengali spoken"
+    ]
   },
   relatedPages: {
-    bgColor: 'bg-[#F5F0E8]',
-    label: 'EXPLORE',
-    title: 'Explore our clinic and healthcare team.',
+    label: 'Explore',
+    title: "Meet the clinical team at Vedara Care JVC.",
     linkText: 'All our doctors',
-    linkHref: '/doctors/',
+    linkHref: '/doctors',
     columns: 4,
     pages: [
-      { title: 'Our Doctors', description: '', href: '/doctors/' },
-      { title: 'Wellness Clinic JVC', description: '', href: '/wellness-clinic-jvc/' },
-      { title: 'Ayurveda Clinic JVC', description: '', href: '/ayurveda-clinic-jvc/' },
-      { title: 'Book a Consultation', description: '', href: '/book/' },
+      { title: 'Dermatology Clinic JVC', description: 'Clinical dermatology services at our JVC clinic, including care for acne, eczema, and dermatitis.', href: '/dermatology-clinic-jvc' },
+      { title: 'Acne Treatment JVC', description: 'Dedicated acne treatment page — one of Dr. Sanjida\'s documented dermatology areas.', href: '/conditions/acne-treatment-jvc' },
+      { title: 'Wellness Clinic JVC', description: 'Multi-disciplinary wellness services combining general practice with our other specialities.', href: '/wellness-clinic-jvc' }
     ]
   }
 };
 
 
-export const emielSanchezData = {
-  name: 'Emiel Sanchez',
-  firstName: 'Emiel',
-  title: 'Clinic Receptionist | Administrative & Patient Relations',
-  designation: 'Clinic Receptionist',
-  pageTitle: 'Clinic Receptionist at our JVC Clinic, Dubai.',
-  image: '/images/emiel-sanchez-receptionist.webp',
-  alt: 'Emiel Sanchez, Clinic Receptionist at Vedara Care Polyclinic, JVC Dubai',
-  heroBadge: 'CLINIC RECEPTIONIST · PATIENT RELATIONS',
-  heroStats: 'Medical Technology Background · Patient Communication',
-  subtitle: 'Clinic Receptionist · Administrative & Patient Relations',
-  bio: 'A professional and approachable healthcare administrative professional with a background in Medical Technology and experience in a clinical healthcare environment. Skilled in front-desk operations, patient communication, appointment coordination, and providing a welcoming and organized experience for patients.',
-  about: 'A professional and approachable healthcare administrative professional with a background in Medical Technology and experience in a clinical healthcare environment. Skilled in front-desk operations, patient communication, appointment coordination, and providing a welcoming and organized experience for patients.<br/><br/>With a healthcare background, she is able to communicate effectively with patients, understand basic medical terminology, and coordinate smoothly with clinical teams while maintaining professionalism, confidentiality, and excellent customer service.',
-  aboutLabel: 'ABOUT EMIEL',
-  aboutH2: 'Emiel Sanchez — Clinic Receptionist & Patient Relations at JVC.',
-  summaryTitle: 'Welcoming and organized patient experience.',
-  summaryParagraph1: 'Emiel is dedicated to providing a professional and welcoming experience for every patient. With a background in Medical Technology, she brings a deep understanding of the healthcare environment to her role at the front desk.',
-  summaryParagraph2: '"With a healthcare background, I am able to communicate effectively with patients, understand basic medical terminology, and coordinate smoothly with clinical teams while maintaining professionalism, confidentiality, and excellent customer service."',
-  trustSignals: [
-    'BSc Medical Technology',
-    'Registered Medical Technologist (RMT)',
-    'ASCPI Certified',
-    'Speaks English and Filipino'
-  ],
-  education: [
-    'Bachelor of Science in Medical Technology — College of Our Lady of Mt. Carmel, Philippines',
-    'Registered Medical Technologist (RMT) — Professional Regulation Commission, Philippines',
-    'ASCPI Certified',
-    'DHA Eligibility'
-  ],
-  languagesSpoken: [
-    'English',
-    'Filipino'
-  ],
-  specialtiesList: [
-    {
-      number: '01',
-      title: 'Front Desk & Reception Management',
-      description: 'Ensuring a smooth, welcoming, and organized experience for every patient entering the clinic.',
-      related: ['Patient Registration', 'Appointment Scheduling']
-    },
-    {
-      number: '02',
-      title: 'Patient Communication & Customer Service',
-      description: 'Providing clear, professional, and compassionate communication to assist patients with their inquiries and needs.',
-      related: ['Patient Follow-Up', 'Coordination']
-    },
-    {
-      number: '03',
-      title: 'Clinic Administrative Support',
-      description: 'Coordinating smoothly with clinical teams and managing records with a solid understanding of medical terminology.',
-      related: ['Records Management', 'Healthcare Knowledge']
-    }
-  ],
-  approachList: [
-    {
-      title: 'Patient-First Communication',
-      description: 'Prioritizing clear and empathetic communication to ensure patients feel welcomed and understood from the moment they arrive.'
-    },
-    {
-      title: 'Efficient Organization',
-      description: 'Managing appointments and administrative tasks effectively to minimize wait times and streamline clinic operations.'
-    },
-    {
-      title: 'Clinical Coordination',
-      description: 'Leveraging a background in Medical Technology to seamlessly collaborate with the medical team for optimal patient care.'
-    }
-  ],
-  approachFooter: 'Dedicated to professionalism, confidentiality, and providing excellent customer service.',
-  relatedPages: {
-    label: 'EXPLORE',
-    title: 'Explore our clinic and healthcare team.',
-    linkText: 'All our doctors',
-    linkHref: '/doctors/',
-    columns: 4,
-    pages: [
-      { title: 'Our Doctors', description: '', href: '/doctors/' },
-      { title: 'Wellness Clinic JVC', description: '', href: '/wellness-clinic-jvc/' },
-      { title: 'Ayurveda Clinic JVC', description: '', href: '/ayurveda-clinic-jvc/' },
-      { title: 'Book a Consultation', description: '', href: '/book/' }
-    ]
-  }
-};
 
 // =====================================================
 // AESTHETICIAN ARFAH OWAIS — FULL TEMPLATE DATA
@@ -2049,7 +2084,7 @@ export const arfahOwaisTemplate = {
   specialtiesLabel: 'AREAS OF EXPERTISE',
   specialtiesTitle: 'Areas of Expertise',
   specialtiesSubtitle: 'With 8+ years of hands-on clinical experience, Arfah provides customized and effective skincare solutions for a wide range of aesthetic concerns.',
-  specialtiesFooter: 'A thorough skin analysis with Arfah will determine the best course of treatment for your skin →',
+  specialtiesFooter: 'A thorough skin analysis with Arfah will determine the best course of treatment for your skin',
   credentialsTitle: 'The training behind every treatment.',
 
   education: [
@@ -2152,7 +2187,7 @@ export const arfahOwaisTemplate = {
     label: "COMMON QUESTIONS",
     sidebarLinks: [
       { text: "Browse our other doctors", href: "/doctors/" },
-      { text: "See the JVC clinic page", href: "/wellness-clinic-jvc/" }
+      // { text: "See the JVC clinic page", href: "/wellness-clinic-jvc/" }
     ],
     title: "What patients ask about consulting Aesthetician Arfah Owais.",
     description: "For related topics, explore:",
@@ -2233,6 +2268,53 @@ export const arfahOwaisTemplate = {
       }
     ]
   },
+  cta: {
+    bgColor: "bg-[#FAF6EF]",
+    label: "READY?",
+    title: "Your personalized aesthetic skincare consultation starts here.",
+    description: "Whether you're looking for support with pigmentation, uneven skin tone, acne scars, visible pores, dehydration, skin texture, or early signs of aging, a consultation with Arfah Owais provides an opportunity to understand your skin concerns and discuss suitable treatment options.\n\nArfah is a DHA-licensed aesthetician with 8+ years of hands-on clinical experience, specialising in advanced facial therapy, aesthetic skincare, and personalised treatment planning. Your appointment begins with a skin assessment and discussion of your skincare history, concerns, sensitivities, and aesthetic goals before suitable treatments are recommended.",
+    button1Text: "Book an Appointment with Arfah Owais",
+    button1Href: "/book",
+    button2Text: "Chat on WhatsApp",
+    button2Href: "https://wa.me/971555736312?text=Hi%2C%20I'd%20like%20to%20book%20an%20appointment%20with%20Aesthetician%20Arfah%20Owais.",
+    bullets: [
+      "DHA Licensed Aesthetician",
+      "8+ Years of Hands-On Clinical Experience",
+      "CIBTAC-UK Diploma Holder",
+      "NCLC Certified",
+      "PMU Certified",
+      "Advanced Facial & Aesthetic Skincare",
+      "Personalized Treatment Planning",
+      "Vedara Care Polyclinic, JVC Dubai",
+      "Near Circle Mall"
+    ]
+  },
+  reviews: {
+    bgColor: "bg-[#FAF6EF]",
+    cardBgColor: "white",
+    isDarkText: true,
+    useKneeStyle: true,
+    label: "PATIENT VOICES",
+    title: "Real patient experiences with Aesthetician Arfah Owais at our JVC clinic.",
+    description: "",
+    items: [
+      {
+        quote: "I booked an appointment with Arfah because my skin had been looking dull and uneven. She first asked about my skincare routine and previous treatments before recommending an approach for my skin. I really appreciated that she did not simply suggest a treatment without understanding my concerns. The consultation was comfortable, professional, and easy to understand.",
+        author: "Female patient",
+        details: "Facial & Skin Rejuvenation · JVC, Dubai"
+      },
+      {
+        quote: "My experience with Arfah was very positive. I was looking for help with pigmentation and uneven skin texture and wanted advice that was specific to my skin. She explained the treatment options clearly and also guided me on how to care for my skin afterwards. I liked the personalised approach and the attention to hygiene and comfort throughout the appointment.",
+        author: "Female patient",
+        details: "Pigmentation & Skin Texture Care · Dubai"
+      },
+      {
+        quote: "I visited Arfah for a facial treatment and really liked how carefully she assessed my skin before starting. She explained each step of the treatment and answered my questions patiently. The experience felt professional and personalised rather than like a standard facial appointment. Her skincare advice afterwards was also useful for maintaining a simple routine at home.",
+        author: "Female patient",
+        details: "Advanced Facial Treatment · JVC, Dubai"
+      }
+    ]
+  },
   relatedPages: {
     label: 'EXPLORE',
     title: 'Explore our clinic and healthcare team.',
@@ -2240,9 +2322,627 @@ export const arfahOwaisTemplate = {
     linkHref: '/doctors/',
     columns: 4,
     pages: [
-      { title: 'Our Doctors', description: '', href: '/doctors/' },
-      { title: 'Wellness Clinic JVC', description: '', href: '/wellness-clinic-jvc/' },
-      { title: 'Book an Appointment', description: '', href: '/book/' }
+      { title: 'Dermatology Clinic JVC', description: 'Explore professional dermatology and skin-care services available at Vedara Care Polyclinic in JVC, Dubai, including personalised support for a range of skin concerns.', href: '/dermatology-clinic-jvc' },
+      { title: 'HydraFacial JVC JVC', description: 'Discover HydraFacial treatments focused on cleansing, exfoliation, extraction, and hydration, with treatment selection based on individual skin needs.', href: '/hydrafacial-jvc' },
+      { title: 'Skin Rejuvenation JVC', description: 'Explore aesthetic skincare approaches for skin texture, hydration, uneven tone, and visible signs of ageing through personalised treatment planning.', href: '/treatments/skin-rejuvenation-jvc' },
+      { title: 'Wellness Clinic JVC', description: 'Discover Vedara Care’s wider healthcare and wellness services in JVC, with access to different practitioners and departments under one clinic.', href: '/wellness-clinic-jvc' }
+    ]
+  }
+};
+
+// =====================================================
+// EMIEL SANCHEZ — FULL TEMPLATE DATA
+// =====================================================
+export const emielSanchezData = {
+  name: 'Emiel Sanchez',
+  firstName: 'Emiel',
+  title: 'BSc Medical Technology · Registered Medical Technologist (RMT) · Patient-Centred Front Desk Support',
+  image: '/images/emiel-sanchez-receptionist.webp',
+  alt: 'Emiel Sanchez, Clinic Receptionist at Vedara Care JVC',
+  heroBadge: 'CLINIC RECEPTIONIST · PATIENT RELATIONS · JUMEIRAH VILLAGE CIRCLE',
+  heroStats: 'Registered Medical Technologist (RMT)',
+  subtitle: 'BSc Medical Technology · Registered Medical Technologist (RMT) · Patient-Centred Front Desk Support',
+  ratingText: '',
+  primaryCtaText: 'Contact the Front Desk',
+  secondaryCtaText: 'Chat on WhatsApp',
+  primaryCtaHref: '/book',
+  secondaryCtaHref: 'https://wa.me/971555736312',
+  bio: "Emiel's role starts the moment you contact the clinic — clear communication, careful appointment coordination, and a genuinely welcoming front desk experience from your very first message to the moment you're greeted in person.",
+  trustSignals: [
+    "BSc Medical Technology",
+    "Registered Medical Technologist (RMT)",
+    "ASCPI Certified",
+    "Speaks English & Filipino"
+  ],
+  floatingCardTitle: "CLINIC RECEPTIONIST",
+  floatingCardSubtitle: "First point of contact at Vedara Care JVC, Dubai.",
+  pageTitle: 'Clinic Receptionist at Vedara Care, JVC, Dubai.',
+  aboutLabel: "THE QUICK ANSWER",
+  aboutH2: 'About Emiel, in one paragraph.',
+  about: "Emiel is the Clinic Receptionist at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. She holds a BSc in Medical Technology from the College of Our Lady of Mt. Carmel, Philippines, and is a Registered Medical Technologist (RMT) registered with the Professional Regulation Commission, Philippines, as well as ASCPI Certified. She is not a treating clinician — her role covers front-desk operations, patient registration, appointment scheduling, day-to-day patient communication, and coordination between patients and the clinical team. Her Medical Technology background gives her a working understanding of basic medical terminology and clinical workflow, which helps her communicate accurately with both patients and doctors while maintaining confidentiality and a professional, welcoming manner. She speaks English and Filipino, and is often the first person patients and callers speak to when booking an appointment, asking a general question about the clinic, or arriving for a visit. Emiel coordinates scheduling across Vedara Care's Ayurveda, physiotherapy, and dermatology service lines, so patients booking for one department — or several — get a single, organised point of contact. Her documented areas of expertise cover front desk and reception management, patient communication and customer service, and clinic administrative support. Patients reach her by phone, WhatsApp, or in person at the JVC clinic.",
+  summaryTitle: "A welcoming, organised patient experience — from the first phone call to the front desk.",
+  summaryParagraph1: "Emiel is dedicated to making every patient's experience at Vedara Care feel professional, organised, and welcoming — starting from their very first interaction with the clinic, whether that's a phone call, a WhatsApp message, or walking through the door. Her role sits at the centre of the clinic's day-to-day patient experience, connecting patients with the right doctor or therapist at the right time.",
+  quote: "With a healthcare background, I am able to communicate effectively with patients, understand basic medical terminology, and coordinate smoothly with clinical teams while maintaining professionalism, confidentiality, and excellent customer service.",
+  aboutFooter: "BSc Medical Technology · Patient Communication & Coordination",
+  description: [
+    { title: 'Listening first — understanding what each patient needs', description: "Every patient who contacts the clinic has a different need — some are booking a first appointment, some are following up on an existing treatment plan, others simply have a question about a service or location. Emiel takes the time to understand what each caller or visitor actually needs before directing them, rather than treating every enquiry the same way. This foundational listening shapes how efficiently a patient is connected to the right person or appointment." },
+    { title: 'Healthcare-literate communication', description: "A Medical Technology background and RMT registration mean Emiel can follow basic medical terminology and understand, at a working level, how a clinical visit typically unfolds. This isn't used to diagnose or advise — that stays firmly with the clinical team — but it does mean she can communicate more precisely with patients about appointment types, preparation requirements, and what to expect, and coordinate more accurately with doctors and therapists behind the scenes." },
+    { title: 'Coordinated support across a multi-disciplinary clinic', description: "Vedara Care runs several service lines under one roof — Ayurveda, physiotherapy, dermatology, wellness, and home healthcare. Emiel coordinates scheduling and communication across these teams, so a patient booking a Panchakarma programme, a physiotherapy session, or a dermatology consultation experiences a single, organised point of contact rather than being passed between disconnected systems." },
+    { title: 'Confidentiality and professional standards', description: "Handling patient information — appointment details, insurance documents, basic health context passed on for scheduling purposes — requires discretion. Emiel maintains the same standards of confidentiality and professionalism expected throughout a DHA-licensed medical clinic, whether she's speaking with a patient in person, on the phone, or over WhatsApp." },
+    { title: 'Consistent follow-through', description: "Booking an appointment is rarely the end of the interaction. Emiel follows through on rescheduling requests, confirms appointment details ahead of a visit, and helps patients understand next steps after a consultation — aiming for the kind of consistent, dependable front-desk experience that makes a multi-service clinic feel easy to navigate." }
+  ],
+  specialtiesList: [
+    { number: '01', title: 'Front Desk & Reception Management', description: 'Ensuring a smooth, welcoming, and organised experience for every patient entering the clinic — from the first greeting on arrival to managing the flow of the waiting area during busy periods. This includes confirming appointment details, verifying registration information, and making sure patients know roughly how long they may wait and what to expect next. A calm, organised front desk sets the tone for the rest of a patient\'s visit, particularly for first-time patients unfamiliar with the clinic\'s layout or process.', related: 'Core Strength: Patient Registration · Appointment Scheduling' },
+    { number: '02', title: 'Patient Communication & Customer Service', description: 'Providing clear, professional, and compassionate communication to help patients with bookings, general questions, and day-of-visit needs — whether that\'s over the phone, on WhatsApp, or face-to-face at the clinic. This covers explaining appointment types and what to bring, answering questions about clinic hours and location, and following up with patients who need to reschedule or confirm a visit. Consistent, patient-first communication is central to how Emiel approaches every interaction.', related: 'Core Strength: Patient Follow-Up · Appointment Coordination' },
+    { number: '03', title: 'Clinic Administrative Support', description: 'Coordinating with clinical teams across Vedara Care\'s Ayurveda, physiotherapy, and dermatology service lines, and managing patient records with the accuracy her Medical Technology background supports. This includes passing relevant scheduling information to doctors and therapists ahead of appointments, keeping registration and contact details up to date, and supporting the administrative side of a multi-disciplinary clinic running several service lines under one roof.', related: 'Core Strength: Records Management · Healthcare-Literate Coordination' }
+  ],
+  specialtiesLabel: 'AREAS OF EXPERTISE',
+  specialtiesTitle: "Emiel's documented areas of expertise at our JVC clinic.",
+  specialtiesSubtitle: "Emiel's role covers 3 genuine areas, focused on providing an organised, welcoming, and efficient experience for everyone who calls, messages, or walks into the clinic.",
+  specialtiesFooter: "",
+  credentialsTitle: 'Emiel\'s qualifications, credentials, and professional background.',
+  education: [
+    'BSc, Medical Technology — College of Our Lady of Mt. Carmel, Philippines',
+    'Registered Medical Technologist (RMT), Professional Regulation Commission, Philippines',
+    'ASCPI Certified',
+    'DHA Eligibility',
+    'Clinic Receptionist, Vedara Care Polyclinic, JVC, Dubai'
+  ],
+  languagesSpoken: ['English', 'Filipino'],
+  professionalMemberships: [
+    'Professional Regulation Commission (Philippines) — Registered Medical Technologist'
+  ],
+  certifications: [
+    'ASCPI Certified',
+    'Registered Medical Technologist (RMT)'
+  ],
+  conditionsTitle: 'Patient-Centred Clinic Support',
+  conditionsTreated: {
+    subtitle: 'How Emiel supports your visit to our JVC clinic. Comprehensive front-desk support across booking, registration, coordination, and follow-up for every department at the JVC clinic.',
+    footer: 'For clinical questions about a specific condition or treatment, see our doctor pages or Ayurveda Clinic JVC ',
+    categories: [
+      {
+        category: 'Booking & Registration',
+        conditions: [
+          { title: 'Appointment Booking & Scheduling', description: 'Helps patients book, reschedule, or confirm appointments across Vedara Care\'s Ayurveda, physiotherapy, and dermatology teams, matching patients to available slots and relevant doctors or therapists.' },
+          { title: 'New Patient Registration & Onboarding', description: 'Guides first-time patients through registration — collecting contact and Emirates ID details, explaining clinic processes, and setting expectations for their first visit.' },
+          { title: 'Arrival & Check-In', description: 'Manages patient check-in on arrival, confirms appointment details, and verifies insurance cards where applicable, so visits start smoothly and on time.' }
+        ]
+      },
+      {
+        category: 'Communication & Coordination',
+        conditions: [
+          { title: 'General Clinic Enquiries', description: 'First point of contact for questions about services, doctors, operating hours, pricing enquiries, and directions to the JVC clinic — by phone, WhatsApp, or in person.' },
+          { title: 'Coordination With Clinical Teams', description: 'Passes relevant patient information to the treating doctor or therapist ahead of a visit, and follows up on any post-visit scheduling needs identified during a consultation.' },
+          { title: 'Rescheduling & Follow-Up Coordination', description: 'Handles rescheduling and cancellation requests directly, and helps arrange follow-up appointments recommended by a doctor or therapist after a visit.' }
+        ]
+      },
+      {
+        category: 'Administration',
+        conditions: [
+          { title: 'Billing & Insurance Query Support', description: 'Assists with initial insurance card checks and directs specific coverage questions to the appropriate team.' }
+        ]
+      }
+    ]
+  },
+  consultation: {
+    label: "YOUR CONSULTATION",
+    title: "What to expect when you contact or arrive at our JVC clinic.",
+    description: "Understanding how the front desk supports your visit helps you know what to expect at each stage — from your first message to your follow-up booking.",
+    phases: [
+      {
+        phase: 'Phase 1',
+        time: 'ON ARRIVAL',
+        title: 'Welcome & Registration',
+        description: 'When patients arrive at the JVC clinic, Emiel greets them at the front desk, confirms their appointment details, and manages registration — including verifying Emirates ID details and checking insurance cards where applicable. For first-time patients, this often includes a short explanation of the registration paperwork and what to expect during their visit, helping reduce any uncertainty before they see their doctor or therapist.'
+      },
+      {
+        phase: 'Phase 2',
+        time: 'BEFORE YOUR VISIT',
+        title: 'Appointment Coordination',
+        description: 'Before a visit, Emiel handles the practical side of booking — confirming available appointment slots across the clinic\'s Ayurveda, physiotherapy, and dermatology teams, sending confirmation details, and answering questions about what a particular appointment involves or what to bring. Rescheduling requests are handled directly with her wherever possible, to keep the process simple for patients.'
+      },
+      {
+        phase: 'Phase 3',
+        time: 'DURING YOUR VISIT',
+        title: 'Support During Your Visit',
+        description: 'During the visit itself, Emiel coordinates with the clinical team so appointments run on schedule, manages the flow of the waiting area, and remains available to answer general questions while patients wait. For patients moving between two appointments in the same visit — for example, an Ayurveda consultation followed by physiotherapy — she helps coordinate the timing between departments.'
+      },
+      {
+        phase: 'Phase 4',
+        time: 'AFTER YOUR VISIT',
+        title: 'Follow-Up Coordination',
+        description: 'After a consultation, Emiel assists with booking follow-up appointments as recommended by the treating doctor or therapist, and handles any administrative follow-through needed — such as confirming a rescheduled date or passing on a message to the clinical team on a patient\'s behalf.'
+      }
+    ],
+    bringBox: {
+      label: "PLEASE BRING TO YOUR APPOINTMENT",
+      items: [
+        "Emirates ID or passport",
+        "Insurance card if applicable",
+        "Referral letter if referred by another doctor",
+        "Previous medical reports relevant to your visit",
+        "Appointment confirmation (SMS/WhatsApp/email)",
+        "A contact number where confirmation messages can reach you"
+      ]
+    }
+  },
+  pricing: {
+    label: "TRANSPARENT PRICING",
+    title: "Contacting the Front Desk.",
+    consultationRows: [
+      { type: "Front Desk Assistance (Booking, Enquiries)", duration: "-", price: "Free" }
+    ],
+    insurance: {
+      title: "Contacting the Front Desk — No Consultation Fee",
+      paragraph1: "There is no charge to contact the front desk for booking, general questions, or rescheduling. Consultation and treatment fees apply only to clinical appointments and are listed on each doctor's or treatment's own page — for example, the pricing details on the Ayurveda Clinic JVC and individual doctor pages.",
+      paragraph2: ""
+    },
+    treatmentCosts: {
+      title: "Insurance Information",
+      description: "Emiel can carry out an initial insurance card check and confirm whether a patient's provider is one the clinic works with directly. Direct billing partners include Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife."
+    }
+  },
+  location: {
+    bgColor: "bg-white",
+    label: "VISIT US",
+    title: "Where Emiel works — Vedara Care JVC clinic.",
+    address: "Al Barsha South Fourth, Binghatti Azure, Shop-4, Jumeirah Village Circle (JVC), Dubai",
+    phone: "+971 55 573 6312",
+    whatsapp: "+971 55 573 6312",
+    email: "booking@vedaracare.ae",
+    hours: "Monday–Sunday, 9:00 am–10:00 pm",
+    landmarks: [
+      "Walking distance from Circle Mall",
+      "3 minutes from FIVE Jumeirah Village Hotel",
+      "5 min from JSS Private School",
+      "Free patient parking available",
+      "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
+    ],
+    description: "Emiel is based at the front desk of Vedara Care Polyclinic JVC, coordinating patient flow across the clinic's Ayurveda, physiotherapy, and dermatology services. Whether you're visiting for the first time or returning for a follow-up, she's typically the first person you'll meet — helping you check in smoothly and pointing you toward the right consultation room.",
+    buttonText: "Contact the Front Desk",
+    buttonHref: "/book",
+    mapAlt: "Vedara Care Polyclinic location in Jumeirah Village Circle",
+    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus'
+  },
+  faqs: {
+    label: "COMMON QUESTIONS",
+    sidebarLinks: [
+      { text: "Browse our other doctors", href: "/doctors/" },
+      // { text: "See the JVC clinic page", href: "/wellness-clinic-jvc/" }
+    ],
+    title: "What patients ask about Emiel and the front desk.",
+    description: "For related topics, explore:",
+    buttonText: "Ask the Team",
+    buttonHref: "https://wa.me/971555736312",
+    faqs: [
+      { question: "Who is Emiel?", answer: "Emiel is the Clinic Receptionist at Vedara Care's JVC clinic, responsible for front-desk operations, patient communication, and appointment coordination." },
+      { question: "What are Emiel's qualifications?", answer: "She holds a BSc in Medical Technology and is a Registered Medical Technologist (RMT) with the Professional Regulation Commission, Philippines, and is ASCPI Certified." },
+      { question: "Is Emiel a doctor?", answer: "No. Emiel is an administrative and patient relations professional, not a treating clinician. For clinical questions, see our doctor pages." },
+      { question: "Where does Emiel work?", answer: "At Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall." },
+      { question: "What languages does Emiel speak?", answer: "English and Filipino." },
+      { question: "Can Emiel help me book an appointment with a specific doctor?", answer: "Yes — she coordinates appointment booking and scheduling across the clinic's Ayurveda, physiotherapy, and dermatology teams." },
+      { question: "Can I message the front desk on WhatsApp?", answer: "Yes, you can contact the clinic on WhatsApp for booking and general enquiries." },
+      { question: "Does Emiel handle insurance questions?", answer: "She assists with initial insurance card verification; specific coverage questions are directed to the appropriate team." },
+      { question: "What should I bring to my appointment?", answer: "Emirates ID or passport, insurance card if applicable, any referral letter, and relevant previous medical reports." },
+      { question: "Is Emiel DHA licensed?", answer: "Her profile lists DHA Eligibility. She is in an administrative, non-clinical role." },
+      { question: "How do I reach the clinic?", answer: "Call +971 55 573 6312 or message on WhatsApp." },
+      { question: "What are the clinic's operating hours?", answer: "Vedara Care JVC clinic is open Monday to Sunday, 9:00 am to 10:00 pm. Emiel and the front desk team are available throughout these hours to assist with bookings and enquiries." },
+      { question: "Can Emiel help me book appointments across multiple departments?", answer: "Yes. Since Vedara Care runs Ayurveda, physiotherapy, dermatology, and wellness services at the same JVC clinic, Emiel can coordinate bookings across more than one department in a single visit where scheduling allows." },
+      { question: "Does Emiel handle rescheduling requests?", answer: "Yes, rescheduling and cancellation requests are handled through the front desk — by phone, WhatsApp, or in person — and Emiel coordinates these directly with the relevant department." },
+      { question: "Is there a fee to speak with the front desk?", answer: "No — contacting the front desk for booking, general questions, or rescheduling does not carry a consultation fee. Fees apply only to clinical consultations and treatments." },
+      { question: "How far in advance should I book an appointment?", answer: "Specific booking lead times vary by department and doctor availability; contact the front desk directly for the most current availability." },
+      { question: "Can I register as a new patient over WhatsApp?", answer: "Initial registration steps can often be started over WhatsApp, though some documentation such as Emirates ID or insurance verification may need to be completed in person — confirm the current process with the front desk." },
+      { question: "Does the clinic have parking?", answer: "Yes — free patient parking is available at the JVC clinic." },
+      { question: "How close is the clinic to Circle Mall?", answer: "The clinic is walking distance from Circle Mall, JVC, making it easy to combine a visit with other errands in the area." },
+      { question: "What is Emiel's role compared to the clinic's doctors?", answer: "Emiel manages the administrative and patient relations side of a visit — bookings, registration, and coordination — while diagnosis and treatment are handled by Vedara Care's DHA-licensed doctors and therapists. For clinical questions, she'll direct you to the right specialist." }
+    ]
+  },
+  cta: {
+    bgColor: "bg-[#FAF6EF]",
+    label: "READY?",
+    title: "Your visit to Vedara Care starts with a warm welcome.",
+    description: "Whether you're booking your first appointment, coordinating a visit across multiple services, rescheduling an existing booking, or simply have a question about the clinic, Emiel is your first point of contact at our JVC clinic. She'll help match you to the right appointment, confirm what to bring, and make sure your visit runs smoothly from check-in to check-out. Reach out by phone or WhatsApp, or visit us directly — walking distance from Circle Mall.",
+    button1Text: "Contact the Front Desk",
+    button1Href: "/book",
+    button2Text: "Chat on WhatsApp",
+    button2Href: "https://wa.me/971555736312",
+    bullets: [
+      "BSc Medical Technology",
+      "RMT Certified",
+      "ASCPI Certified",
+      "English & Filipino",
+      "Walking distance from Circle Mall, JVC",
+      "No fee to contact the front desk"
+    ]
+  },
+  reviews: {
+    bgColor: "bg-[#FAF6EF]",
+    cardBgColor: "white",
+    isDarkText: true,
+    useKneeStyle: true,
+    label: "PATIENT VOICES",
+    title: "Real patient experiences with Emiel at our JVC clinic.",
+    description: "",
+    items: [
+      {
+        quote: "Emiel was very welcoming and helpful when I first contacted Vedara Care. She explained the appointment process clearly, helped me find the right department, and made the check-in process easy. I appreciated how patiently she listened to my questions and coordinated with the clinic team when I needed more information.",
+        author: "Female patient",
+        details: "First Clinic Visit · JVC Dubai"
+      },
+      {
+        quote: "I had a very smooth experience from booking to arriving at the clinic. Emiel was professional, polite, and easy to communicate with. She helped coordinate my appointment and made sure I knew where to go when I arrived. The reception experience was organised and comfortable.",
+        author: "Male patient",
+        details: "Appointment Coordination · Dubai"
+      },
+      {
+        quote: "Emiel made my visit to Vedara Care feel much less stressful. I had several questions before my appointment and she patiently helped with the administrative details and connected me with the appropriate team. She was friendly, professional, and genuinely helpful throughout my visit.",
+        author: "Female patient",
+        details: "Patient Relations · JVC Dubai"
+      }
+    ]
+  },
+  relatedPages: {
+    label: 'EXPLORE',
+    title: 'Explore our clinic and healthcare team.',
+    linkText: 'All our practitioners',
+    linkHref: '/doctors/',
+    columns: 4,
+    pages: [
+      { title: 'All our doctors', description: 'Meet the clinical team at Vedara Care JVC — Ayurveda, physiotherapy, and dermatology specialists Emiel coordinates appointments for.', href: '/doctors/' },
+      { title: 'Wellness Clinic JVC', description: 'Multi-disciplinary wellness services at our JVC clinic, all bookable through the front desk.', href: '/wellness-clinic-jvc/' },
+      { title: 'Ayurveda Clinic JVC', description: 'Comprehensive Ayurveda services and consultations, including pricing and treatment details.', href: '/ayurveda-clinic-jvc/' },
+      { title: 'Book a Consultation', description: 'Schedule your visit to Vedara Care directly online.', href: '/book/' }
+    ]
+  }
+};
+
+
+// =====================================================
+// JOHANNA BAUTISTA — FULL TEMPLATE DATA
+// =====================================================
+export const johannaBautistaData = {
+  name: 'Johanna Dianne U. Bautista',
+  firstName: 'Johanna',
+  lastName: 'Bautista',
+  heroBadge: 'FRONT DESK RECEPTIONIST · PATIENT CARE & OPERATIONS · JUMEIRAH VILLAGE CIRCLE',
+  heroStats: 'BS Medical Laboratory Science · Patient Care & Front Desk Specialist · Warm, Organized, Always One Step Ahead',
+  pageTitle: 'Johanna Dianne U. Bautista — Front Desk Receptionist at our JVC clinic, Dubai.',
+  image: '/images/johanna-bautista.jpeg',
+  alt: 'Johanna Dianne U. Bautista',
+  primaryCtaHref: '/book',
+  secondaryCtaHref: 'https://wa.me/971555736312',
+  primaryCtaText: 'Book an Appointment',
+  secondaryCtaText: 'Chat on WhatsApp',
+  bio: "Johanna is the welcoming face of Vedara Care Polyclinic, Jumeirah Village Circle (JVC) — often the very first point of contact for patients and clients, whether they reach out by phone, WhatsApp, or in person. With a background in medical laboratory science and hands-on experience in an aesthetic and wellness clinic environment, she brings both technical understanding and genuine warmth to every interaction, ensuring the front desk runs smoothly while every visitor feels cared for rather than simply processed. Filipino, fluent in English and Tagalog, and trained in patient-centred front desk care, she coordinates appointments across Vedara Care's multiple doctors and specialities, helping patients find the right practitioner without unnecessary back-and-forth.",
+  trustSignals: [
+    'Filipino — Trained in Patient-Centered Front Desk Care',
+    'Fluent in English & Tagalog',
+    'Background in Aesthetic & Wellness Clinic Operations',
+    'Appointment Coordination Across Multiple Doctors'
+  ],
+  floatingCard: {
+    title: 'FRONT DESK EXCELLENCE',
+    subtitle: "Filipino — trained in patient-centred front desk care, and often the first voice or face a patient encounters when reaching out to Vedara Care. Her combination of clinical academic background and genuine hospitality shapes the tone of a patient's very first impression of the clinic, well before they meet their doctor."
+  },
+  breadcrumb: [
+    { label: "Home", href: "/" },
+    { label: "Doctors & Team", href: "/doctors/" },
+    { label: "Johanna Dianne U. Bautista" }
+  ],
+  aboutLabel: "THE QUICK ANSWER",
+  aboutH2: "Warm, organized, and always one step ahead.",
+  about: "Johanna Dianne U. Bautista is a Receptionist at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, where she manages the front desk, coordinates appointments across multiple doctors, and supports patients from their very first inquiry through to their visit and any follow-up afterwards. A graduate of Lyceum of the Philippines University – Batangas with a degree in Medical Laboratory Science, she combines a clinical understanding of patient needs with genuine hospitality — a combination that sets her apart from a typical front-desk role and shapes how she communicates with patients who may be anxious, unfamiliar with the clinic, or unsure which doctor they need. Her prior experience in an aesthetic and wellness clinic setting gives her working knowledge of aesthetic and beauty treatments, helping her guide clients accurately from their first phone call or walk-in, rather than simply taking a message. Fluent in English and Tagalog, she is a reliable point of contact for scheduling, general clinic questions, insurance coordination queries, and check-in throughout a patient's visit, and remains the patient's point of contact for anything administrative once their care with a doctor is underway.",
+  aboutFooter: "",
+  summaryLabel: "ABOUT JOHANNA",
+  summaryTitle: "Warm, organized, and always one step ahead.",
+  summaryParagraph1: "Johanna brings a distinctive combination to the Vedara Care front desk: a medical laboratory science background, hands-on aesthetic and wellness clinic experience, and a genuinely warm, patient-first manner. Her role at our JVC clinic goes beyond scheduling — she is often the person shaping a patient's very first impression of the clinic, and the person patients return to for anything that isn't strictly clinical.",
+  description: [
+    {
+      title: "A clinical foundation behind the front desk",
+      description: "Johanna holds a degree in Medical Laboratory Science from Lyceum of the Philippines University, Batangas. This clinical academic background gives her a working understanding of patient needs and medical terminology that a purely administrative hire would not have, which shows up in how accurately she can direct patients to the right doctor or service, and in how comfortably she can discuss a patient's general concern before a formal consultation even begins."
+    },
+    {
+      title: "Real aesthetic and wellness clinic experience",
+      description: "She has prior hands-on experience in an aesthetic and wellness clinic setting, giving her practical familiarity with aesthetic and beauty treatments. This means she can offer meaningful initial guidance to clients asking about treatments, rather than simply taking a message for a doctor to call back — an important difference for patients researching options before they commit to booking."
+    },
+    {
+      title: "Coordinating care across multiple doctors",
+      description: "With experience coordinating appointments across multiple doctors, Johanna manages the practical side of a multi-disciplinary clinic — aligning patient needs with the right practitioner's schedule, and keeping bookings, confirmations, and cancellations organized so patients are seen without unnecessary delays. At a clinic offering Ayurveda, physiotherapy, general practice, and dermatology under one roof, this coordination role is central to how smoothly the whole patient journey runs."
+    },
+    {
+      title: "Genuine warmth as a working style",
+      description: "Beyond the administrative skill, patients consistently notice the personal warmth Johanna brings to each interaction — whether by phone, WhatsApp, or in person. At Vedara Care, this is treated as a core part of patient care, not separate from it, and it is often the detail patients remember most clearly about their first contact with the clinic."
+    },
+    {
+      title: "A steady presence throughout the visit",
+      description: "Johanna's involvement does not end once an appointment is booked. She remains the patient's point of contact through check-in, any administrative questions that come up during treatment, and follow-up scheduling — a continuity that lets doctors focus fully on clinical care."
+    }
+  ],
+  specialtiesBgColor: "#FFFFFF",
+  specialtiesCardBg: "#FBF7F1",
+  specialtiesLabel: "AREAS OF EXPERTISE",
+  specialtiesTitle: "What Johanna is known for.",
+  specialtiesSubtitle: "Every great patient-care professional has areas where she genuinely excels. At Vedara Care, Johanna is known for creating a warm, organized, and seamless experience for patients, from their very first inquiry through to check-out and any follow-up they need afterwards.",
+  specialtiesList: [
+    {
+      number: "01",
+      title: "Patient & Client Relations",
+      description: "Delivering friendly, professional, and personalized support to every patient and visitor — from their first phone call to their in-clinic visit. Her patient-centered approach reflects her background in medical laboratory science and her experience in an aesthetic and wellness clinic environment, helping her relate to patients with both empathy and practical understanding, particularly for those who are nervous about a first visit or unsure what to expect.",
+      related: "Patient-centered communication"
+    },
+    {
+      number: "02",
+      title: "Appointment & Schedule Management",
+      description: "With experience coordinating appointments across multiple doctors, Johanna helps manage bookings, confirmations, cancellations, and scheduling efficiently so patients are seen without unnecessary delays, and so each doctor's day runs on time. This includes balancing urgent requests against a full clinic schedule and communicating realistic wait times to patients.",
+      related: "Multi-doctor appointment coordination"
+    },
+    {
+      number: "03",
+      title: "Reception & Front Desk Operations",
+      description: "Keeping the daily rhythm of the clinic smooth — ensuring the waiting area, check-in process, patient flow, and handoffs to clinical staff all run without friction, so that clinical time is spent on patient care rather than administrative bottlenecks. This operational role is often invisible to patients when it works well, which is itself the goal.",
+      related: "Smooth front-desk coordination"
+    },
+    {
+      number: "04",
+      title: "Communication & Customer Service",
+      description: "Clear, respectful, and professional communication with patients, doctors, and staff while managing multiple requests at once, and helping patients understand the next steps in their visit — from what to bring to a first consultation to what happens after a treatment is completed.",
+      related: "English & Tagalog communication"
+    },
+    {
+      number: "05",
+      title: "Aesthetic & Wellness Services Guidance",
+      description: "Helping clients understand the aesthetic, beauty, and wellness treatments available at the clinic, drawing on real experience in an aesthetic and wellness clinic setting to provide initial guidance and connect clients with the right clinician for their concern, rather than leaving them to guess which doctor to book.",
+      related: "Aesthetic & wellness service knowledge"
+    },
+    {
+      number: "06",
+      title: "Multitasking & Problem Solving",
+      description: "Managing several responsibilities at once — inquiries, walk-ins, phone calls, and administrative tasks — with a calm, organized, and steady professionalism, making her a reliable point of contact throughout the patient journey even during busy clinic hours or when schedules change at short notice.",
+      related: "Calm, organized problem solving"
+    }
+  ],
+  credentialsTitle: "Where her care comes from.",
+  credentialsSubtitle: "We believe patients deserve to know who is coordinating their care — not just the doctors, but the team supporting them. Johanna's academic and professional background combines clinical science with real front-of-house healthcare experience, which is part of what distinguishes her role from a purely administrative one.",
+  education: [
+    "BS Medical Laboratory Science — Lyceum of the Philippines University, Batangas"
+  ],
+  certifications: [
+    "Front Desk & Reception — Aesthetic and Wellness Clinic Environment",
+    "Patient Coordination & Client Communication"
+  ],
+  languagesSpoken: [
+    "English (Fluent)",
+    "Tagalog (Fluent)"
+  ],
+  conditionsTitle: "PATIENT SUPPORT & SERVICES",
+  conditionsTreated: {
+    subtitle: "How Johanna supports patients at our JVC clinic serving Dubai. Johanna supports the patient journey from the first enquiry through appointment coordination, clinic arrival, and follow-up arrangements. As part of the Vedara Care front-desk team, she helps patients navigate the clinic's departments, understand the practical steps involved in booking a visit, and connect with the appropriate healthcare professional. Her role is focused on patient communication, reception, appointment coordination, service enquiries, and administrative support rather than clinical assessment or treatment.",
+    categories: [
+      {
+        category: "Appointment Support",
+        conditions: [
+          { title: "New Appointment Requests", description: "Johanna can assist patients who are contacting Vedara Care for the first time and help begin the appointment process with the appropriate department or practitioner." },
+          { title: "Appointment Scheduling", description: "She coordinates appointment requests across Vedara Care's different practitioners and services, helping patients find an available appointment that fits their requirements." },
+          { title: "Rescheduling & Cancellations", description: "If plans change, Johanna can assist with appointment rescheduling or cancellation requests according to clinic availability and applicable policies." },
+          { title: "Follow-Up Appointments", description: "She can help patients arrange follow-up appointments and coordinate the administrative details with the relevant practitioner or department." }
+        ]
+      },
+      {
+        category: "Patient Communication",
+        conditions: [
+          { title: "General Clinic Enquiries", description: "Johanna can assist with general questions about the clinic, available departments, appointment procedures, and practical information about visiting Vedara Care." },
+          { title: "Finding the Right Department", description: "Not sure whether your enquiry relates to Ayurveda, physiotherapy, dermatology, wellness, or another service? Johanna can help direct your enquiry to the appropriate department. Clinical suitability and treatment decisions are made by the relevant qualified healthcare professional." },
+          { title: "First-Visit Guidance", description: "For patients visiting Vedara Care for the first time, Johanna can explain the practical check-in process and help make the arrival experience straightforward." },
+          { title: "WhatsApp & Phone Enquiries", description: "Patients can contact the Vedara Care team through available phone and WhatsApp channels for appointment requests and general administrative questions." }
+        ]
+      },
+      {
+        category: "Front Desk & Reception",
+        conditions: [
+          { title: "Patient Check-In", description: "Johanna supports the reception process when patients arrive at the clinic, helping with the practical steps before they meet their practitioner." },
+          { title: "Reception Coordination", description: "She helps maintain an organised front desk and supports communication between patients, practitioners, and other members of the clinic team." },
+          { title: "Multi-Doctor Appointment Coordination", description: "With multiple departments and practitioners at Vedara Care, Johanna helps coordinate appointments and scheduling information across the clinic." },
+          { title: "Administrative Follow-Up", description: "For practical matters after an appointment, she can assist with general administrative questions and connect patients with the appropriate team member when further information is required." }
+        ]
+      },
+      {
+        category: "Aesthetic & Wellness Service Enquiries",
+        conditions: [
+          { title: "Initial Service Information", description: "Johanna's previous experience in an aesthetic and wellness clinic environment gives her familiarity with front-of-house enquiries related to aesthetic and wellness services. She can provide general administrative information and help connect patients with the appropriate practitioner for detailed treatment questions." },
+          { title: "Treatment Enquiry Coordination", description: "Patients interested in a particular service can contact the front desk to begin their enquiry and arrange a consultation with the relevant healthcare professional." },
+          { title: "Connecting Patients With Clinicians", description: "When an enquiry involves diagnosis, medical history, treatment suitability, medication, or other clinical decisions, Johanna directs the patient to the appropriate qualified healthcare professional." }
+        ]
+      },
+      {
+        category: "Patient Communication & Language Support",
+        conditions: [
+          { title: "English & Tagalog", description: "Johanna is fluent in English and Tagalog, allowing her to communicate comfortably with patients in both languages at the front desk." },
+          { title: "Patient-Centred Communication", description: "Her approach focuses on listening carefully to the patient's administrative needs, explaining the next practical step clearly, and avoiding unnecessary back-and-forth." },
+          { title: "Administrative Problem Solving", description: "From appointment changes to general enquiries, Johanna helps patients understand what needs to happen next and connects them with the right member of the Vedara Care team when required." }
+        ]
+      }
+    ],
+    footer: "Johanna's role is non-clinical. She does not independently diagnose conditions, prescribe medication, recommend treatment, or determine whether a medical or aesthetic procedure is clinically appropriate. These decisions are made by the relevant qualified healthcare professional."
+  },
+  consultation: {
+    label: "PATIENT EXPERIENCE",
+    title: "A front-desk experience built around you.",
+    description: "What to expect when you call, WhatsApp, or walk into Vedara Care Polyclinic — a step-by-step look at how Johanna supports your visit from start to finish.",
+    phases: [
+      {
+        phase: "Step 1",
+        time: "",
+        title: "A Warm First Contact",
+        description: "Whether by phone, WhatsApp, or in person, Johanna makes sure your first interaction with the clinic feels personal, not transactional. Questions are answered directly where she can, and passed to the right person when they need clinical input, so you're never left waiting without a clear next step."
+      },
+      {
+        phase: "Step 2",
+        time: "",
+        title: "Clear Guidance on Appointments & Services",
+        description: "She'll help you find the right appointment slot and the right doctor, and can answer initial questions about treatments offered at the clinic, drawing on her own aesthetic and wellness clinic background to give you a realistic sense of what a first visit will involve."
+      },
+      {
+        phase: "Step 3",
+        time: "",
+        title: "Smooth Check-In",
+        description: "On the day of your visit, Johanna manages your check-in at the Vedara Care front desk so you're seen on time, with any paperwork or details sorted in advance where possible, minimising the time between arrival and seeing your doctor."
+      },
+      {
+        phase: "Step 4",
+        time: "",
+        title: "A Reliable Point of Contact Throughout",
+        description: "From rescheduling to follow-up questions, Johanna stays your point of contact for anything administrative — so your doctor's time stays focused on your care rather than logistics, and so you always know who to reach with a practical question."
+      }
+    ]
+  },
+  pricing: {
+    label: "TRANSPARENT PRICING",
+    title: "Appointment & administrative support with Johanna — pricing and insurance.",
+    description: "Johanna's role at Vedara Care is focused on front-desk support, appointment coordination, patient communication, and administrative assistance. Clinical consultation and treatment fees are determined by the relevant healthcare professional and service.",
+    consultationRows: [
+      { type: "Appointment booking support", duration: "15 min", price: "AED [X]" },
+      { type: "Appointment rescheduling", duration: "15 min", price: "AED [X]" },
+      { type: "Appointment cancellation", duration: "15 min", price: "AED [X]" },
+      { type: "General clinic enquiry", duration: "15 min", price: "AED [X]" },
+      { type: "Department guidance", duration: "15 min", price: "AED [X]" },
+      { type: "Follow-up appointment coordination", duration: "15 min", price: "AED [X]" },
+      { type: "Insurance enquiry support", duration: "15 min", price: "AED [X]" }
+    ],
+    insurance: {
+      title: "Insurance Information",
+      paragraph1: "Insurance coverage depends on your insurance provider, policy, benefits, eligibility, pre-authorisation requirements, and the specific consultation or treatment.",
+      paragraph2: "Johanna and the front-desk team can assist with the administrative side of insurance enquiries and help direct patients to the appropriate clinic team member for further information. Insurance coverage and direct billing are subject to confirmation and should not be assumed before your appointment."
+    },
+    treatmentCosts: {
+      title: "Consultation & Treatment Costs",
+      description: "Consultation and treatment charges are separate from front-desk and appointment support. The applicable price may vary depending on: Healthcare department, Practitioner, Consultation type, Treatment or procedure, Number of sessions, Individual treatment requirements, and Insurance coverage, where applicable. For the current price of a specific consultation or treatment, contact Vedara Care before booking so the relevant team can confirm the applicable fee."
+    },
+    footer: "Need Help With Pricing? If you are unsure which consultation to book or want to understand the administrative process before your visit, Johanna can help with your initial enquiry and connect you with the appropriate department. Phone / WhatsApp: +971 55 573 6312"
+  },
+  location: {
+    bgColor: "bg-white",
+    label: "VISIT US",
+    title: "Where Johanna welcomes patients — Vedara Care JVC clinic.",
+    address: "Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, Shop-4, Jumeirah Village Circle (JVC), Dubai, UAE",
+    phone: "+971 55 573 6312",
+    email: "booking@vedaracare.ae",
+    hours: "Monday – Sunday: 9:00 am to 10:00 pm",
+    landmarks: [
+      "Walking distance from Circle Mall",
+      "3 minutes from FIVE Jumeirah Village Hotel",
+      "5 min from JSS Private School",
+      "Free patient parking available"
+    ],
+    description: "Johanna is based at the Vedara Care Polyclinic front desk in Jumeirah Village Circle, coordinating patient flow across the clinic's Ayurveda, physiotherapy, general practice, and dermatology services — usually the first person you'll meet on arrival, and the person best placed to orient you around the clinic on your first visit.",
+    buttonText: "Book an Appointment",
+    buttonHref: "/book"
+  },
+  faqs: {
+    label: "FREQUENTLY ASKED",
+    title: "Common questions about our front desk.",
+    description: "Find out how Johanna can help you during your visit.",
+    buttonText: "Ask Johanna",
+    buttonHref: "https://wa.me/971555736312",
+    faqs: [
+      {
+        question: "Who do I speak to first when I arrive or call?",
+        answer: "Johanna is often the first point of contact at Vedara Care Polyclinic, whether you call, WhatsApp, or walk into the JVC clinic. She manages initial inquiries and directs you to the right doctor or service, so you don't need to know in advance exactly who you need to see."
+      },
+      {
+        question: "Can Johanna help me choose the right doctor or treatment?",
+        answer: "Yes. With a background in medical laboratory science and hands-on experience in an aesthetic and wellness clinic, Johanna can offer initial guidance on treatments and help match you with the right clinician, though clinical decisions and treatment recommendations remain with the treating doctor."
+      },
+      {
+        question: "What languages does Johanna speak?",
+        answer: "She is fluent in English and Tagalog, which helps her communicate clearly with a wide range of patients at the clinic."
+      },
+      {
+        question: "Can I reschedule or cancel through the front desk?",
+        answer: "Yes. Johanna coordinates appointment bookings, confirmations, and cancellations across the clinic's doctors, and can help you reschedule directly by phone or WhatsApp."
+      },
+      {
+        question: "Does Johanna have a clinical or medical background?",
+        answer: "Yes. She holds a degree in Medical Laboratory Science from Lyceum of the Philippines University, Batangas, and has prior experience working in an aesthetic and wellness clinic environment — a combination that informs how she communicates with patients."
+      },
+      {
+        question: "Is Johanna involved in treatments directly?",
+        answer: "No. Johanna's role is front desk, patient coordination, and administrative support — she is not a treating clinician. For treatment-specific questions, she will connect you with the appropriate doctor at the clinic."
+      },
+      {
+        question: "What is Johanna's professional background?",
+        answer: "Johanna is a BS Medical Laboratory Science graduate with hands-on experience in an aesthetic and wellness clinic environment prior to joining Vedara Care as Front Desk Receptionist."
+      },
+      {
+        question: "Does Johanna coordinate appointments across all the clinic's services?",
+        answer: "Yes. She coordinates bookings across Vedara Care's doctors and specialities, including Ayurveda, physiotherapy, general practice, and dermatology, helping patients navigate a multi-disciplinary clinic from a single point of contact."
+      },
+      {
+        question: "How do I reach the front desk directly?",
+        answer: "You can call +971 55 573 6312, message the clinic on WhatsApp, or speak with Johanna directly when you visit Vedara Care Polyclinic in JVC."
+      },
+      {
+        question: "Can I book an appointment online, or do I need to call?",
+        answer: "You can book online through the Vedara Care website, or reach Johanna directly by phone or WhatsApp if you'd prefer to talk through which doctor or appointment slot is right for you first."
+      },
+      {
+        question: "What if I'm not sure which department I need — Ayurveda, physiotherapy, or dermatology?",
+        answer: "This is exactly the kind of question Johanna is well placed to help with. Drawing on her medical laboratory science background and her experience in an aesthetic and wellness clinic, she can talk through your concern and direct you to the most relevant doctor or department at Vedara Care."
+      },
+      {
+        question: "Is Johanna based full-time at the JVC clinic front desk?",
+        answer: "Yes. Johanna is based at the Vedara Care Polyclinic front desk in Jumeirah Village Circle, where she manages reception and patient coordination for the clinic."
+      },
+      {
+        question: "Does Johanna assist with translation for Tagalog-speaking patients?",
+        answer: "Yes. As a fluent Tagalog speaker, Johanna can support Tagalog-speaking patients at the front desk, helping them navigate booking, check-in, and general questions about the clinic in their own language."
+      }
+    ]
+  },
+  relatedPages: {
+    label: 'EXPLORE',
+    title: 'Meet the rest of the Vedara Care clinical team.',
+    description: "Johanna coordinates appointments across each of the clinic's specialists — here's who you may be booking with.",
+    linkText: 'View all team members',
+    linkHref: '/doctors',
+    columns: 4,
+    pages: [
+      { title: 'Ayurveda Clinic JVC', description: 'Explore Ayurveda consultations and specialised Ayurvedic services available at Vedara Care Polyclinic, JVC, Dubai.', href: '/ayurveda-clinic-jvc' },
+      { title: 'Physiotherapy Clinic JVC', description: 'Discover physiotherapy services for musculoskeletal, neurological, sports, women\'s health, and rehabilitation needs at our JVC clinic.', href: '/physiotherapy-jvc' },
+      { title: 'Dermatology Clinic JVC', description: 'Explore dermatology and skin-health services available at Vedara Care, with appointments coordinated through our front desk team.', href: '/dermatology-clinic-jvc' },
+      { title: 'Wellness Clinic JVC', description: 'Explore integrated wellness services at Vedara Care, bringing together different healthcare and wellness disciplines under one clinic.', href: '/wellness-clinic-jvc' }
+    ]
+  },
+  cta: {
+    bgColor: "bg-[#FAF6EF]",
+    label: "READY?",
+    title: "Your first visit starts with a smooth and supportive welcome.",
+    description: "Whether you are booking your first appointment, arranging a follow-up, rescheduling a visit, or simply need help finding the right department at Vedara Care Polyclinic, Johanna Dianne U. Bautista is here to make the administrative side of your clinic experience easier. As a front-desk receptionist with a background in Medical Laboratory Science and experience in an aesthetic and wellness clinic environment, she helps patients navigate appointments and general clinic enquiries with clear, friendly communication.\n\nFrom your first phone call or WhatsApp message to your arrival at the reception desk, Johanna supports appointment coordination, patient check-in, department guidance, and general administrative enquiries. She communicates in English and Tagalog and works closely with the clinic team to help connect patients with the appropriate healthcare professional.",
+    button1Text: "Book an Appointment",
+    button1Href: "/book",
+    button2Text: "Chat on WhatsApp",
+    button2Href: "https://wa.me/971555736312",
+    bullets: [
+      "BS Medical Laboratory Science",
+      "Patient Care & Front Desk Specialist",
+      "Appointment & Patient Coordination",
+      "English & Tagalog",
+      "Aesthetic & Wellness Clinic Experience",
+      "JVC, Dubai"
+    ]
+  },
+  reviews: {
+    bgColor: "bg-[#FAF6EF]",
+    cardBgColor: "white",
+    isDarkText: true,
+    useKneeStyle: true,
+    label: "PATIENT VOICES",
+    title: "Real patient experiences with Johanna at Vedara Care JVC.",
+    description: "",
+    items: [
+      { quote: "“Warm and welcoming from the start.” Johanna made my first visit to Vedara Care feel comfortable from the moment I arrived. She greeted me warmly, explained the check-in process clearly, and helped me understand where to go. Her friendly communication and organised approach made the experience feel simple, professional, and welcoming.", author: "Female Patient", details: "First Clinic Visit · JVC Dubai" },
+      { quote: "“Very helpful with my appointment.” I contacted Vedara Care because I was unsure which department I needed. Johanna listened patiently, helped clarify my enquiry, and guided me through the appointment process. She was polite, organised, and professional throughout our conversation. The booking was straightforward, and I appreciated having someone helpful to speak with.", author: "Male Patient", details: "Appointment Coordination · Dubai" },
+      { quote: "“Kind and professional at reception.” Johanna was welcoming and professional throughout my visit to Vedara Care. She helped with my appointment details, answered my general questions, and made the reception process easy to understand. I appreciated her calm and friendly manner, especially as it was my first visit. She created a positive first impression.", author: "Female Patient", details: "Patient Support · JVC Dubai" }
     ]
   }
 };

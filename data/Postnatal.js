@@ -11,7 +11,7 @@ export const postnataljvcHero = {
     "Integrated multi-disciplinary support",
     "Home delivery across Dubai"
   ],
-  image: "",
+  image: "/images/postnatal-care-ayurveda-dubai-sutika-paricharya-vedara-care.webp",
   alt: "Postnatal Ayurvedic care Sutika Paricharya Vedara Care JVC Dubai",
   floatingCard: {
     title: "AUTHENTIC SUTIKA PARICHARYA, NOT SPA MASSAGE",
@@ -62,7 +62,7 @@ export const postnataljvcMechanism1 = {
   rightContent: {
     label: "INTEGRATION WITH MODERN CARE",
     description: "Authentic Sutika Paricharya at DHA-licensed clinic integrates with modern postnatal medical care rather than replacing it. Modern medical postpartum check-ups continue. Medications and modern treatments are coordinated with Ayurvedic care.",
-    image: "/images/ayurveda/postnatal-ayurveda-dubai-hero.jpg",
+    image: "/images/ayurveda-postnatal-ayurveda-dubai-hero.webp",
     alt: "Traditional postnatal Ayurvedic care Dr Ansiya Vedara Care JVC"
   }
 };
@@ -451,7 +451,7 @@ export const postnataljvcFaqs = {
     },
     {
       question: "How do I book postnatal care consultation?",
-      answer: "Three ways: WhatsApp +971 4 XXX XXXX for fastest response including same-day availability; call +971 4 XXX XXXX 9AM-9PM seven days a week; book online. Ideally book during pregnancy (30+ weeks) for programme planning."
+      answer: "Three ways: WhatsApp +9714555736312 for fastest response including same-day availability; call +971 4 XXX XXXX 9AM-9PM seven days a week; book online. Ideally book during pregnancy (30+ weeks) for programme planning."
     }
 
   ],
@@ -465,8 +465,8 @@ export const postnataljvcLocation = {
   title: "We come to you across Dubai. Or visit us at JVC.",
   description: "Most postnatal care happens at your home across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Our doctors and trained female therapists travel to you with all supplies and equipment. Clinic visits are limited to: initial consultation (if you prefer to come in), 3‑5 doctor reviews during the programme, and pregnancy planning consultations. The clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Free patient parking.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
-  phone: "+971 55 573 6312",
-  whatsapp: "+971 55 573 6312",
+  phone: "+971 4555736312",
+  whatsapp: "+971 4555736312",
   whatsappMessage: "Hi%2C%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
   hours: "Sun‑Sat: 9:00 am to 10:00 pm",
   landmarks: [
@@ -641,7 +641,7 @@ export const postnataljvcCareTeam = {
     description: "Female practitioner providing comprehensive Sutika Paricharya consultations, programme design, and ongoing care coordination. Cultural competence across Dubai's diverse maternal community.",
     linkText: "View Dr. Ansiya's full profile →",
     link: "/doctors/dr-ansiya-ayurveda/",
-    image: "/images/ayurveda/dr-ansiya.jpg",
+    image: "/images/dr-ansiya-ayurveda-jvc.webp",
     alt: "Female postnatal care team Dr Ansiya Vedara Care JVC"
   },
   teamMembers: [
