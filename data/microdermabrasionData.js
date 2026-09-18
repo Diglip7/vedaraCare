@@ -23,7 +23,7 @@ export const microdermabrasionHero = {
     title: "Surface Exfoliation",
     subtitle: "Microdermabrasion works on the outermost layer of the skin, gently lifting away dead cells and surface debris to reveal a smoother, fresher-looking layer underneath."
   },
-  image: "/images/microdermabrasion-consultation-vedara-care-jvc.jpg",
+  image: "/images/microdermabrasion-consultation-vedara-care-jvc.webp",
   alt: "Patient consultation before microdermabrasion treatment at Vedara Care in JVC",
   caption: "A consultation and skin assessment precedes every microdermabrasion session."
 };
@@ -43,7 +43,7 @@ export const microdermabrasionExplanation = {
     "The intensity is adjustable, which allows the treatment to be tailored to different skin types and sensitivities, from a light polish to a more thorough exfoliation.",
     "It is a professional treatment, not a one-size-fits-all procedure. The pressure, the number of passes and the areas treated are all decided based on how the skin responds during the session."
   ],
-  image: "/images/microdermabrasion-equipment-vedara-care.jpg",
+  image: "/images/microdermabrasion-equipment-vedara-care.webp",
   alt: "Microdermabrasion equipment in use during a clinic treatment session",
   caption: "Professional-grade equipment is used for every session."
 };
@@ -60,7 +60,7 @@ export const microdermabrasionHowItWorks = {
     { title: "Step 5 — Skin soothing and hydration", description: "A calming serum or moisturiser may be applied afterward to support the skin barrier." },
     { title: "Step 6 — Post-treatment advice", description: "The patient is given guidance on what to expect over the following days and how to care for the skin at home." }
   ],
-  image: "/images/skin-assessment-microdermabrasion-jvc.jpg",
+  image: "/images/skin-assessment-microdermabrasion-jvc.webp",
   alt: "Skin assessment being carried out before microdermabrasion treatment",
   caption: "A thorough skin assessment helps determine treatment suitability and intensity."
 };
@@ -80,8 +80,8 @@ export const microdermabrasionTypes = {
     }
   ],
   footer: "Neither approach is universally superior — the right choice depends on the patient's skin, the treatment goal and the equipment available at the clinic. If you're curious which method suits your skin, that's a question worth raising during your consultation.",
-  image: "/images/microdermabrasion-exfoliation-procedure-jvc.jpg",
-  alt: "Diamond-tip microdermabrasion device being used during a treatment session",
+  // image: "/images/microdermabrasion-exfoliation-procedure-jvc.jpg",
+  // alt: "Diamond-tip microdermabrasion device being used during a treatment session",
   caption: "The device gently exfoliates the outer layer of the skin."
 };
 
@@ -99,7 +99,7 @@ export const microdermabrasionAppointment = {
     { title: "Aftercare instructions", description: "You'll be given practical guidance to follow over the next several days, particularly around sun protection." }
   ],
   footer: "Appointment length can vary from patient to patient, so it's best to confirm timing directly with the clinic when booking rather than assume a fixed duration.",
-  image: "/images/professional-microdermabrasion-treatment-jvc.jpg",
+  image: "/images/professional-microdermabrasion-treatment-jvc.webp",
   alt: "Professional microdermabrasion treatment at Vedara Care in JVC",
   caption: "Microdermabrasion is delivered using a professional handheld device."
 };
@@ -330,7 +330,7 @@ export const microdermabrasionWhyJvc = {
   label: "LOCAL ACCESSIBILITY",
   title: "Why JVC Patients May Prefer a Local Provider",
   description: "For residents and professionals based in Jumeirah Village Circle, having a skin clinic within the same community removes a lot of the friction that can come with booking a treatment across town. The same applies to patients living or working nearby in Al Barsha South, Jumeirah Village Triangle, Dubai Sports City, Motor City and other neighboring communities, where a JVC-based clinic can be a genuinely convenient option rather than a cross-city commitment. Local access matters particularly for patients considering a short series of sessions, since it's easier to keep appointments consistent when the clinic is close to home or work.",
-  image: "/images/vedara-care-clinic-reception-jvc-dubai.jpg",
+  image: "/images/vedara-care-clinic-reception-jvc-dubai.webp",
   alt: "Reception area at Vedara Care Polyclinic in JVC, Dubai",
   caption: "Vedara Care Polyclinic, located in Jumeirah Village Circle, Dubai."
 };

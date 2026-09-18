@@ -84,7 +84,7 @@ const practitioners = [
     name: 'Aesthetician Arfah Owais',
     specialty: 'DHA Licensed Aesthetician',
     focus: 'Advanced Facial Therapy & Skincare',
-    image: '/images/arfah-owais-aesthetician.webp',
+    image: '/images/arfah-owais-portrait.webp',
     alt: 'Aesthetician Arfah Owais, DHA Licensed Aesthetician at Vedara Care Polyclinic, JVC Dubai',
     slug: 'arfah-owais',
     url: '/doctors/arfah-owais'

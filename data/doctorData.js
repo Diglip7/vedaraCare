@@ -2035,12 +2035,12 @@ export const drSanjida = {
 // AESTHETICIAN ARFAH OWAIS — FULL TEMPLATE DATA
 // =====================================================
 export const arfahOwaisTemplate = {
-  name: 'Aesthetician Arfah Owais',
-  firstName: 'Dr. Arfah',
+  name: 'Meet Arfah Owais — DHA-licensed aesthetician at our JVC clinic in Dubai.',
+  firstName: 'Meet Arfah Owais DHA-licensed aesthetician at our JVC clinic in Dubai.',
   title: 'DHA Licensed Aesthetician | CIBTAC-UK Diploma Holder | NCLC Certified | PMU Certified | Advanced Skin Treatments | Luxury Skin Care.',
-  image: '/images/arfah-owais-aesthetician.webp',
-  alt: 'Aesthetician Arfah Owais',
-  heroBadge: 'Aesthetician · Advanced Facial Therapy & Aesthetic Skincare',
+  image: '/images/arfah-owais-portrait.webp',
+  alt: 'Meet Arfah Owais — DHA-licensed aesthetician at our JVC clinic in Dubai.',
+  heroBadge: 'Our Team · Aesthetician · JVC',
   heroStats: '8+ Years Clinical Experience',
   subtitle: 'Advanced Facial Therapy & Aesthetic Skincare',
   ratingText: '',
@@ -2048,7 +2048,7 @@ export const arfahOwaisTemplate = {
   secondaryCtaText: 'Chat on WhatsApp',
   primaryCtaHref: '/book',
   secondaryCtaHref: 'https://wa.me/971555736312?text=' + encodeURIComponent("Hi, I'd like to book an appointment with Aesthetician Arfah Owais."),
-  bio: 'With 8+ years of hands-on clinical experience, specialising in advanced facial therapy, skincare treatment planning and aesthetic skincare. Committed to continuous professional development while maintaining the highest standards of patient safety, hygiene and DHA-compliant practice.',
+  bio: 'Eight-plus years of clinical experience. CIBTAC-UK diploma. NCLC and PMU certified. Advanced facial rejuvenation, corrective skin treatments, and device-based aesthetic care — delivered inside a proper DHA-licensed multi-specialty polyclinic in Jumeirah Village Circle, walking distance from Circle Mall.',
   trustSignals: [
     "DHA Licensed Aesthetician",
     "CIBTAC-UK Diploma Holder",
@@ -2057,7 +2057,7 @@ export const arfahOwaisTemplate = {
   ],
   floatingCardTitle: "DHA LICENSED AESTHETICIAN",
   floatingCardSubtitle: "In-clinic appointments at Vedara Care Polyclinic JVC, Dubai. Near Circle Mall.",
-  pageTitle: 'Aesthetician Arfah Owais',
+  pageTitle: '',
   aboutH2: 'About Arfah, in one paragraph.',
   about: "Aesthetician Arfah Owais is a DHA Licensed Aesthetician at Vedara Care Polyclinic in JVC, Dubai, with 8+ years of hands-on experience in advanced facial therapy, aesthetic skincare, and personalized treatment planning. Her professional expertise includes facial rejuvenation, skin resurfacing, pigmentation management, skin hydration, acne-scar care, and skin texture refinement. Arfah takes a patient-focused approach, assessing individual skincare concerns before recommending suitable treatment options. Her professional training and certifications support her commitment to safe, hygienic, and DHA-compliant aesthetic care. She provides personalized skincare guidance and treatment protocols designed around each patient's skin needs and aesthetic goals.",
   aboutLabel: "PROFILE SUMMARY",
