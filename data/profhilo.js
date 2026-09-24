@@ -436,7 +436,7 @@ export const profhiloFAQ = {
     buttonHref: "/book",
     sidebarLinks: [
         { label: "Skin Boosters in JVC", href: "/treatments/skin-boosters-jvc" },
-        { label: "HydraFacial in JVC", href: "/hydrafacial-jvc" },
+        { label: "HydraFacial in JVC", href: "/treatments/hydrafacial-jvc" },
         { label: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc" }
     ],
     faqs: [
@@ -550,7 +550,7 @@ export const profhiloLaserPeelRelatedPages = {
     title: "Related Dermatology Services",
     pages: [
         { title: "Skin Boosters in JVC", href: "/treatments/skin-boosters-jvc", description: "An injectable skin-quality option that may be considered when hydration and overall skin appearance are key concerns." },
-        { title: "HydraFacial in JVC", href: "/hydrafacial-jvc", description: "A non-invasive facial approach combining cleansing, exfoliation and hydration depending on the treatment protocol." },
+        { title: "HydraFacial in JVC", href: "/treatments/hydrafacial-jvc", description: "A non-invasive facial approach combining cleansing, exfoliation and hydration depending on the treatment protocol." },
         { title: "Microneedling in JVC", href: "/treatments/microneedling-jvc", description: "A collagen-focused skin treatment that may be considered for selected concerns involving texture and skin rejuvenation." },
         { title: "RF Microneedling in JVC", href: "/treatments/rf-microneedling-jvc", description: "A treatment combining microneedling with radiofrequency energy for selected skin texture and tightening concerns." },
         { title: "LED Light Therapy in JVC", href: "/treatments/led-light-therapy-jvc", description: "A non-invasive light-based treatment that may complement selected skin-rejuvenation programs." },

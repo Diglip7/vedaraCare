@@ -380,13 +380,24 @@ export const carbonLaserPeelTeam = {
   gridColumns: "grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto",
   team: [
     {
-      name: "Dermatology Specialist Team",
-      qualification: "DHA-Licensed Specialists",
-      description: "Our approach is to talk through your specific skin concerns and goals first, and only then agree on whether Carbon Laser Peel — or a different treatment entirely — is the right fit. You can review our full range of skin services through our dermatology clinic in JVC and skin clinic in JVC pages, or see our dermatology team’s profiles before booking.<br/><br/><em class='text-xs text-gray-500'>Inside the dermatology treatment room at Vedara Care, JVC.</em>",
-      image: "/images/carbon.derma..webp",
-      alt: "Dermatology treatment room used for Carbon Laser Peel at Vedara Care"
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      link: "/doctors/dr-sanjida-islam-suchana/",
+      specialties: ["Clinical Dermatology", "Skin Health", "Primary Care"],
+      experience: "Clinical dermatology professional offering comprehensive medical management for various skin and aesthetic conditions.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"]
+    },
+    {
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      image: "/images/arfah-owais-portrait.webp",
+      link: "/doctors/arfah-owais/",
+      specialties: ["Advanced Facial Therapy", "Scar Treatment", "Laser"],
+      experience: "Experienced aesthetician specializing in targeted skincare regimens and procedural treatments.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"]
     }
-  ]
+  ],
 };
 
 export const carbonLaserPeelProviderChoice = {

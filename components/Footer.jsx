@@ -26,7 +26,7 @@ const Footer = () => {
                 height={40}
                 className="object-contain bg-white rounded-full p-1"
               />
-              <h3 className="text-2xl font-serif font-bold text-white leading-none tracking-tight">Vedara Care</h3>
+              <h2 className="text-2xl font-serif font-bold text-white leading-none tracking-tight">Vedara Care</h2>
             </Link>
             <p className="text-[#F8F9FA]/80 text-sm leading-relaxed max-w-[280px]">
               DHA-licensed holistic healthcare in Jumeirah Village Circle, Dubai.
@@ -45,6 +45,17 @@ const Footer = () => {
                   <span>booking@vedaracare.ae</span>
                 </a>
               </div>
+              <div className="flex gap-4 pt-2">
+                <a href="https://instagram.com/vedaracare" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Follow us on Instagram">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                </a>
+                <a href="https://facebook.com/vedaracare" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Follow us on Facebook">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="https://linkedin.com/company/vedaracare" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Follow us on LinkedIn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -54,7 +65,7 @@ const Footer = () => {
               onClick={() => toggleSection('services')}
               className="w-full flex items-center justify-between text-left mb-6 md:cursor-default"
             >
-              <h4 className="text-lg font-bold text-white">Services</h4>
+              <h2 className="text-lg font-bold text-white">Services</h2>
               <ChevronDown
                 size={18}
                 className={`md:hidden transition-transform duration-300 ${openSection === 'services' ? 'rotate-180' : ''}`}
@@ -75,7 +86,7 @@ const Footer = () => {
               onClick={() => toggleSection('treatments')}
               className="w-full flex items-center justify-between text-left mb-6 md:cursor-default"
             >
-              <h4 className="text-lg font-bold text-white">Popular Treatments</h4>
+              <h2 className="text-lg font-bold text-white">Popular Treatments</h2>
               <ChevronDown
                 size={18}
                 className={`md:hidden transition-transform duration-300 ${openSection === 'treatments' ? 'rotate-180' : ''}`}
@@ -116,7 +127,7 @@ const Footer = () => {
               onClick={() => toggleSection('company')}
               className="w-full flex items-center justify-between text-left mb-6 md:cursor-default"
             >
-              <h4 className="text-lg font-bold text-white">Company</h4>
+              <h2 className="text-lg font-bold text-white">Company</h2>
               <ChevronDown
                 size={18}
                 className={`md:hidden transition-transform duration-300 ${openSection === 'company' ? 'rotate-180' : ''}`}
@@ -135,26 +146,46 @@ const Footer = () => {
         </div>
 
         {/* Insurance Partners Section */}
-        <div className="border-t border-white/20 pt-10 pb-12">
-          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-[13px] text-[#F8F9FA]/60 font-medium">
-            <span>Daman</span>
-            <span>AXA</span>
-            <span>Allianz</span>
-            <span>Oman Insurance</span>
-            <span>Now Health</span>
-            <span>Bupa</span>
-            <span>MetLife</span>
-            <span className="text-white/80">DHA License No: 2509266</span>
+        <div className="border-t border-white/20 pt-10 pb-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-8 gap-y-4 text-[13px] text-[#F8F9FA]/60 font-medium">
+              <span>Daman</span>
+              <span>AXA</span>
+              <span>Allianz</span>
+              <span>Oman Insurance</span>
+              <span>Now Health</span>
+              <span>Bupa</span>
+              <span>MetLife</span>
+            </div>
+            <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg text-sm text-white font-semibold" aria-label="Trust Signals & Certifications">
+              <Stethoscope size={16} />
+              <span>DHA License No: 2509266</span>
+            </div>
           </div>
         </div>
 
+        {/* Medical Disclaimer & E-E-A-T Signals */}
+        <div className="border-t border-white/10 pt-6 pb-6 text-xs text-[#F8F9FA]/60 leading-relaxed text-center md:text-left space-y-4">
+          <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-4 gap-y-2">
+            <span><strong>Author:</strong> Vedara Care Medical Team</span>
+            <span className="hidden md:inline">•</span>
+            <span><strong>Expertise:</strong> DHA-Licensed Specialists (<Link href="/doctors" className="underline hover:text-white">View Credentials</Link>)</span>
+            <span className="hidden md:inline">•</span>
+            <span><strong>Last Updated:</strong> September 2026</span>
+          </div>
+          <p>
+            <strong>Medical Disclaimer:</strong> The information provided on this website is for educational and informational purposes only and does not constitute medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+          </p>
+        </div>
+
         {/* Bottom Bar */}
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#F8F9FA]/60">
+        <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#F8F9FA]/60">
           <p>© {currentYear} Vedara Care Polyclinic. All rights reserved.</p>
-          <div className="flex gap-8">
+          <div className="flex flex-wrap justify-center gap-6">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy</Link>
             <Link href="/terms-of-service" className="hover:text-white transition-colors">Terms</Link>
             <Link href="/patient-rights" className="hover:text-white transition-colors">Patient Rights</Link>
+            <Link href="/editorial-policy" className="hover:text-white transition-colors">Editorial Policy</Link>
           </div>
         </div>
       </div>

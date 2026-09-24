@@ -1,459 +1,440 @@
 export const microdermabrasionHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Dermatology", href: "/dermatology-clinic-jvc" },
-    { label: "Microdermabrasion Treatment in JVC", active: true }
+    { label: "Treatments", href: "/treatments/" },
+    { label: "Microdermabrasion & Dermaplaning", active: true }
   ],
-  label: "NON-INVASIVE EXFOLIATION · SURFACE TEXTURE & REFRESH · JVC DUBAI",
-  title: "Microdermabrasion Treatment in JVC | Vedara Care",
-  h1: "Microdermabrasion Treatment in JVC",
-  description: "Skin can look dull, rough, or tired due to dust, sun exposure, air conditioning, and the buildup of dead skin cells. Microdermabrasion Treatment in JVC is a non-invasive exfoliation procedure that gently removes surface dead cells and debris, helping reveal smoother and fresher-looking skin. It may be suitable for concerns such as uneven texture, dullness, and rough skin. At Vedara Care Polyclinic in Jumeirah Village Circle, the treatment is provided after assessing your skin condition and individual needs. With no needles and generally minimal downtime, microdermabrasion can be a convenient option for patients seeking professionally performed skin exfoliation and a refreshed appearance.",
-  canonicalUrl: "https://vedaracare.ae/treatments/microdermabrasion-jvc/",
-  primaryCTA: "Book Consultation",
-  secondaryCTA: "WhatsApp Us",
-  primaryCTAHref: "/book",
-  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Microdermabrasion%20treatment%20and%20book%20a%20consultation.",
+  label: "AESTHETIC TREATMENTS • JVC • DUBAI",
+  title: "Microdermabrasion & Dermaplaning at our JVC clinic in Dubai — foundational manual exfoliation with immediate results.",
+  description: "Two proven manual exfoliation modalities delivered inside a DHA-licensed polyclinic. Diamond-tip microdermabrasion for mechanical resurfacing with vacuum-assisted debris removal. Sterile-blade dermaplaning for surface exfoliation and vellus hair (peach fuzz) removal. Delivered by Arfah Owais, DHA-licensed aesthetician with CIBTAC-UK diploma and 8+ years of experience. Walking distance from Circle Mall in Jumeirah Village Circle.",
+  primaryCTA: "Book Exfoliation Treatment",
+  secondaryCTA: "Chat on WhatsApp",
   trustSignals: [
-    "DHA-licensed polyclinic environment",
-    "Gentle mechanical surface exfoliation",
-    "Targeted support for dullness & rough texture",
-    "Clinic located in JVC, Al Barsha South"
+    "DHA-Licensed Clinic",
+    "CIBTAC-UK Certified Aesthetician",
+    "Diamond-Tip & Crystal Microdermabrasion",
+    "Sterile-Blade Dermaplaning",
+    "20-30 Min Sessions",
+    "Female Practitioner",
+    "No Downtime",
+    "Multi-Language (AR/EN/HI/UR)"
   ],
   floatingCard: {
-    title: "Surface Exfoliation",
-    subtitle: "Microdermabrasion works on the outermost layer of the skin, gently lifting away dead cells and surface debris to reveal a smoother, fresher-looking layer underneath."
+    subtitle: "Two foundational exfoliation modalities. Skin-analysis-driven selection. <br />  <br/> Vedara Care JVC",
+    alt: "Microdermabrasion and Dermaplaning manual exfoliation Vedara JVC"
   },
-  image: "/images/microdermabrasion-consultation-vedara-care-jvc.webp",
-  alt: "Patient consultation before microdermabrasion treatment at Vedara Care in JVC",
-  caption: "A consultation and skin assessment precedes every microdermabrasion session."
-};
-
-export const microdermabrasionIntro = {
-  label: "INTRODUCTION",
-  title: "Microdermabrasion Treatment in JVC",
-  blockquote: "Microdermabrasion Treatment in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, is a gentle, non-invasive exfoliation treatment that removes dead surface skin cells and buildup to leave the skin feeling smoother and looking fresher. It may be suitable for concerns such as dullness, rough texture, uneven skin tone, and congested-looking skin. Before treatment, our team assesses your skin and recommends an approach based on your individual needs. Microdermabrasion generally involves minimal downtime, making it a practical option for people who want professionally performed exfoliation without needles or an extensive recovery period.",
-};
-
-export const microdermabrasionExplanation = {
-  label: "MICRODERMABRASION EXPLAINED SIMPLY",
-  title: "Controlled, Mechanical Exfoliation",
-  description: "At its core, microdermabrasion is controlled, mechanical exfoliation. A handheld device is used to gently remove the outermost layer of dead skin cells, along with some of the surface buildup that accumulates from environmental exposure, skincare residue and the skin's own natural turnover process.",
-  content: [
-    "Unlike chemical peels, which use acids to dissolve the bonds between dead cells, microdermabrasion works physically — either abrading the surface with a textured tip or propelling fine crystals across the skin, then vacuuming away the loosened material.",
-    "The intensity is adjustable, which allows the treatment to be tailored to different skin types and sensitivities, from a light polish to a more thorough exfoliation.",
-    "It is a professional treatment, not a one-size-fits-all procedure. The pressure, the number of passes and the areas treated are all decided based on how the skin responds during the session."
-  ],
-  image: "/images/microdermabrasion-equipment-vedara-care.webp",
-  alt: "Microdermabrasion equipment in use during a clinic treatment session",
-  caption: "Professional-grade equipment is used for every session."
+  image: "/images/microdermabrasion-dermaplaning-jvc.webp",
+  alt: "Diamond-tip microdermabrasion and sterile-blade dermaplaning Vedara Care JVC Dubai"
 };
 
 export const microdermabrasionHowItWorks = {
-  label: "PROCEDURE",
-  title: "How Microdermabrasion Works",
-  description: "A typical microdermabrasion treatment follows a logical sequence, though the exact approach may vary depending on the equipment used and the patient's skin.",
-  steps: [
-    { title: "Step 1 — Skin assessment", description: "Before any device touches the skin, the treating professional reviews the patient's skin type, concerns and any relevant history to judge whether microdermabrasion is appropriate and how intense the session should be." },
-    { title: "Step 2 — Skin cleansing", description: "The face is thoroughly cleansed to remove makeup, oil and surface debris so the exfoliating device can work directly on the skin." },
-    { title: "Step 3 — Exfoliation", description: "The microdermabrasion device is passed over the skin in controlled movements, mechanically lifting dead surface cells." },
-    { title: "Step 4 — Removal of loosened surface cells", description: "Depending on the system used, loosened cells and residue are vacuumed away or wiped off as the treatment progresses." },
-    { title: "Step 5 — Skin soothing and hydration", description: "A calming serum or moisturiser may be applied afterward to support the skin barrier." },
-    { title: "Step 6 — Post-treatment advice", description: "The patient is given guidance on what to expect over the following days and how to care for the skin at home." }
-  ],
-  image: "/images/skin-assessment-microdermabrasion-jvc.webp",
-  alt: "Skin assessment being carried out before microdermabrasion treatment",
-  caption: "A thorough skin assessment helps determine treatment suitability and intensity."
-};
-
-export const microdermabrasionTypes = {
-  label: "TYPES OF MICRODERMABRASION",
-  title: "Types of Microdermabrasion",
-  description: "Two general approaches are commonly used in professional settings, and it can help to understand the difference before your consultation.",
-  list: [
-    {
-      title: "Diamond-tip microdermabrasion",
-      description: "Uses a wand with a textured, diamond-coated tip that is moved across the skin to abrade the surface, with suction removing the exfoliated debris at the same time. This approach allows for reasonably precise control over pressure and coverage, including around more delicate areas of the face."
+  title: "Two distinct manual exfoliation modalities — what each does, how they differ, and when to choose which.",
+  block1: {
+    title: "Microdermabrasion — mechanical exfoliation with vacuum suction",
+    description: "Microdermabrasion is a mechanical exfoliation treatment established in professional aesthetic practice for decades. The core principle: abrade the outermost skin layer (stratum corneum) with a controlled abrasive action while simultaneously vacuuming away exfoliated debris and stimulating surface microcirculation.",
+    subtext: "Vedara Care JVC offers two device types:",
+    bullets: [
+      { bold: "Diamond-Tip Microdermabrasion", text: "— a diamond-encrusted wand with integrated vacuum suction. Adjustable intensity, no crystal residue, precise control. Preferred for most patients." },
+      { bold: "Crystal Microdermabrasion", text: "— fine aluminium oxide crystals for a slightly deeper exfoliation option. Not suitable for aluminium sensitivity or respiratory concerns." }
+    ]
+  },
+  block2: {
+    title: "What microdermabrasion actually does — realistic framing",
+    checks: [
+      { bold: "Removes surface dead skin cells", text: "refreshed, smoother skin surface immediately" },
+      { bold: "Improves surface skin texture", text: "mild textural irregularities smoothed" },
+      { bold: "Enhances skin brightness", text: "dull, congested skin surface renewed" },
+      { bold: "Supports pore health", text: "vacuum suction helps clear pore congestion" },
+      { bold: "Enhances product penetration", text: "subsequent skincare penetrates more effectively" },
+      { bold: "Cumulative benefit from monthly programme", text: "sustained texture improvement" }
+    ]
+  },
+  block3: {
+    title: "Dermaplaning — surgical-grade blade exfoliation",
+    description: "Dermaplaning uses a sterile surgical-grade blade held at a precise angle (typically 45 degrees) against the skin. Trained aesthetician technique moves the blade in short, controlled sweeping motions across the face, removing dead surface skin cells and vellus hair (peach fuzz) simultaneously. Not shaving — the technique, angle, and blade type are specific to aesthetic exfoliation."
+  },
+  block4: {
+    title: "Microdermabrasion vs Dermaplaning — honest comparison",
+    col1: {
+      title: "Microdermabrasion suits",
+      items: [
+        "Congested pores or blackheads",
+        "Dull skin with textural irregularity",
+        "Sun-damage and mild uneven tone",
+        "Male patients"
+      ]
     },
-    {
-      title: "Crystal-based microdermabrasion",
-      description: "Uses a handpiece that propels fine crystals across the skin to loosen dead cells, which are then vacuumed away along with the crystals. This method has been used for many years and can offer a broader, more even exfoliation across larger areas."
+    col2: {
+      title: "Dermaplaning suits",
+      items: [
+        "Peach fuzz removal alongside exfoliation",
+        "Pre-event maximum smoothness",
+        "Enhanced makeup application",
+        "Enhanced product penetration"
+      ]
     }
-  ],
-  footer: "Neither approach is universally superior — the right choice depends on the patient's skin, the treatment goal and the equipment available at the clinic. If you're curious which method suits your skin, that's a question worth raising during your consultation.",
-  // image: "/images/microdermabrasion-exfoliation-procedure-jvc.jpg",
-  // alt: "Diamond-tip microdermabrasion device being used during a treatment session",
-  caption: "The device gently exfoliates the outer layer of the skin."
-};
-
-export const microdermabrasionAppointment = {
-  label: "APPOINTMENT DETAILS",
-  title: "What Happens During Your Appointment?",
-  description: "Understanding the sequence of your visit helps set clear expectations:",
-  steps: [
-    { title: "Consultation", description: "Your appointment begins with a conversation about your skin concerns, goals and any relevant history." },
-    { title: "Skin assessment", description: "The treating professional examines your skin to judge its current condition and confirm that microdermabrasion is a reasonable option." },
-    { title: "Cleansing", description: "Your skin is cleansed to remove any makeup, sunscreen or oil." },
-    { title: "Treatment preparation", description: "The device is set up and the treatment intensity is chosen based on your skin's assessed sensitivity." },
-    { title: "Exfoliation", description: "The microdermabrasion device is passed across the treatment area in a methodical pattern." },
-    { title: "Post-treatment care", description: "A soothing or hydrating product is typically applied once exfoliation is complete." },
-    { title: "Aftercare instructions", description: "You'll be given practical guidance to follow over the next several days, particularly around sun protection." }
-  ],
-  footer: "Appointment length can vary from patient to patient, so it's best to confirm timing directly with the clinic when booking rather than assume a fixed duration.",
-  image: "/images/professional-microdermabrasion-treatment-jvc.webp",
-  alt: "Professional microdermabrasion treatment at Vedara Care in JVC",
-  caption: "Microdermabrasion is delivered using a professional handheld device."
-};
-
-export const microdermabrasionSensation = {
-  label: "TREATMENT EXPERIENCE",
-  title: "What Does Microdermabrasion Feel Like?",
-  description: "Most patients describe microdermabrasion as a mild, tolerable sensation rather than a painful one. You may notice gentle pressure as the device moves across the skin, a light scratching or exfoliating feeling, and — with suction-based systems — a mild pulling sensation as the device passes over the face.",
-  notes: "Sensitivity varies from person to person. Some patients feel very little; others, particularly those with more reactive skin, may find certain areas (like around the nose or jawline) slightly more noticeable. It is not generally considered a painful treatment, but it isn't guaranteed to be entirely sensation-free either, and mild, temporary redness afterward is common."
-};
-
-export const microdermabrasionConcerns = {
-  label: "BENEFITS & CONCERNS",
-  title: "Skin Concerns Microdermabrasion May Help",
-  description: "Microdermabrasion is a surface treatment, so it tends to work best on surface-level concerns.",
-  list: [
-    {
-      title: "Dull-Looking Skin",
-      description: "A buildup of dead cells on the skin's surface can make the complexion look flat and lackluster, even when the skin underneath is perfectly healthy. Removing that layer through exfoliation can leave the surface looking fresher and more reflective of light, which is often read as a \"glow.\" This is a cosmetic, surface-level effect rather than a change to the skin's underlying structure, and it fades as new cells accumulate over time.\n\nDullness is one of the most common reasons patients book a microdermabrasion appointment, and it's also one of the concerns this treatment is best equipped to address. By mechanically lifting away that outer layer, microdermabrasion can leave skin looking fresher and more radiant in the days immediately following treatment. It's worth setting realistic expectations here: this is a temporary, cosmetic improvement rather than a permanent change to how the skin produces or sheds cells."
-    },
-    {
-      title: "Rough Skin Texture",
-      description: "Rough patches, often felt more than seen, can result from dead cell buildup, dryness or minor surface irregularities. Mechanical exfoliation smooths this outer layer, which may leave skin feeling noticeably smoother to the touch. It will not resolve deeper textural issues such as pitted scarring, which sit below the surface layer that microdermabrasion addresses.\n\nMicrodermabrasion addresses the surface layer directly, which can leave skin feeling noticeably smoother and looking more even immediately after treatment. It's important to distinguish this from deeper structural texture concerns."
-    },
-    {
-      title: "Surface Dryness",
-      description: "Flaky or rough patches caused by dry surface buildup can be lifted away during treatment, which may temporarily improve how smoothly skincare products absorb afterward. This is not a substitute for addressing the underlying causes of dry skin, such as barrier function or hydration habits, which usually need a broader skincare approach."
-    },
-    {
-      title: "Uneven-Looking Skin",
-      description: "A complexion that looks patchy or inconsistent in texture, rather than tone, may appear more even after the outer layer of dead cells is removed uniformly across the face. This is a texture-related improvement rather than a solution for uneven pigmentation, which involves pigment-producing cells deeper in the skin."
-    },
-    {
-      title: "Mild Congestion & Acne-Prone Skin",
-      description: "Surface-level congestion — skin that looks clogged or slightly bumpy from a buildup of oil, debris and dead cells — may appear clearer after exfoliation removes some of that surface material. For patients dealing with surface-level congestion without significant active inflammation, gentle exfoliation may help the skin appear less congested.\n\nHowever, microdermabrasion is not appropriate for every acne presentation. Active inflammatory acne, particularly if there are pustules, cysts or widespread breakouts, can be aggravated by mechanical exfoliation. A professional assessment matters before booking. Patients with more significant or persistent acne concerns may be better served starting with a dedicated acne treatment plan."
-    },
-    {
-      title: "Acne Scars",
-      description: "Superficial texture irregularities and post-acne marks — the general roughness or slight discoloration left behind after breakouts heal — sit relatively close to the skin's surface. In some patients, gentle exfoliation may offer a limited, cosmetic softening of how these areas look and feel.\n\nDeeper atrophic scars — the pitted, indented scarring that results from more significant tissue damage — are a structural change to the skin, not a surface-level one. Microdermabrasion does not reach deep enough to meaningfully affect this kind of scarring, and it should not be presented or approached as a solution for it."
-    },
-    {
-      title: "Pigmentation & Fine Lines",
-      description: "Pigmentation concerns are driven by activity deeper in the skin, in cells that produce melanin. Microdermabrasion works on the surface layer, so its effect on true pigmentation is limited and, for most patients, largely cosmetic and temporary at best.\n\nSimilarly, very fine, superficial lines can look softer immediately after microdermabrasion, largely because smoother, more evenly reflective skin tends to visually minimize small textural details. This is a genuine but modest cosmetic effect."
-    }
-  ]
-};
-
-export const microdermabrasionSuitability = {
-  label: "SUITABILITY",
-  title: "Who May Benefit?",
-  introduction: "Microdermabrasion tends to suit patients who are dealing with surface texture and buildup concerns.",
-  rightFor: [
-    "Dull or lackluster-looking skin",
-    "Rough or uneven surface texture",
-    "Mild surface buildup or flakiness",
-    "A complexion that looks tired rather than genuinely problematic",
-    "Mild congestion without significant active inflammation",
-    "Superficial skin imperfections rather than deeper structural concerns"
-  ],
-  notRightFor: [
-    "Open wounds or broken skin in the treatment area",
-    "Active skin infection",
-    "Significant irritation or a compromised skin barrier",
-    "Severe inflammation, including active inflammatory acne",
-    "Recently sunburned skin",
-    "Certain active skin conditions (such as active eczema or psoriasis flares in the treatment area)",
-    "Recent aggressive cosmetic procedures in the same area"
-  ],
-  footer: "This list is not exhaustive, and it isn't a substitute for a proper skin assessment. If you have any of the above, or you're simply unsure, it's worth mentioning it before your appointment rather than after."
+  },
+  quote: "\"Manual exfoliation is fundamental aesthetician technique. Trained hands deliver consistent results; untrained hands create irritation or complications.\"",
+  image: "/images/microdermabrasion-device-jvc.webp",
+  alt: "Microdermabrasion device and dermaplaning tools at Vedara Care aesthetic clinic"
 };
 
 export const microdermabrasionSkinTypes = {
-  label: "SKIN TYPES",
-  title: "Microdermabrasion for Different Skin Types",
-  description: "Treatment intensity and overall suitability are adjusted to the individual, not applied uniformly across skin types.",
+  title: "The patients each treatment suits best at our JVC clinic.",
+  description: "Different skin profiles suit different modalities. Honest framing of who benefits from which treatment — and who should choose neither.",
   types: [
     {
-      name: "Oily skin",
-      notes: "Microdermabrasion is often well tolerated on oily skin, and some patients find that removing surface buildup temporarily improves how the skin looks and feels. Treatment intensity is still adjusted individually."
+      number: "01",
+      title: "Dull, Congested Skin Wanting Refresh",
+      description: "Microdermabrasion's mechanical action combined with vacuum suction addresses both surface dullness and pore congestion in a single session. Diamond-tip preferred; crystal option available. Monthly programme for cumulative benefit.",
+      recommended: "Diamond-tip Microdermabrasion"
     },
     {
-      name: "Dry skin",
-      notes: "Dry skin can be more sensitive to mechanical exfoliation, so a gentler approach and thorough post-treatment hydration are typically used to avoid over-stripping an already compromised barrier."
+      number: "02",
+      title: "Pre-Event Maximum Smoothness",
+      description: "Dermaplaning particularly favored — vellus hair removal creates clearer surface for foundation application, no soft-focus shadow effect in photography lighting. Single session 3-5 days pre-event.",
+      recommended: "Dermaplaning - optional HydraFacial or Oxy-Geneo"
     },
     {
-      name: "Combination skin",
-      notes: "Different zones of the face may need slightly different handling, with more attention paid to drier areas versus oilier ones during the same session."
+      number: "03",
+      title: "Vellus Hair (Peach Fuzz) Concerns",
+      description: "Dermaplaning removes vellus hair as part of the treatment. Hair does not grow back thicker or darker — it returns on normal growth cycle unchanged. Monthly programme aligns with regrowth pattern.",
+      recommended: "Dermaplaning, monthly programme"
     },
     {
-      name: "Normal skin",
-      notes: "Generally tolerates a standard treatment intensity well, though individual sensitivity still varies."
+      number: "04",
+      title: "Enhanced Home Skincare Programme",
+      description: "Patients on established home skincare regimens (retinoids, vitamin C, peptides) wanting to enhance product penetration. Both treatments meaningfully enhance subsequent product penetration. Monthly professional exfoliation supports home routine.",
+      recommended: "Either - alternating monthly often optimal"
     },
     {
-      name: "Sensitive skin",
-      notes: "May be suitable for some patients at a gentler setting, but sensitive skin also has a higher chance of temporary redness or irritation, so a cautious, conservative approach is usually recommended, alongside a genuine assessment of whether the treatment is appropriate at all."
+      number: "05",
+      title: "First-Time Aesthetic Treatment Entry Point",
+      description: "Both treatments serve well as entry points — 20-30 minute session, no procedural intensity, immediate visible refresh. Comprehensive skin analysis before treatment ensures appropriate modality selection.",
+      recommended: "Diamond-tip Microdermabrasion or Dermaplaning"
     },
     {
-      name: "Acne-prone skin",
-      notes: "Suitability depends heavily on whether the concern is surface congestion or active inflammation — this distinction should always be made by a treating professional."
+      number: "06",
+      title: "Male Grooming and Professional Skincare",
+      description: "Microdermabrasion particularly popular with male patients — no vellus hair removal concern, effective surface exfoliation, addresses congested pores common with thicker sebum-producing skin.",
+      recommended: "Microdermabrasion (diamond-tip preferred), monthly"
+    },
+    {
+      number: "07",
+      title: "Pre-HydraFacial or Pre-Oxy-Geneo Integration",
+      description: "Dermaplaning integrated as first step before an advanced facial removes vellus hair for clearer delivery and enhances active ingredient penetration. Common pre-event bridal integration.",
+      recommended: "Dermaplaning as pre-HydraFacial or pre-Oxy-Geneo"
+    },
+    {
+      number: "08",
+      title: "Sensitive Skin Wanting Gentle Exfoliation",
+      description: "Gentle diamond-tip microdermabrasion settings can be appropriate. For significantly sensitive or barrier-compromised skin, Oxy-Geneo often better tolerated.",
+      recommended: "Gentle Diamond-Tip Microdermabrasion or Oxy-Geneo"
+    },
+    {
+      number: "09",
+      title: "Working Professional Wanting Quick Session",
+      description: "Both treatments deliver 20-30 minute session with immediate refresh and no downtime — return to work same day, apply makeup same day if desired.",
+      recommended: "Either - based on skin analysis and goals"
+    },
+    {
+      number: "10",
+      title: "Monthly Maintenance Component",
+      description: "Monthly professional exfoliation (alternating or consistent single modality) supports skin quality over months. Often integrated within broader skincare programme.",
+      recommended: "Either - alternating monthly often optimal"
+    },
+    {
+      number: "11",
+      title: "Congested Pores Focus",
+      description: "Microdermabrasion's vacuum suction combined with mechanical exfoliation addresses pore congestion effectively. For deep pore congestion, HydraFacial with vortex extraction may be preferable.",
+      recommended: "Microdermabrasion or consider HydraFacial for deeper focus"
+    },
+    {
+      number: "12",
+      title: "Post-Aesthetic-Programme Maintenance",
+      description: "Patients who have completed corrective programmes (pigmentation, acne scar, laser resurfacing) wanting monthly maintenance support. Both serve well as long-term maintenance components.",
+      recommended: "Either, integrated within broader maintenance plan"
     }
-  ]
-};
-
-export const microdermabrasionGender = {
-  label: "AUDIENCE",
-  title: "Microdermabrasion for Men and Women",
-  menText: "Men's skin often deals with a distinct combination of factors — regular shaving, which itself is a form of mechanical exposure to the skin's surface, along with oil production and surface buildup that can leave the face feeling rough or congested. Microdermabrasion can be a straightforward way to address that surface roughness and buildup as part of a broader skin maintenance routine.\n\nShaving-related skin considerations are worth mentioning during consultation, since recently irritated or freshly shaved skin may need a short gap before treatment. Beyond that, the treatment itself is not fundamentally different for men — suitability and intensity are still based on individual skin condition rather than gender.",
-  womenText: "For many women, microdermabrasion is used as part of a broader skin maintenance approach — addressing dullness, surface dryness and texture concerns that build up over time, sometimes compounded by daily makeup application and removal. Regular exfoliation can support smoother-looking skin and may improve how makeup applies afterward, though this is a cosmetic, surface-level benefit rather than a claim about the skin's underlying health. There isn't a strong basis for hormonally specific claims about microdermabrasion, so this section focuses on the practical, texture-related benefits patients typically report."
-};
-
-export const microdermabrasionResults = {
-  label: "RESULTS & SESSIONS",
-  title: "Microdermabrasion Results",
-  summary: "Patients who are good candidates for microdermabrasion often notice smoother-looking skin, a fresher overall complexion, a softer feel to the surface, a reduced appearance of surface buildup, and a more even-looking texture in the days following treatment. These are genuine, but surface-level and largely temporary, cosmetic improvements — the skin's natural turnover process continues, and results are not permanent. Individual results vary considerably based on skin condition, treatment history and how consistently the skin is cared for afterward.",
-  timing: "Some patients notice a visible difference relatively soon after their session — a smoother feel and a brighter look are often the first things people mention. Longer-term improvements in overall skin quality tend to depend on several factors, including your starting skin condition, the treatment plan agreed with your provider, your everyday skincare routine, how many sessions you undergo, and how your individual skin responds. There is no single guaranteed timeframe that applies to every patient, which is why realistic expectations are set during consultation rather than promised in advance.",
-  sessions: "There's no universal package that suits everyone. The number of sessions that may be recommended depends on the specific skin concern being addressed, how sensitive your skin is, the outcome you're hoping for, any previous treatments you've had, and the professional recommendation made after your assessment. Some patients pursue a short series of sessions to address a specific concern, while others use periodic single sessions as part of ongoing maintenance.",
-  frequency: "Spacing between sessions matters because the skin needs time to recover and complete its natural turnover cycle before it is exfoliated again. How often treatment should be repeated depends on how the skin recovers after each session, the intensity used, individual sensitivity, and the broader treatment plan set out during consultation. Rather than following a fixed, generic schedule, spacing is generally reviewed and adjusted based on how your skin actually responds."
-};
-
-export const microdermabrasionRecovery = {
-  label: "RECOVERY & AFTERCARE",
-  title: "Microdermabrasion Recovery & Aftercare",
-  description: "Recovery from microdermabrasion is generally mild compared with more intensive skin treatments, but it isn't necessarily nothing. In the hours and days after treatment, it's common to notice some temporary redness, mild sensitivity to touch or to skincare products, a feeling of tightness, dryness or flaking as the skin adjusts, and skin that feels more reactive than usual for a short period. How long this lasts, and how noticeable it is, varies from patient to patient and depends partly on the intensity of the session.",
-  points: [
-    "Cleansing gently, avoiding harsh scrubbing or exfoliating cleansers for several days",
-    "Moisturizing consistently to support the skin barrier while it recovers",
-    "Applying sun protection diligently, since freshly exfoliated skin is more vulnerable to UV exposure",
-    "Avoiding further aggressive exfoliation (scrubs, additional peels or devices) until the skin has settled",
-    "Avoiding picking or scratching at any flaking skin",
-    "Following the specific instructions given by your treating professional, since these may vary based on your session",
-    "Being cautious with active skincare ingredients — such as retinoids or strong acids — immediately after treatment, and checking with your provider before resuming them"
   ],
-  footer: "This is general guidance rather than a personalized treatment plan, and you should follow whatever specific instructions you're given after your own appointment.",
-  image: "/images/post-treatment-skincare-microdermabrasion-jvc.jpg",
-  alt: "Moisturizer being applied to skin after microdermabrasion treatment",
-  caption: "Soothing and hydrating products are typically applied after treatment."
+  actionLink: "Not sure which treatment suits your skin? Book comprehensive skin analysis with Arfah first →",
+  contraindications: {
+    title: "Contraindication Transparency",
+    dermaplaning: "active acne (blade contact risks spreading bacteria), keloid-prone skin, active rosacea flare, active inflammatory skin conditions, open wounds, active cold sores, recent sunburn, recent Roaccutane use within past 6 months.",
+    microdermabrasion: "active severe acne, active rosacea flare, significantly sensitive or reactive skin, recent Roaccutane use, aluminium sensitivity (Crystal Microdermabrasion only — Diamond-Tip alternative available). Arfah screens for contraindications during comprehensive skin analysis and coordinates with the on-site dermatologist where indicated."
+  }
 };
 
-export const microdermabrasionSideEffects = {
-  label: "SAFETY & SIDE EFFECTS",
-  title: "Microdermabrasion Side Effects and Safety",
-  description: "Most patients tolerate microdermabrasion well, but temporary effects are a normal part of the process rather than a sign that something has gone wrong. These can include redness, mild irritation, increased sensitivity, dryness, and a temporary feeling of tightness in the treated area. These effects are usually short-lived, though how mild or noticeable they are can depend on skin sensitivity and treatment intensity.\n\nThis is also why professional assessment and appropriately calibrated treatment intensity matter so much — the right intensity for one patient's skin may be too much, or too little, for another's. A treatment plan built around your specific skin, rather than a standardized setting, is part of what makes a session both safe and effective."
-};
-
-export const microdermabrasionComparisons = {
-  label: "HOW IT COMPARES",
-  title: "Microdermabrasion vs Other Treatments",
-  tableHeader: "Treatment Comparison Overview",
-  columns: ["Treatment Feature", "Microdermabrasion", "HydraFacial"],
-  rows: [
-    ["Main approach", "Mechanical exfoliation using a diamond-tip or crystal device", "Multi-step device combining cleansing, exfoliation and extraction with fluid infusion"],
-    ["Exfoliation", "Physical abrasion of the surface layer", "Combined physical and gentle solution-based exfoliation"],
-    ["Extraction", "Not typically a built-in step", "Vacuum-based extraction is a core part of the process"],
-    ["Hydration", "Applied separately after treatment, if used at all", "Infused into the skin as part of the same session"],
-    ["Treatment focus", "Surface texture and dullness", "Combined cleansing, exfoliation, extraction and hydration"],
-    ["Skin texture", "May improve with surface exfoliation", "May improve through combined exfoliation and hydration"],
-    ["Congestion", "Limited direct effect on congestion", "Extraction step may more directly address visible congestion"],
-    ["Recovery considerations", "Mild, temporary redness or dryness possible", "Generally minimal, though individual response varies"],
-    ["Customization", "Adjustable intensity, single-mechanism treatment", "Multiple interchangeable steps allow broader customization"]
-  ],
-  footer: "Neither treatment is universally better — they work through different mechanisms and may suit different concerns or preferences. A treating professional can help you decide which approach, or which combination, fits your skin.",
-  comparisons: [
+export const microdermabrasionPatientVoices = {
+  bgColor: "bg-white",
+  cardBg: "bg-[#F9F7F2]",
+  label: "Patient Voices",
+  title: "Real feedback from patients Arfah has treated at our JVC clinic.",
+  testimonials: [
     {
-      name: "Microdermabrasion vs Chemical Peel",
-      paragraphs: [
-        "Microdermabrasion and chemical peels both exfoliate the skin, but through different mechanisms: microdermabrasion works mechanically, physically abrading the surface, while a chemical peel uses an acid-based solution to dissolve the connections between dead skin cells.",
-        "Depth is a key difference. Microdermabrasion is generally limited to the very outermost surface layer, while chemical peels — depending on the acid and concentration used — can be formulated to work at different depths, from very superficial to noticeably deeper. This means chemical peels are sometimes considered for a broader range of concerns, including certain pigmentation or textural issues, while microdermabrasion tends to stay focused on surface dullness and roughness.",
-        "Recovery also differs. Microdermabrasion typically involves mild, short-lived redness or dryness, while deeper chemical peels can involve more visible peeling over several days. Suitability for either treatment depends on the specific skin concern, skin type and sensitivity, and the right choice — including whether the two might be used at different points in a broader plan — is something to discuss during a professional consultation."
-      ]
+      quote: "Booked dermaplaning three days before my sister's wedding — wanted maximum smoothness for the photography. Arfah walked me through the whole process, reassured me about the peach fuzz regrowth misconception. The result was exactly what I wanted — makeup applied more smoothly than I've ever experienced, no soft-focus shadow effect in the photos. Have been going monthly for six months since.",
+      attribution: "Aisha, 29",
+      treatment: "Pakistani expat, Al Barsha — Dermaplaning monthly programme",
+
     },
     {
-      name: "Microdermabrasion vs Microneedling",
-      paragraphs: [
-        "These two treatments work at genuinely different depths and are not interchangeable. Microdermabrasion is a surface-level exfoliation treatment, removing dead cells from the outermost layer of skin. Microneedling, by contrast, uses fine needles to create controlled micro-injuries deeper in the skin, which is intended to stimulate the skin's own collagen production.",
-        "Because of this difference in mechanism and depth, they tend to be considered for different goals. Microdermabrasion is generally chosen for surface dullness, roughness and buildup, while microneedling is more often considered for deeper textural concerns, including certain types of scarring, where stimulating collagen at a structural level is the goal. Recovery also tends to differ, with microneedling generally involving more noticeable redness and a longer settling period than microdermabrasion."
-      ]
+      quote: "Have had microdermabrasion at multiple clinics over the years and the technique difference between practitioners is enormous. Arfah's technique is precise — right pressure, right movement pattern, careful around delicate areas. Monthly programme for the past year and my skin quality is genuinely better maintained than when I was doing home exfoliation alone.",
+      attribution: "David, 41",
+      treatment: "British expat, JVC resident — Diamond-Tip Microdermabrasion monthly, 12 months",
+
     },
     {
-      name: "Microdermabrasion vs Regular Facial",
-      paragraphs: [
-        "A standard facial is typically a broader, more relaxation-focused treatment that may include cleansing, steam, mask application and massage, generally using gentler exfoliation, if any at all. Microdermabrasion is a more clinical, targeted exfoliation treatment, using a professional device to mechanically remove dead surface cells with more precision and, generally, more noticeable effect on texture.",
-        "Neither is inherently superior — a regular facial can be a pleasant, broadly beneficial treatment for general skin maintenance and relaxation, while microdermabrasion is a more focused option for patients specifically targeting dullness or rough texture. The right choice depends on what you're trying to achieve and should ideally follow a professional assessment rather than a general assumption about which sounds more effective."
-      ]
+      quote: "Arfah recommended dermaplaning followed immediately by Oxy-Geneo NeoRevive as a combined pre-event protocol before my 40th birthday party. The dermaplaning removed peach fuzz first so the Oxy-Geneo actives penetrated better. Skin was properly glowing for the event. Have integrated this combined approach quarterly since.",
+      attribution: "Priya, 40",
+      treatment: "Indian expat, Dubai Marina — Combined Dermaplaning + Oxy-Geneo quarterly",
+
     }
-  ]
-};
-
-export const microdermabrasionBeforeAfter = {
-  label: "CLINICAL STANDARDS",
-  title: "Microdermabrasion Before and After",
-  description: "Genuine before-and-after documentation, where a clinic chooses to share it, should meet a few basic standards to be meaningful rather than misleading. Photos should be taken with the patient's informed consent, use authentic, unedited images, be captured under consistent lighting so that changes reflect the treatment rather than the camera, and be presented alongside a clear explanation that individual results vary. No responsible clinic should imply that every patient will see the same outcome from a single photo set, and photos should never be manipulated or staged to exaggerate results."
-};
-
-export const microdermabrasionCost = {
-  label: "PRICING & INVESTMENT",
-  title: "Microdermabrasion Cost in JVC",
-  description: "Pricing for microdermabrasion can depend on several factors, including the treatment area involved, your skin's specific condition, the treatment plan recommended for you, the number of sessions involved, and whether any additional services are combined with the exfoliation itself. Because these factors vary from patient to patient, the most accurate way to get pricing information is to speak directly with the clinic once your specific needs are understood, ideally as part of a consultation."
-};
-
-export const microdermabrasionChoosingClinic = {
-  label: "CLINIC SELECTION",
-  title: "How to Choose a Microdermabrasion Clinic in JVC",
-  description: "A few practical points are worth checking before booking anywhere:",
-  checklist: [
-    "A genuine professional assessment before treatment, rather than a same-day booking with no consultation",
-    "A qualified provider delivering the treatment",
-    "Appropriate, well-maintained equipment",
-    "Clear hygiene standards and single-use or properly sterilized attachments",
-    "A treatment plan customized to your skin rather than a one-size-fits-all approach",
-    "Transparent, upfront pricing",
-    "Clear aftercare instructions provided after your session",
-    "Realistic expectations set during consultation, rather than exaggerated promises",
-    "Open, transparent communication about what the treatment can and cannot achieve",
-    "Genuine patient reviews, where available, rather than unverifiable claims"
   ],
-  redFlags: [
-    "Promises permanent results from a single treatment",
-    "Guarantees a dramatic skin transformation",
-    "Claims to permanently remove scarring",
-    "States there are zero risks involved",
-    "Suggests every patient will get an identical outcome",
-    "Offers to treat you without any consultation or skin assessment beforehand"
+  stats: [
+
   ],
-  footer: "These claims run against how skin actually works and are common signs of a provider prioritizing sales over patient care. Unclear qualifications and poor hygiene practices are equally worth watching for, and it's reasonable to ask directly about a provider's training and experience before booking."
+  footer: "Individual outcomes vary substantially and depend on skin type, condition, adherence to pre- and post-treatment protocols, home skincare, and programme continuity. All testimonials shared with written patient consent per DHA advertising framework."
 };
 
-export const microdermabrasionWhyJvc = {
-  label: "LOCAL ACCESSIBILITY",
-  title: "Why JVC Patients May Prefer a Local Provider",
-  description: "For residents and professionals based in Jumeirah Village Circle, having a skin clinic within the same community removes a lot of the friction that can come with booking a treatment across town. The same applies to patients living or working nearby in Al Barsha South, Jumeirah Village Triangle, Dubai Sports City, Motor City and other neighboring communities, where a JVC-based clinic can be a genuinely convenient option rather than a cross-city commitment. Local access matters particularly for patients considering a short series of sessions, since it's easier to keep appointments consistent when the clinic is close to home or work.",
-  image: "/images/vedara-care-clinic-reception-jvc-dubai.webp",
-  alt: "Reception area at Vedara Care Polyclinic in JVC, Dubai",
-  caption: "Vedara Care Polyclinic, located in Jumeirah Village Circle, Dubai."
-};
-
-export const microdermabrasionLocation = {
-  title: "Microdermabrasion at Vedara Care",
-  address: "Vedara Care Polyclinic operates from Jumeirah Village Circle, offering skin treatment services within a broader, professional healthcare environment rather than a purely aesthetic setting. Consultations are approached with patient-focused, individualized assessment — looking at your specific skin condition, concerns and goals before any treatment is recommended.\n\nEvery microdermabrasion appointment at Vedara Care begins with a genuine skin assessment, because suitability and treatment intensity depend entirely on the individual in front of us, not a fixed protocol applied to everyone. For patients whose concerns extend beyond what surface exfoliation can address, our team can also discuss related options available through our broader dermatology clinic in JVC and skin clinic in JVC services.",
-  image: "/images/vedara-care-treatment-room-jvc.jpg",
-  alt: "Treatment room at Vedara Care Polyclinic in Jumeirah Village Circle",
-  caption: "A professional healthcare environment for skin treatments in JVC."
-};
-
-export const microdermabrasionSummary = {
-  label: "COMMUNITY CARE",
-  title: "Microdermabrasion Treatment in Jumeirah Village Circle",
-  description: "Microdermabrasion Treatment at Vedara Care brings professional, assessment-led surface exfoliation to patients across Jumeirah Village Circle and the wider Dubai area. For patients whose skin concerns are genuinely surface-level — dullness, rough texture, mild buildup — this treatment offers a straightforward, non-invasive option delivered within a professional healthcare setting in JVC."
-};
-
-export const microdermabrasionCTA = {
-  title: "Book a Microdermabrasion Consultation in JVC",
-  description: "If dull or rough-feeling skin has been on your mind, the next step is a straightforward one: a consultation with the team at Vedara Care Polyclinic in Jumeirah Village Circle. We can discuss your skin concerns, skin type, any previous treatments you've had, your goals for treatment, whether microdermabrasion is a suitable option for you, what results you can realistically expect, and how to care for your skin afterward.",
-  address: "Vedara Care Polyclinic is located at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE.",
-  disclaimer: "This page provides general information about microdermabrasion and is intended for educational purposes only. It does not constitute medical advice and should not be used to self-diagnose any skin condition. Suitability for microdermabrasion varies from patient to patient, and results differ between individuals. A professional assessment is recommended to determine whether this or another treatment is appropriate for your skin. Cosmetic treatment does not replace medical care, and any persistent or concerning skin symptoms should be assessed by an appropriate healthcare professional.",
-  button1Text: "Book a Consultation",
-  button1TextHref: "/book",
-  button2Text: "Whatsapp Us",
-  button2TextHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Microdermabrasion%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai."
+export const microdermabrasionPricing = {
+  title: "Individual treatment pricing, combined protocols, and programme options.",
+  description: "Transparent pricing for Microdermabrasion and Dermaplaning at Vedara Care JVC.",
+  image: "/images/postnatal-pricing-ayurveda.webp",
+  alt: "Pricing table for Microdermabrasion and Dermaplaning treatments Vedara Care JVC",
+  ctaText: "Book Your Session",
+  ctaLink: "/book"
 };
 
 export const microdermabrasionFAQ = {
+  title: 'What patients ask about microdermabrasion and dermaplaning<br className="hidden md:block" /> at our JVC clinic.',
+  bookingBox: {
+    title: "Book Exfoliation at our JVC clinic",
+    primaryButtonText: "Book Now",
+    primaryButtonHref: "/book",
+    whatsappButtonText: "WhatsApp",
+    whatsappLink: "https://wa.me/971555736312"
+  },
+  relatedPages: {
+    label: "Related pages",
+    links: [
+      { text: "Arfah Owais — Aesthetician Profile", href: "/team/arfah-owais-aesthetician-jvc/" },
+      { text: "Comprehensive Skin Analysis", href: "/treatments/skin-analysis/" },
+      { text: "Oxy-Geneo Facial JVC", href: "/treatments/oxy-geneo-facial-jvc/" },
+      { text: "HydraFacial JVC", href: "/treatments/hydrafacial-jvc/" }
+    ]
+  },
+  clinicHours: {
+    label: "Clinic Hours",
+    hours: "Monday - Sunday : 9AM-10PM",
+    whatsappLabel: "WhatsApp for hours query →",
+    whatsappLink: "https://wa.me/971555736312"
+  },
   faqs: [
+    { question: "What is microdermabrasion?", answer: "Microdermabrasion is a mechanical exfoliation treatment that abrades the outermost skin layer (stratum corneum — dead surface skin cells) using either a diamond-encrusted wand (Diamond-Tip Microdermabrasion) or fine aluminium oxide crystals (Crystal Microdermabrasion), combined with vacuum suction that simultaneously removes exfoliated debris and stimulates surface microcirculation. Sessions take 20-30 minutes with no downtime. Suits patients wanting mechanical exfoliation without hair removal — dull skin refresh, congested pore support, mild textural improvement, enhanced product penetration." },
+    { question: "What is dermaplaning?", answer: "Dermaplaning is a manual exfoliation technique using a sterile surgical-grade blade held at a precise angle (typically 45 degrees) against dry skin. Trained aesthetician technique moves the blade in short controlled sweeping motions across the face, removing dead surface skin cells and vellus hair (peach fuzz) simultaneously. Not shaving — the technique, angle, and blade type are specific to aesthetic exfoliation. Sessions take 20-30 minutes with no downtime. Suits patients wanting vellus hair removal alongside exfoliation, pre-event smoothness, enhanced makeup application." },
+    { question: "What is the difference between microdermabrasion and dermaplaning?", answer: "Both are manual exfoliation treatments but use different techniques. Microdermabrasion uses mechanical abrasion (diamond-tip wand or crystal spray) with vacuum suction — good for congested pores, dull skin, mild texture concerns. Dermaplaning uses a surgical-grade sterile blade — removes vellus hair alongside surface exfoliation, particularly favoured for pre-event smoothness and enhanced makeup application. Different skin profiles suit each — Arfah recommends selection during comprehensive skin analysis." },
+    { question: "Does dermaplaning make hair grow back thicker or darker?", answer: "No — this is a persistent common misconception. Vellus hair (the fine peach fuzz dermaplaning removes) is biologically incapable of regrowing as terminal hair (the thicker darker hair type). Vellus hair returns on its normal growth cycle typically 3-4 weeks at the same colour, texture, and thickness as before. The misconception comes from confusion with shaving of terminal hair, where the blunt-cut edge of thicker hair creates a temporary perception of thicker regrowth — this does not apply to vellus facial hair." },
+    { question: "Is microdermabrasion the same as dermabrasion?", answer: "No — they are different procedures despite similar names. Microdermabrasion is a superficial mechanical exfoliation of the outermost skin layer performed by trained aestheticians. Dermabrasion is a much deeper surgical resurfacing procedure that removes multiple skin layers, performed by physicians under anaesthesia, with significant downtime and recovery. Vedara Care JVC offers microdermabrasion. Dermabrasion (the deeper procedure) is not offered." },
+    { question: "Can dermaplaning cause acne?", answer: "Dermaplaning on skin without active acne does not typically cause new acne — freshly exfoliated skin often shows improved clarity in the days following treatment. However, dermaplaning is contraindicated on skin with active acne — the blade contact risks spreading bacteria across the skin surface, potentially worsening breakouts. Patients with active acne need dermatological acne management first, before considering dermaplaning as maintenance treatment." },
+    { question: "Which is better for congested pores — microdermabrasion or dermaplaning?", answer: "Microdermabrasion is more effective for congested pore focus — the vacuum suction combined with mechanical abrasion helps clear pore congestion. Dermaplaning primarily addresses surface exfoliation and vellus hair removal. For deeper pore congestion focus, HydraFacial with vortex-fusion extraction technology is more thorough. Arfah discusses appropriate treatment for congested pores during skin analysis." },
+    { question: "Which is better for peach fuzz removal — microdermabrasion or dermaplaning?", answer: "Dermaplaning is the treatment for vellus hair (peach fuzz) removal — microdermabrasion does not remove vellus hair. Dermaplaning uses a sterile surgical-grade blade specifically designed to remove dead surface cells and vellus hair simultaneously in a single treatment. Popular pre-event for enhanced makeup application and cleaner skin surface appearance." },
+    { question: "Is microdermabrasion good for sensitive skin?", answer: "Mildly sensitive skin may tolerate gentle diamond-tip microdermabrasion settings. Significantly sensitive, reactive, or barrier-compromised skin typically finds microdermabrasion too aggressive and may benefit more from Oxy-Geneo. Arfah assesses individually during skin analysis. Sensitive skin should never receive Crystal Microdermabrasion — the crystal aerosol and deeper exfoliation contraindicate this modality for reactive skin." },
+    { question: "Is dermaplaning good for sensitive skin?", answer: "Dermaplaning on mildly sensitive skin may be tolerated with careful blade technique. Significantly sensitive skin, compromised skin barrier, or reactive skin may find blade contact irritating. Active rosacea, active inflammatory skin conditions, or open wounds contraindicate dermaplaning. Skin analysis determines individual suitability. For reactive skin, Oxy-Geneo may serve as a gentler alternative." },
+    { question: "How often should I get microdermabrasion?", answer: "Monthly programme is standard cadence for cumulative benefit. Microdermabrasion benefit peaks in the days immediately post-treatment and tapers over 3-4 weeks — monthly cadence maintains skin quality. Single-session appropriate for occasional refresh. Bridal patients may follow 3-4 session pre-wedding sequence. Membership option available for rolling monthly maintenance." },
+    { question: "How often should I get dermaplaning?", answer: "Monthly programme aligns with vellus hair regrowth cycle typically 3-4 weeks. Sustained monthly dermaplaning maintains consistent smoothness and peach fuzz management. Single-session appropriate for pre-event 3-5 days before a photographed occasion. Bridal patients typically follow monthly pre-wedding sequence." },
+    { question: "Is there downtime after either treatment?", answer: "No downtime. Skin looks smoother and feels refreshed immediately post-treatment. Mild pink flush possible for 24 hours (more common with microdermabrasion than dermaplaning). Makeup can be applied within 2-3 hours post-microdermabrasion, within a few hours post-dermaplaning. Sun protection essential — freshly exfoliated skin is more sun-sensitive. Avoid intense exercise, sauna, and hot yoga for 24 hours. Avoid retinoids and exfoliating acids for 48-72 hours." },
+    { question: "Can I have microdermabrasion or dermaplaning during pregnancy?", answer: "Both are surface treatments without systemic absorption concerns — generally considered acceptable during pregnancy following obstetrician confirmation. Individual assessment during consultation confirms suitability. LED light therapy add-on typically avoided during pregnancy. Skin during pregnancy may be more sensitive — gentler modality settings may be preferable." },
+    { question: "Can these treatments be combined in the same session?", answer: "Combining dermaplaning and microdermabrasion in the same session is possible but not always advisable — two aggressive mechanical exfoliation modalities on the same skin surface can compromise the skin barrier. Preferable approaches: alternate monthly, or combine only for specific patient profiles where clinically appropriate. Dermaplaning before HydraFacial or Oxy-Geneo is a well-established integration protocol — different technology combinations rather than two mechanical exfoliations stacked." },
+    { question: "Can dermaplaning be done before HydraFacial or Oxy-Geneo?", answer: "Yes — dermaplaning before HydraFacial or Oxy-Geneo is a well-established integration protocol. Dermaplaning as the first step removes vellus hair for cleaner facial delivery and enhances active ingredient penetration in the subsequent facial steps. Popular pre-event bridal choice. Vedara Care offers combined Dermaplaning + HydraFacial and Dermaplaning + Oxy-Geneo protocols priced together for convenience." },
+    { question: "Can men have microdermabrasion or dermaplaning?", answer: "Men can absolutely have microdermabrasion — commonly requested for surface exfoliation, congested pore support, dull skin refresh. Dermaplaning is not typically appropriate for male patients in beard-adjacent areas (terminal facial hair does not fit the dermaplaning purpose and blade contact with terminal hair follicles is different from vellus hair removal purpose). Men can have dermaplaning on cleanly shaven skin only, which is uncommon. Microdermabrasion is the standard male grooming option." },
+    { question: "What should I do before my appointment?", answer: "Arrive with makeup off or with time for gentle removal. Avoid retinoids/tretinoin 2-3 days before. Avoid glycolic acid products 24 hours before. Avoid recent significant sun exposure 24-48 hours. Wait 14 days after botox/fillers. Wait 2-4 weeks after chemical peel or laser per practitioner guidance. Do not have any waxing, threading, or laser hair removal in treatment area within 5 days before dermaplaning." },
+    { question: "Who delivers these treatments at Vedara Care JVC?", answer: "Arfah Owais — DHA-licensed aesthetician with CIBTAC-UK diploma from the Confederation of International Beauty Therapy and Cosmetology a UK gold-standard awarding body, NCLC certification, PMU certification, and 8+ years of hands-on clinical experience. Manual exfoliation technique is fundamental aesthetician skill — Arfah has delivered both microdermabrasion diamond-tip and crystal and dermaplaning across thousands of sessions. Multi-language Arabic, English, Hindi, Urdu. Female practitioner." },
+    { question: "Where is the clinic and how do I book?", answer: "Vedara Care Polyclinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Book by phone, WhatsApp, or through the website booking system. First-visit patients book 60-minute slot 30-min analysis plus 20-30 min treatment. Clinic hours: Sunday-Friday 9AM-9PM, Saturday 9AM-6PM. Beauty Therapy is one of Vedara Care's seven DHA-licensed specialties." }
+  ]
+};
+
+export const microdermabrasionRelatedTreatmentsGrid = {
+  label: "EXPLORE",
+  title: "Related treatments at Vedara Care JVC.",
+  linkText: "Browse all treatments →",
+  linkHref: "/treatments",
+  pages: [
     {
-      question: "What is microdermabrasion treatment?",
-      answer: "Microdermabrasion is a non-invasive skin treatment that mechanically exfoliates the outermost layer of the skin, removing dead cells and surface buildup to leave the skin looking smoother and fresher. It does not involve needles or strong chemical solutions."
+      title: "Comprehensive Skin Analysis JVC",
+      description: "Foundation diagnostic — every aesthetic programme starts here.",
+      href: "/book",
+      image: "/images/skin-analysis-jvc.webp"
     },
     {
-      question: "How does microdermabrasion work?",
-      answer: "A handheld device — either diamond-tipped or crystal-based — is passed across the skin to physically lift away dead surface cells, which are then removed by suction or wiped away. Treatment intensity is adjusted based on the patient's skin."
+      title: "HydraFacial JVC",
+      description: "Advanced multi-step medical-grade facial — often paired with dermaplaning as pre-treatment.",
+      href: "/treatments/hydrafacial-jvc",
+      image: "/images/hydrafacial-jvc.webp"
     },
     {
-      question: "Is microdermabrasion suitable for oily skin?",
-      answer: "It is often well tolerated on oily skin, and some patients find that removing surface buildup temporarily improves how the skin looks and feels. A professional assessment will confirm whether it's suitable for your specific skin."
+      title: "Oxy-Geneo Facial JVC",
+      description: "Tri-effect medical-grade facial — often paired with dermaplaning as pre-treatment.",
+      href: "/treatments/oxy-geneo-facial-jvc",
+      image: "/images/oxygen-facial.webp"
     },
     {
-      question: "Can microdermabrasion help dull skin?",
-      answer: "Yes, dullness is one of the concerns this treatment is best suited to address, since it works by removing the buildup of dead cells that often causes skin to look flat or tired. The effect is cosmetic and temporary rather than permanent."
-    },
-    {
-      question: "Can it improve uneven skin texture?",
-      answer: "Microdermabrasion may help smooth surface-level texture irregularities caused by dead cell buildup or dryness. Deeper structural texture changes, such as pitted scarring, are outside what this treatment can address."
-    },
-    {
-      question: "Does microdermabrasion remove dead skin cells?",
-      answer: "Yes — removing the outer layer of dead skin cells is the core mechanism of the treatment."
-    },
-    {
-      question: "Can microdermabrasion help acne?",
-      answer: "It may help with surface-level congestion in some patients, but it is not appropriate for active inflammatory acne, which can be aggravated by mechanical exfoliation. Suitability should always be confirmed during a professional assessment."
-    },
-    {
-      question: "Can it improve acne scars?",
-      answer: "It may offer limited, cosmetic softening for superficial texture irregularities or post-acne marks in some patients. It is not an effective treatment for deeper atrophic scarring, which requires a different approach."
-    },
-    {
-      question: "Can microdermabrasion help pigmentation?",
-      answer: "Its effect on true pigmentation is limited, since pigmentation is driven by activity deeper in the skin than microdermabrasion reaches. Any improvement in the appearance of surface-level discoloration tends to be mild and temporary."
-    },
-    {
-      question: "Is microdermabrasion painful?",
-      answer: "Most patients describe it as a mild, tolerable sensation — gentle pressure, a light exfoliating feeling and sometimes mild suction — rather than a painful treatment. Individual sensitivity varies."
-    },
-    {
-      question: "Does microdermabrasion have downtime?",
-      answer: "Downtime is generally minimal compared with more intensive treatments, though some patients experience temporary redness, dryness or mild sensitivity for a short period afterward."
-    },
-    {
-      question: "What does skin look like after treatment?",
-      answer: "Skin often looks smoother and appears more refreshed shortly after treatment, though some temporary redness or dryness is common in the hours and days that follow."
-    },
-    {
-      question: "How often can microdermabrasion be performed?",
-      answer: "This depends on how your skin recovers, the treatment intensity used and your overall treatment plan. A treating professional can recommend appropriate spacing based on your skin's response."
-    },
-    {
-      question: "How many sessions might I need?",
-      answer: "The number of sessions depends on your specific skin concern, sensitivity, desired outcome and professional recommendation. There is no universal package that suits every patient."
-    },
-    {
-      question: "Is microdermabrasion suitable for sensitive skin?",
-      answer: "It may be suitable for some patients at a gentler intensity, but sensitive skin also carries a higher chance of temporary irritation, so a cautious, individually assessed approach is important."
-    },
-    {
-      question: "How much does microdermabrasion cost in JVC?",
-      answer: "Cost depends on factors such as the treatment area, your skin's condition, the recommended treatment plan and the number of sessions involved. Speak with the clinic directly for accurate pricing based on your needs."
-    },
-    {
-      question: "How do I choose a microdermabrasion clinic?",
-      answer: "Look for a genuine consultation before treatment, a qualified provider, appropriate equipment and hygiene standards, transparent pricing, clear aftercare guidance and realistic expectations rather than guaranteed outcomes."
-    },
-    {
-      question: "Where is Vedara Care located?",
-      answer: "Vedara Care Polyclinic is located at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE."
-    },
-    {
-      question: "What should I do after microdermabrasion?",
-      answer: "General aftercare includes gentle cleansing, consistent moisturizing, diligent sun protection, avoiding further aggressive exfoliation, and following any specific instructions given by your treating professional."
-    },
-    {
-      question: "Is microdermabrasion better than a chemical peel?",
-      answer: "Neither is universally better — they exfoliate through different mechanisms and can be suited to different concerns and skin depths. The right choice depends on your specific skin and goals, which is best discussed during a consultation."
+      title: "Carbon Laser Peel JVC",
+      description: "Deeper exfoliation modality when microdermabrasion or dermaplaning don't reach the depth needed.",
+      href: "/treatments/carbon-laser-peel-jvc",
+      image: "/images/carbon.webp"
     }
   ]
 };
 
-export const microdermabrasionRelatedPages = {
-  label: "EXPLORE MORE",
-  title: "Related Dermatology Services",
-  pages: [
-    { title: "Chemical Peel in Dubai", href: "/treatments/chemical-peel-dubai", description: "A professional exfoliating treatment that may be suitable for selected concerns involving pigmentation, uneven tone, and skin texture." },
-    { title: "Skin Rejuvenation in JVC", href: "/treatments/skin-rejuvenation-jvc", description: "Personalised treatments focused on supporting smoother, healthier-looking, and more refreshed skin." },
-    { title: "LED Light Therapy in JVC", href: "/treatments/led-light-therapy-jvc", description: "A gentle light-based treatment that may complement selected facial and skin-rejuvenation programs." },
-    { title: "Oxygen Facial in JVC", href: "/treatments/oxygen-facial-jvc", description: "A refreshing facial option designed to support hydration and a brighter, more revitalised appearance." },
-    { title: "HydraFacial in JVC", href: "/hydrafacial-jvc", description: "A multi-step facial treatment combining cleansing, exfoliation, extraction, and hydration for refreshed-looking skin." },
-    { title: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc", description: "Speak with our dermatology team for a personalised skin assessment and treatment recommendations based on your individual needs." }
+export const microdermabrasionArticles = {
+  label: "LEARN MORE",
+  title: "Reading on manual exfoliation and skin renewal.",
+  browseAllHref: "/blog",
+  bgColor: "bg-[#F5F0EB]",
+  articles: [
+    {
+      title: "Microdermabrasion vs Dermaplaning — which suits your skin?",
+      description: "A direct comparison of both manual exfoliation modalities — technique, contraindications, skin profile matching, and integration guidance.",
+      img: "/images/microdermabrasion.webp",
+      href: "/blog"
+    },
+    {
+      title: "Dermaplaning myths — why peach fuzz does NOT grow back thicker",
+      description: "The biology behind vellus hair regrowth, the source of the misconception, and what patients actually experience monthly.",
+      img: "/images/myths.webp",
+      href: "/blog"
+    },
+    {
+      title: "Dermaplaning before HydraFacial — the integrated protocol for pre-event bridal work",
+      description: "Why combining dermaplaning and HydraFacial produces superior outcomes for pre-event skin preparation.",
+      img: "/images/dermaplaning-hydrafacial.webp",
+      href: "/blog"
+    }
   ]
+};
+
+
+// --- EXPORTED COMPONENT DATA ---
+
+export const microdermabrasionShortVersion = {
+  label: "AT A GLANCE",
+  title: "Microdermabrasion & Dermaplaning at Vedara Care JVC — the short version.",
+  content: "Microdermabrasion and dermaplaning are two distinct manual exfoliation treatments offered at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. Both are delivered by Arfah Owais, DHA-licensed aesthetician with CIBTAC-UK diploma and 8+ years of hands-on manual technique experience. Microdermabrasion uses either a diamond-encrusted wand or fine aluminium oxide crystals combined with vacuum suction to abrade the outermost skin layer. Dermaplaning uses a surgical-grade sterile blade held at a precise angle to gently remove dead surface skin cells and vellus hair (peach fuzz) — smoother skin surface, better makeup application, enhanced subsequent skincare product penetration. Both treatments take 20-30 minutes with no downtime. Every session starts with comprehensive skin analysis with Arfah to determine appropriate treatment selection. Monthly maintenance components within broader skincare programme, or individually as standalone refreshes.",
+  chips: [
+    "20–30 min session",
+    "No downtime",
+    "Diamond-tip and crystal options",
+    "Sterile-Blade Dermaplaning",
+    "Vellus hair removal",
+    "Enhanced product penetration",
+    "Monthly programme option",
+    "DHA-licensed clinic"
+  ]
+};
+
+export const microdermabrasionComprehensiveProtocol = {
+  label: "COMPREHENSIVE PROTOCOL",
+  title: "What actually happens in a session with Arfah.",
+  description: "Every session, every patient — the components that make up the protocol.",
+  steps: [
+    { num: '01', title: 'Comprehensive Skin Analysis (First Visit)', desc: '30-minute skin analysis with Arfah before first session. Skin type, sensitivity assessment, medication review, contraindication screening, treatment selection discussion. Not skipped for first-time patients.' },
+    { num: '02', title: 'Pre-Treatment Skin Preparation', desc: 'Makeup and product removal, gentle double cleanse. Positioning in reclined treatment chair. Skin dried thoroughly — dermaplaning requires completely dry skin for proper blade angle.' },
+    { num: '03', title: 'Treatment Selection Confirmation', desc: 'Selected modality confirmed based on skin analysis findings. Intensity settings discussed for microdermabrasion. Blade type confirmed for dermaplaning (sterile single-use surgical-grade).' },
+    { num: '04', title: 'Microdermabrasion Application', desc: 'Diamond-tip wand or crystal spray delivered systematically across face in overlapping passes. Vacuum suction integrated throughout. Duration: 15-20 minutes. Sensation: gentle abrasion feel — most describe as comfortable.' },
+    { num: '05', title: 'Dermaplaning Application', desc: 'Sterile single-use surgical-grade blade held at precise angle. Short, controlled sweeping motions across face. Duration: 15-25 minutes. Sensation: gentle brushing feel — no pain, no cutting sensation.' },
+    { num: '06', title: 'Post-Treatment Skin Soothing', desc: 'Cooling calming product applied post-treatment to soothe freshly exfoliated skin. Gentle massage during application supports circulation and product absorption.' },
+    { num: '07', title: 'Serum Infusion Layer', desc: 'Active serums infused into freshly exfoliated skin — hyaluronic acid, antioxidants, brightening serums, or peptides selected based on individual skin profile. Freshly exfoliated skin absorbs products more effectively.' },
+    { num: '08', title: 'Optional Add-Ons', desc: 'LED light therapy discussed and priced separately — Blue LED 415nm for acne-prone skin, Red LED 630nm for aging/inflammation. 10-15 minutes additional. Added when clinically appropriate.' },
+    { num: '09', title: 'Post-Treatment Care & Sun Protection', desc: 'SPF 30+ broad-spectrum applied at end of session. Immediate post-treatment skincare guidance verbal and written. Take-home skincare recommendations aligned with in-clinic protocol.' },
+    { num: '10', title: 'Written Session Summary & Follow-Up Plan', desc: 'Written summary: treatment modality, observations, recommended next session cadence, home-care recommendations. Programme patients have next session scheduled with treatment rotation plan.' }
+  ]
+};
+
+export const microdermabrasionJourney = {
+  label: "YOUR JOURNEY",
+  title: "What a microdermabrasion or dermaplaning visit actually looks like — from booking to follow-up.",
+  phases: [
+    {
+      title: "Booking & Pre-Visit Prep",
+      desc: "Book by phone, WhatsApp, or website. Pre-consultation form covers skin history, sensitivity, current concerns, medications, previous aesthetic treatments, active skin conditions (particularly relevant for dermaplaning contraindication screening). Arrive with makeup off if possible."
+    },
+    {
+      title: "First Visit: Analysis + Treatment",
+      desc: "First visit is 60 minutes total. 30-minute comprehensive skin analysis with Arfah including contraindication screening, then 20-30 minute selected treatment. You leave with skin refreshed and immediately smoother, written session summary, and personalised programme recommendation."
+    },
+    {
+      title: "Post-Treatment Immediate Care",
+      desc: "Skin looks brighter and feels smoother immediately. Mild pink flush possible 24 hours. Makeup within 2-3 hours. Sun protection essential. Avoid intense exercise, sauna, hot yoga for 24 hours. Avoid retinoids and exfoliating acids 48-72 hours."
+    },
+    {
+      title: "Follow-Up (Programme Patients)",
+      desc: "Next session scheduled at 4-week interval. Treatment rotation strategy discussed — alternating monthly between modalities or consistent single modality based on focus. Between-session skincare guidance supports sustained benefit."
+    },
+    {
+      title: "Sustained Programme (3-6 Months)",
+      desc: "Cumulative visible benefit — improved skin texture, sustained smoothness and brightness, enhanced skincare effectiveness. Programme review at 3 months and 6 months. Transition to quarterly maintenance or discuss additional treatments based on progress."
+    }
+  ]
+};
+
+export const microdermabrasionArfahProfile = {
+  bgColor: "[#F0EBE3]",
+  cardBgColor: "white",
+  image: "/images/arfah-owais-portrait.webp",
+  alt: "Arfah Owais DHA licensed aesthetician CIBTAC-UK Vedara Care JVC portrait",
+  name: "Arfah Owais",
+  designation: "DHA-LICENSED AESTHETICIAN • CIBTAC-UK • 8+ YEARS EXPERIENCE",
+  paragraphs: [
+    "Microdermabrasion and dermaplaning at Vedara Care JVC are delivered by Arfah Owais — DHA-licensed aesthetician with a CIBTAC-UK diploma (Confederation of International Beauty Therapy and Cosmetology, a UK gold-standard awarding body), NCLC certification, PMU certification, and 8+ years of hands-on clinical experience. Her approach starts with proper skin analysis and honest modality recommendation based on skin analysis findings — not upsell-driven. Multi-language: Arabic, English, Hindi, and Urdu. Female practitioner."
+  ],
+  credentials: [
+    "DHA Licensed",
+    "CIBTAC-UK Diploma",
+    "NCLC Certified",
+    "PMU Certified",
+    "8+ Years Experience",
+    "Female Practitioner",
+    "Multi-language"
+  ],
+  buttonText: "Book Your Consultation",
+  buttonHref: "/book"
+};
+
+export const microdermabrasionLocation = {
+  title: "Where microdermabrasion happens at Vedara Care JVC.",
+  mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14451.986873133649!2d55.1979402!3d25.0680608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6fac57df4cc9%3A0x6b42b58d04dd1445!2sJumeirah%20Village%20Circle%20-%20Dubai!5e0!3m2!1sen!2sae!4v1714470876123!5m2!1sen!2sae",
+  clinicName: "Vedara Care Polyclinic",
+  contactDetails: [
+    "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai",
+    "📞 +971 55 573 6312",
+    "💬 WhatsApp Available",
+    "✉️ booking@vedaracare.ae"
+  ],
+  landmarkNavigation: {
+    label: "Landmark navigation",
+    items: [
+      "Walking distance from Circle Mall",
+      "3 minutes from FIVE Jumeirah Village Hotel",
+      "5 minutes from JSS Private School",
+      "Ample free parking on-site",
+      "Access via Sheikh Mohammed Bin Zayed Road and Al Khail Road"
+    ]
+  },
+  travelTimes: {
+    label: "Approximate travel times",
+    items: [
+      { location: "Dubai Marina", time: "10 min" },
+      { location: "Downtown", time: "15 min" },
+      { location: "Business Bay", time: "12 min" },
+      { location: "Palm Jumeirah", time: "15 min" },
+      { location: "Al Barsha", time: "5 min" },
+      { location: "Dubai Hills", time: "8 min" },
+      { location: "JLT", time: "12 min" },
+      { location: "Mirdif", time: "20 min" }
+    ]
+  },
+  openingHours: {
+    label: "Opening Hours",
+    hours: ["Monday - Sunday: 9AM-10PM"],
+    note: "Extended and Ramadan hours available - confirm via WhatsApp."
+  }
 };

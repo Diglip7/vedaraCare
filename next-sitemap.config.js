@@ -18,6 +18,14 @@ module.exports = {
         { href: 'https://vedaracare.ae/ar/team/arfah-owais-aesthetician-jvc/', hreflang: 'ar-AE' }
       ];
     }
+    else if (path === '/treatments/hydrafacial-jvc/' || path === '/treatments/hydrafacial-jvc') {
+      priority = 0.9;
+      changefreq = 'monthly';
+      alternateRefs = [
+        { href: 'https://vedaracare.ae/treatments/hydrafacial-jvc/', hreflang: 'en-AE' },
+        { href: 'https://vedaracare.ae/ar/treatments/hydrafacial-jvc/', hreflang: 'ar-AE' }
+      ];
+    }
     else if (path === '/book' || path === '/contact') priority = 0.9;
     else if (['/ayurveda-clinic-jvc', '/dermatology-clinic-jvc', '/physiotherapy-jvc', '/skin-clinic-jvc', '/wellness-clinic-jvc', '/home-healthcare-jvc'].includes(path)) priority = 0.9;
     else if (['/ayurveda-dubai', '/physiotherapy-dubai', '/physiotherapy-at-home-dubai'].includes(path)) priority = 0.8;

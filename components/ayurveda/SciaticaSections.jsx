@@ -104,7 +104,7 @@ export const SciaticaTypes = ({
 
         {footer && (
           <div className="mt-5 text-center max-w-[900px] mx-auto pt-8 footer-link-container">
-            <p className="text-[#888888] text-sm font-sans leading-relaxed" dangerouslySetInnerHTML={{ __html: footer }} />
+            <div className="text-[#888888] text-sm font-sans leading-relaxed" dangerouslySetInnerHTML={{ __html: footer }} />
             <style jsx global>{`
               .footer-link-container a,
               .description-link-container a {

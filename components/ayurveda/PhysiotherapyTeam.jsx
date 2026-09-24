@@ -26,12 +26,12 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
             const slug = createSlug(member.name);
             return (
               <div key={index} className="bg-[#FAF8F5] rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col">
-                <div className="aspect-[2/1] bg-gray-100 overflow-hidden">
+                <div className="aspect-[1/1] bg-gray-100 overflow-hidden">
                   {member.image && (
                     <img
                       src={member.image}
                       alt={member.alt}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover object-top"
                     />
                   )}
                 </div>

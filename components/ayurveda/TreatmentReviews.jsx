@@ -17,7 +17,8 @@ const TreatmentReviews = ({
   items = [],
   stats = [],
   buttonText = "",
-  useKneeStyle = false
+  useKneeStyle = false,
+  footer = null
 }) => {
   // Determine if cards are solid white or light, requiring dark text
   const isWhiteCard = cardBgColor === 'bg-white' || cardBgColor === 'white' || cardBgColor === '#FFFFFF' || cardBgColor === 'rgb(255, 255, 255)' || cardBgColor === 'rgb(248, 244, 238)';
@@ -112,6 +113,10 @@ const TreatmentReviews = ({
                 </button>
               )}
             </div>
+          )}
+
+          {footer && (
+            <p className="text-center text-[12px] leading-[1.7] mt-12 max-w-3xl mx-auto" style={{ color: "#8C8273", fontStyle: "italic" }} dangerouslySetInnerHTML={{ __html: footer }} />
           )}
         </div>
       </section>
@@ -237,6 +242,10 @@ const TreatmentReviews = ({
               </button>
             )}
           </div>
+        )}
+
+        {footer && (
+          <p className="text-center text-[12px] leading-[1.7] mt-12 max-w-3xl mx-auto" style={{ color: "#8C8273", fontStyle: "italic" }} dangerouslySetInnerHTML={{ __html: footer }} />
         )}
       </div>
     </section>

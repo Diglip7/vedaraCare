@@ -1,8 +1,9 @@
 import React from 'react';
+import Link from 'next/link';
 
 const PostnatalPricingTableImage = ({ data }) => {
   if (!data) return null;
-  const { label, title, headers, rows, footer, bgColor } = data;
+  const { label, title, description, headers = [], rows = [], footer, bgColor, buttonText, buttonHref, secondaryLinkText, secondaryLinkHref } = data;
 
   return (
     <section className={`py-24 px-6 ${bgColor || 'bg-[#FAF8F5]'}`}>
@@ -14,6 +15,11 @@ const PostnatalPricingTableImage = ({ data }) => {
           <h2 className="text-[clamp(1.75rem,2vw,2.5rem)] font-serif font-normal text-[#1A1A1A] leading-[1.2]">
             {title}
           </h2>
+          {description && (
+            <p className="mt-4 text-[14px] font-sans text-[#6B6B6B] max-w-2xl mx-auto leading-relaxed">
+              {description}
+            </p>
+          )}
         </div>
 
         {/* Mobile View (Cards) */}
@@ -114,8 +120,24 @@ const PostnatalPricingTableImage = ({ data }) => {
           </div>
         </div>
 
-        <div className="mt-8 max-w-5xl">
-          <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "rgb(119, 119, 119)", textAlign: "center", maxWidth: "720px", margin: "32px auto 0px" }}>{footer}</p>
+        <div className="mt-8 mx-auto max-w-5xl flex flex-col items-center">
+          {footer && (
+            <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "rgb(119, 119, 119)", textAlign: "center", maxWidth: "720px", margin: "32px auto 0px" }}>
+              {footer}
+            </p>
+          )}
+          
+          {buttonText && buttonHref && (
+            <Link href={buttonHref} className="mt-8 bg-[#C9A961] text-white px-8 py-3 rounded-full text-[14px] font-medium tracking-wide hover:bg-[#B39350] transition-colors inline-block">
+              {buttonText}
+            </Link>
+          )}
+
+          {secondaryLinkText && secondaryLinkHref && (
+            <Link href={secondaryLinkHref} className="mt-4 text-[#4A4A4A] text-[13px] font-medium border-b border-[#4A4A4A] hover:text-[#C9A961] hover:border-[#C9A961] transition-colors pb-0.5">
+              {secondaryLinkText}
+            </Link>
+          )}
         </div>
       </div>
     </section>

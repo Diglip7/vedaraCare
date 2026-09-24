@@ -411,42 +411,24 @@ export const skinRejuvenationTeam = {
   description: "DHA-licensed specialists with substantial expertise in aesthetic dermatology across all Fitzpatrick skin types. Female and male dermatologists available. Multiple languages including Arabic, English, Hindi, Urdu.",
   team: [
     {
-      name: "Dr. Layla Hassan, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Aesthetic Dermatology", "Lasers", "Skin of Color"],
-      languages: ["Arabic", "English"],
-      link: "/dermatologists/dr-layla-hassan/",
-      image: "/images/doctors/dr-layla-hassan.jpg",
-      alt: "Dr. Layla Hassan consultant dermatologist aesthetic specialist Vedara Care JVC"
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      link: "/doctors/dr-sanjida-islam-suchana/",
+      specialties: ["Clinical Dermatology", "Skin Health", "Primary Care"],
+      experience: "Clinical dermatology professional offering comprehensive medical management for various skin and aesthetic conditions.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"]
     },
     {
-      name: "Dr. Priya Sharma, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Anti-Aging", "Microneedling", "Fitzpatrick I–VI"],
-      languages: ["English", "Hindi", "Urdu"],
-      link: "/dermatologists/dr-priya-sharma/",
-      image: "/images/doctors/dr-priya-sharma.jpg",
-      alt: "Dr. Priya Sharma consultant dermatologist aesthetic specialist Vedara Care JVC"
-    },
-    {
-      name: "Dr. Khalid Al Mansouri, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Chemical Peels", "PRP Therapy", "Aesthetic Dermatology"],
-      languages: ["Arabic", "English"],
-      link: "/dermatologists/dr-khalid-al-mansouri/",
-      image: "/images/doctors/dr-khalid-al-mansouri.jpg",
-      alt: "Dr. Khalid Al Mansouri consultant dermatologist aesthetic specialist Vedara Care JVC"
-    },
-    {
-      name: "Dr. Meera Patel, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Skin Boosters", "Mesotherapy", "Anti-Aging"],
-      languages: ["English", "Hindi", "Gujarati"],
-      link: "/dermatologists/dr-meera-patel/",
-      image: "/images/doctors/dr-meera-patel.jpg",
-      alt: "Dr. Meera Patel consultant dermatologist aesthetic specialist Vedara Care JVC"
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      image: "/images/arfah-owais-portrait.webp",
+      link: "/doctors/arfah-owais/",
+      specialties: ["Advanced Facial Therapy", "Scar Treatment", "Laser"],
+      experience: "Experienced aesthetician specializing in targeted skincare regimens and procedural treatments.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"]
     }
-  ]
+  ],
 };
 
 export const skinRejuvenationFaqs = {

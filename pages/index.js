@@ -12,6 +12,7 @@ import FAQ from '../components/home/FAQ';
 import Location from '../components/home/Location';
 
 import CTA from '../components/home/CTA';
+import SEOContent from '../components/home/SEOContent';
 import {
   homeFaqs,
   homeJournal,
@@ -74,6 +75,7 @@ export default function Home() {
       <Location {...homeLocation} />
       <Journal {...homeJournal} />
       <FAQ {...homeFaqs} />
+      <SEOContent />
       <CTA {...homeCTA} />
     </>
   );

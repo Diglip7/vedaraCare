@@ -53,9 +53,9 @@ const Location = ({
   {/* Location Card Overlay */}
   <div className="absolute bottom-8 left-8 bg-white p-6 rounded-2xl shadow-xl border border-gray-100 max-w-[280px] space-y-3 z-10">
     <div className="space-y-1">
-      <h4 className="text-[16px] font-serif font-bold text-[#1A1A1A]">
+      <h3 className="text-[16px] font-serif font-bold text-[#1A1A1A]">
         {mapCard.title}
-      </h4>
+      </h3>
       <p className="text-[13px] text-[#6B6B6B] font-sans">
         {mapCard.subtitle}
       </p>
@@ -85,7 +85,7 @@ const Location = ({
                   <MapPin size={20} className="text-[#184C3A]" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="text-[16px] font-sans font-bold text-[#1A1A1A]">{address.label}</h4>
+                  <h3 className="text-[16px] font-sans font-bold text-[#1A1A1A]">{address.label}</h3>
                   <p className="text-[15px] text-[#6B6B6B] font-sans leading-relaxed">
                     {address.street}<br />
                     {address.area}<br />
@@ -100,7 +100,7 @@ const Location = ({
                   <Phone size={20} className="text-[#184C3A]" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="text-[16px] font-sans font-bold text-[#1A1A1A]">{contact.label}</h4>
+                  <h3 className="text-[16px] font-sans font-bold text-[#1A1A1A]">{contact.label}</h3>
                   <p className="text-[15px] text-[#6B6B6B] font-sans leading-relaxed">
   Phone:{' '}
   <a href={`tel:${contact.phone.replace(/\s+/g, '')}`} className="hover:text-[#184C3A]">
@@ -131,7 +131,7 @@ WhatsApp: <a
                   <Clock size={20} className="text-[#184C3A]" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="text-[16px] font-sans font-bold text-[#1A1A1A]">{hours.label || 'Hours'}</h4>
+                  <h3 className="text-[16px] font-sans font-bold text-[#1A1A1A]">{hours.label || 'Hours'}</h3>
                   <p className="text-[15px] text-[#6B6B6B] font-sans leading-relaxed">
                     {typeof hours === 'string' ? hours : (
                       <>

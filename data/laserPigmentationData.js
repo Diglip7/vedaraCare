@@ -341,13 +341,22 @@ export const pigmentationSpecialists = {
   title: "Dermatology Specialists for Pigmentation Treatment at Our JVC Clinic",
   doctors: [
     {
-      name: "[VERIFIED DOCTOR NAME]",
-      title: "Consultant Dermatologist",
-      specialty: "Dermatology",
+      name: "Dr. Sanjida Islam Suchana",
+      title: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      specialty: "Clinical Dermatology",
       dhaLicense: "DHA-Licensed",
-      subspecialty: "[To be confirmed]",
-      languages: "[To be confirmed]",
-      profileLink: "[Link to profile page]"
+      subspecialty: "Skin Health & Primary Care",
+      languages: "English, Hindi, Bengali, Urdu",
+      profileLink: "/doctors/dr-sanjida-islam-suchana/"
+    },
+    {
+      name: "Aesthetician Arfah Owais",
+      title: "DHA-Licensed · Aesthetician",
+      specialty: "Aesthetics",
+      dhaLicense: "DHA-Licensed",
+      subspecialty: "Advanced Facial Therapy & Laser",
+      languages: "Arabic, English, Hindi, Urdu",
+      profileLink: "/doctors/arfah-owais/"
     }
   ],
   footer: "Practitioner details will be updated with verified credentials before publication. Doctors are not invented or approximated."

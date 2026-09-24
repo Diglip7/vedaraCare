@@ -43,7 +43,7 @@ const PelvicFloorDubai = () => {
       "name": "Vedara Care Polyclinic",
       "alternateName": ["Vedara Pelvic Floor Physio Dubai", "Vedara Female Pelvic Health JVC"],
       "url": currentUrl,
-      "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
+      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist pelvic floor physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Delivered exclusively by female DPT-qualified physiotherapists with specific pelvic floor training. Postnatal pelvic floor recovery, urinary incontinence, pelvic organ prolapse, sexual function concerns, pregnancy support, chronic pelvic pain. Cultural and modesty considerations respected. External and internal assessment options available.",
       "telephone": "+971 4 567 8900",
       "priceRange": "AED 400 - AED 15,000",
@@ -74,18 +74,18 @@ const PelvicFloorDubai = () => {
         }
       ],
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Mirdif"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "Jumeirah Village Circle" },
+        { "@type": "Place", "name": "Jumeirah Village Triangle" },
+        { "@type": "Place", "name": "Al Barsha South" },
+        { "@type": "Place", "name": "Dubai Sports City" },
+        { "@type": "Place", "name": "Motor City" },
+        { "@type": "Place", "name": "Arjan" },
+        { "@type": "Place", "name": "Dubai Hills Estate" },
+        { "@type": "Place", "name": "Dubai Marina" },
+        { "@type": "Place", "name": "Downtown Dubai" },
+        { "@type": "Place", "name": "Palm Jumeirah" },
+        { "@type": "Place", "name": "Mirdif" }
       ],
       "medicalSpecialty": [
         "Physiotherapy",
@@ -94,27 +94,27 @@ const PelvicFloorDubai = () => {
       ],
       "isAcceptingNewPatients": true,
       "availableService": [
-        {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "Pelvic Floor Muscle Training"},
-        {"@type": "MedicalProcedure", "name": "Biofeedback Therapy"},
-        {"@type": "MedicalProcedure", "name": "Bladder Retraining"},
-        {"@type": "MedicalProcedure", "name": "Pelvic Floor Manual Therapy"},
-        {"@type": "MedicalProcedure", "name": "Postural Re-education"},
-        {"@type": "MedicalProcedure", "name": "Postnatal Pelvic Floor Recovery"},
-        {"@type": "MedicalProcedure", "name": "Stress Urinary Incontinence Treatment"},
-        {"@type": "MedicalProcedure", "name": "Urge Urinary Incontinence Treatment"},
-        {"@type": "MedicalProcedure", "name": "Mixed Urinary Incontinence Treatment"},
-        {"@type": "MedicalProcedure", "name": "Pelvic Organ Prolapse Conservative Management"},
-        {"@type": "MedicalProcedure", "name": "Cystocele Treatment"},
-        {"@type": "MedicalProcedure", "name": "Rectocele Treatment"},
-        {"@type": "MedicalProcedure", "name": "Uterine Prolapse Treatment"},
-        {"@type": "MedicalProcedure", "name": "Diastasis Recti Treatment"},
-        {"@type": "MedicalProcedure", "name": "Dyspareunia Treatment"},
-        {"@type": "MedicalProcedure", "name": "Vaginismus Treatment"},
-        {"@type": "MedicalProcedure", "name": "Chronic Pelvic Pain Treatment"},
-        {"@type": "MedicalProcedure", "name": "Pelvic Girdle Pain Treatment"},
-        {"@type": "MedicalProcedure", "name": "Post-Prostatectomy Incontinence Treatment"},
-        {"@type": "MedicalProcedure", "name": "Chronic Pelvic Pain Syndrome Treatment (Men)"}
+        { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" },
+        { "@type": "MedicalProcedure", "name": "Pelvic Floor Muscle Training" },
+        { "@type": "MedicalProcedure", "name": "Biofeedback Therapy" },
+        { "@type": "MedicalProcedure", "name": "Bladder Retraining" },
+        { "@type": "MedicalProcedure", "name": "Pelvic Floor Manual Therapy" },
+        { "@type": "MedicalProcedure", "name": "Postural Re-education" },
+        { "@type": "MedicalProcedure", "name": "Postnatal Pelvic Floor Recovery" },
+        { "@type": "MedicalProcedure", "name": "Stress Urinary Incontinence Treatment" },
+        { "@type": "MedicalProcedure", "name": "Urge Urinary Incontinence Treatment" },
+        { "@type": "MedicalProcedure", "name": "Mixed Urinary Incontinence Treatment" },
+        { "@type": "MedicalProcedure", "name": "Pelvic Organ Prolapse Conservative Management" },
+        { "@type": "MedicalProcedure", "name": "Cystocele Treatment" },
+        { "@type": "MedicalProcedure", "name": "Rectocele Treatment" },
+        { "@type": "MedicalProcedure", "name": "Uterine Prolapse Treatment" },
+        { "@type": "MedicalProcedure", "name": "Diastasis Recti Treatment" },
+        { "@type": "MedicalProcedure", "name": "Dyspareunia Treatment" },
+        { "@type": "MedicalProcedure", "name": "Vaginismus Treatment" },
+        { "@type": "MedicalProcedure", "name": "Chronic Pelvic Pain Treatment" },
+        { "@type": "MedicalProcedure", "name": "Pelvic Girdle Pain Treatment" },
+        { "@type": "MedicalProcedure", "name": "Post-Prostatectomy Incontinence Treatment" },
+        { "@type": "MedicalProcedure", "name": "Chronic Pelvic Pain Syndrome Treatment (Men)" }
       ],
       "memberOf": {
         "@type": "GovernmentOrganization",
@@ -133,13 +133,13 @@ const PelvicFloorDubai = () => {
           "@type": "OfferCatalog",
           "name": "Insurance Partners",
           "itemListElement": [
-            {"@type": "Organization", "name": "Daman"},
-            {"@type": "Organization", "name": "AXA"},
-            {"@type": "Organization", "name": "Allianz"},
-            {"@type": "Organization", "name": "Oman Insurance"},
-            {"@type": "Organization", "name": "Now Health"},
-            {"@type": "Organization", "name": "Bupa"},
-            {"@type": "Organization", "name": "MetLife"}
+            { "@type": "Organization", "name": "Daman" },
+            { "@type": "Organization", "name": "AXA" },
+            { "@type": "Organization", "name": "Allianz" },
+            { "@type": "Organization", "name": "Oman Insurance" },
+            { "@type": "Organization", "name": "Now Health" },
+            { "@type": "Organization", "name": "Bupa" },
+            { "@type": "Organization", "name": "MetLife" }
           ]
         },
         {
@@ -163,11 +163,11 @@ const PelvicFloorDubai = () => {
         "name": "Women's Health Physiotherapy"
       },
       "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Pelvic Floor Muscle Training"},
-        {"@type": "MedicalProcedure", "name": "Biofeedback Therapy"},
-        {"@type": "MedicalProcedure", "name": "Bladder Retraining"},
-        {"@type": "MedicalProcedure", "name": "Pelvic Floor Manual Therapy"},
-        {"@type": "MedicalProcedure", "name": "Postural Re-education"}
+        { "@type": "MedicalProcedure", "name": "Pelvic Floor Muscle Training" },
+        { "@type": "MedicalProcedure", "name": "Biofeedback Therapy" },
+        { "@type": "MedicalProcedure", "name": "Bladder Retraining" },
+        { "@type": "MedicalProcedure", "name": "Pelvic Floor Manual Therapy" },
+        { "@type": "MedicalProcedure", "name": "Postural Re-education" }
       ]
     },
     // Schema 3: MedicalCondition entities
@@ -175,89 +175,89 @@ const PelvicFloorDubai = () => {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Stress Urinary Incontinence",
-      "code": {"@type": "MedicalCode", "code": "N39.3", "codingSystem": "ICD-10"},
+      "code": { "@type": "MedicalCode", "code": "N39.3", "codingSystem": "ICD-10" },
       "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Pelvic Floor Muscle Training"},
-        {"@type": "MedicalProcedure", "name": "Biofeedback Therapy"}
+        { "@type": "MedicalProcedure", "name": "Pelvic Floor Muscle Training" },
+        { "@type": "MedicalProcedure", "name": "Biofeedback Therapy" }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Urge Urinary Incontinence",
-      "code": {"@type": "MedicalCode", "code": "N39.41", "codingSystem": "ICD-10"},
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "code": { "@type": "MedicalCode", "code": "N39.41", "codingSystem": "ICD-10" },
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Pelvic Organ Prolapse",
       "alternateName": ["Cystocele", "Rectocele", "Uterine Prolapse"],
-      "code": {"@type": "MedicalCode", "code": "N81", "codingSystem": "ICD-10"},
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "code": { "@type": "MedicalCode", "code": "N81", "codingSystem": "ICD-10" },
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Postnatal Pelvic Floor Dysfunction",
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Diastasis Recti",
-      "code": {"@type": "MedicalCode", "code": "M62.0", "codingSystem": "ICD-10"},
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "code": { "@type": "MedicalCode", "code": "M62.0", "codingSystem": "ICD-10" },
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Dyspareunia",
       "alternateName": ["Painful Intercourse"],
-      "code": {"@type": "MedicalCode", "code": "N94.1", "codingSystem": "ICD-10"},
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "code": { "@type": "MedicalCode", "code": "N94.1", "codingSystem": "ICD-10" },
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Vaginismus",
-      "code": {"@type": "MedicalCode", "code": "N94.2", "codingSystem": "ICD-10"},
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "code": { "@type": "MedicalCode", "code": "N94.2", "codingSystem": "ICD-10" },
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Chronic Pelvic Pain Syndrome",
-      "code": {"@type": "MedicalCode", "code": "R10.2", "codingSystem": "ICD-10"},
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "code": { "@type": "MedicalCode", "code": "R10.2", "codingSystem": "ICD-10" },
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Pelvic Girdle Pain",
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Post-Prostatectomy Incontinence",
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalCondition",
       "name": "Chronic Pelvic Pain Syndrome (Men)",
-      "possibleTreatment": {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"}
+      "possibleTreatment": { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" }
     },
     // Schema 3: Service with OfferCatalog
     {
       "@context": "https://schema.org",
       "@type": "Service",
       "name": "Pelvic Floor Physiotherapy Services in Dubai",
-      "provider": {"@id": "https://vedaracare.ae/conditions/pelvic-floor-physiotherapy-dubai/#pelvic-floor"},
+      "provider": { "@id": "https://vedaracare.ae/conditions/pelvic-floor-physiotherapy-dubai/#pelvic-floor" },
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "United Arab Emirates" }
       ],
       "serviceType": "Female Pelvic Floor Physiotherapy and Women's Health",
       "hasOfferCatalog": {
@@ -307,9 +307,9 @@ const PelvicFloorDubai = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Pelvic Floor Physiotherapy in Dubai", "item": currentUrl}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/" },
+        { "@type": "ListItem", "position": 3, "name": "Pelvic Floor Physiotherapy in Dubai", "item": currentUrl }
       ]
     },
     // Schema 5: FAQPage
@@ -342,9 +342,9 @@ const PelvicFloorDubai = () => {
         "name": "Vedara Care Polyclinic"
       },
       "about": [
-        {"@type": "MedicalCondition", "name": "Pelvic Floor Dysfunction"},
-        {"@type": "MedicalCondition", "name": "Postnatal Pelvic Floor"},
-        {"@type": "MedicalCondition", "name": "Urinary Incontinence"}
+        { "@type": "MedicalCondition", "name": "Pelvic Floor Dysfunction" },
+        { "@type": "MedicalCondition", "name": "Postnatal Pelvic Floor" },
+        { "@type": "MedicalCondition", "name": "Urinary Incontinence" }
       ],
       "mainEntityOfPage": currentUrl
     },
@@ -358,7 +358,7 @@ const PelvicFloorDubai = () => {
       "gender": "Female",
       "medicalSpecialty": ["Physiotherapy", "Pelvic Floor Physiotherapy", "Women's Health"],
       "hasCredential": ["DPT", "Pelvic Floor Trained", "DHA-Licensed"],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
+      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
     })),
     // Schema 8: EducationalCredential
     {
@@ -373,10 +373,10 @@ const PelvicFloorDubai = () => {
       "@type": "AnatomicalStructure",
       "name": "Pelvic Floor Muscles",
       "relatedStructure": [
-        {"@type": "AnatomicalStructure", "name": "Pelvic Diaphragm"},
-        {"@type": "AnatomicalStructure", "name": "Urethra"},
-        {"@type": "AnatomicalStructure", "name": "Bladder"},
-        {"@type": "AnatomicalStructure", "name": "Uterus"}
+        { "@type": "AnatomicalStructure", "name": "Pelvic Diaphragm" },
+        { "@type": "AnatomicalStructure", "name": "Urethra" },
+        { "@type": "AnatomicalStructure", "name": "Bladder" },
+        { "@type": "AnatomicalStructure", "name": "Uterus" }
       ]
     },
     // Schema 10: Place entities
@@ -384,11 +384,11 @@ const PelvicFloorDubai = () => {
       "@context": "https://schema.org",
       "@type": "Place",
       "name": "Jumeirah Village Circle",
-      "containedIn": {"@type": "City", "name": "Dubai"},
+      "containedIn": { "@type": "City", "name": "Dubai" },
       "containedInPlace": [
-        {"@type": "Place", "name": "Circle Mall"},
-        {"@type": "Place", "name": "FIVE Jumeirah Village"},
-        {"@type": "Place", "name": "JSS Private School"}
+        { "@type": "Place", "name": "Circle Mall" },
+        { "@type": "Place", "name": "FIVE Jumeirah Village" },
+        { "@type": "Place", "name": "JSS Private School" }
       ]
     },
     {
@@ -539,16 +539,16 @@ const PelvicFloorDubai = () => {
         ))}
       </Head>
 
-      <AyurvedaHero 
+      <AyurvedaHero
         {...pelvicFloorHero}
         patientsTreated={pelvicFloorHero.patientsTreated}
       />
 
-      <AyurvedaIntro 
+      <AyurvedaIntro
         {...pelvicFloorIntro}
       />
 
-      <SciaticaTreatment
+      <c
         data={pelvicFloorSciaticaSection1}
         showBorderLeft={false}
         rightContentStyle="keyStatistics"
@@ -556,7 +556,7 @@ const PelvicFloorDubai = () => {
         showStepNumbers={false}
       />
 
-      <SportsInjuryTypes 
+      <SportsInjuryTypes
         {...pelvicFloorTypes}
         variant="condition"
         lgColumns={4}
@@ -565,7 +565,7 @@ const PelvicFloorDubai = () => {
 
       <PelvicFloorAssessment data={pelvicFloorAssessment} />
 
-       
+
       <SciaticaTreatment
         data={pelvicFloorSciaticaSection2}
         showBorderLeft={false}
@@ -576,13 +576,13 @@ const PelvicFloorDubai = () => {
 
       <PelvicFloorAssessment data={pelvicFloorPostnatalSection} />
 
-      <TreatmentReviews 
+      <TreatmentReviews
         bgColor="bg-white"
         {...pelvicFloorReviews}
         useKneeStyle={true}
       />
 
-      <PhysiotherapyTeam 
+      <PhysiotherapyTeam
         bgColor="bg-[#F8F4EE]"
         cardColor="bg-white"
         {...pelvicFloorTeam}
@@ -627,15 +627,15 @@ const PelvicFloorDubai = () => {
 
       <FAQ {...pelvicFloorFaqs} />
 
-      <TreatmentLocation 
+      <TreatmentLocation
         {...pelvicFloorLocation}
       />
 
-      <FinalCTA 
+      <FinalCTA
         {...pelvicFloorCTA}
       />
 
-      <RelatedPages 
+      <RelatedPages
         bgColor={pelvicFloorRelatedPages.bgColor}
         {...pelvicFloorRelatedPages} />
     </>

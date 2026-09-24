@@ -204,34 +204,22 @@ export const prpHairTeam = {
   description: "PRP hair treatment is delivered by our consultant dermatologists — DHA-licensed specialists with substantial expertise in hair loss and PRP procedures. Not aestheticians or nurses alone — medically qualified specialists. Female and male dermatologists available. Multiple languages including Arabic, English, Hindi, Urdu.",
   team: [
     {
-      name: "Dr. Layla Al-Hassan, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["PRP Therapy", "Hair Loss", "Trichology", "Medical Dermatology"],
-      description: "12 years specializing in hair loss and PRP procedures across diverse ethnic hair types.",
-      languages: ["Arabic", "English"],
-      image: "/images/sample.jpeg",
-      alt: "Dr. Layla Al-Hassan consultant dermatologist PRP hair specialist Vedara Care JVC",
-      link: "/dermatologists/dr-layla-al-hassan/"
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      link: "/doctors/dr-sanjida-islam-suchana/",
+      specialties: ["Clinical Dermatology", "Skin Health", "Primary Care"],
+      experience: "Clinical dermatology professional offering comprehensive medical management for various skin and aesthetic conditions.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"]
     },
     {
-      name: "Dr. Rahul Menon, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["PRP Therapy", "Androgenetic Alopecia", "Trichoscopy"],
-      description: "Extensive experience in male and female pattern hair loss, PRP protocols, and combination therapy.",
-      languages: ["English", "Hindi", "Malayalam"],
-      image: "/images/sample.jpeg",
-      alt: "Dr. Rahul Menon consultant dermatologist PRP hair specialist Vedara Care JVC",
-      link: "/dermatologists/dr-rahul-menon/"
-    },
-    {
-      name: "Dr. Sara Khalid, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["Female Hair Loss", "PRP Therapy", "Hormonal Hair Loss"],
-      description: "Specialist focus on female pattern hair loss, postpartum hair shedding, and hormonal hair conditions.",
-      languages: ["Arabic", "English", "Urdu"],
-      image: "/images/sample.jpeg",
-      alt: "Dr. Sara Khalid consultant dermatologist PRP hair specialist Vedara Care JVC",
-      link: "/dermatologists/dr-sara-khalid/"
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      image: "/images/arfah-owais-portrait.webp",
+      link: "/doctors/arfah-owais/",
+      specialties: ["Advanced Facial Therapy", "Scar Treatment", "Laser"],
+      experience: "Experienced aesthetician specializing in targeted skincare regimens and procedural treatments.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"]
     }
   ],
   gridColumns: "lg:grid-cols-3"

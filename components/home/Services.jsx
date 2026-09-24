@@ -35,7 +35,7 @@ const Services = ({
       id: 'home-healthcare',
       title: 'Home Healthcare in Dubai',
       subtitle: 'Premium healthcare services in the comfort of your home',
-      image: '/images/Home Healthcare in Dubai.webp',
+      image: '/images/home-healthcare-dubai.webp',
       features: ['Doctor on Call', 'Home Nursing', 'IV Drip', 'Lab Tests at Home', 'Elderly Care', 'Physiotherapy at Home'],
       buttonText: 'Explore Home Healthcare',
       link: '/services/home-healthcare'
@@ -44,7 +44,7 @@ const Services = ({
       id: 'wellness',
       title: 'Wellness Treatments',
       subtitle: 'Holistic wellness programs for mind, body, and spirit',
-      image: '/images/Wellness Treatments.webp',
+      image: '/images/wellness-treatments.webp',
       features: ['Detox Programs', 'Stress Management', 'Yoga Therapy', 'Nutrition Consultation', 'Weight Management'],
       buttonText: 'Explore Wellness',
       link: '/services/wellness'
@@ -72,6 +72,9 @@ const Services = ({
                   src={service.image} 
                   alt={service.title} 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  loading="lazy"
+                  width="800"
+                  height="600"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
               </div>

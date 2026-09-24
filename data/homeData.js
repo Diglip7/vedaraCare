@@ -104,7 +104,7 @@ export const homeServices = {
       id: 'home-healthcare',
       title: 'Home Healthcare in Dubai',
       subtitle: 'Premium healthcare services in the comfort of your home',
-      image: '/images/Home Healthcare in Dubai.webp',
+      image: '/images/Home Health in Dubai.webp',
       features: ['Doctor on Call', 'Home Nursing', 'IV Drip', 'Lab Tests at Home', 'Elderly Care', 'Physiotherapy at Home'],
       buttonText: 'Explore Home Healthcare',
       link: '/physiotherapy-at-home-dubai'
@@ -113,7 +113,7 @@ export const homeServices = {
       id: 'wellness',
       title: 'Wellness Treatments',
       subtitle: 'Holistic wellness programs for mind, body, and spirit',
-      image: '/images/Wellness Treatments.webp',
+      image: '/images/wellness-treatments.webp',
       features: ['Detox Programs', 'Stress Management', 'Yoga Therapy', 'Nutrition Consultation', 'Weight Management'],
       buttonText: 'Explore Wellness',
       link: '/wellness-clinic-jvc'

@@ -18,8 +18,9 @@ const Layout = ({ children }) => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-[100] focus:p-4 focus:bg-white focus:text-black">Skip to content</a>
       <Header />
-      <main className="flex-grow lg:pb-0 pb-20">
+      <main id="main-content" className="flex-grow lg:pb-0 pb-20">
         {children}
       </main>
       <Footer />
@@ -28,10 +29,11 @@ const Layout = ({ children }) => {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/+971 55 573 6312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20your%20treatments%20and%20book%20a%20consultation."
+        href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20your%20treatments%20and%20book%20a%20consultation."
         className="fixed bottom-8 right-8 lg:bottom-8 lg:right-8 bg-[#184C3A] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform z-[100] mb-20 lg:mb-0"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp"
       >
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle fill-current">
           <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />

@@ -4,23 +4,25 @@ export const hydrafacialHero = {
     { label: "Treatments", href: "/treatments/" },
     { label: "HydraFacial in JVC Dubai", active: true }
   ],
-  label: "HYDRAFACIAL · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
+  label: "Aesthetic Treatments · JVC · Dubai",
   title: "HydraFacial in JVC, Dubai. Structured cleansing, exfoliation, extraction, and hydration for refreshed skin.",
-  description: "Living in Jumeirah Village Circle (JVC) can expose your skin to heat, dust, air conditioning, and daily stress, which may contribute to dullness, excess oil, clogged pores, and tired-looking skin. HydraFacial in JVC is a non-invasive facial treatment that combines cleansing, exfoliation, gentle extraction, and hydration in one session. It can help refresh the skin and improve its overall appearance with minimal downtime. At Vedara Care Polyclinic in JVC, Dubai, our dermatology team offers HydraFacial as part of advanced skin care treatments. This guide explains how HydraFacial works, its potential benefits, expected results, and who may be suitable for the treatment.",
+  description: "Patented vortex-fusion technology. Cleanse, exfoliate, extract, hydrate, and antioxidant-infuse in a single 30–60 minute session. Delivered by Arfah Owais — DHA-licensed aesthetician, CIBTAC-UK diploma, 8+ years of experience — inside a proper DHA-licensed polyclinic in Jumeirah Village Circle, walking distance from Circle Mall.",
   primaryCTA: "Book HydraFacial Consultation",
   secondaryCTA: "Chat on WhatsApp",
   trustSignals: [
-    "DHA-licensed dermatology supervision",
-    "Skin type adjusted protocols",
-    "Fitzpatrick I–VI expertise",
-    "Walking distance from Circle Mall, JVC"
+    "DHA-Licensed Clinic",
+    "CIBTAC - UK Certified Aesthetician",
+    "Genuine HydraFacial Device",
+    "No Downtime",
+    "Female Practitioner",
+    "AR/EN/HI/UR"
   ],
   floatingCard: {
-    title: "Protocol quality matters.",
-    subtitle: "HydraFacial outcomes depend heavily on clinician judgement during extraction and serum selection — not just the device. Dermatology-led delivery means your skin type and sensitivities guide every step, not a one-size-fits-all routine."
+    // title: "3 core steps + optional booster serums for targeted concerns",
+    subtitle: "3 core steps + optional booster serums for targeted concerns </br > <br>Vedara Care JVC"
   },
-  image: "/images/hydra-facial.hero.webp",
-  alt: "HydraFacial treatment consultation at Vedara Care JVC with dermatologist"
+  image: "/images/hydrafacial-jvc-hero.webp",
+  alt: "HydraFacial vortex-fusion device treatment Vedara Care JVC Dubai"
 };
 
 export const hydrafacialIntro = {
@@ -32,89 +34,40 @@ export const hydrafacialIntro = {
 
 export const hydrafacialHowItWorks = {
   treatment: {
-    label: "UNDERSTANDING HYDRAFACIAL",
-    title: "How HydraFacial actually works — and why protocol adjustment matters.",
-    intro: "HydraFacial is one of the most widely-used professional facial treatments — but safe, effective delivery requires attention to skin type, sensitivities, and appropriate serum selection.",
+    label: "",
+    title: "The technology, the steps, and what makes it different from a regular facial.",
+    intro: "",
     steps: [
       {
-        title: "",
-        description: "While the exact sequence can vary by provider and by what a patient’s skin needs, a typical HydraFacial session follows a broadly similar structure:"
+        title: "The vortex-fusion technology — what it actually does",
+        description: "HydraFacial's core innovation is the patented vortex-fusion delivery tip. It's a spiral-shaped tip that combines two things happening simultaneously: negative pressure suction (which lifts pore impurities out gently and painlessly, unlike traditional manual extraction which pinches and can bruise the skin) and serum infusion (which floods the pore with cleansing, exfoliating, or hydrating serums at the same moment). The vortex effect creates a swirl inside the pore that lifts debris out and simultaneously deposits serum in. It's the reason HydraFacial results are more consistent and less traumatic than manual extraction facials.<br/><br/>Regular facials rely on manual extraction with metal tools, steam to soften pores, and topical product application. Effective when done well, but variable in results and often uncomfortable. HydraFacial standardises the process — same protocol, same vortex pressure, same serum delivery, every session. Better consistency, less discomfort, less risk of post-extraction inflammation or bruising."
       },
       {
-        title: "Skin assessment",
-        description: "Before anything touches your face, a clinician looks at your skin type, current concerns, and any sensitivities, and decides whether HydraFacial is appropriate that day or whether the protocol needs adjusting."
+        title: "The 3 core steps",
+        description: "Step 1 — Cleanse and Peel. A cleansing solution (typically containing glycolic and salicylic acid at a mild concentration) is applied through the vortex tip. It removes surface dead skin cells, dislodges dulling debris on the skin surface, and prepares the skin for extraction. Duration: 5-10 minutes. You'll feel a mild cooling sensation, no discomfort.<br/><br/>Step 2 — Extract and Hydrate. The vortex tip switches to extraction mode — negative pressure gently lifts pore impurities (sebum plugs, blackhead debris, dead skin trapped in pores) out of the pore. Simultaneously, the tip infuses a hydrating serum with hyaluronic acid derivatives. This is the step that gives HydraFacial its distinctive result — pores visibly clearer without the pinching or bruising of manual extraction. Duration: 15-20 minutes.<br/><br/>Step 3 — Fuse and Protect. The final step infuses antioxidant serums (peptides, hyaluronic acid, and antioxidants) into the freshly cleansed skin. This is when boosters are typically added — targeted serums selected based on skin concerns from analysis. Duration: 5-15 minutes depending on boosters selected."
       },
       {
-        title: "Cleansing",
-        description: "The skin is cleaned to remove makeup, sunscreen, and surface oil, creating a clean base for the following steps"
+        title: "The booster serums — what they actually target",
+        description: "Boosters are targeted serum concentrates added during Step 3. Arfah selects boosters based on skin analysis findings, not door-sold package upsells:<br/><br/>• Britenol Booster — targets pigmentation and uneven skin tone via alpha-arbutin and vitamin C derivatives. Suited to sun damage, post-inflammatory hyperpigmentation, or mild melasma.<br/>• Dermabuilder Booster — targets fine lines and early aging via peptide complex supporting collagen synthesis. Suited to 30s-40s patients.<br/>• CTGF (Growth Factor) Booster — targets skin plumping and elasticity. Higher price point.<br/>• Age Refinement Booster — targets combined fine lines and skin firmness.<br/>• Circadia Vitamin C Booster — high-concentration antioxidant for brightness and protection.<br/>• JLo Beauty Booster — niacinamide-based brightening."
       },
       {
-        title: "Exfoliation",
-        description: ". A gentle exfoliating step helps lift dead skin cells from the surface, which is part of what gives HydraFacial its reputation for leaving skin feeling smoother almost immediately."
+        title: "LED light therapy add-on — what it does",
+        description: "Optional LED light therapy can be integrated at the end of the HydraFacial protocol. Two primary options:<br/><br/>• Blue LED (around 415nm) — targets acne-causing bacteria (P. acnes). Suited to acne-prone skin. Approximately 10-15 minutes exposure.<br/>• Red LED (around 630nm) — supports collagen stimulation and reduces inflammation. Suited to anti-aging or sensitive/reactive skin.<br/><br/>LED provides genuine but modest additional benefit. Not a stand-alone substitute for structural aging concerns or active acne management."
       },
       {
-        title: "Extraction",
-        description: "Using a controlled, low-pressure suction technique, the treatment draws out debris sitting in pores — this is the step most associated with visibly clearer-looking pores after treatment."
+        title: "How HydraFacial compares to other facials",
+        description: "• vs Regular facial — HydraFacial standardises extraction and delivers serum simultaneously. Regular facial relies on manual extraction and topical application. HydraFacial more consistent, less traumatic. Regular facial more personalised massage, lower cost.<br/>• vs <a href=\"/treatments/oxy-geneo-facial-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">Oxy-Geneo</a> — Different technology approach. Oxy-Geneo uses exfoliation-oxygenation-infusion with proprietary capsules. Both are valid medical-grade facials.<br/>• vs Microdermabrasion — Microdermabrasion is physical exfoliation only, no serum infusion. HydraFacial includes exfoliation plus extraction plus infusion.<br/>• vs <a href=\"/treatments/microdermabrasion-dermaplaning-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">Dermaplaning</a> — Dermaplaning uses a precision blade for physical exfoliation plus vellus hair removal. Can be combined — dermaplaning before HydraFacial gives enhanced serum penetration.<br/>• vs Chemical peel — Chemical peels use higher-concentration acids for deeper exfoliation, often with visible peeling. HydraFacial peel step is mild — better for general refresh and hydration."
       },
       {
-        title: "Hydration",
-        description: "Serums are applied to replenish moisture, often chosen based on the patient’s specific skin concerns, whether that’s dehydration, dullness, or general maintenance"
+        title: "What HydraFacial won't do",
+        description: "Honest framing matters. HydraFacial provides real, meaningful benefit for hydration, surface exfoliation, pore cleansing, and antioxidant infusion. It does not:<br/><br/>• Erase deep pigmentation or melasma — those need dedicated <a href=\"/treatments/pigmentation-melasma-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">Pigmentation & Melasma programme</a>.<br/>• Correct acne scarring — atrophic scarring needs <a href=\"/treatments/rf-microneedling-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">RF Microneedling</a>, laser, and <a href=\"/treatments/acne-scar-treatment-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">programme-format work</a>.<br/>• Lift or tighten sagging skin — structural aging needs <a href=\"/treatments/hifu-skin-lifting-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">HIFU</a> or surgical intervention.<br/>• Resolve active severe acne — needs <a href=\"/departments/dermatology-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">dermatological medical management</a>.<br/>• Substitute for chemical peel or laser resurfacing for deep textural concerns.<br/>• Produce sustained visible change from single session without programme continuity.<br/><br/>Arfah is honest about these limits during consultation. If HydraFacial isn't the right treatment for your concern, she'll say so and recommend what would actually work."
       }
-
-
-      , {
-        title: "Customised additions",
-        description: "Depending on the clinic and the patient’s needs, additional steps or targeted serums may be layered in."
-      },
-      {
-        title: "Aftercare guidance",
-        description: "Patients are typically told how to care for their skin over the following day or two, including what to avoid."
-      },
     ],
-    footer: "\"It’s a fairly logical, low-drama process — which is part of the appeal for people who want visible results without an elaborate recovery plan."
+    footer: "\"HydraFacial is genuinely different from a regular facial — the vortex-fusion delivery tip cleans pores properly without the pinching or bruising of manual extraction. But it's not miracle skincare. Real benefit within realistic parameters.\""
   },
   rightContent: {
-    image: "/images/hydra-facial.step.webp",
-    alt: "HydraFacial steps diagram consultation",
-    peelDepthsLabel: "TYPICAL HYDRAFACIAL STEPS",
-    peelDepths: [
-      {
-        color: "#184C3A",
-        title: "1 — Skin Assessment",
-        description: "Skin type, concerns, sensitivities, suitability check"
-      },
-      {
-        color: "#C9A961",
-        title: "2 — Cleansing",
-        description: "Removes makeup, sunscreen, surface oil"
-      },
-      {
-        color: "#4A7C59",
-        title: "3 — Exfoliation",
-        description: "Gentle lift of dead surface skin cells"
-      },
-      {
-        color: "#B8965A",
-        title: "4 — Extraction",
-        description: "Low-pressure suction pore debris removal"
-      },
-      {
-        color: "#C4A962",
-        title: "5 — Hydration",
-        description: "Targeted serums replenish moisture"
-      }
-    ],
-    fitzpatrick: {
-      types: [
-        { label: "I", color: "#F5DEB3", textColor: "#FFFFFF" },
-        { label: "II", color: "#DEB887", textColor: "#FFFFFF" },
-        { label: "III", color: "#D2691E", textColor: "#FFFFFF" },
-        { label: "IV", color: "#A0522E", textColor: "#FFFFFF" },
-        { label: "V", color: "#8B4513", textColor: "#FFFFFF" },
-        { label: "VI", color: "#5C3317", textColor: "#FFFFFF" }
-      ],
-      note: "All skin types suitable · Protocol adjusted for each — especially IV–VI"
-    }
+    image: "/images/hydrafacial-vortex-fusion-device.webp",
+    alt: "HydraFacial vortex-fusion tip detail Vedara Care aesthetic clinic"
   }
 };
 
@@ -166,88 +119,76 @@ export const hydrafacialBenefits = {
   },
 };
 export const hydrafacialSkinTypes = {
+  cardBg: "bg-[#F5F0EB]",
   bgColor: "bg-white",
-  cardBg: "bg-[#FAF7F2]",
-  label: "HYDRAFACIAL BY SKIN TYPE",
-  title: "How HydraFacial protocols are adjusted to different skin types at our JVC clinic.",
-  description: "There is no single default HydraFacial protocol — exfoliation intensity, extraction pressure, and serum choices are matched to your specific skin type.",
+  label: "Who Benefits",
+  title: "The patients HydraFacial suits best at our JVC clinic.",
+  description: "HydraFacial is one of the most versatile aesthetic treatments. Suits most skin types and multiple concerns — but not every skin, not every patient. Below is honest framing of who benefits most.",
   types: [
     {
       number: "01",
-      title: "HydraFacial for Oily Skin",
-      description: "Oily skin in JVC's climate is one of the most common concerns we hear about, particularly given how much time people spend moving between air-conditioned indoor spaces and Dubai heat. HydraFacial's cleansing and extraction steps can help with visible congestion and blackheads, and the hydration step addresses the fact that oily skin is not automatically well-hydrated skin — many patients with oily skin are also dehydrated underneath. The exfoliation step is kept appropriate for oiliness without over-stripping, and serums are chosen to balance rather than increase shine.",
-      typicalSigns: [
-        "BEST FOR: Congestion, blackheads, visible pore oiliness, dullness from buildup",
-        "NOTE: Hydration step is important — oily skin can still be dehydrated underneath"
-      ]
+      title: "Pre-Event Skin Refresh",
+      description: "Wedding, engagement party, corporate event, milestone birthday — patients wanting visible skin refresh in the days before a photographed occasion. HydraFacial produces same-day glow and is a low peak, ideal for 2-3 days before an event, requires minimal settle in, not transformative.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Core HydraFacial or Deluxe with Britenol booster, single session 3-7 days pre-event.</span>"
     },
     {
       number: "02",
-      title: "HydraFacial for Dry Skin",
-      description: "For drier skin, the exfoliation step is usually kept gentler to avoid any feeling of added tightness, and more emphasis is placed on the hydrating serums used at the end of the session. Extraction intensity is moderated where dryness is combined with sensitivity, and serum selection prioritises moisture replenishment and barrier support rather than oil-control focused ingredients.",
-      typicalSigns: [
-        "BEST FOR: Dullness from buildup in dry skin, light texture refresh, hydration boost",
-        "NOTE: Gentler exfoliation, hydration-focused serum selection"
-      ]
+      title: "Monthly Skin Maintenance Programme",
+      description: "Patients wanting sustained skin quality maintenance rather than episodic refresh. Monthly HydraFacial programme provides cumulative benefit — sustained hydration, sustained pore cleansing, consistent exfoliation supporting skin quality over months.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Deluxe HydraFacial monthly with rotating boosters based on seasonal skin needs.</span>"
     },
     {
       number: "03",
-      title: "HydraFacial for Combination Skin",
-      description: "Since combination skin often means an oily T-zone alongside drier cheeks, the treatment can be adjusted zone by zone rather than treated as one uniform surface. Extraction focus is placed on the T-zone where congestion tends to accumulate, while serum selection balances oil-management in the T-zone with moisture support on drier areas of the face.",
-      typicalSigns: [
-        "BEST FOR: Oily T-zone with drier cheeks, mixed congestion and dehydration",
-        "NOTE: Zone-by-zone adjustment rather than a one-protocol-fits-all approach"
-      ]
+      title: "First-Time Aesthetic Treatment Entry Point",
+      description: "Patients new to aesthetic treatments wanting a low-risk, no-downtime introduction. HydraFacial's non-invasive nature and immediate visible result make it a reliable first treatment for people exploring aesthetic care.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Comprehensive skin analysis + Core HydraFacial as introduction, discuss programme continuity.</span>"
     },
     {
       number: "04",
-      title: "HydraFacial for Sensitive Skin",
-      description: "Sensitive skin does not automatically rule someone out, but the protocol usually needs to be modified: gentler exfoliation, patch testing where appropriate, and closer attention during the assessment stage. If your sensitivity is linked to a diagnosed condition such as eczema or psoriasis, it is worth mentioning this during your assessment, since the treatment plan may need to be adjusted or a medical approach may be more appropriate first rather than a cosmetic facial.",
-      typicalSigns: [
-        "BEST FOR: General maintenance refresh with carefully reduced intensity",
-        "NOTE: Modified protocol — gentler exfoliation, closer assessment, potential patch test"
-      ]
+      title: "Congested Pores and Blackheads",
+      description: "Patients with visibly congested T-zone, blackheads on nose and chin, general pore clogging. HydraFacial's vortex extraction addresses pore congestion without the pinching, bruising, or inflammation risk of manual extraction.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Core HydraFacial with extended extraction focus, monthly programme 4-6 months.</span>"
     },
     {
       number: "05",
-      title: "HydraFacial for Acne-Prone Skin",
-      description: "HydraFacial may help with some of the visible surface issues associated with acne-prone skin — surface congestion, blackheads, and some of the buildup that contributes to breakouts — while active or inflamed acne often needs a different, more targeted approach from our dedicated <a href=\"/conditions/acne-treatment-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">acne treatment in JVC</a> programme. Salicylic-focused elements can be included where appropriate, and many patients combine both approaches: HydraFacial for general skin maintenance while addressing active acne through medical treatment.",
-      typicalSigns: [
-        "BEST FOR: Mild non-inflamed surface congestion, blackheads, maintenance alongside acne treatment",
-        "NOTE: NOT suitable for active inflammatory acne as a standalone treatment"
-      ]
+      title: "Dull Complexion and Uneven Skin Tone (Mild)",
+      description: "Patients with dull, tired-looking skin or mild uneven tone (not deep pigmentation). HydraFacial with Britenol brightening booster addresses surface dullness and mild tone irregularity. For deeper pigmentation, dedicated <a href=\"/treatments/pigmentation-melasma-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">Pigmentation & Melasma programme</a> needed.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Deluxe HydraFacial with Britenol booster, monthly programme 3-6 months.</span>"
     },
     {
       number: "06",
-      title: "HydraFacial for Aging Skin (Fine Lines)",
-      description: "Early, subtle signs of skin aging such as fine lines and a generally tired or less-fresh appearance can benefit from HydraFacial's combination of exfoliation, hydration, and antioxidant-focused serum choices, as a maintenance-level refresh. It is not a treatment for deeper wrinkles or significant volume loss, and patients looking for more substantive results in those areas would benefit more from our skin rejuvenation programme discussions.",
-      typicalSigns: [
-        "BEST FOR: Maintenance-level refresh, early fine lines support, dullness improvement",
-        "NOTE: Not designed for deeper wrinkles or volume loss concerns"
-      ]
+      title: "Early Signs of Aging Prevention (30s, 40s)",
+      description: "Patients in prevention phase wanting anti-aging integration without aggressive intervention. HydraFacial with Dermabuilder or CTGF boosters provides gentle prevention, frequent refresh. Pairs with sustained sun protection and appropriate home-care.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Deluxe/Platinum HydraFacial with Dermabuilder or CTGF, monthly or bi-monthly programme.</span>"
     },
     {
       number: "07",
-      title: "HydraFacial for Darker Skin Types (Fitzpatrick IV–VI)",
-      description: "Darker skin types receive a conservative, carefully-modified HydraFacial protocol — gentler exfoliation settings, moderated extraction intensity, and serum selection focused on avoiding any unnecessary irritation, since irritation can trigger post-inflammatory hyperpigmentation in darker skin. The fundamental structure of the treatment is the same, but every adjustable parameter is dialed for skin safety first.",
-      typicalSigns: [
-        "BEST FOR: Congestion, blackheads, dullness, texture maintenance refresh",
-        "NOTE: Conservative protocol — lower intensity to avoid irritation and PIH risk"
-      ]
+      title: "Dry and Dehydrated Skin",
+      description: "Patients with dry or dehydrated skin, particularly common in Dubai's air-conditioned environment. HydraFacial's hydrating serum infusion addresses dehydration immediately. Programme approach for sustained hydration support.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Core HydraFacial with hydration focus, monthly programme, coordinates home-care guidance.</span>"
     },
     {
       number: "08",
-      title: "HydraFacial for Event Preparation",
-      description: "Many patients like scheduling HydraFacial before an event because most people can return to their day immediately after treatment, with skin looking fresher and more hydrated in the short term. Event preparation timing should still be planned realistically — it is generally better to schedule a few days before rather than the day before, to allow time for any minor temporary redness to settle fully if it occurs.",
-      typicalSigns: [
-        "BEST FOR: Pre-event skin refresh, temporary smoother appearance, immediate hydration",
-        "NOTE: Schedule a few days before event, not the day before — to allow for any settling"
-      ]
+      title: "Oily and Acne-Prone Skin (Non-Active)",
+      description: "Patients with oily skin or acne-prone skin without active severe breakouts. HydraFacial pore cleansing addresses excess sebum and pore congestion. Blue LED add-on supports acne-prone skin management. Active severe acne needs <a href=\"/departments/dermatology-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">dermatological management</a> before HydraFacial.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Core HydraFacial + Blue LED add-on, monthly programme.</span>"
+    },
+    {
+      number: "09",
+      title: "Sensitive Skin (Assessed as Suitable)",
+      description: "Patients with sensitive skin who tolerate the gentle exfoliation and hydration protocol well. Not all sensitive skin suits HydraFacial — Arfah assesses during consultation. When suitable, HydraFacial provides refresh without irritation risk of chemical peels.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Core HydraFacial, protocol adjusted to match tolerance, sensitivity assessment during consultation.</span>"
+    },
+    {
+      number: "10",
+      title: "Men's Skincare",
+      description: "Male patients wanting professional skincare without the perceived complexity of multi-step regimens. HydraFacial provides substantial cleansing and refresh in a single 30-60 minute session. Popular with male professionals in JVC and surrounding communities.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Core or Deluxe HydraFacial single session or monthly straight-forward looking protocol.</span>"
+    },
+    {
+      number: "11",
+      title: "Post-Sun-Exposure Skin Recovery",
+      description: "Patients wanting skin recovery after significant sun exposure (holiday, extended outdoor period). HydraFacial hydration and antioxidant infusion supports skin recovery — not a cure for sun damage, but a meaningful post-exposure care step.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>Core HydraFacial with antioxidant emphasis, steps paused or short programme post-exposure.</span>"
+    },
+    {
+      number: "12",
+      title: "HydraFacial as Programme Component",
+      description: "Patients on <a href=\"/treatments/pigmentation-melasma-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">Pigmentation & Melasma programme</a>, Acne Scar programme, or Early Aging programme where HydraFacial is one component of a broader treatment sequence. Not a standalone treatment for these concerns — one component of dedicated programme.<br><br><span class='text-[#C9A55A] text-[11px] font-bold uppercase tracking-widest block mb-1'>Typical protocol:</span><span class='text-[12px] text-[#6B6B6B] block'>HydraFacial integrated into broader programme as directed by Arfah.</span>"
     }
   ],
-  footer: '<a href="/book" class="text-[#C9A55A] hover:underline">Comprehensive consultation identifies how the HydraFacial protocol should be adjusted for your specific skin type and concerns →</a>',
+  footer: '<div class="text-center mt-4"><a href="/treatments/comprehensive-skin-analysis-jvc/" class="inline-block text-[#C9A55A] font-medium border-b border-[#C9A55A] pb-0.5 hover:text-[#B8963E] hover:border-[#B8963E] transition-colors">Not sure if HydraFacial is right for your skin? Book comprehensive skin analysis with Arfah first →</a></div><div class="mt-12 bg-[#F8F5F0] p-6 rounded-lg text-left border border-[#E5DFD3]"><h4 class="text-[#1A1A1A] font-serif font-semibold mb-2" style="font-size: 16px;">HydraFacial isn\'t right for everyone.</h4><p class="text-[13px] text-[#6B6B6B] leading-relaxed">Contraindications include: active severe acne (needs <a href=\"/departments/dermatology-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">dermatological management</a> first), active rosacea flare (needs <a href=\"/departments/dermatology-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">dermatological assessment</a>), sunburn (wait for skin to fully heal or compromise risk), pregnancy (some booster serums not recommended — Core HydraFacial without boosters may be suitable, discussed during consultation), open skin wounds or active infections in treatment area, known significant acid (salicylic/glycolic acid) or active serum ingredients, and certain skin conditions requiring dermatological diagnosis before aesthetic treatment. Arfah screens for contraindications during consultation and coordinates with the on-site dermatologist where indicated.</p></div>',
   gridCols: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
-  borderPosition: "left"
+  borderPosition: "top"
 };
 
 export const hydrafacialForConcerns = {
@@ -396,8 +337,8 @@ export const hydrafacialRealisticExpectations = {
 };
 
 export const hydrafacialPatientVoices = {
-  bgColor: "bg-[#FAF7F2]",
-  cardBg: "white",
+  cardBg: "bg-[#F5F0EB]",
+  bgColor: "white",
   label: "PATIENT VOICES",
   title: "Real HydraFacial outcomes with skin-type-adjusted protocols.",
   testimonials: [
@@ -448,72 +389,27 @@ export const hydrafacialTeam = {
   description: "DHA-licensed specialists with substantial expertise in aesthetic dermatology and skin-type-specific HydraFacial protocol adjustment across all Fitzpatrick skin types. Female and male dermatologists available. Multiple languages including Arabic, English, Hindi, Urdu.",
   team: [
     {
-      name: "Dr. Sarah Al-Rashidi, MD",
-      qualification: "Consultant Dermatologist",
-      specialties: ["HydraFacial", "Aesthetic Dermatology", "Skin of Color", "Skin Rejuvenation"],
-      description: "",
-      languages: ["Arabic", "English"],
-      image: "",
-      alt: "Dr. Sarah Al-Rashidi consultant dermatologist HydraFacial specialist Vedara Care JVC",
-      link: "/dermatologists/dr-sarah-al-rashidi/"
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      link: "/doctors/dr-sanjida-islam-suchana/",
+      specialties: ["Clinical Dermatology", "Skin Health", "Primary Care"],
+      experience: "Clinical dermatology professional offering comprehensive medical management for various skin and aesthetic conditions.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"]
     },
     {
-      name: "Dr. Priya Mehta, MD",
-      qualification: "Consultant Dermatologist",
-      specialties: ["HydraFacial", "Anti-Aging", "Acne Treatment", "Pigmentation"],
-      description: "",
-      languages: ["English", "Hindi", "Urdu"],
-      image: "",
-      alt: "Dr. Priya Mehta consultant dermatologist HydraFacial specialist Vedara Care JVC",
-      link: "/dermatologists/dr-priya-mehta/"
-    },
-    {
-      name: "Dr. Ahmed Hassan, MD",
-      qualification: "Consultant Dermatologist",
-      specialties: ["HydraFacial Protocols", "Aesthetic Dermatology", "Skin of Color", "Facial Aesthetics"],
-      description: "",
-      languages: ["Arabic", "English"],
-      image: "",
-      alt: "Dr. Ahmed Hassan consultant dermatologist HydraFacial specialist Vedara Care JVC",
-      link: "/dermatologists/dr-ahmed-hassan/"
-    },
-    {
-      name: "Dr. Riya Nair, MD",
-      qualification: "Consultant Dermatologist",
-      specialties: ["Fitzpatrick IV–VI Facials", "Acne Support", "Pigmentation", "Skin Maintenance"],
-      description: "",
-      languages: ["English", "Hindi", "Malayalam"],
-      image: "",
-      alt: "Dr. Riya Nair consultant dermatologist HydraFacial specialist Vedara Care JVC",
-      link: "/dermatologists/dr-riya-nair/"
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      image: "/images/arfah-owais-portrait.webp",
+      link: "/doctors/arfah-owais/",
+      specialties: ["Advanced Facial Therapy", "Scar Treatment", "Laser"],
+      experience: "Experienced aesthetician specializing in targeted skincare regimens and procedural treatments.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"]
     }
   ],
   gridColumns: "lg:grid-cols-4"
 };
 
-export const hydrafacialPricing = {
-  bgColor: "bg-[#FAF8F5]",
-  label: "TRANSPARENT PRICING",
-  title: "What HydraFacial at our JVC clinic costs.",
-  services: [
-    { name: "Initial HydraFacial consultation with skin assessment (45–60 minutes)", price: "AED 350" },
-    { name: "Follow-up consultation", price: "AED 250" },
-    { name: "Standard HydraFacial session — Classic (per session)", price: "AED 599" },
-    { name: "Standard HydraFacial session — Deluxe with custom serums (per session)", price: "AED 799" },
-    { name: "★ HydraFacial maintenance package (4 sessions)", price: "AED 1,999" },
-    { name: "HydraFacial for sensitive skin — modified protocol (per session)", price: "AED 649" },
-    { name: "HydraFacial for darker skin (Fitzpatrick IV–VI) conservative protocol", price: "AED 649" },
-    { name: "Pre-event HydraFacial session (protocol adjusted for timing)", price: "AED 699" },
-    { name: "★ Pre-wedding HydraFacial package", price: "AED 2,199" },
-    { name: "★ Combination: HydraFacial + skincare foundation programme", price: "AED 1,199" },
-    { name: "HydraFacial add-on — targeted custom serum boost", price: "AED 199" },
-    { name: "Medical-grade post-treatment skincare set", price: "AED 450" }
-  ],
-  insuranceText: 'HydraFacial treatment is cosmetic treatment not typically covered by insurance. Some elements — initial consultation for underlying skin conditions, condition-related treatments beyond the facial itself — may be covered with appropriate justification. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking for specific coverage discussion. Treatment packages provide substantially better value than individual session pricing for committed patients. All HydraFacial sessions include consultation review, protocol-adjusted treatment delivery, and aftercare guidance.',
-  insurances: [],
-  buttonText: "Book HydraFacial Consultation",
-  buttonHref: "/book"
-};
 
 export const hydrafacialFAQ = {
   bgColor: "bg-white",
@@ -521,7 +417,7 @@ export const hydrafacialFAQ = {
   title: "What patients ask about HydraFacial treatment.",
   description: "For related aesthetic and condition questions, see linked pages.",
   faqs: [
-    { question: "What is HydraFacial? ", answer: "HydraFacial is a multi-step facial treatment involving cleansing, exfoliation, extraction, and hydration, customised to the patient’s skin type and concerns." },
+    // { question: "What is HydraFacial? ", answer: "HydraFacial is a multi-step facial treatment involving cleansing, exfoliation, extraction, and hydration, customised to the patient’s skin type and concerns." },
     {
       question: "What is HydraFacial?",
       answer:
@@ -730,4 +626,109 @@ export const hydrafacialRelatedPages = {
       href: "/doctors/"
     }
   ]
+};
+
+export const hydrafacialRelatedTreatmentsGrid = {
+  bgColor: "bg-white",
+  label: "JVC CLINIC",
+  title: "Related treatments at Vedara Care JVC.",
+  description: "",
+  linkText: "Browse all treatments →",
+  linkHref: "/treatments/",
+  pages: [
+    {
+      title: "Comprehensive Skin Analysis JVC",
+      description: "Foundation diagnostic — every aesthetic programme starts here.",
+      image: "/images/skin.webp",
+      linkText: "View treatment →",
+      href: "/treatments/comprehensive-skin-analysis-jvc/"
+    },
+    {
+      title: "Oxy-Geneo Facial JVC",
+      description: "Alternative multi-step medical-grade facial (different technology approach).",
+      image: "/images/oxygen-facial.webp",
+      linkText: "View treatment →",
+      href: "/treatments/oxy-geneo-facial-jvc"
+    },
+    {
+      title: "Dermaplaning JVC",
+      description: "Physical exfoliation with vellus hair removal — pairs well with HydraFacial.",
+      image: "/images/dermaplaning.webp",
+      linkText: "View treatment →",
+      href: "/treatments/dermaplaning-jvc/"
+    },
+    {
+      title: "Carbon Laser Peel JVC",
+      description: "Laser-based brightening and pore refinement — progressive complement to HydraFacial.",
+      image: "/images/carbon.webp",
+      linkText: "View treatment →",
+      href: "/treatments/carbon-jvc/"
+    }
+  ]
+};
+
+export const hydrafacialArticles = {
+
+  title: "Reading on HydraFacial and facial care.",
+  browseAllHref: "/blog/",
+  bgColor: "bg-[#F5F0E8]",
+  articles: [
+    {
+      category: "Facials",
+      title: "Hydrafacial vs Oxy-Geneo — which suits which skin?",
+      readingTime: "5 min read",
+      author: "Arfah Owais",
+      description: "Both are medical-grade multi-step facials. Different technology, different mechanism, different strengths. Here is an honest comparison to help...",
+      img: "/images/clinic-shelf.webp",
+      href: "/blog/hydrafacial-vs-oxy-geneo"
+    },
+    {
+      category: "Skincare",
+      title: "Booster serums explained — Britenol, Dermabuilder, CTGF and when they matter",
+      readingTime: "4 min read",
+      author: "Arfah Owais",
+      description: "HydraFacial boosters are often presented as mandatory add-ons. Here is what each booster actually does, which skin concerns genuinely...",
+      img: "/images/booster-serum.webp",
+      href: "/blog/hydrafacial-boosters-explained"
+    },
+    {
+      category: "Preparation",
+      title: "How to prepare for your first Hydrafacial — what to do before and after",
+      readingTime: "3 min read",
+      author: "Arfah Owais",
+      description: "First HydraFacial coming up? Here is the practical pre-treatment checklist, what to avoid, and post-treatment care that keeps your skin optimal for l...",
+      img: "/images/facial-prep.webp",
+      href: "/blog/how-to-prepare-for-hydrafacial"
+    }
+  ]
+};
+
+export const hydrafacialPricing = {
+  bgColor: "bg-[#F5F0E8]",
+  label: "TRANSPARENT PRICING",
+  title: "HydraFacial protocol tiers and programme pricing.",
+  description: "Pricing varies by protocol tier and booster selection. Comprehensive skin analysis determines the appropriate protocol — no door-sold packages.",
+  headers: ["Service", "duration", "starting price"],
+  rows: [
+    { service: "Comprehensive skin analysis with Arfah (first visit mandatory)", duration: "30 min", price: "AED 300 (waived with same-day treatment)" },
+    { service: "Core HydraFacial (3-step protocol, no boosters)", duration: "30-45 min", price: "From AED [X]" },
+    { service: "Deluxe HydraFacial (3-step protocol + 1 booster)", duration: "45-60 min", price: "From AED [X]" },
+    { service: "Platinum HydraFacial (3-step + 2 boosters + LED)", duration: "60-75 min", price: "From AED [X]" },
+    { service: "Additional booster serum add-on (per booster)", duration: "15 min", price: "From AED [X]" },
+    { service: "LED Light Therapy add-on (blue or red)", duration: "15 min", price: "From AED [X]" },
+    { service: "Perk Lip Treatment add-on", duration: "10 min", price: "From AED [X]" },
+    { service: "Perk Eye Treatment add-on", duration: "10 min", price: "From AED [X]" },
+    { service: "3-Session Programme (Core HydraFacial monthly)", duration: "3 months", price: "From AED [X]" },
+    { service: "6-Session Programme (Core HydraFacial monthly)", duration: "6 months", price: "From AED [X]" },
+    { service: "3-Session Deluxe Programme", duration: "3 months", price: "From AED [X]" },
+    { service: "6-Session Deluxe Programme", duration: "6 months", price: "From AED [X]" },
+    { service: "Bridal HydraFacial Programme (pre-wedding 3-4 session sequence)", duration: "Bespoke", price: "Consultation required" },
+    { service: "HydraFacial Membership (monthly session ongoing)", duration: "Rolling monthly", price: "From AED [X]/month" },
+    { service: "Follow-up consultation (existing patient, no HydraFacial)", duration: "30 min", price: "AED [X]" }
+  ],
+  footer: "All prices in AED. VAT included where applicable. Insurance: Vedara Care operates on a reimbursement basis rather than direct billing — patients pay at the clinic and submit for reimbursement through their insurance provider per individual policy terms. HydraFacial delivered for cosmetic purposes is typically not insurance covered; check with your provider before booking if insurance coverage matters for your decision. Programme pricing provides better per-session value than single sessions.",
+  buttonText: "Book HydraFacial at JVC",
+  buttonHref: "/book",
+  secondaryLinkText: "WhatsApp us for programme pricing questions →",
+  secondaryLinkHref: "https://wa.me/971555736312?text=Hello,%20I%20have%20a%20question%20about%20HydraFacial%20programme%20pricing."
 };

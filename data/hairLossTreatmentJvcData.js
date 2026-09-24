@@ -393,44 +393,24 @@ export const hairLossTreatmentTeam = {
   description: "Hair loss treatment is delivered by our consultant dermatologists — DHA-licensed specialists with substantial training in trichology. Female and male dermatologists available. Multiple languages including Arabic, English, Hindi, Urdu.",
   team: [
     {
-      name: "Dr. Amira Hassan, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Hair Loss", "Trichology", "Female Hair Loss"],
-      experience: "Consultant dermatologist with extensive expertise in female pattern hair loss, hormonal hair disorders, and procedural hair restoration.",
-      languages: ["Arabic", "English", "French"],
-      image: "/images/dr-amira-hassan-md-dermatologist.jpg",
-      alt: "Dr. Amira Hassan, MD consultant dermatologist hair loss specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-amira-hassan/"
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      specialties: ["Clinical Dermatology", "Hair Loss", "Skin Health", "Primary Care"],
+      experience: "Clinical dermatology professional offering comprehensive medical management for various types of hair loss.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"],
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      alt: "Dr. Sanjida Islam Suchana General Practitioner Vedara Care JVC Dubai",
+      link: "/doctors/dr-sanjida-islam-suchana/"
     },
     {
-      name: "Dr. Priya Menon, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Trichology", "PRP", "Alopecia Areata", "Mesotherapy"],
-      experience: "Specialist in trichology with particular focus on autoimmune hair conditions, alopecia areata, and procedural hair treatments.",
-      languages: ["English", "Hindi", "Malayalam"],
-      image: "/images/dr-priya-menon-md-dermatologist.jpg",
-      alt: "Dr. Priya Menon, MD consultant dermatologist hair loss specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-priya-menon/"
-    },
-    {
-      name: "Dr. Khalid Al Mansoori, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Male Pattern Hair Loss", "Finasteride", "PRP", "Scalp Conditions"],
-      experience: "Consultant dermatologist with focus on male pattern hair loss, early intervention strategies, and evidence-based pharmacological treatments.",
-      languages: ["Arabic", "English"],
-      image: "/images/dr-khalid-al-mansoori-md-dermatologist.jpg",
-      alt: "Dr. Khalid Al Mansoori, MD consultant dermatologist hair loss specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-khalid-al-mansoori/"
-    },
-    {
-      name: "Dr. Zara Patel, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Postnatal Hair Loss", "Female Hair Loss", "Nutritional Assessment", "PRP"],
-      experience: "Specialist with expertise in postnatal and stress-related hair loss, nutritional contributors, and comprehensive female hair loss workup.",
-      languages: ["English", "Hindi", "Gujarati", "Urdu"],
-      image: "/images/dr-zara-patel-md-dermatologist.jpg",
-      alt: "Dr. Zara Patel, MD consultant dermatologist hair loss specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-zara-patel/"
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      specialties: ["Advanced Facial Therapy", "Scalp Treatments", "Skincare Guidance"],
+      experience: "Experienced aesthetician specializing in targeted scalp therapies and skincare regimens.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"],
+      image: "/images/arfah-owais-portrait.webp",
+      alt: "Aesthetician Arfah Owais Vedara Care JVC Dubai",
+      link: "/doctors/arfah-owais/"
     }
   ]
 };

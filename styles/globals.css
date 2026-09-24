@@ -6,7 +6,7 @@
   --color-secondary: #D4A373;
   --color-accent: #1C1C1C;
   --color-bg-light: #F8F9FA;
-  
+
   --font-serif: "Fraunces", serif;
   --font-sans: "Nunito Sans", "Inter", system-ui, -apple-system, sans-serif;
 }
@@ -22,7 +22,12 @@ body {
   font-family: var(--font-sans);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-sans);
 }
 
@@ -47,8 +52,10 @@ h3 a.doctor-specialty-link,
 }
 
 .scrollbar-hide {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 /* Blog content styles */
@@ -128,7 +135,7 @@ h3 a.doctor-specialty-link,
   height: auto;
   border-radius: 12px;
   margin: 32px 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .blog-content table {
@@ -137,7 +144,7 @@ h3 a.doctor-specialty-link,
   margin: 32px 0;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .blog-content table th,
@@ -196,4 +203,3 @@ h3 a.doctor-specialty-link,
   border-radius: 12px;
   margin: 0 auto;
 }
-

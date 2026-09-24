@@ -75,36 +75,22 @@ export const acneScarsTeam = {
   description: "DHA-licensed consultant dermatologists with substantial acne scar expertise across all Fitzpatrick skin types. Not aestheticians alone — medically qualified specialists with combination protocol expertise, complication management capability, and comprehensive scar type recognition. Female and male dermatologists available. Multiple languages.",
   team: [
     {
-      name: "Dr. Sarah Al-Mansoori",
-      title: "DHA-Licensed - Consultant Dermatologist",
-      image: "/images/doctor-sample-1.jpg",
-      link: "/dermatologists/dr-sarah-al-mansoori/",
-      specialties: ["Acne & Acne Scars", "Darker Skin Expertise", "Combination Protocols"],
-      languages: ["Arabic", "English"]
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      link: "/doctors/dr-sanjida-islam-suchana/",
+      specialties: ["Clinical Dermatology", "Skin Health", "Primary Care"],
+      experience: "Clinical dermatology professional offering comprehensive medical management for various skin and aesthetic conditions.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"]
     },
     {
-      name: "Dr. Priya Nair",
-      title: "DHA-Licensed - Consultant Dermatologist",
-      image: "/images/doctor-sample-2.jpg",
-      link: "/dermatologists/dr-priya-nair/",
-      specialties: ["Acne Scar Treatment", "Laser Dermatology", "Combination Protocols"],
-      languages: ["English", "Hindi", "Malayalam"]
-    },
-    {
-      name: "Dr. Omar Hassan",
-      title: "DHA-Licensed - Consultant Dermatologist",
-      image: "/images/doctor-sample-3.jpg",
-      link: "/dermatologists/dr-omar-hassan/",
-      specialties: ["Acne & Acne Scars", "Atrophic Scarring", "Laser Treatment"],
-      languages: ["Arabic", "English"]
-    },
-    {
-      name: "Dr. Fatima Al-Rashid",
-      title: "DHA-Licensed - Consultant Dermatologist",
-      image: "/images/doctor-sample-4.jpg",
-      link: "/dermatologists/dr-fatima-al-rashid/",
-      specialties: ["Acne Scars", "Post-Inflammatory Hyperpigmentation", "Darker Skin Types"],
-      languages: ["Arabic", "English", "Urdu"]
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      image: "/images/arfah-owais-portrait.webp",
+      link: "/doctors/arfah-owais/",
+      specialties: ["Advanced Facial Therapy", "Scar Treatment", "Laser"],
+      experience: "Experienced aesthetician specializing in targeted skincare regimens and procedural treatments.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"]
     }
   ],
   gridColumns: "lg:grid-cols-4"

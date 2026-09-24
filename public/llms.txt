@@ -1,0 +1,19 @@
+# Vedara Care AI Documentation
+
+Vedara Care is a DHA-licensed holistic healthcare polyclinic located in Jumeirah Village Circle (JVC), Dubai.
+We offer comprehensive treatments including Ayurveda, Physiotherapy, Dermatology, Wellness, and Home Healthcare.
+
+## Services
+- Ayurveda: Authentic Kerala Ayurvedic treatments, Panchakarma, Abhyanga, Shirodhara.
+- Physiotherapy: Manual therapy, sports injury rehab, post-surgery rehabilitation.
+- Dermatology: Skin rejuvenation, chemical peels, acne treatments, hair loss treatments.
+- Wellness: Cupping therapy, holistic wellness.
+- Home Healthcare: Physiotherapy at home, licensed home therapies.
+
+## Contact
+- Phone: +971 55 573 6312
+- Email: booking@vedaracare.ae
+- Address: Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle Dubai, UAE
+
+## Booking
+Appointments can be booked directly through our website at https://vedaracare.ae/book or via WhatsApp.

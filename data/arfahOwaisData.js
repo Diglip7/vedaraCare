@@ -65,7 +65,7 @@ export const arfahOwaisPageData = {
     },
     {
       h3: 'Where she declines treatments',
-      content: "There are treatments Arfah will decline to perform even when patients request them — pregnant patients asking for treatments contraindicated in pregnancy, patients with active skin conditions requiring dermatological treatment before aesthetic work, patients whose skin history suggests a treatment would cause more harm than benefit. In each case she'll explain why and either recommend the appropriate alternative or refer to the <a href=\"/departments/dermatology-jvc/\" style=\"text-decoration: underline; color: rgb(201,169,97);\">on-site dermatologist for coordinated care</a>. This is standard responsible practice — and it's part of why patients return over years.",
+      content: "There are treatments Arfah will decline to perform even when patients request them — pregnant patients asking for treatments contraindicated in pregnancy, patients with active skin conditions requiring dermatological treatment before aesthetic work, patients whose skin history suggests a treatment would cause more harm than benefit. In each case she'll explain why and either recommend the appropriate alternative or refer to the <a href=\"/dermatology-clinic-jvc\" style=\"text-decoration: underline; color: rgb(201,169,97);\">on-site dermatologist for coordinated care</a>. This is standard responsible practice — and it's part of why patients return over years.",
     },
     {
       h3: 'The Vedara Care environment',
@@ -91,7 +91,7 @@ export const arfahOwaisPageData = {
       h3: ' Advanced Aesthetic & Facial Rejuvenation',
       description: "The signature facial work — where clinic protocols meet real technical technique. Advanced facials aren't about layering products; they're about understanding what the skin needs on that particular day and delivering the exfoliation, hydration, brightening, or resurfacing sequence that actually addresses it.",
       treatments: [
-        { name: 'HydraFacial', description: 'Multi-step medical-grade facial: cleanse, exfoliate, extract, hydrate. Suits most skin types.', href: '/hydrafacial-jvc/' },
+        { name: 'HydraFacial', description: 'Multi-step medical-grade facial: cleanse, exfoliate, extract, hydrate. Suits most skin types.', href: '/treatments/hydrafacial-jvc/' },
         { name: 'Oxy-Geneo Facial', description: 'Tri-effect facial: exfoliation, oxygenation, infusion of active nutrients.', href: '/treatments/oxy-geneo-facial-jvc/' },
         { name: 'Microdermabrasion', description: 'Controlled physical exfoliation removing surface dead skin layer.', href: '/treatments/microdermabrasion-jvc/' },
         { name: 'Dermaplaning', description: 'Precision blade-based physical exfoliation with vellus hair removal.', href: '/treatments/microdermabrasion-dermaplaning-jvc/' },
@@ -154,7 +154,7 @@ export const arfahOwaisPageData = {
       sessionCount: '1 session as requested',
       duration: '45\u201360 min',
       downtime: 'No downtime',
-      href: '/hydrafacial-jvc/',
+      href: '/treatments/hydrafacial-jvc/',
       // image: '/images/arfah-hydrafacial-treatment.webp',
       // alt: 'HydraFacial signature treatment Arfah Owais aesthetician JVC',
     },
@@ -448,7 +448,7 @@ export const arfahOwaisPageData = {
         title: 'HydraFacial JVC',
         description: 'Signature medical-grade facial.',
         image: '/images/hydrafacial.webp',
-        href: '/hydrafacial-jvc/'
+        href: '/treatments/hydrafacial-jvc/'
       },
       {
         category: 'SKIN LIFTING',

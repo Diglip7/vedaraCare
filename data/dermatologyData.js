@@ -226,44 +226,22 @@ export const dermatologyTeam = {
   description: "Our dermatology team includes consultant dermatologists with substantial international training, DHA-licensed specialist qualifications, and expertise across the full spectrum of medical and aesthetic dermatology. Multiple languages spoken. Female and male dermatologists available for patient preference.",
   members: [
     {
-      name: "Dr. Layla Al-Hassan",
-      credentials: "DHA-Licensed · Consultant Dermatologist",
-      languages: "English,Arabic,French",
-      tags: ["Medical Dermatology", "Aesthetic", "Laser"],
-      // description: "Lead consultant dermatologist with 12 years experience. Specialist in melasma and pigmentation disorders for all skin types.",
-      link: "/dermatologists/dr-layla-al-hassan",
-      image: "/images/dr-layla-al-hassan-dermatologist-dubai.jpg",
-      alt: "Dr. Layla Al-Hassan consultant dermatologist Vedara Care JVC Dubai"
+      name: "Dr. Sanjida Islam Suchana",
+      credentials: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      languages: "English, Hindi, Bengali, Urdu",
+      tags: ["Clinical Dermatology", "Skin Health", "Primary Care"],
+      link: "/doctors/dr-sanjida-islam-suchana",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      alt: "Dr. Sanjida Islam Suchana, DHA-licensed General Practitioner at Vedara Care Polyclinic, JVC Dubai"
     },
     {
-      name: "Dr. Priya Sharma",
-      credentials: "DHA-Licensed · Consultant Dermatologist",
-      languages: "English, Hindi, Urdu",
-      tags: ["Aesthetic ", "Pigmentation", "Anti-Aging"],
-      // description: "Aesthetic dermatology specialist with natural-looking results philosophy. Laser and filler expertise across all skin types.",
-      link: "/dermatologists/dr-priya-sharma",
-      image: "/images/dr-priya-sharma-dermatologist-dubai.jpg",
-      alt: "Dr. Priya Sharma consultant dermatologist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Khalid Mansour",
-      credentials: "DHA-Licensed · Consultant Dermatologist",
-      languages: "English, Arabic",
-      tags: ["Medical Dermatology", "Skin Cancer", "Surgery"],
-      // description: "Medical dermatology specialist with expertise in inflammatory skin conditions and hair disorders. Arabic-speaking practice.",
-      link: "/dermatologists/dr-khalid-mansour",
-      image: "/images/dr-khalid-mansour-dermatologist-dubai.jpg",
-      alt: "Dr. Khalid Mansour consultant dermatologist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Aisha Rahman",
-      credentials: "DHA-Licensed · Consultant Dermatologist",
-      languages: "English, Hindi, Urdu",
-      tags: ["Pediatric", "Eczema", "Hair Loss"],
-      // description: "Medical dermatology specialist with expertise in inflammatory skin conditions and hair disorders. Arabic-speaking practice.",
-      link: "/dermatologists/dr-aisha-rahman",
-      image: "/images/dr-aisha-rahman-dermatologist-dubai.jpg",
-      alt: "Dr. Aisha Rahman consultant dermatologist Vedara Care JVC Dubai"
+      name: "Aesthetician Arfah Owais",
+      credentials: "DHA-Licensed · Aesthetician",
+      languages: "Arabic, English, Hindi, Urdu",
+      tags: ["Advanced Facial Therapy", "Skincare", "Laser"],
+      link: "/doctors/arfah-owais",
+      image: "/images/arfah-owais-portrait.webp",
+      alt: "Aesthetician Arfah Owais, DHA Licensed Aesthetician at Vedara Care Polyclinic, JVC Dubai"
     }
   ]
 };
@@ -403,7 +381,7 @@ export const dermatologyLocation = {
   clinicHours: [
     { label: "Monday - Sunday", time: "9:00AM to 10:00PM" },
   ],
-  mapEmbed: "//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   description: "Our JVC clinic has dedicated dermatology consultation rooms, specialised treatment rooms for laser procedures, surgical room for biopsies and minor procedures, premium clinical environment with patient comfort prioritised, full equipment for all procedures described, and discreet booking and treatment process. Easy access from JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai.",
   buttonText: "Book Dermatology Consultation",
   buttonLink: "/book"

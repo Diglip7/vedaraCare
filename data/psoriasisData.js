@@ -315,34 +315,24 @@ export const psoriasisTeam = {
   description: "Psoriasis treatment is delivered by DHA-licensed consultant dermatologists with substantial expertise across all psoriasis presentations, all Fitzpatrick skin types, and modern treatment approaches including biologics. Female and male dermatologists available. Languages: Arabic, English, Hindi, Urdu.",
   team: [
     {
-      name: "Dr. Sarah Al-Rashidi, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Psoriasis", "Biologics", "Systemic Treatments"],
-      description: "Specialist expertise in moderate-severe psoriasis and biologic treatment initiation. Extensive experience with psoriatic arthritis screening.",
-      languages: ["Arabic", "English"],
-      link: "/dermatologists/dr-sarah-al-rashidi/",
-      image: "/images/doctors/dr-sarah-al-rashidi.jpg",
-      alt: "Dr. Sarah Al-Rashidi consultant dermatologist psoriasis specialist Vedara Care JVC"
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      specialties: ["Clinical Dermatology", "Psoriasis", "Skin Health"],
+      description: "Clinical dermatology professional offering comprehensive medical management and systemic treatments for psoriasis.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"],
+      link: "/doctors/dr-sanjida-islam-suchana/",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      alt: "Dr. Sanjida Islam Suchana General Practitioner Vedara Care JVC Dubai"
     },
     {
-      name: "Dr. Priya Menon, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Autoimmune Skin", "Biologics", "Nail Psoriasis"],
-      description: "Expertise in autoimmune dermatology with substantial experience treating diverse skin types including Fitzpatrick IV–VI.",
-      languages: ["English", "Hindi", "Malayalam"],
-      link: "/dermatologists/dr-priya-menon/",
-      image: "/images/doctors/dr-priya-menon.jpg",
-      alt: "Dr. Priya Menon consultant dermatologist psoriasis specialist Vedara Care JVC"
-    },
-    {
-      name: "Dr. Khaled Hassan, MD",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Psoriasis", "Phototherapy", "Systemic Treatments"],
-      description: "Specialist in phototherapy protocols and oral systemic treatments. Extensive experience in psoriasis with scalp and nail involvement.",
-      languages: ["Arabic", "English", "French"],
-      link: "/dermatologists/dr-khaled-hassan/",
-      image: "/images/doctors/dr-khaled-hassan.jpg",
-      alt: "Dr. Khaled Hassan consultant dermatologist psoriasis specialist Vedara Care JVC"
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      specialties: ["Advanced Facial Therapy", "Skin Health Support", "Skincare Guidance"],
+      description: "Experienced aesthetician offering supplementary skin health treatments to support overall dermatology care.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"],
+      link: "/doctors/arfah-owais/",
+      image: "/images/arfah-owais-portrait.webp",
+      alt: "Aesthetician Arfah Owais Vedara Care JVC Dubai"
     }
   ]
 };

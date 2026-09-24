@@ -410,7 +410,7 @@ export const jaluproRelatedPages = {
   pages: [
     { title: "Profhilo Treatment in JVC", href: "/treatments/profhilo-treatment-jvc", description: "Another injectable skin-quality treatment that may be considered depending on hydration and skin-laxity concerns." },
     { title: "Skin Boosters in JVC", href: "/treatments/skin-boosters-jvc", description: "A broader category of injectable hydration treatments that may suit certain skin-quality goals" },
-    { title: "HydraFacial in JVC", href: "/hydrafacial-jvc", description: "A non-invasive facial approach combining cleansing, exfoliation and hydration depending on the protocol" },
+    { title: "HydraFacial in JVC", href: "/treatments/hydrafacial-jvc", description: "A non-invasive facial approach combining cleansing, exfoliation and hydration depending on the protocol" },
     { title: "Microneedling in JVC", href: "/treatments/microneedling-jvc", description: "A collagen-focused skin treatment that may be considered for selected texture and rejuvenation concerns." },
     { title: "RF Microneedling in JVC ", href: "/treatments/rf-microneedling-jvc", description: "A treatment combining microneedling with radiofrequency energy for selected texture and tightening concerns." },
     { title: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc", description: "A professional skin assessment can help determine which treatment is most appropriate for your individual concerns." },

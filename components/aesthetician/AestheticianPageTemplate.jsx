@@ -427,7 +427,7 @@ const FAQSection = ({ faqs }) => {
 };
 
 // ---- RELATED PAGES (IMAGE GRID) ----
-const AestheticianRelatedPages = ({ bgColor, label, title, description, linkText, linkHref, pages }) => {
+export const AestheticianRelatedPages = ({ bgColor, label, title, description, linkText, linkHref, pages }) => {
   if (!pages || pages.length === 0) return null;
   return (
     <section className={`py-[64px] lg:py-[96px] ${bgColor || 'bg-white'}`}>
@@ -454,16 +454,17 @@ const AestheticianRelatedPages = ({ bgColor, label, title, description, linkText
                 <img src={page.image || '/images/placeholder.jpg'} alt={page.title} loading="lazy" className="w-full h-full object-cover" />
               </div>
               <div className="p-6 flex flex-col flex-1">
-                <span className="text-[10px] uppercase tracking-wider mb-2" style={{ fontFamily: "Inter, sans-serif", color: "rgb(201,169,97)", fontWeight: "600" }}>
-                  {page.category || 'TREATMENT'}
-                </span>
+                {page.category && (
+                  <span className="text-[10px] uppercase tracking-wider mb-2" style={{ fontFamily: "Inter, sans-serif", color: "rgb(201,169,97)", fontWeight: "600" }}>
+                    {page.category}
+                  </span>
+                )}
                 <h3 className="text-[18px] mb-3 leading-snug" style={{ fontFamily: "Fraunces, Georgia, serif", fontWeight: "500", color: "rgb(26,26,26)" }}>
                   {page.title}
                 </h3>
                 <p className="text-[14px] leading-[1.6] mb-6 flex-1" style={{ fontFamily: "Inter, sans-serif", color: "rgb(107,107,107)" }}>
                   {page.description}
                 </p>
-
               </div>
             </Link>
           ))}
@@ -474,7 +475,7 @@ const AestheticianRelatedPages = ({ bgColor, label, title, description, linkText
 };
 
 // ---- READING / BLOG (IMAGE GRID) ----
-const ReadingSection = ({ data }) => {
+export const ReadingSection = ({ data }) => {
   if (!data.reading || data.reading.length === 0) return null;
   return (
     <section className="py-[64px] lg:py-[96px] bg-[#FAF6EF]">

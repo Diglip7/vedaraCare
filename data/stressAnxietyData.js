@@ -531,14 +531,14 @@ export const stressAnxietyCTA = {
     "Free clinic parking",
     "<a href=\"/treatments/shirodhara-dubai/\" class=\"hover:underline\">Read about Shirodhara</a>"
   ],
-  alertBox: "If you are experiencing a mental health crisis, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the 24/7 Crisis helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>)."
+  // alertBox: "If you are experiencing a mental health crisis, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the 24/7 Crisis helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>)."
 };
 
 export const stressAnxietyRelatedPages = {
   label: "EXPLORE FURTHER",
   title: "Related pages.",
-  linkText: "Browse all conditions →",
-  linkHref: "/conditions/",
+  linkText: "Browse all conditions",
+  linkHref: "/conditions",
   pages: [
     {
       title: "Shirodhara in Dubai →",

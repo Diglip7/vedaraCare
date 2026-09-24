@@ -322,22 +322,22 @@ export const co2LaserSpecialists = {
   title: "Dermatology Specialists at Our JVC Clinic",
   doctors: [
     {
-      name: "[VERIFIED DOCTOR NAME]",
-      title: "",
-      specialty: "Dermatology",
-      dhaLicense: "[Verify]",
-      subspecialty: "[To be confirmed]",
-      languages: "[To be confirmed]",
-      profileLink: "[Link to profile page]"
+      name: "Dr. Sanjida Islam Suchana",
+      title: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      specialty: "Clinical Dermatology",
+      dhaLicense: "DHA-Licensed",
+      subspecialty: "Skin Health & Primary Care",
+      languages: "English, Hindi, Bengali, Urdu",
+      profileLink: "/doctors/dr-sanjida-islam-suchana/"
     },
     {
-      name: "[VERIFIED DOCTOR NAME]",
-      title: "",
-      specialty: "Dermatology",
-      dhaLicense: "[Verify]",
-      subspecialty: "[To be confirmed]",
-      languages: "[To be confirmed]",
-      profileLink: "[Link to profile page]"
+      name: "Aesthetician Arfah Owais",
+      title: "DHA-Licensed · Aesthetician",
+      specialty: "Aesthetics",
+      dhaLicense: "DHA-Licensed",
+      subspecialty: "Advanced Facial Therapy & Laser",
+      languages: "Arabic, English, Hindi, Urdu",
+      profileLink: "/doctors/arfah-owais/"
     }
   ],
   footer: "Practitioner details will be updated with verified credentials before publication."

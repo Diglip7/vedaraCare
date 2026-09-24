@@ -34,7 +34,7 @@ const About = ({
             <div className="grid grid-cols-3 gap-8 py-8 border-t border-white/10 max-w-[580px]">
               {stats.map((stat, index) => (
                 <div key={index} className="space-y-2">
-                  <h4 className="text-[32px] font-serif font-semibold text-[#C9A961]">{stat.value}</h4>
+                  <div className="text-[32px] font-serif font-semibold text-[#C9A961]">{stat.value}</div>
                   <p className="text-[14px] opacity-80 font-sans leading-tight">{stat.label}</p>
                 </div>
               ))}
@@ -47,6 +47,9 @@ const About = ({
               src={image} 
               alt={title} 
               className="w-full h-full object-cover opacity-90"
+              width="800"
+              height="1000"
+              loading="lazy"
             />
            
           </div>

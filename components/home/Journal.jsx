@@ -137,9 +137,9 @@ const Journal = ({
                   <div className="text-[14px] font-sans tracking-[0.1em] text-[#C9A961] uppercase mb-3">
                     {post.topics[0] || "HEALTH"}
                   </div>
-                  <h4 className="text-[20px] font-serif font-medium text-[#1A1A1A] leading-snug mb-3 group-hover:text-[#184C3A] transition-colors">
+                  <h3 className="text-[20px] font-serif font-medium text-[#1A1A1A] leading-snug mb-3 group-hover:text-[#184C3A] transition-colors">
                     {post.title}
-                  </h4>
+                  </h3>
                   <p className="text-[14px] text-[#6B6B6B] font-sans leading-relaxed mb-4">
                     {extractDescription(post.content)}
                   </p>

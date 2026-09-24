@@ -372,44 +372,22 @@ export const chemicalPeelTeam = {
   description: "DHA-licensed specialists with substantial expertise in aesthetic dermatology and chemical peel selection across all Fitzpatrick skin types. Female and male dermatologists available. Multiple languages including Arabic, English, Hindi, Urdu.",
   team: [
     {
-      name: "Dr. Sarah Al-Rashidi, MD",
-      qualification: "Consultant Dermatologist",
-      specialties: ["Chemical Peels", "Aesthetic Dermatology", "Skin of Color", "Melasma"],
-      description: "",
-      languages: ["Arabic", "English"],
-      image: "/images/sample.jpeg",
-      alt: "Dr. Sarah Al-Rashidi consultant dermatologist chemical peel specialist Vedara Care JVC",
-      link: "/dermatologists/dr-sarah-al-rashidi/"
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      link: "/doctors/dr-sanjida-islam-suchana/",
+      specialties: ["Clinical Dermatology", "Skin Health", "Primary Care"],
+      experience: "Clinical dermatology professional offering comprehensive medical management for various skin and aesthetic conditions.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"]
     },
     {
-      name: "Dr. Priya Mehta, MD",
-      qualification: "Consultant Dermatologist",
-      specialties: ["Chemical Peels", "Anti-Aging", "Acne Treatment", "Pigmentation"],
-      description: "",
-      languages: ["English", "Hindi", "Urdu"],
-      image: "/images/sample.jpeg",
-      alt: "Dr. Priya Mehta consultant dermatologist chemical peel specialist Vedara Care JVC",
-      link: "/dermatologists/dr-priya-mehta/"
-    },
-    {
-      name: "Dr. Ahmed Hassan, MD",
-      qualification: "Consultant Dermatologist",
-      specialties: ["Chemical Peels", "Aesthetic Dermatology", "Skin of Color", "Anti-Aging"],
-      description: "",
-      languages: ["Arabic", "English"],
-      image: "/images/sample.jpeg",
-      alt: "Dr. Ahmed Hassan consultant dermatologist chemical peel specialist Vedara Care JVC",
-      link: "/dermatologists/dr-ahmed-hassan/"
-    },
-    {
-      name: "Dr. Riya Nair, MD",
-      qualification: "Consultant Dermatologist",
-      specialties: ["Chemical Peels", "Fitzpatrick IV–VI", "Pigmentation", "Acne"],
-      description: "",
-      languages: ["English", "Hindi", "Malayalam"],
-      image: "/images/sample.jpeg",
-      alt: "Dr. Riya Nair consultant dermatologist chemical peel specialist Vedara Care JVC",
-      link: "/dermatologists/dr-riya-nair/"
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      image: "/images/arfah-owais-portrait.webp",
+      link: "/doctors/arfah-owais/",
+      specialties: ["Advanced Facial Therapy", "Scar Treatment", "Laser"],
+      experience: "Experienced aesthetician specializing in targeted skincare regimens and procedural treatments.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"]
     }
   ],
   gridColumns: "lg:grid-cols-4"

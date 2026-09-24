@@ -411,44 +411,24 @@ export const acneTreatmentTeam = {
   description: "Acne treatment is delivered by our consultant dermatologists — DHA-licensed specialists with substantial international training and experience treating acne across all types and skin types. Female and male dermatologists available for patient preference. Multiple languages including Arabic, English, Hindi, Urdu.",
   team: [
     {
-      name: "Dr. Layla Al-Hassan",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Acne & Acne Scarring", "Hormonal Acne", "Darker Skin Types", "Medical Dermatology"],
-      experience: "Lead consultant dermatologist with 12 years experience. Specialises in acne and pigmentation disorders across all Fitzpatrick skin types.",
-      languages: ["English", "Arabic", "French"],
-      image: "/images/dr-layla-al-hassan-dermatologist-dubai.jpg",
-      alt: "Dr. Layla Al-Hassan consultant dermatologist acne specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-layla-al-hassan/"
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      specialties: ["Clinical Dermatology", "Acne Management", "Skin Health", "Primary Care"],
+      experience: "Clinical dermatology professional with focus on skin health, offering comprehensive medical management for acne.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"],
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      alt: "Dr. Sanjida Islam Suchana General Practitioner Vedara Care JVC Dubai",
+      link: "/doctors/dr-sanjida-islam-suchana/"
     },
     {
-      name: "Dr. Priya Sharma",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Adult Acne", "Hormonal Acne", "Acne Scarring", "Aesthetic Dermatology"],
-      experience: "Consultant dermatologist with special interest in adult-onset acne and acne scarring treatments. 10 years clinical experience.",
-      languages: ["English", "Hindi", "Urdu"],
-      image: "/images/dr-priya-sharma-dermatologist-dubai.jpg",
-      alt: "Dr. Priya Sharma consultant dermatologist acne specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-priya-sharma/"
-    },
-    {
-      name: "Dr. Khalid Mansour",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Severe Cystic Acne", "Isotretinoin Treatment", "Male Acne Patients", "Medical Dermatology"],
-      experience: "Consultant dermatologist with expertise in severe acne and isotretinoin treatment. 9 years clinical experience.",
-      languages: ["English", "Arabic"],
-      image: "/images/dr-khalid-mansour-dermatologist-dubai.jpg",
-      alt: "Dr. Khalid Mansour consultant dermatologist acne specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-khalid-mansour/"
-    },
-    {
-      name: "Dr. Aisha Rahman",
-      qualification: "DHA-Licensed · Consultant Dermatologist",
-      specialties: ["Adolescent Acne", "Body Acne", "Pediatric Dermatology", "Skincare Guidance"],
-      experience: "Consultant dermatologist specialising in adolescent acne and pediatric dermatology. 8 years clinical experience.",
-      languages: ["English", "Hindi", "Urdu"],
-      image: "/images/dr-aisha-rahman-dermatologist-dubai.jpg",
-      alt: "Dr. Aisha Rahman consultant dermatologist acne specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-aisha-rahman/"
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      specialties: ["Advanced Facial Therapy", "Acne Scarring", "Skincare Guidance", "Laser"],
+      experience: "Experienced aesthetician specializing in procedural acne treatments and targeted skincare regimens.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"],
+      image: "/images/arfah-owais-portrait.webp",
+      alt: "Aesthetician Arfah Owais Vedara Care JVC Dubai",
+      link: "/doctors/arfah-owais/"
     }
   ]
 };

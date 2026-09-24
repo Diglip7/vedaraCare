@@ -189,34 +189,24 @@ export const melasmaTreatmentTeam = {
   description: "Melasma treatment is delivered by our consultant dermatologists — DHA-licensed specialists with substantial expertise in pigmentation disorders and treatment across all Fitzpatrick skin types. Female dermatologists available. Multiple languages including Arabic, English, Hindi, Urdu.",
   team: [
     {
-      name: "Dr. Layla Al-Rashid, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["Melasma", "Pigmentation Disorders", "Skin of Colour"],
-      experience: "Specialist in melasma and pigmentation disorders across all Fitzpatrick skin types with 12+ years clinical experience.",
-      languages: ["Arabic, English, French"],
-      image: "/images/dr-layla-al-rashid-md-dermatologist.jpg",
-      alt: "Dr. Layla Al-Rashid, MD consultant dermatologist melasma specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-layla-al-rashid/"
+      name: "Dr. Sanjida Islam Suchana",
+      qualification: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      specialties: ["Clinical Dermatology", "Pigmentation Disorders", "Skin Health"],
+      experience: "Clinical dermatology professional offering comprehensive medical management for melasma and pigmentation issues.",
+      languages: ["English", "Hindi", "Bengali", "Urdu"],
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      alt: "Dr. Sanjida Islam Suchana General Practitioner Vedara Care JVC Dubai",
+      link: "/doctors/dr-sanjida-islam-suchana/"
     },
     {
-      name: "Dr. Priya Sharma, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["Melasma", "Chemical Peels", "Fitzpatrick IV-VI"],
-      experience: "Extensive expertise in melasma treatment for darker skin types and hormonal pigmentation presentations.",
-      languages: ["English, Hindi, Urdu"],
-      image: "/images/dr-priya-sharma-md-dermatologist.jpg",
-      alt: "Dr. Priya Sharma, MD consultant dermatologist melasma specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-priya-sharma/"
-    },
-    {
-      name: "Dr. Omar Hassan, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["Melasma", "Laser Dermatology", "Dermal Pigmentation"],
-      experience: "Specialist in laser-based melasma treatment and complex dermal pigmentation with conservative, evidence-based protocols.",
-      languages: ["Arabic, English"],
-      image: "/images/dr-omar-hassan-md-dermatologist.jpg",
-      alt: "Dr. Omar Hassan, MD consultant dermatologist melasma specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-omar-hassan/"
+      name: "Aesthetician Arfah Owais",
+      qualification: "DHA-Licensed · Aesthetician",
+      specialties: ["Advanced Facial Therapy", "Melasma Management", "Laser"],
+      experience: "Experienced aesthetician specializing in procedural melasma treatments and targeted skincare regimens.",
+      languages: ["Arabic", "English", "Hindi", "Urdu"],
+      image: "/images/arfah-owais-portrait.webp",
+      alt: "Aesthetician Arfah Owais Vedara Care JVC Dubai",
+      link: "/doctors/arfah-owais/"
     }
   ]
 };

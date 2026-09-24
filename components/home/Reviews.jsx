@@ -90,7 +90,7 @@ const Reviews = ({
         <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 mb-16">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <h4 className="text-[48px] font-serif font-medium text-[#C9A961] leading-none mb-2">{stat.value}</h4>
+              <div className="text-[48px] font-serif font-medium text-[#C9A961] leading-none mb-2">{stat.value}</div>
               <p className={`text-[13px] font-sans tracking-widest ${isDarkBg ? 'text-white/70' : 'text-[#4A4A4A]/70'}`}>{stat.label}</p>
             </div>
           ))}

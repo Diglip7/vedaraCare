@@ -12,10 +12,13 @@ const Conditions = ({
   footer = "Explore all 30+ conditions we treat"
 }) => {
   const [activeCategory, setActiveCategory] = useState(categories[0]);
+  const [showAll, setShowAll] = useState(false);
 
   const filteredConditions = activeCategory === "All" 
     ? items 
     : items.filter(c => c.category === activeCategory);
+
+  const displayedConditions = showAll ? filteredConditions : filteredConditions.slice(0, 8);
 
   return (
     <section className={`${bgColor} py-24`}>
@@ -38,7 +41,10 @@ const Conditions = ({
             {categories.map((cat) => (
               <button
                 key={cat}
-                onClick={() => setActiveCategory(cat)}
+                onClick={() => {
+                  setActiveCategory(cat);
+                  setShowAll(false);
+                }}
                 className={`px-6 py-2 rounded-full text-[14px] font-sans font-medium transition-all border ${
                   activeCategory === cat 
                     ? "bg-[#184C3A] text-white border-[#184C3A]" 
@@ -53,7 +59,7 @@ const Conditions = ({
 
         {/* Conditions Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-          {filteredConditions.map((item, index) => {
+          {displayedConditions.map((item, index) => {
             const CardContent = (
               <>
                 <div className="flex-1">
@@ -94,8 +100,19 @@ const Conditions = ({
             );
           })}
         </div>
+        
+        {filteredConditions.length > 8 && !showAll && (
+          <div className="text-center mt-8 mb-6">
+            <button 
+              onClick={() => setShowAll(true)}
+              className="px-8 py-3 bg-white border border-[#C9A961] text-[#C9A961] rounded-md font-sans font-medium text-[15px] hover:bg-[#C9A961] hover:text-white transition-all duration-300"
+            >
+              View All Conditions
+            </button>
+          </div>
+        )}
 
-        <div className="text-center mt-10">
+        <div className="text-center mt-6">
           <p className="text-[#C9A961] font-sans font-medium text-[15px] flex items-center justify-center gap-2">
             {footer}
           </p>

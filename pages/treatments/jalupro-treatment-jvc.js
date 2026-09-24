@@ -627,7 +627,7 @@ const JaluproTreatment = () => {
         sidebarLinks={[
           { text: "Profhilo Treatment in JVC", href: "/treatments/profhilo-treatment-jvc" },
           { text: "Skin Boosters in JVC", href: "/treatments/skin-boosters-jvc" },
-          { text: "HydraFacial in JVC", href: "/hydrafacial-jvc" },
+          { text: "HydraFacial in JVC", href: "/treatments/hydrafacial-jvc" },
           { text: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc" }
         ]}
       />

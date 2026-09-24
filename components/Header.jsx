@@ -220,9 +220,9 @@ const Header = () => {
                 priority
               />
             </div>
-            <h1 className="text-[20px] md:text-[24px] font-serif font-medium text-[#1A1A1A] tracking-tight">
+            <span className="text-[20px] md:text-[24px] font-serif font-medium text-[#1A1A1A] tracking-tight">
               Vedara Care
-            </h1>
+            </span>
           </Link>
 
           {/* Desktop Nav Links */}
@@ -494,6 +494,7 @@ const Header = () => {
               className="hidden xl:flex w-10 h-10 items-center justify-center bg-[#4A7C59] text-white rounded-full hover:opacity-90 transition-all"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Chat with us on WhatsApp"
             >
               <MessageCircle size={20} className="fill-current" />
             </a>
@@ -510,9 +511,9 @@ const Header = () => {
         </div>
 
         {/* Mobile Menu Dropdown */}
+        {isMenuOpen && (
         <div
-          className={`xl:hidden absolute top-full left-0 right-0 z-[60] bg-white border-b border-gray-100 transition-all duration-300 ease-in-out shadow-xl overflow-y-auto ${isMenuOpen ? 'max-h-[80vh] opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
-            }`}
+          className="xl:hidden absolute top-full left-0 right-0 z-[60] bg-white border-b border-gray-100 shadow-xl overflow-y-auto max-h-[80vh]"
         >
           <div className="flex flex-col py-6 px-6 pb-24 gap-6">
             <div>
@@ -528,6 +529,7 @@ const Header = () => {
                 <button
                   onClick={() => setIsMobileAyurvedaOpen(!isMobileAyurvedaOpen)}
                   className="p-1 text-[#4A4A4A]"
+                  aria-label="Toggle Ayurveda Menu"
                 >
                   <ChevronDown
                     size={16}
@@ -585,6 +587,7 @@ const Header = () => {
                 <button
                   onClick={() => setIsMobilePhysioOpen(!isMobilePhysioOpen)}
                   className="p-1 text-[#4A4A4A]"
+                  aria-label="Toggle Physiotherapy Menu"
                 >
                   <ChevronDown size={16} className={`transition-transform duration-200 ${isMobilePhysioOpen ? 'rotate-180' : ''}`} />
                 </button>
@@ -619,6 +622,7 @@ const Header = () => {
                 <button
                   onClick={() => setIsMobileDermatologyOpen(!isMobileDermatologyOpen)}
                   className="p-1 text-[#4A4A4A]"
+                  aria-label="Toggle Dermatology Menu"
                 >
                   <ChevronDown size={16} className={`transition-transform duration-200 ${isMobileDermatologyOpen ? 'rotate-180' : ''}`} />
                 </button>
@@ -647,6 +651,7 @@ const Header = () => {
                 <button
                   onClick={() => setIsMobileWellnessOpen(!isMobileWellnessOpen)}
                   className="p-1 text-[#4A4A4A]"
+                  aria-label="Toggle Wellness Menu"
                 >
                   <ChevronDown size={16} className={`transition-transform duration-200 ${isMobileWellnessOpen ? 'rotate-180' : ''}`} />
                 </button>
@@ -667,6 +672,7 @@ const Header = () => {
                 <button
                   onClick={() => setIsMobileHomeHealthcareOpen(!isMobileHomeHealthcareOpen)}
                   className="p-1 text-[#4A4A4A]"
+                  aria-label="Toggle Home Healthcare Menu"
                 >
                   <ChevronDown size={16} className={`transition-transform duration-200 ${isMobileHomeHealthcareOpen ? 'rotate-180' : ''}`} />
                 </button>
@@ -684,6 +690,7 @@ const Header = () => {
             <Link href="/blog" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Blog</Link>
           </div>
         </div>
+        )}
       </nav>
 
       {/* Persistent Mobile Bottom Navigation */}

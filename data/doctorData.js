@@ -2323,7 +2323,7 @@ export const arfahOwaisTemplate = {
     columns: 4,
     pages: [
       { title: 'Dermatology Clinic JVC', description: 'Explore professional dermatology and skin-care services available at Vedara Care Polyclinic in JVC, Dubai, including personalised support for a range of skin concerns.', href: '/dermatology-clinic-jvc' },
-      { title: 'HydraFacial JVC JVC', description: 'Discover HydraFacial treatments focused on cleansing, exfoliation, extraction, and hydration, with treatment selection based on individual skin needs.', href: '/hydrafacial-jvc' },
+      { title: 'HydraFacial JVC JVC', description: 'Discover HydraFacial treatments focused on cleansing, exfoliation, extraction, and hydration, with treatment selection based on individual skin needs.', href: '/treatments/hydrafacial-jvc' },
       { title: 'Skin Rejuvenation JVC', description: 'Explore aesthetic skincare approaches for skin texture, hydration, uneven tone, and visible signs of ageing through personalised treatment planning.', href: '/treatments/skin-rejuvenation-jvc' },
       { title: 'Wellness Clinic JVC', description: 'Discover Vedara Care’s wider healthcare and wellness services in JVC, with access to different practitioners and departments under one clinic.', href: '/wellness-clinic-jvc' }
     ]
