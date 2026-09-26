@@ -21,7 +21,12 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
           </p>}
         </div>
 
-        <div className={`grid md:grid-cols-2 ${gridColumns} gap-6 mb-8`}>
+        <div className={`
+          ${displayTeam.length === 1 ? 'grid w-full max-w-[380px] mx-auto' : ''}
+          ${displayTeam.length === 2 ? 'grid md:grid-cols-2 max-w-3xl mx-auto' : ''}
+          ${displayTeam.length > 2 ? `grid md:grid-cols-2 ${gridColumns}` : ''}
+          gap-6 mb-8
+        `}>
           {displayTeam.map((member, index) => {
             const slug = createSlug(member.name);
             return (

@@ -88,7 +88,7 @@ const FrozenShoulderPhases = ({ label, title, description, items }) => {
         </div>
         <div className="mt-10 text-center max-w-2xl mx-auto">
           <p className="text-sm" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7' }}>
-            Most patients are in the frozen phase when they first present for specialist treatment — often having spent months in the freezing phase undiagnosed. Phase identification at initial assessment determines your specific treatment focus and realistic timeline.
+            Most patients are in the frozen phase when they first present for specialist treatment  -  often having spent months in the freezing phase undiagnosed. Phase identification at initial assessment determines your specific treatment focus and realistic timeline.
           </p>
         </div>
       </div>

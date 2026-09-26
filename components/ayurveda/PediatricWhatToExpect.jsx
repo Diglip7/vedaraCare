@@ -25,7 +25,7 @@ const PediatricWhatToExpect = ({ label, title, description, sections, whatToBrin
             <div className="space-y-6">
               <div>
                 <p className="text-sm " style={{ color: 'rgba(112, 112, 112, 1)' }}>
-The initial consultation is 60-75 minutes — longer than typical adult physiotherapy. Time is built in for the child to settle, for thorough family-centred history, for assessment that respects the child's pace, and for parent education at the end.
+The initial consultation is 60-75 minutes  -  longer than typical adult physiotherapy. Time is built in for the child to settle, for thorough family-centred history, for assessment that respects the child's pace, and for parent education at the end.
                 </p>
               </div>
 
@@ -72,7 +72,7 @@ The initial consultation is 60-75 minutes — longer than typical adult physioth
               <div className="text-sm" style={{ color: 'rgb(107, 107, 107)' }}>
                 {timingToAvoid.map((item, idx) => (
                   <div key={idx} className="flex gap-2">
-                    <span style={{ color: 'rgba(8,8,8, 1)' }}>•</span>
+                    <span style={{ color: 'rgba(8,8,8, 1)' }}>-</span>
                     {item}
                   </div>
                 ))}

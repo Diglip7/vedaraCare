@@ -6,7 +6,7 @@ const BlogNewsletter = () => {
         Honest, evidence-based articles on Ayurveda and integrative health in Dubai.
       </h2>
       <p className="text-[16px] md:text-[18px] text-[#6B6B6B] mb-10 leading-relaxed">
-        Once a month, we publish our articles like this one — researched, medically reviewed, no marketing. No spam ever.
+        Once a month, we publish our articles like this one  -  researched, medically reviewed, no marketing. No spam ever.
       </p>
       <form className="max-w-[500px] mx-auto flex flex-col gap-4" onSubmit={(e) => e.preventDefault()}>
         <input 
@@ -18,7 +18,7 @@ const BlogNewsletter = () => {
           Subscribe to the Vedara Journal
         </button>
         <p className="text-[13px] text-[#A1A1A1] mt-2">
-          Unsubscribe anytime · Read our privacy policy
+          Unsubscribe anytime - Read our privacy policy
         </p>
       </form>
     </div>

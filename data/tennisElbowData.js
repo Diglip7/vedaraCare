@@ -286,7 +286,7 @@ export const tennisElbowReviews = {
     }
   ],
   stats: [
-    { value: "4.9 ★", label: "Google Rating" },
+    { value: "4.9 â˜…", label: "Google Rating" },
     { value: "220+", label: "Tennis elbow patients treated" },
     { value: "86%", label: "Substantial improvement within 16 weeks" },
     // { value: "0", label: "Cortisone-first treatments" }
@@ -464,7 +464,7 @@ export const tennisElbowLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
   title: "Where tennis elbow treatment happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   hours: {
     Hours: " 9:00AM to 10:00PM",
@@ -562,7 +562,7 @@ export const tennisElbowRecoveryTimeline = {
     },
     {
       title: "For chronic cases (6+ months before treatment)",
-      icon: "★",
+      icon: "â˜…",
       isSpecial: true,
       description: "Patients with chronic tennis elbow typically require longer treatment courses — often 6–9 months for full recovery. Shockwave therapy is more frequently used. Outcomes remain excellent but timelines are extended."
     }

@@ -3,13 +3,13 @@ import React from 'react';
 const SportsPhysiotherapyPricing = () => {
   const pricingItems = [
     { name: 'Initial sports physiotherapy assessment (60 minutes)', price: 'AED 350', bg: 'rgb(255, 255, 255)' },
-    { name: 'Follow-up sports physio session (45–60 minutes)', price: 'AED 280', bg: 'rgb(250, 247, 242)' },
+    { name: 'Follow-up sports physio session (45 - 60 minutes)', price: 'AED 280', bg: 'rgb(250, 247, 242)' },
     { name: 'Sport-specific assessment & gait analysis (90 minutes)', price: 'AED 480', bg: 'rgb(255, 255, 255)' },
     { name: 'Dry needling (add-on per session)', price: 'AED 120', bg: 'rgb(250, 247, 242)' },
     { name: 'Shockwave therapy session', price: 'AED 350', bg: 'rgb(255, 255, 255)' },
     { name: 'Acute sports injury package (8 sessions)', price: 'AED 1,980', bg: 'rgb(250, 247, 242)' },
     { name: 'Sport-specific rehabilitation package (12 sessions)', price: 'AED 2,800', bg: 'rgb(255, 255, 255)' },
-    { name: 'ACL reconstruction rehabilitation programme (20–30 sessions)', price: 'AED 6,500', bg: 'rgb(250, 247, 242)' },
+    { name: 'ACL reconstruction rehabilitation programme (20 - 30 sessions)', price: 'AED 6,500', bg: 'rgb(250, 247, 242)' },
     { name: 'Return-to-sport testing & clearance', price: 'AED 420', bg: 'rgb(255, 255, 255)' },
     { name: 'Performance optimisation programme', price: 'AED 1,600', bg: 'rgb(250, 247, 242)' }
   ];

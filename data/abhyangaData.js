@@ -4,7 +4,7 @@ export const abhyangaHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Abhyanga Massage in Dubai", active: true }
   ],
-  label: "ABHYANGA OIL MASSAGE IN DUBAI • DHA-LICENSED 2509266",
+  label: "ABHYANGA OIL MASSAGE IN DUBAI ”¢ DHA-LICENSED 2509266",
   title: "Warm oil, two pairs of hands, ninety minutes of silence.",
   description: "Classical Abhyanga — the foundational full-body Ayurvedic oil massage performed by two synchronized therapists. Doctor-prescribed at our DHA-licensed Ayurveda clinic in JVC, Dubai. The treatment that changes how you sleep, move, and think.",
   primaryCTA: "Book Abhyanga Consultation",
@@ -27,7 +27,7 @@ export const abhyangaIntro = {
   bgColor: "bg-[#FFFFFF]",
   label: "THE QUICK ANSWER",
   title: "Abhyanga in Dubai, in one paragraph.",
-  blockquote: "Abhyanga (अभ्यङ्ग) is the classical full-body Ayurvedic oil massage — a 60 to 90-minute therapy in which warm dosha-specific medicated oils are applied head-to-toe in synchronized strokes by two trained therapists. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Abhyanga is doctor-prescribed by BAMS-qualified physicians after dosha assessment, performed on traditional wooden droni tables, and used both as a standalone weekly therapy and as the foundation of <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">Panchakarma</a> protocols. Sessions start from AED 450.",
+  blockquote: "Abhyanga (à¤…à¤­à¥à¤¯à¤™à¥à¤—) is the classical full-body Ayurvedic oil massage — a 60 to 90-minute therapy in which warm dosha-specific medicated oils are applied head-to-toe in synchronized strokes by two trained therapists. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Abhyanga is doctor-prescribed by BAMS-qualified physicians after dosha assessment, performed on traditional wooden droni tables, and used both as a standalone weekly therapy and as the foundation of <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">Panchakarma</a> protocols. Sessions start from AED 450.",
   footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda),DHA License 2509266 · Last updated May 2026"
 };
 
@@ -380,7 +380,7 @@ export const abhyangaTreatmentLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
   title: "Where Abhyanga happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   landmarks: [
     "Next to Circle Mall · Near FIVE Hotel · 5 min from JSS School"
   ],

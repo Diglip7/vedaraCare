@@ -15,7 +15,7 @@ export const mesotherapySEO = {
 
 export const mesotherapyHero = {
 
-  label: "PHYSICIAN-DELIVERED • DHA-LICENSED",
+  label: "PHYSICIAN-DELIVERED ”¢ DHA-LICENSED",
   title: "Mesotherapy Skin Revitalization\nin Jumeirah Village\nCircle (JVC), Dubai",
   description: "Physician-delivered mesotherapy protocol at Vedara Care JVC — custom-formulated micro-injections delivered by our DHA-Licensed Consultant Dermatologist to target dullness, early aging, and environmental stress.<br/><br/>A medical procedure emphasizing formulation transparency and precise delivery, supported by comprehensive skin analysis from our aesthetic team.",
   image: "mesotherapy-jvc-hero.webp",
@@ -29,7 +29,7 @@ export const mesotherapyHero = {
   ],
   floatingCard: {
     title: "Vedara Care Polyclinic, JVC",
-    subtitle: "Medical Director (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>45-75 min per session<br/>Arabic • English • Hindi • Urdu"
+    subtitle: "Medical Director (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>45-75 min per session<br/>Arabic ”¢ English ”¢ Hindi ”¢ Urdu"
   }
 };
 
@@ -78,7 +78,7 @@ export const mesotherapyEvidence = {
   sectionLabel: "SECTION 5",
   title: "Evidence Base & Clinical Context",
   content1: "Peer-reviewed research supports mesotherapy for skin rejuvenation indications. Amin, Phelps, and Goldberg (Dermatologic Surgery, 2006) demonstrated histologic evidence of dermal improvements from mesotherapy for facial skin rejuvenation. Prikhnenko (Clinical, Cosmetic and Investigational Dermatology, 2015) reviewed polycomponent mesotherapy formulations for skin aging.",
-  content2: "The technique originated with Michel Pistor's foundational 1958 work leading to the Société Française de Mésothérapie framework. Vedara Care JVC applies formulations aligned with CE-marked medical device regulatory frameworks under Medical Director selection.",
+  content2: "The technique originated with Michel Pistor's foundational 1958 work leading to the Société FranÃ§aise de Mésothérapie framework. Vedara Care JVC applies formulations aligned with CE-marked medical device regulatory frameworks under Medical Director selection.",
   quote: "\"Mesotherapy has been part of aesthetic dermatology since Michel Pistor developed the technique in 1958 — the evidence base is now mature, and the formulations available today are considerably more sophisticated than early protocols.\"",
   author: "Medical Director — DHA-Licensed Consultant Dermatologist, Vedara Care JVC",
   img: "evidence.webp",
@@ -269,7 +269,7 @@ export const mesotherapyCadence = {
     { step: "1", title: "Initial Session", label: "Session 1", desc: "First session establishes formulation tolerance, injection comfort, and post-procedure response profile. Post-session photography with consent for internal outcome tracking." },
     { step: "2-6", title: "4-6 Session Core Course", label: "2-3 week intervals", desc: "Sessions follow the same protocol. Cadence adjusted per response. Wedding preparation clients often follow tighter 2-week cadence. Documentation at Sessions 1, 3, and 6." },
     { step: "R", title: "Transition Review", label: "4-6 weeks post-course", desc: "Medical Director reviews assesses cumulative response, discusses course extension where indicated, designs maintenance cadence." },
-    { step: "∞", title: "Ongoing Maintenance", label: "Monthly or quarterly", desc: "Monthly for \"glow\" indication clients. Quarterly for anti-aging. Wedding preparation clients transition to periodic maintenance post-event." }
+    { step: "âˆž", title: "Ongoing Maintenance", label: "Monthly or quarterly", desc: "Monthly for \"glow\" indication clients. Quarterly for anti-aging. Wedding preparation clients transition to periodic maintenance post-event." }
   ],
   banner: {
     title: "Ready to design your mesotherapy programme?",
@@ -344,7 +344,7 @@ export const mesotherapyPractitioner = {
     quote: "\"My role in the mesotherapy programme is what surrounds the Medical Director's injection — skin analysis at consultation, post-procedure care, and coordination with the client's broader programme. I never deliver mesotherapy injections — that's physician scope — but the integrated care model is what makes the outcome coherent.\""
   },
   nursing: {
-    icon: "🏥",
+    icon: "ðŸ¥",
     title: "DHA-Licensed Nursing Team",
     desc: "Supports patient preparation, sterile field maintenance, and post-procedure care under Medical Director oversight."
   },
@@ -683,7 +683,7 @@ export const schema8 = [
       { "@type": "CreativeWork", "name": "Konda D, Thappa DM. Mesotherapy: What is new? Indian Journal of Dermatology, Venereology and Leprology, 2013.", "url": "[OPERATIONAL: verify DOI/URL]" },
       { "@type": "CreativeWork", "name": "Iorizzo M, De Padova MP, Tosti A. Biorejuvenation: theory and practice. Clinics in Dermatology, 2008.", "url": "[OPERATIONAL: verify DOI/URL]" },
       { "@type": "CreativeWork", "name": "Deglesne PA et al. In vitro study of HA injectable mesotherapy/biorevitalization on human skin fibroblasts and clinical utilization. Clinical, Cosmetic and Investigational Dermatology, 2016.", "url": "[OPERATIONAL: verify DOI/URL]" },
-      { "@type": "CreativeWork", "name": "Société Française de Mésothérapie — Historical protocol reference (Pistor 1958 origin)", "url": "[OPERATIONAL: verify URL]" },
+      { "@type": "CreativeWork", "name": "Société FranÃ§aise de Mésothérapie — Historical protocol reference (Pistor 1958 origin)", "url": "[OPERATIONAL: verify URL]" },
       { "@type": "CreativeWork", "name": "Dubai Health Authority Advertising and Health Marketing Framework", "url": "[OPERATIONAL: verify URL]" },
       { "@type": "CreativeWork", "name": "ISAPS Global Survey on Aesthetic/Cosmetic Procedures 2023", "url": "[OPERATIONAL: verify URL]" },
       { "@type": "CreativeWork", "name": "ASDS Consumer Survey on Cosmetic Dermatologic Procedures 2024", "url": "[OPERATIONAL: verify URL]" }

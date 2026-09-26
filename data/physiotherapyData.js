@@ -28,8 +28,8 @@ export const physiotherapyIntro = {
   bgColor: "bg-[#FFFFFF]",
   label: "THE QUICK ANSWER",
   title: "Physiotherapy in Dubai at Vedara Care, in one paragraph.",
-  blockquote: "Physiotherapy in Dubai is provided across many clinics with significantly varying quality. Vedara Care Polyclinic offers comprehensive DHA-licensed physiotherapy at our Jumeirah Village Circle (JVC) clinic — walking distance from Circle Mall, with patients traveling from across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. Our DPT-qualified physiotherapists cover seven specialised areas: musculoskeletal physiotherapy, sports physiotherapy, post-surgical rehabilitation, neurological rehabilitation, women's health physiotherapy, paediatric physiotherapy, and cardiopulmonary rehabilitation. We offer integrated Ayurveda + physiotherapy programmes for specific chronic conditions where combined care produces stronger outcomes. Single sessions from AED 350; structured programmes from AED 1,800. Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-  footer: "Medically reviewed by Dr. Sarah Mitchell, DPT, DHA-Licensed 2509266 · Last updated 2026"
+  blockquote: "Physiotherapy in Dubai is provided across many clinics with significantly varying quality. Vedara Care Polyclinic offers comprehensive DHA-licensed physiotherapy at our Jumeirah Village Circle (JVC) clinic — walking distance from Circle Mall, with patients traveling from across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. Our DPT-qualified physiotherapists cover seven specialised areas: musculoskeletal physiotherapy, sports physiotherapy, post-surgical rehabilitation, neurological rehabilitation, women's health physiotherapy, paediatric physiotherapy, and cardiopulmonary rehabilitation. We offer integrated Ayurveda + physiotherapy programmes for specific chronic conditions where combined care produces stronger outcomes. Single sessions from AED 350; structured programmes from AED 1,800. We accept patients with all major insurance providers and provide full documentation for reimbursement, subject to your policy.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
 export const physiotherapyMechanism = {
@@ -40,10 +40,10 @@ export const physiotherapyMechanism = {
     "Dubai has hundreds of physiotherapy providers — ranging from major hospital physiotherapy departments to standalone clinics to wellness centres offering physiotherapy as a sideline. Quality varies enormously. Patients new to Dubai or new to physiotherapy frequently choose based on proximity or insurance acceptance, then discover that the closest convenient option may not be the right clinical fit for their condition.",
     "Several factors are worth understanding before choosing:",
     "<strong>Qualifications matter more than they appear.</strong> Dubai requires physiotherapists to be DHA-licensed, which requires verified educational qualifications. The minimum is typically a Bachelor's degree in Physiotherapy. However, DPT (Doctor of Physical Therapy) qualifications represent the current international gold standard — more extensive clinical training, evidence-based practice emphasis, broader scope of competence. When choosing a physiotherapist, the qualification listed after their name is genuinely meaningful.",
-    "<strong>Specialisation matters more than generalist competence.</strong> A physiotherapist skilled primarily in musculoskeletal conditions (like <a href=\"/conditions/back-pain-ayurveda-dubai/\">chronic lower back pain</a> or <a href=\"/conditions/arthritis-ayurveda-dubai/\">knee OA</a>) may not be the right choice for post-stroke rehabilitation; a physiotherapist focused on sports injuries may not be the best fit for <a href=\"/conditions/pelvic-floor-physiotherapy-dubai\">pelvic floor physiotherapy</a>. Large clinics like <a href=\"/physiotherapy-jvc/\">our JVC clinic</a> with multiple specialised therapists can match you to the appropriate expertise; single-therapist clinics, however skilled, may be limited.",
+    "<strong>Specialisation matters more than generalist competence.</strong> A physiotherapist skilled primarily in musculoskeletal conditions (like <a href=\"/conditions/back-pain-physiotherapy-jvc/\">chronic lower back pain</a> or <a href=\"/conditions/knee-pain-physiotherapy-dubai/\">knee OA</a>) may not be the right choice for post-stroke rehabilitation; a physiotherapist focused on sports injuries may not be the best fit for <a href=\"/conditions/pelvic-floor-physiotherapy-dubai\">pelvic floor physiotherapy</a>. Large clinics like <a href=\"/physiotherapy-jvc/\">our JVC clinic</a> with multiple specialised therapists can match you to the appropriate expertise; single-therapist clinics, however skilled, may be limited.",
     "<strong>Session time matters.</strong> Hospital physiotherapy in Dubai typically allocates 20-30 minutes per session. Standalone clinics often offer 45-60 minute sessions. The longer time allows comprehensive manual therapy, modalities, exercise progression, and patient education within a single session — substantially improving outcomes for most conditions.",
     "<strong>Continuity matters.</strong> Many hospital-based physiotherapy departments rotate patients across different therapists based on availability. Continuity with the same therapist throughout your treatment typically produces meaningfully better outcomes. When choosing a clinic, ask whether you will see the same physiotherapist consistently.",
-    "<strong>Insurance varies dramatically.</strong> Coverage for physiotherapy across Dubai insurance plans varies enormously. Some plans cover unlimited physiotherapy with medical justification; others limit to 6-10 sessions per year. Some clinics offer direct-billing with major insurers; others require you to pay and claim back. Before committing to a multi-session programme, understand exactly what your insurance covers."
+    "<strong>Insurance varies dramatically.</strong> Coverage for physiotherapy across Dubai insurance plans varies enormously. Some plans cover unlimited physiotherapy with medical justification; others limit to 6-10 sessions per year. We accept patients with all major insurance providers. We don't direct-bill, but we provide complete documentation — invoices, medical reports, treatment codes — for you to submit to your insurer. Reimbursement amount depends entirely on your specific policy. Before committing to a multi-session programme, understand exactly what your insurance covers."
   ],
   quote: "The right physiotherapist for your condition exists somewhere in Dubai. Choosing well at the outset matters more than getting started fast.",
   image: "/images/physiotherapy-dubai-treatment-room.webp",
@@ -56,8 +56,8 @@ export const physiotherapyBenefits = {
   title: "Five things that distinguish our JVC clinic in Dubai's physiotherapy market.",
   pillars: [
     {
-      title: "DPT-Qualified Lead Therapists",
-      description: "Our senior physiotherapists hold Doctor of Physical Therapy (DPT) qualifications — the current international standard requiring more extensive clinical training and evidence-based practice emphasis than the minimum Bachelor's qualification. This matters for complex conditions, post-surgical rehabilitation, and patients who have not responded fully to previous physiotherapy. Each team member's qualifications and specialisations are documented transparently on their individual profile pages."
+      title: "Led by a DHA-Licensed Physiotherapy Specialist",
+      description: "Our physiotherapy programme is led by Hafsina K K, a DHA-licensed physiotherapist (DHA-P 64812828) with 7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE. Certified in dry needling, biomechanical cupping, IASTM, and antenatal/postnatal fitness. See her full profile and credentials →"
     },
     {
       title: "Seven Genuine Specialisations",
@@ -92,8 +92,8 @@ export const physiotherapySpecializations = {
       title: "Musculoskeletal Physiotherapy",
       description: "Treatment of joint, muscle, and soft tissue conditions across acute and chronic presentations. <a href=\"/treatments/manual-therapy-dubai/\" class=\"text-inherit hover:text-[#C9A55A] transition-colors\">Manual therapy</a>, dry needling, modalities, structured exercise prescription. Most common patient pathway at <a href=\"/physiotherapy-jvc/\">our JVC clinic</a>.",
       commonConditions: [
-        "<a href=\"/conditions/back-pain-ayurveda-dubai/\">Chronic lower back pain</a> and neck pain",
-        "<a href=\"/conditions/arthritis-ayurveda-dubai/\">Knee OA</a>, shoulder pain, hip pain",
+        "<a href=\"/conditions/back-pain-physiotherapy-jvc/\">Chronic lower back pain</a> and neck pain",
+        "<a href=\"/conditions/knee-pain-physiotherapy-dubai/\">Knee OA</a>, shoulder pain, hip pain",
         "Rotator cuff injuries, frozen shoulder",
         "Plantar fasciitis from sandals and unsupportive footwear"
       ]
@@ -200,10 +200,10 @@ export const physiotherapyPrograms = {
         "12 45-minute physiotherapy sessions",
         "Continuity with the same therapist",
         "Progress reviews at sessions 6 and 12",
-        "Insurance direct-billing available",
+        "Reimbursement documentation provided for all major insurers",
         "Home exercise programme updated mid-programme"
       ],
-      bestFor: "<a href=\"/conditions/back-pain-ayurveda-dubai/\">Musculoskeletal pain</a>, sports injuries, post-surgical rehabilitation, and most common presentations"
+      bestFor: "<a href=\"/conditions/back-pain-physiotherapy-jvc/\">Musculoskeletal pain</a>, sports injuries, post-surgical rehabilitation, and most common presentations"
     },
     {
       name: "Home Physiotherapy Session",
@@ -218,7 +218,7 @@ export const physiotherapyPrograms = {
       bestFor: "Post-surgical patients, elderly with mobility concerns, or patients who cannot easily travel to <a href=\"/physiotherapy-jvc/\">our JVC clinic</a>"
     }
   ],
-  footer: "Insurance direct-billing available with 7 major insurers: Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife. <a href=\"/blog/ayurveda-cost-dubai/\">Cost of treatment guide</a> available here."
+  footer: "We accept all major insurance providers on a reimbursement basis — full documentation provided for your claim. <a href=\"/blog/ayurveda-cost-dubai/\">Cost of treatment guide</a> available here."
 };
 
 export const physiotherapyReviews = {
@@ -247,9 +247,9 @@ export const physiotherapyReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "4.9 stars on Google" },
-    { value: "180+", label: "Physiotherapy-specific reviews" },
-    { value: "97%", label: "complete their full programme completion" }
+    { value: "4.5", label: "4.5 stars on Google" },
+    { value: "15", label: "15 reviews on Google" },
+    { value: "97%", label: "97% programme completion rate" }
   ],
   buttonText: "Read All Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai"
@@ -398,8 +398,12 @@ export const physiotherapyFaqs = {
       answer: "At minimum: DHA-licensed (required by law), with verified physiotherapy degree (typically Bachelor's level minimum). The current international gold standard is DPT (Doctor of Physical Therapy), which requires more extensive clinical training and evidence-based practice emphasis. For specialised conditions, ask whether the therapist has specific postgraduate training (sports medicine, pelvic floor, neurological rehabilitation, paediatric). Continuing education matters — physiotherapy evidence evolves quickly."
     },
     {
+      question: "Do you offer direct billing with insurance?",
+      answer: "We don't offer direct billing. We accept patients with all major insurance providers and provide complete documentation — invoices, medical reports, and treatment codes — for you to submit for reimbursement. Coverage depends on your specific policy; WhatsApp your insurance card to confirm what you can expect back."
+    },
+    {
       question: "Does Dubai insurance cover physiotherapy?",
-      answer: 'Most plans cover physiotherapy when there is medical justification. Coverage varies significantly: annual session limits, copay percentages, referral requirements, and pre-authorisation requirements all differ across plans. Direct-billing arrangements depend on clinic-insurer relationships. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20physiotherapy.">+971 55 573 6312</a> for specific coverage confirmation before booking multi-session programmes.'
+      answer: 'Most plans cover physiotherapy when there is medical justification. Coverage varies significantly: annual session limits, copay percentages, referral requirements, and pre-authorisation requirements all differ across plans. We operate on a reimbursement model — we provide all documentation for you to claim back from your insurer. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20physiotherapy.">+971 55 573 6312</a> for specific coverage confirmation before booking multi-session programmes.'
     },
     {
       question: "Do I need a referral to see a physiotherapist in Dubai?",
@@ -407,7 +411,7 @@ export const physiotherapyFaqs = {
     },
     {
       question: "How much does physiotherapy cost in Dubai?",
-      answer: "Single sessions range from approximately AED 200 to AED 800 across Dubai depending on clinic quality. At Vedara Care, our standard physiotherapy session is AED [X], with packages reducing the per-session rate. Specialised modalities (dry needling, shockwave therapy) may add additional cost. Detailed pricing is published on our cost guide and on our physiotherapy pricing section."
+      answer: "Single sessions range from approximately AED 200 to AED 800 across Dubai depending on clinic quality. At Vedara Care, our standard follow-up session is AED 350–500 depending on duration, with package discounts up to 40%. Detailed pricing is published on our cost guide and on our physiotherapy pricing section."
     },
     {
       question: "What is the difference between hospital physiotherapy and clinic physiotherapy in Dubai?",
@@ -425,7 +429,7 @@ export const physiotherapyFaqs = {
     },
     {
       question: "Do you offer home physiotherapy in Dubai?",
-      answer: "Yes — home physiotherapy is available across Dubai for patients with mobility limitations, post-surgical recovery in early stages, elderly patients, or other situations where clinic visits are difficult. Home visits typically cost AED [X] above standard session rates. Particularly utilised for post-stroke rehabilitation, post-joint-replacement recovery, and post-spinal surgery early recovery."
+      answer: "Home physiotherapy is launching soon at Vedara Care. In the meantime, our JVC clinic offers same-day and next-day appointments for all patients. Particularly utilised for post-stroke rehabilitation, post-joint-replacement recovery, and post-spinal surgery early recovery."
     },
     {
       question: "What conditions does physiotherapy treat?",
@@ -437,7 +441,7 @@ export const physiotherapyFaqs = {
     },
     {
       question: "Is dry needling available in Dubai?",
-      answer: "Yes — dry needling is offered at qualified physiotherapy clinics including Vedara Care. The technique requires specific certification beyond standard physiotherapy qualification. Particularly effective for chronic muscle tension patterns, trigger points, and certain headache types. Distinct from acupuncture in mechanism and training."
+      answer: "Yes — dry needling is offered at qualified physiotherapy clinics including Vedara Care and is discussed at consultation as part of your treatment plan. The technique requires specific certification beyond standard physiotherapy qualification. Particularly effective for chronic muscle tension patterns, trigger points, and certain headache types. Distinct from acupuncture in mechanism and training."
     },
     {
       question: "What about <a href= '/conditions/pelvic-floor-physiotherapy-dubai/'> pelvic floor physiotherapy specifically? </a>",
@@ -536,85 +540,17 @@ export const physiotherapyPricing = {
   bgColor: "bg-[#F5F1E8]",
   label: "TRANSPARENT PRICING",
   title: "What physiotherapy at Vedara Care costs — published in full.",
-  description: "Most Dubai physiotherapy clinics hide their pricing. Our approach: you know what you will pay before you commit. Final pricing depends on your specific condition and any specialised modalities required, confirmed at your initial assessment. For more detailed cost information, see our <a href=\"/blog/ayurveda-cost-dubai/\">cost guide</a>.",
+  description: "Most Dubai physiotherapy clinics hide their pricing. Our approach: you know what you will pay before you commit. Final pricing depends on your specific condition, confirmed at your initial assessment.",
   pricingCards: [
-    {
-      category: "Consultations",
-      title: "Initial physiotherapy assessment (60 minutes)",
-      price: "From AED [X]",
-      description: "Comprehensive clinical assessment with DPT-qualified physiotherapist including full history, physical evaluation, and written treatment plan. Book at <a href=\"/physiotherapy-jvc/\">our JVC clinic</a>.",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Consultations",
-      title: "Follow-up session (45 minutes)",
-      price: "From AED [X]",
-      description: "45-minute treatment session including manual therapy, modalities (if needed), and exercise progression.",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Consultations",
-      title: "Follow-up session (60 minutes)",
-      price: "From AED [X]",
-      description: "60-minute extended treatment session for complex conditions or multiple body areas.",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Consultations",
-      title: "Specialist assessment (sports, pelvic floor, neurological)",
-      price: "From AED [X]",
-      description: "Specialised assessment with a physiotherapist focused on your specific condition area (like <a href=\"/conditions/postnatal-ayurveda-dubai/\">postnatal care</a>).",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Specialised Modalities (add-ons)",
-      title: "Dry needling (add-on per session)",
-      price: "From AED [X]",
-      description: "Trigger point dry needling for myofascial pain and tightness.",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Specialised Modalities (add-ons)",
-      title: "Shockwave therapy session",
-      price: "From AED [X]",
-      description: "Extracorporeal shockwave therapy for chronic tendinopathies and plantar fasciitis.",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Specialised Modalities (add-ons)",
-      title: "Class IV laser therapy",
-      price: "From AED [X]",
-      description: "High-intensity laser therapy for pain management and tissue healing.",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Specialised Modalities (add-ons)",
-      title: "Specialised manual therapy add-on",
-      price: "From AED [X]",
-      description: "Additional manual therapy time for complex presentations.",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Packages",
-      title: "6-session package",
-      price: "From AED [X]",
-      description: "Discounted package for <a href=\"/conditions/back-pain-ayurveda-dubai/\">musculoskeletal pain</a> and sports injuries.",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Packages",
-      title: "12-session package",
-      price: "From AED [X]",
-      description: "Comprehensive package for <a href=\"/conditions/arthritis-ayurveda-dubai/\">chronic conditions</a> and post-surgical rehabilitation.",
-      footer: "At Vedara Care: From AED [X]"
-    },
-    {
-      category: "Packages",
-      title: "Post-surgical rehabilitation package (20 sessions)",
-      price: "From AED [X]",
-      description: "Structured post-surgical rehab programme with progress reviews.",
-      footer: "At Vedara Care: From AED [X]"
-    }
+    { category: "Consultations", title: "Initial physiotherapy assessment (60 minutes)", price: "AED 500", description: "Comprehensive clinical assessment with a DHA-licensed physiotherapist, including full history, physical evaluation, and written treatment plan." },
+    { category: "Consultations", title: "Follow-up session (45 minutes)", price: "AED 350", description: "45-minute treatment session including manual therapy, modalities, and exercise progression." },
+    { category: "Consultations", title: "Follow-up session (60 minutes)", price: "AED 500", description: "60-minute extended treatment session for complex conditions or multiple body areas." },
+    { category: "Add-ons", title: "Dry needling (add-on)", price: "AED 150", description: "Administered by certified specialists using sterile single-use needles. Added to standard sessions for trigger points and chronic muscle tension." },
+    { category: "Packages", title: "6-session package", price: "AED 2,400", savings: "Save 20% + free GP consultation included", description: "60-minute sessions. Ideal for musculoskeletal pain and sports injuries." },
+    { category: "Packages", title: "12-session package", price: "AED 4,200", savings: "Save 30% + unlimited GP consultation included", description: "60-minute sessions. Comprehensive package for chronic conditions and post-surgical rehabilitation." },
+    { category: "Packages", title: "Post-surgical rehabilitation package (20 sessions)", price: "AED 6,000", savings: "Save 40% + unlimited GP consultation included", description: "60-minute sessions with structured progress reviews." },
+    { category: "Home Services", title: "Home physiotherapy session (within Dubai)", price: "Coming Soon", description: "Home-based physiotherapy across Dubai. Launching soon — check back or ask our team for updates." },
+    { category: "Home Services", title: "Post-surgical home rehabilitation (per session)", price: "Coming Soon", description: "Home-based post-surgical rehab. Launching soon." }
   ]
 };
 
@@ -649,7 +585,7 @@ export const physiotherapyFinalCTA = {
   button2TextColor: "#22C55E",
   button2BorderColor: "#22C55E",
   bullets: [
-    "Initial assessment from AED [X]",
+    "Initial assessment from AED 500",
     "DHA-licensed JVC clinic",
     "Insurance direct-billing with 7 major insurers",
     "Same-day appointments often available",

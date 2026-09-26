@@ -382,7 +382,7 @@ const RasayanaAyurvedaJvc = () => {
                 <p className="text-sm leading-[1.7]" style={{ color: "rgb(85, 85, 85)" }}>Rasayana programme initiation with Chyawanprash foundation, constitutional-matched herbs, Medhya Rasayana when cognitive support relevant, Aachara Rasayana framework, Dinacharya establishment, yoga and meditation integration. Initial improvements often visible — improved vitality, better sleep, improved cognitive clarity.</p>
               </div>
               <div className="p-7 flex flex-col gap-4" style={{ background: "rgb(245, 240, 232)", borderRadius: "8px", borderTop: "4px solid rgb(200, 168, 127)" }}>
-                <div className="text-2xl" style={{ color: "rgb(200, 168, 127)" }}>●</div>
+                <div className="text-2xl" style={{ color: "rgb(200, 168, 127)" }}>â—</div>
                 <div>
                   <div className="text-xs tracking-[0.1em] uppercase font-medium mb-1" style={{ color: "rgb(200, 168, 127)" }}>Phase 3 · Weeks 8–16</div>
                   <h3 className="font-display font-medium leading-[1.3]" style={{ fontSize: "20px", color: "rgb(31, 31, 31)" }}>Consolidation and Sustained Practice</h3>

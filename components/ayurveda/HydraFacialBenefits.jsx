@@ -2,22 +2,22 @@ import { useEffect, useRef } from "react";
 import { SciaticaTypes } from "./SciaticaSections";
 
 const STEPS = [
-  { tag: "Before treatment", title: "Skin assessment", body: "Before anything touches your face, our dermatology team looks at your skin type, current concerns and any sensitivities — deciding whether HydraFacial is right for you today, or whether the protocol needs adjusting." },
+  { tag: "Before treatment", title: "Skin assessment", body: "Before anything touches your face, our dermatology team looks at your skin type, current concerns and any sensitivities  -  deciding whether HydraFacial is right for you today, or whether the protocol needs adjusting." },
   { tag: "Prep", title: "Cleansing", body: "Skin is cleaned to remove makeup, sunscreen and surface oil, creating a clean base for every step that follows." },
-  { tag: "Resurfacing", title: "Exfoliation", body: "A gentle exfoliating pass lifts dead skin cells from the surface — part of what gives HydraFacial its reputation for leaving skin feeling smoother almost immediately." },
-  { tag: "Deep clean", title: "Extraction", body: "Controlled, low-pressure suction draws out debris sitting inside pores — the step most associated with visibly clearer-looking pores after treatment." },
-  { tag: "Replenish", title: "Hydration", body: "Serums are applied to replenish moisture, chosen around your specific concern — whether that's dehydration, dullness or general maintenance." },
+  { tag: "Resurfacing", title: "Exfoliation", body: "A gentle exfoliating pass lifts dead skin cells from the surface  -  part of what gives HydraFacial its reputation for leaving skin feeling smoother almost immediately." },
+  { tag: "Deep clean", title: "Extraction", body: "Controlled, low-pressure suction draws out debris sitting inside pores  -  the step most associated with visibly clearer-looking pores after treatment." },
+  { tag: "Replenish", title: "Hydration", body: "Serums are applied to replenish moisture, chosen around your specific concern  -  whether that's dehydration, dullness or general maintenance." },
   { tag: "Tailored", title: "Customised additions", body: "Depending on your skin and the clinic's assessment, additional targeted serums or steps may be layered in for a more personalised result." },
   { tag: "After treatment", title: "Aftercare guidance", body: "You'll leave knowing exactly how to care for your skin over the next day or two, including what to avoid.", final: true },
 ];
 
 const BENEFITS = [
-  { title: "Deeper cleansing", body: "Reaches oil and debris sitting inside pores, rather than just the surface — beyond what a typical at-home routine can do.", icon: <path d="M4 6l4 4M4 6l-1 5 5-1M20 6l-4 4M20 6l1 5-5-1M12 3v6M12 21v-6M4 18l4-4M20 18l-4-4" /> },
+  { title: "Deeper cleansing", body: "Reaches oil and debris sitting inside pores, rather than just the surface  -  beyond what a typical at-home routine can do.", icon: <path d="M4 6l4 4M4 6l-1 5 5-1M20 6l-4 4M20 6l1 5-5-1M12 3v6M12 21v-6M4 18l4-4M20 18l-4-4" /> },
   { title: "Gentle exfoliation", body: "Leaves skin noticeably smoother, typically without the redness associated with more aggressive peels.", icon: <><path d="M3 12c3-4 6-6 9-6s6 2 9 6c-3 4-6 6-9 6s-6-2-9-6z" /><circle cx="12" cy="12" r="2.4" /></> },
-  { title: "Professional extraction", body: "Done under controlled clinical conditions — far safer than picking or squeezing at home, which risks scarring and irritation.", icon: <path d="M12 3l7 5v6a7 7 0 01-14 0V8l7-5z" /> },
-  { title: "Real hydration", body: "Even oily skin can be dehydrated underneath — a distinction that trips a lot of people up. HydraFacial addresses both.", icon: <path d="M12 2.5c3 4 6 8 6 12a6 6 0 01-12 0c0-4 3-8 6-12z" /> },
+  { title: "Professional extraction", body: "Done under controlled clinical conditions  -  far safer than picking or squeezing at home, which risks scarring and irritation.", icon: <path d="M12 3l7 5v6a7 7 0 01-14 0V8l7-5z" /> },
+  { title: "Real hydration", body: "Even oily skin can be dehydrated underneath  -  a distinction that trips a lot of people up. HydraFacial addresses both.", icon: <path d="M12 2.5c3 4 6 8 6 12a6 6 0 01-12 0c0-4 3-8 6-12z" /> },
   { title: "Fresher complexion", body: "A visible short-term refresh, which is why many patients like scheduling it before an event or occasion.", icon: <><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" /><circle cx="12" cy="12" r="3.4" /></> },
-  { title: "No real downtime", body: "Most patients go straight back to their day right after the appointment — nothing to plan around.", icon: <><circle cx="12" cy="12" r="8.5" /><path d="M12 7.5V12l3 2" /></> },
+  { title: "No real downtime", body: "Most patients go straight back to their day right after the appointment  -  nothing to plan around.", icon: <><circle cx="12" cy="12" r="8.5" /><path d="M12 7.5V12l3 2" /></> },
 ];
 
 const hydrafacialBenefitsData = {
@@ -25,7 +25,7 @@ const hydrafacialBenefitsData = {
   cardBg: "bg-[#F8F5F0]",
   label: "WHY PATIENTS CHOOSE IT",
   title: "Benefits of HydraFacial",
-  description: "Used appropriately on suitable skin, HydraFacial can offer real short-term benefits — though results vary, and no cosmetic treatment works identically for everyone.",
+  description: "Used appropriately on suitable skin, HydraFacial can offer real short-term benefits  -  though results vary, and no cosmetic treatment works identically for everyone.",
   types: BENEFITS.map((b, i) => ({
     number: String(i + 1).padStart(2, "0"),
     title: b.title,
@@ -51,12 +51,12 @@ const VISIT_STEPS = [
 ];
 
 const AFTERCARE = [
-  "Cleanse gently for the first day or two — avoid harsh scrubs or aggressive exfoliants.",
+  "Cleanse gently for the first day or two  -  avoid harsh scrubs or aggressive exfoliants.",
   "Apply a suitable moisturiser to support the skin as it settles.",
   "Use sunscreen, since freshly treated skin can be slightly more sensitive to sun exposure.",
   "Avoid picking at the skin, even if a few areas feel slightly more reactive than usual.",
   "Hold off on strong new actives (retinoids, acids) for a short period, then reintroduce gradually.",
-  "Follow any specific instructions your clinician gives you — these can vary by skin and protocol.",
+  "Follow any specific instructions your clinician gives you  -  these can vary by skin and protocol.",
 ];
 
 const NOT_APPROPRIATE = [
@@ -101,11 +101,11 @@ const CHEMICAL_PEEL_ROWS = [
 ];
 
 const OTHER_TREATMENTS = [
-  { name: "Microneedling", body: " — controlled micro-injuries to stimulate repair; generally more intensive with more downtime." },
-  { name: "Laser treatments", body: " — target specific concerns like pigmentation or vascular issues, with a different risk and downtime profile." },
-  { name: "Medical acne treatment", body: " — addresses the underlying causes of active acne, which HydraFacial isn't designed to do." },
-  { name: "Skin boosters", body: " — injectable hydration beneath the skin's surface, a different mechanism entirely." },
-  { name: "Traditional facials", body: " — generally lower-intensity and more relaxation-oriented." },
+  { name: "Microneedling", body: "  -  controlled micro-injuries to stimulate repair; generally more intensive with more downtime." },
+  { name: "Laser treatments", body: "  -  target specific concerns like pigmentation or vascular issues, with a different risk and downtime profile." },
+  { name: "Medical acne treatment", body: "  -  addresses the underlying causes of active acne, which HydraFacial isn't designed to do." },
+  { name: "Skin boosters", body: "  -  injectable hydration beneath the skin's surface, a different mechanism entirely." },
+  { name: "Traditional facials", body: "  -  generally lower-intensity and more relaxation-oriented." },
 ];
 
 export default function HydraFacialSection() {
@@ -365,7 +365,7 @@ export default function HydraFacialSection() {
             If your skin shows signs of active infection, significant irritation, or a flare-up of an
             existing condition, a responsible provider should be willing to postpone or modify the
             treatment rather than proceeding regardless. Appointment length varies by protocol and
-            customisation — your consultation is the right place to get an accurate estimate.
+            customisation  -  your consultation is the right place to get an accurate estimate.
           </div>
         </div>
       </section>
@@ -395,7 +395,7 @@ export default function HydraFacialSection() {
             </div>
             <div className="hf-stat-card">
               <h3>How often to book</h3>
-              <p>Best decided with your provider rather than a generic rule — it depends on your skin condition, sensitivity, goals, and whether you're combining it with other treatments. Some book ahead of events; others build it into regular maintenance.</p>
+              <p>Best decided with your provider rather than a generic rule  -  it depends on your skin condition, sensitivity, goals, and whether you're combining it with other treatments. Some book ahead of events; others build it into regular maintenance.</p>
             </div>
           </div>
         </div>
@@ -433,7 +433,7 @@ export default function HydraFacialSection() {
           <div className="hf-warn-grid">
             <div className="hf-warn-card hf-ok">
               <h3>Possible, usually mild, side effects</h3>
-              <p>Mild redness, a feeling of tightness, or short-lived sensitivity — particularly right after exfoliation and extraction. These usually settle on their own, though already-irritated or sensitised skin may react more noticeably.</p>
+              <p>Mild redness, a feeling of tightness, or short-lived sensitivity  -  particularly right after exfoliation and extraction. These usually settle on their own, though already-irritated or sensitised skin may react more noticeably.</p>
             </div>
             <div className="hf-warn-card hf-stop">
               <h3>When HydraFacial may not be appropriate</h3>
@@ -451,7 +451,7 @@ export default function HydraFacialSection() {
           <div className="hf-section-head">
             <span className="hf-eyebrow">Choosing the right treatment</span>
             <h2>HydraFacial compared</h2>
-            <p>Neither option is universally "better" — it comes down to your skin and what you're looking for.</p>
+            <p>Neither option is universally "better"  -  it comes down to your skin and what you're looking for.</p>
           </div>
 
           <div className="hf-compare-block">
@@ -477,7 +477,7 @@ export default function HydraFacialSection() {
               </tbody>
             </table>
             <p className="hf-compare-foot">
-              Choosing between the two comes down to your specific skin concerns — a proper consultation
+              Choosing between the two comes down to your specific skin concerns  -  a proper consultation
               should walk through this rather than a generic comparison. Our chemical peel page has more
               detail if that's a treatment you're also considering.
             </p>
@@ -552,7 +552,7 @@ export default function HydraFacialSection() {
           <div className="hf-section-head">
             <span className="hf-eyebrow">The Vedara approach</span>
             <h2>Why patients choose Vedara Care for HydraFacial</h2>
-            <p>Dermatology is one of our core services alongside physiotherapy, Ayurveda and home healthcare — all under one roof in JVC.</p>
+            <p>Dermatology is one of our core services alongside physiotherapy, Ayurveda and home healthcare  -  all under one roof in JVC.</p>
           </div>
           <div className="hf-info-grid">
             <div className="hf-info-card">
@@ -563,7 +563,7 @@ export default function HydraFacialSection() {
             <div className="hf-info-card">
               <span className="hf-tag">Your skin, not a generic protocol</span>
               <h3>A plan built around your concerns</h3>
-              <p>We start with your skin as it actually is, then build a plan around your goals — occasional maintenance, event preparation, or ongoing management alongside another dermatology treatment.</p>
+              <p>We start with your skin as it actually is, then build a plan around your goals  -  occasional maintenance, event preparation, or ongoing management alongside another dermatology treatment.</p>
             </div>
             <div className="hf-info-card">
               <span className="hf-tag">For men &amp; women</span>
@@ -573,7 +573,7 @@ export default function HydraFacialSection() {
             <div className="hf-info-card">
               <span className="hf-tag">Before an event</span>
               <h3>Planning around a wedding, shoot or holiday</h3>
-              <p>Book with a little buffer rather than the day before, so you can see how your individual skin responds. We won't promise an instant, guaranteed glow — response genuinely varies — but a well-timed session is a reasonable part of preparation.</p>
+              <p>Book with a little buffer rather than the day before, so you can see how your individual skin responds. We won't promise an instant, guaranteed glow  -  response genuinely varies  -  but a well-timed session is a reasonable part of preparation.</p>
             </div>
           </div>
           <div className="hf-location-strip">
@@ -588,7 +588,7 @@ export default function HydraFacialSection() {
           <div className="hf-warn-grid">
             <div className="hf-warn-card hf-ok">
               <h3>Who is a good candidate</h3>
-              <p>Generally, adults dealing with dull-looking skin, congested pores, oily or combination skin, dehydration, or uneven texture may be reasonable candidates. "Generally suitable" isn't the same as "suitable for you" — an individual assessment determines the fit.</p>
+              <p>Generally, adults dealing with dull-looking skin, congested pores, oily or combination skin, dehydration, or uneven texture may be reasonable candidates. "Generally suitable" isn't the same as "suitable for you"  -  an individual assessment determines the fit.</p>
             </div>
             <div className="hf-warn-card hf-stop">
               <h3>When to see a dermatology professional instead</h3>
@@ -596,7 +596,7 @@ export default function HydraFacialSection() {
                 HydraFacial is a cosmetic treatment. Persistent or painful acne, cystic acne, significant
                 pigmentation changes, sudden unexplained skin changes, persistent redness, severe
                 irritation, recurring inflammation or scarring call for a proper medical evaluation first
-                — our <a href="https://www.vedaracare.ae/dermatology-clinic-jvc" style={{ color: "var(--clay-deep)" }}>dermatology clinic in JVC</a> is the right next step.
+                 -  our <a href="https://www.vedaracare.ae/dermatology-clinic-jvc" style={{ color: "var(--clay-deep)" }}>dermatology clinic in JVC</a> is the right next step.
               </p>
             </div>
           </div>

@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import Head from 'next/head';
 import { arfahOwaisPageData } from '../../data/arfahOwaisData';
 import AestheticianPageTemplate from '../../components/aesthetician/AestheticianPageTemplate';

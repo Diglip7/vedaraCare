@@ -483,7 +483,7 @@ export const stressAnxietyVisitSectionData = {
   },
   address: {
     line1: "Al Barsha South Fourth, Binghatti Azure, Shop -4,",
-    line2: " Jumeraih Village Circle (JVC) Dubai"
+    line2: " Jumeirah Village Circle (JVC) Dubai"
   },
   phone: "+971 55 573 6312",
   hours: [

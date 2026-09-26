@@ -585,14 +585,14 @@ const NasyaBastiUdvartanaJvc = () => {
 
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="bg-[#F5F0E8] rounded-[8px] p-6">
-                <span className="text-2xl mb-3 block">🏥</span>
+                <span className="text-2xl mb-3 block">ðŸ¥</span>
                 <h4 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-2" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Modern Medical Care Coordination</h4>
                 <p className="text-[14px] text-[#555555] leading-[1.7]">
                   Coordination pathways with treating doctors for patients on chronic medications and with medical conditions. Comprehensive medication review before therapy initiation. Sustained monitoring during therapy courses. Coordination with treating specialists as appropriate.
                 </p>
               </div>
               <div className="bg-[#F5F0E8] rounded-[8px] p-6">
-                <span className="text-2xl mb-3 block">🤝</span>
+                <span className="text-2xl mb-3 block">ðŸ¤</span>
                 <h4 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-2" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Multi-Disciplinary Team Integration</h4>
                 <p className="text-[14px] text-[#555555] leading-[1.7]">
                   When specialty therapies benefit from coordinated physiotherapy (particularly for sciatica Basti and cervical spondylosis Nasya), women's health for gynaecological Basti, dermatology for skin Udvartana, or home healthcare for elderly patients — coordinated multi-disciplinary care available at same JVC clinic.

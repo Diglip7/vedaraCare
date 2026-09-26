@@ -299,7 +299,7 @@ export const sciaticaJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.9★", label: "Google Rating" },
+    { value: "4.9â˜…", label: "Google Rating" },
     { value: "850+", label: "Reviews" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
     { value: "Female", label: "Practitioner Available" }

@@ -168,7 +168,7 @@ export const panchakarmaDubaiActions = {
   items: [
     {
       id: "01",
-      label: "Vamana (वमन — Therapeutic Emesis)",
+      label: "Vamana (à¤µà¤®à¤¨ — Therapeutic Emesis)",
       title: "Therapeutic Vomiting Protocol",
       description: "A carefully prepared, doctor-induced therapeutic vomiting protocol used to remove excess Kapha from the upper digestive and respiratory tracts. Vamana is the most intensive of the five actions and is prescribed selectively.",
       typicalUse: "Kapha disorders, asthma, severe sinusitis",
@@ -176,7 +176,7 @@ export const panchakarmaDubaiActions = {
     },
     {
       id: "02",
-      label: "Virechana (विरेचన — Therapeutic Purgation)",
+      label: "Virechana (à¤µà¤¿à¤°à¥‡à¤šà°¨ — Therapeutic Purgation)",
       title: "Medicated Purgation",
       description: "Medicated purgation to clear accumulated Pitta from the liver, gallbladder, and small intestine. One of the most clinically useful Panchakarma actions for modern conditions.",
       typicalUse: "<a href=\"/conditions/pcos-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">PCOS</a>, skin conditions, liver health, metabolic imbalance",
@@ -186,7 +186,7 @@ export const panchakarmaDubaiActions = {
     },
     {
       id: "03",
-      label: "Basti (बस्ति — Medicated Enema)",
+      label: "Basti (à¤¬à¤¸à¥à¤¤à¤¿ — Medicated Enema)",
       title: "Medicated Enema Therapy",
       description: "Considered the most important of the five actions in classical texts — \"half of all treatment is Basti.\" A series of medicated enemas using either herbal decoctions or medicated oils.",
       typicalUse: "<a href=\"/conditions/back-pain-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">Chronic pain</a>, sciatica, <a href=\"/conditions/ibs-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">IBS</a>, neurological recovery, Vata disorders",
@@ -196,7 +196,7 @@ export const panchakarmaDubaiActions = {
     },
     {
       id: "04",
-      label: "Nasya (नस्य — Nasal Therapy)",
+      label: "Nasya (à¤¨à¤¸à¥à¤¯ — Nasal Therapy)",
       title: "Nasal Administration",
       description: "Medicated oils or herbal preparations administered through the nasal passages, addressing everything from chronic sinusitis to migraines, hair loss, and head-and-neck conditions.",
       typicalUse: "Chronic sinusitis, <a href=\"/conditions/migraine-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">migraine</a>, <a href=\"/conditions/hair-loss-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">hair loss</a>, cervical spondylosis",
@@ -206,7 +206,7 @@ export const panchakarmaDubaiActions = {
     },
     {
       id: "05",
-      label: "Raktamokshana (रक्तमోక्षण — Therapeutic Bloodletting)",
+      label: "Raktamokshana (à¤°à¤•à¥à¤¤à¤®à±‹à°•à¥à¤·à¤£ — Therapeutic Bloodletting)",
       title: "Selective Bloodletting",
       description: "Selective bloodletting through controlled methods including leech therapy (Jalaukavacharana) or venesection. Used for specific Pitta-Raktha conditions like certain skin diseases and gout.",
       typicalUse: "Severe skin conditions, gout, varicose veins (selective)",
@@ -403,7 +403,7 @@ export const panchakarmaDubaiLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "THE CLINIC",
   title: "Our Panchakarma clinic in Jumeirah Village Circle.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about Panchakarma treatment at your JVC clinic.",

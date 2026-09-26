@@ -321,7 +321,7 @@ const ManualTherapyPricing = ({
 
 const HijamaSection = ({
   bgColor = "bg-white",
-  label = "HIJAMA — THE ISLAMIC SUNNAH PRACTICE",
+  label = "HIJAMA  -  THE ISLAMIC SUNNAH PRACTICE",
   title = "",
   subtitle = "",
   content = [],

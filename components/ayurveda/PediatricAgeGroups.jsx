@@ -1,4 +1,3 @@
-import React from 'react';
 
 const PediatricAgeGroups = ({ label, title, description, ageGroups, footer }) => {
   return (
@@ -18,7 +17,7 @@ const PediatricAgeGroups = ({ label, title, description, ageGroups, footer }) =>
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 ${ageGroups.length === 2 ? 'max-w-4xl mx-auto' : 'lg:grid-cols-4'}`}>
           {ageGroups.map((group, idx) => (
             <div key={idx} className="bg-white rounded-lg p-8 transition-all hover:shadow-lg" style={{ borderTop: '4px solid rgb(201, 168, 76)' }}>
               <p className="text-5xl mb-4" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(201, 168, 76)', fontWeight: 300 }}>
@@ -32,7 +31,7 @@ const PediatricAgeGroups = ({ label, title, description, ageGroups, footer }) =>
               </p>
               <div className="pt-4 border-t border-black/5">
                 <p className="text-xs leading-relaxed" style={{ color: 'rgb(107, 107, 107)' }}>
-                  <span className="font-semibold" style={{ color: 'rgb(26, 26, 26)' }}>Common conditions:</span><br/>
+                  <span className="font-semibold" style={{ color: 'rgb(26, 26, 26)' }}>Common conditions:</span><br />
                   {group.conditions}
                 </p>
               </div>

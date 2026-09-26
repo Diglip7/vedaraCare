@@ -168,9 +168,9 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-6 pb-6 text-xs text-[#F8F9FA]/60 leading-relaxed text-center md:text-left space-y-4">
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-4 gap-y-2">
             <span><strong>Author:</strong> Vedara Care Medical Team</span>
-            <span className="hidden md:inline">•</span>
+            <span className="hidden md:inline">-</span>
             <span><strong>Expertise:</strong> DHA-Licensed Specialists (<Link href="/doctors" className="underline hover:text-white">View Credentials</Link>)</span>
-            <span className="hidden md:inline">•</span>
+            <span className="hidden md:inline">-</span>
             <span><strong>Last Updated:</strong> September 2026</span>
           </div>
           <p>

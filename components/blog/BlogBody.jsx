@@ -97,7 +97,7 @@ const BlogBody = ({ sections, tableOfContents, cta, bgColor = "bg-[#FDFCF9]" }) 
                     <ul className="space-y-4">
                       {section.list.items.map((item, i) => (
                         <li key={i} className="flex gap-4 text-[16px] md:text-[17px] leading-relaxed text-[#4A4A4A] font-sans">
-                          <span className="text-[#D4A373] mt-1.5">•</span>
+                          <span className="text-[#D4A373] mt-1.5">-</span>
                           <span>{item}</span>
                         </li>
                       ))}

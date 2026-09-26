@@ -91,17 +91,17 @@ export const manualTherapyReviews = {
     {
       quote: "Chronic neck pain and tension headaches for three years. Multiple providers without progress. Vedara's approach combined Mulligan mobilisation with movement and specific Maitland techniques for the cervical spine — immediate improvement in the first session, substantial resolution over eight sessions. The integration with postural work and exercises was key. Two years later, still controlled with occasional maintenance sessions.",
       author: "Sarah K.",
-      details: "Cervicogenic Headaches • 8-Week Programme • Dubai Marina • February 2026"
+      details: "Cervicogenic Headaches ”¢ 8-Week Programme ”¢ Dubai Marina ”¢ February 2026"
     },
     {
       quote: "Frozen shoulder diagnosed by my GP — recommended cortisone injection. Vedara provided structured manual therapy programme using Kaltenborn mobilisation techniques specific to frozen shoulder pattern. Sixteen weeks of treatment combined with home programme. Substantial restoration without injection. The specific manual therapy approach for this condition made the difference.",
       author: "Rajan M.",
-      details: "Frozen Shoulder • 16-Week Programme • Sports City • January 2026"
+      details: "Frozen Shoulder ”¢ 16-Week Programme ”¢ Sports City ”¢ January 2026"
     },
     {
       quote: "Sciatica for eight months — multiple treatments without progress. Vedara's McKenzie-trained physiotherapist identified directional preference and provided specific movement protocol combined with neural mobilisation. Six weeks of treatment — substantial improvement, return to normal activities. The accurate diagnosis using McKenzie method combined with appropriate hands-on treatment was the breakthrough.",
       author: "Ahmed S.",
-      details: "Sciatica with Directional Preference • 6-Week Programme • JVC • March 2026"
+      details: "Sciatica with Directional Preference ”¢ 6-Week Programme ”¢ JVC ”¢ March 2026"
     }
   ],
   stats: [
@@ -216,10 +216,10 @@ export const manualTherapyLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
   title: "Where manual therapy happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
-  hours: "9:00AM to 10:00PM • 7 days a week",
+  hours: "9:00AM to 10:00PM ”¢ 7 days a week",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",
@@ -242,7 +242,7 @@ export const manualTherapyFinalCTA = {
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20manual%20therapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 380 • Walking distance from Circle Mall, JVC • 500+ manual therapy patients treated • Certified specialists • Evidence-based techniques • Insurance direct-billing"
+  footer: "Initial assessment from AED 380 ”¢ Walking distance from Circle Mall, JVC ”¢ 500+ manual therapy patients treated ”¢ Certified specialists ”¢ Evidence-based techniques ”¢ Insurance direct-billing"
 };
 
 export const manualTherapyConditions = {

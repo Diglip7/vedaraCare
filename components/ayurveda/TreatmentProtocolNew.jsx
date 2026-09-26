@@ -49,7 +49,7 @@ const TreatmentProtocolNew = ({ bgColor, label, title, description, phases, foot
               <ul className="space-y-2 mb-4 flex-grow">
                 {phase.items.map((item, idx) => (
                   <li key={idx} className="text-sm text-[#6B7280] flex items-start gap-2">
-                    <span className="text-[#C4A962] mt-1 flex-shrink-0">•</span>
+                    <span className="text-[#C4A962] mt-1 flex-shrink-0">-</span>
                     <span>{item}</span>
                   </li>
                 ))}

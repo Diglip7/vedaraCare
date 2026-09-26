@@ -141,7 +141,7 @@ export default function AdminLogin() {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     className="w-full pl-11 pr-12 py-3.5 bg-[#FAF8F5] border border-gray-200 focus:border-[#184C3A] focus:bg-white rounded-2xl text-sm focus:outline-none focus:ring-4 focus:ring-[#184C3A]/5 text-gray-900 placeholder-gray-400 transition-all font-medium"
-                    placeholder="••••••••"
+                    placeholder="--------"
                     required
                   />
                   <button

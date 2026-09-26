@@ -38,9 +38,9 @@ export const patraPindaSwedaIntro = {
 export const patraPindaSwedaExplanation = {
   label: "THE THERAPY",
   title: "What Is Patra Pinda Sweda?",
-  // description: "Patra Pinda Sweda is a classical Ayurvedic therapy built around two core ideas: the therapeutic use of selected leaves and herbs, and the application of controlled warmth to the body. The herbs are prepared into small cloth bundles — the “boluses” or “pindas” — which are warmed and then applied to the skin over the treatment area, typically in a rhythmic, practitioner-guided pattern.",
+  // description: "Patra Pinda Sweda is a classical Ayurvedic therapy built around two core ideas: the therapeutic use of selected leaves and herbs, and the application of controlled warmth to the body. The herbs are prepared into small cloth bundles — the “boluses” or “pindas” — which are warmed and then applied to the skin over the treatment area, typically in a rhythmic, practitioner-guided pattern.",
   paragraphs: [
-    "Patra Pinda Sweda is a classical Ayurvedic therapy built around two core ideas: the therapeutic use of selected leaves and herbs, and the application of controlled warmth to the body. The herbs are prepared into small cloth bundles — the “boluses” or “pindas” — which are warmed and then applied to the skin over the treatment area, typically in a rhythmic, practitioner-guided pattern.",
+    "Patra Pinda Sweda is a classical Ayurvedic therapy built around two core ideas: the therapeutic use of selected leaves and herbs, and the application of controlled warmth to the body. The herbs are prepared into small cloth bundles — the “boluses” or “pindas” — which are warmed and then applied to the skin over the treatment area, typically in a rhythmic, practitioner-guided pattern.",
     "This therapy falls under the broader Ayurvedic category of Swedana, or fomentation therapy. Within Ayurvedic thought, Swedana refers to a range of techniques intended to introduce controlled warmth to the body, and Patra Pinda Sweda is one of several approaches within this category — distinguished by its use of herb-filled boluses rather than steam, oil alone, or other fomentation methods.",
     "It’s worth being clear about what distinguishes this from an ordinary massage. While there may be an element of rhythmic application involved, the therapy centers on the combination of herbal content and controlled heat, rather than on deep manual pressure or manipulation alone. This is also why practitioner supervision matters throughout — maintaining a tolerable, safe temperature and selecting an appropriate protocol both require professional judgment, not something a patient should attempt to replicate on their own.",
     "As with the other Ayurvedic therapies discussed on our site, it’s important to draw a clear line between traditional Ayurvedic rationale and modern scientific evidence. Ayurvedic texts describe Patra Pinda Sweda within a framework involving concepts such as dosha balance, which is a traditional system of thought rather than an established biomedical mechanism. We’ll refer to these traditional concepts where relevant throughout this page, but we won’t present them as proven medical facts."
@@ -121,7 +121,7 @@ export const patraPindaSwedaConcerns = {
     },
     {
       title: "Patra Pinda Sweda for Muscle Tension",
-      description: "Many patients look into warm herbal fomentation therapy for more general reasons — muscle tightness, overall stiffness, physical fatigue, or a broader sense of musculoskeletal discomfort that doesn’t necessarily point to one specific diagnosis. This is a reasonable reason to explore Patra Pinda Sweda following assessment. We’d avoid language like “deep tissue detoxification” here, since that overstates what the treatment can be reliably shown to do. What can be said honestly is that Patra Pinda Sweda has a long traditional association with supporting comfort and relaxation in areas of muscular tension."
+      description: "Many patients look into warm herbal fomentation therapy for more general reasons — muscle tightness, overall stiffness, physical fatigue, or a broader sense of musculoskeletal discomfort that doesn’t necessarily point to one specific diagnosis. This is a reasonable reason to explore Patra Pinda Sweda following assessment. We’d avoid language like “deep tissue detoxification” here, since that overstates what the treatment can be reliably shown to do. What can be said honestly is that Patra Pinda Sweda has a long traditional association with supporting comfort and relaxation in areas of muscular tension."
     }
   ]
 };
@@ -150,7 +150,7 @@ export const patraPindaSwedaComparisons = {
         "It’s a fair question whether Patra Pinda Sweda is simply a variation on massage, so it’s worth explaining the distinction clearly.",
         "Ordinary massage primarily involves manual pressure and manipulation of the soft tissue, using the hands (or sometimes tools) directly on the skin.",
         "Patra Pinda Sweda combines traditional Ayurvedic massage and fomentation concepts with warm herbal boluses — the herb-filled bundles themselves, and the controlled heat they carry, are central to the therapy, not simply an add-on to manual technique. Some protocols may begin with an Abhyanga-style oil massage before the bolus application starts.",
-        "It wouldn’t be accurate to describe Patra Pinda Sweda simply as a form of “hot stone massage” — while both involve heat, the mechanism, ingredients, and traditional purpose are quite different."
+        "It wouldn’t be accurate to describe Patra Pinda Sweda simply as a form of “hot stone massage” — while both involve heat, the mechanism, ingredients, and traditional purpose are quite different."
       ]
     },
     {
@@ -239,7 +239,7 @@ export const patraPindaSwedaProtocol = {
 export const patraPindaSwedaExperience = {
   sensation: {
     title: "What Does Patra Pinda Sweda Feel Like?",
-    description: "Most patients describe a combination of sensations during Patra Pinda Sweda, including:\n\n• A gradual sense of warmth over the treated area\n• Gentle pressure as the bolus is applied\n• Mild sweating in the treated area\n• A noticeable herbal aroma\n• An overall sense of relaxation\n• Temporary warmth of the skin that continues briefly after treatment\n\nThe heat involved should remain within a tolerable range throughout the session — this isn’t meant to be an uncomfortably hot experience. If you notice burning, significant pain, dizziness, or excessive discomfort at any point, you should tell the practitioner immediately so they can adjust or stop the treatment."
+    description: "Most patients describe a combination of sensations during Patra Pinda Sweda, including:\n\n”¢ A gradual sense of warmth over the treated area\n”¢ Gentle pressure as the bolus is applied\n”¢ Mild sweating in the treated area\n”¢ A noticeable herbal aroma\n”¢ An overall sense of relaxation\n”¢ Temporary warmth of the skin that continues briefly after treatment\n\nThe heat involved should remain within a tolerable range throughout the session — this isn’t meant to be an uncomfortably hot experience. If you notice burning, significant pain, dizziness, or excessive discomfort at any point, you should tell the practitioner immediately so they can adjust or stop the treatment."
   },
   pain: {
     title: "Does Patra Pinda Sweda Hurt?",
@@ -259,7 +259,7 @@ export const patraPindaSwedaExperience = {
       "How you respond to initial treatment",
       "Whether other Ayurvedic therapies are included alongside Patra Pinda Sweda"
     ],
-    footer: "We won’t promise “results after 3 sessions” or any similar fixed timeline, because honest treatment planning doesn’t work that way — your practitioner will discuss a proposed plan with you, understanding that it may be adjusted as treatment progresses."
+    footer: "We won’t promise “results after 3 sessions” or any similar fixed timeline, because honest treatment planning doesn’t work that way — your practitioner will discuss a proposed plan with you, understanding that it may be adjusted as treatment progresses."
   },
   recovery: {
     title: "Patra Pinda Sweda Recovery",
@@ -398,7 +398,7 @@ export const patraPindaSwedaWhyJvcList = {
     "Clear patient education about what the therapy can and cannot be expected to do",
     "A personalized treatment plan rather than a fixed, generic protocol"
   ],
-  footer: "We haven’t used unsupported superlatives such as “best Patra Pinda Sweda clinic in Dubai” anywhere on this page, since that’s not a claim we can back up with legitimate evidence — we’d rather you judge this based on the substance of the information here."
+  footer: "We haven’t used unsupported superlatives such as “best Patra Pinda Sweda clinic in Dubai” anywhere on this page, since that’s not a claim we can back up with legitimate evidence — we’d rather you judge this based on the substance of the information here."
 };
 
 export const patraPindaSwedaWhyVedara = {

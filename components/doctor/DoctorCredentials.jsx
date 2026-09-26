@@ -20,7 +20,7 @@ const DoctorCredentials = ({ doctor }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Education */}
           <div className="rounded-[8px] p-8" style={{ backgroundColor: 'rgb(255, 255, 255)', border: '1px solid rgb(229, 223, 211)' }}>
-            <div className="w-12 h-12 rounded-[8px] flex items-center justify-center mb-6" style={{ backgroundColor: 'rgb(250, 246, 239)' }} role="img" aria-label={`Education credentials icon — ${doctor.name} Ayurvedic doctor`}>
+            <div className="w-12 h-12 rounded-[8px] flex items-center justify-center mb-6" style={{ backgroundColor: 'rgb(250, 246, 239)' }} role="img" aria-label={`Education credentials icon  -  ${doctor.name} Ayurvedic doctor`}>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgb(201, 169, 97)" strokeWidth="2">
                 <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
                 <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/>
@@ -39,7 +39,7 @@ const DoctorCredentials = ({ doctor }) => {
 
           {/* Licenses */}
           <div className="rounded-[8px] p-8" style={{ backgroundColor: 'rgb(255, 255, 255)', border: '1px solid rgb(229, 223, 211)' }}>
-            <div className="w-12 h-12 rounded-[8px] flex items-center justify-center mb-6" style={{ backgroundColor: 'rgb(250, 246, 239)' }} role="img" aria-label="DHA license credentials icon — Vedara Care JVC">
+            <div className="w-12 h-12 rounded-[8px] flex items-center justify-center mb-6" style={{ backgroundColor: 'rgb(250, 246, 239)' }} role="img" aria-label="DHA license credentials icon  -  Vedara Care JVC">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgb(201, 169, 97)" strokeWidth="2">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
               </svg>

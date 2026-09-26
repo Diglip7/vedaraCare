@@ -23,7 +23,7 @@ export const scarQuickAnswer = {
   label: "QUICK ANSWER",
   title: "Laser Scar Removal at Vedara Care in JVC — in one paragraph",
   description: "Laser scar removal at Vedara Care in JVC uses controlled laser energy to encourage the skin to remodel itself — softening texture irregularities, reducing redness or pigment changes, and in many cases improving how a scar looks and feels over time. Certain acne scars, some surgical scars, and selected traumatic scars may benefit, while raised or keloid-type scarring often requires a different first-line approach. Suitability is determined during an in-person assessment that looks at scar depth, scar age, skin type, and pigmentation risk, because these factors change which laser settings — or which treatment altogether — make sense. Most patients can expect some redness and sensitivity in the days following treatment, and because scars respond gradually rather than instantly, more than one session is often recommended to reach a meaningful improvement. Results vary from person to person, and the honest goal of laser scar treatment is visible improvement, not complete erasure.",
-  footer: "Medically reviewed by: [VERIFIED DERMATOLOGIST NAME] DHA-Licensed 2509266 • Last updated August 2026"
+  footer: "Medically reviewed by: [VERIFIED DERMATOLOGIST NAME] DHA-Licensed 2509266 ”¢ Last updated August 2026"
 };
 
 export const scarUnderstanding = {

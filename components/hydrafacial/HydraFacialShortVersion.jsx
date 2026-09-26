@@ -9,20 +9,20 @@ const HydraFacialShortVersion = () => {
             AT A GLANCE
           </p>
           <h2 className="text-3xl md:text-4xl font-serif text-[#2C3E3A] mb-6">
-            HydraFacial at Vedara Care JVC — the short version.
+            HydraFacial at Vedara Care JVC  -  the short version.
           </h2>
           <div className="text-gray-700 space-y-4 mb-8 text-lg">
             <p>
               HydraFacial is a multi-step medical-grade facial protocol using patented vortex-fusion technology
               to cleanse, exfoliate, painlessly extract pore impurities, hydrate, and infuse antioxidant and peptide
-              serums — all in a single 30–60 minute session with no downtime. At Vedara Care Polyclinic in
-              Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — HydraFacial is
+              serums  -  all in a single 30 - 60 minute session with no downtime. At Vedara Care Polyclinic in
+              Jumeirah Village Circle (JVC), Dubai  -  walking distance from Circle Mall  -  HydraFacial is
               delivered by Arfah Owais, DHA-licensed aesthetician with CIBTAC-UK diploma and 8+ years of
               clinical experience. The core 3-step protocol suits most skin types. Optional booster serums
-              address targeted concerns — Britenol for pigmentation, Dermabuilder for early aging, CTGF
+              address targeted concerns  -  Britenol for pigmentation, Dermabuilder for early aging, CTGF
               (Growth Factor) for plumping. Optional LED light therapy add-on (blue for acne-prone skin, red for
               aging). Single session provides genuine hydration and refresh benefit visible immediately post-treatment,
-              peaking around 5–7 days. Monthly programme gives cumulative benefit. Realistic
+              peaking around 5 - 7 days. Monthly programme gives cumulative benefit. Realistic
               outcome framing throughout: meaningful skin refresh and hydration benefit, not miracle
               transformation.
             </p>
@@ -30,7 +30,7 @@ const HydraFacialShortVersion = () => {
           
           <div className="flex flex-wrap gap-3">
             {[
-              "30–60 min session",
+              "30 - 60 min session",
               "No downtime",
               "Single session or monthly programme",
               "Suitable for most skin types",

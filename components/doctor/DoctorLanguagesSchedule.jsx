@@ -34,7 +34,7 @@ const DoctorLanguagesSchedule = ({ doctor }) => {
             </div>
 
             <p className="text-[15px] leading-[1.78]" style={{ color: 'rgb(107, 107, 107)' }}>
-              Most JVC patients consult in English. South Asian expats often switch to Hindi or Malayalam for comfort. Translation support is available for other languages — please mention when booking.
+              Most JVC patients consult in English. South Asian expats often switch to Hindi or Malayalam for comfort. Translation support is available for other languages  -  please mention when booking.
             </p>
           </div>
 

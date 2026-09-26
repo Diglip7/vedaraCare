@@ -4,7 +4,7 @@ import Link from 'next/link';
 const HomePhysioClinicTransition = ({
   bgColor = "bg-white",
   label = "TRANSITIONS",
-  title = "From home to clinic — when ready, when valuable.",
+  title = "From home to clinic  -  when ready, when valuable.",
   description = "",
   whyTransition = [],
   commonTimelines = [],

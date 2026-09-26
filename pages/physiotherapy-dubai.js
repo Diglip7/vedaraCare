@@ -32,7 +32,7 @@ import {
 
 const PhysiotherapyDubai = () => {
   const currentDate = new Date().toISOString();
-  
+
   const schemaMarkup = [
     {
       "@context": "https://schema.org",
@@ -41,7 +41,7 @@ const PhysiotherapyDubai = () => {
       "name": "Vedara Care Physiotherapy",
       "alternateName": ["Vedara Care Physio Dubai", "Vedara Physiotherapy"],
       "url": "https://vedaracare.ae/physiotherapy-dubai/",
-      "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
+      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "DHA-licensed physiotherapy at Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai. DPT-qualified physiotherapists serving patients from across Dubai including JVC, Marina, Downtown, Palm Jumeirah, Mirdif. Seven specialisations available for conditions like back pain, knee OA, post-surgical rehab, and more. Open Monday to Sunday 9:00AM to 10:00PM.",
       "telephone": "+971 55 573 6312",
       "email": "booking@vedaracare.ae",
@@ -62,28 +62,28 @@ const PhysiotherapyDubai = () => {
         }
       ],
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Circle Mall"},
-        {"@type": "Place", "name": "FIVE Jumeirah Village"},
-        {"@type": "Place", "name": "JSS Private School"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Business Bay"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Mirdif"},
-        {"@type": "Place", "name": "Al Furjan"},
-        {"@type": "Place", "name": "Discovery Gardens"},
-        {"@type": "Place", "name": "Damac Hills"},
-        {"@type": "Place", "name": "Mudon"},
-        {"@type": "Place", "name": "Town Square"},
-        {"@type": "Place", "name": "United Arab Emirates"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "Jumeirah Village Circle" },
+        { "@type": "Place", "name": "Circle Mall" },
+        { "@type": "Place", "name": "FIVE Jumeirah Village" },
+        { "@type": "Place", "name": "JSS Private School" },
+        { "@type": "Place", "name": "Jumeirah Village Triangle" },
+        { "@type": "Place", "name": "Al Barsha South" },
+        { "@type": "Place", "name": "Dubai Sports City" },
+        { "@type": "Place", "name": "Motor City" },
+        { "@type": "Place", "name": "Arjan" },
+        { "@type": "Place", "name": "Dubai Hills Estate" },
+        { "@type": "Place", "name": "Dubai Marina" },
+        { "@type": "Place", "name": "Downtown Dubai" },
+        { "@type": "Place", "name": "Business Bay" },
+        { "@type": "Place", "name": "Palm Jumeirah" },
+        { "@type": "Place", "name": "Mirdif" },
+        { "@type": "Place", "name": "Al Furjan" },
+        { "@type": "Place", "name": "Discovery Gardens" },
+        { "@type": "Place", "name": "Damac Hills" },
+        { "@type": "Place", "name": "Mudon" },
+        { "@type": "Place", "name": "Town Square" },
+        { "@type": "Place", "name": "United Arab Emirates" }
       ],
       "medicalSpecialty": [
         "Physiotherapy",
@@ -99,54 +99,52 @@ const PhysiotherapyDubai = () => {
       ],
       "isAcceptingNewPatients": true,
       "availableService": [
-        {"@type": "MedicalProcedure", "name": "Musculoskeletal Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "Sports Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "Post-Surgical Rehabilitation"},
-        {"@type": "MedicalProcedure", "name": "Neurological Rehabilitation"},
-        {"@type": "MedicalProcedure", "name": "Women's Health Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "Paediatric Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "Cardiopulmonary Rehabilitation"},
-        {"@type": "MedicalProcedure", "name": "Manual Therapy"},
-        {"@type": "MedicalProcedure", "name": "Dry Needling"},
-        {"@type": "MedicalProcedure", "name": "Shockwave Therapy"},
-        {"@type": "MedicalProcedure", "name": "Ultrasound Therapy"},
-        {"@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "Interferential Therapy (IFC)"},
-        {"@type": "MedicalProcedure", "name": "Transcutaneous Electrical Nerve Stimulation (TENS)"},
-        {"@type": "MedicalProcedure", "name": "Class IV Laser Therapy"},
-        {"@type": "MedicalProcedure", "name": "Post-COVID Conditioning"},
-        {"@type": "MedicalProcedure", "name": "ACL Reconstruction Rehabilitation"},
-        {"@type": "MedicalProcedure", "name": "Joint Replacement Rehabilitation"},
-        {"@type": "MedicalProcedure", "name": "Spinal Surgery Rehabilitation"},
-        {"@type": "MedicalProcedure", "name": "Home Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "Padel Injury Rehabilitation"}
+        { "@type": "MedicalProcedure", "name": "Musculoskeletal Physiotherapy" },
+        { "@type": "MedicalProcedure", "name": "Sports Physiotherapy" },
+        { "@type": "MedicalProcedure", "name": "Post-Surgical Rehabilitation" },
+        { "@type": "MedicalProcedure", "name": "Neurological Rehabilitation" },
+        { "@type": "MedicalProcedure", "name": "Women's Health Physiotherapy" },
+        { "@type": "MedicalProcedure", "name": "Paediatric Physiotherapy" },
+        { "@type": "MedicalProcedure", "name": "Cardiopulmonary Rehabilitation" },
+        { "@type": "MedicalProcedure", "name": "Manual Therapy" },
+        { "@type": "MedicalProcedure", "name": "Ultrasound Therapy" },
+        { "@type": "MedicalProcedure", "name": "Pelvic Floor Physiotherapy" },
+        { "@type": "MedicalProcedure", "name": "Interferential Therapy (IFC)" },
+        { "@type": "MedicalProcedure", "name": "Transcutaneous Electrical Nerve Stimulation (TENS)" },
+        { "@type": "MedicalProcedure", "name": "Post-COVID Conditioning" },
+        { "@type": "MedicalProcedure", "name": "ACL Reconstruction Rehabilitation" },
+        { "@type": "MedicalProcedure", "name": "Joint Replacement Rehabilitation" },
+        { "@type": "MedicalProcedure", "name": "Spinal Surgery Rehabilitation" },
+        { "@type": "MedicalProcedure", "name": "Home Physiotherapy" },
+        { "@type": "MedicalProcedure", "name": "Padel Injury Rehabilitation" }
       ],
       "medicalCondition": [
-        {"@type": "MedicalCondition", "name": "Back pain"},
-        {"@type": "MedicalCondition", "name": "Neck pain"},
-        {"@type": "MedicalCondition", "name": "Frozen shoulder"},
-        {"@type": "MedicalCondition", "name": "Knee OA"},
-        {"@type": "MedicalCondition", "name": "Sciatica"},
-        {"@type": "MedicalCondition", "name": "Padel elbow"},
-        {"@type": "MedicalCondition", "name": "Post-COVID syndrome"}
+        { "@type": "MedicalCondition", "name": "Back pain" },
+        { "@type": "MedicalCondition", "name": "Neck pain" },
+        { "@type": "MedicalCondition", "name": "Frozen shoulder" },
+        { "@type": "MedicalCondition", "name": "Knee OA" },
+        { "@type": "MedicalCondition", "name": "Sciatica" },
+        { "@type": "MedicalCondition", "name": "Padel elbow" },
+        { "@type": "MedicalCondition", "name": "Post-COVID syndrome" }
       ],
       "insuranceProvider": [
-        {"@type": "Organization", "name": "Daman"},
-        {"@type": "Organization", "name": "AXA"},
-        {"@type": "Organization", "name": "Allianz"},
-        {"@type": "Organization", "name": "Oman Insurance"},
-        {"@type": "Organization", "name": "Now Health"},
-        {"@type": "Organization", "name": "Bupa"},
-        {"@type": "Organization", "name": "MetLife"}
+        { "@type": "Organization", "name": "Daman" },
+        { "@type": "Organization", "name": "AXA" },
+        { "@type": "Organization", "name": "Allianz" },
+        { "@type": "Organization", "name": "Oman Insurance" },
+        { "@type": "Organization", "name": "Now Health" },
+        { "@type": "Organization", "name": "Bupa" },
+        { "@type": "Organization", "name": "MetLife" }
       ],
+      "paymentAccepted": "Reimbursement basis — direct billing not offered",
       "memberOf": {
         "@type": "Organization",
         "name": "Dubai Health Authority"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "180",
+        "ratingValue": "4.5",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -160,44 +158,20 @@ const PhysiotherapyDubai = () => {
       "@context": "https://schema.org",
       "@type": "Service",
       "name": "Physiotherapy Services in Dubai",
-      "provider": {"@id": "https://vedaracare.ae/physiotherapy-dubai/#physiotherapy"},
+      "provider": { "@id": "https://vedaracare.ae/physiotherapy-dubai/#physiotherapy" },
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "United Arab Emirates" }
       ],
       "serviceType": "Physiotherapy and Physical Therapy",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Physiotherapy Services",
         "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Initial Physiotherapy Assessment",
-            "priceCurrency": "AED",
-            "price": "[X]",
-            "description": "60-minute comprehensive assessment with DPT-qualified physiotherapist at JVC Dubai clinic"
-          },
-          {
-            "@type": "Offer",
-            "name": "Single Physiotherapy Session",
-            "priceCurrency": "AED",
-            "price": "[X]",
-            "description": "45-60 minute treatment session"
-          },
-          {
-            "@type": "Offer",
-            "name": "12-Session Treatment Package",
-            "priceCurrency": "AED",
-            "price": "[X]",
-            "description": "Discounted package for chronic conditions and post-surgical rehab"
-          },
-          {
-            "@type": "Offer",
-            "name": "Home Physiotherapy Session",
-            "priceCurrency": "AED",
-            "price": "[X]",
-            "description": "Physiotherapy delivered at patient home across Dubai"
-          }
+          { "@type": "Offer", "name": "Initial Physiotherapy Assessment", "priceCurrency": "AED", "price": "500", "description": "60-minute comprehensive assessment with a DHA-licensed physiotherapist at our JVC clinic" },
+          { "@type": "Offer", "name": "Single Follow-Up Session (60 min)", "priceCurrency": "AED", "price": "500", "description": "60-minute treatment session" },
+          { "@type": "Offer", "name": "12-Session Treatment Package", "priceCurrency": "AED", "price": "4200", "description": "12 sessions with unlimited GP consultation, 30% package savings" },
+          { "@type": "Offer", "name": "Home Physiotherapy Session", "availability": "https://schema.org/PreOrder", "description": "Home-delivered physiotherapy across Dubai — launching soon" }
         ]
       }
     },
@@ -207,17 +181,13 @@ const PhysiotherapyDubai = () => {
       "@id": "https://vedaracare.ae/physiotherapy-dubai/#webpage",
       "name": "Physiotherapy in Dubai",
       "url": "https://vedaracare.ae/physiotherapy-dubai/",
-      "about": {"@id": "https://vedaracare.ae/physiotherapy-dubai/#physiotherapy"},
+      "about": { "@id": "https://vedaracare.ae/physiotherapy-dubai/#physiotherapy" },
       "audience": {
         "@type": "PatientAudience",
-        "geographicArea": {"@type": "City", "name": "Dubai, United Arab Emirates"}
+        "geographicArea": { "@type": "City", "name": "Dubai, United Arab Emirates" }
       },
       "lastReviewed": currentDate,
-      "reviewedBy": {
-        "@type": "Physician",
-        "name": "[Lead Physiotherapist Name]",
-        "hasCredential": "DPT, DHA-Licensed"
-      },
+      "reviewedBy": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
       "primaryImageOfPage": "https://vedaracare.ae/images/physiotherapy-dubai-hero.webp"
     },
     {
@@ -227,14 +197,11 @@ const PhysiotherapyDubai = () => {
       "image": "https://vedaracare.ae/images/physiotherapy-dubai-hero.webp",
       "datePublished": "2026-06-01",
       "dateModified": currentDate,
-      "author": {
-        "@type": "Physician",
-        "name": "[Lead Physiotherapist]"
-      },
+      "author": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
       "publisher": {
         "@type": "Organization",
         "name": "Vedara Care Polyclinic",
-        "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}
+        "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" }
       },
       "mainEntityOfPage": "https://vedaracare.ae/physiotherapy-dubai/"
     },
@@ -250,8 +217,8 @@ const PhysiotherapyDubai = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Physiotherapy in Dubai", "item": "https://vedaracare.ae/physiotherapy-dubai/"}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Physiotherapy in Dubai", "item": "https://vedaracare.ae/physiotherapy-dubai/" }
       ]
     },
     {
@@ -273,25 +240,25 @@ const PhysiotherapyDubai = () => {
       "alternateName": ["DPT"]
     }
   ];
-  
+
   return (
     <>
       <Head>
         <title>Physiotherapy in Dubai | DPT-Qualified | DHA-Licensed | Vedara Care JVC</title>
-        <meta name="description" content="Physiotherapy in Dubai at our DHA-licensed JVC clinic. DPT-qualified physiotherapists, 7 specialisations, transparent pricing, insurance direct-billing. Patients from across Dubai — JVC, Marina, Palm Jumeirah, Mirdif, Downtown. Same-day appointments available." />
+        <meta name="description" content="Physiotherapy in Dubai at our DHA-licensed JVC clinic. DPT-qualified physiotherapists, 7 specialisations, transparent pricing, insurance reimbursement support. Patients from across Dubai — JVC, Marina, Palm Jumeirah, Mirdif, Downtown. Same-day appointments available." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        
+
         {/* Open Graph */}
         <meta property="og:title" content="Physiotherapy in Dubai — DPT-Qualified at our JVC Clinic | Vedara Care" />
-        <meta property="og:description" content="Comprehensive DHA-licensed physiotherapy at our Jumeirah Village Circle clinic — serving patients from across Dubai. Seven specialisations, DPT-qualified team, transparent pricing, insurance direct-billing with seven major insurers." />
+        <meta property="og:description" content="Comprehensive DHA-licensed physiotherapy at our Jumeirah Village Circle clinic — serving patients from across Dubai. Seven specialisations, DPT-qualified team, transparent pricing, insurance reimbursement support." />
         <meta property="og:image" content="https://vedaracare.ae/images/physiotherapy-dubai-hero.webp" />
         <meta property="og:url" content="https://vedaracare.ae/physiotherapy-dubai/" />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="en_AE" />
-        
+
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        
+
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/physiotherapy-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/physiotherapy-dubai/" />
@@ -312,43 +279,43 @@ const PhysiotherapyDubai = () => {
       <div className="physiotherapy-content">
         {/* Section 1 - Hero */}
         <AyurvedaHero {...physiotherapyHero} />
-        
+
         {/* Section 2 - Intro */}
         <AyurvedaIntro {...physiotherapyIntro} />
-        
+
         {/* Section 3 - Context & Mechanism */}
         <PhysiotherapyMechanism {...physiotherapyMechanism} />
-        
+
         {/* Section 4 - Five Pillars/Benefits (ArthritisPillars reuse) */}
-        <ArthritisPillars 
-          {...physiotherapyBenefits} 
+        <ArthritisPillars
+          {...physiotherapyBenefits}
           pillars={physiotherapyBenefits.pillars}
           bgColor="bg-white"
           cardBg="bg-[#F5F1E8]"
-          footer={physiotherapyBenefits.footer}
+          description={physiotherapyBenefits.footer}
         />
-        
+
         {/* Section 5 - Specialisations */}
         <PhysiotherapySpecializations {...physiotherapySpecializations} />
-        
-       
-      
-          {/* Section 6 - Conditions */}
+
+
+
+        {/* Section 6 - Conditions */}
         <PhysiotherapyConditions {...physiotherapyConditions} />
-       
+
         <PhysiotherapyInsurance {...physiotherapyInsurance} />
-         <PricingSection2 />
+        <PricingSection2 pricingData={physiotherapyPricing} />
         <TreatmentReviews {...physiotherapyReviews} bgColor='bg-[#1A4D2E]' />
-         <PhysiotherapyTwoImage {...physiotherapyTwoImage} />
-               <FAQ {...physiotherapyFaqs} />
-        
-      
+        <PhysiotherapyTwoImage {...physiotherapyTwoImage} />
+        <FAQ {...physiotherapyFaqs} />
+
+
         <TreatmentLocationCustom {...physiotherapyLocationCustom} />
-        
-        
+
+
         <FinalCTA {...physiotherapyFinalCTA} />
-        
-      
+
+
         <RelatedPages {...physiotherapyRelatedPages} />
       </div>
     </>

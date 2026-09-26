@@ -321,7 +321,7 @@ export const homeLocation = {
   address: {
     label: "Address",
     street: "Al Barsha South Fourth, Binghatti Azure, Shop -4, ",
-    area: "Jumeraih Village Circle (JVC) Dubai",
+    area: "Jumeirah Village Circle (JVC) Dubai",
     city: "Dubai, UAE"
   },
   contact: {

@@ -495,7 +495,7 @@ const DermatologyClinicJVC = () => {
                   <div>
                     <p className="text-sm font-semibold text-[#1A1A1A]">Address</p>
                     <p className="text-sm text-[#6B6B6B]">Al Barsha South Fourth, Binghatti Azure, Shop -4, </p>
-                    <p className="text-sm text-[#6B6B6B]">Jumeraih Village Circle (JVC) Dubai</p>
+                    <p className="text-sm text-[#6B6B6B]">Jumeirah Village Circle (JVC) Dubai</p>
                   </div>
                 </div>
 

@@ -39,7 +39,7 @@ const psoriasistreatment = () => {
       "alternateName": ["Vedara Psoriasis JVC", "Vedara Psoriasis Specialist Dubai", "Vedara Biologic Psoriasis Treatment"],
       "url": currentUrl,
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
-      "description": "Specialist psoriasis treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists treating all psoriasis presentations with access to modern biologic treatments including TNF-α, IL-17, and IL-23 inhibitors.",
+      "description": "Specialist psoriasis treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists treating all psoriasis presentations with access to modern biologic treatments including TNF-Î±, IL-17, and IL-23 inhibitors.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 60000",
       "address": {"@type": "PostalAddress", "streetAddress": "[Building Name], [Unit Number], [Street], Jumeirah Village Circle (JVC)", "addressLocality": "Jumeirah Village Circle", "addressRegion": "Dubai", "addressCountry": "AE", "postalCode": ""},
@@ -209,7 +209,7 @@ const psoriasistreatment = () => {
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
         <meta property="og:title" content="Psoriasis Treatment in JVC Dubai — Modern Biologic Specialist Care | Vedara" />
-        <meta property="og:description" content="Specialist psoriasis treatment at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists treating chronic plaque psoriasis, scalp psoriasis, nail psoriasis, palmoplantar psoriasis, and severe psoriasis. Access to full range of modern biologic treatments including TNF-α, IL-17, and IL-23 inhibitors. Comprehensive systemic assessment." />
+        <meta property="og:description" content="Specialist psoriasis treatment at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists treating chronic plaque psoriasis, scalp psoriasis, nail psoriasis, palmoplantar psoriasis, and severe psoriasis. Access to full range of modern biologic treatments including TNF-Î±, IL-17, and IL-23 inhibitors. Comprehensive systemic assessment." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/psoriasis-treatment-jvc-dubai.jpg" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />

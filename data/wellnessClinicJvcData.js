@@ -6,11 +6,11 @@ export const wellnessHero = {
     { label: "Services", href: "/services" },
     { label: "Wellness Clinic in JVC (Near Circle Mall)", active: true }
   ],
-  label: "WELLNESS CLINIC • DHA-LICENSED 2509266 • JUMEIRAH VILLAGE CIRCLE • WALKING DISTANCE FROM CIRCLE MALL",
+  label: "WELLNESS CLINIC ”¢ DHA-LICENSED 2509266 ”¢ JUMEIRAH VILLAGE CIRCLE ”¢ WALKING DISTANCE FROM CIRCLE MALL",
   title: "Wellness clinic in JVC. Jumeirah Village Circle's integrated wellness destination across Ayurveda, physiotherapy, dermatology, and home healthcare.",
   description: "Vedara Care Polyclinic is JVC's integrated wellness destination — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. DHA-licensed practitioners across Ayurveda, physiotherapy, dermatology, and home healthcare delivering comprehensive wellness care for JVC's residents, families, and professionals.",
   primaryCTA: "Book Wellness Consultation",
-  secondaryCTA: "Explore JVC Wellness Services ↓",
+  secondaryCTA: "Explore JVC Wellness Services â†“",
   primaryCTAHref: "/book",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%20JVC,%20I%20would%20like%20to%20inquire%20about%20your%20wellness%20services%20and%20book%20a%20consultation.",
   trustSignals: [
@@ -273,7 +273,7 @@ export const wellnessOutcomes = {
     }
   ],
   stats: [
-    { value: "4.9★", label: "on Google" },
+    { value: "4.9â˜…", label: "on Google" },
     { value: "5,000+", label: "wellness patients treated" },
     { value: "JVC", label: "family & corporate expertise" },
     { value: "Multi-disciplinary", label: "integrated team" },
@@ -481,7 +481,7 @@ export const wellnessLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT OUR JVC WELLNESS CLINIC",
   title: "Where wellness care happens at Vedara Care JVC.",
-  address: "Vedara Care Polyclinic , Al Barsha South Fourth, Binghatti Azure, Shop-4, Jumeraih Village Circle (JVC) Dubai, United Arab Emirates",
+  address: "Vedara Care Polyclinic , Al Barsha South Fourth, Binghatti Azure, Shop-4, Jumeirah Village Circle (JVC) Dubai, United Arab Emirates",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   whatsapp: "+971 55 573 6312",

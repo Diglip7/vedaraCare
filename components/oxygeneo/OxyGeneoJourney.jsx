@@ -10,22 +10,22 @@ const OxyGeneoJourney = () => {
     {
       number: "2",
       title: "First Visit: Analysis + OxyGeneo",
-      description: "First visit is 60 minutes total. 30-minute comprehensive skin analysis with Arfah — extra focus on sensitivity assessment. Then 30-minute Core Oxy-Geneo. You leave with skin refreshed and oxygenated, written session summary, and personalised programme recommendation."
+      description: "First visit is 60 minutes total. 30-minute comprehensive skin analysis with Arfah  -  extra focus on sensitivity assessment. Then 30-minute Core Oxy-Geneo. You leave with skin refreshed and oxygenated, written session summary, and personalised programme recommendation."
     },
     {
       number: "3",
       title: "Post-Treatment Immediate Care",
-      description: "Skin will look brighter and feel refreshed immediately — the oxygenation glow is the most distinctive Oxy-Geneo result. Some patients experience mild pink flush for 30–60 minutes. Makeup can be applied 2–3 hours post-treatment. Peak visible results around days 5–7."
+      description: "Skin will look brighter and feel refreshed immediately  -  the oxygenation glow is the most distinctive Oxy-Geneo result. Some patients experience mild pink flush for 30 - 60 minutes. Makeup can be applied 2 - 3 hours post-treatment. Peak visible results around days 5 - 7."
     },
     {
       number: "4",
       title: "Follow-Up (Programme Patients)",
-      description: "Next session at 4-week interval. Between-session skincare guidance supports sustained benefit. WhatsApp available for questions. OxyPod rotation strategy discussed each session — e.g. NeoBright months 1–3 for pigmentation, NeoRevive months 4–6 for anti-aging maintenance."
+      description: "Next session at 4-week interval. Between-session skincare guidance supports sustained benefit. WhatsApp available for questions. OxyPod rotation strategy discussed each session  -  e.g. NeoBright months 1 - 3 for pigmentation, NeoRevive months 4 - 6 for anti-aging maintenance."
     },
     {
       number: "5",
-      title: "Sustained Programme (3–6 Months)",
-      description: "Monthly programme over 3–6 months produces cumulative visible benefit — improved texture, sustained brightness, consistent tone. Programme review at 3 and 6 months — continue monthly, transition to quarterly maintenance, or add RF Microneedling, Carbon Laser, HIFU, or dedicated programme work."
+      title: "Sustained Programme (3 - 6 Months)",
+      description: "Monthly programme over 3 - 6 months produces cumulative visible benefit  -  improved texture, sustained brightness, consistent tone. Programme review at 3 and 6 months  -  continue monthly, transition to quarterly maintenance, or add RF Microneedling, Carbon Laser, HIFU, or dedicated programme work."
     }
   ];
 
@@ -36,8 +36,8 @@ const OxyGeneoJourney = () => {
           <p className="text-sm font-semibold tracking-widest text-[#8A795D] uppercase mb-4">
             Your Journey
           </p>
-          <h2 className="font-fraunces font-normal mb-4" style={{ fontSize: 'clamp(28px, 3.5vw, 44px)', color: 'rgb(31, 31, 31)' }}>What a OxyGeneo visit actually looks like — from booking to follow-up.</h2>
-          {/* <p style={{ fontSize: '18px', color: 'rgb(85, 85, 85)', maxWidth: '700px', margin: '0px auto' }}>Every session, every patient — the components that make up the protocol.</p> */}
+          <h2 className="font-fraunces font-normal mb-4" style={{ fontSize: 'clamp(28px, 3.5vw, 44px)', color: 'rgb(31, 31, 31)' }}>What a OxyGeneo visit actually looks like  -  from booking to follow-up.</h2>
+          {/* <p style={{ fontSize: '18px', color: 'rgb(85, 85, 85)', maxWidth: '700px', margin: '0px auto' }}>Every session, every patient  -  the components that make up the protocol.</p> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6">

@@ -914,7 +914,7 @@ const MicrodermabrasionJVC = () => {
         button1TextHref="/book"
         button2Text="Whatsapp Us"
         button2TextHref="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Exfoliation%20Treatments%20at%20your%20JVC%20clinic%20in%20Dubai."
-        footer="DHA-Licensed Clinic • CIBTAC-UK Certified Aesthetician • Diamond-Tip & Crystal Options • Sterile-Blade Dermaplaning • Female Practitioner • Multi-Language (AR/EN/HI/UR)"
+        footer="DHA-Licensed Clinic ”¢ CIBTAC-UK Certified Aesthetician ”¢ Diamond-Tip & Crystal Options ”¢ Sterile-Blade Dermaplaning ”¢ Female Practitioner ”¢ Multi-Language (AR/EN/HI/UR)"
       />
 
       <AestheticianRelatedPages {...microdermabrasionRelatedTreatmentsGrid} />

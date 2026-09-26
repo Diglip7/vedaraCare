@@ -191,7 +191,7 @@ export const MesotherapyUnderstanding = ({ data }) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 mb-6">
             {data.notRight.items.map((item, i) => (
               <div key={i} className="flex gap-3 items-start">
-                <span className="text-[#C8A87F] text-[14px] font-sans mt-0.5">✕</span>
+                <span className="text-[#C8A87F] text-[14px] font-sans mt-0.5">âœ•</span>
                 <p className="font-sans text-[14px] text-[#555] m-0 leading-[1.5]">{item}</p>
               </div>
             ))}
@@ -429,7 +429,7 @@ export const MesotherapyPractitioner = ({ data }) => {
           <div className="bg-[#F0EBE3] p-8 rounded-lg border border-[#E8E1D8]">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-[50px] h-[50px] rounded-full bg-[#1F1F1F] flex items-center justify-center shrink-0">
-                <span className="text-white text-[20px]">🩺</span>
+                <span className="text-white text-[20px]">ðŸ©º</span>
               </div>
               <div>
                 <p className="text-[11px] font-sans font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-1">{data.primary.role}</p>
@@ -453,7 +453,7 @@ export const MesotherapyPractitioner = ({ data }) => {
           <div className="bg-[#F0EBE3] p-8 rounded-lg border border-[#E8E1D8]">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-[50px] h-[50px] rounded-full bg-[#C8A87F] flex items-center justify-center shrink-0">
-                <span className="text-white text-[20px]">👤</span>
+                <span className="text-white text-[20px]">ðŸ‘¤</span>
               </div>
               <div>
                 <p className="text-[11px] font-sans font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-1">{data.support.role}</p>
@@ -575,42 +575,42 @@ export const MesotherapyRelated = () => {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           <Link href="/treatments/prp-facial-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">🩸</span>
+            <span className="text-2xl flex-shrink-0 mt-1">ðŸ©¸</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">PRP Facial JVC</p>
-              <p className="font-sans text-[13px] leading-relaxed text-[#555]">Autologous blood-derived regenerative pathway — honest comparison available at consultation.</p>
+              <p className="font-sans text-[13px] leading-relaxed text-[#555]">Autologous blood-derived regenerative pathway  -  honest comparison available at consultation.</p>
             </div>
           </Link>
           <Link href="/treatments/exosome-skin-rejuvenation-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">✨</span>
+            <span className="text-2xl flex-shrink-0 mt-1">âœ¨</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Exosome Skin Rejuvenation JVC</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Exogenous exosome topical application, typically aesthetician-scope with microneedling adjunct.</p>
             </div>
           </Link>
           <Link href="/treatments/dermal-fillers-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">💉</span>
+            <span className="text-2xl flex-shrink-0 mt-1">ðŸ’‰</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Dermal Fillers JVC</p>
-              <p className="font-sans text-[13px] leading-relaxed text-[#555]">Hyaluronic acid volumization — complementary to mesotherapy, not a substitute.</p>
+              <p className="font-sans text-[13px] leading-relaxed text-[#555]">Hyaluronic acid volumization  -  complementary to mesotherapy, not a substitute.</p>
             </div>
           </Link>
           <Link href="/treatments/microneedling-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">🪡</span>
+            <span className="text-2xl flex-shrink-0 mt-1">ðŸª¡</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Microneedling JVC</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Mechanical modality that can pair with mesotherapy for enhanced active delivery.</p>
             </div>
           </Link>
           <Link href="/treatments/anti-aging-skin-firming-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">🌿</span>
+            <span className="text-2xl flex-shrink-0 mt-1">ðŸŒ¿</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Customized Anti-Aging &amp; Skin-Firming Protocol</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Aesthetician-led programme integrating around mesotherapy sessions.</p>
             </div>
           </Link>
           <Link href="/treatments/comprehensive-skin-analysis-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">🔬</span>
+            <span className="text-2xl flex-shrink-0 mt-1">ðŸ”¬</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Comprehensive Skin Analysis JVC</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Foundation diagnostic informing treatment design across all modalities.</p>
@@ -633,7 +633,7 @@ export const MesotherapyOffPage = () => {
         <div className="grid sm:grid-cols-3 gap-6">
           <div className="p-6 rounded-lg bg-[#FAF7F2] border border-[#E8E1D8]">
             <p className="font-sans text-xs font-medium tracking-wider uppercase mb-3 text-[#C8A87F]">Blog Cross-Reference</p>
-            <p className="font-sans text-[14px] leading-relaxed text-[#555]">Mesotherapy is one of the most versatile aesthetic modalities because the formulation can be customized to the specific indication. At Vedara Care Polyclinic in JVC Dubai, our Medical Director selects and delivers custom formulations of vitamins, amino acids, hyaluronic acid, peptides, and antioxidants — with ingredient transparency at consultation.</p>
+            <p className="font-sans text-[14px] leading-relaxed text-[#555]">Mesotherapy is one of the most versatile aesthetic modalities because the formulation can be customized to the specific indication. At Vedara Care Polyclinic in JVC Dubai, our Medical Director selects and delivers custom formulations of vitamins, amino acids, hyaluronic acid, peptides, and antioxidants  -  with ingredient transparency at consultation.</p>
           </div>
           <div className="p-6 rounded-lg bg-[#FAF7F2] border border-[#E8E1D8]">
             <p className="font-sans text-xs font-medium tracking-wider uppercase mb-3 text-[#C8A87F]">GBP Post Seed</p>
@@ -641,7 +641,7 @@ export const MesotherapyOffPage = () => {
           </div>
           <div className="p-6 rounded-lg bg-[#FAF7F2] border border-[#E8E1D8]">
             <p className="font-sans text-xs font-medium tracking-wider uppercase mb-3 text-[#C8A87F]">Digital PR Pitch</p>
-            <p className="font-sans text-[14px] leading-relaxed text-[#555]">The &quot;meso glow&quot; narrative dominates Dubai&apos;s aesthetic market, but few clinics disclose which ingredients are actually in their mesotherapy formulations. Vedara Care Polyclinic in JVC has taken a formulation-transparency position — Medical Director selects and discloses ingredients at consultation.</p>
+            <p className="font-sans text-[14px] leading-relaxed text-[#555]">The &quot;meso glow&quot; narrative dominates Dubai&apos;s aesthetic market, but few clinics disclose which ingredients are actually in their mesotherapy formulations. Vedara Care Polyclinic in JVC has taken a formulation-transparency position  -  Medical Director selects and discloses ingredients at consultation.</p>
           </div>
         </div>
       </div>

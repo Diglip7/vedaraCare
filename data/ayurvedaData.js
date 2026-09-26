@@ -462,7 +462,7 @@ export const ayurvedaLocation = {
   address: {
     label: "Address",
     area: "Al Barsha South Fourth, Binghatti Azure, Shop -4,",
-    city: "Jumeraih Village Circle (JVC) Dubai"
+    city: "Jumeirah Village Circle (JVC) Dubai"
   },
   contact: {
     label: "Contact",

@@ -2,7 +2,9 @@ import React from 'react';
 import { MessageCircle } from 'lucide-react';
 
 const FinalCTA = ({
-  bgColor = "bg-[#FAF6EF]",
+  primaryCTATrackingEvent = "",
+  secondaryCTATrackingEvent = "",
+bgColor = "bg-[#FAF6EF]",
   label = "READY TO START?",
   title = "",
   description = "",
@@ -34,13 +36,24 @@ const FinalCTA = ({
         <p className="text-[17px] font-sans leading-[1.8] text-[#6B6B6B] mb-10" dangerouslySetInnerHTML={{ __html: description }} />
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-          <a href={button1Href} className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-md text-[16px] font-medium transition-all"
+          <a href={button1Href} 
+            onClick={(e) => {
+              if (primaryCTATrackingEvent && typeof window !== 'undefined' && window.dataLayer) {
+                window.dataLayer.push({ event: primaryCTATrackingEvent });
+              }
+            }}
+            className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-md text-[16px] font-medium transition-all"
             style={{ backgroundColor: button1BgColor, color: button1TextColor }}>
             {button1Text}
           </a>
 
           <a
             href={button2Href}
+            onClick={(e) => {
+              if (secondaryCTATrackingEvent && typeof window !== 'undefined' && window.dataLayer) {
+                window.dataLayer.push({ event: secondaryCTATrackingEvent });
+              }
+            }}
             className="inline-flex items-center justify-center gap-2 px-8 py-6 rounded-md text-[16px] font-medium border transition-all duration-300 text-[#25D366] hover:bg-[#25D366] hover:text-white hover:border-[#25D366] hover:shadow-lg"
             style={{ borderColor: button2BorderColor }}
           >
@@ -54,7 +67,7 @@ const FinalCTA = ({
         )}
 
         {!footer && bullets.length > 0 && (
-          <p className="text-sm text-gray-600" dangerouslySetInnerHTML={{ __html: bullets.join(' · ') }} />
+          <p className="text-sm text-gray-600" dangerouslySetInnerHTML={{ __html: bullets.join(' - ') }} />
         )}
 
         {alertBox && (
@@ -68,3 +81,4 @@ const FinalCTA = ({
 };
 
 export default FinalCTA;
+

@@ -31,7 +31,7 @@ const DoctorProfileSummary = ({ doctor }) => {
 
           <div className="mt-12 text-center">
             <p className="text-[13px] font-sans text-[#8B8B8B]">
-              Profile reviewed and verified by Dr. Nair • Last updated May 2026 • DHA License DHA-P-0048291
+              Profile reviewed and verified by Dr. Nair - Last updated May 2026 - DHA License DHA-P-0048291
             </p>
           </div>
         </div>

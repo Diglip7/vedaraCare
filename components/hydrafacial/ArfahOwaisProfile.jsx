@@ -22,15 +22,15 @@ const ArfahOwaisProfile = () => {
               Arfah Owais
             </h2>
             <p className="text-xs font-semibold tracking-widest text-[#8A795D] uppercase mb-6">
-              DHA-LICENSED AESTHETICIAN · CIBTAC-UK · 8+ YEARS EXPERIENCE
+              DHA-LICENSED AESTHETICIAN - CIBTAC-UK - 8+ YEARS EXPERIENCE
             </p>
             
             <div className="text-gray-600 space-y-4 mb-8 text-sm leading-relaxed">
               <p>
-                HydraFacial at Vedara Care JVC is delivered by Arfah Owais — DHA-licensed aesthetician with a CIBTAC-UK 
+                HydraFacial at Vedara Care JVC is delivered by Arfah Owais  -  DHA-licensed aesthetician with a CIBTAC-UK 
                 diploma (Confederation of International Beauty Therapy and Cosmetology, a UK gold-standard awarding body), 
                 NCLC certification, PMU certification, and 8+ years of hands-on clinical experience across the aesthetic 
-                treatment spectrum. HydraFacial is one of her signature treatments — she's delivered it across thousands of 
+                treatment spectrum. HydraFacial is one of her signature treatments  -  she's delivered it across thousands of 
                 sessions with the full range of protocol tiers, boosters, and add-on integrations. Her approach starts with 
                 proper skin analysis before treatment selection, honest framing of what HydraFacial can and cannot achieve, 
                 and appropriate booster selection based on skin analysis findings rather than door-sold package upsells.

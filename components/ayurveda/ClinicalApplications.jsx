@@ -4,7 +4,7 @@ import { Check, Info } from 'lucide-react';
 const ClinicalApplications = ({
   bgColor = "bg-[#FAF6EF]",
   label = "CLINICAL APPLICATIONS",
-  title = "What Ayurveda actually treats well — and what it does not.",
+  title = "What Ayurveda actually treats well  -  and what it does not.",
   description = "Honest clinical guidance. Ayurveda is powerful for chronic conditions where lifestyle, stress, and constitution drive symptoms. It is not a substitute for surgery, emergency care, or acute infection management.",
   strongOutcomes = [],
   referralCases = [],

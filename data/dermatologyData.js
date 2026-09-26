@@ -374,7 +374,7 @@ export const dermatologyLocation = {
   label: "VISIT US",
   title: "Where dermatology happens at Vedara Care JVC.",
   address1: "Vedara Care Polyclinic",
-  address2: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai ",
+  address2: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai ",
   addressNote: "",
   contactPhone: "+971 55 573 6312",
   contactEmail: "booking@vedaracare.ae",

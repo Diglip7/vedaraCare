@@ -464,7 +464,7 @@ const RFMicroneedlingJVC = () => {
   const redFlagsItems = [
     "Promises guaranteed results",
     "Claims permanent removal of acne scarring",
-    "Advertises the treatment as “zero risk”",
+    "Advertises the treatment as “zero risk”",
     "Skips a proper consultation before booking you in",
     "Can't or won't tell you who is performing the treatment",
     "Shows unclear or questionable hygiene standards",
@@ -775,7 +775,7 @@ const RFMicroneedlingJVC = () => {
             </table>
           </div>
           <p className="text-sm text-[rgb(107,107,107)] leading-relaxed mt-8">
-            Neither option is universally “better.” A practitioner&rsquo;s recommendation usually comes down to whether the primary concern is closer to texture and mild scarring alone (where standard microneedling may be sufficient) or texture plus a firmness component (where the added radiofrequency element is more often discussed).
+            Neither option is universally “better.” A practitioner&rsquo;s recommendation usually comes down to whether the primary concern is closer to texture and mild scarring alone (where standard microneedling may be sufficient) or texture plus a firmness component (where the added radiofrequency element is more often discussed).
           </p>
         </div>
       </section>
@@ -1101,7 +1101,7 @@ const RFMicroneedlingJVC = () => {
             <ul className="space-y-3">
               {redFlagsItems.map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="mt-1">●</span>
+                  <span className="mt-1">â—</span>
                   <span>{item}</span>
                 </li>
               ))}

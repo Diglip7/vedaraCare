@@ -346,7 +346,7 @@ export const stressJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.9★", label: "Google Rating" },
+    { value: "4.9â˜…", label: "Google Rating" },
     { value: "5000+", label: "Patients Treated" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
     { value: "Female", label: "Practitioner Available" }
@@ -655,21 +655,21 @@ export const stressAnxietyTeam = {
 
   supportingCards: [
     {
-      icon: "◇",
+      icon: "â—‡",
       title: "Ayurvedic Therapy Team",
       description:
         "Trained female and male therapists delivering therapeutic components including Shirodhara, Nasya, Abhyanga under doctor supervision. Cultural sensitivity. Multi-language capability.",
     },
 
     {
-      icon: "◇",
+      icon: "â—‡",
       title: "Modern Mental Health Coordination",
       description:
         "Our approach coordinates with modern mental health specialists when the clinical situation warrants. Complementary integration serving patient wellbeing. Referral pathways to psychologists and psychiatrists when appropriate.",
     },
 
     {
-      icon: "◆",
+      icon: "â—†",
       title: "Multi-Disciplinary Team",
       description:
         "When stress management benefits from physiotherapy for physical tension, dermatology for stress-related skin concerns, or home healthcare for comprehensive support — coordinated multi-disciplinary care at same JVC clinic.",

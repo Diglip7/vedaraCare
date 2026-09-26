@@ -15,32 +15,32 @@ export const ClinicLocation = () => {
 
             <div className="flex flex-col gap-3.5">
               <div className="grid grid-cols-[28px_80px_1fr] gap-3 items-start">
-                <span className="text-[15px]">📍</span>
+                <span className="text-[15px]">ðŸ“</span>
                 <span className="font-sans text-[12px] font-medium text-[#777777] tracking-[0.04em] pt-[1px]">Location</span>
-                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">JVC, Dubai — walking distance from Circle Mall</span>
+                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">JVC, Dubai  -  walking distance from Circle Mall</span>
               </div>
               <div className="grid grid-cols-[28px_80px_1fr] gap-3 items-start">
-                <span className="text-[15px]">📞</span>
+                <span className="text-[15px]">ðŸ“ž</span>
                 <span className="font-sans text-[12px] font-medium text-[#777777] tracking-[0.04em] pt-[1px]">Phone</span>
-                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">[Clinic number — confirm at booking]</span>
+                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">[Clinic number  -  confirm at booking]</span>
               </div>
               <div className="grid grid-cols-[28px_80px_1fr] gap-3 items-start">
-                <span className="text-[15px]">💬</span>
+                <span className="text-[15px]">ðŸ’¬</span>
                 <span className="font-sans text-[12px] font-medium text-[#777777] tracking-[0.04em] pt-[1px]">WhatsApp</span>
-                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">[WhatsApp number — confirm at booking]</span>
+                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">[WhatsApp number  -  confirm at booking]</span>
               </div>
               <div className="grid grid-cols-[28px_80px_1fr] gap-3 items-start">
-                <span className="text-[15px]">🗣️</span>
+                <span className="text-[15px]">ðŸ—£ï¸</span>
                 <span className="font-sans text-[12px] font-medium text-[#777777] tracking-[0.04em] pt-[1px]">Languages</span>
-                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">Arabic · English · Hindi · Urdu</span>
+                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">Arabic - English - Hindi - Urdu</span>
               </div>
               <div className="grid grid-cols-[28px_80px_1fr] gap-3 items-start">
-                <span className="text-[15px]">🏥</span>
+                <span className="text-[15px]">ðŸ¥</span>
                 <span className="font-sans text-[12px] font-medium text-[#777777] tracking-[0.04em] pt-[1px]">Regulatory</span>
                 <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">DHA-Licensed Multi-Specialty Polyclinic</span>
               </div>
               <div className="grid grid-cols-[28px_80px_1fr] gap-3 items-start">
-                <span className="text-[15px]">💳</span>
+                <span className="text-[15px]">ðŸ’³</span>
                 <span className="font-sans text-[12px] font-medium text-[#777777] tracking-[0.04em] pt-[1px]">Insurance</span>
                 <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">Reimbursement basis (not direct billing)</span>
               </div>
@@ -50,7 +50,7 @@ export const ClinicLocation = () => {
           <div>
             <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Dubai Catchment</div>
             <p className="font-sans text-[14px] text-[#555555] leading-[1.7] mb-6">
-              Vedara Care JVC is accessible to patients across Dubai — walking distance to Circle Mall, 3 minutes from FIVE Jumeirah Village Hotel, 5 minutes from JSS Private School.
+              Vedara Care JVC is accessible to patients across Dubai  -  walking distance to Circle Mall, 3 minutes from FIVE Jumeirah Village Hotel, 5 minutes from JSS Private School.
             </p>
             <div className="flex flex-wrap gap-2">
               {["Dubai Marina", "JLT", "JBR", "DIFC", "Downtown Dubai", "Business Bay", "Al Barsha", "Motor City", "Sports City", "Arjan", "Studio City", "Barsha Heights", "Dubai Hills", "Palm Jumeirah", "Al Sufouh", "Emirates Hills", "Al Furjan", "Discovery Gardens"].map((area, i) => (
@@ -75,21 +75,21 @@ export const TreatmentClusterGrid = () => {
     {
       subtitle: "Cluster Peer",
       title: "Exosome Skin Rejuvenation JVC",
-      desc: "Topical exogenous exosome pathway — honest comparison with PRP on both pages.",
+      desc: "Topical exogenous exosome pathway  -  honest comparison with PRP on both pages.",
       img: "/images/exosmoe-jvc.webp",
       href: "/treatments/exosome-skin-rejuvenation-jvc/"
     },
     {
       subtitle: "Cluster Peer",
       title: "Mesotherapy JVC",
-      desc: "Injection-based delivery of custom formulations — vitamins, HA, peptides.",
+      desc: "Injection-based delivery of custom formulations  -  vitamins, HA, peptides.",
       img: "/images/mesotherapy-jvc-og.webp",
       href: "/treatments/mesotherapy-skin.webp"
     },
     {
       subtitle: "Cluster Peer",
       title: "Dermal Fillers JVC",
-      desc: "Hyaluronic acid volumization. Complementary to PRP — addresses volume loss, not dermal quality.",
+      desc: "Hyaluronic acid volumization. Complementary to PRP  -  addresses volume loss, not dermal quality.",
       img: "/images/dermal-fillers-jvc.webp",
       href: "/treatments/dermal-fillers-jvc/"
     },
@@ -110,7 +110,7 @@ export const TreatmentClusterGrid = () => {
     {
       subtitle: "Foundation Diagnostic",
       title: "Comprehensive Skin Analysis JVC",
-      desc: "Detailed diagnostic protocol that informs treatment design — often integrated at PRP consultation.",
+      desc: "Detailed diagnostic protocol that informs treatment design  -  often integrated at PRP consultation.",
       img: "/images/skin-analysis-jvc.webp",
       href: "/treatments/comprehensive-skin-analysis-jvc/"
     }

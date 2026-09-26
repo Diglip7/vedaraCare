@@ -20,15 +20,15 @@ const OxyGeneoArfahProfile = () => {
               Arfah Owais
             </h2>
             <p className="text-xs font-semibold tracking-widest text-[#8A795D] uppercase mb-6">
-              DHA-LICENSED AESTHETICIAN · CIBTAC-UK · 8+ YEARS EXPERIENCE
+              DHA-LICENSED AESTHETICIAN - CIBTAC-UK - 8+ YEARS EXPERIENCE
             </p>
 
             <div className="text-gray-600 space-y-4 mb-8 text-sm leading-relaxed">
               <p>
-                Oxy-Geneo at Vedara Care JVC is delivered by Arfah Owais — DHA-licensed aesthetician with a CIBTAC-UK
+                Oxy-Geneo at Vedara Care JVC is delivered by Arfah Owais  -  DHA-licensed aesthetician with a CIBTAC-UK
                 diploma (Confederation of International Beauty Therapy and Cosmetology, a UK gold-standard awarding body),
                 NCLC certification, PMU certification, and 8+ years of hands-on clinical experience. Oxy-Geneo is one of her
-                signature treatments — delivered across the full OxyPod range with and without TriPollar RF and Ultrasound
+                signature treatments  -  delivered across the full OxyPod range with and without TriPollar RF and Ultrasound
                 add-ons across thousands of sessions. Her approach starts with proper skin analysis, honest OxyPod
                 recommendation based on skin analysis findings, particular attention to sensitive skin and medium-to-deep
                 skin tone considerations.

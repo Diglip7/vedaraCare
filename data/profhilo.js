@@ -36,15 +36,15 @@ export const profhiloLaserPeelHowItWorks = {
     treatment: {
         label: "HOW IT WORKS",
         title: "What Is Profhilo & How the Treatment Works",
-        intro: "Profhilo is the name of a specific injectable product, not a generic term for “skin booster.” It is delivered by injection directly into the skin, and its role is generally associated with skin quality, hydration and bio-remodelling rather than facial shape.",
+        intro: "Profhilo is the name of a specific injectable product, not a generic term for “skin booster.” It is delivered by injection directly into the skin, and its role is generally associated with skin quality, hydration and bio-remodelling rather than facial shape.",
         steps: [
             {
                 title: "What Is Profhilo?",
-                description: "Profhilo is the name of a specific injectable product, not a generic term for “skin booster.” That distinction matters, because clinics sometimes market similar-sounding treatments even though the underlying products and mechanisms differ.<br/><br/>Unlike a conventional facial, which works on the skin’s surface, Profhilo is delivered by injection directly into the skin. It also differs from a structural dermal filler: rather than sculpting the cheeks or jawline, its role is generally associated with skin quality and hydration rather than facial shape. Because injectable products vary by formulation, it’s important that any clinic offering “Profhilo” is transparent about the specific product being administered."
+                description: "Profhilo is the name of a specific injectable product, not a generic term for “skin booster.” That distinction matters, because clinics sometimes market similar-sounding treatments even though the underlying products and mechanisms differ.<br/><br/>Unlike a conventional facial, which works on the skin’s surface, Profhilo is delivered by injection directly into the skin. It also differs from a structural dermal filler: rather than sculpting the cheeks or jawline, its role is generally associated with skin quality and hydration rather than facial shape. Because injectable products vary by formulation, it’s important that any clinic offering “Profhilo” is transparent about the specific product being administered."
             },
             {
                 title: "How Profhilo Differs From a Dermal Filler",
-                description: "Profhilo is generally associated with skin quality, hydration and what is sometimes called bio-remodelling — improving how skin looks and feels, rather than changing facial structure.<br/><br/>Dermal fillers, by contrast, are typically used to restore volume, contour features, or provide structural support — think cheeks, lips or jawline.<br/><br/>Injectable products vary, and in some patients these goals overlap. This is a decision for consultation, not a treatment menu — it would oversimplify things to say Profhilo “never” adds any volume; the more accurate statement is that volume restoration isn’t its primary purpose."
+                description: "Profhilo is generally associated with skin quality, hydration and what is sometimes called bio-remodelling — improving how skin looks and feels, rather than changing facial structure.<br/><br/>Dermal fillers, by contrast, are typically used to restore volume, contour features, or provide structural support — think cheeks, lips or jawline.<br/><br/>Injectable products vary, and in some patients these goals overlap. This is a decision for consultation, not a treatment menu — it would oversimplify things to say Profhilo “never” adds any volume; the more accurate statement is that volume restoration isn’t its primary purpose."
             },
             {
                 title: "Step 1 — Consultation",
@@ -126,7 +126,7 @@ export const profhiloLaserPeelSelection = {
         },
         {
             subtitle: "Reduced Skin Elasticity or Firmness",
-            description: "“Skin quality” covers smoothness, elasticity, firmness of appearance, hydration and how fine lines present. Skin quality is shaped by many factors — genetics, sun history, skincare habits and general health — so a single treatment won’t override all of them. Improvement, where it occurs, tends to be gradual and varies between patients."
+            description: "“Skin quality” covers smoothness, elasticity, firmness of appearance, hydration and how fine lines present. Skin quality is shaped by many factors — genetics, sun history, skincare habits and general health — so a single treatment won’t override all of them. Improvement, where it occurs, tends to be gradual and varies between patients."
         },
         {
             subtitle: "Fine Lines That Appear More Visible",
@@ -174,7 +174,7 @@ export const profhiloLaserPeelSkinTypes = {
         {
             number: "02",
             title: "Profhilo for Skin Elasticity & Quality",
-            description: "“Skin quality” covers smoothness, elasticity, firmness of appearance, hydration and how fine lines present. Skin quality is shaped by many factors — genetics, sun history, skincare habits and general health — so a single treatment won’t override all of them. Improvement, where it occurs, tends to be gradual and varies between patients.",
+            description: "“Skin quality” covers smoothness, elasticity, firmness of appearance, hydration and how fine lines present. Skin quality is shaped by many factors — genetics, sun history, skincare habits and general health — so a single treatment won’t override all of them. Improvement, where it occurs, tends to be gradual and varies between patients.",
             typicalSigns: ["Gradual, not immediate", "Varies between patients"]
         },
         {
@@ -271,7 +271,7 @@ export const profhiloLaserPeelAftercareAndSafety = {
     contentSections: [
         {
             subtitle: "Profhilo Recovery",
-            description: "Temporary effects can include small injection-site bumps, mild redness, some swelling, possible bruising, tenderness and general sensitivity. These vary meaningfully between patients — this is not a “zero downtime” treatment, even though many people resume normal activities quickly."
+            description: "Temporary effects can include small injection-site bumps, mild redness, some swelling, possible bruising, tenderness and general sensitivity. These vary meaningfully between patients — this is not a “zero downtime” treatment, even though many people resume normal activities quickly."
         },
         {
             subtitle: "Profhilo Aftercare",
@@ -297,7 +297,7 @@ export const profhiloLaserPeelAftercareAndSafety = {
             "General sensitivity for a short period",
             "Many resume normal activities quickly"
         ],
-        note: "Recovery varies meaningfully between patients — this is not a “zero downtime” treatment.",
+        note: "Recovery varies meaningfully between patients — this is not a “zero downtime” treatment.",
         buttonText: "Book Consultation",
         buttonHref: "/book"
     }
@@ -310,13 +310,13 @@ export const profhiloLaserPeelPatientVoices = {
     title: "How Profhilo Compares to Alternatives",
     testimonials: [
         {
-            quote: "<strong>Profhilo vs Skin Boosters:</strong> “Skin Booster” is a broad category covering various products, while Profhilo refers to one specific product. Profhilo is an injectable skin-quality treatment with a main focus on skin quality, hydration and bio-remodelling, and is not primarily a volume treatment. Skin Boosters are product-dependent, generally skin-quality focused, and usually not primarily a volume treatment either. Formulation differs: Profhilo is a specific named product, while Skin Boosters vary by product used. Both are individualised in treatment plan, and results vary by patient and protocol.",
+            quote: "<strong>Profhilo vs Skin Boosters:</strong> “Skin Booster” is a broad category covering various products, while Profhilo refers to one specific product. Profhilo is an injectable skin-quality treatment with a main focus on skin quality, hydration and bio-remodelling, and is not primarily a volume treatment. Skin Boosters are product-dependent, generally skin-quality focused, and usually not primarily a volume treatment either. Formulation differs: Profhilo is a specific named product, while Skin Boosters vary by product used. Both are individualised in treatment plan, and results vary by patient and protocol.",
             attribution: "Category vs Named Product",
             treatment: "Formulation Difference",
             location: "Vedara Care JVC"
         },
         {
-            quote: "<strong>Profhilo vs Dermal Fillers:</strong> The core distinction is purpose: Profhilo generally targets skin quality and hydration, while dermal fillers target structural volume and contouring. Recovery, technique and suitability can differ, and some patients benefit from combining both rather than choosing one. Neither is universally “better” — it depends on what your clinician recommends after assessment.",
+            quote: "<strong>Profhilo vs Dermal Fillers:</strong> The core distinction is purpose: Profhilo generally targets skin quality and hydration, while dermal fillers target structural volume and contouring. Recovery, technique and suitability can differ, and some patients benefit from combining both rather than choosing one. Neither is universally “better” — it depends on what your clinician recommends after assessment.",
             attribution: "Purpose Comparison",
             treatment: "Hydration vs Volume",
             location: "Vedara Care JVC"
@@ -334,7 +334,7 @@ export const profhiloLaserPeelPatientVoices = {
             location: "Vedara Care JVC"
         },
         {
-            quote: "<strong>Profhilo vs HydraFacial:</strong> Both are associated with “hydration,” but the treatments differ substantially. Profhilo is injected directly into the skin. HydraFacial, by contrast, is a non-invasive facial typically involving cleansing, exfoliation, extraction and surface hydration. Recovery and the depth of concern each addresses differ — some patients may prefer one, or combine both into a broader plan.",
+            quote: "<strong>Profhilo vs HydraFacial:</strong> Both are associated with “hydration,” but the treatments differ substantially. Profhilo is injected directly into the skin. HydraFacial, by contrast, is a non-invasive facial typically involving cleansing, exfoliation, extraction and surface hydration. Recovery and the depth of concern each addresses differ — some patients may prefer one, or combine both into a broader plan.",
             attribution: "Delivery Method Comparison",
             treatment: "Injectable vs Non-Invasive Facial",
             location: "Vedara Care JVC"
@@ -454,7 +454,7 @@ export const profhiloFAQ = {
         },
         {
             question: "How does Profhilo differ from Skin Boosters?",
-            answer: "“Skin Booster” is a broad category describing various injectable hydration products, while Profhilo is one specific, named product within that broader landscape."
+            answer: "“Skin Booster” is a broad category describing various injectable hydration products, while Profhilo is one specific, named product within that broader landscape."
         },
         {
             question: "Can Profhilo help dry or dehydrated skin?",

@@ -484,7 +484,7 @@ const ExosomeSkinRejuvenationJVC = () => {
                     <h4 className="font-bold text-[#1A1A1A] text-[15px]" style={{ fontFamily: "\"Nunito Sans\", Inter, sans-serif" }}>Platelet-Derived</h4>
                   </div>
                   <p className="italic text-[#C9A961] text-[13px] mb-2" style={{ fontFamily: "\"Nunito Sans\", Inter, sans-serif" }}>From autologous platelet-rich plasma</p>
-                  <p className="text-[#6B6B6B] text-[14px] leading-relaxed" style={{ fontFamily: "\"Nunito Sans\", Inter, sans-serif" }}>Derived from the patient's own blood after centrifugation. Contains growth factor cargo characteristic of platelet activation (PDGF, VEGF, TGF-β). Requires blood-draw medical procedure — physician scope at Vedara Care JVC.</p>
+                  <p className="text-[#6B6B6B] text-[14px] leading-relaxed" style={{ fontFamily: "\"Nunito Sans\", Inter, sans-serif" }}>Derived from the patient's own blood after centrifugation. Contains growth factor cargo characteristic of platelet activation (PDGF, VEGF, TGF-Î²). Requires blood-draw medical procedure — physician scope at Vedara Care JVC.</p>
                 </div>
                 <div className="bg-[#FAF6EF] rounded-lg p-5 border border-[#E5DFD3]">
                   <div className="flex items-center gap-2 mb-1">
@@ -807,7 +807,7 @@ const ExosomeSkinRejuvenationJVC = () => {
               { id: '1', title: 'Phase 2 — Initial Session', desc: 'Typically adjunct-paired with microneedling (unless standalone infusion is clinically indicated). Duration 90-120 min. Post-treatment photography with consent. Recovery briefing.' },
               { id: '2-6', title: 'Phase 3 — Course of 3–6 Sessions', desc: 'Cadence depends on indication: Post-microneedling adjunct: every 3-4 weeks. Sensitive skin standalone: every 2-3 weeks. PIH programme: every 2-4 weeks under Medical Director coordination. Anti-aging complement: every 4 weeks.' },
               { id: '✓', title: 'Phase 4 — Transition Review', desc: 'At Session 6, Arfah conducts a transition review — assessing cumulative response, discussing whether course extension is indicated, and designing the maintenance cadence.' },
-              { id: '∞', title: 'Phase 5 — Long-Term Maintenance', desc: 'Every 8-12 weeks for stable indications. Anti-aging complement clients may continue quarterly. Post-procedure recovery clients typically graduate to as-needed booking coordinated with future microneedling or laser sessions.' }
+              { id: 'âˆž', title: 'Phase 5 — Long-Term Maintenance', desc: 'Every 8-12 weeks for stable indications. Anti-aging complement clients may continue quarterly. Post-procedure recovery clients typically graduate to as-needed booking coordinated with future microneedling or laser sessions.' }
             ].map(phase => (
               <div key={phase.id} style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
                 <div style={{ fontFamily: "Fraunces, Georgia, serif", zIndex: 1, width: '3rem', height: '3rem', borderRadius: '50%', background: 'rgb(250, 247, 242)', border: '1px solid rgb(200, 168, 127)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'rgb(200, 168, 127)', fontSize: '0.9rem', fontStyle: 'italic', flexShrink: 0 }}>

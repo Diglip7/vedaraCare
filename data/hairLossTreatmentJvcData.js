@@ -361,23 +361,23 @@ export const hairLossTreatmentReviews = {
   useKneeStyle: false,
   items: [
     {
-      quote: "“Female pattern hair loss developing in my early 40s — diffuse thinning that affected my confidence substantially. Multiple previous consultations had recommended only topical minoxidil without comprehensive workup. Vedara's approach was different: comprehensive blood work identifying vitamin D deficiency, low ferritin, and mild thyroid dysfunction; PCOS workup confirming hormonal contributors; combined treatment with topical minoxidil, oral spironolactone, nutritional supplementation, and PRP sessions. Significant improvement visible at 6 months, substantial improvement at 12 months. My hair density has improved noticeably; confidence has restored.”",
+      quote: "“Female pattern hair loss developing in my early 40s — diffuse thinning that affected my confidence substantially. Multiple previous consultations had recommended only topical minoxidil without comprehensive workup. Vedara's approach was different: comprehensive blood work identifying vitamin D deficiency, low ferritin, and mild thyroid dysfunction; PCOS workup confirming hormonal contributors; combined treatment with topical minoxidil, oral spironolactone, nutritional supplementation, and PRP sessions. Significant improvement visible at 6 months, substantial improvement at 12 months. My hair density has improved noticeably; confidence has restored.”",
       author: "Female patient, 43",
       details: "Female Pattern Hair Loss with Multiple Contributors · 12-Month Programme · Sports City · February 2026"
     },
     {
-      quote: "“Male pattern hair loss starting in my late 20s — concerned about progression. Vedara's consultation included detailed discussion of finasteride risks and benefits, allowing me to make an informed decision. Combined with topical minoxidil and PRP sessions every 6 months. Two years later, hair loss substantially stabilised — no further progression, with some restoration of frontal hairline. The honest discussion about long-term commitment helped me understand this as ongoing management rather than a quick fix.”",
+      quote: "“Male pattern hair loss starting in my late 20s — concerned about progression. Vedara's consultation included detailed discussion of finasteride risks and benefits, allowing me to make an informed decision. Combined with topical minoxidil and PRP sessions every 6 months. Two years later, hair loss substantially stabilised — no further progression, with some restoration of frontal hairline. The honest discussion about long-term commitment helped me understand this as ongoing management rather than a quick fix.”",
       author: "Male patient, 31",
       details: "Early Male Pattern Hair Loss · Ongoing Combined Treatment · Dubai Marina · January 2026"
     },
     {
-      quote: "“Postpartum hair loss after my second baby — significantly worse than after my first. Substantial shedding at 4 months postpartum affecting my mental health on top of everything else. Vedara's consultation reassured me this was expected telogen effluvium that would resolve; comprehensive workup ruled out other contributors; supportive treatment including PRP and topical minoxidil for several months. Hair recovery substantially complete by 10 months postpartum. The reassurance combined with active treatment made an enormous difference during a stressful time.”",
+      quote: "“Postpartum hair loss after my second baby — significantly worse than after my first. Substantial shedding at 4 months postpartum affecting my mental health on top of everything else. Vedara's consultation reassured me this was expected telogen effluvium that would resolve; comprehensive workup ruled out other contributors; supportive treatment including PRP and topical minoxidil for several months. Hair recovery substantially complete by 10 months postpartum. The reassurance combined with active treatment made an enormous difference during a stressful time.”",
       author: "Female patient, 35",
       details: "Postnatal Hair Loss · 10-Month Recovery Programme · JVC · March 2026"
     }
   ],
   stats: [
-    { value: "4.9★", label: "on Google" },
+    { value: "4.9â˜…", label: "on Google" },
     { value: "300+", label: "hair loss patients treated" },
     { value: "Multi-modal", label: "evidence-based treatment" },
     { value: "DHA", label: "licensed specialist team" }
@@ -518,7 +518,7 @@ export const hairLossTreatmentFaqs = {
 
 export const hairLossTreatmentLocation = {
   sections: [
-    { label: "Address", content: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai" },
+    { label: "Address", content: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeirah Village Circle (JVC) Dubai" },
     { label: "Phone", content: "+971 55 573 6312" },
     { label: "Clinic Hours", content: "Monday - Sunday: 9:00AM to 10:00PM" }
   ],

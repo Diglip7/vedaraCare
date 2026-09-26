@@ -458,7 +458,7 @@ export default function BlogListPage() {
                     </h3>
                   </div>
                   <p className="text-[12px] text-[#6B6B6B] font-sans mb-4 leading-relaxed">
-                    "Stay consistent with small daily habits—consistency beats perfection when it comes to health and wellness."
+                    "Stay consistent with small daily habits""consistency beats perfection when it comes to health and wellness."
                   </p>
                   <div className="flex items-center gap-2 text-[11px] text-[#184C3A] font-sans">
                     <span className="w-7 h-7 bg-[#184C3A] rounded-full flex items-center justify-center text-white font-bold text-xs">
@@ -541,7 +541,7 @@ export default function BlogListPage() {
                   <div className="space-y-2 text-[12px] text-[#6B6B6B] font-sans">
                     <div className="flex items-start gap-2">
                       <MapPin className="w-3.5 h-3.5 text-[#184C3A] shrink-0 mt-0.5" />
-                      <span>Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai</span>
+                      <span>Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeirah Village Circle (JVC) Dubai</span>
                     </div>
                     <div className="flex items-start gap-2">
                       <ClockIcon className="w-3.5 h-3.5 text-[#184C3A] shrink-0 mt-0.5" />

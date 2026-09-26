@@ -5,24 +5,22 @@ export const pediatricPhysiotherapyHero = {
     { label: "Paediatric Physiotherapy", active: true }
   ],
   label: "PAEDIATRIC PHYSIOTHERAPY · DHA-LICENSED 2509266 · SPECIALISED CHILDREN'S CARE",
-  title: "Paediatric physiotherapy in Dubai. Specialised care for infants, children, and adolescents.",
-  description: "Paediatric-trained physiotherapists at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. Specialised treatment for developmental concerns, sports injuries in children and adolescents, scoliosis, torticollis, cerebral palsy, hypermobility, and other paediatric conditions. Age-appropriate approaches from infants through age 18. Family-involved care that respects your child's pace and personality.",
+  title: "Pediatric physiotherapy in JVC — care for children and teens.",
+  description: "Physiotherapy for school-age children and teenagers at our Jumeirah Village Circle clinic, walking distance from Circle Mall. Family-involved care for developmental, postural, and sports-related concerns, from a DHA-licensed physiotherapist.",
   primaryCTA: "Book a Paediatric Assessment",
   primaryCTAHref: "/book",
+  primaryCTATrackingEvent: "click_book_pediatric",
   secondaryCTA: "WhatsApp us",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20pediatric%20physiotherapy%20and%20book%20a%20consultation.",
+  secondaryCTATrackingEvent: "click_whatsapp_pediatric",
   trustSignals: [
     "Paediatric-trained physiotherapists",
     "Infants through adolescents",
     "Family-involved approach",
     "Coordination with paediatricians"
   ],
-  floatingCard: {
-    title: "FOUR AGE GROUPS · DIFFERENT APPROACHES",
-    subtitle: "Infants (0-2), preschool (2-5), school-age (5-12), adolescents (12-18). Each age group requires genuinely different physiotherapy approaches — not adult physiotherapy in smaller doses."
-  },
   image: "/images/pediatric-physiotherapy-dubai-hero.webp",
-  alt: "Paediatric physiotherapist working with child at Vedara Care JVC Dubai clinic"
+  alt: "Physiotherapist working with a child patient at Vedara Care's JVC clinic in Dubai"
 };
 
 
@@ -30,8 +28,8 @@ export const pediatricPhysiotherapyIntro = {
   bgColor: "bg-[#FFFFFF]",
   label: "THE QUICK ANSWER",
   title: "Paediatric physiotherapy at Vedara Care, in one paragraph.",
-  blockquote: "Paediatric physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialised treatment for children from infancy through age 18, delivered by paediatric-trained physiotherapists with specific expertise across four developmental age groups (infants, preschool, school-age, adolescents). We treat developmental concerns (gross motor delay, walking pattern issues, balance problems), neurological conditions (cerebral palsy, developmental coordination disorder), spinal conditions (scoliosis, torticollis), sports injuries in children and adolescents (Osgood-Schlatter, Sever's disease, growth plate concerns, sports academy injuries), postural concerns, hypermobility, and post-surgical paediatric rehabilitation. Approach is age-appropriate, family-involved, and coordinates with paediatricians, paediatric orthopaedic specialists, schools, and other healthcare providers. Initial consultation from AED 450; structured paediatric programmes from AED 350 per session. Patients travel to our JVC clinic from across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Sarah Johnson, DPT, Paediatric Specialist, DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: "Paediatric physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialised treatment for school-age children and teenagers, delivered by a DHA-licensed physiotherapist. We treat developmental concerns (postural and movement concerns, walking pattern issues), sports injuries in children and adolescents (Osgood-Schlatter, Sever's disease, growth plate concerns, sports academy injuries), postural concerns, hypermobility, and post-surgical paediatric rehabilitation. Approach is family-involved, and coordinates with paediatricians, schools, and other healthcare providers. Initial consultation from AED 450; structured paediatric programmes from AED 350 per session. Patients travel to our JVC clinic from across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
 
@@ -41,44 +39,13 @@ export const pediatricPhysiotherapyTeam = {
   title: "Paediatric specialists at our JVC clinic.",
   team: [
     {
-      name: "Dr. Sarah Johnson, DPT",
-      qualification: "DHA-Licensed · Paediatric Specialist",
-      specialties: ["Infants ", "Developmental ", "Scoliosis"],
-      experience: "Languages: English, Arabi.",
-      image: "",
-      alt: "Dr. Sarah Johnson, DPT paediatric physiotherapy specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-sarah-johnson/",
-      profileText: "View profile"
-    },
-    {
-      name: "Dr. Priya Sharma, DPT",
-      qualification: "DHA-Licensed · Paediatric Specialist",
-      specialties: ["Sports", "School-Age", "Adolescents"],
-      experience: "Languages: English, Arabi.",
-      image: "",
-      alt: "Dr. Priya Sharma, DPT paediatric physiotherapy specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-priya-sharma/",
-      profileText: "View profile"
-    },
-    {
-      name: "Dr. Maya Al-Rashid, DPT",
-      qualification: "DHA-Licensed · Paediatric Specialist",
-      specialties: ["Cerebral Palsy", "Neurological", "Infants"],
-      experience: "Languages: English, Arabi.",
-      image: "",
-      alt: "Dr. Maya Al-Rashid, DPT paediatric physiotherapy specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-maya-al-rashid/",
-      profileText: "View profile"
-    },
-    {
-      name: "Dr. Emma Williams, DPT",
-      qualification: "DHA-Licensed · Paediatric Specialist",
-      specialties: ["Scoliosis", "Postural", "Adolescents"],
-      experience: "Languages: English, Arabi.",
-      image: "",
-      alt: "Dr. Emma Williams, DPT paediatric physiotherapy specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-emma-williams/",
-      profileText: "View profile"
+      name: "Hafsina K K",
+      qualification: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      link: "/doctors/hafsina-kk-physiotherapist/",
+      specialties: ["Musculoskeletal", "Neurological", "Sports Injuries", "Pediatric"],
+      experience: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE. Treats children and teenagers alongside her adult caseload.",
+      languages: ["English", "Malayalam", "Hindi"]
     }
   ]
 };
@@ -89,13 +56,14 @@ export const pediatricPhysiotherapyInsurance = {
   label: "INSURANCE COVERAGE",
   title: "How insurance works for paediatric physiotherapy in Dubai.",
   paragraphs: [
-    "Paediatric physiotherapy coverage in Dubai insurance plans varies by plan and condition. Generally, coverage is strongest when there is a clear medical diagnosis — particularly when the referral comes from a paediatrician.",
-    "What is typically covered well: paediatric physiotherapy with paediatrician referral and documented condition (developmental delay, cerebral palsy, scoliosis, post-surgical conditions, post-injury rehabilitation). Annual session limits vary substantially — some plans allow 12-20 sessions annually; comprehensive plans allow more with continued medical justification.",
+    "We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. Coverage is strongest when there is a clear medical diagnosis — particularly when the referral comes from a paediatrician.",
+    "What is typically covered well: paediatric physiotherapy with paediatrician referral and documented condition (developmental delay, post-surgical conditions, post-injury rehabilitation). Annual session limits vary substantially — some plans allow 12-20 sessions annually; comprehensive plans allow more with continued medical justification.",
     "What may have limits: ongoing maintenance physiotherapy for chronic conditions (often capped annually), preventive or developmental support without specific diagnosed condition, sports physiotherapy for adolescent recreational athletes without specific injury, postural physiotherapy without clear medical justification.",
-    "For children with significant conditions (cerebral palsy, muscular dystrophy, scoliosis requiring ongoing care), we help families navigate insurance pre-authorisation, annual coverage planning, and appeal processes when coverage is initially denied. Our experience with the major insurers — Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife — helps families maximise their child's coverage.",
+    "For children with significant conditions, we help families navigate annual coverage planning, and appeal processes when coverage is initially denied. We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy.",
     "WhatsApp your insurance card to +971 55 573 6312 before booking, along with any paediatrician referral letter and brief description of your child's concern. Our team will confirm exact coverage and out-of-pocket cost before you commit to a programme."
   ],
   insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
+  sidebarTitle: "SUPPORTED INSURANCE PROVIDERS",
   sidebarText: [
     "Some children's hospitals and paediatric specialists in Dubai also refer to us for outpatient physiotherapy. ",
     "WhatsApp +971 55 573 6312 for coverage confirmation."
@@ -115,7 +83,7 @@ export const pediatricPhysiotherapyMechanism = {
   content: [
     "Children with physiotherapy needs are typically embedded in a broader care network — paediatrician, sometimes paediatric specialists, often schools, occasionally other therapists. Effective paediatric physiotherapy requires coordination across this network.",
 
-    "<strong>Paediatricians and Paediatric Specialists.</strong></br> We work with Dubai paediatricians across major hospitals and clinics — American Hospital, Mediclinic, NMC, Aster, Saudi German, and various private paediatric practices. For children with specific conditions requiring specialist coordination (paediatric orthopaedics for scoliosis, paediatric neurology for cerebral palsy, paediatric endocrinology for growth concerns), we coordinate with the relevant specialists. With your consent, we send progress updates to your child's paediatrician.",
+    "<strong>Paediatricians and Paediatric Specialists.</strong></br> We work with Dubai paediatricians across major hospitals and clinics — American Hospital, Mediclinic, NMC, Aster, Saudi German, and various private paediatric practices. For children with specific conditions requiring specialist coordination (paediatric endocrinology for growth concerns, sports medicine physicians for complex injuries), we coordinate with the relevant specialists. With your consent, we send progress updates to your child's paediatrician.",
     "<strong>Schools.</strong> </br>For school-age children, we coordinate with schools when your child's condition affects school participation — physical education accommodations, posture during long school days, school sports participation, special needs support. We work with major Dubai schools including JSS Private School (walking distance from our clinic), Dubai International Academy, Repton, GEMS schools, and various others. Communication typically happens through written reports the parent shares with school, or with parental consent, direct communication with school nurses or special needs coordinators.",
     "<strong>Occupational Therapists.</strong> </br>Some children benefit from concurrent occupational therapy alongside physiotherapy — particularly children with developmental coordination disorder, sensory processing challenges, fine motor concerns alongside gross motor needs. We coordinate with paediatric occupational therapists across Dubai (we can recommend specific colleagues if your child needs OT but does not yet have a therapist).",
     "<strong>Sports Academies and Coaches.</strong></br>For adolescent athletes from sports academies (football academies, gymnastics academies, swimming academies common in Dubai), we coordinate with coaches and academy medical staff when appropriate. Return-to-sport decisions, training load modifications, and prevention programmes benefit from coach awareness.",
@@ -152,18 +120,13 @@ export const pediatricPhysiotherapySportsInjuryTypes = {
   items: [
     {
       title: 'Developmental Concerns',
-      description: 'Gross motor delay, fine motor delay, walking pattern concerns (toe walking, in-toeing, out-toeing), balance and coordination problems, developmental coordination disorder (DCD), hypotonia, premature infant developmental support, achieving developmental milestones late.',
-      age: 'Typical age range: 6 months - 7 years'
+      description: 'Postural and movement concerns, walking pattern concerns (toe walking, in-toeing, out-toeing), balance and coordination problems, achieving developmental milestones late.',
+      age: 'Typical age range: School-age children'
     },
     {
-      title: 'Neurological & Genetic Conditions',
-      description: 'Cerebral palsy (all types and severities), Down syndrome physiotherapy support, brachial plexus injury, spina bifida, muscular dystrophy, genetic conditions affecting movement, neurodevelopmental conditions.',
-      age: 'Typical age range: Birth - 18 years'
-    },
-    {
-      title: 'Spinal & Postural Conditions',
-      description: 'Scoliosis (adolescent idiopathic, congenital, neuromuscular), kyphosis, lordosis, torticollis (congenital muscular and acquired), postural concerns from device use, neck and back pain from school posture, spondylolysis in young athletes.',
-      age: 'Typical age range: Infants (torticollis) to adolescents (scoliosis, postural)'
+      title: 'Postural Conditions',
+      description: 'Postural concerns from device use, neck and back pain from school posture, kyphosis, lordosis, spondylolysis in young athletes.',
+      age: 'Typical age range: School-age and adolescents'
     },
     {
       title: 'Sports & Adolescent Sports Injuries',
@@ -174,11 +137,6 @@ export const pediatricPhysiotherapySportsInjuryTypes = {
       title: 'Musculoskeletal & Acute Injuries',
       description: 'Post-fracture rehabilitation, post-cast removal mobility restoration, ankle sprains, knee injuries, wrist injuries, back pain in young athletes, hypermobility-related pain, acute trauma care.',
       age: 'Typical age range: All paediatric ages'
-    },
-    {
-      title: 'Skull Shape & Infant Concerns',
-      description: 'Plagiocephaly (positional flat head syndrome), brachycephaly, infant positioning concerns, neonatal intensive care follow-up, early developmental support.',
-      age: 'Typical age range: 0-12 months primarily'
     }
   ],
   footer: 'Did not find your child\'s condition? <a href="https://wa.me/971555736312?text=Hi%20I%20need%20more%20information%20about%20paediatric%20physiotherapy" className="underline hover:opacity-70 transition-opacity" style={{ color: "rgb(27, 67, 50)" }}>Contact us — we treat the full range of paediatric physiotherapy conditions →</a>',
@@ -195,7 +153,7 @@ export const pediatricPhysiotherapyFaqs = {
   faqs: [
     {
       question: "At what age should my child start physiotherapy?",
-      answer: "The right age depends entirely on the concern. Infant physiotherapy begins as young as a few weeks old for conditions like torticollis or plagiocephaly. Developmental concerns are typically addressed from 4-6 months when delays become apparent. Sports injuries in adolescents follow standard sports physiotherapy approaches. If your paediatrician has identified a concern, the right time to start is now — early intervention typically produces better outcomes than delayed treatment."
+      answer: "The right age depends on the concern. For school-age children and teenagers with developmental, postural, or sports-related concerns, physiotherapy can start as soon as a concern is identified — often on your pediatrician's recommendation. WhatsApp us to discuss your child's specific situation before booking."
     },
     {
       question: "Do I need a paediatrician referral for paediatric physiotherapy?",
@@ -204,8 +162,7 @@ export const pediatricPhysiotherapyFaqs = {
 
     {
       question: "How long are paediatric physiotherapy sessions?",
-      answer: "Initial paediatric consultation: 60-75 minutes. Follow-up sessions: 30-45 minutes for infants, 45-60 minutes for preschool and school-age children, 60 minutes for adolescents. Time includes settling time for the child, treatment, and parent education. Sessions are intentionally longer than equivalent adult sessions because paediatric care requires more time per session.",
-
+      answer: "Session lengths vary based on your child's age and specific condition. Please contact our clinic directly to confirm exact session durations for your child's appointment."
     },
 
     {
@@ -224,7 +181,7 @@ export const pediatricPhysiotherapyFaqs = {
 
     {
       question: "Do you have female paediatric physiotherapists?",
-      answer: "Yes — we have female paediatric physiotherapists at our JVC clinic. Many parents prefer female therapists for their children (particularly for adolescent girls and for cultural reasons in some communities). Female specialists are available across all age groups. Request a female therapist when booking."
+      answer: "Yes — Hafsina K K, our physiotherapist, is female, which many families prefer, particularly for adolescent girls."
     },
 
     {
@@ -240,7 +197,11 @@ export const pediatricPhysiotherapyFaqs = {
 
     {
       question: "Can you do home physiotherapy for children?",
-      answer: "Yes — home paediatric physiotherapy is available for specific situations: infants who are difficult to bring to clinic, children with significant disabilities or mobility limitations, children with chronic conditions requiring ongoing home-based intervention, and family preference. Home sessions are typically AED 500 per session. Many families benefit from a combination of clinic and home sessions."
+      answer: "Home physiotherapy for children is launching soon. In the meantime, our JVC clinic is easily accessible with free parking."
+    },
+    {
+      question: "Does insurance cover pediatric physiotherapy?",
+      answer: "Most Dubai insurance plans cover pediatric physiotherapy with a pediatrician referral, though we don't offer direct billing. We provide full documentation for you to submit for reimbursement — WhatsApp your insurance card to confirm what to expect."
     }
   ]
 };
@@ -251,7 +212,7 @@ export const pediatricPhysiotherapyLocation = {
   bgColor: "bg-[#FFFFFF]",
   label: "VISIT US",
   title: "A welcoming clinic for children of all ages.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Dubai, Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Dubai, Jumeirah Village Circle (JVC) Dubai",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
@@ -260,7 +221,8 @@ export const pediatricPhysiotherapyLocation = {
   description: "Our JVC clinic has a dedicated paediatric area with age-appropriate equipment, sensory-friendly elements, and a small waiting area suitable for children and siblings. Free parking. Easy access from JVC, JVT, Al Barsha South, and across Dubai. Particularly convenient for JSS Private School families — schedule around school pickup. Convenient for Circle Mall family time.",
   image: "/images/vedara-care-clinic-exterior.webp",
   alt: "Vedara Care Polyclinic exterior, Jumeirah Village Circle Dubai",
-  buttonText: "Book a Paediatric Assessment"
+  buttonText: "Book a Paediatric Assessment",
+  buttonTrackingEvent: "click_book_pediatric"
 };
 
 
@@ -269,53 +231,43 @@ export const pediatricPhysiotherapyFinalCTA = {
   bgColor: "bg-[#F8F6F1]",
   label: "READY TO START?",
   title: "Your child deserves specialist care — not adult physiotherapy in smaller doses.",
-  description: "If your child has a developmental concern, a sports injury, a postural issue, or any other condition that may benefit from physiotherapy, the first step is a 60-75 minute initial consultation at our JVC clinic. We assess thoroughly, explain findings clearly, design an age-appropriate treatment plan if appropriate, and tell you honestly if we are not the right fit for your child's situation. Same-week appointments typically available.",
-  button1Text: "Book a Paediatric Physiotherapy Consultation",
+  description: "If your child has a developmental concern, a sports injury, a postural issue, or any other condition that may benefit from physiotherapy, the first step is a 60-minute initial consultation at our JVC clinic. We assess thoroughly, explain findings clearly, design an age-appropriate treatment plan if appropriate, and tell you honestly if we are not the right fit for your child's situation. Same-week appointments typically available.",
+  button1Text: "Book a Paediatric Consultation",
   button1Href: "/book",
+  primaryCTATrackingEvent: "click_book_pediatric",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20pediatric%20physiotherapy%20and%20book%20a%20consultation.",
+  secondaryCTATrackingEvent: "click_whatsapp_pediatric",
   bullets: [
     "DHA-licensed clinic",
     "DPT-qualified paediatric physiotherapists",
-    "Insurance direct-billing",
+    "Full documentation for insurance reimbursement",
     "Family-centred care"
   ],
-  footer: "Initial consultation from AED 450 · Walking distance from Circle Mall, JVC · Five minutes from JSS Private School · Female therapists available · Insurance direct-billing."
+  footer: "Initial consultation from AED 450 · Walking distance from Circle Mall, JVC · Five minutes from JSS Private School · Female therapists available."
 };
 
 
 export const pediatricPhysiotherapyAgeGroups = {
   bgColor: "bg-[#F5F1E8]",
   label: "AGE-APPROPRIATE CARE",
-  title: "Four age groups. Four different approaches to physiotherapy.",
-  description: "Children are not small adults. Each developmental stage requires fundamentally different physiotherapy approaches, communication styles, assessment techniques, and family involvement models. Our paediatric physiotherapists are trained across all four age groups.",
+  title: "Two age groups. Two different approaches to physiotherapy.",
+  description: "Each developmental stage requires fundamentally different physiotherapy approaches, communication styles, and family involvement models. Our physiotherapist is trained across these two age groups.",
   ageGroups: [
     {
-      age: '0-2',
-      label: 'Infants',
-      desc: 'The most specialised paediatric age group — physiotherapy at this age requires specific training in infant assessment, family-centred care, and parent education. Sessions are typically 30-45 minutes with parents actively involved throughout. Conditions are often identified by paediatricians during well-baby visits. The approach focuses on supporting the infant\'s developmental trajectory through play-based therapy, positioning education for parents, and structured intervention for specific concerns. Family education is as important as direct treatment — parents are with their infant the other 23 hours of the day.',
-      conditions: 'Congenital muscular torticollis, plagiocephaly, gross motor delay, hypotonia, brachial plexus injury, premature infant developmental support, club foot post-treatment'
-    },
-    {
-      age: '2-5',
-      label: 'Preschool',
-      desc: 'The age when developmental concerns often become more apparent as children begin walking, running, and engaging in social play. Therapy is play-based — children at this age cannot follow structured exercise protocols, but they can engage in play activities specifically designed for therapeutic purposes. Sessions are typically 45 minutes with significant parental involvement. Cooperation requires building rapport — most children initially resist physiotherapy and learn to engage as comfort builds. The therapist\'s ability to make therapy feel like play is essential.',
-      conditions: 'Toe walking, gross motor delay, developmental coordination disorder (DCD), cerebral palsy, hypermobility, post-fracture recovery, balance and coordination concerns'
-    },
-    {
       age: '5-12',
-      label: 'School-Age',
-      desc: 'Children at this age can engage with structured therapy approaches while still benefiting from playful elements. Sessions are typically 45-60 minutes. The child becomes a more active participant in their own therapy. Home programmes become possible and important. Coordination with schools matters — physical education accommodation, school sports participation, posture during long school days. Many children at this age develop conditions related to growth (Osgood-Schlatter, Sever\'s disease) or postural patterns from device use and school posture.',
-      conditions: ' Osgood-Schlatter disease, Sever\'s disease, sports injuries from school sports, scoliosis (often detected through school screenings), postural concerns, hypermobility-related pain growth plate injuries, developmental coordination disorder progression'
+      label: 'School-Age Children',
+      desc: 'Physiotherapy for developmental, postural, and activity-related concerns as children grow — including sports injuries picked up at school or in academy training. Sessions are play-informed and paced to the child\'s comfort.',
+      conditions: 'Postural concerns, sports injuries, developmental coordination, growth-related pains'
     },
     {
-      age: '12-18',
-      label: 'Adolescents',
-      desc: 'Adolescents need approach modifications recognising their developing autonomy and self-consciousness. Sessions are typically 60 minutes. The adolescent often becomes the primary decision-maker about their own care alongside parents. Therapy more closely resembles adult physiotherapy with sport-specific or activity-specific protocols. Sports injuries dominate this age group — particularly in Dubai\'s competitive sports academy environment. Body image and self-confidence considerations are important — adolescents may avoid clinical environments that feel infantilising or, conversely, that feel cold and adult-medical.',
-      conditions: 'Sports injuries (ACL, hamstring, shoulder, sport-specific patterns), scoliosis (often progressed from earlier detection), adolescent idiopathic spinal conditions, hypermobility-related conditions, post-surgical rehabilitation, postural concerns from device use, athletic performance optimisation'
+      age: '13-18',
+      label: 'Teenagers',
+      desc: 'Physiotherapy for sports injuries and growth-related conditions common in Dubai\'s competitive youth sports scene, plus postural concerns from school and device use. Approach respects a teenager\'s growing independence.',
+      conditions: 'Sports injuries (ACL, sprains), postural concerns, growth plate injuries, athletic performance'
     }
   ],
-  footer: "Our paediatric physiotherapists are trained across all four age groups, with depth in particular age ranges. At consultation, your child will be matched with the therapist whose expertise best fits their age and specific condition."
+  footer: "At consultation, your child will receive care tailored to their age and specific condition."
 };
 
 
@@ -335,7 +287,7 @@ export const pediatricPhysiotherapyWhatToExpect = {
     },
     {
       title: "The next 15-20 minutes — formal assessment",
-      content: "Structured assessment appropriate to your child's age and concerns. For an infant: developmental milestone assessment, range of motion, muscle tone evaluation, postural assessment. For a school-age child: movement screening, strength testing, balance and coordination tests. For an adolescent: more adult-like assessment with sport-specific or activity-specific tests. All assessment is framed as games or activities the child can engage with."
+      content: "Structured assessment appropriate to your child's age and concerns. For a school-age child: movement screening, strength testing, balance and coordination tests. For an adolescent: more adult-like assessment with sport-specific or activity-specific tests. All assessment is framed as games or activities the child can engage with."
     },
     {
       title: "The final 10-15 minutes — discussion and plan",
@@ -419,33 +371,13 @@ export const pediatricPhysiotherapyReviews = {
   isDarkText: false,
   label: "PARENT STORIES",
   title: "Real outcomes from our paediatric physiotherapy patients.",
-  description: "Hear from parents whose children have been treated at our clinic — from torticollis in infants to adolescent sports injuries.",
+  description: "Hear from parents whose children have been treated at our clinic — from school-age postural concerns to adolescent sports injuries.",
   buttonText: "Read All Google Reviews",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
-  items: [
-    {
-      quote: "Our daughter was diagnosed with mild scoliosis at her school screening, age 11. Two years of structured physiotherapy at Vedara — same therapist throughout, monthly check-ins, careful progression — and her curve has stabilised. Her paediatric orthopaedic surgeon is impressed. She actually likes coming.",
-      author: "",
-      details: "Parent of child with scoliosis · 2-year ongoing programme · Dubai Hills resident · February 2026",
-      details1: ""
-    },
-    {
-      quote: "Our son was a toe walker until age 4. Three different paediatricians, lots of conflicting advice. Vedara's team identified the actual underlying pattern and addressed it through structured play-based therapy over four months. He walks normally now. The way they engaged with him made all the difference.",
-      author: "",
-      details: "Parent of preschool child · 4-month programme · JVT resident · January 2026",
-      details1: ""
-    },
-    {
-      quote: "My adolescent daughter tore her ACL in school sports. The team at Vedara understood adolescent sports recovery — different from adult recovery in important ways. Nine months of structured rehabilitation. Back to school football. The female therapist made the experience comfortable for her as a teenage girl.",
-      author: "",
-      details: "Parent of adolescent · ACL Rehabilitation · 9-month programme · Al Barsha South resident · March 2026",
-      details1: ""
-    }
-  ],
+  items: [],
   stats: [
-    { value: "5,000+", label: "Patients Treated" },
-    { value: "4.9", label: "stars on Google" },
-    { value: "92%", label: "would recommend to other parents" }
+    { value: "4.5", label: "stars on Google" },
+    { value: "15", label: "reviews" }
   ]
 };
 
@@ -471,11 +403,9 @@ export const pediatricPhysiotherapyRelatedPages = {
 
     },
     {
-      title: "Postnatal Care",
+      title: "Postnatal Ayurveda Care",
       href: "/conditions/postnatal-ayurveda-dubai/",
-      description: "For new mothers — 45-day Sutika Paricharya programmes. Some paediatric crossover for infant care.",
-
-
+      description: "For new mothers — 45-day Sutika Paricharya programmes."
     },
     {
       title: "Home Healthcare in JVC",
@@ -494,16 +424,12 @@ export const pediatricPhysiotherapyPricing = {
   label: "TRANSPARENT PRICING",
   title: "What paediatric physiotherapy at our JVC clinic costs.",
   tableData: [
-    { service: "Initial paediatric assessment (60-75 minutes)", price: "AED 450" },
+    { service: "Initial paediatric assessment (60 minutes)", price: "AED 450" },
     { service: "Follow-up paediatric session (45-60 minutes)", price: "AED 350" },
-    { service: "Infant physiotherapy session (30-45 minutes)", price: "AED 300" },
     { service: "Adolescent sports physiotherapy session (60 minutes)", price: "AED 380" },
-    { service: "Home paediatric physiotherapy session", price: "AED 500" },
-    { service: "Scoliosis assessment and structured programme", price: "AED 420" },
+    { service: "Home paediatric physiotherapy session", price: "Coming Soon" },
     { service: "Sports injury package (10 sessions, adolescents)", price: "AED 3,400" },
-    { service: "Developmental support package (12 sessions)", price: "AED 3,900" },
-    { service: "Cerebral palsy ongoing care (per session, structured programme)", price: "AED 370" },
-    { service: "Multi-disciplinary case coordination (per case)", price: "AED 250" }
+    { service: "Developmental support package (12 sessions)", price: "AED 3,900" }
   ],
-  footerText: 'Family pricing available for siblings receiving treatment. Insurance direct-billing with seven major insurers — coverage for paediatric physiotherapy is often substantial with paediatrician referral. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and referral letter to +971 55 573 6312 before booking.'
+  footerText: 'Family pricing available for siblings receiving treatment. We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and referral letter to +971 55 573 6312 before booking.'
 };

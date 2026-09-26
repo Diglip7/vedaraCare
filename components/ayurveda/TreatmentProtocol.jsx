@@ -36,7 +36,7 @@ const TreatmentProtocol = ({
                   <ul className="space-y-1.5 mb-4">
                     {phase.items.map((item, idx) => (
                       <li key={idx} className="text-sm text-muted-foreground flex">
-                        <span className="mr-2">•</span>
+                        <span className="mr-2">-</span>
                         <span dangerouslySetInnerHTML={{ __html: item }} />
                       </li>
                     ))}

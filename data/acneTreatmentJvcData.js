@@ -361,7 +361,7 @@ export const acneIsotretinoin = {
       "Side effect management support",
       "Coordination with broader medical care if needed",
     ],
-    note: "<div style='margin-top: 20px; margin-bottom: 20px; border-top: 1px solid rgba(229, 223, 211); border-bottom: 1px solid rgba(229, 223, 211); padding-top: 20px 0;'>TREATMENT TIMELINE:<br/><div style='display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px;'><div>Pre-treatment evaluation</div><div style='font-weight: 600;'>1–2 weeks</div></div><div style='display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px;'><div>Treatment course</div><div style='font-weight: 600;'>6–9 months typically</div></div><div style='display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px;'><div>Post-treatment monitoring</div><div style='font-weight: 600;'>3–6 months</div></div><div style='display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px;'><div>Long-term follow-up</div><div style='font-weight: 600;'>As appropriate</div></div></div><div style='margin-top: 20px; margin-bottom: 20px; border-bottom: 1px solid rgba(229, 223, 211); padding-bottom: 20px 0;'>PATIENT SUPPORT:<br/><ul style='margin-top: 8px; font-size: 12px; list-style: none; padding: 0; margin: 0;'><li style='margin-bottom: 4px;'>• Detailed written guidance materials</li><li style='margin-bottom: 4px;'>• Direct contact for side effect concerns</li><li style='margin-bottom: 4px;'>• Monthly check-in appointments</li><li style='margin-bottom: 4px;'>• Adjustment if side effects challenging</li></ul></div>",
+    note: "<div style='margin-top: 20px; margin-bottom: 20px; border-top: 1px solid rgba(229, 223, 211); border-bottom: 1px solid rgba(229, 223, 211); padding-top: 20px 0;'>TREATMENT TIMELINE:<br/><div style='display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px;'><div>Pre-treatment evaluation</div><div style='font-weight: 600;'>1–2 weeks</div></div><div style='display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px;'><div>Treatment course</div><div style='font-weight: 600;'>6–9 months typically</div></div><div style='display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px;'><div>Post-treatment monitoring</div><div style='font-weight: 600;'>3–6 months</div></div><div style='display: flex; justify-content: space-between; margin-top: 4px; font-size: 12px;'><div>Long-term follow-up</div><div style='font-weight: 600;'>As appropriate</div></div></div><div style='margin-top: 20px; margin-bottom: 20px; border-bottom: 1px solid rgba(229, 223, 211); padding-bottom: 20px 0;'>PATIENT SUPPORT:<br/><ul style='margin-top: 8px; font-size: 12px; list-style: none; padding: 0; margin: 0;'><li style='margin-bottom: 4px;'>”¢ Detailed written guidance materials</li><li style='margin-bottom: 4px;'>”¢ Direct contact for side effect concerns</li><li style='margin-bottom: 4px;'>”¢ Monthly check-in appointments</li><li style='margin-bottom: 4px;'>”¢ Adjustment if side effects challenging</li></ul></div>",
     footer: "",
 
   },
@@ -537,7 +537,7 @@ export const acneTreatmentLocation = {
   sections: [
     {
       label: "Address",
-      content: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai"
+      content: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai"
     },
     {
       label: "Phone",

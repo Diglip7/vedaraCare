@@ -174,7 +174,7 @@ export const diabetesTreatmentLocationCustom = {
   label: "VISIT US",
   title: "Where diabetes treatment happens at Vedara Care.",
   address1: "Vedara Care Polyclinic",
-  address2: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  address2: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   addressNote: "Walking distance from FIVE Jumeirah Village Hotel",
   clinicHours: [
     { label: "Monday - Sunday", time: "9:00AM to 10:00PM" },

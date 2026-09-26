@@ -374,11 +374,11 @@ export default function BlogDetailPage({ blog }) {
           <h1 className="text-4xl font-bold tracking-tight text-gray-900">{blog.title}</h1>
           <div className="mt-3 flex items-center gap-3 text-sm text-gray-600 flex-wrap">
             {/* <span>{blog.postedBy?.name || "Admin"}</span> */}
-            <span>•</span>
+            <span>-</span>
             <span>{date}</span>
-            <span>•</span>
+            <span>-</span>
             <span>{readingTime} min read</span>
-            <span>•</span>
+            <span>-</span>
             <span className="flex items-center gap-1">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />

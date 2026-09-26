@@ -63,15 +63,9 @@ const PhysiotherapyJvc = () => {
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:00"
+          "closes": "22:00"
         }
       ],
       "areaServed": [
@@ -139,8 +133,8 @@ const PhysiotherapyJvc = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "180",
+        "ratingValue": "4.5",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -198,8 +192,7 @@ const PhysiotherapyJvc = () => {
       "lastReviewed": currentDate,
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Sarah Mitchell",
-        "hasCredential": "DPT, DHA-Licensed"
+        "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/physiotherapy-jvc-hero.jpg"
     },
@@ -226,9 +219,10 @@ const PhysiotherapyJvc = () => {
     ...physiotherapyJvcTeam.team.map((member) => ({
       "@context": "https://schema.org",
       "@type": "Physician",
+      "@id": `https://vedaracare.ae${member.link}#physician`,
       "name": member.name,
-      "url": `https://vedaracare.ae/physiotherapists/${member.name.toLowerCase().replace(/[.,]/g, '').replace(/\s+/g, '-')}/`,
-      "image": `https://vedaracare.ae/images/${member.name.toLowerCase().replace(/[.,]/g, '').replace(/\s+/g, '-')}.jpg`,
+      "url": `https://vedaracare.ae${member.link}`,
+      "image": `https://vedaracare.ae${member.image}`,
       "medicalSpecialty": ["Physiotherapy", "Physical Therapy"],
       "hasCredential": ["DPT", "DHA-Licensed"],
       "worksFor": { "@id": "https://vedaracare.ae/#organization" }
@@ -242,7 +236,7 @@ const PhysiotherapyJvc = () => {
       "dateModified": currentDate,
       "author": {
         "@type": "Physician",
-        "name": "Dr. Sarah Mitchell"
+        "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"
       },
       "publisher": {
         "@type": "Organization",
@@ -264,7 +258,7 @@ const PhysiotherapyJvc = () => {
     <>
       <Head>
         <title>Physiotherapy in JVC, Dubai | DPT-Qualified | Vedara Care</title>
-        <meta name="description" content="DPT-qualified physiotherapy at our DHA-licensed JVC clinic, Dubai — walking distance from Circle Mall. Sports, post-surgical, neurological, women's health, paediatric physiotherapy. Same-day appointments. Insurance direct-billing with 7 major insurers." />
+        <meta name="description" content="DPT-qualified physiotherapy at our DHA-licensed JVC clinic, Dubai — walking distance from Circle Mall. Sports, post-surgical, neurological, women's health, paediatric physiotherapy. Same-day appointments. Insurance reimbursement support with all major insurers." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
         {/* Open Graph */}
@@ -309,7 +303,7 @@ const PhysiotherapyJvc = () => {
         {/* Section 6 - Home Healthcare (with different UI) */}
         <IntegrationSection
           {...physiotherapyJvcHomeHealthcareNew}
-          primaryButtonHref="/physiotherapy-at-home-dubai"
+          primaryButtonHref="https://wa.me/971555736312?text=Hi,%20please%20notify%20me%20when%20home%20physiotherapy%20launches"
           secondaryButtonHref="/ayurveda-clinic-jvc"
         />
 

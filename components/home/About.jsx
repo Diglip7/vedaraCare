@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = ({
   label = "About Vedara Care",
-  title = "A polyclinic built around one belief — that healing should treat the whole person.",
+  title = "A polyclinic built around one belief  -  that healing should treat the whole person.",
   description = "Vedara Care Polyclinic is a DHA-licensed holistic healthcare clinic in Jumeirah Village Circle, Dubai. We integrate classical Ayurveda, modern physiotherapy, medical dermatology, home healthcare and wellness programs under one roof. Our BAMS-qualified Ayurvedic physicians and DPT physiotherapists work alongside board-certified dermatologists to serve JVC residents and patients across Dubai.",
   image = "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2070&auto=format&fit=crop",
   stats = [

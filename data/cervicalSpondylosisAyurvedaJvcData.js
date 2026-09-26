@@ -323,7 +323,7 @@ export const cervicalJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.9★", label: "Google Rating" },
+    { value: "4.9â˜…", label: "Google Rating" },
     { value: "1200+", label: "Reviews" },
     { value: "Female", label: "Practitioner Available" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },

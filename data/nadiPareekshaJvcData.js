@@ -10,7 +10,7 @@ export const nadiPareekshaHero = {
   title: "Classical Ayurvedic Nadi Pareeksha at our JVC clinic — foundation Ashtavidha Pareeksha diagnostic tradition.",
   description: "Authentic classical Ayurvedic Nadi Pareeksha (pulse examination) at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. The flagship component of Ashtavidha Pareeksha delivered by DHA-licensed BAMS-qualified Ayurvedic doctors, including female practitioner Dr. Ansiya whose #1 documented expertise is Nadi Pareeksha & Ayurvedic Assessment.",
   primaryCTA: "Book Nadi Pareeksha Consultation",
-  secondaryCTA: "Explore Ashtavidha Pareeksha ↓",
+  secondaryCTA: "Explore Ashtavidha Pareeksha â†“",
   secondaryCTAHref: "#understanding",
   trustSignals: [
     "DHA-licensed BAMS Ayurvedic doctors",

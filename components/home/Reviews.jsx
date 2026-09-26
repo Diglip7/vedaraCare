@@ -12,21 +12,21 @@ const Reviews = ({
   items = [
     {
       quote: "Dr. Nair is the first doctor in Dubai who actually listened.",
-      content: "I have been to four specialists for PCOS over three years. Dr. Nair spent 50 minutes with me on the first visit — asking about my sleep, my stress, my diet. Six months later, my cycles are regular for the first time in a decade.",
+      content: "I have been to four specialists for PCOS over three years. Dr. Nair spent 50 minutes with me on the first visit  -  asking about my sleep, my stress, my diet. Six months later, my cycles are regular for the first time in a decade.",
       author: "Aisha M.",
-      details: "PCOS · 6-month programme · March 2026"
+      details: "PCOS - 6-month programme - March 2026"
     },
     {
       quote: "After three years of back pain, I finally have a long-term answer.",
       content: "Conventional physiotherapy gave me temporary relief. The 21-day Panchakarma programme changed how I manage my lumbar disc issue. Eight months on and I have not had a single acute episode.",
       author: "Sarah K.",
-      details: "Chronic Back Pain · 21-day Panchakarma · January 2026"
+      details: "Chronic Back Pain - 21-day Panchakarma - January 2026"
     },
     {
       quote: "I was skeptical about Ayurveda. I am not anymore.",
       content: "I came after two years of poor sleep and anxiety that no medication had resolved. Eight weeks of Shirodhara and Medhya Rasayana later, I sleep seven hours without interruption. The clinical precision here surprised me.",
       author: "Rohan D.",
-      details: "Stress & Insomnia · 8-week programme · February 2026"
+      details: "Stress & Insomnia - 8-week programme - February 2026"
     }
   ],
   stats = [

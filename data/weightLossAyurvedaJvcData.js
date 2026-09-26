@@ -16,7 +16,7 @@ export const weightLossJvcHero = {
   alt: "Sustainable Ayurvedic weight management Vedara Care JVC Dubai",
   primaryCTA: "Book Weight Consultation",
   primaryCTAHref: "/contact-us",
-  secondaryCTA: "Understand Ayurvedic Weight Care ↓",
+  secondaryCTA: "Understand Ayurvedic Weight Care â†“",
   secondaryCTAHref: "#understanding",
   trustSignals: [
     "DHA-licensed BAMS Ayurvedic doctors",
@@ -437,7 +437,7 @@ export const weightLossJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.9★", label: "Stars on Google" },
+    { value: "4.9â˜…", label: "Stars on Google" },
     { value: "950+", label: "Weight management patients treated" },
     { value: "DHA", label: "Licensed BAMS Ayurvedic doctors" },
     { value: "100%", label: "Female practitioner available" }

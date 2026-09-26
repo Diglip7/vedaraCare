@@ -52,7 +52,7 @@ const HomePhysiotherapyDubai = () => {
       "priceRange": "AED 400 - AED 25,000",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC)",
+        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
         "addressLocality": "Jumeirah Village Circle",
         "addressRegion": "Dubai",
         "addressCountry": "AE"

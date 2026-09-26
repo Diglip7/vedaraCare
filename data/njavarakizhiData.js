@@ -4,7 +4,7 @@ export const njavarakizhiHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Njavarakizhi in Dubai", active: true }
   ],
-  label: "NJAVARAKIZHI THERAPY IN DUBAI • DHA-LICENSED 2509266",
+  label: "NJAVARAKIZHI THERAPY IN DUBAI ”¢ DHA-LICENSED 2509266",
   title: "Massage with warm rice. The classical Ayurvedic therapy for what other treatments cannot reach.",
   description: "Njavarakizhi — also written Navarakizhi, and called Shashtika Shali Pinda Sweda in Sanskrit — is performed using small cloth boluses filled with a special variety of rice cooked in herbal medicated milk. At our DHA-licensed Ayurveda clinic in Jumeirah Village Circle, Dubai, it is doctor-prescribed for muscle wasting, post-illness recovery, neurological rehabilitation, and chronic inflammatory conditions.",
   primaryCTA: "Book a Njavarakizhi Consultation",
@@ -29,8 +29,8 @@ export const njavarakizhiIntro = {
   bgColor: "bg-[#FFFFFF]",
   label: "THE QUICK ANSWER",
   title: "Njavarakizhi in Dubai, in one paragraph.",
-  blockquote: "Njavarakizhi (नवरకిజీ) — known in classical Sanskrit as Shashtika Shali Pinda Sweda — is a specialised Ayurvedic massage therapy performed using small cloth boluses filled with Shashtika rice cooked in herbal medicated milk. The boluses are dipped repeatedly in warm milk and used to massage the body with synchronized strokes for 60 to 75 minutes. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Njavarakizhi is doctor-prescribed by BAMS-qualified physicians for muscle wasting, post-illness recovery, neurological rehabilitation, paralysis support, rheumatoid conditions, and degenerative muscle disorders. Sessions start from AED 480.",
-  footer: "Medically reviewed by Dr. Priya Nair, BAMS, MD (Ayurveda), DHA-Licensed 2509266 • Last updated May 2026"
+  blockquote: "Njavarakizhi (à¤¨à¤µà¤°à°•à°¿à°œà±€) — known in classical Sanskrit as Shashtika Shali Pinda Sweda — is a specialised Ayurvedic massage therapy performed using small cloth boluses filled with Shashtika rice cooked in herbal medicated milk. The boluses are dipped repeatedly in warm milk and used to massage the body with synchronized strokes for 60 to 75 minutes. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Njavarakizhi is doctor-prescribed by BAMS-qualified physicians for muscle wasting, post-illness recovery, neurological rehabilitation, paralysis support, rheumatoid conditions, and degenerative muscle disorders. Sessions start from AED 480.",
+  footer: "Medically reviewed by Dr. Priya Nair, BAMS, MD (Ayurveda), DHA-Licensed 2509266 ”¢ Last updated May 2026"
 };
 
 export const njavarakizhiMechanism = {
@@ -344,7 +344,7 @@ export const njavarakizhiFaqs = {
     },
     {
       question: "Is Njavarakizhi the same as Navarakizhi?",
-      answer: "Yes. Njavarakizhi and Navarakizhi are alternate transliterations of the same Malayalam word — both refer to the same therapy. The Sanskrit clinical name is Shashtika Shali Pinda Sweda. The variations exist because of different ways of writing the Malayalam 'ഞ' sound in English."
+      answer: "Yes. Njavarakizhi and Navarakizhi are alternate transliterations of the same Malayalam word — both refer to the same therapy. The Sanskrit clinical name is Shashtika Shali Pinda Sweda. The variations exist because of different ways of writing the Malayalam 'à´ž' sound in English."
     },
     {
       question: "What is 'Njavara rice' and why does it matter?",
@@ -401,7 +401,7 @@ export const njavarakizhiTreatmentLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
   title: "Where Njavarakizhi happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about njavarakizhi treatment at your JVC clinic.",

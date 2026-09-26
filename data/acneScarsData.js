@@ -493,7 +493,7 @@ export const acneScarsLocation = {
   title: "Vedara Care Polyclinic, Jumeirah Village Circle, Dubai",
   image: "/images/vedara-jvc-clinic-acne-scars.webp",
   alt: "Vedara Care JVC clinic acne scar treatment Dubai",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I want to book an Acne Scar Treatment consultation.",

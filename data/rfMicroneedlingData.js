@@ -70,7 +70,7 @@ export const rfMicroneedlingEnergyAction = {
     "The change is gradual, not immediate. Any visible tightening or texture change follows the skin's own remodelling timeline, not the treatment session itself.",
     "Settings matter. Energy level, needle depth, and number of passes are adjusted to the treatment area and the patient's skin — higher intensity is not automatically a better or safer choice.",
     "Energy settings are a clinical decision that should follow an in-person skin assessment, not a fixed protocol applied to every patient.",
-    "Some marketing describes radiofrequency treatments in dramatic terms, such as claiming the energy “melts fat.” Unless a specific device is clinically indicated and cleared for fat reduction, that claim does not apply to standard RF microneedling used for texture, scarring, and mild laxity, and Vedara Care does not present it that way."
+    "Some marketing describes radiofrequency treatments in dramatic terms, such as claiming the energy “melts fat.” Unless a specific device is clinically indicated and cleared for fat reduction, that claim does not apply to standard RF microneedling used for texture, scarring, and mild laxity, and Vedara Care does not present it that way."
   ]
 };
 export const rfMicroneedlingDCTA = {
@@ -103,7 +103,7 @@ export const rfMicroneedlingConcerns = {
   concernsList: [
     {
       title: "Acne Scars",
-      description: "Acne scarring isn't a single pattern, and that matters when discussing whether RF microneedling is a reasonable option. Atrophic scars — the shallow depressions left behind by inflammatory acne — are the type most commonly discussed in relation to this treatment. Within that category, rolling scars, which have sloped edges and a wave-like texture, tend to respond to the combination of mechanical remodelling and thermal stimulation more readily than other patterns. Boxcar scars, with sharper, more defined edges, may show some improvement in overall texture but often need to be assessed for whether an additional technique, such as subcision, would be more appropriate. Deeper or tethered scars, where scar tissue is fixed to underlying structures, frequently need a different or combined approach altogether, since needling and heat alone may not adequately address the tethering. This is why a professional assessment of scar type and depth is a meaningful part of the conversation before RF microneedling is recommended — and why outcomes are described as the appearance of scarring “may improve,” never as scars being removed permanently."
+      description: "Acne scarring isn't a single pattern, and that matters when discussing whether RF microneedling is a reasonable option. Atrophic scars — the shallow depressions left behind by inflammatory acne — are the type most commonly discussed in relation to this treatment. Within that category, rolling scars, which have sloped edges and a wave-like texture, tend to respond to the combination of mechanical remodelling and thermal stimulation more readily than other patterns. Boxcar scars, with sharper, more defined edges, may show some improvement in overall texture but often need to be assessed for whether an additional technique, such as subcision, would be more appropriate. Deeper or tethered scars, where scar tissue is fixed to underlying structures, frequently need a different or combined approach altogether, since needling and heat alone may not adequately address the tethering. This is why a professional assessment of scar type and depth is a meaningful part of the conversation before RF microneedling is recommended — and why outcomes are described as the appearance of scarring “may improve,” never as scars being removed permanently."
     },
     {
       title: "Skin Tightening",
@@ -115,7 +115,7 @@ export const rfMicroneedlingConcerns = {
     },
     {
       title: "Enlarged-Looking Pores",
-      description: "Pores can look more prominent for several overlapping reasons — oil production, the surrounding skin's structural support, sun exposure, and genetics all play a role. RF microneedling's remodelling effect on surrounding tissue may make pores look less prominent for some patients, largely because firmer, better-supported skin around a pore can reduce how much it stands out. It's important to be accurate here: pores are anatomical structures, not defects, and no treatment permanently “closes” them. What changes is how prominent they appear, not their underlying presence."
+      description: "Pores can look more prominent for several overlapping reasons — oil production, the surrounding skin's structural support, sun exposure, and genetics all play a role. RF microneedling's remodelling effect on surrounding tissue may make pores look less prominent for some patients, largely because firmer, better-supported skin around a pore can reduce how much it stands out. It's important to be accurate here: pores are anatomical structures, not defects, and no treatment permanently “closes” them. What changes is how prominent they appear, not their underlying presence."
     },
     {
       title: "Fine Lines",
@@ -194,7 +194,7 @@ export const rfMicroneedlingSensation = {
 
 export const rfMicroneedlingDowntime = {
   title: "Does RF Microneedling Have Downtime?",
-  description: "Some downtime is typical, though how much varies by patient, treatment intensity, and area. Commonly reported effects in the days after treatment include redness, warmth, mild swelling, sensitivity, tightness, and dryness. It would not be accurate to describe RF microneedling as a “zero downtime” treatment — most patients notice some visible effect for at least a day or two."
+  description: "Some downtime is typical, though how much varies by patient, treatment intensity, and area. Commonly reported effects in the days after treatment include redness, warmth, mild swelling, sensitivity, tightness, and dryness. It would not be accurate to describe RF microneedling as a “zero downtime” treatment — most patients notice some visible effect for at least a day or two."
 };
 
 export const rfMicroneedlingRecoveryGuide = {
@@ -250,7 +250,7 @@ export const rfMicroneedlingExpectations = {
 
 export const rfMicroneedlingBeforeAfter = {
   title: "RF Microneedling Before and After",
-  description: "If you're looking at before-and-after images, from any clinic, it's worth checking for basic consistency: the same lighting, the same camera angle, a similar facial expression, and a stated interval between the two images. Authentic, unedited photographs with those details in place are far more informative than dramatic images without that context. Any genuine photographs shared by Vedara Care would only be used with the patient's permission and an accurate description of the treatment and timeframe involved — fabricated or stock “results” imagery is not used."
+  description: "If you're looking at before-and-after images, from any clinic, it's worth checking for basic consistency: the same lighting, the same camera angle, a similar facial expression, and a stated interval between the two images. Authentic, unedited photographs with those details in place are far more informative than dramatic images without that context. Any genuine photographs shared by Vedara Care would only be used with the patient's permission and an accurate description of the treatment and timeframe involved — fabricated or stock “results” imagery is not used."
 };
 
 export const rfMicroneedlingLocation = {

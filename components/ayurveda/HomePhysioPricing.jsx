@@ -66,7 +66,7 @@ const HomePhysioPricing = ({
           {/* Comparison */}
           <div>
             <h3 className="text-[1.1rem] text-[#1C1814] mb-6 font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
-              Comparison — clinic vs. home
+              Comparison  -  clinic vs. home
             </h3>
             <div className="rounded-xl border border-black/10 overflow-hidden mb-8">
               <table className="w-full text-sm">

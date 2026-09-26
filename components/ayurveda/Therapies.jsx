@@ -58,7 +58,7 @@ const Therapies = ({
               <div className="mt-4 pt-4 border-t border-[#F0E9DD] space-y-2">
                 <p className="text-[12px] text-[#6B6B6B] font-sans leading-relaxed">
                   <span className="font-medium text-[#1A1A1A]">{item.duration}</span>
-                  <span> · Best for: {item.bestFor}</span>
+                  <span> - Best for: {item.bestFor}</span>
                 </p>
                 {item.link ? (
                   <a href={item.link} className="text-[12px] font-sans font-medium text-[#C9A961] flex items-center gap-1 hover:underline">

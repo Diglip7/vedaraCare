@@ -414,7 +414,7 @@ export default function RfSkinTighteningJvc() {
           { label: 'Treatments', href: '/treatments' },
           { label: 'RF Skin Tightening', href: '/treatments/rf-skin-tightening-jvc' }
         ]}
-        label="Vedara Care Polyclinic • JVC Dubai"
+        label="Vedara Care Polyclinic ”¢ JVC Dubai"
         title="RF Skin Tightening in JVC — Comfortable Series-Based Skin Firming Under Medical Director Oversight"
         description={`Radiofrequency energy that heats the dermis to therapeutic temperature and triggers your skin's own collagen response — delivered as a comfortable series by an RF device-certified aesthetician, cleared by our Consultant Dermatologist Medical Director. Warm treatment sensation. Zero downtime.<br/>Programme of 4 from AED 3,750. Comfortable warm treatment sensation. Zero downtime.</span>`}
         image="/images/rf-skin-tightening-jvc-hero-bg.webp"

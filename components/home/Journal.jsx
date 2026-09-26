@@ -146,7 +146,7 @@ const Journal = ({
                   <div className="text-[12px] text-[#6B6B6B] font-sans flex items-center gap-2">
                     <Calendar className="w-3 h-3" />
                     <span>{formatDate(post.createdAt)}</span>
-                    <span className="px-1">•</span>
+                    <span className="px-1">-</span>
                     <Clock className="w-3 h-3" />
                     <span>{post.readTime} min read</span>
                   </div>

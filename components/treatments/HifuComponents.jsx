@@ -11,12 +11,12 @@ export const HifuHero = () => {
         { label: 'Treatments', href: '/treatments' },
         { label: 'HIFU Skin Lifting', href: '/treatments/hifu-skin-lifting-tightening-jvc' }
       ]}
-      label="Vedara Care Polyclinic • JVC Dubai"
+      label="Vedara Care Polyclinic - JVC Dubai"
       title="HIFU Skin Lifting & Tightening in JVC"
       description={`Non-surgical SMAS lift delivered under Medical Director oversight.<br />
 Focused ultrasound at the same tissue depth surgeons target in facelift surgery.<br /><br />
-<span class="font-sans font-medium text-[14px] text-[#555555]">"HIFU targets the SMAS — the same tissue layer surgeons address in facelift. My role is patient medical clearance and protocol design. Arfah delivers because HIFU is device-operator scope."</span><br />
-<span class="text-[12px] text-[#888888]">— Medical Director, DHA-Licensed Consultant Dermatologist, Vedara Care JVC</span>`}
+<span class="font-sans font-medium text-[14px] text-[#555555]">"HIFU targets the SMAS  -  the same tissue layer surgeons address in facelift. My role is patient medical clearance and protocol design. Arfah delivers because HIFU is device-operator scope."</span><br />
+<span class="text-[12px] text-[#888888]"> -  Medical Director, DHA-Licensed Consultant Dermatologist, Vedara Care JVC</span>`}
       image="/images/hifu-jvc-hero-bg.webp"
       alt="Vedara Care JVC treatment room with HIFU device on the treatment cart, prepared for a skin lifting session under Medical Director protocol"
       floatingCard={{
@@ -58,7 +58,7 @@ export const HifuQuickAnswer = () => {
             <div className="flex flex-wrap gap-x-6 gap-y-3">
               {['✓ DHA-Licensed', '✓ HIFU-Certified Operator', '✓ Medical Director Cleared', '✓ 8+ Years Experience', '✓ Transparent Pricing', '✓ Free Consultation'].map((badge, i) => (
                 <span key={i} className="font-sans text-[13px] text-[#555555] flex items-center">
-                  <span className="text-[#C8A87F] mr-1.5">•</span> {badge.replace('✓ ', '')}
+                  <span className="text-[#C8A87F] mr-1.5">-</span> {badge.replace('✓ ', '')}
                 </span>
               ))}
             </div>
@@ -67,7 +67,7 @@ export const HifuQuickAnswer = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-[#FAF7F2] p-6 rounded-xl border border-[#EAE3D9]">
               <div className="font-serif text-[32px] text-[#C8A87F] mb-2">4.5mm</div>
-              <div className="font-sans text-[13px] text-[#555555] leading-[1.5]">SMAS depth targeted — same tissue layer as facelift surgery</div>
+              <div className="font-sans text-[13px] text-[#555555] leading-[1.5]">SMAS depth targeted  -  same tissue layer as facelift surgery</div>
             </div>
             <div className="bg-[#FAF7F2] p-6 rounded-xl border border-[#EAE3D9]">
               <div className="font-serif text-[32px] text-[#C8A87F] mb-2">60-90</div>
@@ -75,7 +75,7 @@ export const HifuQuickAnswer = () => {
             </div>
             <div className="bg-[#FAF7F2] p-6 rounded-xl border border-[#EAE3D9]">
               <div className="font-serif text-[32px] text-[#C8A87F] mb-2">0</div>
-              <div className="font-sans text-[13px] text-[#555555] leading-[1.5]">Clinical downtime — return to normal activity same day</div>
+              <div className="font-sans text-[13px] text-[#555555] leading-[1.5]">Clinical downtime  -  return to normal activity same day</div>
             </div>
             <div className="bg-[#FAF7F2] p-6 rounded-xl border border-[#EAE3D9]">
               <div className="font-serif text-[32px] text-[#C8A87F] mb-2">12-18</div>
@@ -93,42 +93,42 @@ export const HifuQuickAnswer = () => {
 export const HifuAtAGlance = () => {
   const points = [
     {
-      icon: "🔬",
+      icon: "ðŸ”¬",
       title: "Treatment Type",
       desc: "Non-invasive ultrasound based skin lifting and tightening. No needles, no incisions, no anaesthesia beyond topical numbing. Device-based structural intervention targeting SMAS, reticular dermis, and superficial dermis at controlled depths."
     },
     {
-      icon: "⏱️",
+      icon: "â±ï¸",
       title: "Session Duration",
       desc: "Full face + neck: 60-90 minutes chair time. Face-only or single-zone (jawline, submental, brow, décolletage): 30-45 minutes. Consultation and mapping added to first session."
     },
     {
-      icon: "💧",
+      icon: "ðŸ’§",
       title: "Recovery & Downtime",
       desc: "Zero clinical downtime. Mild redness or slight tenderness 24-72 hours possible. Return to normal activity same day. Makeup permitted next day. No exercise restrictions beyond first 24 hours."
     },
     {
-      icon: "📅",
+      icon: "ðŸ“…",
       title: "Results Timeline",
       desc: "Initial subtle tightening within 2-4 weeks. Peak collagen remodelling 60-90 days post-session. Continued improvement to 6 months. Result durability typically 12-18 months in appropriate candidates."
     },
     {
-      icon: "💰",
+      icon: "ðŸ’°",
       title: "Investment Range",
       desc: "Single-zone from AED 1,200. Full face from AED 2,000. Full face + neck from AED 2,400. Face + neck + décolletage from AED 3,000. Programme course of 2 sessions delivers 15-20% savings."
     },
     {
-      icon: "👩‍⚕️",
+      icon: "ðŸ‘©”âš•ï¸",
       title: "Primary Delivery",
       desc: "Arfah Owais, DHA-Licensed Aesthetician (CIBTAC-UK), HIFU device-specific certified, 8+ years aesthetic experience. Medical clearance and protocol design by our DHA-Licensed Consultant Dermatologist Medical Director."
     },
     {
-      icon: "🎯",
+      icon: "ðŸŽ¯",
       title: "Best For",
       desc: "Mild-to-moderate skin laxity, early jawline softening, submental laxity, brow position adjustment, décolletage skin quality. Patients with severe laxity or significant excess skin are referred to plastic surgery consultation."
     },
     {
-      icon: "🔄",
+      icon: "ðŸ”„",
       title: "Sessions Required",
       desc: "Most patients: single annual session with maintenance. Established laxity: programme course of 2 sessions 6-9 months apart, then annual. Determined at consultation, not sold as fixed package."
     }
@@ -140,7 +140,7 @@ export const HifuAtAGlance = () => {
         <div className="mb-12 text-center max-w-[800px] mx-auto">
           <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 3</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2]">
-            HIFU Skin Lifting & Tightening at Vedara Care JVC — At a Glance
+            HIFU Skin Lifting & Tightening at Vedara Care JVC  -  At a Glance
           </h2>
         </div>
 
@@ -164,7 +164,7 @@ export const HifuAtAGlance = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">💬</span> Ask on WhatsApp
+              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex justify-center flex-wrap gap-4">
@@ -183,17 +183,17 @@ export const HifuWhyUs = () => {
     {
       num: "01",
       title: "Medical Director Oversight on Every HIFU Case",
-      desc: "HIFU is device-operator scope in Dubai — but at Vedara Care JVC, every patient we accept for HIFU has first passed a Consultant Dermatologist Medical Director medical screening. That clearance protects patient safety, ensures energy parameters are appropriate for skin type and laxity pattern, and means adverse events are managed within the same clinical governance structure. Most Dubai HIFU providers do not offer this layered oversight."
+      desc: "HIFU is device-operator scope in Dubai  -  but at Vedara Care JVC, every patient we accept for HIFU has first passed a Consultant Dermatologist Medical Director medical screening. That clearance protects patient safety, ensures energy parameters are appropriate for skin type and laxity pattern, and means adverse events are managed within the same clinical governance structure. Most Dubai HIFU providers do not offer this layered oversight."
     },
     {
       num: "02",
       title: "Honest Patient Triage (We Refuse Inappropriate Cases)",
-      desc: "HIFU is a genuinely effective treatment — for the right candidate. It is not a substitute for surgical facelift in patients with severe laxity or significant excess skin. Our Medical Director's consultation includes explicit triage: patients who would be better served by surgical consultation are told so directly, not sold HIFU sessions that will disappoint them."
+      desc: "HIFU is a genuinely effective treatment  -  for the right candidate. It is not a substitute for surgical facelift in patients with severe laxity or significant excess skin. Our Medical Director's consultation includes explicit triage: patients who would be better served by surgical consultation are told so directly, not sold HIFU sessions that will disappoint them."
     },
     {
       num: "03",
       title: "HIFU Device-Specific Operator Certification",
-      desc: "Arfah Owais holds specific HIFU device certification alongside her DHA-Licensed Aesthetician credential (CIBTAC-UK) and 8+ years aesthetic experience. HIFU delivery quality depends heavily on operator technique — vector mapping, cartridge selection, depth sequencing, treatment overlap. We invested in device-specific certification before delivering HIFU independently."
+      desc: "Arfah Owais holds specific HIFU device certification alongside her DHA-Licensed Aesthetician credential (CIBTAC-UK) and 8+ years aesthetic experience. HIFU delivery quality depends heavily on operator technique  -  vector mapping, cartridge selection, depth sequencing, treatment overlap. We invested in device-specific certification before delivering HIFU independently."
     },
     {
       num: "04",
@@ -208,7 +208,7 @@ export const HifuWhyUs = () => {
     {
       num: "06",
       title: "JVC Neighbourhood Convenience + Full Aesthetic Cluster",
-      desc: "Our Jumeirah Village Circle clinic is walking distance from Circle Mall, 3 minutes from FIVE Jumeirah Hotel, and 5 minutes from JSS Private School. Free parking. DHA-Licensed multi-specialty facility. HIFU integrates with our broader aesthetic cluster — mesotherapy, PRP, exosome therapy, anti-aging maintenance protocol, and hydration facials."
+      desc: "Our Jumeirah Village Circle clinic is walking distance from Circle Mall, 3 minutes from FIVE Jumeirah Hotel, and 5 minutes from JSS Private School. Free parking. DHA-Licensed multi-specialty facility. HIFU integrates with our broader aesthetic cluster  -  mesotherapy, PRP, exosome therapy, anti-aging maintenance protocol, and hydration facials."
     }
   ];
 
@@ -237,14 +237,14 @@ export const HifuWhyUs = () => {
         <div className="bg-[#FAF7F2] rounded-xl border border-[#EAE3D9] p-8 md:p-12 text-center max-w-[1200px] mx-auto">
           <h3 className="font-serif text-[24px] text-[#1F1F1F] mb-4">The peer-reviewed evidence supports HIFU efficacy. The question is whether you're an appropriate candidate.</h3>
           <p className="font-sans text-[15px] text-[#555555] mb-8">
-            That's what the free 30-minute consultation determines. Medical Director medical clearance included. Honest triage — including 'you'd be better served by a surgical consultation' if that's the accurate answer.
+            That's what the free 30-minute consultation determines. Medical Director medical clearance included. Honest triage  -  including 'you'd be better served by a surgical consultation' if that's the accurate answer.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-6">
             <Link href="/book" className="inline-flex items-center justify-center bg-[#C8A87F] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#B5956C] transition-colors no-underline">
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">💬</span> Ask on WhatsApp
+              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex justify-center flex-wrap gap-4">
@@ -264,7 +264,7 @@ export const HifuEvidence = () => {
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_350px] gap-12 mb-16">
           <div>
-            <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 5 • Evidence Base</div>
+            <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 5 - Evidence Base</div>
             <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2] mb-6">
               How Does HIFU Compare to a Surgical Facelift?
             </h2>
@@ -272,7 +272,7 @@ export const HifuEvidence = () => {
               HIFU (High-Intensity Focused Ultrasound) is a non-surgical alternative to facelift that targets the same SMAS tissue layer through focused ultrasound energy rather than surgical incision and re-suspension. HIFU is appropriate for <strong>mild-to-moderate skin laxity</strong> in patients with reasonable skin quality; it does not replace surgical facelift for severe laxity or significant excess skin.
             </p>
             <p className="font-sans text-[15px] text-[#444444] leading-[1.7]">
-              At Vedara Care Polyclinic JVC, Medical Director consultation includes explicit triage — patients better served by surgical consultation are referred rather than accepted for HIFU. Result timeline: 60-90 day peak collagen remodelling, 12-18 month durability, annual maintenance recommended.
+              At Vedara Care Polyclinic JVC, Medical Director consultation includes explicit triage  -  patients better served by surgical consultation are referred rather than accepted for HIFU. Result timeline: 60-90 day peak collagen remodelling, 12-18 month durability, annual maintenance recommended.
             </p>
           </div>
 
@@ -289,7 +289,7 @@ export const HifuEvidence = () => {
                 "Post-surgical facelift patients seeking maintenance"
               ].map((item, i) => (
                 <li key={i} className="font-sans text-[13px] text-[#555555] flex items-start">
-                  <span className="text-[#C8A87F] mr-2 text-[10px] mt-1">■</span> {item}
+                  <span className="text-[#C8A87F] mr-2 text-[10px] mt-1">â– </span> {item}
                 </li>
               ))}
             </ul>
@@ -297,17 +297,17 @@ export const HifuEvidence = () => {
         </div>
 
         <div className="mb-8">
-          <h3 className="font-serif text-[24px] text-[#1F1F1F] mb-6">External Authority — Peer-Reviewed Evidence</h3>
+          <h3 className="font-serif text-[24px] text-[#1F1F1F] mb-6">External Authority  -  Peer-Reviewed Evidence</h3>
           <p className="font-sans text-[14px] text-[#555555] mb-6">The clinical efficacy of HIFU for facial and neck skin tightening is documented in the following peer-reviewed literature. Ultherapy specifically holds FDA clearance for non-invasive brow, submental, and décolletage lifting.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               { authors: "Alam M, et al.", journal: "Journal of the American Academy of Dermatology, 2010", text: "First peer-reviewed prospective study documenting safe, blinded facial and neck skin tightening outcomes at 90 days post-single-session HIFU." },
-              { authors: "Suh DH, et al.", journal: "Dermatologic Surgery, 2011", text: "Clinical evidence for HIFU efficacy specifically in Asian (Fitzpatrick III-V) skin — critical for Dubai patient demographics." },
+              { authors: "Suh DH, et al.", journal: "Dermatologic Surgery, 2011", text: "Clinical evidence for HIFU efficacy specifically in Asian (Fitzpatrick III-V) skin  -  critical for Dubai patient demographics." },
               { authors: "Fabi SG.", journal: "Clinical, Cosmetic and Investigational Dermatology, 2015", text: "Comprehensive review of ultrasound-based skin tightening including patient selection criteria, expected outcomes, and comparison to competing modalities." },
               { authors: "Lee HS, et al.", journal: "Dermatologic Surgery, 2012", text: "Evidence for multiple-pass HIFU protocol efficacy on lower face and neck laxity." },
-              { authors: "Oni G, et al.", journal: "Aesthetic Surgery Journal, 2014", text: "Formal aesthetic surgery journal evaluation of microfocused ultrasound for lower face — bridges dermatology and aesthetic surgery evidence base." },
-              { authors: "Werschler WP & Werschler PS", journal: "Journal of Clinical and Aesthetic Dermatology, 2016", text: "Long-term efficacy and restoring treatment methodology — supports 12-24 month result durability claims." }
+              { authors: "Oni G, et al.", journal: "Aesthetic Surgery Journal, 2014", text: "Formal aesthetic surgery journal evaluation of microfocused ultrasound for lower face  -  bridges dermatology and aesthetic surgery evidence base." },
+              { authors: "Werschler WP & Werschler PS", journal: "Journal of Clinical and Aesthetic Dermatology, 2016", text: "Long-term efficacy and restoring treatment methodology  -  supports 12-24 month result durability claims." }
             ].map((study, i) => (
               <div key={i} className="bg-[#F4F0EA] p-5 rounded border border-[#EAE3D9]">
                 <div className="font-sans text-[12px] font-bold text-[#333333]">{study.authors}</div>
@@ -327,13 +327,13 @@ export const HifuClinicalEducation = () => {
     <section className="py-20 bg-[#FAF7F2]">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-12 max-w-[900px]">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 6 • Clinical Education</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 6 - Clinical Education</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2] mb-6">
-            Understanding HIFU Skin Lifting & Tightening — What Actually Happens Under the Skin
+            Understanding HIFU Skin Lifting & Tightening  -  What Actually Happens Under the Skin
           </h2>
           <div className="border-l-2 border-[#C8A87F] pl-4 py-1">
             <p className="font-sans text-[15px] text-[#444444] leading-[1.7] m-0">
-              <strong>What does HIFU actually do to the skin?</strong> HIFU delivers focused ultrasound energy through the skin's surface to precise depths (1.5mm, 3.0mm, and 4.5mm) where it creates thermal coagulation points within the dermis and SMAS layer. The controlled thermal injury triggers a 60-90 day wound-healing cascade — fibroblast activation, new collagen synthesis, and tightening of existing collagen fibres. The result is gradual, structural lifting of the SMAS layer and improved skin quality without incisions, injections, or clinical downtime.
+              <strong>What does HIFU actually do to the skin?</strong> HIFU delivers focused ultrasound energy through the skin's surface to precise depths (1.5mm, 3.0mm, and 4.5mm) where it creates thermal coagulation points within the dermis and SMAS layer. The controlled thermal injury triggers a 60-90 day wound-healing cascade  -  fibroblast activation, new collagen synthesis, and tightening of existing collagen fibres. The result is gradual, structural lifting of the SMAS layer and improved skin quality without incisions, injections, or clinical downtime.
             </p>
           </div>
         </div>
@@ -364,10 +364,10 @@ export const HifuClinicalEducation = () => {
           <div>
             <h3 className="font-serif text-[24px] text-[#1F1F1F] mb-4">Vectoring Methodology</h3>
             <p className="font-sans text-[14px] text-[#555555] leading-[1.7] mb-4">
-              HIFU treatment lines are not delivered uniformly across the face. Effective HIFU protocols use <strong>vectoring</strong> — a mapping methodology that places treatment lines along specific vectors that produce the intended lifting direction. Jawline vectoring, mid-face vectoring, submental focus, and lateral brow lifting each require distinct vector patterns.
+              HIFU treatment lines are not delivered uniformly across the face. Effective HIFU protocols use <strong>vectoring</strong>  -  a mapping methodology that places treatment lines along specific vectors that produce the intended lifting direction. Jawline vectoring, mid-face vectoring, submental focus, and lateral brow lifting each require distinct vector patterns.
             </p>
             <p className="font-sans text-[14px] text-[#555555] leading-[1.7] m-0">
-              At Vedara Care JVC, Arfah maps treatment vectors before every session based on that patient's specific anatomy and the Medical Director's clinical assessment of laxity pattern. Vector maps are documented — so that when a patient returns for annual maintenance, we know exactly which vectors we treated previously and can refine the protocol based on the observed 12-month response.
+              At Vedara Care JVC, Arfah maps treatment vectors before every session based on that patient's specific anatomy and the Medical Director's clinical assessment of laxity pattern. Vector maps are documented  -  so that when a patient returns for annual maintenance, we know exactly which vectors we treated previously and can refine the protocol based on the observed 12-month response.
             </p>
           </div>
 
@@ -380,7 +380,7 @@ export const HifuClinicalEducation = () => {
               </div>
               <div className="flex gap-4">
                 <div className="bg-[#F4F0EA] border border-[#C8A87F] rounded px-3 py-1 font-sans text-[11px] text-[#C8A87F] whitespace-nowrap h-fit mt-1">Weeks 8-12</div>
-                <div className="font-sans text-[14px] text-[#1F1F1F] font-medium leading-[1.6]">Peak collagen remodelling window — structural lifting becomes visible</div>
+                <div className="font-sans text-[14px] text-[#1F1F1F] font-medium leading-[1.6]">Peak collagen remodelling window  -  structural lifting becomes visible</div>
               </div>
               <div className="flex gap-4">
                 <div className="bg-[#F4F0EA] border border-[#EAE3D9] rounded px-3 py-1 font-sans text-[11px] text-[#888888] whitespace-nowrap h-fit mt-1">Months 3-6</div>
@@ -399,7 +399,7 @@ export const HifuClinicalEducation = () => {
         </div>
 
         <div>
-          <h3 className="font-serif text-[24px] text-[#1F1F1F] mb-6">Common Questions — Directly Addressed</h3>
+          <h3 className="font-serif text-[24px] text-[#1F1F1F] mb-6">Common Questions  -  Directly Addressed</h3>
           <div className="space-y-4">
             <div className="bg-[#F4F0EA] p-6 rounded-xl border border-[#EAE3D9]">
               <div className="font-sans text-[14px] font-bold text-[#333333] mb-2">Q: Isn't HIFU old technology by now?</div>
@@ -407,17 +407,17 @@ export const HifuClinicalEducation = () => {
             </div>
             <div className="bg-[#F4F0EA] p-6 rounded-xl border border-[#EAE3D9]">
               <div className="font-sans text-[14px] font-bold text-[#333333] mb-2">Q: How do I know HIFU actually works? Isn't it just marketing?</div>
-              <div className="font-sans text-[14px] text-[#555555] leading-[1.6]">HIFU efficacy for facial and neck skin tightening is documented in peer-reviewed literature — case-blinded prospective studies published in Journal of the American Academy of Dermatology, Dermatologic Surgery, Aesthetic Surgery Journal, and other indexed dermatology journals. This is not aesthetic industry marketing evidence — this is medical literature evidence.</div>
+              <div className="font-sans text-[14px] text-[#555555] leading-[1.6]">HIFU efficacy for facial and neck skin tightening is documented in peer-reviewed literature  -  case-blinded prospective studies published in Journal of the American Academy of Dermatology, Dermatologic Surgery, Aesthetic Surgery Journal, and other indexed dermatology journals. This is not aesthetic industry marketing evidence  -  this is medical literature evidence.</div>
             </div>
             <div className="bg-[#F4F0EA] p-6 rounded-xl border border-[#EAE3D9]">
               <div className="font-sans text-[14px] font-bold text-[#333333] mb-2">Q: Doesn't HIFU hurt?</div>
-              <div className="font-sans text-[14px] text-[#555555] leading-[1.6]">HIFU sensation varies significantly by depth, area, and patient. The 4.5mm SMAS-targeting cartridge produces the most intense sensation — described as a brief warm or prickling sensation with each ultrasound pulse. At Vedara Care JVC, we apply topical numbing 30-45 minutes before treatment. Most patients describe HIFU as a "manageable 4-6 out of 10 discomfort" for the deepest cartridge.</div>
+              <div className="font-sans text-[14px] text-[#555555] leading-[1.6]">HIFU sensation varies significantly by depth, area, and patient. The 4.5mm SMAS-targeting cartridge produces the most intense sensation  -  described as a brief warm or prickling sensation with each ultrasound pulse. At Vedara Care JVC, we apply topical numbing 30-45 minutes before treatment. Most patients describe HIFU as a "manageable 4-6 out of 10 discomfort" for the deepest cartridge.</div>
             </div>
           </div>
         </div>
 
         <div className="bg-[#F4F0EA] rounded-xl border border-[#C8A87F]/30 p-8 md:p-10 text-center max-w-[1200px] mx-auto mt-16">
-          <h3 className="font-serif text-[24px] text-[#1F1F1F] mb-4">Now that you understand what HIFU actually does — is it the right treatment for your face?</h3>
+          <h3 className="font-serif text-[24px] text-[#1F1F1F] mb-4">Now that you understand what HIFU actually does  -  is it the right treatment for your face?</h3>
           <p className="font-sans text-[15px] text-[#555555] mb-8">
             The consultation will tell you. Medical Director assessment, honest candidacy triage, personalized protocol design if you're a fit, honest referral to surgical consultation if you're not.
           </p>
@@ -426,7 +426,7 @@ export const HifuClinicalEducation = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">💬</span> Ask on WhatsApp
+              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex justify-center flex-wrap gap-4">
@@ -443,62 +443,62 @@ export const HifuClinicalEducation = () => {
 export const HifuPatientSelection = () => {
   const populations = [
     {
-      icon: "👩",
+      icon: "ðŸ‘©",
       title: "Early Intervention Seeker (Mid-30s Prevention)",
       desc: "Female or male, 32-38, Dubai professional, first indicators of skin quality decline or jawline softening. Wants to intervene before more visible aging occurs. Appropriate as preventive-oriented single-session intervention with annual maintenance."
     },
     {
-      icon: "💎",
+      icon: "ðŸ’Ž",
       title: "Structural Correction Candidate (Mid-40s)",
       desc: "Female, 40-48, visible mid-face and jawline laxity, evaluating non-surgical alternatives to facelift. Strong appropriateness for this profile. Typical protocol: programme course of 2 sessions 6-9 months apart, then annual maintenance. Highest conversion cluster."
     },
     {
-      icon: "⚖️",
+      icon: "âš–ï¸",
       title: "Post-Weight-Loss Patient",
       desc: "Female or male, 35-55, post-significant weight loss, mild-to-moderate facial and submental laxity. Appropriate for mild-to-moderate residual laxity. Patients with severe redundancy are referred to plastic surgery consultation."
     },
     {
-      icon: "👔",
+      icon: "ðŸ‘”",
       title: "Male Executive",
-      desc: "Male, 38-55, Dubai C-suite, discreet aesthetic consumer. Jawline definition and submental focus, minimal downtime requirement. Highly appropriate — HIFU produces natural-appearance structural change without visible intervention markers."
+      desc: "Male, 38-55, Dubai C-suite, discreet aesthetic consumer. Jawline definition and submental focus, minimal downtime requirement. Highly appropriate  -  HIFU produces natural-appearance structural change without visible intervention markers."
     },
     {
-      icon: "💍",
+      icon: "ðŸ’",
       title: "Pre-Event / Pre-Milestone Patient",
       desc: "Female, 30-50, planning a wedding, anniversary, or major event 4-6 months out. Appropriate IF the event is 4+ months away (matches 60-90 day peak result window). NOT appropriate for events within 4 weeks."
     },
     {
-      icon: "☀️",
+      icon: "â˜€ï¸",
       title: "Fitzpatrick IV-V Patient (South Asian, Middle Eastern)",
-      desc: "Female or male, 30-55, seeking practitioner experienced with darker skin phenotypes. HIFU does not target melanin — no post-inflammatory hyperpigmentation risk. Suh 2011 study specifically documents efficacy in Asian skin."
+      desc: "Female or male, 30-55, seeking practitioner experienced with darker skin phenotypes. HIFU does not target melanin  -  no post-inflammatory hyperpigmentation risk. Suh 2011 study specifically documents efficacy in Asian skin."
     },
     {
-      icon: "🌸",
+      icon: "ðŸŒ¸",
       title: "Post-Pregnancy Recovery Patient",
       desc: "Female, 32-42, out of breastfeeding window, weight-stable, seeking facial recontouring. Appropriate once no longer nursing and weight has stabilized. Often combined with mesotherapy or PRP for hydration + collagen layered protocol."
     },
     {
-      icon: "🌿",
+      icon: "ðŸŒ¿",
       title: "Menopausal / Peri-Menopausal Patient",
       desc: "Female, 45-55, oestrogen decline visible in skin quality and laxity acceleration. Appropriate as one component of broader menopausal skin support programme. Cross-integration with perimenopause programme available."
     },
     {
-      icon: "✨",
+      icon: "âœ¨",
       title: "Décolletage-Focused Patient",
       desc: "Female, 38-55, primary concern is neck and décolletage laxity, sun-damage-driven. Ultherapy holds specific FDA clearance for décolletage lifting. Often combined with facial HIFU as full programme."
     },
     {
-      icon: "✂️",
+      icon: "âœ‚ï¸",
       title: "Post-Surgical Facelift Maintenance",
       desc: "Female, 50-65, has had surgical facelift 2-5+ years prior, seeks non-surgical maintenance to extend the surgical result. Medical Director oversight is essential for this cluster."
     },
     {
-      icon: "👁️",
+      icon: "ðŸ‘ï¸",
       title: "Brow Position Correction Patient",
       desc: "Female or male, 35-55, primary concern is lateral brow descent. Ultherapy holds specific FDA clearance for non-invasive brow lift. HIFU at 4.5mm can produce visible brow position improvement over 60-90 days."
     },
     {
-      icon: "🔄",
+      icon: "ðŸ”„",
       title: "Combined Modality Programme Patient",
       desc: "Any age 30-58, has used other Vedara Care aesthetic modalities and wants to integrate HIFU as the structural layer in a broader personalized programme. Medical Director designs sequencing to optimize collagen response."
     }
@@ -508,12 +508,12 @@ export const HifuPatientSelection = () => {
     <section className="py-20 bg-[#F4F0EA]">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-12 max-w-[900px]">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 7 • Patient Selection</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 7 - Patient Selection</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2] mb-6">
-            Who HIFU at Vedara Care JVC Is Designed For — And Who It Isn't
+            Who HIFU at Vedara Care JVC Is Designed For  -  And Who It Isn't
           </h2>
           <p className="font-sans text-[15px] text-[#444444] leading-[1.7] m-0">
-            HIFU at Vedara Care Polyclinic JVC is appropriate for patients with <strong>mild-to-moderate skin laxity</strong>, reasonable skin quality, realistic result expectations, and no contraindicating medical conditions. HIFU is not appropriate for severe laxity, significant excess skin, active dermatological conditions in the treatment area, pregnancy, or specific medical contraindications — those patients we refer to appropriate alternative care.
+            HIFU at Vedara Care Polyclinic JVC is appropriate for patients with <strong>mild-to-moderate skin laxity</strong>, reasonable skin quality, realistic result expectations, and no contraindicating medical conditions. HIFU is not appropriate for severe laxity, significant excess skin, active dermatological conditions in the treatment area, pregnancy, or specific medical contraindications  -  those patients we refer to appropriate alternative care.
           </p>
         </div>
 
@@ -528,7 +528,7 @@ export const HifuPatientSelection = () => {
         </div>
 
         <div className="bg-[#FAF7F2] border border-[#EAE3D9] p-8 rounded-xl mb-12">
-          <h3 className="font-serif text-[22px] text-[#1F1F1F] mb-6">Contraindication Notice — DHA Compliance & Patient Safety</h3>
+          <h3 className="font-serif text-[22px] text-[#1F1F1F] mb-6">Contraindication Notice  -  DHA Compliance & Patient Safety</h3>
           <p className="font-sans text-[14px] text-[#555555] mb-6">HIFU is NOT appropriate for patients with the following:</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-y-4 gap-x-8 mb-8">
@@ -544,28 +544,28 @@ export const HifuPatientSelection = () => {
               "Unrealistic expectations not addressable at consultation"
             ].map((item, i) => (
               <div key={i} className="flex items-start">
-                <span className="text-[#D9534F] mr-2 mt-0.5 text-[12px]">✗</span>
+                <span className="text-[#D9534F] mr-2 mt-0.5 text-[12px]">âœ—</span>
                 <span className="font-sans text-[13px] text-[#555555] leading-[1.4]">{item}</span>
               </div>
             ))}
           </div>
 
           <p className="font-sans text-[12px] italic text-[#777777] m-0">
-            Every HIFU consultation at Vedara Care JVC includes explicit contraindication screening by the Medical Director. Patients with contraindications are not booked for HIFU regardless of consumer preference — this is patient safety, not commercial choice.
+            Every HIFU consultation at Vedara Care JVC includes explicit contraindication screening by the Medical Director. Patients with contraindications are not booked for HIFU regardless of consumer preference  -  this is patient safety, not commercial choice.
           </p>
         </div>
 
         <div className="bg-[#F4F0EA] rounded-xl border border-[#C8A87F]/30 p-8 md:p-10 text-center max-w-[1200px] mx-auto">
           <h3 className="font-serif text-[24px] text-[#1F1F1F] mb-4">Recognize yourself in one of these patient profiles? The consultation confirms whether HIFU is appropriate for your specific case.</h3>
           <p className="font-sans text-[15px] text-[#555555] mb-8">
-            Recognize a contraindication? Tell us at consultation — we'll design an alternative treatment pathway or refer you to appropriate care. Either way, the consultation is honest and no-pressure.
+            Recognize a contraindication? Tell us at consultation  -  we'll design an alternative treatment pathway or refer you to appropriate care. Either way, the consultation is honest and no-pressure.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-6">
             <Link href="/book" className="inline-flex items-center justify-center bg-[#C8A87F] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#B5956C] transition-colors no-underline">
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">💬</span> Ask on WhatsApp
+              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex justify-center flex-wrap gap-4">
@@ -582,7 +582,7 @@ export const HifuPatientSelection = () => {
 export const HifuProtocol = () => {
   const steps = [
     { num: "01", title: "Medical Clearance Verification", time: "5 min", desc: "Session begins with verification of the Medical Director's medical clearance documentation completed at the earlier consultation. Any new health changes since consultation (new medications, illness, procedures) are noted." },
-    { num: "02", title: "Consent and Photography", time: "5 min", desc: "Written informed consent specific to the session is reviewed and signed. Baseline photography is captured under standardized lighting conditions — front, oblique, profile, submental view, décolletage if included." },
+    { num: "02", title: "Consent and Photography", time: "5 min", desc: "Written informed consent specific to the session is reviewed and signed. Baseline photography is captured under standardized lighting conditions  -  front, oblique, profile, submental view, décolletage if included." },
     { num: "03", title: "Skin Cleansing and Preparation", time: "5 min", desc: "Treatment area is thoroughly cleansed with a gentle non-ablative cleanser to remove all makeup, sunscreen, oil, and residue. Skin is dried and lightly toned to ensure clean ultrasound coupling." },
     { num: "04", title: "Topical Anaesthetic Application", time: "30-45 min", desc: "Topical lidocaine 4-5% is applied to treatment areas under occlusion. Numbing window is 30-45 minutes for optimal comfort during 4.5mm cartridge delivery. Oral over-the-counter analgesia offered if requested." },
     { num: "05", title: "Vector Mapping", time: "10 min", desc: "Arfah maps treatment vectors using a fine marking pencil, following the protocol design cleared by the Medical Director. Jawline vectors, mid-face vectors, submental focus areas, lateral brow zones (if indicated), and décolletage zones are marked systematically." },
@@ -597,9 +597,9 @@ export const HifuProtocol = () => {
     <section className="py-20 bg-[#FAF7F2]">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-12 max-w-[1200px]">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 8 • Protocol</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 8 - Protocol</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2] mb-2">
-            The Vedara Care JVC HIFU Protocol — Ten-Step Session Structure
+            The Vedara Care JVC HIFU Protocol  -  Ten-Step Session Structure
           </h2>
           <p className="font-sans text-[14px] text-[#777777] mb-8">Total session time: 75-90 minutes for face + neck</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
@@ -672,9 +672,9 @@ export const HifuPatientJourney = () => {
     <section className="py-20 bg-[#F4F0EA]">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-12 max-w-[900px]">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 9 • Patient Journey</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 9 - Patient Journey</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2] mb-6">
-            What to Expect — Your Complete HIFU Patient Journey
+            What to Expect  -  Your Complete HIFU Patient Journey
           </h2>
           <p className="font-sans text-[15px] text-[#444444] leading-[1.7] m-0">
             The full HIFU experience at Vedara Care JVC spans five phases from initial enquiry to annual maintenance. Each phase is designed for clarity, honest expectation setting, and continuity of care.
@@ -702,7 +702,7 @@ export const HifuPatientJourney = () => {
               <li>Comprehensive skin laxity assessment by Medical Director</li>
               <li>Medical history and contraindication screening</li>
               <li>Laxity classification (mild / moderate / severe)</li>
-              <li>Candidacy determination — or honest referral to alternative care</li>
+              <li>Candidacy determination  -  or honest referral to alternative care</li>
               <li>Personalized protocol design and transparent pricing</li>
               <li>Written treatment plan and pricing document to take home</li>
             </ul>
@@ -749,7 +749,7 @@ export const HifuPatientJourney = () => {
         </div>
 
         <div className="bg-[#FAF7F2] rounded-xl border border-[#C8A87F]/30 p-8 md:p-10 max-w-[1200px] mx-auto text-center">
-          <h3 className="font-serif text-[20px] text-[#1F1F1F] mb-2">This is what the HIFU journey actually looks like — from enquiry to annual maintenance.</h3>
+          <h3 className="font-serif text-[20px] text-[#1F1F1F] mb-2">This is what the HIFU journey actually looks like  -  from enquiry to annual maintenance.</h3>
           <p className="font-sans text-[14px] text-[#555555] mb-8">
             No surprises, no upsells, no rushed decisions. Start with the free consultation. The rest of the journey only begins if you decide it's the right fit for your face.
           </p>
@@ -758,7 +758,7 @@ export const HifuPatientJourney = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">💬</span> Ask on WhatsApp
+              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
@@ -777,9 +777,9 @@ export const HifuCaseNarratives = () => {
     <section className="py-20 bg-[#FAF7F2]">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-12 max-w-[900px]">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 10 • Patient Journeys</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 10 - Patient Journeys</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2] mb-4">
-            Documented Patient Journeys — Composite Case Narratives
+            Documented Patient Journeys  -  Composite Case Narratives
           </h2>
           <p className="font-sans text-[13px] text-[#777777] italic leading-[1.6] m-0 max-w-[700px]">
             DHA advertising compliance note: The following case narratives are composite representations reflecting typical patient journeys within our HIFU practice at Vedara Care Polyclinic JVC. Individual results vary. No specific outcome is guaranteed. Names and identifying details are fictionalized.
@@ -796,7 +796,7 @@ export const HifuCaseNarratives = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-[5]"></div>
             </div>
             <div className="p-6">
-              <div className="font-sans text-[10px] text-[#888888] tracking-widest uppercase mb-2">FEMALE, 48 • MARKETING DIRECTOR • LONG-TERM DUBAI RESIDENT</div>
+              <div className="font-sans text-[10px] text-[#888888] tracking-widest uppercase mb-2">FEMALE, 48 - MARKETING DIRECTOR - LONG-TERM DUBAI RESIDENT</div>
               <div className="font-sans text-[15px] font-medium text-[#1F1F1F] mb-4 leading-[1.5]">
                 "I don't want a surgical facelift but I don't recognize my jawline anymore."
               </div>
@@ -822,7 +822,7 @@ export const HifuCaseNarratives = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-[5]"></div>
             </div>
             <div className="p-6">
-              <div className="font-sans text-[10px] text-[#888888] tracking-widest uppercase mb-2">MALE, 47 • SENIOR FINANCIAL SERVICES • DIFC</div>
+              <div className="font-sans text-[10px] text-[#888888] tracking-widest uppercase mb-2">MALE, 47 - SENIOR FINANCIAL SERVICES - DIFC</div>
               <div className="font-sans text-[15px] font-medium text-[#1F1F1F] mb-4 leading-[1.5]">
                 "I don't want anyone to know I've had anything done."
               </div>
@@ -848,7 +848,7 @@ export const HifuCaseNarratives = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-[5]"></div>
             </div>
             <div className="p-6">
-              <div className="font-sans text-[10px] text-[#888888] tracking-widest uppercase mb-2">FEMALE, 33 • EMIRATI • WEDDING 5 MONTHS OUT • FITZPATRICK V</div>
+              <div className="font-sans text-[10px] text-[#888888] tracking-widest uppercase mb-2">FEMALE, 33 - EMIRATI - WEDDING 5 MONTHS OUT - FITZPATRICK V</div>
               <div className="font-sans text-[15px] font-medium text-[#1F1F1F] mb-4 leading-[1.5]">
                 "Preventive intervention with concern about pigmentation risk from aesthetic procedures."
               </div>
@@ -877,7 +877,7 @@ export const HifuTeam = () => {
     <section className="py-20 bg-[#F4F0EA]">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-12 max-w-[900px]">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 11 • Our Team</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 11 - Our Team</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2] mb-6">
             Who Delivers Your HIFU at Vedara Care JVC
           </h2>
@@ -892,25 +892,25 @@ export const HifuTeam = () => {
               <div>
                 <h3 className="font-serif text-[20px] text-[#1F1F1F] m-0">Arfah Owais</h3>
                 <div className="font-sans text-[12px] text-[#666666]">Primary HIFU Device Operator</div>
-                <div className="font-sans text-[10px] text-[#C8A87F] tracking-wide uppercase mt-1">DHA-Licensed Aesthetician • CIBTAC-UK • HIFU Device-Certified</div>
+                <div className="font-sans text-[10px] text-[#C8A87F] tracking-wide uppercase mt-1">DHA-Licensed Aesthetician - CIBTAC-UK - HIFU Device-Certified</div>
               </div>
             </div>
 
             <ul className="font-sans text-[13px] text-[#555555] leading-[1.6] space-y-2 mb-6">
-              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>DHA-Licensed Aesthetician — Dubai Health Authority professional licence</span></li>
-              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>CIBTAC-UK Diploma — Confederation of International Beauty Therapy and Cosmetology</span></li>
-              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>HIFU Device-Specific Certification — manufacturer training completed and documented</span></li>
-              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>NCLC Certified — additional aesthetic credential</span></li>
-              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Buccal Massage Trained / Kobido Trained — complementary facial anatomy expertise</span></li>
+              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>DHA-Licensed Aesthetician  -  Dubai Health Authority professional licence</span></li>
+              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>CIBTAC-UK Diploma  -  Confederation of International Beauty Therapy and Cosmetology</span></li>
+              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>HIFU Device-Specific Certification  -  manufacturer training completed and documented</span></li>
+              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>NCLC Certified  -  additional aesthetic credential</span></li>
+              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Buccal Massage Trained / Kobido Trained  -  complementary facial anatomy expertise</span></li>
               <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>8+ years hands-on aesthetic experience</span></li>
               <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Languages: Arabic, English, Hindi, Urdu</span></li>
             </ul>
 
             <div className="bg-[#F4F0EA] p-4 rounded border-l-2 border-[#C8A87F]">
               <p className="font-sans text-[14px] text-[#444444] leading-[1.5] m-0">
-                "HIFU is the treatment where technique matters most. Two clinics can use the same device, the same energy setting, and get completely different outcomes because the operator hasn't mapped the treatment vectors correctly for that specific patient's anatomy. I spent significant time on device-specific training before I started delivering HIFU independently at Vedara Care JVC — this isn't a treatment where you can improvise."
+                "HIFU is the treatment where technique matters most. Two clinics can use the same device, the same energy setting, and get completely different outcomes because the operator hasn't mapped the treatment vectors correctly for that specific patient's anatomy. I spent significant time on device-specific training before I started delivering HIFU independently at Vedara Care JVC  -  this isn't a treatment where you can improvise."
               </p>
-              <div className="font-sans text-[10px] text-[#888888] mt-3">— Arfah Owais, DHA-Licensed Aesthetician (CIBTAC-UK, HIFU Device-Specific Certified), Vedara Care Polyclinic JVC</div>
+              <div className="font-sans text-[10px] text-[#888888] mt-3"> -  Arfah Owais, DHA-Licensed Aesthetician (CIBTAC-UK, HIFU Device-Specific Certified), Vedara Care Polyclinic JVC</div>
             </div>
           </div>
 
@@ -928,11 +928,11 @@ export const HifuTeam = () => {
 
             <div className="font-sans text-[11px] font-bold text-[#333333] mb-3 uppercase tracking-wide">Medical Director Involvement In Every HIFU Case Includes:</div>
             <ul className="font-sans text-[13px] text-[#555555] leading-[1.6] space-y-2 mb-6">
-              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Consultation medical clearance — contraindication screening, laxity assessment</span></li>
-              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Protocol design — energy parameter design based on skin type and laxity pattern</span></li>
-              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Honest triage — patients better served by surgical consultation are referred</span></li>
+              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Consultation medical clearance  -  contraindication screening, laxity assessment</span></li>
+              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Protocol design  -  energy parameter design based on skin type and laxity pattern</span></li>
+              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Honest triage  -  patients better served by surgical consultation are referred</span></li>
               <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Adverse event management within the Medical Director's clinical governance</span></li>
-              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Complex case review — post-surgical, Fitzpatrick VI, relative contraindications</span></li>
+              <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>Complex case review  -  post-surgical, Fitzpatrick VI, relative contraindications</span></li>
               <li className="flex gap-2"><span className="text-[#C8A87F]">✓</span> <span>90-day and annual follow-up reviewed in complex cases</span></li>
             </ul>
 
@@ -940,7 +940,7 @@ export const HifuTeam = () => {
               <p className="font-sans text-[14px] text-[#444444] leading-[1.5] m-0">
                 "I want to be direct about who HIFU is for and who it isn't. HIFU works well for mild to moderate skin laxity in patients with reasonable skin quality and realistic expectations. It does not replace a surgical facelift for patients with severe laxity or significant excess skin. Part of my consultation responsibility is telling patients when they should see a plastic surgeon instead of booking HIFU with us. That honest triage protects patients from disappointment and protects our outcome record."
               </p>
-              <div className="font-sans text-[10px] text-[#888888] mt-3">— Medical Director, DHA-Licensed Consultant Dermatologist, Vedara Care Polyclinic JVC</div>
+              <div className="font-sans text-[10px] text-[#888888] mt-3"> -  Medical Director, DHA-Licensed Consultant Dermatologist, Vedara Care Polyclinic JVC</div>
             </div>
           </div>
         </div>
@@ -962,7 +962,7 @@ export const HifuTeam = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">💬</span> Ask on WhatsApp
+              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
@@ -981,12 +981,12 @@ export const HifuInvestment = () => {
     <section className="py-20 bg-[#FAF7F2]">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-12 max-w-[900px]">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 12 • Investment</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 12 - Investment</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2] mb-4">
             HIFU Session Options and Investment at Vedara Care JVC
           </h2>
           <p className="font-sans text-[15px] text-[#444444] leading-[1.7] m-0 max-w-[800px]">
-            Complete pricing published transparently below — no hidden costs, no same-day pressure. Programme course of 2 sessions delivers 15-20% savings versus single session pricing.
+            Complete pricing published transparently below  -  no hidden costs, no same-day pressure. Programme course of 2 sessions delivers 15-20% savings versus single session pricing.
           </p>
         </div>
 
@@ -1005,8 +1005,8 @@ export const HifuInvestment = () => {
                 <tr className="border-b border-[#EAE3D9]">
                   <td className="p-4 font-medium">Consultation</td>
                   <td className="p-4">AED 300 <span className="text-[11px] text-[#888888]">(waived if proceeding)</span></td>
-                  <td className="p-4">—</td>
-                  <td className="p-4">—</td>
+                  <td className="p-4"> - </td>
+                  <td className="p-4"> - </td>
                 </tr>
                 <tr className="border-b border-[#EAE3D9]">
                   <td className="p-4">Single Zone HIFU (Jawline OR Submental OR Brow)</td>
@@ -1053,32 +1053,32 @@ export const HifuInvestment = () => {
                 <tr className="border-b border-[#EAE3D9]">
                   <td className="p-4">Annual Maintenance HIFU (Existing Patient)</td>
                   <td className="p-4">10% loyalty pricing</td>
-                  <td className="p-4">—</td>
-                  <td className="p-4">—</td>
+                  <td className="p-4"> - </td>
+                  <td className="p-4"> - </td>
                 </tr>
                 <tr className="border-b border-[#EAE3D9]">
                   <td className="p-4">HIFU Discovery Call (10 min)</td>
                   <td className="p-4">Complimentary</td>
-                  <td className="p-4">—</td>
-                  <td className="p-4">—</td>
+                  <td className="p-4"> - </td>
+                  <td className="p-4"> - </td>
                 </tr>
                 <tr className="border-b border-[#EAE3D9]">
                   <td className="p-4">30-Day Follow-Up Assessment</td>
                   <td className="p-4">Included in session pricing</td>
-                  <td className="p-4">—</td>
-                  <td className="p-4">—</td>
+                  <td className="p-4"> - </td>
+                  <td className="p-4"> - </td>
                 </tr>
                 <tr className="border-b border-[#EAE3D9]">
                   <td className="p-4">Vector Map Documentation</td>
                   <td className="p-4">Included in session pricing</td>
-                  <td className="p-4">—</td>
-                  <td className="p-4">—</td>
+                  <td className="p-4"> - </td>
+                  <td className="p-4"> - </td>
                 </tr>
                 <tr>
                   <td className="p-4">Post-procedure Calming Protocol</td>
                   <td className="p-4">Included in session pricing</td>
-                  <td className="p-4">—</td>
-                  <td className="p-4">—</td>
+                  <td className="p-4"> - </td>
+                  <td className="p-4"> - </td>
                 </tr>
               </tbody>
             </table>
@@ -1086,9 +1086,9 @@ export const HifuInvestment = () => {
         </div>
 
         <div className="bg-[#F4F0EA] border border-[#EAE3D9] p-8 rounded-xl mb-12">
-          <h4 className="font-serif text-[18px] text-[#1F1F1F] mb-2">Programme Course of 2 — Why We Recommend It</h4>
+          <h4 className="font-serif text-[18px] text-[#1F1F1F] mb-2">Programme Course of 2  -  Why We Recommend It</h4>
           <p className="font-sans text-[13px] text-[#555555] leading-[1.6] m-0">
-            Peer-reviewed HIFU literature documents that patients with established laxity typically benefit from two treatment sessions spaced 6–9 months apart, allowing full collagen remodelling from session 1 to occur before session 2 amplifies the response. Programme course pricing at Vedara Care JVC delivers 15–20% savings versus paying for two individual sessions. Single-session patients (preventive-only or annual maintenance) do not need this pricing structure and are not pushed toward it. The Medical Director's consultation recommendation determines appropriate protocol.
+            Peer-reviewed HIFU literature documents that patients with established laxity typically benefit from two treatment sessions spaced 6 - 9 months apart, allowing full collagen remodelling from session 1 to occur before session 2 amplifies the response. Programme course pricing at Vedara Care JVC delivers 15 - 20% savings versus paying for two individual sessions. Single-session patients (preventive-only or annual maintenance) do not need this pricing structure and are not pushed toward it. The Medical Director's consultation recommendation determines appropriate protocol.
           </p>
         </div>
 
@@ -1124,14 +1124,14 @@ export const HifuInvestment = () => {
         <div className="bg-[#FAF7F2] rounded-xl border border-[#C8A87F]/30 p-8 md:p-10 max-w-[1200px] mx-auto text-center">
           <h3 className="font-serif text-[20px] text-[#1F1F1F] mb-2">You've seen the full pricing. No surprises at consultation, no hidden costs, no 'today only' pressure.</h3>
           <p className="font-sans text-[14px] text-[#555555] mb-8">
-            If HIFU is the right fit for your face — and consultation determines this — you'll know the full investment before you commit.
+            If HIFU is the right fit for your face  -  and consultation determines this  -  you'll know the full investment before you commit.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-6">
             <Link href="/book" className="inline-flex items-center justify-center bg-[#C8A87F] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#B5956C] transition-colors no-underline">
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">💬</span> Ask on WhatsApp
+              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
@@ -1183,7 +1183,7 @@ export const HifuAestheticCluster = () => {
     <section className="py-20 bg-[#FAF7F2]">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-12 max-w-[900px]">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">• Complementary Treatments</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">- Complementary Treatments</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2] mb-4">
             Full Vedara Care JVC Aesthetic Cluster
           </h2>
@@ -1212,45 +1212,45 @@ export const HifuClinicInfo = () => {
       <section className="py-20 bg-[#FAF7F2]" id="clinic">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="mb-12 text-left">
-            <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 14 • Clinic Information</div>
+            <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-4">Section 14 - Clinic Information</div>
             <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] m-0 leading-[1.2]">How to Book HIFU at Vedara Care JVC</h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-0">
             <div className="bg-transparent p-6 rounded-xl border border-[#EAE3D9]">
-              <span className="text-[24px] mb-4 block text-[#C8A87F]">📍</span>
+              <span className="text-[24px] mb-4 block text-[#C8A87F]">ðŸ“</span>
               <h3 className="font-serif text-[18px] text-[#1F1F1F] mb-3">Location</h3>
               <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Vedara Care Polyclinic</p>
               <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Jumeirah Village Circle (JVC), Dubai, UAE</p>
-              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">↗ Walking distance from Circle Mall</p>
-              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">↗ 3 min from FIVE JVC Hotel</p>
-              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">↗ 5 min from JSS Private School</p>
+              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">â†— Walking distance from Circle Mall</p>
+              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">â†— 3 min from FIVE JVC Hotel</p>
+              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">â†— 5 min from JSS Private School</p>
               <p className="font-sans text-[13px] text-[#555555] m-0 leading-snug">Free parking on premises</p>
             </div>
             <div className="bg-transparent p-6 rounded-xl border border-[#EAE3D9]">
-              <span className="text-[24px] mb-4 block text-[#C8A87F]">📞</span>
+              <span className="text-[24px] mb-4 block text-[#C8A87F]">ðŸ“ž</span>
               <h3 className="font-serif text-[18px] text-[#1F1F1F] mb-3">Contact Channels</h3>
               <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Website: vedaracare.ae/book</p>
               <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">WhatsApp: Fastest confirmation channel</p>
               <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Phone: Available during clinic hours</p>
               <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Email: Available on website</p>
-              <p className="font-sans text-[13px] text-[#555555] m-0 leading-snug">Languages: Arabic • English • Hindi • Urdu</p>
+              <p className="font-sans text-[13px] text-[#555555] m-0 leading-snug">Languages: Arabic - English - Hindi - Urdu</p>
             </div>
             <div className="bg-transparent p-6 rounded-xl border border-[#EAE3D9]">
-              <span className="text-[24px] mb-4 block text-[#C8A87F]">🕐</span>
+              <span className="text-[24px] mb-4 block text-[#C8A87F]">ðŸ•</span>
               <h3 className="font-serif text-[18px] text-[#1F1F1F] mb-3">Availability</h3>
-              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Consultation: typically 3–10 days out</p>
-              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Peak season (autumn, Jan–Mar): 2–3 weeks</p>
+              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Consultation: typically 3 - 10 days out</p>
+              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Peak season (autumn, Jan - Mar): 2 - 3 weeks</p>
               <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Same-week sometimes available via WhatsApp</p>
-              <p className="font-sans text-[13px] text-[#555555] m-0 leading-snug">Session scheduling: 1–2 weeks post-consultation</p>
+              <p className="font-sans text-[13px] text-[#555555] m-0 leading-snug">Session scheduling: 1 - 2 weeks post-consultation</p>
             </div>
             <div className="bg-transparent p-6 rounded-xl border border-[#EAE3D9]">
-              <span className="text-[24px] mb-4 block text-[#C8A87F]">🪪</span>
+              <span className="text-[24px] mb-4 block text-[#C8A87F]">ðŸªª</span>
               <h3 className="font-serif text-[18px] text-[#1F1F1F] mb-3">DHA Licence</h3>
               <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Dubai Health Authority licensed facility</p>
               <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Multi-specialty polyclinic</p>
-              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Physiotherapy • Ayurvedic Medicine</p>
-              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Beauty Therapy • Dermatology</p>
-              <p className="font-sans text-[13px] text-[#555555] m-0 leading-snug">General Practice • Nursing</p>
+              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Physiotherapy - Ayurvedic Medicine</p>
+              <p className="font-sans text-[13px] text-[#555555] mb-1.5 leading-snug">Beauty Therapy - Dermatology</p>
+              <p className="font-sans text-[13px] text-[#555555] m-0 leading-snug">General Practice - Nursing</p>
             </div>
           </div>
         </div>
@@ -1269,11 +1269,11 @@ export const HifuClinicInfo = () => {
             </div>
             <div>
               <h3 className="font-serif text-[18px] text-[#1F1F1F] mb-3">HIFU for South Asian, Middle Eastern &amp; Emirati Skin</h3>
-              <p className="font-sans text-[13px] text-[#555555] leading-relaxed">HIFU does not target melanin (unlike some laser modalities), so there is no increased risk of post-inflammatory hyperpigmentation in darker skin phototypes (Fitzpatrick IV–VI). Peer-reviewed evidence (Suh et al., Dermatologic Surgery 2011) specifically documents HIFU efficacy in Asian skin. Multilingual care team: Arabic, English, Hindi, Urdu.</p>
+              <p className="font-sans text-[13px] text-[#555555] leading-relaxed">HIFU does not target melanin (unlike some laser modalities), so there is no increased risk of post-inflammatory hyperpigmentation in darker skin phototypes (Fitzpatrick IV - VI). Peer-reviewed evidence (Suh et al., Dermatologic Surgery 2011) specifically documents HIFU efficacy in Asian skin. Multilingual care team: Arabic, English, Hindi, Urdu.</p>
             </div>
             <div>
               <h3 className="font-serif text-[18px] text-[#1F1F1F] mb-3">HIFU Pricing Transparency in Dubai</h3>
-              <p className="font-sans text-[13px] text-[#555555] leading-relaxed">Vedara Care Polyclinic JVC publishes complete HIFU pricing: single-zone from AED 1,200, full face from AED 2,000, full face + neck from AED 2,400, full face + neck + décolletage from AED 3,000. Programme course of 2 sessions delivers 15–20% savings. Consultation fee AED 300 (waived if proceeding). No hidden costs.</p>
+              <p className="font-sans text-[13px] text-[#555555] leading-relaxed">Vedara Care Polyclinic JVC publishes complete HIFU pricing: single-zone from AED 1,200, full face from AED 2,000, full face + neck from AED 2,400, full face + neck + décolletage from AED 3,000. Programme course of 2 sessions delivers 15 - 20% savings. Consultation fee AED 300 (waived if proceeding). No hidden costs.</p>
             </div>
           </div>
         </div>
@@ -1286,23 +1286,23 @@ export const HifuFaq = () => {
   const faqs = [
     { q: "How much does HIFU cost at Vedara Care JVC?", a: "HIFU at Vedara Care Polyclinic JVC starts from AED 1,200 for single-zone treatment, from AED 2,000 for full face, from AED 2,400 for full face + neck, and from AED 3,000 for full face + neck + décolletage. Programme course of 2 sessions delivers 15-20% savings. First consultation is AED 300 (waived if you proceed with treatment)." },
     { q: "Is HIFU safe? What are the risks?", a: "HIFU is generally well-tolerated with a favourable safety profile documented in peer-reviewed literature. Common minor effects (typically resolving within 24-72 hours) include mild redness, slight tenderness, temporary tingling. Vedara Care JVC HIFU protocol includes Medical Director medical clearance for every patient and HIFU device-certified operator delivery. Contraindications are screened at consultation." },
-    { q: "How many HIFU sessions do I need?", a: "Most patients require either a single session (preventive-oriented or annual maintenance) or a programme course of 2 sessions spaced 6-9 months apart (established laxity). The Medical Director's consultation assessment determines which protocol is appropriate for your specific case — this is not sold as a fixed package." },
+    { q: "How many HIFU sessions do I need?", a: "Most patients require either a single session (preventive-oriented or annual maintenance) or a programme course of 2 sessions spaced 6-9 months apart (established laxity). The Medical Director's consultation assessment determines which protocol is appropriate for your specific case  -  this is not sold as a fixed package." },
     { q: "What is the recovery time from HIFU?", a: "Zero clinical downtime. Patients typically return to normal activity the same day. Mild redness or slight tenderness may be present 24-72 hours post-session. Makeup can be applied the next day. Sun protection SPF 50+ for 2 weeks, gentle skincare for 5-7 days, no vigorous exercise for 24 hours." },
-    { q: "Does HIFU hurt?", a: "HIFU sensation varies by depth. The 4.5mm SMAS-targeting cartridge produces the most intense sensation — brief warm or prickling with each ultrasound pulse. At Vedara Care JVC, topical numbing is applied 30-45 minutes before treatment. Most patients describe HIFU as manageable 4-6 out of 10 discomfort for the deepest cartridge." },
-    { q: "How does HIFU compare to a surgical facelift?", a: "HIFU targets the same SMAS tissue layer that surgical facelift addresses, but through focused ultrasound rather than surgical incision. HIFU is appropriate for mild-to-moderate laxity in patients with reasonable skin quality; it does not replace surgical facelift for severe laxity. Our Medical Director's consultation includes explicit triage — patients better served by surgical consultation are referred rather than accepted for HIFU." },
+    { q: "Does HIFU hurt?", a: "HIFU sensation varies by depth. The 4.5mm SMAS-targeting cartridge produces the most intense sensation  -  brief warm or prickling with each ultrasound pulse. At Vedara Care JVC, topical numbing is applied 30-45 minutes before treatment. Most patients describe HIFU as manageable 4-6 out of 10 discomfort for the deepest cartridge." },
+    { q: "How does HIFU compare to a surgical facelift?", a: "HIFU targets the same SMAS tissue layer that surgical facelift addresses, but through focused ultrasound rather than surgical incision. HIFU is appropriate for mild-to-moderate laxity in patients with reasonable skin quality; it does not replace surgical facelift for severe laxity. Our Medical Director's consultation includes explicit triage  -  patients better served by surgical consultation are referred rather than accepted for HIFU." },
     { q: "How does HIFU compare to RF (radiofrequency) skin tightening?", a: "HIFU uses focused ultrasound at fixed depths (1.5mm/3.0mm/4.5mm) with SMAS-layer targeting; RF uses electromagnetic energy that heats the dermis less selectively. HIFU is generally single-session or programme course of 2; RF typically requires a series of 4-6 sessions. HIFU produces more structural lift; RF produces more subtle skin quality firming." },
-    { q: "How does HIFU compare to thread lift?", a: "Thread lift is a minimally invasive procedure inserting dissolvable barbed sutures — immediate visible lift, 12-18 month durability, requires local anaesthesia, 3-7 days recovery with possible bruising. HIFU is non-invasive with gradual result over 60-90 days, zero downtime. Different modalities for different patient priorities." },
+    { q: "How does HIFU compare to thread lift?", a: "Thread lift is a minimally invasive procedure inserting dissolvable barbed sutures  -  immediate visible lift, 12-18 month durability, requires local anaesthesia, 3-7 days recovery with possible bruising. HIFU is non-invasive with gradual result over 60-90 days, zero downtime. Different modalities for different patient priorities." },
     { q: "How long do HIFU results last?", a: "Result durability at 12-18 months is typical in appropriate candidates with reasonable aftercare compliance. Individual durability depends on baseline skin quality, age, lifestyle factors, and general aging progression. Annual maintenance sessions are recommended to extend and refine results." },
-    { q: "When will I see results from HIFU?", a: "Initial subtle tightening: 2-4 weeks post-session. Peak result: 60-90 days post-session (peak collagen remodelling). Continued improvement to 6 months. This gradual timeline is why we photograph baseline and 90-day — the actual HIFU result is not visible immediately after treatment." },
+    { q: "When will I see results from HIFU?", a: "Initial subtle tightening: 2-4 weeks post-session. Peak result: 60-90 days post-session (peak collagen remodelling). Continued improvement to 6 months. This gradual timeline is why we photograph baseline and 90-day  -  the actual HIFU result is not visible immediately after treatment." },
     { q: "Can I have HIFU if I have dark skin (Fitzpatrick IV-VI)?", a: "Yes. HIFU does not target melanin (unlike some laser modalities), so there is no increased risk of post-inflammatory hyperpigmentation in darker skin phototypes. The Suh et al. 2011 study specifically documented HIFU efficacy in Asian (Fitzpatrick IV-V) skin. Our Medical Director assesses individual patient factors at consultation." },
     { q: "Can men have HIFU?", a: "Yes. HIFU is appropriate for male patients addressing jawline definition, submental (double chin) laxity, and general facial skin quality. Male HIFU is a growing demographic in Dubai. Same protocol structure, same Medical Director oversight, same transparent pricing." },
     { q: "Is HIFU safe during pregnancy?", a: "No. Vedara Care JVC does not perform HIFU during pregnancy or breastfeeding. No safety data supports HIFU during pregnancy; theoretical caution applies. Post-pregnancy and post-breastfeeding, HIFU is appropriate once weight has stabilized." },
     { q: "Does insurance cover HIFU in Dubai?", a: "HIFU is typically classified as elective aesthetic and not routinely covered by UAE health insurance. Vedara Care Polyclinic JVC operates on insurance reimbursement basis (not direct billing) for aesthetic procedures. Complimentary documentation supporting reimbursement enquiry is provided on request." },
     { q: "Can HIFU be combined with other treatments (mesotherapy, PRP, filler)?", a: "Yes. HIFU is compatible with mesotherapy, PRP, and dermal filler in combined programme protocols. Spacing and sequencing designed by the Medical Director. Same-visit combined sessions available (HIFU + mesotherapy, HIFU + PRP). HIFU + filler typically sequenced across separate visits." },
     { q: "What age should I start HIFU?", a: "HIFU is rarely appropriate for patients under 25. Preventive-oriented HIFU can begin in the early 30s. Corrective HIFU is most impactful for mid-30s through mid-60s patients. Age over 65 is assessed case-by-case. The Medical Director's consultation assessment determines appropriateness at your specific age." },
-    { q: "Where is Vedara Care Polyclinic JVC located?", a: "Vedara Care Polyclinic is in Jumeirah Village Circle, Dubai — walking distance from Circle Mall, 3 minutes from FIVE Jumeirah Village Hotel, 5 minutes from JSS Private School. DHA-licensed multi-specialty facility. Free parking available." },
+    { q: "Where is Vedara Care Polyclinic JVC located?", a: "Vedara Care Polyclinic is in Jumeirah Village Circle, Dubai  -  walking distance from Circle Mall, 3 minutes from FIVE Jumeirah Village Hotel, 5 minutes from JSS Private School. DHA-licensed multi-specialty facility. Free parking available." },
     { q: "What if I have a bad reaction to HIFU?", a: "Adverse events from HIFU are rare and typically minor. Any adverse event is managed within the Medical Director's clinical governance at Vedara Care JVC. Contact clinic immediately if you experience unusual reactions post-session. Serious complications are managed with appropriate escalation and referral if required." },
-    { q: "Is HIFU better than HIFU facial packages offered elsewhere?", a: "The term HIFU facial is used variably in Dubai — sometimes for genuine medical-grade HIFU, sometimes for lower-energy consumer-device treatments. Vedara Care JVC HIFU protocol uses medical-grade device with three-depth cartridge delivery, device-specific operator certification, and Medical Director oversight. Verify what any provider is actually delivering when comparing pricing." },
+    { q: "Is HIFU better than HIFU facial packages offered elsewhere?", a: "The term HIFU facial is used variably in Dubai  -  sometimes for genuine medical-grade HIFU, sometimes for lower-energy consumer-device treatments. Vedara Care JVC HIFU protocol uses medical-grade device with three-depth cartridge delivery, device-specific operator certification, and Medical Director oversight. Verify what any provider is actually delivering when comparing pricing." },
     { q: "How do I book a HIFU consultation at Vedara Care JVC?", a: "Use the Book HIFU Consultation button on this page, message on WhatsApp, or call the clinic. Free 30-minute consultation with the Medical Director. Consultation slots typically book 2-3 weeks in advance during peak seasons. WhatsApp is the fastest confirmation channel." }
   ];
 
@@ -1310,9 +1310,9 @@ export const HifuFaq = () => {
     <section className="py-20 bg-[#FAF7F2]" id="faq">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="mb-10 max-w-[900px]">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-3">Section 13 • FAQ</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-3">Section 13 - FAQ</div>
           <h2 className="font-serif text-[32px] md:text-[40px] font-normal text-[#1F1F1F] leading-[1.2] max-w-2xl">
-            HIFU Skin Lifting & Tightening at Vedara Care JVC — Your Questions Answered
+            HIFU Skin Lifting & Tightening at Vedara Care JVC  -  Your Questions Answered
           </h2>
         </div>
 
@@ -1329,13 +1329,13 @@ export const HifuFaq = () => {
 
         <div className="rounded-xl p-8 text-center bg-[#1F1F1F] border border-[#C8A87F]/20 max-w-[1200px]">
           <p className="font-serif text-[20px] text-white mb-2">20 questions answered.</p>
-          <p className="font-sans text-white/70 text-[14px] mb-6">If the 20th is "when can I book a consultation?" — that's the right question to ask next.</p>
+          <p className="font-sans text-white/70 text-[14px] mb-6">If the 20th is "when can I book a consultation?"  -  that's the right question to ask next.</p>
           <div className="flex flex-wrap gap-3 justify-center mb-6">
             <Link href="\book" className="inline-flex items-center justify-center bg-[#C8A87F] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#B5956C] transition-colors no-underline">
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">💬</span> Ask on WhatsApp
+              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex flex-wrap gap-2 justify-center">
@@ -1354,7 +1354,7 @@ export const HifuFinalCta = () => {
     <section className="py-20 bg-[#1F1F1F]" id="book">
       <div className="max-w-[1000px] mx-auto px-6">
         <div className="text-center mb-12">
-          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-3">Section 15 • Final CTA</div>
+          <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-3">Section 15 - Final CTA</div>
           <h2 className="font-serif text-[32px] md:text-[48px] font-normal text-white mb-4 leading-[1.2]">
             Ready to Book Your HIFU<br />
             <span className="text-[#C8A87F]">Consultation at Vedara Care JVC?</span>
@@ -1372,7 +1372,7 @@ export const HifuFinalCta = () => {
               </div>
               <div className="flex items-start gap-3">
                 <span className="font-sans text-[14px] shrink-0 mt-0.5 text-[#C8A87F]">✓</span>
-                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">Medical clearance and contraindication screening — patient safety first</p>
+                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">Medical clearance and contraindication screening  -  patient safety first</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="font-sans text-[14px] shrink-0 mt-0.5 text-[#C8A87F]">✓</span>
@@ -1380,23 +1380,23 @@ export const HifuFinalCta = () => {
               </div>
               <div className="flex items-start gap-3">
                 <span className="font-sans text-[14px] shrink-0 mt-0.5 text-[#C8A87F]">✓</span>
-                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">HIFU vector mapping planned by Arfah — device-certified aesthetician</p>
+                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">HIFU vector mapping planned by Arfah  -  device-certified aesthetician</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="font-sans text-[14px] shrink-0 mt-0.5 text-[#C8A87F]">✓</span>
-                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">Personalized protocol design — single session vs programme course, treatment zones, cartridge sequence</p>
+                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">Personalized protocol design  -  single session vs programme course, treatment zones, cartridge sequence</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="font-sans text-[14px] shrink-0 mt-0.5 text-[#C8A87F]">✓</span>
-                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">Transparent pricing with programme course savings math — no upsell pressure</p>
+                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">Transparent pricing with programme course savings math  -  no upsell pressure</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="font-sans text-[14px] shrink-0 mt-0.5 text-[#C8A87F]">✓</span>
-                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">Aftercare guidance and realistic result timeline — 60–90 day peak, 12–18 month durability</p>
+                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">Aftercare guidance and realistic result timeline  -  60 - 90 day peak, 12 - 18 month durability</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="font-sans text-[14px] shrink-0 mt-0.5 text-[#C8A87F]">✓</span>
-                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">No commitment to proceed with treatment — honest triage always available</p>
+                <p className="font-sans text-[14px] text-white/80 leading-snug m-0">No commitment to proceed with treatment  -  honest triage always available</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="font-sans text-[14px] shrink-0 mt-0.5 text-[#C8A87F]">✓</span>
@@ -1416,14 +1416,14 @@ export const HifuFinalCta = () => {
                 Book HIFU Consultation
               </Link>
               <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[16px] font-medium w-full py-4 rounded hover:bg-[#1DA851] transition-colors no-underline">
-                <span className="mr-2">💬</span> Ask on WhatsApp
+                <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
               </a>
 
             </div>
 
             <div className="p-4 rounded-lg text-[13px] font-sans bg-[#C8A87F]/10 border border-[#C8A87F]/20">
               <p className="font-semibold mb-1 text-[#C8A87F] m-0">Availability Note</p>
-              <p className="text-white/60 m-0">Consultation slots typically book 2–3 weeks in advance during peak seasons. Programme course scheduling is planned across the year based on your protocol design.</p>
+              <p className="text-white/60 m-0">Consultation slots typically book 2 - 3 weeks in advance during peak seasons. Programme course scheduling is planned across the year based on your protocol design.</p>
             </div>
           </div>
         </div>

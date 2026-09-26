@@ -186,7 +186,13 @@ const TreatmentReviews = ({
 
         {/* Stats Row */}
         {stats && stats.length > 0 && (
-          <div className="grid grid-cols-4 gap-8 lg:gap-12 xl:gap-16 mb-16 w-full">
+          <div className={`
+            ${stats.length === 1 ? 'flex justify-center' : ''}
+            ${stats.length === 2 ? 'grid grid-cols-2 max-w-2xl mx-auto' : ''}
+            ${stats.length === 3 ? 'grid grid-cols-2 md:grid-cols-3' : ''}
+            ${stats.length > 3 ? 'grid grid-cols-2 md:grid-cols-4' : ''}
+            gap-8 lg:gap-12 xl:gap-16 mb-16 w-full
+          `}>
             {stats.map((stat, index) => (
               <div
                 key={index}

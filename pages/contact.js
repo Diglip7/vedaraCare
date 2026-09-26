@@ -88,7 +88,7 @@ export default function Contact() {
       console.error("Submission error:", err);
       // Fallback response if network fails
       const fallbackRef = `VC-${Date.now().toString().slice(-6)}`;
-      const waText = encodeURIComponent(`Hello Vedara Care, I submitted an inquiry.\n• Name: ${formData.name}\n• Phone: ${formData.phone}\n• Department: ${formData.service}`);
+      const waText = encodeURIComponent(`Hello Vedara Care, I submitted an inquiry.\n”¢ Name: ${formData.name}\n”¢ Phone: ${formData.phone}\n”¢ Department: ${formData.service}`);
       setSubmissionResponse({
         success: true,
         referenceId: fallbackRef,

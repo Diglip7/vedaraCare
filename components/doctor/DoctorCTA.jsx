@@ -51,7 +51,7 @@ const DoctorCTA = ({ doctor }) => {
 
             {/* Subtext */}
             <p className="text-[13px] text-[#6B6B6B] font-sans pt-2">
-              First consultation from AED 350 · Typical WhatsApp reply under 15 minutes
+              First consultation from AED 350 - Typical WhatsApp reply under 15 minutes
             </p>
           </div>
         </div>

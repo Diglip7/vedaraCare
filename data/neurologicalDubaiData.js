@@ -7,21 +7,21 @@ export const neurologicalDubaiHero = {
   label: "NEUROLOGICAL PHYSIOTHERAPY · DHA-LICENSED 2509266 · SPECIALISED LONG-TERM CARE",
   title: "Neurological physiotherapy in Dubai. Specialised care, honestly delivered.",
   description:
-    "Neurological physiotherapy at our Jumeirah Village Circle (JVC) clinic and at your home across Dubai. Specialised treatment for stroke recovery, Parkinson's disease, multiple sclerosis, traumatic brain injury, spinal cord injury, motor neurone disease, peripheral neuropathy, and other neurological conditions. Long-term care relationships, coordination with neurologists, family-involved approach. Home physiotherapy across Dubai for patients who cannot easily travel.",
+    "Neurological physiotherapy at our Jumeirah Village Circle (JVC) clinic (and soon at your home across Dubai). Specialised treatment for stroke recovery, Parkinson's disease, multiple sclerosis, traumatic brain injury, spinal cord injury, motor neurone disease, peripheral neuropathy, and other neurological conditions. Long-term care relationships, coordination with neurologists, family-involved approach. Home physiotherapy launching soon for patients who cannot easily travel.",
   primaryCTA: "Book a Neurological Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20neurological%20physiotherapy%20services%20and%20book%20a%20consultation.%20Please%20assist%20me.",
   trustSignals: [
     "Neurological-specialist physiotherapists",
-    "Home physiotherapy across Dubai",
+    "Home physiotherapy (launching soon)",
     "Neurologist coordination",
-    "Insurance direct-billing"
+    "Insurance reimbursement"
   ],
   floatingCard: {
-    title: "WE COME TO YOUR HOME ACROSS DUBAI.",
+    title: "NEUROLOGICAL PHYSIOTHERAPY AT JVC",
     subtitle:
-      "Many neurological patients cannot easily travel to clinic. Our specialist physiotherapists deliver care at your home across JVC, JVT, Al Barsha South, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding Dubai areas."
+      "Specialised neurological rehabilitation at our fully equipped clinic in Jumeirah Village Circle (JVC). Home physiotherapy for neurological patients is launching soon across Dubai."
   },
   image: "/images/neurological-physiotherapy-dubai-hero.webp",
   alt: "Neurological physiotherapist working with patient at Vedara Care JVC Dubai"
@@ -32,9 +32,9 @@ export const neurologicalDubaiIntro = {
   label: "THE QUICK ANSWER",
   title: "Neurological physiotherapy at Vedara Care, in one paragraph.",
   blockquote:
-    "Neurological physiotherapy at Vedara Care Polyclinic — at our Jumeirah Village Circle (JVC), Dubai clinic walking distance from Circle Mall, and at patient homes across Dubai — is specialised long-term rehabilitation for adults with neurological conditions. Delivered by physiotherapists with specific neurological training, we provide care for post-stroke recovery (CVA), Parkinson's disease (including LSVT-BIG protocols), multiple sclerosis (relapsing-remitting and progressive forms), traumatic brain injury, spinal cord injury, motor neurone disease, peripheral neuropathy, Bell's palsy, Guillain-Barré syndrome, functional neurological disorder, and adults with cerebral palsy. Treatment combines neurodynamic mobilisation, gait training, balance rehabilitation, functional electrical stimulation, constraint-induced movement therapy, falls prevention, and family caregiver education. We coordinate directly with neurologists, occupational therapists, speech therapists, and broader care teams. Home physiotherapy is available across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. Initial consultation from AED 450; structured neurological rehabilitation programmes from AED 3,800. Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
+    "Neurological physiotherapy at Vedara Care Polyclinic — at our Jumeirah Village Circle (JVC) clinic, and soon launching at patient homes across Dubai — is specialised long-term rehabilitation for adults with neurological conditions. Delivered by physiotherapists with specific neurological training, we provide care for post-stroke recovery (CVA), Parkinson's disease (including LSVT-BIG protocols), multiple sclerosis (relapsing-remitting and progressive forms), traumatic brain injury, spinal cord injury, motor neurone disease, peripheral neuropathy, Bell's palsy, Guillain-Barré syndrome, functional neurological disorder, and adults with cerebral palsy. Treatment combines neurodynamic mobilisation, gait training, balance rehabilitation, functional electrical stimulation, constraint-induced movement therapy, falls prevention, and family caregiver education. We coordinate directly with neurologists, occupational therapists, speech therapists, and broader care teams. Our home physiotherapy service is launching soon across Dubai (join the waitlist via WhatsApp). Initial consultation from AED 450; structured neurological rehabilitation programmes from AED 3,800. Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
   footer:
-    "Medically reviewed by Dr. Sarah Thompson, DPT, Neurological Specialist, DHA-Licensed 2509266 · Last updated June 2026"
+    "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated June 2026"
 };
 
 export const neurologicalDubaiMechanism = {
@@ -208,16 +208,16 @@ export const neurologicalPhasesData = {
 };
 
 export const neurologicalHomePhysiotherapyData = {
-  label: "HOME PHYSIOTHERAPY",
-  title: "We come to you across Dubai.",
+  label: "HOME PHYSIOTHERAPY (LAUNCHING SOON)",
+  title: "Home neuro-rehabilitation is launching soon.",
   content: [
     "Many neurological patients cannot easily travel to a clinic — particularly in early recovery, during disease progression, or for those with significant mobility limitations. Asking a recently-stroked patient or a person with advanced Parkinson's to navigate Dubai traffic and clinic parking for a 60-minute appointment can be impractical or impossible.",
-    "Our home physiotherapy service operates across Dubai for neurological patients — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Our specialised neurological physiotherapists travel to your home with portable assessment equipment, treatment supplies, and structured protocols. The home environment is often more therapeutically valuable than a clinic — practising in the actual setting where function is needed.",
-    "When home physiotherapy is particularly valuable for neurological patients: early stroke recovery (first 3-6 months when transportation is difficult), Parkinson's patients with significant freezing or fall risk, MS patients during relapses or with significant fatigue, end-stage progressive conditions (MND, advanced Parkinson's), patients without family support for clinic transport, and post-discharge from hospital when intensive rehabilitation continues at home.",
-    "Many patients benefit from a combination of home and clinic sessions — home physiotherapy for the practical reality of daily life, clinic sessions for access to specialised equipment (parallel bars, gait analysis, functional electrical stimulation, balance equipment) when transport is feasible. We work with you and your family to design the right combination."
+    "Our upcoming home physiotherapy service will operate across Dubai for neurological patients — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Our specialised neurological physiotherapists will travel to your home with portable assessment equipment, treatment supplies, and structured protocols.",
+    "When home physiotherapy is particularly valuable for neurological patients: early stroke recovery (first 3-6 months when transportation is difficult), Parkinson's patients with significant freezing or fall risk, MS patients during relapses or with significant fatigue, end-stage progressive conditions, and patients without family support for clinic transport.",
+    "Until this service launches, our JVC clinic is fully accessible for patients with mobility limitations, equipped with specialised rehabilitation tools to support your recovery."
   ],
   sidebar: {
-    label: "HOME NEURO PHYSIOTHERAPY",
+    label: "JOIN THE WAITLIST",
     coverage: "Across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas",
     useCases: [
       "Early stroke recovery",
@@ -228,10 +228,10 @@ export const neurologicalHomePhysiotherapyData = {
       "Patients without transport support"
     ],
     duration: "60-75 minutes including travel time consideration",
-    pricing: "From AED 550 per home session",
-    booking: "WhatsApp +971 55 573 6312 for fastest response",
-    buttonLink: "/home-healthcare-jvc/",
-    buttonText: "Book Home Physiotherapy"
+    pricing: "Pricing coming soon",
+    booking: "WhatsApp us to be notified when home visits launch",
+    buttonLink: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20please%20notify%20me%20when%20home%20neurological%20physiotherapy%20launches",
+    buttonText: "Notify Me"
   },
 
 };
@@ -265,17 +265,15 @@ export const neurologicalPricingData = {
   title: "What neurological physiotherapy at our JVC clinic costs.",
   tableData: [
     { service: "Initial neurological assessment (60-75 minutes, clinic)", price: "AED 450" },
-    { service: "Initial neurological assessment (75 minutes, home)", price: "AED 550" },
+    { service: "Initial neurological assessment (home)", price: "Coming Soon" },
     { service: "Follow-up neurological session (clinic, 60 minutes)", price: "AED 350" },
-    { service: "Follow-up neurological session (home, 60-75 minutes)", price: "AED 450" },
-    { service: "LSVT-BIG programme (Parkinson's, 16 sessions over 4 weeks)", price: "AED 5,200" },
+    { service: "Follow-up neurological session (home)", price: "Coming Soon" },
     { service: "Post-stroke rehabilitation programme (24 sessions over 3 months)", price: "AED 7,800" },
     { service: "Extended stroke rehabilitation (48 sessions over 6 months)", price: "AED 14,400" },
     { service: "MS structured programme (12 sessions, calibrated to disease state)", price: "AED 3,900" },
-    { service: "Family caregiver training session", price: "AED 350" },
-    { service: "Multi-disciplinary case coordination (per case, complex cases)", price: "AED 500" }
+    { service: "Family caregiver training session", price: "AED 350" }
   ],
-  footerText: 'Insurance direct-billing with seven major insurers. Long-term neurological physiotherapy typically benefits from annual coverage planning — <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> to discuss your coverage and out-of-pocket cost before committing to a programme.'
+  footerText: 'We accept patients with all major insurers and provide full documentation for reimbursement, which depends on your policy. Long-term neurological physiotherapy typically benefits from annual coverage planning — <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> to discuss your coverage and out-of-pocket cost before committing to a programme.'
 };
 
 export const neurologicalDubaiReviews = {
@@ -303,9 +301,8 @@ export const neurologicalDubaiReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
-    { value: "75+", label: "neurological physiotherapy reviews" },
-    { value: "97%", label: "of families would recommend to others facing neurological conditions" }
+    { value: "4.5", label: "stars on Google" },
+    { value: "15", label: "reviews on Google" }
   ],
   buttonText: "Read All Neurological Reviews",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai"
@@ -316,48 +313,19 @@ export const neurologicalTeamData = {
   title: "Neurological rehabilitation specialists at our JVC clinic.",
   members: [
     {
-      name: "Dr. Sarah Thompson, DPT",
-      credentials: "DHA-Licensed · Neurological Specialist",
+      name: "Hafsina K K",
+      credentials: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
       tags: [
-        "Stroke Recovery",
-        "Parkinson's",
-        "LSVT-BIG Certified",
-        "Home Physio"
+        "Orthopedic Rehab",
+        "Neurological Rehab",
+        "Sports Rehab",
+        "Women's Health"
       ],
-      description: "15+ years neurological rehabilitation specialisation",
-      languages: "Languages spoken: English, Arabic",
-      link: "/physiotherapists/dr-sarah-thompson/",
-      image: "",
-      alt: "Dr. Sarah Thompson neurological physiotherapy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Michael Chen, DPT",
-      credentials: "DHA-Licensed · Neurological Specialist",
-      tags: [
-        "MS",
-        "TBI",
-        "Spinal Cord Injury",
-        "FES"
-      ],
-      description: "Specialised in progressive neurological conditions",
-      languages: "Languages spoken: English, Mandarin, Cantonese",
-      link: "/physiotherapists/dr-michael-chen/",
-      image: "",
-      alt: "Dr. Michael Chen neurological physiotherapy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Priya Sharma, DPT",
-      credentials: "DHA-Licensed · Neurological Specialist",
-      tags: [
-        "Stroke Recovery",
-        "Peripheral Neuropathy",
-        "Falls Prevention"
-      ],
-      description: "Diabetic neuropathy and balance rehabilitation expert",
-      languages: "Languages spoken: English, Hindi, Urdu",
-      link: "/physiotherapists/dr-priya-sharma/",
-      image: "",
-      alt: "Dr. Priya Sharma neurological physiotherapy specialist Vedara Care JVC Dubai"
+      description: "7 years' experience in orthopedic, neurological, sports & women's health rehab.",
+      languages: "Languages spoken: English, Malayalam, Hindi, Tamil",
+      link: "/doctors/hafsina-kk-physiotherapist/",
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K neurological physiotherapy specialist Vedara Care JVC Dubai"
     }
   ]
 };
@@ -374,7 +342,7 @@ export const neurologicalInsuranceCoverageData = {
     { title: "For patients with neurological conditions:", text: 'we particularly help with: pre-authorisation documentation, annual renewal applications, appeals when coverage is initially denied, and connecting families with patient advocacy resources when needed. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a>, condition documentation, and any prior physiotherapy authorisations before booking for specific coverage planning.' }
   ],
   sidebar: {
-    label: "OUR DIRECT-BILLING INSURERS",
+    label: "ACCEPTED INSURERS (REIMBURSEMENT)",
     insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
     text: 'For long-term neurological conditions, we help families navigate annual coverage planning, pre-authorisation, and appeals. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for coverage assistance.',
     buttonText: "WhatsApp us for Coverage Help",
@@ -384,9 +352,9 @@ export const neurologicalInsuranceCoverageData = {
 export const neurologicalDubaiLocationData = {
   bgColor: "bg-white",
   label: "WHERE WE WORK",
-  title: "At our JVC clinic, or at your home across Dubai.",
-  description: "Neurological physiotherapy happens at two primary locations depending on patient need: at home across Dubai with our specialised neurological physiotherapists travelling to you (often essential for early recovery, advanced disease, or significant mobility limitations), and at our JVC clinic with specialised equipment including gait training equipment, functional electrical stimulation, and balance equipment (when transport is feasible). Many patients benefit from a combination of both.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  title: "At our JVC clinic (home visits launching soon).",
+  description: "Neurological physiotherapy happens at our JVC clinic, which is fully equipped with specialised rehabilitation equipment including gait training tools, functional electrical stimulation, and balance equipment. Our home physiotherapy service is launching soon across Dubai with our specialised neurological physiotherapists travelling to you (often essential for early recovery, advanced disease, or significant mobility limitations). Many patients will soon be able to benefit from a combination of both.",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   hours: "Monday - Sunday: 9:00AM to 10:00PM ",
   landmarks: [
@@ -414,7 +382,7 @@ export const neurologicalDubaiFAQData = {
   faqs: [
     {
       question: "When should I start physiotherapy after a stroke?",
-      answer: "As early as possible — typically within the first week if medically stable. The first 6 months post-stroke is when most recovery happens (the 'golden window' of neuroplasticity), though meaningful gains continue for years. If you or a family member has had a recent stroke and physiotherapy is not yet established, contact us — we can typically begin home-based assessment within 48-72 hours."
+      answer: "As early as possible — typically within the first week if medically stable. The first 6 months post-stroke is when most recovery happens (the 'golden window' of neuroplasticity), though meaningful gains continue for years. If you or a family member has had a recent stroke and physiotherapy is not yet established, contact us — we can typically begin clinic-based assessment within 48-72 hours."
     },
     {
       question: "How long does neurological rehabilitation take?",
@@ -422,7 +390,7 @@ export const neurologicalDubaiFAQData = {
     },
     {
       question: "Do you provide home physiotherapy for neurological patients?",
-      answer: "Yes — home physiotherapy is one of our most-utilised services for neurological patients. Particularly important for: early stroke recovery, advanced Parkinson's, MS during relapses, end-stage progressive conditions, patients without family transport support, and post-hospital discharge phases. Home sessions are typically AED 550 including therapist travel time across Dubai. Many patients benefit from a combination of home and clinic sessions."
+      answer: "Home physiotherapy for neurological patients is launching soon. In the meantime, our JVC clinic is fully equipped and accessible for patients with mobility limitations."
     },
     {
       question: "Can you coordinate with my neurologist?",
@@ -446,7 +414,7 @@ export const neurologicalDubaiFAQData = {
     },
     {
       question: "Where is your neurological physiotherapy clinic?",
-      answer: "Our clinic is at Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Many neurological patients receive care primarily at home rather than at clinic; we travel across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif."
+      answer: "Our clinic is at Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Our upcoming home physiotherapy service will also allow us to travel across Dubai for patients with significant mobility limitations."
     },
     {
       question: "What about caregivers? Do they get any support?",
@@ -459,13 +427,13 @@ export const neurologicalDubaiFinalCTA = {
   label: "READY TO START?",
   title: "Specialised neurological care delivered with honesty and continuity.",
   description:
-    "Whether you (or a family member) are recovering from recent stroke, managing Parkinson's or MS, recovering from traumatic brain injury, or living with another neurological condition, the next useful step is a 60-75 minute initial assessment — at our JVC clinic or at your home across Dubai. We assess thoroughly, set honest expectations, design a treatment plan calibrated to your specific condition, and establish the long-term relationship that effective neurological rehabilitation requires. Same-week appointments typically available.",
+    "Whether you (or a family member) are recovering from recent stroke, managing Parkinson's or MS, recovering from traumatic brain injury, or living with another neurological condition, the next useful step is a 60-75 minute initial assessment at our JVC clinic. We assess thoroughly, set honest expectations, design a treatment plan calibrated to your specific condition, and establish the long-term relationship that effective neurological rehabilitation requires. Same-week appointments typically available.",
   button1Text: "Book a Neurological Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20ask%20about%20neurological%20physiotherapy%20and%20book%20a%20consultation.%20Please%20assist%20me.",
   footer:
-    "Initial assessment from AED 450 · Clinic in JVC + home physiotherapy across Dubai · Neurologist coordination · Long-term care relationships · Insurance direct-billing"
+    "Initial assessment from AED 450 · Clinic in JVC · Home physiotherapy launching soon · Neurologist coordination · Long-term care relationships · Insurance direct-billing"
 };
 
 export const neurologicalDubaiRelatedPages = {

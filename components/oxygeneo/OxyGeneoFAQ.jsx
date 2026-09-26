@@ -59,7 +59,7 @@ const OxyGeneoFAQ = ({ faqs }) => {
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
               <h3 className="text-xs font-semibold tracking-widest text-[#8A795D] uppercase mb-4">Related pages</h3>
               <ul className="space-y-3 text-sm text-[#2C3E3A]">
-                <li><Link href="/team/arfah-owais-aesthetician-jvc/" className="hover:text-[#C9A55A] transition-colors">Arfah Owais — Aesthetician Profile</Link></li>
+                <li><Link href="/team/arfah-owais-aesthetician-jvc/" className="hover:text-[#C9A55A] transition-colors">Arfah Owais  -  Aesthetician Profile</Link></li>
                 <li><Link href="/treatments/skin-analysis/" className="hover:text-[#C9A55A] transition-colors">Comprehensive Skin Analysis</Link></li>
                 <li><Link href="/treatments/oxy-geneo-jvc/" className="hover:text-[#C9A55A] transition-colors">Oxy-Geneo Facial JVC</Link></li>
                 <li><Link href="/treatments/dermaplaning-jvc/" className="hover:text-[#C9A55A] transition-colors">Dermaplaning JVC</Link></li>

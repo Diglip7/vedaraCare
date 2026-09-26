@@ -20,12 +20,12 @@ const DoctorOtherPractitioners = () => {
       slug: 'dr-james-okafor-physiotherapy'
     },
     {
-      name: 'Dr. Layla Al Rashid',
-      specialty: 'Consultant Dermatologist',
-      focus: 'Integrative Dermatology',
-      image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
-      alt: 'Dr. Layla Al Rashid, DHA-licensed consultant dermatologist at Vedara Care Polyclinic, JVC Dubai',
-      slug: 'dr-layla-al-rashid-dermatology'
+      name: 'Dr. Hafsina K K',
+      specialty: 'Physiotherapist',
+      focus: 'Orthopedic, Neurological, Sports, Women\'s Health',
+      image: '/images/hafsina-kk-physiotherapist-dubai.webp',
+      alt: 'Dr. Hafsina K K, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
+      slug: 'hafsina-kk-physiotherapist-dubai'
     }
   ];
 

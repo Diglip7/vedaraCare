@@ -386,7 +386,7 @@ export const skinRejuvenationPatientVoices = {
   ],
   stats: [
     {
-      value: "4.9★",
+      value: "4.9â˜…",
       description: "on Google"
     },
     {

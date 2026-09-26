@@ -17,16 +17,16 @@ const PhysiotherapyIntegration = () => {
         <div className="grid lg:grid-cols-[60fr_40fr] gap-12">
           <div className="space-y-5">
             <p className="text-lg leading-relaxed" style={{ color: 'rgb(26, 26, 26)', lineHeight: 1.7 }}>
-              If you have an acute sports injury — ankle sprain, hamstring strain, knee injury, shoulder dislocation, or other recent trauma — appropriate early management makes a substantial difference to recovery time and re-injury risk. Same-day or next-day appointments are typically available for acute injuries at our JVC clinic.
+              If you have an acute sports injury  -  ankle sprain, hamstring strain, knee injury, shoulder dislocation, or other recent trauma  -  appropriate early management makes a substantial difference to recovery time and re-injury risk. Same-day or next-day appointments are typically available for acute injuries at our JVC clinic.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}>
-              For acute sports injuries, the first 48–72 hours involve managing the inflammatory response (no longer pure 'rest, ice, compression, elevation' — current evidence supports more active early management), preventing the protective patterns that lead to chronic dysfunction, accurate diagnosis (some injuries that look minor are actually significant; some that look severe are actually manageable), and beginning the rehabilitation that will determine your recovery trajectory.
+              For acute sports injuries, the first 48 - 72 hours involve managing the inflammatory response (no longer pure 'rest, ice, compression, elevation'  -  current evidence supports more active early management), preventing the protective patterns that lead to chronic dysfunction, accurate diagnosis (some injuries that look minor are actually significant; some that look severe are actually manageable), and beginning the rehabilitation that will determine your recovery trajectory.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}>
-              Common acute presentations we handle same-day include: ankle sprains and inversion injuries, acute hamstring strains, knee injuries with effusion or instability, shoulder dislocations and subluxations, acute muscle tears, sports-related back injuries, and acute neck injuries from contact sports or falls. For injuries with red flag features — significant trauma, suspected fracture, neurological symptoms, severe deformity — A&E evaluation comes first, then physiotherapy follow-up.
+              Common acute presentations we handle same-day include: ankle sprains and inversion injuries, acute hamstring strains, knee injuries with effusion or instability, shoulder dislocations and subluxations, acute muscle tears, sports-related back injuries, and acute neck injuries from contact sports or falls. For injuries with red flag features  -  significant trauma, suspected fracture, neurological symptoms, severe deformity  -  A&E evaluation comes first, then physiotherapy follow-up.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}>
-              <strong style={{ color: 'rgb(26, 26, 26)' }}>How to access same-day:</strong> WhatsApp <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20an%20acute%20sports%20injury%20and%20would%20like%20to%20request%20a%20same-day%20appointment." style={{ color: 'rgb(27, 67, 50)', textDecoration: 'underline' }}>+971 55 573 6312</a> is the fastest route — our team typically confirms availability within 15 minutes during business hours. Saturdays and evenings are also available for working patients with acute injuries.
+              <strong style={{ color: 'rgb(26, 26, 26)' }}>How to access same-day:</strong> WhatsApp <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20an%20acute%20sports%20injury%20and%20would%20like%20to%20request%20a%20same-day%20appointment." style={{ color: 'rgb(27, 67, 50)', textDecoration: 'underline' }}>+971 55 573 6312</a> is the fastest route  -  our team typically confirms availability within 15 minutes during business hours. Saturdays and evenings are also available for working patients with acute injuries.
             </p>
           </div>
           <div className="space-y-6">
@@ -64,14 +64,14 @@ const PhysiotherapyIntegration = () => {
                     <circle cx="12" cy="12" r="10"></circle>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
-                  Avoid heat, alcohol, NSAIDs in first 24–48 hours
+                  Avoid heat, alcohol, NSAIDs in first 24 - 48 hours
                 </li>
                 <li className="flex items-start gap-2 text-sm" style={{ color: 'rgb(26, 26, 26)' }}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mt-0.5 flex-shrink-0" style={{ color: 'rgb(27, 67, 50)' }}>
                     <circle cx="12" cy="12" r="10"></circle>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
-                  Get assessed within 48–72 hours
+                  Get assessed within 48 - 72 hours
                 </li>
               </ul>
               <div className="rounded-lg p-4" style={{ background: 'rgb(254, 242, 242)', border: '1px solid rgba(212, 24, 61, 0.15)' }}>

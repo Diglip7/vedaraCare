@@ -48,15 +48,15 @@ const PostSurgeryRehabDubai = () => {
       "priceRange": "AED 350 - AED 25,000",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Jumeirah Village Circle",
+        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
         "addressLocality": "Jumeirah Village Circle",
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "25.0607",
-        "longitude": "55.2078"
+        "latitude": "25.068346",
+        "longitude": "55.207223"
       },
       "openingHoursSpecification": [
         {
@@ -556,9 +556,7 @@ const PostSurgeryRehabDubai = () => {
       "datePublished": "2026-06-01",
       "dateModified": "2026-06-04",
       "author": {
-        "@type": "Physician",
-        "name": "Dr. Sarah Mitchell",
-        "url": "https://vedaracare.ae/physiotherapists/dr-sarah-mitchell/"
+        "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"
       },
       "publisher": {
         "@type": "Organization",
@@ -574,11 +572,12 @@ const PostSurgeryRehabDubai = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "name": "Dr. Sarah Mitchell",
-      "url": "https://vedaracare.ae/physiotherapists/dr-sarah-mitchell/",
-      "image": "https://vedaracare.ae/images/dr-sarah-mitchell.jpg",
+      "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician",
+      "name": "Hafsina K K",
+      "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/",
+      "image": "https://vedaracare.ae/images/hafsina-kk-physiotherapist-dubai.webp",
       "medicalSpecialty": ["Post-Surgical Rehabilitation", "Orthopaedic Physiotherapy", "Physiotherapy"],
-      "hasCredential": ["DPT", "DHA-Licensed"],
+      "hasCredential": ["DHA-Licensed Physiotherapist"],
       "worksFor": {"@id": "https://vedaracare.ae/#organization"}
     }
   ];

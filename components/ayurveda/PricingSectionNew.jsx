@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PricingSectionNew = ({ bgColor, label, title, description, pricingCards }) => {
+const PricingSectionNew = ({ bgColor, label, title, description, pricingCards, additionalServices = [] }) => {
   return (
     <section className={`${bgColor} px-6 md:px-24 py-24`}>
       <div className="max-w-7xl mx-auto">
@@ -99,53 +99,19 @@ const PricingSectionNew = ({ bgColor, label, title, description, pricingCards })
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-4 text-[#6B7280]">Single physiotherapy session (follow-up)</td>
-                  <td className="py-3 px-4 text-right font-semibold">AED 350</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-4 text-[#6B7280]">Initial assessment</td>
-                  <td className="py-3 px-4 text-right font-semibold">AED 400</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-4 text-[#6B7280]">Dry needling (add-on)</td>
-                  <td className="py-3 px-4 text-right font-semibold">AED 150</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-4 text-[#6B7280]">Shockwave therapy session</td>
-                  <td className="py-3 px-4 text-right font-semibold">AED 500</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-4 text-[#6B7280]">Home visit physiotherapy session</td>
-                  <td className="py-3 px-4 text-right font-semibold">AED 600</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-4 text-[#6B7280]">Sports performance assessment</td>
-                  <td className="py-3 px-4 text-right font-semibold">AED 500</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-4 text-[#6B7280]">Postnatal physiotherapy assessment</td>
-                  <td className="py-3 px-4 text-right font-semibold">AED 400</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-4 text-[#6B7280]">6-session package</td>
-                  <td className="py-3 px-4 text-right font-semibold">AED 1,800</td>
-                </tr>
-                <tr className="border-b border-gray-200">
-                  <td className="py-3 px-4 text-[#6B7280]">12-session package</td>
-                  <td className="py-3 px-4 text-right font-semibold">AED 3,200</td>
-                </tr>
-                <tr>
-                  <td className="py-3 px-4 text-[#6B7280] italic">Integrated Ayurveda + Physiotherapy programmes</td>
-                  <td className="py-3 px-4 text-right font-semibold text-[#C4A962]">See condition pages</td>
-                </tr>
+                {additionalServices.map((service, index) => (
+                  <tr key={index} className="border-b border-gray-200">
+                    <td className={`py-3 px-4 text-[#6B7280] ${service.italic ? 'italic' : ''}`}>{service.name}</td>
+                    <td className={`py-3 px-4 text-right font-semibold ${service.highlight ? 'text-[#C4A962]' : ''}`}>{service.price}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
         </div>
         
         <p className="text-sm text-[#6B7280] mb-6 text-center max-w-3xl mx-auto">
-          Insurance direct-billing available with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife. Most plans cover physiotherapy when there is medical justification. WhatsApp your insurance card before booking to confirm coverage.
+          We accept patients with all major insurance providers on a reimbursement basis  -  full documentation provided. WhatsApp your insurance card before booking to confirm coverage.
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 opacity-50 grayscale">

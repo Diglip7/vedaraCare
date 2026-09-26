@@ -14,7 +14,7 @@ const DoctorFAQ = ({ doctor }) => {
     },
     {
       question: 'How many years has Dr. Nair been practising?',
-      answer: 'Over 15 years total — eight years in Kerala\'s leading Ayurvedic hospitals and seven years serving patients in Dubai. She has personally treated over 5,000 patients across a range of chronic conditions.'
+      answer: 'Over 15 years total  -  eight years in Kerala\'s leading Ayurvedic hospitals and seven years serving patients in Dubai. She has personally treated over 5,000 patients across a range of chronic conditions.'
     },
     {
       question: 'What conditions does Dr. Nair specialise in?',
@@ -58,7 +58,7 @@ const DoctorFAQ = ({ doctor }) => {
               What patients ask before booking with {doctor.firstName}.
             </h2>
             <p className="text-[15px] leading-[1.78] mb-8" style={{ color: 'rgb(107, 107, 107)' }}>
-              Honest answers to the most common pre-consultation questions. Not here? WhatsApp us — typically replied to in under 15 minutes.
+              Honest answers to the most common pre-consultation questions. Not here? WhatsApp us  -  typically replied to in under 15 minutes.
             </p>
             <button className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded text-[14px] font-medium transition-opacity hover:opacity-90 active:scale-[0.98]" style={{ background: 'rgb(74, 124, 89)', color: 'rgb(255, 255, 255)' }}>
               <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

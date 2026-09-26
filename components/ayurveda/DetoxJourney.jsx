@@ -119,12 +119,12 @@ const DetoxJourney = ({
           {cannotAchieve && (
             <div className="bg-[#FAF8F5] rounded-xl p-8 border border-[#E5DFD3] space-y-6">
               <h4 className="text-[16px] font-serif font-semibold text-[#1A1A1A] flex items-center gap-2 border-b border-[#FAF6EF] pb-4">
-                <span className="text-gray-400">○</span> {cannotAchieve.title}
+                <span className="text-gray-400">â—‹</span> {cannotAchieve.title}
               </h4>
               <ul className="space-y-3">
                 {cannotAchieve.items.map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2.5 text-[13.5px] text-[#5A5A5A] font-sans leading-snug">
-                    <span className="text-gray-400 mt-0.5">—</span>
+                    <span className="text-gray-400 mt-0.5"> - </span>
                     <span>{item}</span>
                   </li>
                 ))}

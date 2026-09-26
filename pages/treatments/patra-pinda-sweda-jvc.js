@@ -439,7 +439,7 @@ const PatraPindaSwedaJVC = () => {
             <ul className="space-y-3 mb-6">
               {patraPindaSwedaExperience.recovery.points.map((pt, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white" style={{ backgroundColor: '#C9A55A' }}>•</span>
+                  <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white" style={{ backgroundColor: '#C9A55A' }}>”¢</span>
                   <span className="text-sm text-[rgb(107,107,107)] leading-relaxed">{pt}</span>
                 </li>
               ))}

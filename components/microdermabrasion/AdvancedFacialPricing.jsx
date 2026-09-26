@@ -72,7 +72,7 @@ const AdvancedFacialPricing = ({ data, bgColor, cardBgColor }) => {
         </table>
       </div>
       <p style={{ fontFamily: 'Inter, system-ui, sans-serif', fontSize: '13px', color: 'rgb(119, 119, 119)', marginTop: '20px', lineHeight: '1.6' }}>
-        {data?.footerText || "All prices in AED. VAT included where applicable. Microdermabrasion and dermaplaning delivered for cosmetic purposes are typically not insurance-covered — check with your provider before booking."}
+        {data?.footerText || "All prices in AED. VAT included where applicable. Microdermabrasion and dermaplaning delivered for cosmetic purposes are typically not insurance-covered  -  check with your provider before booking."}
       </p>
       <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center', marginTop: '48px', alignItems: 'center' }}>
         <Link href={data?.bookLink || "/book"} style={{ textDecoration: 'none' }}>

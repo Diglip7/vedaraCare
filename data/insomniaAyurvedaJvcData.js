@@ -4,14 +4,14 @@ export const insomniaJvcHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Insomnia Ayurvedic Treatment — JVC" }
   ],
-  label: "INSOMNIA AYURVEDIC TREATMENT • DHA-LICENSED 2509266 • JUMEIRAH VILLAGE CIRCLE",
+  label: "INSOMNIA AYURVEDIC TREATMENT ”¢ DHA-LICENSED 2509266 ”¢ JUMEIRAH VILLAGE CIRCLE",
   title: "Insomnia Ayurvedic\ntreatment at our JVC\nclinic, Dubai.",
   description: "Authentic Ayurvedic sleep restoration at our DHA-licensed clinic at Jumeirah Village Circle — serving Dubai's community across chronic primary insomnia, stress-related sleep disruption, hormonal sleep changes, jet lag, shift work concerns, and age-related sleep patterns. DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya, delivering comprehensive sleep restoration through constitutional assessment, Shirodhara flagship therapy, Padabhyanga, herbal medicines, and personalised sleep hygiene counselling.",
   image: "/og-images/insomnia-ayurveda-jvc-hero.webp",
   alt: "Insomnia Ayurvedic treatment sleep restoration Vedara Care JVC Dubai",
   primaryCTA: "Book Sleep Consultation",
   primaryCTAHref: "/contact-us",
-  secondaryCTA: "Understand Ayurvedic Sleep Care ↓",
+  secondaryCTA: "Understand Ayurvedic Sleep Care â†“",
   secondaryCTAHref: "#understanding",
   trustSignals: [
     "DHA-licensed BAMS Ayurvedic doctors",
@@ -444,7 +444,7 @@ export const insomniaJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.9★", label: "stars on Google" },
+    { value: "4.9â˜…", label: "stars on Google" },
     { value: "850+", label: "sleep patients treated" },
     { value: "DHA-licensed", label: "BAMS Ayurvedic doctors" },
     { value: "Female", label: "practitioner available" }

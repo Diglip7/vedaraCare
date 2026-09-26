@@ -211,25 +211,19 @@ export const postSurgeryTeamData = {
   title: "Post-surgical rehabilitation specialists at our JVC clinic.",
   members: [
     {
-      name: "Dr. Sarah Mitchell, DPT",
-      credentials: "DHA-Licensed · Post-Surgical Specialist",
-      tags: ["Joint Replacement", "ACL Rehab", "Spinal Recovery"],
-      description: "Specialised in post-operative rehabilitation with 12+ years experience",
-      link: "/physiotherapists/dr-sarah-mitchell/"
-    },
-    {
-      name: "Dr. Sarah Mitchell, DPT",
-      credentials: "DHA-Licensed · Post-Surgical Specialist",
-      tags: ["Joint Replacement", "ACL Rehab", "Spinal Recovery"],
-      description: "Specialised in post-operative rehabilitation with 12+ years experience",
-      link: "/physiotherapists/dr-sarah-mitchell/"
-    },
-    {
-      name: "Dr. Sarah Mitchell, DPT",
-      credentials: "DHA-Licensed · Post-Surgical Specialist",
-      tags: ["Joint Replacement", "ACL Rehab", "Spinal Recovery"],
-      description: "Specialised in post-operative rehabilitation with 12+ years experience",
-      link: "/physiotherapists/dr-sarah-mitchell/"
+      name: "Hafsina K K",
+      credentials: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
+      tags: [
+        "Orthopedic Rehab",
+        "Neurological Rehab",
+        "Sports Rehab",
+        "Women's Health"
+      ],
+      description: "7 years' experience in orthopedic, neurological, sports & women's health rehab.",
+      languages: "Languages spoken: English, Malayalam, Hindi, Tamil",
+      link: "/doctors/hafsina-kk-physiotherapist/",
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K physiotherapy specialist Vedara Care JVC Dubai"
     }
   ]
 };
@@ -259,7 +253,7 @@ export const whereWeWorkData = {
   title: "At our JVC clinic, or at your home across Dubai.",
   description: "Post-surgical rehabilitation happens at two locations depending on your stage: the early phase (typically weeks 0-4) often at your home across Dubai with our DPT-qualified physiotherapists travelling to you. The active rehabilitation phase (typically weeks 4 onwards) at our JVC clinic with full rehabilitation equipment, treatment rooms, and gym access. Some patients prefer home-based throughout — we accommodate.",
   details: {
-    address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeraih Village Circle (JVC) Dubai",
+    address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeirah Village Circle (JVC) Dubai",
     hours: "Monday - Sunday : 9:00AM to 10:00PM",
     phone: "+971 55 573 6312",
     email: "booking@vedaracare.ae"

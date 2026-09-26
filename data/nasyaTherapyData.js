@@ -234,7 +234,7 @@ export const nasyaTherapyProtocol = {
 export const nasyaTherapyExperience = {
   sensation: {
     title: "What Does Nasya Feel Like?",
-    description: "Patient experiences during Nasya vary, and it's worth describing this honestly rather than idealizing it. You may notice:\n\n• A distinct nasal sensation as the preparation is administered\n• Mild irritation, particularly at first\n• A sensation of oil or liquid passing through the nasal passage, sometimes reaching the back of the throat\n• A need to clear your throat\n• Temporary nasal discharge following treatment\n• A feeling of warmth or mild pressure\n\nThese experiences differ from person to person, and it wouldn't be accurate to describe the treatment as universally pleasant or entirely free of sensation — some of what's described above is a normal, expected part of the process rather than a sign that something has gone wrong."
+    description: "Patient experiences during Nasya vary, and it's worth describing this honestly rather than idealizing it. You may notice:\n\n”¢ A distinct nasal sensation as the preparation is administered\n”¢ Mild irritation, particularly at first\n”¢ A sensation of oil or liquid passing through the nasal passage, sometimes reaching the back of the throat\n”¢ A need to clear your throat\n”¢ Temporary nasal discharge following treatment\n”¢ A feeling of warmth or mild pressure\n\nThese experiences differ from person to person, and it wouldn't be accurate to describe the treatment as universally pleasant or entirely free of sensation — some of what's described above is a normal, expected part of the process rather than a sign that something has gone wrong."
   },
   pain: {
     title: "Does Nasya Hurt?",
@@ -246,11 +246,11 @@ export const nasyaTherapyExperience = {
   },
   recovery: {
     title: "Nasya Recovery",
-    description: "Following a Nasya session, several short-term experiences are relatively common and generally expected as part of the process, including:\n\n• Increased nasal discharge in the hours following treatment\n• Mild irritation in the nasal passages\n• A temporary sensation in the throat\n• A feeling of nasal clearing\n• Mild tiredness, depending on the overall treatment and how your body responds\n\nThese effects are usually short-lived, but if you notice anything unusual or symptoms that persist beyond what you were told to expect, this should be discussed with your practitioner rather than assumed to be normal."
+    description: "Following a Nasya session, several short-term experiences are relatively common and generally expected as part of the process, including:\n\n”¢ Increased nasal discharge in the hours following treatment\n”¢ Mild irritation in the nasal passages\n”¢ A temporary sensation in the throat\n”¢ A feeling of nasal clearing\n”¢ Mild tiredness, depending on the overall treatment and how your body responds\n\nThese effects are usually short-lived, but if you notice anything unusual or symptoms that persist beyond what you were told to expect, this should be discussed with your practitioner rather than assumed to be normal."
   },
   aftercare: {
     title: "Nasya Aftercare",
-    description: "General aftercare guidance following Nasya typically includes:\n\n• Following the specific instructions given by your practitioner\n• Avoiding self-administering any additional oils or preparations into the nose after your session\n• Keeping the nasal area comfortable, without excessive touching or irritation\n• Following any activity guidance discussed with your practitioner\n• Reporting persistent irritation or any unusual symptoms promptly"
+    description: "General aftercare guidance following Nasya typically includes:\n\n”¢ Following the specific instructions given by your practitioner\n”¢ Avoiding self-administering any additional oils or preparations into the nose after your session\n”¢ Keeping the nasal area comfortable, without excessive touching or irritation\n”¢ Following any activity guidance discussed with your practitioner\n”¢ Reporting persistent irritation or any unusual symptoms promptly"
   }
 };
 

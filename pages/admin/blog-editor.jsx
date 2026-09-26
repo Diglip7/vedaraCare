@@ -3908,7 +3908,7 @@ const saveDraft = async (isAutoSave = false) => {
                       className="px-2 sm:px-3 py-1 sm:py-1.5 bg-amber-50 hover:bg-amber-100 border border-amber-300 rounded-lg text-xs sm:text-sm font-medium text-amber-800 transition-colors whitespace-nowrap"
                       title="Add Row Above"
                     >
-                      ↑ Add Row
+                      â†‘ Add Row
                     </button>
                     <button
                       onClick={(e) => {
@@ -3919,7 +3919,7 @@ const saveDraft = async (isAutoSave = false) => {
                       className="px-2 sm:px-3 py-1 sm:py-1.5 bg-amber-50 hover:bg-amber-100 border border-amber-300 rounded-lg text-xs sm:text-sm font-medium text-amber-800 transition-colors whitespace-nowrap"
                       title="Add Row Below"
                     >
-                      ↓ Add Row
+                      â†“ Add Row
                     </button>
                     <button
                       onClick={(e) => {
@@ -3930,7 +3930,7 @@ const saveDraft = async (isAutoSave = false) => {
                       className="px-2 sm:px-3 py-1 sm:py-1.5 bg-amber-50 hover:bg-amber-100 border border-amber-300 rounded-lg text-xs sm:text-sm font-medium text-amber-800 transition-colors whitespace-nowrap"
                       title="Add Column Left"
                     >
-                      ← Add Col
+                      â† Add Col
                     </button>
                     <button
                       onClick={(e) => {

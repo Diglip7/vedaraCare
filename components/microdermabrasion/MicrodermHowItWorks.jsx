@@ -46,7 +46,7 @@ const MicrodermHowItWorks = ({ data }) => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     <span className="text-[15px] text-[#6B6B6B] font-sans leading-relaxed">
-                      <strong className="text-[#1A1A1A] font-medium">{check.bold}</strong> — {check.text}
+                      <strong className="text-[#1A1A1A] font-medium">{check.bold}</strong>  -  {check.text}
                     </span>
                   </li>
                 ))}
@@ -75,7 +75,7 @@ const MicrodermHowItWorks = ({ data }) => {
                   <ul className="space-y-2">
                     {data.block4.col1.items.map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <span className="text-[#C9A961] mt-1 text-[10px]">■</span>
+                        <span className="text-[#C9A961] mt-1 text-[10px]">â– </span>
                         <span className="text-[13px] text-[#6B6B6B] font-sans leading-relaxed">{item}</span>
                       </li>
                     ))}
@@ -87,7 +87,7 @@ const MicrodermHowItWorks = ({ data }) => {
                   <ul className="space-y-2">
                     {data.block4.col2.items.map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <span className="text-[#C9A961] mt-1 text-[10px]">■</span>
+                        <span className="text-[#C9A961] mt-1 text-[10px]">â– </span>
                         <span className="text-[13px] text-[#6B6B6B] font-sans leading-relaxed">{item}</span>
                       </li>
                     ))}

@@ -1094,7 +1094,7 @@ const StressAnxietyAyurvedaJvc = () => {
                     marginBottom: "16px",
                   }}
                 >
-                  ◈
+                  â—ˆ
                 </p>
 
                 <h4
@@ -1137,7 +1137,7 @@ const StressAnxietyAyurvedaJvc = () => {
                     marginBottom: "16px",
                   }}
                 >
-                  ◇
+                  â—‡
                 </p>
 
                 <h4
@@ -1181,7 +1181,7 @@ const StressAnxietyAyurvedaJvc = () => {
                     marginBottom: "16px",
                   }}
                 >
-                  ◆
+                  â—†
                 </p>
 
                 <h4

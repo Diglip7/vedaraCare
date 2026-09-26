@@ -30,9 +30,9 @@ const HydraFacialLocation = () => {
               <h3 className="font-serif text-[#2C3E3A] text-lg mb-2">Vedara Care Polyclinic</h3>
               <div className="text-gray-600 text-sm space-y-1">
                 <p>Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai</p>
-                <p>📞 +971 55 573 6312</p>
-                <p>💬 WhatsApp Available</p>
-                <p>✉️ booking@vedaracare.ae</p>
+                <p>ðŸ“ž +971 55 573 6312</p>
+                <p>ðŸ’¬ WhatsApp Available</p>
+                <p>âœ‰ï¸ booking@vedaracare.ae</p>
               </div>
             </div>
 

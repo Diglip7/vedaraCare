@@ -7,7 +7,7 @@ import FinalCTA from "../ayurveda/FinalCTA";
 import RelatedPages from "../ayurveda/RelatedPages";
 import { SciaticaTreatment } from "../ayurveda/SciaticaSections";
 
-// ---- HERO — uses the same AyurvedaHero component as DoctorPageTemplate ----
+// ---- HERO  -  uses the same AyurvedaHero component as DoctorPageTemplate ----
 
 // ---- QUICK ANSWER (Arfah-specific: blockquote + chips, no footer) ----
 const QuickAnswerSection = ({ data }) => (
@@ -517,7 +517,7 @@ export const ReadingSection = ({ data }) => {
 const AestheticianPageTemplate = ({ data }) => {
   return (
     <>
-      {/* Hero — identical layout to DoctorPageTemplate, Figma-matched */}
+      {/* Hero  -  identical layout to DoctorPageTemplate, Figma-matched */}
       <AyurvedaHero
         bgColor="bg-[#FAF6EF]"
         breadcrumb={data.breadcrumb || []}

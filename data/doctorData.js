@@ -326,8 +326,8 @@ const defaultRelatedPages = (name, pages) => ({
 // =====================================================
 export const drPriyaNairTemplate = {
   ...drPriyaNair,
-  heroBadge: 'SENIOR AYURVEDIC PHYSICIAN • BAMS, MD',
-  heroStats: 'DHA-P-0048291 • 15+ years clinical experience',
+  heroBadge: 'SENIOR AYURVEDIC PHYSICIAN ”¢ BAMS, MD',
+  heroStats: 'DHA-P-0048291 ”¢ 15+ years clinical experience',
   pageTitle: 'Ayurvedic Doctor at our JVC clinic, Dubai.',
   firstName: 'Dr. Priya Nair',
   ratingText: '4.9 rated on Google',
@@ -587,7 +587,7 @@ export const hafsinaKKTemplate = {
   name: 'Hafsina K K',
   firstName: 'Hafsina K K',
   title: 'Bachelor of Physiotherapy · DHA-Licensed Physiotherapist · Hands-On, Evidence-Based Rehabilitation',
-  image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
+  image: '/images/hafsina-kk-physiotherapist-dubai.webp',
   alt: 'Hafsina K K, DHA Licensed Physiotherapist at Vedara Care Polyclinic, JVC Dubai',
   heroBadge: "DHA LICENSED PHYSIOTHERAPIST · ORTHOPEDIC, NEUROLOGICAL & WOMEN'S HEALTH REHABILITATION · JUMEIRAH VILLAGE CIRCLE",
   heroStats: 'DHA Licensed Physiotherapist—7+ Years of Clinical Experience',
@@ -1328,7 +1328,7 @@ export const ayurvedaConsultationData = {
       description: "Your doctor outlines a treatment plan: which therapies, which herbal medicines, which dietary corrections, and what realistic timeline to expect. You leave with clarity, not a sales pitch."
     }
   ],
-  footer: "First consultation duration: 45 to 60 minutes • From AED 350"
+  footer: "First consultation duration: 45 to 60 minutes ”¢ From AED 350"
 };
 
 export const drAnsiya = {
@@ -1542,7 +1542,7 @@ export const drAnsiya = {
       { value: "4.9", label: "Google Rating" },
       { value: "11", label: "Documented Expertise Areas" },
       { value: "DHA", label: "Licensed & BAMS Qualified" },
-      { value: "♀", label: "Female Doctor Available" }
+      { value: "â™€", label: "Female Doctor Available" }
     ],
 
   },
@@ -1884,9 +1884,9 @@ export const drSanjida = {
     title: "Sample patient experiences with Dr. Sanjida Islam Suchana.",
     description: "",
     items: [
-      { quote: "“She took the time to understand my concerns.” I appreciated how carefully Dr. Sanjida listened before discussing my concerns. She asked about my medical history, explained her assessment clearly, and answered my questions without rushing the consultation. I felt comfortable discussing my symptoms and left with a much clearer understanding of the next steps.", author: "Female Patient", details: "General Practice Consultation · JVC Dubai" },
-      { quote: "“Everything was explained clearly.” Dr. Sanjida was thorough during my consultation and reviewed my medical history and previous reports carefully. She explained the findings in straightforward language and discussed the follow-up plan with me. The consultation felt organised and focused, and I appreciated having the opportunity to ask questions about my ongoing care.", author: "Male Patient", details: "Chronic Disease Follow-Up · Dubai" },
-      { quote: "“I felt comfortable discussing my health concerns.” I was looking for a female doctor for a private health concern and felt comfortable speaking with Dr. Sanjida. She listened respectfully, asked relevant questions, and explained the available next steps clearly. I appreciated her calm communication and the time she took to make sure I understood the consultation.", author: "Female Patient", details: "Women’s Health Consultation · JVC Dubai" }
+      { quote: "“She took the time to understand my concerns.” I appreciated how carefully Dr. Sanjida listened before discussing my concerns. She asked about my medical history, explained her assessment clearly, and answered my questions without rushing the consultation. I felt comfortable discussing my symptoms and left with a much clearer understanding of the next steps.", author: "Female Patient", details: "General Practice Consultation · JVC Dubai" },
+      { quote: "“Everything was explained clearly.” Dr. Sanjida was thorough during my consultation and reviewed my medical history and previous reports carefully. She explained the findings in straightforward language and discussed the follow-up plan with me. The consultation felt organised and focused, and I appreciated having the opportunity to ask questions about my ongoing care.", author: "Male Patient", details: "Chronic Disease Follow-Up · Dubai" },
+      { quote: "“I felt comfortable discussing my health concerns.” I was looking for a female doctor for a private health concern and felt comfortable speaking with Dr. Sanjida. She listened respectfully, asked relevant questions, and explained the available next steps clearly. I appreciated her calm communication and the time she took to make sure I understood the consultation.", author: "Female Patient", details: "Women’s Health Consultation · JVC Dubai" }
     ],
 
     buttonText: '',
@@ -2940,9 +2940,9 @@ export const johannaBautistaData = {
     title: "Real patient experiences with Johanna at Vedara Care JVC.",
     description: "",
     items: [
-      { quote: "“Warm and welcoming from the start.” Johanna made my first visit to Vedara Care feel comfortable from the moment I arrived. She greeted me warmly, explained the check-in process clearly, and helped me understand where to go. Her friendly communication and organised approach made the experience feel simple, professional, and welcoming.", author: "Female Patient", details: "First Clinic Visit · JVC Dubai" },
-      { quote: "“Very helpful with my appointment.” I contacted Vedara Care because I was unsure which department I needed. Johanna listened patiently, helped clarify my enquiry, and guided me through the appointment process. She was polite, organised, and professional throughout our conversation. The booking was straightforward, and I appreciated having someone helpful to speak with.", author: "Male Patient", details: "Appointment Coordination · Dubai" },
-      { quote: "“Kind and professional at reception.” Johanna was welcoming and professional throughout my visit to Vedara Care. She helped with my appointment details, answered my general questions, and made the reception process easy to understand. I appreciated her calm and friendly manner, especially as it was my first visit. She created a positive first impression.", author: "Female Patient", details: "Patient Support · JVC Dubai" }
+      { quote: "“Warm and welcoming from the start.” Johanna made my first visit to Vedara Care feel comfortable from the moment I arrived. She greeted me warmly, explained the check-in process clearly, and helped me understand where to go. Her friendly communication and organised approach made the experience feel simple, professional, and welcoming.", author: "Female Patient", details: "First Clinic Visit · JVC Dubai" },
+      { quote: "“Very helpful with my appointment.” I contacted Vedara Care because I was unsure which department I needed. Johanna listened patiently, helped clarify my enquiry, and guided me through the appointment process. She was polite, organised, and professional throughout our conversation. The booking was straightforward, and I appreciated having someone helpful to speak with.", author: "Male Patient", details: "Appointment Coordination · Dubai" },
+      { quote: "“Kind and professional at reception.” Johanna was welcoming and professional throughout my visit to Vedara Care. She helped with my appointment details, answered my general questions, and made the reception process easy to understand. I appreciated her calm and friendly manner, especially as it was my first visit. She created a positive first impression.", author: "Female Patient", details: "Patient Support · JVC Dubai" }
     ]
   }
 };

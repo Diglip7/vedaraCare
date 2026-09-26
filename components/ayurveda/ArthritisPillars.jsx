@@ -5,7 +5,7 @@ const ArthritisPillars = ({
   cardBg = "bg-white",
   label = "THE TREATMENT APPROACH",
   title = "Ayurvedic arthritis treatment has four pillars.",
-  description = "Single-pillar approaches — 'just take this anti-inflammatory herb,' 'just do Panchakarma,' 'just rest the joint' — produce limited results because arthritis involves multiple layers requiring integrated treatment. The 3-9 month programme addresses all four pillars consistently.",
+  description = "Single-pillar approaches  -  'just take this anti-inflammatory herb,' 'just do Panchakarma,' 'just rest the joint'  -  produce limited results because arthritis involves multiple layers requiring integrated treatment. The 3-9 month programme addresses all four pillars consistently.",
   pillars = []
 }) => {
   return (

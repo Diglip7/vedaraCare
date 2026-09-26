@@ -13,7 +13,7 @@ const DoctorConsultation = ({
   const displaySteps = steps || doctor?.consultationSteps || [];
   const defaultFooter = (
     <>
-      First consultation: 45 to 60 minutes • From AED 350 • Insurance direct-billing available • <Link href="/treatments/panchakarma-dubai" className="hover:opacity-70 transition-opacity" style={{ color: 'rgb(201, 169, 97)' }}>Panchakarma</Link> programmes available
+      First consultation: 45 to 60 minutes - From AED 350 - Insurance direct-billing available - <Link href="/treatments/panchakarma-dubai" className="hover:opacity-70 transition-opacity" style={{ color: 'rgb(201, 169, 97)' }}>Panchakarma</Link> programmes available
     </>
   );
 

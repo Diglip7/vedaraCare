@@ -5,7 +5,7 @@ import Link from 'next/link';
 const AboutVedara = ({
   label = "ABOUT VEDARA CARE",
   title = "A DHA-licensed Ayurveda practice in Jumeirah Village Circle, Dubai.",
-  description = "Vedara Care Polyclinic is a DHA-licensed holistic healthcare clinic in JVC, Dubai, with Ayurveda at its centre. Our BAMS-qualified Ayurvedic physicians practise classical Ayurveda — pulse diagnosis, dosha assessment, classical Panchakarma, and constitution-based herbal medicine — alongside modern physiotherapy and dermatology. Patients come to us from across Dubai for chronic conditions where conventional care has plateaued.",
+  description = "Vedara Care Polyclinic is a DHA-licensed holistic healthcare clinic in JVC, Dubai, with Ayurveda at its centre. Our BAMS-qualified Ayurvedic physicians practise classical Ayurveda  -  pulse diagnosis, dosha assessment, classical Panchakarma, and constitution-based herbal medicine  -  alongside modern physiotherapy and dermatology. Patients come to us from across Dubai for chronic conditions where conventional care has plateaued.",
   stats = [
     { value: "15+", label: "DHA-Licensed Practitioners" },
     { value: "5,000+", label: "Patients Treated" },

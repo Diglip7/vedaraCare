@@ -92,7 +92,7 @@ export const NeckPainShouldYouSee = ({
                     "Severe vision changes with neck pain"
                   ].map((item, idx) => (
                     <div key={idx} className="flex items-start gap-2 text-xs" style={{ color: '#8B3A3A' }}>
-                      <span className="shrink-0">•</span>
+                      <span className="shrink-0">-</span>
                       {item}
                     </div>
                   ))}
@@ -111,7 +111,7 @@ export const NeckPainShouldYouSee = ({
                     "Systemic symptoms (fever, weight loss)"
                   ].map((item, idx) => (
                     <div key={idx} className="flex items-start gap-2 text-xs" style={{ color: '#1A1916' }}>
-                      <span className="shrink-0">•</span>
+                      <span className="shrink-0">-</span>
                       {item}
                     </div>
                   ))}

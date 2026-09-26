@@ -11,7 +11,7 @@ const MicrodermPricing = () => {
           Individual treatment pricing, combined protocols, and programme options.
         </h2>
         <p style={{ fontFamily: 'Inter, system-ui, sans-serif', fontSize: '17px', color: 'rgb(85, 85, 85)', maxWidth: '700px', margin: '0px auto' }}>
-          Pricing varies by treatment selection and programme structure. Comprehensive skin analysis determines appropriate modality — no door-sold packages.
+          Pricing varies by treatment selection and programme structure. Comprehensive skin analysis determines appropriate modality  -  no door-sold packages.
         </p>
       </div>
       <div style={{ overflowX: 'auto', borderRadius: '8px', border: '1px solid rgba(200, 168, 127, 0.3)' }}>
@@ -52,7 +52,7 @@ const MicrodermPricing = () => {
         </table>
       </div>
       <p style={{ fontFamily: 'Inter, system-ui, sans-serif', fontSize: '13px', color: 'rgb(119, 119, 119)', marginTop: '20px', lineHeight: '1.6' }}>
-        All prices in AED. VAT included where applicable. Microdermabrasion and dermaplaning delivered for cosmetic purposes are typically not insurance-covered — check with your provider before booking.
+        All prices in AED. VAT included where applicable. Microdermabrasion and dermaplaning delivered for cosmetic purposes are typically not insurance-covered  -  check with your provider before booking.
       </p>
       <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center', marginTop: '48px' }}>
         <button style={{ backgroundColor: 'rgb(200, 168, 127)', color: 'rgb(255, 255, 255)', borderWidth: 'medium', borderStyle: 'none', borderColor: 'currentcolor', borderImage: 'none', borderRadius: '8px', height: '56px', padding: '0px 32px', fontSize: '16px', fontWeight: '600', cursor: 'pointer', fontFamily: 'Inter, system-ui, sans-serif', transition: 'background 0.2s', whiteSpace: 'nowrap' }}>

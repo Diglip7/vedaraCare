@@ -28,7 +28,7 @@ const BackPainAcuteAndPricing = ({ data }) => {
               
               <div className="bg-white rounded-lg p-6 border-l-4 border-[#1C3D2E]">
                 <p className="text-xs" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7' }}>
-                 <strong className='text-[#1A1A14]'>Red flags requiring A&E first (not physiotherapy):</strong> bladder or bowel changes (incontinence or retention), saddle anaesthesia (numbness in genital/anal area), progressive bilateral leg weakness, history of cancer with new back pain, history of significant trauma, fever with back pain, severe night pain unrelieved by position changes. These features may indicate cauda equina syndrome or other emergencies — A&E evaluation comes first, then physiotherapy follow-up.
+                 <strong className='text-[#1A1A14]'>Red flags requiring A&E first (not physiotherapy):</strong> bladder or bowel changes (incontinence or retention), saddle anaesthesia (numbness in genital/anal area), progressive bilateral leg weakness, history of cancer with new back pain, history of significant trauma, fever with back pain, severe night pain unrelieved by position changes. These features may indicate cauda equina syndrome or other emergencies  -  A&E evaluation comes first, then physiotherapy follow-up.
                 </p>
               </div>
             </div>

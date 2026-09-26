@@ -6,7 +6,7 @@ export const physiotherapyJvcHero = {
   ],
   label: "PHYSIOTHERAPY · DHA-LICENSED CLINIC IN JVC, DUBAI",
   title: "Physiotherapy in JVC. Evidence-based, hands-on, results-focused.",
-  description: "DPT-qualified physiotherapists at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. Specialised treatment for sports injuries, post-surgical rehabilitation, chronic pain, neurological recovery, women's health, and paediatric physiotherapy. Same-day appointments available. Insurance direct-billing with seven major insurers.",
+  description: "DPT-qualified physiotherapists at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. Specialised treatment for sports injuries, post-surgical rehabilitation, chronic pain, neurological recovery, women's health, and paediatric physiotherapy. Same-day appointments available. Insurance reimbursement support with all major insurers.",
   primaryCTA: "Book a Session",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
@@ -21,15 +21,15 @@ export const physiotherapyJvcHero = {
     title: "INTEGRATED WITH AYURVEDA — WHEN APPROPRIATE.",
     subtitle: "Standalone physiotherapy for most patients. Integrated Ayurveda + physiotherapy programmes for chronic conditions where combined care produces stronger outcomes."
   },
-  image: "/images/physiotherapy-jvc-hero .webp",
+  image: "/images/physiotherapy-jvc-hero.webp",
   alt: "Physiotherapist providing manual therapy at Vedara Care JVC clinic Dubai"
 };
 
 export const physiotherapyJvcIntro = {
   label: "THE QUICK ANSWER",
   title: "Physiotherapy at our JVC clinic, in one paragraph.",
-  blockquote: "Vedara Care Polyclinic offers comprehensive DHA-licensed physiotherapy at our Jumeirah Village Circle (JVC), Dubai clinic — walking distance from Circle Mall. Our DPT-qualified physiotherapists provide treatment across seven specialised areas: musculoskeletal physiotherapy (back pain, neck pain, joint conditions), sports physiotherapy (acute injuries, performance, return-to-play), post-surgical rehabilitation (ACL, joint replacement, spinal surgery), neurological rehabilitation (post-stroke, MS, Parkinson's), women's health physiotherapy (pelvic floor, postnatal, prenatal), paediatric physiotherapy (developmental, sports injuries in children), and cardiopulmonary rehabilitation. Techniques include manual therapy, dry needling, IFC, ultrasound therapy, neurodynamic mobilisation, exercise prescription, and integrated Ayurveda + physiotherapy programmes for chronic conditions. Single sessions from AED 350; structured programmes for chronic conditions from AED 1,800. Insurance direct-billing with seven major insurers.",
-  footer: "  Medically reviewed by Dr. Sarah Mitchell, DPT, DHA-Licensed 2509266 · Last updated June 2026",
+  blockquote: "Vedara Care Polyclinic offers comprehensive DHA-licensed physiotherapy at our Jumeirah Village Circle (JVC), Dubai clinic — walking distance from Circle Mall. Our DPT-qualified physiotherapists provide treatment across seven specialised areas: musculoskeletal physiotherapy (back pain, neck pain, joint conditions), sports physiotherapy (acute injuries, performance, return-to-play), post-surgical rehabilitation (ACL, joint replacement, spinal surgery), neurological rehabilitation (post-stroke, MS, Parkinson's), women's health physiotherapy (pelvic floor, postnatal, prenatal), paediatric physiotherapy (developmental, sports injuries in children), and cardiopulmonary rehabilitation. Techniques include manual therapy, dry needling, IFC, ultrasound therapy, neurodynamic mobilisation, exercise prescription, and integrated Ayurveda + physiotherapy programmes for chronic conditions. Single sessions from AED 350; structured programmes for chronic conditions from AED 2,400. Insurance reimbursement support with all major insurers.",
+  footer: "  Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026",
 };
 
 export const physiotherapyJvcSpecializations = {
@@ -91,7 +91,7 @@ export const physiotherapyJvcSpecializations = {
         "peripheral neuropathy",
         "Bell's palsy"
       ],
-      href: "/treatments/njavarakizhi-dubai/"
+      href: "/physiotherapy/neurological-dubai"
     },
     {
       number: "05",
@@ -246,36 +246,13 @@ export const physiotherapyJvcTeam = {
   title: "DPT-qualified physiotherapists at our JVC clinic.",
   team: [
     {
-      name: "Dr. Sarah Mitchell, DPT",
-      qualification: "DHA-Licensed Physiotherapist · Musculoskeletal & Sports Physiotherapy",
-      specialties: ["Sports Physio", "Manual Therapy", "Dry Needling", "Post-Surgical"],
-      experience: "12 years experience, specialized in sports injuries and complex musculoskeletal conditions.",
-      image: "",
-      alt: "Dr. Sarah Mitchell, qualified physiotherapist at Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Priya Sharma, DPT",
-      qualification: "DHA-Licensed Physiotherapist · Women's Health & Pelvic Floor",
-      specialties: ["Pelvic Floor", "Postnatal", "Women's Health", "Manual Therapy"],
-      experience: "10 years experience in women's health physiotherapy and pelvic floor rehabilitation.",
-      image: "",
-      alt: "Dr. Priya Sharma, qualified physiotherapist at Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. James Anderson, DPT",
-      qualification: "DHA-Licensed Physiotherapist · Neurological Rehabilitation",
-      specialties: ["Neuro Rehab", "Post-Stroke", "Manual Therapy", "Vestibular"],
-      experience: "15 years experience in neurological physiotherapy and stroke rehabilitation.",
-      image: "",
-      alt: "Dr. James Anderson, qualified physiotherapist at Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Fatima Al-Hashimi, DPT",
-      qualification: "DHA-Licensed Physiotherapist · Paediatric & Cardiopulmonary",
-      specialties: ["Paediatric", "Cardiopulmonary", "Post-COVID", "Developmental"],
-      experience: "8 years experience in paediatric physiotherapy and respiratory rehabilitation.",
-      image: "",
-      alt: "Dr. Fatima Al-Hashimi,qualified physiotherapist at Vedara Care JVC Dubai"
+      name: "Hafsina K K",
+      credential: "DHA-Licensed Physiotherapist",
+      specialty: "Orthopedic, Neurological, Sports & Women's Health Rehabilitation",
+      tags: ["Sports Physio", "Manual Therapy", "Dry Needling", "Women's Health", "Neurological Rehab", "Paediatric"],
+      experience: "7 years experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
+      link: "/doctors/hafsina-kk-physiotherapist/",
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp"
     }
   ]
 };
@@ -367,23 +344,23 @@ export const physiotherapyJvcHomeHealthcareNew = {
     "Honest assessment of when integration helps vs. when standalone physio is sufficient",
 
   ],
-  priceText: "Home physiotherapy sessions from AED 450",
+  priceText: "Coming soon — launching at AED 600",
   priceNote: "Additional travel charges may apply for distant locations",
   footer: "Home visits are especially valuable for post-ACL repair, post-joint replacement, and neurological rehabilitation patients who find clinic travel challenging.",
   image: "/images/physiotherapy-team-vedara-jvc.webp",
   imageAlt: "Physiotherapist and Ayurvedic doctor collaborating at Vedara Care JVC",
-  primaryButtonText: "Book Home Physiotherapy",
+  primaryButtonText: "Notify Me When Home Physiotherapy Launches",
   secondaryButtonText: "Read about Home Healthcare"
 };
 
 export const physiotherapyJvcInsurance = {
   bgColor: "bg-[#F5F1E8]",
   label: "INSURANCE",
-  title: "Insurance direct-billing with 7 major insurers.",
+  title: "Insurance reimbursement support with all major insurers.",
   insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
   paragraphs: [
     "Most health insurance plans in Dubai cover physiotherapy treatments when there is medical justification.",
-    "Our DHA-licensed physiotherapy department at JVC works directly with major insurers. Check your coverage before booking — we'll help you understand your benefits."
+    "We accept patients with all major insurance providers on a reimbursement basis — full documentation provided. WhatsApp your insurance card before booking to confirm coverage."
   ],
   sidebarText: [
     '<a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20physiotherapy%20at%20JVC" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm exact coverage and out-of-pocket costs.'
@@ -399,7 +376,7 @@ export const physiotherapyJvcPricing = {
   pricingCards: [
     {
       title: "Initial Physiotherapy Assessment",
-      price: "AED 400",
+      price: "AED 500",
       duration: "60 minutes at our JVC clinic",
       bestFor: "First visit for any condition",
       features: [
@@ -409,13 +386,13 @@ export const physiotherapyJvcPricing = {
         "Specific physiotherapy diagnosis",
         "Written treatment plan with realistic timeline",
         "First treatment intervention typically same session",
-        "Insurance pre-authorisation confirmed (if applicable)"
+        "Insurance documentation provided"
       ]
     },
     {
-      title: "Single Physiotherapy Session",
-      price: "AED 350",
-      duration: "45-60 minutes",
+      title: "Single Follow-Up Session",
+      price: "AED 350 - AED 500",
+      duration: "45 min (AED 350) or 60 min (AED 500)",
       bestFor: "Standard follow-up sessions after initial assessment",
       features: [
         "Hands-on manual therapy",
@@ -427,18 +404,38 @@ export const physiotherapyJvcPricing = {
       highlight: true
     },
     {
-      title: "Structured Treatment Programme",
-      price: "AED 1,800",
-      duration: "6-12 sessions package",
-      bestFor: "Chronic conditions, post-surgical rehab, structured treatment plans",
+      title: "6-Session Package",
+      price: "AED 2,400",
+      duration: "60-minute sessions",
+      bestFor: "Sub-acute conditions, moderate rehabilitation",
       features: [
-        "Pre-paid package of 6 or 12 sessions",
-        "Discounted per-session rate",
-        "Includes specialised modalities (dry needling, shockwave, etc.)",
+        "20% savings vs single-session rate",
+        "Includes 1 free GP consultation",
+        "Includes specialised modalities",
+        "Coordinated care for complex conditions",
+        "Home programme with video guidance"
+      ]
+    },
+    {
+      title: "12-Session Package",
+      price: "AED 4,200",
+      duration: "60-minute sessions",
+      bestFor: "Chronic conditions, post-surgical rehab",
+      features: [
+        "30% savings vs single-session rate",
+        "Unlimited free GP consultations",
+        "Includes specialised modalities",
         "Coordinated care for complex conditions",
         "Home programme with video guidance"
       ]
     }
+  ],
+
+  additionalServices: [
+    { name: "Dry needling (add-on)", price: "AED 150" },
+    { name: "Sports performance assessment", price: "AED 500" },
+    { name: "Postnatal physiotherapy assessment", price: "AED 400" },
+    { name: "Home visit session", price: "Coming soon — launching at AED 600" }
   ]
 };
 
@@ -449,34 +446,34 @@ export const physiotherapyJvcReviews = {
   cardBgColor: "rgba(255, 255, 255, 0.05)",
   items: [
     {
-      quote: "Torn ACL during a football game in Sports City. Vedara's post-surgical rehab programme had me running again in six months. Dr. Sarah Mitchell was specific, evidence-based, and never let me cut corners on progression.",
+      quote: "Torn ACL during a football game in Sports City. Vedara's post-surgical rehab programme had me running again in six months. The physiotherapy team was specific, evidence-based, and never let me cut corners on progression.",
       author: "— James M.",
-      details: "ACL Reconstruction Recovery<br />24-session programme • JVC District 12 • February 2026"
+      details: "ACL Reconstruction Recovery<br />24-session programme ”¢ JVC District 12 ”¢ February 2026"
     },
     {
       quote: "Three years of chronic neck pain. Multiple clinics in Dubai. Vedara was the first to combine proper manual therapy with home exercise that actually worked. Three months later — I sleep through the night without pain.",
       author: "— Sarah K.",
-      details: "Chronic Cervical Pain<br />14-session programme • Al Barsha South • January 2026"
+      details: "Chronic Cervical Pain<br />14-session programme ”¢ Al Barsha South ”¢ January 2026"
     },
     {
       quote: "Postnatal pelvic floor dysfunction after twin pregnancy. Found Vedara through their integrated postnatal programme. The pelvic floor work transformed my recovery. Female physiotherapist made all the difference.",
       author: "— Priya R.",
-      details: "Postnatal Pelvic Floor Recovery<br />12-session programme • Dubai Hills • March 2026"
+      details: "Postnatal Pelvic Floor Recovery<br />12-session programme ”¢ Dubai Hills ”¢ March 2026"
     }
   ],
   stats: [
     {
-      value: "4.9",
+      value: "4.5",
       label: "stars on Google"
     },
     {
-      value: "180",
-      label: "physiotherapy reviews"
+      value: "15",
+      label: "reviews on Google"
     },
-    {
-      value: "97%",
-      label: "reported significant pain reduction"
-    },
+
+
+
+
 
   ],
   buttonText: "Read All Physiotherapy Reviews",
@@ -507,7 +504,7 @@ export const physiotherapyJvcFaqs = {
     },
     {
       question: "Will my insurance cover physiotherapy at the JVC clinic?",
-      answer: 'Most Dubai insurance plans cover physiotherapy when there is medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Coverage varies by plan — annual session limits, copays, and condition restrictions apply. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking, and our team will confirm exact coverage and your out-of-pocket cost.'
+      answer: 'Most Dubai insurance plans cover physiotherapy when there is medical justification. We accept patients with all major insurance providers and provide full reimbursement documentation. Coverage varies by plan — annual session limits, copays, and condition restrictions apply. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking, and our team will confirm exact coverage and your out-of-pocket cost.'
     },
     {
       question: "What is the difference between physiotherapy and chiropractic care?",
@@ -515,7 +512,7 @@ export const physiotherapyJvcFaqs = {
     },
     {
       question: "Do you offer home visits for physiotherapy?",
-      answer: "Yes — home visits are available across Dubai for patients with mobility limitations, post-surgical recovery in early stages, elderly patients, or other situations where clinic visits are difficult. Home visits cost AED 600 per session (above standard rates due to therapist travel time). Particularly useful for post-stroke rehabilitation, elderly orthopaedic recovery, and bed-bound patients."
+      answer: "Home physiotherapy is launching soon at Vedara Care. In the meantime, our JVC clinic offers same-day and next-day appointments for all patients."
     },
     {
       question: "Can I book physiotherapy without seeing an Ayurvedic doctor first?",
@@ -540,7 +537,7 @@ export const physiotherapyJvcLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
   title: "Where physiotherapy happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to book a physiotherapy session at your JVC clinic.",
@@ -570,7 +567,7 @@ export const physiotherapyJvcFinalCTA = {
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20physiotherapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 400 · DHA-licensed JVC clinic · Insurance direct-billing with 7 major insurers · Same-day appointments often available · Home services across Dubai"
+  footer: "Initial assessment from AED 500 · DHA-licensed JVC clinic · Insurance reimbursement with all major insurers · Same-day appointments often available · Home services launching soon"
 };
 
 export const physiotherapyJvcRelatedPages = {
@@ -599,7 +596,7 @@ export const physiotherapyJvcRelatedPages = {
     {
       title: "Postnatal Care",
       description: "Pelvic floor physiotherapy and 45-day Ayurvedic postnatal programmes for new mothers.",
-      href: "/conditions/postnatal-ayurveda-dubai"
+      href: "/conditions/pelvic-floor-physiotherapy-dubai"
     },
   ]
 };

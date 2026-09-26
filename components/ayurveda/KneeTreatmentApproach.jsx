@@ -50,7 +50,7 @@ const KneeTreatmentApproach = ({
             <blockquote
               className="mt-12 text-2xl leading-snug italic font-serif text-[#B8965A]"
             >
-              “{quote}”
+              "{quote}"
             </blockquote>
           </div>
           <div className="sticky top-28">

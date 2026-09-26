@@ -20,7 +20,7 @@ const PostnatalReviewsImage = ({ data }) => {
           {items.map((item, index) => (
             <div key={index} className="bg-white rounded-lg p-8 shadow-sm flex flex-col h-full border border-transparent hover:border-[#C9A961]/20 transition-all">
               <div className="flex text-[#C9A961] text-lg mb-6">
-                {'★★★★★'}
+                {'â˜…â˜…â˜…â˜…â˜…'}
               </div>
               <p className="text-[14px] text-[#4A4A4A] font-sans italic leading-relaxed mb-8 flex-grow">
                 {item.quote}

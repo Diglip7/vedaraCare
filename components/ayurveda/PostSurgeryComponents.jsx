@@ -212,10 +212,15 @@ export const PostSurgeryTeam = ({ data, bgColor = "bg-white" }) => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className={`
+          ${data.members.length === 1 ? 'grid w-full max-w-[380px] mx-auto' : ''}
+          ${data.members.length === 2 ? 'grid md:grid-cols-2 max-w-3xl mx-auto' : ''}
+          ${data.members.length > 2 ? 'grid md:grid-cols-3' : ''}
+          gap-8
+        `}>
           {data.members.map((member, idx) => (
             <div key={idx} className="bg-[#FAF8F5] rounded-xl overflow-hidden shadow-sm group hover:shadow-md transition-shadow">
-              <div className="aspect-[4/5] bg-gradient-to-b from-[#D4B57E] to-[#B89A56] relative">
+              <div className="aspect-[1/1] bg-gradient-to-b from-[#D4B57E] to-[#B89A56] relative">
                 {member.image ? (
                   <img 
                     src={member.image} 

@@ -7,6 +7,7 @@ const PhysiotherapyInsurance = ({
   paragraphs = [],
   content = [], // For backward compatibility
   insurers = [],
+  sidebarTitle = "OUR DIRECT-BILLING INSURERS",
   sidebarText = [],
   whatsappNumber = "971555736312"
 }) => {
@@ -37,7 +38,7 @@ const PhysiotherapyInsurance = ({
           </div>
           <div className="bg-white p-8 rounded-lg h-fit" style={{ borderTop: '4px solid #d4af37' }}>
             <h3 className="text-lg font-semibold mb-6 text-gray-800">
-              OUR DIRECT-BILLING INSURERS
+              {sidebarTitle}
             </h3>
             <ul className="space-y-3 mb-8">
               {insurers.map((insurer, index) => (

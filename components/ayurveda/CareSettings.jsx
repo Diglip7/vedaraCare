@@ -69,7 +69,7 @@ const CareSettings = ({
                   <ul className="space-y-2">
                     {setting.whenRight.map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2 text-sm text-[#6B6B6B]">
-                        <span className="text-[#B8975A] shrink-0">—</span>
+                        <span className="text-[#B8975A] shrink-0"> - </span>
                         {item}
                       </li>
                     ))}
@@ -85,7 +85,7 @@ const CareSettings = ({
                   <ul className="space-y-2">
                     {setting.whatWeDeliver.map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2 text-sm text-[#6B6B6B]">
-                        <span className="text-[#B8975A] shrink-0">—</span>
+                        <span className="text-[#B8975A] shrink-0"> - </span>
                         {item}
                       </li>
                     ))}
@@ -116,7 +116,7 @@ const CareSettings = ({
 const StrokePhases = ({
   bgColor = "bg-[#F8F5F0]",
   label = "PHASE-BASED RECOVERY",
-  title = "The phases of stroke recovery — what to expect and when.",
+  title = "The phases of stroke recovery  -  what to expect and when.",
   description = "",
   phases = [],
   footer = ""
@@ -169,7 +169,7 @@ const StrokePhases = ({
                       <ul className="space-y-2">
                         {phase.typicalCharacteristics.map((item, idx) => (
                           <li key={idx} className="flex items-start gap-2 text-sm text-[#555]">
-                            <span className="text-[#C9A84C] shrink-0 mt-1">—</span>
+                            <span className="text-[#C9A84C] shrink-0 mt-1"> - </span>
                             <span className="leading-relaxed">{item}</span>
                           </li>
                         ))}
@@ -185,7 +185,7 @@ const StrokePhases = ({
                       <ul className="space-y-2">
                         {phase.rehabilitationFocus.map((item, idx) => (
                           <li key={idx} className="flex items-start gap-2 text-sm text-[#555]">
-                            <span className="text-[#C9A84C] shrink-0 mt-1">—</span>
+                            <span className="text-[#C9A84C] shrink-0 mt-1"> - </span>
                             <span className="leading-relaxed">{item}</span>
                           </li>
                         ))}
@@ -201,7 +201,7 @@ const StrokePhases = ({
                       <ul className="space-y-2">
                         {phase.familyConsiderations.map((item, idx) => (
                           <li key={idx} className="flex items-start gap-2 text-sm text-[#555]">
-                            <span className="text-[#C9A84C] shrink-0 mt-1">—</span>
+                            <span className="text-[#C9A84C] shrink-0 mt-1"> - </span>
                             <span className="leading-relaxed">{item}</span>
                           </li>
                         ))}
@@ -284,7 +284,7 @@ const CoordinatedCare = ({
             </ul>
             <div className="mt-8 pt-6 border-t border-[#E5DFD3]">
               <p className="text-xs text-[#888] leading-relaxed">
-                We work with whichever providers are part of your care team — your treating neurologist, specialist discharge planners, occupational therapist, speech therapist, and any other specialists involved.
+                We work with whichever providers are part of your care team  -  your treating neurologist, specialist discharge planners, occupational therapist, speech therapist, and any other specialists involved.
               </p>
             </div>
           </div>

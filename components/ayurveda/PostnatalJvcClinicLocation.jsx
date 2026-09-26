@@ -56,7 +56,7 @@ const PostnatalJvcClinicLocation = () => {
             <div>
               <h4 className="text-[20px] font-serif text-[#1A1A1A] mb-4">Clinic Hours</h4>
               <p className="text-[15px] text-[#4A4A4A] leading-relaxed">
-                Monday – Sunday: 9:00 AM – 10:00 PM<br />
+                Monday  -  Sunday: 9:00 AM  -  10:00 PM<br />
 
               </p>
             </div>
@@ -88,7 +88,7 @@ const PostnatalJvcClinicLocation = () => {
               <div className="absolute top-0 left-0 w-1 h-full bg-[#C9A961]" />
               <p className="text-[11px] font-bold tracking-wider text-[#8A8A8A] uppercase mb-3">HOME VISIT COVERAGE</p>
               <p className="text-[14px] text-[#4A4A4A] leading-relaxed">
-                Postnatal Ayurvedic care predominantly delivered through home visits across Dubai — Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif (15-30 min drive). Initial consultation at JVC clinic (during pregnancy or brief postpartum visit), then daily home visits to your home across Dubai.
+                Postnatal Ayurvedic care predominantly delivered through home visits across Dubai  -  Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif (15-30 min drive). Initial consultation at JVC clinic (during pregnancy or brief postpartum visit), then daily home visits to your home across Dubai.
               </p>
             </div>
           </div>

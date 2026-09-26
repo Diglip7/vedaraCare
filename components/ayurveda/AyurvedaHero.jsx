@@ -3,7 +3,9 @@ import { MessageCircle, Calendar, Check } from 'lucide-react';
 import Link from "next/link";
 
 const AyurvedaHero = ({
-  bgColor = "bg-[#FAF6EF]",
+  primaryCTATrackingEvent = "",
+  secondaryCTATrackingEvent = "",
+bgColor = "bg-[#FAF6EF]",
   breadcrumb = [],
   label = "",
   title = "",
@@ -66,6 +68,12 @@ const AyurvedaHero = ({
                 <div className="flex flex-wrap gap-3 pt-2">
                   <Link
                     href={primaryCTAHref}
+                    data-event={primaryCTATrackingEvent}
+                    onClick={() => {
+                        if (primaryCTATrackingEvent && typeof window !== 'undefined' && window.dataLayer) {
+                            window.dataLayer.push({ event: primaryCTATrackingEvent });
+                        }
+                    }}
                     className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#1F4538] text-white rounded-md hover:bg-[#184C3A] transition-all text-[14px] sm:text-[15px] font-sans font-bold shadow-lg">
                     {primaryCTA}
                   </Link>
@@ -73,6 +81,12 @@ const AyurvedaHero = ({
                     href={secondaryCTAHref}
                     target="_blank"
                     rel="noopener noreferrer"
+                    data-event={secondaryCTATrackingEvent}
+                    onClick={() => {
+                        if (secondaryCTATrackingEvent && typeof window !== 'undefined' && window.dataLayer) {
+                            window.dataLayer.push({ event: secondaryCTATrackingEvent });
+                        }
+                    }}
                     className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#4A7C59] text-white rounded-md hover:opacity-95 transition-all text-[14px] sm:text-[15px] font-sans font-bold shadow-lg">
                     <MessageCircle size={20} className="fill-current" />
                     {secondaryCTA}
@@ -155,3 +169,4 @@ const AyurvedaHero = ({
 };
 
 export default AyurvedaHero;
+

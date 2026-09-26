@@ -33,7 +33,7 @@ const DetoxReviews = ({
               <div className="space-y-6">
                 {/* 5 Stars */}
                 <div className="text-[#C9A961] text-[15px] tracking-wider">
-                  ★★★★★
+                  â˜…â˜…â˜…â˜…â˜…
                 </div>
 
                 <p className="text-[13.5px] leading-relaxed text-[#5A5A5A] font-sans">

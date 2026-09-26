@@ -5,7 +5,7 @@ const DetoxCategories = ({
   title = "The detox programmes we deliver at our JVC clinic.",
   subtitle = "Different detox needs require different protocols. Comprehensive assessment identifies your specific approach.",
   categories = [],
-  footer = "Comprehensive assessment identifies your specific detox approach — no one-size-fits-all protocols →"
+  footer = "Comprehensive assessment identifies your specific detox approach  -  no one-size-fits-all protocols →"
 }) => {
   return (
     <section className="bg-white py-24 px-6 md:px-12">

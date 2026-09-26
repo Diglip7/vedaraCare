@@ -40,7 +40,7 @@ const BlogRelatedArticles = ({ label = "CONTINUE READING", title, browseAllHref,
 
                 {(article.readingTime || article.author) && (
                   <div className="text-[14px] text-[#888888] mb-4 font-sans">
-                    {article.readingTime}{article.readingTime && article.author ? ' · ' : ''}{article.author}
+                    {article.readingTime}{article.readingTime && article.author ? ' - ' : ''}{article.author}
                   </div>
                 )}
 

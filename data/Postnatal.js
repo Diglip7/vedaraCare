@@ -71,7 +71,7 @@ export const postnataljvcMechanism2 = {
   title: "Why expat mothers in Dubai particularly need structured postpartum care.",
   content: [
     "Most mothers in Dubai are expats. This single fact shapes the postpartum experience in ways the standard \"rest and recover\" advice does not address.",
-    "In most home cultures — Indian, South Asian, Filipino, Arabic, much of Southeast Asia, traditional European communities — postpartum mothers are surrounded by structured family care for 40‑60 days. Mothers, mothers‑in‑law, sisters arrive specifically to care for the postpartum mother. They cook traditional postpartum foods, manage the household, give the mother massages, hold the baby while she sleeps, and provide the emotional and physical support that postpartum recovery actually requires.",
+    "In most home cultures — Indian, South Asian, Filipino, Arabic, much of Southeast Asia, traditional European communities — postpartum mothers are surrounded by structured family care for 40”‘60 days. Mothers, mothers”‘in”‘law, sisters arrive specifically to care for the postpartum mother. They cook traditional postpartum foods, manage the household, give the mother massages, hold the baby while she sleeps, and provide the emotional and physical support that postpartum recovery actually requires.",
     "In Dubai, most expat mothers experience this differently. Family may visit for a week or two around the birth, then leave. The husband returns to work. The household reverts to the mother managing everything — baby, laundry, household, sometimes other children — while attempting to heal from one of the most physically and emotionally significant events of her life."
   ],
   quote: "If you are an expat mother in Dubai, your postpartum experience is meaningfully different from what your mother or grandmother experienced. Our care recognises that difference.",
@@ -82,55 +82,55 @@ export const postnataljvcMechanism2 = {
 
 export const postnataljvcStructure = {
   label: "THE STRUCTURE",
-  title: "What the 45‑day Sutika Paricharya programme actually looks like.",
-  description: "A representative protocol. The actual programme is calibrated to your delivery type (vaginal/C‑section), birth experience, baby feeding situation, and your specific dosha pattern. Your detailed plan is documented at the initial postnatal consultation.",
+  title: "What the 45”‘day Sutika Paricharya programme actually looks like.",
+  description: "A representative protocol. The actual programme is calibrated to your delivery type (vaginal/C”‘section), birth experience, baby feeding situation, and your specific dosha pattern. Your detailed plan is documented at the initial postnatal consultation.",
   bgColor: "bg-[#FAF8F5]",
   cardBg: "#FFFFFF",
   items: [
     {
       week: "Week 1",
       subtitle: "Recovery Foundation",
-      days: "Days 1‑7",
-      content: "Begin ideally within 7‑10 days of delivery. The most delicate phase. Mother is establishing breastfeeding, recovering from delivery, often deeply sleep‑deprived. Our protocols are gentle: light Abhyanga every 2‑3 days, specific easily‑digestible foods supporting Agni, initial internal medicines for uterine involution, gentle Udar Bandhana if delivery permits.",
+      days: "Days 1”‘7",
+      content: "Begin ideally within 7”‘10 days of delivery. The most delicate phase. Mother is establishing breastfeeding, recovering from delivery, often deeply sleep”‘deprived. Our protocols are gentle: light Abhyanga every 2”‘3 days, specific easily”‘digestible foods supporting Agni, initial internal medicines for uterine involution, gentle Udar Bandhana if delivery permits.",
       footer: "2 home visits this week, daily phone availability, dietary preparation guidance"
     },
     {
       week: "Week 2",
       subtitle: "Strengthening Phase",
-      days: "Days 8‑14",
-      content: "The body begins responding to care. Abhyanga becomes daily or near‑daily. Internal medicines deepen. Dietary protocol expands as Agni strengthens. Mother begins to feel meaningfully better — energy returning, appetite improving, sleep slightly better. For C‑section mothers, gentle work begins around the incision area.",
-      footer: "5‑6 home visits this week, daily Abhyanga, doctor review visit"
+      days: "Days 8”‘14",
+      content: "The body begins responding to care. Abhyanga becomes daily or near”‘daily. Internal medicines deepen. Dietary protocol expands as Agni strengthens. Mother begins to feel meaningfully better — energy returning, appetite improving, sleep slightly better. For C”‘section mothers, gentle work begins around the incision area.",
+      footer: "5”‘6 home visits this week, daily Abhyanga, doctor review visit"
     },
     {
       week: "Week 3",
       subtitle: "Active Recovery",
-      days: "Days 15‑21",
-      content: "The phase where most mothers describe noticeable transformation. Body composition begins to shift back toward pre‑pregnancy. Mood is typically meaningfully better than week 1. Lactation, if breastfeeding, is generally established. Daily Abhyanga continues. Specific medicines for ongoing tissue restoration.",
-      footer: "5‑6 home visits this week, daily Abhyanga, lactation support if needed"
+      days: "Days 15”‘21",
+      content: "The phase where most mothers describe noticeable transformation. Body composition begins to shift back toward pre”‘pregnancy. Mood is typically meaningfully better than week 1. Lactation, if breastfeeding, is generally established. Daily Abhyanga continues. Specific medicines for ongoing tissue restoration.",
+      footer: "5”‘6 home visits this week, daily Abhyanga, lactation support if needed"
     },
     {
       week: "Week 4",
       subtitle: "Consolidation",
-      days: "Days 22‑28",
-      content: "Continued daily care. Body composition continues to normalise. <a href=\"/physiotherapy-jvc/\" class=\"text-[#C9A961] hover:underline\">Pelvic floor work</a> introduced if appropriate. Mental health check‑in deepens. Sleep optimisation continues. Sometimes Shirodhara introduced for mothers with significant mood or sleep dysfunction.",
-      footer: "5‑6 home visits this week, daily Abhyanga, mid‑programme doctor review"
+      days: "Days 22”‘28",
+      content: "Continued daily care. Body composition continues to normalise. <a href=\"/physiotherapy-jvc/\" class=\"text-[#C9A961] hover:underline\">Pelvic floor work</a> introduced if appropriate. Mental health check”‘in deepens. Sleep optimisation continues. Sometimes Shirodhara introduced for mothers with significant mood or sleep dysfunction.",
+      footer: "5”‘6 home visits this week, daily Abhyanga, mid”‘programme doctor review"
     },
     {
       week: "Week 5",
       subtitle: "Strengthening",
-      days: "Days 29‑35",
-      content: "Care frequency may begin reducing slightly as mother's strength returns. Abhyanga continues 4‑5 times per week. Movement protocols introduced (gentle, structured, postpartum‑appropriate). Continued internal medicines. Body weight, abdominal tone, energy, sleep, and mood all typically substantially improved.",
-      footer: "4‑5 home visits this week, Abhyanga 4‑5 times"
+      days: "Days 29”‘35",
+      content: "Care frequency may begin reducing slightly as mother's strength returns. Abhyanga continues 4”‘5 times per week. Movement protocols introduced (gentle, structured, postpartum”‘appropriate). Continued internal medicines. Body weight, abdominal tone, energy, sleep, and mood all typically substantially improved.",
+      footer: "4”‘5 home visits this week, Abhyanga 4”‘5 times"
     },
     {
-      week: "Week 6‑7",
+      week: "Week 6”‘7",
       subtitle: "Completion & Transition",
-      days: "Days 36‑45",
-      content: "The classical 42‑45 day Sutika Paricharya completion. Final doctor review. Long‑term plan documented. Transition to ongoing care if needed. Mother is typically meaningfully restored, with body, energy, sleep, and mood substantially better than pre‑programme. Many mothers describe feeling 'like myself again' by this point.",
-      footer: "3‑4 home visits, final comprehensive assessment, transition planning"
+      days: "Days 36”‘45",
+      content: "The classical 42”‘45 day Sutika Paricharya completion. Final doctor review. Long”‘term plan documented. Transition to ongoing care if needed. Mother is typically meaningfully restored, with body, energy, sleep, and mood substantially better than pre”‘programme. Many mothers describe feeling 'like myself again' by this point.",
+      footer: "3”‘4 home visits, final comprehensive assessment, transition planning"
     }
   ],
-  footerNote: "This is a representative 45‑day timeline. Some mothers benefit from extended care (60‑90 days), particularly after C‑section, traumatic birth, or multiple babies. Some mothers begin programmes 2‑6 months postpartum and the structure adapts accordingly — Ayurvedic postpartum restoration remains valuable even months later."
+  footerNote: "This is a representative 45”‘day timeline. Some mothers benefit from extended care (60”‘90 days), particularly after C”‘section, traumatic birth, or multiple babies. Some mothers begin programmes 2”‘6 months postpartum and the structure adapts accordingly — Ayurvedic postpartum restoration remains valuable even months later."
 };
 
 export const postnataljvcComponents = {
@@ -142,7 +142,7 @@ export const postnataljvcComponents = {
     {
       number: "1",
       title: "Daily Postpartum Abhyanga",
-      content: "The classical postpartum <a href=\"/treatments/abhyanga-dubai/\" class=\"text-[#C9A961] hover:underline\">Abhyanga</a> — warm medicated oil therapy delivered by trained female therapists at your home across Dubai. Specific oils (typically Mahanarayana Taila, Bala Taila, Dhanwantharam) selected for postpartum. Typically 60‑75 minutes per session. Daily or near‑daily for 10‑45 days."
+      content: "The classical postpartum <a href=\"/treatments/abhyanga-dubai/\" class=\"text-[#C9A961] hover:underline\">Abhyanga</a> — warm medicated oil therapy delivered by trained female therapists at your home across Dubai. Specific oils (typically Mahanarayana Taila, Bala Taila, Dhanwantharam) selected for postpartum. Typically 60”‘75 minutes per session. Daily or near”‘daily for 10”‘45 days."
     },
     {
       number: "2",
@@ -152,27 +152,27 @@ export const postnataljvcComponents = {
     {
       number: "3",
       title: "Weekly Dietary Protocols",
-      content: "Detailed week‑by‑week dietary guidance. Foods change progressively from very easily digestible in week 1 to gradually expanding repertoire by week 4‑6. The protocol supports digestive restoration, lactation, tissue repair. Culturally adapted — works with Indian, Arabic, Filipino, South Asian, or Western dietary traditions."
+      content: "Detailed week”‘by”‘week dietary guidance. Foods change progressively from very easily digestible in week 1 to gradually expanding repertoire by week 4”‘6. The protocol supports digestive restoration, lactation, tissue repair. Culturally adapted — works with Indian, Arabic, Filipino, South Asian, or Western dietary traditions."
     },
     {
       number: "4",
       title: "Udar Bandhana — Postnatal Belly Binding",
-      content: "Structured wrapping of the abdomen supporting muscle and tissue restoration; particularly important post C‑section and for diastasis recti. Different binding techniques for different delivery types. We use both classical cotton wraps and modern medical‑grade postnatal binders."
+      content: "Structured wrapping of the abdomen supporting muscle and tissue restoration; particularly important post C”‘section and for diastasis recti. Different binding techniques for different delivery types. We use both classical cotton wraps and modern medical”‘grade postnatal binders."
     },
     {
       number: "5",
       title: "Yoni Pichu — Perineal Healing Support",
-      content: "Gentle medicated oil application supporting perineal healing post‑vaginal delivery — particularly valuable for mothers with episiotomy, perineal tears, or significant perineal trauma. Begins once medically appropriate (typically days 7‑10)."
+      content: "Gentle medicated oil application supporting perineal healing post”‘vaginal delivery — particularly valuable for mothers with episiotomy, perineal tears, or significant perineal trauma. Begins once medically appropriate (typically days 7”‘10)."
     },
     {
       number: "6",
       title: "Sleep, Rest & Mental Health Support",
-      content: "Specific sleep optimisation guidance — daytime rest protocols, night‑time settings, partner involvement guidance. Active mental health screening for postpartum depression, anxiety, OCD, and PTSD throughout the programme. Coordination with mental health specialists when indicated. Sometimes including <a href=\"/treatments/shirodhara-dubai/\" class=\"text-[#C9A961] hover:underline\">Shirodhara</a> for sleep support."
+      content: "Specific sleep optimisation guidance — daytime rest protocols, night”‘time settings, partner involvement guidance. Active mental health screening for postpartum depression, anxiety, OCD, and PTSD throughout the programme. Coordination with mental health specialists when indicated. Sometimes including <a href=\"/treatments/shirodhara-dubai/\" class=\"text-[#C9A961] hover:underline\">Shirodhara</a> for sleep support."
     },
     {
       number: "7",
-      title: "Mother‑Infant Bonding & Practical Support",
-      content: "Guidance on optimising mother‑infant bonding including specific oil massage techniques for baby, breastfeeding positioning support, swaddling and settling techniques. Practical guidance for managing household, partner, older children, and visitors."
+      title: "Mother”‘Infant Bonding & Practical Support",
+      content: "Guidance on optimising mother”‘infant bonding including specific oil massage techniques for baby, breastfeeding positioning support, swaddling and settling techniques. Practical guidance for managing household, partner, older children, and visitors."
     }
   ],
   footerNote: "Every component is delivered primarily at your home across Dubai. The mother does not travel for this care. We come — doctor, therapist, supplies, equipment — to wherever you are. This is essential. The first 45 days postpartum is not when mothers should be making themselves available at clinic appointments."
@@ -181,19 +181,19 @@ export const postnataljvcComponents = {
 export const postnataljvcPlanAhead = {
   label: "PLAN AHEAD",
   title: "The mothers with the best postpartum experience book during pregnancy.",
-  description: "Postpartum is not the moment to be researching postnatal care while sleep‑deprived and recovering. Many of our most‑satisfied mothers book their postnatal programme during the third trimester, with care arranged before delivery.",
+  description: "Postpartum is not the moment to be researching postnatal care while sleep”‘deprived and recovering. Many of our most”‘satisfied mothers book their postnatal programme during the third trimester, with care arranged before delivery.",
   listTitle: "Benefits of pregnancy booking:",
   listItems: [
-    "Pre‑delivery consultation to design your specific programme",
+    "Pre”‘delivery consultation to design your specific programme",
     "Care begins seamlessly within days of delivery",
     "Family knows what to expect and how to coordinate",
-    "Reduced postpartum decision‑making load",
-    "Sometimes pre‑payment options available",
+    "Reduced postpartum decision”‘making load",
+    "Sometimes pre”‘payment options available",
     "Reserved priority scheduling for our home services team"
   ],
   buttonText: "Book a Pregnancy Planning Consultation",
   image: "",
-  alt: "Third‑trimester pregnancy postnatal planning consultation at Vedara Care JVC",
+  alt: "Third”‘trimester pregnancy postnatal planning consultation at Vedara Care JVC",
   bgColor: "bg-[#FAF8F5]",
   cardBg: "#FFFFFF"
 };
@@ -206,20 +206,20 @@ export const postnataljvcProtocols = {
   cardBg: "#FFFFFF",
   items: [
     {
-      title: "C‑Section Recovery Programme",
-      content: "Modified protocols recognising that C‑section is major abdominal surgery requiring different recovery considerations. Abhyanga modified to avoid incision area, more cautious Udar Bandhana introduction, specific internal medicines supporting surgical healing, longer recovery timeline (often extends to 60 days)."
+      title: "C”‘Section Recovery Programme",
+      content: "Modified protocols recognising that C”‘section is major abdominal surgery requiring different recovery considerations. Abhyanga modified to avoid incision area, more cautious Udar Bandhana introduction, specific internal medicines supporting surgical healing, longer recovery timeline (often extends to 60 days)."
     },
     {
       title: "Traumatic Birth Recovery",
-      content: "For mothers who experienced birth injury, emergency interventions, NICU experiences, postpartum haemorrhage, or other traumatic birth circumstances. Care emphasises gentle physical restoration and active mental health support throughout. Coordination with trauma‑informed therapists."
+      content: "For mothers who experienced birth injury, emergency interventions, NICU experiences, postpartum haemorrhage, or other traumatic birth circumstances. Care emphasises gentle physical restoration and active mental health support throughout. Coordination with trauma”‘informed therapists."
     },
     {
       title: "Multiple Babies Programme",
-      content: "For mothers of twins or triplets. The physical depletion of carrying and delivering multiple babies, combined with the intensified care demands postpartum, requires extended and intensified programmes. Typically 60‑90 days. More frequent visits."
+      content: "For mothers of twins or triplets. The physical depletion of carrying and delivering multiple babies, combined with the intensified care demands postpartum, requires extended and intensified programmes. Typically 60”‘90 days. More frequent visits."
     },
     {
-      title: "Late‑Start Programme (2‑12 Months Postpartum)",
-      content: "For mothers who did not receive postnatal care in the first 6 weeks and want to address residual postpartum issues — weight retention, hair loss, fatigue, mood, body changes, pelvic floor concerns, or thyroid dysfunction. Typically 30‑45 days, but valuable restoration even years after delivery."
+      title: "Late”‘Start Programme (2”‘12 Months Postpartum)",
+      content: "For mothers who did not receive postnatal care in the first 6 weeks and want to address residual postpartum issues — weight retention, hair loss, fatigue, mood, body changes, pelvic floor concerns, or thyroid dysfunction. Typically 30”‘45 days, but valuable restoration even years after delivery."
     },
     {
       title: "Mother of Older Children Programme",
@@ -227,10 +227,10 @@ export const postnataljvcProtocols = {
     },
     {
       title: "Postnatal Depression Integrated Programme",
-      content: "For mothers with diagnosed or suspected <a href=\"/conditions/stress-anxiety-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline\">postpartum depression</a>, anxiety, or other mood disorders. Integrated programme combining Ayurvedic restoration with explicit coordination with psychiatry and therapy. Shirodhara introduced earlier (typically week 2‑3)."
+      content: "For mothers with diagnosed or suspected <a href=\"/conditions/stress-anxiety-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline\">postpartum depression</a>, anxiety, or other mood disorders. Integrated programme combining Ayurvedic restoration with explicit coordination with psychiatry and therapy. Shirodhara introduced earlier (typically week 2”‘3)."
     }
   ],
-  footerNote: "If your situation is not listed, contact us. The 2,000‑year‑old framework is more flexible than its name suggests — most postpartum situations have classical Ayurvedic protocols suited to them."
+  footerNote: "If your situation is not listed, contact us. The 2,000”‘year”‘old framework is more flexible than its name suggests — most postpartum situations have classical Ayurvedic protocols suited to them."
 };
 
 export const postnataljvcBoundaries = {
@@ -240,14 +240,14 @@ export const postnataljvcBoundaries = {
   leftCard: {
     label: "URGENT FIRST",
     title: "",
-    alertBox: "Postpartum emergencies — severe bleeding, severe pain, fever above 38°C, signs of infection, severe headache, vision changes, severe chest pain, or thoughts of self‑harm.",
+    alertBox: "Postpartum emergencies — severe bleeding, severe pain, fever above 38°C, signs of infection, severe headache, vision changes, severe chest pain, or thoughts of self”‘harm.",
     items: [
       "Postpartum haemorrhage or unusual heavy bleeding",
       "Signs of postpartum infection (fever, smelly discharge, wound pain)",
-      "Signs of postpartum pre‑eclampsia (severe headache, vision changes, swelling)",
+      "Signs of postpartum pre”‘eclampsia (severe headache, vision changes, swelling)",
       "Active suicidal ideation or postpartum psychosis (URGENT)",
       "Signs of severe postpartum depression with functional impairment",
-      "C‑section incision concerns (opening, severe pain, redness, discharge)"
+      "C”‘section incision concerns (opening, severe pain, redness, discharge)"
     ],
     useWarningIcon: true,
     bgColor: "bg-white",
@@ -261,7 +261,7 @@ export const postnataljvcBoundaries = {
     label: "ALONGSIDE",
     title: "",
     items: [
-      { text: "Standard postpartum care — Ayurveda alongside your obstetric follow‑up" },
+      { text: "Standard postpartum care — Ayurveda alongside your obstetric follow”‘up" },
       { text: "Diagnosed postpartum depression — Ayurveda alongside psychiatry and therapy" },
       { text: "Postpartum thyroiditis — Ayurveda alongside endocrinology" },
       { text: "Breastfeeding challenges — Ayurveda alongside lactation consultants" },
@@ -280,14 +280,14 @@ export const postnataljvcReviews = {
   description: "4.9 stars on Google · 300+ postnatal care reviews · 94% of mothers completed the full programme · 97% would recommend to other expat mothers.",
   items: [
     {
-      quote: "My mother could not come to Dubai for my postpartum. I had a C-section, a colicky baby, and no family support. Vedara's 45‑day postnatal programme — the daily Abhyanga, the food, the doctor coming to check on me — was the care I would have received at home. I cried with relief on the first day.",
+      quote: "My mother could not come to Dubai for my postpartum. I had a C-section, a colicky baby, and no family support. Vedara's 45”‘day postnatal programme — the daily Abhyanga, the food, the doctor coming to check on me — was the care I would have received at home. I cried with relief on the first day.",
       author: "Sarah K.",
-      details: "C‑Section Recovery - 60 Day Programme - JVC District 12 - February 2024"
+      details: "C”‘Section Recovery - 60 Day Programme - JVC District 12 - February 2024"
     },
     {
-      quote: "I was three months postpartum and falling apart. Weight not coming off, hair shedding everywhere, my mood dark. The 45‑day late‑start programme rebuilt me. By day 30 I felt like a person again.",
+      quote: "I was three months postpartum and falling apart. Weight not coming off, hair shedding everywhere, my mood dark. The 45”‘day late”‘start programme rebuilt me. By day 30 I felt like a person again.",
       author: "Priya R.",
-      details: "Late‑Start Programme - 45 Day Programme - Al Barsha South - January 2024"
+      details: "Late”‘Start Programme - 45 Day Programme - Al Barsha South - January 2024"
     },
     {
       quote: "Twins. Both NICU for the first week. Came home physically empty and emotionally shattered. Vedara's twins programme — 90 days, more visits than the standard, mental health support throughout — saved us.",
@@ -313,51 +313,51 @@ export const postnataljvcPricing = {
     {
       name: "Postnatal Initial Consultation",
       price: "From AED 450",
-      duration: "1 session, 60‑75 minutes.",
+      duration: "1 session, 60”‘75 minutes.",
       features: [
         "Comprehensive consultation with BAMS physician",
         "Detailed birth and postpartum history",
         "Physical assessment for postpartum stage",
         "Emotional and sleep health assessment",
         "Pulse diagnosis and dosha assessment",
-        "Custom 45‑day or longer programme design",
+        "Custom 45”‘day or longer programme design",
         "Indicative treatment plan with full pricing"
       ],
       bestFor: "Real start for every postnatal patient — required before any programme."
     },
     {
-      name: "Standard 45‑Day Sutika Paricharya Programme",
+      name: "Standard 45”‘Day Sutika Paricharya Programme",
       price: "From AED 12,500",
-      duration: "45 days, 24‑30 home visits, 3‑4 clinic visits.",
+      duration: "45 days, 24”‘30 home visits, 3”‘4 clinic visits.",
       featured: true,
       featuredLabel: "Most Common",
       features: [
         "All Initial Consultation components",
-        "Daily or near‑daily home Abhyanga sessions (typically 30)",
+        "Daily or near”‘daily home Abhyanga sessions (typically 30)",
         "All postpartum internal medicines for 45 days",
         "Weekly dietary protocols with meal prep guidance",
         "Udar Bandhana (belly binding)",
         "Yoni Pichu where appropriate",
         "Sleep, mental health, and breastfeeding support",
-        "2 mid‑programme doctor reviews",
+        "2 mid”‘programme doctor reviews",
         "Final comprehensive assessment"
       ],
-      bestFor: "Standard vaginal delivery, healthy mother and baby, classical 45‑day recovery."
+      bestFor: "Standard vaginal delivery, healthy mother and baby, classical 45”‘day recovery."
     },
     {
-      name: "Extended Postnatal Programme (60‑90 Days)",
+      name: "Extended Postnatal Programme (60”‘90 Days)",
       price: "From AED 18,500",
-      duration: "60‑90 days, 40‑60 home visits, 6‑8 clinic visits.",
+      duration: "60”‘90 days, 40”‘60 home visits, 6”‘8 clinic visits.",
       features: [
         "All Standard Programme components",
-        "Extended duration for C‑section, twins, traumatic birth",
+        "Extended duration for C”‘section, twins, traumatic birth",
         "Integrated mental health coordination if applicable",
         "<a href=\"/physiotherapy-jvc/\" class=\"text-[#C9A961] hover:underline\">Pelvic floor physiotherapy</a> coordination",
         "Extended dietary and lifestyle support",
         "More frequent doctor reviews",
-        "3‑month and 6‑month follow‑up"
+        "3”‘month and 6”‘month follow”‘up"
       ],
-      bestFor: "C‑section recovery, multiple babies, traumatic birth, postnatal depression integrated care."
+      bestFor: "C”‘section recovery, multiple babies, traumatic birth, postnatal depression integrated care."
     }
   ],
   footer: "Insurance direct billing available with some major insurers — coverage for Ayurvedic postnatal care varies by plan. Postpartum care is increasingly covered where there is medical justification.",
@@ -463,12 +463,12 @@ export const postnataljvcFaqs = {
 export const postnataljvcLocation = {
   label: "WHERE WE WORK",
   title: "We come to you across Dubai. Or visit us at JVC.",
-  description: "Most postnatal care happens at your home across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Our doctors and trained female therapists travel to you with all supplies and equipment. Clinic visits are limited to: initial consultation (if you prefer to come in), 3‑5 doctor reviews during the programme, and pregnancy planning consultations. The clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Free patient parking.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  description: "Most postnatal care happens at your home across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Our doctors and trained female therapists travel to you with all supplies and equipment. Clinic visits are limited to: initial consultation (if you prefer to come in), 3”‘5 doctor reviews during the programme, and pregnancy planning consultations. The clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Free patient parking.",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 4555736312",
   whatsapp: "+971 4555736312",
   whatsappMessage: "Hi%2C%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
-  hours: "Sun‑Sat: 9:00 am to 10:00 pm",
+  hours: "Sun”‘Sat: 9:00 am to 10:00 pm",
   landmarks: [
     "3 min walk from Circle Mall",
     "3 min from FIVE Jumeirah Village",
@@ -671,7 +671,7 @@ export const postnataljvcPricingTable = {
   rows: [
     { service: "Initial postnatal consultation with Dr. Ansiya", duration: "90 min", price: "AED 450" },
     { service: "Postnatal follow-up consultation", duration: "30-45 min", price: "AED 250" },
-    { service: "★ Standard 42-Day Traditional Sutika Paricharya", duration: "42 days", price: "From AED 12,500", highlight: true },
+    { service: "â˜… Standard 42-Day Traditional Sutika Paricharya", duration: "42 days", price: "From AED 12,500", highlight: true },
     { service: "30-Day Accelerated Programme", duration: "30 days", price: "From AED 9,000" },
     { service: "21-Day Acute Recovery Focus Programme", duration: "21 days", price: "From AED 6,500" },
     { service: "C-Section Recovery Extended Programme", duration: "42-56 days", price: "From AED 14,500" },
@@ -712,7 +712,7 @@ export const postnataljvcReviewsNew = {
     }
   ],
   stats: [
-    { value: "4.9★", label: "GOOGLE RATING" },
+    { value: "4.9â˜…", label: "GOOGLE RATING" },
     { value: "400+", label: "POSTNATAL PROGRAMMES DELIVERED" },
     { value: "Female", label: "DHA-LICENSED AYURVEDIC DOCTOR" },
     { value: "All Dubai", label: "HOME DELIVERY COVERAGE" }

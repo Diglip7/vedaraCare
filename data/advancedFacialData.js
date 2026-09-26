@@ -309,7 +309,7 @@ export const advancedFacialHero = {
     { label: "Treatments", href: "/treatments/" },
     { label: "Advanced Facial Rejuvenation & Skin Renewal at JVC" }
   ],
-  label: "Aesthetic Treatments • JVC • Dubai",
+  label: "Aesthetic Treatments ”¢ JVC ”¢ Dubai",
   title: "Advanced Facial Rejuvenation & Skin Renewal at our JVC clinic in Dubai — bespoke multi-modality protocol designed for your skin.",
   description: "Not a branded system. A custom multi-modality facial protocol built session-by-session from selected treatment layers — enzyme exfoliation, mild chemical peels, dermal infusion, LED light therapy, cryotherapy, ultrasound infusion, lymphatic drainage — chosen for your individual skin analysis findings. 60-90 minute session. Delivered by Arfah Owais, DHA-licensed aesthetician with CIBTAC-UK diploma and 8+ years of clinical experience. Walking distance from Circle Mall in Jumeirah Village Circle.",
   primaryCTA: "Book Treatment at JVC",
@@ -610,7 +610,7 @@ export const advancedFacialPatientVoices = {
 
 export const advancedFacialArfahProfile = {
   name: "Arfah Owais",
-  designation: "DHA-LICENSED AESTHETICIAN • CIBTAC-UK • 8+ YEARS EXPERIENCE",
+  designation: "DHA-LICENSED AESTHETICIAN ”¢ CIBTAC-UK ”¢ 8+ YEARS EXPERIENCE",
   paragraphs: [
     "Advanced Facial Rejuvenation & Skin Renewal at Vedara Care JVC is delivered by Arfah Owais — DHA-licensed aesthetician with a CIBTAC-UK diploma (Confederation of International Beauty Therapy and Cosmetology, a UK gold-standard awarding body that emphasises comprehensive multi-modality training), NCLC certification, PMU certification, and 8+ years of hands-on clinical experience. Custom multi-modality facial protocol requires the broadest aesthetician skill set — modality selection judgement, layering sequence expertise, chemical peel application safety, dermal infusion technique, LED light therapy application, cryotherapy technique, facial and lymphatic drainage massage. This is where a CIBTAC-UK trained aesthetician's comprehensive training background genuinely matters. Arfah has delivered custom multi-modality facial protocols across thousands of sessions with adjustment for individual skin analysis findings each time.",
     "Multi-language: Arabic, English, Hindi, and Urdu. Female practitioner. Female patients requiring female practitioner served in comfortable private treatment room with proper privacy protocols."
@@ -777,9 +777,9 @@ export const advancedFacialLocation = {
   clinicName: "Vedara Care Polyclinic",
   contactDetails: [
     "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai",
-    "📞 +971 55 573 6312",
-    "💬 WhatsApp Available",
-    "✉️ booking@vedaracare.ae"
+    "ðŸ“ž +971 55 573 6312",
+    "ðŸ’¬ WhatsApp Available",
+    "âœ‰ï¸ booking@vedaracare.ae"
   ],
   landmarkNavigation: {
     label: "Landmark navigation",

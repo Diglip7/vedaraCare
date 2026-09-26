@@ -529,7 +529,7 @@ const NadiPareekshaJvc = () => {
                         lineHeight: 1.6,
                         color: "rgb(85, 85, 85)",
                       }}>
-                        <span style={{ color: "rgb(200, 168, 127)", fontSize: "10px", marginTop: "4px" }}>•</span>
+                        <span style={{ color: "rgb(200, 168, 127)", fontSize: "10px", marginTop: "4px" }}>”¢</span>
                         <span>{pt}</span>
                       </li>
                     ))}

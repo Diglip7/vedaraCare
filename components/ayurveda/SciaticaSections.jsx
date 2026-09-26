@@ -287,8 +287,8 @@ export const SciaticaPricing = ({
             let priceColor = 'rgb(26, 26, 26)';
 
             if (
-              service.name === "Acute sciatica package — 10 sessions over 6-8 weeks" ||
-              service.name === "Chronic sciatica programme — 16 sessions over 8-12 weeks"
+              service.name === "Acute sciatica package  -  10 sessions over 6-8 weeks" ||
+              service.name === "Chronic sciatica programme  -  16 sessions over 8-12 weeks"
             ) {
               bgClass = 'bg-[#FAF8F5]';
               borderClass = 'border-t border-b border-[#C9A84C]';
@@ -692,7 +692,7 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
             {rightContentStyle === 'acneScarTypes' && (
               <div className="w-full bg-white rounded-xl p-6 shadow-sm border border-[rgba(28,21,10,0.06)]">
                 <p className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ fontFamily: '"DM Sans", system-ui, sans-serif', color: "#C9A961" }}>
-                  {rightContent.label || "ACNE SCAR TYPES — CROSS SECTION"}
+                  {rightContent.label || "ACNE SCAR TYPES  -  CROSS SECTION"}
                 </p>
                 {/* Diagram */}
                 {rightContent.diagram && (
@@ -797,7 +797,7 @@ export const SciaticaTimeline = ({ data }) => {
                     {phase.week}
                   </div>
                   <h3 className="text-2xl md:text-3xl mb-6" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26, 26, 26)' }}>
-                    Phase {phase.number} — {phase.title}
+                    Phase {phase.number}  -  {phase.title}
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                     <ul className="space-y-3">

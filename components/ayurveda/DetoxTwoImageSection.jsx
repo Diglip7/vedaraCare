@@ -4,7 +4,7 @@ import Image from 'next/image';
 const DetoxTwoImageSection = ({
   bgColor = "bg-[#F5F1EA]",
   label = "UNDERSTANDING DETOX",
-  title = "What authentic Ayurvedic detox is — and what it isn't.",
+  title = "What authentic Ayurvedic detox is  -  and what it isn't.",
   subtitle = "",
   introParagraph = "",
   sections = [],

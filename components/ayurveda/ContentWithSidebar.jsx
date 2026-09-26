@@ -582,7 +582,7 @@ const TreatmentTimelineSection = ({
                 <ul className="space-y-2">
                   {bottomContent.cannotAchieve.items.map((item, index) => (
                     <li key={index} className="flex items-start gap-3 text-sm" style={{ color: 'rgb(74, 69, 64)' }}>
-                      <span className="text-[#C9A84C] mt-1 flex-shrink-0">—</span>
+                      <span className="text-[#C9A84C] mt-1 flex-shrink-0"> - </span>
                       {item}
                     </li>
                   ))}

@@ -50,28 +50,22 @@ const NeurologicalDubai = () => {
       "priceRange": "AED 400 - AED 25,000",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Vedara Care Polyclinic, Jumeirah Village Circle",
+        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
         "addressLocality": "Jumeirah Village Circle",
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "25.0607",
-        "longitude": "55.2078"
+        "latitude": "25.068346",
+        "longitude": "55.207223"
       },
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:00"
+          "closes": "22:00"
         }
       ],
       "areaServed": [
@@ -101,7 +95,6 @@ const NeurologicalDubai = () => {
       "availableService": [
         {"@type": "MedicalProcedure", "name": "Stroke Rehabilitation"},
         {"@type": "MedicalProcedure", "name": "Parkinson's Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "LSVT-BIG Programme"},
         {"@type": "MedicalProcedure", "name": "Multiple Sclerosis Physiotherapy"},
         {"@type": "MedicalProcedure", "name": "Traumatic Brain Injury Rehabilitation"},
         {"@type": "MedicalProcedure", "name": "Spinal Cord Injury Rehabilitation"},
@@ -112,16 +105,15 @@ const NeurologicalDubai = () => {
         {"@type": "MedicalProcedure", "name": "Falls Prevention"},
         {"@type": "MedicalProcedure", "name": "Constraint-Induced Movement Therapy"},
         {"@type": "MedicalProcedure", "name": "Task-Specific Training"},
-        {"@type": "MedicalProcedure", "name": "Neurodynamic Mobilisation"},
-        {"@type": "MedicalProcedure", "name": "Functional Electrical Stimulation"}
+        {"@type": "MedicalProcedure", "name": "Neurodynamic Mobilisation"}
       ],
       "memberOf": {
         "@id": "https://vedaracare.ae/#dha"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "75",
+        "ratingValue": "4.5",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -319,18 +311,12 @@ const NeurologicalDubai = () => {
             "price": "550",
             "description": "75-minute home assessment for patients with mobility limitations"
           },
-          {
-            "@type": "Offer",
-            "name": "LSVT-BIG Programme",
-            "priceCurrency": "AED",
-            "price": "5200",
-            "description": "Evidence-based 16-session programme over 4 weeks for Parkinson's disease"
-          },
+
           {
             "@type": "Offer",
             "name": "Post-Stroke Rehabilitation Programme",
             "priceCurrency": "AED",
-            "price": "8500",
+            "price": "7800",
             "description": "Structured 24-session programme over 3 months for post-stroke recovery"
           },
           {
@@ -372,24 +358,24 @@ const NeurologicalDubai = () => {
       "datePublished": "2026-06-05",
       "dateModified": currentDate,
       "author": {
-        "@type": "Physician",
-        "name": "Dr. Sarah Thompson"
+        "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"
       },
       "publisher": {
         "@id": "https://vedaracare.ae/#organization"
       },
       "mainEntityOfPage": "https://vedaracare.ae/physiotherapy/neurological-dubai/"
     },
-    ...neurologicalTeamData.members.map(member => ({
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": member.name,
-      "url": `https://vedaracare.ae${member.link}`,
-      "image": `https://vedaracare.ae/images/${member.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}.jpg`,
-      "medicalSpecialty": ["Neurological Physiotherapy", "Neurorehabilitation", "Physiotherapy"],
-      "hasCredential": ["DPT", "Neurological Specialist", "LSVT-BIG Certified", "DHA-Licensed"],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
-    })),
+      {
+        "@context": "https://schema.org",
+        "@type": "Physician",
+        "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician",
+        "name": "Hafsina K K",
+        "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/",
+        "image": "https://vedaracare.ae/images/hafsina-kk-physiotherapist-dubai.webp",
+        "medicalSpecialty": ["Neurological Physiotherapy", "Neurorehabilitation", "Physiotherapy"],
+        "hasCredential": ["DHA-Licensed Physiotherapist"],
+        "worksFor": {"@id": "https://vedaracare.ae/#organization"}
+      },
     {
       "@id": "https://vedaracare.ae/#organization",
       "@type": "MedicalClinic",
@@ -403,7 +389,7 @@ const NeurologicalDubai = () => {
     <>
       <Head>
         <title>Neurological Physiotherapy in Dubai | Stroke, Parkinson's, MS | Vedara JVC</title>
-        <meta name="description" content="Specialist neurological physiotherapy at our DHA-licensed JVC clinic and home services across Dubai. Stroke rehabilitation, Parkinson's, MS, TBI, spinal cord injury. Neurologist coordination. LSVT-BIG certified. Insurance direct-billing with 7 major insurers." />
+        <meta name="description" content="Specialist neurological physiotherapy at our DHA-licensed JVC clinic and home services across Dubai. Stroke rehabilitation, Parkinson's, MS, TBI, spinal cord injury. Neurologist coordination. LSVT-BIG certified. Insurance reimbursement support with 7 major insurers." />
         <link rel="canonical" href="https://vedaracare.ae/physiotherapy/neurological-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/physiotherapy/neurological-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/physiotherapy/neurological-dubai/" />

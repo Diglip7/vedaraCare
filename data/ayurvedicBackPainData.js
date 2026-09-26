@@ -440,7 +440,7 @@ export const ayurvedicBackPainLocation = {
   bgColor: "bg-[#F5F3EE]",
   label: "VISIT OUR BACK PAIN CLINIC",
   title: "Expert back pain care in Jumeirah Village Circle.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   whatsappMessage: "Hi, I'd like to inquire about ayurvedic back pain treatment at your JVC clinic.",

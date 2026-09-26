@@ -159,17 +159,17 @@ export const melasmaTreatmentReviews = {
   useKneeStyle: false,
   items: [
     {
-      quote: "“Pregnancy-induced melasma five years ago that persisted postpartum. Multiple previous treatments at different Dubai clinics — some helping slightly, some making it worse. The consultation was different: detailed Wood's lamp examination identifying melasma type, comprehensive treatment plan calibrated to my Fitzpatrick V skin type, emphasis on sun protection I had not realised was inadequate. Six months later: substantial improvement, even skin tone, finally feeling confident without heavy concealer. The skin type-specific approach made the difference.”",
+      quote: "“Pregnancy-induced melasma five years ago that persisted postpartum. Multiple previous treatments at different Dubai clinics — some helping slightly, some making it worse. The consultation was different: detailed Wood's lamp examination identifying melasma type, comprehensive treatment plan calibrated to my Fitzpatrick V skin type, emphasis on sun protection I had not realised was inadequate. Six months later: substantial improvement, even skin tone, finally feeling confident without heavy concealer. The skin type-specific approach made the difference.”",
       author: "FEMALE PATIENT, 36, FITZPATRICK V",
       details: "Post-Pregnancy Melasma · 6-Month Programme · Dubai Marina · February 2026"
     },
     {
-      quote: "“Perimenopausal melasma developing in my late 40s — never had melasma before. Vedara identified hormonal contributors I had not connected; recommended workup including thyroid evaluation that revealed mild thyroid dysfunction my GP had missed. Coordinated treatment with endocrinologist alongside comprehensive melasma treatment with oral tranexamic acid, topical regimen, and selective laser treatment. Substantial improvement at 6 months. The comprehensive approach addressing multiple contributors made the difference.”",
+      quote: "“Perimenopausal melasma developing in my late 40s — never had melasma before. Vedara identified hormonal contributors I had not connected; recommended workup including thyroid evaluation that revealed mild thyroid dysfunction my GP had missed. Coordinated treatment with endocrinologist alongside comprehensive melasma treatment with oral tranexamic acid, topical regimen, and selective laser treatment. Substantial improvement at 6 months. The comprehensive approach addressing multiple contributors made the difference.”",
       author: "FEMALE PATIENT, 51, FITZPATRICK III",
       details: "Perimenopausal Melasma · 8-Month Programme · Downtown Dubai · January 2026"
     },
     {
-      quote: "“Sun-aggravated melasma after summer holiday overseas — substantially worse than previous years. The consultation included serious discussion about sun protection I had not taken seriously before. Treatment plan: gentle topical treatment, monthly superficial peels, and strict sun protection that became non-negotiable. Substantial improvement at 4 months. Most important change was understanding sun protection as foundational rather than optional. Continuing maintenance regimen — melasma has not recurred in 18 months.”",
+      quote: "“Sun-aggravated melasma after summer holiday overseas — substantially worse than previous years. The consultation included serious discussion about sun protection I had not taken seriously before. Treatment plan: gentle topical treatment, monthly superficial peels, and strict sun protection that became non-negotiable. Substantial improvement at 4 months. Most important change was understanding sun protection as foundational rather than optional. Continuing maintenance regimen — melasma has not recurred in 18 months.”",
       author: "FEMALE PATIENT, 42, FITZPATRICK IV",
       details: "Sun-Aggravated Melasma · 6-Month Treatment · Ongoing Maintenance · Palm Jumeirah · March 2026"
     }
@@ -465,7 +465,7 @@ export const melasmaTreatmentLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
   title: "Where melasma treatment happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeirah Village Circle (JVC) Dubai",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",

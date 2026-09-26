@@ -31,9 +31,9 @@ const DoctorPageTemplate = ({ doctor }) => {
     <>
       {/* ================= SECTION 1: HERO (Image Right, Content Left) ================= */}
       <AyurvedaHero
-        label={doctor.heroBadge || 'AYURVEDA PRACTITIONER • BAMS'}
-        title={`${doctor.firstName || doctor.name} — ${doctor.pageTitle || 'Ayurvedic Doctor at our JVC clinic, Dubai.'}`}
-        description={`<span style="font-size: 15px; color: #6B6B6B; font-weight: 600; display: block; margin-bottom: 16px;">${doctor.subtitle || doctor.heroStats || 'BAMS · DHA-Licensed Ayurvedic Doctor · Personalised Holistic Care'}</span>${doctor.bio}`}
+        label={doctor.heroBadge || 'AYURVEDA PRACTITIONER - BAMS'}
+        title={`${doctor.firstName || doctor.name}  -  ${doctor.pageTitle || 'Ayurvedic Doctor at our JVC clinic, Dubai.'}`}
+        description={`<span style="font-size: 15px; color: #6B6B6B; font-weight: 600; display: block; margin-bottom: 16px;">${doctor.subtitle || doctor.heroStats || 'BAMS - DHA-Licensed Ayurvedic Doctor - Personalised Holistic Care'}</span>${doctor.bio}`}
         primaryCTA={doctor.primaryCtaText || `Book Consultation with ${doctor.firstName || doctor.name}`}
         secondaryCTA={doctor.secondaryCtaText || 'Chat on WhatsApp'}
         primaryCTAHref={doctor.primaryCtaHref || '/book'}
@@ -48,7 +48,7 @@ const DoctorPageTemplate = ({ doctor }) => {
         alt={doctor.alt}
         floatingCard={doctor.floatingCard || {
           title: doctor.floatingCardTitle || 'PERSONALISED HOLISTIC AYURVEDA',
-          subtitle: doctor.floatingCardSubtitle || `${doctor.firstName || doctor.name}'s consultation begins with genuine listening — understanding your health concerns, constitution, lifestyle, and history. Patient-centred care addressing your specific needs.`
+          subtitle: doctor.floatingCardSubtitle || `${doctor.firstName || doctor.name}'s consultation begins with genuine listening  -  understanding your health concerns, constitution, lifestyle, and history. Patient-centred care addressing your specific needs.`
         }}
         breadcrumb={doctor.breadcrumb || [
           { label: "Home", href: "/" },
@@ -67,7 +67,7 @@ const DoctorPageTemplate = ({ doctor }) => {
         footer={
           doctor.aboutFooter ||
           doctor.heroStats ||
-          "PROFILE VERIFIED BY VEDARA CARE MEDICAL TEAM · DHA LICENSED"
+          "PROFILE VERIFIED BY VEDARA CARE MEDICAL TEAM - DHA LICENSED"
         }
       />
       {/* ================= SECTION 3: DOCTOR'S CLINICAL APPROACH ================= */}
@@ -81,7 +81,7 @@ const DoctorPageTemplate = ({ doctor }) => {
             label: `ABOUT DR. ${(doctor.firstName || doctor.name).toUpperCase().replace('DR. ', '')}`,
             title:
               doctor.summaryTitle ||
-              "Personalised care — clinical approach.",
+              "Personalised care  -  clinical approach.",
             intro: doctor.summaryIntro || null,
             steps: [
               {
@@ -176,7 +176,7 @@ const DoctorPageTemplate = ({ doctor }) => {
                 <tbody>
                   {(doctor.education || []).map((edu, i) => {
                     if (edu === '') return null;
-                    const [label, value] = edu.split('—').map(s => s ? s.trim() : '');
+                    const [label, value] = edu.split(' - ').map(s => s ? s.trim() : '');
                     if (!value || label === 'Education' || label === 'Licenses' || label === 'Certifications' || label === 'Languages') {
                       return (
                         <tr key={i} style={{ borderBottom: 'none' }}>
@@ -283,9 +283,9 @@ const DoctorPageTemplate = ({ doctor }) => {
                   <h3 className="mb-5 pb-2 border-l-4 pl-4" style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '22px', fontWeight: '500', color: '#1A1A1A', borderLeftColor: '#C9A55B' }}>
                     {cat.category}
                   </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-5">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                     {(cat.conditions || []).map((cond, cIdx) => (
-                      <div key={cIdx} className="p-6 rounded-[8px] border" style={{ backgroundColor: '#FBF7F1', borderColor: '#E5DFD3' }}>
+                      <div key={cIdx} className="p-6 rounded-[8px] border h-full flex flex-col" style={{ backgroundColor: '#FBF7F1', borderColor: '#E5DFD3' }}>
                         <p className="condition-title text-[14px] font-semibold mb-3" style={{ color: '#1A1A1A' }} dangerouslySetInnerHTML={{ __html: cond.title }} />
                         <p className="text-[12.5px] leading-relaxed" style={{ color: '#6B6B6B' }} dangerouslySetInnerHTML={{ __html: cond.description }} />
                       </div>
@@ -408,7 +408,7 @@ const DoctorPageTemplate = ({ doctor }) => {
                   {consultation.bringBox.label}
                 </p>
                 <p className="text-[15px] leading-relaxed" style={{ color: '#4A4A4A' }}>
-                  {(consultation.bringBox.items || []).join(' · ')}.
+                  {(consultation.bringBox.items || []).join(' - ')}.
                 </p>
               </div>
             )}
@@ -425,7 +425,7 @@ const DoctorPageTemplate = ({ doctor }) => {
                 {pricing.label || 'TRANSPARENT PRICING'}
               </span>
               <h2 style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '44px', fontWeight: '500', color: '#1A1A1A', lineHeight: '1.2' }}>
-                {pricing.title || `Consultation with ${doctor.firstName || doctor.name} — pricing and insurance.`}
+                {pricing.title || `Consultation with ${doctor.firstName || doctor.name}  -  pricing and insurance.`}
               </h2>
             </div>
 

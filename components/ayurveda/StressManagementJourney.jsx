@@ -16,14 +16,14 @@ const StressManagementJourney = ({
     {
       phase: "PHASE 2",
       title: "Active Treatment Intensive",
-      time: "Weeks 2–6",
-      description: "Regular treatment sessions building sustained calming response. Shirodhara series (twice weekly to daily depending on programme intensity), possible Nasya and Abhyanga integration, herbal medicine adjustments based on response. Initial improvements often visible — better sleep, reduced physical tension, calmer baseline state."
+      time: "Weeks 2 - 6",
+      description: "Regular treatment sessions building sustained calming response. Shirodhara series (twice weekly to daily depending on programme intensity), possible Nasya and Abhyanga integration, herbal medicine adjustments based on response. Initial improvements often visible  -  better sleep, reduced physical tension, calmer baseline state."
     },
     {
       phase: "PHASE 3",
       title: "Sustained Improvement",
-      time: "Weeks 6–12",
-      description: "Continued treatments at reducing frequency, herbal medicine maintenance, lifestyle practices becoming sustained habits. Substantial improvement typically apparent — reduced stress reactivity, better sleep quality, improved emotional regulation, better physical wellbeing."
+      time: "Weeks 6 - 12",
+      description: "Continued treatments at reducing frequency, herbal medicine maintenance, lifestyle practices becoming sustained habits. Substantial improvement typically apparent  -  reduced stress reactivity, better sleep quality, improved emotional regulation, better physical wellbeing."
     },
     {
       phase: "PHASE 4",

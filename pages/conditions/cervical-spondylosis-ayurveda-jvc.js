@@ -382,7 +382,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
                 <h4 className="font-display" style={{ fontSize: "18px", fontWeight: 500, color: "var(--charcoal)", marginBottom: "12px", lineHeight: 1.3 }}>Comprehensive Assessment &amp; Foundation</h4>
                 <p style={{ fontSize: "13px", lineHeight: 1.75, color: "var(--muted)" }}>90-minute initial consultation with Dr. Ansiya: detailed cervical spondylosis history, Nadi Pareeksha, Prakriti and Vikriti assessment, Greeva Sandhigata Vata pattern identification, imaging review, medication review including chronic NSAIDs, cervical myelopathy screening (Hoffman sign, Lhermitte sign, hyperreflexia). Personalised sustained management plan. First Griva Basti session may begin. Trayodashang Guggulu and herbal medicines prescribed.</p>
                 <div className="hide-mobile" style={{ position: "absolute", right: "-13px", top: "50%", transform: "translateY(-50%)", width: "24px", height: "24px", background: "var(--gold)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 1 }}>
-                  <span style={{ color: "rgb(255, 255, 255)", fontSize: "12px", fontWeight: 700 }}>›</span>
+                  <span style={{ color: "rgb(255, 255, 255)", fontSize: "12px", fontWeight: 700 }}>”º</span>
                 </div>
               </div>
               <div style={{ background: "#F5F0EB", borderRadius: "8px", padding: "28px", borderTop: "4px solid var(--gold)", position: "relative" }}>
@@ -393,7 +393,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
                 <h4 className="font-display" style={{ fontSize: "18px", fontWeight: 500, color: "var(--charcoal)", marginBottom: "12px", lineHeight: 1.3 }}>Active Treatment Intensive</h4>
                 <p style={{ fontSize: "13px", lineHeight: 1.75, color: "var(--muted)" }}>Regular treatment sessions building sustained cervical spondylosis improvement. Griva Basti series (7–14 sessions), Nasya series integration, Shiroabhyanga, Abhyanga, Elakizhi, sustained Trayodashang Guggulu programme. Panchakarma with Nasya integration may begin. Initial improvements often visible: reduced pain intensity, improved morning stiffness, better cervical range of motion, improved sleep, reduced NSAID requirement in some cases.</p>
                 <div className="hide-mobile" style={{ position: "absolute", right: "-13px", top: "50%", transform: "translateY(-50%)", width: "24px", height: "24px", background: "var(--gold)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 1 }}>
-                  <span style={{ color: "rgb(255, 255, 255)", fontSize: "12px", fontWeight: 700 }}>›</span>
+                  <span style={{ color: "rgb(255, 255, 255)", fontSize: "12px", fontWeight: 700 }}>”º</span>
                 </div>
               </div>
               <div style={{ background: "#F5F0EB", borderRadius: "8px", padding: "28px", borderTop: "4px solid var(--gold)", position: "relative" }}>
@@ -404,7 +404,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
                 <h4 className="font-display" style={{ fontSize: "18px", fontWeight: 500, color: "var(--charcoal)", marginBottom: "12px", lineHeight: 1.3 }}>Consolidation &amp; Transition to Maintenance</h4>
                 <p style={{ fontSize: "13px", lineHeight: 1.75, color: "var(--muted)" }}>Continued treatments at reducing frequency transitioning toward sustained maintenance. Substantial improvement typically apparent — sustained pain reduction, improved functional capacity, better postural patterns. Trayodashang Guggulu programme continues. Transition planning for sustained maintenance approach appropriate to progressive degenerative nature.</p>
                 <div className="hide-mobile" style={{ position: "absolute", right: "-13px", top: "50%", transform: "translateY(-50%)", width: "24px", height: "24px", background: "var(--gold)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 1 }}>
-                  <span style={{ color: "rgb(255, 255, 255)", fontSize: "12px", fontWeight: 700 }}>›</span>
+                  <span style={{ color: "rgb(255, 255, 255)", fontSize: "12px", fontWeight: 700 }}>”º</span>
                 </div>
               </div>
               <div style={{ background: "#F5F0EB", borderRadius: "8px", padding: "28px", borderTop: "4px solid var(--gold)", position: "relative" }}>
@@ -449,23 +449,23 @@ const CervicalSpondylosisAyurvedaJvc = () => {
                 <div style={{ background: "#F5F0EB", borderRadius: "8px", padding: "20px" }}>
                   <p style={{ fontSize: "12px", fontWeight: 700, color: "rgb(192, 57, 43)", letterSpacing: "0.05em", textTransform: "uppercase", marginBottom: "12px" }}>What Ayurvedic approach cannot achieve</p>
                   <div style={{ display: "flex", gap: "8px", marginBottom: "8px" }}>
-                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>✗</span>
+                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>âœ—</span>
                     <span style={{ fontSize: "13px", color: "var(--muted)", lineHeight: 1.5 }}>Reversal of structural degenerative changes on imaging</span>
                   </div>
                   <div style={{ display: "flex", gap: "8px", marginBottom: "8px" }}>
-                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>✗</span>
+                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>âœ—</span>
                     <span style={{ fontSize: "13px", color: "var(--muted)", lineHeight: 1.5 }}>Substitute for surgical assessment with myelopathy or severe radiculopathy</span>
                   </div>
                   <div style={{ display: "flex", gap: "8px", marginBottom: "8px" }}>
-                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>✗</span>
+                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>âœ—</span>
                     <span style={{ fontSize: "13px", color: "var(--muted)", lineHeight: 1.5 }}>Guarantee of pain-free outcomes</span>
                   </div>
                   <div style={{ display: "flex", gap: "8px", marginBottom: "8px" }}>
-                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>✗</span>
+                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>âœ—</span>
                     <span style={{ fontSize: "13px", color: "var(--muted)", lineHeight: 1.5 }}>Complete halt of progression</span>
                   </div>
                   <div style={{ display: "flex", gap: "8px", marginBottom: "8px" }}>
-                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>✗</span>
+                    <span style={{ color: "rgb(192, 57, 43)", flexShrink: 0, marginTop: "1px" }}>âœ—</span>
                     <span style={{ fontSize: "13px", color: "var(--muted)", lineHeight: 1.5 }}>Primary treatment for cervical myelopathy signs — these require immediate specialist evaluation</span>
                   </div>
                 </div>

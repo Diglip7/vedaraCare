@@ -40,7 +40,7 @@ const HomePhysioBookingLogistics = ({
               <ul className="space-y-3">
                 {section.items.map((item, idx) => (
                   <li key={idx} className="flex gap-2 text-[#6B635A]">
-                    <span className="text-[#B8933F] mt-1">•</span>
+                    <span className="text-[#B8933F] mt-1">-</span>
                     <span className="leading-relaxed text-sm">{item}</span>
                   </li>
                 ))}

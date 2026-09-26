@@ -55,7 +55,7 @@ const practitioners = [
     name: 'Hafsina K K',
     specialty: 'Physiotherapist',
     focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
-    image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
+    image: '/images/hafsina-kk-physiotherapist-dubai.webp',
     alt: 'Hafsina K K, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
     slug: 'hafsina-kk-physiotherapist',
     url: '/doctors/hafsina-kk-physiotherapist'

@@ -4,28 +4,28 @@ const SportsInjuryMechanism = () => {
   const phases = [
     {
       number: "01",
-      title: "Phase 1 — Acute Assessment and Pain Management",
-      description: "Same-day or next-day assessment for acute injuries. Detailed history including injury mechanism, sport-specific demands, and competitive timeline. Physical examination with sport-specific tests. Imaging review if relevant. Initial treatment focused on pain reduction, swelling management, and tissue protection. Activity modification guidance — what you can and cannot do during the early phase."
+      title: "Phase 1  -  Acute Assessment and Pain Management",
+      description: "Same-day or next-day assessment for acute injuries. Detailed history including injury mechanism, sport-specific demands, and competitive timeline. Physical examination with sport-specific tests. Imaging review if relevant. Initial treatment focused on pain reduction, swelling management, and tissue protection. Activity modification guidance  -  what you can and cannot do during the early phase."
     },
     {
       number: "02",
-      title: "Phase 2 — Active Recovery and Tissue Restoration",
-      description: "Manual therapy targeted at the affected tissues — joint mobilisation, soft tissue work, dry needling for trigger points and muscle tension. Modalities as appropriate (shockwave therapy for chronic tendinopathies, IFC for pain management, ultrasound for specific applications). Early-stage exercise rehabilitation beginning with isometric loading, progressing to controlled dynamic loading as tissues tolerate."
+      title: "Phase 2  -  Active Recovery and Tissue Restoration",
+      description: "Manual therapy targeted at the affected tissues  -  joint mobilisation, soft tissue work, dry needling for trigger points and muscle tension. Modalities as appropriate (shockwave therapy for chronic tendinopathies, IFC for pain management, ultrasound for specific applications). Early-stage exercise rehabilitation beginning with isometric loading, progressing to controlled dynamic loading as tissues tolerate."
     },
     {
       number: "03",
-      title: "Phase 3 — Sport-Specific Progression",
+      title: "Phase 3  -  Sport-Specific Progression",
       description: "Where sports physiotherapy diverges most from general physiotherapy. Exercise prescription progresses through general strengthening to sport-specific movement patterns. For padel players: lateral movement, racquet swing biomechanics, change-of-direction protocols. For runners: running gait analysis, return-to-running protocols, surface and volume progression. For football players: cutting, change of direction, jumping, sport-specific agility. Each sport has its own progression sequence."
     },
     {
       number: "04",
-      title: "Phase 4 — Return-to-Sport Testing and Clearance",
-      description: "Before clearing patients to return to sport, we apply objective return-to-sport criteria — strength benchmarks (typically 90% of unaffected side), functional performance tests (hop tests, change-of-direction tests, sport-specific drills), and time-from-injury minimums based on tissue healing biology. Premature return to sport is the leading cause of re-injury. Patients who follow proper return-to-sport protocols have significantly lower re-injury rates than those who self-manage their return."
+      title: "Phase 4  -  Return-to-Sport Testing and Clearance",
+      description: "Before clearing patients to return to sport, we apply objective return-to-sport criteria  -  strength benchmarks (typically 90% of unaffected side), functional performance tests (hop tests, change-of-direction tests, sport-specific drills), and time-from-injury minimums based on tissue healing biology. Premature return to sport is the leading cause of re-injury. Patients who follow proper return-to-sport protocols have significantly lower re-injury rates than those who self-manage their return."
     },
     {
       number: "05",
-      title: "Phase 5 — Prevention and Performance",
-      description: "For active patients, prevention matters as much as treatment. After injury resolution, structured prevention programmes address the underlying factors that contributed to the injury — strength asymmetries, mobility limitations, movement pattern issues, training load management. For padel players this might mean rotator cuff prevention; for runners, hip strength and gait optimisation; for gym athletes, mobility work and form refinement."
+      title: "Phase 5  -  Prevention and Performance",
+      description: "For active patients, prevention matters as much as treatment. After injury resolution, structured prevention programmes address the underlying factors that contributed to the injury  -  strength asymmetries, mobility limitations, movement pattern issues, training load management. For padel players this might mean rotator cuff prevention; for runners, hip strength and gait optimisation; for gym athletes, mobility work and form refinement."
     }
   ];
 
@@ -68,7 +68,7 @@ const SportsInjuryMechanism = () => {
             </div>
 
             <blockquote className="mt-10 text-xl leading-relaxed" style={{ fontFamily: 'Fraunces, Georgia, serif', fontStyle: 'italic', color: 'rgb(201, 168, 76)', borderLeft: '3px solid rgb(201, 168, 76)', paddingLeft: '24px' }}>
-              "Return to sport is not just an absence of pain — it is meeting objective criteria for strength, function, and tissue healing. Anyone who clears you back to sport without testing is gambling with your career or recreation."
+              "Return to sport is not just an absence of pain  -  it is meeting objective criteria for strength, function, and tissue healing. Anyone who clears you back to sport without testing is gambling with your career or recreation."
             </blockquote>
           </div>
 
@@ -82,7 +82,7 @@ const SportsInjuryMechanism = () => {
                 5-PHASE PROTOCOL
               </p>
               <p className="text-sm leading-relaxed">
-                Every patient follows our structured 5-phase return-to-sport framework — from acute assessment through to objective clearance and prevention programming.
+                Every patient follows our structured 5-phase return-to-sport framework  -  from acute assessment through to objective clearance and prevention programming.
               </p>
             </div>
           </div>

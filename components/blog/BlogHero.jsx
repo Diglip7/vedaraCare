@@ -78,7 +78,7 @@ const BlogHero = ({
                   {authorName}
                 </div>
                 <div className="text-[14px] text-[#6B6B6B]">
-                  Medically reviewed · Published {publishDate} · Updated {updatedDate}
+                  Medically reviewed - Published {publishDate} - Updated {updatedDate}
                 </div>
               </div>
             </div>

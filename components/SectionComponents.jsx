@@ -1,15 +1,15 @@
 import React from 'react';
 
-// Design tokens – match the project's color scheme
+// Design tokens  -  match the project's color scheme
 export const GOLD = '#C9A55A'; // primary gold color
 export const INK = 'rgb(26,26,26)'; // primary text color
 export const STONE = 'rgb(107,107,107)'; // secondary text color
 export const RUST = '#C0392B'; // rust accent
 export const RUST_BG = '#F5C6B8'; // rust background
-export const SAGE_BG = '#F0EBE3'; // sage background (used for non‑rust icons)
+export const SAGE_BG = '#F0EBE3'; // sage background (used for non”‘rust icons)
 
 /**
- * Eyebrow – small uppercase heading used above titles.
+ * Eyebrow  -  small uppercase heading used above titles.
  * Accepts children (text) and an optional `color` prop to override the default GOLD.
  */
 export const Eyebrow = ({ children, color = GOLD }) => (
@@ -19,8 +19,8 @@ export const Eyebrow = ({ children, color = GOLD }) => (
 );
 
 /**
- * IconBadge – circular badge that holds an icon.
- * `tone` can be "rust" (red‑brown) or any other value for the default sage background.
+ * IconBadge  -  circular badge that holds an icon.
+ * `tone` can be "rust" (red”‘brown) or any other value for the default sage background.
  */
 export const IconBadge = ({ Icon, tone = 'default' }) => {
   const iconColor = tone === 'rust' ? RUST : GOLD;

@@ -117,7 +117,7 @@ const PrpFacialJvc = () => {
       { "@type": "Question", "name": "How many PRP sessions do I need?", "acceptedAnswer": { "@type": "Answer", "text": "Standard PRP programme at Vedara Care JVC is 3 sessions at 4-6 week intervals for anti-aging and skin quality indications. Extended 6-session course is designed for post-acne atrophic scar remodeling. Maintenance is typically every 6-12 months. Medical Director confirms course length at consultation." } },
       { "@type": "Question", "name": "What is the recovery time after PRP facial?", "acceptedAnswer": { "@type": "Answer", "text": "PRP downtime is 24-72 hours — mild swelling, small injection marks visible for 24-48 hours, occasional pinpoint bruising resolving within 5-7 days. Recovery is more visible when microneedling adjunct is added. Vedara Care JVC provides written post-procedure care briefing at every session." } },
       { "@type": "Question", "name": "Does PRP facial hurt?", "acceptedAnswer": { "@type": "Answer", "text": "Topical anaesthetic is applied to the treatment area for 20-30 minutes before PRP injection, which reduces sensation to mild pressure or occasional pinpoint sharpness. Blood draw sensation is typical venipuncture. Cannula technique for periorbital and neck areas is generally reported as less uncomfortable than needle injection." } },
-      { "@type": "Question", "name": "What growth factors are in PRP?", "acceptedAnswer": { "@type": "Answer", "text": "PRP contains multiple growth factors released from activated platelets — PDGF (Platelet-Derived Growth Factor), VEGF (Vascular Endothelial Growth Factor), TGF-β (Transforming Growth Factor Beta), EGF (Epidermal Growth Factor), IGF (Insulin-like Growth Factor), and FGF (Fibroblast Growth Factor)." } },
+      { "@type": "Question", "name": "What growth factors are in PRP?", "acceptedAnswer": { "@type": "Answer", "text": "PRP contains multiple growth factors released from activated platelets — PDGF (Platelet-Derived Growth Factor), VEGF (Vascular Endothelial Growth Factor), TGF-Î² (Transforming Growth Factor Beta), EGF (Epidermal Growth Factor), IGF (Insulin-like Growth Factor), and FGF (Fibroblast Growth Factor)." } },
       { "@type": "Question", "name": "Can PRP help with acne scars?", "acceptedAnswer": { "@type": "Answer", "text": "PRP paired with physician-scope microneedling is used at Vedara Care JVC for post-acne atrophic scar remodeling. Response is typically better for shallower boxcar and rolling scars; icepick scars respond less and generally require additional modalities. Programme is typically extended course of 6 sessions." } },
       { "@type": "Question", "name": "Can PRP help with dark circles?", "acceptedAnswer": { "@type": "Answer", "text": "PRP delivered via cannula technique is used at Vedara Care JVC for periorbital rejuvenation including dark circle indication. Response depends on dark circle etiology — dermal thinning and shadowing generally respond better than genuine pigmentation, which may require additional protocols under Medical Director oversight." } },
       { "@type": "Question", "name": "Can I have PRP while taking blood thinners?", "acceptedAnswer": { "@type": "Answer", "text": "Anticoagulant therapy is a significant consideration for PRP. Medical Director reviews anticoagulant management at consultation — some patients proceed with modified protocol, some require coordination with prescribing physician, some are not suitable candidates. This is one of the reasons PRP requires physician consultation." } },
@@ -311,9 +311,9 @@ const PrpFacialJvc = () => {
       {/* Section 1 - Hero */}
       <AyurvedaHero
         bgColor='white'
-        label="PHYSICIAN-DELIVERED • DHA-LICENSED"
+        label="PHYSICIAN-DELIVERED ”¢ DHA-LICENSED"
         title={"PRP Facial Treatment\nin Jumeirah Village\nCircle (JVC), Dubai"}
-        description="Physician-delivered autologous Platelet-Rich Plasma protocol at Vedara Care JVC — blood-derived regenerative therapy by our DHA-Licensed Consultant Dermatologist, with integrated pre and post care from our aesthetic team.<br/><br/>PRP is derived from your own blood, centrifuged to concentrate platelets carrying growth factor cargo (PDGF, VEGF, TGF-β, EGF, IGF), and re-delivered via injection or microneedling adjunct by our Medical Director. This is a medical procedure with a clear physician-scope delivery framework."
+        description="Physician-delivered autologous Platelet-Rich Plasma protocol at Vedara Care JVC — blood-derived regenerative therapy by our DHA-Licensed Consultant Dermatologist, with integrated pre and post care from our aesthetic team.<br/><br/>PRP is derived from your own blood, centrifuged to concentrate platelets carrying growth factor cargo (PDGF, VEGF, TGF-Î², EGF, IGF), and re-delivered via injection or microneedling adjunct by our Medical Director. This is a medical procedure with a clear physician-scope delivery framework."
         image="prp-facial-jvc-hero.webp"
         alt="PRP facial treatment physician-delivered JVC Dubai Vedara Care Polyclinic"
         primaryCTA="Book PRP Consultation"
@@ -325,7 +325,7 @@ const PrpFacialJvc = () => {
         ]}
         floatingCard={{
           title: "Vedara Care Polyclinic, JVC",
-          subtitle: "Medical Director (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>60-120 min per session<br/>Arabic • English • Hindi • Urdu"
+          subtitle: "Medical Director (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>60-120 min per session<br/>Arabic ”¢ English ”¢ Hindi ”¢ Urdu"
         }}
       />
 

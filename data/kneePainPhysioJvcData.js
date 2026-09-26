@@ -244,7 +244,7 @@ export const kneePainReviews = {
     }
   ],
   stats: [
-    { value: "4.9 ★", label: "Google Rating" },
+    { value: "4.9 â˜…", label: "Google Rating" },
     { value: "350+", label: "Knee Patients Treated" },
     { value: "87%", label: "Substantial Improvement in 12 Weeks" },
     { value: "Most", label: "Patients Avoid Surgery" }

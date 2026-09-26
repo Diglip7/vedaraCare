@@ -29,7 +29,7 @@ const SportsProtocols = () => {
             className="text-base max-w-2xl mx-auto" 
             style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}
           >
-            Different sports produce different injury patterns. The same diagnosis means different things across sports — and requires different rehabilitation protocols. Our sports physiotherapists tailor treatment to your specific sport and movement demands.
+            Different sports produce different injury patterns. The same diagnosis means different things across sports  -  and requires different rehabilitation protocols. Our sports physiotherapists tailor treatment to your specific sport and movement demands.
           </p>
         </div>
         
@@ -81,7 +81,7 @@ const SportsProtocols = () => {
             <div className="pt-3 border-t border-black/5">
               <p className="text-xs" style={{ color: 'rgb(107, 107, 107)' }}>
                 <span className="font-semibold" style={{ color: 'rgb(26, 26, 26)' }}>Typical recovery: </span>
-                3–8 weeks for most injuries; 8–16 weeks for meniscus
+                3 - 8 weeks for most injuries; 8 - 16 weeks for meniscus
               </p>
             </div>
           </div>
@@ -135,7 +135,7 @@ const SportsProtocols = () => {
             <div className="pt-3 border-t border-black/5">
               <p className="text-xs" style={{ color: 'rgb(107, 107, 107)' }}>
                 <span className="font-semibold" style={{ color: 'rgb(26, 26, 26)' }}>Typical recovery: </span>
-                4–12 weeks depending on severity; stress fractures longer
+                4 - 12 weeks depending on severity; stress fractures longer
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@ const SportsProtocols = () => {
             <div className="pt-3 border-t border-black/5">
               <p className="text-xs" style={{ color: 'rgb(107, 107, 107)' }}>
                 <span className="font-semibold" style={{ color: 'rgb(26, 26, 26)' }}>Typical recovery: </span>
-                2–8 weeks for most overuse injuries
+                2 - 8 weeks for most overuse injuries
               </p>
             </div>
           </div>
@@ -235,7 +235,7 @@ const SportsProtocols = () => {
             <div className="pt-3 border-t border-black/5">
               <p className="text-xs" style={{ color: 'rgb(107, 107, 107)' }}>
                 <span className="font-semibold" style={{ color: 'rgb(26, 26, 26)' }}>Typical recovery: </span>
-                2–6 weeks for soft tissue; 6–12 months for ACL
+                2 - 6 weeks for soft tissue; 6 - 12 months for ACL
               </p>
             </div>
           </div>
@@ -283,7 +283,7 @@ const SportsProtocols = () => {
             <div className="pt-3 border-t border-black/5">
               <p className="text-xs" style={{ color: 'rgb(107, 107, 107)' }}>
                 <span className="font-semibold" style={{ color: 'rgb(26, 26, 26)' }}>Typical recovery: </span>
-                4–12 weeks depending on injury
+                4 - 12 weeks depending on injury
               </p>
             </div>
           </div>
@@ -329,7 +329,7 @@ const SportsProtocols = () => {
             <div className="pt-3 border-t border-black/5">
               <p className="text-xs" style={{ color: 'rgb(107, 107, 107)' }}>
                 <span className="font-semibold" style={{ color: 'rgb(26, 26, 26)' }}>Typical recovery: </span>
-                4–12 weeks
+                4 - 12 weeks
               </p>
             </div>
           </div>
@@ -439,7 +439,7 @@ const SportsProtocols = () => {
           className="text-center text-sm mt-10 max-w-2xl mx-auto" 
           style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}
         >
-          If your sport is not listed, our sports physiotherapists treat athletes across all recreational and amateur sports. The specific sport matters because biomechanical demands differ — but the principles of sports physiotherapy apply across all athletic populations.
+          If your sport is not listed, our sports physiotherapists treat athletes across all recreational and amateur sports. The specific sport matters because biomechanical demands differ  -  but the principles of sports physiotherapy apply across all athletic populations.
         </p>
       </div>
     </section>

@@ -26,7 +26,7 @@ const StressManagementTeam = ({
     },
     {
       title: "Multi-Disciplinary Team",
-      description: "When stress management benefits from physiotherapy for physical tension, dermatology for stress-related skin concerns, or home healthcare for comprehensive support — coordinated multi-disciplinary care at same JVC clinic."
+      description: "When stress management benefits from physiotherapy for physical tension, dermatology for stress-related skin concerns, or home healthcare for comprehensive support  -  coordinated multi-disciplinary care at same JVC clinic."
     }
   ]
 }) => {

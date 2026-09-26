@@ -457,7 +457,7 @@ const SkinBoostersJVC = () => {
     "No proper consultation before treatment",
     "An unlabelled or unidentified injectable product",
     "Guaranteed results",
-    "Unrealistic “permanent glow” or similar claims",
+    "Unrealistic “permanent glow” or similar claims",
     "Pressure to buy large treatment packages upfront",
     "No explanation of which product is being used",
     "No discussion of your medical history",

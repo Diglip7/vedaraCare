@@ -747,7 +747,7 @@ const OxygenFacialJVC = () => {
             <ul className="space-y-3">
               {redFlagsItems.map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="mt-1">●</span>
+                  <span className="mt-1">â—</span>
                   <span>{item}</span>
                 </li>
               ))}

@@ -696,7 +696,7 @@ const Header = () => {
       {/* Persistent Mobile Bottom Navigation */}
       <div className="xl:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#184C3A] border-t border-[#1F4538] shadow-2xl h-20 flex items-center">
         <a
-          href="https://wa.me/+971 55 573 6312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20your%20treatments%20and%20book%20a%20consultation."
+          href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20your%20treatments%20and%20book%20a%20consultation."
           className="flex-1 flex flex-col items-center justify-center gap-1 h-full text-white hover:bg-[#4A7C59]/10 transition-colors"
           target="_blank"
           rel="noopener noreferrer"

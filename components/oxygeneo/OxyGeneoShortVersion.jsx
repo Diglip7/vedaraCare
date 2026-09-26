@@ -9,17 +9,17 @@ const OxyGeneoShortVersion = () => {
             AT A GLANCE
           </p>
           <h2 className="text-3xl md:text-4xl font-serif text-[#2C3E3A] mb-6">
-            Oxy-Geneo Facial at Vedara Care JVC — the short version.
+            Oxy-Geneo Facial at Vedara Care JVC  -  the short version.
           </h2>
           <div className="text-gray-700 space-y-4 mb-8 text-lg">
             <p>
-              Oxy-Geneo Facial is a tri-effect medical-grade facial protocol using Israeli Pollogen technology to simultaneously exfoliate the skin surface, trigger physiological oxygenation via the Bohr Effect (CO2 bubbles produced by capsule-primer reaction cause the body to send oxygen-rich blood to the skin surface), and infuse active serums into the skin — all in a single 30–45 minute session with no downtime. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — Oxy-Geneo is delivered by Arfah Owais, DHA-licensed aesthetician with CIBTAC-UK diploma and 8+ years of clinical experience. Six OxyPod treatment options address different skin concerns: NeoBright (brightening and pigmentation), NeoRevive (anti-aging and rejuvenation), Balance (oily and acne-prone skin), Illuminate (even skin tone), Retexture (firmness and texture), Hydrate (dehydration). Oxy-Geneo is particularly well-tolerated by sensitive skin — often better tolerated than HydraFacial for reactive or barrier-compromised skin.
+              Oxy-Geneo Facial is a tri-effect medical-grade facial protocol using Israeli Pollogen technology to simultaneously exfoliate the skin surface, trigger physiological oxygenation via the Bohr Effect (CO2 bubbles produced by capsule-primer reaction cause the body to send oxygen-rich blood to the skin surface), and infuse active serums into the skin  -  all in a single 30 - 45 minute session with no downtime. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai  -  walking distance from Circle Mall  -  Oxy-Geneo is delivered by Arfah Owais, DHA-licensed aesthetician with CIBTAC-UK diploma and 8+ years of clinical experience. Six OxyPod treatment options address different skin concerns: NeoBright (brightening and pigmentation), NeoRevive (anti-aging and rejuvenation), Balance (oily and acne-prone skin), Illuminate (even skin tone), Retexture (firmness and texture), Hydrate (dehydration). Oxy-Geneo is particularly well-tolerated by sensitive skin  -  often better tolerated than HydraFacial for reactive or barrier-compromised skin.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-3">
             {[
-              "30–45 min session",
+              "30 - 45 min session",
               "No downtime",
               "6 OxyPod options",
               "Suitable for sensitive skin",

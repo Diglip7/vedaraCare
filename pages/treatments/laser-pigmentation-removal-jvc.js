@@ -345,7 +345,7 @@ const LaserPigmentationRemoval = () => {
               <ul className="space-y-3">
                 {pigmentationSuitability.notSuitableFor.map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-[rgb(107,107,107)]">
-                    <span className="text-[rgb(160,113,63)] mt-0.5">•</span>
+                    <span className="text-[rgb(160,113,63)] mt-0.5">”¢</span>
                     <span className="leading-relaxed">{item}</span>
                   </li>
                 ))}
@@ -393,7 +393,7 @@ const LaserPigmentationRemoval = () => {
           { subtitle: '', description: pigmentationSideEffects.description },
           ...pigmentationSideEffects.temporaryEffects.map(e => ({
             subtitle: '',
-            description: `• ${e}`
+            description: `”¢ ${e}`
           }))
         ]}
         sidebar={{
@@ -448,7 +448,7 @@ const LaserPigmentationRemoval = () => {
             <ul className="space-y-3 mb-8">
               {pigmentationSessionsNeeded.factors.map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-sm text-[rgb(107,107,107)]">
-                  <span className="text-[rgb(160,113,63)] mt-0.5">•</span>
+                  <span className="text-[rgb(160,113,63)] mt-0.5">”¢</span>
                   <span className="leading-relaxed">{item}</span>
                 </li>
               ))}

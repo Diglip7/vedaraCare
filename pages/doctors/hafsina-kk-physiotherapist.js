@@ -14,7 +14,7 @@ const HafsinaKKPage = () => {
       "name": "Hafsina K K",
       "honorificPrefix": "",
       "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/",
-      "image": "https://vedaracare.ae/images/default-avatar.png",
+      "image": "https://vedaracare.ae/images/hafsina-kk-physiotherapist-dubai.webp",
       "jobTitle": "DHA Licensed Physiotherapist",
       "worksFor": { "@id": "https://vedaracare.ae/#organization" },
       "medicalSpecialty": [
@@ -31,6 +31,7 @@ const HafsinaKKPage = () => {
           "@type": "EducationalOccupationalCredential",
           "credentialCategory": "License",
           "name": "DHA Licensed Physiotherapist",
+          "identifier": "64812828",
           "recognizedBy": {
             "@type": "GovernmentOrganization",
             "name": "Dubai Health Authority"
@@ -184,7 +185,7 @@ const HafsinaKKPage = () => {
 
         <meta property="og:title" content="Hafsina K K — DHA Licensed Physiotherapist | Vedara Care" />
         <meta property="og:description" content="Hafsina K K is a DHA Licensed Physiotherapist with 7+ years of rehabilitation experience across orthopedics, neurology, sports and women's health in India and the UAE." />
-        <meta property="og:image" content="https://vedaracare.ae/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp" />
+        <meta property="og:image" content="https://vedaracare.ae/images/hafsina-kk-physiotherapist-dubai.webp" />
         <meta property="og:url" content="https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/" />
         <meta property="og:type" content="profile" />
         <meta property="profile:first_name" content="Hafsina" />
@@ -193,7 +194,7 @@ const HafsinaKKPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hafsina K K — DHA Licensed Physiotherapist | Vedara Care" />
         <meta name="twitter:description" content="DHA Licensed Physiotherapist with 7+ years of experience in orthopedic, neurological, sports and women's health rehabilitation." />
-        <meta name="twitter:image" content="https://vedaracare.ae/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp" />
+        <meta name="twitter:image" content="https://vedaracare.ae/images/hafsina-kk-physiotherapist-dubai.webp" />
 
         <link rel="canonical" href="https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/" />

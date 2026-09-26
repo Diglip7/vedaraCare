@@ -43,7 +43,7 @@ export const prpHairUnderstanding = {
       },
       {
         title: "What PRP actually is",
-        description: "PRP is your own blood processed to concentrate platelets and their growth factors. Whole blood contains platelets that release growth factors (PDGF, VEGF, EGF, IGF-1, TGF-β) and others when activated. These growth factors stimulate cellular activity, collagen production, vessel formation, and tissue regeneration. For hair, growth factors stimulate hair follicle cells, promote anagen (growth) phase, improve hair thickness, and support hair regrowth. PRP is fully biocompatible because it uses your own blood."
+        description: "PRP is your own blood processed to concentrate platelets and their growth factors. Whole blood contains platelets that release growth factors (PDGF, VEGF, EGF, IGF-1, TGF-Î²) and others when activated. These growth factors stimulate cellular activity, collagen production, vessel formation, and tissue regeneration. For hair, growth factors stimulate hair follicle cells, promote anagen (growth) phase, improve hair thickness, and support hair regrowth. PRP is fully biocompatible because it uses your own blood."
       },
       {
         title: "The biology in hair follicles",
@@ -75,7 +75,7 @@ export const prpHairUnderstanding = {
       { title: "PDGF", description: "Platelet-derived growth factor" },
       { title: "VEGF", description: "Vascular endothelial growth factor" },
       { title: "EGF", description: "Epidermal growth factor" },
-      { title: "TGF-β", description: "Transforming growth factor beta" },
+      { title: "TGF-Î²", description: "Transforming growth factor beta" },
       { title: "IGF-1", description: "Insulin-like growth factor" }
     ],
 
@@ -454,7 +454,7 @@ export const prpHairLocation = {
   title: "Where PRP hair treatment happens at Vedara Care JVC.",
   image: "/images/vedara-jvc-clinic-prp-hair.webp",
   alt: "Vedara Care JVC clinic PRP hair treatment Dubai",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeraih Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   email: "booking@vedaracare.ae",
   whatsapp: "+971 55 573 6312",

@@ -66,7 +66,7 @@ export const AyurvedaVsSpa = () => {
         </div>
 
         <p className="mt-16 text-[22px] md:text-[24px] font-serif italic text-[#B8860B] max-w-4xl mx-auto leading-relaxed" style={{ fontFamily: 'Fraunces, serif' }}>
-          "If a clinic offers Ayurvedic massage without a doctor consultation, they are offering wellness — not medicine. Both have value. But they are not the same thing."
+          "If a clinic offers Ayurvedic massage without a doctor consultation, they are offering wellness  -  not medicine. Both have value. But they are not the same thing."
         </p>
       </div>
     </section>

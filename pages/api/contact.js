@@ -26,13 +26,13 @@ export default async function handler(req, res) {
 
     // Format pre-filled WhatsApp link for direct patient dispatch
     const waMessageText = `Hello Vedara Care, I would like to make an inquiry.\n\n` +
-      `• *Ref:* ${referenceId}\n` +
-      `• *Name:* ${name}\n` +
-      `• *Phone:* ${phone}\n` +
-      `• *Department:* ${service || 'General Inquiry'}\n` +
-      (preferredDate ? `• *Preferred Date:* ${preferredDate}\n` : '') +
-      (preferredTime ? `• *Time Window:* ${preferredTime}\n` : '') +
-      (message ? `• *Details:* ${message}\n` : '');
+      `”¢ *Ref:* ${referenceId}\n` +
+      `”¢ *Name:* ${name}\n` +
+      `”¢ *Phone:* ${phone}\n` +
+      `”¢ *Department:* ${service || 'General Inquiry'}\n` +
+      (preferredDate ? `”¢ *Preferred Date:* ${preferredDate}\n` : '') +
+      (preferredTime ? `”¢ *Time Window:* ${preferredTime}\n` : '') +
+      (message ? `”¢ *Details:* ${message}\n` : '');
 
     const whatsappUrl = `https://wa.me/971555736312?text=${encodeURIComponent(waMessageText)}`;
 

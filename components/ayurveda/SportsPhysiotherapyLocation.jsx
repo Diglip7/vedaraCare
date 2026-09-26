@@ -10,7 +10,7 @@ const SportsPhysiotherapyLocation = ({ data = {} }) => {
     whatsapp = "+971 55 573 6312",
     landmarks = [],
     hours = {
-      Time: "9:00 AM – 10:00 PM",
+      Time: "9:00 AM  -  10:00 PM",
 
     },
     description = "",
@@ -132,7 +132,7 @@ const SportsPhysiotherapyLocation = ({ data = {} }) => {
                   <>
                     {hours.monday && (
                       <div className="flex justify-between pb-2" style={{ borderBottom: '1px solid rgba(0,0,0,0.05)' }}>
-                        <span>Monday – Sunday</span>
+                        <span>Monday  -  Sunday</span>
                         <span style={{ fontWeight: 500 }}>{hours.monday}</span>
                       </div>
                     )}
