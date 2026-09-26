@@ -585,8 +585,8 @@ const PostSurgeryRehabDubai = () => {
   return (
     <>
       <Head>
-        <title>Post-Surgery Rehabilitation in Dubai | Surgeon-Coordinated | Vedara JVC</title>
-        <meta name="description" content="Procedure-specific post-surgery rehabilitation in Dubai — knee, hip, ACL, spinal, rotator cuff, more. DPT-qualified physiotherapists at our JVC clinic + home physiotherapy across Dubai. Surgeon-coordinated whether your surgery was in Dubai or overseas." />
+        <title>Post-Surgery Rehabilitation in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Post-surgery physiotherapy at our JVC clinic, Dubai — knee, hip, ACL, and other orthopaedic recovery. We work from your surgical report and your surgeon's guidance. DHA-licensed physiotherapist. Book an assessment." />
         <link rel="canonical" href="https://vedaracare.ae/physiotherapy/post-surgery-rehab-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/physiotherapy/post-surgery-rehab-dubai/" />
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/physiotherapy/post-surgery-rehab-dubai/" />

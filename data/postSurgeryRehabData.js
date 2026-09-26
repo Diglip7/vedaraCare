@@ -5,8 +5,8 @@ export const postSurgeryRehabHero = {
     { label: "Post-Surgery Rehabilitation in Dubai", active: true }
   ],
   label: "POST-SURGERY REHABILITATION · DHA-LICENSED 2509266 · COORDINATED WITH YOUR SURGEON",
-  title: "Post-surgery\nrehabilitation in Dubai.\nSurgeon-coordinated.\nProcedure-specific.\nHome or clinic.",
-  description: "Structured post-operative rehabilitation at our Jumeirah Village Circle (JVC) clinic and at your home across Dubai. DPT-qualified physiotherapists trained in procedure-specific protocols for knee replacement, hip replacement, ACL reconstruction, spinal surgery, rotator cuff repair, and other orthopaedic and surgical procedures. We coordinate with your operating surgeon — whether they practise in Dubai or internationally. Home physiotherapy available for the early recovery phase.",
+  title: "Post-surgery rehabilitation in JVC.\nGuided by your surgeon's plan.",
+  description: "Structured post-operative rehabilitation at our Jumeirah Village Circle (JVC) clinic. Physiotherapy for recovery after knee replacement, hip replacement, ACL reconstruction, spinal surgery, rotator cuff repair, and other orthopaedic procedures — built around your surgeon's specific protocol and surgical report. Home physiotherapy launching soon.",
   primaryCTA: "Book a Post-Surgery Consultation",
   secondaryCTA: "WhatsApp us",
   primaryCTAHref: "/book",
@@ -14,12 +14,12 @@ export const postSurgeryRehabHero = {
   trustSignals: [
     "DPT-qualified physiotherapists",
     "Surgeon coordination protocols",
-    "Home physiotherapy available",
-    "Insurance direct-billing"
+    "Home physiotherapy launching soon",
+    "Insurance reimbursement support"
   ],
   floatingCard: {
-    title: "WE COORDINATE WITH YOUR SURGEON",
-    subtitle: "Whether your surgery was in Dubai, London, Delhi, Frankfurt, New York, Beirut, or Cairo — we work with your operating surgeon's specific protocols, with their direct communication."
+    title: "WE WORK FROM YOUR SURGEON'S PLAN",
+    subtitle: "Wherever your surgery took place, we request your surgical report and rehabilitation prescription and follow your surgeon's specific guidance."
   },
   image: "/images/post-surgery-rehabilitation-dubai-hero.webp",
   alt: "Post-surgery rehabilitation at Vedara Care JVC Dubai with DPT-qualified physiotherapist"
@@ -29,8 +29,8 @@ export const postSurgeryRehabIntro = {
   bgColor: "bg-[#FFFFFF]",
   label: "THE QUICK ANSWER",
   title: "Post-surgery rehabilitation at Vedara Care, in one paragraph.",
-  blockquote: "Post-surgery rehabilitation at Vedara Care Polyclinic — at our Jumeirah Village Circle (JVC), Dubai clinic walking distance from Circle Mall, and at patient homes across Dubai — is procedure-specific structured rehabilitation delivered by DPT-qualified physiotherapists working in coordination with your operating surgeon. We provide rehabilitation programmes for total knee replacement (typical 4-6 months), total hip replacement (3-4 months), ACL reconstruction (9-12 months), rotator cuff repair (4-6 months), spinal surgery (3-6 months depending on procedure), meniscus surgery, hip arthroscopy, shoulder arthroscopy, post-mastectomy rehabilitation, and other orthopaedic and surgical procedures. For patients with surgery overseas (UK, India, Germany, USA, and other countries), we coordinate directly with the operating surgeon to follow their specific protocols. Home physiotherapy is available for the early post-operative phase across Dubai. Initial consultation from AED 350; structured rehabilitation programmes from AED 5,500. Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-  footer: "Medically reviewed by Dr. Sarah Mitchell, DPT, DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: "Post-surgery rehabilitation at Vedara Care Polyclinic — at our Jumeirah Village Circle (JVC), Dubai clinic walking distance from Circle Mall, and at patient homes across Dubai — is procedure-specific structured rehabilitation delivered by DPT-qualified physiotherapists working in coordination with your operating surgeon. We provide rehabilitation programmes for total knee replacement (typical 4-6 months), total hip replacement (3-4 months), ACL reconstruction (9-12 months), rotator cuff repair (4-6 months), spinal surgery (3-6 months depending on procedure), meniscus surgery, hip arthroscopy, shoulder arthroscopy, post-mastectomy rehabilitation, and other orthopaedic and surgical procedures. For patients with surgery overseas (UK, India, Germany, USA, and other countries), we coordinate directly with the operating surgeon to follow their specific protocols. Home physiotherapy is available for the early post-operative phase across Dubai. Initial consultation from AED 350; structured rehabilitation programmes from AED 5,500. Insurance reimbursement support with all major insurers.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
 export const postSurgeryRehabMechanism = {
@@ -65,7 +65,7 @@ export const postSurgeryRehabFinalCTA = {
     "Initial assessment from AED 350",
     "Clinic in JVC + home physiotherapy across Dubai",
     "Surgeon coordination protocols",
-    "Insurance direct-billing with seven major insurers",
+    "Insurance reimbursement support",
     "Same-week appointments available"
   ]
 };
@@ -108,33 +108,16 @@ export const postSurgeryRehabReviews = {
   bgColor: "bg-[#1F4538]",
   cardBgColor: "rgba(255, 255, 255, 0.05)",
   isDarkText: false,
-  label: "PATIENT STORIES",
-  title: "Post-surgery recovery stories from our clinic.",
+  label: "PATIENT OUTCOMES",
+  title: "Recovery results.",
   description: null,
-  items: [
-    {
-      quote: "Hip replacement at age 64 in London. Returned to Dubai four weeks post-surgery for rehabilitation. Vedara's team coordinated with my surgeon in London throughout, started with home visits when stairs were impossible, transitioned to clinic at week six. Walking normally by month three. Cannot recommend enough.",
-      author: "Margaret L.",
-      details: "Total Hip Replacement (London surgery) · 4-Month Programme · Dubai Marina · February 2026"
-    },
-    {
-      quote: "ACL reconstruction at 28 after football injury. Vedara's team got me through nine months of rehabilitation properly — including the parts I wanted to skip. Strength-tested before returning to football. Three years later, still playing, no re-injury. The discipline of the programme made the difference.",
-      author: "James M.",
-      details: "ACL Reconstruction (Dubai surgery) · 11-Month Programme · Sports City · January 2026"
-    },
-    {
-      quote: "Spinal fusion at L4-L5 in Germany. Anxious about rehabilitation in Dubai. Vedara contacted my surgeon in Frankfurt directly, established the protocol, and managed my recovery through six months. Back to work at four months, back to gym at six months. The coordination with my surgeon made all the difference.",
-      author: "Rohan D.",
-      details: "Spinal Fusion (Germany surgery) · 6-Month Programme · Downtown Dubai · March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.9", label: "STARS ON GOOGLE" },
-    { value: "140+", label: "POST-SURGICAL REVIEWS" },
-    { value: "97%", label: "ACHIEVED GOALS" }
+    { value: "4.5", label: "STARS ON GOOGLE" },
+    { value: "15", label: "REVIEWS" }
   ],
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
-  buttonText: "Read All Post-Surgical Reviews",
+  buttonText: "Read Google Reviews",
 };
 
 export const homePhysiotherapyData = {
