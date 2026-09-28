@@ -115,7 +115,7 @@ const HydraFacialTreatmentJVC = () => {
         { "@type": "Service", "name": "Bridal HydraFacial Programme" },
         { "@type": "Service", "name": "HydraFacial Monthly Membership" }
       ],
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "650", "bestRating": "5", "worstRating": "1" }
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
     },
     [
       {
@@ -239,8 +239,8 @@ const HydraFacialTreatmentJVC = () => {
       "@context": "https://schema.org",
       "@type": "AggregateRating",
       "itemReviewed": { "@id": "https://vedaracare.ae/treatments/hydrafacial-jvc/#procedure" },
-      "ratingValue": "4.9",
-      "reviewCount": "650",
+      "ratingValue": "4.5",
+      "reviewCount": "15",
       "bestRating": "5",
       "worstRating": "1"
     }

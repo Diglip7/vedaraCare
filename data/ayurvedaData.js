@@ -440,7 +440,7 @@ export const ayurvedaReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "62", label: "Ayurveda-specific reviews" },
     { value: "97%", label: "would recommend her" }
   ]
@@ -641,7 +641,7 @@ export const dubaiHubReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "Stars on Google" },
+    { value: "4.5", label: "Stars on Google" },
     { value: "240+", label: "Verified Reviews" },
     { value: "97%", label: "Would Recommend" }
   ]

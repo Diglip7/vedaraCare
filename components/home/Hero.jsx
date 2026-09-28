@@ -17,7 +17,7 @@ const Hero = ({
     { label: "Near Circle Mall", type: "map" }
   ],
   stats = [
-    { label: "4.9 Google Rating", type: "star" },
+    { label: "4.5 Google Rating", type: "star" },
     { label: "1000+ Patients", type: "users" },
     { label: "Personalized Care", type: "heart" },
     { label: "JVC Dubai", type: "map" }

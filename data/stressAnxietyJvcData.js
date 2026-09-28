@@ -346,7 +346,7 @@ export const stressJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.9â˜…", label: "Google Rating" },
+    { value: "4.5", label: "Google Rating" },
     { value: "5000+", label: "Patients Treated" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
     { value: "Female", label: "Practitioner Available" }

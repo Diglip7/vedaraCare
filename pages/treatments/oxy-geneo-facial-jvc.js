@@ -273,8 +273,8 @@ const OxyGeneoFacialJVC = () => {
               ],
               "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "480",
+                "ratingValue": "4.5",
+                "reviewCount": "15",
                 "bestRating": "5",
                 "worstRating": "1"
               },

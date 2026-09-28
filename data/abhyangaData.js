@@ -296,7 +296,7 @@ export const abhyangaReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "4.9 stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "52", label: "Abhyanga-specific reviews" },
     { value: "97%", label: "would recommend" }
   ],

@@ -283,7 +283,7 @@ export const postnatalReviews = {
     }
   ],
   stats: [
-    { label: "Stars on Google", value: "4.9" },
+    { label: "Stars on Google", value: "4.5" },
     { label: "Mothers Cared For", value: "800+" },
     { label: "Completion Rate", value: "94%" }
   ],

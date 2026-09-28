@@ -273,7 +273,7 @@ export const wellnessOutcomes = {
     }
   ],
   stats: [
-    { value: "4.9â˜…", label: "on Google" },
+    { value: "4.5", label: "on Google" },
     { value: "5,000+", label: "wellness patients treated" },
     { value: "JVC", label: "family & corporate expertise" },
     { value: "Multi-disciplinary", label: "integrated team" },

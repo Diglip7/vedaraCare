@@ -421,7 +421,7 @@ export const diabetesReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "68", label: "Diabetes reviews" },
     { value: "82%", label: " HbA1c improvement coordinated with their endocrinologist" },
 

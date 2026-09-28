@@ -628,7 +628,7 @@ export const strokeRehabReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "180+", label: "stroke patients treated" },
 
   ],

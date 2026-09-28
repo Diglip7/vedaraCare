@@ -89,7 +89,7 @@ const CervicalSpondylosisAyurvedaJvc = () => {
         { "@type": "MedicalProcedure", "name": "Older Patient Gentle Cervical Spondylosis Programme" }
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "1200", "bestRating": "5", "worstRating": "1" },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" },
       "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
       "lastReviewed": "2026-09-07"
     },

@@ -293,7 +293,7 @@ export const ayurvedicBackPainOutcomes = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "142", label: "back pain reviews" },
     { value: "89%", label: "reported pain reduction" }
   ],

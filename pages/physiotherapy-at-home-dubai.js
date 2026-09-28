@@ -141,8 +141,8 @@ const HomePhysiotherapyDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "160",
+        "ratingValue": "4.5",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
       }

@@ -352,7 +352,7 @@ export const weightLossReviews = {
   stats: [
     { value: "94", label: "Weight Loss  reviews" },
     { value: "78%", label: "achieved their target range" },
-    { value: "4.9", label: "stars on Google " },
+    { value: "4.5", label: "stars on Google " },
     { value: "97%", label: " maintained it at 12 months " }
   ],
   buttonText: "Read All Weight Loss Reviews →",

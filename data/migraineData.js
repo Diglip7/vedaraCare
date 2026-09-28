@@ -163,7 +163,7 @@ export const migraineReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "STARS ON GOOGLE" },
+    { value: "4.5", label: "STARS ON GOOGLE" },
     { value: "94", label: "MIGRAINE REVIEWS" },
     { value: "82%", label: "ACHIEVED 30%+ REDUCTION" },
     { value: "64%", label: "ACHIEVED 50%+ REDUCTION" }

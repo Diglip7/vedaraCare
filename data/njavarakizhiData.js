@@ -318,7 +318,7 @@ export const njavarakizhiReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "4.9 stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "23", label: "Njavarakizhi-specific reviews" },
     { value: "88%", label: "reported meaningful clinical improvement" }
   ],

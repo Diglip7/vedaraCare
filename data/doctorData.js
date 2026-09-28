@@ -257,7 +257,7 @@ const defaultReviews = (name) => ({
     }
   ],
   stats: [
-    { value: "4.9", label: "patient rating on Google" },
+    { value: "4.5", label: "patient rating on Google" },
     { value: "DHA", label: "licensed practitioner" },
     { value: "1000+", label: "patients consulted" }
   ],
@@ -330,7 +330,7 @@ export const drPriyaNairTemplate = {
   heroStats: 'DHA-P-0048291 ”¢ 15+ years clinical experience',
   pageTitle: 'Ayurvedic Doctor at our JVC clinic, Dubai.',
   firstName: 'Dr. Priya Nair',
-  ratingText: '4.9 rated on Google',
+  ratingText: '4.5 rated on Google',
   primaryCtaHref: '/book',
   secondaryCtaHref: 'https://wa.me/971555736312?text=' + encodeURIComponent("Hi, I'd like to book a consultation with Dr. Priya Nair at your JVC clinic."),
   aboutH2: 'About Dr. Priya Nair, in one paragraph.',
@@ -1144,7 +1144,7 @@ export const johannaBautistaTemplate = {
   alt: 'Johanna Bautista, Senior Aesthetician at Vedara Care Polyclinic, JVC Dubai',
   heroBadge: 'SENIOR AESTHETICIAN & LASER SPECIALIST',
   heroStats: 'Clinic & Patient Experience Lead',
-  ratingText: '4.9 rated on Google',
+  ratingText: '4.5 rated on Google',
   primaryCtaHref: '/book',
   secondaryCtaHref: 'https://wa.me/971555736312?text=' + encodeURIComponent("Hi, I'd like to enquire about aesthetic services with Johanna Bautista at Vedara Care JVC."),
   bio: "Johanna Bautista is our Senior Aesthetician and Laser Specialist at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. With many years of hands-on experience in clinical aesthetics — including HydraFacial, diode laser hair reduction, carbon peels, PRP facial, and radiofrequency skin tightening — she has built a loyal patient following across Dubai. Many patients book specifically with Johanna for the calm, thorough, and unhurried care she delivers in every session. She also coordinates the overall patient experience and booking journey at Vedara Care.",
@@ -1240,7 +1240,7 @@ export const johannaBautistaTemplate = {
       { quote: "My bridals were 10 sessions planned 6 months out. The timeline and milestones were honest and the day-of results were exactly as we discussed.", author: "Patient I.", details: "Pre-bridal programme · HydraFacial + PRP + Carbon Peel" }
     ],
     stats: [
-      { value: "4.9", label: "Google patient rating" },
+      { value: "4.5", label: "Google patient rating" },
       { value: "10+ yrs", label: "aesthetic experience" },
       { value: "5000+", label: "sessions delivered" }
     ],
@@ -1539,7 +1539,7 @@ export const drAnsiya = {
       }
     ],
     stats: [
-      { value: "4.9", label: "Google Rating" },
+      { value: "4.5", label: "Google Rating" },
       { value: "11", label: "Documented Expertise Areas" },
       { value: "DHA", label: "Licensed & BAMS Qualified" },
       { value: "â™€", label: "Female Doctor Available" }

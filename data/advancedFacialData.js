@@ -106,7 +106,7 @@ export const advancedFacialSEO = {
         { "@type": "Service", "name": "12-Month Comprehensive Maintenance Programme" },
         { "@type": "Service", "name": "Monthly Advanced Facial Rejuvenation Membership" }
       ],
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "385", "bestRating": "5", "worstRating": "1" },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" },
       "lastReviewed": "2024-05-15"
     },
     [
@@ -295,8 +295,8 @@ export const advancedFacialSEO = {
       "@context": "https://schema.org",
       "@type": "AggregateRating",
       "itemReviewed": { "@id": "https://vedaracare.ae/treatments/advanced-facial-rejuvenation-jvc/#procedure" },
-      "ratingValue": "4.9",
-      "reviewCount": "385",
+      "ratingValue": "4.5",
+      "reviewCount": "15",
       "bestRating": "5",
       "worstRating": "1"
     }

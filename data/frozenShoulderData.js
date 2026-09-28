@@ -316,7 +316,7 @@ export const frozenShoulderReviews = {
   ],
   stats: [
     {
-      value: "4.9",
+      value: "4.5",
       label: "stars on Google"
     },
     {

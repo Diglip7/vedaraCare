@@ -437,7 +437,7 @@ export const weightLossJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.9â˜…", label: "Stars on Google" },
+    { value: "4.5", label: "Stars on Google" },
     { value: "950+", label: "Weight management patients treated" },
     { value: "DHA", label: "Licensed BAMS Ayurvedic doctors" },
     { value: "100%", label: "Female practitioner available" }

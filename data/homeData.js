@@ -63,7 +63,7 @@ export const homeHero = {
     { label: "Near Circle Mall", type: "map" }
   ],
   stats: [
-    { label: "4.9 Google Rating", type: "star" },
+    { label: "4.5 Google Rating", type: "star" },
     { label: "5000+ Patients", type: "users" },
     { label: "Personalized Care", type: "heart" },
     { label: "JVC Dubai", type: "map" }
@@ -249,7 +249,7 @@ export const homeReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "42", label: "reviews mentioning Dr. Nair" },
     { value: "97%", label: "would recommend her" }
   ]

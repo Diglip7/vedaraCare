@@ -166,7 +166,7 @@ export const eczemaTreatmentReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "500+", label: "eczema patients treated" },
     { value: "Pediatric and adult", label: "expertise" },
   ]

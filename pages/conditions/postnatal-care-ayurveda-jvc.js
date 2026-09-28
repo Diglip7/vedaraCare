@@ -84,7 +84,7 @@ const PostnatalAyurvedaJvc = () => {
         {"@type": "MedicalProcedure", "name": "Twin Pregnancy Postnatal Ayurvedic Programme"}
       ],
       "memberOf": {"@type": "Organization", "name": "Dubai Health Authority"},
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "400", "bestRating": "5", "worstRating": "1"}
+      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1"}
     },
     {
       "@context": "https://schema.org",

@@ -346,7 +346,7 @@ export const chemicalPeelPatientVoices = {
   ],
   stats: [
     {
-      value: "4.9",
+      value: "4.5",
       description: "stars on Google"
     },
     {

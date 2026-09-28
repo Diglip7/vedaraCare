@@ -205,7 +205,7 @@ export const stressAnxietyReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "142", label: "stress and anxiety reviews" },
     { value: "88%", label: "reported significant sleep improvement" },
     { value: "72%", label: "reported meaningful baseline anxiety reduction" }

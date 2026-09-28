@@ -30,7 +30,7 @@ const Reviews = ({
     }
   ],
   stats = [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "42", label: "reviews mentioning Dr. Nair" },
     { value: "97%", label: "would recommend her" }
   ]

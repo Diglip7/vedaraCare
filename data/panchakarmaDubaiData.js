@@ -352,7 +352,7 @@ export const panchakarmaDubaiReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "38", label: "Panchakarma reviews" },
     { value: "97%", label: "would recommend" }
   ],

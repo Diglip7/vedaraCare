@@ -59,7 +59,7 @@ export const acneScarsPatientVoices = {
     }
   ],
   stats: [
-    { value: "4.9", description: "Stars on Google" },
+    { value: "4.5", description: "Stars on Google" },
     { value: "1200+", description: "Acne scar patients treated" },
     { value: "I-VI", description: "Fitzpatrick expertise" },
     { value: "Full", description: "Combination protocol capability" }

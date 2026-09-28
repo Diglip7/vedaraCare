@@ -381,7 +381,7 @@ export const nadiPareekshaReviews = {
     }
   ],
   stats: [
-    { label: "4.9 stars on Google" },
+    { label: "stars on Google" },
     { label: "1,500+ Nadi Pareeksha consultations" },
     { label: "DHA-licensed BAMS Ayurvedic doctors" },
     { label: "Dr. Ansiya's #1 documented expertise" }

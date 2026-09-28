@@ -99,7 +99,7 @@ const WellnessClinicJVC = () => {
         { "@type": "MedicalProcedure", "name": "Integrated Wellness Assessment" }
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "10000", "bestRating": "5", "worstRating": "1" }
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
     },
     // Schema 2 — Place with JVC Landmark Reference
     {

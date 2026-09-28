@@ -327,7 +327,7 @@ export const pcosReviews = {
   stats: [
     { value: "74%", label: "reported cycle improvement" },
     { value: "87", label: "PCOS reviews" },
-    { value: "4.9", label: "4.9 stars on Google" }
+    { value: "4.5", label: "stars on Google" }
   ],
   buttonText: "Read All PCOS Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"

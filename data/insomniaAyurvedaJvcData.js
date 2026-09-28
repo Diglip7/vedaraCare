@@ -444,7 +444,7 @@ export const insomniaJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.9â˜…", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "850+", label: "sleep patients treated" },
     { value: "DHA-licensed", label: "BAMS Ayurvedic doctors" },
     { value: "Female", label: "practitioner available" }

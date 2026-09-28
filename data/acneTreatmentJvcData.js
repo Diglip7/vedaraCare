@@ -395,7 +395,7 @@ export const acneTreatmentReviews = {
     }
   ],
   stats: [
-    { value: "4.9", label: "stars on Google" },
+    { value: "4.5", label: "stars on Google" },
     { value: "400+", label: "acne patients treated" },
     { value: "85%", label: "reported significant improvement" }
   ],
