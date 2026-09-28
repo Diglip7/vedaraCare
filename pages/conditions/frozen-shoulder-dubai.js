@@ -63,21 +63,9 @@ const FrozenShoulderDubai = () => {
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "09:00",
-          "closes": "19:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "10:00",
-          "closes": "18:00"
+          "closes": "22:00"
         }
       ],
       "areaServed": [
@@ -249,37 +237,37 @@ const FrozenShoulderDubai = () => {
         "itemListElement": [
           {
             "@type": "Offer",
-            "name": "Initial Frozen Shoulder Assessment",
+            "name": "Initial frozen shoulder assessment (60 minutes)",
             "priceCurrency": "AED",
             "price": "350",
             "description": "60-minute comprehensive assessment with phase identification"
           },
           {
             "@type": "Offer",
-            "name": "Frozen Shoulder Freezing Phase Programme",
+            "name": "Freezing phase programme (8–12 sessions over 8–12 weeks)",
             "priceCurrency": "AED",
-            "price": "1,800",
+            "price": "2800",
             "description": "8-12 session programme over 8-12 weeks focused on pain management"
           },
           {
             "@type": "Offer",
-            "name": "Frozen Shoulder Frozen Phase Programme",
+            "name": "Frozen phase programme (16–24 sessions over 4–6 months)",
             "priceCurrency": "AED",
-            "price": "3,500",
+            "price": "4900",
             "description": "16-24 session active rehabilitation over 4-6 months"
           },
           {
             "@type": "Offer",
-            "name": "Complete Frozen Shoulder Programme",
+            "name": "Complete frozen shoulder programme (30–40 sessions over 8–12 months)",
             "priceCurrency": "AED",
-            "price": "6,800",
+            "price": "8500",
             "description": "30-40 session comprehensive programme from initial phase through recovery"
           },
           {
             "@type": "Offer",
-            "name": "Diabetic Frozen Shoulder Programme",
+            "name": "Diabetic frozen shoulder programme (extended timeline)",
             "priceCurrency": "AED",
-            "price": "8,500",
+            "price": "9500",
             "description": "Extended programme accounting for diabetic patient considerations"
           }
         ]
@@ -291,54 +279,30 @@ const FrozenShoulderDubai = () => {
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
         {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Frozen Shoulder Treatment in Dubai", "item": currentUrl}
+        {"@type": "ListItem", "position": 3, "name": "Frozen Shoulder Treatment in JVC", "item": currentUrl}
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How long does frozen shoulder last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Untreated frozen shoulder typically resolves in 18-30 months. With appropriate physiotherapy, recovery typically completes in 6-12 months. Diabetic frozen shoulder often takes longer. The phase you are in when treatment starts affects total timeline."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is frozen shoulder more common in diabetic patients?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Diabetic patients have 4-5 times higher prevalence of frozen shoulder. The mechanism involves glycation of collagen tissues in the joint capsule. Diabetic frozen shoulder is more severe, longer-lasting, and more likely to become bilateral."
-          }
-        },
-        ...frozenShoulderFaqs.faqs.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
-      ]
+      "mainEntity": frozenShoulderFaqs.faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
     },
     {
       "@context": "https://schema.org",
-      "@type": "MedicalScholarlyArticle",
-      "headline": "Frozen Shoulder Treatment in Dubai — Complete Phase-Based Guide",
+      "@type": "MedicalWebPage",
+      "headline": "Frozen Shoulder Treatment in JVC, Dubai — Complete Phase-Based Guide",
       "image": "https://vedaracare.ae/og-images/frozen-shoulder-treatment-vedara-jvc.webp",
-      "datePublished": publishedDate,
+      "datePublished": "2026-06-01",
       "dateModified": modifiedDate,
-      "author": {
-        "@type": "Physician",
-        "name": "Dr. Priya Sharma, DPT"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic"
-      },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
+      "publisher": { "@type": "Organization", "name": "Vedara Care Polyclinic" },
       "about": [
         {"@type": "MedicalCondition", "name": "Adhesive Capsulitis"},
         {"@type": "MedicalCondition", "name": "Frozen Shoulder"},
@@ -346,57 +310,7 @@ const FrozenShoulderDubai = () => {
       ],
       "mainEntityOfPage": currentUrl
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Priya Sharma, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-priya-sharma",
-      "image": "https://vedaracare.ae/images/dr-priya-sharma-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Shoulder Rehabilitation", "Manual Therapy"],
-      "hasCredential": [
-        {
-          "@type": "EducationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": ["DPT"]
-        },
-        "DHA-Licensed"
-      ],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Ahmed Al Rashid, DPT, MSc",
-      "url": "https://vedaracare.ae/physiotherapists/dr-ahmed-al-rashid",
-      "image": "https://vedaracare.ae/images/dr-ahmed-al-rashid-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Shoulder Rehabilitation", "Manual Therapy"],
-      "hasCredential": [
-        {
-          "@type": "EducationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": ["DPT"]
-        },
-        "DHA-Licensed"
-      ],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Sarah Mitchell, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-sarah-mitchell",
-      "image": "https://vedaracare.ae/images/dr-sarah-mitchell-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Shoulder Rehabilitation", "Manual Therapy"],
-      "hasCredential": [
-        {
-          "@type": "EducationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": ["DPT"]
-        },
-        "DHA-Licensed"
-      ],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
-    }
+
   ];
 
   // First, let's create the injections/surgery section component structure
@@ -652,8 +566,8 @@ const FrozenShoulderDubai = () => {
   return (
     <>
       <Head>
-        <title>Frozen Shoulder Treatment in Dubai | Phase-Specific Care | Vedara JVC</title>
-        <meta name="description" content="Specialist frozen shoulder treatment at our JVC clinic, Dubai. Phase-specific physiotherapy for adhesive capsulitis. DPT-qualified specialists with diabetic frozen shoulder expertise. Realistic timelines. Walking distance from Circle Mall. Insurance direct-billing." />
+        <title>Frozen Shoulder Treatment in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Specialist frozen shoulder treatment at our JVC clinic, Dubai. Phase-specific physiotherapy for adhesive capsulitis, honest realistic timelines, diabetic frozen shoulder expertise. Book a same-week assessment." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />

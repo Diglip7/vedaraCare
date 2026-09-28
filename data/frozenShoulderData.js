@@ -2,19 +2,19 @@ export const frozenShoulderHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Conditions", href: "/conditions/" },
-    { label: "Frozen Shoulder Treatment in Dubai" }
+    { label: "Frozen Shoulder Treatment in JVC" }
   ],
   label: "Frozen Shoulder Treatment · DHA-Licensed 2509266· JVC Clinic",
-  title: "Frozen shoulder treatment in Dubai.\nHighly treatable.\nPredictable phases.\nHonest timelines.",
+  title: "Frozen shoulder treatment in JVC. Highly treatable. Predictable phases. Honest timelines.",
   description: "Specialist frozen shoulder physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists with specific expertise in adhesive capsulitis across all phases — freezing, frozen, and thawing. Most patients see substantial improvement in 6–12 months with proper treatment compared to 2–3 years natural recovery. Particularly significant expertise in diabetic-related frozen shoulder, common in Dubai's patient population.",
   image: "/images/frozen-shoulder-dubai-hero.webp",
   alt: "Frozen shoulder treatment at Vedara Care JVC Dubai clinic",
   bgColor: "bg-[#F8F4EE]",
   primaryCTA: "Book Frozen Shoulder Assessment",
-  secondaryCTA: "Read About Frozen Shoulder",
+  secondaryCTA: "Ask a Question on WhatsApp",
   trustSignals: [
     "DPT-qualified shoulder specialists",
-    "200+ frozen shoulder patients treated",
+    "DHA-Licensed Physiotherapist",
     "Diabetic frozen shoulder expertise",
     "Walking distance from Circle Mall"
   ],
@@ -28,7 +28,7 @@ export const frozenShoulderIntro = {
   label: "THE QUICK ANSWER",
   title: "Frozen shoulder treatment at Vedara Care, in one paragraph.",
   blockquote: "Frozen shoulder (adhesive capsulitis) treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist physiotherapy delivered by DPT-qualified shoulder specialists. Frozen shoulder is a distinct condition where the shoulder joint capsule becomes inflamed and progressively restricts movement, typically progressing through three phases: freezing phase (3–9 months of increasing pain and restriction), frozen phase (4–12 months of significant restriction with reducing pain), and thawing phase (5–24 months of progressive return of movement). Total natural recovery can take 2–3 years; with appropriate physiotherapy, recovery typically completes in 6–12 months. Higher prevalence in diabetic patients, women aged 40–60, patients with thyroid disorders, and post-immobilisation or post-surgical patients. Our approach includes phase-specific <a href='/treatments/manual-therapy-dubai/' class='text-inherit hover:text-[#C9A55A] transition-colors'>manual therapy</a>, joint mobilisation techniques, range of motion progression, dry needling for associated muscle tension, coordination with rheumatologists for hydrodilatation when appropriate, and structured home programmes. Initial assessment from AED 350; structured frozen shoulder programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Sarah Al-Mansouri, DPT, DHA-Licensed 2509266 · Last updated June 2025"
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
 export const frozenShoulderMechanism1 = {
@@ -320,12 +320,8 @@ export const frozenShoulderReviews = {
       label: "stars on Google"
     },
     {
-      value: "200+",
-      label: "frozen shoulder patients treated"
-    },
-    {
-      value: "8-10",
-      label: "Average 8–10 months to functional recovery"
+      value: "15",
+      label: "reviews on Google"
     }
   ],
   buttonText: "Read All Frozen Shoulder Reviews",
@@ -338,34 +334,14 @@ export const frozenShoulderTeam = {
   title: "Frozen shoulder specialists at our JVC clinic.",
   members: [
     {
-      name: "Dr. Sarah Al-Mansouri, DPT",
-      role: "DHA-Licensed · Shoulder Specialist",
+      name: "Hafsina K K",
+      role: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
       specialties: ["Frozen Shoulder", "Manual Therapy", "Joint Mobilisation", "Dry Needling"],
-      bio: "Lead shoulder specialist with 9 years experience in adhesive capsulitis. Extensive diabetic frozen shoulder expertise.",
-      languages: "English, Arabic",
-      image: "/images/dr-sarah-al-mansouri-home-physiotherapy-dubai.webp",
-      alt: "Dr. Sarah Al-Mansouri frozen shoulder specialist Vedara Care JVC Dubai",
-      link: "/physiotherapists/dr-sarah-al-mansouri"
-    },
-    {
-      name: "Dr. Omar Hassan, DPT",
-      role: "DHA-Licensed · Shoulder Specialist",
-      specialties: ["Frozen Shoulder", "Dry Needling", "Sports Rehabilitation", "Manual Therapy"],
-      bio: "Specialist in freezing phase management and pain modulation strategies for adhesive capsulitis.",
-      languages: "English, Arabic, Urdu",
-      image: "/images/dr-omar-hassan-home-physiotherapy-dubai.webp",
-      alt: "Dr. Omar Hassan frozen shoulder specialist Vedara Care JVC Dubai",
-      link: "/physiotherapists/dr-omar-hassan"
-    },
-    {
-      name: "Dr. Priya Krishnamurthy, DPT",
-      role: "DHA-Licensed · Shoulder Specialist",
-      specialties: ["Frozen Shoulder", "Post-Surgical Rehab", "Hydrodilatation Coordination", "Mobilisation"],
-      bio: "Specialist in post-surgical frozen shoulder and bilateral presentations. Published researcher in adhesive capsulitis.",
-      languages: "English, Hindi, Tamil",
-      image: "/images/dr-priya-krishnamurthy-home-physiotherapy-dubai.webp",
-      alt: "Dr. Priya Krishnamurthy frozen shoulder specialist Vedara Care JVC Dubai",
-      link: "/physiotherapists/dr-priya-krishnamurthy"
+      bio: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE. ",
+      languages: "English, Hindi, Malayalam, Arabic",
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K frozen shoulder specialist Vedara Care JVC Dubai",
+      link: "/doctors/hafsina-kk-physiotherapist/"
     }
   ]
 };
@@ -376,8 +352,8 @@ export const frozenShoulderPricing = {
   title: "What frozen shoulder treatment at our JVC clinic costs.",
   services: [
     { name: "Initial frozen shoulder assessment (60 minutes)", price: "AED 350" },
-    { name: "Follow-up physiotherapy session (45-60 minutes)", price: "AED 250" },
-    { name: "Dry needling (add-on per session)", price: "AED 80" },
+    { name: "Follow-up physiotherapy session (45-60 minutes)", price: "AED 350" },
+    { name: "Dry needling (add-on per session)", price: "AED 150" },
     { name: "Freezing phase programme (8–12 sessions over 8–12 weeks)", price: "AED 2,800" },
     { name: "Frozen phase programme (16–24 sessions over 4–6 months)", price: "AED 4,900" },
     { name: "Complete frozen shoulder programme (30–40 sessions over 8–12 months)", price: "AED 8,500" },
@@ -505,7 +481,7 @@ export const frozenShoulderLocation = {
   email: "booking@vedaracare.ae",
   hours: [
     { day: "Monday – Sunday", time: "9:00AM to 10:00PM" },
-    
+
   ],
   locationMarkers: [
     { name: "Walking distance from Circle Mall" },
@@ -530,8 +506,8 @@ export const frozenShoulderCTA = {
   bullets: [
     'Initial consultation from AED 350',
     ' Walking distance from Circle Mall, JVC',
-    ' 200+ frozen shoulder patients treated',
-    'Diabetic patient expertise',
+
+    'DHA-licensed physiotherapist',
     'Insurance direct-billing',
 
   ],
