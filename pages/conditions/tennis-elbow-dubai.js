@@ -46,13 +46,13 @@ const TennisElbowDubai = () => {
       "alternateName": ["Vedara Tennis Elbow Treatment Dubai", "Vedara Lateral Epicondylalgia JVC"],
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Specialist tennis elbow (lateral epicondylalgia) treatment at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Evidence-based eccentric and isometric loading protocols, shockwave therapy for chronic cases. Particular expertise in padel-related elbow injuries and office worker patterns. Most tennis elbow patients have never played tennis.",
+      "description": "Specialist tennis elbow (lateral epicondylalgia) treatment at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Evidence-based eccentric and isometric loading protocols. Particular expertise in padel-related elbow injuries and office worker patterns. Most tennis elbow patients have never played tennis.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 350 - AED 12,000",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle",
-        "addressLocality": "Jumeirah Village Circle",
+        "addressLocality": "Dubai",
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
@@ -64,15 +64,9 @@ const TennisElbowDubai = () => {
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:00"
+          "closes": "22:00"
         }
       ],
       "areaServed": [
@@ -105,7 +99,6 @@ const TennisElbowDubai = () => {
         { "@type": "MedicalProcedure", "name": "Lateral Epicondylalgia Treatment" },
         { "@type": "MedicalProcedure", "name": "Eccentric Loading Protocols" },
         { "@type": "MedicalProcedure", "name": "Isometric Loading Exercises" },
-        { "@type": "MedicalProcedure", "name": "Shockwave Therapy" },
         { "@type": "MedicalProcedure", "name": "Manual Therapy" },
         { "@type": "MedicalProcedure", "name": "Dry Needling" },
         { "@type": "MedicalProcedure", "name": "Mulligan Mobilisation With Movement" },
@@ -119,8 +112,8 @@ const TennisElbowDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "220",
+        "ratingValue": "4.5",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -143,7 +136,6 @@ const TennisElbowDubai = () => {
         "possibleTreatment": [
           { "@type": "MedicalProcedure", "name": "Eccentric Loading Protocols" },
           { "@type": "MedicalProcedure", "name": "Isometric Loading" },
-          { "@type": "MedicalProcedure", "name": "Shockwave Therapy" },
           { "@type": "MedicalProcedure", "name": "Manual Therapy" },
           { "@type": "MedicalProcedure", "name": "Tyler Twist" },
           { "@type": "MedicalProcedure", "name": "Stanish Protocol" }
@@ -188,39 +180,33 @@ const TennisElbowDubai = () => {
             "@type": "Offer",
             "name": "Initial Tennis Elbow Assessment",
             "priceCurrency": "AED",
-            "price": "350",
-            "description": "60-minute comprehensive assessment with DPT-qualified tendinopathy specialist"
+            "price": "450",
+            "description": "60-minute comprehensive assessment with DHA-licensed physiotherapist"
           },
           {
             "@type": "Offer",
             "name": "Acute Tennis Elbow Programme",
             "priceCurrency": "AED",
-            "price": "1,800",
+            "price": "2800",
             "description": "8-10 session programme over 8-12 weeks for acute presentations"
           },
           {
             "@type": "Offer",
             "name": "Standard Tennis Elbow Programme",
             "priceCurrency": "AED",
-            "price": "2,600",
+            "price": "4200",
             "description": "12-16 session programme over 12-20 weeks for typical presentations"
-          },
-          {
-            "@type": "Offer",
-            "name": "Chronic Tennis Elbow Programme with Shockwave",
-            "priceCurrency": "AED",
-            "price": "4,200",
-            "description": "16-20 sessions plus shockwave therapy for chronic cases"
           },
           {
             "@type": "Offer",
             "name": "Padel-Specific Return-to-Sport Programme",
             "priceCurrency": "AED",
-            "price": "3,600",
+            "price": "3600",
             "description": "Sport-specific programme for padel players"
           }
         ]
-      }
+      },
+      "employee": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" }
     },
     {
       "@context": "https://schema.org",
@@ -248,7 +234,7 @@ const TennisElbowDubai = () => {
           "name": "Should I get a cortisone injection?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Generally no, based on current evidence. Multiple research studies show that cortisone injections produce short-term pain relief but worse long-term outcomes than physiotherapy. Patients with injections often have higher recurrence rates and longer overall recovery. We recommend evidence-based loading protocols and shockwave therapy."
+            "text": "Generally no, based on current evidence. Multiple research studies show that cortisone injections produce short-term pain relief but worse long-term outcomes than physiotherapy. Patients with injections often have higher recurrence rates and longer overall recovery. We recommend evidence-based loading protocols as the appropriate first-line treatment."
           }
         },
         ...tennisElbowFaqs.faqs.map(faq => ({
@@ -268,10 +254,7 @@ const TennisElbowDubai = () => {
       "image": "https://vedaracare.ae/images/tennis-elbow-eccentric-loading-vedara-jvc.webp",
       "datePublished": publishedDate,
       "dateModified": modifiedDate,
-      "author": {
-        "@type": "Physician",
-        "name": "Dr. Priya Sharma, DPT"
-      },
+      "author": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
       "publisher": {
         "@type": "Organization",
         "name": "Vedara Care Polyclinic"
@@ -281,68 +264,6 @@ const TennisElbowDubai = () => {
         { "@type": "MedicalCondition", "name": "Tennis Elbow" }
       ],
       "mainEntityOfPage": currentUrl
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Priya Sharma, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-priya-sharma/",
-      "image": "https://vedaracare.ae/images/dr-priya-sharma-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Tendinopathy Treatment", "Sports Medicine"],
-      "hasCredential": [
-        { "@type": "EducationalCredential", "name": "Doctor of Physical Therapy", "alternateName": "DPT" },
-        { "@type": "EducationalCredential", "name": "Shockwave Therapy Certified" },
-        { "@type": "EducationalCredential", "name": "Dry Needling Certified" },
-        { "@type": "EducationalCredential", "name": "DHA-Licensed" }
-      ],
-      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Ahmed Al Rashid, DPT, MSc",
-      "url": "https://vedaracare.ae/physiotherapists/dr-ahmed-al-rashid/",
-      "image": "https://vedaracare.ae/images/dr-ahmed-al-rashid-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Tendinopathy Treatment", "Sports Medicine"],
-      "hasCredential": [
-        { "@type": "EducationalCredential", "name": "Doctor of Physical Therapy", "alternateName": "DPT" },
-        { "@type": "EducationalCredential", "name": "MSc" },
-        { "@type": "EducationalCredential", "name": "Shockwave Therapy Certified" },
-        { "@type": "EducationalCredential", "name": "Dry Needling Certified" },
-        { "@type": "EducationalCredential", "name": "DHA-Licensed" }
-      ],
-      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Sarah Mitchell, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-sarah-mitchell/",
-      "image": "https://vedaracare.ae/images/dr-sarah-mitchell-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Tendinopathy Treatment", "Ergonomics"],
-      "hasCredential": [
-        { "@type": "EducationalCredential", "name": "Doctor of Physical Therapy", "alternateName": "DPT" },
-        { "@type": "EducationalCredential", "name": "Shockwave Therapy Certified" },
-        { "@type": "EducationalCredential", "name": "Dry Needling Certified" },
-        { "@type": "EducationalCredential", "name": "DHA-Licensed" }
-      ],
-      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Rahul Mehta, DPT, CSCS",
-      "url": "https://vedaracare.ae/physiotherapists/dr-rahul-mehta/",
-      "image": "https://vedaracare.ae/images/dr-rahul-mehta-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Tendinopathy Treatment", "Strength & Conditioning"],
-      "hasCredential": [
-        { "@type": "EducationalCredential", "name": "Doctor of Physical Therapy", "alternateName": "DPT" },
-        { "@type": "EducationalCredential", "name": "CSCS" },
-        { "@type": "EducationalCredential", "name": "Shockwave Therapy Certified" },
-        { "@type": "EducationalCredential", "name": "Dry Needling Certified" },
-        { "@type": "EducationalCredential", "name": "DHA-Licensed" }
-      ],
-      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
     },
     // Insurance partners
     { "@context": "https://schema.org", "@type": "Organization", "name": "Daman" },
@@ -357,14 +278,14 @@ const TennisElbowDubai = () => {
   return (
     <>
       <Head>
-        <title>Tennis Elbow Treatment in Dubai | Evidence-Based Care | Vedara JVC</title>
-        <meta name="description" content="Specialist tennis elbow treatment at our JVC clinic, Dubai. Evidence-based eccentric loading protocols, shockwave therapy for chronic cases. Padel and office worker expertise. Most tennis elbow resolves without cortisone injection. Walking distance from Circle Mall." />
+        <title>Tennis Elbow Treatment in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Specialist tennis elbow treatment at our JVC clinic, Dubai. Evidence-based eccentric loading protocols. Padel and office worker expertise. Most tennis elbow resolves without cortisone injection. Book a same-week assessment." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        <meta property="og:title" content="Tennis Elbow Treatment in Dubai — Evidence-Based Specialist Care | Vedara JVC" />
-        <meta property="og:description" content="Most tennis elbow patients have never played tennis. DPT-qualified tendinopathy specialists at our Jumeirah Village Circle clinic using evidence-based eccentric loading protocols, shockwave therapy for chronic cases, and ergonomic guidance. Better long-term outcomes than cortisone injections." />
+        <meta property="og:title" content="Tennis Elbow Treatment in JVC, Dubai | Vedara Care" />
+        <meta property="og:description" content="Most tennis elbow patients have never played tennis. DPT-qualified tendinopathy specialists at our Jumeirah Village Circle clinic using evidence-based eccentric loading protocols and ergonomic guidance. Better long-term outcomes than cortisone injections." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/tennis-elbow-dubai.webp" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />
@@ -381,7 +302,8 @@ const TennisElbowDubai = () => {
 
       <AyurvedaHero
         {...tennisElbowHero}
-        patientsTreated={tennisElbowHero.patientsTreated}
+        primaryCTATrackingEvent={{ event: 'generate_lead', lead_type: 'booking_click', service: 'tennis_elbow_treatment' }}
+        secondaryCTATrackingEvent={{ event: 'click_whatsapp' }}
       />
 
       <AyurvedaIntro
@@ -485,6 +407,8 @@ const TennisElbowDubai = () => {
       <FinalCTA
         {...tennisElbowCTA}
         title="Most tennis elbow resolves with evidence-based loading protocols."
+        primaryCTATrackingEvent={{ event: 'generate_lead', lead_type: 'booking_click', service: 'tennis_elbow_treatment' }}
+        secondaryCTATrackingEvent={{ event: 'click_whatsapp' }}
       />
 
       <RelatedPages {...tennisElbowRelatedPages} />

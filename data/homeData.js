@@ -1,4 +1,4 @@
-export const homeFaqs = {
+﻿export const homeFaqs = {
   label: "QUESTIONS, ANSWERED",
   title: "Everything patients ask before their first visit.",
   description: 'Short, honest answers from our clinical team. Cannot find what you are looking for? <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a>, usually answered in under 15 minutes.',
@@ -165,7 +165,7 @@ export const homeExperts = {
       experience: "7+ years experience",
       languages: "English, Malayalam & Hindi",
       qualification: "Bachelor of Physiotherapy - DHA Licensed Physiotherapist",
-      image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
+      image: '/images/hafsina-kk-physiotherapist-dubai.webp',
       alt: 'Hafsina K K, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
       slug: 'hafsina-kk-physiotherapist',
       link: '/doctors/hafsina-kk-physiotherapist'

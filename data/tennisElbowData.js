@@ -5,13 +5,12 @@ export const tennisElbowHero = {
     { label: "Tennis Elbow Treatment in Dubai", active: true }
   ],
   label: "Tennis Elbow Treatment · DHA-Licensed 2509266 · JVC Clinic",
-  title: "Tennis elbow treatment in Dubai. Evidence-based loading protocols. Most patients have never played tennis.",
-  description: "Specialist tennis elbow treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists treating lateral epicondylalgia using evidence-based progressive loading protocols, eccentric and isometric exercise prescription, manual therapy, and shockwave therapy for chronic cases.",
+  title: "Tennis elbow treatment in JVC. Evidence-based loading protocols. Most patients have never played tennis.",
+  description: "Specialist tennis elbow treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists treating lateral epicondylalgia using evidence-based progressive loading protocols, eccentric and isometric exercise prescription, and manual therapy.",
   primaryCTA: "Book Tennis Elbow Assessment",
   secondaryCTA: "Read About Tennis Elbow",
   trustSignals: [
     "Evidence-based loading protocols",
-    "220+ tennis elbow patients treated",
     "Padel and office worker expertise",
     "Walking distance from Circle Mall"
   ],
@@ -20,18 +19,14 @@ export const tennisElbowHero = {
     subtitle: "The condition is actually lateral epicondylalgia — a tendinopathy at the outer elbow from any repetitive gripping or wrist extension activity. Office work, padel, gym training cause it. Specific evidence-based loading protocols resolve it."
   },
   image: "/images/tennis-elbow-dubai-hero.webp",
-  alt: "Tennis elbow eccentric loading exercise at Vedara Care JVC Dubai clinic",
-  patientsTreated: {
-    count: "220+",
-    label: "Patients treated"
-  }
+  alt: "Tennis elbow eccentric loading exercise at Vedara Care JVC Dubai clinic"
 };
 
 export const tennisElbowIntro = {
   label: "THE QUICK ANSWER",
   title: "Tennis elbow treatment at Vedara Care, in one paragraph.",
-  blockquote: "Tennis elbow treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DPT-qualified physiotherapists. Tennis elbow (formally lateral epicondylalgia, sometimes called lateral epicondylitis) is a tendinopathy of the common extensor tendon at the outer elbow, affecting the muscles that extend the wrist and fingers. Despite the name, most tennis elbow patients have never played tennis — the condition develops from any repetitive gripping or wrist extension activity. Common Dubai triggers: padel (very significant in our patient population), office mouse use and prolonged gripping, gym training (deadlifts, pull-ups, rows), tennis, manual work, childcare, and many daily activities. Our approach combines evidence-based progressive loading protocols (eccentric and isometric exercises — the gold standard treatment), manual therapy for associated muscle and joint dysfunction, activity modification and ergonomic guidance, dry needling, shockwave therapy for chronic cases (12+ weeks of symptoms), and patient education for sustainable self-management. We avoid cortisone injections as first-line treatment given current evidence showing worse long-term outcomes. Most patients see substantial improvement within 12–24 weeks. Patients travel to our JVC clinic from across Dubai. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Sarah Al-Rashid, DPT, DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: "Tennis elbow treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DPT-qualified physiotherapists. Tennis elbow (formally lateral epicondylalgia, sometimes called lateral epicondylitis) is a tendinopathy of the common extensor tendon at the outer elbow, affecting the muscles that extend the wrist and fingers. Despite the name, most tennis elbow patients have never played tennis — the condition develops from any repetitive gripping or wrist extension activity. Common Dubai triggers: padel (very significant in our patient population), office mouse use and prolonged gripping, gym training (deadlifts, pull-ups, rows), tennis, manual work, childcare, and many daily activities. Our approach combines evidence-based progressive loading protocols (eccentric and isometric exercises — the gold standard treatment), manual therapy for associated muscle and joint dysfunction, activity modification and ergonomic guidance, dry needling, and patient education for sustainable self-management. We avoid cortisone injections as first-line treatment given current evidence showing worse long-term outcomes. Most patients see substantial improvement within 12–24 weeks. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support available for major insurers.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
 export const tennisElbowSciaticaSection2 = {
@@ -55,9 +50,7 @@ export const tennisElbowSciaticaSection2 = {
       {
         description: "<strong>Dry needling for associated muscle patterns</strong><br/> Dry needling addresses chronic muscle tension patterns in the forearm extensors that often accompany tennis elbow. Particularly useful for chronic cases with significant muscle guarding. The fine needle technique releases trigger points and reduces protective muscle tension. Combined with loading protocols rather than used alone."
       },
-      {
-        description: "<strong>Shockwave therapy for chronic cases</strong><br/> For chronic tennis elbow (symptoms more than 12 weeks despite appropriate conservative care), shockwave therapy has good evidence. Both focused and radial shockwave can be effective. Typically 3–6 sessions weekly. Stimulates tendon healing response and can produce substantial improvement in chronic cases that have plateaued. Combined with continued loading protocols rather than used in isolation."
-      },
+
       {
         description: "<strong>Activity modification — calibrated, not complete rest</strong><br/>The traditional advice to 'rest completely' is incorrect for tennis elbow. Complete rest leads to deconditioning and slower recovery. The correct approach is calibrated activity modification — continuing activities that do not aggravate the tendon, reducing or modifying activities that do. Specific guidance depends on your activities and triggers. Most patients can continue most of their normal activities with appropriate modifications."
       },
@@ -129,7 +122,7 @@ export const tennisElbowMechanism1 = {
     "<strong>What is actually happening in the tendon</strong><br/>Modern understanding of tendinopathy has evolved substantially. Older terminology used 'epicondylitis'(suggesting inflammation), but current research shows the condition is primarily a degenerative process at the cellular level rather than inflammatory. The tendon collagen structure deteriorates, the cells producing new collagen become dysfunctional, and the tendon becomes more vulnerable to load. This matters for treatment — anti-inflammatory approaches alone do not address the underlying problem. Active loading protocols are needed to stimulate proper tendon remodelling.",
     "<strong>The Dubai-specific patterns we see</strong><br/>Dubai's demographics produce specific tennis elbow patterns. The padel explosion has dramatically increased lateral epicondylalgia presentations — the sport's specific overhead and gripping patterns are particularly causative. Office workers with sustained mouse use and prolonged screen time develop classic patterns from chronic low-level loading. Gym training culture (CrossFit, F45, weightlifting) produces tennis elbow from heavy gripping demands. The combination of multiple contributors is common — many patients have office work plus padel plus gym training, with cumulative loading exceeding tissue tolerance.",
     "<strong>  Why the condition is so frustrating</strong><br/> Tennis elbow has earned a reputation as a stubborn condition. Several factors explain this: (1) onset is usually gradual, often unrecognised until pain becomes substantial — meaning tissue damage is already established when patients seek care, (2) the activities that trigger it are typically essential (work, exercise, daily activities) and difficult to fully avoid, (3) generic 'rest' approaches often fail because tendons need calibrated loading to remodel properly, (4) generic strengthening exercises often miss the specific loading patterns needed, (5) recovery takes longer than patients expect — 12–24 weeks for full resolution is normal, not exceptional.",
-    "<strong> Why the right treatment makes such a difference </strong><br/> Tennis elbow responds excellently to specific evidence-based treatment. Progressive eccentric and isometric loading protocols stimulate proper tendon remodelling. Manual therapy addresses associated muscle and joint dysfunction. Activity modification reduces excessive loading without forbidding all activity. Shockwave therapy provides additional stimulus for chronic cases. Patient education enables sustainable self-management. The treatment is not exotic — but it is specific. Generic physiotherapy with 'elbow exercises' often fails; specific tendinopathy protocols often succeed."
+    "<strong> Why the right treatment makes such a difference </strong><br/> Tennis elbow responds excellently to specific evidence-based treatment. Progressive eccentric and isometric loading protocols stimulate proper tendon remodelling. Manual therapy addresses associated muscle and joint dysfunction. Activity modification reduces excessive loading without forbidding all activity. Patient education enables sustainable self-management. The treatment is not exotic — but it is specific. Generic physiotherapy with 'elbow exercises' often fails; specific tendinopathy protocols often succeed."
 
 
 
@@ -149,59 +142,46 @@ export const tennisElbowTypes = {
     {
       number: "01",
       title: 'Padel',
-      description: 'The single most common trigger we see at our Dubai clinic. Padel\'s specific patterns produce high rates of tennis elbow: overhead serving and smashing, sustained gripping during long rallies, the wrist extension required for many shots. Most padel-related tennis elbow develops over weeks of regular play, often after increases in playing frequency.',
-      // typicalPatient: 'Padel player, keyboard worker, gym enthusiast, or active person',
-      statistic: '~30-35% of our patients'
+      description: 'The single most common trigger we see at our Dubai clinic. Padel\'s specific patterns produce high rates of tennis elbow: overhead serving and smashing, sustained gripping during long rallies, the wrist extension required for many shots. Most padel-related tennis elbow develops over weeks of regular play, often after increases in playing frequency.'
     },
     {
       number: "02",
       title: "Office Work (Sustained Mouse / Keyboard Use)",
-      description: 'Prolonged mouse use is the second most common trigger. Sustained gripping of the mouse, repeated clicking patterns, awkward forearm positioning, and prolonged keyboard typing all contribute. Often presents in office workers in their 30s–50s. Pattern recognition matters: weekend warriors may attribute pain to weekend activities when the underlying driver is weekday office work.',
-      statistic: '~20–25% of our patients'
+      description: 'Prolonged mouse use is the second most common trigger. Sustained gripping of the mouse, repeated clicking patterns, awkward forearm positioning, and prolonged keyboard typing all contribute. Often presents in office workers in their 30s–50s. Pattern recognition matters: weekend warriors may attribute pain to weekend activities when the underlying driver is weekday office work.'
     },
     {
       number: "03",
       title: 'Gym Training (Pulling Movements)',
-      statistic: '~10–15% of our patients',
-      description: 'Heavy gripping demands in gym training — deadlifts, pull-ups, rows, farmer\'s carries, dumbbell work. Pull-up programmes are particularly causative. CrossFit and high-volume strength training produce patterns through cumulative gripping load. Often patients are otherwise asymptomatic until a training intensification.',
-      statistic: '~15-20% of our patients'
-
-
+      description: 'Heavy gripping demands in gym training — deadlifts, pull-ups, rows, farmer\'s carries, dumbbell work. Pull-up programmes are particularly causative. CrossFit and high-volume strength training produce patterns through cumulative gripping load. Often patients are otherwise asymptomatic until a training intensification.'
     },
 
     {
       number: "04",
       title: 'Tennis (The Namesake)',
-      description: 'The original namesake group, though now a minority of cases. Backhand technique is the traditional culprit, particularly one-handed backhand with late ball contact. Modern racquet technology and two-handed backhands have reduced incidence. Still common in dedicated tennis players, particularly those playing 3+ times weekly.',
-      statistic: '~8-10% of our patients'
+      description: 'The original namesake group, though now a minority of cases. Backhand technique is the traditional culprit, particularly one-handed backhand with late ball contact. Modern racquet technology and two-handed backhands have reduced incidence. Still common in dedicated tennis players, particularly those playing 3+ times weekly.'
     },
 
 
     {
       number: "05",
       title: 'Manual Work and Trades',
-      description: 'Construction workers, mechanics, carpenters, painters, electricians — sustained gripping with vibrating tools, repeated wrist extension activities, heavy lifting with gripping demands. Often chronic patterns developed over years of occupational exposure. Treatment combined with work modification when possible.',
-      statistic: '~8–10% of our patients'
+      description: 'Construction workers, mechanics, carpenters, painters, electricians — sustained gripping with vibrating tools, repeated wrist extension activities, heavy lifting with gripping demands. Often chronic patterns developed over years of occupational exposure. Treatment combined with work modification when possible.'
     },
     {
       number: "06",
       title: "Childcare Activities",
-      description: "Parents of young children — particularly mothers in the first 1–2 years of childcare — develop tennis elbow from repeated lifting of children, carrying car seats, prolonged baby holding, breastfeeding positioning. Sometimes called 'mother's elbow' in this demographic.",
-      statistic: "~5–7% of our patients",
+      description: "Parents of young children — particularly mothers in the first 1–2 years of childcare — develop tennis elbow from repeated lifting of children, carrying car seats, prolonged baby holding, breastfeeding positioning. Sometimes called 'mother's elbow' in this demographic."
     },
 
     {
       number: "07",
       title: 'Other Racquet and Hitting Sports',
-      description: 'Squash, badminton, racquetball, table tennis — all produce tennis elbow patterns through repetitive wrist activity. Less common in Dubai than padel-related cases but still meaningful. Cricket players (bowlers and batsmen) and golfers occasionally present — though golfers more commonly develop medial epicondylalgia (golfer\'s elbow).',
-      // typicalPatient: 'Active person with repetitive forearm movements',
-      statistic: '~5–7% of our patients'
+      description: 'Squash, badminton, racquetball, table tennis — all produce tennis elbow patterns through repetitive wrist activity. Less common in Dubai than padel-related cases but still meaningful. Cricket players (bowlers and batsmen) and golfers occasionally present — though golfers more commonly develop medial epicondylalgia (golfer\'s elbow).'
     },
     {
       number: "08",
       title: 'Other Activities and Idiopathic',
-      description: 'Some patients have no clear single trigger — combinations of activities accumulating over time. Cooks and chefs from repetitive chopping. Musicians from sustained playing. Climbers from gripping demands. Patients with diabetes have increased prevalence. Some patients have bilateral involvement suggesting systemic factors.',
-      statistic: '~5–10% of our patients'
+      description: 'Some patients have no clear single trigger — combinations of activities accumulating over time. Cooks and chefs from repetitive chopping. Musicians from sustained playing. Climbers from gripping demands. Patients with diabetes have increased prevalence. Some patients have bilateral involvement suggesting systemic factors.'
     }
   ],
   footer: 'Your specific trigger may involve multiple of these — that is normal. Accurate trigger identification during assessment guides effective activity modification →'
@@ -224,7 +204,7 @@ export const tennisElbowMechanism2 = {
     "<strong>Comprehensive initial assessment</strong><br/>The first session is comprehensive — typically 60 minutes including detailed history identifying triggers, specific examination tests (Cozen's test, Mill's test, Maudsley's test), grip strength assessment, range of motion testing, neurological screening to rule out cervical involvement (referred pain from neck can mimic tennis elbow), assessment for comorbid conditions (carpal tunnel, golfer's elbow, shoulder issues), and ergonomic discussion.",
     "<strong>Manual therapy for associated dysfunction</strong><br/>Tennis elbow often involves associated dysfunction beyond the tendon itself — restricted radial head mobility, scar tissue at the lateral epicondyle, muscle tension in the forearm extensors, sometimes cervical spine contribution. Manual therapy addresses these factors and creates conditions for the loading protocols to work effectively. Mulligan mobilisation with movement (MWM) techniques have specific evidence for tennis elbow.",
     "<strong>Dry needling for associated muscle patterns</strong><br/>Dry needling addresses chronic muscle tension patterns in the forearm extensors that often accompany tennis elbow. Particularly useful for chronic cases with significant muscle guarding. The fine needle technique releases trigger points and reduces protective muscle tension. Combined with loading protocols rather than used alone.",
-    "<strong>Shockwave therapy for chronic cases</strong><br/>For chronic tennis elbow (symptoms more than 12 weeks despite appropriate conservative care), shockwave therapy has good evidence. Both focused and radial shockwave can be effective. Typically 3–6 sessions weekly. Stimulates tendon healing response and can produce substantial improvement in chronic cases that have plateaued. Combined with continued loading protocols rather than used in isolation.",
+
     "<strong>Activity modification — calibrated, not complete rest</strong><br/> The traditional advice to 'rest completely' is incorrect for tennis elbow. Complete rest leads to deconditioning and slower recovery. The correct approach is calibrated activity modification — continuing activities that do not aggravate the tendon, reducing or modifying activities that do. Specific guidance depends on your activities and triggers. Most patients can continue most of their normal activities with appropriate modifications."
   ],
   whatWeRecommendAgainst: {
@@ -268,28 +248,10 @@ export const tennisElbowReviews = {
   buttonTextColor: "rgb(201, 153, 97)",
   buttonBorderColor: "rgb(201, 153, 97)",
   isDarkText: true,
-  items: [
-    {
-      quote: "Padel-related tennis elbow for eight months. Generic physiotherapy at another clinic with no progress. Cortisone injection that worked for six weeks then came back worse. Vedara identified the specific loading deficits and started evidence-based progressive protocols. Sixteen weeks of structured treatment combined with shockwave therapy. Returned to competitive padel. The honest conversation about why cortisone was the wrong approach was the turning point.",
-      author: "Rajan M.",
-      details: "Chronic Padel Tennis Elbow · 16-Week Programme<br/>Sports City resident · February 2026"
-    },
-    {
-      quote: "Office worker, mouse-related tennis elbow developing over a year. Tried various braces, anti-inflammatories, and generic exercises without progress. Vedara identified the specific contributing patterns and provided structured eccentric loading protocols plus ergonomic adjustments. Twelve weeks to substantial improvement, sixteen weeks to full resolution. Still using the maintenance exercises two years later, no recurrence.",
-      author: "Sarah K.",
-      details: "Office Worker Tennis Elbow · 16-Week Programme<br/>Dubai Marina resident · January 2026"
-    },
-    {
-      quote: "Gym training tennis elbow from CrossFit programming. Tried backing off for months without improvement. Vedara taught me how to actually train through the recovery rather than avoid loading. Specific eccentric protocols, modified training, gradual return to full programming. Fourteen weeks to full recovery. The 'training around' approach was completely different from previous physio that just said to stop.",
-      author: "James M.",
-      details: "Gym Training Tennis Elbow · 14-Week Programme<br/>JVC resident · March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.9 â˜…", label: "Google Rating" },
-    { value: "220+", label: "Tennis elbow patients treated" },
-    { value: "86%", label: "Substantial improvement within 16 weeks" },
-    // { value: "0", label: "Cortisone-first treatments" }
+    { value: "4.9", label: "Google Rating" },
+    { value: "15", label: "reviews on Google" }
   ],
   buttonText: "Read All Elbow Pain Reviews",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
@@ -299,47 +261,17 @@ export const tennisElbowTeam = {
   bgColor: "bg-[#F8F4EE]",
   cardColor: "bg-white",
   label: "THE TEAM",
-  title: "Physiotherapy specialists for tennis elbow at our JVC clinic.",
+  title: "Your tennis elbow physiotherapist at our JVC clinic.",
   members: [
     {
-      name: "Dr. Sarah Al-Rashid, DPT",
-      credentials: "DHA-Licensed · Tendinopathy Specialist",
-      languages: "English,Arabic,French",
-      tags: ["Tennis Elbow", "Eccentric Loading", "Shockwave Therapy", "Padel Injuries"],
-      description: "Lead tendinopathy specialist with 9 years focused on lateral epicondylalgia. Extensive padel and office worker patient experience.",
-      link: "/physiotherapists/dr-sarah-al-rashid",
-      image: "/images/dr-sarah-al-rashid-home-physiotherapy-dubai.webp",
-      alt: "Dr. Sarah Al-Rashid tendinopathy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "James Whitfield, DPT, MSc",
-      credentials: "DHA-Licensed · Tendinopathy Specialist",
-      languages: "English, Spanish",
-      tags: ["Tennis Elbow", "Sport-Specific", "Manual Therapy", "Gym Training"],
-      description: "Sports physiotherapist specialising in tendinopathy and upper limb conditions. CrossFit and gym training patient expertise.",
-      link: "/physiotherapists/dr-james-whitfield",
-      image: "/images/dr-james-whitfield-home-physiotherapy-dubai.webp",
-      alt: "Dr. James Whitfield tendinopathy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Nadia Hassan, DPT",
-      credentials: "DHA-Licensed · Tendinopathy Specialist",
-      languages: "English, Arabic",
-      tags: ["Tennis Elbow", "Ergonomic Assessment", "Office Workers", "Dry Needling"],
-      description: "Office worker tendinopathy and ergonomic rehabilitation specialist. Arabic-speaking practice covering JVC and surrounding communities.",
-      link: "/physiotherapists/dr-nadia-hassan",
-      image: "/images/dr-nadia-hassan-home-physiotherapy-dubai.webp",
-      alt: "Dr. Nadia Hassan tendinopathy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Tom Ashford, MCSP, DPT",
-      credentials: "DHA-Licensed · Tendinopathy Specialist",
-      languages: "English",
-      tags: ["Tennis Elbow", "Shockwave", "Chronic Tendinopathy", "Tennis"],
-      description: "Chronic tendinopathy and shockwave therapy specialist. Ten years treating lateral epicondylalgia from sport and occupational causes.",
-      link: "/physiotherapists/dr-tom-ashford",
-      image: "/images/dr-tom-ashford-home-physiotherapy-dubai.webp",
-      alt: "Tom Ashford Vedara Care JVC Dubai"
+      name: "Hafsina K K",
+      credentials: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
+      languages: "English, Hindi, Malayalam",
+      tags: ["Tennis Elbow", "Eccentric Loading", "Manual Therapy", "Padel Injuries"],
+      description: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE. Treats tendinopathy conditions including tennis elbow using evidence-based loading protocols.",
+      link: "/doctors/hafsina-kk-physiotherapist",
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K physiotherapist Vedara Care JVC Dubai"
     }
   ]
 };
@@ -352,14 +284,12 @@ export const tennisElbowPricing = {
     { name: "Initial tennis elbow assessment (60 minutes)", price: "AED 450" },
     { name: "Follow-up physiotherapy session (45–60 minutes)", price: "AED 350" },
     { name: "Dry needling (add-on per session)", price: "AED 150" },
-    { name: "Shockwave therapy session (chronic cases)", price: "AED 400" },
     { name: "Acute tennis elbow programme (8–10 sessions, 8–12 weeks)", price: "AED 2,800" },
     { name: "Standard tennis elbow programme (12–16 sessions, 12–20 weeks)", price: "AED 4,200" },
-    { name: "Chronic tennis elbow programme with shockwave (16–20 sessions + shockwave)", price: "AED 6,500" },
     { name: "Padel-specific return-to-sport programme", price: "AED 3,600" },
     { name: "Ergonomic workplace assessment (office workers)", price: "AED 550" }
   ],
-  insuranceText: 'Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Tennis elbow physiotherapy is well-covered by Dubai insurance plans with medical justification. Extended programmes and shockwave therapy may require pre-authorisation, which we handle on your behalf. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking for specific coverage confirmation.',
+  insuranceText: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm coverage.',
   // insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
 };
 
@@ -387,11 +317,11 @@ export const tennisElbowFaqs = {
     },
     {
       question: "Why is it called tennis elbow if I have never played tennis?",
-      answer: "The name is historical and increasingly misleading. The condition was first described in tennis players because the backhand stroke produced characteristic patterns. In modern populations, tennis is responsible for a minority of cases — perhaps 8–10% in our Dubai practice. The majority of patients develop the condition from office work, padel, gym training, manual work, and other activities. The formal medical name is 'lateral epicondylalgia' which is more accurate but less recognisable."
+      answer: "The name is historical and increasingly misleading. The condition was first described in tennis players because the backhand stroke produced characteristic patterns. In modern populations, tennis is now a minority of cases — the majority of patients develop the condition from office work, padel, gym training, manual work, and other activities. The formal medical name is 'lateral epicondylalgia' which is more accurate but less recognisable."
     },
     {
       question: "Should I get a cortisone injection?",
-      answer: "Generally no, based on current evidence. Multiple research studies show that cortisone injections produce short-term pain relief but worse long-term outcomes than physiotherapy. Patients with injections often have higher recurrence rates and longer overall recovery. We recommend evidence-based loading protocols and shockwave therapy as the appropriate treatment pathway. Cortisone might be considered for specific limited circumstances (severe acute pain preventing engagement with any treatment, important time-pressured situations) but is rarely the right primary treatment."
+      answer: "Generally no, based on current evidence. Multiple research studies show that cortisone injections produce short-term pain relief but worse long-term outcomes than physiotherapy. Patients with injections often have higher recurrence rates and longer overall recovery. We recommend evidence-based loading protocols as the appropriate treatment pathway. Cortisone might be considered for specific limited circumstances (severe acute pain preventing engagement with any treatment, important time-pressured situations) but is rarely the right primary treatment."
     },
     {
       question: "What are eccentric exercises for tennis elbow?",
@@ -411,7 +341,7 @@ export const tennisElbowFaqs = {
     },
     {
       question: "Does insurance cover tennis elbow treatment?",
-      answer: 'Most Dubai insurance plans cover tennis elbow physiotherapy with medical justification. Coverage typically includes initial sessions; extended programmes and shockwave therapy may require pre-authorisation. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm specific coverage.'
+      answer: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm coverage.'
     },
     {
       question: "Can I continue padel during treatment?",
@@ -420,17 +350,12 @@ export const tennisElbowFaqs = {
     {
       question: "What about gym training?",
       answer: "Most gym training continues during tennis elbow treatment with specific modifications. Lower body training continues unchanged. Upper body training is modified to reduce gripping load (using straps for deadlifts, modifying pull-up programmes, adjusting grip on rows). Some movements may be temporarily reduced or modified. Specific guidance depends on your training programme."
-    }
-
-    , {
-      question: "What is shockwave therapy and when is it useful?",
-      answer: "Shockwave therapy uses sound waves to stimulate healing in chronic tendon conditions. For tennis elbow, evidence supports shockwave for cases persisting 12+ weeks despite appropriate conservative care. Typically 3–6 sessions weekly. Stimulates tendon remodelling response. Combined with continued loading protocols rather than used in isolation. Particularly useful for chronic cases that have plateaued with other treatment."
     },
     {
       question: "Do I need a tennis elbow brace or strap?",
       answer: "Tennis elbow braces (the strap below the elbow that compresses the extensor muscles) can provide some symptom relief during activities and may allow some patients to continue more activity during recovery. However, braces are not a treatment — they do not address the underlying tendon problem. We sometimes recommend braces as adjunct to active treatment, but never as a substitute. Generic anti-tennis-elbow braces from pharmacies often work adequately."
     },
-    , {
+    {
       question: "What about ice and heat?",
       answer: "Both can provide symptom relief but neither addresses the underlying condition. Ice may help acute flare-ups with significant pain. Heat may help with sustained muscle tension and stiffness. Use whichever feels more helpful for your specific situation. Neither replaces evidence-based loading protocols."
     },
@@ -451,7 +376,7 @@ export const tennisElbowFaqs = {
     },
     {
       question: "How is tennis elbow treatment at Vedara different?",
-      answer: "Evidence-based eccentric and isometric loading protocols (often missed at non-specialist clinics that use generic 'strengthening'), longer sessions (60 minutes) allowing thorough treatment and patient education, shockwave therapy available for chronic cases, padel-specific expertise given Dubai's demographics, ergonomic assessment integrated into office worker treatment, honest discussion about cortisone evidence, transparent published pricing, and realistic timeline expectations."
+      answer: "Evidence-based eccentric and isometric loading protocols (often missed at non-specialist clinics that use generic 'strengthening'), longer sessions (60 minutes) allowing thorough treatment and patient education, padel-specific expertise given Dubai's demographics, ergonomic assessment integrated into office worker treatment, honest discussion about cortisone evidence, transparent published pricing, and realistic timeline expectations."
     },
     {
       question: "How do I book a tennis elbow assessment?",
@@ -477,8 +402,9 @@ export const tennisElbowLocation = {
     " Free patient parking available",
     // " Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
   ],
-  description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym with equipment specific to tendon loading protocols, dry needling equipment, and shockwave therapy device (relatively uncommon at Dubai physiotherapy clinics). Patients travel substantial distances from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai for tendinopathy expertise.",
-  mapEmbed: "//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
+  description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym with equipment specific to tendon loading protocols, and dry needling equipment. Patients travel substantial distances from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai for tendinopathy expertise.",
+  // mapEmbed: "//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   buttonText: "Book Tennis Elbow Assessment"
 };
 export const tennisElbowCTA = {
@@ -493,9 +419,7 @@ export const tennisElbowCTA = {
   bullets: [
     "Initial assessment from AED 450",
     "Walking distance from Circle Mall, JVC",
-    "220+ tennis elbow patients treated",
-    "Shockwave therapy available",
-    "Insurance direct-billing"
+    "Insurance reimbursement supported"
   ]
 };
 
@@ -564,7 +488,7 @@ export const tennisElbowRecoveryTimeline = {
       title: "For chronic cases (6+ months before treatment)",
       icon: "â˜…",
       isSpecial: true,
-      description: "Patients with chronic tennis elbow typically require longer treatment courses — often 6–9 months for full recovery. Shockwave therapy is more frequently used. Outcomes remain excellent but timelines are extended."
+      description: "Patients with chronic tennis elbow typically require longer treatment courses — often 6–9 months for full recovery. Outcomes remain excellent but timelines are extended."
     }
   ],
   whyPatience: {
@@ -587,9 +511,7 @@ export const tennisElbowRecoveryTimeline = {
   },
   stats: [
     { value: "12–24", label: "weeks typical recovery", subLabel: "acute cases" },
-    { value: "6–9", label: "months for chronic", subLabel: "6+ months prior" },
-    { value: "86%", label: "substantial improvement", subLabel: "within 16 weeks" },
-    { value: "220+", label: "patients treated", subLabel: "at JVC clinic" }
+    { value: "6–9", label: "months for chronic", subLabel: "6+ months prior" }
   ],
   buttonText: "Book Tennis Elbow Assessment",
   buttonHref: "/book"
@@ -607,7 +529,7 @@ export const tennisElbowSciaticaSection3 = {
       { description: "<strong>What the evidence shows</strong><br/>Multiple high-quality research studies (including systematic reviews and meta-analyses) consistently show that cortisone injections for tennis elbow produce short-term pain relief but worse long-term outcomes than physiotherapy alone. Patients who receive cortisone injections often feel substantially better at 6 weeks compared to physiotherapy patients — but by 12 weeks and beyond, the cortisone patients have worse outcomes, higher recurrence rates, and longer overall recovery times." },
       { description: "<strong>Why the short-term relief is misleading</strong><br/>Cortisone reduces inflammation and provides immediate symptom relief. This feels like rapid improvement. However, cortisone also impairs collagen production in the tendon — meaning the underlying tendon problem worsens while the symptoms feel better. Patients often return to full activity feeling fine, only to experience recurrence when the cortisone effect wears off and the now-weaker tendon cannot handle the load." },
       { description: "<strong>When cortisone might be appropriate</strong><br/>In specific limited circumstances cortisone can be considered: severe acute pain preventing engagement with any treatment, specific time-pressured situations (important competition or career commitment) where short-term relief is essential, and as part of a broader treatment plan when other approaches have failed. Even in these cases, the patient should understand the long-term tradeoff. Cortisone is not a treatment for the underlying condition — it is symptomatic relief that often makes the underlying condition worse." },
-      { description: "<strong>If you have already had cortisone</strong><br/>Patients who have had cortisone injections still benefit substantially from physiotherapy. The treatment approach remains the same — evidence-based loading protocols, manual therapy, activity modification, sometimes shockwave for chronic cases. Recovery may take slightly longer than for patients without prior injections, but outcomes are still excellent." }
+      { description: "<strong>If you have already had cortisone</strong><br/>Patients who have had cortisone injections still benefit substantially from physiotherapy. The treatment approach remains the same — evidence-based loading protocols, manual therapy, and activity modification. Recovery may take slightly longer than for patients without prior injections, but outcomes are still excellent." }
     ]
   },
   rightContent: {
@@ -630,7 +552,7 @@ export const tennisElbowSciaticaSection1 = {
         description: "Tennis elbow, formally called lateral epicondylalgia, is a tendinopathy affecting the common extensor tendon at the outer (lateral) elbow. This tendon is the attachment point for the muscles that extend the wrist and fingers — particularly the extensor carpi radialis brevis (ECRB), the muscle most commonly involved. The name 'tennis elbow' persists from historical association with the condition, but it substantially misleads modern patients."
       },
       {
-        description: "<strong>Why most tennis elbow patients have never played tennis</strong><br/>The condition affects anyone who performs repetitive wrist extension or sustained gripping activities. In our Dubai patient population, the actual triggers are: padel (extremely common — the overhead and gripping patterns produce high rates), office work (sustained mouse use, prolonged keyboard activity, holding pens or phones), gym training (deadlifts, pull-ups, rows, heavy gripping load), manual work (construction, carpentry, mechanics), childcare (repeated lifting of children, carrying car seats), cooking (chopping, mixing, gripping), music (guitar, drums, certain instruments). Tennis is responsible for perhaps 5% of our tennis elbow patients."
+        description: "<strong>Why most tennis elbow patients have never played tennis</strong><br/>The condition affects anyone who performs repetitive wrist extension or sustained gripping activities. In our Dubai patient population, the actual triggers are: padel (extremely common — the overhead and gripping patterns produce high rates), office work (sustained mouse use, prolonged keyboard activity, holding pens or phones), gym training (deadlifts, pull-ups, rows, heavy gripping load), manual work (construction, carpentry, mechanics), childcare (repeated lifting of children, carrying car seats), cooking (chopping, mixing, gripping), music (guitar, drums, certain instruments). Tennis is a minority of cases despite being the namesake condition."
       },
       {
         description: "<strong>What is actually happening in the tendon</strong><br/>Modern understanding of tendinopathy has evolved substantially. Older terminology used 'epicondylitis'(suggesting inflammation), but current research shows the condition is primarily a degenerative process at the cellular level rather than inflammatory. The tendon collagen structure deteriorates, the cells producing new collagen become dysfunctional, and the tendon becomes more vulnerable to load. This matters for treatment — anti-inflammatory approaches alone do not address the underlying problem. Active loading protocols are needed to stimulate proper tendon remodelling."
@@ -642,7 +564,7 @@ export const tennisElbowSciaticaSection1 = {
         description: "<strong>Why the condition is so frustrating</strong><br/> Tennis elbow has earned a reputation as a stubborn condition. Several factors explain this: (1) onset is usually gradual, often unrecognised until pain becomes substantial — meaning tissue damage is already established when patients seek care, (2) the activities that trigger it are typically essential (work, exercise, daily activities) and difficult to fully avoid, (3) generic 'rest' approaches often fail because tendons need calibrated loading to remodel properly, (4) generic strengthening exercises often miss the specific loading patterns needed, (5) recovery takes longer than patients expect — 12–24 weeks for full resolution is normal, not exceptional."
       },
       {
-        description: "<strong>Why the right treatment makes such a difference</strong><br/> Tennis elbow responds excellently to specific evidence-based treatment. Progressive eccentric and isometric loading protocols stimulate proper tendon remodelling. Manual therapy addresses associated muscle and joint dysfunction. Activity modification reduces excessive loading without forbidding all activity. Shockwave therapy provides additional stimulus for chronic cases. Patient education enables sustainable self-management. The treatment is not exotic — but it is specific. Generic physiotherapy with 'elbow exercises' often fails; specific tendinopathy protocols often succeed."
+        description: "<strong>Why the right treatment makes such a difference</strong><br/> Tennis elbow responds excellently to specific evidence-based treatment. Progressive eccentric and isometric loading protocols stimulate proper tendon remodelling. Manual therapy addresses associated muscle and joint dysfunction. Activity modification reduces excessive loading without forbidding all activity. Patient education enables sustainable self-management. The treatment is not exotic — but it is specific. Generic physiotherapy with 'elbow exercises' often fails; specific tendinopathy protocols often succeed."
       }
     ],
     footer: "Tennis elbow is one of the most stubborn conditions treated with the wrong approach — and one of the most responsive to specific evidence-based loading protocols. The treatment matters more than the diagnosis."

@@ -39,13 +39,13 @@ const ManualTherapyDubai = () => {
       "alternateName": ["Vedara Manual Therapy Dubai", "Vedara Manual Physiotherapy JVC"],
       "url": "https://vedaracare.ae/treatments/manual-therapy-dubai/",
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
-      "description": "Specialist manual therapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Delivered by DPT-qualified physiotherapists with specific manual therapy training including Maitland mobilisation, Mulligan mobilisation with movement, Kaltenborn technique, McKenzie method, myofascial release, soft tissue mobilisation, neural mobilisation, and selectively-applied spinal manipulation. Different from chiropractic and massage therapy — physiotherapist-delivered with evidence-based clinical reasoning.",
+      "description": "Specialist manual therapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Delivered by a DHA-licensed physiotherapist. Joint mobilisation, soft tissue mobilisation, myofascial release, neural mobilisation, and comprehensive integrated physiotherapy programmes. Different from chiropractic and massage therapy — physiotherapist-delivered with evidence-based clinical reasoning.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 300 - AED 10,000",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle",
-        "addressLocality": "Jumeirah Village Circle",
+        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
+        "addressLocality": "Dubai",
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
@@ -57,15 +57,9 @@ const ManualTherapyDubai = () => {
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:00"
+          "closes": "22:00"
         }
       ],
       "areaServed": [
@@ -91,14 +85,10 @@ const ManualTherapyDubai = () => {
       "isAcceptingNewPatients": true,
       "availableService": [
         {"@type": "MedicalProcedure", "name": "Manual Therapy"},
-        {"@type": "MedicalProcedure", "name": "Maitland Joint Mobilisation"},
-        {"@type": "MedicalProcedure", "name": "Mulligan Mobilisation with Movement"},
-        {"@type": "MedicalProcedure", "name": "Kaltenborn Technique"},
-        {"@type": "MedicalProcedure", "name": "McKenzie Method"},
+        {"@type": "MedicalProcedure", "name": "Joint Mobilisation"},
         {"@type": "MedicalProcedure", "name": "Myofascial Release"},
         {"@type": "MedicalProcedure", "name": "Soft Tissue Mobilisation"},
-        {"@type": "MedicalProcedure", "name": "Neural Mobilisation"},
-        {"@type": "MedicalProcedure", "name": "Spinal Manipulation"}
+        {"@type": "MedicalProcedure", "name": "Neural Mobilisation"}
       ],
       "memberOf": {
         "@type": "Organization",
@@ -106,23 +96,14 @@ const ManualTherapyDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "500",
+        "ratingValue": "4.5",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
-      }
+      },
+      "employee": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" }
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Manual Therapy",
-      "alternateName": ["Manual Physiotherapy", "Hands-On Physiotherapy", "Manual Physical Therapy"],
-      "description": "Hands-on physiotherapy treatment encompassing joint mobilisation (Maitland, Kaltenborn), Mulligan mobilisation with movement, McKenzie method, myofascial release, soft tissue mobilisation, neural mobilisation, and selectively-applied spinal manipulation. Performed by DPT-qualified physiotherapists with specific manual therapy training.",
-      "procedureType": "Therapeutic",
-      "bodyLocation": ["Spine", "Shoulder", "Hip", "Knee", "Ankle", "Elbow", "Wrist", "TMJ"],
-      "preparation": "Comprehensive initial assessment and informed consent required.",
-      "followup": "Mild post-treatment soreness 24-48 hours possible. Continue with prescribed home exercises."
-    },
+
     {
       "@context": "https://schema.org",
       "@type": "Service",
@@ -141,7 +122,7 @@ const ManualTherapyDubai = () => {
             "@type": "Offer",
             "name": "Initial Assessment with Manual Therapy",
             "priceCurrency": "AED",
-            "price": "380",
+            "price": "500",
             "description": "60-75 minute comprehensive assessment with manual therapy specialist"
           },
           {
@@ -155,22 +136,22 @@ const ManualTherapyDubai = () => {
             "@type": "Offer",
             "name": "Chronic Back Pain Programme",
             "priceCurrency": "AED",
-            "price": "2800",
+            "price": "2400",
             "description": "8-10 session structured manual therapy programme integrated with exercise"
           },
           {
             "@type": "Offer",
             "name": "Frozen Shoulder Programme",
             "priceCurrency": "AED",
-            "price": "4200",
+            "price": "3600",
             "description": "12-16 session structured manual therapy programme for frozen shoulder"
           },
           {
             "@type": "Offer",
-            "name": "Sciatica McKenzie Programme",
+            "name": "Sciatica Programme",
             "priceCurrency": "AED",
-            "price": "2400",
-            "description": "6-8 session McKenzie method programme for sciatica with directional preference"
+            "price": "1900",
+            "description": "6-8 session programme for sciatica"
           }
         ]
       }
@@ -230,11 +211,11 @@ const ManualTherapyDubai = () => {
   return (
     <>
       <Head>
-        <title>Manual Therapy in Dubai | Certified Specialists | Vedara JVC</title>
-        <meta name="description" content="Specialist manual therapy at our JVC clinic, Dubai. DPT-qualified physiotherapists with Maitland, Mulligan, Kaltenborn, McKenzie certifications. Joint mobilisation, soft tissue work, neural mobilisation. Different from chiropractic and massage. Walking distance from Circle Mall." />
+        <title>Manual Therapy in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Specialist manual therapy at our JVC clinic, Dubai. Joint mobilisation, soft tissue work, neural mobilisation delivered by a DHA-licensed physiotherapist. Different from chiropractic and massage. Book a same-week assessment." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        <meta property="og:title" content="Manual Therapy in Dubai — Certified Specialists | Vedara JVC" />
-        <meta property="og:description" content="DPT-qualified manual therapy specialists at our Jumeirah Village Circle clinic. Maitland mobilisation, Mulligan mobilisation with movement, Kaltenborn technique, McKenzie method, myofascial release, neural mobilisation, and spinal manipulation. Different from chiropractic and massage. Evidence-based hands-on physiotherapy." />
+        <meta property="og:title" content="Manual Therapy in JVC, Dubai | Vedara Care" />
+        <meta property="og:description" content="Specialist hands-on physiotherapy at our Jumeirah Village Circle clinic. Joint mobilisation, soft tissue work, neural mobilisation. Different from chiropractic and massage. Evidence-based, delivered by a DHA-licensed physiotherapist." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/manual-therapy-dubai.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/treatments/manual-therapy-dubai/" />
         <meta property="og:type" content="business.business" />
@@ -253,7 +234,11 @@ const ManualTherapyDubai = () => {
         ))}
       </Head>
       <main>
-        <AyurvedaHero {...manualTherapyHero} />
+        <AyurvedaHero
+          {...manualTherapyHero}
+          primaryCTATrackingEvent={{ event: 'generate_lead', lead_type: 'booking_click', service: 'manual_therapy' }}
+          secondaryCTATrackingEvent={{ event: 'click_whatsapp' }}
+        />
         <AyurvedaIntro {...manualTherapyIntro} />
         <SciaticaTreatment 
           data={manualTherapyWhatIs.data} 
@@ -306,7 +291,11 @@ const ManualTherapyDubai = () => {
           insurers={manualTherapyPricing.insurers}/>
         <FAQ {...manualTherapyFaqs} />
         <TreatmentLocation {...manualTherapyLocation} />
-        <FinalCTA {...manualTherapyFinalCTA} />
+        <FinalCTA
+          {...manualTherapyFinalCTA}
+          primaryCTATrackingEvent={{ event: 'generate_lead', lead_type: 'booking_click', service: 'manual_therapy' }}
+          secondaryCTATrackingEvent={{ event: 'click_whatsapp' }}
+        />
         <RelatedPages {...manualTherapyRelatedPages} />
       </main>
     </>
