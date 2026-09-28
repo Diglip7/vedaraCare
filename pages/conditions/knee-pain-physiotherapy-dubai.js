@@ -47,339 +47,97 @@ const KneePainPhysioDubai = () => {
       "alternateName": ["Vedara Knee Physio Dubai", "Vedara Care Knee Rehabilitation JVC"],
       "url": currentUrl,
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
-      "description": "Evidence-based specialist knee pain physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DPT-qualified specialists treating patellofemoral pain syndrome, meniscus injuries, ACL recovery, IT band syndrome, patellar tendinopathy, knee osteoarthritis, and the full range of knee conditions. Most knee pain responds to physiotherapy without requiring surgery.",
-      "telephone": "+971 4 567 8900",
-      "priceRange": "AED 300 - AED 25,000",
+      "description": "Evidence-based specialist knee pain physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai, delivered by a DHA-licensed physiotherapist.",
+      "telephone": "+971555736312",
+      "priceRange": "AED 350 - AED 9,800",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Building 23, District 12",
-        "addressLocality": "Jumeirah Village Circle",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
+        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
+        "addressLocality": "Dubai", "addressRegion": "Dubai", "addressCountry": "AE"
       },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "25.068346",
-        "longitude": "55.2072235"
-      },
+      "geo": { "@type": "GeoCoordinates", "latitude": "25.068346", "longitude": "55.207223" },
       "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-          "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:00"
-        }
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "22:00" }
       ],
       "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Mirdif"}
+        {"@type": "City", "name": "Dubai"}, {"@type": "Place", "name": "Jumeirah Village Circle"},
+        {"@type": "Place", "name": "Jumeirah Village Triangle"}, {"@type": "Place", "name": "Al Barsha South"}
       ],
-      "medicalSpecialty": [
-        "Knee Pain Physiotherapy",
-        "Physiotherapy",
-        "Physical Therapy",
-        "Sports Medicine",
-        "Orthopaedic Rehabilitation"
-      ],
+      "medicalSpecialty": ["Knee Pain Physiotherapy", "Physiotherapy", "Sports Medicine", "Orthopaedic Rehabilitation"],
       "isAcceptingNewPatients": true,
+      "employee": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
       "availableService": [
         {"@type": "MedicalProcedure", "name": "Knee Pain Physiotherapy"},
         {"@type": "MedicalProcedure", "name": "Patellofemoral Pain Treatment"},
         {"@type": "MedicalProcedure", "name": "Meniscus Injury Conservative Treatment"},
         {"@type": "MedicalProcedure", "name": "ACL Rehabilitation"},
-        {"@type": "MedicalProcedure", "name": "IT Band Syndrome Treatment"},
-        {"@type": "MedicalProcedure", "name": "Patellar Tendinopathy Treatment"},
         {"@type": "MedicalProcedure", "name": "Knee Osteoarthritis Management"},
         {"@type": "MedicalProcedure", "name": "Running Gait Analysis"},
         {"@type": "MedicalProcedure", "name": "Dry Needling"},
-        {"@type": "MedicalProcedure", "name": "Shockwave Therapy"},
-        {"@type": "MedicalProcedure", "name": "Manual Therapy"},
-        {"@type": "MedicalProcedure", "name": "Exercise Prescription"},
-        {"@type": "MedicalProcedure", "name": "Biomechanical Analysis"}
+        {"@type": "MedicalProcedure", "name": "Manual Therapy"}
       ],
-      "memberOf": {
-        "@type": "GovernmentOrganization",
-        "name": "Dubai Health Authority"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "350",
-        "bestRating": "5",
-        "worstRating": "1"
-      }
+      "memberOf": { "@type": "GovernmentOrganization", "name": "Dubai Health Authority" },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
     },
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MedicalCondition",
-          "name": "Patellofemoral Pain Syndrome",
-          "alternateName": ["Runner's Knee"],
-          "code": {"@type": "MedicalCode", "code": "M22.2", "codingSystem": "ICD-10"},
-          "possibleTreatment": [
-            {"@type": "MedicalProcedure", "name": "Hip Strengthening"},
-            {"@type": "MedicalProcedure", "name": "Manual Therapy"},
-            {"@type": "MedicalProcedure", "name": "Movement Pattern Correction"}
-          ]
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Meniscus Tear",
-          "alternateName": ["Meniscal Injury", "Meniscus Injury"],
-          "code": {"@type": "MedicalCode", "code": "S83.2", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Anterior Cruciate Ligament Injury",
-          "alternateName": ["ACL Tear", "ACL Injury"],
-          "code": {"@type": "MedicalCode", "code": "S83.5", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Medial Collateral Ligament Injury",
-          "alternateName": ["MCL Tear", "MCL Injury"],
-          "code": {"@type": "MedicalCode", "code": "S83.4", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Lateral Collateral Ligament Injury",
-          "alternateName": ["LCL Tear", "LCL Injury"],
-          "code": {"@type": "MedicalCode", "code": "S83.3", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Iliotibial Band Syndrome",
-          "alternateName": ["IT Band Syndrome", "ITBS"],
-          "code": {"@type": "MedicalCode", "code": "M76.3", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Patellar Tendinopathy",
-          "alternateName": ["Jumper's Knee", "Patellar Tendinitis"],
-          "code": {"@type": "MedicalCode", "code": "M76.5", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Knee Osteoarthritis",
-          "code": {"@type": "MedicalCode", "code": "M17", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Osgood-Schlatter Disease",
-          "code": {"@type": "MedicalCode", "code": "M92.5", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Pes Anserine Bursitis",
-          "code": {"@type": "MedicalCode", "code": "M71.86", "codingSystem": "ICD-10"}
-        }
+      "@context": "https://schema.org", "@graph": [
+        { "@type": "MedicalCondition", "name": "Patellofemoral Pain Syndrome", "alternateName": ["Runner's Knee"], "code": {"@type": "MedicalCode", "code": "M22.2", "codingSystem": "ICD-10"} },
+        { "@type": "MedicalCondition", "name": "Meniscus Tear", "code": {"@type": "MedicalCode", "code": "S83.2", "codingSystem": "ICD-10"} },
+        { "@type": "MedicalCondition", "name": "Anterior Cruciate Ligament Injury", "code": {"@type": "MedicalCode", "code": "S83.5", "codingSystem": "ICD-10"} },
+        { "@type": "MedicalCondition", "name": "Iliotibial Band Syndrome", "code": {"@type": "MedicalCode", "code": "M76.3", "codingSystem": "ICD-10"} },
+        { "@type": "MedicalCondition", "name": "Patellar Tendinopathy", "code": {"@type": "MedicalCode", "code": "M76.5", "codingSystem": "ICD-10"} },
+        { "@type": "MedicalCondition", "name": "Knee Osteoarthritis", "code": {"@type": "MedicalCode", "code": "M17", "codingSystem": "ICD-10"} },
+        { "@type": "MedicalCondition", "name": "Osgood-Schlatter Disease", "code": {"@type": "MedicalCode", "code": "M92.5", "codingSystem": "ICD-10"} }
       ]
     },
     {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Knee Pain Physiotherapy Services in Dubai",
+      "@context": "https://schema.org", "@type": "Service",
+      "name": "Knee Pain Physiotherapy Services in JVC, Dubai",
       "provider": {"@id": `${currentUrl}#knee-pain-physio`},
-      "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
-      ],
-      "serviceType": "Knee Pain Physiotherapy and Knee Rehabilitation",
+      "areaServed": [{"@type": "Place", "name": "Jumeirah Village Circle"}, {"@type": "City", "name": "Dubai"}],
       "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Knee Pain Physiotherapy Services",
+        "@type": "OfferCatalog", "name": "Knee Pain Physiotherapy Services",
         "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Initial Knee Pain Assessment",
-            "priceCurrency": "AED",
-            "price": "350",
-            "description": "60-minute comprehensive knee pain assessment with DPT-qualified specialist"
-          },
-          {
-            "@type": "Offer",
-            "name": "Running Gait Analysis",
-            "priceCurrency": "AED",
-            "price": "550",
-            "description": "90-minute comprehensive running gait analysis for runners with knee issues"
-          },
-          {
-            "@type": "Offer",
-            "name": "Acute Knee Injury Package",
-            "priceCurrency": "AED",
-            "price": "1,400",
-            "description": "8-session structured programme for acute knee injuries over 4-6 weeks"
-          },
-          {
-            "@type": "Offer",
-            "name": "Chronic Knee Pain Programme",
-            "priceCurrency": "AED",
-            "price": "2,700",
-            "description": "12-session structured programme for chronic knee conditions over 6-8 weeks"
-          },
-          {
-            "@type": "Offer",
-            "name": "ACL Reconstruction Rehabilitation",
-            "priceCurrency": "AED",
-            "price": "4,500",
-            "description": "40-60 session comprehensive ACL rehabilitation over 9-12 months"
-          }
+          {"@type": "Offer", "name": "Initial Knee Pain Assessment", "priceCurrency": "AED", "price": "350"},
+          {"@type": "Offer", "name": "Running Gait Analysis", "priceCurrency": "AED", "price": "450"},
+          {"@type": "Offer", "name": "Acute Knee Injury Package", "priceCurrency": "AED", "price": "1800"},
+          {"@type": "Offer", "name": "Chronic Knee Pain Programme", "priceCurrency": "AED", "price": "2800"},
+          {"@type": "Offer", "name": "ACL Rehabilitation Programme", "priceCurrency": "AED", "price": "9800"}
         ]
       }
     },
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
+      "@context": "https://schema.org", "@type": "BreadcrumbList",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
         {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Knee Pain Physiotherapy in Dubai", "item": currentUrl}
+        {"@type": "ListItem", "position": 3, "name": "Knee Pain Physiotherapy in JVC", "item": currentUrl}
       ]
     },
     {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do I need surgery for my knee pain?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most knee pain does not require surgery. Research consistently shows that physiotherapy is at least as effective as surgery for many common knee conditions including degenerative meniscus tears, knee osteoarthritis, and patellofemoral pain. Surgery is appropriate for specific situations but is rarely the first-line intervention."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "My MRI showed a meniscus tear — do I need surgery?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Not necessarily. Research consistently shows conservative treatment is often as effective as surgery for many meniscus tears, particularly degenerative tears. Surgery is appropriate for specific situations — locking knees, specific tear types in younger active patients, tears with associated significant damage. Many patients with meniscus tears do well with physiotherapy without surgery."
-          }
-        },
-        ...kneePainFaqs.faqs.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
-      ]
+      "@context": "https://schema.org", "@type": "FAQPage",
+      "mainEntity": kneePainFaqs.faqs.map(faq => ({
+        "@type": "Question", "name": faq.question,
+        "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+      }))
     },
     {
-      "@context": "https://schema.org",
-      "@type": "MedicalScholarlyArticle",
-      "headline": "Knee Pain Physiotherapy in Dubai — Complete Treatment Guide",
+      "@context": "https://schema.org", "@type": "MedicalWebPage",
+      "headline": "Knee Pain Physiotherapy in JVC, Dubai — Complete Treatment Guide",
       "image": "https://vedaracare.ae/og-images/knee-pain-physiotherapy-dubai.jpg",
-      "datePublished": publishedDate,
-      "dateModified": modifiedDate,
-      "author": {
-        "@type": "Physician",
-        "name": "Dr. Marcus Silva, DPT"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic"
-      },
-      "about": [
-        {"@type": "MedicalCondition", "name": "Knee Pain"},
-        {"@type": "MedicalCondition", "name": "Patellofemoral Pain Syndrome"},
-        {"@type": "MedicalCondition", "name": "Knee Osteoarthritis"}
-      ],
+      "datePublished": "2026-05-01", "dateModified": modifiedDate,
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
+      "publisher": { "@type": "Organization", "name": "Vedara Care Polyclinic" },
+      "about": [{"@type": "MedicalCondition", "name": "Knee Pain"}, {"@type": "MedicalCondition", "name": "Knee Osteoarthritis"}],
       "mainEntityOfPage": currentUrl
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Priya Sharma, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-priya-sharma",
-      "image": "https://vedaracare.ae/images/dr-priya-sharma-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Sports Medicine", "Knee Rehabilitation"],
-      "hasCredential": [
-        {
-          "@type": "EducationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": ["DPT"]
-        },
-        "DHA-Licensed"
-      ],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Ahmed Al Rashid, DPT, MSc",
-      "url": "https://vedaracare.ae/physiotherapists/dr-ahmed-al-rashid",
-      "image": "https://vedaracare.ae/images/dr-ahmed-al-rashid-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Sports Medicine", "Knee Rehabilitation"],
-      "hasCredential": [
-        {
-          "@type": "EducationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": ["DPT"]
-        },
-        "DHA-Licensed"
-      ],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Sarah Mitchell, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-sarah-mitchell",
-      "image": "https://vedaracare.ae/images/dr-sarah-mitchell-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Sports Medicine", "Knee Rehabilitation"],
-      "hasCredential": [
-        {
-          "@type": "EducationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": ["DPT"]
-        },
-        "DHA-Licensed"
-      ],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Rahul Mehta, DPT, CSCS",
-      "url": "https://vedaracare.ae/physiotherapists/dr-rahul-mehta",
-      "image": "https://vedaracare.ae/images/dr-rahul-mehta-home-physiotherapy-dubai.webp",
-      "medicalSpecialty": ["Physiotherapy", "Sports Medicine", "Knee Rehabilitation"],
-      "hasCredential": [
-        {
-          "@type": "EducationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": ["DPT"]
-        },
-        "DHA-Licensed"
-      ],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
     }
   ];
 
   return (
     <>
       <Head>
-        <title>Knee Pain Physiotherapy in Dubai | Evidence-Based Care | Vedara JVC</title>
-        <meta name="description" content="Specialist knee pain physiotherapy at our JVC clinic, Dubai. DPT-qualified specialists for runner's knee, meniscus injuries, ACL recovery, osteoarthritis, patellar tendinopathy. Most knee pain responds without surgery. Walking distance from Circle Mall." />
+        <title>Knee Pain Physiotherapy in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Specialist knee pain physiotherapy at our JVC clinic, Dubai — runner's knee, meniscus injuries, ACL recovery, osteoarthritis. Most knee pain responds without surgery. Book a same-week assessment." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
@@ -402,7 +160,8 @@ const KneePainPhysioDubai = () => {
 
       <AyurvedaHero 
         {...kneePainPhysioHero}
-        
+        primaryCTATrackingEvent="generate_lead"
+        secondaryCTATrackingEvent="click_whatsapp"
       />
       
       <AyurvedaIntro 
@@ -533,9 +292,34 @@ const KneePainPhysioDubai = () => {
       <FinalCTA 
         {...kneePainCTA}
         title="Most knee pain responds to the right treatment."
+        primaryCTATrackingEvent="generate_lead"
+        secondaryCTATrackingEvent="click_whatsapp"
       />
 
       <RelatedPages {...kneePainRelatedPages} />
+      {/* Mobile Sticky Booking Bar */}
+      <div className="md:hidden fixed bottom-20 left-0 right-0 p-4 bg-white border-t border-gray-200 z-40 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] flex justify-between items-center pb-safe">
+        <div>
+          <div className="text-xs font-semibold text-[#C4A962] tracking-wider uppercase mb-1">Assessment</div>
+          <div className="font-medium text-[#1A1A1A] text-sm">AED 350</div>
+        </div>
+        <div className="flex gap-2">
+          <a
+            href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20knee%20pain%20physiotherapy."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#25D366] text-white px-4 py-3 rounded-md text-sm font-medium flex items-center justify-center transition-colors"
+          >
+            WhatsApp
+          </a>
+          <a
+            href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20book%20a%20knee%20pain%20assessment."
+            className="bg-[#1A1A1A] text-white px-5 py-3 rounded-md text-sm font-medium hover:bg-[#333333] transition-colors text-center"
+          >
+            Book Now
+          </a>
+        </div>
+      </div>
     </>
   );
 };

@@ -5,13 +5,13 @@ export const kneePainPhysioHero = {
     { label: "Knee Pain Physiotherapy in Dubai", active: true }
   ],
   label: "Knee Pain Physiotherapy · DHA-Licensed 2509266 · JVC Clinic",
-  title: "Knee pain physiotherapy in Dubai. Most knee pain responds to the right treatment.",
+  title: "Knee pain physiotherapy in JVC. Most knee pain responds to the right treatment.",
   description: "Specialist knee pain physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists treating runner's knee, meniscus injuries, ACL recovery, IT band syndrome, patellar tendinopathy, knee osteoarthritis, and the full range of knee conditions. Most knee pain — even with concerning MRI findings — responds excellently to evidence-based physiotherapy.",
   primaryCTA: "Book Knee Pain Assessment",
-  secondaryCTA: "Read About Knee Pain",
+  secondaryCTA: "Ask a Question on WhatsApp",
   trustSignals: [
     "DPT-qualified knee specialists",
-    "350+ knee patients treated",
+    "DHA-Licensed Physiotherapist",
     "Same-week appointments",
     "Walking distance from Circle Mall"
   ],
@@ -26,8 +26,8 @@ export const kneePainPhysioHero = {
 export const kneePainPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Knee pain physiotherapy at Vedara Care, in one paragraph.",
-  blockquote: "Knee pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DPT-qualified physiotherapists. Knee pain has multiple distinct causes: patellofemoral pain syndrome (runner's knee), meniscus injuries (often without surgery), ligament injuries (MCL, ACL, LCL), iliotibial band syndrome, patellar tendinopathy (jumper's knee), knee osteoarthritis, Osgood-Schlatter disease, and post-injury conditions. Our approach combines accurate diagnosis, evidence-based manual therapy, specific exercise prescription, biomechanical analysis, dry needling, and patient education. Initial assessment from AED 350; structured knee pain programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Priya Sharma, DPT, DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: "Knee pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DPT-qualified physiotherapists. Knee pain has multiple distinct causes: patellofemoral pain syndrome (runner's knee), meniscus injuries (often without surgery), ligament injuries (MCL, ACL, LCL), iliotibial band syndrome, patellar tendinopathy (jumper's knee), knee osteoarthritis, Osgood-Schlatter disease, and post-injury conditions. Our approach combines accurate diagnosis, evidence-based manual therapy, specific exercise prescription, biomechanical analysis, dry needling, and patient education. Initial assessment from AED 350; structured knee pain programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support for seven major insurers.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
 export const kneePainMechanism1 = {
@@ -226,28 +226,10 @@ export const kneePainReviews = {
   cardBgColor: "rgb(248, 244, 238)",
   isDarkText: true,
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
-  items: [
-    {
-      quote: "Patellofemoral pain for two years. Tried multiple things including generic strengthening exercises. Vedara identified specific hip weakness pattern driving my knee issues. Twelve weeks of structured treatment combining manual therapy and specific exercises. Returned to running pain-free. Three years on, still running, no recurrence.",
-      author: "Sarah K.",
-      details: "Patellofemoral Pain Syndrome<br/>12-Week Programme · Dubai Marina · February 2026"
-    },
-    {
-      quote: "MRI showed a meniscus tear. Orthopaedic surgeon recommended surgery. Vedara recommended trying physiotherapy first given the type of tear. Twelve weeks of structured rehabilitation, fully returned to padel and gym training. Surgery completely avoided. The honest conversation about when surgery is and is not needed was invaluable.",
-      author: "Rajan M.",
-      details: "Meniscus Injury<br/>12-Week Conservative Programme · Sports City · January 2026"
-    },
-    {
-      quote: "Knee osteoarthritis at 58. Significant imaging changes, considering knee replacement. Vedara's physiotherapy programme over six months combined with weight management substantially reduced my symptoms. Walking comfortably, playing tennis again, surgery deferred indefinitely. Honest about realistic expectations — not 'cured' but substantially improved.",
-      author: "James M.",
-      details: "Knee Osteoarthritis<br/>6-Month Programme + Ongoing · Dubai Hills · March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.9 â˜…", label: "Google Rating" },
-    { value: "350+", label: "Knee Patients Treated" },
-    { value: "87%", label: "Substantial Improvement in 12 Weeks" },
-    { value: "Most", label: "Patients Avoid Surgery" }
+    { value: "4.5", label: "stars on Google" },
+    { value: "15", label: "reviews (real, verified)" }
   ],
   buttonText: "Read All Knee Pain Reviews"
 };
@@ -256,47 +238,17 @@ export const kneePainTeam = {
   bgColor: "bg-[#F8F4EE]",
   cardColor: "bg-white",
   label: "THE TEAM",
-  title: "Physiotherapy specialists for knee pain at our JVC clinic.",
+  title: "Your knee pain physiotherapist at our JVC clinic.",
   members: [
     {
-      name: "Dr. Priya Sharma, DPT",
-      credentials: "DHA-Licensed · Knee Specialist",
-      languages: "English, Hindi, Malayalam",
-      tags: ["Sports Knee", "Post-Surgical", "Running Gait"],
-      description: "Specialises in sports knee rehabilitation and running biomechanics with 8 years of clinical experience.",
-      link: "/physiotherapists/dr-priya-sharma",
-      image: "/images/dr-priya-sharma-home-physiotherapy-dubai.webp",
-      alt: "Dr. Priya Sharma knee pain physiotherapy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Ahmed Al Rashid, DPT, MSc",
-      credentials: "DHA-Licensed · Knee Specialist",
-      languages: "English, Arabic",
-      tags: ["Osteoarthritis", "Manual Therapy", "ACL Rehab"],
-      description: "Expert in knee osteoarthritis management and ACL reconstruction rehabilitation protocols.",
-      link: "/physiotherapists/dr-ahmed-al-rashid",
-      image: "/images/dr-ahmed-al-rashid-home-physiotherapy-dubai.webp",
-      alt: "Dr. Ahmed Al Rashid knee pain physiotherapy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Sarah Mitchell, DPT",
-      credentials: "DHA-Licensed · Knee Specialist",
-      languages: "English, French",
-      tags: ["Tendinopathy", "Dry Needling", "Sports Knee"],
-      description: "Certified in dry needling with particular expertise in tendinopathy management and gym-related knee injuries.",
-      link: "/physiotherapists/dr-sarah-mitchell",
-      image: "/images/dr-sarah-mitchell-home-physiotherapy-dubai.webp",
-      alt: "Dr. Sarah Mitchell knee pain physiotherapy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Rahul Mehta, DPT, CSCS",
-      credentials: "DHA-Licensed · Knee Specialist",
-      languages: "English, Hindi, Gujarati",
-      tags: ["Post-Surgical", "Padel Injuries", "Strength & Conditioning"],
-      description: "Combines physiotherapy with strength and conditioning expertise for complete knee rehabilitation.",
-      link: "/physiotherapists/dr-rahul-mehta",
-      image: "/images/dr-rahul-mehta-home-physiotherapy-dubai.webp",
-      alt: "Dr. Rahul Mehta knee pain physiotherapy specialist Vedara Care JVC Dubai"
+      name: "Hafsina K K, DHA-Licensed Physiotherapist",
+      qualification: "DHA-P 64812828",
+      specialties: ["Orthopedic Rehabilitation", "Sports Knee", "Post-Surgical Rehab"],
+      experience: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
+      languages: ["English"],
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K knee pain physiotherapist Vedara Care JVC Dubai",
+      link: "/doctors/hafsina-kk-physiotherapist/"
     }
   ]
 };
@@ -306,20 +258,15 @@ export const kneePainPricing = {
   bgColor: "bg-[#F5F1E8]",
   title: "What knee pain physiotherapy at our JVC clinic costs.",
   services: [
-    { name: "Initial knee pain assessment (60 minutes)", price: "AED 350" },
-    { name: "Follow-up physiotherapy session (45–60 minutes)", price: "AED 250" },
-    { name: "Running gait analysis (90 minutes)", price: "AED 450" },
-    { name: "Same-day urgent assessment (acute knee injury)", price: "AED 380" },
-    { name: "Dry needling (add-on per session)", price: "AED 80" },
-    { name: "Shockwave therapy session (chronic tendinopathies)", price: "AED 300" },
-    { name: "Acute knee injury package (8 sessions over 4–6 weeks)", price: "AED 1,800" },
-    { name: "Chronic knee pain programme (12 sessions over 6–8 weeks)", price: "AED 2,800" },
-    { name: "Extended knee programme (24 sessions over 12–16 weeks)", price: "AED 5,200" },
-    { name: "Knee osteoarthritis ongoing care (per session)", price: "AED 250" },
-    { name: "ACL rehabilitation programme (40–60 sessions over 9–12 months)", price: "AED 9,800" }
-
+    { name: "Initial knee pain assessment (60 min)", price: "AED 350" },
+    { name: "Follow-up session (45-60 min)", price: "AED 350" },
+    { name: "Running gait analysis (90 min)", price: "AED 450" },
+    { name: "Dry needling (add-on)", price: "AED 150" },
+    { name: "Acute knee injury package (8 sessions)", price: "AED 1,800" },
+    { name: "Chronic knee pain programme (12 sessions)", price: "AED 2,800" },
+    { name: "ACL rehabilitation programme (40-60 sessions, 9-12 months)", price: "AED 9,800" }
   ],
-  insuranceText: 'Insurance direct-billing with seven major insurers including Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Knee pain physiotherapy is well-covered by most Dubai insurance plans with medical justification. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking for specific coverage confirmation. ',
+  insuranceText: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm coverage.',
   // insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
 };
 
@@ -375,7 +322,7 @@ export const kneePainFaqs = {
     },
     {
       question: "Does insurance cover knee pain physiotherapy?",
-      answer: 'Most Dubai insurance plans cover knee pain physiotherapy with medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm specific coverage.'
+      answer: 'Most Dubai insurance plans cover knee pain physiotherapy with medical justification. We provide insurance reimbursement support for Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm specific coverage.'
     },
     {
       question: "Can I run with knee pain?",
@@ -391,7 +338,7 @@ export const kneePainFaqs = {
     }
     , {
       question: "What about knee pain during pregnancy?",
-      answer: "Pregnancy-related knee pain is common, related to weight gain, postural changes, hormonal effects on ligaments, and biomechanical changes. Treatment is calibrated to pregnancy considerations — modified positions, pregnancy-appropriate exercises, manual therapy techniques safe for pregnancy. Female physiotherapists available for patient preference"
+      answer: "Pregnancy-related knee pain is common, related to weight gain, postural changes, hormonal effects on ligaments, and biomechanical changes. Treatment is calibrated to pregnancy considerations — modified positions, pregnancy-appropriate exercises, manual therapy techniques safe for pregnancy. Treatment is provided by our DHA-licensed female physiotherapist."
 
     },
 
@@ -461,8 +408,8 @@ export const kneePainCTA = {
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20knee%20pain%20physiotherapy%20and%20book%20a%20consultation.",
   bullets: [
     "Initial assessment from AED 350",
-    "JVC · 350+ knee patients treated ",
-    "Insurance direct-billing",
+    "DHA-Licensed Physiotherapist",
+    "Insurance reimbursement support",
     "Most patients avoid surgery with appropriate care",
     "Walking distance from Circle Mall"
   ]
