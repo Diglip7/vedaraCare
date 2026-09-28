@@ -45,12 +45,12 @@ const NeckPainPhysioJvc = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Evidence-based physiotherapy for neck pain at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DPT-qualified physiotherapists treating tech neck, chronic neck pain, whiplash, cervicogenic headaches, cervical spondylosis, cervical radiculopathy. Manual therapy, deep cervical flexor training, dry needling, postural correction. Walking distance from Circle Mall.",
-      "telephone": "+971 4 567 8900",
-      "priceRange": "AED 300 - AED 10,000",
+      "telephone": "+971555736312",
+      "priceRange": "AED 350 - AED 4,200",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Building 23, District 12",
-        "addressLocality": "Jumeirah Village Circle",
+        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
+        "addressLocality": "Dubai",
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
@@ -62,15 +62,9 @@ const NeckPainPhysioJvc = () => {
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:00"
+          "closes": "22:00"
         }
       ],
       "areaServed": [
@@ -90,6 +84,7 @@ const NeckPainPhysioJvc = () => {
         "Cervical Spine Rehabilitation"
       ],
       "isAcceptingNewPatients": true,
+      "employee": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
       "availableService": [
         { "@type": "MedicalProcedure", "name": "Neck Pain Physiotherapy" },
         { "@type": "MedicalProcedure", "name": "Cervical Manual Therapy" },
@@ -109,8 +104,8 @@ const NeckPainPhysioJvc = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "500",
+        "ratingValue": "4.5",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -231,14 +226,14 @@ const NeckPainPhysioJvc = () => {
     },
     {
       "@context": "https://schema.org",
-      "@type": "MedicalScholarlyArticle",
+      "@type": "MedicalWebPage",
       "headline": "Physiotherapy for Neck Pain in JVC — Educational Treatment Guide",
       "image": "https://vedaracare.ae/images/neck-pain-physiotherapy-jvc-hero.jpg",
       "datePublished": publishedDate,
       "dateModified": modifiedDate,
-      "author": {
+      "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Sarah Al-Mansoori, DPT"
+        "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"
       },
       "publisher": {
         "@type": "Organization",
@@ -258,8 +253,8 @@ const NeckPainPhysioJvc = () => {
     <>
       <Head>
         <title>Physiotherapy for Neck Pain in JVC | Evidence-Based Treatment | Vedara</title>
-        <meta name="description" content="Understanding and treating neck pain at our JVC clinic, Dubai. DPT-qualified physiotherapists for tech neck, chronic neck pain, whiplash, cervicogenic headaches. Educational approach with evidence-based treatment. Walking distance from Circle Mall." />
-        
+        <meta name="description" content="Understanding and treating neck pain at our JVC clinic, Dubai. DPT-qualified physiotherapists for tech neck, chronic neck pain, whiplash, cervicogenic headaches. Educational approach, evidence-based treatment. Walking distance from Circle Mall." />
+
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
@@ -267,12 +262,12 @@ const NeckPainPhysioJvc = () => {
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
         <meta property="og:title" content="Physiotherapy for Neck Pain in JVC — Understanding and Treatment | Vedara Care" />
-        <meta property="og:description" content="DPT-qualified physiotherapists at our Jumeirah Village Circle clinic using evidence-based protocols for tech neck, chronic neck pain, whiplash, cervicogenic headaches, cervical spondylosis. Educational approach with thorough assessment and treatment. Insurance direct-billing." />
+        <meta property="og:description" content="DPT-qualified physiotherapists at our Jumeirah Village Circle clinic using evidence-based protocols for tech neck, chronic neck pain, whiplash, cervicogenic headaches, cervical spondylosis. Educational approach with thorough assessment and treatment. Insurance reimbursement support." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/neck-pain-physiotherapy-jvc.jpg" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="en_AE" />
-        
+
         <meta name="twitter:card" content="summary_large_image" />
 
         {schemas.map((schema, index) => (
@@ -286,9 +281,13 @@ const NeckPainPhysioJvc = () => {
         <link rel="preload" as="image" href="https://vedaracare.ae/images/neck-pain-physiotherapy-jvc-hero.jpg" />
       </Head>
 
-      <AyurvedaHero {...neckPainPhysioHero} />
+      <AyurvedaHero
+        {...neckPainPhysioHero}
+        primaryCTATrackingEvent={{ event: 'generate_lead', lead_type: 'booking_click', service: 'neck_pain_physiotherapy' }}
+        secondaryCTATrackingEvent={{ event: 'click_whatsapp' }}
+      />
       <AyurvedaIntro {...neckPainPhysioIntro} />
-      
+
       <TreatmentMechanism
         bgColor={neckPainWhyEpidemic.bgColor}
         label={neckPainWhyEpidemic.label}
@@ -302,7 +301,7 @@ const NeckPainPhysioJvc = () => {
         showStats={neckPainWhyEpidemic.showStats}
       />
 
-      <PhysiotherapySpecializations 
+      <PhysiotherapySpecializations
         bgColor={neckPainConditions.bgColor}
         label={neckPainConditions.label}
         title={neckPainConditions.title}
@@ -313,7 +312,7 @@ const NeckPainPhysioJvc = () => {
 
       <NeckPainShouldYouSee {...neckPainShouldYouSee} />
 
-      <TreatmentMechanism 
+      <TreatmentMechanism
         bgColor={neckPainHowTreat.bgColor}
         label={neckPainHowTreat.label}
         title={neckPainHowTreat.title}
@@ -335,7 +334,7 @@ const NeckPainPhysioJvc = () => {
 
       <PostSurgeryTeam data={neckPainTeam} />
 
-      <div className={`bg-white py-24 px-6 ${neckPainPricing.bgColor}`}>
+      {/* <div className={`bg-white py-24 px-6 ${neckPainPricing.bgColor}`}>
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <div className="text-sm tracking-widest uppercase mb-4" style={{ color: '#C9A84C' }}>
@@ -369,13 +368,17 @@ const NeckPainPhysioJvc = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
       <FAQ {...neckPainFaqs} />
 
       <SportsPhysiotherapyLocation data={neckPainLocation} />
 
-      <FinalCTA {...neckPainCTA} />
+      <FinalCTA
+        {...neckPainCTA}
+        primaryCTATrackingEvent={{ event: 'generate_lead', lead_type: 'booking_click', service: 'neck_pain_physiotherapy' }}
+        secondaryCTATrackingEvent={{ event: 'click_whatsapp' }}
+      />
 
       <RelatedPages {...neckPainRelatedPages} />
     </>

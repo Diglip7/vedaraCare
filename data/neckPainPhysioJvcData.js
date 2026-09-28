@@ -28,8 +28,8 @@ export const neckPainPhysioHero = {
 export const neckPainPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Neck pain physiotherapy at our JVC clinic, in one paragraph.",
-  blockquote: "Neck pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based conventional physiotherapy delivered by DPT-qualified specialists. We treat acute neck pain (recent onset, often work or sleep-related), chronic neck pain (persistent patterns from posture, repetitive strain, or trauma), forward head posture and tech neck, cervical spondylosis, whiplash, cervicogenic headaches, and cervical radiculopathy. Treatment combines hands-on manual therapy (cervical mobilisation, soft tissue work), specific exercise prescription (postural correction, motor control, strengthening), dry needling for chronic muscle patterns, and ergonomic education for prevention. Patients travel to our JVC clinic from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Aisha Khalid, DPT · DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: "Neck pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based conventional physiotherapy delivered by DPT-qualified specialists. We treat acute neck pain (recent onset, often work or sleep-related), chronic neck pain (persistent patterns from posture, repetitive strain, or trauma), forward head posture and tech neck, cervical spondylosis, whiplash, cervicogenic headaches, and cervical radiculopathy. Treatment combines hands-on manual therapy (cervical mobilisation, soft tissue work), specific exercise prescription (postural correction, motor control, strengthening), dry needling for chronic muscle patterns, and ergonomic education for prevention. Patients travel to our JVC clinic from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai. Insurance reimbursement support for seven major insurers.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
 export const neckPainWhyEpidemic = {
@@ -263,28 +263,10 @@ export const neckPainReviews = {
   title: "Real neck pain outcomes from real patients.",
   bgColor: "bg-[#1C3D2E]",
   cardBgColor: "bg-[#FFFFFF12]",
-  items: [
-    {
-      quote: "Chronic neck pain for four years. Office worker, desk-bound. Tried multiple things including chiropractor and massage. Vedara identified the specific pattern, treated thoracic stiffness I did not know was contributing, and taught me exercises that actually work. Eight weeks later, the pain that defined my mornings is rare and brief.",
-      author: "Sarah K.",
-      details: "Chronic Mechanical Neck Pain · 8-Week Programme <br/>Al Barsha South resident · February 2026",
-
-    },
-    {
-      quote: 'Whiplash after a small vehicle accident. Headache and neck stiffness that did not resolve. Vedara provided structured rehabilitation over six weeks including manual therapy and progressive exercise. Returned to normal activity by week four, fully resolved by month three. Cannot fault the care.',
-      author: "James M.",
-      details: "Whiplash · 12-Week Programme <br/> JVC resident · January 2026"
-    },
-    {
-      quote: "Tech neck and chronic cervicogenic headaches for two years. Same headache pattern weekly. Vedara identified the cervical source and provided treatment combining dry needling, postural correction, and specific exercises. The weekly headaches stopped within five weeks. Six months later, occasional only and manageable.",
-      author: "Priya R.",
-      details: "Cervicogenic Headache + Tech Neck · 12-Week Programme <br/> Sports City resident · March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.9", label: "stars on Google" },
-    { value: "220+", label: "neck pain patients treated" },
-    { value: "89%", label: "report significant improvement within 8 weeks" }
+    { value: "4.5", label: "stars on Google" },
+    { value: "15", label: "reviews on Google" }
   ],
   buttonText: "Read All Neck Pain Reviews",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai"
@@ -292,62 +274,40 @@ export const neckPainReviews = {
 
 export const neckPainTeam = {
   label: "THE TEAM",
-  title: "Physiotherapy specialists for neck pain at our JVC clinic.",
+  title: "Your neck pain physiotherapist at our JVC clinic.",
   members: [
     {
-      name: "Dr. Aisha Khalid",
-      credentials: "DPT · OMPT Certified",
-      role: "Cervical Spine and Manual Therapy Specialist",
-      languages: "English, Arabic, Urdu",
-      tags: ["Manual Therapy", "Dry Needling", "Postural Rehab"],
-      description: "9 years of clinical experience. Post-graduate training in orthopaedic manual physiotherapy. Sub-specialist in cervical spine rehabilitation.",
-      link: "/physiotherapists/dr-aisha-khalid",
-      image: "/images/dr-aisha-khalid-home-physiotherapy-dubai.webp",
-      alt: "Dr. Aisha Khalid neck pain physiotherapy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Marcus Silva",
-      credentials: "DPT · MSc Sports Physio",
-      role: "Sports and Occupational Neck Pain Specialist",
-      languages: "English, Portuguese, Spanish",
-      tags: ["Sports Rehab", "Dry Needling", "Ergonomics"],
-      description: "Specialist in sports-related cervical injuries and occupational neck pain. Extensive experience with Dubai's desk-working population.",
-      link: "/physiotherapists/dr-marcus-silva",
-      image: "/images/dr-marcus-silva-home-physiotherapy-dubai.webp",
-      alt: "Dr. Marcus Silva neck pain physiotherapy specialist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Fatima Al Rashid",
-      credentials: "DPT · Cert. Dry Needling",
-      role: "Headache and Postural Rehabilitation Specialist",
-      languages: "Arabic, English, French",
-      tags: ["Cervicogenic Headache", "Postural ", "Dry Needling"],
-      description: "Sub-specialist in cervicogenic headache management and postural rehabilitation. Certified dry needling practitioner with 7 years of experience.",
-      link: "/physiotherapists/dr-fatima-al-rashid",
-      image: "/images/dr-fatima-al-rashid-home-physiotherapy-dubai.webp",
-      alt: "Dr. Fatima Al Rashid neck pain physiotherapy specialist Vedara Care JVC Dubai"
+      name: "Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828)",
+      credentials: "",
+      role: "Physiotherapist",
+      languages: "English, Hindi, Malayalam, Arabic",
+      tags: ["Orthopedic", "Neurological", "Sports", "Women's Health"],
+      description: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE. [CLINIC CONFIRMATION REQUIRED: specific OMPT/cervical spine training, if any.]",
+      link: "/doctors/hafsina-kk-physiotherapist",
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K, DHA-Licensed Physiotherapist at Vedara Care JVC Dubai"
     }
   ]
 };
 
-export const neckPainPricing = {
-  label: "TRANSPARENT PRICING",
-  bgColor: "bg-[#F5F1E8]",
-  title: "What neck pain physiotherapy at our JVC clinic costs.",
-  services: [
-    { name: "Initial neck pain assessment (60 minutes)", price: "AED 350" },
-    { name: "Follow-up physiotherapy session (45-60 minutes)", price: "AED 250" },
-    { name: "Same-day urgent assessment (severe acute neck pain)", price: "AED 420" },
-    { name: "Dry needling (add-on per session)", price: "AED 150" },
-    { name: "Workplace ergonomic assessment (optional)", price: "AED 550" },
-    { name: "Acute neck pain package (6 sessions over 3-4 weeks)", price: "AED 1,400" },
-    { name: "Chronic neck pain programme (12 sessions over 8-12 weeks)", price: "AED 2,700" },
-    { name: "Extended chronic care (20 sessions over 12-24 weeks)", price: "AED 4,200" },
-    { name: "Home physiotherapy session (when clinic travel impractical)", price: "AED 400" }
-  ],
-  insuranceText: "Insurance direct-billing: Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Most Dubai insurance plans cover neck pain physiotherapy. <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20neck%20pain%20physiotherapy.' target='_blank' rel='noopener noreferrer' class='text-[#C9A84C] hover:text-[#B8860B] font-medium transition-colors underline'>WhatsApp your insurance card to confirm coverage →</a>",
-  // insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
-};
+// export const neckPainPricing = {
+//   label: "TRANSPARENT PRICING",
+//   bgColor: "bg-[#F5F1E8]",
+//   title: "What neck pain physiotherapy at our JVC clinic costs.",
+//   services: [
+//     { name: "Initial neck pain assessment (60 minutes)", price: "AED 350" },
+//     { name: "Follow-up physiotherapy session (45-60 minutes)", price: "AED 250" },
+//     { name: "Same-day urgent assessment (severe acute neck pain)", price: "AED 420" },
+//     { name: "Dry needling (add-on per session)", price: "AED 150" },
+//     { name: "Workplace ergonomic assessment (optional)", price: "AED 550" },
+//     { name: "Acute neck pain package (6 sessions over 3-4 weeks)", price: "AED 1,400" },
+//     { name: "Chronic neck pain programme (12 sessions over 8-12 weeks)", price: "AED 2,700" },
+//     { name: "Extended chronic care (20 sessions over 12-24 weeks)", price: "AED 4,200" },
+//     { name: "Home physiotherapy session (when clinic travel impractical)", price: "AED 400" }
+//   ],
+//   insuranceText: "We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20confirm%20my%20insurance%20coverage%20for%20neck%20pain%20physiotherapy.' target='_blank' rel='noopener noreferrer' class='text-[#C9A84C] hover:text-[#B8860B] font-medium transition-colors underline'>WhatsApp your insurance card to confirm coverage →</a>",
+//   // insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
+// };
 
 export const neckPainFaqs = {
   bgColor: "bg-[#F2EDE5]",
@@ -398,7 +358,7 @@ export const neckPainFaqs = {
     },
     {
       question: "Does insurance cover neck pain physiotherapy?",
-      answer: "Most Dubai insurance plans cover neck pain physiotherapy with medical justification. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. WhatsApp your insurance card before booking to confirm specific coverage and out-of-pocket cost."
+      answer: "Most Dubai insurance plans cover neck pain physiotherapy with medical justification. We provide full documentation for reimbursement with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. WhatsApp your insurance card before booking to confirm specific coverage and out-of-pocket cost."
     },
     {
       question: "How long does a course of treatment take?",
@@ -452,7 +412,7 @@ export const neckPainLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
   title: "Where neck pain physiotherapy happens at Vedara Care JVC.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeirah Village Circle (JVC) Dubai",
+  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
   hours: "Mon-Sun - 9:00 AM - 10:00 PM",
@@ -464,7 +424,7 @@ export const neckPainLocation = {
     "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road",
     "Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills"
   ],
-  mapEmbed: "//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
+  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   image: "/images/vedara-care-jvc-clinic.jpg",
   alt: "Vedara Care JVC clinic",
   // description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym for exercise progression, dry needling equipment, modern modalities, and accessibility for patients with acute neck pain.",
@@ -483,8 +443,8 @@ export const neckPainCTA = {
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20neck%20pain%20physiotherapy%20and%20book%20a%20consultation.",
   bullets: [
     "Initial assessment from AED 350",
-    " JVC · DPT-qualified physiotherapists",
-    "Insurance direct-billing",
+    " JVC · DPT-qualified physiotherapist",
+    "Insurance reimbursement support",
     "Same-day appointments for severe acute pain",
     "Walking distance from Circle Mall"
   ]
@@ -531,7 +491,7 @@ export const neckPainRelatedPages = {
     {
       title: "Pediatric Physiotherapy",
       description: "For children and adolescents with neck pain — increasingly common from device use and gaming.",
-      href: "/physiotherapy-pediatric-jvc/"
+      href: "/physiotherapy/pediatric-dubai/"
     },
   ]
 };
