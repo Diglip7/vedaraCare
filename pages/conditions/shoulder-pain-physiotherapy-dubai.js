@@ -50,7 +50,7 @@ const ShoulderPainPhysiotherapyDubai = () => {
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
-        "addressLocality": "Jumeirah Village Circle",
+        "addressLocality": "Dubai",
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
@@ -62,15 +62,9 @@ const ShoulderPainPhysiotherapyDubai = () => {
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:00"
+          "closes": "22:00"
         }
       ],
       "areaServed": [
@@ -105,7 +99,6 @@ const ShoulderPainPhysiotherapyDubai = () => {
         { "@type": "MedicalProcedure", "name": "Post-Surgical Shoulder Rehabilitation" },
         { "@type": "MedicalProcedure", "name": "Manual Therapy" },
         { "@type": "MedicalProcedure", "name": "Dry Needling" },
-        { "@type": "MedicalProcedure", "name": "Shockwave Therapy" },
         { "@type": "MedicalProcedure", "name": "Scapular Re-Education" }
       ],
       "memberOf": {
@@ -114,11 +107,12 @@ const ShoulderPainPhysiotherapyDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "380",
+        "ratingValue": "4.5",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
-      }
+      },
+      "employee": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" }
     },
     // Schema 2: MedicalCondition Entities (Multiple Shoulder Conditions)
     {
@@ -189,35 +183,35 @@ const ShoulderPainPhysiotherapyDubai = () => {
             "@type": "Offer",
             "name": "Initial Shoulder Pain Assessment",
             "priceCurrency": "AED",
-            "price": "[X]",
+            "price": "350",
             "description": "60-minute comprehensive shoulder pain assessment with DPT-qualified specialist"
           },
           {
             "@type": "Offer",
             "name": "Acute Shoulder Injury Package",
             "priceCurrency": "AED",
-            "price": "[X]",
+            "price": "1800",
             "description": "8-session structured programme for acute shoulder injuries over 4-6 weeks"
           },
           {
             "@type": "Offer",
             "name": "Rotator Cuff Conservative Programme",
             "priceCurrency": "AED",
-            "price": "[X]",
+            "price": "3800",
             "description": "16-20 session programme for rotator cuff conditions over 12-16 weeks"
           },
           {
             "@type": "Offer",
             "name": "Post-Surgical Rotator Cuff Rehabilitation",
             "priceCurrency": "AED",
-            "price": "[X]",
+            "price": "5200",
             "description": "24-36 session comprehensive post-surgical programme over 6-9 months"
           },
           {
             "@type": "Offer",
             "name": "Shoulder Instability Rehabilitation",
             "priceCurrency": "AED",
-            "price": "[X]",
+            "price": "3200",
             "description": "Comprehensive instability rehabilitation programme"
           }
         ]
@@ -273,15 +267,12 @@ const ShoulderPainPhysiotherapyDubai = () => {
     // Schema 6: Article
     {
       "@context": "https://schema.org",
-      "@type": "MedicalScholarlyArticle",
+      "@type": "MedicalWebPage",
       "headline": "Shoulder Pain Physiotherapy in Dubai — Complete Treatment Guide",
       "image": "https://vedaracare.ae/images/shoulder-pain-physiotherapy-dubai-hero.jpg",
       "datePublished": currentDate,
       "dateModified": currentDate,
-      "author": {
-        "@type": "Physician",
-        "name": "[Lead Physiotherapist]"
-      },
+      "author": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
       "publisher": {
         "@type": "Organization",
         "name": "Vedara Care Polyclinic"
@@ -293,25 +284,14 @@ const ShoulderPainPhysiotherapyDubai = () => {
       ],
       "mainEntityOfPage": "https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/"
     },
-    // Schema 7: Physiotherapist (for each team member)
-    ...shoulderPhysioTeam.team.map(member => ({
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": member.name,
-      "url": `https://vedaracare.ae/physiotherapists/${member.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}/`,
-      "image": member.image || "",
-      "medicalSpecialty": ["Physiotherapy", "Shoulder Rehabilitation", "Manual Therapy"],
-      "hasCredential": ["DPT", "Manual Therapy Certified", "Dry Needling Certified", "DHA-Licensed"],
-      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
-    }))
     // Schema 8: Organization is referenced via @id site-wide
   ]) : '';
 
   return (
     <>
       <Head>
-        <title>Shoulder Pain Physiotherapy in Dubai | All Conditions | Vedara JVC</title>
-        <meta name="description" content="Specialist shoulder pain physiotherapy at our JVC clinic, Dubai. DPT-qualified specialists treating rotator cuff, impingement, AC joint, biceps, instability, and all shoulder conditions. Most shoulder pain responds without surgery. Walking distance from Circle Mall." />
+        <title>Shoulder Pain Physiotherapy in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Specialist shoulder pain physiotherapy at our JVC clinic, Dubai. Treating rotator cuff, impingement, AC joint, biceps, instability, and all shoulder conditions. Most shoulder pain responds without surgery. Book a same-week assessment." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
         <meta property="og:title" content="Shoulder Pain Physiotherapy in Dubai — Comprehensive Specialist Care | Vedara JVC" />

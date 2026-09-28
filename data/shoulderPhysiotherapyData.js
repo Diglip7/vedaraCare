@@ -29,8 +29,8 @@ export const shoulderPhysioHero = {
 export const shoulderPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Shoulder pain physiotherapy at Vedara Care, in one paragraph.",
-  blockquote: "Shoulder pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based comprehensive treatment delivered by DPT-qualified specialists across the full range of shoulder conditions. The shoulder is the most mobile joint in the body, making it vulnerable to a wide range of problems requiring different specific treatment approaches: rotator cuff conditions (tears, tendinopathies, strains — the most common shoulder presentation), shoulder impingement syndrome (subacromial impingement, internal impingement), AC joint pain (acromioclavicular joint problems), biceps tendinopathy (long head of biceps tendon issues), shoulder instability (dislocations, hyperlaxity, post-traumatic instability), shoulder bursitis, calcific tendinopathy, post-surgical shoulder recovery (rotator cuff repair, labral repair, shoulder replacement), and frozen shoulder (adhesive capsulitis — see our <a href='/conditions/frozen-shoulder-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>dedicated frozen shoulder page</a> for phase-based deep-dive). Our approach starts with accurate diagnosis (the foundation of effective treatment), then applies condition-specific evidence-based protocols. Most shoulder pain responds excellently to physiotherapy without requiring surgery. Initial assessment from AED 350; structured programmes from AED 2,400. Patients travel to our JVC clinic from across Dubai. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Sarah Al-Hassan, DPT, DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: "Shoulder pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based comprehensive treatment delivered by DPT-qualified specialists across the full range of shoulder conditions. The shoulder is the most mobile joint in the body, making it vulnerable to a wide range of problems requiring different specific treatment approaches: rotator cuff conditions (tears, tendinopathies, strains — the most common shoulder presentation), shoulder impingement syndrome (subacromial impingement, internal impingement), AC joint pain (acromioclavicular joint problems), biceps tendinopathy (long head of biceps tendon issues), shoulder instability (dislocations, hyperlaxity, post-traumatic instability), shoulder bursitis, calcific tendinopathy, post-surgical shoulder recovery (rotator cuff repair, labral repair, shoulder replacement), and frozen shoulder (adhesive capsulitis — see our <a href='/conditions/frozen-shoulder-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>dedicated frozen shoulder page</a> for phase-based deep-dive). Our approach starts with accurate diagnosis (the foundation of effective treatment), then applies condition-specific evidence-based protocols. Most shoulder pain responds excellently to physiotherapy without requiring surgery. Initial assessment from AED 350; structured programmes from AED 2,400. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support available for major insurers.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Last updated June 2026"
 };
 
 export const shoulderPhysioTreatment = {
@@ -78,75 +78,28 @@ export const shoulderPhysioReviews = {
   cardBgColor: "bg-[#F8F5F0]",
   isDarkText: true,
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
-  items: [
-    {
-      quote: "Rotator cuff tear identified on MRI after months of pain. Orthopaedic surgeon recommended surgery. Vedara's assessment suggested conservative trial first. We saw the tear pattern and size. Sixteen weeks of structured rehabilitation combining manual therapy and progressive loading. Successfully returned to gym training without pain. The honest discussion about when surgery is and is not needed was invaluable.",
-      author: "Rajan M.",
-      details: "Rotator Cuff Tear · 16-Week Conservative Programme · Dubai Hills resident · February 2026"
-    },
-    {
-      quote: "Shoulder impingement from gym training, bench press and overhead press both painful. Vedara identified the underlying scapular control issues and posterior capsular tightness driving the impingement. Twelve weeks of structured treatment combining manual therapy, scapular re-education, and exercise modification. Returned to full training pain-free. The pattern-specific approach made the difference.",
-      author: "Sarah K.",
-      details: "Shoulder Impingement · 12-Week Programme · Sports City resident · January 2026"
-    },
-    {
-      quote: "Tried random shoulder physiotherapy for eight months. Multiple previous physiotherapy attempts with generic shoulder exercises. Vedara identified specific rotator cuff tendinopathy combined with biceps involvement. Progressive loading protocol over fourteen weeks. Returned to competitive padel. The accurate diagnosis after months of generic treatment was the key.",
-      author: "James M.",
-      details: "Rotator Cuff Tendinopathy · 14-Week Programme · JVC resident · March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.9", label: "stars on Google" },
-    { value: "380+", label: "shoulder patients treated" },
-    { value: "93%", label: "achieve substantial improvement within 12 weeks" },
+    { value: "4.5", label: "stars on Google" },
+    { value: "15", label: "reviews on Google" }
   ],
   buttonText: "Read All Shoulder Pain Reviews →"
 };
 
 export const shoulderPhysioTeam = {
   label: "THE TEAM",
-  title: "Physiotherapy specialists for shoulder pain at our JVC clinic.",
+  title: "Your shoulder pain physiotherapist at our JVC clinic.",
   bgColor: "bg-[#FDFAF4]",
   team: [
     {
-      name: "Dr. Sarah Al-Hassan, DPT",
-      qualification: "DHA-Licensed · Shoulder Specialist",
-      specialties: ["Manual Therapy", "Sports Shoulder", "Rotator Cuff"],
-      experience: "Lead physiotherapist with 12 years specialist shoulder experience.",
-      languages: ["English", "Arabic"],
-      image: "/images/dr-sarah-al-hassan.webp",
-      alt: "Dr. Sarah Al-Hassan shoulder specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-sarah-al-hassan/"
-    },
-    {
-      name: "Dr. James Chen, DPT",
-      qualification: "DHA-Licensed · Shoulder Specialist",
-      specialties: ["Post-Surgical ", "Shoulder Instability", "Shockwave Therapy"],
-      experience: "Post-surgical rehabilitation specialist, trained internationally.",
-      languages: ["English", "Mandarin"],
-      image: "/images/dr-james-chen.webp",
-      alt: "Dr. James Chen shoulder specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-james-chen/"
-    },
-    {
-      name: "Dr. Priya Nair, DPT",
-      qualification: "DHA-Licensed · Shoulder Specialist",
-      specialties: ["Sports Shoulder", "Dry Needling", "Impingement"],
-      experience: "Sports physiotherapy specialist with expertise in padel and overhead sports.",
+      name: "Hafsina K K",
+      qualification: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
+      specialties: ["Orthopedic", "Sports", "Neurological"],
+      experience: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
       languages: ["English", "Hindi", "Malayalam"],
-      image: "/images/dr-priya-nair.webp",
-      alt: "Dr. Priya Nair shoulder specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-priya-nair/"
-    },
-    {
-      name: "Dr. Omar Al-Rashidi, DPT",
-      qualification: "DHA-Licensed · Shoulder Specialist",
-      specialties: ["Rotator Cuff", "Scapular Rehab", "Calcific Tendinopathy"],
-      experience: "Specialist in post-traumatic shoulder conditions and shoulder instability.",
-      languages: ["English", "Arabic"],
-      image: "/images/dr-omar-al-rashidi.webp",
-      alt: "Dr. Omar Al-Rashidi shoulder specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-omar-al-rashidi/"
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K physiotherapist Vedara Care JVC Dubai",
+      link: "/doctors/hafsina-kk-physiotherapist"
     }
   ]
 };
@@ -208,7 +161,7 @@ export const shoulderPhysioFaqs = {
     },
     {
       question: "Does insurance cover shoulder pain physiotherapy?",
-      answer: 'Most Dubai insurance plans cover shoulder pain physiotherapy with medical justification. Coverage typically includes initial sessions; extended programmes may require pre-authorisation. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm specific coverage.'
+      answer: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm coverage.'
     },
     {
       question: "What is shoulder impingement?",
@@ -226,10 +179,7 @@ export const shoulderPhysioFaqs = {
       question: "Can shoulder pain come from my neck?",
       answer: "Yes — referred shoulder pain from cervical spine conditions is common. Cervical radiculopathy (nerve root irritation) can refer pain to the shoulder. Cervical muscle patterns can refer to the shoulder. Our comprehensive assessment includes neck screening to identify when cervical involvement contributes to shoulder symptoms. For neck pain, see our <a href='/conditions/neck-pain-physiotherapy-jvc/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>neck pain physiotherapy page</a>."
     },
-    {
-      question: "What is shockwave therapy and when is it useful?",
-      answer: "Shockwave therapy uses sound waves to stimulate healing in chronic tendon conditions. Evidence-based for chronic rotator cuff tendinopathy and calcific tendinopathy (can break down calcium deposits). Typically 3–6 sessions weekly. Used alongside manual therapy and exercise rather than in isolation."
-    },
+
     {
       question: "What is dry needling for shoulder pain?",
       answer: "Dry needling uses fine needles to release trigger points and tight muscle bands contributing to shoulder pain — particularly upper trapezius tension, posterior shoulder muscle patterns, infraspinatus trigger points. Different from acupuncture in mechanism. Performed by certified physiotherapists. Particularly useful for chronic muscle tension patterns that have not responded to other approaches."
@@ -269,7 +219,7 @@ export const shoulderPhysioLocation = {
     "3 min from FIVE Jumeirah Village",
     "5 min from JSS Private School",
   ],
-  description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym with shoulder-specific equipment, dry needling and shockwave therapy equipment, and accessibility for patients with limited shoulder mobility. Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai.",
+  description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym with shoulder-specific equipment, dry needling equipment, and accessibility for patients with limited shoulder mobility. Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai.",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1781603404!5m2!1sen!2sus",
   image: "/images/shoulder-pain-clinic-location.webp",
   alt: "Vedara Care shoulder pain clinic JVC Dubai",
@@ -285,7 +235,7 @@ export const shoulderPhysioCTA = {
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20shoulder%20pain%20physiotherapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 350 · Walking distance from Circle Mall, JVC · 380+ shoulder patients treated · Most patients avoid surgery with appropriate care · Insurance direct-billing"
+  footer: "Initial assessment from AED 350 · Walking distance from Circle Mall, JVC · Most patients avoid surgery with appropriate care · Insurance reimbursement supported"
 };
 
 export const shoulderPhysioConditions = {
@@ -352,7 +302,7 @@ export const shoulderPhysioConditions = {
     {
       number: "08",
       title: "Calcific Tendinopathy",
-      description: "Calcium deposits in the rotator cuff tendons, particularly supraspinatus. Can cause acute severe pain when the deposit becomes inflamed or migrates. Conservative treatment combines manual therapy, specific exercise, and sometimes shockwave therapy (which can break down calcium deposits). Most resolve with appropriate conservative care.",
+      description: "Calcium deposits in the rotator cuff tendons, particularly supraspinatus. Can cause acute severe pain when the deposit becomes inflamed or migrates. Conservative treatment combines manual therapy and specific exercise. Most resolve with appropriate conservative care.",
       typicalSigns: [
         "Sometimes sudden severe pain, often visible on X-ray, variable presentation"
       ]
@@ -452,7 +402,7 @@ export const shoulderPhysioApproach = {
       "60-minute initial assessment",
       "Same therapist throughout treatment",
       "Evidence-based condition-specific",
-      "7 insurers direct billing"
+      "Insurance reimbursement support"
     ]
   }
 };
@@ -482,14 +432,9 @@ export const shoulderPhysioSurgicalConsiderations = {
     ],
     surgicalCoordination: {
       title: "Surgical coordination:",
-      description: "We have established relationships with shoulder surgeons in Dubai. When surgery is appropriate, we can recommend surgeons and coordinate pre- and post-surgical physiotherapy."
+      description: "[CLINIC CONFIRMATION REQUIRED: Specific, unverified relationship claim removed] When surgery is appropriate, we can recommend surgeons and coordinate pre- and post-surgical physiotherapy."
     },
     buttonText: "Book Assessment to Discuss Options"
-  },
-  keyStat: {
-    label: "KEY STAT",
-    value: "89%",
-    description: "of our shoulder patients achieve substantial improvement within 12 weeks without requiring surgery."
   }
 };
 
@@ -573,10 +518,9 @@ export const shoulderPhysioPricing = {
   title: "What shoulder pain physiotherapy at our JVC clinic costs.",
   pricingItems: [
     { name: "Initial shoulder pain assessment (60 minutes)", price: "AED 350" },
-    { name: "Follow-up physiotherapy session (45–60 minutes)", price: "AED 250" },
-    { name: "Same-day urgent assessment (acute shoulder injury)", price: "AED 400" },
-    { name: "Dry needling (add-on per session)", price: "AED 75" },
-    { name: "Shockwave therapy session (chronic tendinopathies)", price: "AED 300" },
+    { name: "Follow-up physiotherapy session (45–60 minutes)", price: "AED 350" },
+    { name: "Same-week priority appointment", price: "AED 350" },
+    { name: "Dry needling (add-on per session)", price: "AED 150" },
     { name: "Acute shoulder injury package (8 sessions over 4–6 weeks)", price: "AED 1,800" },
     { name: "Chronic shoulder programme (12–16 sessions over 8–12 weeks)", price: "AED 2,800" },
     { name: "Rotator cuff conservative programme (16–20 sessions over 12–16 weeks)", price: "AED 3,800" },
@@ -584,8 +528,8 @@ export const shoulderPhysioPricing = {
     { name: "Shoulder instability rehabilitation programme", price: "AED 3,200" }
   ],
   insuranceSection: {
-    description: 'Insurance direct-billing with seven major insurers. Shoulder pain physiotherapy is well-covered by Dubai insurance plans with medical justification. Extended programmes may require pre-authorisation, which we handle on your behalf. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking for specific coverage confirmation.',
+    description: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm coverage.',
     insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
-    cta: "Book Shoulder Pain Assessment — AED 350"
+    cta: "Book Shoulder Pain Assessment — "
   }
 };
