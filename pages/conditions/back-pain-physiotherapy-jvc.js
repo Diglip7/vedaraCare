@@ -36,11 +36,11 @@ const BackPainPhysioJvc = () => {
     <>
       <Head>
         <title>Physiotherapy for Back Pain in JVC | DPT-Qualified | Vedara Care</title>
-        <meta name="description" content="Evidence-based physiotherapy for back pain at our DHA-licensed JVC clinic. DPT-qualified specialists using manual therapy, McKenzie method, dry needling, and modern protocols. Same-day appointments for severe acute pain. Walking distance from Circle Mall." />
+        <meta name="description" content="Evidence-based physiotherapy for back pain at our DHA-licensed JVC clinic, near Circle Mall. Manual therapy, McKenzie method, dry needling. Same-day appointments for severe acute pain. Book today." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
         <meta property="og:title" content="Physiotherapy for Back Pain in JVC — Evidence-Based DPT-Qualified Care | Vedara" />
-        <meta property="og:description" content="DPT-qualified physiotherapists at our Jumeirah Village Circle clinic using evidence-based protocols for acute and chronic back pain. Manual therapy, McKenzie method, dry needling, modern modalities. Same-day appointments for severe acute pain. Insurance direct-billing." />
+        <meta property="og:description" content="Evidence-based physiotherapy for back pain at our DHA-licensed JVC clinic, near Circle Mall. Manual therapy, McKenzie method, dry needling. Same-day appointments for severe acute pain. Book today." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/back-pain-physiotherapy-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/back-pain-physiotherapy-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -67,11 +67,11 @@ const BackPainPhysioJvc = () => {
               "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
               "description": "Evidence-based physiotherapy for back pain at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DPT-qualified physiotherapists treating acute back pain, chronic back pain, sciatica, disc-related conditions, mechanical postural pain. Manual therapy, McKenzie method, dry needling, modern modalities. Walking distance from Circle Mall.",
               "telephone": "+971 55 573 6312",
-              "priceRange": "AED 300 - AED 12,000",
+              "priceRange": "AED 150 - AED 4,800",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
-                "addressLocality": "Jumeirah Village Circle",
+                "addressLocality": "Dubai",
                 "addressRegion": "Dubai",
                 "addressCountry": "AE"
               },
@@ -83,15 +83,9 @@ const BackPainPhysioJvc = () => {
               "openingHoursSpecification": [
                 {
                   "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
                   "opens": "09:00",
-                  "closes": "21:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Sunday",
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "closes": "22:00"
                 }
               ],
               "areaServed": [
@@ -121,7 +115,7 @@ const BackPainPhysioJvc = () => {
                 { "@type": "MedicalProcedure", "name": "McKenzie Method (MDT)" },
                 { "@type": "MedicalProcedure", "name": "Dry Needling" },
                 { "@type": "MedicalProcedure", "name": "Motor Control Training" },
-                { "@type": "MedicalProcedure", "name": "Shockwave Therapy" },
+
                 { "@type": "MedicalProcedure", "name": "Pain Neuroscience Education" },
                 { "@type": "MedicalProcedure", "name": "Sciatica Treatment" },
                 { "@type": "MedicalProcedure", "name": "Spinal Mobilisation" },
@@ -133,8 +127,8 @@ const BackPainPhysioJvc = () => {
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "180",
+                "ratingValue": "4.5",
+                "reviewCount": "15",
                 "bestRating": "5",
                 "worstRating": "1"
               }
@@ -263,8 +257,7 @@ const BackPainPhysioJvc = () => {
               "datePublished": currentDate,
               "dateModified": currentDate,
               "author": {
-                "@type": "Physician",
-                "name": "Dr. Sarah Al-Mansoori, DPT"
+                "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"
               },
               "publisher": {
                 "@type": "Organization",

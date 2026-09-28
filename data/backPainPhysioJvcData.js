@@ -6,15 +6,17 @@ export const backPainPhysioHero = {
   ],
   label: "PHYSIOTHERAPY FOR BACK PAIN · DHA-LICENSED 2509266 · EVIDENCE-BASED",
   title: "Physiotherapy for back pain in JVC. Evidence-based protocols. DPT-qualified specialists.",
-  description: "Specialised physiotherapy for back pain at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists using evidence-based protocols — manual therapy, McKenzie method, dry needling, motor control exercise, modern modalities. Acute back pain, chronic back pain, sciatica, mechanical patterns, post-imaging concerns. Same-week appointments. Same-day for severe acute pain. Insurance direct-billing.",
+  description: "Specialised physiotherapy for back pain at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists using evidence-based protocols — manual therapy, McKenzie method, dry needling, motor control exercise, modern modalities. Acute back pain, chronic back pain, sciatica, mechanical patterns, post-imaging concerns. Same-week appointments. Same-day for severe acute pain. Insurance reimbursement support.",
   primaryCTA: "Book Back Pain Assessment",
+  primaryCTATrackingEvent: "click_book_back_pain",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
+  secondaryCTATrackingEvent: "click_whatsapp_back_pain",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20back%20pain%20physiotherapy%20and%20book%20a%20consultation.",
   trustSignals: [
     "DPT-qualified physiotherapists",
     "Evidence-based protocols",
-    "600+ back pain patients treated",
+    "DHA-Licensed Physiotherapist",
     "Walking distance from Circle Mall"
   ],
   floatingCard: {
@@ -28,8 +30,8 @@ export const backPainPhysioHero = {
 export const backPainPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Back pain physiotherapy at our JVC clinic, in one paragraph.",
-  blockquote: 'Back pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based conventional physiotherapy delivered by DPT-qualified specialists. We treat acute back pain (recent onset, mechanical patterns, work-related strain), chronic back pain (long-standing patterns), lower back pain (lumbar mechanical pain, lumbar radiculopathy), upper back pain (thoracic, postural patterns), sciatica (nerve root irritation, radicular pain), disc-related back pain (disc bulges, herniated discs), and mechanical postural back pain (office worker patterns, repetitive strain). Treatment combines hands-on manual therapy (spinal mobilisation, soft tissue work), evidence-based exercise prescription (McKenzie method, motor control training, progressive loading), dry needling for chronic muscle patterns, modalities where appropriate (IFC for pain, shockwave for chronic patterns), and ergonomic and postural education. Initial assessment from AED 350; structured back pain programmes from AED 2,400. Patients travel to our JVC clinic from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai. Insurance direct-billing with seven major insurers. For patients whose back pain does not respond fully to physiotherapy alone, integrated Ayurveda + physiotherapy care is available as an <a href="/conditions/back-pain-ayurveda-dubai/" class="text-[#1F4538] hover:underline">optional pathway</a>.',
-  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, DPT, DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: 'Back pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based conventional physiotherapy delivered by DPT-qualified specialists. We treat acute back pain (recent onset, mechanical patterns, work-related strain), chronic back pain (long-standing patterns), lower back pain (lumbar mechanical pain, lumbar radiculopathy), upper back pain (thoracic, postural patterns), sciatica (nerve root irritation, radicular pain), disc-related back pain (disc bulges, herniated discs), and mechanical postural back pain (office worker patterns, repetitive strain). Treatment combines hands-on manual therapy (spinal mobilisation, soft tissue work), evidence-based exercise prescription (McKenzie method, motor control training, progressive loading), dry needling for chronic muscle patterns, modalities where appropriate (IFC for pain), and ergonomic and postural education. Initial assessment from AED 350; structured back pain programmes from AED 2,400. Patients travel to our JVC clinic from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai. Insurance reimbursement support. For patients whose back pain does not respond fully to physiotherapy alone, integrated Ayurveda + physiotherapy care is available as an <a href="/conditions/back-pain-ayurveda-dubai/" class="text-[#1F4538] hover:underline">optional pathway</a>.',
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828)."
 };
 
 export const backPainPhysioConditions = {
@@ -154,29 +156,12 @@ export const backPainPhysioReviews = {
   title: "Real physiotherapy-only outcomes.",
   bgColor: "bg-[#1F4538]",
   cardBgColor: "rgba(255,255,255,0.05)",
-  items: [
-    {
-      quote: "Acute lower back pain so severe I couldn't get out of bed. WhatsApp Vedara morning, same-day appointment that afternoon. Manual therapy immediately reduced the pain. Three weeks of structured physiotherapy got me back to work and the gym. The McKenzie exercises they prescribed are still part of my routine three years later.",
-      author: "James M.",
-      details: "Acute Lower Back Pain · 3-Week Programme · JVC resident · February 2026"
-    },
-    {
-      quote: "Chronic back pain for eight years. Tried multiple clinics, multiple approaches. Vedara was the first to actually assess thoroughly and identify the specific movement pattern driving the pain. Eight months of structured physiotherapy — manual therapy, specific exercises, gradual progression. The pain that defined my life is now occasional and manageable.",
-      author: "Priya R.",
-      details: "Chronic Lower Back Pain · 8-Month Programme · Dubai Hills resident · January 2026"
-    },
-    {
-      quote: "Sciatica radiating to my foot for six months. Imaging showed a disc bulge at L5-S1. The team at Vedara explained that imaging findings often do not match pain patterns. McKenzie method exercises identified my directional preference within two sessions. Twelve weeks later, no leg symptoms, back pain minimal, returned to padel.",
-      author: "Rohan D.",
-      details: "Sciatica with Disc Bulge · 12-Week Programme · Sports City resident · March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.9", label: "stars on Google" },
-    { value: "600+", label: "back pain patients" },
-    { value: "87%", label: "reported significant improvement" }
+    { value: "4.5", label: "stars on Google" },
+    { value: "15", label: "reviews (real, verified)" }
   ],
-  buttonText: "Read All Back Pain Reviews",
+buttonText: "Read All Back Pain Reviews",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai"
 };
 
@@ -185,40 +170,14 @@ export const backPainPhysioTeam = {
   title: "Physiotherapy specialists for back pain at our JVC clinic.",
   team: [
     {
-      name: "Dr. Sarah Al-Mansoori, DPT",
-      qualification: "DHA-Licensed · Back Pain Specialist",
-      specialties: ["Manual Therapy", "McKenzie Method", "Sciatica", "Chronic Back Pain"],
-      experience: "Lead physiotherapist specialising in chronic back pain and sciatica. 12 years clinical experience.",
-      languages: ["English", "Arabic"],
-      image: "",
-      alt: "Dr. Sarah Al-Mansoori back pain physiotherapist Vedara Care JVC Dubai"
-    },
-    {
-      name: "James Whitfield, DPT, MCSP",
-      qualification: "DHA-Licensed · Back Pain Specialist",
-      specialties: ["Dry Needling", "Sports Back Pain", "Motor Control", "Disc-Related Pain"],
-      experience: "Senior physiotherapist with special interest in disc-related back pain and return-to-sport protocols.",
+      name: "Hafsina K K, DHA-Licensed Physiotherapist",
+      qualification: "DHA-P 64812828",
+      specialties: ["Acute and Chronic Back Pain", "Sciatica", "Postural Conditions"],
+      experience: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
       languages: ["English"],
-      image: "",
-      alt: "James Whitfield back pain physiotherapist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Aisha Patel, DPT",
-      qualification: "DHA-Licensed · Back Pain Specialist",
-      specialties: ["Postural Pain", "Office Workers", "Shockwave Therapy", "Piriformis Syndrome"],
-      experience: "Specialises in postural and mechanical back pain patterns, particularly office worker presentations.",
-      languages: ["English", "Hindi", "Urdu"],
-      image: "",
-      alt: "Dr. Aisha Patel back pain physiotherapist Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Carlos Mendes, DPT, OMPT",
-      qualification: "DHA-Licensed · Back Pain Specialist",
-      specialties: ["Orthopaedic", "Acute Back Pain", "Manual Therapy", "Post-Surgical Rehabilitation"],
-      experience: "Orthopaedic manual therapy specialist with advanced training in post-surgical rehabilitation.",
-      languages: ["English", "Portuguese", "Spanish"],
-      image: "",
-      alt: "Dr. Carlos Mendes back pain physiotherapist Vedara Care JVC Dubai"
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K back pain physiotherapist Vedara Care JVC Dubai",
+      link: "/doctors/hafsina-kk-physiotherapist/"
     }
   ]
 };
@@ -267,7 +226,7 @@ export const backPainPhysioFaqs = {
     },
     {
       question: "Does insurance cover back pain physiotherapy?",
-      answer: "Most Dubai insurance plans cover back pain physiotherapy with medical justification. Coverage typically includes initial sessions; extended programmes may require pre-authorisation. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href=\"https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm specific coverage and out-of-pocket cost."
+      answer: "Most Dubai insurance plans cover back pain physiotherapy with medical justification. Coverage typically includes initial sessions; extended programmes may require pre-authorisation. We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy."
     },
     {
       question: "What about chronic back pain that has not responded to other treatment?",
@@ -275,7 +234,7 @@ export const backPainPhysioFaqs = {
     },
     {
       question: "Do you offer home physiotherapy for severe back pain?",
-      answer: "Yes — patients with severe acute back pain who cannot easily travel to clinic can have home physiotherapy. Particularly common in the first 1–2 weeks of severe acute presentation. Home sessions help with initial pain management and early mobilisation; most patients transition to clinic visits within 2–4 weeks as mobility improves. Home physiotherapy is AED 400 per session including therapist travel time."
+      answer: "Home physiotherapy is launching soon at Vedara Care. In the meantime, same-day and next-day appointments are typically available at our JVC clinic for severe acute pain."
     },
     {
       question: "Can physiotherapy help with sciatica?",
@@ -295,7 +254,7 @@ export const backPainPhysioFaqs = {
     },
     {
       question: "What if I want female physiotherapists?",
-      answer: "Female physiotherapists are available at our JVC clinic. For back pain treatment, gender preference is accommodated when requested at booking. Particularly important for some cultural backgrounds and for some patient comfort preferences. All female-preferred patients are seen by female specialists for all back pain treatment."
+      answer: "Hafsina K K, our physiotherapist, is female. If you have a specific preference or concern, mention it when booking and we'll do our best to accommodate."
     },
     {
       question: "Do you treat post-surgical back pain?",
@@ -336,7 +295,7 @@ export const backPainPhysioLocation = {
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   image: "",
   alt: "Vedara Care back pain physiotherapy clinic JVC Dubai",
-  description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym for exercise progression, dry needling and shockwave therapy equipment, modern modalities, and accessibility for patients with acute pain. Serving JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai.",
+  description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym for exercise progression, dry needling equipment, modern modalities, and accessibility for patients with acute pain. Serving JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai.",
   buttonText: "Book Back Pain Assessment"
 };
 
@@ -346,10 +305,12 @@ export const backPainPhysioCTA = {
   title: "Evidence-based physiotherapy. Same-week appointments. JVC clinic.",
   description: "Whether your back pain is acute (recent onset, severe), chronic (long-standing, persistent), or recurring (intermittent flares), the first useful step is a 60-minute back pain physiotherapy assessment at our JVC clinic. We assess thoroughly, identify the specific pattern driving your pain, design an evidence-based treatment plan with realistic timeline, and typically provide your first treatment intervention the same session. Same-day appointments often available for severe acute presentations.",
   button1Text: "Book Back Pain Assessment",
+  primaryCTATrackingEvent: "click_book_back_pain",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
+  secondaryCTATrackingEvent: "click_whatsapp_back_pain",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20back%20pain%20physiotherapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 350 · Walking distance from Circle Mall, JVC · Evidence-based DPT-qualified physiotherapists · Insurance direct-billing · Same-day appointments for severe acute pain"
+  footer: "Initial assessment from AED 350 · Walking distance from Circle Mall, JVC · Evidence-based DPT-qualified physiotherapists · Insurance reimbursement support · Same-day appointments for severe acute pain"
 };
 
 export const backPainPhysioRelatedPages = {
@@ -486,17 +447,16 @@ export const backPainPhysioAcuteAndPricing = {
     title: "What back pain physiotherapy at our JVC clinic costs.",
     services: [
       { name: "Initial back pain assessment (60 minutes)", price: "AED 350" },
-      { name: "Follow-up physiotherapy session (45-60 minutes)", price: "AED 250" },
+      { name: "Follow-up physiotherapy session (45-60 minutes)", price: "AED 350" },
       { name: "Same-day urgent assessment (severe acute pain)", price: "AED 420" },
       { name: "Dry needling (add-on per session)", price: "AED 150" },
-      { name: "Shockwave therapy session (chronic patterns)", price: "AED 300" },
       { name: "Acute back pain package (8 sessions over 4-6 weeks)", price: "AED 1,800" },
       { name: "Chronic back pain programme (16 sessions over 8-12 weeks)", price: "AED 3,400" },
       { name: "Extended chronic care (24 sessions over 12-24 weeks)", price: "AED 4,800" },
-      { name: "Home physiotherapy session (when clinic travel impractical)", price: "AED 400" },
+      { name: "Home physiotherapy session (when clinic travel impractical)", price: "Coming soon" },
       { name: "Workplace ergonomic assessment (optional)", price: "AED 550" }
     ],
-    insuranceText: 'Insurance direct-billing with seven major insurers. Back pain physiotherapy is well-covered by most Dubai insurance plans with medical justification. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20back%20pain%20physiotherapy" target="_blank" rel="noopener noreferrer" class="text-[#C9A55A] hover:text-[#B8963E] font-medium transition-colors underline">WhatsApp your insurance card</a> before booking for specific coverage confirmation.',
-    insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
+    insuranceText: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy.',
+    insurances: []
   }
 };
