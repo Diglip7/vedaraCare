@@ -39,16 +39,16 @@ const SciaticaPhysiotherapyDubai = () => {
       "@type": ["MedicalBusiness", "LocalBusiness", "PhysicalTherapy"],
       "@id": "https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/#sciatica-physio",
       "name": "Vedara Care Sciatica Physiotherapy",
-      "alternateName": ["Vedara Sciatica Physio Dubai", "Vedara Care McKenzie Method JVC"],
+      "alternateName": ["Vedara Sciatica Physio Dubai"],
       "url": "https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/",
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
-      "description": "Specialist sciatica physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Credentialed MDT (McKenzie method) DPT-qualified physiotherapists treating disc herniation sciatica, piriformis syndrome, spinal stenosis, foraminal stenosis, and pregnancy sciatica. Evidence-based protocols with honest expectations. Walking distance from Circle Mall.",
+      "description": "Specialist sciatica physiotherapy at our JVC clinic, Dubai. Most sciatica resolves without surgery. Disc herniation, piriformis syndrome, spinal stenosis, pregnancy sciatica. Same-week appointments. Walking distance from Circle Mall.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 350 - AED 15,000",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
-        "addressLocality": "Jumeirah Village Circle",
+        "addressLocality": "Dubai",
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
@@ -60,17 +60,12 @@ const SciaticaPhysiotherapyDubai = () => {
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:00"
+          "closes": "22:00"
         }
       ],
+      "employee": {"@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"},
       "areaServed": [
         {"@type": "City", "name": "Dubai"},
         {"@type": "Place", "name": "Jumeirah Village Circle"},
@@ -94,14 +89,10 @@ const SciaticaPhysiotherapyDubai = () => {
       "isAcceptingNewPatients": true,
       "availableService": [
         {"@type": "MedicalProcedure", "name": "Sciatica Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "McKenzie Method (MDT)"},
         {"@type": "MedicalProcedure", "name": "Nerve Mobilisation"},
         {"@type": "MedicalProcedure", "name": "Manual Therapy"},
         {"@type": "MedicalProcedure", "name": "Dry Needling"},
-        {"@type": "MedicalProcedure", "name": "Piriformis Syndrome Treatment"},
-        {"@type": "MedicalProcedure", "name": "Disc Herniation Conservative Treatment"},
-        {"@type": "MedicalProcedure", "name": "Spinal Stenosis Management"},
-        {"@type": "MedicalProcedure", "name": "Pregnancy Sciatica Treatment"}
+        {"@type": "MedicalProcedure", "name": "Piriformis Syndrome Treatment"}
       ],
       "memberOf": {
         "@type": "Organization",
@@ -109,8 +100,8 @@ const SciaticaPhysiotherapyDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "250",
+        "ratingValue": "4.5",
+        "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -124,7 +115,7 @@ const SciaticaPhysiotherapyDubai = () => {
           "alternateName": ["Lumbar Radiculopathy", "Sciatic Nerve Pain"],
           "code": {"@type": "MedicalCode", "code": "M54.3", "codingSystem": "ICD-10"},
           "possibleTreatment": [
-            {"@type": "MedicalProcedure", "name": "McKenzie Method"},
+            {"@type": "MedicalProcedure", "name": "Targeted Exercise"},
             {"@type": "MedicalProcedure", "name": "Nerve Mobilisation"},
             {"@type": "MedicalProcedure", "name": "Manual Therapy"},
             {"@type": "MedicalProcedure", "name": "Dry Needling"}
@@ -174,7 +165,7 @@ const SciaticaPhysiotherapyDubai = () => {
         {"@type": "City", "name": "Dubai"},
         {"@type": "Place", "name": "United Arab Emirates"}
       ],
-      "serviceType": "Sciatica Physiotherapy and McKenzie Method Treatment",
+      "serviceType": "Sciatica Physiotherapy Treatment",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Sciatica Physiotherapy Services",
@@ -184,7 +175,7 @@ const SciaticaPhysiotherapyDubai = () => {
             "name": "Initial Sciatica Assessment",
             "priceCurrency": "AED",
             "price": "350",
-            "description": "60-minute comprehensive sciatica assessment with Credentialed MDT specialist"
+            "description": "60-minute comprehensive sciatica assessment"
           },
           {
             "@type": "Offer",
@@ -240,14 +231,15 @@ const SciaticaPhysiotherapyDubai = () => {
     },
     {
       "@context": "https://schema.org",
-      "@type": "MedicalScholarlyArticle",
+      "@type": "MedicalWebPage",
       "headline": "Physiotherapy for Sciatica in Dubai — Complete Treatment Guide",
       "image": "https://vedaracare.ae/images/sciatica-physiotherapy-dubai-hero.jpg",
       "datePublished": currentDate,
       "dateModified": currentDate,
       "author": {
-        "@type": "Physician",
-        "name": "Dr. Sarah Al-Mansoori, DPT"
+        "@type": "Person",
+        "name": "Hafsina K K",
+        "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/"
       },
       "publisher": {
         "@type": "Organization",
@@ -260,14 +252,14 @@ const SciaticaPhysiotherapyDubai = () => {
       ],
       "mainEntityOfPage": "https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/"
     },
-    ...sciaticaPhysioTeam.team.map(member => ({
+    ...sciaticaPhysioTeam.members.map(member => ({
       "@context": "https://schema.org",
       "@type": "Physician",
       "name": member.name,
-      "url": `https://vedaracare.ae/physiotherapists/${member.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}/`,
+      "url": `https://vedaracare.ae${member.link || ''}`,
       "image": member.image || "",
       "medicalSpecialty": ["Physiotherapy", "Spinal Rehabilitation", "Manual Therapy"],
-      "hasCredential": ["DPT", "Credentialed MDT (McKenzie)", "Dry Needling Certified", "DHA-Licensed"],
+      "hasCredential": ["DHA-Licensed", "Dry Needling Certified"],
       "worksFor": {"@id": "https://vedaracare.ae/#organization"}
     }))
   ]) : '';
@@ -275,12 +267,12 @@ const SciaticaPhysiotherapyDubai = () => {
   return (
     <>
       <Head>
-        <title>Physiotherapy for Sciatica in Dubai | McKenzie Method | Vedara JVC</title>
-        <meta name="description" content="Specialist sciatica physiotherapy at our JVC clinic, Dubai. McKenzie method certified DPT specialists. Most sciatica resolves without surgery. Disc herniation, piriformis syndrome, spinal stenosis, pregnancy sciatica. Same-week appointments. Walking distance from Circle Mall." />
+        <title>Sciatica Physiotherapy in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Specialist sciatica physiotherapy at our JVC clinic, Dubai. Most sciatica resolves without surgery. Disc herniation, piriformis syndrome, spinal stenosis, pregnancy sciatica. Same-week appointments. Walking distance from Circle Mall." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         
-        <meta property="og:title" content="Physiotherapy for Sciatica in Dubai — McKenzie Method Certified | Vedara Care JVC" />
-        <meta property="og:description" content="Most sciatica resolves without surgery. Specialist McKenzie method physiotherapy at our Jumeirah Village Circle clinic for disc herniation, piriformis syndrome, spinal stenosis, and pregnancy sciatica. Credentialed MDT DPT specialists. Honest realistic expectations." />
+        <meta property="og:title" content="Sciatica Physiotherapy in JVC, Dubai | Vedara Care" />
+        <meta property="og:description" content="Specialist sciatica physiotherapy at our JVC clinic, Dubai. Most sciatica resolves without surgery. Disc herniation, piriformis syndrome, spinal stenosis, pregnancy sciatica. Same-week appointments. Walking distance from Circle Mall." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/sciatica-physiotherapy-dubai.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/" />
         <meta property="og:type" content="business.business" />
@@ -301,8 +293,11 @@ const SciaticaPhysiotherapyDubai = () => {
       )}
       
       <div className="sciatica-physiotherapy-page">
-        <AyurvedaHero {...sciaticaPhysioHero}
-        bgColor='bg-[#F8F5EE]'
+        <AyurvedaHero
+          {...sciaticaPhysioHero}
+          bgColor='bg-[#F8F5EE]'
+          primaryCTATrackingEvent={{ event: 'generate_lead', lead_type: 'booking_click', service: 'sciatica_physiotherapy' }}
+          secondaryCTATrackingEvent={{ event: 'click_whatsapp' }}
         />
         <AyurvedaIntro {...sciaticaPhysioIntro} />
          <SciaticaTreatment data={sciaticaPhysioInfo} showBorderLeft={false} rightContentStyle="list" bgColor='bg-[#F0EBE3]' />
@@ -316,7 +311,11 @@ const SciaticaPhysiotherapyDubai = () => {
         <FAQ {...sciaticaPhysioFaqs} 
         bgColor='bg-[#F2EDE5]'/>
         <TreatmentLocation {...sciaticaPhysioLocation} />
-        <FinalCTA {...sciaticaPhysioCTA} />
+        <FinalCTA
+          {...sciaticaPhysioCTA}
+          primaryCTATrackingEvent={{ event: 'generate_lead', lead_type: 'booking_click', service: 'sciatica_physiotherapy' }}
+          secondaryCTATrackingEvent={{ event: 'click_whatsapp' }}
+        />
         <RelatedPages {...sciaticaPhysioRelatedPages} />
       </div>
     </>

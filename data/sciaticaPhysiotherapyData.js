@@ -4,16 +4,16 @@ export const sciaticaPhysioHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Sciatica Physiotherapy in Dubai", active: true }
   ],
-  label: "PHYSIOTHERAPY FOR SCIATICA · DHA-LICENSED 2509266 · JVC CLINIC",
-  title: "Physiotherapy for sciatica in Dubai. Most sciatica resolves without surgery.",
-  description: "Specialist sciatica physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists with specific McKenzie method expertise for sciatica from disc herniation, disc bulges, piriformis syndrome, and spinal stenosis. Most sciatica patients respond to evidence-based physiotherapy without requiring injections or surgery.",
+  label: "PHYSIOTHERAPY FOR SCIATICA · DHA-LICENSED · JVC CLINIC",
+  title: "Physiotherapy for sciatica in JVC. Most sciatica resolves without surgery.",
+  description: "Specialist sciatica physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed physiotherapists with specific expertise in treating sciatica from disc herniation, disc bulges, piriformis syndrome, and spinal stenosis. Most sciatica patients respond to evidence-based physiotherapy without requiring injections or surgery.",
   primaryCTA: "Book Sciatica Assessment",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20sciatica%20physiotherapy%20and%20book%20a%20consultation.",
   trustSignals: [
-    "McKenzie method certified",
-    "250+ sciatica patients treated",
+    "DHA-Licensed Physiotherapist",
+    "Evidence-based protocols",
     "Same-week appointments",
     "Walking distance from Circle Mall"
   ],
@@ -28,38 +28,21 @@ export const sciaticaPhysioHero = {
 export const sciaticaPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Sciatica physiotherapy at Vedara Care, in one paragraph.",
-  blockquote: 'Sciatica physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DPT-qualified physiotherapists with McKenzie method certification. Sciatica refers to radiating leg pain caused by irritation of the sciatic nerve or its contributing nerve roots, typically from disc herniation, disc bulges, foraminal stenosis, piriformis syndrome, or spinal stenosis. Most sciatica (approximately 80–90% in research populations) resolves with appropriate conservative treatment within 6–12 weeks without requiring surgery. Our approach combines McKenzie method (Mechanical Diagnosis and Therapy) — the most evidence-supported intervention for disc-related sciatica — specific nerve mobilisation techniques, manual therapy for associated muscle and joint dysfunction, targeted exercise prescription, dry needling for chronic muscle patterns including piriformis-related sciatica, and patient education about the condition. Initial assessment from AED 350; structured sciatica programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. Insurance direct-billing with seven major insurers.',
-  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, DPT, Credentialed MDT (McKenzie), DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: 'Sciatica physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by a DHA-licensed physiotherapist. Sciatica refers to radiating leg pain caused by irritation of the sciatic nerve or its contributing nerve roots, typically from disc herniation, disc bulges, foraminal stenosis, piriformis syndrome, or spinal stenosis. Most sciatica (approximately 80–90% in research populations) resolves with appropriate conservative treatment within 6–12 weeks without requiring surgery. Our approach combines specific nerve mobilisation techniques, manual therapy for associated muscle and joint dysfunction, targeted exercise prescription, dry needling for chronic muscle patterns including piriformis-related sciatica, and patient education about the condition. Initial assessment from AED 350; structured sciatica programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. Insurance reimbursement support available for major insurers.',
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
 export const sciaticaPhysioReviews = {
-  label: "PATIENT STORIES",
-  title: "Real sciatica recoveries.",
+  label: "PATIENT OUTCOMES",
+  title: "Sciatica recovery statistics.",
   bgColor: "bg-white",
   cardBgColor: "bg-[#F8F5F0]",
   isDarkText: true,
-  items: [
-    {
-      quote: "Disc herniation at L5-S1 with sciatica radiating to my foot. Severe pain, difficulty walking, considering whether to consult about surgery. The McKenzie assessment at Vedara identified my directional preference within the first two sessions. Two weeks of specific exercises and leg pain was 70% better. Twelve weeks later, full resolution, returned to running. Three years on, no recurrence.",
-      author: "James M.",
-      details: "Disc Herniation Sciatica · 12-Week Programme · Sports City resident · February 2026"
-    },
-    {
-      quote: "Chronic recurring sciatica for five years. Each episode worse than the last. Tried various clinics, generic 'core exercises', home manual therapy without lasting effect. Vedara identified piriformis involvement that previous treatment had missed. Eight weeks of dry needling and specific programmes, sciatica resolved. Two years later, no recurrence.",
-      author: "Priya R.",
-      details: "Piriformis-Related Sciatica · 8-Week Programme · Dubai Hills resident · January 2026"
-    },
-    {
-      quote: "Third-trimester pregnancy sciatica. Severe pain on left side, difficulty walking, unable to work. Female physiotherapist at Vedara provided pregnancy-appropriate treatment: manual therapy with modified positions, appropriate exercises. Substantial relief within four sessions, manageable throughout remaining pregnancy. Postnatal recovery completed by week eight after delivery.",
-      author: "Sarah K.",
-      details: "Pregnancy Sciatica · 6-Week Pregnancy + 4-Week Postnatal · JVT resident · March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.9", label: "stars on Google" },
-    { value: "250+", label: "sciatica patients treated" },
-    { value: "92%", label: "report significant improvement within 12 weeks" },
-    { value: "<5%", label: "required eventual surgery" }
+    { value: "4.5", label: "stars on Google" },
+    { value: "75-90%", label: "achieve substantial improvement in research populations" },
+    { value: "<5%", label: "require surgery" }
   ],
   buttonText: "READ ALL SCIATICA REVIEWS",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai"
@@ -67,49 +50,19 @@ export const sciaticaPhysioReviews = {
 
 export const sciaticaPhysioTeam = {
   label: "THE TEAM",
-  title: "Sciatica specialists at our JVC clinic.",
-  description: "Our senior physiotherapists hold McKenzie method certification (Credentialed MDT or Diploma MDT) — the gold standard qualification for disc-related sciatica treatment. This specific training matters meaningfully for sciatica outcomes.",
+  title: "Sciatica specialist at our JVC clinic.",
+  description: "Our senior physiotherapist has extensive experience in assessing and treating disc-related sciatica and piriformis syndrome with evidence-based protocols.",
   bgColor: "bg-[#F8F5F0]",
-  team: [
+  members: [
     {
-      name: "Dr. Sarah Al-Mansoori",
-      qualification: "DPT, Credentialed MDT, DHA-Licensed",
-      specialties: ["McKenzie Method", "Disc Herniation", "Manual Therapy", "Nerve Mobilisation"],
-      experience: "Lead physiotherapist with 11 years treating complex sciatica. Credentialed MDT certified, DHA-licensed.",
-      languages: ["English", "Arabic"],
-      image: "/images/dr-sarah-al-mansoori.webp",
-      alt: "Dr. Sarah Al-Mansoori Credentialed MDT sciatica specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-sarah-al-mansoori/"
-    },
-    {
-      name: "Dr. James Thornton",
-      qualification: "DPT, Diploma MDT, DHA-Licensed",
-      specialties: ["McKenzie Method", "Dry Needling", "Manual Therapy", "Sports Science"],
-      experience: "Diploma MDT qualification — gold standard certification — and specialist in sports-related and disc herniation sciatica.",
-      languages: ["English", "French"],
-      image: "/images/dr-james-thornton.webp",
-      alt: "Dr. James Thornton Credentialed MDT sciatica specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-james-thornton/"
-    },
-    {
-      name: "Dr. Aisha Rahman",
-      qualification: "DPT, Credentialed MDT, DHA-Licensed",
-      specialties: ["Piriformis Syndrome", "Nerve Mobilisation", "Manual Therapy", "Prenatal Postpartum"],
-      experience: "Specialist in pregnancy-related sciatica and piriformis syndrome. Female physiotherapist available for patient preferences.",
-      languages: ["English", "Arabic", "Urdu"],
-      image: "/images/dr-aisha-rahman.webp",
-      alt: "Dr. Aisha Rahman Credentialed MDT sciatica specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-aisha-rahman/"
-    },
-    {
-      name: "Dr. Marco Vieira",
-      qualification: "DPT, Credentialed MDT, DHA-Licensed",
-      specialties: ["Spinal Stenosis", "Foraminal Stenosis", "Manual Therapy", "Chronic Sciatica"],
-      experience: "Specialist in chronic sciatica and complex spinal patterns. Experienced with neuro-musculoskeletal presentations.",
-      languages: ["English", "Portuguese", "Spanish"],
-      image: "/images/dr-marco-vieira.webp",
-      alt: "Dr. Marco Vieira Credentialed MDT sciatica specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-marco-vieira/"
+      name: "Hafsina K K, DHA-Licensed Physiotherapist",
+      qualification: "DHA-P 64812828",
+      specialties: ["Orthopedic Rehabilitation", "Spinal Rehabilitation", "Manual Therapy", "Nerve Mobilisation"],
+      experience: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
+      languages: ["English", "Hindi", "Malayalam", "Arabic"],
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K sciatica physiotherapist Vedara Care JVC Dubai",
+      link: "/doctors/hafsina-kk-physiotherapist/"
     }
   ]
 };
@@ -126,15 +79,11 @@ export const sciaticaPhysioFaqs = {
   faqs: [
     {
       question: "Will my sciatica resolve without surgery?",
-      answer: "For most sciatica patients, yes. Research shows 75–90% of sciatica patients achieve substantial improvement with appropriate conservative treatment within 6–12 weeks. Approximately 5–10% ultimately require surgery — typically those who fail to improve with conservative care, those with progressive neurological deficits, or those with red flag features. Specific physiotherapy approaches like McKenzie method substantially improve the likelihood of non-surgical resolution."
+      answer: "For most sciatica patients, yes. Research shows 75–90% of sciatica patients achieve substantial improvement with appropriate conservative treatment within 6–12 weeks. Approximately 5–10% ultimately require surgery — typically those who fail to improve with conservative care, those with progressive neurological deficits, or those with red flag features. Specific evidence-based physiotherapy approaches substantially improve the likelihood of non-surgical resolution."
     },
     {
       question: "How long does sciatica take to heal with physiotherapy?",
-      answer: "Variable based on cause and severity. Disc herniation sciatica with directional preference often shows substantial improvement within 2–4 weeks of McKenzie treatment. Full resolution typically 6–12 weeks. Chronic sciatica patterns may need 12–20 weeks. Spinal stenosis-related sciatica may require ongoing management rather than complete resolution. At initial assessment, you receive a specific timeline estimate for your presentation."
-    },
-    {
-      question: "What is the McKenzie method and why does it matter for sciatica?",
-      answer: "McKenzie Method (Mechanical Diagnosis and Therapy or MDT) is the most evidence-supported intervention for disc-related sciatica. The method identifies movements that 'centralise' your pain — move it from your leg toward your back, which indicates recovery. Many patients with significant sciatica experience substantial improvement within 1–2 weeks when McKenzie treatment is appropriate. Our senior physiotherapists hold Credentialed MDT or Diploma MDT certification — the gold standard qualification."
+      answer: "Variable based on cause and severity. Disc herniation sciatica with directional preference often shows substantial improvement within 2–4 weeks of targeted treatment. Full resolution typically 6–12 weeks. Chronic sciatica patterns may need 12–20 weeks. Spinal stenosis-related sciatica may require ongoing management rather than complete resolution. At initial assessment, you receive a specific timeline estimate for your presentation."
     },
     {
       question: "Do I need an MRI before physiotherapy for sciatica?",
@@ -158,15 +107,15 @@ export const sciaticaPhysioFaqs = {
     },
     {
       question: "What if I have severe sciatica and cannot get to the clinic?",
-      answer: "Patients with severe acute sciatica who cannot easily travel can have <a href='/physiotherapy-at-home-dubai/' class='text-[#1C3D2E] hover:underline'>home physiotherapy</a>. Particularly common in the first 1–2 weeks of severe acute presentations. Home physiotherapy helps with initial pain management, initial assessment, and beginning treatment; most patients transition to clinic visits within 2–4 weeks as mobility improves. Home physiotherapy is AED 400 per session including therapist travel time."
+      answer: "Patients with severe acute sciatica who cannot easily travel will soon have access to <a href='/physiotherapy-at-home-dubai/' class='text-[#1C3D2E] hover:underline'>home physiotherapy</a> (coming soon). Particularly common in the first 1–2 weeks of severe acute presentations, home physiotherapy helps with initial pain management and beginning treatment."
     },
     {
       question: "Does insurance cover sciatica physiotherapy?",
-      answer: 'Most Dubai insurance plans cover sciatica physiotherapy with documented medical justification. Coverage typically substantial given the documented disability impact. Extended programmes may require pre-authorisation. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm specific coverage.'
+      answer: 'Most Dubai insurance plans cover sciatica physiotherapy on a reimbursement basis with documented medical justification. Coverage is typically substantial given the documented disability impact. Extended programmes may require pre-authorisation. We provide all necessary documentation for you to submit to your insurer. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm specific coverage.'
     },
     {
       question: "Will lying down help my sciatica?",
-      answer: "For some patients yes, for others no. The directional preference assessment in McKenzie method identifies what specifically helps your sciatica. Some patients improve with extension positions (lying on stomach), some with flexion positions (knees to chest), some with neutral lying. Some patients actually improve with movement and walking. Generic advice about 'rest your back' can be unhelpful — pattern-specific guidance is what produces results."
+      answer: "For some patients yes, for others no. A comprehensive assessment identifies what specifically helps your sciatica. Some patients improve with extension positions (lying on stomach), some with flexion positions (knees to chest), some with neutral lying. Some patients actually improve with movement and walking. Generic advice about 'rest your back' can be unhelpful — pattern-specific guidance is what produces results."
     },
     {
       question: "Can I exercise with sciatica?",
@@ -182,7 +131,7 @@ export const sciaticaPhysioFaqs = {
     },
     {
       question: "What if my sciatica has not responded to other physiotherapy?",
-      answer: "Sciatica that has not responded to previous physiotherapy is one of our specialised areas. Common reasons for previous treatment failure: directional preference was not identified (McKenzie method requires specific assessment skills), the wrong pattern was diagnosed (piriformis syndrome misdiagnosed as disc-related), generic protocols applied without pattern-specific adjustment, or insufficient treatment duration. Our assessment identifies what may have been missed."
+      answer: "Sciatica that has not responded to previous physiotherapy is one of our specialised areas. Common reasons for previous treatment failure: directional preference was not identified, the wrong pattern was diagnosed (piriformis syndrome misdiagnosed as disc-related), generic protocols applied without pattern-specific adjustment, or insufficient treatment duration. Our assessment identifies what may have been missed."
     },
     {
       question: "What about epidural injections for sciatica?",
@@ -198,7 +147,7 @@ export const sciaticaPhysioFaqs = {
     },
     {
       question: "How is sciatica physiotherapy at Vedara different from other Dubai clinics?",
-      answer: "Specific McKenzie method certification (Credentialed MDT or Diploma MDT) — the gold standard sciatica qualification that most Dubai physiotherapy clinics do not have. Detailed pattern-specific assessment (not generic sciatica protocols). Longer sessions (60 minutes) allowing thorough assessment and treatment. Same therapist throughout treatment for continuity. Honest realistic timeline expectations. Transparent published pricing. Specialised expertise in piriformis syndrome and pregnancy sciatica."
+      answer: "Detailed pattern-specific assessment (not generic sciatica protocols). Longer sessions (60 minutes) allowing thorough assessment and treatment. Same therapist throughout treatment for continuity. Honest realistic timeline expectations. Transparent published pricing. Specialised expertise in piriformis syndrome and pregnancy sciatica."
     },
     {
       question: "How do I book a sciatica physiotherapy assessment?",
@@ -250,7 +199,7 @@ export const sciaticaPhysioCTA = {
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20sciatica%20physiotherapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 350 · McKenzie certified specialists · Walking distance from Circle Mall, JVC · Patients across Dubai · Insurance direct-billing with seven major insurers"
+  footer: "Initial assessment from AED 350 · Evidence-based specialists · Walking distance from Circle Mall, JVC · Patients across Dubai · Insurance reimbursement support"
 };
 
 export const sciaticaPhysioTypes = {
@@ -262,7 +211,7 @@ export const sciaticaPhysioTypes = {
     {
       number: "01",
       title: "Disc Herniation Sciatica",
-      description: "The most common cause of sciatica in patients under 50. A disc protrudes or extrudes beyond its normal boundaries, compressing or irritating the adjacent nerve root. Pain often follows specific movements or positions. Highly responsive to McKenzie method when patients have a directional preference — a specific movement that reduces or 'centralises' their pain.",
+      description: "The most common cause of sciatica in patients under 50. A disc protrudes or extrudes beyond its normal boundaries, compressing or irritating the adjacent nerve root. Pain often follows specific movements or positions. Highly responsive to targeted physiotherapy when patients have a directional preference — a specific movement that reduces or 'centralises' their pain.",
       typicalSigns: [
         "Sudden onset, gradual onset, often related to lifting or bending/rotational/twisting movements, Classic directional preference for certain positions",
         "Typical recovery: 4–12 weeks"
@@ -376,17 +325,17 @@ export const sciaticaPhysioPricing = {
   title: "What sciatica physiotherapy at our JVC clinic costs.",
   services: [
     { name: "Initial sciatica assessment (60 minutes)", price: "AED 350" },
-    { name: "Follow-up physiotherapy session (45-60 minutes)", price: "AED 250" },
-    { name: "Same-week priority appointment", price: "AED 275" },
+    { name: "Follow-up physiotherapy session (45-60 minutes)", price: "AED 350" },
+    { name: "Same-week priority appointment", price: "AED 350" },
     { name: "Dry needling (add-on per session)", price: "AED 150" },
-    { name: "Acute sciatica package — 10 sessions over 6-8 weeks", price: "AED 2,200", highlight: true },
-    { name: "Chronic sciatica programme — 16 sessions over 8-12 weeks", price: "AED 3,400", highlight: true },
-    { name: "Extended chronic sciatica care — 24 sessions over 12-20 weeks", price: "AED 4,800" },
-    { name: "Pregnancy sciatica programme (6 sessions)", price: "AED 1,350" },
-    { name: "Home physiotherapy for severe acute sciatica", price: "AED 400/session" }
+    { name: "Acute sciatica package — 10 sessions over 6-8 weeks", price: "AED 2,800", highlight: true },
+    { name: "Chronic sciatica programme — 16 sessions over 8-12 weeks", price: "AED 4,200", highlight: true },
+    { name: "Extended chronic sciatica care — 24 sessions over 12-20 weeks", price: "AED 6,000" },
+    { name: "Pregnancy sciatica programme (6 sessions)", price: "AED 1,800" },
+    { name: "Home physiotherapy for severe acute sciatica", price: "Coming Soon" }
   ],
-  insuranceText: 'Sciatica physiotherapy is well covered by most Dubai insurance plans with medical justification (often substantial coverage given the documented disability impact). <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20sciatica%20physiotherapy" target="_blank" rel="noopener noreferrer" class="text-[#C9A84C] hover:text-[#B8860B] font-medium transition-colors underline">WhatsApp your insurance card</a> before booking for specific coverage confirmation.',
-  insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
+  insuranceText: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20sciatica%20physiotherapy" target="_blank" rel="noopener noreferrer" class="text-[#C9A84C] hover:text-[#B8860B] font-medium transition-colors underline">WhatsApp your insurance card</a> before booking to confirm coverage.',
+  // insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
 };
 
 export const sciaticaPhysioTreatment = {
@@ -401,8 +350,8 @@ export const sciaticaPhysioTreatment = {
         bullets: []
       },
       {
-        title: "McKenzie Method (MDT) for disc-related sciatica",
-        description: "The Mechanical Diagnosis and Therapy approach developed by Robin McKenzie is the most evidence-supported intervention for disc-related sciatica. The method identifies your directional preference — a specific movement that reduces or 'centralises' your pain — move it from your leg toward your back. Patients with disc-related sciatica experience substantial relief within weeks of McKenzie treatment when directional preference is found.",
+        title: "Targeted exercise for disc-related sciatica",
+        description: "Evidence-supported interventions for disc-related sciatica involve identifying your directional preference — a specific movement that reduces or 'centralises' your pain, moving it from your leg toward your back. Patients with disc-related sciatica experience substantial relief within weeks of targeted treatment when directional preference is found.",
         bullets: []
       },
       {
@@ -422,7 +371,7 @@ export const sciaticaPhysioTreatment = {
       },
       {
         title: "Specific exercise prescription",
-        description: "Beyond McKenzie method exercises, structured exercise programmes address the underlying factors contributing to sciatica — deep stabiliser strength, hip mobility, hamstring flexibility, postural patterns. Exercises are matched to your specific pattern and progressed as you improve.",
+        description: "Structured exercise programmes address the underlying factors contributing to sciatica — deep stabiliser strength, hip mobility, hamstring flexibility, postural patterns. Exercises are matched to your specific pattern and progressed as you improve.",
         bullets: []
       },
       {
@@ -431,12 +380,12 @@ export const sciaticaPhysioTreatment = {
         bullets: []
       }
     ],
-    footer: '"The McKenzie method, when applied correctly, can produce results in days that older approaches struggle to achieve in months. Pattern recognition matters."'
+    footer: '"Pattern-specific targeted physiotherapy can produce results in weeks that generic approaches struggle to achieve in months. Pattern recognition matters."'
   },
   rightContent: {
     image: "/images/sciatica-mckenzie-method-vedara-jvc.webp",
-    alt: "McKenzie method sciatica physiotherapy at Vedara Care JVC Dubai",
-    tags: ["McKenzie Method", "Nerve Mobilisation", "Manual Therapy", "Dry Needling", "Exercise Prescription", "Patient Education"]
+    alt: "Sciatica physiotherapy at Vedara Care JVC Dubai",
+    tags: ["Evidence-Based", "Nerve Mobilisation", "Manual Therapy", "Dry Needling", "Exercise Prescription", "Patient Education"]
   }
 };
 
@@ -464,7 +413,7 @@ export const sciaticaPhysioRelatedPages = {
     {
       title: "Neck Pain Physiotherapy",
       description: "Similar problem-aware educational approach for cervical spine conditions. Same evidence-based clinic, different spinal region.",
-      href: "/physiotherapy/neck-pain-physiotherapy-jvc/"
+      href: "/conditions/neck-pain-physiotherapy-jvc/"
     }
   ]
 };
@@ -524,7 +473,7 @@ export const sciaticaPhysioTimeline = {
         leftItems: [
 
           "Comprehensive initial assessment identifying your specific pattern",
-          "McKenzie method assessment and intervention if appropriate",
+          "Targeted assessment and intervention if appropriate",
           "Activity modification guidance",
           "Frequency: typically 2–3 sessions per week"
         ],
