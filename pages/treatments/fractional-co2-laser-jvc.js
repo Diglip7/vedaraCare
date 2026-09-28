@@ -406,7 +406,7 @@ const FractionalCO2Laser = () => {
           { subtitle: '', description: co2LaserSessionsNeeded.description },
           ...co2LaserSessionsNeeded.factors.map((f, i) => ({
             subtitle: '',
-            description: `”¢ ${f}`
+            description: `”· ${f}`
           }))
         ]}
         sidebar={{

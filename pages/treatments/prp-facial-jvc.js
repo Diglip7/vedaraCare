@@ -311,7 +311,7 @@ const PrpFacialJvc = () => {
       {/* Section 1 - Hero */}
       <AyurvedaHero
         bgColor='white'
-        label="PHYSICIAN-DELIVERED ”¢ DHA-LICENSED"
+        label="PHYSICIAN-DELIVERED ”· DHA-LICENSED"
         title={"PRP Facial Treatment\nin Jumeirah Village\nCircle (JVC), Dubai"}
         description="Physician-delivered autologous Platelet-Rich Plasma protocol at Vedara Care JVC — blood-derived regenerative therapy by our DHA-Licensed Consultant Dermatologist, with integrated pre and post care from our aesthetic team.<br/><br/>PRP is derived from your own blood, centrifuged to concentrate platelets carrying growth factor cargo (PDGF, VEGF, TGF-Î², EGF, IGF), and re-delivered via injection or microneedling adjunct by our Medical Director. This is a medical procedure with a clear physician-scope delivery framework."
         image="prp-facial-jvc-hero.webp"
@@ -325,7 +325,7 @@ const PrpFacialJvc = () => {
         ]}
         floatingCard={{
           title: "Vedara Care Polyclinic, JVC",
-          subtitle: "Medical Director (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>60-120 min per session<br/>Arabic ”¢ English ”¢ Hindi ”¢ Urdu"
+          subtitle: "Medical Director (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>60-120 min per session<br/>Arabic ”· English ”· Hindi ”· Urdu"
         }}
       />
 

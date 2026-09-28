@@ -1,4 +1,4 @@
-﻿export const homeFaqs = {
+export const homeFaqs = {
   label: "QUESTIONS, ANSWERED",
   title: "Everything patients ask before their first visit.",
   description: 'Short, honest answers from our clinical team. Cannot find what you are looking for? <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a>, usually answered in under 15 minutes.',

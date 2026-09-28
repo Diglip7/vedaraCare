@@ -15,7 +15,7 @@ export const mesotherapySEO = {
 
 export const mesotherapyHero = {
 
-  label: "PHYSICIAN-DELIVERED ”¢ DHA-LICENSED",
+  label: "PHYSICIAN-DELIVERED ”· DHA-LICENSED",
   title: "Mesotherapy Skin Revitalization\nin Jumeirah Village\nCircle (JVC), Dubai",
   description: "Physician-delivered mesotherapy protocol at Vedara Care JVC — custom-formulated micro-injections delivered by our DHA-Licensed Consultant Dermatologist to target dullness, early aging, and environmental stress.<br/><br/>A medical procedure emphasizing formulation transparency and precise delivery, supported by comprehensive skin analysis from our aesthetic team.",
   image: "mesotherapy-jvc-hero.webp",
@@ -29,7 +29,7 @@ export const mesotherapyHero = {
   ],
   floatingCard: {
     title: "Vedara Care Polyclinic, JVC",
-    subtitle: "Medical Director (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>45-75 min per session<br/>Arabic ”¢ English ”¢ Hindi ”¢ Urdu"
+    subtitle: "Medical Director (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>45-75 min per session<br/>Arabic ”· English ”· Hindi ”· Urdu"
   }
 };
 

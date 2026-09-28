@@ -351,7 +351,7 @@ export const thyroidBoundaries = {
 export const thyroidFaqs = {
   label: "FREQUENTLY ASKED QUESTIONS",
   title: "Common questions about Ayurvedic thyroid treatment in Dubai.",
-  description: `Short, honest answers from our clinical team. <br/><br/><strong>Further Reading:</strong><br/>”¢ <a href="/treatments/panchakarma-dubai/" class="text-[#184C3A] hover:underline">Read about Panchakarma</a><br/>”¢ <a href="/conditions/pcos-ayurveda-dubai/" class="text-[#184C3A] hover:underline">Read about Ayurveda for PCOS</a>`,
+  description: `Short, honest answers from our clinical team. <br/><br/><strong>Further Reading:</strong><br/>”· <a href="/treatments/panchakarma-dubai/" class="text-[#184C3A] hover:underline">Read about Panchakarma</a><br/>”· <a href="/conditions/pcos-ayurveda-dubai/" class="text-[#184C3A] hover:underline">Read about Ayurveda for PCOS</a>`,
   buttonText: "Ask the Clinical Team",
   buttonHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20ask%20a%20question%20about%20Ayurvedic%20thyroid%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   faqs: [

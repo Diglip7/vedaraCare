@@ -4,7 +4,7 @@ export const abhyangaHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Abhyanga Massage in Dubai", active: true }
   ],
-  label: "ABHYANGA OIL MASSAGE IN DUBAI ”¢ DHA-LICENSED 2509266",
+  label: "ABHYANGA OIL MASSAGE IN DUBAI ”· DHA-LICENSED 2509266",
   title: "Warm oil, two pairs of hands, ninety minutes of silence.",
   description: "Classical Abhyanga — the foundational full-body Ayurvedic oil massage performed by two synchronized therapists. Doctor-prescribed at our DHA-licensed Ayurveda clinic in JVC, Dubai. The treatment that changes how you sleep, move, and think.",
   primaryCTA: "Book Abhyanga Consultation",

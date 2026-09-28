@@ -150,7 +150,7 @@ export const ayurvedaFaqs = {
   faqs: [
     {
       question: "Is Ayurveda recognised and licensed in Dubai?",
-      answer: "Yes. Ayurveda is officially recognised by the Dubai Health Authority (DHA), which licenses both Ayurvedic clinics and individual Ayurvedic physicians. Every Ayurvedic doctor at Vedara Care Polyclinic holds an individual DHA professional license, displayed on their profile. Our clinic operates under DHA Healthcare Facility License XXXXX."
+      answer: "Yes. Ayurveda is officially recognised by the Dubai Health Authority (DHA), which licenses both Ayurvedic clinics and individual Ayurvedic physicians. Every Ayurvedic doctor at Vedara Care Polyclinic holds an individual DHA professional license, displayed on their profile. Our clinic operates under DHA Healthcare Facility License 2509266."
     },
     {
       question: "Are Ayurvedic doctors at Vedara Care properly qualified?",
@@ -766,7 +766,7 @@ export const dubaiHubGuidance = {
   checklist: [
     {
       title: "1. Is the clinic DHA-licensed for Ayurveda specifically?",
-      description: "A DHA Healthcare Facility License with Ayurveda listed as a specialty is non-negotiable. Ask for the license number. Verify it on the DHA Sheryan portal. Vedara Care operates under DHA License XXXXX with Ayurveda explicitly licensed."
+      description: "A DHA Healthcare Facility License with Ayurveda listed as a specialty is non-negotiable. Ask for the license number. Verify it on the DHA Sheryan portal. Vedara Care operates under DHA License 2509266 with Ayurveda explicitly licensed."
     },
     {
       title: "2. Are individual Ayurvedic doctors DHA-licensed?",

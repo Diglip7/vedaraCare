@@ -12,15 +12,15 @@ function walkDir(dir, callback) {
 const targetDir = 'c:/Users/pc/Documents/vedacare/vedaraCare/';
 let filesModified = 0;
 
-walkDir(targetDir, function(filePath) {
+walkDir(targetDir, function (filePath) {
   if (filePath.includes('node_modules') || filePath.includes('.next') || filePath.includes('.git')) return;
   if (filePath.endsWith('.js') || filePath.endsWith('.jsx')) {
     let content = fs.readFileSync(filePath, 'utf8');
     let original = content;
-    
+
     content = content.replace(/"ratingValue"\s*:\s*"4\.9"/g, '"ratingValue": "4.5"');
     content = content.replace(/"reviewCount"\s*:\s*"\d+"/g, '"reviewCount": "15"');
-    
+
     // UI components
     content = content.replace(/value:\s*['"]4\.9['"]/gi, 'value: "4.5"');
     content = content.replace(/value:\s*['"]4\.9★['"]/gi, 'value: "4.5"');
@@ -31,7 +31,7 @@ walkDir(targetDir, function(filePath) {
     // Also look for "19" in reviews if any
     content = content.replace(/label:\s*['"]19\s*stars on Google['"]/gi, 'label: "15 stars on Google"'); // Though it's probably "15 reviews"
     content = content.replace(/value:\s*['"]19['"],\s*label:\s*['"]reviews/gi, 'value: "15", label: "reviews');
-    
+
     if (content !== original) {
       fs.writeFileSync(filePath, content, 'utf8');
       filesModified++;

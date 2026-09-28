@@ -269,18 +269,18 @@ const StrokeRehabDubai = () => {
     // Schema 6 — Article
     {
       "@context": "https://schema.org",
-      "@type": "MedicalScholarlyArticle",
+      "@type": "Article",
       "headline": "Post-Stroke Rehabilitation in Dubai — Evidence-Based Treatment Guide",
       "image": "https://vedaracare.ae/images/stroke-rehab-dubai-hero.jpg",
       "datePublished": currentDate,
       "dateModified": currentDate,
       "author": {
-        "@type": "Physician",
-        "name": "Dr. Sarah Al-Mansoori, DPT"
+        "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Vedara Care Polyclinic"
+        "name": "Vedara Care Polyclinic",
+        "@id": "https://vedaracare.ae/#organization"
       },
       "about": [
         { "@type": "MedicalCondition", "name": "Stroke" },
@@ -288,17 +288,28 @@ const StrokeRehabDubai = () => {
       ],
       "mainEntityOfPage": "https://vedaracare.ae/conditions/stroke-rehab-dubai/"
     },
-    // Schema 7 — Physiotherapist (for each team member)
-    ...strokeRehabTeam.team.map(member => ({
+    // Schema 7 — Physiotherapist
+    {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "name": member.name,
-      "url": `https://vedaracare.ae/physiotherapists/${member.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}/`,
-      "image": member.image || "",
-      "medicalSpecialty": ["Physiotherapy", "Neurological Physiotherapy", "Stroke Rehabilitation"],
-      "hasCredential": ["DPT", "Neurorehabilitation Trained", "DHA-Licensed"],
+      "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician",
+      "name": "Hafsina K K",
+      "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/",
+      "image": "https://vedaracare.ae/images/hafsina-kk-physiotherapist-dubai.webp",
+      "medicalSpecialty": ["Neurological Physiotherapy", "Stroke Rehabilitation", "Orthopaedic Rehabilitation", "Physiotherapy"],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "DHA-Licensed Physiotherapist",
+          "identifier": "DHA-P 64812828",
+          "issuingAuthority": {
+            "@type": "GovernmentOrganization",
+            "name": "Dubai Health Authority"
+          }
+        }
+      ],
       "worksFor": { "@id": "https://vedaracare.ae/#organization" }
-    }))
+    }
     // Schema 8 — Organization is referenced via @id site-wide
   ]) : '';
 

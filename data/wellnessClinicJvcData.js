@@ -6,7 +6,7 @@ export const wellnessHero = {
     { label: "Services", href: "/services" },
     { label: "Wellness Clinic in JVC (Near Circle Mall)", active: true }
   ],
-  label: "WELLNESS CLINIC ”¢ DHA-LICENSED 2509266 ”¢ JUMEIRAH VILLAGE CIRCLE ”¢ WALKING DISTANCE FROM CIRCLE MALL",
+  label: "WELLNESS CLINIC ”· DHA-LICENSED 2509266 ”· JUMEIRAH VILLAGE CIRCLE ”· WALKING DISTANCE FROM CIRCLE MALL",
   title: "Wellness clinic in JVC. Jumeirah Village Circle's integrated wellness destination across Ayurveda, physiotherapy, dermatology, and home healthcare.",
   description: "Vedara Care Polyclinic is JVC's integrated wellness destination — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. DHA-licensed practitioners across Ayurveda, physiotherapy, dermatology, and home healthcare delivering comprehensive wellness care for JVC's residents, families, and professionals.",
   primaryCTA: "Book Wellness Consultation",

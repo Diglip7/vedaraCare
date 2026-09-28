@@ -448,17 +448,17 @@ export const physiotherapyJvcReviews = {
     {
       quote: "Torn ACL during a football game in Sports City. Vedara's post-surgical rehab programme had me running again in six months. The physiotherapy team was specific, evidence-based, and never let me cut corners on progression.",
       author: "— James M.",
-      details: "ACL Reconstruction Recovery<br />24-session programme ”¢ JVC District 12 ”¢ February 2026"
+      details: "ACL Reconstruction Recovery<br />24-session programme ”· JVC District 12 ”· February 2026"
     },
     {
       quote: "Three years of chronic neck pain. Multiple clinics in Dubai. Vedara was the first to combine proper manual therapy with home exercise that actually worked. Three months later — I sleep through the night without pain.",
       author: "— Sarah K.",
-      details: "Chronic Cervical Pain<br />14-session programme ”¢ Al Barsha South ”¢ January 2026"
+      details: "Chronic Cervical Pain<br />14-session programme ”· Al Barsha South ”· January 2026"
     },
     {
       quote: "Postnatal pelvic floor dysfunction after twin pregnancy. Found Vedara through their integrated postnatal programme. The pelvic floor work transformed my recovery. Female physiotherapist made all the difference.",
       author: "— Priya R.",
-      details: "Postnatal Pelvic Floor Recovery<br />12-session programme ”¢ Dubai Hills ”¢ March 2026"
+      details: "Postnatal Pelvic Floor Recovery<br />12-session programme ”· Dubai Hills ”· March 2026"
     }
   ],
   stats: [

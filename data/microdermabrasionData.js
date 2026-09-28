@@ -4,7 +4,7 @@ export const microdermabrasionHero = {
     { label: "Treatments", href: "/treatments/" },
     { label: "Microdermabrasion & Dermaplaning", active: true }
   ],
-  label: "AESTHETIC TREATMENTS ”¢ JVC ”¢ DUBAI",
+  label: "AESTHETIC TREATMENTS ”· JVC ”· DUBAI",
   title: "Microdermabrasion & Dermaplaning at our JVC clinic in Dubai — foundational manual exfoliation with immediate results.",
   description: "Two proven manual exfoliation modalities delivered inside a DHA-licensed polyclinic. Diamond-tip microdermabrasion for mechanical resurfacing with vacuum-assisted debris removal. Sterile-blade dermaplaning for surface exfoliation and vellus hair (peach fuzz) removal. Delivered by Arfah Owais, DHA-licensed aesthetician with CIBTAC-UK diploma and 8+ years of experience. Walking distance from Circle Mall in Jumeirah Village Circle.",
   primaryCTA: "Book Exfoliation Treatment",
@@ -382,7 +382,7 @@ export const microdermabrasionArfahProfile = {
   image: "/images/arfah-owais-portrait.webp",
   alt: "Arfah Owais DHA licensed aesthetician CIBTAC-UK Vedara Care JVC portrait",
   name: "Arfah Owais",
-  designation: "DHA-LICENSED AESTHETICIAN ”¢ CIBTAC-UK ”¢ 8+ YEARS EXPERIENCE",
+  designation: "DHA-LICENSED AESTHETICIAN ”· CIBTAC-UK ”· 8+ YEARS EXPERIENCE",
   paragraphs: [
     "Microdermabrasion and dermaplaning at Vedara Care JVC are delivered by Arfah Owais — DHA-licensed aesthetician with a CIBTAC-UK diploma (Confederation of International Beauty Therapy and Cosmetology, a UK gold-standard awarding body), NCLC certification, PMU certification, and 8+ years of hands-on clinical experience. Her approach starts with proper skin analysis and honest modality recommendation based on skin analysis findings — not upsell-driven. Multi-language: Arabic, English, Hindi, and Urdu. Female practitioner."
   ],

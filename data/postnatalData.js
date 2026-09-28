@@ -37,14 +37,14 @@ export const postnatalMechanism1 = {
   content: [
     "Modern obstetric care in Dubai — like in most countries — provides excellent prenatal and delivery care, then largely concludes maternal medical attention at the six-week postnatal check. Mothers are typically discharged with general advice to \"rest\" and \"see your GP if anything is wrong.\" For mothers without family support — which describes most expat mothers in Dubai — this care gap is profound.",
     "Classical Ayurvedic medicine takes the opposite view. The Sutika Paricharya — literally \"postpartum protocol\" — is a meticulously structured 42 to 45 day system described in detail in the Charaka Samhita (circa 300 BCE) and Sushruta Samhita (circa 600 BCE) that recognises postpartum as the most clinically important period in a woman's reproductive life. The framework includes:",
-    "”¢ <strong>Day-by-day and week-by-week dietary protocols</strong> — what to eat, when, in what form, with which spices and digestive supports. Foods change weekly as the postpartum body's Agni (digestive capacity) gradually restores.",
-    "”¢ <strong>Daily Abhyanga (postpartum massage)</strong> — warm medicated oil therapy beginning a few days after delivery, continuing daily for 10-45 days.",
-    "”¢ <strong>Internal medicines</strong> — specific Ayurvedic formulations for uterine involution, lactation support, digestive restoration, and constitutional balance.",
-    "”¢ <strong>Udar Bandhana (abdominal binding)</strong> — structured wrapping supporting muscle and tissue occlusion, particularly important post C-section.",
-    "”¢ <strong>Yoni Pichu</strong> — gentle intimate area care for perineal healing.",
-    "”¢ <strong>Sleep and rest protocols</strong> — recognising that postpartum sleep deprivation drives most postpartum complications.",
-    "”¢ <strong>Mental health and emotional support framework</strong> — classical texts describe postpartum mood patterns with surprising sophistication.",
-    "”¢ <strong>Mother-infant bonding optimisation</strong> — including support practices and family involvement guidance."
+    "”· <strong>Day-by-day and week-by-week dietary protocols</strong> — what to eat, when, in what form, with which spices and digestive supports. Foods change weekly as the postpartum body's Agni (digestive capacity) gradually restores.",
+    "”· <strong>Daily Abhyanga (postpartum massage)</strong> — warm medicated oil therapy beginning a few days after delivery, continuing daily for 10-45 days.",
+    "”· <strong>Internal medicines</strong> — specific Ayurvedic formulations for uterine involution, lactation support, digestive restoration, and constitutional balance.",
+    "”· <strong>Udar Bandhana (abdominal binding)</strong> — structured wrapping supporting muscle and tissue occlusion, particularly important post C-section.",
+    "”· <strong>Yoni Pichu</strong> — gentle intimate area care for perineal healing.",
+    "”· <strong>Sleep and rest protocols</strong> — recognising that postpartum sleep deprivation drives most postpartum complications.",
+    "”· <strong>Mental health and emotional support framework</strong> — classical texts describe postpartum mood patterns with surprising sophistication.",
+    "”· <strong>Mother-infant bonding optimisation</strong> — including support practices and family involvement guidance."
   ],
   quote: "Western postpartum care assumes mothers will recover spontaneously. Ayurveda assumes they will recover with proper care — and structures that care meticulously.",
   image: "/images/postpartum-abhyanga-home-vedara-dubai.webp",

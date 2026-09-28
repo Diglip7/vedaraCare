@@ -326,8 +326,8 @@ const defaultRelatedPages = (name, pages) => ({
 // =====================================================
 export const drPriyaNairTemplate = {
   ...drPriyaNair,
-  heroBadge: 'SENIOR AYURVEDIC PHYSICIAN ”¢ BAMS, MD',
-  heroStats: 'DHA-P-0048291 ”¢ 15+ years clinical experience',
+  heroBadge: 'SENIOR AYURVEDIC PHYSICIAN ”· BAMS, MD',
+  heroStats: 'DHA-P-0048291 ”· 15+ years clinical experience',
   pageTitle: 'Ayurvedic Doctor at our JVC clinic, Dubai.',
   firstName: 'Dr. Priya Nair',
   ratingText: '4.5 rated on Google',
@@ -1328,7 +1328,7 @@ export const ayurvedaConsultationData = {
       description: "Your doctor outlines a treatment plan: which therapies, which herbal medicines, which dietary corrections, and what realistic timeline to expect. You leave with clarity, not a sales pitch."
     }
   ],
-  footer: "First consultation duration: 45 to 60 minutes ”¢ From AED 350"
+  footer: "First consultation duration: 45 to 60 minutes ”· From AED 350"
 };
 
 export const drAnsiya = {

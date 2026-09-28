@@ -329,8 +329,7 @@ const SportsInjuryJvc = () => {
       "datePublished": "2026-06-01",
       "dateModified": currentDate,
       "author": {
-        "@type": "Physician",
-        "name": "Dr. Sarah Mitchell, DPT"
+        "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"
       },
       "publisher": {
         "@type": "Organization",
@@ -340,96 +339,20 @@ const SportsInjuryJvc = () => {
       },
       "mainEntityOfPage": "https://vedaracare.ae/physiotherapy/sports-injury-jvc/"
     },
-    // Team Physicians
+    // Team Physician
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "name": "Dr. Sarah Mitchell, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-sarah-mitchell/",
-      "image": "https://vedaracare.ae/images/dr-sarah-mitchell.jpg",
-      "medicalSpecialty": ["Sports Medicine", "Sports Physiotherapy", "Physiotherapy"],
+      "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician",
+      "name": "Hafsina K K",
+      "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/",
+      "image": "https://vedaracare.ae/images/hafsina-kk-physiotherapist-dubai.webp",
+      "medicalSpecialty": ["Sports Physiotherapy", "Orthopaedic Rehabilitation", "Neurological Physiotherapy", "Physiotherapy"],
       "hasCredential": [
         {
           "@type": "EducationalOccupationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": "DPT"
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "Sports Medicine Certification"
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "DHA-Licensed",
-          "issuingAuthority": {
-            "@type": "GovernmentOrganization",
-            "name": "Dubai Health Authority"
-          }
-        }
-      ],
-      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Rajan Mehta, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-rajan-mehta/",
-      "medicalSpecialty": ["Sports Medicine", "Sports Physiotherapy", "Physiotherapy"],
-      "hasCredential": [
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": "DPT"
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "DHA-Licensed",
-          "issuingAuthority": {
-            "@type": "GovernmentOrganization",
-            "name": "Dubai Health Authority"
-          }
-        }
-      ],
-      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Priya Nair, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-priya-nair/",
-      "medicalSpecialty": ["Sports Medicine", "Sports Physiotherapy", "Physiotherapy"],
-      "hasCredential": [
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": "DPT"
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "DHA-Licensed",
-          "issuingAuthority": {
-            "@type": "GovernmentOrganization",
-            "name": "Dubai Health Authority"
-          }
-        }
-      ],
-      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Carlos Fernandez, DPT",
-      "url": "https://vedaracare.ae/physiotherapists/dr-carlos-fernandez/",
-      "medicalSpecialty": ["Sports Medicine", "Sports Physiotherapy", "Physiotherapy"],
-      "hasCredential": [
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "Doctor of Physical Therapy",
-          "alternateName": "DPT"
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "DHA-Licensed",
+          "name": "DHA-Licensed Physiotherapist",
+          "identifier": "DHA-P 64812828",
           "issuingAuthority": {
             "@type": "GovernmentOrganization",
             "name": "Dubai Health Authority"

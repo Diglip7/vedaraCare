@@ -30,7 +30,7 @@ export const sportsPhysiotherapyIntro = {
   label: "THE QUICK ANSWER",
   title: "Sports injury physiotherapy at our JVC clinic, in one paragraph.",
   blockquote: "Sports injury physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialised treatment for active patients delivered by DPT-qualified physiotherapists with sports medicine certifications. We treat acute sports injuries (ankle sprains, hamstring strains, ACL injuries, rotator cuff injuries, meniscus tears), sport-specific injury patterns (padel elbow, runner's knee, gym overuse, tennis elbow, golf-related injuries), and provide post-surgical rehabilitation (ACL reconstruction, meniscus repair, rotator cuff repair). Treatment combines hands-on manual therapy, sport-specific exercise progression, biomechanical analysis, dry needling where appropriate, modalities (shockwave therapy for tendinopathies, IFC, ultrasound), and structured return-to-sport protocols designed to prevent re-injury. Single sessions from AED 350; sport-specific rehabilitation packages from AED 2,400. Patients travel to our JVC clinic from across Dubai including Sports City, Motor City, JVT, Al Barsha South, Marina, and Downtown. Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-  footer: "Medically reviewed by Dr. Sara Al-Mansoori, DPT, Sports Medicine Certified, DHA-Licensed 2509266 · Last updated June 2026"
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated June 2026"
 };
 
 export const sportsPhysiotherapyConditions = {
@@ -229,43 +229,15 @@ export const sportsPhysiotherapyTeam = {
   title: "Sports physiotherapy specialists at our JVC clinic.",
   team: [
     {
-      name: "Dr. Sarah Mitchell, DPT",
-      qualification: "DHA-Licensed · Sports Medicine Specialist",
-      specialties: ["Sports Physiotherapy", "Manual Therapy", "Dry Needling", "Return-to-Sport"],
-      experience: "Lead sports physiotherapist with 9 years of experience treating elite and recreational athletes across padel, running, and gym populations.",
-      image: "",
-      alt: "Dr. Sarah Mitchell, sports physiotherapist at Vedara Care JVC Dubai"
-    },
-    {
-      name: "Dr. Rajan Mehta, DPT",
-      qualification: "DHA-Licensed · ACL & Knee Rehabilitation",
-      specialties: ["ACL Rehab", "Biomechanics", "Football Injuries", "Shockwave Therapy"],
-      experience: "Specialist in post-surgical rehabilitation and knee injuries, with a particular focus on ACL reconstruction return-to-sport protocols.",
-      image: "",
-      alt: "Dr. Rajan Mehta, sports physiotherapist at Vedara Care JVC Dubai"
-    },
-
-    {
-      name: "Dr. Priya Nair, DPT",
-      qualification: "DHA-Licensed · Running & Biomechanical Analysis",
-      specialties: ["Running Injuries", "Gait Analysis", "Tendinopathies", "Padel Injuries"],
-      experience: "Expert in running biomechanics and gait analysis. Previously physiotherapist for the Dubai Marathon medical team.",
-      image: "",
-      alt: "Dr. Priya Nair, sports physiotherapist at Vedara Care JVC Dubai"
-    },
-
-
-    {
-      name: "Dr. Carlos Fernandez, DPT",
-      qualification: "DHA-Licensed · Gym & Performance Rehab",
-      specialties: ["CrossFit Injuries", "Strength Rehab", "Dry Needling", "Prevention"],
-      experience: "CrossFit Level 2 certified physiotherapist specialising in gym-related injuries and sports performance optimisation.",
-      image: "",
-      alt: "Dr. Carlos Fernandez, sports physiotherapist at Vedara Care JVC Dubai"
+      name: "Hafsina K K",
+      qualification: "DHA-Licensed Physiotherapist · DHA-P 64812828",
+      specialties: ["Sports Physiotherapy", "Orthopaedic Rehabilitation", "Manual Therapy", "Return-to-Sport"],
+      experience: "7 years of clinical experience across orthopaedic, neurological, sports, and women's health rehabilitation in India and the UAE. Delivers evidence-based sports rehabilitation at our JVC clinic.",
+      languages: ["English", "Malayalam", "Hindi"],
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K, DHA-Licensed Physiotherapist at Vedara Care JVC Dubai",
+      link: "/doctors/hafsina-kk-physiotherapist/"
     }
-
-
-
   ]
 };
 

@@ -325,7 +325,7 @@ export const kativastiHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Kativasti in Dubai", active: true }
   ],
-  label: "KATIVASTI FOR LOWER BACK PAIN ”¢ DHA-LICENSED 2509266",
+  label: "KATIVASTI FOR LOWER BACK PAIN ”· DHA-LICENSED 2509266",
   title: "A reservoir of warm medicated oil, held over the spine. The most targeted Ayurvedic therapy for chronic back pain.",
   description: "Classical Kativasti — a precise localised oil therapy where warm medicated oil is held over the lumbar spine in a custom dough reservoir for 30 to 45 minutes. Doctor-prescribed at our DHA-licensed Ayurveda clinic in JVC, Dubai, for <a href='/conditions/back-pain-ayurveda-dubai/' class=' hover:underline'>chronic back pain</a>, <a href='/conditions/sciatica-ayurveda-dubai/' class=' hover:underline'>sciatica</a>, and lumbar disc conditions.",
   primaryCTA: "Book a Kativasti Consultation",
@@ -352,7 +352,7 @@ export const kativastiIntro = {
   label: "THE QUICK ANSWER",
   title: "Kativasti in Dubai, in one paragraph.",
   blockquote: "Kativasti (à¤•à¤Ÿà¤¿à¤µà¤¸à¥à¤¤à¤¿) is a classical Ayurvedic therapy in which warm medicated oil is contained over the lumbar spine using a custom-shaped wheat-flour dough reservoir, held in place for 30 to 45 minutes per session. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Kativasti is doctor-prescribed by BAMS-qualified physicians for <a href='/conditions/back-pain-ayurveda-dubai/' class='text-[#C9A961] hover:underline'>chronic lower back pain</a>, <a href='/conditions/sciatica-ayurveda-dubai/' class='text-[#C9A961] hover:underline'>sciatica</a>, lumbar disc issues, and spinal stiffness — typically as a 7 or 14-session course alongside internal Ayurvedic medicines and integrated <a href='/physiotherapy-jvc/' class='text-[#C9A961] hover:underline'>physiotherapy</a>. Sessions start from AED 450.",
-  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266 ”¢ Last updated May 2026"
+  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266 ”· Last updated May 2026"
 };
 
 export const kativastiMechanism = {

@@ -239,7 +239,7 @@ export const patraPindaSwedaProtocol = {
 export const patraPindaSwedaExperience = {
   sensation: {
     title: "What Does Patra Pinda Sweda Feel Like?",
-    description: "Most patients describe a combination of sensations during Patra Pinda Sweda, including:\n\n”¢ A gradual sense of warmth over the treated area\n”¢ Gentle pressure as the bolus is applied\n”¢ Mild sweating in the treated area\n”¢ A noticeable herbal aroma\n”¢ An overall sense of relaxation\n”¢ Temporary warmth of the skin that continues briefly after treatment\n\nThe heat involved should remain within a tolerable range throughout the session — this isn’t meant to be an uncomfortably hot experience. If you notice burning, significant pain, dizziness, or excessive discomfort at any point, you should tell the practitioner immediately so they can adjust or stop the treatment."
+    description: "Most patients describe a combination of sensations during Patra Pinda Sweda, including:\n\n”· A gradual sense of warmth over the treated area\n”· Gentle pressure as the bolus is applied\n”· Mild sweating in the treated area\n”· A noticeable herbal aroma\n”· An overall sense of relaxation\n”· Temporary warmth of the skin that continues briefly after treatment\n\nThe heat involved should remain within a tolerable range throughout the session — this isn’t meant to be an uncomfortably hot experience. If you notice burning, significant pain, dizziness, or excessive discomfort at any point, you should tell the practitioner immediately so they can adjust or stop the treatment."
   },
   pain: {
     title: "Does Patra Pinda Sweda Hurt?",

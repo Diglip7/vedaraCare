@@ -27,7 +27,7 @@ export const strokeRehabIntro = {
   label: "THE QUICK ANSWER",
   title: "Post-stroke rehabilitation at Vedara Care, in one paragraph.",
   blockquote: "Post-stroke rehabilitation at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — and across Dubai through our home physiotherapy service is evidence-based specialist neurorehabilitation delivered by DPT-qualified physiotherapists with specific stroke rehabilitation training. We treat ischaemic stroke recovery, haemorrhagic stroke recovery, transient ischaemic attack (TIA) recovery, brainstem stroke recovery, and cerebellar stroke recovery. Our approach uses current evidence-based protocols: constraint-induced movement therapy (CIMT) for upper limb hemiparesis, mirror therapy for motor recovery, functional electrical stimulation (FES) for foot drop and upper limb function, task-specific training for daily activities, body weight supported gait training, spasticity management coordination with your treating neurologist, balance retraining for falls prevention, and family caregiver education throughout. Care is delivered at our JVC clinic, at your home across Dubai, or in combination as recovery progresses. Initial assessment from AED 450; structured programmes from AED 3,800. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, DPT, DHA-Licensed 2509266 · Last updated June 2026"
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated June 2026"
 };
 
 export const strokeRehabRecovery = {
@@ -390,44 +390,14 @@ export const strokeRehabTeam = {
   bgColor: "bg-[#F8F5F0]",
   team: [
     {
-      name: "Dr. Sarah Al-Mansoori, DPT",
-      qualification: "DHA-Licensed · Neurorehabilitation Specialist",
-      specialties: ["CIMT", "Gait Training", "FES", "Stroke Rehabilitation"],
-      experience: "7 years specialising in post-stroke rehabilitation. MSc Neurorehabilitation, University of Birmingham.",
-      languages: ["Arabic", "English"],
-      image: "/images/dr-sarah-al-mansoori.webp",
-      alt: "Dr. Sarah Al-Mansoori stroke specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-sarah-al-mansoori/"
-    },
-    {
-      name: "Dr. Priya Nair, DPT",
-      qualification: "DHA-Licensed · Neurorehabilitation Specialist",
-      specialties: ["Mirror Therapy", "Stroke Rehabilitation", "Balance Retraining", "Family Education"],
-      experience: "5 years in neurorehabilitation, specific training in cerebellar and brainstem stroke recovery.",
-      languages: ["Hindi", "Malayalam", "English"],
-      image: "/images/dr-priya-nair.webp",
-      alt: "Dr. Priya Nair stroke specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-priya-nair/"
-    },
-    {
-      name: "Dr. Omar Hassan, DPT",
-      qualification: "DHA-Licensed · Neurorehabilitation Specialist",
-      specialties: ["FES", "High-Intensity Gait Training", "Spasticity Management", "CIMT"],
-      experience: "6 years post-stroke rehabilitation experience, certified FES clinician. Bobath approach trained.",
-      languages: ["Arabic", "English", "French"],
-      image: "/images/dr-omar-hassan.webp",
-      alt: "Dr. Omar Hassan stroke specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-omar-hassan/"
-    },
-    {
-      name: "Dr. Meera Krishnan, DPT",
-      qualification: "DHA-Licensed · Neurorehabilitation Specialist",
-      specialties: ["Task-Specific", "Upper Limb Rehab", "Home Physiotherapy", "Caregiver Education"],
-      experience: "4 years specialising in home-based stroke rehabilitation and motor relearning programmes.",
-      languages: ["English", "Tamil", "Hindi"],
-      image: "/images/dr-moira-krishnan.webp",
-      alt: "Dr. Moira Krishnan stroke specialist Vedara Care JVC Dubai",
-      profileHref: "/physiotherapists/dr-moira-krishnan/"
+      name: "Hafsina K K",
+      qualification: "DHA-Licensed Physiotherapist · DHA-P 64812828",
+      specialties: ["Neurological Physiotherapy", "Stroke Rehabilitation", "Orthopaedic Rehabilitation", "Women's Health"],
+      experience: "7 years of clinical experience across orthopaedic, neurological, sports, and women's health rehabilitation in India and the UAE. Provides specialist neurological and stroke rehabilitation at our JVC clinic.",
+      languages: ["English", "Malayalam", "Hindi"],
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp ",
+      alt: "Hafsina K K, DHA-Licensed Physiotherapist at Vedara Care JVC Dubai",
+      link: "/doctors/hafsina-kk-physiotherapist/"
     }
   ]
 };

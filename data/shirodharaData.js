@@ -4,7 +4,7 @@ export const shirodharaHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Shirodhara in Dubai", active: true }
   ],
-  label: "SHIRODHARA OIL THERAPY IN DUBAI ”¢ DHA-LICENSED 2509266",
+  label: "SHIRODHARA OIL THERAPY IN DUBAI ”· DHA-LICENSED 2509266",
   title: "Warm oil. A copper vessel. Forty-five minutes of stillness on the forehead.",
   description: "Classical Shirodhara — the continuous warm medicated oil stream poured rhythmically across the forehead. Doctor-prescribed at our DHA-licensed clinic in JVC, Dubai, for <a href='/conditions/stress-anxiety-ayurveda-dubai/' class=' hover:underline transition-colors'>chronic stress</a>, <a href='/conditions/insomnia-ayurveda-dubai/' class=' hover:underline transition-colors'>insomnia</a>, <a href='/conditions/stress-anxiety-ayurveda-dubai/' class=' hover:underline transition-colors'>anxiety</a>, and <a href='/conditions/migraine-ayurveda-dubai/' class='hover:underline transition-colors'>migraine</a>.",
   primaryCTA: "Book a Shirodhara Consultation",
