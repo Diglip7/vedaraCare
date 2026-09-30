@@ -486,7 +486,7 @@ export const tennisElbowRecoveryTimeline = {
     },
     {
       title: "For chronic cases (6+ months before treatment)",
-      icon: "â˜…",
+      // icon: "â˜…",
       isSpecial: true,
       description: "Patients with chronic tennis elbow typically require longer treatment courses — often 6–9 months for full recovery. Outcomes remain excellent but timelines are extended."
     }

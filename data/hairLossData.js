@@ -307,17 +307,17 @@ export const hairLossReviews = {
   title: 'Real hair loss outcomes from our JVC clinic',
   items: [
     {
-      // quote: '3 months of treatment and my postpartum shedding has almost stopped. I was losing handfuls every day and now it is back to normal. The doctors explained honestly what to expect and the timeline was exactly right.',
+      quote: '',
       author: 'Sarah K.',
       details: 'Age 32, Dubai Marina · Postpartum hair loss · 4-month programme'
     },
     {
-      // quote: 'I had telogen effluvium after COVID. I tried everything online. The Vedara doctors identified my pattern immediately and the treatment worked. New hair growing back now at 6 months.',
+      quote: '',
       author: 'Fatima A.',
       details: 'Age 38, Jumeirah Village Circle · Telogen effluvium · 6-month programme'
     },
     {
-      // quote: 'I was skeptical but the results are real. My androgenetic alopecia was progressing and now my hair feels thicker and the crown looks better. The maintenance protocol keeps it stable.',
+      quote: '',
       author: 'Ahmed S.',
       details: 'Age 42, Business Bay · Androgenetic alopecia · 9-month programme + maintenance'
     }
