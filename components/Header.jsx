@@ -249,7 +249,7 @@ const Header = () => {
               </button>
 
               <div
-                className={`absolute top-full left-0 pt-2 transition-all duration-200 ${isAyurvedaDropdownOpen
+                className={`absolute top-full left-0 pt-2 z-50 transition-all duration-200 ${isAyurvedaDropdownOpen
                   ? "opacity-100 visible translate-y-0"
                   : "opacity-0 invisible -translate-y-1"
                   }`}
@@ -308,7 +308,7 @@ const Header = () => {
               </button>
 
               {/* Dropdown Menu */}
-              <div className={`absolute top-full left-0 pt-2 transition-all duration-200 ${isPhysioDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
+              <div className={`absolute top-full left-0 pt-2 z-50 transition-all duration-200 ${isPhysioDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
                 <div className={`bg-white rounded-lg shadow-lg border border-gray-100 py-2 min-w-[240px] max-h-[400px] overflow-y-auto ${scrollbarHide}`}>
                   {PHYSIOTHERAPY_PAGES.map((page) => (
                     <Link
@@ -375,7 +375,7 @@ const Header = () => {
               </button>
 
               {/* Dropdown Menu */}
-              <div className={`absolute top-full left-0 pt-2 transition-all duration-200 ${isDermatologyDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
+              <div className={`absolute top-full left-0 pt-2 z-50 transition-all duration-200 ${isDermatologyDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
                 <div className={`bg-white rounded-lg shadow-lg border border-gray-100 py-2 min-w-[240px] max-h-[400px] overflow-y-auto ${scrollbarHide}`}>
                   {DERMATOLOGY_PAGES.map((page) => (
                     <Link
@@ -430,7 +430,7 @@ const Header = () => {
               </button>
 
               {/* Dropdown Menu */}
-              <div className={`absolute top-full left-0 pt-2 transition-all duration-200 ${isWellnessDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
+              <div className={`absolute top-full left-0 pt-2 z-50 transition-all duration-200 ${isWellnessDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
                 <div className="bg-white rounded-lg shadow-lg border border-gray-100 py-2 min-w-[240px]">
                   {WELLNESS_TREATMENTS.map((page) => (
                     <Link
@@ -461,7 +461,7 @@ const Header = () => {
               </button>
 
               {/* Dropdown Menu */}
-              <div className={`absolute top-full left-0 pt-2 transition-all duration-200 ${isHomeHealthcareDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
+              <div className={`absolute top-full left-0 pt-2 z-50 transition-all duration-200 ${isHomeHealthcareDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
                 <div className="bg-white rounded-lg shadow-lg border border-gray-100 py-2 min-w-[240px]">
                   {HOME_HEALTHCARE_PAGES.map((page) => (
                     <Link
