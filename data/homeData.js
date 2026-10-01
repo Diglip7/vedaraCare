@@ -230,7 +230,7 @@ export const homeReviews = {
   buttonText: "Read All Reviews for Dr. Nair",
   items: [
     {
-      quote: "Dr. Nair is the first doctor in Dubai who actually listened.",
+      quote: "Dr. Zainab is the first doctor in Dubai who actually listened.",
       content: "I have been to four specialists for PCOS over three years. Dr. Nair spent 50 minutes with me on the first visit — asking about my sleep, my stress, my diet. Six months later, my cycles are regular for the first time in a decade.",
       author: "Aisha M.",
       details: "PCOS · 6-month programme · March 2026"

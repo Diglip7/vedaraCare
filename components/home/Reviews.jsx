@@ -11,7 +11,7 @@ const Reviews = ({
   buttonHref = "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
   items = [
     {
-      quote: "Dr. Nair is the first doctor in Dubai who actually listened.",
+      quote: "Dr. Zainab is the first doctor in Dubai who actually listened.",
       content: "I have been to four specialists for PCOS over three years. Dr. Nair spent 50 minutes with me on the first visit  -  asking about my sleep, my stress, my diet. Six months later, my cycles are regular for the first time in a decade.",
       author: "Aisha M.",
       details: "PCOS - 6-month programme - March 2026"
@@ -60,15 +60,15 @@ const Reviews = ({
                   <Star key={i} size={16} style={{ fill: 'rgb(201, 169, 97)', color: 'rgb(201, 169, 97)' }} />
                 ))}
               </div>
-              
+
               <h3 style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '19px', fontWeight: '500', fontStyle: 'italic', color: 'rgb(26, 26, 26)', lineHeight: '1.35', marginBottom: '16px' }}>
                 "{review.quote}"
               </h3>
-              
+
               <p className="text-[14px] font-sans leading-[1.75] mb-8 flex-grow" style={{ color: 'rgb(74, 74, 74)' }}>
                 {review.content}
               </p>
-              
+
               <div className="mt-auto pt-4 border-t flex justify-between items-center" style={{ borderColor: 'rgb(245, 245, 245)' }}>
                 <div className="space-y-0.5">
                   <p className="font-sans font-bold text-[15px]" style={{ color: 'rgb(26, 26, 26)' }}>
