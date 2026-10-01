@@ -32,7 +32,7 @@ export const ayurvedaIntro = {
   label: "About Our Ayurveda Practice",
   title: "Ayurveda is the world's oldest continuously practised system of medicine. At our JVC clinic, it is also our most rigorous.",
   blockquote: "Our Ayurveda department at Vedara Care Polyclinic in Jumeirah Village Circle, Dubai is led by BAMS-qualified Ayurvedic physicians registered with the Dubai Health Authority. We practise classical Ayurveda - pulse-based diagnosis, dosha analysis, herbal medicines, and Panchakarma - alongside modern diagnostics. Our patients come to us for chronic back pain, PCOS, hair loss, migraine, stress, and metabolic conditions where conventional care has not given lasting answers.",
-  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda) · DHA License 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda) · DHA License 2509266 · Last updated May 2026"
 };
 
 
@@ -123,20 +123,21 @@ export const ayurvedaTherapies = {
 
 export const ayurvedaPhysician = {
   label: "YOUR AYURVEDIC PHYSICIAN",
-  name: "Dr. Priya Menon",
-  qualification: "BAMS · MD (Ayurveda) · DHA Licensed",
-  description: "Dr. Menon has practised classical Ayurveda for 17 years, with clinical training at the Government Ayurveda College, Thiruvananthapuram, and over nine years in Dubai. At Vedara Care she leads our Ayurveda department, with a focus on chronic conditions where conventional care has plateaued - particularly PCOS, chronic pain, and migraine. Patients describe her consultations as the longest and most thorough they have had in Dubai.",
-  image: "dr-[name]-ayurvedic-physician-jvc.webp",
-  alt: "Dr. Priya Menon, BAMS-qualified Ayurvedic physician and DHA-licensed doctor at Vedara Care Polyclinic, JVC Dubai",
+  name: "Dr. Zainab",
+  qualification: "BAMS · DHA Licensed",
+  description: "Dr. Zainab is a dedicated Ayurvedic practitioner at Vedara Care. She specializes in classical Ayurvedic treatments, Nadi Pareeksha (pulse diagnosis), and personalized lifestyle consultations to address the root cause of ailments.",
+  image: "dr-zainab-ayurveda-jvc.webp",
+  alt: "Dr. Zainab, BAMS-qualified Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai",
   stats: [
-    { value: "15+", label: "Years of Practice" },
-    { value: "5,000+", label: "Patients Treated" },
-    { value: "DHA 2509266", label: "License Number" }
+    { value: "BAMS", label: "Ayurvedacharya" },
+    { value: "Expert", label: "Nadi Pareeksha" },
+    { value: "DHA", label: "Licensed Practitioner" }
   ],
-  languages: "Speaks English · Hindi · Malayalam · Arabic",
-  button1Text: "Book with Dr. Menon",
+  languages: "Speaks English · Malayalam · Hindi",
+  button1Text: "Book with Dr. Zainab",
+  button1Href: "/book",
   button2Text: "View Full Profile",
-  profileLink: "/doctors/dr-priya-menon-ayurveda/"
+  profileLink: "/doctors/dr-zainab-ayurveda/"
 };
 
 
@@ -500,7 +501,7 @@ export const dubaiHubHero = {
   title: "Authentic Ayurveda in\nDubai — what it is, who it\nis for, and where to find\nit.",
   description: "A definitive guide to Ayurvedic treatment in Dubai, written by the DHA-licensed Ayurvedic team at Vedara Care Polyclinic. Covering treatments, costs, insurance, and how to choose the right Ayurveda clinic for your specific needs.",
   image: "/images/ayurveda-dubai-hero.webp",
-  alt: "Ayurvedic doctor selecting herbal medicines at a DHA-licensed Ayurveda clinic in Dubai",
+  alt: "Ayurvedic doctor at a DHA-licensed Ayurveda clinic in Dubai",
   primaryCTA: "Book an Ayurvedic Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
@@ -512,11 +513,11 @@ export const dubaiHubHero = {
     "Authentic Classical Treatments"
   ],
   floatingCard: {
-    title: "EST. DUBAI",
+    title: "Serving Dubai since 2016",
     subtitle: "5,000+ Patients Treated"
   },
   image: "/images/ayurveda-dubai-hero.webp",
-  alt: "Ayurvedic doctor selecting herbal medicines at a DHA-licensed Ayurveda clinic in Dubai"
+  alt: "Ayurvedic doctor at a DHA-licensed Ayurveda clinic in Dubai"
 };
 
 export const dubaiHubIntro = {
@@ -524,7 +525,7 @@ export const dubaiHubIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurveda in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment is officially recognised and regulated in Dubai by the Dubai Health Authority (DHA), which licenses both Ayurvedic clinics and individual physicians. Authentic Ayurveda in Dubai is practised by BAMS-qualified doctors (a 5.5-year medical degree from India) and uses classical methods — pulse diagnosis, dosha assessment, Panchakarma detoxification, and constitution-based herbal medicines — to treat chronic conditions like back pain, PCOS, migraine, stress, and hair loss. Costs typically range from AED 200 to AED 800 per session, with some insurance plans offering partial coverage.",
-  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const dubaiHubTherapies = {
@@ -539,8 +540,8 @@ export const dubaiHubTherapies = {
       description: "The classical five-action detoxification programme. Doctor-supervised over 7, 14, or 21 days.",
       duration: "Duration: 7-21 days",
       bestFor: "From AED 3,500",
-      image: "panchakarma-room-jvc-dubai.webp",
-      alt: "Panchakarma treatment icon",
+      image: "panchakarma-droni-treatment-room-jvc.webp",
+      alt: "Panchakarma detox treatment room at Vedara Care JVC Dubai",
       link: "/treatments/panchakarma-dubai/"
     },
     {
@@ -548,8 +549,8 @@ export const dubaiHubTherapies = {
       description: "Full-body warm medicated oil massage prescribed for circulation, sleep, and dosha balance.",
       duration: "Duration: 60-90 min",
       bestFor: "From AED 280",
-      image: "abhyanga-massage-jvc-dubai.webp",
-      alt: "Abhyanga treatment icon",
+      image: "abhyanga-dubai-hero.webp",
+      alt: "Abhyanga warm oil massage treatment at Vedara Care Ayurveda clinic Dubai",
       link: "/treatments/abhyanga-dubai/"
     },
     {
@@ -557,8 +558,8 @@ export const dubaiHubTherapies = {
       description: "Continuous warm oil stream over the forehead. Profoundly calming for the nervous system.",
       duration: "Duration: 45-60 min",
       bestFor: "From AED 320",
-      image: "shirodhara-treatment-jvc.webp",
-      alt: "Shirodhara treatment icon",
+      image: "shirodhara-dubai-hero.webp",
+      alt: "Shirodhara continuous oil stream therapy at Vedara Care Ayurveda clinic Dubai",
       link: "/treatments/shirodhara-dubai/"
     },
     {
@@ -566,8 +567,8 @@ export const dubaiHubTherapies = {
       description: "Warm medicated oil held over the lower back. Targeted, lasting relief for spinal conditions.",
       duration: "Duration: 45 min",
       bestFor: "From AED 260",
-      image: "kativasti-back-pain-jvc.webp",
-      alt: "Kativasti treatment icon",
+      image: "kativasti-back-pain-vedara-jvc.webp",
+      alt: "Kativasti targeted oil therapy for lower back pain at Vedara Care Dubai",
       link: "/treatments/kativasti-dubai/"
     },
     {
@@ -575,8 +576,8 @@ export const dubaiHubTherapies = {
       description: "Massage using medicated rice boluses cooked in herbal milk. Deep tissue nourishment.",
       duration: "Duration: 60-75 min",
       bestFor: "From AED 350",
-      image: "njavarakizhi-treatment-vedara-jvc.webp",
-      alt: "Njavarakizhi treatment icon",
+      image: "njavarakizhi-dubai-hero.webp",
+      alt: "Njavarakizhi medicated rice bolus massage at Vedara Care Ayurveda Dubai",
       link: "/treatments/njavarakizhi-dubai/"
     },
     {
@@ -584,8 +585,8 @@ export const dubaiHubTherapies = {
       description: "Medicated oils administered through the nasal passage for sinus and head conditions.",
       duration: "Duration: 30-45 min",
       bestFor: "From AED 220",
-      image: "nasya-dubai.webp",
-      alt: "Nasya treatment icon",
+      image: "nasya-therapy-jvc.webp",
+      alt: "Nasya nasal administration therapy at Vedara Care Ayurveda clinic Dubai",
       link: "/treatments/nasya-dubai/"
     },
     {
@@ -593,8 +594,8 @@ export const dubaiHubTherapies = {
       description: "Medicated enema therapy. Considered the most important of the five Panchakarma actions.",
       duration: "Duration: Course-based",
       bestFor: "From AED 300",
-      image: "basti-dubai.webp",
-      alt: "Basti treatment icon",
+      image: "basti-treatment-room-panchakarma-dubai.webp",
+      alt: "Doctor-supervised Basti enema therapy room at Vedara Care JVC",
       link: "/treatments/basti-dubai/"
     },
     {
@@ -602,19 +603,20 @@ export const dubaiHubTherapies = {
       description: "Vigorous herbal powder massage supporting fat metabolism and lymphatic circulation.",
       duration: "Duration: 45-60 min",
       bestFor: "From AED 290",
-      image: "udvartana-dubai.webp",
-      alt: "Udvartana treatment icon",
+      image: "udvartana-herbal-powder-massage-vedara-jvc.webp",
+      alt: "Udvartana herbal powder massage for weight management at Vedara Care Dubai",
       link: "/treatments/udvartana-dubai/"
     }
-  ]
+  ],
+  footer: '<a href="/treatments" class="inline-flex items-center text-[#1F4538] font-sans font-medium hover:text-[#C9A961] transition-colors">View All Ayurvedic Treatments →</a>'
 };
 
 export const dubaiHubReviews = {
   bgColor: "bg-[#FAF6EF]",
   cardBgColor: "bg-white",
-  label: "PATIENT STORIES",
+  label: "PATIENT-REPORTED EXPERIENCE",
   title: "Patient outcomes from across Dubai.",
-  description: "",
+  description: "Individual experiences vary, and testimonials are not a guarantee of treatment outcomes.",
   buttonText: "Read All Reviews",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
   items: [
@@ -728,8 +730,8 @@ export const dubaiHubBasics = {
     "What Ayurveda is not, however, is a spa service. Authentic Ayurvedic treatment in Dubai is medical — prescribed by a DHA-licensed BAMS physician after diagnostic assessment, using regulated herbal medicines and classical therapies. If you are offered \"Ayurvedic massage\" without a doctor consultation, you are being sold wellness, not medicine."
   ],
   quote: "Ayurveda treats the cause. Modern medicine often manages the symptom. The best Dubai patients use both.",
-  image: "/images/ayurveda-medicines-classical-pharmacy.webp",
-  alt: "Classical Ayurvedic palm-leaf manuscript representing 5000-year tradition of Ayurveda in Dubai",
+  image: "/images/dr-zainab-nadi-pareeksha-consultation.webp",
+  alt: "Dr. Zainab performing pulse diagnosis at Vedara Care Ayurveda clinic in Dubai",
   imageLeft: true
 };
 

@@ -29,7 +29,7 @@ export const ayurvedaIbsIntro = {
   label: 'THE QUICK ANSWER',
   title: 'Ayurvedic IBS treatment in Dubai, in one paragraph.',
   blockquote: 'Ayurvedic treatment for IBS in Dubai is a 3 to 6-month structured medical programme combining classical Panchakarma protocols (typically Virechana for IBS with bloating and inflammation; Basti for chronic IBS patterns), specific internal Ayurvedic medicines (Hingvashtaka Churna, Dadimashtaka Churna, Kutaja Ghana Vati, Bilva Marmala, Chitrakadi Vati, and pattern-specific formulations), individualised dietary regulation calibrated to your IBS subtype, and lifestyle protocols addressing the brain-gut axis. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are specific to your subtype (IBS-D, IBS-C, IBS-M, post-infectious, or SIBO-related) and work alongside your gastroenterologist where applicable. Initial consultations start from AED [price].',
-  footer: 'Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026'
+  footer: 'Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026'
 };
 
 export const ayurvedaIbsArthritisTypes = {

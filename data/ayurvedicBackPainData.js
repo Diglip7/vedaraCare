@@ -30,7 +30,7 @@ export const ayurvedicBackPainIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic back pain treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for back pain in Dubai typically combines Kativasti (warm medicated oil reservoir over the lumbar spine), Abhyanga (full-body warm oil massage), specific internal Ayurvedic medicines selected for your dosha and condition, dietary regulation, and where appropriate, classical Panchakarma protocols. At Vedara Care Polyclinic in Jumeirah Village Circle, our BAMS-qualified Ayurvedic physicians work alongside DPT-qualified physiotherapists for integrated back pain care. Programmes typically run 4 to 8 weeks. Initial consultations start from AED 350 and include physical examination, imaging review where relevant, and a written treatment plan.",
-  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab , BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
 };
 
 export const ayurvedicBackPainAssessment = {

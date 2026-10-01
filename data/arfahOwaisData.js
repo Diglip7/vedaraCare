@@ -69,7 +69,7 @@ export const arfahOwaisPageData = {
     },
     {
       h3: 'The Vedara Care environment',
-      content: "Arfah practices at Vedara Care Polyclinic — a DHA-licensed multi-specialty clinic where Beauty Therapy is one of the licensed specialties alongside Physiotherapy, <a href=\"/doctors/dr-ansiya-ayurveda/\" style=\"text-decoration: underline; color: rgb(201,169,97);\">Ayurveda vertical (Dr. Ansiya)</a>, Dermatology, General Practice, and Nursing. This matters practically: aesthetic services happen inside a proper medical clinic with proper hygiene protocols, proper physician oversight where required for injectable and energy-device treatments, and proper coordination pathways when a patient's skin condition needs dermatologist input.",
+      content: "Arfah practices at Vedara Care Polyclinic — a DHA-licensed multi-specialty clinic where Beauty Therapy is one of the licensed specialties alongside Physiotherapy, <a href=\"/doctors/dr-zainab-ayurveda/\" style=\"text-decoration: underline; color: rgb(201,169,97);\">Ayurveda vertical (Dr. Zainab)</a>, Dermatology, General Practice, and Nursing. This matters practically: aesthetic services happen inside a proper medical clinic with proper hygiene protocols, proper physician oversight where required for injectable and energy-device treatments, and proper coordination pathways when a patient's skin condition needs dermatologist input.",
     },
     {
       h3: 'Languages',

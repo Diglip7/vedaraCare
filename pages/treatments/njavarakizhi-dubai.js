@@ -13,6 +13,8 @@ import FAQ from '../../components/home/FAQ';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
+import Physician from '../../components/ayurveda/Physician';
+import { ayurvedaPhysician } from '../../data/ayurvedaData';
 import { 
   njavarakizhiHero, 
   njavarakizhiIntro, 
@@ -308,6 +310,9 @@ const NjavarakizhiDubai = () => {
         buttonText="Book Assessment"
       />
       
+      {/* Doctor Trust Block */}
+      <Physician {...ayurvedaPhysician} />
+
       {/* Section 9 - Home Healthcare */}
       <TreatmentHomeHealthcare {...njavarakizhiHomeHealthcare} />
       

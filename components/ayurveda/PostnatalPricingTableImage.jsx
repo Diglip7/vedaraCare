@@ -122,9 +122,10 @@ const PostnatalPricingTableImage = ({ data }) => {
 
         <div className="mt-8 mx-auto max-w-5xl flex flex-col items-center">
           {footer && (
-            <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "rgb(119, 119, 119)", textAlign: "center", maxWidth: "720px", margin: "32px auto 0px" }}>
-              {footer}
-            </p>
+            <div 
+              style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "rgb(119, 119, 119)", textAlign: "center", maxWidth: "720px", margin: "32px auto 0px" }}
+              dangerouslySetInnerHTML={{ __html: footer }}
+            />
           )}
           
           {buttonText && buttonHref && (

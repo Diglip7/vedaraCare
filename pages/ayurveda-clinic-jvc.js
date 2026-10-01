@@ -226,7 +226,7 @@ const AyurvedaClinicJVC = () => {
       <AyurvedaHero {...ayurvedaHero} />
       <AyurvedaIntro {...ayurvedaIntro} />
 
-      <Therapies {...ayurvedaTherapies} />
+      <Therapies {...ayurvedaTherapies} showImages={false} />
 
 
       <Conditions {...ayurvedaConditions} />

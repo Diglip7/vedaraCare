@@ -175,7 +175,7 @@ export const melasmaTreatmentReviews = {
     }
   ],
   stats: [
-    { value: "4.9 stars", label: "on Google" },
+    { value: "4.5 stars", label: "on Google" },
     { value: "400+", label: "melasma patients treated" },
     { value: "All Fitzpatrick", label: "skin types expertise" },
     { value: "Multi-modal", label: "evidence-based treatment" }

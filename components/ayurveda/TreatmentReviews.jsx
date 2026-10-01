@@ -51,12 +51,13 @@ const TreatmentReviews = ({
                   backgroundColor: cardBgColor.startsWith('bg-') ? undefined : cardBgColor,
                 }}
               >
-                <div className="flex gap-1 mb-6">
+                <div className="flex gap-1 mb-6" aria-label="5 out of 5 stars" role="img">
                   {[...Array(5)].map((_, i) => (
                     <Star
                       key={i}
                       size={16}
                       style={{ fill: '#B8965A', color: '#B8965A' }}
+                      aria-hidden="true"
                     />
                   ))}
                 </div>
@@ -149,12 +150,13 @@ const TreatmentReviews = ({
                 border: isDarkText ? '1px solid rgba(26, 26, 26, 0.1)' : '1px solid rgba(245, 240, 232, 0.2)'
               }}
             >
-              <div className="flex gap-1 mb-6">
+              <div className="flex gap-1 mb-6" aria-label="5 out of 5 stars" role="img">
                 {[...Array(5)].map((_, i) => (
                   <Star
                     key={i}
                     size={16}
                     style={{ fill: '#C9A961', color: '#C9A961' }}
+                    aria-hidden="true"
                   />
                 ))}
               </div>

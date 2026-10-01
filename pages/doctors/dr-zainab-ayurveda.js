@@ -1,19 +1,19 @@
 import Head from 'next/head';
 import React from 'react';
-import { drAnsiya } from '../../data/doctorData';
+import { drZainab } from '../../data/doctorData';
 import DoctorPageTemplate from '../../components/doctor/DoctorPageTemplate';
 
-const DrAnsiyaPage = () => {
+const DrZainabPage = () => {
   const currentDate = new Date().toISOString();
 
   const schemaMarkup = [
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
-      "name": "Dr. Ansiya",
+      "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician",
+      "name": "Dr. Zainab",
       "honorificPrefix": "Dr.",
-      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
+      "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/",
       "image": "https://vedaracare.ae/images/default-avatar.png",
       "jobTitle": "Ayurvedic Doctor",
       "worksFor": { "@id": "https://vedaracare.ae/#organization" },
@@ -114,14 +114,14 @@ const DrAnsiyaPage = () => {
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
-      "employee": { "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" }
+      "employee": { "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalWebPage",
-      "name": "Dr. Ansiya — Ayurvedic Doctor at Our JVC Clinic Dubai",
-      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
-      "about": { "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
+      "name": "Dr. Zainab — Ayurvedic Doctor at Our JVC Clinic Dubai",
+      "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/",
+      "about": { "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" },
       "reviewedBy": {
         "@type": "MedicalOrganization",
         "name": "Vedara Care Medical Team"
@@ -144,13 +144,13 @@ const DrAnsiyaPage = () => {
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
         {"@type": "ListItem", "position": 2, "name": "About", "item": "https://vedaracare.ae/about/"},
         {"@type": "ListItem", "position": 3, "name": "Our Doctors", "item": "https://vedaracare.ae/doctors/"},
-        {"@type": "ListItem", "position": 4, "name": "Dr. Ansiya — Ayurvedic Doctor at JVC", "item": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/"}
+        {"@type": "ListItem", "position": 4, "name": "Dr. Zainab — Ayurvedic Doctor at JVC", "item": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"}
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": drAnsiya.faqs.faqs.map((faq) => ({
+      "mainEntity": drZainab.faqs.faqs.map((faq) => ({
         "@type": "Question",
         "name": faq.question,
         "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
@@ -159,16 +159,16 @@ const DrAnsiyaPage = () => {
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#person",
-      "name": "Dr. Ansiya",
+      "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#person",
+      "name": "Dr. Zainab",
       "jobTitle": "Ayurvedic Doctor",
       "worksFor": { "@id": "https://vedaracare.ae/#organization" }
     },
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "name": "Ayurvedic Consultations with Dr. Ansiya at JVC Dubai",
-      "provider": { "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
+      "name": "Ayurvedic Consultations with Dr. Zainab at JVC Dubai",
+      "provider": { "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" },
       "areaServed": [
         {"@type": "Place", "name": "Jumeirah Village Circle"},
         {"@type": "City", "name": "Dubai"}
@@ -176,7 +176,7 @@ const DrAnsiyaPage = () => {
       "serviceType": "Ayurvedic Medical Consultation",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Consultation Services with Dr. Ansiya",
+        "name": "Consultation Services with Dr. Zainab",
         "itemListElement": [
           {"@type": "Offer", "name": "Initial Consultation (Nadi Pareeksha + Prakriti Assessment + Treatment Plan)", "priceCurrency": "AED", "price": "350"},
           {"@type": "Offer", "name": "Follow-up Consultation", "priceCurrency": "AED", "price": "250"},
@@ -207,25 +207,25 @@ const DrAnsiyaPage = () => {
   return (
     <>
       <Head>
-        <title>Dr. Ansiya — Ayurvedic Doctor in JVC, Dubai | BAMS | Vedara Care</title>
-        <meta name="description" content="Dr. Ansiya, DHA-licensed BAMS Ayurvedic doctor at our JVC clinic. Nadi Pareeksha, Panchakarma, PCOS, musculoskeletal, skin, hair, stress, postnatal care. Female doctor available." />
+        <title>Dr. Zainab — Ayurvedic Doctor in JVC, Dubai | BAMS | Vedara Care</title>
+        <meta name="description" content="Dr. Zainab, DHA-licensed BAMS Ayurvedic doctor at our JVC clinic. Nadi Pareeksha, Panchakarma, PCOS, musculoskeletal, skin, hair, stress, postnatal care. Female doctor available." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
-        <meta property="og:title" content="Dr. Ansiya — Ayurvedic Doctor at Our JVC Clinic Dubai | Vedara Care" />
-        <meta property="og:description" content="Dr. Ansiya is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, JVC Dubai. Authentic Nadi Pareeksha, Panchakarma, women's health (PCOS), musculoskeletal, skin, hair, stress, and postnatal Ayurvedic care. Serving JVC, Marina, Downtown, Business Bay, all Dubai." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/dr-ansiya-ayurveda-jvc.jpg" />
-        <meta property="og:url" content="https://vedaracare.ae/doctors/dr-ansiya-ayurveda/" />
+        <meta property="og:title" content="Dr. Zainab — Ayurvedic Doctor at Our JVC Clinic Dubai | Vedara Care" />
+        <meta property="og:description" content="Dr. Zainab is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, JVC Dubai. Authentic Nadi Pareeksha, Panchakarma, women's health (PCOS), musculoskeletal, skin, hair, stress, and postnatal Ayurvedic care. Serving JVC, Marina, Downtown, Business Bay, all Dubai." />
+        <meta property="og:image" content="https://vedaracare.ae/og-images/dr-zainab-ayurveda-jvc.jpg" />
+        <meta property="og:url" content="https://vedaracare.ae/doctors/dr-zainab-ayurveda/" />
         <meta property="og:type" content="profile" />
-        <meta property="profile:first_name" content="Ansiya" />
+        <meta property="profile:first_name" content="Zainab" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Dr. Ansiya — Ayurvedic Doctor JVC Dubai | Vedara Care" />
+        <meta name="twitter:title" content="Dr. Zainab — Ayurvedic Doctor JVC Dubai | Vedara Care" />
         <meta name="twitter:description" content="DHA-licensed BAMS Ayurvedic doctor at our JVC clinic. 11 expertise areas. Female doctor available." />
-        <meta name="twitter:image" content="https://vedaracare.ae/og-images/dr-ansiya-ayurveda-jvc.jpg" />
+        <meta name="twitter:image" content="https://vedaracare.ae/og-images/dr-zainab-ayurveda-jvc.jpg" />
 
-        <link rel="canonical" href="https://vedaracare.ae/doctors/dr-ansiya-ayurveda/" />
-        <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/doctors/dr-ansiya-ayurveda/" />
-        <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/doctors/dr-ansiya-ayurveda/" />
+        <link rel="canonical" href="https://vedaracare.ae/doctors/dr-zainab-ayurveda/" />
+        <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/doctors/dr-zainab-ayurveda/" />
+        <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/doctors/dr-zainab-ayurveda/" />
 
         {schemaMarkup.map((schema, index) => (
           <script
@@ -235,9 +235,9 @@ const DrAnsiyaPage = () => {
           />
         ))}
       </Head>
-      <DoctorPageTemplate doctor={drAnsiya} />
+      <DoctorPageTemplate doctor={drZainab} />
     </>
   );
 };
 
-export default DrAnsiyaPage;
+export default DrZainabPage;

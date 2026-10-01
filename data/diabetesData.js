@@ -29,7 +29,7 @@ export const diabetesIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic diabetes treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for diabetes in Dubai is a 6-month structured medical programme combining classical <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'><a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a></a> cleansing (typically <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Virechana</a>), dosha-specific herbal medicines (including Guduchi, Methika, Karela, Vijaysar, and pattern-specific Asanadi formulations), individualised dietary protocols, and lifestyle modification — performed alongside your endocrinologist's conventional management. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes for prediabetes typically produce normalisation of HbA1c within 6 months; programmes for early type 2 diabetes typically produce HbA1c reductions of 1-3 points with possible medication reduction under endocrinologist supervision; for long-standing type 2 diabetes, Ayurvedic treatment is supportive and addresses metabolic, inflammatory, and lifestyle factors not addressed by medication alone. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab , BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
 };
 
 export const diabetesMechanism1 = {

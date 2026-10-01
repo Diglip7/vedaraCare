@@ -30,7 +30,7 @@ export const ayurvedicMassageJVCIntro = {
   label: "THE QUICK ANSWER",
   title: "What 'Ayurvedic massage' actually means.",
   blockquote: "'Ayurvedic massage' is not one treatment — it is a category of doctor-prescribed body therapies from classical Indian medicine, each designed for a specific therapeutic purpose. The most common are Abhyanga (full-body warm oil massage), Shirodhara (continuous oil stream on the forehead), Kativasti (medicated oil pooled over the lower back), Njavarakizhi (massage with herbal rice boluses), and Udvartana (herbal powder massage). At Vedara Care Polyclinic in JVC, all are performed by trained therapists after a BAMS-qualified doctor prescribes the right one for your specific need.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const ayurvedicMassageJVCTherapies = {

@@ -13,8 +13,10 @@ import Reviews from '../components/home/Reviews';
 import FAQ from '../components/home/FAQ';
 import CTA from '../components/home/CTA';
 import Journal from '../components/home/Journal';
-import { 
-  dubaiHubHero, 
+import Physician from '../components/ayurveda/Physician';
+import ConsultationProcess from '../components/ayurveda/ConsultationProcess';
+import {
+  dubaiHubHero,
   dubaiHubIntro,
   dubaiHubBasics,
   dubaiHubApplications,
@@ -25,7 +27,8 @@ import {
   dubaiHubReviews,
   dubaiHubFaqs,
   dubaiHubCTA,
-  dubaiHubJournal
+  dubaiHubJournal,
+  ayurvedaPhysician
 } from '../data/ayurvedaData';
 
 const AyurvedaDubai = () => {
@@ -43,7 +46,7 @@ const AyurvedaDubai = () => {
         "name": "Ayurveda",
         "sameAs": "https://en.wikipedia.org/wiki/Ayurveda"
       },
-      "audience": {"@type": "PatientAudience"},
+      "audience": { "@type": "PatientAudience" },
       "datePublished": "2026-05-25",
       "dateModified": "2026-05-25",
       "lastReviewed": "2026-05-25",
@@ -59,7 +62,7 @@ const AyurvedaDubai = () => {
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/ayurveda-dubai-hero.jpg",
       "specialty": "Ayurveda",
-      "isPartOf": {"@id":"https://vedaracare.ae/#website"}
+      "isPartOf": { "@id": "https://vedaracare.ae/#website" }
     },
     {
       "@context": "https://schema.org",
@@ -76,7 +79,7 @@ const AyurvedaDubai = () => {
       "publisher": {
         "@type": "Organization",
         "name": "Vedara Care Polyclinic",
-        "logo": {"@type":"ImageObject","url":"https://vedaracare.ae/logo.png"}
+        "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" }
       },
       "mainEntityOfPage": "https://vedaracare.ae/ayurveda-dubai/"
     },
@@ -90,29 +93,29 @@ const AyurvedaDubai = () => {
         "https://www.nccih.nih.gov/health/ayurvedic-medicine-in-depth"
       ],
       "indication": [
-        {"@type":"MedicalIndication","name":"Chronic back pain"},
-        {"@type":"MedicalIndication","name":"PCOS"},
-        {"@type":"MedicalIndication","name":"Migraine"},
-        {"@type":"MedicalIndication","name":"Hair loss"},
-        {"@type":"MedicalIndication","name":"Postnatal recovery"},
-        {"@type":"MedicalIndication","name":"Stress and anxiety"},
-        {"@type":"MedicalIndication","name":"Knee osteoarthritis"},
-        {"@type":"MedicalIndication","name":"Frozen shoulder"},
-        {"@type":"MedicalIndication","name":"IBS"},
-        {"@type":"MedicalIndication","name":"Thyroid disorders"},
-        {"@type":"MedicalIndication","name":"Type 2 diabetes"},
-        {"@type":"MedicalIndication","name":"Eczema and psoriasis"}
+        { "@type": "MedicalIndication", "name": "Chronic back pain" },
+        { "@type": "MedicalIndication", "name": "PCOS" },
+        { "@type": "MedicalIndication", "name": "Migraine" },
+        { "@type": "MedicalIndication", "name": "Hair loss" },
+        { "@type": "MedicalIndication", "name": "Postnatal recovery" },
+        { "@type": "MedicalIndication", "name": "Stress and anxiety" },
+        { "@type": "MedicalIndication", "name": "Knee osteoarthritis" },
+        { "@type": "MedicalIndication", "name": "Frozen shoulder" },
+        { "@type": "MedicalIndication", "name": "IBS" },
+        { "@type": "MedicalIndication", "name": "Thyroid disorders" },
+        { "@type": "MedicalIndication", "name": "Type 2 diabetes" },
+        { "@type": "MedicalIndication", "name": "Eczema and psoriasis" }
       ],
-      "relevantSpecialty": {"@type":"MedicalSpecialty","name":"Ayurveda"}
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Ayurveda" }
     },
     {
       "@context": "https://schema.org",
-      "@type": ["MedicalClinic","LocalBusiness"],
+      "@type": ["MedicalClinic", "LocalBusiness"],
       "@id": "https://vedaracare.ae/#organization",
       "name": "Vedara Care Polyclinic",
       "url": "https://vedaracare.ae/",
       "logo": "https://vedaracare.ae/logo.png",
-      "medicalSpecialty": ["Ayurveda","PhysicalTherapy","Dermatology"],
+      "medicalSpecialty": ["Ayurveda", "PhysicalTherapy", "Dermatology"],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Building 123, Street 45A",
@@ -122,8 +125,8 @@ const AyurvedaDubai = () => {
       },
       "telephone": "+971-XX-XXX-XXXX",
       "areaServed": [
-        {"@type":"City","name":"Dubai"},
-        {"@type":"Place","name":"United Arab Emirates"}
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "Place", "name": "United Arab Emirates" }
       ],
       "hasCredential": {
         "@type": "EducationalOccupationalCredential",
@@ -136,8 +139,8 @@ const AyurvedaDubai = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Ayurvedic Treatment in Dubai", "item": "https://vedaracare.ae/ayurveda-dubai/"}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
+        { "@type": "ListItem", "position": 2, "name": "Ayurvedic Treatment in Dubai", "item": "https://vedaracare.ae/ayurveda-dubai/" }
       ]
     },
     {
@@ -159,7 +162,7 @@ const AyurvedaDubai = () => {
       <Head>
         <title>Ayurvedic Treatment in Dubai | Complete Guide | Vedara Care</title>
         <meta name="description" content="A definitive guide to Ayurvedic treatment in Dubai by DHA-licensed BAMS doctors. Treatments, costs, insurance, how to choose a real clinic. Updated 2026." />
-        
+
         {/* Robots Directives */}
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
@@ -173,13 +176,13 @@ const AyurvedaDubai = () => {
         <meta property="article:published_time" content="2026-05-25T09:00:00Z" />
         <meta property="article:modified_time" content="2026-05-25T09:00:00Z" />
         <meta property="article:author" content="Dr. Priya Menon" />
-        
+
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Ayurvedic Treatment in Dubai — Complete 2026 Guide | Vedara Care" />
         <meta name="twitter:description" content="Authentic Ayurveda in Dubai: treatments, costs, insurance, how to choose a real DHA-licensed clinic. By BAMS-qualified physicians." />
         <meta name="twitter:image" content="https://vedaracare.ae/og-images/ayurveda-dubai.jpg" />
-        
+
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/ayurveda-dubai/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/ayurveda-dubai/" />
@@ -197,14 +200,19 @@ const AyurvedaDubai = () => {
 
       <AyurvedaHero {...dubaiHubHero} />
       <AyurvedaIntro {...dubaiHubIntro} />
-       <TreatmentMechanism {...dubaiHubBasics} />
+      <TreatmentMechanism {...dubaiHubBasics} />
       <Therapies {...dubaiHubTherapies} />
+      <Physician {...ayurvedaPhysician} />
+      <ConsultationProcess />
       <ClinicalApplications {...dubaiHubApplications} />
       <PracticalGuidance {...dubaiHubGuidance} />
       <PricingSection />
-       <AboutVedara />
-       <HubLocation {...dubaiHubLocationDetails} />
+      <AboutVedara />
+      <HubLocation {...dubaiHubLocationDetails} />
       <Reviews {...dubaiHubReviews} />
+
+
+
       <FAQ {...dubaiHubFaqs} />
       <NextSteps {...dubaiHubNextSteps} />
       <CTA {...dubaiHubCTA} />

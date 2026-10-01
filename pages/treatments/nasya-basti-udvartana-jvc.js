@@ -37,7 +37,7 @@ const NasyaBastiUdvartanaJvc = () => {
       "alternateName": ["Vedara Specialty Ayurvedic Therapies JVC", "Classical Ayurvedic Therapies JVC Dubai"],
       "url": "https://vedaracare.ae/treatments/nasya-basti-udvartana-jvc/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Authentic classical Nasya, Basti, and Udvartana Ayurvedic specialty therapies at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. All six classical Nasya types, all classical Basti types and Yoga/Kala/Karma Basti sequences, all classical Udvartana variations. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya with Panchakarma & Ayurvedic Therapies as her #2 explicitly documented area of expertise. Bidirectional coordination with Panchakarma programme and Nadi Pareeksha foundation diagnostic. Kerala Ayurvedic classical tradition. Coordinated with modern medical care. Dedicated Panchakarma treatment facilities enabling authentic classical delivery.",
+      "description": "Authentic classical Nasya, Basti, and Udvartana Ayurvedic specialty therapies at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. All six classical Nasya types, all classical Basti types and Yoga/Kala/Karma Basti sequences, all classical Udvartana variations. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Zainab with Panchakarma & Ayurvedic Therapies as her #2 explicitly documented area of expertise. Bidirectional coordination with Panchakarma programme and Nadi Pareeksha foundation diagnostic. Kerala Ayurvedic classical tradition. Coordinated with modern medical care. Dedicated Panchakarma treatment facilities enabling authentic classical delivery.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 25,000",
       "address": { "@type": "PostalAddress", "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4", "addressLocality": "Jumeirah Village Circle", "addressRegion": "Dubai", "addressCountry": "AE", "postalCode": "" },
@@ -88,7 +88,7 @@ const NasyaBastiUdvartanaJvc = () => {
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" },
       "lastReviewed": "2026-09-14"
     },
     [
@@ -271,14 +271,14 @@ const NasyaBastiUdvartanaJvc = () => {
         { "@type": "Question", "name": "Do I need Nadi Pareeksha before specialty therapy?", "acceptedAnswer": { "@type": "Answer", "text": "Nadi Pareeksha foundation diagnostic strongly recommended — bidirectional coordination with Nadi Pareeksha service. Different constitutional patterns and current Vikriti states benefit from different specialty therapies and different variations within each therapy. Generic therapy selection without constitutional matching produces limited results. Comprehensive Nadi Pareeksha consultation substantially improves outcomes." } },
         { "@type": "Question", "name": "Are these therapies part of Panchakarma?", "acceptedAnswer": { "@type": "Answer", "text": "Nasya and Basti are two of five classical Panchakarma Shodhana therapies. Udvartana is a distinct classical specialty therapy not part of five Panchakarma karmas but often integrated into Panchakarma programmes as Rukshana component. Bidirectional relationship — these therapies delivered either as standalone specialty offerings or as Panchakarma programme components." } },
         { "@type": "Question", "name": "Where in Dubai is your clinic?", "acceptedAnswer": { "@type": "Answer", "text": "DHA-licensed clinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Dedicated Panchakarma treatment facilities enabling authentic classical specialty therapy delivery." } },
-        { "@type": "Question", "name": "Do you have female Ayurvedic doctor and therapist?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with Panchakarma & Ayurvedic Therapies as her #2 explicitly documented area of expertise. Female therapist team available for female patients — culturally essential for Basti (particularly Uttar Basti) and typically preferred for Udvartana." } },
+        { "@type": "Question", "name": "Do you have female Ayurvedic doctor and therapist?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Zainab is female DHA-licensed BAMS-qualified Ayurvedic doctor with Panchakarma & Ayurvedic Therapies as her #2 explicitly documented area of expertise. Female therapist team available for female patients — culturally essential for Basti (particularly Uttar Basti) and typically preferred for Udvartana." } },
         { "@type": "Question", "name": "Are these therapies suitable for elderly patients?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — specialty therapies with careful sustained approach appropriate for elderly patients. Comprehensive medication and comorbidity review essential, gentler initial protocols, careful therapy selection, coordination with treating doctors. Nasya and Basti can be particularly valuable for elderly patients with cervical/lumbar Vata presentations. Udvartana with gentler Snigdha variation when appropriate." } },
         { "@type": "Question", "name": "Can these therapies coordinate with modern medications?", "acceptedAnswer": { "@type": "Answer", "text": "Specialty therapies coordinate with modern medical care throughout — comprehensive medication review essential before therapy initiation. Some herbal preparations used in therapies have specific interaction considerations requiring careful clinical judgement. Coordination with prescribing doctors as appropriate. Sustained monitoring during therapy courses." } },
         { "@type": "Question", "name": "Which languages do you speak?", "acceptedAnswer": { "@type": "Answer", "text": "Arabic, English, Hindi, Malayalam (particularly relevant for Kerala Ayurvedic specialty therapy tradition), Urdu across our team." } },
         { "@type": "Question", "name": "Are these therapies covered by insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Some Ayurvedic specialty therapy coverage varies by insurance plan when medically indicated. Direct billing with seven major insurers for covered elements when applicable. Weight management Udvartana typically wellness-focused not insurance covered. Please bring insurance card for verification." } },
         { "@type": "Question", "name": "What distinguishes authentic classical delivery from wellness spa versions?", "acceptedAnswer": { "@type": "Answer", "text": "Authentic classical delivery: DHA-licensed BAMS-qualified Ayurvedic doctors, classical text-based protocols, comprehensive constitutional assessment, all classical variations available, Purvakarma-Paschat Karma framework, coordinated with modern medical care, dedicated treatment facilities. Commercialised wellness spa versions: may lack medical qualifications, may skip Purvakarma preparation, may use generic protocols without constitutional matching." } },
         { "@type": "Question", "name": "Can I do sustained daily Nasya or Basti practice?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Pratimarsha Nasya (small volume daily Nasya) appropriate for sustained daily practice within Dinacharya framework — particularly beneficial for cervical presentations and cognitive support. Matra Basti (small volume oil basti) appropriate for sustained practice consideration with periodic clinical reassessment for appropriate patients. Sustained daily specialty therapy practice classically emphasised within comprehensive wellness framework." } },
-        { "@type": "Question", "name": "How do I book specialty therapy consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying specialty therapy consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: description of specific therapy goals, current medications and medical conditions, any relevant medical reports, any previous Ayurvedic experience, cultural preferences, insurance card if applicable, specific questions." } }
+        { "@type": "Question", "name": "How do I book specialty therapy consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying specialty therapy consultation ideally with Dr. Zainab; call 9AM-9PM seven days a week; book online. Please bring: description of specific therapy goals, current medications and medical conditions, any relevant medical reports, any previous Ayurvedic experience, cultural preferences, insurance card if applicable, specific questions." } }
       ]
     },
     {
@@ -292,7 +292,7 @@ const NasyaBastiUdvartanaJvc = () => {
         { "@type": "MedicalProcedure", "name": "Udvartana Classical Herbal Powder Massage" }
       ],
       "mainContentOfPage": { "@type": "WebPageElement", "cssSelector": "main" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" },
       "lastReviewed": "2026-09-14",
       "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
       "specialty": { "@type": "MedicalSpecialty", "name": "Ayurveda" }
@@ -300,9 +300,9 @@ const NasyaBastiUdvartanaJvc = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
-      "name": "Dr. Ansiya",
-      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
+      "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician",
+      "name": "Dr. Zainab",
+      "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/",
       "medicalSpecialty": ["Ayurveda", "Panchakarma", "Ayurvedic Therapies", "Nasya", "Basti", "Udvartana", "Integrative Medicine"],
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
@@ -353,7 +353,7 @@ const NasyaBastiUdvartanaJvc = () => {
     <>
       <Head>
         <title>Nasya Basti Udvartana Ayurvedic Specialty Therapies JVC | Vedara Dubai</title>
-        <meta name="description" content="Authentic classical Nasya, Basti, Udvartana Ayurvedic specialty therapies at our JVC clinic Dubai. All classical types. Female DHA-licensed BAMS doctor Dr. Ansiya #2 Panchakarma expertise. Multi-language." />
+        <meta name="description" content="Authentic classical Nasya, Basti, Udvartana Ayurvedic specialty therapies at our JVC clinic Dubai. All classical types. Female DHA-licensed BAMS doctor Dr. Zainab #2 Panchakarma expertise. Multi-language." />
 
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/treatments/nasya-basti-udvartana-jvc/" />
@@ -363,7 +363,7 @@ const NasyaBastiUdvartanaJvc = () => {
 
         {/* Open Graph & Twitter Tags */}
         <meta property="og:title" content="Nasya, Basti, Udvartana Classical Ayurvedic Specialty Therapies at Our JVC Clinic Dubai | Vedara Care" />
-        <meta property="og:description" content="Authentic classical Nasya (nasal therapy), Basti (medicated enema), Udvartana (herbal powder massage) specialty therapies at Vedara Care JVC clinic, walking distance from Circle Mall. All classical Nasya types, Basti sequences, Udvartana variations. Female DHA-licensed BAMS Ayurvedic doctor Dr. Ansiya with Panchakarma & Ayurvedic Therapies as #2 documented expertise. Kerala Ayurvedic classical tradition. Multi-language." />
+        <meta property="og:description" content="Authentic classical Nasya (nasal therapy), Basti (medicated enema), Udvartana (herbal powder massage) specialty therapies at Vedara Care JVC clinic, walking distance from Circle Mall. All classical Nasya types, Basti sequences, Udvartana variations. Female DHA-licensed BAMS Ayurvedic doctor Dr. Zainab with Panchakarma & Ayurvedic Therapies as #2 documented expertise. Kerala Ayurvedic classical tradition. Multi-language." />
         <meta property="og:image" content="https://vedaracare.ae/images/nasya-basti-udvartana-jvc-hero.webp" />
         <meta property="og:url" content="https://vedaracare.ae/treatments/nasya-basti-udvartana-jvc/" />
         <meta property="og:type" content="business.business" />
@@ -424,111 +424,11 @@ const NasyaBastiUdvartanaJvc = () => {
         />
 
         {/* Section 6: Journey / Phases */}
-        <section className="bg-white py-24 px-6">
-          <div className="max-w-[1280px] mx-auto">
-            <div className="text-center mb-16">
-              <p className="text-[#C8A87F] text-[13px] font-medium tracking-[0.1em] uppercase mb-4 text-center">YOUR JOURNEY</p>
-              <h2 className="font-display font-medium text-[#1F1F1F] mb-5 leading-tight" style={{ fontSize: "clamp(26px, 3vw, 42px)", fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>
-                What comprehensive Nasya, Basti, Udvartana specialty therapy delivery looks like at our JVC clinic.
-              </h2>
-              <p className="text-[16px] text-[#555555] leading-[1.7] max-w-[680px] mx-auto">
-                Realistic understanding of specialty therapy delivery helps set appropriate expectations for meaningful classical therapeutic benefit.
-              </p>
-            </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-              <div className="bg-[#FAF7F2] rounded-[8px] p-7 border-t-[4px] border-[#C8A87F] hover:shadow-[0_4px_24px_rgba(0,0,0,0.06)] transition-shadow">
-                <p className="text-[12px] tracking-[0.08em] uppercase text-[#C8A87F] font-medium mb-1">Phase 1</p>
-                <p className="text-[12px] text-[#777777] mb-4">Week 1</p>
-                <h3 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-4 leading-snug" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Comprehensive Assessment &amp; Therapy Selection</h3>
-                <p className="text-[14px] text-[#555555] leading-[1.7]">
-                  Comprehensive 90-minute initial consultation with Dr. Ansiya identifying constitutional pattern (Prakriti and Vikriti), specialty therapy goals, current medications and comorbidities, therapy appropriateness screening, contraindication assessment. Appropriate therapy selection — Nasya, Basti, Udvartana or combination — with specific variation identification, course structure design, Panchakarma programme consideration, and realistic outcome framing. Nadi Pareeksha foundation diagnostic providing accurate constitutional matching.
-                </p>
-              </div>
-              <div className="bg-[#FAF7F2] rounded-[8px] p-7 border-t-[4px] border-[#C8A87F] hover:shadow-[0_4px_24px_rgba(0,0,0,0.06)] transition-shadow">
-                <p className="text-[12px] tracking-[0.08em] uppercase text-[#C8A87F] font-medium mb-1">Phase 2</p>
-                <p className="text-[12px] text-[#777777] mb-4">Weeks 1–2</p>
-                <h3 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-4 leading-snug" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Purvakarma Preparation &amp; Therapy Initiation</h3>
-                <p className="text-[14px] text-[#555555] leading-[1.7]">
-                  Classical Purvakarma preparation appropriate for selected therapy: for Nasya, local Snehana with facial Abhyanga and Swedana; for Basti, appropriate Snehana with medicated oil and Swedana; for Udvartana, appropriate preparation. Selected therapy course initiation with classical procedural framework. Sustained monitoring during therapy delivery. Constitutional herbal prescription coordinated with therapy goals.
-                </p>
-              </div>
-              <div className="bg-[#FAF7F2] rounded-[8px] p-7 border-t-[4px] border-[#C8A87F] hover:shadow-[0_4px_24px_rgba(0,0,0,0.06)] transition-shadow">
-                <p className="text-[12px] tracking-[0.08em] uppercase text-[#C8A87F] font-medium mb-1">Phase 3</p>
-                <p className="text-[12px] text-[#777777] mb-4">Weeks 2–4</p>
-                <h3 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-4 leading-snug" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Therapy Course Completion &amp; Paschat Karma</h3>
-                <p className="text-[14px] text-[#555555] leading-[1.7]">
-                  Completion of selected therapy course — 3–7 days for Nasya, 8–30 days for Basti sequences, 14–21 sessions for Udvartana. Classical Paschat Karma post-procedure care including specific post-procedure dietary and lifestyle guidance, appropriate rest, sustained protocol continuity. Assessment of therapy response and outcomes with follow-up consultation.
-                </p>
-              </div>
-              <div className="bg-[#FAF7F2] rounded-[8px] p-7 border-t-[4px] border-[#C8A87F] hover:shadow-[0_4px_24px_rgba(0,0,0,0.06)] transition-shadow">
-                <p className="text-[12px] tracking-[0.08em] uppercase text-[#C8A87F] font-medium mb-1">Phase 4</p>
-                <p className="text-[12px] text-[#777777] mb-4">Ongoing</p>
-                <h3 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-4 leading-snug" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Transition to Sustained Approach or Progression</h3>
-                <p className="text-[14px] text-[#555555] leading-[1.7]">
-                  Transition to sustained approach appropriate for individual outcomes. Options: sustained maintenance with Pratimarsha Nasya daily practice or Matra Basti sustained practice; progression to comprehensive Panchakarma programme for patients requiring more comprehensive intervention (bidirectional coordination); sustained follow-up with periodic reassessment; Rasayana consideration for appropriate patients; coordination with sustained condition-specific treatment plans; sustained wellness partnership approach.
-                </p>
-              </div>
-            </div>
-
-            <div className="max-w-[720px] mx-auto">
-              <p className="text-[19px] text-[#555555] leading-[1.7] mb-6">
-                Realistic outcome framing essential for authentic specialty therapy delivery — meaningful therapeutic benefit for appropriate applications with classical evidence base; not miracle cures. Individual variation substantial based on constitutional pattern, therapy course completion, adherence to Paschat Karma protocols, and personal response.
-              </p>
-              <div className="grid sm:grid-cols-2 gap-6">
-                <div className="bg-[#FAF7F2] rounded-[8px] p-6 border-l-[3px] border-[#C8A87F]">
-                  <p className="text-[13px] tracking-[0.06em] uppercase text-[#C8A87F] font-medium mb-3">What specialty therapies can achieve</p>
-                  <ul className="space-y-2">
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8A87F] text-[#C8A87F] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">✓</span>
-                      <span className="text-[13px] text-[#555555]">Meaningful symptomatic improvement for appropriate applications</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8A87F] text-[#C8A87F] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">✓</span>
-                      <span className="text-[13px] text-[#555555]">Classical Ayurvedic therapeutic mechanisms with substantial evidence base</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8A87F] text-[#C8A87F] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">✓</span>
-                      <span className="text-[13px] text-[#555555]">Effective coordination with modern medical care</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8A87F] text-[#C8A87F] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">✓</span>
-                      <span className="text-[13px] text-[#555555]">Sustained wellness support through protocol continuity</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8A87F] text-[#C8A87F] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">✓</span>
-                      <span className="text-[13px] text-[#555555]">Authentic classical therapy alternative to commercialised spa treatments</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="bg-[#FAF7F2] rounded-[8px] p-6 border-l-[3px] border-[#E8E0D4]">
-                  <p className="text-[13px] tracking-[0.06em] uppercase text-[#777777] font-medium mb-3">What specialty therapies do not promise</p>
-                  <ul className="space-y-2">
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8D0C8] text-[#999] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">–</span>
-                      <span className="text-[13px] text-[#777777]">Miracle cures or instant transformation</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8D0C8] text-[#999] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">–</span>
-                      <span className="text-[13px] text-[#777777]">Replacement for modern medical care for established medical conditions</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8D0C8] text-[#999] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">–</span>
-                      <span className="text-[13px] text-[#777777]">Guarantee of specific outcomes given individual variation</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8D0C8] text-[#999] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">–</span>
-                      <span className="text-[13px] text-[#777777]">Sustained benefit without appropriate protocol adherence</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="inline-block w-5 h-5 rounded-full border border-[#C8D0C8] text-[#999] flex items-center justify-center mr-2 flex-shrink-0 text-xs font-bold">–</span>
-                      <span className="text-[13px] text-[#777777]">Benefit inappropriate to therapy indications</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <ContentWithSidebar
+          bgColor="bg-white"
+          cardBg="bg-[#FAF7F2]"
+          {...nasyaBastiUdvartanaJvcJourney}
+        />
 
         {/* Section 7: Reviews */}
         <TreatmentReviews {...nasyaBastiUdvartanaJvcReviews} />
@@ -542,7 +442,7 @@ const NasyaBastiUdvartanaJvc = () => {
                 Ayurvedic doctors and therapists for specialty therapy delivery at our JVC clinic serving Dubai.
               </h2>
               <p className="text-[16px] text-[#555555] leading-[1.7] max-w-[720px] mx-auto">
-                Specialty therapy delivery requires appropriate practitioner and therapist expertise for authentic classical delivery. Female practitioner (Dr. Ansiya) and female therapist team available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.
+                Specialty therapy delivery requires appropriate practitioner and therapist expertise for authentic classical delivery. Female practitioner (Dr. Zainab) and female therapist team available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.
               </p>
             </div>
 
@@ -550,17 +450,17 @@ const NasyaBastiUdvartanaJvc = () => {
               <div className="bg-[#FAF7F2] rounded-[8px] p-8 border-l-[3px] border-[#C8A87F]">
                 <div className="flex items-start gap-5">
                   <div className="w-20 h-20 rounded-full bg-[#F0EBE3] flex items-center justify-center flex-shrink-0 text-3xl overflow-hidden">
-                    <img src="/images/dr-ansiya-ayurveda-jvc.webp" alt="Dr Ansiya BAMS Ayurvedic Doctor JVC Dubai" className="w-full h-full object-cover" />
+                    <img src="/images/dr-zainab-ayurveda-jvc.webp" alt="Dr Zainab BAMS Ayurvedic Doctor JVC Dubai" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <p className="text-[12px] tracking-[0.08em] uppercase text-[#C8A87F] font-medium mb-1">Lead Ayurvedic Doctor</p>
-                    <h3 className="font-display font-medium text-[#1F1F1F] text-[24px] mb-1" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Dr. Ansiya</h3>
+                    <h3 className="font-display font-medium text-[#1F1F1F] text-[24px] mb-1" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Dr. Zainab</h3>
                     <p className="text-[13px] text-[#777777] mb-3">BAMS, DHA-Licensed Ayurvedic Doctor</p>
                     <p className="text-[14px] text-[#555555] leading-[1.7]">
-                      Panchakarma &amp; Ayurvedic Therapies is Dr. Ansiya's #2 explicitly documented area of expertise. Female practitioner providing comprehensive specialty therapy consultation, Nadi Pareeksha foundation diagnostic, therapy selection and design, protocol supervision, and sustained follow-up. Kerala Ayurvedic training background with classical specialty therapy tradition. Expertise across all classical Nasya types, Basti types and sequences, and Udvartana variations. Cultural competence across Dubai's diverse community including Malayalam-speaking patients.
+                      Panchakarma &amp; Ayurvedic Therapies is Dr. Zainab's #2 explicitly documented area of expertise. Female practitioner providing comprehensive specialty therapy consultation, Nadi Pareeksha foundation diagnostic, therapy selection and design, protocol supervision, and sustained follow-up. Kerala Ayurvedic training background with classical specialty therapy tradition. Expertise across all classical Nasya types, Basti types and sequences, and Udvartana variations. Cultural competence across Dubai's diverse community including Malayalam-speaking patients.
                     </p>
-                    <a href="/doctors/dr-ansiya-ayurveda" className="inline-block mt-4 text-[13px] text-[#C8A87F] underline underline-offset-4 hover:text-[#B69769] transition-colors">
-                      View Dr. Ansiya's full profile →
+                    <a href="/doctors/dr-zainab-ayurveda" className="inline-block mt-4 text-[13px] text-[#C8A87F] underline underline-offset-4 hover:text-[#B69769] transition-colors">
+                      View Dr. Zainab's full profile →
                     </a>
                   </div>
                 </div>
@@ -585,14 +485,14 @@ const NasyaBastiUdvartanaJvc = () => {
 
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="bg-[#F5F0E8] rounded-[8px] p-6">
-                <span className="text-2xl mb-3 block">ðŸ¥</span>
+
                 <h4 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-2" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Modern Medical Care Coordination</h4>
                 <p className="text-[14px] text-[#555555] leading-[1.7]">
                   Coordination pathways with treating doctors for patients on chronic medications and with medical conditions. Comprehensive medication review before therapy initiation. Sustained monitoring during therapy courses. Coordination with treating specialists as appropriate.
                 </p>
               </div>
               <div className="bg-[#F5F0E8] rounded-[8px] p-6">
-                <span className="text-2xl mb-3 block">ðŸ¤</span>
+
                 <h4 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-2" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Multi-Disciplinary Team Integration</h4>
                 <p className="text-[14px] text-[#555555] leading-[1.7]">
                   When specialty therapies benefit from coordinated physiotherapy (particularly for sciatica Basti and cervical spondylosis Nasya), women's health for gynaecological Basti, dermatology for skin Udvartana, or home healthcare for elderly patients — coordinated multi-disciplinary care available at same JVC clinic.
@@ -610,7 +510,7 @@ const NasyaBastiUdvartanaJvc = () => {
           {...nasyaBastiUdvartanaJvcFaqs}
           bgColor="bg-white"
           sidebarLinks={[
-            { text: "Ansiya's profile", href: "/doctors/dr-ansiya-ayurveda/" },
+            { text: "Zainab's profile", href: "/doctors/dr-zainab-ayurveda/" },
             { text: "Ayurveda clinic pillar", href: "/ayurveda-clinic-jvc/" },
             { text: "Nadi Pareeksha assessment", href: "/treatments/nadi-pareeksha-jvc/" },
             { text: "Panchakarma Treatment in Dubai", href: "/treatments/panchakarma-dubai/" },
@@ -639,9 +539,9 @@ const NasyaBastiUdvartanaJvc = () => {
               <a href="/treatments/" className="font-body text-[14px] text-[#C8A87F] underline underline-offset-4 hover:text-[#B69769] transition-colors">Browse all treatments →</a>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <a href="/doctors/dr-ansiya-ayurveda/" className="bg-white rounded-[8px] p-6 border border-[#F0EBE3] hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)] hover:border-[#C8A87F] transition-all group">
+              <a href="/doctors/dr-zainab-ayurveda/" className="bg-white rounded-[8px] p-6 border border-[#F0EBE3] hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)] hover:border-[#C8A87F] transition-all group">
                 <p className="font-body text-[11px] tracking-[0.08em] uppercase text-[#C8A87F] font-medium mb-3">DOCTOR PROFILE</p>
-                <h3 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-3 leading-snug group-hover:text-[#C8A87F] transition-colors" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Dr. Ansiya — Ayurvedic Doctor</h3>
+                <h3 className="font-display font-medium text-[#1F1F1F] text-[18px] mb-3 leading-snug group-hover:text-[#C8A87F] transition-colors" style={{ fontFamily: "var(--font-display, Fraunces, Georgia, serif)" }}>Dr. Zainab — Ayurvedic Doctor</h3>
                 <p className="font-body text-[13px] text-[#555555] leading-[1.6]">Meet your Ayurvedic doctor. Female DHA-licensed BAMS practitioner with Panchakarma &amp; Ayurvedic Therapies as her #2 documented expertise.</p>
                 <span className="inline-block mt-4 font-body text-[13px] text-[#C8A87F]">Learn more →</span>
               </a>

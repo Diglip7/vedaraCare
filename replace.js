@@ -6,14 +6,11 @@ const dir = 'c:\\Users\\pc\\Documents\\vedacare\\vedaraCare';
 function replaceInFile(filePath) {
   let content = fs.readFileSync(filePath, 'utf8');
   const original = content;
-  content = content.replace(/Ansiya/gi, 'Ansiya');
-  content = content.replace(/Ansiya/gi, 'Ansiya');
-  content = content.replace(/Dr\. Ansiya/g, 'Dr. Ansiya');
-  content = content.replace(/dr-ansiya-ayurveda/g, 'dr-ansiya-ayurveda');
-  content = content.replace(/dr-ansiya/g, 'dr-ansiya');
-  content = content.replace(/dr-ansiya/g, 'dr-ansiya');
-  content = content.replace(/Ansiya/g, 'Ansiya');
-  content = content.replace(/ansiya/g, 'ansiya');
+  content = content.replace(/Dr\. Zainab/g, 'Dr. Zainab');
+  content = content.replace(/dr-zainab-ayurveda/g, 'dr-zainab-ayurveda');
+  content = content.replace(/dr-zainab/g, 'dr-zainab');
+  content = content.replace(/Zainab/g, 'Zainab');
+  content = content.replace(/zainab/g, 'zainab');
 
   if (content !== original) {
     fs.writeFileSync(filePath, content, 'utf8');

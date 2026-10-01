@@ -4,7 +4,7 @@ export const njavarakizhiHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Njavarakizhi in Dubai", active: true }
   ],
-  label: "NJAVARAKIZHI THERAPY IN DUBAI ”· DHA-LICENSED 2509266",
+  label: "NJAVARAKIZHI THERAPY IN DUBAI",
   title: "Massage with warm rice. The classical Ayurvedic therapy for what other treatments cannot reach.",
   description: "Njavarakizhi — also written Navarakizhi, and called Shashtika Shali Pinda Sweda in Sanskrit — is performed using small cloth boluses filled with a special variety of rice cooked in herbal medicated milk. At our DHA-licensed Ayurveda clinic in Jumeirah Village Circle, Dubai, it is doctor-prescribed for muscle wasting, post-illness recovery, neurological rehabilitation, and chronic inflammatory conditions.",
   primaryCTA: "Book a Njavarakizhi Consultation",
@@ -30,7 +30,7 @@ export const njavarakizhiIntro = {
   label: "THE QUICK ANSWER",
   title: "Njavarakizhi in Dubai, in one paragraph.",
   blockquote: "Njavarakizhi — known in classical Sanskrit as Shashtika Shali Pinda Sweda — is a specialised Ayurvedic massage therapy performed using small cloth boluses filled with Shashtika rice cooked in herbal medicated milk. The boluses are dipped repeatedly in warm milk and used to massage the body with synchronized strokes for 60 to 75 minutes. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Njavarakizhi is doctor-prescribed by BAMS-qualified physicians for muscle wasting, post-illness recovery, neurological rehabilitation, paralysis support, rheumatoid conditions, and degenerative muscle disorders. Sessions start from AED 480.",
-  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda) · Last updated May 2026"
 };
 
 export const njavarakizhiMechanism = {
@@ -178,7 +178,7 @@ export const njavarakizhiApplications = {
       subtitle: "The sustained heat may not be appropriate without cardiology clearance"
     }
   ],
-  honestNote: "Honest note: Njavarakizhi is one of the most over-prescribed Ayurvedic therapies in Dubai — clinics offer it because it sounds exotic and commands premium pricing. We will tell you honestly if your condition does not warrant it.",
+  honestNote: "Honest note: Njavarakizhi is a highly specific clinical therapy. We will tell you honestly if your condition does not warrant it.",
   image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800"
 };
 
@@ -189,29 +189,29 @@ export const njavarakizhiBenefits = {
   benefitGroups: [
     {
       title: "Patients Recovering from Severe Illness",
-      description: "After prolonged hospitalisation, severe dengue, post-COVID weakness, or any condition involving significant muscle deconditioning, Njavarakizhi accelerates tissue recovery in ways that diet and <a href=\"/physiotherapy-jvc/\">physiotherapy</a> alone cannot. The combination of moist heat, nutritive rice, and medicated milk supports protein synthesis and tissue rebuilding when the body is in a depleted state.",
+      description: "After prolonged hospitalisation, severe dengue, post-COVID weakness, or any condition involving significant muscle deconditioning, Njavarakizhi may provide support to tissue recovery in ways that complement diet and <a href=\"/physiotherapy-jvc/\">physiotherapy</a>. The combination of moist heat, nutritive rice, and medicated milk provides nutritive support when the body is in a depleted state.",
       benefits: [
-        "Restores muscle bulk and strength",
-        "Improves appetite and digestive capacity",
-        "Reduces post-illness fatigue meaningfully"
+        "May aid in maintaining muscle tone",
+        "Supports general wellbeing and digestive capacity",
+        "Can help manage post-illness fatigue"
       ]
     },
     {
       title: "Elderly Patients with Frailty and Sarcopenia",
-      description: "Age-related muscle loss (sarcopenia) responds particularly well to Njavarakizhi when combined with appropriate diet and gentle exercise. Many of our elderly patients return annually for a 21-session Njavarakizhi course as preventive care — maintaining muscle mass, joint mobility, and quality of life into their 70s and 80s.",
+      description: "Age-related muscle loss (sarcopenia) may respond well to Njavarakizhi when combined with appropriate diet and gentle exercise. Many of our elderly patients return annually for a Njavarakizhi course as supportive care — to help maintain mobility and quality of life into their 70s and 80s.",
       benefits: [
-        "Helps preserve muscle mass and grip strength",
-        "Improves joint mobility and reduces stiffness",
-        "Supports sleep quality and energy levels"
+        "Helps support mobility and muscle function",
+        "May improve joint comfort and reduce stiffness",
+        "Supports relaxation and energy levels"
       ]
     },
     {
       title: "Patients in Neurological Recovery",
-      description: "For <a href=\"/conditions/stroke-recovery-ayurveda-dubai/\">post-stroke</a> patients, those recovering from Bell's palsy, and others in neurological rehabilitation, Njavarakizhi is used alongside conventional <a href=\"/physiotherapy-jvc/\">physiotherapy</a> and neurology care. It does not replace medical management — but it consistently supports muscle tone recovery, tissue health, and patient quality-of-life during long rehabilitation periods.",
+      description: "For <a href=\"/conditions/stroke-recovery-ayurveda-dubai/\">post-stroke</a> patients, those recovering from Bell's palsy, and others in neurological rehabilitation, Njavarakizhi is used alongside conventional <a href=\"/physiotherapy-jvc/\">physiotherapy</a> and neurology care. It does not replace medical management — but it can provide supportive care during long rehabilitation periods.",
       benefits: [
-        "Supports motor recovery alongside physiotherapy",
-        "Improves circulation in affected limbs",
-        "Enhances overall recovery momentum"
+        "Provides supportive care alongside physiotherapy",
+        "May help with circulation in affected limbs",
+        "Complements the overall recovery process"
       ]
     }
   ],
@@ -292,35 +292,41 @@ export const njavarakizhiPrograms = {
       whatsappMessage: "Hi, I'd like to inquire about the Njavarakizhi Intensive Restorative Programme (21-30 sessions) at your clinic."
     }
   ],
-  footer: "All programmes can be combined with <a href=\"/home-healthcare-dubai/\">home healthcare services</a> for patients who cannot easily travel to the clinic. Pricing adjusted for home delivery. Insurance direct-billing available with seven major insurers — coverage for specialised restorative care varies by plan.",
+  footer: `<div class="mb-6 text-[14px] text-[#6B6B6B] font-sans italic">
+    Prices are indicative. Final pricing depends on the treatment plan, services included, and whether treatment is delivered at the clinic or at home.
+  </div>
+  <div class="mt-8 pt-8 border-t border-[#E5DFD3] text-center">
+    <p class="text-[13px] font-sans font-semibold tracking-[0.15em] text-[#C9A961] uppercase mb-4">INSURANCE & PAYMENT</p>
+    <p class="text-[15px] text-[#6B6B6B] font-sans italic mb-6">Insurance coverage varies by policy, network, and benefits. Please confirm eligibility before treatment.</p>
+    <a href="https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20check%20my%20insurance%20coverage%20for%20Njavarakizhi%20treatment." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 bg-[#1F4538] text-white font-sans font-semibold text-[15px] rounded hover:bg-[#1A3A2F] transition-colors shadow-md">Check Insurance on WhatsApp</a>
+  </div>`,
   image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800"
 };
 
 export const njavarakizhiReviews = {
   bgColor: "bg-[#2A4340]",
-  label: "PATIENT OUTCOMES",
-  title: "What patients say.",
+  label: "TESTIMONIALS",
+  title: "Patient-reported experience",
+  description: "Individual experiences vary, and testimonials are not a guarantee of treatment outcomes.",
   items: [
     {
-      quote: "After my post-COVID fatigue lasted nine months, two weeks of Njavarakizhi did what nothing else was able to do.",
+      quote: "After my post-COVID fatigue lasted nine months, the two weeks of Njavarakizhi therapy provided meaningful support to my recovery.",
       author: "Sarah K.",
       details: "Post-COVID Recovery · 14-Session Clinical Course · February 2026 · Vedara Care JVC"
     },
     {
-      quote: "For my mother at 78, after her hip surgery, this was the difference between recovering and not.",
+      quote: "For my mother at 78, after her hip surgery, this therapy was a valuable part of her rehabilitation.",
       author: "On behalf of Amina B.",
       details: "Post-Surgery Recovery · 21-Session Home Programme · At Vedara Care, February 2026"
     },
     {
-      quote: "Eighteen months after my stroke, the Njavarakizhi sessions are the part of my recovery I will not skip.",
+      quote: "Eighteen months after my stroke, the Njavarakizhi sessions are a very supportive part of my recovery process.",
       author: "Rahul D.",
       details: "<a href=\"/conditions/stroke-recovery-ayurveda-dubai/\">Post-Stroke Rehabilitation</a> · Ongoing Programme · Vedara Care JVC, March 2026"
     }
   ],
   stats: [
-    { value: "4.5", label: "stars on Google" },
-    { value: "23", label: "Njavarakizhi-specific reviews" },
-    { value: "88%", label: "reported meaningful clinical improvement" }
+    { value: "4.5", label: "stars on Google" }
   ],
   buttonText: "Read All Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
@@ -356,7 +362,7 @@ export const njavarakizhiFaqs = {
     },
     {
       question: "How much does Njavarakizhi cost in Dubai?",
-      answer: "At Vedara Care, single-session Njavarakizhi starts from AED 480 — higher than <a href=\"/treatments/abhyanga-dubai/\">Abhyanga</a> or <a href=\"/treatments/shirodhara-dubai/\">Shirodhara</a> because of the cost of authentic Njavara rice and the longer preparation. A 7-session trial course starts from AED 2,950. A 14-session clinical restorative course starts from AED 5,600. A 21–30 session intensive programme starts from AED 7,800. Across Dubai, authentic Njavarakizhi typically ranges from AED 500 to AED 900 per session."
+      answer: "At Vedara Care, single-session Njavarakizhi starts from AED 480 — higher than <a href=\"/treatments/abhyanga-dubai/\">Abhyanga</a> or <a href=\"/treatments/shirodhara-dubai/\">Shirodhara</a> because of the cost of authentic Njavara rice and the longer preparation. A 7-session trial course starts from AED 2,950. A 14-session clinical restorative course starts from AED 5,600. A 21–30 session intensive programme starts from AED 7,800."
     },
     {
       question: "Who is Njavarakizhi actually for?",
@@ -424,7 +430,7 @@ export const njavarakizhiFinalCTA = {
   bgColor: "bg-[#FFFFFF]",
   label: "READY?",
   title: "Begin with a clinical assessment.",
-  description: "Njavarakizhi is not the right therapy for most patients — but for the right patient, it is unmatched. A 45-60 minute consultation at our JVC clinic includes clinical assessment and a clear recommendation on whether Njavarakizhi will deliver the outcomes you are looking for. If it is not the right therapy, we will say so and recommend what is.",
+  description: "Njavarakizhi is not the right therapy for most patients — but for the right patient, it may be considered a highly beneficial therapy. A 45-60 minute consultation at our JVC clinic includes clinical assessment and a clear recommendation on whether Njavarakizhi will deliver the outcomes you are looking for. If it is not the right therapy, we will say so and recommend what is.",
   button1Text: "Book Njavarakizhi Consultation",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",

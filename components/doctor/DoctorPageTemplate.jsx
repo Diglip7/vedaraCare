@@ -9,24 +9,24 @@ import AyurvedaIntro from '../ayurveda/AyurvedaIntro';
 import AyurvedaHero from '../ayurveda/AyurvedaHero';
 import { SciaticaTreatment } from '../ayurveda/SciaticaSections';
 import PostnatalComponents from '../ayurveda/PostnatalComponents';
-import { drAnsiya } from '../../data/doctorData';
+import { drZainab } from '../../data/doctorData';
 
 const DoctorPageTemplate = ({ doctor }) => {
   const replaceName = (obj) => {
     if (!obj) return null;
     const docName = doctor.firstName || doctor.name || '';
-    // Replace "Dr. Ansiya" with full doc name, and just "Ansiya" with the name without "Dr." if it exists
+    // Replace "Dr. Zainab" with full doc name, and just "Zainab" with the name without "Dr." if it exists
     const str = JSON.stringify(obj)
-      .replace(/Dr\\?\. Ansiya/g, docName)
-      .replace(/Ansiya/g, docName.replace('Dr. ', ''));
+      .replace(/Dr\\?\. Zainab/g, docName)
+      .replace(/Zainab/g, docName.replace('Dr. ', ''));
     return JSON.parse(str);
   };
 
-  const reviews = doctor.reviews || replaceName(drAnsiya.reviews);
-  const consultation = doctor.consultation || replaceName(drAnsiya.consultation);
-  const pricing = doctor.pricing || replaceName(drAnsiya.pricing);
-  const faqs = doctor.faqs || replaceName(drAnsiya.faqs);
-  const location = doctor.location || replaceName(drAnsiya.location);
+  const reviews = doctor.reviews || replaceName(drZainab.reviews);
+  const consultation = doctor.consultation || replaceName(drZainab.consultation);
+  const pricing = doctor.pricing || replaceName(drZainab.pricing);
+  const faqs = doctor.faqs || replaceName(drZainab.faqs);
+  const location = doctor.location || replaceName(drZainab.location);
   return (
     <>
       {/* ================= SECTION 1: HERO (Image Right, Content Left) ================= */}

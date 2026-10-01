@@ -16,9 +16,15 @@ export const SciaticaTypes = ({
   const TypeItem = ({ type, index }) => {
     const card = (
       <div className={`${cardBg} p-6 rounded-lg ${borderPosition === 'left' ? 'border-l-3' : 'border-t-3'} border-[#C9A55A] shadow-sm transition-all duration-300 flex flex-col gap-4 h-full ${type.href ? 'cursor-pointer hover:shadow-xl hover:-translate-y-1 hover:border-[#B8963E]' : ''}`}>
-        <div className="text-4xl text-[#C9A55A] font-serif mb-6" style={{ fontFamily: 'Fraunces, Georgia, serif' }}>
-          {type.number}
-        </div>
+        {type.image ? (
+          <div className="mb-4">
+            <img src={type.image} alt={type.alt || type.title} className="w-12 h-12 object-contain" />
+          </div>
+        ) : (
+          <div className="text-4xl text-[#C9A55A] font-serif mb-6" style={{ fontFamily: 'Fraunces, Georgia, serif' }}>
+            {type.number}
+          </div>
+        )}
 
         <div className="space-y-4 flex-grow">
           <div>

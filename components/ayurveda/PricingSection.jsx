@@ -3,24 +3,24 @@ import React from 'react';
 const defaultPricingCards = [
   {
     category: "FIRST CONSULTATION",
-    title: "Doctor Assessment",
+    title: "Doctor Consultation",
     price: "AED 200  -  AED 800",
     description: "A 45 - 60 minute Ayurvedic consultation with a BAMS-qualified doctor, including pulse diagnosis, dosha assessment, and a written treatment plan. Some clinics charge less but offer shorter consultations.",
-    footer: "At Vedara Care: From AED 350"
+    footer: "Vedara Care: From AED 350"
   },
   {
     category: "INDIVIDUAL TREATMENTS",
-    title: "Single Session",
+    title: "Individual Treatment",
     price: "AED 250  -  AED 800",
-    description: "Single therapy sessions like Abhyanga (60 - 90 min), Shirodhara (45 - 60 min), or Kativasti (45 min). Quality varies enormously  -  cheaper is often a warning sign.",
-    footer: "At Vedara Care: From AED 280"
+    description: "Single therapy sessions like Abhyanga (60 - 90 min), Shirodhara (45 - 60 min), or Kativasti (45 min). Prices vary depending on the practitioner, treatment duration, materials and what is included in the treatment plan.",
+    footer: "Vedara Care: From AED 280"
   },
   {
     category: "PANCHAKARMA",
-    title: "Full Programme",
+    title: "Panchakarma",
     price: "AED 3,500  -  AED 15,000",
     description: "7-day, 14-day, or 21-day full Panchakarma detox programmes. Includes consultations, daily therapies, herbal medicines, dietary guidance, and follow-up. Length and inclusions vary.",
-    footer: "At Vedara Care: From AED 3,800"
+    footer: "Vedara Care: From AED 3,800"
   }
 ];
 
@@ -29,7 +29,7 @@ const defaultInsurers = ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Healt
 const PricingSection = ({
   label = "TRANSPARENT PRICING",
   title = "How much does Ayurvedic treatment cost in Dubai?",
-  description = "Honest indicative pricing across Dubai's main Ayurveda clinics, based on publicly available information. Final pricing always depends on your specific treatment plan.",
+  description = "Indicative Ayurvedic treatment prices in Dubai. Final pricing depends on your individual treatment plan.",
   pricingCards = defaultPricingCards,
   insuranceTitle = "INSURANCE COVERAGE FOR AYURVEDA IN DUBAI (2026)",
   insuranceDesc = "Some Dubai insurance plans cover Ayurveda partially or fully  -  most commonly Daman, AXA, and Now Health premium tiers. Coverage varies plan by plan. Vedara Care is a direct-billing partner with seven major insurers  -  send us a photo of your card on WhatsApp and we will confirm your specific coverage before you book.",
@@ -83,6 +83,20 @@ const PricingSection = ({
           </div>
         )}
 
+        <div className="text-center mb-12">
+          <p className="text-[14px] text-[#6B6B6B] font-sans italic mb-8">
+            Prices are indicative. Final pricing depends on the treatment plan and services included.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="/book" className="w-full sm:w-auto px-8 py-4 bg-[#1F4538] text-white font-sans font-semibold text-[15px] rounded hover:bg-[#1A3A2F] transition-colors">
+              Book Ayurvedic Consultation
+            </a>
+            <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Ayurveda." target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 bg-transparent border border-[#1F4538] text-[#1F4538] font-sans font-semibold text-[15px] rounded hover:bg-[#FAF6EF] transition-colors">
+              Check Insurance Coverage on WhatsApp
+            </a>
+          </div>
+        </div>
+
         {tableData && (
           <div className="bg-white rounded-[8px] p-8 border border-[#E5DFD3] mb-12 overflow-x-auto">
             <table className="w-full border-collapse">
@@ -122,7 +136,7 @@ const PricingSection = ({
               </p>
             )}
             {insurers && insurers.length > 0 && (
-              <div className="flex flex-wrap justify-center gap-3">
+              <div className="flex flex-wrap justify-center gap-3 mb-8">
                 {insurers.map((insurer, index) => (
                   <span key={index} className="bg-[#FAF6EF] text-[#6B6B6B] px-4 py-2 rounded-[4px] text-[13px] font-sans border border-[#E5DFD3]">
                     {insurer}
@@ -130,6 +144,14 @@ const PricingSection = ({
                 ))}
               </div>
             )}
+            <p className="text-[13.5px] text-[#6B6B6B] font-sans italic mb-8">
+              Insurance coverage varies by policy, network and benefits. Please confirm eligibility before treatment.
+            </p>
+            <div className="flex justify-center">
+              <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Ayurveda." target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-[#1F4538] text-white font-sans font-semibold text-[15px] rounded hover:bg-[#1A3A2F] transition-colors shadow-md">
+                Check Insurance Coverage on WhatsApp
+              </a>
+            </div>
           </div>
         )}
       </div>

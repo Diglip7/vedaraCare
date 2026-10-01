@@ -562,9 +562,9 @@ export const drAnusha = {
       slug: "dr-priya-nair",
     },
     {
-      name: "Dr. Ansiya",
+      name: "Dr. Zainab",
       specialty: "Neurological Rehab, Musculoskeletal Care",
-      slug: "dr-ansiya",
+      slug: "dr-zainab",
     },
     {
       name: "Hafsina K K",
@@ -859,7 +859,7 @@ export const hafsinaKKTemplate = {
       { title: 'Pelvic Floor Physiotherapy', description: 'Explore specialised physiotherapy support for pelvic floor concerns, including personalised assessment and rehabilitation where appropriate.', href: '/conditions/pelvic-floor-physiotherapy-dubai' },
       { title: 'Back Pain Physiotherapy', description: 'Understand how physiotherapy assessment and rehabilitation may be used as part of care for back pain.', href: '/conditions/back-pain-physiotherapy-jvc' },
       { title: 'Knee Pain Physiotherapy', description: 'Learn about physiotherapy approaches for knee pain, movement limitations and rehabilitation needs.', href: '/conditions/knee-pain-physiotherapy-dubai' },
-      { title: 'Dr. Ansiya — Ayurvedic Doctor', description: 'Meet Dr. Ansiya, DHA-Licensed BAMS Ayurvedic Doctor, for personalised Ayurvedic care at Vedara Care.', href: '/doctors/dr-ansiya-ayurveda' },
+      { title: 'Dr. Zainab — Ayurvedic Doctor', description: 'Meet Dr. Zainab, DHA-Licensed BAMS Ayurvedic Doctor, for personalised Ayurvedic care at Vedara Care.', href: '/doctors/dr-zainab-ayurveda' },
       { title: 'Johanna Dianne U. Bautista', description: 'Explore another member of the Vedara Care team and our patient-centred approach to healthcare support.', href: '/doctors/johanna-bautista' }
     ]
   }
@@ -1126,7 +1126,7 @@ export const drAnushaMakkenaTemplate = {
     columns: 4,
     pages: [
       { title: "Dr. Priya Nair", description: "Senior Ayurvedic Physician | Chronic Pain, PCOS, Migraine", href: "/doctors/dr-priya-nair" },
-      { title: "Dr. Ansiya", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-ansiya-ayurveda" },
+      { title: "Dr. Zainab", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-zainab-ayurveda" },
       { title: "Hafsina K K", description: "DHA Licensed Physiotherapist | Orthopedic, Neurological & Women's Health Rehabilitation", href: "/doctors/hafsina-kk-physiotherapist" },
       { title: "Johanna Dianne U. Bautista", description: "Front Desk Receptionist | Patient Care & Operations Specialist", href: "/doctors/johanna-dianne-bautista" }
     ]
@@ -1331,49 +1331,49 @@ export const ayurvedaConsultationData = {
   footer: "First consultation duration: 45 to 60 minutes ”· From AED 350"
 };
 
-export const drAnsiya = {
-  name: 'Dr. Ansiya',
-  firstName: 'Dr. Ansiya',
+export const drZainab = {
+  name: 'Dr. Zainab',
+  firstName: 'Dr. Zainab',
   title: 'BAMS | Ayurveda Practitioner',
-  image: '/images/dr-ansiya-ayurveda-jvc.webp',
-  alt: 'Dr. Ansiya, BAMS-qualified DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, JVC Dubai',
+  image: '/images/dr-zainab-ayurveda-jvc.webp',
+  alt: 'Dr. Zainab, BAMS-qualified DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, JVC Dubai',
   heroBadge: 'AYURVEDIC DOCTOR · DHA-LICENSED · BAMS-QUALIFIED · JUMEIRAH VILLAGE CIRCLE',
   heroStats: 'BAMS · DHA-Licensed Ayurvedic Doctor · Personalised Holistic Care',
-  bio: "Dr. Ansiya is a DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC) — walking distance from Circle Mall. BAMS-qualified with expertise across Nadi Pareeksha, Panchakarma, women's health including PCOS, musculoskeletal disorders, skin conditions, hair health, stress management, weight management, postnatal care, and Ayurvedic rejuvenation. Female doctor available. Serving JVC families and patients from across Dubai.",
-  about: "Dr. Ansiya is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. She provides authentic Ayurvedic care combining Nadi Pareeksha (pulse examination), Prakriti constitution assessment, classical Ayurvedic principles, individually selected therapies, herbal internal medicines, and personalised diet and lifestyle counselling. Her 11 documented expertise areas include Nadi Pareeksha and Ayurvedic assessment; Panchakarma and detoxification; women's health and PCOS; musculoskeletal disorders including back pain, sciatica, and spondylosis; skin disorders with special interest in eczema and psoriasis; hair and scalp disorders; stress, anxiety, and sleep concerns; weight management and lifestyle disorders; postnatal Ayurvedic care; Ayurvedic rejuvenation (Rasayana); and diet and lifestyle counselling based on body constitution. Female doctor available. Multi-language capability including English, Malayalam, and Hindi. Patients travel from JVC, JVT, Al Barsha, Sports City, Dubai Hills, Marina, Downtown, Business Bay, Palm Jumeirah, Mirdif, and across Dubai. Same-week appointments typically available.  ",
+  bio: "Dr. Zainab is a DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC) — walking distance from Circle Mall. BAMS-qualified with expertise across Nadi Pareeksha, Panchakarma, women's health including PCOS, musculoskeletal disorders, skin conditions, hair health, stress management, weight management, postnatal care, and Ayurvedic rejuvenation. Female doctor available. Serving JVC families and patients from across Dubai.",
+  about: "Dr. Zainab is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. She provides authentic Ayurvedic care combining Nadi Pareeksha (pulse examination), Prakriti constitution assessment, classical Ayurvedic principles, individually selected therapies, herbal internal medicines, and personalised diet and lifestyle counselling. Her 11 documented expertise areas include Nadi Pareeksha and Ayurvedic assessment; Panchakarma and detoxification; women's health and PCOS; musculoskeletal disorders including back pain, sciatica, and spondylosis; skin disorders with special interest in eczema and psoriasis; hair and scalp disorders; stress, anxiety, and sleep concerns; weight management and lifestyle disorders; postnatal Ayurvedic care; Ayurvedic rejuvenation (Rasayana); and diet and lifestyle counselling based on body constitution. Female doctor available. Multi-language capability including English, Malayalam, and Hindi. Patients travel from JVC, JVT, Al Barsha, Sports City, Dubai Hills, Marina, Downtown, Business Bay, Palm Jumeirah, Mirdif, and across Dubai. Same-week appointments typically available.  ",
   specialties: "Women's health & PCOS, Musculoskeletal, Skin & Hair, Stress & Sleep, Postnatal, Rasayana",
   fee: 'From AED [X] (initial consultation)',
   languages: 'English (professional fluency), Malayalam, Hindi, Additional languages — to be confirmed',
   availability: 'Mon-Sat at JVC clinic',
-  summaryTitle: 'Personalised holistic Ayurvedic care — Dr. Ansiya\'s clinical approach.',
-  summaryParagraph1: 'Dr. Ansiya follows a personalized and holistic Ayurvedic approach rooted in classical Ayurvedic principles combined with modern clinical care standards. Her practice at our JVC clinic serves patients from across Dubai seeking authentic Ayurvedic consultation and sustained wellness partnership.',
+  summaryTitle: 'Personalised holistic Ayurvedic care — Dr. Zainab\'s clinical approach.',
+  summaryParagraph1: 'Dr. Zainab follows a personalized and holistic Ayurvedic approach rooted in classical Ayurvedic principles combined with modern clinical care standards. Her practice at our JVC clinic serves patients from across Dubai seeking authentic Ayurvedic consultation and sustained wellness partnership.',
   summaryParagraph2: 'Personalised Ayurvedic care begins with understanding the patient — not just the condition. My approach combines genuine listening, authentic Ayurvedic assessment, and classical principles applied to each individual\'s specific situation.',
   section: 'She consults at our JVC clinic, accessible from Jumeirah Village Circle, Dubai Marina, Downtown Dubai, Business Bay, Al Barsha, Dubai Hills Estate, Jumeirah Lake Towers, Mirdif, and every Dubai community.',
   description: [
     {
       title: "Listening first — comprehensive patient understanding",
       description:
-        "Dr. Ansiya's consultation begins with genuine listening. She takes time to understand your health concerns, lifestyle context, previous treatment history, cultural considerations, and specific wellness goals. This foundational understanding shapes everything that follows. Consultation duration reflects this commitment — meaningful assessment cannot be rushed."
+        "Dr. Zainab's consultation begins with genuine listening. She takes time to understand your health concerns, lifestyle context, previous treatment history, cultural considerations, and specific wellness goals. This foundational understanding shapes everything that follows. Consultation duration reflects this commitment — meaningful assessment cannot be rushed."
     },
     {
       title: "Nadi Pareeksha — authentic Ayurvedic pulse assessment",
       description:
-        "Nadi Pareeksha is the traditional Ayurvedic diagnostic method reading pulse characteristics to understand internal balance. Dr. Ansiya's expertise provides insights into your current state (Vikriti), individual constitutional patterns (Prakriti), and specific imbalances requiring attention."
+        "Nadi Pareeksha is the traditional Ayurvedic diagnostic method reading pulse characteristics to understand internal balance. Dr. Zainab's expertise provides insights into your current state (Vikriti), individual constitutional patterns (Prakriti), and specific imbalances requiring attention."
     },
     {
       title: "Prakriti assessment — understanding your individual constitution",
       description:
-        "Individual constitution (Prakriti) profoundly affects appropriate treatment approach. Vata, Pitta, Kapha, and combination constitutions respond differently to same treatments. Dr. Ansiya's Prakriti assessment identifies your specific constitutional pattern guiding personalised recommendations."
+        "Individual constitution (Prakriti) profoundly affects appropriate treatment approach. Vata, Pitta, Kapha, and combination constitutions respond differently to same treatments. Dr. Zainab's Prakriti assessment identifies your specific constitutional pattern guiding personalised recommendations."
     },
     {
       title: "Classical principles integrated with modern clinical care",
       description:
-        "Dr. Ansiya combines classical Ayurvedic principles with modern clinical standards expected at a DHA-licensed medical clinic. Modern medical history reviewed, medications noted for interactions, chronic conditions acknowledged, coordination with modern medical care when relevant."
+        "Dr. Zainab combines classical Ayurvedic principles with modern clinical standards expected at a DHA-licensed medical clinic. Modern medical history reviewed, medications noted for interactions, chronic conditions acknowledged, coordination with modern medical care when relevant."
     },
     {
       title: "Sustained partnership approach",
       description:
-        "Ayurvedic care is a journey rather than one-time treatment. Dr. Ansiya maintains sustained partnership through regular follow-ups, treatment adjustments based on response, seasonal wellness recommendations, and long-term wellness support — particularly valuable for chronic conditions and women's health."
+        "Ayurvedic care is a journey rather than one-time treatment. Dr. Zainab maintains sustained partnership through regular follow-ups, treatment adjustments based on response, seasonal wellness recommendations, and long-term wellness support — particularly valuable for chronic conditions and women's health."
     }
   ],
   education: [
@@ -1435,7 +1435,7 @@ export const drAnsiya = {
     {
       number: '07',
       title: '<a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress, Anxiety & Sleep Concerns</a>',
-      description: 'Stress, anxiety, and sleep concerns are a primary clinical focus. Comprehensive multi-modal JVC programme combining <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a> therapy, constitutional herbal medicines (Brahmi, Ashwagandha, Jatamansi, Shankhpushpi), personalised lifestyle guidance, and sustained follow-up. Particularly effective for Dubai\'s high-pressure professional environment, expatriate adjustment stress, burnout recovery, and patients complementing modern mental health care. Medically reviewed by Dr. Ansiya across the dedicated <a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress & Anxiety Ayurveda JVC</a> page.',
+      description: 'Stress, anxiety, and sleep concerns are a primary clinical focus. Comprehensive multi-modal JVC programme combining <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a> therapy, constitutional herbal medicines (Brahmi, Ashwagandha, Jatamansi, Shankhpushpi), personalised lifestyle guidance, and sustained follow-up. Particularly effective for Dubai\'s high-pressure professional environment, expatriate adjustment stress, burnout recovery, and patients complementing modern mental health care. Medically reviewed by Dr. Zainab across the dedicated <a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress & Anxiety Ayurveda JVC</a> page.',
       related: 'Related: <a href="/conditions/stress-anxiety-ayurveda-jvc/">Stress & Anxiety Ayurveda JVC</a> · <a href="/treatments/shirodhara-dubai/">Shirodhara Dubai</a> · Insomnia Ayurveda'
     },
     {
@@ -1463,7 +1463,7 @@ export const drAnsiya = {
       related: 'Foundation for: All Ayurveda treatment programmes at our JVC clinic'
     }
   ],
-  specialtiesFooter: 'Comprehensive consultation with Dr. Ansiya identifies which of her expertise areas apply to your situation →',
+  specialtiesFooter: 'Comprehensive consultation with Dr. Zainab identifies which of her expertise areas apply to your situation →',
   conditionsTreated: {
     subtitle: 'Comprehensive Ayurvedic approach across women\'s health, musculoskeletal, skin, hair, stress, weight, postnatal, and lifestyle conditions.',
     categories: [
@@ -1499,7 +1499,7 @@ export const drAnsiya = {
       {
         category: 'Stress & Sleep',
         conditions: [
-          { title: '<a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress & Anxiety (JVC clinic)</a>', description: 'Comprehensive stress and anxiety management programme at JVC through <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a>, constitutional support, herbal medicines, and lifestyle guidance — DHA-licensed female Ayurvedic doctor Dr. Ansiya. Medical review: Stress & Anxiety Ayurveda JVC page.' },
+          { title: '<a href="/conditions/stress-anxiety-ayurveda-jvc/" class="doctor-specialty-link">Stress & Anxiety (JVC clinic)</a>', description: 'Comprehensive stress and anxiety management programme at JVC through <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a>, constitutional support, herbal medicines, and lifestyle guidance — DHA-licensed female Ayurvedic doctor Dr. Zainab. Medical review: Stress & Anxiety Ayurveda JVC page.' },
           { title: 'Sleep Concerns & Insomnia', description: 'Shirodhara and constitutional approach for sleep quality and sleep hygiene as part of dedicated JVC stress management programme.' }
         ]
       },
@@ -1511,7 +1511,7 @@ export const drAnsiya = {
         ]
       }
     ],
-    footer: 'For treatment procedures Dr. Ansiya delivers, see our Ayurveda Clinic JVC and Detox Treatment pages →'
+    footer: 'For treatment procedures Dr. Zainab delivers, see our Ayurveda Clinic JVC and Detox Treatment pages →'
   },
   reviews: {
     bgColor: "bg-[#FAF6EF]",
@@ -1519,21 +1519,21 @@ export const drAnsiya = {
     isDarkText: true,
     useKneeStyle: true,
     label: "PATIENT VOICES",
-    title: "Real patient experiences with Dr. Ansiya at our JVC clinic.",
+    title: "Real patient experiences with Dr. Zainab at our JVC clinic.",
     // description: "Ayurvedic care outcomes measured over weeks and months, not single visits. These are representative patient stories from our Jumeirah Village Circle clinic.",
     items: [
       {
-        quote: "Consulted Dr. Ansiya at Vedara's JVC clinic for PCOS after years of frustrating experiences at other Dubai clinics. Her approach was completely different — genuine 90-minute initial consultation with detailed Nadi Pareeksha and Prakriti assessment, discussion of my complete lifestyle and cultural dietary patterns, personalised treatment plan combining herbal medicines, dietary guidance matched to my constitution, and Panchakarma programme. Six months of sustained partnership: substantial cycle regularity, weight management progress, energy transformation.",
+        quote: "Consulted Dr. Zainab at Vedara's JVC clinic for PCOS after years of frustrating experiences at other Dubai clinics. Her approach was completely different — genuine 90-minute initial consultation with detailed Nadi Pareeksha and Prakriti assessment, discussion of my complete lifestyle and cultural dietary patterns, personalised treatment plan combining herbal medicines, dietary guidance matched to my constitution, and Panchakarma programme. Six months of sustained partnership: substantial cycle regularity, weight management progress, energy transformation.",
         author: "Female patient, 32 · PCOS Ayurvedic Management",
         details: "Dubai Marina Resident · February 2026"
       },
       {
-        quote: "Chronic lower back pain from years of Dubai office work. Consulted Dr. Ansiya at Vedara's JVC clinic on referral. Comprehensive assessment identified constitutional factors and lifestyle patterns contributing to my back pain. Personalised programme: Kativasti oil therapy series, internal Ayurvedic medicines, dietary guidance, ergonomic recommendations. Substantial pain reduction within 4 weeks, sustained improvement over 6 months. Dr. Ansiya's genuine listening and sustained partnership completely different from rushed consultations elsewhere in Dubai.",
+        quote: "Chronic lower back pain from years of Dubai office work. Consulted Dr. Zainab at Vedara's JVC clinic on referral. Comprehensive assessment identified constitutional factors and lifestyle patterns contributing to my back pain. Personalised programme: Kativasti oil therapy series, internal Ayurvedic medicines, dietary guidance, ergonomic recommendations. Substantial pain reduction within 4 weeks, sustained improvement over 6 months. Dr. Zainab's genuine listening and sustained partnership completely different from rushed consultations elsewhere in Dubai.",
         author: "Male patient, 41 · Musculoskeletal Ayurvedic Management",
         details: "Business Bay Resident · January 2026"
       },
       {
-        quote: "Postnatal Ayurvedic care at Dr. Ansiya's JVC practice after having my daughter. Comprehensive 6-week programme following traditional Kerala postnatal Ayurvedic practice — gentle therapies, nourishing dietary guidance, herbal support for recovery and lactation, home care recommendations. Also physiotherapy support from Vedara's team — integrated multi-disciplinary approach at single JVC clinic. Substantially better postnatal recovery than friends who had received only modern medical postnatal care. Transformative experience.",
+        quote: "Postnatal Ayurvedic care at Dr. Zainab's JVC practice after having my daughter. Comprehensive 6-week programme following traditional Kerala postnatal Ayurvedic practice — gentle therapies, nourishing dietary guidance, herbal support for recovery and lactation, home care recommendations. Also physiotherapy support from Vedara's team — integrated multi-disciplinary approach at single JVC clinic. Substantially better postnatal recovery than friends who had received only modern medical postnatal care. Transformative experience.",
         author: "Female patient, 34 · Postnatal Ayurvedic Care",
         details: "JVC Family · March 2026"
       }
@@ -1548,7 +1548,7 @@ export const drAnsiya = {
   },
   consultation: {
     label: "YOUR CONSULTATION",
-    title: "What to expect at your Ayurvedic consultation with Dr. Ansiya.",
+    title: "What to expect at your Ayurvedic consultation with Dr. Zainab.",
     description: "Understanding the consultation process helps you prepare and set appropriate expectations.",
     phases: [
       {
@@ -1591,7 +1591,7 @@ export const drAnsiya = {
   },
   pricing: {
     label: "TRANSPARENT PRICING",
-    title: "Consultation with Dr. Ansiya — pricing and insurance.",
+    title: "Consultation with Dr. Zainab — pricing and insurance.",
     consultationRows: [
       { type: "Initial consultation (Nadi Pareeksha + Prakriti assessment + treatment plan)", duration: "90 minutes", price: "AED [X]" },
       { type: "Follow-up consultation", duration: "30–45 minutes", price: "AED [X]" },
@@ -1616,29 +1616,29 @@ export const drAnsiya = {
       { text: "Browse our other doctors", href: "/doctors/" },
       // { text: "See the JVC clinic page", href: "/ayurveda-clinic-jvc/" }
     ],
-    title: "What patients ask about consulting Dr. Ansiya.",
+    title: "What patients ask about consulting Dr. Zainab.",
     description: "For related topics, explore:",
     buttonText: "Ask the Team",
-    buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20consulting%20Dr.%20Ansiya%20at%20your%20JVC%20clinic.",
+    buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20consulting%20Dr.%20Zainab%20at%20your%20JVC%20clinic.",
     faqs: [
       {
-        question: "Who is Dr. Ansiya?",
-        answer: "Dr. Ansiya is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. She provides authentic Ayurvedic care with 11 documented expertise areas including Nadi Pareeksha, Panchakarma, women's health and PCOS, musculoskeletal disorders, skin and hair conditions, stress management, weight management, and postnatal care."
+        question: "Who is Dr. Zainab?",
+        answer: "Dr. Zainab is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. She provides authentic Ayurvedic care with 11 documented expertise areas including Nadi Pareeksha, Panchakarma, women's health and PCOS, musculoskeletal disorders, skin and hair conditions, stress management, weight management, and postnatal care."
       },
       {
-        question: "What are Dr. Ansiya's qualifications?",
+        question: "What are Dr. Zainab's qualifications?",
         answer: "BAMS (Bachelor of Ayurvedic Medicine and Surgery). DHA-licensed to practice Ayurvedic medicine in Dubai. Substantial clinical experience across authentic Ayurvedic assessment methods and multi-modal treatment approach. Full qualifications listed in the Credentials section above."
       },
       {
-        question: "Where does Dr. Ansiya practice?",
-        answer: "Dr. Ansiya practices at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. Central Dubai location accessible from Marina, Downtown, Business Bay, Al Barsha, Dubai Hills, JLT, Mirdif, and every Dubai community."
+        question: "Where does Dr. Zainab practice?",
+        answer: "Dr. Zainab practices at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. Central Dubai location accessible from Marina, Downtown, Business Bay, Al Barsha, Dubai Hills, JLT, Mirdif, and every Dubai community."
       },
       {
-        question: "Is Dr. Ansiya female?",
-        answer: "Yes — Dr. Ansiya is a female Ayurvedic doctor. Female doctor availability is important for many women preferring same-gender consultation particularly for women's health concerns."
+        question: "Is Dr. Zainab female?",
+        answer: "Yes — Dr. Zainab is a female Ayurvedic doctor. Female doctor availability is important for many women preferring same-gender consultation particularly for women's health concerns."
       },
       {
-        question: "What conditions does Dr. Ansiya treat?",
+        question: "What conditions does Dr. Zainab treat?",
         answer: "Comprehensive Ayurvedic care across 11 expertise areas: women's health and PCOS, musculoskeletal disorders (back pain, neck pain, sciatica, spondylosis), skin conditions (eczema, psoriasis), hair and scalp concerns, stress and sleep concerns, weight management, postnatal care, and Ayurvedic rejuvenation."
       },
       {
@@ -1647,59 +1647,59 @@ export const drAnsiya = {
       },
       {
         question: "What is Prakriti assessment?",
-        answer: "Prakriti is your individual Ayurvedic constitution — Vata, Pitta, Kapha, or combination. Different constitutions respond differently to same treatments. Dr. Ansiya assesses your Prakriti to guide personalised treatment recommendations."
+        answer: "Prakriti is your individual Ayurvedic constitution — Vata, Pitta, Kapha, or combination. Different constitutions respond differently to same treatments. Dr. Zainab assesses your Prakriti to guide personalised treatment recommendations."
       },
       {
-        question: "How long is initial consultation with Dr. Ansiya?",
+        question: "How long is initial consultation with Dr. Zainab?",
         answer: "90 minutes for initial consultation — allowing comprehensive assessment including Nadi Pareeksha, Prakriti evaluation, discussion of health concerns and lifestyle, review of medical history, and personalised treatment plan discussion. Follow-up consultations typically 30-45 minutes."
       },
       {
-        question: "Does Dr. Ansiya do Panchakarma?",
-        answer: "Yes — Dr. Ansiya has substantial Panchakarma expertise. Panchakarma programmes at our JVC clinic delivered by DHA-licensed Ayurvedic doctors with authentic multi-phase protocols."
+        question: "Does Dr. Zainab do Panchakarma?",
+        answer: "Yes — Dr. Zainab has substantial Panchakarma expertise. Panchakarma programmes at our JVC clinic delivered by DHA-licensed Ayurvedic doctors with authentic multi-phase protocols."
       },
       {
-        question: "Does Dr. Ansiya treat PCOS?",
-        answer: "Yes — women's health and PCOS is one of Dr. Ansiya's specialised expertise areas. Ayurvedic PCOS management combines constitutional assessment, herbal medicines, Panchakarma when appropriate, dietary guidance, and lifestyle recommendations."
+        question: "Does Dr. Zainab treat PCOS?",
+        answer: "Yes — women's health and PCOS is one of Dr. Zainab's specialised expertise areas. Ayurvedic PCOS management combines constitutional assessment, herbal medicines, Panchakarma when appropriate, dietary guidance, and lifestyle recommendations."
       },
       {
-        question: "What languages does Dr. Ansiya speak?",
+        question: "What languages does Dr. Zainab speak?",
         answer: "English (professional fluency), Malayalam, Hindi, and additional languages serving Dubai's diverse community. Language capability specified during booking."
       },
       {
-        question: "Is Dr. Ansiya DHA-licensed?",
-        answer: "Yes — Dr. Ansiya is DHA (Dubai Health Authority) licensed to practice Ayurvedic medicine in Dubai. License verification is public record via DHA Sheryan directory."
+        question: "Is Dr. Zainab DHA-licensed?",
+        answer: "Yes — Dr. Zainab is DHA (Dubai Health Authority) licensed to practice Ayurvedic medicine in Dubai. License verification is public record via DHA Sheryan directory."
       },
       {
-        question: "Does Dr. Ansiya treat men?",
-        answer: "Yes — Dr. Ansiya treats both male and female patients across all her expertise areas. Musculoskeletal disorders, stress management, weight management, and skin conditions common in male patient demographic."
+        question: "Does Dr. Zainab treat men?",
+        answer: "Yes — Dr. Zainab treats both male and female patients across all her expertise areas. Musculoskeletal disorders, stress management, weight management, and skin conditions common in male patient demographic."
       },
       {
-        question: "Does Dr. Ansiya treat children?",
-        answer: "Consultation identifies appropriate approach for pediatric patients. Some conditions and treatments appropriate for children; others require adult protocols only. Discussion during booking identifies whether Dr. Ansiya is appropriate for your child's situation."
+        question: "Does Dr. Zainab treat children?",
+        answer: "Consultation identifies appropriate approach for pediatric patients. Some conditions and treatments appropriate for children; others require adult protocols only. Discussion during booking identifies whether Dr. Zainab is appropriate for your child's situation."
       },
       {
         question: "How is Ayurvedic treatment coordinated with modern medicine?",
-        answer: "Dr. Ansiya's approach integrates classical Ayurvedic principles with modern clinical care standards. Modern medications reviewed, chronic conditions acknowledged, coordination with modern medical care when relevant. Not alternative-to-medicine — complementary integration."
+        answer: "Dr. Zainab's approach integrates classical Ayurvedic principles with modern clinical care standards. Modern medications reviewed, chronic conditions acknowledged, coordination with modern medical care when relevant. Not alternative-to-medicine — complementary integration."
       },
       {
-        question: "Does Dr. Ansiya do postnatal Ayurvedic care?",
-        answer: "Yes — postnatal Ayurvedic care is one of Dr. Ansiya's specialised expertise areas. Multi-week postnatal programmes typically beginning weeks 3-8 postpartum supporting recovery, nourishment, strength, and overall wellbeing."
+        question: "Does Dr. Zainab do postnatal Ayurvedic care?",
+        answer: "Yes — postnatal Ayurvedic care is one of Dr. Zainab's specialised expertise areas. Multi-week postnatal programmes typically beginning weeks 3-8 postpartum supporting recovery, nourishment, strength, and overall wellbeing."
       },
       {
-        question: "Does Dr. Ansiya prescribe herbal medicines?",
+        question: "Does Dr. Zainab prescribe herbal medicines?",
         answer: "Yes — internal Ayurvedic herbal medicines are standard component of Ayurvedic treatment. Herbal preparations matched to your constitution, condition, and treatment goals. All prescriptions from DHA-approved Ayurvedic pharmacy sources."
       },
       {
-        question: "Can I book WhatsApp consultation with Dr. Ansiya?",
+        question: "Can I book WhatsApp consultation with Dr. Zainab?",
         answer: "WhatsApp consultation follow-ups available for existing patients only. Initial consultation must be in-person at our JVC clinic for comprehensive assessment including Nadi Pareeksha which requires physical presence."
       },
       {
-        question: "How is Dr. Ansiya's approach different from other Ayurvedic doctors in Dubai?",
+        question: "How is Dr. Zainab's approach different from other Ayurvedic doctors in Dubai?",
         answer: "DHA-licensed BAMS-qualified authentic Ayurvedic doctor. 11 documented expertise areas rather than generalised practice. Personalised holistic approach with comprehensive Nadi Pareeksha assessment. Sustained partnership approach. Female doctor availability. Multi-language capability. Integrated with Vedara Care multi-disciplinary team at JVC clinic."
       },
       {
-        question: "How do I book consultation with Dr. Ansiya?",
-        answer: "Three ways: WhatsApp specifying you want appointment with Dr. Ansiya — fastest response; call 9AM-9PM seven days a week; book online. Please bring for initial consultation: current health concerns, current medications, previous medical reports if relevant, insurance card if applicable, specific questions and treatment goals."
+        question: "How do I book consultation with Dr. Zainab?",
+        answer: "Three ways: WhatsApp specifying you want appointment with Dr. Zainab — fastest response; call 9AM-9PM seven days a week; book online. Please bring for initial consultation: current health concerns, current medications, previous medical reports if relevant, insurance card if applicable, specific questions and treatment goals."
       }
     ]
   },
@@ -1715,11 +1715,11 @@ export const drAnsiya = {
   location: {
     bgColor: "bg-white",
     label: "VISIT US",
-    title: "Where Dr. Ansiya practices — Vedara Care JVC clinic.",
+    title: "Where Dr. Zainab practices — Vedara Care JVC clinic.",
     address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
     phone: "+971 55 573 6312",
     whatsapp: "+971 55 573 6312",
-    whatsappMessage: "Hi, I'd like to inquire about booking a consultation with Dr. Ansiya at your JVC clinic.",
+    whatsappMessage: "Hi, I'd like to inquire about booking a consultation with Dr. Zainab at your JVC clinic.",
     email: "booking@vedaracare.ae",
     hours: "Monday - Sunday: 9:00 am to 10:00 pm",
     landmarks: [
@@ -1729,21 +1729,21 @@ export const drAnsiya = {
       "Free patient parking available",
       "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
     ],
-    description: "Dr. Ansiya consults at Vedara Care Polyclinic JVC with dedicated Ayurvedic consultation rooms, Panchakarma treatment suites, and access to integrated physiotherapy and dermatology services within the same clinic.",
-    buttonText: "Book Dr. Ansiya Consultation",
+    description: "Dr. Zainab consults at Vedara Care Polyclinic JVC with dedicated Ayurvedic consultation rooms, Panchakarma treatment suites, and access to integrated physiotherapy and dermatology services within the same clinic.",
+    buttonText: "Book Dr. Zainab Consultation",
     buttonHref: "/book",
-    mapAlt: "Vedara Care Polyclinic location in Jumeirah Village Circle — Dr. Ansiya's clinic",
+    mapAlt: "Vedara Care Polyclinic location in Jumeirah Village Circle — Dr. Zainab's clinic",
     mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
   },
   cta: {
     bgColor: "bg-[#FAF6EF]",
     label: "READY?",
     title: "Comprehensive Ayurvedic consultation is the starting point.",
-    description: "Whether you're seeking Ayurvedic care for PCOS, chronic musculoskeletal issues, persistent skin or hair conditions, stress and sleep concerns, weight management, postnatal recovery, or Ayurvedic rejuvenation — comprehensive consultation with Dr. Ansiya identifies whether her expertise matches your situation. DHA-licensed BAMS-qualified doctor. 90-minute assessment including Nadi Pareeksha and Prakriti evaluation. Same-week consultation appointments typically available at our JVC clinic.",
-    button1Text: "Book Dr. Ansiya Consultation",
+    description: "Whether you're seeking Ayurvedic care for PCOS, chronic musculoskeletal issues, persistent skin or hair conditions, stress and sleep concerns, weight management, postnatal recovery, or Ayurvedic rejuvenation — comprehensive consultation with Dr. Zainab identifies whether her expertise matches your situation. DHA-licensed BAMS-qualified doctor. 90-minute assessment including Nadi Pareeksha and Prakriti evaluation. Same-week consultation appointments typically available at our JVC clinic.",
+    button1Text: "Book Dr. Zainab Consultation",
     button1Href: "/book",
     button2Text: "Chat on WhatsApp",
-    button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20booking%20a%20consultation%20with%20Dr.%20Ansiya%20at%20your%20JVC%20clinic.",
+    button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20booking%20a%20consultation%20with%20Dr.%20Zainab%20at%20your%20JVC%20clinic.",
     bullets: [
       "Initial consultation from AED [X] · 90-minute comprehensive assessment",
       "DHA-Licensed BAMS Ayurvedic Doctor 11 documented expertise areas",
@@ -1755,14 +1755,14 @@ export const drAnsiya = {
   relatedPages: {
     bgColor: "bg-[#F5F0E8]",
     label: "EXPLORE",
-    title: "Explore Dr. Ansiya's expertise areas.",
+    title: "Explore Dr. Zainab's expertise areas.",
     linkText: "All our doctors",
     linkHref: "/doctors/",
     columns: 4,
     pages: [
       { title: "Ayurveda Clinic JVC", description: "Comprehensive Ayurveda services at our JVC clinic — full range of treatments, consultations, and specialised programmes.", href: "/ayurveda-clinic-jvc/" },
       { title: "Detox Treatment Dubai", description: "Authentic Panchakarma programmes at our JVC clinic. Multi-day traditional detoxification protocols delivered by DHA-licensed doctors.", href: "/treatments/detox-dubai/" },
-      { title: "PCOS Ayurvedic Treatment Dubai  ", description: "Comprehensive PCOS Ayurvedic management at our JVC clinic — one of Dr. Ansiya's specialised expertise areas.", href: "/conditions/pcos-ayurveda-dubai/" },
+      { title: "PCOS Ayurvedic Treatment Dubai  ", description: "Comprehensive PCOS Ayurvedic management at our JVC clinic — one of Dr. Zainab's specialised expertise areas.", href: "/conditions/pcos-ayurveda-dubai/" },
       { title: "Integrated Wellness JVC", description: "Multi-disciplinary wellness combining Ayurveda with physiotherapy, dermatology, and home healthcare at our JVC clinic.", href: "/wellness-clinic-jvc/" },
 
     ]

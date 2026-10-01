@@ -5,15 +5,15 @@ const StressManagementTeam = ({
   bgColor = "bg-white",
   label = "THE TEAM",
   title = "Ayurvedic doctors for stress and anxiety care at our JVC clinic.",
-  subtitle = "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial stress management expertise. Female practitioner (Dr. Ansiya) available. Multi-language including Arabic, English, Hindi, Malayalam, Urdu.",
+  subtitle = "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial stress management expertise. Female practitioner (Dr. Zainab) available. Multi-language including Arabic, English, Hindi, Malayalam, Urdu.",
   leadDoctor = {
     label: "LEAD AYURVEDIC DOCTOR",
-    name: "Dr. Ansiya",
-    image: "/images/dr-ansiya-ayurveda-jvc.webp", // Updated image path
+    name: "Dr. Zainab",
+    image: "/images/dr-zainab-ayurveda-jvc.webp", // Updated image path
     description: "DHA-licensed BAMS-qualified Ayurvedic Doctor with substantial stress and anxiety management expertise. Female practitioner providing comprehensive constitutional assessment, personalised treatment planning, and sustained partnership approach. Cultural competence across Dubai's diverse community. Specialised expertise across all stress and anxiety presentations from chronic work stress to burnout recovery.",
     tags: ["DHA-Licensed", "BAMS Qualified", "Female Practitioner", "Malayalam Speaker", "Stress Specialist"],
     linkText: "View full profile →",
-    link: "/doctors/dr-ansiya-ayurveda"
+    link: "/doctors/dr-zainab-ayurveda"
   },
   teamMembers = [
     {

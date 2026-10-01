@@ -8,20 +8,20 @@ export const nasyaBastiUdvartanaJvcHero = {
   ],
   label: "NASYA · BASTI · UDVARTANA · CLASSICAL AYURVEDIC SPECIALTY THERAPIES · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE",
   title: "Classical Ayurvedic Nasya, Basti, and Udvartana specialty therapies at our JVC clinic, Dubai — authentic classical delivery.",
-  description: "Authentic classical Ayurvedic specialty therapies at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle, walking distance from Circle Mall. Nasya ('Nasa hi shirasa dwaram'), Basti ('Ardha Chikitsa'), and Udvartana (classical Rukshana therapy) delivered as standalone specialty therapies for specific conditions. Female practitioner Dr. Ansiya, BAMS, Panchakarma & Ayurvedic Therapies — her #2 documented expertise.",
+  description: "Authentic classical Ayurvedic specialty therapies at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle, walking distance from Circle Mall. Nasya ('Nasa hi shirasa dwaram'), Basti ('Ardha Chikitsa'), and Udvartana (classical Rukshana therapy) delivered as standalone specialty therapies for specific conditions. Female practitioner Dr. Zainab, BAMS, Panchakarma & Ayurvedic Therapies — her #2 documented expertise.",
   primaryCTA: "Book a Specialty Therapy Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Nasya,%20Basti,%20and%20Udvartana%20Therapies%20at%20your%20JVC%20clinic.",
   trustSignals: [
     "DHA-licensed BAMS Ayurvedic doctors",
-    "Dr. Ansiya's #2 documented expertise",
+    "Dr. Zainab's #2 documented expertise",
     "Female practitioner & therapist available",
     "Kerala Ayurvedic classical tradition"
   ],
   floatingCard: {
     title: "THREE CLASSICAL SPECIALTY AYURVEDIC THERAPIES — AUTHENTIC DELIVERY",
-    subtitle: "Nasya ('Nasa hi shirasa dwaram'), Basti ('Ardha Chikitsa' - half of all treatment), and Udvartana (classical Rukshana therapy). DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya. Delivered standalone or as Panchakarma components.",
+    subtitle: "Nasya ('Nasa hi shirasa dwaram'), Basti ('Ardha Chikitsa' - half of all treatment), and Udvartana (classical Rukshana therapy). DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab. Delivered standalone or as Panchakarma components.",
     alt: "Three classical specialty Ayurvedic therapies authentic delivery Vedara Care"
   },
   image: "/images/nasya-basti-udvartana-jvc-hero.webp",
@@ -32,8 +32,8 @@ export const nasyaBastiUdvartanaJvcIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
   title: "Nasya, Basti, Udvartana specialty therapies at Vedara Care, in one paragraph.",
-  blockquote: "Nasya, Basti, and Udvartana classical Ayurvedic specialty therapies at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai — are authentic classical Ayurvedic therapies delivered as standalone specialty offerings for specific conditions, distinct from full Panchakarma programmes. Delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya (Panchakarma & Ayurvedic Therapies is her #2 documented area of expertise). Nasya — classical nasal administration therapy following 'Nasa hi shirasa dwaram' (the nose is the doorway to the head) — one of five Panchakarma Shodhana therapies — with all six classical types: Virechana/Shodhana Nasya, Bruhana Nasya, Shamana Nasya, Navana Nasya, Avapida Nasya, Dhmana/Pradhamana Nasya, plus Marsha and Pratimarsha volume distinctions — for cervical spondylosis, chronic sinusitis, headache, migraine, cognitive support (Medhya), and hair disorders. Basti — 'Ardha Chikitsa' (half of all treatment) per Charaka Samhita — all classical types: Anuvasana Basti, Niruha/Asthapana Basti, Uttar Basti, Matra Basti — and classical sequences: Yoga Basti (8-day), Kala Basti (16-day), Karma Basti (30-day) — for sciatica, lumbar spondylosis, joint disorders, chronic constipation, menstrual disorders, chronic fatigue, neurological presentations. Udvartana — classical herbal powder massage for Rukshana (drying/lightening therapy) — Ruksha Udvartana, Snigdha Udvartana, Vishesha Udvartana — with Triphala Choornam, Kolakulathadi Choornam, Nagaramotha Choornam — for weight management, Kapha-predominant conditions, cellulite, PCOS support, lymphatic sluggishness. Nadi Pareeksha foundation diagnostic recommended. Coordinated with modern medical care throughout. Female practitioner and therapist team. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif.Consultation from AED [X].",
-  footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Panchakarma & Ayurvedic Therapies is Dr. Ansiya's #2 documented area of expertise ."
+  blockquote: "Nasya, Basti, and Udvartana classical Ayurvedic specialty therapies at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai — are authentic classical Ayurvedic therapies delivered as standalone specialty offerings for specific conditions, distinct from full Panchakarma programmes. Delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab. Nasya is a classical nasal administration therapy following 'Nasa hi shirasa dwaram' (the nose is the doorway to the head) for cervical presentations, chronic sinusitis, headache, and cognitive support. Basti is a classical therapy for Vata-dominant conditions like sciatica, lumbar presentations, joint disorders, and chronic constipation. Udvartana is a classical herbal powder massage for Rukshana (drying/lightening therapy) often integrated into weight management and Kapha-predominant protocols. Nadi Pareeksha diagnostic recommended. Coordinated with modern medical care throughout.",
+  footer: "Medically reviewed by Dr. Zainab, BAMS, DHA-Licensed Ayurvedic Doctor"
 };
 
 export const nasyaBastiUdvartanaJvcMechanism = {
@@ -85,13 +85,13 @@ export const nasyaBastiUdvartanaJvcMechanism = {
   },
   rightContent: {
     image: "/images/classical-ayurvedic-therapy-environment.webp",
-    alt: "Classical Ayurvedic specialty therapy environment Dr Ansiya Vedara Care JVC",
+    alt: "Classical Ayurvedic specialty therapy environment Dr Zainab Vedara Care JVC",
     imageClassName: "w-full h-[400px] lg:h-[500px] object-cover object-center",
     description: (
       <div style={{ background: "rgb(255, 255, 255)", borderRadius: "8px", padding: "24px", marginTop: "20px", borderLeft: "3px solid var(--gold)" }}>
         <p style={{ fontSize: "11px", letterSpacing: "0.12em", color: "var(--gold)", fontWeight: 700, textTransform: "uppercase", marginBottom: "8px" }}>Kerala Ayurvedic Classical Tradition</p>
         <div style={{ display: "flex", gap: "10px", marginBottom: "6px", fontSize: "13px" }}>
-          Kerala Ayurvedic tradition has particularly preserved classical specialty therapy practice with sustained traditional protocols, comprehensive practitioner and therapist training, and dedicated treatment facility infrastructure. Dr. Ansiya brings this classical tradition to our JVC clinic.
+          Kerala Ayurvedic tradition has particularly preserved classical specialty therapy practice with sustained traditional protocols, comprehensive practitioner and therapist training, and dedicated treatment facility infrastructure. Dr. Zainab brings this classical tradition to our JVC clinic.
         </div>
       </div>
     )
@@ -159,7 +159,7 @@ export const nasyaBastiUdvartanaJvcTypes = {
     {
       number: "08",
       title: "Menstrual & Gynaecological — Basti Focus",
-      description: "Women's health patients with menstrual disorders and gynaecological presentations seeking Basti. General Basti and specialty Uttar Basti applications. Female practitioner (Dr. Ansiya) and female therapist essential.",
+      description: "Women's health patients with menstrual disorders and gynaecological presentations seeking Basti. General Basti and specialty Uttar Basti applications. Female practitioner (Dr. Zainab) and female therapist essential.",
       typicalSigns: ["Uttar Basti consideration for gynaecological presentations, female practitioner team"],
       alt: "Menstrual disorders Basti Uttar Basti Vedara Care"
     },
@@ -207,7 +207,7 @@ export const nasyaBastiUdvartanaJvcApproaches = {
     },
     {
       subtitle: "Comprehensive Specialty Therapy Consultation",
-      description: "90-minute initial consultation with Dr. Ansiya or other DHA-licensed Ayurvedic doctor including: Nadi Pareeksha (Ayurvedic pulse examination), Prakriti and Vikriti assessment, comprehensive medication and comorbidity review, therapy appropriateness assessment with contraindication screening, dosha state and Ama assessment, specific therapy selection with variation identification, course structure design, Panchakarma programme consideration discussion, cultural and language preferences, realistic outcome framing."
+      description: "90-minute initial consultation with Dr. Zainab or other DHA-licensed Ayurvedic doctor including: Nadi Pareeksha (Ayurvedic pulse examination), Prakriti and Vikriti assessment, comprehensive medication and comorbidity review, therapy appropriateness assessment with contraindication screening, dosha state and Ama assessment, specific therapy selection with variation identification, course structure design, Panchakarma programme consideration discussion, cultural and language preferences, realistic outcome framing."
     },
     {
       subtitle: "Nasya Delivery — Classical Framework",
@@ -290,24 +290,55 @@ export const nasyaBastiUdvartanaJvcJourney = {
   label: "Patient Journey",
   title: "What comprehensive Nasya, Basti, Udvartana specialty therapy delivery looks like at our JVC clinic.",
   description: "A structured process for profound therapeutic outcomes.",
-  steps: [
+  phases: [
     {
-      title: "Phase 1 — Comprehensive Assessment and Therapy Selection",
+      phaseNumber: "01",
+      phaseName: "Comprehensive Assessment",
+      time: "Initial Consultation",
       description: "Detailed consultation including Nadi Pareeksha to select the precise therapy and sequence."
     },
     {
-      title: "Phase 2 — Purvakarma Preparation and Therapy Initiation",
+      phaseNumber: "02",
+      phaseName: "Purvakarma Preparation",
+      time: "Pre-Therapy",
       description: "Preparation of the body through Snehana and Swedana, followed by the first specialty therapy session."
     },
     {
-      title: "Phase 3 — Therapy Course Completion and Paschat Karma",
+      phaseNumber: "03",
+      phaseName: "Therapy Course Completion",
+      time: "Main Course",
       description: "Completing the prescribed sequence (e.g., 8-day Yoga Basti) and implementing essential post-therapy care."
     },
     {
-      title: "Phase 4 — Transition to Sustained Approach or Progression",
+      phaseNumber: "04",
+      phaseName: "Transition to Progression",
+      time: "Follow-up",
       description: "Moving into a maintenance phase with dietary, lifestyle, and herbal support."
     }
-  ]
+  ],
+  footerNote: "Realistic outcome framing essential for authentic specialty therapy delivery — meaningful therapeutic benefit for appropriate applications with classical evidence base; not miracle cures.",
+  bottomContent: {
+    canAchieve: {
+      title: "What specialty therapies can achieve",
+      items: [
+        "Meaningful symptomatic improvement for appropriate applications",
+        "Classical Ayurvedic therapeutic mechanisms with substantial evidence base",
+        "Effective coordination with modern medical care",
+        "Sustained wellness support through protocol continuity",
+        "Authentic classical therapy alternative to commercialised spa treatments"
+      ]
+    },
+    cannotAchieve: {
+      title: "What specialty therapies do not promise",
+      items: [
+        "Miracle cures or instant transformation",
+        "Replacement for modern medical care for established medical conditions",
+        "Guarantee of specific outcomes given individual variation",
+        "Sustained benefit without appropriate protocol adherence",
+        "Benefit inappropriate to therapy indications"
+      ]
+    }
+  }
 };
 
 export const nasyaBastiUdvartanaJvcReviews = {
@@ -316,35 +347,35 @@ export const nasyaBastiUdvartanaJvcReviews = {
   statsBgColor: "rgb(24, 20, 18)",
   isDarkText: true,
   label: "PATIENT VOICES",
-  title: "Real specialty therapy outcomes with authentic classical Nasya, Basti, Udvartana delivery at our JVC clinic.",
+  title: "Patient-reported experience",
+  description: "Patient-reported experience: Individual experiences vary and testimonials are not a guarantee of treatment outcomes.",
   image: "https://vedaracare.ae/og-images/rasayana-ayurveda-jvc.jpg",
   alt: "Specialty therapy patient testimonials Vedara Care JVC Dubai",
   items: [
     {
-      quote: "British engineer in Dubai Marina, 46 — chronic cervical spondylosis with MRI-confirmed C5-C6, C6-C7 degenerative changes. Consulted Dr. Ansiya at Vedara's JVC clinic. Comprehensive Nadi Pareeksha, Vata-predominant pattern identified. 7-day Navana Nasya with Anu Taila with appropriate Purvakarma facial Abhyanga preparation, combined with Griva Basti and Trayodashang Guggulu. Substantial symptomatic improvement — reduced neck stiffness particularly morning stiffness, reduced headache frequency, improved work capacity. Classical Nasya delivery through DHA-licensed authentic delivery — meaningful therapeutic benefit within realistic sustained management framework.",
+      quote: "British engineer in Dubai Marina, 46 — chronic cervical spondylosis. Consulted Dr. Zainab at Vedara's JVC clinic. 7-day Navana Nasya with Anu Taila and appropriate Purvakarma preparation. Reported improvement in morning neck stiffness and headache frequency, supporting his overall work capacity. Classical Nasya delivery provided meaningful support.",
       author: "Male patient, 46",
       details: "Cervical Spondylosis Nasya · Dubai Marina Professional",
       details1: "February 2026 · ✓ Verified patient"
     },
     {
-      quote: "Emirati executive in Downtown, 52 — chronic sciatica with MRI-confirmed L4-L5 disc changes. Consulted Dr. Ansiya at Vedara JVC clinic — Vata-predominant pattern with substantial Vata aggravation. 16-day Kala Basti combining Anuvasana Basti with Dashamula Taila and Niruha Basti with Erandmuladi Kwatha. Discussions available in Arabic — culturally important. Substantial improvement: reduced leg pain, reduced lumbar discomfort, improved sitting tolerance, improved sleep. Coordinated with modern medical care throughout. Classical Kala Basti through DHA-licensed authentic delivery.",
+      quote: "Emirati executive in Downtown, 52 — chronic sciatica. Consulted Dr. Zainab at Vedara JVC clinic. 16-day Kala Basti combining Anuvasana Basti and Niruha Basti. Reported reduction in leg and lumbar discomfort, and improved sitting tolerance. Coordinated with modern medical care throughout.",
       author: "Male patient, 52",
       details: "Sciatica Kala Basti · Downtown Executive",
       details1: "January 2026 ✓ Verified patient"
     },
     {
-      quote: "Indian expatriate mother in Al Barsha, 44 — sustained weight management goal (18kg above healthy range), Kapha-predominant constitutional pattern with sustained sluggishness and cellulite concerns. Consulted Dr. Ansiya (female practitioner culturally important). 21-session Ruksha Udvartana with Kolakulathadi Choornam, constitutional dietary framework, sustained lifestyle guidance. Discussion in Malayalam reassuring. Six months in: 12kg reduction, improved energy, reduced sluggishness, better cellulite appearance, sustained wellness practice established. Classical Udvartana — authentic culturally-familiar sustained weight management with realistic gradual outcomes."
-      ,
+      quote: "Indian expatriate mother in Al Barsha, 44 — sought support for weight management. Consulted Dr. Zainab. 21-session Ruksha Udvartana with Kolakulathadi Choornam and a constitutional dietary framework. Six months in: reported improved energy, reduced sluggishness, and feeling more comfortable with her weight management goals.",
       author: "Female patient, 44",
       details: "Udvartana Weight Management · Al Barsha Family",
       details1: "March 2026 · ✓ Verified patient"
     }
   ],
   stats: [
-    { value: "4.9 Stars", label: "on Google Reviews" },
+    { value: "4.5", label: "stars on Google" },
     { value: "1,200+", label: "Specialty therapy sessions delivered" },
     { value: "DHA-Licensed", label: "BAMS Ayurvedic doctors" },
-    { value: "Female", label: "Practitioner & therapist available" }
+    // { value: "Female", label: "Practitioner & therapist available" }
   ]
 };
 
@@ -354,11 +385,11 @@ export const nasyaBastiUdvartanaJvcTeam = {
   description: "Our DHA-licensed specialists in classical Ayurvedic therapies.",
   members: [
     {
-      name: "Dr. Ansiya",
+      name: "Dr. Zainab",
       role: "BAMS, DHA-Licensed Ayurvedic Doctor",
-      image: "/images/dr-ansiya-specialty-therapy.webp",
-      alt: "Dr Ansiya specialty therapy team Vedara Care JVC",
-      link: "/doctors/dr-ansiya-ayurveda",
+      image: "/images/dr-zainab-specialty-therapy.webp",
+      alt: "Dr Zainab specialty therapy team Vedara Care JVC",
+      link: "/doctors/dr-zainab-ayurveda",
       expertise: [
         "Panchakarma Specialty Therapies",
         "Nasya, Basti, Udvartana",
@@ -376,66 +407,66 @@ export const nasyaBastiUdvartanaJvcPricing = {
   rows: [
     { isCategory: true, service: "CONSULTATION" },
     {
-      service: "Initial specialty therapy consultation with Dr. Ansiya (Nadi Pareeksha + Prakriti-Vikriti + therapy appropriateness + course design + medication review)",
+      service: "Initial specialty therapy consultation with Dr. Zainab (Nadi Pareeksha + Prakriti-Vikriti + therapy appropriateness + course design + medication review)",
       duration: "90 min",
-      price: "AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Follow-up consultation for therapy adjustments and reassessment",
       duration: "30-45 min",
-      price: "AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Extended follow-up consultation",
       duration: "60 min",
-      price: "AED [X]"
+      price: "Pricing on assessment"
     },
     { isCategory: true, service: "NASYA THERAPY" },
     {
       service: "Single Nasya session (Navana Nasya with appropriate formulation)",
       duration: "45-60 min",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Nasya course — 3 days (typical shorter course)",
       duration: "3 sessions",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Nasya course — 5 days (typical standard course)",
       duration: "5 sessions",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Nasya course — 7 days (typical extended course)",
       duration: "7 sessions",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Pratimarsha Nasya sustained daily practice (monthly herbal supply)",
       duration: "1 month",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Medhya Nasya cognitive rejuvenation course (Medhya herbs, coordinated with Rasayana)",
       duration: "5-7 sessions",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     { isCategory: true, service: "BASTI THERAPY" },
     {
       service: "Single Anuvasana Basti session (oil-based nourishing basti)",
       duration: "60-90 min",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Single Niruha Basti session (decoction-based cleansing basti)",
       duration: "60-90 min",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Uttar Basti session (specialty urogenital basti — female therapist essential for female patients)",
       duration: "60-90 min",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Matra Basti sustained daily practice (with periodic clinical reassessment)",
@@ -445,48 +476,48 @@ export const nasyaBastiUdvartanaJvcPricing = {
     {
       service: "Yoga Basti 8-day classical sequence (Anuvasana-Niruha alternating pattern)",
       duration: "8 sessions over 8 days",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Kala Basti 16-day extended classical sequence",
       duration: "16 sessions over 16 days",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Karma Basti 30-day intensive classical sequence (most comprehensive)",
       duration: "30 sessions over 30 days",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     { isCategory: true, service: "UDVARTANA THERAPY" },
     {
       service: "Single Udvartana session (Ruksha Udvartana with appropriate herbal powder)",
       duration: "45-60 min",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Udvartana course — 7 sessions (typical shorter course)",
       duration: "7 sessions",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Udvartana course — 14 sessions (typical standard weight management course)",
       duration: "14 sessions",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Udvartana course — 21 sessions (typical extended weight management course)",
       duration: "21 sessions",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Snigdha Udvartana session (powder with oil for milder effect)",
       duration: "45-60 min",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     {
       service: "Udvartana weight management programme (course + constitutional dietary framework + lifestyle guidance)",
       duration: "3-6 months",
-      price: "From AED [X]"
+      price: "Pricing on assessment"
     },
     { isCategory: true, service: "PACKAGES & PROGRAMMES" },
     {
@@ -507,10 +538,17 @@ export const nasyaBastiUdvartanaJvcPricing = {
     {
       service: "Multi-session specialty therapy partnership",
       duration: "Ongoing",
-      price: "From AED [X]/quarter"
+      price: "Pricing on assessment"
     }
   ],
-  footer: "Course pricing typically includes: initial comprehensive consultation, all therapy sessions across course, herbal medicines and preparations used in therapy, follow-up consultations, sustained protocol guidance, and transition guidance. Direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife for covered elements when applicable. Package pricing for extended courses and Panchakarma programme coordination available. Serving patients from across Dubai — Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, JVC, JVT, and every Dubai community."
+  footer: `<div class="mb-6 text-[14px] text-[#6B6B6B] font-sans italic">
+    Prices are indicative. Final pricing depends on the treatment plan, practitioner assessment, treatment duration and services included.
+  </div>
+  <div class="mt-8 pt-8 border-t border-[#E5DFD3] text-center">
+    <p class="text-[13px] font-sans font-semibold tracking-[0.15em] text-[#C9A961] uppercase mb-4">INSURANCE & PAYMENT</p>
+    <p class="text-[15px] text-[#6B6B6B] font-sans italic mb-6">Insurance coverage varies by policy, network, and benefits. Please confirm eligibility before treatment.</p>
+    <a href="https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20check%20my%20insurance%20coverage%20for%20specialty%20Ayurvedic%20therapies." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 bg-[#1F4538] text-white font-sans font-semibold text-[15px] rounded hover:bg-[#1A3A2F] transition-colors shadow-md">Check Insurance on WhatsApp</a>
+  </div>`
 };
 
 export const nasyaBastiUdvartanaJvcFaqs = {
@@ -566,7 +604,7 @@ export const nasyaBastiUdvartanaJvcFaqs = {
     },
     {
       question: "Do you have female Ayurvedic doctor and therapist?",
-      answer: "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with Panchakarma & Ayurvedic Therapies as her #2 explicitly documented area of expertise. Female therapist team available for female patients — culturally essential for Basti (particularly Uttar Basti) and typically preferred for Udvartana."
+      answer: "Yes — Dr. Zainab is female DHA-licensed BAMS-qualified Ayurvedic doctor with Panchakarma & Ayurvedic Therapies as her #2 explicitly documented area of expertise. Female therapist team available for female patients — culturally essential for Basti (particularly Uttar Basti) and typically preferred for Udvartana."
     },
     {
       question: "Are these therapies suitable for elderly patients?",
@@ -594,7 +632,7 @@ export const nasyaBastiUdvartanaJvcFaqs = {
     },
     {
       question: "How do I book specialty therapy consultation?",
-      answer: "Three ways: WhatsApp specifying specialty therapy consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: description of specific therapy goals, current medications and medical conditions, any relevant medical reports, any previous Ayurvedic experience, cultural preferences, insurance card if applicable, specific questions."
+      answer: "Three ways: WhatsApp specifying specialty therapy consultation ideally with Dr. Zainab; call 9AM-9PM seven days a week; book online. Please bring: description of specific therapy goals, current medications and medical conditions, any relevant medical reports, any previous Ayurvedic experience, cultural preferences, insurance card if applicable, specific questions."
     }
   ]
 };
@@ -611,8 +649,8 @@ export const nasyaBastiUdvartanaJvcLocation = {
 export const nasyaBastiUdvartanaJvcCTA = {
   bgColor: "bg-white",
   title: "Comprehensive consultation identifies appropriate Nasya, Basti, or Udvartana specialty therapy matched to your presentation.",
-  description: "Whether you're seeking Nasya for cervical spondylosis ('Nasa hi shirasa dwaram' — the nose is the doorway to the head), chronic sinusitis, chronic headache, or Medhya cognitive support; Basti for sciatica or lumbar spondylosis ('Ardha Chikitsa' — half of all treatment), joint disorders, chronic constipation, or menstrual disorders (specialty Uttar Basti); or Udvartana for weight management (Ruksha Udvartana primary Rukshana therapy), Kapha-predominant conditions, cellulite, or PCOS weight management support — comprehensive consultation with Dr. Ansiya (female DHA-licensed BAMS Ayurvedic doctor, Panchakarma & Ayurvedic Therapies her #2 documented expertise) identifies your constitutional pattern and designs personalised specialty therapy course. Same-week appointments typically available.",
-  button1Text: "Book Consultation with Dr. Ansiya",
+  description: "Whether you're seeking Nasya for cervical spondylosis ('Nasa hi shirasa dwaram' — the nose is the doorway to the head), chronic sinusitis, chronic headache, or Medhya cognitive support; Basti for sciatica or lumbar spondylosis ('Ardha Chikitsa' — half of all treatment), joint disorders, chronic constipation, or menstrual disorders (specialty Uttar Basti); or Udvartana for weight management (Ruksha Udvartana primary Rukshana therapy), Kapha-predominant conditions, cellulite, or PCOS weight management support — comprehensive consultation with Dr. Zainab (female DHA-licensed BAMS Ayurvedic doctor, Panchakarma & Ayurvedic Therapies her #2 documented expertise) identifies your constitutional pattern and designs personalised specialty therapy course. Same-week appointments typically available.",
+  button1Text: "Book Consultation with Dr. Zainab",
   button1TextHref: "/book",
   button2Text: "WhatsApp Vedara Care",
   button2TextHref: "https://wa.me/971555736312",

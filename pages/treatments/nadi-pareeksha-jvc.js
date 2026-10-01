@@ -41,7 +41,7 @@ const NadiPareekshaJvc = () => {
       "alternateName": ["Vedara Nadi Pareeksha JVC", "Classical Ayurvedic Assessment JVC Dubai", "Vedara Ashtavidha Pareeksha Care"],
       "url": "https://vedaracare.ae/treatments/nadi-pareeksha-jvc/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Authentic classical Nadi Pareeksha Ayurvedic pulse-based diagnostic assessment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Flagship component of Ashtavidha Pareeksha classical eightfold examination. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Ansiya with Nadi Pareeksha & Ayurvedic Assessment as her #1 explicitly documented area of expertise. Three doshic pulse position assessment framework — Vata pulse at index finger with Sarpa gati, Pitta pulse at middle finger with Manduka gati, Kapha pulse at ring finger with Hansa gati. Prakriti and Vikriti assessment, Dhatu-Agni-Ojas-Manas-Srotas assessment. Foundation diagnostic guiding all Ayurvedic treatment planning. Kerala Ayurvedic classical tradition. Coordinated with modern medical care.",
+      "description": "Authentic classical Nadi Pareeksha Ayurvedic pulse-based diagnostic assessment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Flagship component of Ashtavidha Pareeksha classical eightfold examination. Female DHA-licensed BAMS-qualified Ayurvedic doctor Dr. Zainab with Nadi Pareeksha & Ayurvedic Assessment as her #1 explicitly documented area of expertise. Three doshic pulse position assessment framework — Vata pulse at index finger with Sarpa gati, Pitta pulse at middle finger with Manduka gati, Kapha pulse at ring finger with Hansa gati. Prakriti and Vikriti assessment, Dhatu-Agni-Ojas-Manas-Srotas assessment. Foundation diagnostic guiding all Ayurvedic treatment planning. Kerala Ayurvedic classical tradition. Coordinated with modern medical care.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 45,000",
       "address": { "@type": "PostalAddress", "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4", "addressLocality": "Jumeirah Village Circle", "addressRegion": "Dubai", "addressCountry": "AE", "postalCode": "" },
@@ -92,7 +92,7 @@ const NadiPareekshaJvc = () => {
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" },
       "lastReviewed": "2026-09-12"
     },
     {
@@ -178,14 +178,14 @@ const NadiPareekshaJvc = () => {
         { "@type": "Question", "name": "How long does Nadi Pareeksha consultation take?", "acceptedAnswer": { "@type": "Answer", "text": "Comprehensive initial Nadi Pareeksha consultation is 90 minutes including comprehensive Nadi Pareeksha (pulse examination through three doshic positions), broader Ashtavidha Pareeksha components as appropriate, Prakriti and Vikriti assessment, Dhatu-Agni-Ojas-Manas-Srotas assessment, detailed history-taking, comprehensive medication review, integrated treatment planning discussion, personalised Ayurvedic recommendations, written assessment summary. Follow-up consultations 30-60 minutes." } },
         { "@type": "Question", "name": "Do I need to prepare for Nadi Pareeksha?", "acceptedAnswer": { "@type": "Answer", "text": "Minimal preparation. Morning consultations preferred for clearer pulse assessment. Avoid heavy exercise, heavy meals, or extreme emotional states immediately before consultation. Please bring: current medication list, any relevant medical reports or investigations, description of current symptoms or wellness goals, cultural and language preferences. First-time consultations do not require any prior Ayurvedic knowledge." } },
         { "@type": "Question", "name": "Where in Dubai is your clinic?", "acceptedAnswer": { "@type": "Answer", "text": "DHA-licensed clinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Accessible from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif." } },
-        { "@type": "Question", "name": "Do you have female Ayurvedic doctor for Nadi Pareeksha?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with Nadi Pareeksha & Ayurvedic Assessment as her #1 explicitly documented area of expertise. Female practitioner important for cultural preferences, particularly for women's health assessment and Muslim patients preferring female practitioner." } },
+        { "@type": "Question", "name": "Do you have female Ayurvedic doctor for Nadi Pareeksha?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Dr. Zainab is female DHA-licensed BAMS-qualified Ayurvedic doctor with Nadi Pareeksha & Ayurvedic Assessment as her #1 explicitly documented area of expertise. Female practitioner important for cultural preferences, particularly for women's health assessment and Muslim patients preferring female practitioner." } },
         { "@type": "Question", "name": "Is Nadi Pareeksha suitable for children?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Nadi Pareeksha adapted for paediatric patients provides constitutional assessment appropriate for children. Family Nadi Pareeksha consultations available for multiple family members single visit. Paediatric Ayurvedic assessment focuses on constitutional pattern identification guiding constitutional dietary and lifestyle framework appropriate for developmental stage." } },
         { "@type": "Question", "name": "Is Nadi Pareeksha suitable for elderly patients?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Nadi Pareeksha with comprehensive assessment particularly valuable for elderly Dubai patients seeking classical Ayurvedic constitutional assessment for sustained wellness through healthy ageing. Comprehensive medication and comorbidity review essential. Gentle intervention framework appropriate for age. Sustained partnership approach typical." } },
         { "@type": "Question", "name": "Which languages do you speak?", "acceptedAnswer": { "@type": "Answer", "text": "Arabic, English, Hindi, Malayalam (particularly relevant for Kerala Ayurvedic Nadi Pareeksha tradition), Urdu across our team." } },
         { "@type": "Question", "name": "Is Nadi Pareeksha covered by insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Ayurvedic consultation coverage varies by insurance plan. Some insurance plans cover Ayurvedic consultation when medically indicated. Direct billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife for covered elements when applicable. Please bring insurance card for verification. Consultation appropriate as private wellness assessment when insurance coverage unavailable." } },
         { "@type": "Question", "name": "What is the difference between authentic Nadi Pareeksha and commercialised wellness pulse assessments?", "acceptedAnswer": { "@type": "Answer", "text": "Authentic classical Nadi Pareeksha: delivered by DHA-licensed BAMS-qualified Ayurvedic doctors with substantial classical training, based on classical texts (Nadi Vigyan), includes three doshic pulse position framework with classical gati interpretation, integrated with broader Ashtavidha Pareeksha, comprehensive Prakriti-Vikriti assessment, realistic diagnostic framing, coordinated with modern medical care. Commercialised wellness pulse assessments: may lack classical training foundation, may make diagnostic claims inappropriate to classical Ayurvedic framework, may lack medical coordination." } },
         { "@type": "Question", "name": "How often should I have Nadi Pareeksha reassessment?", "acceptedAnswer": { "@type": "Answer", "text": "Assessment frequency depends on individual circumstances. Initial Nadi Pareeksha establishes foundation. During active treatment programmes, follow-up assessments typically at defined programme intervals. Sustained wellness maintenance patients typically benefit from periodic reassessment (quarterly or bi-annually) for Vikriti changes with life circumstances. Seasonal reassessment appropriate for patients following Ritucharya framework. Reassessment particularly valuable during significant life transitions, illness recovery, or wellness goal changes." } },
-        { "@type": "Question", "name": "How do I book Nadi Pareeksha consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying Nadi Pareeksha consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: current medication list, any relevant medical reports or investigations, description of current symptoms or wellness goals, cultural and language preferences, insurance card if applicable, specific questions and goals." } }
+        { "@type": "Question", "name": "How do I book Nadi Pareeksha consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Three ways: WhatsApp specifying Nadi Pareeksha consultation ideally with Dr. Zainab; call 9AM-9PM seven days a week; book online. Please bring: current medication list, any relevant medical reports or investigations, description of current symptoms or wellness goals, cultural and language preferences, insurance card if applicable, specific questions and goals." } }
       ]
     },
     {
@@ -200,7 +200,7 @@ const NadiPareekshaJvc = () => {
         { "@type": "MedicalProcedure", "name": "Vikriti Current State Assessment" }
       ],
       "mainContentOfPage": { "@type": "WebPageElement", "cssSelector": "main" },
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician" },
+      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" },
       "lastReviewed": "2026-09-12",
       "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
       "medicalAudience": "Patient",
@@ -209,9 +209,9 @@ const NadiPareekshaJvc = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/#physician",
-      "name": "Dr. Ansiya",
-      "url": "https://vedaracare.ae/doctors/dr-ansiya-ayurveda/",
+      "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician",
+      "name": "Dr. Zainab",
+      "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/",
       "medicalSpecialty": ["Ayurveda", "Nadi Pareeksha", "Ayurvedic Diagnostic Assessment", "Constitutional Assessment", "Integrative Medicine"],
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "BAMS" },
@@ -300,7 +300,7 @@ const NadiPareekshaJvc = () => {
         { "@type": "ListItem", "position": 25, "item": { "@type": "MedicalProcedure", "name": "Panchakarma", "description": "Cross-referenced service" } },
         { "@type": "ListItem", "position": 26, "item": { "@type": "Book", "name": "Charaka Samhita, Sushruta Samhita", "description": "Classical Ayurvedic authority" } },
         { "@type": "ListItem", "position": 27, "item": { "@type": "EducationalOccupationalCredential", "name": "BAMS, DHA-Licensed", "description": "Practitioner qualifications" } },
-        { "@type": "ListItem", "position": 28, "item": { "@type": "Physician", "name": "Dr. Ansiya", "description": "Primary practitioner with exceptional authority anchor" } },
+        { "@type": "ListItem", "position": 28, "item": { "@type": "Physician", "name": "Dr. Zainab", "description": "Primary practitioner with exceptional authority anchor" } },
         { "@type": "ListItem", "position": 29, "item": { "@type": "DefinedTerm", "name": "Kerala Ayurvedic Nadi Vigyan Tradition", "description": "Cultural authenticity", "inDefinedTermSet": "Ayurvedic Medicine" } },
         { "@type": "ListItem", "position": 30, "item": { "@type": "DefinedTerm", "name": "Ayurvedic Constitutional Diagnostic Framework", "description": "Foundation diagnostic positioning", "inDefinedTermSet": "Ayurvedic Medicine" } },
         { "@type": "ListItem", "position": 31, "item": { "@type": "GovernmentOrganization", "name": "Dubai Health Authority (DHA)", "description": "Licensing body" } },
@@ -319,20 +319,20 @@ const NadiPareekshaJvc = () => {
     <>
       <Head>
         <title>Nadi Pareeksha Ayurvedic Assessment JVC | Classical Ashtavidha Pareeksha | Vedara Dubai</title>
-        <meta name="description" content="Authentic classical Nadi Pareeksha Ayurvedic pulse assessment at our JVC clinic Dubai. Ashtavidha Pareeksha eightfold examination. Dr. Ansiya's #1 documented expertise. Female DHA-licensed doctor. Multi-language including Malayalam." />
+        <meta name="description" content="Authentic classical Nadi Pareeksha Ayurvedic pulse assessment at our JVC clinic Dubai. Ashtavidha Pareeksha eightfold examination. Dr. Zainab's #1 documented expertise. Female DHA-licensed doctor. Multi-language including Malayalam." />
         <link rel="canonical" href="https://vedaracare.ae/treatments/nadi-pareeksha-jvc/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/treatments/nadi-pareeksha-jvc/" />
         <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/nadi-pareeksha-jvc/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/treatments/nadi-pareeksha-jvc/" />
         <meta property="og:title" content="Nadi Pareeksha Ayurvedic Assessment at Our JVC Clinic Dubai — Classical Ashtavidha Pareeksha Tradition | Vedara Care" />
-        <meta property="og:description" content="Authentic classical Nadi Pareeksha Ayurvedic pulse-based diagnostic assessment at Vedara Care JVC clinic, walking distance from Circle Mall. Ashtavidha Pareeksha eightfold examination flagship component. Dr. Ansiya — Nadi Pareeksha & Ayurvedic Assessment is her #1 documented expertise area. Female DHA-licensed BAMS Ayurvedic doctor. Kerala Ayurvedic classical tradition. Multi-language including Malayalam." />
+        <meta property="og:description" content="Authentic classical Nadi Pareeksha Ayurvedic pulse-based diagnostic assessment at Vedara Care JVC clinic, walking distance from Circle Mall. Ashtavidha Pareeksha eightfold examination flagship component. Dr. Zainab — Nadi Pareeksha & Ayurvedic Assessment is her #1 documented expertise area. Female DHA-licensed BAMS Ayurvedic doctor. Kerala Ayurvedic classical tradition. Multi-language including Malayalam." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/nadi-pareeksha-jvc.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/treatments/nadi-pareeksha-jvc/" />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Nadi Pareeksha Ayurvedic Assessment JVC | Ashtavidha Pareeksha | Vedara" />
-        <meta name="twitter:description" content="DHA-licensed classical Nadi Pareeksha at JVC. Dr Ansiya #1 documented expertise. Female doctor." />
+        <meta name="twitter:description" content="DHA-licensed classical Nadi Pareeksha at JVC. Dr Zainab #1 documented expertise. Female doctor." />
         <meta name="twitter:image" content="https://vedaracare.ae/og-images/nadi-pareeksha-jvc.jpg" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow, max-image-preview:large" />
@@ -453,7 +453,7 @@ const NadiPareekshaJvc = () => {
                   subtitle: "At Our JVC Clinic",
                   title: "Comprehensive 90-Minute Consultation",
                   points: [
-                    "Introduction and rapport-building with Dr. Ansiya",
+                    "Introduction and rapport-building with Dr. Zainab",
                     "Comprehensive history-taking and symptom review",
                     "Nadi Pareeksha: three doshic pulse positions — index (Vata/Sarpa), middle (Pitta/Manduka), ring (Kapha/Hansa)",
                     "Gati, Vega, Sthana characteristics assessed on both wrists",
@@ -639,16 +639,16 @@ const NadiPareekshaJvc = () => {
             <div className="text-center mb-12">
               <div className="text-xs font-medium tracking-[0.14em] uppercase mb-3" style={{ color: "rgb(200, 168, 127)" }}>The Team</div>
               <h2 className="font-display font-medium mb-4" style={{ fontSize: "clamp(28px, 3.5vw, 44px)", color: "rgb(31, 31, 31)" }}>Ayurvedic doctors for Nadi Pareeksha assessment at our JVC clinic serving Dubai.</h2>
-              <p className="max-w-2xl mx-auto leading-[1.7]" style={{ color: "rgb(85, 85, 85)" }}>DHA-licensed BAMS-qualified Ayurvedic doctors with substantial classical Ayurvedic training including comprehensive Nadi Pareeksha expertise. Female practitioner Dr. Ansiya available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.</p>
+              <p className="max-w-2xl mx-auto leading-[1.7]" style={{ color: "rgb(85, 85, 85)" }}>DHA-licensed BAMS-qualified Ayurvedic doctors with substantial classical Ayurvedic training including comprehensive Nadi Pareeksha expertise. Female practitioner Dr. Zainab available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.</p>
             </div>
             <div className="fade-in grid lg:grid-cols-2 gap-8 visible">
               <div className="flex overflow-hidden" style={{ background: "rgb(245, 240, 232)", borderRadius: "8px", border: "1px solid rgba(200, 168, 127, 0.2)" }}>
                 <div className="flex-shrink-0 w-1/3 min-h-full">
-                  <img alt="Dr Ansiya Nadi Pareeksha Ayurvedic team Vedara Care JVC" className="w-full h-full object-cover" src="/images/dr-ansiya-ayurveda-jvc.webp" loading="lazy" />
+                  <img alt="Dr Zainab Nadi Pareeksha Ayurvedic team Vedara Care JVC" className="w-full h-full object-cover" src="/images/dr-zainab-ayurveda-jvc.webp" loading="lazy" />
                 </div>
                 <div className="p-8 flex flex-col justify-center w-2/3">
                   <div className="text-xs tracking-[0.1em] uppercase font-medium mb-1" style={{ color: "rgb(200, 168, 127)" }}>Lead Ayurvedic Doctor</div>
-                  <h3 className="font-display font-medium text-2xl mb-1" style={{ color: "rgb(31, 31, 31)" }}>Dr. Ansiya</h3>
+                  <h3 className="font-display font-medium text-2xl mb-1" style={{ color: "rgb(31, 31, 31)" }}>Dr. Zainab</h3>
                   <p className="text-sm mb-4" style={{ color: "rgb(85, 85, 85)" }}>BAMS · DHA-Licensed Ayurvedic Doctor</p>
 
                   <div className="mb-4">
@@ -675,7 +675,7 @@ const NadiPareekshaJvc = () => {
                     ))}
                   </ul>
 
-                  <a href="/doctors/dr-ansiya-ayurveda/" className="text-sm font-medium mt-auto hover:underline" style={{ color: "rgb(200, 168, 127)" }}>View Dr. Ansiya's full profile →</a>
+                  <a href="/doctors/dr-zainab-ayurveda/" className="text-sm font-medium mt-auto hover:underline" style={{ color: "rgb(200, 168, 127)" }}>View Dr. Zainab's full profile →</a>
                 </div>
               </div>
               <div className="grid grid-rows-3 gap-4">
@@ -705,7 +705,7 @@ const NadiPareekshaJvc = () => {
           {...nadiPareekshaFaqs}
           bgColor="bg-[#EAE3D5]"
           sidebarLinks={[
-            { text: "Ansiya's profile", href: "/doctors/dr-ansiya-ayurveda/" },
+            { text: "Zainab's profile", href: "/doctors/dr-zainab-ayurveda/" },
             { text: "Rasayana treatment", href: "/treatments/rasayana-ayurveda-jvc/" },
             { text: "Panchakarma Treatment in Dubai", href: "/treatments/panchakarma-dubai/" },
             { text: "Ayurveda clinic pillar", href: "/ayurveda-clinic-jvc/" }

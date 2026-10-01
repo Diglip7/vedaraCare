@@ -29,7 +29,7 @@ export const migraineIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic migraine treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for migraine in Dubai is a 4 to 6-month structured medical programme combining classical Shirodhara (continuous warm medicated oil therapy on the forehead, the foundational treatment for headache disorders in Ayurveda), Nasya (medicated nasal therapy, classically the most direct treatment for head conditions), Takradhara (buttermilk variant for inflammatory migraine patterns), internal herbal medicines (typically including Brahmi, Pathyadi Kashayam, Shirashooladi Vajra Ras, and Pittahara formulations), trigger identification and management, and lifestyle modification. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes work alongside neurology and existing migraine medications, never as replacement. Realistic outcomes: 40-70% reduction in migraine days for episodic migraine over 6 months. Initial consultations start from AED 350.",
-  footer: "Medically reviewed by Dr. [Lead Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const migraineMechanism = {

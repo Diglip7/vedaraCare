@@ -309,7 +309,7 @@ export const carbonLaserPeelAftercareAndSafety = {
       description: "Most patients describe the recovery period as mild. Some redness immediately after treatment is common and typically settles within a short time. Skin can feel slightly warm, tight, or a little more sensitive than usual for a day or so. Many patients return to normal daily activities the same day, though individual response varies — we wouldn’t promise zero downtime for every patient, since reactions genuinely differ."
     },
     {
-      subtitle: "Carbon Laser Peel Aftercare<br/><div class='my-4 rounded-lg overflow-hidden max-w-2xl'><img src='/images/carbon-laser-peel-aftercare-jvc.jpg' alt='Post-treatment skincare guidance being given after Carbon Laser Peel' class='w-full object-cover' /><p class='text-xs text-gray-500 font-sans mt-2 not-italic'>Aftercare guidance is given before you leave the clinic.</p></div>",
+      subtitle: "Carbon Laser Peel Aftercare<br/><div class='my-4 rounded-lg overflow-hidden max-w-2xl'>",
       description: "Proper aftercare is essential to support your skin as it settles: Cleansing gently without scrubbing, moisturising regularly, applying sunscreen daily as treated skin is more reactive, avoiding strong exfoliants or harsh products, avoiding scratching the area, and following specific guidance from your clinician."
     },
     {
@@ -464,11 +464,7 @@ export const carbonLaserPeelFAQ = {
   description: "Common questions patients ask about Carbon Laser Peel in JVC.",
   buttonText: "Book Consultation",
   buttonHref: "/book",
-  sidebarLinks: [
-    { label: "Dermatology Clinic", href: "/dermatology-clinic-jvc" },
-    { label: "Skin Clinic in JVC", href: "/skin-clinic-jvc" },
-    { label: "Chemical Peel", href: "/treatments/chemical-peel-dubai" }
-  ],
+
   faqs: [
     {
       question: "What is Carbon Laser Peel?",
@@ -549,8 +545,14 @@ export const carbonLaserPeelFAQ = {
     {
       question: "Can Carbon Laser Peel replace acne treatment?",
       answer: "No. It may help with mild surface congestion, but it isn't a substitute for a proper medical approach to active or persistent acne."
-    }
-  ]
+    },
+
+  ],
+  sidebarLinks: [
+    { label: "Dermatology Clinic", href: "/dermatology-clinic-jvc" },
+    { label: "Skin Clinic in JVC", href: "/skin-clinic-jvc" },
+    { label: "Chemical Peel", href: "/treatments/chemical-peel-dubai" }
+  ],
 };
 
 export const carbonLaserPeelLocation = {

@@ -8,13 +8,13 @@ export const nadiPareekshaHero = {
   ],
   label: "NADI PAREEKSHA AYURVEDIC ASSESSMENT - CLASSICAL ASHTAVIDHA PAREEKSHA - DHA-LICENSED - JUMEIRAH VILLAGE CIRCLE",
   title: "Classical Ayurvedic Nadi Pareeksha at our JVC clinic — foundation Ashtavidha Pareeksha diagnostic tradition.",
-  description: "Authentic classical Ayurvedic Nadi Pareeksha (pulse examination) at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. The flagship component of Ashtavidha Pareeksha delivered by DHA-licensed BAMS-qualified Ayurvedic doctors, including female practitioner Dr. Ansiya whose #1 documented expertise is Nadi Pareeksha & Ayurvedic Assessment.",
+  description: "Authentic classical Ayurvedic Nadi Pareeksha (pulse examination) at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. The flagship component of Ashtavidha Pareeksha delivered by DHA-licensed BAMS-qualified Ayurvedic doctors, including female practitioner Dr. Zainab whose #1 documented expertise is Nadi Pareeksha & Ayurvedic Assessment.",
   primaryCTA: "Book Nadi Pareeksha Consultation",
   secondaryCTA: "Explore Ashtavidha Pareeksha â†“",
   secondaryCTAHref: "#understanding",
   trustSignals: [
     "DHA-licensed BAMS Ayurvedic doctors",
-    "Dr. Ansiya's #1 documented expertise",
+    "Dr. Zainab's #1 documented expertise",
     "Classical Ashtavidha Pareeksha tradition",
     "Coordinated with modern medical care"
   ],
@@ -30,8 +30,8 @@ export const nadiPareekshaHero = {
 export const nadiPareekshaIntro = {
   label: "THE QUICK ANSWER",
   title: "Nadi Pareeksha Ayurvedic assessment at Vedara Care, in one paragraph.",
-  blockquote: "Nadi Pareeksha Ayurvedic assessment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic classical Ayurvedic pulse-based diagnostic assessment delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya (Nadi Pareeksha & Ayurvedic Assessment is her #1 explicitly documented area of expertise). Nadi Pareeksha is the flagship component of Ashtavidha Pareeksha — the classical Ayurvedic eightfold clinical examination comprising Nadi (pulse), Mutra (urine), Mala (stool), Jihva (tongue), Shabda (voice), Sparsha (touch), Drik (eye), and Akriti (form). Classical three doshic pulse positions: Vata pulse at index finger position (Sarpa gati — snake-like movement pattern); Pitta pulse at middle finger position (Manduka gati — frog-like leaping movement); Kapha pulse at ring finger position (Hansa gati — swan-like flowing movement). Nadi Vigyan textual tradition describes three primary pulse characteristics: Gati (movement pattern), Vega (speed and rhythm), Sthana (position and depth). Comprehensive 90-minute initial consultation assessing Prakriti (fundamental constitutional pattern), Vikriti (current imbalance state), Dhatu (tissue) status, Agni (digestive vitality), Ojas (vitality reserve), Manas (mental-emotional patterns), and Srotas (channel) patency — foundation diagnostic guiding Rasayana rejuvenation constitutional matching, Panchakarma programme design, condition-specific treatment planning, herbal prescription, and lifestyle guidance. Ayurvedic diagnostic assessment complements rather than replaces modern medical diagnostics. Kerala Ayurvedic classical Nadi Vigyan lineage. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, and across Dubai.",
-  footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Nadi Pareeksha & Ayurvedic Assessment is Dr. Ansiya's #1 documented area of expertise · Last updated September 2026",
+  blockquote: "Nadi Pareeksha Ayurvedic assessment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic classical Ayurvedic pulse-based diagnostic assessment delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab (Nadi Pareeksha & Ayurvedic Assessment is her #1 explicitly documented area of expertise). Nadi Pareeksha is the flagship component of Ashtavidha Pareeksha — the classical Ayurvedic eightfold clinical examination comprising Nadi (pulse), Mutra (urine), Mala (stool), Jihva (tongue), Shabda (voice), Sparsha (touch), Drik (eye), and Akriti (form). Classical three doshic pulse positions: Vata pulse at index finger position (Sarpa gati — snake-like movement pattern); Pitta pulse at middle finger position (Manduka gati — frog-like leaping movement); Kapha pulse at ring finger position (Hansa gati — swan-like flowing movement). Nadi Vigyan textual tradition describes three primary pulse characteristics: Gati (movement pattern), Vega (speed and rhythm), Sthana (position and depth). Comprehensive 90-minute initial consultation assessing Prakriti (fundamental constitutional pattern), Vikriti (current imbalance state), Dhatu (tissue) status, Agni (digestive vitality), Ojas (vitality reserve), Manas (mental-emotional patterns), and Srotas (channel) patency — foundation diagnostic guiding Rasayana rejuvenation constitutional matching, Panchakarma programme design, condition-specific treatment planning, herbal prescription, and lifestyle guidance. Ayurvedic diagnostic assessment complements rather than replaces modern medical diagnostics. Kerala Ayurvedic classical Nadi Vigyan lineage. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, and across Dubai.",
+  footer: "Medically reviewed by Dr. Zainab, BAMS, DHA-Licensed Ayurvedic Doctor · Nadi Pareeksha & Ayurvedic Assessment is Dr. Zainab's #1 documented area of expertise · Last updated September 2026",
 };
 
 export const nadiPareekshaMechanism = {
@@ -53,7 +53,7 @@ export const nadiPareekshaMechanism = {
       },
       {
         title: "Classical Nadi Vigyan textual tradition",
-        description: "Nadi Vigyan (Nadi Vijnana) is the classical Ayurvedic textual tradition specifically dedicated to Nadi Pareeksha attributed to Basavaraja and preserved through classical Ayurvedic lineages. Classical Nadi Vigyan describes detailed pulse assessment methodology, three doshic pulse characteristics and gati (movement patterns), subdoshic pulse variations, disease pattern pulse indicators, seasonal and diurnal pulse variations, technical assessment protocols, and clinical interpretation frameworks. Kerala Ayurvedic tradition has particularly preserved classical Nadi Vigyan practice with sustained classical text adherence. Dr. Ansiya brings this Kerala Ayurvedic classical Nadi Vigyan tradition to our JVC clinic.",
+        description: "Nadi Vigyan (Nadi Vijnana) is the classical Ayurvedic textual tradition specifically dedicated to Nadi Pareeksha attributed to Basavaraja and preserved through classical Ayurvedic lineages. Classical Nadi Vigyan describes detailed pulse assessment methodology, three doshic pulse characteristics and gati (movement patterns), subdoshic pulse variations, disease pattern pulse indicators, seasonal and diurnal pulse variations, technical assessment protocols, and clinical interpretation frameworks. Kerala Ayurvedic tradition has particularly preserved classical Nadi Vigyan practice with sustained classical text adherence. Dr. Zainab brings this Kerala Ayurvedic classical Nadi Vigyan tradition to our JVC clinic.",
       },
       {
         title: "Three primary pulse characteristics — Gati, Vega, Sthana",
@@ -71,8 +71,8 @@ export const nadiPareekshaMechanism = {
     footer: "Nadi Pareeksha is the flagship component of Ashtavidha Pareeksha — the classical Ayurvedic eightfold clinical examination. Three doshic pulse positions reveal Vata (Sarpa gati at index), Pitta (Manduka gati at middle), Kapha (Hansa gati at ring finger). Classical Nadi Vigyan textual tradition provides sophisticated diagnostic framework.",
   },
   rightContent: {
-    image: "/images/dr-ansiya-nadi-pareeksha-consultation.webp",
-    alt: "Dr Ansiya Nadi Pareeksha classical Ayurvedic assessment Vedara Care JVC",
+    image: "/images/dr-zainab-nadi-pareeksha-consultation.webp",
+    alt: "Dr Zainab Nadi Pareeksha classical Ayurvedic assessment Vedara Care JVC",
     label: "THREE DOSHIC PULSE POSITIONS",
     keyAnatomy: [
       { title: "Vata Pulse", description: "Snake-like movement - Rapid, variable rhythm - Thin cool quality" },
@@ -148,7 +148,7 @@ export const nadiPareekshaTypes = {
       number: "06",
       title: "Women's Health Constitutional Assessment",
       description:
-        "Constitutional foundation for women's health including menstrual concerns, perimenopausal transition, post-menopausal wellness. Female practitioner Dr. Ansiya available for cultural preferences.",
+        "Constitutional foundation for women's health including menstrual concerns, perimenopausal transition, post-menopausal wellness. Female practitioner Dr. Zainab available for cultural preferences.",
       typicalSigns: [
         "Artavavaha Srotas (menstrual channel) consideration · Women's constitutional pattern identification · Integrated women's Ayurvedic approach",
       ],
@@ -236,7 +236,7 @@ export const nadiPareekshaApproaches = {
     },
     {
       subtitle: "Comprehensive 90-Minute Initial Consultation",
-      description: "Foundation of authentic Nadi Pareeksha care. Initial 90-minute consultation with Dr. Ansiya or other DHA-licensed Ayurvedic doctor allowing comprehensive Nadi Pareeksha and broader Ashtavidha Pareeksha assessment, detailed history-taking, comprehensive symptom review, integrated treatment planning discussion. Substantial time investment reflects authentic classical Ayurvedic assessment standards — commercialised brief consultations cannot deliver comprehensive classical Ayurvedic assessment."
+      description: "Foundation of authentic Nadi Pareeksha care. Initial 90-minute consultation with Dr. Zainab or other DHA-licensed Ayurvedic doctor allowing comprehensive Nadi Pareeksha and broader Ashtavidha Pareeksha assessment, detailed history-taking, comprehensive symptom review, integrated treatment planning discussion. Substantial time investment reflects authentic classical Ayurvedic assessment standards — commercialised brief consultations cannot deliver comprehensive classical Ayurvedic assessment."
     },
     {
       subtitle: "Nadi Pareeksha — Pulse Examination at Three Doshic Positions",
@@ -287,7 +287,7 @@ export const nadiPareekshaApproaches = {
         title: "Assessment foundation",
         items: [
           "90-minute comprehensive consultation",
-          "Dr. Ansiya's #1 documented expertise",
+          "Dr. Zainab's #1 documented expertise",
           "Kerala Ayurvedic Nadi Vigyan lineage",
           "Multi-language including Malayalam",
 
@@ -368,7 +368,7 @@ export const nadiPareekshaReviews = {
       details1: "February 2026<span style=\"float: right; color: #4CAF50;\">✓ Verified</span>"
     },
     {
-      quote: "Kerala background, familiar with classical Nadi Pareeksha tradition from family Ayurvedic tradition, seeking authentic classical Nadi Pareeksha in Dubai. Dr. Ansiya — female Kerala Ayurvedic doctor — was the perfect combination for cultural familiarity. Discussion in Malayalam reassuring for classical Nadi Vigyan framework. Comprehensive Nadi Pareeksha with three doshic pulse position assessment, broader Ashtavidha Pareeksha, Vata-Kapha Prakriti identified with current Vata aggravation from Dubai's demanding lifestyle. Personalised Rasayana rejuvenation approach recommendation. Authentic classical Kerala Ayurvedic Nadi Pareeksha tradition preserved in Dubai.",
+      quote: "Kerala background, familiar with classical Nadi Pareeksha tradition from family Ayurvedic tradition, seeking authentic classical Nadi Pareeksha in Dubai. Dr. Zainab — female Kerala Ayurvedic doctor — was the perfect combination for cultural familiarity. Discussion in Malayalam reassuring for classical Nadi Vigyan framework. Comprehensive Nadi Pareeksha with three doshic pulse position assessment, broader Ashtavidha Pareeksha, Vata-Kapha Prakriti identified with current Vata aggravation from Dubai's demanding lifestyle. Personalised Rasayana rejuvenation approach recommendation. Authentic classical Kerala Ayurvedic Nadi Pareeksha tradition preserved in Dubai.",
       author: "Female patient, 45",
       details: "Kerala Cultural Classical Nadi Pareeksha · Al Barsha Family",
       details1: "January 2026<span style=\"float: right; color: #4CAF50;\">✓ Verified</span>"
@@ -384,7 +384,7 @@ export const nadiPareekshaReviews = {
     { label: "stars on Google" },
     { label: "1,500+ Nadi Pareeksha consultations" },
     { label: "DHA-licensed BAMS Ayurvedic doctors" },
-    { label: "Dr. Ansiya's #1 documented expertise" }
+    { label: "Dr. Zainab's #1 documented expertise" }
   ],
   buttonText: "Read All Nadi Pareeksha Reviews →",
   buttonHref: "#"
@@ -396,11 +396,11 @@ export const nadiPareekshaTeam = {
   description: "Meet our experienced DHA-licensed Ayurvedic practitioners.",
   members: [
     {
-      name: "Dr. Ansiya",
+      name: "Dr. Zainab",
       role: "BAMS, DHA-Licensed Ayurvedic Doctor",
-      image: "/images/dr-ansiya-ayurveda.jpg",
-      imageAlt: "Dr Ansiya Nadi Pareeksha Ayurvedic team Vedara Care JVC",
-      link: "/doctors/dr-ansiya-ayurveda/"
+      image: "/images/dr-zainab-ayurveda.jpg",
+      imageAlt: "Dr Zainab Nadi Pareeksha Ayurvedic team Vedara Care JVC",
+      link: "/doctors/dr-zainab-ayurveda/"
     }
   ]
 };
@@ -410,7 +410,7 @@ export const nadiPareekshaPricing = {
   title: "Nadi Pareeksha Ayurvedic assessment consultation and ongoing treatment pricing at our JVC clinic.",
   headers: ["ASSESSMENT / SERVICE", "DURATION", "INVESTMENT"],
   rows: [
-    { service: "Comprehensive Nadi Pareeksha initial consultation with Dr. Ansiya (Nadi Pareeksha + Ashtavidha Pareeksha + Prakriti-Vikriti assessment + comprehensive history + integrated treatment planning + written assessment summary)", duration: "90 min", price: "AED 450", highlight: true },
+    { service: "Comprehensive Nadi Pareeksha initial consultation with Dr. Zainab (Nadi Pareeksha + Ashtavidha Pareeksha + Prakriti-Vikriti assessment + comprehensive history + integrated treatment planning + written assessment summary)", duration: "90 min", price: "AED 450", highlight: true },
     { service: "Follow-up consultation for treatment adjustments and reassessment", duration: "30-45 min", price: "AED 250" },
     { service: "Extended follow-up consultation", duration: "60 min", price: "AED 1,200" },
     { service: "Comprehensive re-assessment consultation (periodic Nadi Pareeksha reassessment)", duration: "60 min", price: "Custom quote" },
@@ -478,7 +478,7 @@ export const nadiPareekshaFaqs = {
     },
     {
       question: "Do you have female Ayurvedic doctor for Nadi Pareeksha?",
-      answer: "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with Nadi Pareeksha & Ayurvedic Assessment as her #1 explicitly documented area of expertise. Female practitioner important for cultural preferences, particularly for women's health assessment and Muslim patients preferring female practitioner."
+      answer: "Yes — Dr. Zainab is female DHA-licensed BAMS-qualified Ayurvedic doctor with Nadi Pareeksha & Ayurvedic Assessment as her #1 explicitly documented area of expertise. Female practitioner important for cultural preferences, particularly for women's health assessment and Muslim patients preferring female practitioner."
     },
     {
       question: "Is Nadi Pareeksha suitable for children?",
@@ -506,7 +506,7 @@ export const nadiPareekshaFaqs = {
     },
     {
       question: "How do I book Nadi Pareeksha consultation?",
-      answer: "Three ways: WhatsApp specifying Nadi Pareeksha consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: current medication list, any relevant medical reports or investigations, description of current symptoms or wellness goals, cultural and language preferences, insurance card if applicable, specific questions and goals."
+      answer: "Three ways: WhatsApp specifying Nadi Pareeksha consultation ideally with Dr. Zainab; call 9AM-9PM seven days a week; book online. Please bring: current medication list, any relevant medical reports or investigations, description of current symptoms or wellness goals, cultural and language preferences, insurance card if applicable, specific questions and goals."
     }
   ]
 };
@@ -524,18 +524,18 @@ export const nadiPareekshaLocation = {
   mapLink: "https://maps.google.com/?q=Vedara+Care+Polyclinic+JVC",
   image: "/images/vedara-jvc-nadi-pareeksha-clinic.webp",
   imageAlt: "Vedara Care JVC clinic Nadi Pareeksha Ayurvedic assessment Dubai",
-  description: "Our JVC clinic houses dedicated Ayurvedic consultation rooms suited for comprehensive Nadi Pareeksha assessment — dignified quiet consultation environment enabling proper Nadi Pareeksha technique, appropriate consultation duration (90 minutes uninterrupted), integrated Ashtavidha Pareeksha assessment capability. Female practitioner Dr. Ansiya available with private consultation for cultural preferences."
+  description: "Our JVC clinic houses dedicated Ayurvedic consultation rooms suited for comprehensive Nadi Pareeksha assessment — dignified quiet consultation environment enabling proper Nadi Pareeksha technique, appropriate consultation duration (90 minutes uninterrupted), integrated Ashtavidha Pareeksha assessment capability. Female practitioner Dr. Zainab available with private consultation for cultural preferences."
 };
 
 export const nadiPareekshaCTA = {
   bgColor: "bg-white",
   title: "Comprehensive Nadi Pareeksha consultation is the starting point for authentic classical Ayurvedic care.",
-  description: "Whether you're new to Ayurveda seeking foundational classical assessment, considering Rasayana rejuvenation or Panchakarma, seeking constitutional context for musculoskeletal, skin, or women's health presentations, from Kerala or Indian expatriate community familiar with classical Nadi Pareeksha tradition, or seeking comprehensive classical Ayurvedic wellness lifestyle foundation — comprehensive Nadi Pareeksha consultation with Dr. Ansiya provides authentic classical Ayurvedic diagnostic foundation. DHA-licensed · Kerala Ayurvedic Nadi Vigyan lineage  Three doshic pulse position assessment · Prakriti-Vikriti constitutional assessment · Coordinated with modern medical care. Same-week consultation appointments typically available.",
-  button1Text: "Book Consultation with Dr. Ansiya",
+  description: "Whether you're new to Ayurveda seeking foundational classical assessment, considering Rasayana rejuvenation or Panchakarma, seeking constitutional context for musculoskeletal, skin, or women's health presentations, from Kerala or Indian expatriate community familiar with classical Nadi Pareeksha tradition, or seeking comprehensive classical Ayurvedic wellness lifestyle foundation — comprehensive Nadi Pareeksha consultation with Dr. Zainab provides authentic classical Ayurvedic diagnostic foundation. DHA-licensed · Kerala Ayurvedic Nadi Vigyan lineage  Three doshic pulse position assessment · Prakriti-Vikriti constitutional assessment · Coordinated with modern medical care. Same-week consultation appointments typically available.",
+  button1Text: "Book Consultation with Dr. Zainab",
   button1TextHref: "/book",
   button2Text: "WhatsApp Vedara Care",
   button2TextHref: "https://wa.me/971555736312",
-  footer: "Initial consultation from AED [X] · 90-minute comprehensive assessment · Female DHA-Licensed BAMS Ayurvedic Doctor · Dr. Ansiya's #1 documented expertise · Classical Ashtavidha Pareeksha tradition · Kerala Ayurvedic Nadi Vigyan lineage · Multi-language including Malayalam · Coordinated with modern medical care · Walking distance from Circle Mall, JVC"
+  footer: "Initial consultation from AED [X] · 90-minute comprehensive assessment · Female DHA-Licensed BAMS Ayurvedic Doctor · Dr. Zainab's #1 documented expertise · Classical Ashtavidha Pareeksha tradition · Kerala Ayurvedic Nadi Vigyan lineage · Multi-language including Malayalam · Coordinated with modern medical care · Walking distance from Circle Mall, JVC"
 };
 
 export const nadiPareekshaRelatedPages = {
@@ -547,9 +547,9 @@ export const nadiPareekshaRelatedPages = {
   pages: [
     {
       label: "DOCTOR PROFILE",
-      title: "Dr. Ansiya",
+      title: "Dr. Zainab",
       description: "Female DHA-licensed BAMS practitioner with Ayurvedic Rejuvenation explicitly documented in her expertise areas.",
-      href: "/doctors/dr-ansiya-ayurveda/",
+      href: "/doctors/dr-zainab-ayurveda/",
 
     },
     {

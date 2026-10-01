@@ -99,7 +99,7 @@ const FAQ = ({
                     rel={link.href.startsWith('http') ? 'noopener noreferrer' : ''}
                     className="block text-[14px] font-sans text-[#C4A962] hover:text-[#b89a56] hover:underline"
                   >
-                    {link.text} →
+                    {link.label || link.text} →
                   </a>
                 ))}
               </div>
@@ -116,7 +116,7 @@ const FAQ = ({
                 >
                   <span className={`text-[18px] font-sans font-semibold transition-colors ${openIndex === index ? 'text-[#184C3A]' : 'text-[#1A1A1A] group-hover:text-[#184C3A]'}`} dangerouslySetInnerHTML={{ __html: faq.question?.trim() }} />
                   <span className="text-[#D4A373] shrink-0 ml-4">
-                    {openIndex === index ? <Minus size={20} /> : <Plus size={20} />}
+                    {openIndex === index ? <Minus size={20} aria-hidden="true" /> : <Plus size={20} aria-hidden="true" />}
                   </span>
                 </button>
 

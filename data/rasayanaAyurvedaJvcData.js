@@ -6,7 +6,7 @@ export const rasayanaJvcHero = {
   ],
   label: "Rasayana Ayurvedic Rejuvenation · Classical Rasayana Tantra · DHA-Licensed · Jumeirah Village Circle",
   title: "Classical Ayurvedic Rasayana rejuvenation at our JVC clinic, Dubai — authentic Rasayana Tantra tradition.",
-  description: "Authentic Ayurvedic Rasayana rejuvenation at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. Rasayana Tantra is one of the eight branches of classical Ayurveda — dedicated science of rejuvenation described in Charaka Samhita and Sushruta Samhita. DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya delivering constitutional Rasayana, Medhya Rasayana cognitive rejuvenation, Aachara Rasayana framework, and Chyawanprash — the most famous classical Rasayana preparation.",
+  description: "Authentic Ayurvedic Rasayana rejuvenation at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. Rasayana Tantra is one of the eight branches of classical Ayurveda — dedicated science of rejuvenation described in Charaka Samhita and Sushruta Samhita. DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab delivering constitutional Rasayana, Medhya Rasayana cognitive rejuvenation, Aachara Rasayana framework, and Chyawanprash — the most famous classical Rasayana preparation.",
   primaryCTA: "Book a Rasayana Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
@@ -30,8 +30,8 @@ export const rasayanaJvcIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
   title: "Rasayana Ayurvedic rejuvenation at Vedara Care, in one paragraph.",
-  blockquote: "Rasayana Ayurvedic rejuvenation at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic classical Ayurvedic rejuvenation practice delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Ansiya (Ayurvedic Rejuvenation explicitly documented in her expertise areas). Rasayana is one of the eight branches (Ashtanga) of classical Ayurveda — dedicated science of rejuvenation extensively described in Charaka Samhita and Sushruta Samhita with detailed traditional protocols developed over centuries. Classical texts identify Rasayana's threefold aim: prevention and delay of degenerative changes, restoration of vitality in depleted states, longevity through sustained wellness practice. Fundamentally distinct from Western anti-ageing wellness marketing — classical Rasayana emphasises sustained wellness practice framework rather than miraculous transformation. Comprehensive Rasayana approach: Vatatapika Rasayana, Medhya Rasayana cognitive rejuvenation with Brahmi, Shankhpushpi and Mandukaparni, Aachara Rasayana behavioural framework, Chyawanprash and classical herbal preparations, constitutional-matched approach for Vata, Pitta and Kapha patterns. Serving patients from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and every Dubai community.",
-  footer: "Medically reviewed by Dr. Ansiya, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
+  blockquote: "Rasayana Ayurvedic rejuvenation at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic classical Ayurvedic rejuvenation practice delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab (Ayurvedic Rejuvenation explicitly documented in her expertise areas). Rasayana is one of the eight branches (Ashtanga) of classical Ayurveda — dedicated science of rejuvenation extensively described in Charaka Samhita and Sushruta Samhita with detailed traditional protocols developed over centuries. Classical texts identify Rasayana's threefold aim: prevention and delay of degenerative changes, restoration of vitality in depleted states, longevity through sustained wellness practice. Fundamentally distinct from Western anti-ageing wellness marketing — classical Rasayana emphasises sustained wellness practice framework rather than miraculous transformation. Comprehensive Rasayana approach: Vatatapika Rasayana, Medhya Rasayana cognitive rejuvenation with Brahmi, Shankhpushpi and Mandukaparni, Aachara Rasayana behavioural framework, Chyawanprash and classical herbal preparations, constitutional-matched approach for Vata, Pitta and Kapha patterns. Serving patients from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and every Dubai community.",
+  footer: "Medically reviewed by Dr. Zainab, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
 };
 
 export const rasayanaJvcMechanism = {
@@ -83,7 +83,7 @@ export const rasayanaJvcMechanism = {
   },
   rightContent: {
     image: "/images/chyawanprash-classical-rasayana-preparation.webp",
-    alt: "Classical Rasayana Chyawanprash preparation Dr Ansiya Vedara Care JVC",
+    alt: "Classical Rasayana Chyawanprash preparation Dr Zainab Vedara Care JVC",
     imageClassName: "w-full h-[400px] lg:h-[500px] object-cover object-center",
     description: (
       <div style={{ background: "rgb(255, 255, 255)", borderRadius: "8px", padding: "24px", marginTop: "20px", borderLeft: "3px solid var(--gold)" }}>
@@ -93,7 +93,7 @@ export const rasayanaJvcMechanism = {
           <span style={{ color: "var(--muted)" }}></span>
         </div>
         <div style={{ display: "flex", gap: "10px", marginBottom: "6px", fontSize: "13px" }}>
-          Dr. Ansiya brings Kerala Ayurvedic classical Rasayana tradition to our JVC clinic — authentic classical practice with sustained traditional preparation methods and Charaka Samhita adherence.
+          Dr. Zainab brings Kerala Ayurvedic classical Rasayana tradition to our JVC clinic — authentic classical practice with sustained traditional preparation methods and Charaka Samhita adherence.
 
         </div>
       </div>
@@ -309,7 +309,7 @@ export const rasayanaJvcJourney = {
       phase: "Phase 1",
       duration: "Weeks 1–2",
       title: "Comprehensive Assessment and Foundation",
-      description: "Initial consultation with Dr. Ansiya: detailed health history, Nadi Pareeksha, Prakriti and Vikriti assessment, and goal setting. Personalised Rasayana plan is developed.",
+      description: "Initial consultation with Dr. Zainab: detailed health history, Nadi Pareeksha, Prakriti and Vikriti assessment, and goal setting. Personalised Rasayana plan is developed.",
     },
     {
       phase: "Phase 2",
@@ -343,13 +343,13 @@ export const rasayanaJvcReviews = {
   alt: "Rasayana rejuvenation patient testimonials Vedara Care JVC Dubai",
   items: [
     {
-      quote: "British finance professional in Dubai Marina, 48 years old — approaching 50 and wanting authentic classical approach to sustained vitality. Consulted Dr. Ansiya at Vedara's JVC clinic. Comprehensive consultation identifying my Vata-Pitta constitutional pattern. Personalised Rasayana programme: Chyawanprash foundation, Ashwagandha, Brahmi and Shankhpushpi Medhya Rasayana, comprehensive Aachara Rasayana framework. Six months in: substantially improved sustained energy, dramatically better cognitive clarity, better sleep. Classical Rasayana Tantra through DHA-licensed doctor — authentic and sustainable.",
+      quote: "British finance professional in Dubai Marina, 48 years old — approaching 50 and wanting authentic classical approach to sustained vitality. Consulted Dr. Zainab at Vedara's JVC clinic. Comprehensive consultation identifying my Vata-Pitta constitutional pattern. Personalised Rasayana programme: Chyawanprash foundation, Ashwagandha, Brahmi and Shankhpushpi Medhya Rasayana, comprehensive Aachara Rasayana framework. Six months in: substantially improved sustained energy, dramatically better cognitive clarity, better sleep. Classical Rasayana Tantra through DHA-licensed doctor — authentic and sustainable.",
       author: "Male patient, 48",
       details: "Sustained Vitality and Medhya Rasayana · Dubai Marina Professional",
       details1: "February 2026 · ✓ Verified patient"
     },
     {
-      quote: "Indian expatriate mother in Al Barsha, 52 years old — perimenopausal with sustained fatigue and sleep disruption. Consulted Dr. Ansiya (female Ayurvedic doctor culturally important). Personalised women's Rasayana: Shatavari emphasis, Chyawanprash foundation, Ashwagandha, comprehensive Aachara Rasayana framework. Discussion in Malayalam reassuring for classical Rasayana concepts. Four months in: substantially improved sustained energy, better sleep, improved cognitive clarity. Classical Rasayana authentic culturally-familiar sustained wellness approach.",
+      quote: "Indian expatriate mother in Al Barsha, 52 years old — perimenopausal with sustained fatigue and sleep disruption. Consulted Dr. Zainab (female Ayurvedic doctor culturally important). Personalised women's Rasayana: Shatavari emphasis, Chyawanprash foundation, Ashwagandha, comprehensive Aachara Rasayana framework. Discussion in Malayalam reassuring for classical Rasayana concepts. Four months in: substantially improved sustained energy, better sleep, improved cognitive clarity. Classical Rasayana authentic culturally-familiar sustained wellness approach.",
       author: "Female patient, 52",
       details: "Perimenopausal Women's Rasayana · Al Barsha Family ",
       details1: "January 2026 ✓ Verified patient"
@@ -378,12 +378,12 @@ export const rasayanaJvcTeam = {
   intro: "Our DHA-licensed experts provide authentic Rasayana treatments tailored to your constitution.",
   teamMembers: [
     {
-      name: "Dr. Ansiya",
+      name: "Dr. Zainab",
       role: "DHA-Licensed BAMS Ayurvedic Doctor</br>Ayurvedic Rejuvenation Specialist",
-      image: "/images/dr-ansiya-rasayana-care.webp",
+      image: "/images/dr-zainab-rasayana-care.webp",
       tags: "Rasayana Expert",
-      description: "Dr. Ansiya is a DHA-licensed BAMS-qualified Ayurvedic doctor with extensive expertise in classical Rasayana Tantra, providing personalised rejuvenation programmes.",
-      alt: "Dr Ansiya Ayurvedic Rasayana team Vedara Care JVC"
+      description: "Dr. Zainab is a DHA-licensed BAMS-qualified Ayurvedic doctor with extensive expertise in classical Rasayana Tantra, providing personalised rejuvenation programmes.",
+      alt: "Dr Zainab Ayurvedic Rasayana team Vedara Care JVC"
     }
   ]
 };
@@ -395,7 +395,7 @@ export const rasayanaJvcPricing = {
   headers: ["SERVICE", "DURATION", "INVESTMENT"],
   rows: [
     {
-      service: "Initial Rasayana consultation with Dr. Ansiya (Nadi Pareeksha + Prakriti + rejuvenation goals + medication review + programme design)",
+      service: "Initial Rasayana consultation with Dr. Zainab (Nadi Pareeksha + Prakriti + rejuvenation goals + medication review + programme design)",
       duration: "90 min",
       price: "AED [X]",
     },
@@ -474,7 +474,7 @@ export const rasayanaJvcFaqs = {
   label: "Common Questions",
   title: "What patients ask about Rasayana Ayurvedic rejuvenation at our JVC clinic.",
   sidebarLinks: [
-    { text: "Dr. Ansiya's profile", href: "/doctors/dr-ansiya-ayurveda/" },
+    { text: "Dr. Zainab's profile", href: "/doctors/dr-zainab-ayurveda/" },
     { text: "Panchakarma treatment", href: "/treatments/panchakarma-dubai/" },
     { text: "Ayurveda clinic pillar", href: "/ayurveda-clinic-jvc/" },
     { text: "WhatsApp", href: "https://wa.me/971555736312" }
@@ -529,7 +529,7 @@ export const rasayanaJvcFaqs = {
     },
     {
       "question": "Do you have female Ayurvedic doctor for Rasayana?",
-      "answer": "Yes — Dr. Ansiya is female DHA-licensed BAMS-qualified Ayurvedic doctor with Ayurvedic Rejuvenation explicitly documented in her expertise areas. Female practitioner important for cultural preferences."
+      "answer": "Yes — Dr. Zainab is female DHA-licensed BAMS-qualified Ayurvedic doctor with Ayurvedic Rejuvenation explicitly documented in her expertise areas. Female practitioner important for cultural preferences."
     },
     {
       "question": "Is Rasayana suitable for elderly patients?",
@@ -561,7 +561,7 @@ export const rasayanaJvcFaqs = {
     },
     {
       "question": "How do I book Rasayana consultation?",
-      "answer": "Three ways: WhatsApp specifying Rasayana consultation ideally with Dr. Ansiya; call 9AM-9PM seven days a week; book online. Please bring: description of rejuvenation goals, current medications and medical conditions, any previous Ayurvedic experience, cultural preferences, insurance card if applicable, specific questions and goals."
+      "answer": "Three ways: WhatsApp specifying Rasayana consultation ideally with Dr. Zainab; call 9AM-9PM seven days a week; book online. Please bring: description of rejuvenation goals, current medications and medical conditions, any previous Ayurvedic experience, cultural preferences, insurance card if applicable, specific questions and goals."
     }
   ]
 };
@@ -585,8 +585,8 @@ export const rasayanaJvcLocation = {
 export const rasayanaJvcCTA = {
   label: "Ready for Classical Rasayana Rejuvenation?",
   title: "Comprehensive Rasayana consultation is the starting point for sustained wellness practice partnership.",
-  description: "Whether you're seeking sustained vitality maintenance for healthy ageing, Medhya Rasayana cognitive function support, post-illness constitutional recovery through Naimittika Rasayana, chronic fatigue constitutional restoration, immunity building, perimenopausal women's rejuvenation with Shatavari emphasis, sustained stress resilience through Aachara Rasayana, or comprehensive sustained wellness practice for high-performing professional life — comprehensive consultation with Dr. Ansiya identifies your constitutional pattern and designs your personalised Rasayana programme. Same-week consultation appointments typically available at our JVC clinic.",
-  button1Text: "Book Consultation with Dr. Ansiya",
+  description: "Whether you're seeking sustained vitality maintenance for healthy ageing, Medhya Rasayana cognitive function support, post-illness constitutional recovery through Naimittika Rasayana, chronic fatigue constitutional restoration, immunity building, perimenopausal women's rejuvenation with Shatavari emphasis, sustained stress resilience through Aachara Rasayana, or comprehensive sustained wellness practice for high-performing professional life — comprehensive consultation with Dr. Zainab identifies your constitutional pattern and designs your personalised Rasayana programme. Same-week consultation appointments typically available at our JVC clinic.",
+  button1Text: "Book Consultation with Dr. Zainab",
   button1Href: "/book",
   button2Text: "WhatsApp Us",
   button2Href: "https://wa.me/971555736312",
@@ -604,10 +604,10 @@ export const rasayanaJvcRelatedPages = {
   pages: [
     {
       label: "AYURVEDIC DOCTOR",
-      title: "Dr. Ansiya",
+      title: "Dr. Zainab",
       description: "Female DHA-licensed BAMS practitioner with Ayurvedic Rejuvenation explicitly documented in her expertise areas.",
-      href: "/doctors/dr-ansiya-ayurveda/",
-      image: "/images/dr-ansiya-ayurveda-jvc.webp"
+      href: "/doctors/dr-zainab-ayurveda/",
+      image: "/images/dr-zainab-ayurveda-jvc.webp"
     },
     {
       label: "DUBAI",

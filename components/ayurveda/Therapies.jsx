@@ -1,14 +1,15 @@
 import React from 'react';
 import { Zap, Sparkles, Droplets, Shield, Leaf, Wind, Activity, Flame } from 'lucide-react';
 
-const Therapies = ({ 
-  bgColor = "bg-white", 
+const Therapies = ({
+  bgColor = "bg-white",
   cardBgColor = "bg-white",
-  label, 
-  title, 
-  description, 
+  label,
+  title,
+  description,
   footer,
-  items 
+  items,
+  showImages = true
 }) => {
   const getIcon = (index) => {
     const icons = [
@@ -37,57 +38,70 @@ const Therapies = ({
           <p className="text-[17px] text-[#6B6B6B] font-sans max-w-[640px] mx-auto leading-relaxed">
             {description}
           </p>
-         
+
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {items.map((item, index) => (
-            <div key={index} className={`${cardBgColor} p-6 rounded-[8px] border border-[#E5E5E5] hover:border-[#C9A961] transition-all duration-200 flex flex-col h-full group`}>
-              <div className="w-10 h-10 rounded-full flex items-center justify-center bg-[#C9A961]/10 mb-6 group-hover:bg-[#C9A961]/20 transition-colors">
-                {getIcon(index)}
-              </div>
-              
-              <h3 className="text-[17px] font-serif font-medium text-[#1A1A1A] mb-2">
-                {item.title}
-              </h3>
-              
-              <p className="text-[14px] text-[#6B6B6B] font-sans leading-relaxed flex-1">
-                {item.description}
-              </p>
-              
-              <div className="mt-4 pt-4 border-t border-[#F0E9DD] space-y-2">
-                <p className="text-[12px] text-[#6B6B6B] font-sans leading-relaxed">
-                  <span className="font-medium text-[#1A1A1A]">{item.duration}</span>
-                  <span> - Best for: {item.bestFor}</span>
-                </p>
-                {item.link ? (
-                  <a href={item.link} className="text-[12px] font-sans font-medium text-[#C9A961] flex items-center gap-1 hover:underline">
-                    {item.linkText || 'Learn more'} →
-                  </a>
+            <div key={index} className={`${cardBgColor} rounded-[8px] border border-[#E5E5E5] hover:border-[#C9A961] transition-all duration-200 flex flex-col h-full group overflow-hidden`}>
+              {showImages && (
+                item.image ? (
+                  <div className="w-full h-70 overflow-hidden">
+                    <img src={`/images/${item.image}`} alt={item.alt || item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  </div>
                 ) : (
-                  <button className="text-[12px] font-sans font-medium text-[#C9A961] flex items-center gap-1 hover:underline">
-                    {item.linkText || 'Learn more'} →
-                  </button>
-                )}
-           
+                  <div className="p-6 pb-0">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center bg-[#C9A961]/10 mb-6 group-hover:bg-[#C9A961]/20 transition-colors">
+                      {getIcon(index)}
+                    </div>
+                  </div>
+                )
+              )}
+
+              <div className="p-6 flex flex-col flex-1">
+
+                <h3 className="text-[17px] font-serif font-medium text-[#1A1A1A] mb-2">
+                  {item.title}
+                </h3>
+
+                <p className="text-[14px] text-[#6B6B6B] font-sans leading-relaxed flex-1">
+                  {item.description}
+                </p>
+
+                <div className="mt-4 pt-4 border-t border-[#F0E9DD] space-y-2">
+                  <p className="text-[12px] text-[#6B6B6B] font-sans leading-relaxed">
+                    <span className="font-medium text-[#1A1A1A]">{item.duration}</span>
+                    <span> - Best for: {item.bestFor}</span>
+                  </p>
+                  {item.link ? (
+                    <a href={item.link} className="text-[12px] font-sans font-medium text-[#C9A961] flex items-center gap-1 hover:underline">
+                      {item.linkText || 'Learn more'} →
+                    </a>
+                  ) : (
+                    <button className="text-[12px] font-sans font-medium text-[#C9A961] flex items-center gap-1 hover:underline">
+                      {item.linkText || 'Learn more'} →
+                    </button>
+                  )}
+
+                </div>
+
               </div>
-            
             </div>
           ))}
         </div>
       </div>
 
 
-  {footer && (
-    
-  <div className="mt-8 text-center text-[14px] font-sans font-medium text-[#C9A961] leading-relaxed"
-    dangerouslySetInnerHTML={{ __html: footer }}
-  />
-)}
+      {footer && (
+
+        <div className="mt-8 text-center text-[14px] font-sans font-medium text-[#C9A961] leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: footer }}
+        />
+      )}
 
 
-</section>
-   
+    </section>
+
   );
 };
 

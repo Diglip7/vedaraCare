@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { drPriyaNair, drAnsiya } from '../../data/doctorData';
+import { drPriyaNair, drZainab } from '../../data/doctorData';
 
 const practitioners = [
   {
@@ -14,13 +14,13 @@ const practitioners = [
     url: '/doctors/johanna-bautista'
   },
   {
-    name: 'Dr. Ansiya',
+    name: 'Dr. Zainab',
     specialty: 'Ayurveda Practitioner · BAMS',
     focus: 'PCOS, Nadi Pareeksha, Musculoskeletal, Postnatal',
-    image: '/images/dr-ansiya-ayurveda-jvc.webp',
-    alt: drAnsiya.alt,
-    slug: 'dr-ansiya-ayurveda',
-    url: '/doctors/dr-ansiya-ayurveda'
+    image: '/images/dr-zainab-ayurveda-jvc.webp',
+    alt: drZainab.alt,
+    slug: 'dr-zainab-ayurveda',
+    url: '/doctors/dr-zainab-ayurveda'
   },
   // {
   //   name: 'Dr. Meera Krishnan',

@@ -171,14 +171,14 @@ export const homeExperts = {
       link: '/doctors/hafsina-kk-physiotherapist'
     },
     {
-      name: "Dr. Ansiya",
+      name: "Dr. Zainab",
       qualification: "Ayurveda Practitioner · BAMS",
       role: "Ayurveda Practitioner",
       experience: "PCOS, Nadi Pareeksha",
       languages: "English, Malayalam, Hindi",
-      image: "/images/dr-ansiya-ayurveda-jvc.webp",
-      alt: "Dr. Ansiya, Ayurvedic Doctor at Vedara Care Polyclinic, JVC Dubai",
-      link: "/doctors/dr-ansiya-ayurveda"
+      image: "/images/dr-zainab-ayurveda-jvc.webp",
+      alt: "Dr. Zainab, Ayurvedic Doctor at Vedara Care Polyclinic, JVC Dubai",
+      link: "/doctors/dr-zainab-ayurveda"
     },
     {
       name: "Johanna Dianne U. Bautista",

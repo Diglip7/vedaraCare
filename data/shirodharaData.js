@@ -25,7 +25,7 @@ export const shirodharaIntro = {
   label: "THE QUICK ANSWER",
   title: "Shirodhara in Dubai, in one paragraph.",
   blockquote: "Shirodhara is the classical Ayurvedic therapy in which a continuous stream of warm medicated oil is poured rhythmically across the forehead — specifically targeting the Ajna marma point above and between the eyebrows — for 30 to 60 minutes. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Shirodhara is doctor-prescribed by BAMS-qualified physicians for <a href='/conditions/insomnia-ayurveda-dubai/' class=' hover:underline transition-colors'>chronic insomnia</a>, <a href='/conditions/stress-anxiety-ayurveda-dubai/' class=' hover:underline transition-colors'>anxiety</a>, <a href='/conditions/migraine-ayurveda-dubai/' class=' hover:underline transition-colors'>migraine</a>, ADHD support, and stress-related disorders. Sessions start from AED 450 and are often most powerful when delivered as a 7 to 14-session course.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const shirodharaMechanism = {
