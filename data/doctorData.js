@@ -1542,7 +1542,7 @@ export const drZainab = {
       { value: "4.5", label: "Google Rating" },
       { value: "11", label: "Documented Expertise Areas" },
       { value: "DHA", label: "Licensed & BAMS Qualified" },
-      { value: "â™€", label: "Female Doctor Available" }
+      // { value: "â™€", label: "Female Doctor Available" }
     ],
 
   },
