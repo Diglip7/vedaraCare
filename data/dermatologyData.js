@@ -212,7 +212,7 @@ export const dermatologyReviews = {
   stats: [
     { value: "4.5", label: "stars on Google" },
     { value: "500+", label: "dermatology patients treated" },
-    { value: "Int'l", label: "consultant dermatologists trained" },
+    // { value: "Int'l", label: "consultant dermatologists trained" },
     { value: "Both", label: "medical & aesthetic excellence" }
   ],
   buttonText: "Read All Dermatology Reviews →"

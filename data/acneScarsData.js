@@ -1,4 +1,4 @@
-export const acneScarsHero = {
+﻿export const acneScarsHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Conditions", href: "/conditions/" },
@@ -61,7 +61,7 @@ export const acneScarsPatientVoices = {
   stats: [
     { value: "4.5", description: "Stars on Google" },
     { value: "1200+", description: "Acne scar patients treated" },
-    { value: "I-VI", description: "Fitzpatrick expertise" },
+    // { value: "I-VI", description: "Fitzpatrick expertise" },
     { value: "Full", description: "Combination protocol capability" }
   ],
   viewAllReviewsText: "Read All Acne Scar Reviews",

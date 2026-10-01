@@ -1463,7 +1463,7 @@ export const drZainab = {
       related: 'Foundation for: All Ayurveda treatment programmes at our JVC clinic'
     }
   ],
-  specialtiesFooter: 'Comprehensive consultation with Dr. Zainab identifies which of her expertise areas apply to your situation →',
+  specialtiesFooter: 'Comprehensive consultation with Dr. Zainab identifies which of her expertise areas apply to your situation ',
   conditionsTreated: {
     subtitle: 'Comprehensive Ayurvedic approach across women\'s health, musculoskeletal, skin, hair, stress, weight, postnatal, and lifestyle conditions.',
     categories: [
@@ -1511,7 +1511,7 @@ export const drZainab = {
         ]
       }
     ],
-    footer: 'For treatment procedures Dr. Zainab delivers, see our Ayurveda Clinic JVC and Detox Treatment pages →'
+    // footer: 'For treatment procedures Dr. Zainab delivers, see our Ayurveda Clinic JVC and Detox Treatment pages →'
   },
   reviews: {
     bgColor: "bg-[#FAF6EF]",
