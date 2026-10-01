@@ -30,7 +30,7 @@ export const thyroidIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic thyroid treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for thyroid in Dubai is supportive-integrative care — never a replacement for prescribed thyroid medication. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — structured 6 to 9-month programmes address the autoimmune component in Hashimoto's (anti-TPO and anti-Tg antibodies), the metabolic and constitutional factors affecting how you feel on thyroid medication, residual symptoms despite \"normal\" bloodwork, and concurrent conditions including weight gain, hair loss, and mood changes. Treatment combines classical Panchakarma protocols, specific Ayurvedic medicines (Kanchanara Guggulu, Varunadi Kashayam, dosha-specific formulations), individualised dietary regulation, and lifestyle modification — performed alongside your endocrinologist's conventional management. Initial consultations start from AED 350.",
-  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
 };
 
 export const thyroidHonestOpening = {

@@ -32,7 +32,7 @@ export const weightLossIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic weight loss treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for weight loss in Dubai is a 4 to 6-month structured medical programme combining classical Panchakarma protocols (typically Virechana cleansing and selective Udvartana herbal powder massage), dosha-specific herbal medicines for metabolic correction, individualised dietary regulation, and lifestyle modification addressing sleep, stress, and movement patterns. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes are calibrated to your specific Kapha-Vata-Pitta metabolic pattern rather than generic protocols, and address root causes including insulin resistance, hormonal patterns, emotional eating, and lifestyle factors. Realistic outcomes: 6 to 15 kilograms over 6 months with sustained maintenance. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Sharma Patel, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const weightLossMechanism1 = {

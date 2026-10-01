@@ -1,4 +1,4 @@
-export const skinHero = {
+﻿export const skinHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Conditions", href: "/conditions/" },
@@ -30,7 +30,7 @@ export const skinIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic skin treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for skin conditions in Dubai is a 4 to 9-month structured medical programme combining classical Panchakarma protocols (typically Virechana for Pitta-driven skin patterns, sometimes Rakta Mokshana for severe inflammatory skin conditions), specific internal medicines (Manjishtadi Kashayam, Mahatiktaka Ghrita, Patolakaturohinyadi Kashayam, Khadirarishta, condition-specific formulations), individualised dietary regulation, and external treatments (medicated oils, Mukha Lepa facial protocols where appropriate). At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are calibrated to your specific skin condition (eczema, psoriasis, chronic acne, rosacea, melasma, urticaria) and dosha pattern, working alongside dermatology including our own DHA-licensed dermatology department. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const skinMechanism = {

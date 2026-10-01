@@ -30,7 +30,7 @@ export const panchakarmaDubaiIntro = {
   label: "THE QUICK ANSWER",
   title: "Panchakarma in Dubai, in one paragraph.",
   blockquote: "Panchakarma is the classical five-action Ayurvedic detoxification programme, supervised by a BAMS-qualified physician over 7, 14, or 21 days. It includes preparation (oleation and sudation), main therapies (Virechana, Basti, Nasya — and Vamana or Raktamokshana when indicated), and a structured recovery phase. At Vedara Care Polyclinic in <a href=\"/ayurveda-clinic-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Jumeirah Village Circle</a>, Dubai, authentic Panchakarma programmes start from AED 8,500 and address <a href=\"/conditions/back-pain-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">chronic back pain</a>, <a href=\"/conditions/pcos-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">PCOS</a>, <a href=\"/conditions/migraine-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">migraine</a>, stress, weight management, and full constitutional reset.",
-  footer: "Medically reviewed by Dr. Priya Nair, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
 };
 
 export const panchakarmaDubaiFoundation = {

@@ -29,7 +29,7 @@ export const pcosIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic treatment for PCOS in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for PCOS in Dubai is a 3 to 6-month structured programme combining classical <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> cleansing protocols (<a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Virechana</a> and selective Basti), constitution-specific herbal medicines (typically including Shatavari, Ashoka, Guduchi, and Kanchanara Guggulu), individualized dietary regulation based on dosha analysis, lifestyle and stress management protocols, and where indicated, integration with your gynaecologist. At Vedara Care Polyclinic in Jumeirah Village Circle, our female BAMS-qualified Ayurvedic physicians design protocols for irregular cycles, insulin resistance, weight management, hirsutism, hair loss, acne, and fertility support. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. [Lead Female Ayurvedic Physician], BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
 };
 
 
