@@ -58,7 +58,7 @@ const LaserSkinTightening = () => {
               "lastReviewed": "2026-08-21",
               "reviewedBy": {
                 "@type": "Person",
-                "name": "[VERIFIED DERMATOLOGIST NAME]",
+                "name": "Dr. Sanjida Islam Suchana",
                 "jobTitle": "Dermatologist",
                 "url": "[VERIFIED DERMATOLOGIST PROFILE URL]"
               },
@@ -183,7 +183,7 @@ const LaserSkinTightening = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "[VERIFIED DERMATOLOGIST NAME]",
+              "name": "Dr. Sanjida Islam Suchana",
               "jobTitle": "Dermatologist",
               "worksFor": {
                 "@type": "MedicalOrganization",
@@ -239,9 +239,10 @@ const LaserSkinTightening = () => {
         secondaryCTA={skinTighteningHero.secondaryCTA}
         secondaryCTAHref={skinTighteningHero.secondaryCTAHref}
         trustSignals={skinTighteningHero.trustSignals}
-       floatingCard={{
+        floatingCard={{
           title: "Start With a Skin Tightening Assessment",
-          subtitle: "Every person's skin responds differently to treatment. A professional dermatological assessment helps evaluate skin laxity, texture, treatment goals, and suitability before deciding whether laser skin tightening is appropriate and which treatment approach may be most suitable."  }}
+          subtitle: "Every person's skin responds differently to treatment. A professional dermatological assessment helps evaluate skin laxity, texture, treatment goals, and suitability before deciding whether laser skin tightening is appropriate and which treatment approach may be most suitable."
+        }}
       />
 
       {/* QUICK ANSWER */}
@@ -314,82 +315,82 @@ const LaserSkinTightening = () => {
       </div>
 
       {/* HOW IT WORKS + LASER TECHNOLOGY */}
-    <div className="bg-white py-16 md:py-20 px-6">
+      <div className="bg-white py-16 md:py-20 px-6">
 
-  {/* How It Works - Content Left / Image Right */}
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-14 items-center mb-20 md:mb-28">
+        {/* How It Works - Content Left / Image Right */}
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-14 items-center mb-20 md:mb-28">
 
-    {/* Content */}
-    <div>
-      <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-        {skinTighteningHowItWorks.label}
-      </p>
+          {/* Content */}
+          <div>
+            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
+              {skinTighteningHowItWorks.label}
+            </p>
 
-      <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
-        {skinTighteningHowItWorks.title}
-      </h2>
+            <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
+              {skinTighteningHowItWorks.title}
+            </h2>
 
-      {skinTighteningHowItWorks.paragraphs.map((p, i) => (
-        <p
-          key={i}
-          className="text-base text-[rgb(107,107,107)] leading-relaxed mb-6"
-        >
-          {p}
-        </p>
-      ))}
-    </div>
+            {skinTighteningHowItWorks.paragraphs.map((p, i) => (
+              <p
+                key={i}
+                className="text-base text-[rgb(107,107,107)] leading-relaxed mb-6"
+              >
+                {p}
+              </p>
+            ))}
+          </div>
 
-    {/* Image Right */}
-    <div className="w-full">
-      <div className="overflow-hidden rounded-2xl">
-        <img
-          src="/images/skin-tightening-how-it-works.jpg.webp"
-          alt="How skin tightening treatment works"
-          className="w-full h-[350px] md:h-[450px] object-cover object-center"
-        />
+          {/* Image Right */}
+          <div className="w-full">
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src="/images/skin-tightening-how-it-works.jpg.webp"
+                alt="How skin tightening treatment works"
+                className="w-full h-[350px] md:h-[450px] object-cover object-center"
+              />
+            </div>
+          </div>
+
+        </div>
+
+
+        {/* Technology - Image Left / Content Right */}
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+
+          {/* Image Left */}
+          <div className="w-full md:order-1">
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src="/images/skin-tightening-technology.webp"
+                alt="Skin tightening treatment technology"
+                className="w-full h-[350px] md:h-[450px] object-cover object-center"
+              />
+            </div>
+          </div>
+
+          {/* Content Right */}
+          <div className="md:order-2">
+            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
+              {skinTighteningHowItWorks.technology.label}
+            </p>
+
+            <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
+              {skinTighteningHowItWorks.technology.title}
+            </h2>
+
+            {skinTighteningHowItWorks.technology.paragraphs.map((p, i) => (
+              <p
+                key={i}
+                className="text-base text-[rgb(107,107,107)] leading-relaxed mb-6"
+              >
+                {p}
+              </p>
+            ))}
+          </div>
+
+        </div>
+
       </div>
-    </div>
-
-  </div>
-
-
-  {/* Technology - Image Left / Content Right */}
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-14 items-center">
-
-    {/* Image Left */}
-    <div className="w-full md:order-1">
-      <div className="overflow-hidden rounded-2xl">
-        <img
-          src="/images/skin-tightening-technology.webp"
-          alt="Skin tightening treatment technology"
-          className="w-full h-[350px] md:h-[450px] object-cover object-center"
-        />
-      </div>
-    </div>
-
-    {/* Content Right */}
-    <div className="md:order-2">
-      <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-        {skinTighteningHowItWorks.technology.label}
-      </p>
-
-      <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
-        {skinTighteningHowItWorks.technology.title}
-      </h2>
-
-      {skinTighteningHowItWorks.technology.paragraphs.map((p, i) => (
-        <p
-          key={i}
-          className="text-base text-[rgb(107,107,107)] leading-relaxed mb-6"
-        >
-          {p}
-        </p>
-      ))}
-    </div>
-
-  </div>
-
-</div>
 
       {/* TREATMENT PROCESS */}
       <ContentWithSidebar
@@ -482,41 +483,41 @@ const LaserSkinTightening = () => {
 
       {/* SAFETY & SIDE EFFECTS */}
       <div className="bg-white py-16 md:py-20 px-6">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-14 items-center">
 
-    {/* Content */}
-    <div>
-      <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-        {skinTighteningSafetyEffects.label}
-      </p>
+          {/* Content */}
+          <div>
+            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
+              {skinTighteningSafetyEffects.label}
+            </p>
 
-      <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
-        {skinTighteningSafetyEffects.title}
-      </h2>
+            <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
+              {skinTighteningSafetyEffects.title}
+            </h2>
 
-      {skinTighteningSafetyEffects.paragraphs.map((p, i) => (
-        <p
-          key={i}
-          className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4"
-        >
-          {p}
-        </p>
-      ))}
-    </div>
+            {skinTighteningSafetyEffects.paragraphs.map((p, i) => (
+              <p
+                key={i}
+                className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4"
+              >
+                {p}
+              </p>
+            ))}
+          </div>
 
-    {/* Image */}
-    <div className="w-full">
-      <div className="overflow-hidden rounded-2xl">
-        <img
-          src="/images/skin-tightening.webp"
-          alt="Skin tightening treatment"
-          className="w-full h-[450px] md:h-[550px] object-cover object-center"
-        />
+          {/* Image */}
+          <div className="w-full">
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src="/images/skin-tightening.webp"
+                alt="Skin tightening treatment"
+                className="w-full h-[450px] md:h-[550px] object-cover object-center"
+              />
+            </div>
+          </div>
+
+        </div>
       </div>
-    </div>
-
-  </div>
-</div>
 
       {/* SKIN TYPE & PIGMENTATION + COMBINATION TREATMENTS — side by side */}
       <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
@@ -600,9 +601,9 @@ const LaserSkinTightening = () => {
         tableData={skinTighteningPricing.table}
         tableNote={skinTighteningPricing.note}
       />
-      
+
       {/* FAQ */}
-      <FAQ {...skinTighteningFAQ} />
+      {/* <FAQ {...skinTighteningFAQ} /> */}
 
       {/* LOCATION */}
       <TreatmentLocation

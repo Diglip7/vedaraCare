@@ -1,12 +1,13 @@
 import React from 'react';
+import Image from 'next/image';
 
 const About = ({
   label = "About Vedara Care",
   title = "A polyclinic built around one belief  -  that healing should treat the whole person.",
-  description = "Vedara Care Polyclinic is a DHA-licensed holistic healthcare clinic in Jumeirah Village Circle, Dubai. We integrate classical Ayurveda, modern physiotherapy, medical dermatology, home healthcare and wellness programs under one roof. Our BAMS-qualified Ayurvedic physicians and DPT physiotherapists work alongside board-certified dermatologists to serve JVC residents and patients across Dubai.",
-  image = "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2070&auto=format&fit=crop",
+  description = "Vedara Care Polyclinic is a DHA-licensed holistic healthcare clinic in Jumeirah Village Circle, Dubai. We integrate classical Ayurveda, modern physiotherapy, medical dermatology, home healthcare and wellness programs under one roof. Our BAMS-qualified Ayurvedic physicians and DHA-licensed physiotherapists work alongside board-certified dermatologists to serve JVC residents and patients across Dubai.",
+  image = "/images/about.webp",
   stats = [
-    { value: "5,000+", label: "Patients Treated" },
+    { value: "DHA", label: "Licensed Clinic" },
     { value: "15+", label: "DHA-Licensed Practitioners" },
     { value: "20+", label: "Treatment Protocols" }
   ]
@@ -18,7 +19,7 @@ const About = ({
           {/* Text Content */}
           <div className="space-y-6">
             <div className="space-y-4">
-              <span className="text-[13px] font-sans tracking-[0.1em] text-[#C9A961] uppercase block">
+              <span className="text-[13px] font-sans tracking-[0.1em] text-[#C9A961] uppercase font-bold block">
                 {label}
               </span>
               <h2 className="text-[42px] font-serif font-medium leading-[1.2] text-[#FAF8EF] max-w-3xl">
@@ -34,7 +35,7 @@ const About = ({
             <div className="grid grid-cols-3 gap-8 py-8 border-t border-white/10 max-w-[580px]">
               {stats.map((stat, index) => (
                 <div key={index} className="space-y-2">
-                  <div className="text-[32px] font-serif font-semibold text-[#C9A961]">{stat.value}</div>
+                  <div className="text-[32px] font-serif font-semibold text-white">{stat.value}</div>
                   <p className="text-[14px] opacity-80 font-sans leading-tight">{stat.label}</p>
                 </div>
               ))}
@@ -43,12 +44,12 @@ const About = ({
 
           {/* Image Content */}
           <div className="relative aspect-[4/5] bg-[#1F4538] rounded-2xl overflow-hidden shadow-2xl">
-            <img 
+            <Image 
               src={image} 
               alt={title} 
               className="w-full h-full object-cover opacity-90"
-              width="800"
-              height="1000"
+              width={800}
+              height={1000}
               loading="lazy"
             />
            

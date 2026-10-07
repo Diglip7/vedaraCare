@@ -27,7 +27,7 @@ export const chemicalPeelIntro = {
   label: "THE QUICK ANSWER",
   title: "Chemical peel treatment at Vedara Care, in one paragraph.",
   blockquote: "Chemical peel treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist dermatology-led skin renewal delivered by DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types (I–VI). Chemical peels use controlled application of specific acid formulations to renew skin — the depth of penetration and specific formulation are matched to your skin type, concerns, and treatment goals. We deliver the full range: superficial peels including glycolic acid (skin renewal, brightening), mandelic acid (safer for darker skin, gentle exfoliation), lactic acid (hydrating renewal), salicylic acid (particularly for acne and oily skin) — all safe across skin types; medium-depth peels including TCA-based formulations and Jessner's peel with careful patient selection primarily for lighter skin types (Fitzpatrick I–III). Common indications: pigmentation and uneven tone, acne and post-inflammatory hyperpigmentation, texture concerns and pore refinement, photoaging and fine lines, dullness and radiance loss, pre-event skin preparation. Skin-type-specific safety is our foundational principle — Fitzpatrick IV–VI patients receive conservative approach with superficial peels rather than aggressive medium-depth peels which risk hyperpigmentation. Multiple sessions typically required (usually 4–6 for a series), often in combination with skincare foundation and other treatments. Individual session cost typically AED [X]–[X] depending on peel type; treatment packages provide better value. Patients travel to our JVC clinic from across Dubai for specialist chemical peel care.",
-  footer: "Medically reviewed by [Lead Consultant Dermatologist Name], MD, DHA-Licensed 2509266 · Last updated July 2025"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 ·  Last updated July 2025"
 };
 
 export const chemicalPeelHowItWorks = {
@@ -346,12 +346,8 @@ export const chemicalPeelPatientVoices = {
   ],
   stats: [
     {
-      value: "4.5",
+      value: "4.6",
       description: "stars on Google"
-    },
-    {
-      value: "800+",
-      description: "chemical peel patients treated"
     },
     {
       value: "Fitzpatrick I–VI",
@@ -491,7 +487,7 @@ export const chemicalPeelCTA = {
   button2BorderColor: "rgb(201, 165, 90)",
   button2TextColor: "rgb(201, 165, 90)",
   bullets: [
-    "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 800+ chemical peel patients treated · Fitzpatrick I–VI expertise · Full peel formulation range · Female and male dermatologists · Multiple languages"
+    "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · Fitzpatrick I–VI expertise · Full peel formulation range · Female and male dermatologists · Multiple languages"
   ]
 };
 

@@ -112,7 +112,6 @@ const DermatologyClinicJVC = () => {
         { "@type": "MedicalProcedure", "name": "Botulinum Toxin Injection" },
         { "@type": "MedicalProcedure", "name": "Dermal Filler Injection" },
         { "@type": "MedicalProcedure", "name": "Chemical Peel" },
-        { "@type": "MedicalProcedure", "name": "Laser Hair Removal" },
         { "@type": "MedicalProcedure", "name": "Pigmentation Laser Treatment" },
         { "@type": "MedicalProcedure", "name": "Skin Resurfacing Laser" },
         { "@type": "MedicalProcedure", "name": "PRP Hair Restoration" },
@@ -124,7 +123,7 @@ const DermatologyClinicJVC = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
+        "ratingValue": "4.6",
         "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
@@ -232,13 +231,6 @@ const DermatologyClinicJVC = () => {
             "priceCurrency": "AED",
             "price": "2500",
             "description": "Per syringe, premium hyaluronic acid products"
-          },
-          {
-            "@type": "Offer",
-            "name": "Laser Hair Removal",
-            "priceCurrency": "AED",
-            "price": "350",
-            "description": "Per session, area-specific pricing, multiple sessions package available"
           }
         ]
       }
@@ -324,13 +316,13 @@ const DermatologyClinicJVC = () => {
   return (
     <>
       <Head>
-        <title>Dermatologist in JVC | Medical & Aesthetic | Vedara Clinic Dubai</title>
-        <meta name="description" content="Specialist dermatology clinic in JVC, Dubai. Consultant dermatologists, DHA-licensed. Medical dermatology (acne, melasma, eczema, skin cancer) and aesthetic (botulinum toxin, fillers, lasers). All skin types. Multiple languages. Walking distance from Circle Mall." />
+        <title>Dermatology & Skin Clinic in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="GP-led skin care for acne, eczema, psoriasis, pigmentation and hair loss at Vedara Care Polyclinic, Binghatti Azure, JVC." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
-        <meta property="og:title" content="Dermatologist in JVC — Medical & Aesthetic Dermatology | Vedara Clinic Dubai" />
-        <meta property="og:description" content="Specialist dermatology clinic at Jumeirah Village Circle, Dubai. Consultant dermatologists with international training delivering medical dermatology (acne, melasma, eczema, psoriasis, skin cancer screening) and aesthetic dermatology (botulinum toxin, dermal fillers, lasers, chemical peels, hair restoration). Expertise across all Fitzpatrick skin types. Multiple languages including Arabic, English, Hindi, Urdu." />
+        <meta property="og:title" content="Dermatology & Skin Clinic in JVC, Dubai | Vedara Care" />
+        <meta property="og:description" content="GP-led skin care for acne, eczema, psoriasis, pigmentation and hair loss at Vedara Care Polyclinic, Binghatti Azure, JVC." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/dermatology-clinic-jvc-hero.webp" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />

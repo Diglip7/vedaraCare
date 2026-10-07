@@ -120,7 +120,7 @@ export const pelvicFloorReviews = {
   isDarkText: true,
   items: [],
   stats: [
-    { value: "4.5", label: "Stars on Google" },
+    { value: "4.6", label: "Stars on Google" },
     { value: "15", label: "Reviews on Google" }
   ],
   buttonText: "Read All Pelvic Floor Reviews",
@@ -234,7 +234,7 @@ export const pelvicFloorLocation = {
   bgColor: "bg-white",
   label: "Visit Us",
   title: "Where pelvic floor physiotherapy happens at Vedara Care JVC.",
-  description: "Our JVC clinic has dedicated private pelvic floor treatment rooms and accessibility features. The pelvic floor service is delivered exclusively by female DPT-qualified physiotherapists. Easy access from JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif.",
+  description: "Our JVC clinic has dedicated private pelvic floor treatment rooms and accessibility features. Pelvic floor physiotherapy at Vedara is delivered by Hafsina K K, DHA-licensed physiotherapist (DHA-P 64812828). Easy access from JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   locationLink: "https://maps.google.com/vedaracarejvc",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
@@ -253,7 +253,7 @@ export const pelvicFloorLocation = {
 export const pelvicFloorCTA = {
   label: "Ready to Address Your Pelvic Floor Concerns?",
   title: "Female specialists. Discreet care. Excellent outcomes.",
-  description: "Whether you have struggled with pelvic floor symptoms for weeks, months, or years — appropriate specialist care substantially improves outcomes. The first useful step is a comprehensive pelvic floor assessment at our JVC clinic, delivered by a female DPT-qualified physiotherapist. Cultural and modesty preferences respected throughout. Internal assessment is never required. Same-week appointments typically available.",
+  description: "Whether you have struggled with pelvic floor symptoms for weeks, months, or years — appropriate specialist care substantially improves outcomes. The first useful step is a comprehensive pelvic floor assessment at our JVC clinic, delivered by Hafsina K K. Cultural and modesty preferences respected throughout. Internal assessment is never required. Same-week appointments typically available.",
   button1Text: "Book Female Specialist Assessment",
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",

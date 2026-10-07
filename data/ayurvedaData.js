@@ -32,7 +32,7 @@ export const ayurvedaIntro = {
   label: "About Our Ayurveda Practice",
   title: "Ayurveda is the world's oldest continuously practised system of medicine. At our JVC clinic, it is also our most rigorous.",
   blockquote: "Our Ayurveda department at Vedara Care Polyclinic in Jumeirah Village Circle, Dubai is led by BAMS-qualified Ayurvedic physicians registered with the Dubai Health Authority. We practise classical Ayurveda - pulse-based diagnosis, dosha analysis, herbal medicines, and Panchakarma - alongside modern diagnostics. Our patients come to us for chronic back pain, PCOS, hair loss, migraine, stress, and metabolic conditions where conventional care has not given lasting answers.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda) · DHA License 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2026"
 };
 
 
@@ -209,7 +209,7 @@ export const ayurvedaJournal = {
       category: "AYURVEDA",
       title: "What Panchakarma actually does, and what it does not",
       description: "Understanding the ancient detox protocol and separating fact from marketing claims.",
-      author: "Dr. Priya Menon",
+      author: "Dr. Zainab Sheikh",
       readTime: "6 min read",
       image: "panchakarma-article",
       link: "/blog/what-is-panchakarma/"
@@ -218,7 +218,7 @@ export const ayurvedaJournal = {
       category: "WOMENS HEALTH",
       title: "PCOS in Dubai: why expat women are turning to Ayurveda",
       description: "How traditional medicine addresses hormonal imbalance when Western approaches stall.",
-      author: "Dr. Priya Menon",
+      author: "Dr. Zainab Sheikh",
       readTime: "8 min read",
       image: "pcos-article",
       link: "/blog/pcos-ayurveda-dubai-expat-women/"
@@ -227,7 +227,7 @@ export const ayurvedaJournal = {
       category: "CHRONIC PAIN",
       title: "Ayurveda for chronic back pain: what to expect realistically",
       description: "Setting realistic expectations for recovery timelines across common conditions.",
-      author: "Dr. Priya Menon",
+      author: "Dr. Zainab Sheikh",
       readTime: "7 min read",
       image: "physio-article",
       link: "/blog/ayurveda-chronic-back-pain-expectations/"
@@ -249,42 +249,42 @@ export const ayurvedaConditions = {
       category: "Pain and Movement",
       description: "Kativasti + internal medicines + lifestyle correction",
       programme: "Typical programme: 14-21 days",
-      link: "/conditions/back-pain-ayurveda-dubai"
+      href: "/conditions/back-pain-ayurveda-dubai"
     },
     {
       title: "Sciatica",
       category: "Pain and Movement",
       description: "Kativasti + Basti + classical herbs",
       programme: "Typical programme: 21-28 days",
-      link: "/conditions/sciatica-physiotherapy-dubai"
+      href: "/conditions/sciatica-physiotherapy-dubai"
     },
     {
       title: "Frozen Shoulder",
       category: "Pain and Movement",
       description: "Abhyanga + Patra Pinda Sweda + internal medicines",
       programme: "Typical programme: 14-21 days",
-      link: "/conditions/frozen-shoulder-dubai"
+      href: "/conditions/frozen-shoulder-dubai"
     },
     {
       title: "Knee Pain (Osteoarthritis)",
       category: "Pain and Movement",
       description: "Janu Vasti + herbal medicines",
       programme: "Typical programme: 14-21 days",
-      link: "/conditions/knee-pain-physiotherapy-dubai"
+      href: "/conditions/knee-pain-physiotherapy-dubai"
     },
     {
       title: "Cervical Spondylosis",
       category: "Pain and Movement",
       description: "Greeva Vasti + Nasya + internal medicines",
       programme: "Typical programme: 14-21 days",
-      link: "/conditions/cervical-spondylosis-treatment-jvc/"
+      href: "/conditions/cervical-spondylosis-treatment-jvc/"
     },
     {
       title: "Arthritis (Amavata)",
       category: "Pain and Movement",
       description: "Panchakarma + classical formulations",
       programme: "Typical programme: 21-28 days",
-      link: "/conditions/arthritis-ayurveda-dubai"
+      href: "/conditions/arthritis-ayurveda-dubai"
     },
     // Women's Health
     {
@@ -292,42 +292,42 @@ export const ayurvedaConditions = {
       category: "Womens Health and Hormonal",
       description: "Virechana + Basti + herbal medicines + diet",
       programme: "Typical programme: 3-6 months",
-      link: "/conditions/pcos-ayurveda-dubai"
+      href: "/conditions/pcos-ayurveda-dubai"
     },
     {
       title: "Irregular Cycles",
       category: "Womens Health and Hormonal",
       description: "Doshic correction + herbs",
       programme: "Typical programme: 3-4 months",
-      link: "/conditions/irregular-cycles-ayurveda-dubai/"
+      href: "/conditions/irregular-cycles-ayurveda-dubai/"
     },
     {
       title: "Postnatal Recovery",
       category: "Womens Health and Hormonal",
       description: "Sutika Paricharya (classical postpartum care)",
       programme: "Typical programme: 45 days",
-      link: "/conditions/postnatal-ayurveda-dubai"
+      href: "/conditions/postnatal-ayurveda-dubai"
     },
     {
       title: "Thyroid (Hypothyroid)",
       category: "Womens Health and Hormonal",
       description: "Internal medicines + Nasya + diet",
       programme: "Typical programme: 3-6 months",
-      link: "/conditions/thyroid-ayurveda-dubai"
+      href: "/conditions/thyroid-ayurveda-dubai"
     },
     {
       title: "Menopausal Symptoms",
       category: "Womens Health and Hormonal",
       description: "Herbal support + Shirodhara",
       programme: "Typical programme: 2-3 months",
-      link: "/conditions/menopausal-symptoms-ayurveda-dubai/"
+      href: "/conditions/menopausal-symptoms-ayurveda-dubai/"
     },
     {
       title: "Endometriosis Support",
       category: "Womens Health and Hormonal",
       description: "Detox + uterine tonics + diet",
       programme: "Typical programme: 3-6 months",
-      link: "/conditions/endometriosis-ayurveda-dubai/"
+      href: "/conditions/endometriosis-ayurveda-dubai/"
     },
     // Metabolic and Lifestyle
     {
@@ -335,49 +335,49 @@ export const ayurvedaConditions = {
       category: "Metabolic and Lifestyle",
       description: "Shirodhara + Medhya herbs",
       programme: "Typical programme: 4-8 weeks",
-      link: "/conditions/stress-anxiety-ayurveda-dubai"
+      href: "/conditions/stress-anxiety-ayurveda-dubai"
     },
     {
       title: "Insomnia",
       category: "Metabolic and Lifestyle",
       description: "Shirodhara + lifestyle correction",
       programme: "Typical programme: 4-6 weeks",
-      link: "/conditions/insomnia-ayurveda-dubai/"
+      href: "/conditions/insomnia-ayurveda-dubai/"
     },
     {
       title: "Migraine",
       category: "Metabolic and Lifestyle",
       description: "Nasya + Shirodhara + internal medicines",
       programme: "Typical programme: 2-3 months",
-      link: "/conditions/migraine-ayurveda-dubai"
+      href: "/conditions/migraine-ayurveda-dubai"
     },
     {
       title: "Hair Loss",
       category: "Metabolic and Lifestyle",
       description: "Nasya + medicated oils + internal support",
       programme: "Typical programme: 3-6 months",
-      link: "/conditions/hair-loss-ayurveda-dubai"
+      href: "/conditions/hair-loss-ayurveda-dubai"
     },
     {
       title: "Psoriasis",
       category: "Metabolic and Lifestyle",
       description: "Virechana + internal medicines + skin care",
       programme: "Typical programme: 3-6 months",
-      link: "/conditions/psoriasis-treatment-dubai"
+      href: "/conditions/psoriasis-treatment-dubai"
     },
     {
       title: "Diabetes Support",
       category: "Metabolic and Lifestyle",
       description: "Panchakarma + Madhumeha herbs (alongside endocrinologist)",
       programme: "Typical programme: 3-6 months",
-      link: "/conditions/diabetes-ayurveda-dubai"
+      href: "/conditions/diabetes-ayurveda-dubai"
     },
     {
       title: "Weight Management",
       category: "Metabolic and Lifestyle",
       description: "Udvartana + Virechana + lifestyle programme",
       programme: "Typical programme: 2-4 months",
-      link: "/conditions/weight-loss-ayurveda-dubai"
+      href: "/conditions/weight-loss-ayurveda-dubai"
     }
   ],
   footer: "Browse all conditions"
@@ -419,29 +419,9 @@ export const ayurvedaReviews = {
   description: "Verified Google reviews from patients treated at our JVC Ayurveda clinic. Conditions, programmes, and outcomes, in their own words.",
   buttonText: "Read All Ayurveda Reviews",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
-  items: [
-    {
-      quote: "After three years of back pain, finally a long-term answer.",
-      content: "I had seen four different specialists before coming to Vedara Care. The Ayurvedic physician spent almost an hour with me on the first visit, longer than any consultation I had ever had in Dubai. The 21-day Panchakarma programme was challenging but the results have held for eight months.",
-      author: "Sarah K.",
-      details: "Chronic Back Pain · 21-Day Panchakarma",
-      alt: "Verified patient outcome — Ayurvedic back pain treatment at Vedara Care JVC"
-    },
-    {
-      quote: "My cycle came back in the second month. I had stopped believing it would.",
-      content: "I was diagnosed with PCOS three years ago and conventional medicine had not given me lasting results. The doctor here was thorough, unhurried, and honest about what Ayurveda can and cannot do. Six months in, my cycles are regular for the first time in years.",
-      author: "Aisha M.",
-      details: "PCOS · 6-Month Ayurveda Programme"
-    },
-    {
-      quote: "I came skeptical. I left convinced this is medicine.",
-      content: "I am a physiotherapist by training so I had reservations. The diagnostic rigour here is genuine: pulse diagnosis, full constitutional assessment, modern blood work where relevant. The Shirodhara alone changed my sleep quality within two weeks.",
-      author: "Rohan D.",
-      details: "Stress and Insomnia · 8-Week Programme"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "62", label: "Ayurveda-specific reviews" },
     { value: "97%", label: "would recommend her" }
   ]
@@ -485,11 +465,9 @@ export const ayurvedaCTA = {
   label: "READY TO START?",
   title: "Begin with a consultation. Decide everything else from there.",
   description: "An Ayurvedic consultation is not a commitment to a treatment plan — it is a diagnostic conversation. You will leave knowing what is actually going on and what we recommend. Whether you choose to proceed is entirely up to you.",
-  button1Text: "Book an Ayurveda Consultation",
-  button1Href: "/book",
-  button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.",
-  subtext: "First consultation from AED [price] · Typical WhatsApp reply under 15 minutes"
+  primaryCta: { label: "Book an Ayurveda Consultation", href: "/book" },
+  secondaryCta: { label: "Chat on WhatsApp", href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20a%20question%20about%20Ayurvedic%20treatment.", track: "whatsapp_click" },
+  subtext: "Prices are shared on WhatsApp"
 };
 
 export const dubaiHubHero = {
@@ -509,12 +487,12 @@ export const dubaiHubHero = {
   trustSignals: [
     "DHA-Licensed Ayurveda Practice",
     "BAMS-Qualified Physicians",
-    "5,000+ Patients Across Dubai",
+    "DHA-Licensed Polyclinic",
     "Authentic Classical Treatments"
   ],
   floatingCard: {
-    title: "Serving Dubai since 2016",
-    subtitle: "5,000+ Patients Treated"
+    title: "Vedara Care Polyclinic",
+    subtitle: "DHA-Licensed Practice"
   },
   image: "/images/ayurveda-dubai-hero.webp",
   alt: "Ayurvedic doctor at a DHA-licensed Ayurveda clinic in Dubai"
@@ -525,7 +503,7 @@ export const dubaiHubIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurveda in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment is officially recognised and regulated in Dubai by the Dubai Health Authority (DHA), which licenses both Ayurvedic clinics and individual physicians. Authentic Ayurveda in Dubai is practised by BAMS-qualified doctors (a 5.5-year medical degree from India) and uses classical methods — pulse diagnosis, dosha assessment, Panchakarma detoxification, and constitution-based herbal medicines — to treat chronic conditions like back pain, PCOS, migraine, stress, and hair loss. Costs typically range from AED 200 to AED 800 per session, with some insurance plans offering partial coverage.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026"
 };
 
 export const dubaiHubTherapies = {
@@ -619,31 +597,9 @@ export const dubaiHubReviews = {
   description: "Individual experiences vary, and testimonials are not a guarantee of treatment outcomes.",
   buttonText: "Read All Reviews",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
-  items: [
-    {
-      quote: "After three years of back pain, finally a long-term answer.",
-      content: "Sarah K. · Chronic Back Pain · 21-Day Panchakarma · Dubai Marina · March 2026",
-      author: "Sarah K.",
-      details: "Verified Google Review",
-      alt: "Verified patient outcome — Ayurvedic treatment in Dubai"
-    },
-    {
-      quote: "My cycle came back in the second month. I had stopped believing it would.",
-      content: "Aisha M. · PCOS · 6-Month Programme · Arabian Ranches · February 2026",
-      author: "Aisha M.",
-      details: "Verified Google Review",
-      alt: "Verified patient outcome — Ayurvedic treatment in Dubai"
-    },
-    {
-      quote: "The home Abhyanga sessions changed my postnatal recovery completely.",
-      content: "Priya R. · Postnatal Care · Home Healthcare · Palm Jumeirah · January 2026",
-      author: "Priya R.",
-      details: "Verified Google Review",
-      alt: "Verified patient outcome — Ayurvedic treatment in Dubai"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.5", label: "Stars on Google" },
+    { value: "4.6", label: "Stars on Google" },
     { value: "240+", label: "Verified Reviews" },
     { value: "97%", label: "Would Recommend" }
   ]
@@ -698,7 +654,7 @@ export const dubaiHubFaqs = {
       answer: "Panchakarma is the classical five-action Ayurvedic detoxification protocol, supervised by a doctor over 7, 14, or 21 days. It is much more rigorous than commercial detox packages — involving preparation phases, main therapies (Virechana, Basti, Nasya, Vamana, Raktamokshana, prescribed selectively), and structured recovery. Not everyone needs Panchakarma. Your doctor will tell you if it is appropriate for your case."
     },
     {
-      question: "Where is the best Ayurvedic clinic located in Dubai?",
+      question: "Where is an Ayurvedic clinic located in Dubai?",
       answer: "Dubai's main DHA-licensed Ayurvedic clinics are spread across the city — including JVC, Karama, Al Nahda, Jumeirah, Al Barsha, JLT, and Mirdif. Choose based on three factors: convenience (a clinic close to home means you actually attend follow-ups), doctor quality (BAMS qualifications, DHA license, real experience), and clinic accreditation (DHA Healthcare Facility License). Vedara Care is located in Jumeirah Village Circle (JVC), with home healthcare available across Dubai."
     },
     {
@@ -834,7 +790,7 @@ export const dubaiHubJournal = {
       category: "AYURVEDA",
       title: "What Panchakarma actually does, and what it does not",
       description: "",
-      author: "Dr. Priya Nair",
+      author: "Dr. Zainab Sheikh",
       readTime: "6 min read",
       image: "panchakarma-article",
       link: "/blog/what-is-panchakarma/"

@@ -146,7 +146,7 @@ export const NeckPainShouldYouSee = ({
                 Ready to book an assessment?
               </p>
               <p className="text-xs mb-5" style={{ color: '#A5C2B0', lineHeight: '1.7' }}>
-                60-minute initial assessment with a DPT-qualified physiotherapist. Same-week appointments typically available.
+                60-minute initial assessment with a DHA-licensed physiotherapist. Same-week appointments typically available.
               </p>
               <a href="/book" className="w-full py-3 text-sm font-semibold mb-2.5 transition-all hover:opacity-90 flex items-center justify-center" style={{ background: '#F5F1E8', color: '#1C3D2E' }}>
                 Book Neck Pain Assessment

@@ -90,7 +90,7 @@ const AntiAgingSkinFirmingJVC = () => {
               "itemListElement": [
                 { "@type": "ListItem", "position": 1, "item": { "@type": "MedicalProcedure", "name": "Customized Anti-Aging & Skin-Firming Protocol", "description": "Primary Entity: Non-invasive, aesthetician-delivered monthly maintenance programme at JVC Dubai." } },
                 { "@type": "ListItem", "position": 2, "item": { "@type": "Person", "name": "Arfah Owais", "description": "Practitioner Entity: DHA-Licensed Aesthetician, CIBTAC-UK, NCLC, PMU, Buccal & Kobido trained, 8+ years experience, female practitioner, speaks Arabic/English/Hindi/Urdu." } },
-                { "@type": "ListItem", "position": 3, "item": { "@type": "Person", "name": "Medical Director", "description": "Practitioner Entity: DHA-Licensed Consultant Dermatologist providing clinical oversight." } },
+                { "@type": "ListItem", "position": 3, "item": { "@type": "Person", "name": "Dr. Sanjida Islam Suchana", "description": "Practitioner Entity: DHA-Licensed Consultant Dermatologist providing clinical oversight." } },
                 { "@type": "ListItem", "position": 4, "item": { "@type": "MedicalBusiness", "name": "Vedara Care Polyclinic", "description": "Organization Entity: DHA-licensed polyclinic in JVC Dubai (vedaracare.ae)." } },
                 { "@type": "ListItem", "position": 5, "item": { "@type": "Place", "name": "Jumeirah Village Circle (JVC)", "description": "Location Entity: Primary neighborhood anchor." } },
                 { "@type": "ListItem", "position": 6, "item": { "@type": "City", "name": "Dubai", "description": "Location Entity: Broader emirate framing." } },

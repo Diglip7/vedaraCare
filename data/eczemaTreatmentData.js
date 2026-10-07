@@ -27,7 +27,7 @@ export const eczemaTreatmentIntro = {
   label: "THE QUICK ANSWER",
   title: "Eczema treatment at Vedara Care, in one paragraph.",
   blockquote: "Eczema treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist evidence-based dermatology care delivered by DHA-licensed consultant dermatologists with substantial pediatric and adult eczema expertise. We treat all eczema presentations: pediatric atopic dermatitis (infant through adolescent), adult atopic dermatitis (childhood-persistent and adult-onset), contact dermatitis, hand eczema, dyshidrotic eczema, nummular eczema, seborrheic dermatitis, and more. Our approach combines trigger identification, evidence-based topical treatments, systemic medications, biologic treatments (dupilumab), JAK inhibitors, wet wrap therapy, and comprehensive family education. Eczema is chronic — well-controlled eczema is achievable for most patients. Sustained partnership approach with regular follow-up. Insurance-covered treatment with direct billing. Patients travel to our JVC clinic from across Dubai.",
-  footer: "Medically reviewed by Dr. Sarah Al-Rashid, MD, DHA-Licensed 2509266 · Last updated June 2025"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, GP and skin · Last updated June 2025"
 };
 
 export const eczemaTreatmentUnderstanding = {
@@ -166,8 +166,7 @@ export const eczemaTreatmentReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "stars on Google" },
-    { value: "500+", label: "eczema patients treated" },
+    { value: "4.6", label: "stars on Google" },
     { value: "Pediatric and adult", label: "expertise" },
   ]
 };
@@ -179,44 +178,14 @@ export const eczemaTreatmentTeam = {
   description: "DHA-licensed specialists with substantial expertise across pediatric and adult eczema, all Fitzpatrick skin types, and modern treatment approaches including biologics. Female and male dermatologists available. Multiple languages including Arabic, English, Hindi, Urdu.",
   team: [
     {
-      name: "Dr. Sarah Al-Rashid, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["Pediatric Eczema", "Biologics", "Atopic Dermatitis"],
-      experience: "Subspecialty training in pediatric dermatology. 12 years eczema experience across pediatric and adult populations. Dupilumab prescriber.",
-      languages: ["Arabic, English"],
-      image: "/images/dr-sarah-al-rashid-dermatologist-dubai.jpg",
-      alt: "Dr. Sarah Al-Rashid, MD consultant dermatologist eczema specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-sarah-al-rashid"
-    },
-    {
-      name: "Dr. Priya Nair, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["Adult Eczema", "JAK inhibitors", "Skin of Colour"],
-      experience: "Fellowship in clinical dermatology with focus on adult eczema and darker skin types. Extensive experience across all Fitzpatrick types.",
-      languages: ["English, Hindi, Malayalam"],
-      image: "/images/dr-priya-nair-dermatologist-dubai.jpg",
-      alt: "Dr. Priya Nair, MD consultant dermatologist eczema specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-priya-nair"
-    },
-    {
-      name: "Dr. Omar Khalil, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["Hand Eczema", "Contact Dermatitis", "Patch Testing"],
-      experience: "Specialist expertise in occupational and contact dermatology. Established patch testing programme for contact dermatitis diagnosis.",
-      languages: ["Arabic, English, Urdu"],
-      image: "/images/dr-omar-khalil-dermatologist-dubai.jpg",
-      alt: "Dr. Omar Khalil, MD consultant dermatologist eczema specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-omar-khalil"
-    },
-    {
-      name: "Dr. Fatima Hassan, MD",
-      qualification: "DHA-LICENSED · CONSULTANT DERMATOLOGIST",
-      specialties: ["Pediatric Dermatology", "Wet Wrap Therapy", "Family Education"],
-      experience: "Dedicated pediatric dermatologist with subspecialty focus on childhood eczema. Runs family education programme and wet wrap therapy training.",
-      languages: ["Arabic, English, French"],
-      image: "/images/dr-fatima-hassan-dermatologist-dubai.jpg",
-      alt: "Dr. Fatima Hassan, MD consultant dermatologist eczema specialist Vedara Care JVC Dubai",
-      link: "/dermatologists/dr-fatima-hassan"
+      name: "Dr. Sanjida Islam Suchana",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
+      alt: "Dr. Sanjida Islam Suchana",
+      title: "GP and Skin",
+      qualification: "MBBS, MRCGP(International), Dip in Skin Ageing & Aesthetic Medicine",
+      languages: ["English, Bengali, Hindi"],
+      link: "/doctors/dr-sanjida-islam-suchana/",
+      specialties: ["General Medicine", "Aesthetic Medicine", "Dermatology"]
     }
   ]
 };
@@ -230,7 +199,7 @@ export const eczemaTreatmentCTA = {
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hi,%20I'm%20interested%20in%20eczema%20treatment%20and%20would%20like%20to%20book%20a%20consultation.",
-  footer: "Initial consultation from AED 650 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 500+ eczema patients treated · Pediatric and adult expertise · Access to biologic and newer treatments · Multiple languages · Insurance direct-billing"
+  footer: "Initial consultation from AED 650 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · Pediatric and adult expertise · Access to biologic and newer treatments · Multiple languages · Insurance direct-billing"
 };
 
 export const eczemaTreatmentOptions = {

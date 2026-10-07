@@ -13,7 +13,7 @@ export const acneTreatmentHero = {
   trustSignals: [
     "DHA-licensed consultant dermatologists",
     "All acne types, all skin types",
-    "400+ acne patients treated",
+    "Evidence-based approach",
     "Walking distance from Circle Mall"
   ],
   floatingCard: {
@@ -28,7 +28,7 @@ export const acneTreatmentIntro = {
   label: "THE QUICK ANSWER",
   title: "Acne treatment at Vedara Care, in one paragraph.",
   blockquote: "Acne treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist evidence-based dermatology treatment delivered by DHA-licensed consultant dermatologists. We treat all acne presentations including adolescent acne, adult-onset acne (particularly common in women), hormonal acne, cystic and nodular acne, comedonal acne (blackheads and whiteheads), inflammatory acne (papules and pustules), back and body acne, acne scarring, and post-inflammatory hyperpigmentation from acne. Our approach combines topical therapies (retinoids, benzoyl peroxide, azelaic acid, specialised formulations), oral medications when indicated (antibiotics for limited courses, hormonal treatment for acne in women, isotretinoin for severe cases with appropriate monitoring), in-clinic procedures (chemical peels, laser treatments, extractions where appropriate), and lifestyle and skincare guidance. Particular expertise across all Fitzpatrick skin types (I–VI) — especially important for managing post-inflammatory hyperpigmentation risk in darker skin types. Most patients see substantial improvement within 12–16 weeks of starting structured treatment; complete clearance often achievable. Realistic timelines, transparent pricing, and comprehensive treatment plans rather than quick fixes. Insurance covers medical acne treatment with appropriate justification. Patients travel to our JVC clinic from across Dubai for specialist acne care.",
-  footer: "Medically reviewed by Dr. Layla Al-Hassan, MD, DHA-Licensed 2509266 · Last updated June 2026"
+  // footer: "Medically reviewed by Dr. Layla Al-Hassan, MD, DHA-Licensed 2509266 · Last updated June 2026"
 };
 
 export const acneUnderstanding = {
@@ -395,8 +395,7 @@ export const acneTreatmentReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "stars on Google" },
-    { value: "400+", label: "acne patients treated" },
+    { value: "4.6", label: "stars on Google" },
     { value: "85%", label: "reported significant improvement" }
   ],
   buttonText: "Read All Acne Treatment Reviews →",
@@ -567,7 +566,7 @@ export const acneTreatmentCTA = {
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20acne%20treatment%20and%20book%20a%20consultation.",
-  footer: "Initial consultation from AED 400 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 400+ acne patients treated · All acne types and skin types · Female and male dermatologists · Insurance direct-billing"
+  footer: "Initial consultation from AED 400 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · All acne types and skin types · Female and male dermatologists · Insurance direct-billing"
 };
 
 export const acneTreatmentRelatedPages = {
@@ -588,9 +587,9 @@ export const acneTreatmentRelatedPages = {
       href: "/skin-clinic-jvc/"
     },
     {
-      title: "Best Dermatologist Evidence →",
+      title: "Dermatologist Care Evidence →",
       description: "Credibility evidence for patients evaluating dermatology providers in JVC and Dubai.",
-      href: "/best-dermatologist-jvc-dubai/"
+      href: "/dermatology-clinic-jvc/"
     },
     {
       title: "Melasma & Pigmentation Treatment→",

@@ -99,7 +99,7 @@ const WellnessClinicJVC = () => {
         { "@type": "MedicalProcedure", "name": "Integrated Wellness Assessment" }
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
     },
     // Schema 2 — Place with JVC Landmark Reference
     {
@@ -177,7 +177,7 @@ const WellnessClinicJVC = () => {
       "image": "https://vedaracare.ae/images/wellness-clinic-jvc-hero.jpg",
       "datePublished": isoDate,
       "dateModified": isoDate,
-      "author": { "@type": "Physician", "name": "Dr. Priya Nair", "url": "https://vedaracare.ae/about/" },
+      "author": { "@type": "Physician", "name": "Dr. Zainab Sheikh", "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda" },
       "publisher": { "@type": "Organization", "name": "Vedara Care Polyclinic", "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" } },
       "about": [
         { "@type": "MedicalSpecialty", "name": "Wellness" },
@@ -226,8 +226,8 @@ const WellnessClinicJVC = () => {
   return (
     <>
       <Head>
-        <title>Wellness Clinic in JVC | Integrated Ayurveda, Physio | Vedara Care</title>
-        <meta name="description" content="JVC's integrated wellness destination — walking distance from Circle Mall. DHA-licensed practitioners across Ayurveda, physiotherapy, dermatology, home healthcare. JVC family and corporate wellness. Multi-language." />
+        <title>Wellness Treatments & Ayurvedic Massage in JVC | Vedara Care</title>
+        <meta name="description" content="Facials, OxyGeneo, HydraFacial and Ayurvedic massage at Vedara Care Polyclinic, Binghatti Azure, JVC. Open daily 9am–10pm. WhatsApp to book." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
@@ -237,14 +237,14 @@ const WellnessClinicJVC = () => {
 
         {/* OG & Twitter Tags */}
         <meta property="og:title" content="Wellness Clinic in JVC — JVC's Integrated Wellness Destination | Vedara" />
-        <meta property="og:description" content="JVC's integrated wellness destination in Jumeirah Village Circle — walking distance from Circle Mall. DHA-licensed practitioners across Ayurveda, physiotherapy, dermatology, and home healthcare serving JVC families, professionals, and residents. Multi-disciplinary coordination. Family and corporate wellness programmes." />
+        <meta property="og:description" content="Facials, OxyGeneo, HydraFacial and Ayurvedic massage at Vedara Care Polyclinic, Binghatti Azure, JVC. Open daily 9am–10pm. WhatsApp to book." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/wellness-clinic-jvc.jpg" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Wellness Clinic in JVC — JVC's Wellness Destination | Vedara" />
-        <meta name="twitter:description" content="JVC's DHA-licensed integrated wellness clinic with Ayurveda, physiotherapy, dermatology, home healthcare." />
+        <meta name="twitter:description" content="Facials, OxyGeneo, HydraFacial and Ayurvedic massage at Vedara Care Polyclinic, Binghatti Azure, JVC. Open daily 9am–10pm. WhatsApp to book." />
         <meta name="twitter:image" content="https://vedaracare.ae/og-images/wellness-clinic-jvc.jpg" />
 
         {/* Structured JSON-LD schemas */}

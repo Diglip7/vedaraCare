@@ -56,7 +56,7 @@ const PcosAyurvedaDubai = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-05-01" />
         {currentDate && <meta property="article:modified_time" content={currentDate} />}
-        <meta property="article:author" content="Dr. Priya Menon" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -264,7 +264,7 @@ const PcosAyurvedaDubai = () => {
                 "lastReviewed": currentDate,
                 "reviewedBy": {
                   "@type": "Physician",
-                  "name": "Dr. Priya Menon",
+                  "name": "Dr. Zainab Sheikh",
                   "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
                 },
                 "primaryImageOfPage": "https://vedaracare.ae/images/pcos-ayurveda-dubai-hero.webp"
@@ -330,8 +330,8 @@ const PcosAyurvedaDubai = () => {
                 "dateModified": currentDate,
                 "author": {
                   "@type": "Physician",
-                  "name": "Dr. Priya Menon",
-                  "url": "https://vedaracare.ae/doctors/dr-priya-menon-ayurveda/"
+                  "name": "Dr. Zainab Sheikh",
+                  "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
                 },
                 "publisher": {
                   "@type": "Organization",
@@ -422,9 +422,7 @@ const PcosAyurvedaDubai = () => {
       {/* Section 9 - Boundaries */}
       <ConditionBoundaries {...pcosBoundaries} />
       
-      {/* Section 10 - Reviews */}
-      <TreatmentReviews {...pcosReviews} />
-      
+      {/* Section 10 - Reviews Removed */}
       {/* Section 11 - Programmes (Pricing) */}
       <TreatmentPrograms {...pcosPrograms} />
       

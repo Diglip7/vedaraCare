@@ -12,7 +12,7 @@ export const pcosHero = {
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20PCOS%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "Female Ayurvedic Physicians",
-    "400+ PCOS Patients Treated",
+    "Comprehensive Hormonal Care",
     "Works Alongside Your Gynaecologist",
     "From AED 450 per consultation"
   ],
@@ -29,7 +29,7 @@ export const pcosIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic treatment for PCOS in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for PCOS in Dubai is a 3 to 6-month structured programme combining classical <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> cleansing protocols (<a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Virechana</a> and selective Basti), constitution-specific herbal medicines (typically including Shatavari, Ashoka, Guduchi, and Kanchanara Guggulu), individualized dietary regulation based on dosha analysis, lifestyle and stress management protocols, and where indicated, integration with your gynaecologist. At Vedara Care Polyclinic in Jumeirah Village Circle, our female BAMS-qualified Ayurvedic physicians design protocols for irregular cycles, insulin resistance, weight management, hirsutism, hair loss, acne, and fertility support. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2026"
 };
 
 
@@ -236,7 +236,7 @@ export const pcosSymptoms = {
     },
     {
       title: "Hirsutism (Unwanted Hair Growth)",
-      content: "The slowest-responding PCOS symptom. Hair follicles affected by androgen exposure need 4-6 months to show pattern change. Realistic expectations: thicker hair growing in finer over months 4-6. Existing hair density does not reduce; new growth pattern shifts. Cosmetic hair removal often continues alongside.",
+      content: "The slowest-responding PCOS symptom. Hair follicles affected by androgen exposure need 4-6 months to show pattern change. Realistic expectations: thicker hair growing in finer over months 4-6. Existing hair density does not reduce; new growth pattern shifts.",
       expected: "Expected meaningful change: Months 4-6"
     },
     {
@@ -309,11 +309,6 @@ export const pcosReviews = {
   title: "Real PCOS outcomes from our JVC clinic.",
   items: [
     {
-      quote: "Twelve years on birth control to manage cycles. Six months of Ayurveda, and my cycles came back on their own.",
-      author: "Priya R.",
-      details: "Phenotype A (Classic PCOS) · 6-Month Programme · JVC District 12 · February 2026"
-    },
-    {
       quote: "I was told 'you don't really have <a href=\"/conditions/pcos-ayurveda-dubai/\" class=\"hover:underline\">PCOS</a>.' Vedara confirmed Phenotype D and treated the real condition. I lost 11 kilos in 6 months — not as a diet, as a side effect of the treatment working.",
       author: "Aisha M.",
       details: "Phenotype D (Mild PCOS) · 6-Month Programme · Al Barsha South · January 2026"
@@ -327,7 +322,7 @@ export const pcosReviews = {
   stats: [
     { value: "74%", label: "reported cycle improvement" },
     { value: "87", label: "PCOS reviews" },
-    { value: "4.5", label: "stars on Google" }
+    { value: "4.6", label: "stars on Google" }
   ],
   buttonText: "Read All PCOS Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"

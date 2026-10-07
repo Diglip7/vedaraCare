@@ -7,16 +7,16 @@ export const backPainEvidenceBlog = {
   readingTime: "9 min read",
   bgColor: "bg-[#FAF8F5]",
   author: {
-    name: "Dr. Priya Sharma",
+    name: "Dr. Zainab Sheikh",
     credentials: "BAMS, MD (Ayurveda), DHA Licensed · Lead Ayurvedic Physician, Vedara Care Polyclinic JVC",
-    bio: "Dr. Sharma is a DHA-licensed Ayurvedic physician with over 12 years of clinical experience, specializing in musculoskeletal conditions, Panchakarma, and integrated Ayurvedic care. She practices at the Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, where she leads the back pain treatment programmes integrating Ayurveda with physiotherapy.",
-    readMoreHref: "/doctors/dr-priya-sharma",
+    bio: "Dr. Zainab is a DHA-licensed Ayurvedic physician with over 12 years of clinical experience, specializing in musculoskeletal conditions, Panchakarma, and integrated Ayurvedic care. She practices at the Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, where she leads the back pain treatment programmes integrating Ayurveda with physiotherapy.",
+    readMoreHref: "/doctors/dr-zainab-ayurveda",
     bookHref: "/book"
   },
   publishDate: "June 1, 2026",
   updatedDate: "June 1, 2026",
   featuredImage: {
-    url: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=2070&auto=format&fit=crop",
+    url: "/images/back-pain-ayurveda-dubai-hero.webp",
     alt: "Ayurvedic Back Pain Treatment",
     caption: "At the Vedara Care JVC clinic, back pain consultations review published research alongside individual examination. Photo: Vedara Care Polyclinic, Jumeirah Village Circle."
   },
@@ -74,7 +74,7 @@ export const backPainEvidenceBlog = {
     {
       id: "where-it-works",
       title: "The back pain conditions where Ayurvedic treatment produces strong outcomes",
-      intro: "Based on both published evidence and clinical experience at our JVC clinic with over 600 back pain patients treated, Ayurveda produces consistently strong outcomes for specific patterns:",
+      intro: "Based on both published evidence and clinical experience at our JVC clinic with back pain patients treated, Ayurveda produces consistently strong outcomes for specific patterns:",
       subsections: [
         {
           title: "Chronic mechanical low back pain",
@@ -131,7 +131,7 @@ export const backPainEvidenceBlog = {
       id: "integrated-care",
       title: "The integration that produces the strongest outcomes",
       content: [
-        "At our JVC clinic in Dubai, the back pain patients with the strongest outcomes — documented in our 600+ patient experience — are not those who choose between Ayurveda and physiotherapy. They are those who receive both as integrated care.",
+        "At our JVC clinic in Dubai, the back pain patients with the strongest outcomes — documented in our clinical experience — are not those who choose between Ayurveda and physiotherapy. They are those who receive both as integrated care.",
         "A typical integrated back pain protocol at the Vedara Care JVC clinic looks like this: initial joint assessment with both BAMS-qualified Ayurvedic physician and DPT-qualified physiotherapist (the clinic is 5 minutes from JSS Private School and walking distance from Circle Mall). Imaging review (MRI or X-ray if not recent). Coordinated 6-month treatment plan combining Kati Vasti sessions (typically 14 sessions over 4 weeks during active phase), Ayurvedic internal medicines for sustained tissue work, weekly physiotherapy sessions during active phase, postural and movement protocols, dietary regulation for Vata pacification, and home-exercise prescription.",
         "The clinical reasoning behind this integration: Kati Vasti and Panchakarma address tissue-level inflammation and deep muscle tension that physiotherapy alone does not reach. Physiotherapy addresses the biomechanical and movement components that Ayurvedic therapies alone do not address. Internal medicines address systemic Vata patterns and inflammation. Lifestyle protocols address the perpetuating factors (Dubai export working patterns, postural habits, dietary factors). The combination addresses back pain at multiple levels simultaneously rather than each modality working on partial aspects."
       ]
@@ -139,7 +139,7 @@ export const backPainEvidenceBlog = {
     {
       id: "expectations",
       title: "What honest outcomes look like",
-      intro: "The question \"is Ayurveda effective for back pain\" has a different answer depending on what \"effective\" means. Here are realistic ranges based on our 600+ back pain patients at the JVC clinic:",
+      intro: "The question \"is Ayurveda effective for back pain\" has a different answer depending on what \"effective\" means. Here are realistic ranges based on our back pain patients at the JVC clinic:",
       table: {
         headers: ["Pain Reduction (6 months)", "Patient Cohort"],
         rows: [
@@ -187,26 +187,26 @@ export const backPainEvidenceBlog = {
     {
       title: "What happens during a Kati Vasti session? An honest walk-through",
       readingTime: "6 min read",
-      author: "Dr. Priya Sharma",
+      author: "Dr. Zainab Sheikh",
       category: "KATI VASTI",
       description: "The classical warm medicated oil therapy for lower back pain — what to expect, how it feels, and why session 1 differs from session 7.",
-      img: "https://images.unsplash.com/photo-1544161515-4ae6ce6db87e?q=80&w=2070&auto=format&fit=crop"
+      img: "/images/kativasti-back-pain-treatment-vedara-jvc.webp"
     },
     {
       title: "When is Panchakarma the right treatment for chronic back pain?",
       readingTime: "8 min read",
-      author: "Dr. Priya Sharma",
+      author: "Dr. Zainab Sheikh",
       category: "PANCHAKARMA",
       description: "Panchakarma is sometimes recommended for back pain but not for every patient. The honest indications and contraindications.",
-      img: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=1974&auto=format&fit=crop"
+      img: "/images/panchakarma-dubai-hero.webp"
     },
     {
       title: "Ayurveda or physiotherapy for back pain — or both?",
       readingTime: "7 min read",
-      author: "Dr. Priya Sharma",
+      author: "Dr. Zainab Sheikh",
       category: "INTEGRATED CARE",
       description: "A practical comparison for patients deciding between Ayurvedic treatment, physiotherapy, or integrated care for chronic back pain in Dubai.",
-      img: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop"
+      img: "/images/ayurveda-physiotherapy-integrated-back-pain-jvc.webp"
     }
   ]
 };
@@ -225,16 +225,16 @@ export const panchakarmaBlog = {
   newsletterBgColor: "bg-[#FDFCF9]",
   finalCtaBgColor: "bg-[#FAF8F5]",
   author: {
-    name: "Dr. Priya Sharma",
+    name: "Dr. Zainab Sheikh",
     credentials: "BAMS, MD (Ayurveda), DHA-Licensed · Lead Ayurvedic Physician, Vedara Care Polyclinic JVC",
-    bio: "Dr. Sharma is a DHA-licensed Ayurvedic physician with over 12 years of clinical experience, specialising in Panchakarma protocols and integrated Ayurvedic care for chronic conditions. She practises at the Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, where she leads the Panchakarma programmes for patients across Dubai's neighbourhoods.",
-    readMoreHref: "/doctors/dr-priya-sharma",
+    bio: "Dr. Zainab is a DHA-licensed Ayurvedic physician with over 12 years of clinical experience, specialising in Panchakarma protocols and integrated Ayurvedic care for chronic conditions. She practises at the Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, where she leads the Panchakarma programmes for patients across Dubai's neighbourhoods.",
+    readMoreHref: "/doctors/dr-zainab-ayurveda",
     bookHref: "/book"
   },
   publishDate: "June 1, 2026",
   updatedDate: "June 1, 2026",
   featuredImage: {
-    url: "https://images.unsplash.com/photo-1544161515-4ae6ce6db87e?q=80&w=2070&auto=format&fit=crop",
+    url: "/images/panchakarma-jvc-hero.webp",
     alt: "Traditional Panchakarma therapy setting",
     caption: "Panchakarma protocols at the Vedara Care JVC clinic. The classical five-action framework as practised at our Jumeirah Village Circle, Dubai centre."
   },
@@ -345,26 +345,26 @@ export const panchakarmaBlog = {
     {
       title: "What does Virechana actually feel like? A day-by-day account",
       readingTime: "8 min read",
-      author: "Dr. Priya Sharma",
+      author: "Dr. Zainab Sheikh",
       category: "VIRECHANA",
       description: "The most commonly performed Panchakarma procedure, described from the patient's perspective — what to expect, how it feels, and why session preparation matters as much as the day itself.",
-      img: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=1974&auto=format&fit=crop"
+      img: "/images/virechana-treatment-vedara-jvc.webp"
     },
     {
       title: "Why Basti is Ayurveda's most under-utilised therapeutic procedure",
       readingTime: "9 min read",
-      author: "Dr. Priya Sharma",
+      author: "Dr. Zainab Sheikh",
       category: "BASTI",
       description: "Despite modern Western associations with the word, Basti is classically considered the most powerful Panchakarma procedure for chronic disease. An honest look at why.",
-      img: "https://images.unsplash.com/photo-1544161515-4ae6ce6db87e?q=80&w=2070&auto=format&fit=crop"
+      img: "/images/basti-treatment-room-panchakarma-dubai.webp"
     },
     {
       title: "Is Ayurveda effective for back pain? An honest, evidence-based answer.",
       readingTime: "9 min read",
-      author: "Dr. Priya Sharma",
+      author: "Dr. Zainab Sheikh",
       category: "EVIDENCE",
       description: "An evidence review of Ayurvedic treatment for chronic back pain — what the research shows, where Ayurveda works well, where it does not, and how integrated care produces the strongest outcomes.",
-      img: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=2070&auto=format&fit=crop"
+      img: "/images/back-pain-ayurveda-dubai-hero.webp"
     }
   ]
 };

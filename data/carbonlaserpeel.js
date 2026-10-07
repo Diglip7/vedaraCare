@@ -29,7 +29,7 @@ export const carbonLaserPeelIntro = {
   label: "THE QUICK ANSWER",
   title: "Carbon Laser Peel at Vedara Care, in one paragraph.",
   blockquote: "Carbon Laser Peel in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, is a non-invasive skin treatment that uses a carbon-based lotion followed by a controlled laser treatment to refresh the skin’s surface. It may be considered for concerns such as excess oil, clogged pores, dullness, uneven texture, and a tired-looking complexion. Before treatment, the skin is assessed to determine whether the procedure is appropriate for your individual needs. Carbon Laser Peel generally involves little downtime, although results and suitability vary depending on skin condition, treatment goals, and the number of sessions recommended by your dermatology professional.",
-  // footer: "Medically reviewed by [Lead Consultant Dermatologist Name], MD, DHA-Licensed · Last updated August 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed August 2026"
 };
 
 export const carbonLaserPeelHowItWorks = {

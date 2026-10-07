@@ -36,6 +36,10 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
                     <img
                       src={member.image}
                       alt={member.alt}
+                      width={member.imageWidth || 1080}
+                      height={member.imageHeight || 1080}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover object-top"
                     />
                   )}
@@ -65,7 +69,7 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
                       </div>
                     </div>
                   )}
-                  <div className="mt-auto pt-2">
+                  <div className="mt-auto pt-2 flex flex-col items-start gap-1">
                     {member.link ? (
                       <Link
                         href={member.link}
@@ -81,20 +85,21 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
                         {memberButtonText} →
                       </Link>
                     )}
+                    {member.verifyHref && member.verifyText && (
+                      <a
+                        href={member.verifyHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-[#6B7280] hover:text-[#1A1A1A] underline transition-colors inline-block mt-1"
+                      >
+                        {member.verifyText}
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
             );
           })}
-        </div>
-
-        <div className="text-center">
-          <Link
-            href="/doctors"
-            className="text-[#C4A962] hover:text-[#030213] transition-colors font-medium"
-          >
-            Meet the full team →
-          </Link>
         </div>
       </div>
     </section>

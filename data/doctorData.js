@@ -1,110 +1,3 @@
-export const drPriyaNair = {
-  name: 'Dr. Priya Nair',
-  firstName: 'Dr. Nair',
-  title: 'BAMS, MD (Ayurveda) — Classical Ayurveda Specialist',
-  image: '/images/dr-priya-nair-ayurvedic-physician-jvc-dubai.webp',
-  alt: 'Dr. Priya Nair, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
-  bio: 'Dr. Nair leads the <a href="/ayurveda-clinic-jvc/" class="doctor-specialty-link">Ayurveda department</a> at <a href="/">Vedara Care Polyclinic</a> in Jumeirah Village Circle. With over fifteen years of clinical practice — including eight years in Kerala’s leading Ayurvedic hospitals and seven years serving Dubai patients — she is known for treating chronic conditions where conventional care has plateaued. Her approach is precise, evidence-aware, and unhurried.',
-  specialties: 'Chronic pain, <a href="/conditions/pcos-ayurveda-dubai/" class="doctor-specialty-link">PCOS</a>, <a href="/conditions/migraine-ayurveda-dubai/" class="doctor-specialty-link">migraine</a>, <a href="/conditions/hair-loss-ayurveda-dubai/" class="doctor-specialty-link">hair loss</a>, <a href="/conditions/stress-anxiety-ayurveda-dubai/" class="doctor-specialty-link">stress & anxiety</a>',
-  fee: 'From AED 350 (consultation)',
-  languages: 'English, Hindi, Malayalam, Tamil',
-  availability: 'Mon-Sat at JVC clinic',
-  summaryTitle: 'Classical Ayurveda, practised with modern precision.',
-  summaryParagraph1: 'Dr. Priya Nair is a <a href="/about/dha-accreditation/">DHA-licensed</a> Ayurvedic physician (BAMS, MD-Ayurveda) and the lead Ayurveda specialist at <a href="/">Vedara Care Polyclinic</a> in Jumeirah Village Circle, Dubai. With 15+ years of clinical experience across Kerala and the UAE, she treats <a href="/conditions/back-pain-treatment-jvc/" class="doctor-specialty-link">chronic back pain & sciatica</a>, <a href="/conditions/pcos-ayurveda-dubai/">PCOS</a>, <a href="/conditions/migraine-ayurveda-dubai/">migraine</a>, <a href="/conditions/hair-loss-ayurveda-dubai/">hair loss</a>, and <a href="/conditions/stress-anxiety-ayurveda-dubai/">stress-related disorders</a> through classical <a href="/treatments/panchakarma-dubai/">Panchakarma</a>, dosha-based herbal medicine, and individualised treatment protocols.',
-  summaryParagraph2: 'She holds DHA Professional License DHA-P-0048291 and consults daily at our JVC clinic.',
-  summaryParagraph3: '',
-  education: [
-    'BAMS — Rajiv Gandhi University of Health Sciences, 2007',
-    'MD (Ayurveda), Kayachikitsa — Kerala University of Health Sciences, 2010',
-    'Clinical Fellowship in Panchakarma — Kottakkal Arya Vaidya Sala, 2011',
-    'Certificate in Integrative Medicine — AIIA New Delhi, 2014'
-  ],
-  licenses: [
-    'Dubai Health Authority Professional License — DHA-P-0048291 (Active)',
-    '<a href="/about/dha-accreditation/">DHA Healthcare Facility License</a> — Vedara Care — HC3284',
-    'CCIM Registration — 7A-28930',
-    'AYUSH Ministry Registration — AY-KL-29410',
-    'Issued 2010 · Renewed 2024'
-  ],
-  affiliations: [
-    'Member, All India Ayurvedic Congress',
-    'Member, National Ayurvedic Medical Association (NAMA)',
-    'Member, Dubai Ayurveda Practitioners Forum',
-    'Speaker — Gulf Integrative Medicine Conference, Dubai 2023',
-    'Published — Journal of Ayurveda & Integrative Medicine, 2021'
-  ],
-  specialtiesList: [
-    {
-      title: '<a href="/conditions/back-pain-treatment-jvc/" class="doctor-specialty-link">Chronic Back Pain & Sciatica</a>',
-      description: 'Classical Ayurvedic management of lumbar disc issues, sciatica, and chronic mechanical back pain using KatiVasti, Pinda Swedana, and structured lifestyle correction. Many patients arrive after years of conventional management without lasting relief.',
-      caseLoad: '800+ patients treated'
-    },
-    {
-      title: '<a href="/conditions/pcos-ayurveda-dubai/" class="doctor-specialty-link">PCOS & Hormonal Health</a>',
-      description: 'Over 600 PCOS cases treated through dosha-specific protocols combining Virechana, Basti, herbal medicines, and dietary regulation. Average programme length 3 to 6 months, with documented cycle regularity in 78% of patients completing the full protocol.',
-      caseLoad: '600+ patients treated'
-    },
-    {
-      title: '<a href="/conditions/migraine-ayurveda-dubai/" class="doctor-specialty-link">Migraine & Chronic Headache</a>',
-      description: 'Migraine management through Nasya, Shirodhara, and constitutional herbal medicines. Particular focus on chronic migraine in women where hormonal and stress triggers overlap. Most patients report a 60% reduction in episode frequency within the first 8 weeks.',
-      caseLoad: '450+ patients treated'
-    },
-    {
-      title: '<a href="/conditions/postnatal-ayurveda-dubai/" class="doctor-specialty-link">Postnatal Recovery</a>',
-      description: 'Classical 45-day postnatal care — Sutika Paricharya — including Abhyanga, internal medicines, dietary guidance, and home support. Increasingly popular by Dubai’s expat mothers who want structured postpartum recovery rooted in traditional medicine.',
-      caseLoad: '300+ patients treated'
-    },
-    {
-      title: '<a href="/conditions/stress-anxiety-ayurveda-dubai/" class="doctor-specialty-link">Stress, Anxiety & Insomnia</a>',
-      description: 'Shirodhara, Medhya Rasayana protocols, and lifestyle restructuring for chronic stress and sleep disorders. Often integrated with the wellness team for breathing and yoga therapy. Average programme: 6 to 10 weeks with measurable sleep quality outcomes.',
-      caseLoad: '550+ patients treated'
-    },
-    {
-      title: '<a href="/conditions/hair-loss-ayurveda-dubai/" class="doctor-specialty-link">Hair Loss (Khalitya)</a>',
-      description: 'Combined Nasya, scalp therapies, and constitutional herbal medicines for diffuse hair loss, post-pregnancy hair fall, and androgenetic pattern. Treated alongside the dermatology team where useful. Programme length: 3 to 9 months.',
-      caseLoad: '400+ patients treated'
-    }
-  ],
-  consultationSteps: [
-    {
-      title: 'Pulse & Dosha Assessment',
-      description: 'Dr. Nair begins with Nadi Pariksha (pulse diagnosis), tongue examination, and prakriti assessment. This is the foundation of classical Ayurveda — without it, any prescription is a guess. This alone distinguishes a genuine Ayurvedic consultation from a supplement recommendation.'
-    },
-    {
-      title: 'Unhurried Health Conversation',
-      description: 'She will spend 30 minutes understanding your symptoms, lifestyle, sleep, digestion, stress, and family history. Most patients describe this as the longest, most thorough medical conversation they have had in Dubai. You will not be hurried toward a conclusion.'
-    },
-    {
-      title: 'Modern Diagnostic Review',
-      description: 'Bring recent blood work, scans, or specialist reports. Dr. Nair reviews them alongside Ayurvedic assessment. Where modern diagnostics are needed, she orders them. Ayurveda at Vedara Care works with conventional medicine, not against it.'
-    },
-    {
-      title: 'Personalised Treatment Plan',
-      description: 'You leave with a clear written plan: which therapies, which herbal medicines, dietary corrections, and a realistic timeline. Pricing for the full programme is shared upfront. There are no surprises — financial or clinical.'
-    }
-  ],
-  location: {
-    bgColor: "bg-white",
-    label: "VISIT DR. NAIR",
-    title: "Find us in JVC.",
-    address: "Building 7, Street 2<br/>Jumeirah Village Circle<br/>Dubai, United Arab Emirates",
-    phone: "+971 55 573 6312",
-    email: "booking@vedaracare.ae",
-    hours: "Mon-Tue, Thu 10 AM-7 PM<br/>Fri 10 AM-1 PM, 4-8 PM<br/>Sat 10 AM-6 PM<br/>Sun 12-5 PM",
-    landmarks: [
-      "Next to Circle Mall (2 min walk)",
-      "3 min from FIVE Jumeirah Village Hotel",
-      "5 min from JSS Private School",
-      "Free covered parking available"
-    ],
-
-    mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus',
-    mapAlt: "Vedara Care Polyclinic location in Jumeirah Village Circle — Dr. Priya Nair's clinic",
-    buttonText: "Book with Dr. Nair"
-  }
-};
-
-// ========== DR. PRIYA NAIR — TEMPLATE-READY EXTENDED OBJECT (SAME UI AS DR) ==========
 const defaultLocation = {
   bgColor: "bg-white",
   label: "VISIT THE CLINIC",
@@ -257,9 +150,8 @@ const defaultReviews = (name) => ({
     }
   ],
   stats: [
-    { value: "4.5", label: "patient rating on Google" },
-    { value: "DHA", label: "licensed practitioner" },
-    { value: "1000+", label: "patients consulted" }
+    { value: "4.6", label: "patient rating on Google" },
+    { value: "DHA", label: "licensed practitioner" }
   ],
   buttonText: "Read All Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
@@ -292,7 +184,6 @@ const defaultFaqs = (name) => {
     label: "FREQUENTLY ASKED",
     sidebarLinks: [
       { text: "Browse our other doctors", href: "/doctors/" },
-      // { text: "See the JVC clinic page", href: "/ayurveda-clinic-jvc/" }
     ],
     title: `What patients ask about consulting ${name}.`,
     description: "Short, honest answers. For a clinical recommendation specific to your situation, a proper consultation is the starting point. Cannot find what you are looking for? WhatsApp us — usually answered within 15 minutes.",
@@ -321,60 +212,7 @@ const defaultRelatedPages = (name, pages) => ({
   ]
 });
 
-// =====================================================
-// DR. PRIYA NAIR — FULL TEMPLATE DATA (for DoctorPageTemplate)
-// =====================================================
-export const drPriyaNairTemplate = {
-  ...drPriyaNair,
-  heroBadge: 'SENIOR AYURVEDIC PHYSICIAN ”· BAMS, MD',
-  heroStats: 'DHA-P-0048291 ”· 15+ years clinical experience',
-  pageTitle: 'Ayurvedic Doctor at our JVC clinic, Dubai.',
-  firstName: 'Dr. Priya Nair',
-  ratingText: '4.5 rated on Google',
-  primaryCtaHref: '/book',
-  secondaryCtaHref: 'https://wa.me/971555736312?text=' + encodeURIComponent("Hi, I'd like to book a consultation with Dr. Priya Nair at your JVC clinic."),
-  aboutH2: 'About Dr. Priya Nair, in one paragraph.',
-  approach: [
-    { title: 'Classical protocols without compromise', description: 'Dr. Priya Nair practices classical Ayurveda in the Kerala tradition. She follows the exact protocol structures, timing, and doshas-specific indications from classical texts rather than adapting them to shortened clinic protocols.' },
-    { title: 'Unhurried consultations', description: 'Your first consultation is 60–90 minutes. You will never be told to come back another day because the clinic schedule is running late.' },
-    { title: 'Works with modern diagnostics', description: 'Modern blood work, imaging, and specialist reports are reviewed alongside Nadi Pariksha. When more tests are needed, they are ordered honestly.' },
-    { title: 'Clear plan, honest timeline, upfront pricing', description: 'Before any treatment begins, you receive a written plan with what will be done, the realistic timeline, and the full cost. There are no financial or clinical surprises.' },
-    { title: 'Panchakarma supervision', description: 'Dr. Nair personally supervises every Panchakarma programme, reviewing each patient daily during their programme and adjusting their protocol in real time.' },
-    { title: 'Patient outcome over patient volume', description: 'She limits her daily consultation count to ensure each patient receives the time they deserve. Schedules usually book 1–2 weeks in advance.' },
-    { title: 'Long-term care relationship', description: 'Many of her Dubai patients have been under her care for 5+ years across seasonal transitions, pregnancies, and evolving health needs.' }
-  ],
-  specialtiesList: (drPriyaNair.specialtiesList || []).map((s, i) => ({
-    number: String(i + 1).padStart(2, '0'),
-    title: s.title.replace(/<[^>]+>/g, ''),
-    description: s.description,
-    related: s.caseLoad || 'Clinical expertise area'
-  })),
-  specialtiesLabel: 'DOCUMENTED EXPERTISE',
-  specialtiesTitle: "Dr. Priya Nair's documented areas of Ayurvedic expertise at our JVC clinic.",
-  specialtiesSubtitle: "Comprehensive expertise across classical Kerala Ayurveda — chronic conditions where patients often arrive after conventional care has plateaued.",
-  specialtiesFooter: "Comprehensive consultation with Dr. Priya Nair identifies which expertise areas apply to your situation →",
-  credentialsTitle: "Dr. Priya Nair's qualifications, credentials, and professional background.",
-  education: [
-    'BAMS — Rajiv Gandhi University of Health Sciences, 2007',
-    'MD (Ayurveda) Kayachikitsa — Kerala University of Health Sciences, 2010',
-    'Clinical Fellowship in Panchakarma — Kottakkal Arya Vaidya Sala, 2011',
-    'Certificate in Integrative Medicine — AIIA New Delhi, 2014',
-    'Current Position — Lead Ayurveda Physician, Vedara Care Polyclinic, JVC Dubai'
-  ],
-  languagesSpoken: drPriyaNair.languages.split(', '),
-  professionalMemberships: drPriyaNair.affiliations,
-  continuingEducation: "Active participation in international continuing Ayurveda education conferences. Regular clinical case review with India-based senior consultant network. Specific CPD points logged with DHA.",
-  credentialsFooter: "All qualifications verified. DHA license DHA-P-0048291 active and in good standing. Facility license HC3284. DHA Sheryan directory: licence status publicly verifiable.",
-  conditionsTreated: defaultConditions("Dr. Priya Nair"),
-  conditionsTitle: "Conditions Dr. Priya Nair treats at our JVC clinic serving Dubai.",
-  reviews: defaultReviews("Dr. Priya Nair"),
-  consultation: defaultConsultation("Dr. Priya Nair"),
-  pricing: defaultPricing(),
-  faqs: defaultFaqs("Dr. Priya Nair"),
-  location: defaultLocation,
-  cta: defaultFinalCta("Dr. Priya Nair"),
-  relatedPages: defaultRelatedPages("Dr. Priya Nair")
-};
+// Legacy doctor profiles removed
 
 // =====================================================
 // DR. ANUSHA MAKKENA — FULL TEMPLATE DATA (BAMS, Women/Detox Focus)
@@ -557,14 +395,9 @@ export const drAnusha = {
 
   relatedDoctors: [
     {
-      name: "Dr. Priya Nair",
-      specialty: "Chronic Pain, PCOS, Migraine",
-      slug: "dr-priya-nair",
-    },
-    {
-      name: "Dr. Zainab",
-      specialty: "Neurological Rehab, Musculoskeletal Care",
-      slug: "dr-zainab",
+      name: "Dr. Zainab Sheikh",
+      specialty: "Ayurveda",
+      slug: "dr-zainab-ayurveda",
     },
     {
       name: "Hafsina K K",
@@ -852,7 +685,7 @@ export const hafsinaKKTemplate = {
     columns: 4,
     pages: [
       { title: 'Physiotherapy Clinic in JVC', description: 'Explore physiotherapy care in JVC, including personalised rehabilitation for orthopaedic, neurological, sports and women’s health needs.', href: '/physiotherapy-jvc/' },
-      { title: 'Neurological Physiotherapy', description: 'Learn about physiotherapy approaches that may support mobility, balance, strength and functional recovery for neurological conditions.', href: '/physiotherapy/neurological-dubai' },
+      { title: 'Neurological Physiotherapy', description: 'Learn about physiotherapy approaches that may support mobility, balance, strength and functional recovery for neurological conditions.', href: '/physiotherapy/neurological-dubai/' },
       { title: 'Sports Injury Physiotherapy', description: 'Explore rehabilitation and movement-focused care for sports injuries, helping patients work towards a safe return to everyday or sporting activities.', href: '/physiotherapy/sports-injury-jvc' },
       { title: 'Post-Surgery Rehabilitation', description: 'Discover structured physiotherapy support following surgery, with treatment plans adapted to recovery needs and functional goals.', href: '/physiotherapy/post-surgery-rehab-dubai' },
       { title: 'Manual Therapy', description: 'Learn about manual therapy techniques used as part of appropriate physiotherapy treatment plans to support movement and physical function.', href: '/treatments/manual-therapy-dubai' },
@@ -1125,7 +958,7 @@ export const drAnushaMakkenaTemplate = {
     linkHref: "/doctors/",
     columns: 4,
     pages: [
-      { title: "Dr. Priya Nair", description: "Senior Ayurvedic Physician | Chronic Pain, PCOS, Migraine", href: "/doctors/dr-priya-nair" },
+
       { title: "Dr. Zainab", description: "BAMS | Ayurveda Practitioner | Panchakarma, Women's Health & Musculoskeletal Care", href: "/doctors/dr-zainab-ayurveda" },
       { title: "Hafsina K K", description: "DHA Licensed Physiotherapist | Orthopedic, Neurological & Women's Health Rehabilitation", href: "/doctors/hafsina-kk-physiotherapist" },
       { title: "Johanna Dianne U. Bautista", description: "Front Desk Receptionist | Patient Care & Operations Specialist", href: "/doctors/johanna-dianne-bautista" }
@@ -1139,47 +972,30 @@ export const drAnushaMakkenaTemplate = {
 export const johannaBautistaTemplate = {
   name: 'Johanna Bautista',
   firstName: 'Johanna Bautista',
-  title: 'Senior Aesthetician & Laser Specialist',
+  title: 'Patient Care & Operations Specialist',
   image: '/images/johanna-bautista-receptionist-jvc-dubai.webp',
   alt: 'Johanna Bautista, Senior Aesthetician at Vedara Care Polyclinic, JVC Dubai',
-  heroBadge: 'SENIOR AESTHETICIAN & LASER SPECIALIST',
+  heroBadge: 'PATIENT CARE & OPERATIONS SPECIALIST',
   heroStats: 'Clinic & Patient Experience Lead',
-  ratingText: '4.5 rated on Google',
+  ratingText: '4.6 rated on Google',
   primaryCtaHref: '/book',
   secondaryCtaHref: 'https://wa.me/971555736312?text=' + encodeURIComponent("Hi, I'd like to enquire about aesthetic services with Johanna Bautista at Vedara Care JVC."),
-  bio: "Johanna Bautista is our Senior Aesthetician and Laser Specialist at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. With many years of hands-on experience in clinical aesthetics — including HydraFacial, diode laser hair reduction, carbon peels, PRP facial, and radiofrequency skin tightening — she has built a loyal patient following across Dubai. Many patients book specifically with Johanna for the calm, thorough, and unhurried care she delivers in every session. She also coordinates the overall patient experience and booking journey at Vedara Care.",
+  bio: "Johanna Bautista coordinates the overall patient experience and booking journey at Vedara Care.",
   pageTitle: 'Senior Aesthetician at our JVC clinic, Dubai.',
   aboutH2: 'About Johanna Bautista, in one paragraph.',
-  summaryTitle: "Unhurried, clinical-grade aesthetic care — Johanna's approach.",
-  summaryParagraph1: "Johanna Bautista is Senior Aesthetician and Laser Specialist at <a href=\"/\">Vedara Care Polyclinic</a> in Jumeirah Village Circle, Dubai. She delivers clinical-grade aesthetic treatments including HydraFacial, diode laser permanent hair reduction, Hollywood carbon peels, PRP facials, and RF skin tightening — under the supervision of our DHA-licensed dermatology team.",
-  summaryParagraph2: "Patients consistently note her calm, unhurried, and thorough approach. Every aesthetic session begins with a realistic expectation-setting discussion: what the treatment can genuinely achieve, how many sessions are typically required, and the total financial commitment before anything begins.",
-  summaryParagraph3: "Johanna also coordinates the overall patient experience journey at Vedara Care — from first booking through treatment scheduling to follow-up check-ins.",
+  summaryTitle: "Patient Care & Operations",
+  summaryParagraph1: "Johanna Bautista coordinates the overall patient experience journey at Vedara Care — from first booking through treatment scheduling to follow-up check-ins.",
   approach: [
-    { title: "Thorough expectation-setting first", description: "Session 1 always starts with: what the treatment realistically delivers, typical session count, per-session and total cost, contraindications, and aftercare. Honest over-enthusiastic." },
-    { title: "Clinical-grade hygiene standards", description: "All consumables are single-use where designed. Laser handpiece hygiene protocols followed strictly to DHA clinic standards." },
-    { title: "Patch test where required", description: "Laser hair reduction always begins with a patch test behind the ear or inner arm 24–48 hours before first full area treatment." },
-    { title: "Session count is honest", description: "Most laser hair protocols 6–12 sessions (dependent on area and hair type) with periodic top-ups. Under-promising and over-delivering is the standard." },
-    { title: "Post-treatment aftercare is explicit", description: "Written aftercare guidance provided: sun protection, products, what to expect 24–72 hours post treatment, and when to contact clinic if questions arise." },
-    { title: "Dermatology escalation clear", description: "When a presentation requires dermatologist review, the case is escalated directly within Vedara Care rather than continuing aesthetic-only treatment." },
-    { title: "Unhurried 60-minute slots", description: "Facial slots are 60 minutes minimum. Patients are never rushed out mid-treatment because the schedule is behind. Double-booking is not practised." }
+    { title: "Smooth Patient Journey", description: "Ensures every patient has a seamless experience from booking to follow-up." },
+    { title: "Clear Communication", description: "Answers all patient questions clearly and helps coordinate with the clinical team." }
   ],
   specialtiesList: [
-    { number: '01', title: 'Diode Laser Hair Reduction', description: "Full-body and targeted area diode laser permanent hair reduction. Full face, underarms, arms, legs, Brazilian, chest, back. Patch test required first. 6–12 sessions typical.", related: 'DHA-approved diode laser JVC clinic' },
-    { number: '02', title: 'HydraFacial Signature', description: "6-step HydraFacial: detox, deep cleanse + gentle exfoliation, gentle acid peel, painless vortex extraction, hydration with antioxidants and hyaluronic acid, LED light therapy for inflammation reduction.", related: 'HydraFacial 6-step protocol — Vedara Care JVC' },
-    { number: '03', title: 'Hollywood Carbon Peel', description: "Carbon lotion application + Q-switch laser for skin brightening, enlarged pores, mild acne, and dull skin glow. Popular before events with minimal downtime.", related: 'Carbon laser peel Jumeirah Village Circle' },
-    { number: '04', title: 'PRP Facial (Platelet Rich Plasma)', description: "Venesequence, centrifuge platelet concentration, micro-needle application for collagen stimulation. Used for facial ageing, fine lines, and glow.", related: 'PRP facial at Vedara Care Polyclinic' },
-    { number: '05', title: 'Radio Frequency Skin Tightening', description: "Non-surgical RF face and neck skin tightening: jawline definition, nasolabial folds, neck laxity, décolletage. Course of 6 sessions spaced 2–4 weeks apart typical.", related: 'RF tightening face & neck Dubai' },
-    { number: '06', title: 'Carbon Peel with Laser', description: "Combination treatment for acne-prone and pigmented skin. Exfoliation + skin brightening + pore refinement. Popular with male and female patients alike.", related: 'Acne-prone and oily skin protocols' },
-    { number: '07', title: 'Dermaplaning Facial', description: 'Superficial dead skin cell and vellus hair exfoliation with sterile surgical blade. Used pre-event and pre-treatment for product absorption boost.', related: 'Dermaplaning at JVC clinic' },
-    { number: '08', title: 'LED Light Therapy', description: 'Red light (anti-inflammatory, repair) and blue light (acne, blemish) LED light therapy used as standalone or as add-on step with HydraFacial / PRP.', related: 'LED light therapy add-on Dubai' },
-    { number: '09', title: 'Pre-Bridal & Event Packages', description: "Curated 4–8 week pre-bridal and pre-event glow programmes combining HydraFacial, peels, LED, and PRP sequenced for event-day timing.", related: 'Pre-bridal aesthetic programme packages' },
-    { number: '10', title: 'Anti-Ageing Programmes', description: "Course-based programmes combining RF, HydraFacial, and PRP sequenced over 2–3 months for facial anti-ageing and skin quality improvement.", related: 'Anti-ageing face programmes Vedara Care' },
-    { number: '11', title: 'Patient Experience Coordination', description: "Oversees the overall Vedara Care patient journey: first-contact booking, appointment scheduling, treatment reminders, follow-up check-ins, and overall patient experience quality.", related: "Coordinates patient experience for the entire clinic" }
+    { number: '01', title: 'Patient Experience Coordination', description: "Oversees the overall Vedara Care patient journey: first-contact booking, appointment scheduling, treatment reminders, follow-up check-ins, and overall patient experience quality.", related: "Coordinates patient experience for the entire clinic" }
   ],
-  specialtiesLabel: 'SERVICES & EXPERTISE',
-  specialtiesTitle: "Johanna Bautista's aesthetic services at Vedara Care JVC clinic.",
-  specialtiesSubtitle: "HydraFacial, diode laser hair reduction, PRP facial, Hollywood carbon peel, RF tightening, and facial glow programmes.",
-  specialtiesFooter: "Complimentary 15-minute aesthetic consultation available for treatment planning — WhatsApp clinic to book →",
+  specialtiesLabel: 'EXPERTISE',
+  specialtiesTitle: "Johanna Bautista's role at Vedara Care JVC clinic.",
+  specialtiesSubtitle: "Coordinating the patient experience.",
+  specialtiesFooter: "",
   credentialsTitle: "Johanna Bautista's training, credentials & professional background.",
   education: [
     "Professional Training — Senior Aesthetician Diploma (International Aesthetics Certification)",
@@ -1194,37 +1010,9 @@ export const johannaBautistaTemplate = {
   credentialsFooter: "Aesthetic procedures delivered under Vedara Care Polyclinic DHA facility license HC3284 and supervision of DHA-licensed medical team. Laser operators trained in DHA-aligned laser safety and hygiene protocols.",
   conditionsTitle: "Aesthetic concerns Johanna Bautista treats at our JVC clinic.",
   conditionsTreated: {
-    subtitle: "Clinical aesthetic services at Vedara Care Polyclinic JVC — under DHA medical supervision.",
-    categories: [
-      {
-        category: "Hair Reduction & Removal",
-        conditions: [
-          { title: "Full Body Laser Hair Reduction", description: "Diode laser full body — 6–12 session course protocol." },
-          { title: "Underarms, Bikini, Brazilian", description: "Popular targeted areas — patch test first, then 6+ sessions." },
-          { title: "Face Hair Reduction", description: "Upper lip, chin, jaw, full face — diode laser." },
-          { title: "Maintenance Top-Up Sessions", description: "Single maintenance sessions after initial course completion." }
-        ]
-      },
-      {
-        category: "Facials & Glow",
-        conditions: [
-          { title: "HydraFacial Signature", description: "6-step classic HydraFacial 60-minute protocol." },
-          { title: "HydraFacial Deluxe (with boosters)", description: "HydraFacial with specialist booster for pigmentation, anti-ageing, or acne." },
-          { title: "Hollywood Carbon Peel", description: "Q-switch laser carbon peel for glow and pores." },
-          { title: "Dermaplaning Facial", description: "Surgical blade superficial exfoliation + vellus hair removal." }
-        ]
-      },
-      {
-        category: "Anti-Ageing & Rejuvenation",
-        conditions: [
-          { title: "PRP Facial", description: "Platelet rich plasma micro-needle facial for collagen and glow." },
-          { title: "RF Skin Tightening", description: "Face, neck, jawline, décolletage RF tightening courses." },
-          { title: "LED Light Therapy", description: "Red and blue LED standalone or add-on." },
-          { title: "Pre-Bridal Programmes", description: "Curated 4–8 week programmes for event-day timing." }
-        ]
-      }
-    ],
-    footer: "For dermatology and injectables, these are delivered by DHA-licensed doctors within Vedara Care dermatology team →"
+    subtitle: "Coordinating clinical services at Vedara Care Polyclinic JVC.",
+    categories: [],
+    footer: ""
   },
   reviews: {
     bgColor: "bg-[#FAF6EF]",
@@ -1232,31 +1020,18 @@ export const johannaBautistaTemplate = {
     isDarkText: true,
     useKneeStyle: true,
     label: "PATIENT EXPERIENCES",
-    title: "Patient experiences with Johanna Bautista.",
-    description: "Unhurried aesthetic sessions and realistic expectation setting — common themes across patient feedback for Johanna.",
-    items: [
-      { quote: "First clinic in Dubai where the laser tech actually tested the energy on me before starting and checked in throughout. Johanna is thorough and calm.", author: "Patient G.", details: "Laser hair reduction · 8 sessions · Vedara Care JVC" },
-      { quote: "HydraFacial with her is a genuinely 60-minute treatment — not 35 minutes rushed with an assistant. You get Johanna the entire time.", author: "Patient H.", details: "HydraFacial Deluxe · Monthly · Vedara Care Polyclinic" },
-      { quote: "My bridals were 10 sessions planned 6 months out. The timeline and milestones were honest and the day-of results were exactly as we discussed.", author: "Patient I.", details: "Pre-bridal programme · HydraFacial + PRP + Carbon Peel" }
-    ],
-    stats: [
-      { value: "4.5", label: "Google patient rating" },
-      { value: "10+ yrs", label: "aesthetic experience" },
-      { value: "5000+", label: "sessions delivered" }
-    ],
+    title: "Patient experiences at Vedara Care.",
+    description: "Johanna ensures every patient's journey is smooth.",
+    items: [],
+    stats: [],
     buttonText: "Read All Reviews →",
     buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
   },
   consultation: {
-    label: "AESTHETIC CONSULTATION",
-    title: "What to expect at your aesthetic consultation with Johanna Bautista.",
-    description: "Complimentary 15-minute aesthetic consultation available for all services. Honest session count and cost before any commitment.",
-    phases: [
-      { phase: 'Phase 1', time: '15 MIN', title: 'Complimentary Consultation', description: 'Discussion of your concerns, examination of the area, treatment options explained with realistic outcome expectation, number of sessions typical, and all costs per session and total programme. No obligation to book at the consultation.' },
-      { phase: 'Phase 2', time: 'FIRST SESSION', title: 'Patch Test / Treatment Start', description: 'If proceeding: laser begins always with a patch test 24–48 hours before first area session. Facials / PRP can typically begin same day as consultation after consent and photography.' },
-      { phase: 'Phase 3', time: '4–12 WEEKS', title: 'Course of Treatments', description: 'Most aesthetic programmes require multiple sessions spaced as per protocol. Session reminders are sent via WhatsApp. Progress photos compared at session 4 and at completion of course.' },
-      { phase: 'Phase 4', time: 'ONGOING', title: 'Maintenance Plan', description: 'For laser hair and anti-ageing programmes: realistic ongoing maintenance discussion (session frequency going forward) with guidance before discharge from the active course.' }
-    ],
+    label: "PATIENT JOURNEY",
+    title: "Your patient journey.",
+    description: "Johanna coordinates your booking.",
+    phases: [],
     bringBox: {
       label: "PLEASE BRING / NOTE",
       items: [
@@ -1328,27 +1103,27 @@ export const ayurvedaConsultationData = {
       description: "Your doctor outlines a treatment plan: which therapies, which herbal medicines, which dietary corrections, and what realistic timeline to expect. You leave with clarity, not a sales pitch."
     }
   ],
-  footer: "First consultation duration: 45 to 60 minutes ”· From AED 350"
+  footer: "First consultation duration: 45 to 60 minutes · Prices are shared on WhatsApp"
 };
 
 export const drZainab = {
-  name: 'Dr. Zainab',
-  firstName: 'Dr. Zainab',
-  title: 'BAMS | Ayurveda Practitioner',
+  name: 'Dr. Zainab Sheikh',
+  firstName: 'Dr. Zainab Sheikh',
+  title: "DHA Licensed Ayurveda Practitioner · DHA licence 20918133<br/>  · 4.5 years' experience",
   image: '/images/dr-zainab-ayurveda-jvc.webp',
-  alt: 'Dr. Zainab, BAMS-qualified DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, JVC Dubai',
-  heroBadge: 'AYURVEDIC DOCTOR · DHA-LICENSED · BAMS-QUALIFIED · JUMEIRAH VILLAGE CIRCLE',
-  heroStats: 'BAMS · DHA-Licensed Ayurvedic Doctor · Personalised Holistic Care',
-  bio: "Dr. Zainab is a DHA-licensed Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC) — walking distance from Circle Mall. BAMS-qualified with expertise across Nadi Pareeksha, Panchakarma, women's health including PCOS, musculoskeletal disorders, skin conditions, hair health, stress management, weight management, postnatal care, and Ayurvedic rejuvenation. Female doctor available. Serving JVC families and patients from across Dubai.",
-  about: "Dr. Zainab is a DHA-licensed BAMS-qualified Ayurvedic doctor at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. She provides authentic Ayurvedic care combining Nadi Pareeksha (pulse examination), Prakriti constitution assessment, classical Ayurvedic principles, individually selected therapies, herbal internal medicines, and personalised diet and lifestyle counselling. Her 11 documented expertise areas include Nadi Pareeksha and Ayurvedic assessment; Panchakarma and detoxification; women's health and PCOS; musculoskeletal disorders including back pain, sciatica, and spondylosis; skin disorders with special interest in eczema and psoriasis; hair and scalp disorders; stress, anxiety, and sleep concerns; weight management and lifestyle disorders; postnatal Ayurvedic care; Ayurvedic rejuvenation (Rasayana); and diet and lifestyle counselling based on body constitution. Female doctor available. Multi-language capability including English, Malayalam, and Hindi. Patients travel from JVC, JVT, Al Barsha, Sports City, Dubai Hills, Marina, Downtown, Business Bay, Palm Jumeirah, Mirdif, and across Dubai. Same-week appointments typically available.  ",
-  specialties: "Women's health & PCOS, Musculoskeletal, Skin & Hair, Stress & Sleep, Postnatal, Rasayana",
+  alt: 'Dr. Zainab Sheikh, DHA-licensed Ayurvedic practitioner at Vedara Care Polyclinic, JVC Dubai',
+  heroBadge: 'AYURVEDIC DOCTOR · DHA-LICENSED · JUMEIRAH VILLAGE CIRCLE',
+  heroStats: "DHA Licensed Ayurveda Practitioner · DHA licence 20918133<br/>   4.5 years' experience",
+  bio: "Dr. Zainab Sheikh is a DHA Licensed Ayurveda Practitioner with 4.5 years of clinical experience in Ayurveda and holistic healthcare. She specialises in personalised Ayurvedic care based on each patient's constitution, symptoms, lifestyle and underlying health concerns. Her approach combines classical Ayurvedic principles, lifestyle guidance, diet recommendations and therapeutic procedures to support long-term health and wellbeing.",
+  about: "Dr. Zainab Sheikh is a DHA Licensed Ayurveda Practitioner with 4.5 years of clinical experience in Ayurveda and holistic healthcare. She specialises in personalised Ayurvedic care based on each patient's constitution, symptoms, lifestyle and underlying health concerns. Her approach combines classical Ayurvedic principles, lifestyle guidance, diet recommendations and therapeutic procedures to support long-term health and wellbeing.",
+  specialties: '<a href="/treatments/nadi-pareeksha-jvc" class="doctor-specialty-link">Nadi Parikshan</a> · <a href="/ayurveda-clinic-jvc" class="doctor-specialty-link">Prakriti Parikshan & personalised plans</a> · <a href="/conditions/sciatica-ayurveda-jvc" class="doctor-specialty-link">Pain management, sciatica & low back pain</a> · <a href="/conditions/migraine-ayurveda-dubai" class="doctor-specialty-link">Migraine & headache</a> · <a href="/conditions/pcos-ayurveda-dubai" class="doctor-specialty-link">PCOS & hormonal imbalance</a> · <a href="/conditions/neck-pain-ayurveda-jvc" class="doctor-specialty-link">Musculoskeletal disorders</a> · <a href="/conditions/cervical-spondylosis-ayurveda-jvc" class="doctor-specialty-link">Cervical spondylosis</a> · <a href="/conditions/arthritis-ayurveda-dubai" class="doctor-specialty-link">Joint & muscle pain</a> · <a href="/conditions/stress-anxiety-ayurveda-dubai" class="doctor-specialty-link">Stress</a> · <a href="/conditions/ibs-ayurveda-dubai" class="doctor-specialty-link">Digestive & metabolic</a> · <a href="/conditions/hair-loss-ayurveda-dubai" class="doctor-specialty-link">Hair fall</a> · <a href="/conditions/postnatal-ayurveda-dubai" class="doctor-specialty-link">Women\'s wellness</a> · <a href="/wellness-clinic-jvc" class="doctor-specialty-link">General wellness</a><br/><br/>Additional certification: Certified Hijama Practitioner.',
   fee: 'From AED [X] (initial consultation)',
-  languages: 'English (professional fluency), Malayalam, Hindi, Additional languages — to be confirmed',
+  languages: 'English only (until clinic confirms)',
   availability: 'Mon-Sat at JVC clinic',
   summaryTitle: 'Personalised holistic Ayurvedic care — Dr. Zainab\'s clinical approach.',
   summaryParagraph1: 'Dr. Zainab follows a personalized and holistic Ayurvedic approach rooted in classical Ayurvedic principles combined with modern clinical care standards. Her practice at our JVC clinic serves patients from across Dubai seeking authentic Ayurvedic consultation and sustained wellness partnership.',
   summaryParagraph2: 'Personalised Ayurvedic care begins with understanding the patient — not just the condition. My approach combines genuine listening, authentic Ayurvedic assessment, and classical principles applied to each individual\'s specific situation.',
-  section: 'She consults at our JVC clinic, accessible from Jumeirah Village Circle, Dubai Marina, Downtown Dubai, Business Bay, Al Barsha, Dubai Hills Estate, Jumeirah Lake Towers, Mirdif, and every Dubai community.',
+  section: 'She consults at our JVC clinic, accessible from Jumeirah Village Circle, Jumeirah Village Triangle, Al Barsha South, Arjan, Dubai Sports City, and Motor City.',
   description: [
     {
       title: "Listening first — comprehensive patient understanding",
@@ -1377,17 +1152,14 @@ export const drZainab = {
     }
   ],
   education: [
-    'Primary Medical Degree — BAMS (Bachelor of Ayurvedic Medicine and Surgery)',
-    'Educational Institution — Kerala Ayurvedic University — to be confirmed',
+    'Ayurvedic Medical Degree — Details to be confirmed',
     'DHA License — DHA-Licensed to practice Ayurvedic medicine in Dubai',
-    'Years of Clinical Experience — Substantial clinical experience — details to be confirmed',
+    'Additional certification: Certified Hijama Practitioner',
+    'Years of Clinical Experience — 4.5 years',
     'Current Position — Ayurvedic Doctor, Vedara Care Polyclinic, JVC Dubai'
   ],
   languagesSpoken: [
-    'English (professional fluency)',
-    'Malayalam',
-    'Hindi',
-    'Additional languages — to be confirmed'
+    'English only (until clinic confirms)'
   ],
   professionalMemberships: [
     'Dubai Health Authority (DHA) — licensed practitioner',
@@ -1539,7 +1311,7 @@ export const drZainab = {
       }
     ],
     stats: [
-      { value: "4.5", label: "Google Rating" },
+      { value: "4.6", label: "Google Rating" },
       { value: "11", label: "Documented Expertise Areas" },
       { value: "DHA", label: "Licensed & BAMS Qualified" },
     ],
@@ -1705,7 +1477,7 @@ export const drZainab = {
   otherPractitioners: {
     title: "Other practitioners at Vedara Care.",
     pages: [
-      { title: "Dr. Priya Nair", description: "BAMS, MD (Ayurveda). Lead Ayurveda physician. 15+ years specialising in chronic back pain, migraine, Panchakarma.", href: "/doctors/dr-priya-nair-ayurveda/" },
+
       { title: "Dr. Anusha Makkena", description: "BAMS Ayurveda doctor at our JVC clinic — women's health, skin, hair, and detox programmes.", href: "/doctors/dr-anusha-makkena/" },
       { title: "Hafsina KK — Physiotherapist", description: "DHA-licensed physiotherapist. Musculoskeletal, post-surgical, neurological rehab at our JVC clinic and home visits.", href: "/doctors/hafsina-kk-physiotherapist/" },
       { title: "Johanna Bautista", description: "Senior dermatology aesthetician and laser specialist at our JVC skin clinic.", href: "/doctors/johanna-bautista/" }

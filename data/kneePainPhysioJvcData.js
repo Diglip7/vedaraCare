@@ -6,11 +6,11 @@ export const kneePainPhysioHero = {
   ],
   label: "Knee Pain Physiotherapy · DHA-Licensed 2509266 · JVC Clinic",
   title: "Knee pain physiotherapy in JVC. Most knee pain responds to the right treatment.",
-  description: "Specialist knee pain physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists treating runner's knee, meniscus injuries, ACL recovery, IT band syndrome, patellar tendinopathy, knee osteoarthritis, and the full range of knee conditions. Most knee pain — even with concerning MRI findings — responds excellently to evidence-based physiotherapy.",
+  description: "Specialist knee pain physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed physiotherapists treating runner's knee, meniscus injuries, ACL recovery, IT band syndrome, patellar tendinopathy, knee osteoarthritis, and the full range of knee conditions. Most knee pain — even with concerning MRI findings — responds excellently to evidence-based physiotherapy.",
   primaryCTA: "Book Knee Pain Assessment",
   secondaryCTA: "Ask a Question on WhatsApp",
   trustSignals: [
-    "DPT-qualified knee specialists",
+    "DHA-licensed knee specialists",
     "DHA-Licensed Physiotherapist",
     "Same-week appointments",
     "Walking distance from Circle Mall"
@@ -26,7 +26,7 @@ export const kneePainPhysioHero = {
 export const kneePainPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Knee pain physiotherapy at Vedara Care, in one paragraph.",
-  blockquote: "Knee pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DPT-qualified physiotherapists. Knee pain has multiple distinct causes: patellofemoral pain syndrome (runner's knee), meniscus injuries (often without surgery), ligament injuries (MCL, ACL, LCL), iliotibial band syndrome, patellar tendinopathy (jumper's knee), knee osteoarthritis, Osgood-Schlatter disease, and post-injury conditions. Our approach combines accurate diagnosis, evidence-based manual therapy, specific exercise prescription, biomechanical analysis, dry needling, and patient education. Initial assessment from AED 350; structured knee pain programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support for seven major insurers.",
+  blockquote: "Knee pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DHA-licensed physiotherapists. Knee pain has multiple distinct causes: patellofemoral pain syndrome (runner's knee), meniscus injuries (often without surgery), ligament injuries (MCL, ACL, LCL), iliotibial band syndrome, patellar tendinopathy (jumper's knee), knee osteoarthritis, Osgood-Schlatter disease, and post-injury conditions. Our approach combines accurate diagnosis, evidence-based manual therapy, specific exercise prescription, biomechanical analysis, dry needling, and patient education. Initial assessment from AED 350; structured knee pain programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support for seven major insurers.",
   footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
@@ -228,7 +228,7 @@ export const kneePainReviews = {
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
   items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "15", label: "reviews (real, verified)" }
   ],
   buttonText: "Read All Knee Pain Reviews"
@@ -348,7 +348,11 @@ export const kneePainFaqs = {
     },
     {
       question: "What about ACL injuries — surgery or physiotherapy?",
-      answer: "The decision depends on multiple factors: completeness of the tear, your activity level and goals, presence of associated injuries, age, lifestyle. Active patients in cutting sports typically benefit from reconstruction. Less active patients may do well with conservative management. Even with reconstruction, comprehensive 9–12 month rehabilitation is required for optimal outcomes."
+      answer: "The decision depends on multiple factors: completeness of the tear, your activity level and goals, presence of associated injuries, age, lifestyle. Active patients in cutting sports typically benefit from reconstruction. Less active patients may do well with conservative management without surgery. For rehabilitation after ACL reconstruction, see our <a href=\"/physiotherapy/post-surgery-rehab-dubai/\" style=\"color: rgb(184, 150, 90); text-decoration: underline;\">post-surgery physiotherapy page</a>."
+    },
+    {
+      question: "Do you provide rehabilitation after knee surgery or ACL reconstruction?",
+      answer: "Yes. Rehabilitation after knee replacement, ACL reconstruction and meniscus surgery, plus prehab before surgery, is covered on our <a href=\"/physiotherapy/post-surgery-rehab-dubai/\" style=\"color: rgb(184, 150, 90); text-decoration: underline;\">post-surgery physiotherapy page</a>."
     }
 
     , {
@@ -435,13 +439,13 @@ export const kneePainInjuryTypes = {
     {
       number: "03",
       title: 'ACL Injuries',
-      description: 'Anterior cruciate ligament injury — partial tears, complete tears, or post-reconstruction recovery. ACL reconstruction recovery typically requires 9–12 months, but conservative management appropriate for some partial tears.',
+      description: 'Anterior cruciate ligament injury — partial tears, complete tears. Conservative management is appropriate for many tears without surgery. For rehabilitation after ACL reconstruction surgery, see our <a href="/physiotherapy/post-surgery-rehab-dubai/" class="underline text-[#C9A55A] hover:opacity-85">post-surgery physiotherapy page</a>.',
       typicalPatient: 'Sport-related injury, padel, football, basketball, skiing'
     },
     {
       number: "04",
       title: 'MCL & LCL Ligament Injuries',
-      description: 'Collateral ligament injuries on the inside (MCL) or outside (LCL) of the knee. Most heal with appropriate conservative management — bracing during early healing, progressive rehabilitation, gradual return to activity.',
+      description: 'Collateral ligament injuries on the inside (MCL) or outside (LCL) of the knee. Most heal without surgery through appropriate conservative management — bracing during early healing, progressive rehabilitation, gradual return to activity.',
       typicalPatient: 'Contact sport injury, padel, football, gym injuries'
     },
     {
@@ -559,8 +563,8 @@ export const kneePainRelatedPages = {
       href: "/physiotherapy-jvc/"
     },
     {
-      title: "Post-Surgery Rehabilitation",
-      description: "For patients post-knee surgery — meniscectomy, meniscus repair, ACL reconstruction, knee replacement. Coordinated with operating surgeon.",
+      title: "Post-Surgery Physiotherapy",
+      description: "Prehab and rehabilitation after knee replacement, ACL and meniscus surgery.",
       href: "/physiotherapy/post-surgery-rehab-dubai/"
     },
     {

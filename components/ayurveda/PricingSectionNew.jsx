@@ -39,10 +39,18 @@ const PricingSectionNew = ({ bgColor, label, title, description, pricingCards, a
                   {card.title}
                 </h3>
                 <div 
-                  className="text-4xl mb-2" 
+                  className="text-xl md:text-2xl mb-2 text-[#C4A962]" 
                   style={{ fontFamily: 'Fraunces, serif', fontWeight: 600 }}
                 >
-                  {card.price}
+                  <a
+                    href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20pricing%20details."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-track="whatsapp_click"
+                    className="hover:underline"
+                  >
+                    Prices are shared on WhatsApp
+                  </a>
                 </div>
                 <div className="text-sm text-[#6B7280]">
                   {card.duration || '60 minutes at our JVC clinic'}
@@ -102,7 +110,17 @@ const PricingSectionNew = ({ bgColor, label, title, description, pricingCards, a
                 {additionalServices.map((service, index) => (
                   <tr key={index} className="border-b border-gray-200">
                     <td className={`py-3 px-4 text-[#6B7280] ${service.italic ? 'italic' : ''}`}>{service.name}</td>
-                    <td className={`py-3 px-4 text-right font-semibold ${service.highlight ? 'text-[#C4A962]' : ''}`}>{service.price}</td>
+                    <td className={`py-3 px-4 text-right font-semibold ${service.highlight ? 'text-[#C4A962]' : ''}`}>
+                      <a
+                        href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20pricing%20details."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-track="whatsapp_click"
+                        className="hover:underline text-[#C4A962]"
+                      >
+                        Prices are shared on WhatsApp
+                      </a>
+                    </td>
                   </tr>
                 ))}
               </tbody>

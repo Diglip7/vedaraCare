@@ -4,7 +4,7 @@ export const abhyangaHero = {
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Abhyanga Massage in Dubai", active: true }
   ],
-  label: "ABHYANGA OIL MASSAGE IN DUBAI ”· DHA-LICENSED 2509266",
+  label: "ABHYANGA OIL MASSAGE IN DUBAI · DHA-LICENSED 2509266",
   title: "Warm oil, two pairs of hands, ninety minutes of silence.",
   description: "Classical Abhyanga — the foundational full-body Ayurvedic oil massage performed by two synchronized therapists. Doctor-prescribed at our DHA-licensed Ayurveda clinic in JVC, Dubai. The treatment that changes how you sleep, move, and think.",
   primaryCTA: "Book Abhyanga Consultation",
@@ -278,25 +278,9 @@ export const abhyangaReviews = {
   isDarkText: true,
   label: "PATIENT OUTCOMES",
   title: "Abhyanga outcomes at Vedara Care.",
-  items: [
-    {
-      quote: "Two weeks of Abhyanga changed how I sleep. I have not used a sleep aid in three months.",
-      author: "Priya R.",
-      details: "Abhyanga 7-session course · JVC District 12 February  2026 "
-    },
-    {
-      quote: "I came for relaxation. I left understanding why my Ayurvedic doctor calls this medicine.",
-      author: "James M.",
-      details: "Abhyanga single session · Dubai Marina January 2026"
-    },
-    {
-      quote: "The postnatal home Abhyanga programme was the most important investment I made in my recovery.",
-      author: "Aisha K.",
-      details: "45-day Sutika Paricharya home programme · Al Barsha South March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "52", label: "Abhyanga-specific reviews" },
     { value: "97%", label: "would recommend" }
   ],

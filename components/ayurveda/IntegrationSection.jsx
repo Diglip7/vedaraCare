@@ -82,7 +82,7 @@ const IntegrationSection = ({ label, title, description, quote, features, image,
           <div className="md:col-span-2">
             <div className="rounded-xl overflow-hidden shadow-xl">
               <img 
-                src={image || 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80'}
+                src={image || '/images/ayurveda-physiotherapy-integrated-back-pain-jvc.webp'}
                 alt={imageAlt || 'Collaborative care between physiotherapy and Ayurveda teams'} 
                 className="w-full h-[500px] object-cover"
               />

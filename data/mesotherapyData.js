@@ -1,5 +1,5 @@
 export const mesotherapySEO = {
-  title: "Mesotherapy JVC Dubai | Medical Director | Vedara Care",
+  title: "Mesotherapy JVC Dubai | Dr. Anusha | Vedara Care",
   description: "Physician-delivered mesotherapy in JVC Dubai by DHA-Licensed Consultant Dermatologist. Custom formulations, transparent ingredients. 4-session glow programme.",
   canonical: "https://vedaracare.ae/treatments/mesotherapy-skin-revitalization-jvc/",
   ogTitle: "Mesotherapy Skin Revitalization in JVC, Dubai — Vedara Care Polyclinic",
@@ -29,7 +29,7 @@ export const mesotherapyHero = {
   ],
   floatingCard: {
     title: "Vedara Care Polyclinic, JVC",
-    subtitle: "Medical Director (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>45-75 min per session<br/>Arabic ”· English ”· Hindi ”· Urdu"
+    subtitle: "Dr. Anusha (DHA Consultant Dermatologist)<br/>Arfah Owais — Aesthetician<br/>45-75 min per session<br/>Arabic ”· English ”· Hindi ”· Urdu"
   }
 };
 
@@ -46,7 +46,7 @@ export const mesotherapyAtAGlance = {
   title: "At a Glance",
   cards: [
     { label: "WHAT IT IS", value: "Physician-delivered micro-injection of custom formulation into mid-dermal layer" },
-    { label: "PRIMARY PRACTITIONER", value: "Medical Director, DHA-Licensed Consultant Dermatologist" },
+    { label: "PRIMARY PRACTITIONER", value: "Dr. Anusha, DHA-Licensed Consultant Dermatologist" },
     { label: "SUPPORT TEAM", value: "Arfah Owais (aesthetician), DHA-Licensed Nursing" },
     { label: "DURATION", value: "45–75 min per session" },
     { label: "DOWNTIME", value: "24–48 hours — mild swelling, small injection marks, occasional bruising" },
@@ -54,7 +54,7 @@ export const mesotherapyAtAGlance = {
   ],
   banner: {
     title: "Ready to explore whether mesotherapy fits your skin goals?",
-    subtitle: "Book a Medical Director consultation — 45–60 minutes, skin analysis included, no treatment same-day. \nConsultation slots book 2–3 weeks in advance — reserve yours now.",
+    subtitle: "Book a Dr. Anusha consultation — 45–60 minutes, skin analysis included, no treatment same-day. \nConsultation slots book 2–3 weeks in advance — reserve yours now.",
     btn1: "Book Consultation at JVC",
     btn2: "WhatsApp Us"
   }
@@ -65,10 +65,10 @@ export const mesotherapyWhyChoose = {
   title: "Why Choose Vedara Care JVC for Mesotherapy",
   subtitle: "Vedara Care JVC delivers mesotherapy under a physician-primary framework with formulation transparency, integrated aesthetician support, honest comparison against alternative modalities, consultation-first framework with no same-day treatment pressure, reimbursement-basis insurance clarity, and convenient JVC location.",
   cards: [
-    { num: "01", title: "Physician-primary delivery", goldText: "clinical trust", desc: "Mesotherapy at Vedara Care JVC is delivered by the Medical Director (DHA-Licensed Consultant Dermatologist). This is a medical procedure, not a beauty facial. Physician-scope injection delivery matters for outcome quality and safety." },
-    { num: "02", title: "Formulation transparency", goldText: "knowledge trust", desc: "At consultation, the Medical Director discloses which ingredients are in your formulation and why they were selected. Most Dubai clinics market \"meso glow\" without ingredient disclosure. Vedara Care JVC is deliberately transparent." },
+    { num: "01", title: "Physician-primary delivery", goldText: "clinical trust", desc: "Mesotherapy at Vedara Care JVC is delivered by the Dr. Anusha (DHA-Licensed Consultant Dermatologist). This is a medical procedure, not a beauty facial. Physician-scope injection delivery matters for outcome quality and safety." },
+    { num: "02", title: "Formulation transparency", goldText: "knowledge trust", desc: "At consultation, the Dr. Anusha discloses which ingredients are in your formulation and why they were selected. Most Dubai clinics market \"meso glow\" without ingredient disclosure. Vedara Care JVC is deliberately transparent." },
     { num: "03", title: "Integrated aesthetic team support", goldText: "coherent care trust", desc: "Arfah Owais provides pre-procedure skin analysis (informing formulation selection) and post-procedure care coordination. Your treatment is a coordinated care pathway, not a one-off injection." },
-    { num: "04", title: "Honest comparison", goldText: "decision trust", desc: "Consultation may result in Medical Director recommending PRP, exosome, filler, or laser instead if that better fits your indication. We do not upsell mesotherapy where an alternative would serve you better." },
+    { num: "04", title: "Honest comparison", goldText: "decision trust", desc: "Consultation may result in Dr. Anusha recommending PRP, exosome, filler, or laser instead if that better fits your indication. We do not upsell mesotherapy where an alternative would serve you better." },
     { num: "05", title: "JVC location + multilingual delivery", goldText: "accessibility trust", desc: "Walking distance to Circle Mall, near FIVE Jumeirah Village Hotel and JSS Private School. Languages: Arabic, English, Hindi, Urdu. Culturally comfortable environment." },
     { num: "06", title: "Consultation-first, no same-day treatment", goldText: "risk-reversal trust", desc: "Vedara Care JVC does not sell same-day mesotherapy on first visit. You leave consultation with a written plan and decide when to proceed. This intentional framework protects you from decision pressure." }
   ]
@@ -78,9 +78,9 @@ export const mesotherapyEvidence = {
   sectionLabel: "SECTION 5",
   title: "Evidence Base & Clinical Context",
   content1: "Peer-reviewed research supports mesotherapy for skin rejuvenation indications. Amin, Phelps, and Goldberg (Dermatologic Surgery, 2006) demonstrated histologic evidence of dermal improvements from mesotherapy for facial skin rejuvenation. Prikhnenko (Clinical, Cosmetic and Investigational Dermatology, 2015) reviewed polycomponent mesotherapy formulations for skin aging.",
-  content2: "The technique originated with Michel Pistor's foundational 1958 work leading to the Société FranÃ§aise de Mésothérapie framework. Vedara Care JVC applies formulations aligned with CE-marked medical device regulatory frameworks under Medical Director selection.",
+  content2: "The technique originated with Michel Pistor's foundational 1958 work leading to the Société FranÃ§aise de Mésothérapie framework. Vedara Care JVC applies formulations aligned with CE-marked medical device regulatory frameworks under Dr. Anusha selection.",
   quote: "\"Mesotherapy has been part of aesthetic dermatology since Michel Pistor developed the technique in 1958 — the evidence base is now mature, and the formulations available today are considerably more sophisticated than early protocols.\"",
-  author: "Medical Director — DHA-Licensed Consultant Dermatologist, Vedara Care JVC",
+  author: "Dr. Anusha — DHA-Licensed Consultant Dermatologist, Vedara Care JVC",
   img: "evidence.webp",
   socialProof: {
     label: "SOCIAL PROOF PREVIEW",
@@ -90,7 +90,7 @@ export const mesotherapyEvidence = {
   },
   banner: {
     title: "Want to see if mesotherapy fits your skin story?",
-    subtitle: "Send your questions via WhatsApp or book Medical Director consultation directly. Consultation includes skin analysis, Medical Director assessment, and written treatment plan.",
+    subtitle: "Send your questions via WhatsApp or book Dr. Anusha consultation directly. Consultation includes skin analysis, Dr. Anusha assessment, and written treatment plan.",
     btn1: "Book Consultation at JVC",
     btn2: "WhatsApp Us"
   }
@@ -154,7 +154,7 @@ export const mesotherapyUnderstanding = {
   },
   comparison: {
     title: "6.6 Comparison with Autologous Pathways",
-    desc: "For patients considering alternative regenerative pathways, mesotherapy serves as the exogenous custom-formulated option. It is frequently compared with our <a href=\"/treatments/prp-facial-jvc/\" class=\"text-[#C8A87F] hover:underline\">PRP Facial JVC</a> (autologous growth factor delivery) and <a href=\"/treatments/exosome-skin-rejuvenation-jvc/\" class=\"text-[#C8A87F] hover:underline\">Exosome Skin Rejuvenation JVC</a> (exogenous stem-cell derived). Medical Director provides honest comparison at consultation."
+    desc: "For patients considering alternative regenerative pathways, mesotherapy serves as the exogenous custom-formulated option. It is frequently compared with our <a href=\"/treatments/prp-facial-jvc/\" class=\"text-[#C8A87F] hover:underline\">PRP Facial JVC</a> (autologous growth factor delivery) and <a href=\"/treatments/exosome-skin-rejuvenation-jvc/\" class=\"text-[#C8A87F] hover:underline\">Exosome Skin Rejuvenation JVC</a> (exogenous stem-cell derived). Dr. Anusha provides honest comparison at consultation."
   },
   notRight: {
     title: "6.7 When Mesotherapy Is Not the Right Pathway",
@@ -166,15 +166,15 @@ export const mesotherapyUnderstanding = {
       "Single-session dramatic results expected",
       "Patients unable to accept 24-48 hour post-procedure downtime"
     ],
-    footer: "Medical Director will recommend alternative pathway at consultation if mesotherapy is not the best fit."
+    footer: "Dr. Anusha will recommend alternative pathway at consultation if mesotherapy is not the best fit."
   },
   consultation: {
     title: "6.8 The Consultation Foundation",
-    desc: "All mesotherapy programmes begin with a Medical Director consultation, which is informed by a <a href=\"/treatments/comprehensive-skin-analysis-jvc/\" class=\"text-[#C8A87F] hover:underline\">Comprehensive Skin Analysis</a>. This foundation diagnostic ensures formulation accuracy and maps the full regenerative pathway."
+    desc: "All mesotherapy programmes begin with a Dr. Anusha consultation, which is informed by a <a href=\"/treatments/comprehensive-skin-analysis-jvc/\" class=\"text-[#C8A87F] hover:underline\">Comprehensive Skin Analysis</a>. This foundation diagnostic ensures formulation accuracy and maps the full regenerative pathway."
   },
   banner: {
     title: "Not sure which formulation would suit your skin?",
-    subtitle: "That's exactly what consultation is for. Book Medical Director consultation and receive formulation recommendation aligned with your specific indication.\nYour consultation includes: Skin analysis by Aesthetician + Medical Director assessment + Formulation recommendation + Written treatment plan + Cost breakdown.",
+    subtitle: "That's exactly what consultation is for. Book Dr. Anusha consultation and receive formulation recommendation aligned with your specific indication.\nYour consultation includes: Skin analysis by Aesthetician + Dr. Anusha assessment + Formulation recommendation + Written treatment plan + Cost breakdown.",
     btn1: "Book Consultation at JVC",
     btn2: "WhatsApp Us"
   }
@@ -191,12 +191,12 @@ export const mesotherapyDesignedFor = {
     { num: "04", title: "Environmental Stress Recovery", age: "Age 25-55", desc: "Antioxidant-heavy + HA for post-summer, post-travel, post-illness barrier restoration. Typically 3-4 session course." },
     { num: "05", title: "Dull Skin Recovery", age: "Age 25-50", desc: "Vitamin C + amino acids + HA. Addresses tone and vitality factors (stress, diet, environmental stress, hormonal changes)." },
     { num: "06", title: "Fitzpatrick IV-VI Protocol", age: "Age 20-60", desc: "Gentle formulation profile. Lower inflammatory potential. Female practitioner, Arabic/Hindi/Urdu delivery, culturally comfortable." },
-    { num: "07", title: "Post-Pregnancy Rejuvenation", age: "Age 25-40", desc: "Restoring dermal metabolism under Medical Director confirmation, formulation avoids retinoid-adjacent ingredients where relevant." },
+    { num: "07", title: "Post-Pregnancy Rejuvenation", age: "Age 25-40", desc: "Restoring dermal metabolism under Dr. Anusha confirmation, formulation avoids retinoid-adjacent ingredients where relevant." },
     { num: "08", title: "Limited Downtime Professionals", age: "Age 30-55", desc: "24-48 hour downtime — one of the shortest among injection-based aesthetic modalities. Weekend and evening booking where available." },
     { num: "09", title: "Pre-Event Preparation", age: "Age 25-55", desc: "Corporate events, media appearances, family gatherings. Single session 7-10 days pre-event for immediate hydration and glow." },
     { num: "10", title: "Male Aesthetic Patients", age: "Age 30-55", desc: "Growing clinic demographic. Framing emphasizes skin quality, delivers scheduled around business commitments." },
     { num: "11", title: "Sensitive Skin Patients", age: "Multiple ages", desc: "Lower peptide concentration, hyaluronic acid focus. Alternative for clients where retinoid protocols have caused reactive response." },
-    { num: "12", title: "Combined Programme Clients", age: "Multiple ages", desc: "Medical Director coordinates mesotherapy timing across broader filler + anti-wrinkle + aesthetician regimens." }
+    { num: "12", title: "Combined Programme Clients", age: "Multiple ages", desc: "Dr. Anusha coordinates mesotherapy timing across broader filler + anti-wrinkle + aesthetician regimens." }
   ],
   contraindication: {
     title: "Comprehensive Contraindication Notice",
@@ -207,7 +207,7 @@ export const mesotherapyDesignedFor = {
       "Active malignancy or cutaneous malignancy history",
       "Recent active acne therapy or Roaccutane regimen",
       "Age under 18 — no delivery to minors",
-      "Bleeding disorders — Medical Director review",
+      "Bleeding disorders — Dr. Anusha review",
       "Active herpes simplex outbreak near treatment area",
       "Autoimmune disease with unstable control",
       "Keloid or hypertrophic scarring tendency",
@@ -217,11 +217,11 @@ export const mesotherapyDesignedFor = {
       "Immunosuppressive therapy",
       "Needle phobia or vasovagal history"
     ],
-    footer: "All contraindication decisions are made by the Medical Director. Learn more about our <a href=\"/departments/dermatology-jvc/\" class=\"text-[#C8A87F] hover:underline\">Dermatology</a> department."
+    footer: "All contraindication decisions are made by the Dr. Anusha. Learn more about our <a href=\"/departments/dermatology-jvc/\" class=\"text-[#C8A87F] hover:underline\">Dermatology</a> department."
   },
   banner: {
     title: "Recognize yourself in any of these populations?",
-    subtitle: "Book Medical Director consultation to discuss whether mesotherapy fits your specific indication and goals.\n45-60 min, full risk disclosure basis. No pressure to treat same-day.",
+    subtitle: "Book Dr. Anusha consultation to discuss whether mesotherapy fits your specific indication and goals.\n45-60 min, full risk disclosure basis. No pressure to treat same-day.",
     btn1: "Book Consultation at JVC",
     btn2: "WhatsApp Us"
   }
@@ -230,15 +230,15 @@ export const mesotherapyDesignedFor = {
 export const mesotherapyProtocol = {
   sectionLabel: "SECTION 8",
   title: "The 10-Step Protocol",
-  subtitle: "The Vedara Care JVC Mesotherapy protocol runs 45-75 minutes across ten defined steps — from Medical Director consultation confirmation through post-treatment care briefing and next session scheduling.",
+  subtitle: "The Vedara Care JVC Mesotherapy protocol runs 45-75 minutes across ten defined steps — from Dr. Anusha consultation confirmation through post-treatment care briefing and next session scheduling.",
   steps: [
-    { num: "01", title: "Consultation Confirmation", duration: "5-10 min", desc: "Medical Director reviews consultation record, updated medical history, allergy verification. Informed consent confirmation." },
+    { num: "01", title: "Consultation Confirmation", duration: "5-10 min", desc: "Dr. Anusha reviews consultation record, updated medical history, allergy verification. Informed consent confirmation." },
     { num: "02", title: "Formulation Preparation", duration: "5 min", desc: "Selected formulation retrieved, expiration and lot verification, loaded into syringe or mesogun cartridge under sterile handling." },
     { num: "03", title: "Cleansing & Sterile Field", duration: "5 min", desc: "Treatment area cleansed with medical grade antiseptic, sterile drape applied where indicated." },
     { num: "04", title: "Topical Anaesthetic", duration: "15-20 min", desc: "Compounded topical anaesthetic (lidocaine-based) applied to treatment area, with wrap where appropriate, onset 15-20 minutes." },
     { num: "05", title: "Skin Analysis Update", duration: "5 min", desc: "Arfah connects with analysis during anaesthetic onset — hydration, erythema, texture — informing any final protocol adjustment." },
     { num: "06", title: "Anaesthetic Removal & Re-cleanse", duration: "5 min", desc: "Anaesthetic removed, area re-cleansed with antiseptic to maintain sterile field." },
-    { num: "07", title: "Mesotherapy Delivery by Medical Director", duration: "15-30 min", desc: "Formulation delivered via chosen technique: manual nappage, point-by-point, papule technique, or mesogun delivery." },
+    { num: "07", title: "Mesotherapy Delivery by Dr. Anusha", duration: "15-30 min", desc: "Formulation delivered via chosen technique: manual nappage, point-by-point, papule technique, or mesogun delivery." },
     { num: "08", title: "Post-Procedure Assessment", duration: "5-10 min", desc: "Treatment area assessed, cold compress applied to reduce immediate swelling and/or pinpoint risk." },
     { num: "09", title: "Cool-Down & Barrier Support", duration: "5-10 min", desc: "Sterile HA post-procedure serum applied. LED guided or cooling mask as required." },
     { num: "10", title: "Care Briefing & Next Session", duration: "5-10 min", desc: "Verbal and written care instructions, Next session confirmed at 2-3 week interval. Total: 45-75 min." }
@@ -254,26 +254,26 @@ export const mesotherapyProtocol = {
       { attr: "Downtime", values: ["24-48 hours", "24-72 hours", "Minimal (24-72h adjunct)", "24-48 hours", "24-72 hours"] },
       { attr: "Primary mechanism", values: ["Direct dermal active ingredient delivery", "Autologous growth factor release", "Exosome cargo delivery", "Sustained HA hydration", "Immediate volume"] },
       { attr: "Effect timing", values: ["Immediate hydration + cumulative", "Subtle & 12 weeks", "Immediate barrier / cumulative", "Immediate + cumulative", "Immediate volume"] },
-      { attr: "Formulation customization", values: ["High — Medical Director selects per indication", "Limited — autologous variable", "Limited — product defined", "Limited — HA defined", "Limited — product defined"] }
+      { attr: "Formulation customization", values: ["High — Dr. Anusha selects per indication", "Limited — autologous variable", "Limited — product defined", "Limited — HA defined", "Limited — product defined"] }
     ],
-    footer: "Honest clinical comparison — no absolute claim on which modality is \"best.\" Selection depends on indication, practitioner scope, and Medical Director assessment."
+    footer: "Honest clinical comparison — no absolute claim on which modality is \"best.\" Selection depends on indication, practitioner scope, and Dr. Anusha assessment."
   }
 };
 
 export const mesotherapyCadence = {
   sectionLabel: "SECTION 9",
   title: "Patient Journey & Programme Cadence",
-  subtitle: "A typical Vedara Care JVC Mesotherapy programme runs across 5 phases — from Medical Director consultation through initial session, 4-6 session core course, transition review, and ongoing maintenance.",
+  subtitle: "A typical Vedara Care JVC Mesotherapy programme runs across 5 phases — from Dr. Anusha consultation through initial session, 4-6 session core course, transition review, and ongoing maintenance.",
   phases: [
-    { step: "0", title: "Medical Director Consultation & Skin Analysis", label: "Session 0", desc: "Standalone appointment. No treatment same-day. 45-60 min. Medical history, allergy screening, skin analysis, indication assessment, formulation disclosure, treatment plan + cost breakdown." },
+    { step: "0", title: "Dr. Anusha Consultation & Skin Analysis", label: "Session 0", desc: "Standalone appointment. No treatment same-day. 45-60 min. Medical history, allergy screening, skin analysis, indication assessment, formulation disclosure, treatment plan + cost breakdown." },
     { step: "1", title: "Initial Session", label: "Session 1", desc: "First session establishes formulation tolerance, injection comfort, and post-procedure response profile. Post-session photography with consent for internal outcome tracking." },
     { step: "2-6", title: "4-6 Session Core Course", label: "2-3 week intervals", desc: "Sessions follow the same protocol. Cadence adjusted per response. Wedding preparation clients often follow tighter 2-week cadence. Documentation at Sessions 1, 3, and 6." },
-    { step: "R", title: "Transition Review", label: "4-6 weeks post-course", desc: "Medical Director reviews assesses cumulative response, discusses course extension where indicated, designs maintenance cadence." },
+    { step: "R", title: "Transition Review", label: "4-6 weeks post-course", desc: "Dr. Anusha reviews assesses cumulative response, discusses course extension where indicated, designs maintenance cadence." },
     { step: "âˆž", title: "Ongoing Maintenance", label: "Monthly or quarterly", desc: "Monthly for \"glow\" indication clients. Quarterly for anti-aging. Wedding preparation clients transition to periodic maintenance post-event." }
   ],
   banner: {
     title: "Ready to design your mesotherapy programme?",
-    subtitle: "Book Medical Director consultation to receive a written treatment plan matched to your indication, timeline, and budget.\nConsultation slots book 2-3 weeks ahead — reserve yours now.",
+    subtitle: "Book Dr. Anusha consultation to receive a written treatment plan matched to your indication, timeline, and budget.\nConsultation slots book 2-3 weeks ahead — reserve yours now.",
     btn1: "Book Consultation at JVC",
     btn2: "WhatsApp Us"
   }
@@ -319,7 +319,7 @@ export const mesotherapyPractitioner = {
   title: "Your Practitioner Team",
   primary: {
     role: "PRIMARY PRACTITIONER",
-    name: "Medical Director",
+    name: "Dr. Anusha",
     credentials: "DHA-Licensed Consultant Dermatologist",
     points: [
       "DHA (Dubai Health Authority) Consultant Dermatologist Licence",
@@ -341,16 +341,16 @@ export const mesotherapyPractitioner = {
       "9+ years hands-on aesthetic delivery experience",
       "Languages: Arabic, English, Hindi, Urdu — female practitioner"
     ],
-    quote: "\"My role in the mesotherapy programme is what surrounds the Medical Director's injection — skin analysis at consultation, post-procedure care, and coordination with the client's broader programme. I never deliver mesotherapy injections — that's physician scope — but the integrated care model is what makes the outcome coherent.\""
+    quote: "\"My role in the mesotherapy programme is what surrounds the Dr. Anusha's injection — skin analysis at consultation, post-procedure care, and coordination with the client's broader programme. I never deliver mesotherapy injections — that's physician scope — but the integrated care model is what makes the outcome coherent.\""
   },
   nursing: {
     icon: "ðŸ¥",
     title: "DHA-Licensed Nursing Team",
-    desc: "Supports patient preparation, sterile field maintenance, and post-procedure care under Medical Director oversight."
+    desc: "Supports patient preparation, sterile field maintenance, and post-procedure care under Dr. Anusha oversight."
   },
   banner: {
     title: "Meet the team that will design and deliver your mesotherapy programme.",
-    subtitle: "Book consultation to speak directly with the Medical Director and receive your formulation recommendation. DHA-Licensed Consultant Dermatologist. Female aesthetician support. Multilingual delivery.",
+    subtitle: "Book consultation to speak directly with the Dr. Anusha and receive your formulation recommendation. DHA-Licensed Consultant Dermatologist. Female aesthetician support. Multilingual delivery.",
     btn1: "Book Consultation at JVC",
     btn2: "WhatsApp Us"
   }
@@ -370,7 +370,7 @@ export const mesotherapyInvestment = {
   table: {
     headers: ["Option", "Description", "Duration", "Indicative Investment"],
     rows: [
-      { option: "Medical Director Consultation (Session 0)", desc: "Medical history, allergy screening, skin analysis, formulation disclosure, treatment plan design", duration: "45-60 min", investment: "AED [X] — credited toward first session" },
+      { option: "Dr. Anusha Consultation (Session 0)", desc: "Medical history, allergy screening, skin analysis, formulation disclosure, treatment plan design", duration: "45-60 min", investment: "AED [X] — credited toward first session" },
       { option: "Mesotherapy \"Glow\" Formulation — Single Session", desc: "Hydration-focused formulation, full face", duration: "45-60 min", investment: "AED [X]" },
       { option: "Mesotherapy Glow — 4-Session Course", desc: "Discount vs single-session sum", duration: "Each 45-60 min", investment: "AED [X] course" },
       { option: "Mesotherapy Glow — 8-Session Course", desc: "Extended course, additional discount", duration: "Each 45-60 min", investment: "AED [X] course" },
@@ -391,7 +391,7 @@ export const mesotherapyInvestment = {
   ],
   banner: {
     title: "Programme course investment feels right for your indication?",
-    subtitle: "Book Medical Director consultation to confirm formulation selection and finalize your programme design. Course booking discounts vs single-session sum.\nWritten treatment plan provided at consultation.",
+    subtitle: "Book Dr. Anusha consultation to confirm formulation selection and finalize your programme design. Course booking discounts vs single-session sum.\nWritten treatment plan provided at consultation.",
     btn1: "Book Consultation at JVC",
     btn2: "WhatsApp Us"
   }
@@ -407,9 +407,9 @@ export const schema1 = {
   "description": "Physician-delivered aesthetic protocol using custom-formulated micro-injection of vitamins, amino acids, hyaluronic acid, peptides, coenzymes, and antioxidants directly to the mid-dermal skin layer. Delivered by DHA-Licensed Consultant Dermatologist at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — via manual nappage technique, point-by-point injection, papule technique, or mesogun mechanical delivery. Formulation is customized per indication (hydration glow, anti-aging, environmental recovery, wedding preparation, sensitive skin protocol). Adjunct aesthetician support from Arfah Owais (DHA-Licensed) for skin analysis and post-procedure care.",
   "procedureType": "https://schema.org/TherapeuticProcedure",
   "bodyLocation": ["Face", "Neck", "Décolleté"],
-  "howPerformed": "The Vedara Care JVC Mesotherapy protocol runs across 10 defined steps: (1) Consultation confirmation and medical history verification 5-10 min; (2) Formulation preparation and verification 5 min; (3) Cleansing and sterile field preparation 5 min; (4) Topical anaesthetic application with 15-20 min onset; (5) Skin analysis update 5 min (often during anaesthetic onset); (6) Anaesthetic removal and re-cleanse 5 min; (7) Mesotherapy delivery by Medical Director via manual nappage, point-by-point, papule, or mesogun technique 15-30 min; (8) Immediate post-procedure assessment and cold compress 5-10 min; (9) Cool-down and barrier support application 5-10 min; (10) Post-treatment care briefing and next session scheduling 5-10 min. Total 45-75 min per session.",
-  "preparation": "Medical Director consultation required before first session. Medical history and allergy screening. Discontinue retinoids and acids 3-5 days pre-treatment. Discontinue blood-thinning supplements 2-3 days pre-treatment where medically appropriate. Well-hydrated day of procedure. Sun protection SPF 50+ zinc-based pre and post treatment. Written informed consent.",
-  "followup": "Post-treatment care includes cold compress cadence, strict SPF 50+ for 7 days, retinoid/acid avoidance 3-5 days, vigorous exercise avoidance 24 hours, alcohol avoidance 24 hours, blood-thinning supplement avoidance 2-3 days, gentle cleansing and ceramide barrier support. Course of 4-6 sessions at 2-3 week intervals for standard indications. Monthly or quarterly maintenance post-course. 24/7 contact protocol for post-treatment concerns.",
+  "howPerformed": "The Vedara Care JVC Mesotherapy protocol runs across 10 defined steps: (1) Consultation confirmation and medical history verification 5-10 min; (2) Formulation preparation and verification 5 min; (3) Cleansing and sterile field preparation 5 min; (4) Topical anaesthetic application with 15-20 min onset; (5) Skin analysis update 5 min (often during anaesthetic onset); (6) Anaesthetic removal and re-cleanse 5 min; (7) Mesotherapy delivery by Dr. Anusha via manual nappage, point-by-point, papule, or mesogun technique 15-30 min; (8) Immediate post-procedure assessment and cold compress 5-10 min; (9) Cool-down and barrier support application 5-10 min; (10) Post-treatment care briefing and next session scheduling 5-10 min. Total 45-75 min per session.",
+  "preparation": "Dr. Anusha consultation required before first session. Medical history and allergy screening. Discontinue retinoids and acids 3-5 days pre-treatment. Discontinue blood-thinning supplements 2-3 days pre-treatment where medically appropriate. Well-hydrated day of procedure. Sun protection SPF 50+ zinc-based pre and post treatment. Written informed consent.",
+  "followup": "Post-treatment care includes cold compress cadence, strict SPF 50+ for 7 days, retinoid/acid avoidance 3-5 days, vigorous exercise avoidance 24 hours, alcohol avoidance 24 hours, blood-thinning supplement avoidance 2-3 days, gentle cleansing and ceramide barrier support. Course of 4-6 sessions at 2-3 week intervals for standard indications. Monthly or quarterly maintenance post-course. Dedicated contact protocol for post-treatment concerns.",
   "status": "https://schema.org/EnrollingByInvitation",
   "performer": [
     { "@id": "https://vedaracare.ae/team/[medical-director-slug]/#person" },
@@ -560,8 +560,8 @@ export const schema3 = [
     "@context": "https://schema.org",
     "@type": "Service",
     "@id": "https://vedaracare.ae/treatments/mesotherapy-skin-revitalization-jvc/#service-consultation",
-    "name": "Mesotherapy Consultation with Medical Director",
-    "description": "Standalone 45-60 minute Medical Director consultation with medical history review, skin analysis, formulation disclosure, treatment plan design, alternative pathway discussion. No treatment same-day.",
+    "name": "Mesotherapy Consultation with Dr. Anusha",
+    "description": "Standalone 45-60 minute Dr. Anusha consultation with medical history review, skin analysis, formulation disclosure, treatment plan design, alternative pathway discussion. No treatment same-day.",
     "serviceType": "Medical Consultation — Aesthetic Regenerative",
     "provider": { "@id": "https://vedaracare.ae/team/[medical-director-slug]/#person" },
     "areaServed": { "@type": "Place", "name": "Jumeirah Village Circle (JVC), Dubai" }
@@ -584,8 +584,8 @@ export const schema5 = {
   "@id": "https://vedaracare.ae/treatments/mesotherapy-skin-revitalization-jvc/#faqpage",
   "mainEntity": [
     { "@type": "Question", "name": "What is mesotherapy skin revitalization?", "acceptedAnswer": { "@type": "Answer", "text": "Mesotherapy skin revitalization is a physician-delivered micro-injection protocol that delivers custom formulations of vitamins, amino acids, hyaluronic acid, peptides, and antioxidants directly to the mid-dermal skin layer. At Vedara Care Polyclinic in JVC Dubai, mesotherapy is delivered by our DHA-Licensed Consultant Dermatologist with support from DHA-Licensed Nursing and aesthetician Arfah Owais for pre and post-procedure care." } },
-    { "@type": "Question", "name": "How much does mesotherapy cost in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "Mesotherapy pricing at Vedara Care JVC ranges from AED [X] for single-session hydration glow mesotherapy to AED [X] for extended anti-aging or wedding preparation programmes. The standard 4-session course offers meaningful discount vs single-session sum. Consultation with Medical Director is a separate appointment at AED [X], credited toward the first session if programme booked." } },
-    { "@type": "Question", "name": "Is mesotherapy safe?", "acceptedAnswer": { "@type": "Answer", "text": "Mesotherapy at Vedara Care JVC is delivered by our Medical Director (DHA-Licensed Consultant Dermatologist) using formulations aligned with CE-marked regulatory frameworks. The technique has been established since 1958 and has extensive peer-reviewed evidence base. Contraindications including allergies, bleeding disorders, and anticoagulant therapy are reviewed at consultation." } },
+    { "@type": "Question", "name": "How much does mesotherapy cost in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "Mesotherapy pricing at Vedara Care JVC ranges from AED [X] for single-session hydration glow mesotherapy to AED [X] for extended anti-aging or wedding preparation programmes. The standard 4-session course offers meaningful discount vs single-session sum. Consultation with Dr. Anusha is a separate appointment at AED [X], credited toward the first session if programme booked." } },
+    { "@type": "Question", "name": "Is mesotherapy safe?", "acceptedAnswer": { "@type": "Answer", "text": "Mesotherapy at Vedara Care JVC is delivered by our Dr. Anusha (DHA-Licensed Consultant Dermatologist) using formulations aligned with CE-marked regulatory frameworks. The technique has been established since 1958 and has extensive peer-reviewed evidence base. Contraindications including allergies, bleeding disorders, and anticoagulant therapy are reviewed at consultation." } },
     { "@type": "Question", "name": "How many mesotherapy sessions do I need?", "acceptedAnswer": { "@type": "Answer", "text": "Standard Vedara Care JVC mesotherapy course is 4-6 sessions at 2-3 week intervals, followed by monthly or quarterly maintenance. Specific course length depends on indication — hydration glow programmes typically 4 sessions, anti-aging programmes 6 sessions, wedding preparation coordinated across bridal timeline." } },
     { "@type": "Question", "name": "What is the recovery time after mesotherapy?", "acceptedAnswer": { "@type": "Answer", "text": "Mesotherapy downtime is 24-48 hours — mild swelling, small injection marks visible for 12-24 hours, occasional pinpoint bruising resolving within 3-5 days. Most patients return to normal activity the day after treatment." } },
     { "@type": "Question", "name": "Does mesotherapy hurt?", "acceptedAnswer": { "@type": "Answer", "text": "Topical anaesthetic is applied 15-20 minutes before mesotherapy to reduce sensation to tolerable pressure or occasional pinpoint sharpness. Mesogun delivery is often reported as more comfortable than manual injection. Most patients rate mesotherapy comfort as mild-to-moderate, well-tolerated." } },
@@ -594,15 +594,15 @@ export const schema5 = {
     { "@type": "Question", "name": "What is the difference between mesotherapy and skin booster?", "acceptedAnswer": { "@type": "Answer", "text": "Skin boosters are essentially a specific subcategory of mesotherapy focused on injectable hyaluronic acid for tissue hydration. Broader mesotherapy protocols include HA but also vitamins, peptides, antioxidants, and other ingredients selected per indication. Mesotherapy offers wider formulation customization." } },
     { "@type": "Question", "name": "Can mesotherapy help with dull skin?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — dullness is one of the primary mesotherapy indications, and the glow effect refers largely to this outcome. Formulation typically includes hyaluronic acid, vitamin C, amino acids, and antioxidants. Multi-session course produces cumulative luminosity improvement." } },
     { "@type": "Question", "name": "Can mesotherapy help before my wedding?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — wedding preparation is a common Vedara Care JVC mesotherapy indication. Programme design coordinates session timing with wedding date — bulk of sessions 6-12 weeks pre-event, final session 2-3 weeks pre-event for optimal timing. Consultation should ideally occur 4-6 months before wedding date." } },
-    { "@type": "Question", "name": "Can I have mesotherapy during pregnancy or breastfeeding?", "acceptedAnswer": { "@type": "Answer", "text": "Vedara Care JVC takes a precautionary approach to mesotherapy during pregnancy and lactation — typically deferred until post-lactation. Medical Director reviews individually." } },
+    { "@type": "Question", "name": "Can I have mesotherapy during pregnancy or breastfeeding?", "acceptedAnswer": { "@type": "Answer", "text": "Vedara Care JVC takes a precautionary approach to mesotherapy during pregnancy and lactation — typically deferred until post-lactation. Dr. Anusha reviews individually." } },
     { "@type": "Question", "name": "Can mesotherapy help Fitzpatrick IV-VI skin tones?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — mesotherapy is generally well-tolerated in Fitzpatrick IV-VI with appropriate formulation adjustment. Female practitioner support and Arabic, Hindi, Urdu language delivery available." } },
     { "@type": "Question", "name": "How long does it take to see results from mesotherapy?", "acceptedAnswer": { "@type": "Answer", "text": "Immediate hydration and mild luminosity improvement is often perceptible within 24-48 hours post-first session. Measurable cumulative improvement builds across the 4-6 session course. Individual response varies." } },
-    { "@type": "Question", "name": "Can I combine mesotherapy with Botox or fillers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — mesotherapy addresses dermal quality, anti-wrinkle injection addresses dynamic wrinkles, filler addresses volume. These are complementary. Medical Director coordinates timing — typically mesotherapy sessions scheduled 2 weeks before or after other injectable appointments." } },
+    { "@type": "Question", "name": "Can I combine mesotherapy with Botox or fillers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — mesotherapy addresses dermal quality, anti-wrinkle injection addresses dynamic wrinkles, filler addresses volume. These are complementary. Dr. Anusha coordinates timing — typically mesotherapy sessions scheduled 2 weeks before or after other injectable appointments." } },
     { "@type": "Question", "name": "Where in JVC is Vedara Care Polyclinic located?", "acceptedAnswer": { "@type": "Answer", "text": "Vedara Care Polyclinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School." } },
     { "@type": "Question", "name": "Does insurance cover mesotherapy in Dubai?", "acceptedAnswer": { "@type": "Answer", "text": "Aesthetic mesotherapy protocols are typically not covered by health insurance in the UAE. Vedara Care JVC operates insurance on reimbursement basis, not direct billing." } },
     { "@type": "Question", "name": "Do you deliver mesotherapy to men?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — mesotherapy is delivered to male clients at Vedara Care JVC. Male aesthetic patients particularly seek mesotherapy for skin quality and understated regenerative programmes." } },
-    { "@type": "Question", "name": "What if I have a reaction after the treatment?", "acceptedAnswer": { "@type": "Answer", "text": "Vedara Care JVC provides a 24/7 contact protocol for post-treatment concerns. Any adverse reaction is reviewed by the Medical Director. Post-treatment care instructions include specific guidance on when to contact the clinic." } },
-    { "@type": "Question", "name": "How do I book a mesotherapy consultation at JVC?", "acceptedAnswer": { "@type": "Answer", "text": "Book Medical Director consultation via the primary CTA on this page, via WhatsApp, or by calling Vedara Care JVC directly. Consultation is a standalone appointment — no treatment same-day — typically 45-60 minutes. Consultation slots book 2-3 weeks in advance." } }
+    { "@type": "Question", "name": "What if I have a reaction after the treatment?", "acceptedAnswer": { "@type": "Answer", "text": "Vedara Care JVC provides a contact protocol for post-treatment concerns. Any adverse reaction is reviewed by Dr. Anusha. Post-treatment care instructions include specific guidance on when to contact the clinic." } },
+    { "@type": "Question", "name": "How do I book a mesotherapy consultation at JVC?", "acceptedAnswer": { "@type": "Answer", "text": "Book Dr. Anusha consultation via the primary CTA on this page, via WhatsApp, or by calling Vedara Care JVC directly. Consultation is a standalone appointment — no treatment same-day — typically 45-60 minutes. Consultation slots book 2-3 weeks in advance." } }
   ]
 };
 
@@ -619,7 +619,7 @@ export const schema6 = {
   "description": "The physician-delivered protocol for Mesotherapy Skin Revitalization at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai — custom-formulation micro-injection to mid-dermal layer via manual nappage, point-by-point, papule, or mesogun technique.",
   "totalTime": "PT75M",
   "supply": [
-    { "@type": "HowToSupply", "name": "Custom mesotherapy formulation (vitamins, amino acids, HA, peptides, antioxidants — Medical Director-selected per indication)" },
+    { "@type": "HowToSupply", "name": "Custom mesotherapy formulation (vitamins, amino acids, HA, peptides, antioxidants — Dr. Anusha-selected per indication)" },
     { "@type": "HowToSupply", "name": "Compounded topical anaesthetic (lidocaine-based)" },
     { "@type": "HowToSupply", "name": "Medical-grade antiseptic" },
     { "@type": "HowToSupply", "name": "Sterile syringes and needles for manual injection" },
@@ -636,13 +636,13 @@ export const schema6 = {
     { "@type": "HowToTool", "name": "Photography setup for documentation" }
   ],
   "step": [
-    { "@type": "HowToStep", "position": 1, "name": "Consultation confirmation and medical history verification", "text": "Medical Director reviews consultation record, updated medical history, allergy verification for formulation ingredients, informed consent confirmation.", "timeRequired": "PT10M" },
+    { "@type": "HowToStep", "position": 1, "name": "Consultation confirmation and medical history verification", "text": "Dr. Anusha reviews consultation record, updated medical history, allergy verification for formulation ingredients, informed consent confirmation.", "timeRequired": "PT10M" },
     { "@type": "HowToStep", "position": 2, "name": "Formulation preparation and verification", "text": "Selected formulation retrieved, expiration and lot verification, loaded into syringe or mesogun cartridge under sterile handling.", "timeRequired": "PT5M" },
     { "@type": "HowToStep", "position": 3, "name": "Cleansing and sterile field preparation", "text": "Treatment area cleansed with medical-grade antiseptic, sterile drape applied where indicated.", "timeRequired": "PT5M" },
     { "@type": "HowToStep", "position": 4, "name": "Topical anaesthetic application", "text": "Compounded topical anaesthetic applied to treatment area, occlusion where appropriate, onset time 15-20 minutes.", "timeRequired": "PT20M" },
     { "@type": "HowToStep", "position": 5, "name": "Skin analysis update", "text": "Rapid skin analysis using consultation reference points during anaesthetic onset window.", "timeRequired": "PT5M" },
     { "@type": "HowToStep", "position": 6, "name": "Anaesthetic removal and re-cleanse", "text": "Anaesthetic removed, area re-cleansed with antiseptic to maintain sterile field.", "timeRequired": "PT5M" },
-    { "@type": "HowToStep", "position": 7, "name": "Mesotherapy delivery by Medical Director", "text": "Formulation delivered via manual nappage, point-by-point, papule technique, or mesogun mechanical delivery selected per indication and patient tolerance.", "timeRequired": "PT30M" },
+    { "@type": "HowToStep", "position": 7, "name": "Mesotherapy delivery by Dr. Anusha", "text": "Formulation delivered via manual nappage, point-by-point, papule technique, or mesogun mechanical delivery selected per indication and patient tolerance.", "timeRequired": "PT30M" },
     { "@type": "HowToStep", "position": 8, "name": "Immediate post-procedure assessment and cold compress", "text": "Treatment area assessed, cold compress applied to reduce swelling and bruising risk.", "timeRequired": "PT10M" },
     { "@type": "HowToStep", "position": 9, "name": "Cool-down and barrier support application", "text": "Sterile hyaluronic acid or ceramide barrier support applied. Cool globes or cooling mask as needed.", "timeRequired": "PT10M" },
     { "@type": "HowToStep", "position": 10, "name": "Post-treatment care briefing and next session scheduling", "text": "Verbal and written instruction on cold compress, exercise/alcohol avoidance 24h, SPF 50+ zinc for 7 days, retinoid/acid pause 3-5 days. Next session confirmed at 2-3 week interval.", "timeRequired": "PT10M" }
@@ -693,8 +693,8 @@ export const schema8 = [
     "@context": "https://schema.org",
     "@type": "Person",
     "@id": "https://vedaracare.ae/team/[medical-director-slug]/#person",
-    "name": "[Medical Director Name — OPERATIONAL: confirm]",
-    "jobTitle": "Medical Director, DHA-Licensed Consultant Dermatologist",
+    "name": "[Dr. Anusha Name — OPERATIONAL: confirm]",
+    "jobTitle": "Dr. Anusha, DHA-Licensed Consultant Dermatologist",
     "worksFor": { "@id": "https://vedaracare.ae/#organization" },
     "workLocation": { "@id": "https://vedaracare.ae/#medicalbusiness" },
     "hasCredential": [

@@ -9,7 +9,7 @@ function walkDir(dir, callback) {
   });
 }
 
-const targetDir = 'c:/Users/pc/Documents/vedacare/vedaraCare/';
+const targetDir = path.join(__dirname);
 let filesModified = 0;
 
 walkDir(targetDir, function (filePath) {
@@ -18,20 +18,28 @@ walkDir(targetDir, function (filePath) {
     let content = fs.readFileSync(filePath, 'utf8');
     let original = content;
 
-    content = content.replace(/"ratingValue"\s*:\s*"4\.9"/g, '"ratingValue": "4.5"');
-    content = content.replace(/"reviewCount"\s*:\s*"\d+"/g, '"reviewCount": "15"');
-
-    // UI components
-    content = content.replace(/value:\s*['"]4\.9['"]/gi, 'value: "4.5"');
-    content = content.replace(/value:\s*['"]4\.9★['"]/gi, 'value: "4.5"');
-    content = content.replace(/label:\s*['"]4\.9 stars on Google['"]/gi, 'label: "stars on Google"');
-    content = content.replace(/ratingText:\s*['"]4\.9 rated on Google['"]/g, "ratingText: '4.5 rated on Google'");
-    content = content.replace(/\{ label: "4\.9 Google Rating", type: "star" \}/g, '{ label: "4.5 Google Rating", type: "star" }');
-
-    // Also look for "19" in reviews if any
-    content = content.replace(/label:\s*['"]19\s*stars on Google['"]/gi, 'label: "15 stars on Google"'); // Though it's probably "15 reviews"
-    content = content.replace(/value:\s*['"]19['"],\s*label:\s*['"]reviews/gi, 'value: "15", label: "reviews');
-
+    // Schema JSON-LD ratings
+    content = content.replace(/"ratingValue"\s*:\s*"4\.5"/g, '"ratingValue": "4.6"');
+    
+    // UI components and stats
+    content = content.replace(/value:\s*['"]4\.5['"]/gi, 'value: "4.6"');
+    content = content.replace(/value:\s*['"]4\.5★['"]/gi, 'value: "4.6★"');
+    content = content.replace(/label:\s*['"]4\.5 stars on Google['"]/gi, 'label: "stars on Google"');
+    content = content.replace(/ratingText:\s*['"]4\.5 rated on Google['"]/gi, "ratingText: '4.6 rated on Google'");
+    content = content.replace(/\{\s*label:\s*['"]4\.5 Google Rating['"],\s*type:\s*['"]star['"]\s*\}/g, '{ label: "4.6 Google Rating", type: "star" }');
+    
+    // HTML/JSX specific text replacements
+    content = content.replace(/>4\.5</g, '>4.6<');
+    content = content.replace(/>4\.5 stars on Google</g, '>4.6 stars on Google<');
+    content = content.replace(/"4\.5 stars on Google"/g, '"4.6 stars on Google"');
+    content = content.replace(/'4\.5 stars on Google'/g, "'4.6 stars on Google'");
+    
+    // Review counts update (assuming they wanted "15" or similar based on existing script)
+    // Actually the user just said: "in every pages show 4.5 reviews show 4.6 in whole website"
+    
+    // Additional general string matching for specific components
+    content = content.replace(/4\.5\s*stars on Google/gi, '4.6 stars on Google');
+    
     if (content !== original) {
       fs.writeFileSync(filePath, content, 'utf8');
       filesModified++;

@@ -10,6 +10,7 @@ import FAQ from '../../components/home/FAQ';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
+import { physioReviewsBlock } from '../../data/googleReviews';
 
 import {
   manualTherapyHero,
@@ -96,8 +97,8 @@ const ManualTherapyDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "15",
+        "ratingValue": "4.7",
+        "reviewCount": "23",
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -281,7 +282,7 @@ const ManualTherapyDubai = () => {
           bgColor={manualTherapyTeam.bgColor}
         />
 
-        <TreatmentReviews {...manualTherapyReviews} />
+        <TreatmentReviews {...physioReviewsBlock()} />
         <ManualTherapyPricing 
           bgColor={manualTherapyPricing.bgColor}
           label={manualTherapyPricing.label}

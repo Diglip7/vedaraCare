@@ -9,6 +9,8 @@ import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
 import PelvicFloorAssessment from '../../components/ayurveda/PelvicFloorAssessment';
 import { SciaticaTreatment } from '../../components/ayurveda/SciaticaSections';
+import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
+import { physioReviewsBlock } from '../../data/googleReviews';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
 import {
   pelvicFloorHero,
@@ -43,7 +45,7 @@ const PelvicFloorDubai = () => {
       "alternateName": ["Vedara Pelvic Floor Physio Dubai", "Vedara Female Pelvic Health JVC"],
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Specialist pelvic floor physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Delivered exclusively by female DPT-qualified physiotherapists. Postnatal pelvic floor recovery, stress urinary incontinence, pregnancy support, diastasis recti. Cultural and modesty considerations respected. Comprehensive external-only assessment standard.",
+      "description": "Specialist pelvic floor physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Pelvic floor physiotherapy at Vedara is delivered by Hafsina K K, DHA-licensed physiotherapist (DHA-P 64812828). Postnatal pelvic floor recovery, stress urinary incontinence, pregnancy support, diastasis recti. Cultural and modesty considerations respected. Comprehensive external-only assessment standard.",
       "telephone": "+971555736312",
       "priceRange": "AED 600 - AED 7,200",
       "address": {
@@ -104,8 +106,8 @@ const PelvicFloorDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "15",
+        "ratingValue": "4.7",
+        "reviewCount": "23",
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -201,7 +203,7 @@ const PelvicFloorDubai = () => {
             "name": "Initial Pelvic Floor Assessment",
             "priceCurrency": "AED",
             "price": "650",
-            "description": "75-90 minute comprehensive assessment with female DPT-qualified specialist"
+            "description": "75-90 minute comprehensive assessment with Hafsina K K"
           },
           {
             "@type": "Offer",
@@ -284,8 +286,8 @@ const PelvicFloorDubai = () => {
     {
       "@context": "https://schema.org",
       "@type": "EducationalCredential",
-      "name": "Doctor of Physical Therapy",
-      "alternateName": "DPT"
+      "name": "Bachelor of Physiotherapy",
+      "alternateName": "BPT"
     },
     // Schema 9: AnatomicalStructure
     {
@@ -496,6 +498,8 @@ const PelvicFloorDubai = () => {
       />
 
       <PelvicFloorAssessment data={pelvicFloorPostnatalSection} />
+
+      <TreatmentReviews {...physioReviewsBlock()} />
 
       <PhysiotherapyTeam
         bgColor="bg-[#F8F4EE]"

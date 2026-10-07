@@ -205,22 +205,22 @@ const AyurvedicMassageJVC = () => {
   return (
     <>
       <Head>
-        <title>Ayurvedic Massage in JVC, Dubai | Classical Therapy | Vedara Care</title>
-        <meta name="description" content="Authentic Ayurvedic massage in Jumeirah Village Circle — Abhyanga, Shirodhara, Kativasti & more. DHA-licensed, doctor-prescribed, same-gender therapists. From AED 250." />
+        <title>Ayurvedic Massage in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Abhyanga and therapeutic Ayurvedic massage at Vedara Care Polyclinic, Binghatti Azure, JVC. Open daily 9am–10pm." />
          <meta name="robots" content="index, follow, max-image-preview:large" />
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://vedaracare.ae/treatments/ayurvedic-massage-jvc/" />
-        <meta property="og:title" content="Ayurvedic Massage in JVC, Dubai — Abhyanga, Shirodhara & More" />
-        <meta property="og:description" content="Classical Ayurvedic massage at our DHA-licensed clinic in Jumeirah Village Circle. Doctor-prescribed, same-gender therapists. From AED 250." />
+        <meta property="og:title" content="Ayurvedic Massage in JVC, Dubai | Vedara Care" />
+        <meta property="og:description" content="Abhyanga and therapeutic Ayurvedic massage at Vedara Care Polyclinic, Binghatti Azure, JVC. Open daily 9am–10pm." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/ayurvedic-massage-jvc.jpg" />
         <meta property="og:locale" content="en_AE" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://vedaracare.ae/treatments/ayurvedic-massage-jvc/" />
-        <meta name="twitter:title" content="Ayurvedic Massage in JVC, Dubai — Abhyanga, Shirodhara & More" />
-        <meta name="twitter:description" content="Classical Ayurvedic massage at our DHA-licensed clinic in Jumeirah Village Circle. Doctor-prescribed, same-gender therapists. From AED 250." />
+        <meta name="twitter:title" content="Ayurvedic Massage in JVC, Dubai | Vedara Care" />
+        <meta name="twitter:description" content="Abhyanga and therapeutic Ayurvedic massage at Vedara Care Polyclinic, Binghatti Azure, JVC. Open daily 9am–10pm." />
         <meta name="twitter:image" content="https://vedaracare.ae/og-images/ayurvedic-massage-jvc.jpg" />
 
         {/* Canonical & Language Tags */}

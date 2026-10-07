@@ -186,7 +186,7 @@ const PostnatalAyurvedaDubai = () => {
       "lastReviewed": "2026-06-03",
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Priya Sharma",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/postnatal-ayurveda-dubai-hero.jpg"
@@ -249,8 +249,8 @@ const PostnatalAyurvedaDubai = () => {
       "dateModified": "2026-06-03",
       "author": {
         "@type": "Physician",
-        "name": "Dr. Priya Sharma",
-        "url": "https://vedaracare.ae/doctors/dr-priya-sharma-ayurveda/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
       },
       "publisher": {
         "@type": "Organization",
@@ -298,7 +298,7 @@ const PostnatalAyurvedaDubai = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-06-03" />
         <meta property="article:modified_time" content="2026-06-03" />
-        <meta property="article:author" content="Dr. Priya Sharma" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

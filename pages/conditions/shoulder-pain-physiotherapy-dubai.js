@@ -7,6 +7,7 @@ import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
+import { physioReviewsBlock } from '../../data/googleReviews';
 import PhysiotherapyTeam from '../../components/ayurveda/PhysiotherapyTeam';
 import { SciaticaTypes, SciaticaTreatment } from '../../components/ayurveda/SciaticaSections';
 import { ShoulderSurgicalConsiderations, ShoulderActivityPatterns, ShoulderPricing } from '../../components/ayurveda/ShoulderSurgicalConsiderations';
@@ -44,7 +45,7 @@ const ShoulderPainPhysiotherapyDubai = () => {
       "alternateName": ["Vedara Shoulder Physio Dubai", "Vedara Care Shoulder Rehabilitation JVC"],
       "url": "https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Comprehensive shoulder pain physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DPT-qualified specialists treating rotator cuff problems, shoulder impingement, AC joint pain, biceps tendinopathy, shoulder instability, bursitis, calcific tendinopathy, post-surgical recovery, and frozen shoulder. Most shoulder pain responds to evidence-based physiotherapy without surgery.",
+      "description": "Comprehensive shoulder pain physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed specialists treating rotator cuff problems, shoulder impingement, AC joint pain, biceps tendinopathy, shoulder instability, bursitis, calcific tendinopathy, post-surgical recovery, and frozen shoulder. Most shoulder pain responds to evidence-based physiotherapy without surgery.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 300 - AED 25,000",
       "address": {
@@ -107,8 +108,8 @@ const ShoulderPainPhysiotherapyDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "15",
+        "ratingValue": "4.7",
+        "reviewCount": "23",
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -184,7 +185,7 @@ const ShoulderPainPhysiotherapyDubai = () => {
             "name": "Initial Shoulder Pain Assessment",
             "priceCurrency": "AED",
             "price": "350",
-            "description": "60-minute comprehensive shoulder pain assessment with DPT-qualified specialist"
+            "description": "60-minute comprehensive shoulder pain assessment with DHA-licensed specialist"
           },
           {
             "@type": "Offer",
@@ -295,7 +296,7 @@ const ShoulderPainPhysiotherapyDubai = () => {
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
         <meta property="og:title" content="Shoulder Pain Physiotherapy in Dubai — Comprehensive Specialist Care | Vedara JVC" />
-        <meta property="og:description" content="DPT-qualified shoulder specialists at our Jumeirah Village Circle clinic treating the full range of shoulder conditions — rotator cuff problems, impingement, AC joint, biceps tendinopathy, instability, and more. Most shoulder pain responds excellently to evidence-based physiotherapy without surgery." />
+        <meta property="og:description" content="DHA-licensed shoulder specialists at our Jumeirah Village Circle clinic treating the full range of shoulder conditions — rotator cuff problems, impingement, AC joint, biceps tendinopathy, instability, and more. Most shoulder pain responds excellently to evidence-based physiotherapy without surgery." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/shoulder-pain-physiotherapy-dubai.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/" />
         <meta property="og:type" content="business.business" />
@@ -329,7 +330,7 @@ const ShoulderPainPhysiotherapyDubai = () => {
         <ShoulderActivityPatterns data={shoulderPhysioActivityPatterns} />
         <SciaticaTreatment data={shoulderPhysioApproach} showBorderLeft={false} rightContentStyle="tags" bgColor="bg-white" showStepNumbers={true} />
         <ShoulderSurgicalConsiderations data={shoulderPhysioSurgicalConsiderations} />
-        <TreatmentReviews {...shoulderPhysioReviews} />
+        <TreatmentReviews {...physioReviewsBlock()} />
         <PhysiotherapyTeam {...shoulderPhysioTeam} />
         <ShoulderPricing data={shoulderPhysioPricing} />
         <FAQ {...shoulderPhysioFaqs}

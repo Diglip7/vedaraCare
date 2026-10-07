@@ -3,7 +3,7 @@ import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import { SciaticaTreatment } from '../../components/ayurveda/SciaticaSections';
 import PostnatalComponents from '../../components/ayurveda/PostnatalComponents';
-import ManualTherapySession, { HijamaSection, ManualTherapyPricing } from '../../components/ayurveda/ManualTherapySession';
+import ManualTherapySession, { ManualTherapyPricing } from '../../components/ayurveda/ManualTherapySession';
 import PhysiotherapyTeam from '../../components/ayurveda/PhysiotherapyTeam';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import FAQ from '../../components/home/FAQ';
@@ -17,7 +17,6 @@ import {
   cuppingTherapyWhatIs,
   cuppingTherapyConditions,
   cuppingTherapySession,
-  cuppingTherapyHijama,
   cuppingTherapyTeam,
   cuppingTherapyPricing,
   cuppingTherapyReviews,
@@ -36,10 +35,10 @@ const CuppingTherapyDubai = () => {
       "@type": ["MedicalBusiness", "LocalBusiness"],
       "@id": "https://vedaracare.ae/treatments/cupping-therapy-dubai/#cupping",
       "name": "Vedara Care Cupping Therapy",
-      "alternateName": ["Vedara Cupping Dubai", "Vedara Hijama JVC"],
+      "alternateName": ["Vedara Cupping Dubai"],
       "url": "https://vedaracare.ae/treatments/cupping-therapy-dubai/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Specialist cupping therapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Dry cupping, massage cupping, and Hijama (wet cupping) delivered by DHA-licensed practitioners. Sterile single-use equipment for Hijama. Integrated with physiotherapy for musculoskeletal applications. Cultural and religious respect for Hijama as Islamic Sunnah practice.",
+      "description": "Specialist cupping therapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Dry cupping and massage cupping delivered by DHA-licensed practitioners. Integrated with physiotherapy for musculoskeletal applications.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 200 - AED 5,000",
       "address": {
@@ -84,7 +83,6 @@ const CuppingTherapyDubai = () => {
       ],
       "medicalSpecialty": [
         "Cupping Therapy",
-        "Hijama",
         "Traditional Therapy",
         "Physiotherapy Modalities"
       ],
@@ -92,7 +90,6 @@ const CuppingTherapyDubai = () => {
       "availableService": [
         { "@type": "MedicalProcedure", "name": "Dry Cupping" },
         { "@type": "MedicalProcedure", "name": "Massage Cupping" },
-        { "@type": "MedicalProcedure", "name": "Hijama" },
         { "@type": "MedicalProcedure", "name": "Sports Cupping" },
         { "@type": "MedicalProcedure", "name": "Trigger Point Cupping" }
       ],
@@ -102,7 +99,7 @@ const CuppingTherapyDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
+        "ratingValue": "4.6",
         "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
@@ -112,12 +109,12 @@ const CuppingTherapyDubai = () => {
       "@context": "https://schema.org",
       "@type": "MedicalProcedure",
       "name": "Cupping Therapy",
-      "alternateName": ["Cupping", "Hijama", "Wet Cupping", "Dry Cupping", "Massage Cupping"],
-      "description": "Therapy involving application of cups to the skin to create localised suction. Multiple types: dry cupping (suction only), massage cupping (dynamic cup movement with oil), and Hijama (wet cupping with controlled small incisions, with Islamic Sunnah significance).",
+      "alternateName": ["Cupping", "Dry Cupping", "Massage Cupping"],
+      "description": "Therapy involving application of cups to the skin to create localised suction. Multiple types: dry cupping (suction only), and massage cupping (dynamic cup movement with oil).",
       "procedureType": "Therapeutic",
       "bodyLocation": ["Back", "Shoulders", "Neck", "Limbs"],
       "preparation": "Initial assessment and contraindication screening required.",
-      "followup": "Visible marks 1-2 weeks normal. Mild soreness 24-48 hours possible. Hijama requires specific aftercare for incision sites."
+      "followup": "Visible marks 1-2 weeks normal. Mild soreness 24-48 hours possible."
     },
     {
       "@context": "https://schema.org",
@@ -128,7 +125,7 @@ const CuppingTherapyDubai = () => {
         { "@type": "City", "name": "Dubai" },
         { "@type": "Place", "name": "United Arab Emirates" }
       ],
-      "serviceType": "Cupping Therapy and Hijama",
+      "serviceType": "Cupping Therapy",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Cupping Therapy Services",
@@ -146,13 +143,6 @@ const CuppingTherapyDubai = () => {
             "priceCurrency": "AED",
             "price": "300",
             "description": "45-60 minute dynamic cupping with oil"
-          },
-          {
-            "@type": "Offer",
-            "name": "Hijama Session",
-            "priceCurrency": "AED",
-            "price": "350",
-            "description": "Wet cupping with sterile single-use equipment"
           },
           {
             "@type": "Offer",
@@ -208,8 +198,7 @@ const CuppingTherapyDubai = () => {
         "name": "Vedara Care Polyclinic"
       },
       "about": [
-        { "@type": "MedicalProcedure", "name": "Cupping Therapy" },
-        { "@type": "MedicalProcedure", "name": "Hijama" }
+        { "@type": "MedicalProcedure", "name": "Cupping Therapy" }
       ],
       "mainEntityOfPage": "https://vedaracare.ae/treatments/cupping-therapy-dubai/"
     },
@@ -226,11 +215,11 @@ const CuppingTherapyDubai = () => {
   return (
     <>
       <Head>
-        <title>Cupping Therapy in Dubai | Dry Cupping & Hijama | Vedara JVC</title>
-        <meta name="description" content="Specialist cupping therapy at our JVC clinic, Dubai. Dry cupping, massage cupping, and Hijama (wet cupping). DHA-licensed practitioners, sterile single-use equipment. For chronic back pain, sports recovery, muscle tension. Walking distance from Circle Mall." />
+        <title>Cupping Therapy in Dubai | Dry Cupping | Vedara JVC</title>
+        <meta name="description" content="Specialist cupping therapy at our JVC clinic, Dubai. Dry cupping and massage cupping. DHA-licensed practitioners, sterile single-use equipment. For chronic back pain, sports recovery, muscle tension. Walking distance from Circle Mall." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        <meta property="og:title" content="Cupping Therapy in Dubai — Dry Cupping, Massage Cupping, Hijama | Vedara JVC" />
-        <meta property="og:description" content="DHA-licensed cupping therapy at our Jumeirah Village Circle clinic. Dry cupping for chronic back pain and sports recovery, massage cupping for broader tension relief, Hijama (wet cupping) with Islamic Sunnah respect. Sterile single-use equipment. Honest evidence positioning. Cultural and religious respect." />
+        <meta property="og:title" content="Cupping Therapy in Dubai — Dry Cupping, Massage Cupping | Vedara JVC" />
+        <meta property="og:description" content="DHA-licensed cupping therapy at our Jumeirah Village Circle clinic. Dry cupping for chronic back pain and sports recovery, massage cupping for broader tension relief. Sterile single-use equipment. Honest evidence positioning. Cultural and religious respect." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/cupping-therapy-dubai.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/treatments/cupping-therapy-dubai/" />
         <meta property="og:type" content="business.business" />
@@ -279,14 +268,6 @@ const CuppingTherapyDubai = () => {
           subtitle={cuppingTherapySession.subtitle}
           sections={cuppingTherapySession.sections}
           safetyCard={cuppingTherapySession.safetyCard}
-        />
-        <HijamaSection
-          bgColor={cuppingTherapyHijama.bgColor}
-          label={cuppingTherapyHijama.label}
-          title={cuppingTherapyHijama.title}
-          subtitle={cuppingTherapyHijama.subtitle}
-          content={cuppingTherapyHijama.content}
-          rightSide={cuppingTherapyHijama.rightSide}
         />
         <TreatmentReviews {...cuppingTherapyReviews} />
         <PhysiotherapyTeam

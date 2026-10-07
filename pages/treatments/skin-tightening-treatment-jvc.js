@@ -57,7 +57,7 @@ const SkinTighteningTreatment = () => {
               "lastReviewed": "2026-08-21",
               "reviewedBy": {
                 "@type": "Person",
-                "name": "[VERIFIED DERMATOLOGIST NAME]",
+                "name": "Dr. Sanjida Islam Suchana",
                 "jobTitle": "Dermatologist",
                 "url": "[VERIFIED DERMATOLOGIST PROFILE URL]"
               },
@@ -157,7 +157,7 @@ const SkinTighteningTreatment = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "[VERIFIED DERMATOLOGIST NAME]",
+              "name": "Dr. Sanjida Islam Suchana",
               "jobTitle": "Dermatologist",
               "worksFor": { "@type": "MedicalOrganization", "name": "Vedara Care Polyclinic" },
               "hasCredential": {

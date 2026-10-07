@@ -13,7 +13,7 @@ export const thyroidHero = {
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20thyroid%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "We Work With Your Endocrinologist",
-    "320+ Thyroid Patients Treated",
+    "Integrative Thyroid Care",
     "DHA-Licensed Practitioners",
     "Walking Distance from Circle Mall, JVC"
   ],
@@ -30,7 +30,7 @@ export const thyroidIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic thyroid treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for thyroid in Dubai is supportive-integrative care — never a replacement for prescribed thyroid medication. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — structured 6 to 9-month programmes address the autoimmune component in Hashimoto's (anti-TPO and anti-Tg antibodies), the metabolic and constitutional factors affecting how you feel on thyroid medication, residual symptoms despite \"normal\" bloodwork, and concurrent conditions including weight gain, hair loss, and mood changes. Treatment combines classical Panchakarma protocols, specific Ayurvedic medicines (Kanchanara Guggulu, Varunadi Kashayam, dosha-specific formulations), individualised dietary regulation, and lifestyle modification — performed alongside your endocrinologist's conventional management. Initial consultations start from AED 350.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2026"
 };
 
 export const thyroidHonestOpening = {
@@ -253,7 +253,7 @@ export const thyroidOutcomeRanges = {
   headerTextColor: "text-[#1A1A1A]",
   label: "REALISTIC EXPECTATIONS",
   title: "Honest outcomes based on thyroid condition and adherence.",
-  description: "These ranges are based on our 320+ thyroid patients at the JVC clinic with documented bloodwork before and after structured programmes. We measure what changes — and we are explicit about what does not.",
+  description: "These ranges are based on our thyroid patients at the JVC clinic with documented bloodwork before and after structured programmes. We measure what changes — and we are explicit about what does not.",
   tableHeaders: ["Condition", "Bloodwork Changes (9 months)", "Symptom Changes", "Medication Implications"],
   tableRows: [
     {

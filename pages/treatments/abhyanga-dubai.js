@@ -254,7 +254,7 @@ const AbhyangaDubai = () => {
       "lastReviewed": currentDate,
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Priya Menon",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/abhyanga-dubai-hero.webp"
@@ -268,8 +268,8 @@ const AbhyangaDubai = () => {
       "dateModified": currentDate,
       "author": {
         "@type": "Physician",
-        "name": "Dr. Priya Menon",
-        "url": "https://vedaracare.ae/doctors/dr-priya-menon/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
       },
       "publisher": {
         "@type": "Organization",
@@ -313,19 +313,19 @@ const AbhyangaDubai = () => {
     <>
       <Head>
         <title>Abhyanga Massage Dubai | DHA-Licensed Ayurveda | Vedara Care</title>
-        <meta name="description" content="Authentic 90-minute Abhyanga at our DHA-licensed Dubai clinic — two synchronized therapists, dosha-specific medicated oils, traditional Kerala technique. From AED 450." />
+        <meta name="description" content="Authentic 90-minute Abhyanga at our DHA-licensed Dubai clinic — two synchronized therapists, dosha-specific medicated oils, traditional Kerala technique. Prices are shared on WhatsApp." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Abhyanga Massage in Dubai — Classical 90-Minute Ayurvedic Oil Therapy" />
-        <meta property="og:description" content="Two synchronized therapists, dosha-specific medicated oils, traditional Kerala technique. DHA-licensed Ayurvedic Abhyanga in JVC, Dubai. From AED 450." />
+        <meta property="og:description" content="Two synchronized therapists, dosha-specific medicated oils, traditional Kerala technique. DHA-licensed Ayurvedic Abhyanga in JVC, Dubai. Prices are shared on WhatsApp." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/abhyanga-dubai.webp" />
         <meta property="og:url" content="https://vedaracare.ae/treatments/abhyanga-dubai/" />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-05-01" />
         <meta property="article:modified_time" content={currentDate} />
-        <meta property="article:author" content="Dr. Priya Menon" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

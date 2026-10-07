@@ -144,7 +144,7 @@ const ExosomeSkinRejuvenationJVC = () => {
     },
     {
       question: "What if I have a reaction after the treatment?",
-      answer: "Vedara Care JVC provides a 24/7 contact protocol for post-treatment concerns. Any adverse reaction is reviewed by the Medical Director. Post-treatment care instructions include specific guidance on when to contact the clinic. Patch testing is available for first-time exosome clients."
+      answer: "Vedara Care JVC provides a contact protocol for post-treatment concerns. Any adverse reaction is reviewed by the Medical Director. Post-treatment care instructions include specific guidance on when to contact the clinic. Patch testing is available for first-time exosome clients."
     },
     {
       question: "How do I book an exosome consultation at JVC?",

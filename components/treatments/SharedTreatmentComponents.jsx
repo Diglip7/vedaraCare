@@ -42,7 +42,7 @@ export const ClinicLocation = () => {
               <div className="grid grid-cols-[28px_80px_1fr] gap-3 items-start">
                 <span className="text-[15px]">ðŸ’³</span>
                 <span className="font-sans text-[12px] font-medium text-[#777777] tracking-[0.04em] pt-[1px]">Insurance</span>
-                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">Reimbursement basis (not direct billing)</span>
+                <span className="font-sans text-[13px] text-[#1F1F1F] leading-[1.5]">Reimbursement basis</span>
               </div>
             </div>
           </div>

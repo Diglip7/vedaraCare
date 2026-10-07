@@ -12,7 +12,7 @@ export const ayurvedaIbsHero = {
   secondaryCTA: 'Chat on WhatsApp',
   trustSignals: [
     'We Work With Your Gastroenterologist',
-    '400+ IBS Patients Treated',
+    'Structured Gut Protocols',
     'DHA-Licensed Practitioners',
     'Walking Distance from Circle Mall, JVC'
   ],
@@ -28,8 +28,8 @@ export const ayurvedaIbsIntro = {
   bgColor: 'bg-white',
   label: 'THE QUICK ANSWER',
   title: 'Ayurvedic IBS treatment in Dubai, in one paragraph.',
-  blockquote: 'Ayurvedic treatment for IBS in Dubai is a 3 to 6-month structured medical programme combining classical Panchakarma protocols (typically Virechana for IBS with bloating and inflammation; Basti for chronic IBS patterns), specific internal Ayurvedic medicines (Hingvashtaka Churna, Dadimashtaka Churna, Kutaja Ghana Vati, Bilva Marmala, Chitrakadi Vati, and pattern-specific formulations), individualised dietary regulation calibrated to your IBS subtype, and lifestyle protocols addressing the brain-gut axis. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are specific to your subtype (IBS-D, IBS-C, IBS-M, post-infectious, or SIBO-related) and work alongside your gastroenterologist where applicable. Initial consultations start from AED [price].',
-  footer: 'Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026'
+  blockquote: 'Ayurvedic treatment for IBS in Dubai is a 3 to 6-month structured medical programme combining classical Panchakarma protocols (typically Virechana for IBS with bloating and inflammation; Basti for chronic IBS patterns), specific internal Ayurvedic medicines (Hingvashtaka Churna, Dadimashtaka Churna, Kutaja Ghana Vati, Bilva Marmala, Chitrakadi Vati, and pattern-specific formulations), individualised dietary regulation calibrated to your IBS subtype, and lifestyle protocols addressing the brain-gut axis. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are specific to your subtype (IBS-D, IBS-C, IBS-M, post-infectious, or SIBO-related) and work alongside your gastroenterologist where applicable.',
+  footer: 'Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026'
 };
 
 export const ayurvedaIbsArthritisTypes = {
@@ -227,7 +227,6 @@ export const ayurvedaIbsPrograms = {
   programs: [
     {
       name: 'IBS Initial Assessment',
-      price: 'From AED [price]',
       duration: '1 session, 60 minutes at our JVC clinic',
       features: [
         'Comprehensive consultation with BAMS-qualified physician',
@@ -242,7 +241,6 @@ export const ayurvedaIbsPrograms = {
     },
     {
       name: 'Standard 3-Month IBS Programme',
-      price: 'From AED [price]',
       duration: '3 months · ~15-20 visits to our JVC clinic',
       featured: true,
       badge: 'Most Common IBS Programme',
@@ -259,7 +257,6 @@ export const ayurvedaIbsPrograms = {
     },
     {
       name: 'Comprehensive 6-Month IBS Programme',
-      price: 'From AED [price]',
       duration: '6 months · ~25–35 visits',
       features: [
         'All Standard Programme components',
@@ -286,7 +283,7 @@ export const ayurvedaIbsFaqs = {
   faqs: [
     {
       question: 'Does Ayurvedic treatment actually work for IBS?',
-      answer: 'Yes — substantially, for most IBS subtypes, when treatment is a structured 3-6 month medical programme rather than supplements alone. Across our 400+ IBS patients at the JVC clinic, IBS-D and IBS-C patients typically see 50-70% reduction in symptomatic days over 3-6 months. Post-infectious IBS often responds particularly well. IBS-M is more variable but most patients see meaningful improvement. The single biggest predictor of outcome is consistent adherence to the dietary protocol — not the herbs or Panchakarma alone.'
+      answer: 'Yes — substantially, for most IBS subtypes, when treatment is a structured 3-6 month medical programme rather than supplements alone. Across our IBS patients at the JVC clinic, IBS-D and IBS-C patients typically see 50-70% reduction in symptomatic days over 3-6 months. Post-infectious IBS often responds particularly well. IBS-M is more variable but most patients see meaningful improvement. The single biggest predictor of outcome is consistent adherence to the dietary protocol — not the herbs or Panchakarma alone.'
     },
     {
       question: 'Can Ayurveda cure IBS?',
@@ -307,7 +304,7 @@ export const ayurvedaIbsFaqs = {
 
     {
       question: 'How much does Ayurvedic IBS treatment cost in Dubai?',
-      answer: 'At Vedara Care, initial assessment starts from AED [price]. A standard 3-month IBS programme starts from AED [price]. A comprehensive 6-month programme starts from AED [price]. Across Dubai, comprehensive Ayurvedic IBS programmes typically range from AED 6,000 to AED 25,000. We are direct-billing partners with seven major insurers.'
+      answer: 'At Vedara Care, initial assessment and programme pricing are discussed at consultation. Across Dubai, comprehensive Ayurvedic IBS programmes typically range from AED 6,000 to AED 25,000. We are direct-billing partners with seven major insurers.'
     },
 
     {
@@ -368,7 +365,7 @@ export const ayurvedaIbsFinalCTA = {
   button1Text: 'Book an IBS Consultation',
   button2Text: 'Chat on WhatsApp',
   bullets: [
-    'Initial consultation from AED [price]',
+    'Initial consultation available',
     ' Walking distance from Circle Mall, JVC',
     'Coordinated with your gastroenterologist',
     ' Insurance direct-billing ',

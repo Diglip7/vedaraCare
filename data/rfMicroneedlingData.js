@@ -33,7 +33,7 @@ export const rfMicroneedlingIntro = {
   label: "THE QUICK ANSWER",
   title: "RF Microneedling in JVC at Vedara Care, in one paragraph",
   blockquote: "RF Microneedling in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, combines microneedling with radiofrequency energy to support collagen production and improve selected skin concerns. It may be considered for acne scars, uneven texture, enlarged pores, and mild skin laxity when conventional skincare or surface treatments have not provided the desired improvement. Before treatment, your skin is assessed to determine whether RF microneedling is appropriate for your concerns and goals. Temporary redness, sensitivity, or swelling may occur after treatment, while results develop gradually as the skin’s natural repair process progresses.",
-  // footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed August 2026"
 };
 
 export const rfMicroneedlingExplanation = {

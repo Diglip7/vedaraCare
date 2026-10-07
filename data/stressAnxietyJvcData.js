@@ -346,8 +346,7 @@ export const stressJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "Google Rating" },
-    { value: "5000+", label: "Patients Treated" },
+    { value: "4.6", label: "Google Rating" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
     { value: "Female", label: "Practitioner Available" }
   ],
@@ -580,7 +579,6 @@ export const stressJvcCTA = {
     "90-minute comprehensive assessment ",
     " Female DHA-Licensed BAMS Ayurvedic",
     " Authentic Shirodhara and multi-modal approach",
-    "1,200+ stress patients treated",
     " Multi-language including Malayalam for Kerala tradition",
     "Coordinated with modern mental health care ",
     "Walking distance from Circle Mall, JVC"

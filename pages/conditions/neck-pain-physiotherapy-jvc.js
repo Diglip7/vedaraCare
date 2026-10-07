@@ -7,6 +7,7 @@ import FAQ from '../../components/home/FAQ';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
 import { PostSurgeryTeam } from '../../components/ayurveda/PostSurgeryComponents';
+import { physioReviewsBlock } from '../../data/googleReviews';
 import { NeckPainShouldYouSee, NeckPainPhases } from '../../components/ayurveda/NeckPainCustomSections';
 import SportsPhysiotherapyModalities from '../../components/ayurveda/SportsPhysiotherapyModalities';
 import SportsPhysiotherapyLocation from '../../components/ayurveda/SportsPhysiotherapyLocation';
@@ -44,7 +45,7 @@ const NeckPainPhysioJvc = () => {
       "alternateName": ["Vedara Neck Pain Physio JVC", "Vedara Care Cervical Physiotherapy"],
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Evidence-based physiotherapy for neck pain at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DPT-qualified physiotherapists treating tech neck, chronic neck pain, whiplash, cervicogenic headaches, cervical spondylosis, cervical radiculopathy. Manual therapy, deep cervical flexor training, dry needling, postural correction. Walking distance from Circle Mall.",
+      "description": "Evidence-based physiotherapy for neck pain at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed physiotherapists treating tech neck, chronic neck pain, whiplash, cervicogenic headaches, cervical spondylosis, cervical radiculopathy. Manual therapy, deep cervical flexor training, dry needling, postural correction. Walking distance from Circle Mall.",
       "telephone": "+971555736312",
       "priceRange": "AED 350 - AED 4,200",
       "address": {
@@ -104,8 +105,8 @@ const NeckPainPhysioJvc = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "15",
+        "ratingValue": "4.7",
+        "reviewCount": "23",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -170,7 +171,7 @@ const NeckPainPhysioJvc = () => {
             "name": "Initial Neck Pain Assessment",
             "priceCurrency": "AED",
             "price": "350",
-            "description": "60-minute comprehensive neck pain assessment with DPT-qualified physiotherapist"
+            "description": "60-minute comprehensive neck pain assessment with DHA-licensed physiotherapist"
           },
           {
             "@type": "Offer",
@@ -253,7 +254,7 @@ const NeckPainPhysioJvc = () => {
     <>
       <Head>
         <title>Physiotherapy for Neck Pain in JVC | Evidence-Based Treatment | Vedara</title>
-        <meta name="description" content="Understanding and treating neck pain at our JVC clinic, Dubai. DPT-qualified physiotherapists for tech neck, chronic neck pain, whiplash, cervicogenic headaches. Educational approach, evidence-based treatment. Walking distance from Circle Mall." />
+        <meta name="description" content="Understanding and treating neck pain at our JVC clinic, Dubai. DHA-licensed physiotherapists for tech neck, chronic neck pain, whiplash, cervicogenic headaches. Educational approach, evidence-based treatment. Walking distance from Circle Mall." />
 
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
@@ -262,7 +263,7 @@ const NeckPainPhysioJvc = () => {
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
         <meta property="og:title" content="Physiotherapy for Neck Pain in JVC — Understanding and Treatment | Vedara Care" />
-        <meta property="og:description" content="DPT-qualified physiotherapists at our Jumeirah Village Circle clinic using evidence-based protocols for tech neck, chronic neck pain, whiplash, cervicogenic headaches, cervical spondylosis. Educational approach with thorough assessment and treatment. Insurance reimbursement support." />
+        <meta property="og:description" content="DHA-licensed physiotherapists at our Jumeirah Village Circle clinic using evidence-based protocols for tech neck, chronic neck pain, whiplash, cervicogenic headaches, cervical spondylosis. Educational approach with thorough assessment and treatment. Insurance reimbursement support." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/neck-pain-physiotherapy-jvc.jpg" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />
@@ -330,7 +331,7 @@ const NeckPainPhysioJvc = () => {
         modalities={neckPainModalities.modalities}
       />
 
-      <TreatmentReviews {...neckPainReviews} />
+      <TreatmentReviews {...physioReviewsBlock()} />
 
       <PostSurgeryTeam data={neckPainTeam} />
 

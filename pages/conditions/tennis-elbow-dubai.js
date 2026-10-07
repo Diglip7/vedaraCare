@@ -5,6 +5,7 @@ import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
 import SportsInjuryTypes from '../../components/ayurveda/SportsInjuryTypes';
 import TennisElbowRecoveryTimeline from '../../components/ayurveda/TennisElbowRecoveryTimeline';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
+import { physioReviewsBlock } from '../../data/googleReviews';
 import FAQ from '../../components/home/FAQ';
 import PhysiotherapyTeam from '../../components/ayurveda/PhysiotherapyTeam';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
@@ -112,8 +113,8 @@ const TennisElbowDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "15",
+        "ratingValue": "4.7",
+        "reviewCount": "23",
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -285,7 +286,7 @@ const TennisElbowDubai = () => {
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <meta property="og:title" content="Tennis Elbow Treatment in JVC, Dubai | Vedara Care" />
-        <meta property="og:description" content="Most tennis elbow patients have never played tennis. DPT-qualified tendinopathy specialists at our Jumeirah Village Circle clinic using evidence-based eccentric loading protocols and ergonomic guidance. Better long-term outcomes than cortisone injections." />
+        <meta property="og:description" content="Most tennis elbow patients have never played tennis. DHA-licensed tendinopathy specialists at our Jumeirah Village Circle clinic using evidence-based eccentric loading protocols and ergonomic guidance. Better long-term outcomes than cortisone injections." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/tennis-elbow-dubai.webp" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />
@@ -348,14 +349,7 @@ const TennisElbowDubai = () => {
         showComparison={true}
       />
 
-      <TreatmentReviews
-        bgColor="bg-white"
-        label={tennisElbowReviews.label}
-        title={tennisElbowReviews.title}
-        {...tennisElbowReviews}
-        useKneeStyle={true}
-        useKneeStyleBgColor="bg-white"
-      />
+      <TreatmentReviews {...physioReviewsBlock()} />
 
       <PhysiotherapyTeam
         bgColor="bg-[#F8F4EE]"

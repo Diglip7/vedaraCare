@@ -36,7 +36,7 @@ export const pigmentationIntro = {
   label: "THE QUICK ANSWER",
   title: "Laser pigmentation treatment at Vedara Care, in one paragraph.",
   blockquote: "Laser pigmentation treatment uses targeted light energy to break down excess pigment in the skin, which the body then gradually clears as part of its natural healing process. Not all pigmentation is suitable for this approach — the treatment needs to be matched to the specific type of pigmentation involved, since conditions like sun spots, post-inflammatory marks, and melasma behave differently and carry different risks. A dermatologist typically begins with an assessment to identify the pigmentation type, evaluate your skin type, and determine whether laser is a reasonable option or whether an alternative approach would be safer or more effective. When laser treatment is appropriate, settings are individualised rather than applied uniformly, since higher-risk skin types and certain pigmentation types require a more conservative approach. Recovery can involve temporary redness, dryness, or darkening of the treated area before it fades, and healing time varies depending on the treatment used. Some patients see noticeable change after a single session, while others need a planned series of treatments spaced over time. Ongoing sun protection is part of the process throughout, since UV exposure can undo progress or trigger new pigmentation.",
-  footer: "Medically reviewed by: [Verified Dermatologist Name]\nDHA-Licensed 2509266· Last updated: August 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed August 2026"
 };
 
 export const pigmentationTypes = {
@@ -330,7 +330,7 @@ export const pigmentationInsurance = {
 export const pigmentationResults = {
   label: "RESULTS",
   title: "Pigmentation Treatment Outcomes at Vedara Care",
-  // testimonialPlaceholder: "[INSERT VERIFIED PATIENT TESTIMONIAL]",
+
   photographyPlaceholder: "",
   note: "Genuine patient outcomes and before-and-after photography will be added here once collected with appropriate patient consent. We do not publish fabricated reviews, invented success rates, or unverified results.",
   disclaimer: ""

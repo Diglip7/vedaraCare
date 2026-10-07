@@ -6,7 +6,7 @@ export const tennisElbowHero = {
   ],
   label: "Tennis Elbow Treatment · DHA-Licensed 2509266 · JVC Clinic",
   title: "Tennis elbow treatment in JVC. Evidence-based loading protocols. Most patients have never played tennis.",
-  description: "Specialist tennis elbow treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists treating lateral epicondylalgia using evidence-based progressive loading protocols, eccentric and isometric exercise prescription, and manual therapy.",
+  description: "Specialist tennis elbow treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed physiotherapists treating lateral epicondylalgia using evidence-based progressive loading protocols, eccentric and isometric exercise prescription, and manual therapy.",
   primaryCTA: "Book Tennis Elbow Assessment",
   secondaryCTA: "Read About Tennis Elbow",
   trustSignals: [
@@ -25,7 +25,7 @@ export const tennisElbowHero = {
 export const tennisElbowIntro = {
   label: "THE QUICK ANSWER",
   title: "Tennis elbow treatment at Vedara Care, in one paragraph.",
-  blockquote: "Tennis elbow treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DPT-qualified physiotherapists. Tennis elbow (formally lateral epicondylalgia, sometimes called lateral epicondylitis) is a tendinopathy of the common extensor tendon at the outer elbow, affecting the muscles that extend the wrist and fingers. Despite the name, most tennis elbow patients have never played tennis — the condition develops from any repetitive gripping or wrist extension activity. Common Dubai triggers: padel (very significant in our patient population), office mouse use and prolonged gripping, gym training (deadlifts, pull-ups, rows), tennis, manual work, childcare, and many daily activities. Our approach combines evidence-based progressive loading protocols (eccentric and isometric exercises — the gold standard treatment), manual therapy for associated muscle and joint dysfunction, activity modification and ergonomic guidance, dry needling, and patient education for sustainable self-management. We avoid cortisone injections as first-line treatment given current evidence showing worse long-term outcomes. Most patients see substantial improvement within 12–24 weeks. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support available for major insurers.",
+  blockquote: "Tennis elbow treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DHA-licensed physiotherapists. Tennis elbow (formally lateral epicondylalgia, sometimes called lateral epicondylitis) is a tendinopathy of the common extensor tendon at the outer elbow, affecting the muscles that extend the wrist and fingers. Despite the name, most tennis elbow patients have never played tennis — the condition develops from any repetitive gripping or wrist extension activity. Common Dubai triggers: padel (very significant in our patient population), office mouse use and prolonged gripping, gym training (deadlifts, pull-ups, rows), tennis, manual work, childcare, and many daily activities. Our approach combines evidence-based progressive loading protocols (eccentric and isometric exercises — the gold standard treatment), manual therapy for associated muscle and joint dysfunction, activity modification and ergonomic guidance, dry needling, and patient education for sustainable self-management. We avoid cortisone injections as first-line treatment given current evidence showing worse long-term outcomes. Most patients see substantial improvement within 12–24 weeks. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support available for major insurers.",
   footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
@@ -250,7 +250,7 @@ export const tennisElbowReviews = {
   isDarkText: true,
   items: [],
   stats: [
-    { value: "4.5", label: "Google Rating" },
+    { value: "4.6", label: "Google Rating" },
     { value: "15", label: "reviews on Google" }
   ],
   buttonText: "Read All Elbow Pain Reviews",
@@ -461,7 +461,7 @@ export const tennisElbowRecoveryTimeline = {
   label: "Realistic Recovery",
   title: "How long does tennis elbow take to resolve?",
   description: "Tennis elbow recovery is measured in months, not weeks. Honest realistic expectations help you stay engaged with treatment.",
-  introText: "Tennis elbow recovery follows reasonably predictable patterns based on factors including symptom duration before treatment, severity of presentation, compliance with the loading protocols, and successful activity modification. The phases below represent typical patterns based on research evidence and our clinical experience treating 220+ tennis elbow patients.",
+  introText: "Tennis elbow recovery follows reasonably predictable patterns based on factors including symptom duration before treatment, severity of presentation, compliance with the loading protocols, and successful activity modification. The phases below represent typical patterns based on research evidence and our clinical experience treating tennis elbow patients.",
 
   phases: [
     {

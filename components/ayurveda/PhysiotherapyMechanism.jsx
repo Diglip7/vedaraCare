@@ -8,7 +8,9 @@ const PhysiotherapyMechanism = ({
   quote = "",
   image = "",
   alt = "Specialised Treatment Room Image",
-  imagePlaceholder = "Specialised Treatment Room Image"
+  imagePlaceholder = "Specialised Treatment Room Image",
+  imageWidth = 1080,
+  imageHeight = 1080
 }) => {
   return (
     <section className={`${bgColor} py-24 px-4`}>
@@ -40,6 +42,10 @@ const PhysiotherapyMechanism = ({
               <img
                 src={image}
                 alt={alt}
+                width={imageWidth}
+                height={imageHeight}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-auto object-contain rounded-xl"
               />
             ) : (

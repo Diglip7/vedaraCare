@@ -6,13 +6,13 @@ export const neckPainPhysioHero = {
   ],
   label: "Physiotherapy for Neck Pain · DHA-Licensed JVC Clinic",
   title: "Physiotherapy for neck pain in JVC. Understanding it, addressing it, preventing it.",
-  description: "Most neck pain is mechanical, treatable, and meaningfully responsive to evidence-based physiotherapy. At our Jumeirah Village Circle clinic, our DPT-qualified physiotherapists treat acute and chronic neck pain, forward head posture, cervical spondylosis, whiplash, and cervicogenic headaches.",
+  description: "Most neck pain is mechanical, treatable, and meaningfully responsive to evidence-based physiotherapy. At our Jumeirah Village Circle clinic, our DHA-licensed physiotherapists treat acute and chronic neck pain, forward head posture, cervical spondylosis, whiplash, and cervicogenic headaches.",
   primaryCTA: "Book Neck Pain Assessment",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20neck%20pain%20physiotherapy%20and%20book%20a%20consultation.",
   trustSignals: [
-    "DPT-qualified physiotherapists",
+    "DHA-licensed physiotherapists",
     "Same-week appointments",
     "Educational approach to neck pain",
     "Walking distance from Circle Mall"
@@ -28,7 +28,7 @@ export const neckPainPhysioHero = {
 export const neckPainPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Neck pain physiotherapy at our JVC clinic, in one paragraph.",
-  blockquote: "Neck pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based conventional physiotherapy delivered by DPT-qualified specialists. We treat acute neck pain (recent onset, often work or sleep-related), chronic neck pain (persistent patterns from posture, repetitive strain, or trauma), forward head posture and tech neck, cervical spondylosis, whiplash, cervicogenic headaches, and cervical radiculopathy. Treatment combines hands-on manual therapy (cervical mobilisation, soft tissue work), specific exercise prescription (postural correction, motor control, strengthening), dry needling for chronic muscle patterns, and ergonomic education for prevention. Patients travel to our JVC clinic from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai. Insurance reimbursement support for seven major insurers.",
+  blockquote: "Neck pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based conventional physiotherapy delivered by DHA-licensed specialists. We treat acute neck pain (recent onset, often work or sleep-related), chronic neck pain (persistent patterns from posture, repetitive strain, or trauma), forward head posture and tech neck, cervical spondylosis, whiplash, cervicogenic headaches, and cervical radiculopathy. Treatment combines hands-on manual therapy (cervical mobilisation, soft tissue work), specific exercise prescription (postural correction, motor control, strengthening), dry needling for chronic muscle patterns, and ergonomic education for prevention. Patients travel to our JVC clinic from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai. Insurance reimbursement support for seven major insurers.",
   footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
@@ -144,7 +144,7 @@ export const neckPainHowTreat = {
   content: [
     "Effective neck pain treatment combines several elements that work together. No single approach addresses all the factors involved in most neck pain — the treatment must be comprehensive.",
     "<strong>Detailed initial assessment</strong><br/>The first session is comprehensive — typically 60 minutes including detailed history-taking, postural assessment, cervical range of motion testing, neurological examination where appropriate, specific orthopaedic tests, and assessment of contributing factors (thoracic spine, shoulders, work patterns). Accurate diagnosis determines effective treatment.",
-    "<strong>Manual therapy for symptom modulation</strong><br/>Hands-on manual therapy — cervical mobilisation, soft tissue work, joint manipulation where appropriate, manual stretching — provides effective symptom relief and creates a window for active rehabilitation. Evidence-based for both acute and chronic neck pain. Performed by DPT-qualified physiotherapists with manual therapy training.",
+    "<strong>Manual therapy for symptom modulation</strong><br/>Hands-on manual therapy — cervical mobilisation, soft tissue work, joint manipulation where appropriate, manual stretching — provides effective symptom relief and creates a window for active rehabilitation. Evidence-based for both acute and chronic neck pain. Performed by DHA-licensed physiotherapists with manual therapy training.",
     "<strong>Specific exercise prescription</strong><br/>The most evidence-supported intervention for neck pain is structured exercise — but specific exercise for your pattern. Common components: deep cervical flexor strengthening (weakened in forward head posture), postural correction, thoracic spine mobility, scapular control, and graduated functional movement.",
     "<strong>Dry needling for chronic muscle patterns</strong><br/>For chronic muscle tension — upper trapezius, levator scapulae trigger points, suboccipital muscle tension — dry needling is highly effective. Releases trigger points and reduces protective muscle guarding. Particularly useful for chronic headache patterns and persistent muscle tension.",
     "<strong>Postural and ergonomic education</strong><br/>For most neck pain patients, the sustained patterns of daily life are part of the problem — workstation setup, screen position, device use habits, sleep positioning. We provide specific guidance on optimising these factors. Many patients find that workstation changes alone produce meaningful symptom improvement.",
@@ -228,7 +228,7 @@ export const neckPainModalities = {
     {
       number: "01",
       title: "<a href='/treatments/manual-therapy-dubai/' class='text-inherit hover:text-[#C9A55A] transition-colors'>Cervical Manual Therapy</a>",
-      description: "Spinal mobilisation (graded oscillatory movements to restore cervical joint motion), manipulation in carefully selected patients, soft tissue work for muscle tension, and manual stretching. Evidence-based for both acute and chronic neck pain. Performed by DPT-qualified physiotherapists with manual therapy training."
+      description: "Spinal mobilisation (graded oscillatory movements to restore cervical joint motion), manipulation in carefully selected patients, soft tissue work for muscle tension, and manual stretching. Evidence-based for both acute and chronic neck pain. Performed by DHA-licensed physiotherapists with manual therapy training."
     },
     {
       number: "02",
@@ -265,7 +265,7 @@ export const neckPainReviews = {
   cardBgColor: "bg-[#FFFFFF12]",
   items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "15", label: "reviews on Google" }
   ],
   buttonText: "Read All Neck Pain Reviews",
@@ -396,7 +396,7 @@ export const neckPainFaqs = {
 
     , {
       question: "How is Vedara different from other Dubai physiotherapy clinics?",
-      answer: "DPT-qualified specialists, evidence-based protocols including specific deep cervical flexor training (frequently missed elsewhere), longer sessions (45–60 minutes), same therapist throughout treatment, specific assessment for each patient rather than a generic protocol, workplace ergonomic guidance integrated into treatment, transparent published pricing, and walking distance from Circle Mall in JVC."
+      answer: "DHA-licensed specialists, evidence-based protocols including specific deep cervical flexor training (frequently missed elsewhere), longer sessions (45–60 minutes), same therapist throughout treatment, specific assessment for each patient rather than a generic protocol, workplace ergonomic guidance integrated into treatment, transparent published pricing, and walking distance from Circle Mall in JVC."
     }
 
     , {
@@ -443,7 +443,7 @@ export const neckPainCTA = {
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20neck%20pain%20physiotherapy%20and%20book%20a%20consultation.",
   bullets: [
     "Initial assessment from AED 350",
-    " JVC · DPT-qualified physiotherapist",
+    " JVC · DHA-licensed physiotherapist",
     "Insurance reimbursement support",
     "Same-day appointments for severe acute pain",
     "Walking distance from Circle Mall"

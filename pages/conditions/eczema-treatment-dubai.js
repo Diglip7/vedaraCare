@@ -107,7 +107,7 @@ const EczemaTreatmentDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
+        "ratingValue": "4.6",
         "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"

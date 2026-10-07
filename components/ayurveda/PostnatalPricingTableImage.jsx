@@ -57,8 +57,20 @@ const PostnatalPricingTableImage = ({ data }) => {
                     <span className="text-[10px] font-sans font-semibold tracking-[0.15em] text-[#8B8B8B] uppercase mb-1 block">
                       {headers[2]}
                     </span>
-                    <span className="text-[15px] font-sans font-semibold text-[#1A1A1A]">
-                      {row.price}
+                    <span className="text-[14px] font-sans font-semibold text-[#1F4538]">
+                      {row.price && (row.price.includes('Prices are shared on WhatsApp') || row.price.includes('AED') || row.price.includes('[X]')) ? (
+                        <a
+                          href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20pricing%20details."
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          data-track="whatsapp_click"
+                          className="hover:underline text-[#1F4538]"
+                        >
+                          Prices are shared on WhatsApp
+                        </a>
+                      ) : (
+                        row.price
+                      )}
                     </span>
                   </div>
                 </div>
@@ -108,8 +120,20 @@ const PostnatalPricingTableImage = ({ data }) => {
                         </span>
                       </td>
                       <td className="py-5 px-6 text-right">
-                        <span className="text-[14px] font-sans font-semibold text-[#1A1A1A]">
-                          {row.price}
+                        <span className="text-[14px] font-sans font-semibold text-[#1F4538]">
+                          {row.price && (row.price.includes('Prices are shared on WhatsApp') || row.price.includes('AED') || row.price.includes('[X]')) ? (
+                            <a
+                              href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20pricing%20details."
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              data-track="whatsapp_click"
+                              className="hover:underline text-[#1F4538]"
+                            >
+                              Prices are shared on WhatsApp
+                            </a>
+                          ) : (
+                            row.price
+                          )}
                         </span>
                       </td>
                     </tr>

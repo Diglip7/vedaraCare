@@ -183,7 +183,7 @@ const AyurvedaMigraine = () => {
       "lastReviewed": "2026-05-28",
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. [Lead Ayurvedic Physician]",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/conditions/migraine-ayurveda-dubai-hero.webp"
@@ -242,8 +242,8 @@ const AyurvedaMigraine = () => {
       "dateModified": "2026-05-28",
       "author": {
         "@type": "Physician",
-        "name": "Dr. [Lead Ayurvedic Physician]",
-        "url": "https://vedaracare.ae/doctors/dr-[name]-ayurveda/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
       },
       "publisher": {
         "@type": "Organization",
@@ -278,7 +278,7 @@ const AyurvedaMigraine = () => {
           "name": "Does Ayurvedic treatment actually work for migraine?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "For most migraine subtypes, yes — when treatment is a structured 4-6 month medical programme. Across our 280+ migraine patients at the JVC clinic, episodic migraine patients typically see 40-70% reduction in migraine days over 6 months. Chronic migraine patients typically see 25-50% reduction. This is not a cure — migraine remains a lifelong condition — but meaningful sustained reduction is realistic."
+            "text": "For most migraine subtypes, yes — when treatment is a structured 4-6 month medical programme. Across our migraine patients at the JVC clinic, episodic migraine patients typically see 40-70% reduction in migraine days over 6 months. Chronic migraine patients typically see 25-50% reduction. This is not a cure — migraine remains a lifelong condition — but meaningful sustained reduction is realistic."
           }
         },
         {
@@ -454,7 +454,7 @@ const AyurvedaMigraine = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-05-28T09:00:00Z" />
         <meta property="article:modified_time" content="2026-05-28T09:00:00Z" />
-        <meta property="article:author" content="Dr. [Lead Ayurvedic Physician Name]" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://vedaracare.ae/images/conditions/migraine-ayurveda-dubai-hero.webp" />
         <meta name="robots" content="index, follow, max-image-preview:large" />

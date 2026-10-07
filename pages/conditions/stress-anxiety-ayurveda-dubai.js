@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { SCHEMA_ADDRESS } from '../../lib/site';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
@@ -176,7 +177,7 @@ const AyurvedaStressAnxiety = () => {
       "lastReviewed": "2026-05-28",
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. [Lead Ayurvedic Physician]",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/stress-anxiety-ayurveda-dubai-hero.jpg"
@@ -235,8 +236,8 @@ const AyurvedaStressAnxiety = () => {
       "dateModified": "2026-05-28",
       "author": {
         "@type": "Physician",
-        "name": "Dr. [Lead Ayurvedic Physician]",
-        "url": "https://vedaracare.ae/doctors/dr-[name]-ayurveda/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
       },
       "publisher": {
         "@type": "Organization",
@@ -252,12 +253,7 @@ const AyurvedaStressAnxiety = () => {
       "name": "Vedara Care Polyclinic",
       "url": "https://vedaracare.ae/",
       "logo": "https://vedaracare.ae/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Circle Mall, JVC",
-        "addressLocality": "Dubai",
-        "addressCountry": "AE"
-      }
+      "address": SCHEMA_ADDRESS
     },
     {
       "@context": "https://schema.org",
@@ -298,7 +294,7 @@ const AyurvedaStressAnxiety = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-05-28" />
         <meta property="article:modified_time" content="2026-05-28" />
-        <meta property="article:author" content="Dr. [Lead Ayurvedic Physician Name]" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <script

@@ -24,7 +24,7 @@ export const stressAnxietyIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic stress and anxiety treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for chronic stress, anxiety, and burnout in Dubai is a 3 to 6-month structured medical programme combining Shirodhara (continuous warm medicated oil therapy on the forehead, the classical treatment for nervous-system disorders), Abhyanga (full-body warm oil therapy), dosha-specific herbal medicines (typically including Ashwagandha, Brahmi, Jatamansi, and Shankhapushpi), individualised dietary regulation, and lifestyle protocols addressing sleep, screen patterns, and daily rhythm. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes work alongside psychiatry and psychotherapy where appropriate, never as a replacement. Realistic outcomes: sleep improvement within 2-4 weeks for most patients; baseline anxiety reduction over 8-16 weeks. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Zainab , BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2026"
 };
 
 export const stressAnxietyMechanism = {
@@ -135,7 +135,7 @@ export const stressAnxietyProtocol = {
     "Shirodhara has measurable effects on the sympathetic nervous system, melatonin signaling, and sleep architecture. Most patients describe sleep changes after 3-5 sessions — often the first signs of deep sleep in months or years. This is not sedation and is not 'relaxation.' It is a clinical effect on the nervous system substrate of sleep."
   ],
   quote: "Why Shirodhara Specifically Helps Sleep",
-  image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop",
+  image: "/images/ayurvedic-massage-jvc-hero.webp",
   imageLeft: false
 };
 
@@ -148,7 +148,7 @@ export const stressAnxietyBoundaries = {
     borderColor: "border-gray-100",
     labelColor: "text-[#E63946]",
     bulletColor: "bg-[#E63946]",
-    alertBox: "If you are having thoughts of hurting yourself or others, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the 24/7 Crisis helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>) immediately. Ayurvedic treatment is not for psychiatric crises.",
+    alertBox: "If you are having thoughts of hurting yourself or others, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the Crisis helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>) immediately. Ayurvedic treatment is not for psychiatric crises.",
     alertBg: "bg-[#FEF2F2]",
     alertBorder: "border-[#E63946]",
     alertTextColor: "text-[#991B1B]",
@@ -187,25 +187,9 @@ export const stressAnxietyReviews = {
   isDarkText: false,
   cardBgColor: "rgba(255, 255, 255, 0.05)",
   alt: "Verified patient outcome from Ayurvedic stress and anxiety treatment at Vedara Care JVC Dubai",
-  items: [
-    {
-      quote: "I had not slept through the night for eighteen months. After the Shirodhara course in month two, I sleep seven hours. Everything else is slowly following.",
-      author: "Sarah G.",
-      details: "Chronic Stress with Insomnia · 6-month programme · JVC District 13 · February 2026"
-    },
-    {
-      quote: "My psychiatrist agreed to a slow taper of my sertraline only after I had completed three months at Vedara. I am now on a lower dose with better baseline calm than at the higher dose.",
-      author: "James M.",
-      details: "Generalised Anxiety · 6-month integrated programme · Al Barsha South · January 2026"
-    },
-    {
-      quote: "Burnout after eight years of running my business. Three months at Vedara gave me what twelve weeks of therapy alone had not — my nervous system back.",
-      author: "Priya S.",
-      details: "Professional Burnout · 4-month programme · Dubai South · March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "142", label: "stress and anxiety reviews" },
     { value: "88%", label: "reported significant sleep improvement" },
     { value: "72%", label: "reported meaningful baseline anxiety reduction" }
@@ -511,7 +495,7 @@ export const stressAnxietyLocation = {
     "Jumeirah Village Circle, Dubai"
   ],
   buttonText: "Book an Anxiety & Stress Consultation",
-  image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop",
+  image: "/images/ayurvedic-massage-jvc-hero.webp",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
 };
 
@@ -531,7 +515,7 @@ export const stressAnxietyCTA = {
     "Free clinic parking",
     "<a href=\"/treatments/shirodhara-dubai/\" class=\"hover:underline\">Read about Shirodhara</a>"
   ],
-  // alertBox: "If you are experiencing a mental health crisis, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the 24/7 Crisis helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>)."
+  // alertBox: "If you are experiencing a mental health crisis, please contact emergency services (<a href=\"tel:999\" class=\"hover:underline\">999</a>) or the Crisis helpline (<a href=\"tel:8004673\" class=\"hover:underline\">800 4673</a>)."
 };
 
 export const stressAnxietyRelatedPages = {

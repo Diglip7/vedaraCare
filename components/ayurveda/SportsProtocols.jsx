@@ -23,13 +23,13 @@ const SportsProtocols = () => {
             className="text-3xl sm:text-4xl mb-4" 
             style={{ fontFamily: 'var(--font-display, Fraunces, Georgia, serif)', fontWeight: 500, color: 'rgb(26, 26, 26)' }}
           >
-            Specific sport-injury protocols at our JVC clinic.
+            Sport-specific physiotherapy at our JVC clinic.
           </h2>
           <p 
             className="text-base max-w-2xl mx-auto" 
             style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}
           >
-            Different sports produce different injury patterns. The same diagnosis means different things across sports  -  and requires different rehabilitation protocols. Our sports physiotherapists tailor treatment to your specific sport and movement demands.
+            Different sports produce different injury patterns. The same diagnosis means different things across sports  -  and requires different rehabilitation protocols. Hafsina K K tailors treatment to your specific sport and movement demands.
           </p>
         </div>
         
@@ -213,7 +213,7 @@ const SportsProtocols = () => {
               </li>
               <li className="flex items-start gap-2 text-sm" style={{ color: 'rgb(26, 26, 26)' }}>
                 <span className="mt-1.5 w-1 h-1 rounded-full flex-shrink-0" style={{ background: 'rgb(201, 168, 76)' }}></span>
-                ACL injuries
+                Knee ligament injuries (treated without surgery; after ACL surgery see ACL rehabilitation)
               </li>
               <li className="flex items-start gap-2 text-sm" style={{ color: 'rgb(26, 26, 26)' }}>
                 <span className="mt-1.5 w-1 h-1 rounded-full flex-shrink-0" style={{ background: 'rgb(201, 168, 76)' }}></span>
@@ -235,7 +235,7 @@ const SportsProtocols = () => {
             <div className="pt-3 border-t border-black/5">
               <p className="text-xs" style={{ color: 'rgb(107, 107, 107)' }}>
                 <span className="font-semibold" style={{ color: 'rgb(26, 26, 26)' }}>Typical recovery: </span>
-                2 - 6 weeks for soft tissue; 6 - 12 months for ACL
+                2 - 6 weeks for soft tissue
               </p>
             </div>
           </div>
@@ -439,7 +439,7 @@ const SportsProtocols = () => {
           className="text-center text-sm mt-10 max-w-2xl mx-auto" 
           style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}
         >
-          If your sport is not listed, our sports physiotherapists treat athletes across all recreational and amateur sports. The specific sport matters because biomechanical demands differ  -  but the principles of sports physiotherapy apply across all athletic populations.
+          If your sport is not listed, your physiotherapist treats athletes across all recreational and amateur sports. The specific sport matters because biomechanical demands differ  -  but the principles of sports physiotherapy apply across all athletic populations.
         </p>
       </div>
     </section>

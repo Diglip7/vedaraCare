@@ -102,7 +102,7 @@ const AyurvedaArthritis = () => {
       "lastReviewed": "2026-05-28",
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Priya Menon",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/arthritis-ayurveda-dubai-hero.webp"
@@ -161,8 +161,8 @@ const AyurvedaArthritis = () => {
       "dateModified": "2026-05-28",
       "author": {
         "@type": "Physician",
-        "name": "Dr. Priya Menon",
-        "url": "https://vedaracare.ae/doctors/dr-priya-menon-ayurveda/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
       },
       "publisher": {
         "@type": "Organization",
@@ -189,7 +189,7 @@ const AyurvedaArthritis = () => {
           "name": "Does Ayurvedic treatment actually work for arthritis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "For osteoarthritis: yes, substantially. Most of our knee, hip, and spine osteoarthritis patients at the JVC clinic see 50-70% reduction in pain and meaningful function improvement over 6 months. For rheumatoid arthritis and other inflammatory arthritis: Ayurvedic treatment is supportive — providing meaningful symptom relief and quality-of-life improvement but never replacing immunosuppressive medications. For frozen shoulder: outcomes are particularly strong."
+            "text": "For osteoarthritis: yes, substantially. Most of our knee, hip, and spine osteoarthritis patients at the JVC clinic see meaningful reduction in pain and function improvement over 6 months. For rheumatoid arthritis and other inflammatory arthritis: Ayurvedic treatment is supportive — providing meaningful symptom relief and quality-of-life improvement but never replacing immunosuppressive medications. For frozen shoulder: outcomes are particularly strong."
           }
         },
         ...arthritisFaqs.faqs.map(faq => ({
@@ -220,7 +220,7 @@ const AyurvedaArthritis = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-05-28T09:00:00Z" />
         <meta property="article:modified_time" content="2026-05-28T09:00:00Z" />
-        <meta property="article:author" content="Dr. Priya Menon" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 

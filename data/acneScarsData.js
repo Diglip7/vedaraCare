@@ -1,11 +1,11 @@
-﻿export const acneScarsHero = {
+export const acneScarsHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Conditions", href: "/conditions/" },
     { label: "Acne Scars Treatment in JVC Dubai", active: true }
   ],
   label: "ACNE SCARS TREATMENT · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
-  title: "Best clinic for acne scars in Dubai. Dermatology-led combination protocols at our JVC clinic.",
+  title: "Clinic for acne scars in Dubai. Dermatology-led combination protocols at our JVC clinic.",
   description: "Specialist acne scar treatment at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists treating all acne scar types — ice pick, boxcar, rolling, hypertrophic, keloid — with personalised combination protocols. Particular expertise for Fitzpatrick IV-VI skin types.",
   primaryCTA: "Book Acne Scar Consultation",
   secondaryCTA: "Understand Scar Types",
@@ -27,7 +27,7 @@ export const acneScarsIntro = {
   label: "THE QUICK ANSWER",
   title: "Acne scar treatment at Vedara Care, in one paragraph.",
   blockquote: "Acne scar treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist dermatology-led scar treatment delivered by DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types (I-VI). We treat all acne scar types: atrophic scars (ice pick, boxcar, rolling); hypertrophic and keloid scars; and post-inflammatory hyperpigmentation (PIH). Our combination protocols address multiple scar types typically present in the same patient — microneedling with PRP, subcision, fractional lasers, TCA cross, dermal fillers, chemical peels, and topical treatments. Skin-type-safe protocols are particularly critical for Fitzpatrick IV-VI skin types, where wrong treatment produces hyperpigmentation worse than original scarring. A series of 6-12 sessions over 6-12 months is typical for substantial improvement; complete resolution is rare for severe scarring, and honest realistic framing supports informed decisions. Patients travel from across Dubai for specialist acne scar care.",
-  footer: "Medically reviewed by Dr. Sarah Al-Mansoori, MD, DHA-Licensed 2509266 · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed June 2026"
 };
 
 export const acneScarsPatientVoices = {
@@ -59,8 +59,8 @@ export const acneScarsPatientVoices = {
     }
   ],
   stats: [
-    { value: "4.5", description: "Stars on Google" },
-    { value: "1200+", description: "Acne scar patients treated" },
+    { value: "4.6", description: "Stars on Google" },
+    // { value: "1200+", description: "Acne scar patients treated" },
     // { value: "I-VI", description: "Fitzpatrick expertise" },
     { value: "Full", description: "Combination protocol capability" }
   ],
@@ -524,7 +524,6 @@ export const acneScarsFinalCTA = {
     "Initial consultation from AED 750",
     "Walking distance from Circle Mall, JVC",
     "DHA-licensed consultant dermatologists",
-    "1200+ acne scar patients treated",
     "Fitzpatrick I-VI expertise",
     "Full combination protocol capability",
     "Female and male dermatologists",

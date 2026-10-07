@@ -12,9 +12,9 @@ import DoctorCTA from './DoctorCTA';
 import DoctorOtherPractitioners from './DoctorOtherPractitioners';
 import DoctorArticles from './DoctorArticles';
 
-import { drPriyaNair } from '../../data/doctorData';
+import { drZainab } from '../../data/doctorData';
 
-const DoctorPage = ({ doctorData = drPriyaNair }) => {
+const DoctorPage = ({ doctorData = drZainab }) => {
   return (
     <>
       <DoctorHero doctor={doctorData} />

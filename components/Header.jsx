@@ -45,11 +45,10 @@ const AYURVEDA_TREATMENTS = [
 ];
 // Data for dropdown menus
 const PHYSIOTHERAPY_PAGES = [
-  { href: '/physiotherapy-dubai', label: 'Physiotherapy in Dubai' },
-  { href: '/physiotherapy-jvc', label: 'Physiotherapy in JVC' },
+  { href: '/physiotherapy-jvc/', label: 'Physiotherapy in JVC, Dubai' },
 ];
 const PHYSIOTHERAPY_SPECIALITIES = [
-  { href: '/physiotherapy/neurological-dubai', label: 'Neurological Physiotherapy' },
+  { href: '/physiotherapy/neurological-dubai/', label: 'Neurological Physiotherapy' },
   { href: '/physiotherapy/pediatric-dubai', label: 'Pediatric Physiotherapy' },
   { href: '/physiotherapy/post-surgery-rehab-dubai', label: 'Post-Surgery Rehab' },
   { href: '/physiotherapy/sports-injury-jvc', label: 'Sports Injury Physiotherapy' },
@@ -103,9 +102,6 @@ const DERMATOLOGY_TREATMENTS = [
 
 ];
 
-const HOME_HEALTHCARE_PAGES = [
-  { href: '/physiotherapy-at-home-dubai', label: 'Physiotherapy at Home' },
-];
 
 // Custom scrollbar hide styles
 const scrollbarHide = "scrollbar-hide [scrollbar-width:none] [-ms-overflow-style:none]";
@@ -118,19 +114,19 @@ const Header = () => {
   const [isConditionsDropdownOpen, setIsConditionsDropdownOpen] = useState(false);
   const [isWellnessDropdownOpen, setIsWellnessDropdownOpen] = useState(false);
   const [isDermatologyDropdownOpen, setIsDermatologyDropdownOpen] = useState(false);
-  const [isHomeHealthcareDropdownOpen, setIsHomeHealthcareDropdownOpen] = useState(false);
+
   const [isMobileAyurvedaOpen, setIsMobileAyurvedaOpen] = useState(false);
   const [isMobilePhysioOpen, setIsMobilePhysioOpen] = useState(false);
   const [isMobileConditionsOpen, setIsMobileConditionsOpen] = useState(false);
   const [isMobileWellnessOpen, setIsMobileWellnessOpen] = useState(false);
   const [isMobileDermatologyOpen, setIsMobileDermatologyOpen] = useState(false);
-  const [isMobileHomeHealthcareOpen, setIsMobileHomeHealthcareOpen] = useState(false);
+
   const ayurvedaDropdownRef = useRef(null);
   const physioDropdownRef = useRef(null);
   const conditionsDropdownRef = useRef(null);
   const wellnessDropdownRef = useRef(null);
   const dermatologyDropdownRef = useRef(null);
-  const homeHealthcareDropdownRef = useRef(null);
+
 
   useEffect(() => {
     const handleScroll = () => setShowTopBar(window.scrollY <= 50);
@@ -155,9 +151,7 @@ const Header = () => {
       if (dermatologyDropdownRef.current && !dermatologyDropdownRef.current.contains(event.target)) {
         setIsDermatologyDropdownOpen(false);
       }
-      if (homeHealthcareDropdownRef.current && !homeHealthcareDropdownRef.current.contains(event.target)) {
-        setIsHomeHealthcareDropdownOpen(false);
-      }
+
     };
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
@@ -165,19 +159,7 @@ const Header = () => {
 
   return (
     <header className="w-full sticky top-0 z-50">
-      {/* Google Tag Manager */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-M3JC2THK');
-          `,
-        }}
-      />
-      {/* End Google Tag Manager */}
+
       {/* Top Bar */}
       <div
         className={`bg-[#184C3A] text-white overflow-hidden transition-all duration-300 ${showTopBar ? 'h-10 opacity-100' : 'h-0 opacity-0'
@@ -193,14 +175,7 @@ const Header = () => {
             </span>
           </div>
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2">
-              <Globe size={14} />
-              <div className="flex items-center gap-1 font-medium">
-                <span className="cursor-pointer hover:underline">EN</span>
-                <span className="opacity-50">|</span>
-                <span className="cursor-pointer hover:underline">AR</span>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -303,7 +278,7 @@ const Header = () => {
                 className="flex items-center gap-1 text-[14px] font-sans font-medium text-[#1A1A1A] hover:text-[#184C3A] transition-colors"
                 onClick={() => setIsPhysioDropdownOpen(!isPhysioDropdownOpen)}
               >
-                <Link href="/physiotherapy-dubai" className="hover:text-[#184C3A]">Physiotherapy</Link>
+                <Link href="/physiotherapy-jvc/" className="hover:text-[#184C3A]">Physiotherapy</Link>
                 <ChevronDown size={14} className={`transition-transform duration-200 ${isPhysioDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
 
@@ -445,36 +420,7 @@ const Header = () => {
               </div>
             </div>
 
-            {/* Home Healthcare Dropdown */}
-            <div
-              className="relative"
-              ref={homeHealthcareDropdownRef}
-              onMouseEnter={() => setIsHomeHealthcareDropdownOpen(true)}
-              onMouseLeave={() => setIsHomeHealthcareDropdownOpen(false)}
-            >
-              <button
-                className="flex items-center gap-1 text-[14px] font-sans font-medium text-[#1A1A1A] hover:text-[#184C3A] transition-colors"
-                onClick={() => setIsHomeHealthcareDropdownOpen(!isHomeHealthcareDropdownOpen)}
-              >
-                <Link href="/physiotherapy-at-home-dubai" className="hover:text-[#184C3A]">Home Healthcare</Link>
-                <ChevronDown size={14} className={`transition-transform duration-200 ${isHomeHealthcareDropdownOpen ? 'rotate-180' : ''}`} />
-              </button>
 
-              {/* Dropdown Menu */}
-              <div className={`absolute top-full left-0 pt-2 z-50 transition-all duration-200 ${isHomeHealthcareDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}>
-                <div className="bg-white rounded-lg shadow-lg border border-gray-100 py-2 min-w-[240px]">
-                  {HOME_HEALTHCARE_PAGES.map((page) => (
-                    <Link
-                      key={page.href}
-                      href={page.href}
-                      className="block px-4 py-2.5 text-[13px] font-sans text-[#4A4A4A] hover:text-[#184C3A] hover:bg-gray-50 transition-colors"
-                    >
-                      {page.label}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
             <Link href="/doctors" className="text-[14px] font-sans font-medium text-[#1A1A1A] hover:text-[#184C3A] transition-colors">Doctors</Link>
             <Link href="/about" className="text-[14px] font-sans font-medium text-[#1A1A1A] hover:text-[#184C3A] transition-colors">About</Link>
             <Link href="/blog" className="text-[14px] font-sans font-medium text-[#1A1A1A] hover:text-[#184C3A] transition-colors">Blog</Link>
@@ -512,184 +458,165 @@ const Header = () => {
 
         {/* Mobile Menu Dropdown */}
         {isMenuOpen && (
-        <div
-          className="xl:hidden absolute top-full left-0 right-0 z-[60] bg-white border-b border-gray-100 shadow-xl overflow-y-auto max-h-[80vh]"
-        >
-          <div className="flex flex-col py-6 px-6 pb-24 gap-6">
-            <div>
-              <div className="flex items-center justify-between">
-                <Link
-                  href="/ayurveda-dubai"
-                  onClick={() => setIsMenuOpen(false)}
-                  className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]"
-                >
-                  Ayurveda
-                </Link>
+          <div
+            className="xl:hidden absolute top-full left-0 right-0 z-[60] bg-white border-b border-gray-100 shadow-xl overflow-y-auto max-h-[80vh]"
+          >
+            <div className="flex flex-col py-6 px-6 pb-24 gap-6">
+              <div>
+                <div className="flex items-center justify-between">
+                  <Link
+                    href="/ayurveda-dubai"
+                    onClick={() => setIsMenuOpen(false)}
+                    className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]"
+                  >
+                    Ayurveda
+                  </Link>
 
-                <button
-                  onClick={() => setIsMobileAyurvedaOpen(!isMobileAyurvedaOpen)}
-                  className="p-1 text-[#4A4A4A]"
-                  aria-label="Toggle Ayurveda Menu"
-                >
-                  <ChevronDown
-                    size={16}
-                    className={`transition-transform duration-200 ${isMobileAyurvedaOpen ? "rotate-180" : ""
-                      }`}
-                  />
-                </button>
-              </div>
+                  <button
+                    onClick={() => setIsMobileAyurvedaOpen(!isMobileAyurvedaOpen)}
+                    className="p-1 text-[#4A4A4A]"
+                    aria-label="Toggle Ayurveda Menu"
+                  >
+                    <ChevronDown
+                      size={16}
+                      className={`transition-transform duration-200 ${isMobileAyurvedaOpen ? "rotate-180" : ""
+                        }`}
+                    />
+                  </button>
+                </div>
 
-              <div
-                className={`overflow-hidden transition-all duration-200 ${isMobileAyurvedaOpen ? `max-h-[600px] overflow-y-auto mt-2 ${scrollbarHide}` : "max-h-0"
-                  }`}
-              >
-                <div className="flex flex-col gap-3 pl-4 border-l-2 border-gray-100">
-                  {AYURVEDA_PAGES.map((page) => (
-                    <Link
-                      key={page.href}
-                      href={page.href}
-                      onClick={() => setIsMenuOpen(false)}
-                      className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]"
-                    >
-                      {page.label}
-                    </Link>
-                  ))}
-                  <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Ayurveda Conditions</span>
-                  {AYURVEDA_CONDITIONS.map((page) => (
-                    <Link
-                      key={page.href}
-                      href={page.href}
-                      onClick={() => setIsMenuOpen(false)}
-                      className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]"
-                    >
-                      {page.label}
-                    </Link>
-                  ))}
-                  <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Ayurveda Treatments</span>
-                  {AYURVEDA_TREATMENTS.map((page) => (
-                    <Link
-                      key={page.href}
-                      href={page.href}
-                      onClick={() => setIsMenuOpen(false)}
-                      className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]"
-                    >
-                      {page.label}
-                    </Link>
-                  ))}
+                <div
+                  className={`overflow-hidden transition-all duration-200 ${isMobileAyurvedaOpen ? `max-h-[600px] overflow-y-auto mt-2 ${scrollbarHide}` : "max-h-0"
+                    }`}
+                >
+                  <div className="flex flex-col gap-3 pl-4 border-l-2 border-gray-100">
+                    {AYURVEDA_PAGES.map((page) => (
+                      <Link
+                        key={page.href}
+                        href={page.href}
+                        onClick={() => setIsMenuOpen(false)}
+                        className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]"
+                      >
+                        {page.label}
+                      </Link>
+                    ))}
+                    <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Ayurveda Conditions</span>
+                    {AYURVEDA_CONDITIONS.map((page) => (
+                      <Link
+                        key={page.href}
+                        href={page.href}
+                        onClick={() => setIsMenuOpen(false)}
+                        className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]"
+                      >
+                        {page.label}
+                      </Link>
+                    ))}
+                    <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Ayurveda Treatments</span>
+                    {AYURVEDA_TREATMENTS.map((page) => (
+                      <Link
+                        key={page.href}
+                        href={page.href}
+                        onClick={() => setIsMenuOpen(false)}
+                        className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]"
+                      >
+                        {page.label}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Mobile Physiotherapy Accordion */}
-            <div>
-              <div className="flex items-center justify-between">
-                <Link href="/physiotherapy-dubai" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Physiotherapy</Link>
-                <button
-                  onClick={() => setIsMobilePhysioOpen(!isMobilePhysioOpen)}
-                  className="p-1 text-[#4A4A4A]"
-                  aria-label="Toggle Physiotherapy Menu"
-                >
-                  <ChevronDown size={16} className={`transition-transform duration-200 ${isMobilePhysioOpen ? 'rotate-180' : ''}`} />
-                </button>
-              </div>
-              <div className={`overflow-hidden transition-all duration-200 ${isMobilePhysioOpen ? `max-h-[600px] overflow-y-auto mt-2 ${scrollbarHide}` : 'max-h-0'}`}>
-                <div className="flex flex-col gap-3 pl-4 border-l-2 border-gray-100">
-                  {PHYSIOTHERAPY_PAGES.map((page) => (
-                    <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
-                  ))}
-                  <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Physiotherapy Specialities</span>
-                  {PHYSIOTHERAPY_SPECIALITIES.map((page) => (
-                    <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
-                  ))}
-                  <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Physiotherapy Conditions</span>
-                  {PHYSIOTHERAPY_CONDITIONS.map((page) => (
-                    <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
-                  ))}
-                  <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Physiotherapy Treatments</span>
-                  {PHYSIOTHERAPY_TREATMENTS.map((page) => (
-                    <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
-                  ))}
+              {/* Mobile Physiotherapy Accordion */}
+              <div>
+                <div className="flex items-center justify-between">
+                  <Link href="/physiotherapy-jvc/" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Physiotherapy</Link>
+                  <button
+                    onClick={() => setIsMobilePhysioOpen(!isMobilePhysioOpen)}
+                    className="p-1 text-[#4A4A4A]"
+                    aria-label="Toggle Physiotherapy Menu"
+                  >
+                    <ChevronDown size={16} className={`transition-transform duration-200 ${isMobilePhysioOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                </div>
+                <div className={`overflow-hidden transition-all duration-200 ${isMobilePhysioOpen ? `max-h-[600px] overflow-y-auto mt-2 ${scrollbarHide}` : 'max-h-0'}`}>
+                  <div className="flex flex-col gap-3 pl-4 border-l-2 border-gray-100">
+                    {PHYSIOTHERAPY_PAGES.map((page) => (
+                      <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
+                    ))}
+                    <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Physiotherapy Specialities</span>
+                    {PHYSIOTHERAPY_SPECIALITIES.map((page) => (
+                      <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
+                    ))}
+                    <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Physiotherapy Conditions</span>
+                    {PHYSIOTHERAPY_CONDITIONS.map((page) => (
+                      <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
+                    ))}
+                    <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Physiotherapy Treatments</span>
+                    {PHYSIOTHERAPY_TREATMENTS.map((page) => (
+                      <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
 
 
 
-            {/* Mobile Dermatology Accordion */}
-            <div>
-              <div className="flex items-center justify-between">
-                <Link href="/dermatology-clinic-jvc" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Dermatology</Link>
-                <button
-                  onClick={() => setIsMobileDermatologyOpen(!isMobileDermatologyOpen)}
-                  className="p-1 text-[#4A4A4A]"
-                  aria-label="Toggle Dermatology Menu"
-                >
-                  <ChevronDown size={16} className={`transition-transform duration-200 ${isMobileDermatologyOpen ? 'rotate-180' : ''}`} />
-                </button>
-              </div>
-              <div className={`overflow-hidden transition-all duration-200 ${isMobileDermatologyOpen ? `max-h-[600px] overflow-y-auto mt-2 ${scrollbarHide}` : 'max-h-0'}`}>
-                <div className="flex flex-col gap-3 pl-4 border-l-2 border-gray-100">
-                  {DERMATOLOGY_PAGES.map((page) => (
-                    <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
-                  ))}
-                  <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Dermatology Conditions</span>
-                  {DERMATOLOGY_CONDITIONS.map((page) => (
-                    <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
-                  ))}
-                  <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Dermatology Treatments</span>
-                  {DERMATOLOGY_TREATMENTS.map((page) => (
-                    <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
-                  ))}
+              {/* Mobile Dermatology Accordion */}
+              <div>
+                <div className="flex items-center justify-between">
+                  <Link href="/dermatology-clinic-jvc" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Dermatology</Link>
+                  <button
+                    onClick={() => setIsMobileDermatologyOpen(!isMobileDermatologyOpen)}
+                    className="p-1 text-[#4A4A4A]"
+                    aria-label="Toggle Dermatology Menu"
+                  >
+                    <ChevronDown size={16} className={`transition-transform duration-200 ${isMobileDermatologyOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                </div>
+                <div className={`overflow-hidden transition-all duration-200 ${isMobileDermatologyOpen ? `max-h-[600px] overflow-y-auto mt-2 ${scrollbarHide}` : 'max-h-0'}`}>
+                  <div className="flex flex-col gap-3 pl-4 border-l-2 border-gray-100">
+                    {DERMATOLOGY_PAGES.map((page) => (
+                      <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
+                    ))}
+                    <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Dermatology Conditions</span>
+                    {DERMATOLOGY_CONDITIONS.map((page) => (
+                      <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
+                    ))}
+                    <span className="text-[12px] font-semibold uppercase tracking-wider text-[#C9A84C] mt-2">Dermatology Treatments</span>
+                    {DERMATOLOGY_TREATMENTS.map((page) => (
+                      <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Mobile Wellness Accordion */}
-            <div>
-              <div className="flex items-center justify-between">
-                <Link href="/wellness-clinic-jvc" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Wellness</Link>
-                <button
-                  onClick={() => setIsMobileWellnessOpen(!isMobileWellnessOpen)}
-                  className="p-1 text-[#4A4A4A]"
-                  aria-label="Toggle Wellness Menu"
-                >
-                  <ChevronDown size={16} className={`transition-transform duration-200 ${isMobileWellnessOpen ? 'rotate-180' : ''}`} />
-                </button>
-              </div>
-              <div className={`overflow-hidden transition-all duration-200 ${isMobileWellnessOpen ? 'max-h-64 mt-2' : 'max-h-0'}`}>
-                <div className="flex flex-col gap-3 pl-4 border-l-2 border-gray-100">
-                  {WELLNESS_TREATMENTS.map((page) => (
-                    <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
-                  ))}
+              {/* Mobile Wellness Accordion */}
+              <div>
+                <div className="flex items-center justify-between">
+                  <Link href="/wellness-clinic-jvc" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Wellness</Link>
+                  <button
+                    onClick={() => setIsMobileWellnessOpen(!isMobileWellnessOpen)}
+                    className="p-1 text-[#4A4A4A]"
+                    aria-label="Toggle Wellness Menu"
+                  >
+                    <ChevronDown size={16} className={`transition-transform duration-200 ${isMobileWellnessOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                </div>
+                <div className={`overflow-hidden transition-all duration-200 ${isMobileWellnessOpen ? 'max-h-64 mt-2' : 'max-h-0'}`}>
+                  <div className="flex flex-col gap-3 pl-4 border-l-2 border-gray-100">
+                    {WELLNESS_TREATMENTS.map((page) => (
+                      <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Mobile Home Healthcare Accordion */}
-            <div>
-              <div className="flex items-center justify-between">
-                <Link href="/physiotherapy-at-home-dubai" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Home Healthcare</Link>
-                <button
-                  onClick={() => setIsMobileHomeHealthcareOpen(!isMobileHomeHealthcareOpen)}
-                  className="p-1 text-[#4A4A4A]"
-                  aria-label="Toggle Home Healthcare Menu"
-                >
-                  <ChevronDown size={16} className={`transition-transform duration-200 ${isMobileHomeHealthcareOpen ? 'rotate-180' : ''}`} />
-                </button>
-              </div>
-              <div className={`overflow-hidden transition-all duration-200 ${isMobileHomeHealthcareOpen ? 'max-h-64 mt-2' : 'max-h-0'}`}>
-                <div className="flex flex-col gap-3 pl-4 border-l-2 border-gray-100">
-                  {HOME_HEALTHCARE_PAGES.map((page) => (
-                    <Link key={page.href} onClick={() => setIsMenuOpen(false)} href={page.href} className="text-[14px] text-[#4A4A4A] hover:text-[#184C3A]">{page.label}</Link>
-                  ))}
-                </div>
-              </div>
+
+              <Link href="/doctors" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Doctors</Link>
+              <Link href="/about" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">About</Link>
+              <Link href="/blog" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Blog</Link>
             </div>
-            <Link href="/doctors" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Doctors</Link>
-            <Link href="/about" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">About</Link>
-            <Link href="/blog" onClick={() => setIsMenuOpen(false)} className="text-[16px] font-medium text-[#1A1A1A] hover:text-[#184C3A]">Blog</Link>
           </div>
-        </div>
         )}
       </nav>
 

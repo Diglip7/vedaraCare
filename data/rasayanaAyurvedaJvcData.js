@@ -364,7 +364,7 @@ export const rasayanaJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "Google Rating" },
+    { value: "4.6", label: "Google Rating" },
     { value: "800+", label: "Rasayana consultations" },
     { value: "Female", label: "Practitioner Available" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },

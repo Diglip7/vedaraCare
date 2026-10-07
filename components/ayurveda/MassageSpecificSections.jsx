@@ -246,7 +246,7 @@ export const PricingSection = () => {
             Course pricing available: 7-session course typically 10-15% off per session, 14-session course 15-20% off.
           </p>
           <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 text-[12px] font-sans text-gray-400  tracking-widest">
-            <span>Direct-billing partner with leading insurers:</span>
+            <span>Reimbursement support available for leading insurers:</span>
             <div className="flex items-center gap-4 text-gray-600 font-semibold">
               <span>Daman</span>
               <span className="text-gray-300">|</span>

@@ -1,25 +1,27 @@
+import { physioReviewsBlock } from './googleReviews';
+
 export const sportsPhysiotherapyHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Physiotherapy in JVC", href: "/physiotherapy-jvc/" },
     { label: "Sports Physiotherapy", active: true }
   ],
-  label: "Sports Injury Physiotherapy · DHA-Licensed Clinic in JVC, Dubai",
-  title: "Sports injury physiotherapy in JVC. Get back to your sport — properly",
-  description: "DPT-qualified sports physiotherapists at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. Specialised treatment for padel injuries, running injuries, gym training injuries, ACL rehabilitation, and acute sports trauma — with structured return-to-sport protocols that prevent re-injury. Same-day appointments for acute injuries. Insurance direct-billing with seven major insurers.",
+  label: "SPORTS INJURY PHYSIOTHERAPY · DHA-LICENSED CLINIC IN JVC, DUBAI",
+  title: "Sports injury physiotherapy in JVC, Dubai. Back to your sport, safely.",
+  description: "Physiotherapy for padel, running, gym, football, golf and cycling injuries at our Jumeirah Village Circle clinic, walking distance from Circle Mall. Hafsina K K, our DHA-licensed physiotherapist, treats the injury and its cause and tests you before you return to sport. Same-day appointments for new injuries.",
   primaryCTA: "Book a Sports Assessment",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20sports%20physiotherapy%20and%20book%20a%20consultation.",
   trustSignals: [
-    "DPT + sports medicine certified",
-    "900+ sports injuries treated",
-    "Return-to-sport protocols",
+    "DHA-licensed physiotherapist (DHA-P 64812828)",
+    "Same-day appointments for new injuries",
+    "Shockwave, dry needling and video gait analysis",
     "Walking distance from Circle Mall"
   ],
   floatingCard: {
-    title: "PADEL · RUNNING · GYM · ACL · MORE",
-    subtitle: "Specialised protocols for Dubai's most common sports injuries. From acute injury management to full return-to-sport. Same-day appointments often available."
+    title: "PADEL · RUNNING · GYM · FOOTBALL · GOLF",
+    subtitle: "Treatment for the injury and its cause, then a tested return to sport."
   },
   image: "/images/sports-injury-physiotherapy-jvc-hero.webp",
   alt: "Sports physiotherapist treating athlete at Vedara Care JVC clinic Dubai"
@@ -29,8 +31,8 @@ export const sportsPhysiotherapyIntro = {
   bgColor: "bg-[#FFFFFF]",
   label: "THE QUICK ANSWER",
   title: "Sports injury physiotherapy at our JVC clinic, in one paragraph.",
-  blockquote: "Sports injury physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialised treatment for active patients delivered by DPT-qualified physiotherapists with sports medicine certifications. We treat acute sports injuries (ankle sprains, hamstring strains, ACL injuries, rotator cuff injuries, meniscus tears), sport-specific injury patterns (padel elbow, runner's knee, gym overuse, tennis elbow, golf-related injuries), and provide post-surgical rehabilitation (ACL reconstruction, meniscus repair, rotator cuff repair). Treatment combines hands-on manual therapy, sport-specific exercise progression, biomechanical analysis, dry needling where appropriate, modalities (shockwave therapy for tendinopathies, IFC, ultrasound), and structured return-to-sport protocols designed to prevent re-injury. Single sessions from AED 350; sport-specific rehabilitation packages from AED 2,400. Patients travel to our JVC clinic from across Dubai including Sports City, Motor City, JVT, Al Barsha South, Marina, and Downtown. Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated June 2026"
+  blockquote: "Sports injury physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai treats sprains, strains, tendon problems and joint injuries from padel, running, gym training, football, golf and cycling. Hafsina K K, a DHA-licensed physiotherapist (DHA-P 64812828), diagnoses the injury, treats it hands-on with manual therapy, dry needling, cupping or shockwave where suitable, and builds a staged return to sport, checked with strength tests (by hand and by machine), hop tests and video gait analysis. Same-day appointments are available for new injuries, and injury-prevention and performance screening is offered for active people who are not injured. Open daily 9am to 10pm near Circle Mall. Insurance works on reimbursement.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Reviewed October 2026."
 };
 
 export const sportsPhysiotherapyConditions = {
@@ -73,7 +75,7 @@ export const sportsPhysiotherapyConditions = {
     }
   ],
   footerText: "See all physiotherapy conditions →",
-  footerLink: "/physiotherapy-dubai/"
+  footerLink: "/physiotherapy-jvc/"
 };
 
 export const sportsPhysiotherapyMechanism = {
@@ -111,12 +113,12 @@ export const sportsPhysiotherapyModalities = {
     {
       number: "03",
       title: "Shockwave Therapy",
-      description: "Focused or radial shockwave therapy for chronic tendinopathies — plantar fasciitis, Achilles tendinopathy, patellar tendinopathy, lateral epicondylitis, rotator cuff calcific tendinopathy. Evidence-based first-line treatment for chronic tendon conditions that have not responded to other approaches."
+      description: "Shockwave therapy for long-standing tendon problems — plantar fasciitis, Achilles tendinopathy, patellar tendinopathy, lateral epicondylitis, rotator cuff calcific tendinopathy. Evidence-based first-line treatment for chronic tendon conditions that have not responded to other approaches."
     },
     {
       number: "04",
-      title: "Biomechanical Analysis & Gait Assessment",
-      description: "Detailed analysis of movement patterns specific to your sport. Running gait analysis, sport-specific movement screening, single-leg and bilateral functional testing. Identifies the movement patterns contributing to injury or limiting performance."
+      title: "Video Gait Analysis and Movement Screening",
+      description: "Video analysis of your running or sport movement, plus single-leg and functional tests, to find the movement patterns behind the injury."
     },
     {
       number: "05",
@@ -126,113 +128,49 @@ export const sportsPhysiotherapyModalities = {
     {
       number: "06",
       title: "Return-to-Sport Testing",
-      description: "Objective testing before clearing return to sport — strength testing (isokinetic or hand-held dynamometry), functional hop tests, change-of-direction tests, sport-specific drills. Evidence-based criteria for return-to-sport clearance."
+      description: "Objective tests before you return: strength tests by hand and by machine, hop tests, change-of-direction and sport-specific drills, compared with your uninjured side."
+
+    },
+    {
+      number: "07",
+      title: "Injury Prevention and Performance Screening",
+      description: "For active people who are not injured: movement and strength screening for padel, running and gym training, with a short programme to reduce injury risk and improve performance."
+    },
+    {
+      number: "08",
+      title: "Cupping and IASTM",
+      description: "Biomechanical cupping and instrument-assisted soft tissue work for muscle tightness and tendon problems, alongside exercise."
     }
   ]
 };
 
-export const sportsPhysiotherapyIntegration = {
-  bgColor: "bg-[#F5F1E8]",
-  label: "INTEGRATED CARE",
-  title: "When sports physiotherapy + Ayurveda produces stronger outcomes for chronic issues.",
-  description: "For acute sports injuries, physiotherapy alone is typically the right approach. For chronic overuse injuries that have plateaued with physiotherapy alone, integrated Ayurveda + physiotherapy sometimes produces stronger outcomes.",
-  features: [
-    "Ayurvedic local therapies for chronic tendinopathies",
-    "Concurrent physiotherapy for biomechanical correction",
-    "Shared clinical notes between both teams",
-    "Honest assessment of when integration helps vs. doesn't"
-  ],
-  image: "/images/sports-physiotherapy-integration.webp",
-  imageAlt: "DPT physiotherapist and Ayurvedic doctor collaborating on sports injury"
-};
-
 export const sportsPhysiotherapyOutcomes = {
-  bgColor: "bg-[#F5F1EB]",
-  headerBgColor: "bg-[#184C3A]",
-  headerTextColor: "text-white",
-  label: "Realistic Outcomes",
-  title: "What return-to-sport looks like by injury type.",
-  description: "Based on our 900+ sports injury patients at the JVC clinic with documented return-to-sport outcomes.",
-  tableHeaders: [
-    "Injury ",
-    "Typical Return-to-Sport",
-    "Re-Injury Rate (with proper protocol)",
-    "Re-Injury Rate (without proper protocol)"
-  ],
+  bgColor: "bg-[#F5F1EB]", headerBgColor: "bg-[#184C3A]", headerTextColor: "text-white",
+  label: "TYPICAL RECOVERY TIMES",
+  title: "How long sports injuries usually take to recover.",
+  description: "Typical ranges from published guidance. Your own timeline depends on how bad the injury is, your sport, and how closely you follow the plan; your physiotherapist gives you a personal estimate after the assessment.",
+  tableHeaders: ["Injury", "Typical return to sport", "Main focus of rehab", "See a doctor first if"],
   tableRows: [
-    {
-      subtype: "Ankle sprain (Grade 2)",
-      days: "4–6 weeks",
-      severity: "<10% within 12 months",
-      medication: "30–40% within 12 months"
-    },
-    {
-      subtype: "Hamstring strain (Grade 2)",
-      days: "4-8 weeks",
-      severity: "<15% within 12 months",
-      medication: "30–50% within 12 months"
-    },
-    {
-      subtype: "Padel elbow (chronic)",
-      days: "6–12 weeks",
-      severity: "<20% within 12 months",
-      medication: "40–60% within 12 months"
-    },
-    {
-      subtype: "ACL reconstruction",
-      days: "9–12 months",
-      severity: "<8% within 24 months",
-      medication: "20–25% within 24 months"
-    },
-    {
-      subtype: "Rotator cuff injury (non-surgical)",
-      days: "8–16 weeks",
-      severity: "<15% within 12 months",
-      medication: "30–40% within 12 months"
-    },
-    {
-      subtype: "Runner's knee (patellofemoral)",
-      days: "6–12 weeks",
-      severity: "<15% within 12 months",
-      medication: "40–50% within 12 months"
-    },
-    {
-      subtype: "IT band syndrome",
-      days: "6–10 weeks",
-      severity: "<10% within 12 months",
-      medication: "35–50% within 12 months"
-    },
-    {
-      subtype: "Achilles tendinopathy",
-      days: "12–24 weeks",
-      severity: "<15% within 12 months",
-      medication: "35–50% within 12 months"
-    },
-    {
-      subtype: "Meniscus injury (non-surgical)",
-      days: "6–12 weeks",
-      severity: "<20% within 12 months",
-      medication: "40–50% within 12 months"
-    },
-    {
-      subtype: "Acute back injury (mechanical)",
-      days: "4–8 weeks",
-      severity: "<20% within 12 months",
-      medication: "35–50% within 12 months"
-    }
+    { subtype: "Ankle sprain (mild to moderate)", days: "1-6 weeks", severity: "Balance, ankle strength, hopping and cutting drills", medication: "You cannot put weight on the foot, or there is bone tenderness" },
+    { subtype: "Hamstring strain", days: "1-8 weeks, depending on grade", severity: "Progressive strength and sprint loading", medication: "A pop with large bruising or a gap in the muscle" },
+    { subtype: "Calf strain", days: "2-6 weeks", severity: "Calf loading, hopping, gradual return to running", medication: "Sudden pain at the back of the heel (possible Achilles rupture)" },
+    { subtype: "Padel / tennis elbow", days: "6-12 weeks, sometimes longer", severity: "Forearm and grip loading, shoulder and technique", medication: "Numbness or weakness in the hand" },
+    { subtype: "Runner's knee", days: "6-12 weeks", severity: "Hip and thigh strength, load and gait changes", medication: "The knee locks, gives way or swells quickly" },
+    { subtype: "Achilles tendinopathy", days: "3-6 months", severity: "Progressive tendon loading", medication: "Sudden severe pain or inability to rise on tiptoe" },
+    { subtype: "Shin splints", days: "4-8 weeks", severity: "Load management, calf and foot strength, gait", medication: "Pain at one spot on the bone, at rest or at night (possible stress fracture)" }
   ],
-  footer: "The single largest factor in re-injury prevention is following the full rehabilitation programme — including the return-to-sport criteria testing — rather than self-discharging once acute pain resolves. Patients who complete proper rehabilitation have re-injury rates substantially lower than those who do not."
+  footer: "Returning only when you pass strength and movement tests, not just when pain settles, is the best way to avoid re-injury."
 };
 
 export const sportsPhysiotherapyTeam = {
-  label: "THE TEAM",
-  title: "Sports physiotherapy specialists at our JVC clinic.",
+  label: "YOUR PHYSIOTHERAPIST",
+  title: "Your sports physiotherapist at our JVC clinic.",
   team: [
     {
       name: "Hafsina K K",
-      qualification: "DHA-Licensed Physiotherapist · DHA-P 64812828",
-      specialties: ["Sports Physiotherapy", "Orthopaedic Rehabilitation", "Manual Therapy", "Return-to-Sport"],
-      experience: "7 years of clinical experience across orthopaedic, neurological, sports, and women's health rehabilitation in India and the UAE. Delivers evidence-based sports rehabilitation at our JVC clinic.",
+      qualification: "Bachelor of Physiotherapy · DHA-P 64812828 · 7+ years' experience",
+      specialties: ["Sports Physiotherapy", "Return-to-Sport Testing", "Dry Needling", "Injury Prevention"],
+      experience: "Hafsina K K treats every sports patient herself, from the first assessment to return to sport.",
       languages: ["English", "Malayalam", "Hindi"],
       image: "/images/hafsina-kk-physiotherapist-dubai.webp",
       alt: "Hafsina K K, DHA-Licensed Physiotherapist at Vedara Care JVC Dubai",
@@ -253,7 +191,7 @@ export const sportsPhysiotherapyPricing = {
       duration: "60 minutes at our JVC clinic",
       bestFor: "First-time sports injury patients, biomechanical assessment",
       features: [
-        "Comprehensive assessment with DPT-qualified physiotherapist",
+        "Comprehensive assessment with DHA-licensed physiotherapist",
         "Biomechanical analysis if relevant",
         "Written treatment plan and timeline",
         "Initial treatment typically starts same session"
@@ -286,40 +224,7 @@ export const sportsPhysiotherapyPricing = {
   ]
 };
 
-export const sportsPhysiotherapyReviews = {
-  bgColor: "bg-[#1b4332]",
-  cardBgColor: "rgba(41, 187, 114, 0.05)",
-  isDarkText: false,
-  label: "PATIENT OUTCOMES",
-  title: "Real return-to-sport outcomes.",
-  buttonText: "Read All Sports Reviews →",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
-  items: [
-    {
-      quote: "Tore my ACL in a Sports City football match. Vedara's team got me back to competitive football in 11 months — strength-tested, functionally cleared, properly rehabbed. Three years later, still playing, no re-injury.",
-      author: "James M.",
-      details: "ACL Reconstruction Recovery · 11-Month Rehab",
-      details1: "Sports City resident · February 2026"
-    },
-    {
-      quote: "Padel elbow for six months. Tried rest, anti-inflammatories, basic physio. Vedara identified specific shoulder mobility issues driving the elbow pattern. Eight weeks of targeted treatment plus dry needling — back on the padel court, no recurrence.",
-      author: "Priya R.",
-      details: "Padel Elbow (Chronic) · 8-Week Programme",
-      details1: "Motor City resident · January 2026"
-    },
-    {
-      quote: "Marathon training. Right knee pain at week 14. Vedara's running gait analysis identified the issue, modified my training plan, and I finished Dubai Marathon in 3:42 — three weeks behind schedule but in one piece. Their understanding of running biomechanics is unusual in Dubai.",
-      author: "Rohan D.",
-      details: "Runner's Knee (Patellofemoral) · 6-Week Treatment",
-      details1: "Dubai Marina resident · March 2026"
-    }
-  ],
-  stats: [
-    { value: "4.5", label: "stars on Google" },
-    { value: "180+", label: " sports physiotherapy review" },
-    { value: "97%", label: " of patients returned to their pre-injury sport level" }
-  ]
-};
+export const sportsPhysiotherapyReviews = physioReviewsBlock('What patients say about physiotherapy with Hafsina K K');
 
 export const sportsPhysiotherapyFaqs = {
   bgColor: "bg-[#FFFFFF]",
@@ -328,105 +233,36 @@ export const sportsPhysiotherapyFaqs = {
     { text: "Visit physiotherapy main page", href: "/physiotherapy-jvc/" },
 
   ],
-  title: "What sports patients ask before booking.",
-  description: "For general physiotherapy questions, see our main physiotherapy page.",
+  title: "Sports injury physiotherapy: your questions answered.",
+  description: "Answers reviewed by Hafsina K K, DHA-licensed physiotherapist.",
+  cta: {
+    label: "Ask a Question",
+    href: "https://wa.me/971555736312?text=Hi,%20I%27m%20interested%20in%20your%20treatments%20and%20would%20like%20to%20book%20a%20consultation."
+  },
   faqs: [
-    {
-      question: "Can I get a same-day appointment for an acute sports injury?",
-      answer: 'Yes — same-day appointments are typically available for acute sports injuries at our JVC clinic. <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20an%20acute%20sports%20injury%20and%20would%20like%20to%20request%20a%20same-day%20appointment." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response (typically within 15 minutes during business hours), or call +971 55 573 6312 directly. Saturday and evening appointments are also available for working patients. For very severe acute injuries with suspected fracture, severe deformity, neurological symptoms, or inability to weight-bear, A&E evaluation comes first, then physiotherapy follow-up.'
-    },
-    {
-      question: "What is the difference between sports physiotherapy and general physiotherapy?",
-      answer: "Sports physiotherapy is specialised for active patients — different examination techniques, sport-specific exercise prescription, biomechanical analysis, return-to-sport testing, and prevention programmes. General physiotherapy may treat sports injuries but typically lacks the sport-specific progression protocols and return-to-sport criteria that prevent re-injury. For competitive athletes, recreational sportspeople with significant training volume, or anyone returning to a specific sport after injury, sports physiotherapy is meaningfully different."
-    },
-    {
-      question: "Do I need a doctor's referral for sports physiotherapy in Dubai?",
-      answer: "No — physiotherapy is direct-access in Dubai. However, your insurance may require referral for coverage. For injuries with potential fracture or serious pathology, A&E or sports medicine doctor evaluation first is recommended. We can often see you same-day and coordinate any additional imaging or specialist referral if needed."
-    },
-    {
-      question: "Do you treat padel injuries specifically?",
-      answer: "Yes — padel injuries are one of our largest treatment cohorts due to the sport's explosion in Dubai. Common padel injuries we treat: padel elbow (lateral epicondylitis), rotator cuff impingement, lower back strain, wrist tendinopathies, ankle sprains, and meniscus injuries. Our sports physiotherapists understand padel-specific biomechanics — the rotational demands, repetitive overhead movements, and lateral cutting patterns that drive padel injury patterns."
-    },
-    {
-      question: "How long does ACL rehabilitation take?",
-      answer: "Typically 9–12 months from surgery to full return to cutting sports. Faster return is usually inappropriate — the graft requires time to remodel and tissue strength returns gradually. Our ACL rehabilitation programme follows evidence-based phases: early protection and range of motion (0–6 weeks), strengthening (6–12 weeks), neuromuscular control (3–6 months), and return-to-sport phase (6–12 months) with objective testing before clearance. Re-injury rates are substantially lower with proper protocols than with early return."
-    },
-    {
-      question: "Can you help with running injuries?",
-      answer: "Yes — running injuries are a significant focus at our JVC clinic. Common presentations: runner's knee, IT band syndrome, shin splints, plantar fasciitis, Achilles tendinopathy, stress fractures, and hamstring issues. Our approach includes running gait analysis, biomechanical assessment, training load review, and sport-specific rehabilitation. For Dubai's marathon and recreational running community, we provide both injury treatment and preventive performance optimisation."
-    },
-    {
-      question: "What is dry needling and is it the same as acupuncture?",
-      answer: "Dry needling involves inserting fine needles into trigger points and tight muscle bands to release tension and reduce pain. Acupuncture is a separate practice based on traditional Chinese medicine principles. Dry needling is performed by physiotherapists with specific certification — it is a Western medicine technique with growing evidence base for chronic muscle patterns, certain headaches, and persistent post-injury muscle tension. Most patients find it surprisingly comfortable and effective."
-    },
-    {
-      question: "What is shockwave therapy and when is it used?",
-      answer: "Shockwave therapy delivers focused acoustic waves to chronic tendinopathies. It is evidence-based first-line treatment for: plantar fasciitis, Achilles tendinopathy, patellar tendinopathy, lateral epicondylitis (tennis elbow / padel elbow), and rotator cuff calcific tendinopathy. Typically 3–6 sessions, weekly. Particularly useful for chronic tendon conditions that have not responded to traditional manual therapy and exercise alone."
-    },
-    {
-      question: "How do you handle return-to-sport decisions?",
-      answer: "We apply objective return-to-sport criteria — not just 'you feel better.' Criteria include: strength testing (typically requiring 90% of unaffected side), functional performance tests (hop tests, change-of-direction tests, sport-specific drills), time-from-injury minimums based on tissue healing biology, and movement quality assessment. Premature return to sport is the leading cause of re-injury. We will not clear you for return until criteria are met — even when you are feeling ready."
-    },
-
-    {
-      question: "What about prevention — can sports physiotherapy prevent injuries?",
-      answer: "Yes — preventive sports physiotherapy is meaningfully effective. Common prevention programmes include: ACL prevention programmes (particularly for football players), rotator cuff prevention for racquet and overhead athletes, hamstring injury prevention for sprinting sports, and load management for runners. Prevention programmes are typically 6–12 weeks initially, with periodic reinforcement. For athletes with recurrent injuries, prevention may be more valuable than treatment."
-    },
-    {
-      question: "Do you do running gait analysis?",
-      answer: "Yes — running gait analysis is part of our running injury and running performance services. We analyse: cadence, foot strike pattern, stride length, vertical oscillation, hip-knee-ankle alignment, trunk position, arm swing patterns. Findings inform both injury treatment (addressing biomechanical contributors) and performance optimisation. Video analysis is included where useful."
-    },
-
-    {
-      question: "Can children and adolescents have sports physiotherapy?",
-      answer: "Yes — adolescent and youth athletes are a specific patient cohort. Common presentations: Osgood-Schlatter disease, Sever's disease, sports injuries in school sports, growth-related issues, and overuse injuries from sports academy training. Approach is age-appropriate, includes parental involvement, and considers growth and development factors that distinguish paediatric from adult sports physiotherapy."
-    },
-    {
-      question: "What about cycling injuries?",
-      answer: "Cycling injuries are a growing patient cohort in Dubai given the city's expanding cycling culture. Common presentations: knee pain (patellofemoral), lower back pain, neck and shoulder tension, IT band syndrome, saddle-related injuries, and crash trauma. We can also provide bike-fit assessment guidance to address biomechanical causes."
-    },
-    {
-      question: "What if I had surgery overseas — can you provide rehabilitation?",
-      answer: "Yes — many Dubai expat patients have surgery overseas (often in their home countries) and need rehabilitation in Dubai. We coordinate with your operating surgeon to follow their specific protocols, integrate with any post-operative imaging, and provide structured rehabilitation. Bring all surgical documentation, post-operative imaging, and any rehabilitation protocols from your surgeon to your initial assessment."
-    },
-
-    {
-      question: "Where in JVC is your sports physiotherapy clinic?",
-      answer: "Our clinic is at [Building Name], Street 2, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Patients travel to us from across Dubai including Sports City, Motor City, JVT, Al Barsha South, Marina, Downtown, Palm Jumeirah, and Mirdif."
-    },
-
-
-    {
-      question: "Does insurance cover sports physiotherapy?",
-      answer: 'Sports injuries with medical justification are typically covered by Dubai insurance plans. Pure performance optimisation or preventive work may have limited coverage. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm specific coverage and out-of-pocket costs.'
-    },
-    {
-      question: "How is sports physiotherapy at Vedara different from general clinics?",
-      answer: "Specialised expertise — our sports physiotherapists have DPT qualifications plus sports medicine certifications and specific sport-knowledge from working with active populations. Longer sessions (45–60 minutes vs hospital-typical 20–30 minutes). Same therapist throughout your treatment. Objective return-to-sport testing rather than subjective 'feels better' clearance. Sport-specific rehabilitation protocols. Modern equipment including shockwave therapy. Transparent published pricing."
-
-    },
-    {
-      question: "What about tendinopathies that have not responded to other treatment?",
-      answer: "Chronic tendinopathies (plantar fasciitis, Achilles, patellar, lateral epicondylitis) often persist for months or years with general physiotherapy. Our approach combines evidence-based protocols: eccentric loading programmes specific to the tendon, shockwave therapy for chronic cases, isometric loading for pain management, and progressive return-to-loading. Chronic tendinopathies that have failed elsewhere often respond when treatment is properly structured."
-    },
-    {
-      question: "Can you help with sports performance, not just injuries?",
-      answer: "Yes — performance optimisation is offered for active patients without active injuries. Performance services include: biomechanical assessment, movement screening for asymmetries, sport-specific strength and conditioning consultation, running gait analysis, and structured prevention programmes. Particularly useful for recreational athletes who want to optimise performance and prevent the injury patterns common to their sport."
-    },
-
-    {
-      question: "How do  I book a sports physiotherapy appointment?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%27d%20like%20to%20book%20a%20sports%20physiotherapy%20appointment." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for sending injury photos, MRI images, or surgical reports. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online via the button above. For your first appointment, please bring: any imaging (MRI, X-rays, ultrasound), surgical reports if applicable, current medication list, your sports schedule (competitive calendar if relevant), and insurance card.'
-    }
-
-
+    { question: "Can I get a same-day appointment for a sports injury?", answer: "Yes. Same-day appointments are available for new sports injuries at our JVC clinic, open daily from 9am to 10pm. WhatsApp us to book." },
+    { question: "Do I need a doctor's referral for sports physiotherapy in Dubai?", answer: "No. You can book directly. Some insurers ask for a doctor's referral before they reimburse sessions; our in-house GP can see you if needed." },
+    { question: "What should I do in the first 48 hours after a sports injury?", answer: "Protect the injured area, avoid movements that cause sharp pain, use ice or compression for swelling, and keep gently moving what does not hurt. Book an assessment early; go to A&E if you cannot bear weight or the joint looks deformed." },
+    { question: "What are the most common padel injuries?", answer: "Padel (tennis) elbow, shoulder pain from overhead shots, lower back strain, calf strains and ankle sprains." },
+    { question: "Can I keep playing padel with tennis elbow?", answer: "Often yes, with less playing time and adjusted shots while you rehabilitate. Playing through increasing pain usually makes recovery longer." },
+    { question: "How long does an ankle sprain take to heal?", answer: "Mild to moderate sprains usually allow a return to sport in 1 to 6 weeks. Rehab focuses on balance and strength to stop the ankle giving way again." },
+    { question: "How long does a hamstring strain take to heal?", answer: "Usually 1 to 8 weeks depending on the grade. Return to sprinting only after strength and sprint tests." },
+    { question: "Do you do running gait analysis?", answer: "Yes. We use video analysis of your running, together with strength and movement tests, to find what is driving the injury." },
+    { question: "How do you decide when I can return to sport?", answer: "With tests, not just pain: strength tests by hand and by machine, hop tests and sport-specific drills, compared with your uninjured side." },
+    { question: "What is shockwave therapy used for?", answer: "Shockwave therapy is used for long-standing tendon problems such as plantar fasciitis, Achilles and patellar tendinopathy and tennis elbow, alongside an exercise programme." },
+    { question: "Is dry needling the same as acupuncture?", answer: "No. Dry needling targets tight muscle bands and trigger points based on anatomy, as part of physiotherapy. Acupuncture is based on traditional Chinese medicine points." },
+    { question: "Do you offer injury prevention or performance screening?", answer: "Yes. For active people who are not injured, we screen movement and strength for padel, running and gym training and give a short programme to reduce injury risk and improve performance." },
+    { question: "Do you treat ACL injuries?", answer: "Yes. Without surgery, see our knee pain physiotherapy page; after ACL reconstruction, see our post-surgery physiotherapy page, which covers return-to-sport testing." },
+    { question: "Do you treat children's sports injuries?", answer: "Yes. Physiotherapy for under-18s, including sports and growth-related injuries, is on our paediatric physiotherapy page." },
+    { question: "Does insurance cover sports physiotherapy?", answer: "Most Dubai plans cover physiotherapy for a diagnosed injury, usually with a yearly session limit. Vedara Care works on reimbursement and provides the documents your insurer needs." },
+    { question: "Where is the clinic?", answer: "Vedara Care Polyclinic, Binghatti Azure, Shop 4, Al Barsha South Fourth, Jumeirah Village Circle, Dubai, walking distance from Circle Mall. Open daily 9am to 10pm." }
   ]
 };
 
 export const sportsPhysiotherapyLocation = {
   bgColor: "bg-[#FFFFFF]",
   label: "VISIT US",
-  title: "Where sports physiotherapy happens at Vedara Care JVC.",
+  title: "Where to find our sports physiotherapy clinic in JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
@@ -438,13 +274,13 @@ export const sportsPhysiotherapyLocation = {
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",
     "5 minutes from JSS Private School",
-    "Free patient parking on-site",
+    "Free and paid parking nearby",
     "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
   ],
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
-  image: "",
+  image: "/images/return-to-sport-testing-vedara-jvc.webp",
   alt: "Vedara Care sports physiotherapy clinic in JVC Dubai",
-  description: "Our JVC clinic has dedicated sports physiotherapy treatment rooms, a full rehabilitation gym for sport-specific exercise progression, modern modality equipment including focused shockwave therapy, and an outdoor space for return-to-sport testing.",
+  description: "Sports physiotherapy takes place at Vedara Care Polyclinic in JVC: a strength and exercise area for sport-specific rehab, shockwave and electrical stimulation equipment, and video gait analysis. Patients come from JVC, JVT, Al Barsha South, Arjan, Dubai Sports City, Motor City and Al Barsha.",
   buttonText: "Book a Sports Assessment",
   buttonLink: "/book"
 };
@@ -452,13 +288,13 @@ export const sportsPhysiotherapyLocation = {
 export const sportsPhysiotherapyFinalCTA = {
   bgColor: "bg-[#FAF7F2]",
   label: "Ready to Return to Your Sport?",
-  title: "Acute injury or chronic pattern — start with a proper assessment.",
+  title: "New injury or long-standing problem? Start with a proper assessment.",
   description: "Whether you have an acute sports injury that needs same-day attention, a chronic pattern that has not responded to general physiotherapy, or you want to optimise performance and prevent the injuries common to your sport — the first useful step is a 60-minute sports physiotherapy assessment at our JVC clinic. We provide a specific sports physiotherapy diagnosis, sport-specific treatment plan with realistic timeline, and where appropriate, your first treatment intervention the same session. Same-day appointments often available for acute injuries.",
   button1Text: "Book a Sports Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20sports%20physiotherapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 350 · DHA-licensed JVC clinic · Insurance direct-billing with 7 major insurers · Same-day appointments often available · Home services across Dubai"
+  footer: "DHA-licensed physiotherapist · Same-day appointments for new injuries · Insurance reimbursement · Open daily 9am to 10pm · Near Circle Mall, JVC"
 };
 
 
@@ -488,15 +324,10 @@ export const sportsPhysiotherapyInjuryTypes = {
       linkHref: "/conditions/shoulder-pain-physiotherapy-dubai/",
       linkText: "Learn more about shoulder physiotherapy →"
     },
-    {
-      title: 'ACL Injuries & Reconstruction Recovery',
-      subtitle: 'Anterior cruciate ligament',
-      description: 'Major knee ligament injury common in football and pivoting sports. Surgical or conservative pathway; 6–12 month rehab.'
-    },
-    {
-      title: 'Meniscus Injuries',
-      subtitle: 'Medial or lateral meniscus tears',
-      description: 'Cartilage injuries in the knee. Surgical or conservative management. Common across cutting sports and gym training.'
+    { 
+      title: "Knee Ligament and Meniscus Injuries", 
+      subtitle: "ACL, MCL and meniscus, treated without surgery",
+      description: "Rehabilitation when surgery is not needed or not yet decided. After an operation, see <a href='/physiotherapy/post-surgery-rehab-dubai/#acl'>ACL and post-surgery rehabilitation</a>; for detail on knee injuries see <a href='/conditions/knee-pain-physiotherapy-dubai/'>knee pain physiotherapy</a>." 
     },
     {
       title: 'Hamstring Strains',
@@ -536,7 +367,10 @@ export const sportsPhysiotherapyInjuryTypes = {
       description: 'Common across nearly all sports. Specific protocols depending on sport-specific demands and injury mechanism.',
       linkHref: "/conditions/back-pain-physiotherapy-jvc/",
       linkText: "Learn more about back physiotherapy →"
-    }
+    },
+    { title: "Calf Strains", subtitle: "Calf muscle tears", description: "Common in padel, tennis and running. Graded calf loading and hopping before return to sport." },
+    { title: "Groin Strains", subtitle: "Adductor injuries", description: "Common in football and padel. Progressive adductor strengthening and change-of-direction drills." },
+    { title: "Shoulder Dislocation and Instability", subtitle: "After the joint is put back in place", description: "Rotator cuff and shoulder-blade strengthening to restore stability; your doctor confirms whether surgery is needed." }
   ],
   footer: 'Did not find your injury? <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%27d%20like%20to%20inquire%20about%20treatment%20for%20my%20sports%20injury." class="underline hover:opacity-70 transition-opacity" style="color: rgb(27, 67, 50);">Contact us — we treat the full range of sports injuries →</a>'
 };
@@ -548,7 +382,7 @@ export const sportsPhysiotherapyInsurance = {
   paragraphs: [
     "Insurance coverage for physiotherapy in Dubai varies enormously by insurer and plan. Understanding what your specific plan covers — before you commit to a multi-session programme — prevents most billing surprises.",
     "The major Dubai insurers offering some level of physiotherapy coverage include Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife, and several others. Coverage typically varies across these dimensions: annual session limits (some plans allow 6-10 sessions per year; comprehensive plans allow unlimited with medical justification), copay percentages (often 10-30% patient responsibility), referral requirements (some plans require GP referral; others allow direct access), pre-authorisation requirements (some clinics require pre-authorisation for treatment beyond initial sessions), and direct-billing arrangements (some clinics direct-bill insurers; others require you to pay and claim back).",
-    'At Vedara Care, we are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. The most efficient process for new patients: <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> photo to +971 55 573 6312 before booking, and our team confirms exactly what is covered, what pre-authorisation is needed, and what your out-of-pocket cost will be. This typically takes 24-48 hours but prevents the most common billing surprises. For a full cost breakdown, see our <a href=\"/blog/ayurveda-cost-dubai/\">cost guide</a>.',
+    'At Vedara Care, we are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. The most efficient process for new patients: <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> photo to +971 55 573 6312 before booking, and our team confirms exactly what is covered, what pre-authorisation is needed, and what your out-of-pocket cost will be. This typically takes 24-48 hours but prevents the most common billing surprises. For a full cost breakdown, see our <a href="/blog/ayurveda-cost-dubai/">cost guide</a>.',
     "Some realities worth knowing: most plans require medical justification (specific diagnosis, documented condition) rather than wellness physiotherapy. Most plans cover physiotherapy for diagnosed musculoskeletal conditions (like <a href=\"/conditions/back-pain-ayurveda-dubai/\">back pain</a> or <a href=\"/conditions/arthritis-ayurveda-dubai/\">knee OA</a>), post-surgical recovery, and neurological rehabilitation. Coverage for preventive sports performance work, wellness physiotherapy, or maintenance visits varies. <a href=\"/conditions/postnatal-ayurveda-dubai/\">Postnatal physiotherapy</a> coverage has improved substantially in recent years — most major plans now cover pelvic floor rehabilitation with appropriate clinical justification."
   ],
   insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
@@ -562,35 +396,25 @@ export const sportsPhysiotherapyRelatedPages = {
   linkText: "Browse all physiotherapy services",
   linkHref: "/physiotherapy-jvc/",
   pages: [
-    {
-      title: "Shoulder Pain Physiotherapy",
-      description: "Comprehensive shoulder pain treatment for rotator cuff, impingement, and other shoulder conditions — our dedicated shoulder care page.",
-      href: "/conditions/shoulder-pain-physiotherapy-dubai/"
-    },
-    {
-      title: "Physiotherapy in Jvc",
-      description: "Our complete physiotherapy department — all seven specialisations, team, conditions treated, integrated care options.",
-      href: "/physiotherapy-jvc/"
-    },
-    {
-      title: "Cupping Therapy",
-      description: "Can be used as an adjunct treatment for sports injuries and muscle tension.",
-      href: "/treatments/cupping-therapy-dubai/"
-    },
-    {
-      title: "Back Pain Treatment",
-      description: "Integrated physiotherapy + Ayurveda for chronic back pain — including sports-related chronic back conditions.",
-      href: "/conditions/back-pain-ayurveda-dubai/"
-    },
-    {
-      title: "Arthritis Treatment",
-      description: "For joint conditions including post-injury arthritis and sports-related joint conditions.",
-      href: "/conditions/arthritis-ayurveda-dubai/"
-    },
-    {
-      title: "Cost of Treatment Guide",
-      description: "Transparent pricing across all our services with Dubai market context.",
-      href: "/blog/ayurveda-cost-dubai/"
-    }
+    { title: "Tennis and Padel Elbow", href: "/conditions/tennis-elbow-dubai/", description: "Detailed treatment for outer elbow pain from racquet sports." },
+    { title: "Knee Pain Physiotherapy", href: "/conditions/knee-pain-physiotherapy-dubai/", description: "Knee injuries, including ACL and MCL, treated without surgery." },
+    { title: "Post-Surgery Physiotherapy", href: "/physiotherapy/post-surgery-rehab-dubai/", description: "ACL reconstruction rehab, return-to-sport testing and prehab before surgery." },
+    { title: "Shoulder Pain Physiotherapy", href: "/conditions/shoulder-pain-physiotherapy-dubai/", description: "Rotator cuff and shoulder problems from overhead sports." },
+    { title: "Children's and Teenage Sports Injuries", href: "/physiotherapy/pediatric-dubai/", description: "Sports and growth-related injuries in under-18s." },
+    { title: "Cupping Therapy", href: "/treatments/cupping-therapy-dubai/", description: "Biomechanical cupping for muscle tightness, alongside physiotherapy." }
   ]
+};
+
+export const sportsPadelSection = {
+  id: "padel",
+  label: "PADEL INJURIES",
+  title: "Padel injury physiotherapy in Dubai.",
+  content: [
+    "The most common padel injuries are padel (tennis) elbow, shoulder pain from overhead shots, lower back strain, calf strains and ankle sprains from quick changes of direction. Physiotherapy treats the injury and the cause: grip and forearm strength for the elbow, rotator cuff and shoulder-blade control for the shoulder, and trunk and hip strength for the back.",
+    "<strong>When to see a physiotherapist</strong><br/>If pain lasts more than two or three days after playing, keeps coming back, or changes how you hit the ball, book an assessment. Playing through elbow or shoulder pain usually makes recovery longer.",
+    "<strong>Can I keep playing?</strong><br/>Often yes, with less playing time and adjusted shots while you rehabilitate. Hafsina K K tells you what to reduce and for how long.",
+    "<strong>Prevention</strong><br/>A short warm-up for shoulders, back and legs, a gradual increase in playing time, and a padel screening if you are new to the sport or returning after injury. See <a href='/conditions/tennis-elbow-dubai/'>padel and tennis elbow</a> for more detail."
+  ],
+  image: "/images/sports-injury-physiotherapy-jvc-hero.webp",
+  alt: "Padel injury physiotherapy at Vedara Care, JVC, Dubai"
 };

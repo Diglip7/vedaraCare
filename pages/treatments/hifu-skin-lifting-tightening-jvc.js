@@ -11,13 +11,13 @@ const HifuJvcDubai = () => {
     <>
       <Head>
         <title>HIFU JVC Dubai | Non-Surgical Facelift | Vedara Care Polyclinic</title>
-        <meta name="description" content="HIFU skin lifting & tightening in JVC — Medical Director oversight, HIFU-certified operator, from AED 2,400. Honest triage. Book free consultation." />
+        <meta name="description" content="HIFU skin lifting & tightening in JVC — Medical Director oversight, HIFU-certified operator. Prices are shared on WhatsApp. Honest triage. Book free consultation." />
         <meta name="keywords" content="HIFU JVC, HIFU Dubai, non-surgical facelift Dubai, skin lifting JVC, SMAS lift Dubai, Ultherapy Dubai, HIFU Vedara Care" />
         
         {/* Open Graph Tags */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content="HIFU Skin Lifting & Tightening in JVC — Non-Surgical SMAS Lift | Vedara Care Polyclinic" />
-        <meta property="og:description" content="HIFU under Medical Director oversight, delivered by HIFU-certified aesthetician. From AED 2,400 full face + neck. Honest patient triage. Transparent pricing. Book free consultation." />
+        <meta property="og:description" content="HIFU under Medical Director oversight, delivered by HIFU-certified aesthetician. Prices are shared on WhatsApp. Honest patient triage. Transparent pricing. Book free consultation." />
         <meta property="og:url" content="https://vedaracare.ae/treatments/hifu-skin-lifting-tightening-jvc/" />
         <meta property="og:site_name" content="Vedara Care Polyclinic" />
         <meta property="og:image" content="https://vedaracare.ae/images/hifu-jvc-og-social.jpg" />
@@ -30,7 +30,7 @@ const HifuJvcDubai = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@VedaraCare" />
         <meta name="twitter:title" content="HIFU Skin Lifting & Tightening in JVC — Vedara Care Polyclinic" />
-        <meta name="twitter:description" content="Non-surgical SMAS lift under Medical Director oversight. HIFU-certified operator. From AED 2,400. Honest triage. Book free consultation at our JVC clinic." />
+        <meta name="twitter:description" content="Non-surgical SMAS lift under Medical Director oversight. HIFU-certified operator. Prices are shared on WhatsApp. Honest triage. Book free consultation at our JVC clinic." />
         <meta name="twitter:image" content="https://vedaracare.ae/images/hifu-jvc-twitter-card.jpg" />
         <meta name="twitter:image:alt" content="Vedara Care JVC HIFU treatment session in progress with vector mapping documentation" />
 

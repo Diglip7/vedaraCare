@@ -332,8 +332,7 @@ const SkinTagRemovalJVC = () => {
         buttonHref="/book"
         sidebarLinks={[
           { text: "Dermatology in JVC", href: "/dermatology-clinic-jvc" },
-          { text: "Mole Removal", href: "/treatments/mole-removal-jvc" },
-          // { text: "Laser Treatments", href: "/treatments/laser-hair-removal-jvc" }
+          { text: "Mole Removal", href: "/treatments/mole-removal-jvc" }
         ]}
       />
 

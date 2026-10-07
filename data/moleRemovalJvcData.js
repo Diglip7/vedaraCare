@@ -33,7 +33,7 @@ export const moleRemovalQuickAnswer = {
   label: "QUICK ANSWER",
   title: "Mole removal at Vedara Care in JVC, in one paragraph.",
   text: "Mole removal at Vedara Care begins with a clinical assessment, not a walk-in procedure. A dermatologist examines the mole's shape, colour, border, size, and history before deciding whether it is suitable for removal and, if so, which method is appropriate. Moles that appear stable and benign may be considered for cosmetic removal using techniques such as shave excision or surgical excision, depending on their characteristics. Where a mole shows any feature that raises concern, tissue may be sent for laboratory examination (histopathology) rather than treated as a purely cosmetic matter. Removal technique is never one-size-fits-all — it depends on the individual lesion. Patients should never attempt to remove a mole at home, as this can cause infection, scarring, or delay the diagnosis of a lesion that needed proper evaluation.",
-  // reviewer: "Medically reviewed by: [INSERT VERIFIED DERMATOLOGIST NAME]",
+  reviewer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 ·",
   // subText: "DHA-Licensed · Last updated August 2026"
 };
 
@@ -305,12 +305,12 @@ export const moleRemovalPricing = {
   title: "What Does Mole Removal Cost in JVC?",
   table: [
     ["Service", "Price"],
-    ["Dermatology consultation", "AED[X]"],
-    ["Mole assessment", "AED[X]"],
-    ["Mole removal", "AED[X]"],
-    ["Additional lesion removal", "AED[X]"],
-    ["Histopathology, where required", "AED[X]"],
-    ["Follow-up consultation", "AED[X]"]
+    ["Dermatology consultation", "Prices are shared on WhatsApp"],
+    ["Mole assessment", "Prices are shared on WhatsApp"],
+    ["Mole removal", "Prices are shared on WhatsApp"],
+    ["Additional lesion removal", "Prices are shared on WhatsApp"],
+    ["Histopathology, where required", "Prices are shared on WhatsApp"],
+    ["Follow-up consultation", "Prices are shared on WhatsApp"]
   ],
   note: "The overall cost of mole removal in JVC can depend on several factors, including the number of moles being treated, their size, location on the body, the removal technique selected, the complexity of the case, whether anaesthesia is required, whether histopathology is needed, and any follow-up appointments included in your treatment plan."
 };

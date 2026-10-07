@@ -97,7 +97,7 @@ const AyurvedaPricing = () => {
                   fontSize: "clamp(1.1rem, 1.5vw, 1.4rem)",
                 }}
               >
-                {card.price}
+                Prices are shared on WhatsApp
               </h4>
 
               <ul className="space-y-4 flex-1">
@@ -119,9 +119,10 @@ const AyurvedaPricing = () => {
                 href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20enquire%20about%20Ayurveda%20pricing%20and%20book%20a%20consultation."
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track="whatsapp_click"
                 className="mt-10 border border-[#D8D1C7] rounded-full py-4 flex items-center justify-center gap-2 text-[14px] font-sans font-medium hover:bg-white transition">
                 <MessageCircle size={15} />
-                Enquire on WhatsApp
+                Get Prices on WhatsApp
               </a>
             </div>
           ))}
@@ -130,7 +131,7 @@ const AyurvedaPricing = () => {
         {/* Insurance */}
         <div className="text-center mt-16">
           <p className="text-[14px] text-[#6B6B6B] font-sans mb-6">
-            Direct billing available with:
+            Reimbursement support available for:
           </p>
 
           <div className="flex flex-wrap justify-center gap-3">

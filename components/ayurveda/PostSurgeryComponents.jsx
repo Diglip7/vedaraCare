@@ -21,7 +21,7 @@ export const SurgicalProcedures = ({
           </p>
           <h2 className="text-[32px] md:text-[42px] font-serif font-normal text-[#1A1A1A] leading-[1.2] mb-6">
             {title}
-          </h2> 
+          </h2>
           {description && (
             <p className="text-[16px] font-sans text-[#6B6B6B] leading-relaxed">
               {description}
@@ -78,15 +78,19 @@ export const HomePhysiotherapy = ({ data }) => {
           <div className="md:col-span-1 space-y-5">
             {data.image && (
               <div className="rounded-xl overflow-hidden h-[400px] mb-8">
-                <img 
-                  src={data.image} 
-                  alt={data.alt || "Home physiotherapy"} 
+                <img
+                  src={data.image}
+                  alt={data.alt || "Home physiotherapy"}
+                  width={data.imageWidth || 1080}
+                  height={data.imageHeight || 1080}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
             )}
             {data.content.map((paragraph, idx) => (
-              <p key={idx} className="text-[17px] font-sans leading-[1.75] text-[#717182]">
+              <p key={idx} className="text-[17px] font-sans leading-[1.75] text-[#717182] pt-10">
                 {paragraph}
               </p>
             ))}
@@ -97,7 +101,7 @@ export const HomePhysiotherapy = ({ data }) => {
               <span className="text-[11px] font-sans font-semibold tracking-[0.15em] text-[#C4A962] uppercase block mb-4">
                 {data.sidebar.label}
               </span>
-              
+
               <div className="flex-1 flex flex-col justify-between py-4 space-y-4">
                 <div>
                   <h4 className="text-[13px] font-sans font-medium text-[#1A1A1A] mb-2">Coverage:</h4>
@@ -222,9 +226,13 @@ export const PostSurgeryTeam = ({ data, bgColor = "bg-white" }) => {
             <div key={idx} className="bg-[#FAF8F5] rounded-xl overflow-hidden shadow-sm group hover:shadow-md transition-shadow">
               <div className="aspect-[1/1] bg-gradient-to-b from-[#D4B57E] to-[#B89A56] relative">
                 {member.image ? (
-                  <img 
-                    src={member.image} 
-                    alt={member.alt || member.name} 
+                  <img
+                    src={member.image}
+                    alt={member.alt || member.name}
+                    width={member.imageWidth || 1080}
+                    height={member.imageHeight || 1080}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover"
                   />
                 ) : (
@@ -250,6 +258,17 @@ export const PostSurgeryTeam = ({ data, bgColor = "bg-white" }) => {
                 <a href={member.link} className="inline-flex items-center gap-1 text-[13px] font-sans font-bold text-[#C9A961] hover:underline border-b border-[#C9A961]/30">
                   View full profile <ArrowRight size={14} />
                 </a>
+                <br></br>
+                {member.verifyHref && member.verifyText && (
+                  <a
+                    href={member.verifyHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[12px] font-sans text-[#6B6B6B] hover:text-[#1A1A1A] underline transition-colors inline-block mt-2 block"
+                  >
+                    {member.verifyText}
+                  </a>
+                )}
               </div>
             </div>
           ))}
@@ -292,7 +311,7 @@ export const InsuranceCoverage = ({ data }) => {
             <span className="text-[12px] font-sans font-semibold tracking-[0.1em] text-[#C4A962] uppercase block mb-8 text-center">
               {data.sidebar.label}
             </span>
-            
+
             <div className="grid grid-cols-2 gap-4 mb-8">
               {data.sidebar.insurers.map((insurer, idx) => (
                 <div key={idx} className="bg-[#F8F6F0] py-3 px-4 rounded-lg text-center text-[13px] font-sans font-medium text-[#4A4A4A] flex items-center justify-center">
@@ -385,14 +404,14 @@ export const WhereWeWork = ({ data }) => {
           </div>
 
           <div className="aspect-square lg:aspect-auto lg:h-[800px] rounded-lg overflow-hidden">
-  <iframe
-    className="w-full h-full"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
-    allowFullScreen
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-    title="Vedara Care JVC Dubai Location"/>
-</div>
+            <iframe
+              className="w-full h-full"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Vedara Care JVC Dubai Location" />
+          </div>
         </div>
       </div>
     </section>

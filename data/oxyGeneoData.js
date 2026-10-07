@@ -144,26 +144,7 @@ export const oxyGeneoPatientVoices = {
   bgColor: "white",
   label: "PATIENT FEEDBACK",
   title: "Real feedback from patients Arfah has treated with Oxy-Geneo at our JVC clinic.",
-  testimonials: [
-    {
-      quote: "\"I have Fitzpatrick V skin and pigmentation from years of Dubai sun exposure. Multiple clinics had recommended aggressive brightening treatments that made me nervous. Arfah suggested Oxy-Geneo with the NeoBright OxyPod instead, explained why the multi-pathway approach was safer for my skin profile. Five months in, the pigmentation across my cheeks and forehead has visibly softened without any post-treatment flare-up. This is the first pigmentation approach that has actually worked without making things worse.\"",
-      attribution: "Fatima",
-      treatment: "34, Emirati, JVC resident",
-      location: "Oxy-Geneo NeoBright monthly programme over 5 months. Individual outcomes vary."
-    },
-    {
-      quote: "\"Booked Oxy-Geneo after reading about the Bohr Effect — I'd tried HydraFacial elsewhere and found the suction sensation uncomfortable on my sensitive skin. The oxygenation approach suits me much better — no suction, gentler exfoliation, the bubbling sensation is actually pleasant. Arfah rotated OxyPods across my monthly sessions. Six months in, skin quality is meaningfully better and no reactivity flare-ups that I've had with other treatments.\"",
-      attribution: "Nadia",
-      treatment: "32, Lebanese expat, Dubai Marina",
-      location: "Oxy-Geneo monthly programme with rotating OxyPods over 6 months. Individual outcomes vary."
-    },
-    {
-      quote: "\"Wanted skin tightening for my jawline area but wasn't ready for HIFU. Arfah recommended Oxy-Geneo with the TriPollar RF add-on integrated into the same session — sensible starting point that gave meaningful tightening without the intensity of HIFU. Programme over four months, tightening result more subtle than HIFU would give but genuinely visible, and importantly no bruising or extended recovery.\"",
-      attribution: "Reem",
-      treatment: "44, Emirati, Downtown Dubai",
-      location: "Oxy-Geneo with TriPollar RF add-on monthly programme over 4 months. Individual outcomes vary."
-    }
-  ],
+  testimonials: [],
   stats: [],
   footer: "Individual outcomes vary substantially and depend on skin type, condition, adherence to pre- and post-treatment protocols, home skincare, and programme continuity. All testimonials shared with written patient consent per DHA advertising framework. No absolute or superlative claims.",
   buttonText: "Read All Facial Reviews"

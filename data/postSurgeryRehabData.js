@@ -1,58 +1,60 @@
+import { physioReviewsBlock } from './googleReviews';
+
 export const postSurgeryRehabHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Physiotherapy in JVC", href: "/physiotherapy-jvc" },
     { label: "Post-Surgery Rehabilitation in Dubai", active: true }
   ],
-  label: "POST-SURGERY REHABILITATION · DHA-LICENSED 2509266 · COORDINATED WITH YOUR SURGEON",
-  title: "Post-surgery rehabilitation in JVC.\nGuided by your surgeon's plan.",
-  description: "Structured post-operative rehabilitation at our Jumeirah Village Circle (JVC) clinic. Physiotherapy for recovery after knee replacement, hip replacement, ACL reconstruction, spinal surgery, rotator cuff repair, and other orthopaedic procedures — built around your surgeon's specific protocol and surgical report. Home physiotherapy launching soon.",
+  label: "POST-SURGERY PHYSIOTHERAPY · DHA-LICENSED CLINIC IN JVC, DUBAI",
+  title: "Post-surgery physiotherapy in Dubai, at our JVC clinic. Guided by your surgeon's plan.",
+  description: "Rehabilitation before and after surgery at our Jumeirah Village Circle clinic: knee and hip replacement, ACL, shoulder, spine, fractures and more. Hafsina K K, our DHA-licensed physiotherapist, works from your surgical report, with prehab, return-to-sport testing and an in-house GP at the same clinic.",
   primaryCTA: "Book a Post-Surgery Consultation",
   secondaryCTA: "WhatsApp us",
   primaryCTAHref: "/book",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20post-surgery%20rehabilitation%20services.",
   trustSignals: [
-    "DPT-qualified physiotherapists",
-    "Surgeon coordination protocols",
-    "Home physiotherapy launching soon",
-    "Insurance reimbursement support"
+    "DHA-licensed physiotherapist (DHA-P 64812828)",
+    "Works from your surgeon's protocol",
+    "In-house GP for wound and medicine checks",
+    "Shockwave, strength area and wheelchair on site"
   ],
   floatingCard: {
     title: "WE WORK FROM YOUR SURGEON'S PLAN",
-    subtitle: "Wherever your surgery took place, we request your surgical report and rehabilitation prescription and follow your surgeon's specific guidance."
+    subtitle: "Wherever your operation took place, bring your surgical report and your surgeon's instructions and we follow them."
   },
   image: "/images/post-surgery-rehabilitation-dubai-hero.webp",
-  alt: "Post-surgery rehabilitation at Vedara Care JVC Dubai with DPT-qualified physiotherapist"
+  alt: "Hafsina K K, DHA-licensed physiotherapist, guiding post-surgery rehabilitation at Vedara Care, JVC, Dubai"
 };
 
 export const postSurgeryRehabIntro = {
   bgColor: "bg-[#FFFFFF]",
   label: "THE QUICK ANSWER",
   title: "Post-surgery rehabilitation at Vedara Care, in one paragraph.",
-  blockquote: "Post-surgery rehabilitation at Vedara Care Polyclinic — at our Jumeirah Village Circle (JVC), Dubai clinic walking distance from Circle Mall, and at patient homes across Dubai — is procedure-specific structured rehabilitation delivered by DPT-qualified physiotherapists working in coordination with your operating surgeon. We provide rehabilitation programmes for total knee replacement (typical 4-6 months), total hip replacement (3-4 months), ACL reconstruction (9-12 months), rotator cuff repair (4-6 months), spinal surgery (3-6 months depending on procedure), meniscus surgery, hip arthroscopy, shoulder arthroscopy, post-mastectomy rehabilitation, and other orthopaedic and surgical procedures. For patients with surgery overseas (UK, India, Germany, USA, and other countries), we coordinate directly with the operating surgeon to follow their specific protocols. Home physiotherapy is available for the early post-operative phase across Dubai. Initial consultation from AED 350; structured rehabilitation programmes from AED 5,500. Insurance reimbursement support with all major insurers.",
-  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
+  blockquote: "Post-surgery physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai helps you recover after knee and hip replacement, ACL reconstruction, meniscus, rotator cuff and shoulder surgery, spinal surgery, hip arthroscopy, fracture fixation, foot, ankle, hand and wrist surgery, and after mastectomy, bariatric or cosmetic surgery. Hafsina K K, a DHA-licensed physiotherapist (DHA-P 64812828), works from your surgical report and your surgeon's protocol, and also offers prehab before surgery and return-to-sport testing. Our in-house GP can check wounds and review medicines. Sessions are at our JVC clinic, which has a strength and exercise area, shockwave and electrical stimulation, and a wheelchair; home visits are coming soon. Insurance works on reimbursement.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Reviewed October 2026."
 };
 
 export const postSurgeryRehabMechanism = {
   bgColor: "bg-white",
   label: "SURGEON COORDINATION",
-  title: "How we work with your operating surgeon — in Dubai or internationally.",
+  title: "How we work from your surgeon's plan.",
   content: [
-    "Post-surgical rehabilitation is meaningfully different from other physiotherapy precisely because it must follow the operating surgeon's specific protocol. Different surgeons have different preferences about timeline, early-phase restrictions, progression criteria, and return-to-activity decisions. A physiotherapist who ignores these preferences and applies a generic protocol is practising poorly — and risks compromising the surgical result.",
-    "<strong>If your surgery was in Dubai:</strong> We coordinate directly with Dubai-based orthopaedic and surgical specialists. We work with surgeons at American Hospital, Mediclinic, NMC, Aster, Saudi German, King's College Hospital, and various private orthopaedic practices. Communication typically happens via email, secure messaging, or phone — your surgeon receives our initial assessment, mid-point updates, and any clinical concerns. Many surgeons in Dubai know our team directly through referrals over several years.",
-    "<strong>If your surgery was overseas:</strong> Approximately 40% of our post-surgical patients had their surgery internationally — most commonly in the UK, India, Germany, USA, Lebanon, Egypt, and other countries. The coordination process remains identical: we obtain your post-operative report, any specific rehabilitation protocols, and surgeon contact information at initial consultation. We then contact the operating surgeon directly (with your written consent) to introduce our team, share our planned rehabilitation approach, and establish ongoing communication lines. Most international surgeons respond well — they want their surgical work to succeed.",
-    "<strong>What we share with your surgeon:</strong> Initial assessment summary (your condition, range of motion, strength, functional status when starting), planned rehabilitation timeline and milestones, clinical concerns or unexpected findings, mid-point reports at key recovery points (typically 6 weeks, 3 months, 6 months), and any questions about your specific protocol where their guidance is needed. The communication is brief and professional — surgeons appreciate efficient updates, not lengthy reports."
+    "Rehabilitation after surgery must follow the operating surgeon's protocol: what you may do, when, and how fast to progress. Different surgeons and different operations have different rules.",
+    "<strong>Wherever your surgery took place</strong><br/>In Dubai or abroad, bring your operation note and your surgeon's rehabilitation instructions. If you do not have a written protocol, we follow standard evidence-based guidelines for your operation and check anything unclear with you and, with your consent, your surgeon.",
+    "<strong>Progress updates</strong><br/>On request, we write a short progress summary you can share with your surgeon at your follow-up appointment.",
+    "<strong>Medical checks</strong><br/>Our in-house GP can check your wound and review your medicines at the same clinic if anything concerns you or us."
   ],
   quote: "Your surgeon performed the technical procedure. Your rehabilitation determines whether that procedure delivers the outcome it was designed for. Both teams need to work together.",
-  image: "/images/surgeon-coordination-vedara-dubai.webp",
+  image: "/images/surgeon-coordination-post-surgery.webp",
   alt: "Physiotherapist coordinating with surgeon at Vedara Care JVC post-surgery rehabilitation"
 };
 
 export const postSurgeryRehabFinalCTA = {
   bgColor: "bg-[#FFFFFF]",
   label: "READY TO START RECOVERY?",
-  title: "Whether your surgery was in Dubai or overseas — we will coordinate properly.",
-  description: "The first useful step is a 60-minute post-surgery assessment at our JVC clinic or at your home across Dubai. We review your surgical report, examine your current status, contact your operating surgeon (with your consent) to confirm specific protocols, and provide a written rehabilitation plan with realistic timeline. For early-phase patients, the assessment can happen at your home. Insurance pre-authorisation can begin during your first session. Same-week appointments typically available.",
+  title: "Book your post-surgery or prehab assessment in JVC.",
+  description: "Bring your surgical report and your surgeon's instructions. Hafsina K K assesses you, explains the plan and the milestones, and starts treatment. Our GP is on site if you need a wound or medicine check.",
   button1Text: "Book a Post-Surgery Consultation",
   button2Text: "WhatsApp us Your Surgical Report",
   button1Href: "/book",
@@ -62,11 +64,10 @@ export const postSurgeryRehabFinalCTA = {
   button2BorderColor: "#25D366",
   button2TextColor: "#25D366",
   bullets: [
-    "Initial assessment from AED 350",
-    "Clinic in JVC + home physiotherapy across Dubai",
-    "Surgeon coordination protocols",
-    "Insurance reimbursement support",
-    "Same-week appointments available"
+    "DHA-licensed physiotherapist",
+    "Works from your surgeon's protocol",
+    "Insurance reimbursement documents",
+    "Open daily 9am to 10pm"
   ]
 };
 
@@ -74,76 +75,31 @@ export const postSurgeryRehabRelatedPages = {
   label: "EXPLORE FURTHER",
   title: "Related services and resources",
   linkText: "Browse all physiotherapy services",
-  linkHref: "/physiotherapy-dubai",
+  linkHref: "/physiotherapy-jvc/",
   pages: [
-    {
-      title: "Shoulder Pain Physiotherapy",
-      description: "Comprehensive shoulder pain treatment for pre-surgical conservative care and post-surgical shoulder rehabilitation.",
-      href: "/conditions/shoulder-pain-physiotherapy-dubai/"
-    },
-    {
-      title: "Physiotherapy in JVC",
-      description: "Our complete physiotherapy department — all seven specialisations, team, conditions treated, integrated care options.",
-      href: "/physiotherapy-jvc/"
-    },
-    {
-      title: "Sports Injury Physiotherapy",
-      description: "For sports-related ACL recovery, sports trauma, and return-to-sport protocols. Some overlap with post-surgical care.",
-      href: "/physiotherapy/sports-injury-jvc/"
-    },
-    {
-      title: "Home Healthcare in JVC",
-      description: "Our home physiotherapy and broader home healthcare services across Dubai for patients who cannot easily travel.",
-      href: "/physiotherapy-at-home-dubai/"
-    },
-    {
-      title: "Arthritis Treatment",
-      description: "For joint conditions including post-replacement chronic management and pre-surgical conservative care.",
-      href: "/conditions/arthritis-ayurveda-dubai"
-    }
+    { title: "Knee Pain Physiotherapy", description: "Knee injuries and ligament problems treated without surgery.", href: "/conditions/knee-pain-physiotherapy-dubai/" },
+    { title: "Shoulder Pain Physiotherapy", description: "Shoulder problems before or instead of surgery.", href: "/conditions/shoulder-pain-physiotherapy-dubai/" },
+    { title: "Sports Injury Physiotherapy", description: "Sports injuries in adults that do not need surgery.", href: "/physiotherapy/sports-injury-jvc/" },
+    { title: "Paediatric Physiotherapy", description: "Rehabilitation after surgery for children and teenagers.", href: "/physiotherapy/pediatric-dubai/" },
+    { title: "Meet Hafsina K K", description: "Our DHA-licensed physiotherapist.", href: "/doctors/hafsina-kk-physiotherapist/" }
   ]
 };
 
-export const postSurgeryRehabReviews = {
-  bgColor: "bg-[#1F4538]",
-  cardBgColor: "rgba(255, 255, 255, 0.05)",
-  isDarkText: false,
-  label: "PATIENT OUTCOMES",
-  title: "Recovery results.",
-  description: null,
-  items: [],
-  stats: [
-    { value: "4.5", label: "STARS ON GOOGLE" },
-    { value: "15", label: "REVIEWS" }
-  ],
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
-  buttonText: "Read Google Reviews",
-};
+export const postSurgeryRehabReviews = physioReviewsBlock('What patients say about physiotherapy with Hafsina K K');
 
 export const homePhysiotherapyData = {
-  label: "HOME PHYSIOTHERAPY",
-  title: "We come to you during early recovery.",
+  label: "HOME PHYSIOTHERAPY (COMING SOON)",
+  title: "Home physiotherapy after surgery is coming soon.",
   content: [
-    "Post-surgical patients in the first 2-4 weeks of recovery often cannot easily travel to a clinic. Getting in and out of cars is painful or impossible. Stairs are inaccessible. Long sitting positions are uncomfortable. Asking a recently-operated patient to travel for a 60-minute appointment can set back their recovery.",
-    "Our home physiotherapy service operates across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Our DPT-qualified physiotherapists travel to your home with portable equipment, treatment supplies, and structured protocols. The home environment is often more conducive to early-phase rehabilitation than a clinic — your familiar surroundings, your own equipment if available, no travel stress.",
-    "How home physiotherapy typically works for post-surgical patients: initial home assessment within 48-72 hours of surgical discharge (or as your surgeon recommends), structured early-phase rehabilitation sessions 2-3 times per week initially, gradual transition to clinic visits as your mobility improves (typically weeks 3-6), and continued home visits available throughout the programme for patients who prefer that delivery model. Particularly common for: total knee replacement (first 3-4 weeks), total hip replacement (first 2-3 weeks), bilateral procedures (first 4-6 weeks), elderly patients, patients without home support, and patients with significant mobility limitations.",
-    "Home physiotherapy is also useful at any phase of post-surgical recovery for patients who simply prefer home-based care — older expat patients in particular often find home sessions more comfortable than clinic visits, even after early recovery is complete."
+    "The first weeks after surgery can make travel difficult. Home visits from Vedara Care are coming soon.",
+    "Until then, all sessions take place at our JVC clinic, near Circle Mall. A wheelchair is available at the clinic; tell us when you book if you need help getting in."
   ],
   sidebar: {
-    label: "HOME PHYSIOTHERAPY DETAILS",
-    coverage: "Across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas",
-    useCases: [
-      "First 2-4 weeks post-surgery",
-      "Bilateral procedures",
-      "Elderly post-surgical patients",
-      "Patients without home support",
-      "Patient preference"
-    ],
-    duration: "60 minutes including travel time consideration",
-    pricing: "From AED 450 per home session (includes therapist travel time)",
-    booking: 'WhatsApp <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%27d%20like%20to%20book%20a%20home%20physiotherapy%20session%20for%20post-surgery%20rehab." target="_blank" rel="noopener noreferrer" class="underline hover:opacity-85">+971 55 573 6312</a> for fastest response',
-    buttonText: "Book Home Physiotherapy",
-    buttonLink: "/physiotherapy-at-home-dubai/"
+    label: "JOIN THE WAITLIST",
+    useCases: ["First weeks after surgery", "Elderly patients", "No transport support"],
+    booking: "WhatsApp us to be told when home visits start",
+    buttonText: "Notify me",
+    buttonLink: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20please%20notify%20me%20when%20home%20visits%20start."
   }
 };
 
@@ -190,20 +146,15 @@ export const transparentPricingData = {
 };
 
 export const postSurgeryTeamData = {
-  label: "THE TEAM",
-  title: "Post-surgical rehabilitation specialists at our JVC clinic.",
+  label: "YOUR PHYSIOTHERAPIST",
+  title: "Your post-surgery physiotherapist at our JVC clinic.",
   members: [
     {
       name: "Hafsina K K",
-      credentials: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
-      tags: [
-        "Orthopedic Rehab",
-        "Neurological Rehab",
-        "Sports Rehab",
-        "Women's Health"
-      ],
-      description: "7 years' experience in orthopedic, neurological, sports & women's health rehab.",
-      languages: "Languages spoken: English, Malayalam, Hindi, Tamil",
+      credentials: "Bachelor of Physiotherapy · DHA-P 64812828 · 7+ years' experience",
+      tags: ["Post-Surgery Rehab", "Prehab", "Return-to-Sport Testing", "Orthopaedic Rehab"],
+      description: "Hafsina K K treats every post-surgery patient herself, from the first assessment to return to work or sport.",
+      languages: "Languages spoken: English, Hindi, Malayalam",
       link: "/doctors/hafsina-kk-physiotherapist/",
       image: "/images/hafsina-kk-physiotherapist-dubai.webp",
       alt: "Hafsina K K physiotherapy specialist Vedara Care JVC Dubai"
@@ -213,17 +164,17 @@ export const postSurgeryTeamData = {
 
 export const insuranceCoverageData = {
   label: "INSURANCE COVERAGE",
-  title: "How insurance works for post-surgical rehabilitation in Dubai.",
+  title: "Does insurance cover physiotherapy after surgery in Dubai?",
   content: [
-    { text: "Post-surgical rehabilitation is typically the best-covered category of physiotherapy in Dubai insurance plans. There is a documented surgical procedure, clear medical justification, and clinical pathway expectations — all factors that drive consistent coverage." },
+    { text: "Most Dubai insurance plans cover physiotherapy after surgery when it is medically needed, usually with a yearly session limit; longer programmes often need pre-approval from your insurer." },
     { title: "What is typically covered well:", text: "physiotherapy following major orthopaedic procedures (joint replacements, ACL reconstruction, spinal surgery), rehabilitation following any procedure with clear medical justification, home physiotherapy for patients with documented mobility limitations, and extended programmes for procedures that genuinely require them (ACL, spinal procedures, complex joint replacements)." },
     { title: "What may have limits:", text: "prolonged rehabilitation beyond expected timelines, multiple modality sessions per visit, certain specialised techniques." },
     { title: "What is rarely covered:", text: "maintenance physiotherapy after the surgical recovery is complete, performance optimisation beyond functional recovery." },
-    { title: "How insurance typically works:", text: "most plans require pre-authorisation for extended rehabilitation programmes (typically beyond 10-15 initial sessions). Our team handles this on your behalf. You typically submit your initial sessions while pre-authorisation is being processed (covered by initial entitlement), then pre-authorisation is granted for the extended programme. Annual session limits may apply but are typically generous for documented post-surgical cases." },
+    { title: "How Vedara Care helps:", text: "We work on reimbursement: you pay at the clinic and we give you the surgical-rehab reports and progress notes your insurer asks for, including for pre-approval." },
     { title: "For international surgery patients:", text: 'insurance coverage in Dubai often extends to rehabilitation regardless of where surgery occurred, provided the surgery itself was medically necessary and properly documented. Bring or send: full surgical report, post-operative imaging, surgeon\'s rehabilitation prescription, insurance card. <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20had%20surgery%20abroad%20and%20would%20like%20to%20confirm%20my%20rehab%20insurance%20coverage." target="_blank" rel="noopener noreferrer" class="underline hover:opacity-80">WhatsApp these to +971 55 573 6312</a> before booking and we will confirm exact coverage.' }
   ],
   sidebar: {
-    label: "OUR DIRECT-BILLING INSURERS",
+    label: "REIMBURSEMENT DOCUMENTS FOR ALL MAJOR INSURERS",
     insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
     text: 'WhatsApp your insurance card and surgical report to <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%27d%20like%20to%20share%20my%20insurance%20card%20and%20surgical%20report%20to%20confirm%20my%20post-surgery%20rehab%20coverage." target="_blank" rel="noopener noreferrer" class="underline hover:opacity-85">+971 55 573 6312</a> before booking to confirm specific coverage and pre-authorisation needs.',
     buttonText: "WhatsApp us Your Surgical Report",
@@ -233,15 +184,15 @@ export const insuranceCoverageData = {
 
 export const whereWeWorkData = {
   label: "WHERE WE WORK",
-  title: "At our JVC clinic, or at your home across Dubai.",
-  description: "Post-surgical rehabilitation happens at two locations depending on your stage: the early phase (typically weeks 0-4) often at your home across Dubai with our DPT-qualified physiotherapists travelling to you. The active rehabilitation phase (typically weeks 4 onwards) at our JVC clinic with full rehabilitation equipment, treatment rooms, and gym access. Some patients prefer home-based throughout — we accommodate.",
+  title: "Where to find our post-surgery physiotherapy clinic in JVC.",
+  description: "All post-surgery physiotherapy takes place at Vedara Care Polyclinic in Jumeirah Village Circle, walking distance from Circle Mall. Home visits are coming soon.",
   details: {
     address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, <br/>Jumeirah Village Circle (JVC) Dubai",
     hours: "Monday - Sunday : 9:00AM to 10:00PM",
     phone: "+971 55 573 6312",
     email: "booking@vedaracare.ae"
   },
-  footer: "Our JVC clinic has dedicated rehabilitation rooms with modern equipment, full strength and conditioning gym, specialised modalities including shockwave therapy, and accessibility features for post-surgical patients with limited mobility. Free patient parking on-site. Easy access from JVC, JVT, Al Barsha South, and across Dubai.",
+  footer: "The clinic has a strength and exercise area, shockwave and electrical stimulation equipment, a wheelchair for patients who need it, and an in-house GP. Free and paid parking nearby. Patients come from JVC, JVT, Al Barsha South, Arjan, Dubai Sports City, Motor City and Al Barsha.",
   buttons: {
     primary: "Book a Post-Surgery Consultation",
     secondary: "Book Home Physiotherapy",
@@ -253,68 +204,114 @@ export const whereWeWorkData = {
 export const surgicalProceduresData = {
   bgColor: "bg-[#F8F6F0]",
   label: "PROCEDURE-SPECIFIC REHABILITATION",
-  title: "Surgical procedures we rehabilitate at our JVC clinic and across Dubai.",
-  // image: "/images/post-surgical-physio-vedara-jvc.webp",
+  title: "Operations we rehabilitate at our JVC clinic.",
   alt: "Post-surgical physiotherapy at Vedara Care JVC",
-  description: "Each surgical procedure has specific rehabilitation requirements — different timelines, different early-phase restrictions, different progression criteria. Our protocols follow established evidence-based pathways calibrated to your specific procedure and your surgeon's preferences.",
+  description: "Every operation has its own restrictions, timeline and milestones. Hafsina K K follows your surgeon's protocol from your surgical report and adjusts the plan as you progress.",
   types: [
     {
       category: "JOINT REPLACEMENT",
-      title: "Total Knee Replacement (TKR)",
+      title: "Total Knee Replacement",
       description: "Comprehensive rehabilitation for primary or revision total knee arthroplasty. Focuses on early-phase mobility, pain management, progressive range of motion, strength restoration, gait re-education, and functional return. Home physiotherapy available for early recovery when clinic travel is difficult or painful.",
-      timeline: "Typical timeline: 4–6 months with 30–40 sessions across the programme."
+      timeline: "Typical timeline: 3-6 months; your surgeon's protocol decides."
     },
     {
       category: "JOINT REPLACEMENT",
-      title: "Total Hip Replacement (THR)",
+      title: "Total Hip Replacement",
       description: "Rehabilitation following posterior, anterolateral, or anterior approach hip replacement. Includes hip precautions education, structured mobility progression, strengthening, gait normalisation, and functional rehabilitation. Your surgeon's specific approach determines which movements are restricted in the early phase.",
-      timeline: "Typical timeline: 3–4 months with 24–30 sessions."
+      timeline: "Typical timeline: about 3-4 months; your surgeon's protocol decides."
     },
     {
-      category: "KNEE LIGAMENT SURGERY",
-      title: "ACL Reconstruction Recovery",
-      description: "Structured 9–12 month rehabilitation following anterior cruciate ligament reconstruction. Different protocols for hamstring tendon, patellar tendon, or quadriceps tendon grafts. Emphasises neuromuscular control, progressive strengthening, and criterion-based return to sport. Re-injury rates are substantially lower with structured rehabilitation than self-managed returns.",
-      timeline: "Typical timeline: 9–12 months with 40–60 sessions."
+      category: "KNEE LIGAMENT",
+      title: "ACL Reconstruction (including revision, and ACL with meniscus or MCL repair)",
+      description: "Structured rehabilitation following anterior cruciate ligament reconstruction. Different protocols for hamstring tendon, patellar tendon, or quadriceps tendon grafts. Emphasises neuromuscular control, progressive strengthening, and criterion-based return to sport. Re-injury rates are substantially lower with structured rehabilitation than self-managed returns. Includes prehab before surgery and return-to-sport testing before you go back to cutting and pivoting sports.",
+      timeline: "Typical timeline: 9-12 months to return to cutting and pivoting sports."
     },
     {
-      category: "SHOULDER SURGERY",
-      title: "Rotator Cuff Repair",
+      category: "SHOULDER",
+      title: "Rotator Cuff Repair and Shoulder Replacement",
       description: "Comprehensive rehabilitation for arthroscopic or open rotator cuff repair. Starts with early-phase protection (sling protocols), progresses through passive then active motion, strengthening, and functional return. Specific protocol depends on tear size, repair technique, and tissue quality.",
-      timeline: "Typical timeline: 4–6 months with 24–40 sessions."
+      timeline: "Typical timeline: 4-6 months."
     },
     {
-      category: "SPINAL PROCEDURES",
-      title: "Spinal Surgery Recovery",
+      category: "SPINE",
+      title: "Spinal Surgery (discectomy, laminectomy, fusion)",
       description: "Rehabilitation following discectomy, laminectomy, foraminotomy, single-level or multi-level fusion, and other spinal procedures. Protocol based on procedure type, levels involved, and surgical approach. Focuses on early mobilisation, core stability, postural re-education, and pain management strategies. Coordination with your spine surgeon is essential throughout.",
       timeline: "Typical timeline: 3–6 months depending on procedure complexity."
     },
     {
-      category: "KNEE ARTHROSCOPY",
+      category: "KNEE",
       title: "Meniscus Surgery",
       description: "Different rehabilitation pathways for meniscectomy (partial meniscus removal) versus meniscus repair (longer, more protective recovery). Includes weight-bearing restrictions, structured return to activity, sport-specific progression for athletes, and long-term joint protection strategies.",
       timeline: "Typical timeline: 6–12 weeks for meniscectomy; 12–24 weeks for repair."
     },
     {
-      category: "HIP SURGERY",
-      title: "Hip Arthroscopy & Labral Repair",
+      category: "HIP",
+      title: "Hip Arthroscopy and Labral Repair",
       description: "Rehabilitation following hip arthroscopy for labral tears, femoroacetabular impingement (FAI), and related conditions. Focuses on weight-bearing progression, sport-specific rehabilitation, progressive strengthening, and functional return. Increasingly common procedure for active patients with hip pain.",
       timeline: "Typical timeline: 4–6 months with structured phases."
     },
     {
+      category: "TRAUMA",
+      title: "Fracture Fixation, Foot and Ankle, Hand and Wrist Surgery",
+      description: "Rehabilitation after plates, screws or pins, after cast or boot removal, and after foot, ankle, hand and wrist operations: restoring movement, strength, grip and walking.",
+      timeline: "Typical timeline: varies with the bone and the fixation."
+    },
+    {
       category: "SPECIALISED",
-      title: "Other Orthopaedic & Surgical Procedures",
-      description: "Includes foot and ankle surgery, hand and wrist surgery, post-mastectomy rehabilitation, post-cardiac surgery rehabilitation, post-bariatric surgery rehabilitation, post-fracture fixation recovery, and other surgical procedures. Each requires specific protocols matched to the procedure performed.",
+      title: "After Mastectomy, Bariatric or Cosmetic Surgery",
+      description: "Shoulder movement, lymphoedema management and scar care after breast surgery; graded exercise after bariatric surgery; lymphatic drainage and scar management after liposuction and other cosmetic procedures, within your surgeon's instructions.",
       timeline: "Typical timeline: varies by procedure."
     }
   ],
-  footer: "If your specific procedure is not listed, contact us. Our team has experience across a wide range of surgical rehabilitation. We coordinate with your operating surgeon — local or international — to follow their specific protocols."
+  footer: "Not sure if we can help with your operation? WhatsApp us your surgical report. Physiotherapy after heart surgery (cardiac rehabilitation) is not offered."
+};
+
+export const postSurgeryAclSection = {
+  id: "acl",
+  label: "ACL SURGERY",
+  title: "ACL rehabilitation in Dubai: before surgery, after surgery and back to sport.",
+  content: [
+    "Physiotherapy is used at every stage of an ACL injury. Before surgery, prehab reduces swelling, restores movement and builds strength, which helps recovery afterwards. After surgery, rehabilitation follows your surgeon's protocol for your graft and any meniscus or MCL repair.",
+    "<strong>Return to sport is based on tests, not just time</strong><br/>Before you return to football, padel or other cutting and pivoting sports, Hafsina K K checks strength, hopping, balance and movement control against agreed targets. Return to these sports usually takes 9-12 months.",
+    "<strong>Revision and combined surgery</strong><br/>Rehabilitation after a second ACL operation, or ACL surgery combined with meniscus or MCL repair, is usually slower and more protective; the plan follows your surgeon's instructions.",
+    "<strong>No surgery?</strong><br/>If your ACL is being treated without an operation, see our knee pain physiotherapy page."
+  ],
+  image: "/images/post-surgery-rehabilitation-dubai.webp",
+  alt: "ACL rehabilitation and return-to-sport testing at Vedara Care, JVC, Dubai"
+};
+
+export const postSurgeryPrehabSection = {
+  bgColor: "bg-white",
+  id: "prehab",
+  label: "BEFORE SURGERY",
+  title: "Prehab: physiotherapy before your operation.",
+  content: [
+    "Prehab is physiotherapy in the weeks before planned surgery. It reduces swelling, keeps the joint moving and strengthens the muscles around it, and it lets you practise the exercises and walking aids you will use after the operation.",
+    "<strong>Who it helps</strong><br/>People waiting for knee or hip replacement, ACL reconstruction, shoulder or spinal surgery, or any planned orthopaedic operation.",
+    "<strong>How to start</strong><br/>Book an assessment and bring any scans and your surgeon's notes. If you are not sure whether you need surgery, our in-house GP can review you, and on request we can suggest orthopaedic surgeons for a second opinion."
+  ],
+  image: "/images/surgeon-coordination-vedara-dubai.webp",
+  alt: "Prehab physiotherapy before surgery at Vedara Care, JVC, Dubai"
+};
+
+export const postSurgeryChecklist = {
+  id: "what-to-bring",
+  label: "YOUR FIRST VISIT",
+  title: "What to bring to your first post-surgery physiotherapy appointment.",
+  content: [
+    "Bring your discharge summary or operation note, your surgeon's rehabilitation protocol or instructions (weight-bearing, brace, movement limits), any scans or X-rays, your medication list, your brace, crutches or sling if you have them, your insurance card, and loose clothing that lets us see the operated area.",
+    "<strong>When to start</strong><br/>As soon as your surgeon allows; for many operations this is within the first days or weeks. Follow your surgeon's instructions on timing.",
+    "<strong>Get medical help quickly if</strong><br/>you have fever, increasing redness, discharge or bleeding from the wound, calf pain or swelling, or sudden shortness of breath. Our in-house GP can check wounds and review medicines at the same clinic; for emergencies call 999."
+  ],
+  image: "/images/post-surgery-rehabilitation-dubai-appointment.webp",
+  alt: "Post-surgery physiotherapy first visit at Vedara Care, JVC, Dubai"
 };
 
 export const rehabilitationPhasesData = {
   bgColor: "bg-[#F8F6F0]",
   label: "THE REHABILITATION JOURNEY",
   title: "The five phases of post-surgical rehabilitation.",
-  subtitle: "A representative progression for orthopaedic procedures. Each surgical procedure has specific phase durations and milestones; the principles below apply across most surgical rehabilitations.",
+  subtitle: "A typical progression after orthopaedic surgery. Your surgeon's protocol sets the exact timing for your operation.",
   steps: [
     {
       week: "Phase 1 — Weeks 0–2 post-surgery",
@@ -348,7 +345,7 @@ export const rehabilitationPhasesData = {
         "Progressive resistance training",
         "Functional movement patterns deepened",
         "Sport or activity-specific progression begins (for athletes)",
-        "Milestone surgery updates at 3-month mark"
+        "Progress summary for your surgeon's follow-up, on request"
       ],
       expected: "End of Phase 3: Strength substantially restored, functional independence in most activities, beginning return to higher-level activities."
     },
@@ -381,93 +378,29 @@ export const rehabilitationPhasesData = {
 export const postSurgeryFAQData = {
   bgColor: "bg-[#F8F6F0]",
   label: "COMMON QUESTIONS",
-  title: "What post-surgical patients ask before booking.",
-  description: "For general physiotherapy questions, see our <a href='/physiotherapy-jvc/' class='text-[#C4A962] underline hover:text-[#b89a56]'>physiotherapy main page</a>.",
-  buttonText: "Ask Our Team on WhatsApp",
+  title: "Physiotherapy before and after surgery: your questions answered.",
+  description: "Answers reviewed by Hafsina K K, DHA-licensed physiotherapist.",
+  buttonText: "Ask us on WhatsApp",
   sidebarLinks: [
-    { text: "Visit physiotherapy main page", href: "/physiotherapy-jvc/" },
-    { text: "Read about home physiotherapy", href: "/home-healthcare-jvc/" }
+    { text: "Physiotherapy in JVC", href: "/physiotherapy-jvc/" },
+    { text: "Knee pain physiotherapy", href: "/conditions/knee-pain-physiotherapy-dubai/" }
   ],
   faqs: [
-    {
-      question: "When should I start physiotherapy after surgery?",
-      answer: "Typically within 24–72 hours of discharge for most orthopaedic procedures. Early initiation produces meaningfully better outcomes than waiting. Your operating surgeon's specific protocol determines the exact timing — some procedures have early restrictions, others encourage immediate early-phase work. <a href='https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%27d%20like%20to%20share%20my%20surgical%20report%20to%20confirm%20my%20post-surgery%20rehab%20timing.' target='_blank' rel='noopener noreferrer' class='text-[#C4A962] underline hover:text-[#b89a56]'>WhatsApp your surgical report to +971 55 573 6312</a> and we will confirm the appropriate timing for your specific procedure."
-    },
-    {
-      question: "Can you coordinate with my surgeon who operated overseas?",
-      answer: "Yes — approximately 40% of our post-surgical patients had surgery internationally. We coordinate directly with surgeons in the UK, India, Germany, USA, Lebanon, Egypt, and other countries. The process: we obtain your post-operative report, contact your surgeon with your written consent, share our planned approach, and maintain ongoing communication throughout your rehabilitation. Most international surgeons respond well — they want their surgical work to succeed."
-    },
-    {
-      question: "Do you offer home physiotherapy after surgery?",
-      answer: "Yes — home physiotherapy is one of our most-utilised post-surgical services. Particularly common in the first 2-4 weeks when travel is difficult. Our DPT-qualified physiotherapists travel to your home <a href='/physiotherapy-at-home-dubai/' class='text-[#C4A962] underline hover:text-[#b89a56]'>across Dubai</a> including JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Home sessions are AED 450 including therapist travel time. Many patients transition from home sessions to clinic visits around week 3-6 as their mobility improves."
-    },
-    {
-      question: "How long will I need physiotherapy after knee replacement?",
-      answer: "Typically 4-6 months for total knee replacement with 30-40 sessions across the programme. Phase 1 (weeks 0-2) often home-based. Phases 2-3 (weeks 2-16) typically clinic-based with 2-3 sessions weekly initially, reducing to weekly. Phase 4-5 (months 4-6) typically weekly or bi-weekly. Some patients with bilateral knee replacement or complex revisions need extended programmes."
-    },
-    {
-      question: "How long for hip replacement rehabilitation?",
-      answer: "Typically 3-4 months for total hip replacement with 24-30 sessions. Slightly faster than knee replacement on average. Different protocols for posterior, anterolateral, and anterior surgical approaches — your surgeon's approach determines specific precautions. Home physiotherapy typically for the first 2-3 weeks, then transition to clinic."
-    },
-    {
-      question: "What about ACL reconstruction rehabilitation timeline?",
-      answer: "Typical timeline is 9-12 months from surgery to full return to cutting sports. This is genuinely the time needed — early return is the leading cause of re-injury. Our ACL programme follows evidence-based phases: early protection (0-6 weeks), strengthening (6-12 weeks), neuromuscular control (3-6 months), return-to-sport phase (6-12 months) with objective testing before clearance."
-    },
-    {
-      question: "Can I do post-surgical rehabilitation alongside conventional physiotherapy elsewhere?",
-      answer: "We do not recommend split-clinic rehabilitation for post-surgical patients. Effective post-surgical care requires consistent protocol application, same-therapist continuity, integrated progress documentation, and surgeon coordination through one channel. Patients who split rehabilitation across multiple clinics consistently have worse outcomes. We can review your rehabilitation if you are considering switching from another provider."
-    },
-    {
-      question: "What if my surgery was complicated by infection or other complications?",
-      answer: "We work with patients across the complexity spectrum. Patients with surgical complications (infection, hardware issues, delayed healing, revision surgery) often have longer rehabilitation timelines and require more careful protocol application. Coordination with your surgeon is even more important in these cases. We are honest about realistic timelines — patients with complications often need 50-100% longer rehabilitation than uncomplicated cases."
-    },
-    {
-      question: "How does insurance typically cover post-surgical physiotherapy?",
-      answer: "Generally well — better than most physiotherapy categories. Pre-authorisation is often required for programmes beyond 10-15 initial sessions. Our team handles pre-authorisation on your behalf. Direct-billing with seven major insurers. Bring your surgical report and insurance card to your initial consultation; <a href='https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20post-surgery%20rehab.' target='_blank' rel='noopener noreferrer' class='text-[#C4A962] underline hover:text-[#b89a56]'>WhatsApp the same to +971 55 573 6312</a> before booking to confirm exact coverage."
-    },
-    {
-      question: "Can elderly patients have safe post-surgical rehabilitation at home?",
-      answer: "Yes — elderly post-surgical rehabilitation is one of our specialised areas. Home physiotherapy is particularly valuable for elderly patients who find clinic travel exhausting or unsafe. Our therapists are experienced in working with elderly post-surgical patients (joint replacements being the most common). Family involvement is welcomed throughout."
-    },
-    {
-      question: "Where is your post-surgical rehabilitation clinic in Dubai?",
-      answer: "Our clinic is at Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Patients travel to us from across Dubai. Home physiotherapy available across Dubai for early-phase recovery."
-    },
-    {
-      question: "What about post-mastectomy or other oncology surgery rehabilitation?",
-      answer: "We provide post-mastectomy and oncology surgery rehabilitation with sensitivity to the specific clinical needs. This includes lymphedema management, shoulder mobility restoration, scar management, and broader functional rehabilitation. Coordination with your oncology team is essential. Particularly important for breast cancer patients in their early post-treatment phase."
-    },
-    {
-      question: "Do you offer post-bariatric surgery rehabilitation?",
-      answer: "Yes — post-bariatric surgery patients often benefit from structured rehabilitation including mobility restoration, functional capacity building, exercise prescription appropriate to changing body composition, and long-term activity programmes. We coordinate with your bariatric surgery team for specific protocols."
-    },
-    {
-      question: "What if I need to delay my rehabilitation due to travel or work commitments?",
-      answer: "Some flexibility is possible but post-surgical rehabilitation has time-sensitive windows. Major delays (more than 2-3 weeks at critical phases) can compromise outcomes. We work with patients who have temporary travel or work commitments to maintain programme momentum through home exercise compliance, modified scheduling, or temporary intensity reduction. Discuss any planned absences at initial consultation so we can plan appropriately."
-    },
-    {
-      question: "Can you recommend specific surgeons in Dubai for second opinions?",
-      answer: "We can suggest surgeons we have worked with extensively if you need second opinions or are considering surgical revision. We do not have referral arrangements — our suggestions are based on clinical reputation and our experience coordinating with their teams. The decision about your surgeon is always yours."
-    },
-    {
-      question: "What if I had surgery decades ago and am now having problems?",
-      answer: "Common situation — patients with decades-old surgical procedures (old knee replacements, old spinal surgeries, old joint procedures) often develop new symptoms or movement patterns related to the old surgery. We can assess your specific situation, identify whether rehabilitation can address your current symptoms, and coordinate with appropriate specialists if your situation requires further surgical or medical input."
-    },
-    {
-      question: "Do you work with cosmetic surgery rehabilitation?",
-      answer: "For surgical procedures with documented functional impact — breast reduction, major abdominal procedures, post-liposuction lymphatic drainage, post-cosmetic-surgery scar management — we provide appropriate rehabilitation. Pure cosmetic recovery without functional impact may not require formal physiotherapy."
-    },
-    {
-      question: "What about integrated Ayurveda and physiotherapy for post-surgical recovery?",
-      answer: "For specific procedures and patient situations, integrated care can be valuable. Post-surgical patients sometimes benefit from <a href='/ayurveda-clinic-jvc/' class='text-[#C4A962] underline hover:text-[#b89a56]'>Integrated Ayurveda</a> support for: chronic pain that persists after surgical recovery, systemic recovery support (energy, sleep, mood during recovery), addressing patterns that may have contributed to the need for surgery, and post-cardiac surgery recovery support. Integration is offered when clinically appropriate. Most post-surgical patients receive standalone physiotherapy only."
-    },
-    {
-      question: "Can I do home physiotherapy through my entire post-surgical recovery?",
-      answer: "Yes for some patients. Most patients transition from home to clinic sessions around weeks 3-6 as mobility improves — the clinic environment provides better equipment access for later-phase strengthening and rehabilitation. However, some patients (elderly, those with limited transportation, patient preference) continue home physiotherapy throughout. The trade-off: clinic-based later-phase rehab typically has better equipment access; home-based is more convenient. We discuss the trade-offs at consultation."
-    },
-    {
-      question: "How do I book a post-surgery consultation?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%27d%20like%20to%20book%20a%20post-surgery%20consultation." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for sending surgical reports, post-operative imaging, and surgeon contact details. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring or send: complete surgical report, post-operative imaging (X-rays, MRI), any rehabilitation prescription from your surgeon, your surgeon\'s contact details if international, current medication list, and insurance card.'
-    }
+    { question: "When should I start physiotherapy after surgery?", answer: "As soon as your surgeon allows. For many orthopaedic operations this is within the first days or weeks; your surgeon's instructions decide the exact timing." },
+    { question: "Do I need to bring my surgical report?", answer: "Yes, please bring your operation note or discharge summary and any rehabilitation instructions from your surgeon. If you do not have a written protocol, we follow standard guidelines for your operation." },
+    { question: "What is prehab and should I do it?", answer: "Prehab is physiotherapy before planned surgery to reduce swelling, keep the joint moving and build strength. It helps recovery afterwards, especially before knee or hip replacement and ACL reconstruction." },
+    { question: "How long is rehabilitation after knee replacement?", answer: "Usually about 3 to 6 months, with the most sessions in the first weeks; some people keep improving for up to a year. Your surgeon's protocol and your progress decide the plan." },
+    { question: "How long is rehabilitation after hip replacement?", answer: "Usually about 3 to 4 months, following your surgeon's precautions for your surgical approach." },
+    { question: "When can I return to sport after ACL surgery?", answer: "Usually 9 to 12 months for cutting and pivoting sports such as football or padel, and only after you pass return-to-sport tests of strength, hopping, balance and movement control." },
+    { question: "Do you do return-to-sport testing?", answer: "Yes. Before you return to sport, Hafsina K K tests strength, hopping, balance and movement control against agreed targets." },
+    { question: "Can you help after a mastectomy?", answer: "Yes. Physiotherapy after breast surgery restores shoulder movement and includes lymphoedema management and scar care, within your surgeon's instructions." },
+    { question: "Do you offer lymphatic drainage after liposuction or cosmetic surgery?", answer: "Yes. We provide lymphatic drainage and scar management after cosmetic procedures, following your surgeon's instructions on timing." },
+    { question: "Can you help after bariatric surgery?", answer: "Yes. We provide graded exercise programmes after bariatric surgery to build strength and fitness safely as your weight changes." },
+    { question: "Do you treat patients after heart surgery?", answer: "No. Cardiac rehabilitation is not offered at Vedara Care; ask your cardiac team about a cardiac rehabilitation programme." },
+    { question: "Can your GP check my wound?", answer: "Yes. Our in-house GP can check your wound and review your medicines at the same clinic. For emergencies, call 999." },
+    { question: "Can you suggest a surgeon for a second opinion?", answer: "On request, we can suggest orthopaedic surgeons in Dubai for a second opinion. We have no referral arrangements with any surgeon or hospital." },
+    { question: "Do you offer home physiotherapy after surgery?", answer: "Home visits are coming soon. Until then, all sessions take place at our JVC clinic, and a wheelchair is available if you need it." },
+    { question: "Does insurance cover physiotherapy after surgery?", answer: "Most Dubai plans cover it when it is medically needed, usually with a yearly session limit and sometimes pre-approval. Vedara Care works on reimbursement and provides the reports your insurer needs." },
+    { question: "Where is the clinic?", answer: "Vedara Care Polyclinic, Binghatti Azure, Shop 4, Al Barsha South Fourth, Jumeirah Village Circle, Dubai, walking distance from Circle Mall. Open daily 9am to 10pm." }
   ]
 };

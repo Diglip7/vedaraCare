@@ -30,7 +30,7 @@ export const homePhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Physiotherapy at home in Dubai with Vedara Care, in one paragraph.",
   blockquote: "Physiotherapy at home in Dubai with Vedara Care Polyclinic is delivered by DPT-qualified physiotherapists from our Jumeirah Village Circle (JVC) clinic — walking distance from Circle Mall — travelling to patient homes across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. We provide all major physiotherapy specialisations at home: post-surgical rehabilitation (knee replacement, hip replacement, ACL, spinal surgery, rotator cuff repair), neurological rehabilitation (post-stroke, Parkinson's, MS, TBI), women's health and postnatal physiotherapy, paediatric physiotherapy for children with significant needs, geriatric mobility and falls prevention, and acute musculoskeletal care for patients with severe pain limiting travel. Sessions are 60–75 minutes including travel time consideration. Same-week appointments typical; same-day available for urgent post-hospital-discharge situations. Sessions from AED 450 per visit. Insurance direct-billing with seven major insurers including Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-  footer: "Medically reviewed by Dr. Priya Nair, DPT, DHA-Licensed 2509266 · Last updated June 2026"
+  footer: "Medically reviewed by Hafsina K K, Physiotherapist, DHA-Licensed 64812828 · Last updated June 2026"
 };
 
 export const homePhysioSituations = {
@@ -383,17 +383,10 @@ export const homePhysioOutcomes = {
       author: "Aisha K.",
       condition: "Family member of post-stroke patient",
       details: "8-Month Home Rehabilitation<br />Dubai Hills · January 2026"
-
-    },
-    {
-      quote: "C-section recovery with my second baby — leaving the house with a newborn was impossible. Vedara's postnatal physiotherapist came to our home in JVT three times a week for six weeks. Pelvic floor recovery, diastasis recti work, scar mobilisation. Female therapist, made the whole experience comfortable. Transitioned to clinic at six weeks postpartum.",
-      author: "Sarah K.",
-      condition: "Postnatal Home Physiotherapy",
-      details: "JVT · March 2026"
     }
   ],
   stats: [
-    { value: "4.5", label: "Home visit patient rating" },
+    { value: "4.6", label: "Home visit patient rating" },
     { value: "92%", label: "complete their full home programme" },
     { value: "160+", label: "home physiotherapy reviews" }
   ],
@@ -576,20 +569,12 @@ export const homePhysioTeam = {
   description: "Our home physiotherapy is delivered by the same DPT-qualified specialised physiotherapists who work in our JVC clinic. There is no separate 'home physio' team of lesser-qualified providers. The same expertise that makes our clinic physiotherapy effective travels to your home.",
   team: [
     {
-      name: "Dr. Priya Nair, DPT",
+      name: "Hafsina K K, Physiotherapist",
       qualification: "DHA-Licensed · Women's Health & Postnatal",
       specialties: ["Post-Surgical", "Pelvic", "Home Physio"],
-      experience: "Lead specialist in postnatal and women's health physiotherapy. 9 years clinical experience, trained in pelvic floor rehabilitation.  ",
-      image: "/images/dr-priya-nair-home-physiotherapy-dubai.webp",
-      alt: "Dr. Priya Nair, DPT home physiotherapist Vedara Care Dubai JVC"
-    },
-    {
-      name: "Dr. Ahmed Al-Rashid, DPT",
-      qualification: "DHA-Licensed · Neurological Rehabilitation",
-      specialties: ["Neurological", "Post-Stroke", "Home Physio"],
-      experience: "Specialist in neurological rehabilitation and post-stroke recovery. Extensive home-based neurorehabilitation experience across Dubai.",
-      image: "/images/dr-ahmed-al-rashid-home-physiotherapy-dubai.webp",
-      alt: "Dr. Ahmed Al-Rashid, DPT home physiotherapist Vedara Care Dubai JVC"
+      experience: "Lead specialist in postnatal and women's health physiotherapy. Trained in pelvic floor rehabilitation.",
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K, home physiotherapist Vedara Care Dubai JVC"
     },
     {
       name: "Dr. Riya Thomas, DPT",
@@ -643,7 +628,7 @@ export const homePhysioRelatedPages = {
     {
       title: "Neurological Physiotherapy",
       description: "Specialised neurological rehabilitation — stroke, Parkinson's, MS, TBI. Frequently delivered at home for mobility-limited patients.",
-      href: "/physiotherapy/neurological-dubai"
+      href: "/physiotherapy/neurological-dubai/"
     },
     {
       title: "Home Healthcare in JVC",

@@ -575,7 +575,7 @@ const WeightLossAyurvedaDubai = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <p className="text-base">
-                We are reluctant to promise specific weight loss numbers, but patients reasonably want to know what to expect. Honest range based on our 500+ weight loss patients at the JVC clinic:
+                We are reluctant to promise specific weight loss numbers, but patients reasonably want to know what to expect. Honest range based on our weight loss patients at the JVC clinic:
               </p>
               
               <div className="grid grid-cols-2 gap-6">

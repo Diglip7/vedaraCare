@@ -13,7 +13,7 @@ export const melasmaTreatmentHero = {
   trustSignals: [
     "DHA-licensed consultant dermatologists",
     "Expertise across all Fitzpatrick skin types",
-    "400+ melasma patients treated",
+    "Multi-modal evidence-based treatment",
     "Walking distance from Circle Mall, JVC"
   ],
   floatingCard: {
@@ -28,7 +28,7 @@ export const melasmaTreatmentIntro = {
   label: "THE QUICK ANSWER",
   title: "Melasma treatment at Vedara Care, in one paragraph.",
   blockquote: "Melasma treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist pigmentation care delivered by DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types (I–VI). Melasma is chronic facial pigmentation typically involving cheeks, forehead, upper lip, and jaw — triggered by hormonal factors (pregnancy, oral contraceptives, perimenopause), aggravated by UV exposure (typically intense in Dubai), and influenced by genetic and ethnic factors. We treat all presentations: pregnancy-induced melasma (chloasma), oral contraceptive-associated, perimenopausal, sun-aggravated, and mixed melasma with dermal components. Multi-modal evidence-based treatment includes topical agents (hydroquinone for limited courses, tranexamic acid, cysteamine, retinoids, azelaic acid), chemical peels calibrated to skin type, specific laser treatments selected carefully (wrong laser can worsen melasma), microneedling with specific protocols, and rigorous sun protection — the single most important factor. Realistic expectations: substantial improvement achievable for most patients within 4–6 months; complete cure rarely permanent. Patients travel to our JVC clinic from across Dubai for specialist melasma care.",
-  footer: "Medically reviewed by Lead Consultant Dermatologist, MD, DHA-licensed 2509266 · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed June 2026"
 };
 
 export const melasmaTreatmentUnderstanding = {
@@ -72,7 +72,7 @@ export const melasmaTreatmentUnderstanding = {
   rightContent: {
     label: "MELASMA EXPERTISE",
     hairCycle: [
-      { percentage: "400+", phase: "Melasma patients treated" },
+      { percentage: "100%", phase: "Personalised care" },
       { percentage: "12+", phase: "Years pigmentation expertise" },
       { percentage: "All", phase: "Fitzpatrick skin types" },
       { percentage: "3", phase: "DHA-licensed specialists" }
@@ -176,8 +176,6 @@ export const melasmaTreatmentReviews = {
   ],
   stats: [
     { value: "4.5 stars", label: "on Google" },
-    { value: "400+", label: "melasma patients treated" },
-    // { value: "All Fitzpatrick", label: "skin types expertise" },
     { value: "Multi-modal", label: "evidence-based treatment" }
   ]
 };
@@ -220,7 +218,7 @@ export const melasmaTreatmentCTA = {
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20inquire%20about%20melasma%20treatment%20options%20and%20book%20a%20consultation.",
-  footer: "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 400+ melasma patients treated · All Fitzpatrick skin types · Female and male dermatologists · Multiple languages"
+  footer: "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · All Fitzpatrick skin types · Female and male dermatologists · Multiple languages"
 };
 
 export const melasmaTreatmentOptions = {
@@ -335,9 +333,9 @@ export const melasmaTreatmentRelatedPages = {
       href: "/conditions/acne-treatment-jvc/"
     },
     {
-      title: "Best Dermatologist Evidence →",
+      title: "Dermatologist Care Evidence →",
       description: "Credibility evidence for patients evaluating dermatology providers in JVC and Dubai — accreditations, qualifications, patient outcomes.",
-      href: "/best-dermatologist-jvc-dubai/"
+      href: "/dermatology-clinic-jvc/"
     }
   ]
 };

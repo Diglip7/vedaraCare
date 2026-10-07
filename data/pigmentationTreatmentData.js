@@ -216,7 +216,7 @@ export const pigmentationConcernSelector = {
       icon: "person",
       title: "Body Pigmentation",
       subtitle: "Underarms, Intimate Areas, Body",
-      description: "Pigmentation in non-facial areas — underarms, intimate areas, neck, knees, elbows, body folds. Multiple causes including friction, hormonal factors, deodorants, hair removal methods. Treatment approach differs from facial pigmentation. Discreet consultation always available.",
+      description: "Pigmentation in non-facial areas — underarms, intimate areas, neck, knees, elbows, body folds. Multiple causes including friction, hormonal factors, deodorants. Treatment approach differs from facial pigmentation. Discreet consultation always available.",
       howToRecognise: "Dark areas on body, often in folds or friction areas",
       commonIn: "Many demographics, particularly women with preferences for even body tone",
       linkText: "Book consultation for body pigmentation →",

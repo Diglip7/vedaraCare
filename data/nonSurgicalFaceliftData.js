@@ -36,7 +36,7 @@ export const nonSurgicalFaceliftQuickAnswer = {
   label: "QUICK ANSWER ",
   paragraphs: [
     "A non-surgical facelift refers to a combination of non-invasive or minimally invasive treatments used to address selected signs of facial ageing without surgery. Depending on your concerns, this may involve skin tightening to improve firmness, collagen-stimulating treatments to gradually improve texture and elasticity, and — where clinically appropriate — carefully placed volume restoration to support facial contours. Many patients assume a non-surgical facelift produces results similar to a surgical treatment; because skin laxity, volume loss, and texture changes often occur together but respond to different techniques. Results build gradually rather than appearing all at once, and realistic expectations must be founded on the degree of ageing present. For patients with significant excess skin or advanced facial laxity, surgical consultation may be a more appropriate and effective option, and your dermatologist will discuss the relevance of that openly.",
-    // "Medically reviewed by: [INSERT VERIFIED DERMATOLOGIST NAME] DHA Licensed · Last updated August 2026",
+    "Keep unpublished until Dr. Anusha's licence is issued",
   ],
 };
 
@@ -457,6 +457,6 @@ export const nonSurgicalFaceliftImageSEO = [
 ];
 
 // BRACKETED PLACEHOLDERS — must be replaced before publishing:
-// [INSERT VERIFIED DERMATOLOGIST NAME], [VERIFY PRICE], [INSERT VERIFIED DEVICE / TECHNOLOGY USED BY VEDARA CARE],
+// [INSERT VERIFIED DEVICE / TECHNOLOGY USED BY VEDARA CARE],
 // [INSERT VERIFIED PATIENT TESTIMONIAL], [INSERT VERIFIED DOCTOR INFORMATION], [verified URL],
 // [INSERT VERIFIED VEDARA CARE PROTOCOL IF AVAILABLE]

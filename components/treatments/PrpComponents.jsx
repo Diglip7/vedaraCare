@@ -780,7 +780,7 @@ export const PrpPricing = () => {
         <div className="mb-12">
           <div className="font-sans text-[11px] font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-3">Investment</div>
           <h2 className="font-serif text-[28px] md:text-[42px] font-normal text-[#FAF7F2] m-0 mb-3 tracking-[-0.01em] leading-tight">Session Options and Pricing</h2>
-          <p className="font-sans text-[13px] text-[#FAF7F2]/50 max-w-[600px] leading-[1.65] m-0 italic">Pricing is indicative and confirmed at consultation. All values in AED - VAT inclusive per UAE regulation. Insurance on a reimbursement basis, not direct billing.</p>
+          <p className="font-sans text-[13px] text-[#FAF7F2]/50 max-w-[600px] leading-[1.65] m-0 italic">Pricing is indicative and confirmed at consultation. All values in AED - VAT inclusive per UAE regulation. Insurance on a reimbursement basis.</p>
         </div>
 
         <div className="flex flex-col gap-0.5">

@@ -37,7 +37,7 @@ const acneScarsTreatment = () => {
       "@type": ["MedicalBusiness", "LocalBusiness", "MedicalClinic"],
       "@id": `${currentUrl}#acne-scars`,
       "name": "Vedara Care Acne Scar Treatment JVC",
-      "alternateName": ["Vedara Acne Scars JVC", "Best Acne Scar Clinic Dubai", "Vedara Acne Scar Specialist Dubai"],
+      "alternateName": ["Vedara Acne Scars JVC", "Acne Scar Clinic Dubai", "Vedara Acne Scar Specialist Dubai"],
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist acne scar treatment at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. DHA-licensed consultant dermatologists delivering combination protocols for all acne scar types with particular Fitzpatrick IV-VI expertise.",
@@ -100,7 +100,7 @@ const acneScarsTreatment = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
+        "ratingValue": "4.6",
         "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
@@ -188,7 +188,7 @@ const acneScarsTreatment = () => {
     {
       "@context": "https://schema.org",
       "@type": "MedicalScholarlyArticle",
-      "headline": "Best Clinic for Acne Scars in Dubai — Dermatology-Led Combination Protocol Guide",
+      "headline": "Acne Scar Treatment Clinic in Dubai — Dermatology-Led Combination Protocol Guide",
       "image": "https://vedaracare.ae/og-images/best-acne-scars-jvc-dubai.jpg",
       "datePublished": publishedDate,
       "dateModified": modifiedDate,
@@ -219,19 +219,19 @@ const acneScarsTreatment = () => {
   return (
     <>
       <Head>
-        <title>Best Clinic for Acne Scars in JVC Dubai | Combination Care | Vedara</title>
+        <title>Acne Scars Treatment in JVC Dubai | Combination Care | Vedara</title>
         <meta name="description" content="Specialist acne scar clinic in JVC, Dubai. DHA-licensed consultant dermatologists with combination protocols for ice pick, boxcar, rolling scars. Fitzpatrick I-VI expertise. Walking distance from Circle Mall." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
-        <meta property="og:title" content="Best Clinic for Acne Scars in JVC Dubai — Combination Protocol Care | Vedara" />
+        <meta property="og:title" content="Acne Scars Treatment in JVC Dubai — Combination Protocol Care | Vedara" />
         <meta property="og:description" content="Specialist acne scar treatment at our Jumeirah Village Circle clinic, Dubai. DHA-licensed consultant dermatologists delivering combination protocols for ice pick, boxcar, rolling scars and post-inflammatory hyperpigmentation. Fitzpatrick I-VI expertise particularly for darker skin types where wrong treatment produces hyperpigmentation." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/best-acne-scars-jvc-dubai.jpg" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Best Clinic for Acne Scars in JVC Dubai — Combination Care | Vedara" />
+        <meta name="twitter:title" content="Acne Scars Treatment in JVC Dubai — Combination Care | Vedara" />
         <meta name="twitter:description" content="DHA-licensed consultant dermatologists with combination protocol expertise across all Fitzpatrick skin types." />
         <meta name="twitter:image" content="https://vedaracare.ae/og-images/best-acne-scars-jvc-dubai.jpg" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />

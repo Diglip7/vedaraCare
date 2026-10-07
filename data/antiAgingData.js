@@ -2,9 +2,9 @@
 
 export const antiAgingSEO = {
   title: "Anti-Aging & Skin-Firming Protocol JVC Dubai | Non-Invasive Programme | Vedara Care",
-  description: "Book Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC — walking distance from Circle Mall. Non-invasive monthly maintenance programme combining micro-current, peptide and growth factor infusion, Red/NIR LED collagen stimulation, buccal and Kobido face-lifting massage. 75-120 min sessions. Delivered by Arfah Owais, DHA-licensed CIBTAC-UK aesthetician, 8+ years, under Medical Director oversight.",
+  description: "Book Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC — walking distance from Circle Mall. Non-invasive monthly maintenance programme combining micro-current, peptide and growth factor infusion, Red/NIR LED collagen stimulation, buccal and Kobido face-lifting massage. 75-120 min sessions. Delivered by Arfah Owais, DHA-licensed CIBTAC-UK aesthetician, 8+ years, under Dr. Sanjida Islam Suchana oversight.",
   ogTitle: "Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC Dubai | Non-Invasive Monthly Programme | CIBTAC-UK Aesthetician",
-  ogDescription: "Non-invasive anti-aging monthly maintenance programme at Vedara Care Polyclinic Jumeirah Village Circle (JVC) Dubai. Multi-modality protocol combining micro-current therapy, peptide dermal infusion (GHK-Cu, Matrixyl, Argireline), growth factor infusion, Red LED 630nm and NIR LED 830nm photobiomodulation, and buccal/Kobido face-lifting massage. 75-120 minute sessions monthly. DHA-licensed CIBTAC-UK aesthetician under Medical Director oversight.",
+  ogDescription: "Non-invasive anti-aging monthly maintenance programme at Vedara Care Polyclinic Jumeirah Village Circle (JVC) Dubai. Multi-modality protocol combining micro-current therapy, peptide dermal infusion (GHK-Cu, Matrixyl, Argireline), growth factor infusion, Red LED 630nm and NIR LED 830nm photobiomodulation, and buccal/Kobido face-lifting massage. 75-120 minute sessions monthly. DHA-licensed CIBTAC-UK aesthetician under Dr. Sanjida Islam Suchana oversight.",
   ogImage: "https://vedaracare.ae/og-images/anti-aging-skin-firming-jvc.jpg",
   ogUrl: "https://vedaracare.ae/treatments/anti-aging-skin-firming-jvc/",
   twitterTitle: "Anti-Aging & Skin-Firming Protocol JVC Dubai | Non-Invasive Programme | Vedara Care",
@@ -39,7 +39,7 @@ export const antiAgingSEO = {
       ],
       "isAcceptingNewPatients": true,
       "practitioner": { "@id": "https://vedaracare.ae/team/arfah-owais-aesthetician-jvc/#person" },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
     },
     {
       "@context": "https://schema.org",
@@ -54,7 +54,7 @@ export const antiAgingSEO = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What is the Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC?", "acceptedAnswer": { "@type": "Answer", "text": "The Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC is a non-invasive monthly maintenance programme combining micro-current therapy, peptide and growth factor dermal infusion, Red and Near-Infrared LED collagen stimulation, retinol or bakuchiol treatment, antioxidant infusion, and face-lifting massage techniques (buccal, Kobido, gua sha, facial cupping). Designed session-by-session by DHA-licensed CIBTAC-UK certified aesthetician Arfah Owais under Medical Director oversight. Sessions run 75-120 minutes with no standard downtime. Monthly cadence recommended for cumulative benefit over 6-12 months." } },
+        { "@type": "Question", "name": "What is the Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC?", "acceptedAnswer": { "@type": "Answer", "text": "The Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC is a non-invasive monthly maintenance programme combining micro-current therapy, peptide and growth factor dermal infusion, Red and Near-Infrared LED collagen stimulation, retinol or bakuchiol treatment, antioxidant infusion, and face-lifting massage techniques (buccal, Kobido, gua sha, facial cupping). Designed session-by-session by DHA-licensed CIBTAC-UK certified aesthetician Arfah Owais under Dr. Sanjida Islam Suchana oversight. Sessions run 75-120 minutes with no standard downtime. Monthly cadence recommended for cumulative benefit over 6-12 months." } },
         { "@type": "Question", "name": "How is this different from anti-aging injectables like botox or fillers?", "acceptedAnswer": { "@type": "Answer", "text": "Anti-aging injectables (botox, fillers) are minimally invasive physician-delivered treatments providing faster more visible correction of specific expression lines or volume loss with per-session results lasting 3-6 months. The non-invasive protocol at Vedara Care JVC is aesthetician-delivered monthly maintenance providing sustained skin quality support without injectable commitment \u2014 meaningful maintenance benefit over 6-12 months of programme continuity but not equivalent to injectable-level correction. Many patients integrate both \u2014 periodic injectables plus monthly non-invasive maintenance." } },
         { "@type": "Question", "name": "How is this different from HIFU?", "acceptedAnswer": { "@type": "Answer", "text": "HIFU is a non-invasive but energy-intensive device treatment delivering deep focused ultrasound to the SMAS layer for structural lifting typically single-session or every-6-12-month cadence. The non-invasive protocol works at the epidermis and upper dermis with monthly maintenance cadence \u2014 different mechanism, different depth, different frequency. HIFU delivers more visible firming/lifting result; monthly protocol provides sustained skin quality maintenance. Often integrated: HIFU periodically plus monthly protocol for maintenance." } },
         { "@type": "Question", "name": "How often should I get anti-aging treatments?", "acceptedAnswer": { "@type": "Answer", "text": "Monthly programme cadence is standard for cumulative benefit. Non-invasive anti-aging protocol benefit accumulates over sustained monthly programme continuity \u2014 3 months minimum for meaningful visible change, 6 months for stronger cumulative benefit, 12 months for optimal sustained result. Sporadic single sessions provide immediate refresh but do not deliver the cumulative benefit that programme continuity provides. This is why Vedara Care structures pricing around programme options rather than one-off sessions." } },
@@ -72,7 +72,7 @@ export const antiAgingSEO = {
         { "@type": "Question", "name": "How does this compare to Advanced Facial Rejuvenation at Vedara Care?", "acceptedAnswer": { "@type": "Answer", "text": "Advanced Facial Rejuvenation is a broader custom multi-modality protocol addressing any skin concerns (acne, brightening, hydration, combination skin, or anti-aging). Customized Anti-Aging & Skin-Firming Protocol is specifically anti-aging focused with dedicated modality selection (micro-current, peptides, growth factors, LED, face-lifting massage) and monthly programme structure. Anti-aging-focused patients get more depth from dedicated anti-aging protocol; patients with multiple non-aging concerns get more breadth from Advanced Facial Rejuvenation." } },
         { "@type": "Question", "name": "What happens if I stop the programme after a few months?", "acceptedAnswer": { "@type": "Answer", "text": "Programme benefit continues for weeks-to-months after stopping but tapers over 3-6 months without maintenance. Sustained result depends on sustained programme continuity. Patients with life circumstances requiring pause discuss cadence adjustment with Arfah \u2014 bi-monthly cadence often bridges gaps better than complete pause. Home skincare adherence between sessions also meaningfully impacts sustained benefit." } },
         { "@type": "Question", "name": "What should I do before my appointment?", "acceptedAnswer": { "@type": "Answer", "text": "Arrive with makeup off or time for gentle removal. Avoid retinoids/tretinoin 3-5 days before (particularly if peel components anticipated). Avoid glycolic acid products 24 hours before. Avoid recent significant sun exposure 24-48 hours. Wait 14 days after botox/fillers per practitioner guidance. Communicate any recent skin changes, medication changes, health changes, or new skincare additions to Arfah at session start." } },
-        { "@type": "Question", "name": "Who delivers this protocol at Vedara Care JVC?", "acceptedAnswer": { "@type": "Answer", "text": "Arfah Owais \u2014 DHA-licensed aesthetician with CIBTAC-UK diploma from the Confederation of International Beauty Therapy and Cosmetology UK gold-standard awarding body, NCLC certification, PMU certification, and 8+ years of hands-on clinical experience. Specific training in buccal massage technique and Kobido facial massage. Anti-aging protocol delivered under Medical Director clinical oversight at Vedara Care JVC. Multi-language Arabic, English, Hindi, Urdu. Female practitioner." } },
+        { "@type": "Question", "name": "Who delivers this protocol at Vedara Care JVC?", "acceptedAnswer": { "@type": "Answer", "text": "Arfah Owais \u2014 DHA-licensed aesthetician with CIBTAC-UK diploma from the Confederation of International Beauty Therapy and Cosmetology UK gold-standard awarding body, NCLC certification, PMU certification, and 8+ years of hands-on clinical experience. Specific training in buccal massage technique and Kobido facial massage. Anti-aging protocol delivered under Dr. Sanjida Islam Suchana clinical oversight at Vedara Care JVC. Multi-language Arabic, English, Hindi, Urdu. Female practitioner." } },
         { "@type": "Question", "name": "Where is the clinic and how do I book?", "acceptedAnswer": { "@type": "Answer", "text": "Vedara Care Polyclinic is in Jumeirah Village Circle (JVC), Dubai \u2014 walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Book by phone, WhatsApp, or through the website booking system. First-visit patients book 90-minute slot 30-min analysis plus 60-min treatment. Clinic hours: Sunday-Friday 9AM-9PM, Saturday 9AM-6PM. Beauty Therapy is one of Vedara Care's seven DHA-licensed specialties." } }
       ]
     },
@@ -194,8 +194,8 @@ export const antiAgingSEO = {
       "@context": "https://schema.org",
       "@type": "Person",
       "@id": "https://vedaracare.ae/team/medical-director-slug/#person",
-      "name": "[Medical Director Full Name]",
-      "jobTitle": "Consultant Dermatologist and Medical Director",
+      "name": "[Dr. Sanjida Islam Suchana Full Name]",
+      "jobTitle": "Consultant Dermatologist and Dr. Sanjida Islam Suchana",
       "url": "https://vedaracare.ae/team/medical-director-slug/",
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "MD Medical Doctor" },
@@ -308,7 +308,7 @@ export const antiAgingHero = {
   trustSignals: [
     "DHA-Licensed Clinic",
     "CIBTAC-UK Certified",
-    "Medical Director Oversight",
+    "Dr. Sanjida Islam Suchana Oversight",
     "75-120 Min Sessions",
     "Non-Invasive ",
     "Monthly Programme",
@@ -325,7 +325,7 @@ export const antiAgingShortVersion = {
   label: "At A Glance",
   title: "Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC — the short version.",
   content: "Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC is a non-invasive monthly maintenance programme combining micro-current therapy, peptide and growth factor dermal infusion, Red and Near-Infrared LED collagen stimulation, and face-lifting massage techniques, designed session-by-session by DHA-licensed CIBTAC-UK certified aesthetician Arfah Owais. Sessions run 75–120 minutes. No downtime standard. Monthly cadence recommended for cumulative benefit over 6–12 months . The programme is designed for patients wanting sustained non-invasive anti-aging maintenance — as a standalone alternative to injectable and device-based interventions, as maintenance between injectable treatments, as preventive protocol for early-30s patients delaying injectables, or as monthly maintenance following HIFU or laser resurfacing programmes. Modality selection is customized session-by-session based on comprehensive skin analysis findings, with Arfah adjusting protocol depth and modality mix as skin evolves through the programme.",
-  chips: ["75-120 Minute Sessions", "No standard downtime", "Monthly programme", "Micro-current + Peptide + LED", "Buccal & Kobido massage", "Medical Director oversight", "DHA-licensed clinic", "Female practitioner"]
+  chips: ["75-120 Minute Sessions", "No standard downtime", "Monthly programme", "Micro-current + Peptide + LED", "Buccal & Kobido massage", "Dr. Sanjida Islam Suchana oversight", "DHA-licensed clinic", "Female practitioner"]
 };
 
 export const antiAgingHowItWorks = {
@@ -486,7 +486,7 @@ export const antiAgingSkinTypes = {
   actionLink: "Not sure which anti-aging pathway suits your skin? Book comprehensive skin analysis with Arfah first \u2192",
   contraindications: {
     title: "This protocol isn't right for everyone",
-    text: "Contraindications include: active severe acne or cystic acne, active rosacea flare, recent Roaccutane use within past 6 months (peel components contraindicated), pacemaker or implanted electrical device (micro-current absolutely contraindicated), pregnancy (protocol substantially adjusted — micro-current, retinol/bakuchiol, peels, and LED avoided), epilepsy or seizure disorder (micro-current contraindicated), recent botox/fillers within 14 days (protocol adjusted), active inflammatory skin conditions, open skin wounds, active cold sores, recent sunburn, metal implants in face area. </br> </br> Arfah screens for contraindications during comprehensive skin analysis and coordinates with the <a href='/departments/dermatology-jvc/' class='underline hover:text-gray-900'>on-site dermatologist</a> Medical Director where indicated."
+    text: "Contraindications include: active severe acne or cystic acne, active rosacea flare, recent Roaccutane use within past 6 months (peel components contraindicated), pacemaker or implanted electrical device (micro-current absolutely contraindicated), pregnancy (protocol substantially adjusted — micro-current, retinol/bakuchiol, peels, and LED avoided), epilepsy or seizure disorder (micro-current contraindicated), recent botox/fillers within 14 days (protocol adjusted), active inflammatory skin conditions, open skin wounds, active cold sores, recent sunburn, metal implants in face area. </br> </br> Arfah screens for contraindications during comprehensive skin analysis and coordinates with the <a href='/departments/dermatology-jvc/' class='underline hover:text-gray-900'>on-site dermatologist</a> Dr. Sanjida Islam Suchana where indicated."
   }
 };
 
@@ -634,7 +634,7 @@ export const antiAgingArfahProfile = {
   designation: "DHA-Licensed Aesthetician · CIBTAC-UK · 8+ Years Experience",
   paragraphs: [
     "I've been delivering anti-aging protocols for 8+ years across UK CIBTAC-trained practice and now DHA-licensed practice at Vedara Care JVC. My approach comes from something I learned early in training: anti-aging is a programme, not a treatment. The patients who achieve the best sustained result commit to monthly programme continuity over 6–12 months minimum, with modality selection I adjust every session based on how their skin is actually responding.",
-    "The modalities I use aren't secret or novel — micro-current, peptide infusion, growth factor infusion, LED photobiomodulation, face-lifting massage including buccal and Kobido techniques I trained in specifically. What matters is the judgement about which combination for which patient in which month, and the discipline of monthly cadence. I coordinate with our Medical Director when treatment intersects with dermatological considerations, and I refer to injectable or HIFU pathway when non-invasive protocol reaches its realistic limits.",
+    "The modalities I use aren't secret or novel — micro-current, peptide infusion, growth factor infusion, LED photobiomodulation, face-lifting massage including buccal and Kobido techniques I trained in specifically. What matters is the judgement about which combination for which patient in which month, and the discipline of monthly cadence. I coordinate with our Dr. Sanjida Islam Suchana when treatment intersects with dermatological considerations, and I refer to injectable or HIFU pathway when non-invasive protocol reaches its realistic limits.",
     " - Arfah Owais, DHA-Licensed Aesthetician, CIBTAC-UK Diploma, NCLC Certified, Vedara Care JVC"
   ],
   credentials: [
@@ -649,15 +649,15 @@ export const antiAgingArfahProfile = {
   image: "/images/arfah-owais-portrait.webp",
   alt: "Arfah Owais DHA licensed aesthetician CIBTAC-UK Vedara Care JVC portrait",
   medicalDirectorImage: "/images/medical-director-portrait.webp",
-  medicalDirectorAlt: "Medical Director dermatologist clinical oversight Vedara Care JVC",
+  medicalDirectorAlt: "Dr. Sanjida Islam Suchana dermatologist clinical oversight Vedara Care JVC",
   links: [
     { text: "Read Arfah's full profile \u2192", href: "/team/arfah-owais-aesthetician-jvc/" },
     { text: "Book Anti-Aging Protocol with Arfah \u2192", href: "/book" }
   ],
   clinicalOversight: {
-    title: "Medical Director Clinical Oversight",
-    text: "Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC operates under clinical oversight of [Medical Director Name], MD, Consultant Dermatologist, DHA Licence [Number]. Medical Director oversight includes: protocol review and approval, contraindication screening framework, injectable and HIFU pathway coordination, adverse event response protocol, DHA advertising compliance review, and quarterly clinical audit. This page was clinically reviewed on [Date] and is scheduled for next review on [Date + 6 months].",
-    linkText: "View Medical Director profile \u2192",
+    title: "Dr. Sanjida Islam Suchana Clinical Oversight",
+    text: "Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC operates under clinical oversight of [Dr. Sanjida Islam Suchana Name], MD, Consultant Dermatologist, DHA Licence [Number]. Dr. Sanjida Islam Suchana oversight includes: protocol review and approval, contraindication screening framework, injectable and HIFU pathway coordination, adverse event response protocol, DHA advertising compliance review, and quarterly clinical audit. This page was clinically reviewed on [Date] and is scheduled for next review on [Date + 6 months].",
+    linkText: "View Dr. Sanjida Islam Suchana profile \u2192",
     linkHref: "/team/medical-director-slug"
   }
 };
@@ -722,7 +722,7 @@ export const antiAgingFAQ = {
     whatsappLink: "https://wa.me/971555736312"
   },
   faqs: [
-    { question: "What is the Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC?", answer: "The Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC is a non-invasive monthly maintenance programme combining micro-current therapy, peptide and growth factor dermal infusion, Red and Near-Infrared LED collagen stimulation, retinol or bakuchiol treatment, antioxidant infusion, and face-lifting massage techniques (buccal, Kobido, gua sha, facial cupping). Designed session-by-session by DHA-licensed CIBTAC-UK certified aesthetician Arfah Owais under Medical Director oversight. Sessions run 75-120 minutes with no standard downtime. Monthly cadence recommended for cumulative benefit over 6-12 months." },
+    { question: "What is the Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC?", answer: "The Customized Anti-Aging & Skin-Firming Protocol at Vedara Care JVC is a non-invasive monthly maintenance programme combining micro-current therapy, peptide and growth factor dermal infusion, Red and Near-Infrared LED collagen stimulation, retinol or bakuchiol treatment, antioxidant infusion, and face-lifting massage techniques (buccal, Kobido, gua sha, facial cupping). Designed session-by-session by DHA-licensed CIBTAC-UK certified aesthetician Arfah Owais under Dr. Sanjida Islam Suchana oversight. Sessions run 75-120 minutes with no standard downtime. Monthly cadence recommended for cumulative benefit over 6-12 months." },
     { question: "How is this different from anti-aging injectables like botox or fillers?", answer: "Anti-aging injectables (botox, fillers) are minimally invasive physician-delivered treatments providing faster more visible correction of specific expression lines or volume loss with per-session results lasting 3-6 months. The non-invasive protocol at Vedara Care JVC is aesthetician-delivered monthly maintenance providing sustained skin quality support without injectable commitment \u2014 meaningful maintenance benefit over 6-12 months of programme continuity but not equivalent to injectable-level correction. Many patients integrate both \u2014 periodic injectables plus monthly non-invasive maintenance." },
     { question: "How is this different from HIFU?", answer: "HIFU is a non-invasive but energy-intensive device treatment delivering deep focused ultrasound to the SMAS layer for structural lifting typically single-session or every-6-12-month cadence. The non-invasive protocol works at the epidermis and upper dermis with monthly maintenance cadence \u2014 different mechanism, different depth, different frequency. HIFU delivers more visible firming/lifting result; monthly protocol provides sustained skin quality maintenance. Often integrated: HIFU periodically plus monthly protocol for maintenance." },
     { question: "How often should I get anti-aging treatments?", answer: "Monthly programme cadence is standard for cumulative benefit. Non-invasive anti-aging protocol benefit accumulates over sustained monthly programme continuity \u2014 3 months minimum for meaningful visible change, 6 months for stronger cumulative benefit, 12 months for optimal sustained result. Sporadic single sessions provide immediate refresh but do not deliver the cumulative benefit that programme continuity provides. This is why Vedara Care structures pricing around programme options rather than one-off sessions." },
@@ -740,7 +740,7 @@ export const antiAgingFAQ = {
     { question: "How does this compare to Advanced Facial Rejuvenation at Vedara Care?", answer: "Advanced Facial Rejuvenation is a broader custom multi-modality protocol addressing any skin concerns (acne, brightening, hydration, combination skin, or anti-aging). Customized Anti-Aging & Skin-Firming Protocol is specifically anti-aging focused with dedicated modality selection (micro-current, peptides, growth factors, LED, face-lifting massage) and monthly programme structure. Anti-aging-focused patients get more depth from dedicated anti-aging protocol; patients with multiple non-aging concerns get more breadth from Advanced Facial Rejuvenation." },
     { question: "What happens if I stop the programme after a few months?", answer: "Programme benefit continues for weeks-to-months after stopping but tapers over 3-6 months without maintenance. Sustained result depends on sustained programme continuity. Patients with life circumstances requiring pause discuss cadence adjustment with Arfah \u2014 bi-monthly cadence often bridges gaps better than complete pause. Home skincare adherence between sessions also meaningfully impacts sustained benefit." },
     { question: "What should I do before my appointment?", answer: "Arrive with makeup off or time for gentle removal. Avoid retinoids/tretinoin 3-5 days before (particularly if peel components anticipated). Avoid glycolic acid products 24 hours before. Avoid recent significant sun exposure 24-48 hours. Wait 14 days after botox/fillers per practitioner guidance. Communicate any recent skin changes, medication changes, health changes, or new skincare additions to Arfah at session start." },
-    { question: "Who delivers this protocol at Vedara Care JVC?", answer: "Arfah Owais \u2014 DHA-licensed aesthetician with CIBTAC-UK diploma from the Confederation of International Beauty Therapy and Cosmetology UK gold-standard awarding body, NCLC certification, PMU certification, and 8+ years of hands-on clinical experience. Specific training in buccal massage technique and Kobido facial massage. Anti-aging protocol delivered under Medical Director clinical oversight at Vedara Care JVC. Multi-language Arabic, English, Hindi, Urdu. Female practitioner." },
+    { question: "Who delivers this protocol at Vedara Care JVC?", answer: "Arfah Owais \u2014 DHA-licensed aesthetician with CIBTAC-UK diploma from the Confederation of International Beauty Therapy and Cosmetology UK gold-standard awarding body, NCLC certification, PMU certification, and 8+ years of hands-on clinical experience. Specific training in buccal massage technique and Kobido facial massage. Anti-aging protocol delivered under Dr. Sanjida Islam Suchana clinical oversight at Vedara Care JVC. Multi-language Arabic, English, Hindi, Urdu. Female practitioner." },
     { question: "Where is the clinic and how do I book?", answer: "Vedara Care Polyclinic is in Jumeirah Village Circle (JVC), Dubai \u2014 walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Book by phone, WhatsApp, or through the website booking system. First-visit patients book 90-minute slot 30-min analysis plus 60-min treatment. Clinic hours: Sunday-Friday 9AM-9PM, Saturday 9AM-6PM. Beauty Therapy is one of Vedara Care's seven DHA-licensed specialties." }
   ]
 };
@@ -788,7 +788,7 @@ export const antiAgingLocation = {
 };
 
 export const antiAgingFinalCTA = {
-  title: "Anti-aging isn't a treatment. It's a programme. Non-invasive monthly maintenance designed session-by-session by a CIBTAC-UK certified aesthetician under Medical Director oversight."
+  title: "Anti-aging isn't a treatment. It's a programme. Non-invasive monthly maintenance designed session-by-session by a CIBTAC-UK certified aesthetician under Dr. Sanjida Islam Suchana oversight."
 };
 
 export const antiAgingRelatedTreatmentsGrid = {

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { SITE } from '../../lib/site';
 
 const DoctorHero = ({ doctor }) => {
   return (
@@ -31,10 +32,10 @@ const DoctorHero = ({ doctor }) => {
               {/* Bottom Info Card */}
               <div className="absolute bottom-0 left-0 right-0 m-4 p-4 rounded-[8px]" style={{ backgroundColor: 'rgb(255, 255, 255)', boxShadow: 'rgba(0, 0, 0, 0.13) 0px 4px 28px' }}>
                 <p className="text-[11px] font-bold tracking-[0.13em] uppercase mb-1" style={{ color: 'rgb(201, 169, 97)' }}>
-                  DHA-LICENSED - BAMS - MD (AYURVEDA)
+                  {doctor.heroBadge || "DHA-LICENSED CLINICIAN"}
                 </p>
                 <p className="text-[13px]" style={{ color: 'rgb(26, 26, 26)' }}>
-                  15+ years - 5,000+ patients - License DHA-P-0048291
+                  {doctor.heroStats || "Dedicated to exceptional patient care"}
                 </p>
               </div>
             </div>
@@ -111,7 +112,7 @@ const DoctorHero = ({ doctor }) => {
                   <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
                   <path d="m9 11 3 3L22 4"></path>
                 </svg>
-                Insurance Direct Billing Available
+                {SITE.insurance}
               </div>
             </div>
           </div>

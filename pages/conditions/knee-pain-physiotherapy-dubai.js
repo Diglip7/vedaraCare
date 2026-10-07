@@ -8,7 +8,7 @@ import OutcomeRanges from '../../components/ayurveda/OutcomeRanges';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import KneeTreatmentApproach from '../../components/ayurveda/KneeTreatmentApproach';
 // import { PostSurgeryTeam } from '../../components/ayurveda/PostSurgeryComponents';
-
+import { physioReviewsBlock } from '../../data/googleReviews';
 import FAQ from '../../components/home/FAQ';
 import PhysiotherapyTeam from '../../components/ayurveda/PhysiotherapyTeam';
 import TreatmentLocationCustom from '../../components/ayurveda/TreatmentLocationCustom';
@@ -77,7 +77,7 @@ const KneePainPhysioDubai = () => {
         {"@type": "MedicalProcedure", "name": "Manual Therapy"}
       ],
       "memberOf": { "@type": "GovernmentOrganization", "name": "Dubai Health Authority" },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "23", "bestRating": "5", "worstRating": "1" }
     },
     {
       "@context": "https://schema.org", "@graph": [
@@ -143,7 +143,7 @@ const KneePainPhysioDubai = () => {
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <meta property="og:title" content="Knee Pain Physiotherapy in Dubai — Evidence-Based Specialist Care | Vedara JVC" />
-        <meta property="og:description" content="Most knee pain responds to appropriate physiotherapy without requiring surgery. DPT-qualified specialists at our Jumeirah Village Circle clinic for runner's knee, meniscus injuries, ACL recovery, knee osteoarthritis, patellar tendinopathy, and the full range of knee conditions." />
+        <meta property="og:description" content="Most knee pain responds to appropriate physiotherapy without requiring surgery. DHA-licensed specialists at our Jumeirah Village Circle clinic for runner's knee, meniscus injuries, ACL recovery, knee osteoarthritis, patellar tendinopathy, and the full range of knee conditions." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/knee-pain-physiotherapy-dubai.jpg" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />
@@ -214,15 +214,7 @@ const KneePainPhysioDubai = () => {
         {...kneePainOutcomes}
       />
 
-      <TreatmentReviews 
-        bgColor="bg-white"
-        cardBgColor="rgb(248, 244, 238)"
-        statsBgColor="rgb(24, 76, 58)"
-        label="PATIENT STORIES"
-        title="Real knee pain recoveries."
-        {...kneePainReviews}
-        useKneeStyle={true}
-      />
+      <TreatmentReviews {...physioReviewsBlock()} />
 
       <PhysiotherapyTeam 
       bgColor="bg-[#F8F4EE]"

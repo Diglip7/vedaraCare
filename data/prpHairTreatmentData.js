@@ -28,7 +28,7 @@ export const prpHairIntro = {
   label: "THE QUICK ANSWER",
   title: "PRP hair treatment at Vedara Care, in one paragraph.",
   blockquote: "PRP hair treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist PRP therapy delivered by DHA-licensed consultant dermatologists using evidence-based protocols. PRP (platelet-rich plasma) uses concentrated growth factors from your own blood to stimulate hair follicles, improve hair thickness, and support hair regrowth. Suitable for: androgenetic alopecia (male and female pattern hair loss) in appropriate patients, telogen effluvium (post-illness, post-partum, stress-related), hair transplant support to enhance graft survival and stimulate native hair, and general hair thinning in patients seeking non-systemic treatment options. Our protocol: comprehensive hair loss consultation; standardized blood draw and quality centrifugation to concentrate platelets; activation techniques where appropriate; systematic injection using specific techniques; and typically a series of 4–6 sessions initially, then maintenance every 3–6 months. Combination approach with medical therapy typically produces superior outcomes to standalone PRP. Realistic outcomes: measurable improvement for appropriate patients within 4–6 months. Session pricing from AED 1,800; treatment packages provide better value. Patients travel to our JVC clinic from across Dubai for specialist PRP hair treatment.",
-  footer: "Medically reviewed by Lead Consultant Dermatologist, MD, DHA-Licensed 2509266 · Last updated July 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed July 2026"
 };
 
 export const prpHairUnderstanding = {
@@ -178,12 +178,8 @@ export const prpHairPatientVoices = {
   ],
   stats: [
     {
-      value: "4.5",
+      value: "4.6",
       description: "Stars on Google"
-    },
-    {
-      value: "600+",
-      description: "PRP hair patients treated"
     },
     {
       value: "DHA",
@@ -264,7 +260,6 @@ export const prpHairCTA = {
     "Initial consultation from AED 650",
     "Walking distance from Circle Mall, JVC",
     "DHA-licensed consultant dermatologists",
-    "600+ PRP hair patients treated",
     "Sophisticated evidence-based protocols",
     "Combination treatment approach",
     "Female and male dermatologists"

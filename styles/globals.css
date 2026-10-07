@@ -7,8 +7,9 @@
   --color-accent: #1C1C1C;
   --color-bg-light: #F8F9FA;
 
-  --font-serif: "Fraunces", serif;
-  --font-sans: "Nunito Sans", "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-fraunces, "Fraunces"), serif;
+  --font-sans: var(--font-nunito-sans, "Nunito Sans"), system-ui, -apple-system, sans-serif;
+  --font-inter: var(--font-inter, "Inter"), system-ui, -apple-system, sans-serif;
 }
 
 :root {

@@ -7,7 +7,7 @@ const PhysiotherapyInsurance = ({
   paragraphs = [],
   content = [], // For backward compatibility
   insurers = [],
-  sidebarTitle = "OUR DIRECT-BILLING INSURERS",
+  sidebarTitle = "SUPPORTED INSURANCE PROVIDERS",
   sidebarText = [],
   whatsappNumber = "971555736312"
 }) => {
@@ -15,7 +15,7 @@ const PhysiotherapyInsurance = ({
   const displayParagraphs = paragraphs.length > 0 ? paragraphs : content;
 
   return (
-    <section className={bgColor} style={{ padding: '96px 24px' }}>
+    <section className={bgColor} style={{ padding: '46px 24px' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <div className="text-sm tracking-wider mb-4" style={{ color: '#d4af37' }}>
@@ -26,11 +26,11 @@ const PhysiotherapyInsurance = ({
           </h2>
         </div>
         <div className="grid md:grid-cols-3 gap-12">
-          <div className="md:col-span-2 space-y-6 text-gray-700">
+          <div className="md:col-span-2 space-y-6 text-gray-700 mt-10">
             {displayParagraphs.map((paragraph, index) => (
-              <p 
-                key={index} 
-                className={index === 0 ? 'text-lg' : ''} 
+              <p
+                key={index}
+                className={index === 0 ? 'text-lg' : ''}
                 style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.8' }}
                 dangerouslySetInnerHTML={{ __html: paragraph }}
               />

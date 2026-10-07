@@ -94,7 +94,7 @@ export const arfahOwaisPageData = {
         { name: 'HydraFacial', description: 'Multi-step medical-grade facial: cleanse, exfoliate, extract, hydrate. Suits most skin types.', href: '/treatments/hydrafacial-jvc/' },
         { name: 'Oxy-Geneo Facial', description: 'Tri-effect facial: exfoliation, oxygenation, infusion of active nutrients.', href: '/treatments/oxy-geneo-facial-jvc/' },
         { name: 'Microdermabrasion', description: 'Controlled physical exfoliation removing surface dead skin layer.', href: '/treatments/microdermabrasion-jvc/' },
-        { name: 'Dermaplaning', description: 'Precision blade-based physical exfoliation with vellus hair removal.', href: '/treatments/microdermabrasion-dermaplaning-jvc/' },
+        { name: 'Dermaplaning', description: 'Precision blade-based physical exfoliation that removes fine facial vellus hair during exfoliation.', href: '/treatments/microdermabrasion-dermaplaning-jvc/' },
         { name: 'Advanced Facial Rejuvenation', description: 'Bespoke customised protocol built from skin analysis.', href: '/treatments/advanced-facial-rejuvenation-jvc/' },
         { name: 'Customised Anti-Aging & Skin-Firming Protocol', description: 'Sustained programme approach for age-related concerns.', href: '/treatments/anti-aging-skin-firming-protocol-jvc/' },
       ],
@@ -285,26 +285,10 @@ export const arfahOwaisPageData = {
     label: 'What Patients Say',
     title: 'Real feedback from patients Arfah has worked with.',
     // description: 'Aesthetic outcomes measured over sessions and programmes. Representative patient experiences from our Jumeirah Village Circle clinic.',
-    items: [
-      {
-        quote: "I'd been through a rotation of Dubai aesthetic clinics for years — most of them felt like sales meetings dressed up as consultations. The first appointment with Arfah was genuinely different. She actually looked at my skin, spent time understanding my history, and then told me two of the treatments I'd been considering weren't right for my skin type. That honesty is what made me trust her enough to start the pigmentation programme she did recommend. Six months in, my melasma has improved substantially — not gone, and she was honest that it wouldn't fully go, but visibly better and much more manageable. I now recommend her to friends without hesitation.",
-        author: 'Sarah, 38',
-        details: 'British expat, JLT resident — Pigmentation and melasma programme over 6 months, ongoing maintenance. Individual outcomes vary.',
-      },
-      {
-        quote: "Booked HydraFacial before my sister's wedding — first time trying it. What I appreciated was that Arfah didn't try to upsell me into a six-treatment package the moment I walked in. Explained what a single session would do, what would take a programme, and let me decide. The single session was excellent — skin genuinely looked better for the wedding photos. Went back three months later and started a Carbon Laser Peel programme for texture. Consistent, professional, no pressure. That's rare.",
-        author: 'Priya, 32',
-        details: 'Indian expat, JVC resident — HydraFacial single session followed by Carbon Laser Peel programme. Individual outcomes vary.',
-      },
-      {
-        quote: "I've had acne scarring since my late teens and had tried multiple approaches over the years, mostly disappointing. Arfah's assessment was the most thorough I've experienced — she went through my scar types in detail, explained which types would respond well to RF microneedling and which wouldn't fully resolve, and set realistic expectations for a longer programme. Eight months in, six sessions done — the improvement is meaningful and I understand why some scars remain because she explained it upfront. This is how aesthetic care should work.",
-        author: 'Karim, 29',
-        details: 'Egyptian expat, Business Bay resident — Acne scar treatment programme over 8 months, coordinated with dermatology. Individual outcomes vary.',
-      },
-    ],
+    items: [],
     disclaimer: 'Individual outcomes vary substantially and depend on skin type, condition, adherence to pre- and post-treatment protocols, and realistic session-count expectations. All testimonials shared with written patient consent per DHA advertising framework. No absolute or superlative claims — aesthetic treatments provide meaningful cosmetic improvement within realistic parameters.',
     // stats: [
-    //   { value: "4.5", label: 'patient rating on Google' },
+    //   { value: "4.6", label: 'patient rating on Google' },
     //   { value: '8+', label: 'years clinical experience' },
     //   { value: 'DHA', label: 'licensed practitioner' },
     // ],

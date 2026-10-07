@@ -255,8 +255,7 @@ export const neckPainJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "Google Rating" },
-    { value: "5000+", label: "Patients Treated" },
+    { value: "4.6", label: "Google Rating" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
     { value: "Female", label: "Practitioner Available" }
   ]
@@ -522,7 +521,6 @@ export const neckPainJvcCTA = {
     "90-minute comprehensive assessment",
     "Female DHA-Licensed BAMS Ayurvedic Doctor",
     "Flagship Greeva Basti & Nasya therapies",
-    "1400+ musculoskeletal patients treated",
     "Multi-language including Malayalam for Kerala tradition",
     "Coordinated with modern medical care",
     "Walking distance from Circle Mall, JVC"

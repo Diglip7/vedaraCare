@@ -29,7 +29,7 @@ export const hydrafacialIntro = {
   label: "THE QUICK ANSWER",
   title: "HydraFacial treatment at Vedara Care, in one paragraph.",
   blockquote: "HydraFacial in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, is a non-invasive facial treatment designed to cleanse, exfoliate, gently extract impurities, and hydrate the skin in a single session. It can be suitable for concerns such as dullness, clogged pores, excess oil, uneven texture, and dehydrated skin. Treatment can be tailored to individual skin needs, with the approach selected after assessing the patient's skin type and concerns. HydraFacial typically requires little to no downtime, making it a convenient option for patients looking for a refreshed, smoother, and more hydrated appearance without an invasive procedure. Results and suitability vary depending on individual skin condition and treatment goals.",
-  footer: "Medically reviewed by [Lead Consultant Dermatologist Name], MD, DHA-Licensed · Last updated August 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed August 2026"
 };
 
 export const hydrafacialHowItWorks = {
@@ -56,7 +56,7 @@ export const hydrafacialHowItWorks = {
       },
       {
         title: "How HydraFacial compares to other facials",
-        description: "”· vs Regular facial — HydraFacial standardises extraction and delivers serum simultaneously. Regular facial relies on manual extraction and topical application. HydraFacial more consistent, less traumatic. Regular facial more personalised massage, lower cost.<br/>”· vs <a href=\"/treatments/oxy-geneo-facial-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">Oxy-Geneo</a> — Different technology approach. Oxy-Geneo uses exfoliation-oxygenation-infusion with proprietary capsules. Both are valid medical-grade facials.<br/>”· vs Microdermabrasion — Microdermabrasion is physical exfoliation only, no serum infusion. HydraFacial includes exfoliation plus extraction plus infusion.<br/>”· vs <a href=\"/treatments/microdermabrasion-dermaplaning-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">Dermaplaning</a> — Dermaplaning uses a precision blade for physical exfoliation plus vellus hair removal. Can be combined — dermaplaning before HydraFacial gives enhanced serum penetration.<br/>”· vs Chemical peel — Chemical peels use higher-concentration acids for deeper exfoliation, often with visible peeling. HydraFacial peel step is mild — better for general refresh and hydration."
+        description: "”· vs Regular facial — HydraFacial standardises extraction and delivers serum simultaneously. Regular facial relies on manual extraction and topical application. HydraFacial more consistent, less traumatic. Regular facial more personalised massage, lower cost.<br/>”· vs <a href=\"/treatments/oxy-geneo-facial-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">Oxy-Geneo</a> — Different technology approach. Oxy-Geneo uses exfoliation-oxygenation-infusion with proprietary capsules. Both are valid medical-grade facials.<br/>”· vs Microdermabrasion — Microdermabrasion is physical exfoliation only, no serum infusion. HydraFacial includes exfoliation plus extraction plus infusion.<br/>”· vs <a href=\"/treatments/microdermabrasion-dermaplaning-jvc/\" class=\"text-[#C9A961] hover:text-[#B8924F] hover:underline transition-colors\">Dermaplaning</a> — Dermaplaning uses a precision blade for physical exfoliation that removes fine facial vellus hair during exfoliation. Can be combined — dermaplaning before HydraFacial gives enhanced serum penetration.<br/>”· vs Chemical peel — Chemical peels use higher-concentration acids for deeper exfoliation, often with visible peeling. HydraFacial peel step is mild — better for general refresh and hydration."
       },
       {
         title: "What HydraFacial won't do",
@@ -363,12 +363,8 @@ export const hydrafacialPatientVoices = {
   ],
   stats: [
     {
-      value: "4.5",
+      value: "4.6",
       description: "stars on Google"
-    },
-    {
-      value: "1,200+",
-      description: "facial patients treated"
     },
     {
       value: "Fitzpatrick I–VI",
@@ -564,7 +560,7 @@ export const hydrafacialCTA = {
   button2BorderColor: "rgb(201, 165, 90)",
   button2TextColor: "rgb(201, 165, 90)",
   bullets: [
-    "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 1,200+ facial patients treated · Fitzpatrick I–VI protocol expertise · Minimal downtime for most patients · Female and male dermatologists · Multiple languages"
+    "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · Fitzpatrick I–VI protocol expertise · Minimal downtime for most patients · Female and male dermatologists · Multiple languages"
   ]
 };
 
@@ -652,7 +648,7 @@ export const hydrafacialRelatedTreatmentsGrid = {
     },
     {
       title: "Dermaplaning JVC",
-      description: "Physical exfoliation with vellus hair removal — pairs well with HydraFacial.",
+      description: "Physical exfoliation that removes fine facial vellus hair during exfoliation — pairs well with HydraFacial.",
       image: "/images/dermaplaning.webp",
       linkText: "View treatment →",
       href: "/treatments/dermaplaning-jvc/"

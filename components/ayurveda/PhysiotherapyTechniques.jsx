@@ -20,7 +20,7 @@ const PhysiotherapyTechniques = ({
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+        <div className={image ? "grid md:grid-cols-2 gap-12 items-start" : "max-w-4xl mx-auto items-start"}>
           <div className="space-y-6">
             {techniques.map((technique, index) => (
               <div key={index}>
@@ -32,15 +32,15 @@ const PhysiotherapyTechniques = ({
             ))}
           </div>
 
-          <div>
-            {image && (
+          {image && (
+            <div>
               <img
                 src={image}
                 alt={imageAlt}
                 className="w-full h-auto object-contain rounded-xl shadow-lg"
               />
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </section>

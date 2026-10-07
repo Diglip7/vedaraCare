@@ -18,15 +18,12 @@ function generateDoctorsSitemap() {
     .filter(file => file.endsWith('.js') && file !== 'index.js' && file !== '[slug].js')
     .map(file => file.replace('.js', ''));
 
-  // Manually add the slug mapped by [slug].js (dr-priya-nair-ayurveda)
-  slugs.push('dr-priya-nair-ayurveda');
-
   // Generate the XML for each URL
   const urls = slugs
     .map(
       (slug) => `
 <url>
-<loc>https://vedaracare.ae/doctors/${slug}</loc>
+<loc>https://vedaracare.ae/doctors/${slug}/</loc>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>`

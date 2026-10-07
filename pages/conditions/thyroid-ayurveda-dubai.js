@@ -105,7 +105,7 @@ const AyurvedaThyroid = () => {
       "lastReviewed": "2026-06-02",
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Priya Menon",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/thyroid-ayurveda-dubai-hero.webp"
@@ -164,8 +164,8 @@ const AyurvedaThyroid = () => {
       "dateModified": "2026-06-02",
       "author": {
         "@type": "Physician",
-        "name": "Dr. Priya Menon",
-        "url": "https://vedaracare.ae/doctors/dr-priya-menon-ayurveda/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
       },
       "publisher": {
         "@type": "Organization",
@@ -257,7 +257,7 @@ const AyurvedaThyroid = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-06-02T09:00:00Z" />
         <meta property="article:modified_time" content="2026-06-02T09:00:00Z" />
-        <meta property="article:author" content="Dr. Priya Menon" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 

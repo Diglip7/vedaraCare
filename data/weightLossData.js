@@ -13,7 +13,7 @@ export const weightLossHero = {
   secondaryCTA: "Chat on WhatsApp",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
-    "500+ Weight Loss Patients Treated",
+    "Sustainable Ayurvedic Approach",
     "No Before/After Marketing",
     "DHA-Licensed Practitioners",
     "Walking Distance from Circle Mall, JVC"
@@ -32,7 +32,7 @@ export const weightLossIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic weight loss treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for weight loss in Dubai is a 4 to 6-month structured medical programme combining classical Panchakarma protocols (typically Virechana cleansing and selective Udvartana herbal powder massage), dosha-specific herbal medicines for metabolic correction, individualised dietary regulation, and lifestyle modification addressing sleep, stress, and movement patterns. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes are calibrated to your specific Kapha-Vata-Pitta metabolic pattern rather than generic protocols, and address root causes including insulin resistance, hormonal patterns, emotional eating, and lifestyle factors. Realistic outcomes: 6 to 15 kilograms over 6 months with sustained maintenance. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026"
 };
 
 export const weightLossMechanism1 = {
@@ -40,7 +40,7 @@ export const weightLossMechanism1 = {
   label: "AN HONEST OBSERVATION",
   title: "Why most weight loss approaches in Dubai produce short-term results and long-term frustration.",
   content: [
-    "Dubai has a saturated weight loss market — IV drip clinics, 21-day 'Ayurvedic detox' packages, GLP-1 prescription services, weight loss spas, surgical clinics offering bariatric procedures, supplement brands, influencer-promoted herbal teas. Most patients arriving at our JVC clinic have tried two or three of these. Most have lost weight and gained it back. Many have ended up heavier than when they started.",
+    "Dubai has a saturated weight loss market — 21-day 'Ayurvedic detox' packages, GLP-1 prescription services, weight loss spas, surgical clinics offering bariatric procedures, supplement brands, influencer-promoted herbal teas. Most patients arriving at our JVC clinic have tried two or three of these. Most have lost weight and gained it back. Many have ended up heavier than when they started.",
     "The reason is simple. Weight is a downstream marker of upstream patterns — insulin metabolism, hormonal balance, sleep quality, cortisol patterns, emotional regulation, gut function, dosha-specific metabolic tendency, and lifestyle factors. Approaches that address only the marker (calorie restriction, drug-induced suppression, lymphatic drainage, fat-burning herbs) produce short-term scale changes without changing what produced the weight in the first place. When the intervention stops — or the body adapts — the weight returns, often with interest.",
     "\"Authentic Ayurvedic weight loss treatment works because it addresses upstream patterns over enough time for the body to actually adapt. Panchakarma cleansing resets metabolic patterns. Internal medicines correct dosha-specific imbalances. Dietary regulation addresses the eating patterns producing the problem. Lifestyle modification addresses sleep, stress, and movement systematically. This requires 4-6 months minimum. There are no Ayurvedic shortcuts — anyone selling them is selling you the same problem in a different package.\""
   ],
@@ -85,7 +85,7 @@ export const weightLossMechanism2 = {
     "What works is a structured 4-6 month medical programme at a DHA-licensed clinic — pattern identification, Panchakarma, herbal medicines, dietary correction, and lifestyle protocols. This is not a '30-day detox' or a 'fat burner' — it's authentic Ayurvedic treatment."
   ],
   quote: "If your weight loss solution came in a box or a subscription, it's not treatment — it's marketing.",
-  // image: "https://images.unsplash.com/photo-1545840716-c82e9eec6930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxheXVydmVkaWMlMjBtZWRpY2luZSUyMGhlcmJzJTIwb2lsJTIwcHJlcGFyYXRpb258ZW58MXx8fHwxNzc5ODA0MzE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  // image: "/images/ayurvedic-massage-jvc-hero.webp",
   image: "/images/weight-loss-consultation-vedara-jvc.webp",
   alt: "Sustainable healthy lifestyle imagery — Ayurvedic weight loss approach in Dubai",
 
@@ -290,7 +290,7 @@ export const weightLossSymptoms = {
       expected: "Realistic expectation: 3-7 kg plus stabilised weight and digestion"
     }
   ],
-  footer: "We are reluctant to promise specific weight loss numbers, but patients reasonably want to know what to expect. Honest range based on our 500+ weight loss patients at the JVC clinic: 6-15 kg over 6 months for most patterns, with some patterns slower and some faster. These are honest ranges — no transformations, no guarantees."
+  footer: "We are reluctant to promise specific weight loss numbers, but patients reasonably want to know what to expect. Honest range based on our weight loss patients at the JVC clinic: 6-15 kg over 6 months for most patterns, with some patterns slower and some faster. These are honest ranges — no transformations, no guarantees."
 };
 
 export const weightLossBoundaries = {
@@ -332,27 +332,11 @@ export const weightLossReviews = {
   isDarkText: false,
   label: " PATIENT OUTCOMES",
   title: "Real weight loss outcomes from our JVC clinic",
-  items: [
-    {
-      quote: "Six months at Vedara. Fourteen kilos lost. More importantly, HbA1c dropped from 6.7 to 5.4 and I have stopped craving sugar in the afternoons.",
-      author: "Rohan D.",
-      details: "  · Insulin-resistance & PCOS · 6-month programme  · JVC District 12 · February 2026"
-    },
-    {
-      quote: "I had been on Ozempic for a year. Lost 18 kg. Came off it because of the cost. Gained 12 kg back in eight months. Vedara helped me lose 9 kg the second time — and this time, my eating habits and energy actually changed.",
-      author: "Sarah K.",
-      details: " Post-GLP-1 Rebound · 6-Month Programme · Dubai Marina · January 2026"
-    },
-    {
-      quote: "After my second daughter, the postpartum weight just stayed. The 45-day Sutika programme and the 6-month treatment after took it off properly. I am now lighter than I was before either pregnancy.",
-      author: "Priya R.",
-      details: "Postpartum + Hormonal Pattern · 9-Month Combined Programme · Al Barsha South · March 2026"
-    }
-  ],
+  items: [],
   stats: [
     { value: "94", label: "Weight Loss  reviews" },
     { value: "78%", label: "achieved their target range" },
-    { value: "4.5", label: "stars on Google " },
+    { value: "4.6", label: "stars on Google " },
     { value: "97%", label: " maintained it at 12 months " }
   ],
   buttonText: "Read All Weight Loss Reviews →",

@@ -11,8 +11,8 @@ const DrSanjidaPage = () => {
   const schemaMarkup = [
     {
       "@context": "https://schema.org",
-      "@type": "Physician",
-      "@id": `${profileUrl}/#physician`,
+      "@type": "Person",
+      "@id": `${profileUrl}/#person`,
       "name": "Dr. Sanjida Islam Suchana",
       "url": profileUrl,
       "image": ogImageUrl,
@@ -46,20 +46,10 @@ const DrSanjidaPage = () => {
           "@type": "EducationalOccupationalCredential",
           "credentialCategory": "License",
           "name": "DHA Licensed General Practitioner",
-          "identifier": "[DHA License Number - To be confirmed]",
+          "identifier": "33436347",
           "recognizedBy": {
             "@type": "GovernmentOrganization",
             "name": "Dubai Health Authority"
-          }
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "License",
-          "name": "BMDC Licensed Physician",
-          "identifier": "[BMDC Registration Number - To be confirmed]",
-          "recognizedBy": {
-            "@type": "GovernmentOrganization",
-            "name": "Bangladesh Medical & Dental Council"
           }
         },
         {
@@ -125,7 +115,7 @@ const DrSanjidaPage = () => {
         "url": "https://vedaracare.ae/logo.png"
       },
       "employee": {
-        "@id": `${profileUrl}/#physician`
+        "@id": `${profileUrl}/#person`
       }
     },
     {
@@ -134,7 +124,7 @@ const DrSanjidaPage = () => {
       "name": "Dr. Sanjida Islam Suchana — DHA Licensed General Practitioner",
       "url": profileUrl,
       "about": {
-        "@id": `${profileUrl}/#physician`
+        "@id": `${profileUrl}/#person`
       },
       "mainContentOfPage": {
         "@type": "WebPageElement",
@@ -328,7 +318,8 @@ const DrSanjidaPage = () => {
       "@type": "Person",
       "@id": `${profileUrl}/#person`,
       "name": "Dr. Sanjida Islam Suchana",
-      "jobTitle": "DHA Licensed General Practitioner",
+      "jobTitle": "General Practitioner",
+      "credential": "DHA professional licence 33436347",
       "worksFor": {
         "@id": "https://vedaracare.ae/#organization"
       }

@@ -10,6 +10,7 @@ import FAQ from '../../components/home/FAQ';
 import { SciaticaTypes, SciaticaTreatment } from '../../components/ayurveda/SciaticaSections';
 import CareSettings, { StrokePhases, CoordinatedCare, TransparentPricing } from '../../components/ayurveda/CareSettings';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
+import { physioReviewsBlock } from '../../data/googleReviews';
 import {
   strokeRehabHero,
   strokeRehabIntro,
@@ -45,7 +46,7 @@ const StrokeRehabDubai = () => {
       "alternateName": ["Vedara Stroke Rehab Dubai", "Vedara Care Neurorehabilitation JVC"],
       "url": "https://vedaracare.ae/conditions/stroke-rehab-dubai/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Specialist post-stroke rehabilitation at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DPT-qualified neurorehabilitation specialists delivering evidence-based protocols including constraint-induced movement therapy, mirror therapy, functional electrical stimulation, and task-specific training. Clinic-based care at JVC and home physiotherapy across Dubai. Hospital discharge coordination.",
+      "description": "Specialist post-stroke rehabilitation at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed neurorehabilitation specialists delivering evidence-based protocols including constraint-induced movement therapy, mirror therapy, functional electrical stimulation, and task-specific training. Clinic-based care at JVC and home physiotherapy across Dubai. Hospital discharge coordination.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 400 - AED 50,000",
       "address": {
@@ -71,7 +72,7 @@ const StrokeRehabDubai = () => {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Sunday",
           "opens": "09:00",
-          "closes": "18:00"
+          "closes": "21:00"
         }
       ],
       "areaServed": [
@@ -113,8 +114,8 @@ const StrokeRehabDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "15",
+        "ratingValue": "4.7",
+        "reviewCount": "23",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -186,7 +187,7 @@ const StrokeRehabDubai = () => {
             "name": "Initial Stroke Rehabilitation Assessment",
             "priceCurrency": "AED",
             "price": "[X]",
-            "description": "90-minute comprehensive assessment with DPT-qualified neurorehabilitation specialist"
+            "description": "90-minute comprehensive assessment with DHA-licensed neurorehabilitation specialist"
           },
           {
             "@type": "Offer",
@@ -317,11 +318,11 @@ const StrokeRehabDubai = () => {
     <>
       <Head>
         <title>Post-Stroke Rehabilitation in Dubai | Evidence-Based Care | Vedara JVC</title>
-        <meta name="description" content="Specialist post-stroke rehabilitation at our JVC clinic and across Dubai. DPT-qualified neurorehabilitation specialists with CIMT, mirror therapy, FES expertise. Hospital discharge coordination. Home physiotherapy available. Family-centred care across languages." />
+        <meta name="description" content="Specialist post-stroke rehabilitation at our JVC clinic and across Dubai. DHA-licensed neurorehabilitation specialists with CIMT, mirror therapy, FES expertise. Hospital discharge coordination. Home physiotherapy available. Family-centred care across languages." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
         <meta property="og:title" content="Post-Stroke Rehabilitation in Dubai — Evidence-Based Neurorehabilitation | Vedara JVC" />
-        <meta property="og:description" content="DPT-qualified neurorehabilitation specialists at our Jumeirah Village Circle clinic and across Dubai. Constraint-induced movement therapy, mirror therapy, functional electrical stimulation, task-specific training. Hospital discharge coordination. Home physiotherapy for patients who cannot travel. Family-centred care." />
+        <meta property="og:description" content="DHA-licensed neurorehabilitation specialists at our Jumeirah Village Circle clinic and across Dubai. Constraint-induced movement therapy, mirror therapy, functional electrical stimulation, task-specific training. Hospital discharge coordination. Home physiotherapy for patients who cannot travel. Family-centred care." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/stroke-rehab-dubai.jpg" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/stroke-rehab-dubai/" />
         <meta property="og:type" content="business.business" />
@@ -349,7 +350,7 @@ const StrokeRehabDubai = () => {
         <StrokePhases {...strokeRehabPhases} />
         <SciaticaTreatment data={strokeRehabTreatment} showBorderLeft={false} rightContentStyle="bulletList" bgColor="bg-white" showStepNumbers={false} />
         <CareSettings {...strokeRehabCareSettings} />
-        <TreatmentReviews {...strokeRehabReviews} />
+        <TreatmentReviews {...physioReviewsBlock()} />
         <PhysiotherapyTeam {...strokeRehabTeam} />
         <CoordinatedCare {...strokeRehabCoordinatedCare} />
         <TransparentPricing {...strokeRehabPricing} />

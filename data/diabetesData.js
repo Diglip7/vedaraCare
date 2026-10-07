@@ -7,12 +7,12 @@ export const diabetesHero = {
   bgColor: "bg-[#FAF8F3]",
   label: "AYURVEDIC TREATMENT FOR DIABETES | DHA-LICENSED CLINIC IN JVC, DUBAI",
   title: "Diabetes is too serious for marketing. It needs integrated medicine.",
-  description: "Authentic Ayurvedic treatment for diabetes in Dubai works alongside your endocrinologist — not instead of them. At our Jumeirah Village Circle (JVC) clinic, structured Ayurvedic programmes address insulin resistance, lipid patterns, inflammation, and <a href=\"/conditions/stress-anxiety-ayurveda-dubai/\" class=\"hover:underline\">stress and sleep patterns</a> that conventional 15-minute appointments cannot. Realistic outcomes: HbA1c reductions of 1-3 points for many patients over 6 months, often with medication adjustment under endocrinologist supervision.",
+  description: "Authentic Ayurvedic treatment for diabetes in Dubai works alongside your endocrinologist — not instead of them. At our Jumeirah Village Circle (JVC) clinic, structured Ayurvedic programmes address insulin resistance, lipid patterns, inflammation, and <a href=\"/conditions/stress-anxiety-ayurveda-dubai/\" class=\"hover:underline\">stress and sleep patterns</a> that conventional 15-minute appointments cannot. Realistic outcomes: better management for many patients over 6 months, often with medication adjustment under endocrinologist supervision.",
   primaryCTA: "Book a Diabetes Consultation",
   secondaryCTA: "Chat on WhatsApp",
   trustSignals: [
     "We Work With Your Endocrinologist",
-    "350+ Diabetes Patients Treated",
+    "Integrated Metabolic Care",
     "DHA-Licensed Practitioners",
     "Walking Distance from Circle Mall, JVC"
   ],
@@ -28,8 +28,8 @@ export const diabetesIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
   title: "Ayurvedic diabetes treatment in Dubai, in one paragraph.",
-  blockquote: "Ayurvedic treatment for diabetes in Dubai is a 6-month structured medical programme combining classical <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'><a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a></a> cleansing (typically <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Virechana</a>), dosha-specific herbal medicines (including Guduchi, Methika, Karela, Vijaysar, and pattern-specific Asanadi formulations), individualised dietary protocols, and lifestyle modification — performed alongside your endocrinologist's conventional management. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes for prediabetes typically produce normalisation of HbA1c within 6 months; programmes for early type 2 diabetes typically produce HbA1c reductions of 1-3 points with possible medication reduction under endocrinologist supervision; for long-standing type 2 diabetes, Ayurvedic treatment is supportive and addresses metabolic, inflammatory, and lifestyle factors not addressed by medication alone. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Zainab , BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
+  blockquote: "Ayurvedic treatment for diabetes in Dubai is a 6-month structured medical programme combining classical <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'><a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a></a> cleansing (typically <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Virechana</a>), dosha-specific herbal medicines (including Guduchi, Methika, Karela, Vijaysar, and pattern-specific Asanadi formulations), individualised dietary protocols, and lifestyle modification — performed alongside your endocrinologist's conventional management. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes for prediabetes typically produce normalisation of HbA1c within 6 months; programmes for early type 2 diabetes typically support better management with possible medication reduction under endocrinologist supervision; for long-standing type 2 diabetes, Ayurvedic treatment is supportive and addresses metabolic, inflammatory, and lifestyle factors not addressed by medication alone. Initial consultations start from AED 450.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2026"
 };
 
 export const diabetesMechanism1 = {
@@ -48,15 +48,15 @@ export const diabetesMechanism1 = {
       letter: "B",
       title: "Newly Diagnosed Type 2 Diabetes",
       subtitle: "HbA1c 6.5-8.0% · Duration under 2 years",
-      content: "The 'honeymoon' phase where pancreatic function is largely preserved and aggressive intervention can produce dramatic results. Patients are often on metformin (sometimes alone). Ayurvedic treatment combined with conventional care frequently produces HbA1c reductions of 1.5-3 points within 6 months — sometimes allowing medication reduction under endocrinologist supervision.",
-      ayurvedicEmphasis: "HbA1c reduction of 1.5-3 points within 6 months; medication reduction is possible but always coordinated with your endocrinologist."
+      content: "The 'honeymoon' phase where pancreatic function is largely preserved and aggressive intervention can produce dramatic results. Patients are often on metformin (sometimes alone). Ayurvedic treatment combined with conventional care frequently supports better management within 6 months — sometimes allowing medication reduction under endocrinologist supervision.",
+      ayurvedicEmphasis: "Better management within 6 months; medication reduction is possible but always coordinated with your endocrinologist."
     },
     {
       letter: "C",
       title: "Established Type 2 Diabetes",
       subtitle: "HbA1c above 8.0% OR duration over 5 years",
-      content: "The disease has been present long enough that pancreatic beta-cell function is partially compromised. Multiple medications are often required. Ayurvedic treatment is supportive — addressing inflammation, complications, lifestyle factors, and quality of life. HbA1c reductions are typically 0.5-1.5 points and require sustained programmes alongside continued conventional management.",
-      ayurvedicEmphasis: "HbA1c reduction of 0.5-1.5 points, improved lipid profile, reduced inflammation, slowed progression of complications."
+      content: "The disease has been present long enough that pancreatic beta-cell function is partially compromised. Multiple medications are often required. Ayurvedic treatment is supportive — addressing inflammation, complications, lifestyle factors, and quality of life. Improvements require sustained programmes alongside continued conventional management.",
+      ayurvedicEmphasis: "Improved lipid profile, reduced inflammation, slowed progression of complications."
     },
     {
       letter: "D",
@@ -140,7 +140,7 @@ export const diabetesOils = {
       whatWeAchieve: "improved sleep, sustainable lifestyle changes that address the root drivers of insulin resistance and metabolic dysfunction."
     }
   ],
-  footer: "The strongest HbA1c reductions in our patient outcomes come from those who implement all four pillars consistently for 6 months alongside their conventional medications. Herbs alone or <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a> alone produce only partial results."
+  footer: "The strongest improvements in our patient outcomes come from those who implement all four pillars consistently for 6 months alongside their conventional medications. Herbs alone or <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a> alone produce only partial results."
 };
 
 export const diabetesArthritisPillars = {
@@ -148,7 +148,7 @@ export const diabetesArthritisPillars = {
   cardBg: "bg-white",
   label: "THE TREATMENT APPROACH",
   title: "Ayurvedic diabetes treatment has four pillars.",
-  description: "The strongest HbA1c reductions in our patient outcomes come from those who implement all four pillars consistently for 6 months alongside their conventional medications. Herbs alone or <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a> alone produce only partial results.",
+  description: "The strongest improvements in our patient outcomes come from those who implement all four pillars consistently for 6 months alongside their conventional medications. Herbs alone or <a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a> alone produce only partial results.",
   pillars: [
     {
       title: "<a href='/treatments/panchakarma-dubai/' class='doctor-specialty-link'>Panchakarma</a> Cleansing",
@@ -275,7 +275,7 @@ export const diabetesProtocol = {
         "Formal communication with your endocrinologist",
         "3-month, 6-month, and 12-month follow-up appointments"
       ],
-      expected: "HbA1c reduction of 1-3 points for early type 2 patients, full normalisation for many prediabetes patients, sustained dietary and lifestyle changes"
+      expected: "Better management for early type 2 patients, full normalisation for many prediabetes patients, sustained dietary and lifestyle changes"
     }
   ],
   footer: "This is a representative protocol. Outcomes vary based on stage, duration, complications, medication regimen, and adherence to all four pillars. Your specific timeline and expectations are documented and reviewed monthly."
@@ -285,7 +285,7 @@ export const diabetesSymptoms = {
   bgColor: "bg-[#FAF6EF]",
   label: "HONEST EXPECTATIONS",
   title: "Honest outcomes based on stage and adherence.",
-  description: "Different stages produce different outcomes. These ranges are based on our 350+ diabetes patients at the JVC clinic with documented bloodwork before and after 6-month programmes.",
+  description: "Different stages produce different outcomes. These ranges are based on our diabetes patients at the JVC clinic with documented bloodwork before and after 6-month programmes.",
   tableHeaders: [
     "Stage",
     "HbA1c Reduction (6 months)",
@@ -421,7 +421,7 @@ export const diabetesReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "68", label: "Diabetes reviews" },
     { value: "82%", label: " HbA1c improvement coordinated with their endocrinologist" },
 

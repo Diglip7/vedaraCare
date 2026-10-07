@@ -32,7 +32,7 @@ export const januBastiIntro = {
   label: "THE QUICK ANSWER",
   title: "What is Janu Basti Treatment in JVC?",
   blockquote: "Janu Basti (also spelled Janu Vasti) is a localized Ayurvedic therapy focused specifically on the knee joint. During the treatment, a practitioner forms a low reservoir — traditionally made using a dough-like paste or a specially designed frame — around the knee. Warm herbal oil, or another Ayurvedic liquid selected by the practitioner, is then poured into this reservoir and retained over the knee for a period of time determined individually for each patient.\n\nWithin Ayurvedic practice, Janu Basti may be considered as part of an individualized care plan for selected knee-related concerns, including general stiffness, discomfort, reduced flexibility, and certain chronic musculoskeletal complaints affecting the knee. It is not applied the same way for every person, and it is not intended as a one-size-fits-all solution.\n\nWhether Janu Basti is suitable depends heavily on the underlying cause of your knee symptoms. It is not presented as a cure for osteoarthritis or for structural damage within the joint. A proper assessment — ideally combined with awareness of any relevant medical history — helps determine whether this therapy has a role in your care.",
-  footer: "Reviewed by Ayurveda Team, DHA-Licensed 2509266 · Last updated August 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed August 2026"
 };
 
 export const januBastiExplanation = {

@@ -299,7 +299,7 @@ export const sciaticaJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "Google Rating" },
+    { value: "4.6", label: "Google Rating" },
     { value: "850+", label: "Reviews" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
     { value: "Female", label: "Practitioner Available" }
@@ -540,7 +540,7 @@ export const sciaticaJvcCTA = {
     "Female DHA-Licensed BAMS Ayurvedic Doctor",
     "Flagship Basti therapy protocols",
     "Classical Basti therapy for Gridhrasi ",
-    "850+ sciatica patients treated · Multi-language including Malayalam for Kerala tradition · Coordinated with modern medical care · Walking distance from Circle Mall, JVC"
+    "Multi-language including Malayalam for Kerala tradition · Coordinated with modern medical care · Walking distance from Circle Mall, JVC"
   ]
 };
 

@@ -23,10 +23,13 @@ const PhysiotherapyIntegration = () => {
               For acute sports injuries, the first 48 - 72 hours involve managing the inflammatory response (no longer pure 'rest, ice, compression, elevation'  -  current evidence supports more active early management), preventing the protective patterns that lead to chronic dysfunction, accurate diagnosis (some injuries that look minor are actually significant; some that look severe are actually manageable), and beginning the rehabilitation that will determine your recovery trajectory.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}>
-              Common acute presentations we handle same-day include: ankle sprains and inversion injuries, acute hamstring strains, knee injuries with effusion or instability, shoulder dislocations and subluxations, acute muscle tears, sports-related back injuries, and acute neck injuries from contact sports or falls. For injuries with red flag features  -  significant trauma, suspected fracture, neurological symptoms, severe deformity  -  A&E evaluation comes first, then physiotherapy follow-up.
+              Common acute presentations we handle same-day include: ankle sprains and inversion injuries, acute hamstring strains, knee injuries with effusion or instability, shoulder dislocations and subluxations, acute muscle tears, sports-related back injuries, and acute neck injuries from contact sports or falls.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}>
-              <strong style={{ color: 'rgb(26, 26, 26)' }}>How to access same-day:</strong> WhatsApp <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20an%20acute%20sports%20injury%20and%20would%20like%20to%20request%20a%20same-day%20appointment." style={{ color: 'rgb(27, 67, 50)', textDecoration: 'underline' }}>+971 55 573 6312</a> is the fastest route  -  our team typically confirms availability within 15 minutes during business hours. Saturdays and evenings are also available for working patients with acute injuries.
+              <strong>See a doctor or go to A&E first if</strong> you cannot put weight on the leg, a joint looks deformed, there is numbness or a cold limb, or you hit your head. Our in-house GP can check less urgent injuries at the same clinic.
+            </p>
+            <p className="text-base leading-relaxed" style={{ color: 'rgb(107, 107, 107)', lineHeight: 1.7 }}>
+              <strong>How to get a same-day appointment:</strong> WhatsApp <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20have%20an%20acute%20sports%20injury%20and%20would%20like%20to%20request%20a%20same-day%20appointment." style={{ color: 'rgb(27, 67, 50)', textDecoration: 'underline' }}>us</a> with your injury. Same-day appointments are available for new injuries; the clinic is open daily from 9am to 10pm.
             </p>
           </div>
           <div className="space-y-6">

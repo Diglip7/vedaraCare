@@ -179,7 +179,7 @@ export const njavarakizhiApplications = {
     }
   ],
   honestNote: "Honest note: Njavarakizhi is a highly specific clinical therapy. We will tell you honestly if your condition does not warrant it.",
-  image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800"
+  image: "/images/njavara-rice-cooking-herbal-milk-vedara.webp"
 };
 
 export const njavarakizhiBenefits = {
@@ -300,7 +300,7 @@ export const njavarakizhiPrograms = {
     <p class="text-[15px] text-[#6B6B6B] font-sans italic mb-6">Insurance coverage varies by policy, network, and benefits. Please confirm eligibility before treatment.</p>
     <a href="https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20check%20my%20insurance%20coverage%20for%20Njavarakizhi%20treatment." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 bg-[#1F4538] text-white font-sans font-semibold text-[15px] rounded hover:bg-[#1A3A2F] transition-colors shadow-md">Check Insurance on WhatsApp</a>
   </div>`,
-  image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800"
+  image: "/images/njavarakizhi-home-service-elderly-dubai.webp"
 };
 
 export const njavarakizhiReviews = {
@@ -308,25 +308,9 @@ export const njavarakizhiReviews = {
   label: "TESTIMONIALS",
   title: "Patient-reported experience",
   description: "Individual experiences vary, and testimonials are not a guarantee of treatment outcomes.",
-  items: [
-    {
-      quote: "After my post-COVID fatigue lasted nine months, the two weeks of Njavarakizhi therapy provided meaningful support to my recovery.",
-      author: "Sarah K.",
-      details: "Post-COVID Recovery · 14-Session Clinical Course · February 2026 · Vedara Care JVC"
-    },
-    {
-      quote: "For my mother at 78, after her hip surgery, this therapy was a valuable part of her rehabilitation.",
-      author: "On behalf of Amina B.",
-      details: "Post-Surgery Recovery · 21-Session Home Programme · At Vedara Care, February 2026"
-    },
-    {
-      quote: "Eighteen months after my stroke, the Njavarakizhi sessions are a very supportive part of my recovery process.",
-      author: "Rahul D.",
-      details: "<a href=\"/conditions/stroke-recovery-ayurveda-dubai/\">Post-Stroke Rehabilitation</a> · Ongoing Programme · Vedara Care JVC, March 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" }
+    { value: "4.6", label: "stars on Google" }
   ],
   buttonText: "Read All Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"

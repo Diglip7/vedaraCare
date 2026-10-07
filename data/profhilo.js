@@ -29,7 +29,7 @@ export const profhiloLaserPeelIntro = {
     label: "THE QUICK ANSWER",
     title: "Profhilo Treatment at Vedara Care, in one paragraph.",
     blockquote: "Profhilo Treatment in JVC, offered at Vedara Care Polyclinic, is an injectable treatment that belongs to a category sometimes referred to as bio-remodelling. Unlike a spa facial, it’s administered by injection into specific areas of the skin, and unlike a traditional dermal filler, its primary focus is not on adding facial volume — it’s generally associated with skin hydration, skin quality and overall skin appearance. Patients typically consider Profhilo when they’re concerned about skin that looks dull, dehydrated, or less elastic than before, or when fine lines appear more noticeable due to reduced skin hydration. It may also be considered, in select cases, alongside concerns about mild skin laxity — though it is not a substitute for surgical lifting or more structural treatments. Because skin condition, goals and medical history differ from person to person, treatment protocols — including which areas are treated, how many sessions are recommended, and what results might realistically look like — depend entirely on individual assessment. Profhilo is not automatically suitable for everyone, and results vary between patients. A consultation at Vedara Care Polyclinic in JVC is the appropriate next step to determine whether Profhilo fits your skin goals.",
-    footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+    footer: "Keep unpublished until Dr. Anusha's licence is issued"
 };
 
 export const profhiloLaserPeelHowItWorks = {

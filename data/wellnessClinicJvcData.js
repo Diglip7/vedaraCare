@@ -7,10 +7,10 @@ export const wellnessHero = {
     { label: "Wellness Clinic in JVC (Near Circle Mall)", active: true }
   ],
   label: "WELLNESS CLINIC ”· DHA-LICENSED 2509266 ”· JUMEIRAH VILLAGE CIRCLE ”· WALKING DISTANCE FROM CIRCLE MALL",
-  title: "Wellness clinic in JVC. Jumeirah Village Circle's integrated wellness destination across Ayurveda, physiotherapy, dermatology, and home healthcare.",
+  title: "Wellness treatments in Jumeirah Village Circle",
   description: "Vedara Care Polyclinic is JVC's integrated wellness destination — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. DHA-licensed practitioners across Ayurveda, physiotherapy, dermatology, and home healthcare delivering comprehensive wellness care for JVC's residents, families, and professionals.",
   primaryCTA: "Book Wellness Consultation",
-  secondaryCTA: "Explore JVC Wellness Services â†“",
+  secondaryCTA: "Explore JVC Wellness Services",
   primaryCTAHref: "/book",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%20JVC,%20I%20would%20like%20to%20inquire%20about%20your%20wellness%20services%20and%20book%20a%20consultation.",
   trustSignals: [
@@ -31,8 +31,8 @@ export const wellnessHero = {
 export const wellnessIntro = {
   label: "THE QUICK ANSWER",
   title: "Wellness at Vedara Care in JVC, in one paragraph.",
-  blockquote: `<strong>Vedara Care Polyclinic</strong> is Jumeirah Village Circle's (JVC) integrated wellness destination — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Serving JVC residents, families, professionals, and visitors alongside broader Dubai patients travelling to our JVC clinic. DHA-licensed practitioners across four service pillars: <strong>Ayurveda</strong> (traditional wellness including Panchakarma detoxification, wellness consultations with constitution assessment, chronic condition management for JVC residents); <strong>physiotherapy</strong> (sports injury for JVC's active community, post-surgery rehabilitation, elderly physiotherapy for JVC families maintaining mobility, pediatric physiotherapy for JVC school children, dry needling, manual therapy); <strong>dermatology</strong> (medical dermatology for JVC patients, aesthetic dermatology with skin-type-safe expertise for JVC's diverse Fitzpatrick I–VI demographic); <strong>home healthcare</strong> (nursing services delivered to JVC homes, physiotherapy at home for JVC elderly, post-hospital recovery). JVC-specific wellness capabilities: family multi-generational care serving JVC families; corporate wellness for JVC offices and businesses; pre-conception and postpartum wellness for JVC families; stress management for JVC professionals; healthy aging for JVC's aging residents. Multi-disciplinary team coordinating care rather than fragmented single-service treatment. Female and male practitioners. Multi-language: Arabic, English, Hindi, Urdu. Direct billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife for medically indicated treatments. Located walking distance from Circle Mall. Free patient parking. Same-week appointments typically available. Patients travel from JVC (walking), JVT (5 minutes), Al Barsha South (10 minutes), Sports City, Motor City, Arjan, Dubai Hills Estate, Dubai Marina, Downtown Dubai, Palm Jumeirah, and across Dubai for JVC's integrated wellness destination.`,
-  footer: "Medically reviewed by Dr. Priya Nair, DPT, DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: `<a href="/" style="text-decoration: underline; color: inherit;">Vedara Care Polyclinic</a> is Jumeirah Village Circle's (JVC) integrated wellness destination — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Serving JVC residents, families, professionals, and visitors alongside broader Dubai patients travelling to our wellness center. DHA-licensed practitioners across four service pillars: <strong>Ayurveda</strong> (traditional wellness including Panchakarma detoxification, wellness consultations with constitution assessment, chronic condition management for JVC residents); <strong>physiotherapy</strong> (sports injury for JVC's active community, post-surgery rehabilitation, elderly physiotherapy for JVC families maintaining mobility, pediatric physiotherapy for JVC school children, dry needling, manual therapy); <strong>dermatology</strong> (medical dermatology for JVC patients, aesthetic dermatology with skin-type-safe expertise for JVC's diverse Fitzpatrick I–VI demographic); <strong>home healthcare</strong> (nursing services delivered to JVC homes, physiotherapy at home for JVC elderly, post-hospital recovery). JVC-specific wellness capabilities: family multi-generational care serving JVC families; corporate wellness for JVC offices and businesses; pre-conception and postpartum wellness for JVC families; stress management for JVC professionals; healthy aging for JVC's aging residents. Multi-disciplinary team coordinating care rather than fragmented single-service treatment. Female and male practitioners. Multi-language: Arabic, English, Hindi, Urdu. Direct billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife for medically indicated treatments. Located walking distance from Circle Mall. Free patient parking. Same-week appointments typically available. Patients travel from JVC (walking), JVT (5 minutes), Al Barsha South (10 minutes), Sports City, Motor City, Arjan, Dubai Hills Estate, Dubai Marina, Downtown Dubai, Palm Jumeirah, and across Dubai for JVC's integrated wellness destination.`,
+  footer: "Medically reviewed by Dr. Zainab Sheikh, DHA-Licensed 20918133 · Last updated June 2026"
 };
 
 export const wellnessPhilosophy = {
@@ -112,11 +112,11 @@ export const wellnessPillars = {
     {
       number: "04",
       title: "Home Healthcare Wellness — JVC and Surrounding Areas",
-      description: "Home healthcare from our JVC clinic delivering wellness care at home for patients unable or preferring not to visit clinic. Serving JVC homes, JVT, Al Barsha South, Sports City, Motor City, Arjan, and broader Dubai. Home nursing services for JVC elderly residents, physiotherapy at home, elderly care support, post-hospital recovery, chronic condition monitoring, IV therapy delivery, wound care, medication management. Extends our clinical care into JVC homes for continuity and comfort.",
+      description: "Home healthcare from our JVC clinic is coming soon for patients unable or preferring not to visit clinic. Serving JVC homes, JVT, Al Barsha South, Sports City, Motor City, Arjan, and broader Dubai. Physiotherapy at home, elderly care support, post-hospital recovery, chronic condition monitoring, wound care, medication management. Extends our clinical care into JVC homes for continuity and comfort.",
       footer: "JVC's residential family demographic particularly benefits from home healthcare extending clinic care into family homes.",
       linkText: "Explore Home Healthcare →",
       linkHref: "/home-healthcare-jvc/",
-      tags: ["Home nursing to JVC homes", "Physiotherapy at home", "Elderly care for JVC families", "Post hospital recovery", "Chronic condition monitoring at home"],
+      tags: ["Home healthcare coming soon", "Physiotherapy at home", "Elderly care for JVC families", "Post hospital recovery", "Chronic condition monitoring at home"],
       alt: "Home healthcare from JVC to JVC homes Vedara Care"
     }
   ]
@@ -273,11 +273,9 @@ export const wellnessOutcomes = {
     }
   ],
   stats: [
-    { value: "4.5", label: "on Google" },
-    { value: "5,000+", label: "wellness patients treated" },
+    { value: "4.6", label: "on Google" },
     { value: "JVC", label: "family & corporate expertise" },
     { value: "Multi-disciplinary", label: "integrated team" },
-
   ],
   buttonText: "Read All JVC Wellness Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
@@ -411,7 +409,7 @@ export const wellnessSchemaFaqs = [
   },
   {
     question: "Do you provide home healthcare to JVC homes?",
-    answer: "Yes — home healthcare from our JVC clinic delivers services to JVC homes, JVT, Al Barsha South, Sports City, Motor City, Arjan, and broader Dubai. Home nursing, physiotherapy at home, elderly care."
+    answer: "Home healthcare from our JVC clinic is coming soon to deliver services to JVC homes, JVT, Al Barsha South, Sports City, Motor City, Arjan, and broader Dubai. Physiotherapy at home, elderly care."
   },
   {
     question: "What areas does your JVC wellness clinic serve?",
@@ -515,7 +513,6 @@ export const wellnessCTA = {
     "Initial consultation from AED 450",
     "Walking distance from Circle Mall, JVC",
     "DHA-licensed practitioners across specialties",
-    "10,000+ wellness patients treated at JVC clinic",
     "Multi-disciplinary integrated team",
     "Female and male practitioners",
     "Multiple languages",
@@ -568,7 +565,7 @@ export const wellnessRelatedArticles = {
       tag: "FAMILY WELLNESS",
       title: "JVC family wellness: multi-generational care at Vedara Care",
       description: "How JVC families coordinate care for grandparents, parents, and children at a single integrated wellness clinic in JVC near Circle Mall.",
-      image: "/images/Home Health in Dubai.webp",
+      image: "/images/home-health-in-dubai.webp",
       href: "/home-healthcare-jvc/"
     },
     {

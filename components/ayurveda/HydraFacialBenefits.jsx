@@ -127,7 +127,7 @@ export default function HydraFacialSection() {
   return (
     <div className="hf-root">
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap');
+
         .hf-root{
           --ink:#171717; --ink-soft:#4A4A4A; --mist:#FAF8F5; --surface:#FFFFFF;
           --sage:#184C3A; --sage-deep:#C9A55A; --sage-light:#4A7C59;

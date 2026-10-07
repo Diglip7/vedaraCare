@@ -1,5 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
+import MobileActionBar from './MobileActionBar';
 import { useRouter } from 'next/router';
 
 const Layout = ({ children }) => {
@@ -17,7 +18,7 @@ const Layout = ({ children }) => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col pb-[72px] md:pb-0">
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-[100] focus:p-4 focus:bg-white focus:text-black">Skip to content</a>
       <Header />
       <main id="main-content" className="flex-grow lg:pb-0 pb-20">
@@ -39,6 +40,7 @@ const Layout = ({ children }) => {
           <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
         </svg>
       </a>
+      <MobileActionBar />
     </div>
   );
 };

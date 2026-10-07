@@ -7,6 +7,7 @@ import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
+import { physioReviewsBlock } from '../../data/googleReviews';
 import PhysiotherapyTeam from '../../components/ayurveda/PhysiotherapyTeam';
 import { SciaticaTypes, SciaticaEmergency, SciaticaPricing, SciaticaTreatment, SciaticaTimeline } from '../../components/ayurveda/SciaticaSections';
 import {
@@ -100,8 +101,8 @@ const SciaticaPhysiotherapyDubai = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "15",
+        "ratingValue": "4.7",
+        "reviewCount": "23",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -305,7 +306,7 @@ const SciaticaPhysiotherapyDubai = () => {
         <SciaticaEmergency data={sciaticaPhysioEmergency} />
         <SciaticaTreatment data={sciaticaPhysioTreatment} />
         <SciaticaTimeline data={sciaticaPhysioTimeline} />
-        <TreatmentReviews {...sciaticaPhysioReviews} />
+        <TreatmentReviews {...physioReviewsBlock()} />
         <PhysiotherapyTeam {...sciaticaPhysioTeam} />
          <SciaticaPricing {...sciaticaPhysioPricing} />
         <FAQ {...sciaticaPhysioFaqs} 

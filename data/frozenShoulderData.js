@@ -13,7 +13,7 @@ export const frozenShoulderHero = {
   primaryCTA: "Book Frozen Shoulder Assessment",
   secondaryCTA: "Ask a Question on WhatsApp",
   trustSignals: [
-    "DPT-qualified shoulder specialists",
+    "DHA-licensed shoulder specialists",
     "DHA-Licensed Physiotherapist",
     "Diabetic frozen shoulder expertise",
     "Walking distance from Circle Mall"
@@ -27,7 +27,7 @@ export const frozenShoulderHero = {
 export const frozenShoulderIntro = {
   label: "THE QUICK ANSWER",
   title: "Frozen shoulder treatment at Vedara Care, in one paragraph.",
-  blockquote: "Frozen shoulder (adhesive capsulitis) treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist physiotherapy delivered by DPT-qualified shoulder specialists. Frozen shoulder is a distinct condition where the shoulder joint capsule becomes inflamed and progressively restricts movement, typically progressing through three phases: freezing phase (3–9 months of increasing pain and restriction), frozen phase (4–12 months of significant restriction with reducing pain), and thawing phase (5–24 months of progressive return of movement). Total natural recovery can take 2–3 years; with appropriate physiotherapy, recovery typically completes in 6–12 months. Higher prevalence in diabetic patients, women aged 40–60, patients with thyroid disorders, and post-immobilisation or post-surgical patients. Our approach includes phase-specific <a href='/treatments/manual-therapy-dubai/' class='text-inherit hover:text-[#C9A55A] transition-colors'>manual therapy</a>, joint mobilisation techniques, range of motion progression, dry needling for associated muscle tension, coordination with rheumatologists for hydrodilatation when appropriate, and structured home programmes. Initial assessment from AED 350; structured frozen shoulder programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai. Insurance direct-billing with seven major insurers.",
+  blockquote: "Frozen shoulder (adhesive capsulitis) treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist physiotherapy delivered by DHA-licensed shoulder specialists. Frozen shoulder is a distinct condition where the shoulder joint capsule becomes inflamed and progressively restricts movement, typically progressing through three phases: freezing phase (3–9 months of increasing pain and restriction), frozen phase (4–12 months of significant restriction with reducing pain), and thawing phase (5–24 months of progressive return of movement). Total natural recovery can take 2–3 years; with appropriate physiotherapy, recovery typically completes in 6–12 months. Higher prevalence in diabetic patients, women aged 40–60, patients with thyroid disorders, and post-immobilisation or post-surgical patients. Our approach includes phase-specific <a href='/treatments/manual-therapy-dubai/' class='text-inherit hover:text-[#C9A55A] transition-colors'>manual therapy</a>, joint mobilisation techniques, range of motion progression, dry needling for associated muscle tension, coordination with rheumatologists for hydrodilatation when appropriate, and structured home programmes. Initial assessment from AED 350; structured frozen shoulder programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai. Insurance direct-billing with seven major insurers.",
   footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
 };
 
@@ -297,26 +297,10 @@ export const frozenShoulderInjectionsSurgery = {
 export const frozenShoulderReviews = {
   label: "PATIENT STORIES",
   title: "Real frozen shoulder recoveries.",
-  items: [
-    {
-      quote: "Frozen shoulder for fourteen months before I came to Vedara. Had been told repeatedly it was 'just shoulder pain' and given generic shoulder exercises that made it worse. First proper assessment identified frozen phase. Eight months of phase-specific treatment combined with hydrodilatation. Full range of motion returned. Cannot believe how much earlier this could have been resolved with correct treatment.",
-      author: "Sarah K.",
-      details: "Right Frozen Shoulder · 14-Month Delayed Diagnosis · Dubai Marina resident · February 2026"
-    },
-    {
-      quote: "Diabetic, bilateral frozen shoulder. Right shoulder six months ahead of left. Vedara's team coordinated with my endocrinologist for glycaemic control, treated the right shoulder through frozen phase to recovery (10 months), and caught the left shoulder in early freezing phase preventing it from progressing as severely. The proactive approach to the second shoulder was something no other clinic offered.",
-      author: "Rajan M.",
-      details: "Diabetic Bilateral Frozen Shoulder · 14-Month Programme · JVC resident · January 2026"
-    },
-    {
-      quote: "Post-surgical frozen shoulder after rotator cuff repair. Surgeon and previous physio said the stiffness would resolve naturally. Six months later, still significantly restricted. Vedara correctly identified post-surgical frozen shoulder, applied phase-appropriate treatment combining manual therapy with home programme. Substantial improvement within four months, full functional recovery by month nine.",
-      author: "James M.",
-      details: "Post-Surgical Frozen Shoulder · 9-Month Programme · Dubai Hills resident · March 2026"
-    }
-  ],
+  items: [],
   stats: [
     {
-      value: "4.5",
+      value: "4.6",
       label: "stars on Google"
     },
     {

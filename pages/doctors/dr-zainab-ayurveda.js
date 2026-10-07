@@ -9,97 +9,31 @@ const DrZainabPage = () => {
   const schemaMarkup = [
     {
       "@context": "https://schema.org",
-      "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician",
-      "name": "Dr. Zainab",
+      "@type": "Person",
+      "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda#person",
+      "name": "Dr. Zainab Sheikh",
       "honorificPrefix": "Dr.",
-      "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/",
-      "image": "https://vedaracare.ae/images/default-avatar.png",
-      "jobTitle": "Ayurvedic Doctor",
+      "jobTitle": "Ayurveda Practitioner",
+      "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda",
+      "image": "https://vedaracare.ae/images/dr-zainab-ayurveda-jvc.webp",
+      "gender": "Female",
       "worksFor": { "@id": "https://vedaracare.ae/#organization" },
-      "medicalSpecialty": [
-        "Ayurveda", "Ayurvedic Medicine", "Traditional Medicine",
-        "Integrative Medicine", "Preventive Medicine"
-      ],
+      "knowsLanguage": [{ "@type": "Language", "name": "English", "alternateName": "en" }],
+      "knowsAbout": ["Ayurveda", "Nadi Parikshan", "Prakriti Parikshan & personalised plans", "Pain management, sciatica & low back pain", "Migraine & headache", "PCOS & hormonal imbalance", "Musculoskeletal disorders", "Cervical spondylosis", "Joint & muscle pain", "Stress", "Digestive & metabolic", "Hair fall", "Women's wellness", "General wellness"],
       "hasCredential": [
         {
           "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Degree",
-          "name": "BAMS (Bachelor of Ayurvedic Medicine and Surgery)"
+          "credentialCategory": "license",
+          "name": "DHA professional licence 20918133",
+          "recognizedBy": { "@type": "GovernmentOrganization", "name": "Dubai Health Authority" }
         },
         {
           "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "License",
-          "name": "DHA-Licensed Ayurvedic Doctor",
-          "recognizedBy": {
-            "@type": "GovernmentOrganization",
-            "name": "Dubai Health Authority"
-          }
+          "credentialCategory": "certificate",
+          "name": "Certified Hijama (Cupping) Practitioner"
         }
       ],
-      "knowsLanguage": [
-        {"@type": "Language", "name": "English", "alternateName": "en"},
-        {"@type": "Language", "name": "Malayalam"},
-        {"@type": "Language", "name": "Hindi"}
-      ],
-      "gender": "Female",
-      "knowsAbout": [
-        "Nadi Pareeksha", "Prakriti Assessment", "Ayurvedic Constitution Assessment",
-        "Panchakarma", "Ayurvedic Detoxification", "Ayurvedic Rejuvenation", "Rasayana",
-        "PCOS Ayurvedic Management", "Women's Health Ayurveda", "Musculoskeletal Ayurveda",
-        "Back Pain Ayurvedic Management", "Neck Pain Ayurvedic Management",
-        "Sciatica Ayurvedic Management", "Cervical Spondylosis", "Lumbar Spondylosis",
-        "Joint Disorders", "Eczema Ayurvedic Management", "Psoriasis Ayurvedic Management",
-        "Hair and Scalp Disorders", "Stress Management Ayurveda", "Anxiety Ayurvedic Care",
-        "Sleep Disorders Ayurveda", "Weight Management Ayurveda", "Postnatal Ayurvedic Care",
-        "Diet and Lifestyle Counselling", "Ayurvedic Herbal Medicine"
-      ],
-      "availableService": [
-        {"@type": "MedicalProcedure", "name": "Nadi Pareeksha Consultation"},
-        {"@type": "MedicalProcedure", "name": "Prakriti Assessment"},
-        {"@type": "MedicalProcedure", "name": "Ayurvedic Initial Consultation"},
-        {"@type": "MedicalProcedure", "name": "Panchakarma Programme Consultation"},
-        {"@type": "MedicalProcedure", "name": "PCOS Ayurvedic Management"},
-        {"@type": "MedicalProcedure", "name": "Postnatal Ayurvedic Care"},
-        {"@type": "MedicalProcedure", "name": "Musculoskeletal Ayurvedic Management"},
-        {"@type": "MedicalProcedure", "name": "Skin Condition Ayurvedic Management"},
-        {"@type": "MedicalProcedure", "name": "Hair Loss Ayurvedic Management"},
-        {"@type": "MedicalProcedure", "name": "Stress Management Ayurvedic Consultation"},
-        {"@type": "MedicalProcedure", "name": "Weight Management Ayurvedic Programme"},
-        {"@type": "MedicalProcedure", "name": "Ayurvedic Rejuvenation (Rasayana)"},
-        {"@type": "MedicalProcedure", "name": "Diet and Lifestyle Counselling"}
-      ],
-      "hospitalAffiliation": { "@id": "https://vedaracare.ae/#organization" },
-      "isAcceptingNewPatients": true,
-      "availableAtOrFrom": {
-        "@type": "MedicalClinic",
-        "name": "Vedara Care Polyclinic JVC",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Jumeirah Village Circle",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        }
-      },
-      "areaServed": [
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Business Bay"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Al Barsha"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Jumeirah Lake Towers"},
-        {"@type": "Place", "name": "Mirdif"}
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "15",
-        "bestRating": "5",
-        "worstRating": "1"
-      }
+      "areaServed": ["Jumeirah Village Circle", "Jumeirah Village Triangle", "Al Barsha South", "Arjan", "Dubai Sports City", "Motor City"]
     },
     {
       "@context": "https://schema.org",
@@ -114,14 +48,14 @@ const DrZainabPage = () => {
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
-      "employee": { "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" }
+      "employee": { "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda#person" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalWebPage",
       "name": "Dr. Zainab — Ayurvedic Doctor at Our JVC Clinic Dubai",
       "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/",
-      "about": { "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" },
+      "about": { "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda#person" },
       "reviewedBy": {
         "@type": "MedicalOrganization",
         "name": "Vedara Care Medical Team"
@@ -159,16 +93,16 @@ const DrZainabPage = () => {
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#person",
-      "name": "Dr. Zainab",
-      "jobTitle": "Ayurvedic Doctor",
+      "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda#person",
+      "name": "Dr. Zainab Sheikh",
+      "jobTitle": "Ayurveda Practitioner",
       "worksFor": { "@id": "https://vedaracare.ae/#organization" }
     },
     {
       "@context": "https://schema.org",
       "@type": "Service",
       "name": "Ayurvedic Consultations with Dr. Zainab at JVC Dubai",
-      "provider": { "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" },
+      "provider": { "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda#person" },
       "areaServed": [
         {"@type": "Place", "name": "Jumeirah Village Circle"},
         {"@type": "City", "name": "Dubai"}
@@ -207,8 +141,8 @@ const DrZainabPage = () => {
   return (
     <>
       <Head>
-        <title>Dr. Zainab — Ayurvedic Doctor in JVC, Dubai | BAMS | Vedara Care</title>
-        <meta name="description" content="Dr. Zainab, DHA-licensed BAMS Ayurvedic doctor at our JVC clinic. Nadi Pareeksha, Panchakarma, PCOS, musculoskeletal, skin, hair, stress, postnatal care. Female doctor available." />
+        <title>Dr. Zainab Sheikh — DHA Licensed Ayurveda Practitioner in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Dr. Zainab Sheikh is a DHA-licensed Ayurveda practitioner (licence 20918133) at Vedara Care Polyclinic, Jumeirah Village Circle, with 4.5 years of clinical experience. Book on WhatsApp." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
         <meta property="og:title" content="Dr. Zainab — Ayurvedic Doctor at Our JVC Clinic Dubai | Vedara Care" />

@@ -11,6 +11,8 @@ bgColor = "bg-[#FAF6EF]",
   title = "",
   description = "",
   image = "",
+  imageWidth = 600,
+  imageHeight = 750,
   alt = "Ayurvedic Treatment",
   primaryCTA = "",
   secondaryCTA = "",
@@ -108,7 +110,14 @@ bgColor = "bg-[#FAF6EF]",
               <div className="relative aspect-[4/5] rounded-[12px] overflow-hidden shadow-2xl max-h-[500px] sm:max-h-[628px] w-full">
                 <img
                   src={image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`}
+                  srcSet={image.startsWith('http') || image.startsWith('/') ? undefined : `/images/${image.replace('.webp', '-640.webp')} 640w, /images/${image} 1080w`}
                   alt={alt}
+                  width={imageWidth || 1080}
+                  height={imageHeight || 1080}
+                  fetchPriority="high"
+                  loading="eager"
+                  decoding="async"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="w-full h-full object-cover"
                 />
               </div>

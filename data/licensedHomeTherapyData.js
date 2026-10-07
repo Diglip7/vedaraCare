@@ -19,7 +19,7 @@ export const licensedHomeTherapyHero = {
   ],
   licenseCard: {
     name: "Vedara Care Polyclinic",
-    licenseNo: "DHA-F-0014882",
+    licenseNo: "2509266",
     services: ["Physiotherapy", "Ayurvedic Therapy", "Beauty Therapy"]
   }
 };
@@ -137,7 +137,7 @@ export const dhaLicensing = {
   description: "A DHA facility license means Vedara Care Polyclinic has been inspected, approved, and holds ongoing regulatory responsibility for every treatment delivered. Each practitioner holds an individual DHA license — verifiable on the DHA website. This is not self-certification.",
   licenseCard: {
     name: "Vedara Care Polyclinic",
-    licenseNo: "DHA-F-0014882",
+    licenseNo: "2509266",
     services: ["Physiotherapy", "Ayurvedic Therapy", "Beauty Therapy"]
   }
 };
@@ -154,13 +154,7 @@ export const licensedPractitioners = {
       name: "Dr. Rajesh Kumar",
       title: "Sr. Licensed Ayurvedic Practitioner",
       specialty: "Panchakarma & Chronic Pain"
-    },
-    {
-      name: "Ms. Fatima Hassan",
-      title: "Sr. Licensed Physiotherapist",
-      specialty: "Neurological Rehabilitation"
-    }
-  ]
+    }]
 };
 
 export const patientStories = {
@@ -180,22 +174,28 @@ export const commonQuestions = {
   faqs: [
     {
       question: "Is this a licensed medical service or a spa service?",
-      answer: "Vedara Care Polyclinic is a DHA-licensed medical facility. Our services are clinical treatments delivered by licensed practitioners — not spa or wellness experiences. The DHA facility license requires ongoing regulatory compliance, inspection, and accountability."},
+      answer: "Vedara Care Polyclinic is a DHA-licensed medical facility. Our services are clinical treatments delivered by licensed practitioners — not spa or wellness experiences. The DHA facility license requires ongoing regulatory compliance, inspection, and accountability."
+    },
     {
       question: "Do you serve JVC specifically, or all of Dubai?",
-      answer: "We are based in Jumeirah Village Circle and offer priority same-day availability within JVC. We also serve communities across Dubai — including Dubai Marina, Jumeirah, Business Bay, Downtown, and more. Contact us to confirm coverage for your specific area."  },
+      answer: "We are based in Jumeirah Village Circle and offer priority same-day availability within JVC. We also serve communities across Dubai — including Dubai Marina, Jumeirah, Business Bay, Downtown, and more. Contact us to confirm coverage for your specific area."
+    },
     {
       question: "Are your practitioners DHA-licensed?",
-      answer: "Yes. Every practitioner who delivers treatment under Vedara Care Polyclinic holds an individual DHA practitioner license, which is verifiable on the DHA public practitioner register. We share practitioner license details before your first session." },
+      answer: "Yes. Every practitioner who delivers treatment under Vedara Care Polyclinic holds an individual DHA practitioner license, which is verifiable on the DHA public practitioner register. We share practitioner license details before your first session."
+    },
     {
       question: "What is the difference between manual therapy and massage?",
-      answer: "Manual therapy is a clinical intervention performed by a licensed physiotherapist — it follows an evidence-based clinical assessment, is targeted to a specific condition, and is documented in a care plan. Massage is a wellness service with no clinical accountability. Our physiotherapists practice manual therapy, not massage."  },
+      answer: "Manual therapy is a clinical intervention performed by a licensed physiotherapist — it follows an evidence-based clinical assessment, is targeted to a specific condition, and is documented in a care plan. Massage is a wellness service with no clinical accountability. Our physiotherapists practice manual therapy, not massage."
+    },
     {
       question: "How do I know your practitioners are legitimately licensed?",
-      answer: "DHA individual practitioner licenses are publicly searchable at the DHA practitioner register. We provide every patient with their treating practitioner's license number before the session — you can verify it yourself. No other home therapy service in Dubai operates with this level of transparency." },
+      answer: "DHA individual practitioner licenses are publicly searchable at the DHA practitioner register. We provide every patient with their treating practitioner's license number before the session — you can verify it yourself. No other home therapy service in Dubai operates with this level of transparency."
+    },
     {
       question: "What areas of Dubai do you cover?",
-      answer: "We currently cover JVC (priority), Jumeirah, Dubai Marina, Business Bay, Downtown Dubai, Palm Jumeirah, Al Barsha, DIFC, Mirdif, Arabian Ranches, and Dubai Hills. We are expanding coverage — register your interest and we will confirm availability for your area." }
+      answer: "We currently cover JVC (priority), Jumeirah, Dubai Marina, Business Bay, Downtown Dubai, Palm Jumeirah, Al Barsha, DIFC, Mirdif, Arabian Ranches, and Dubai Hills. We are expanding coverage — register your interest and we will confirm availability for your area."
+    }
   ]
 };
 

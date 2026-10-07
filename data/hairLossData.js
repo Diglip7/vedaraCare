@@ -11,7 +11,7 @@ export const hairLossHero = {
   primaryCTA: 'Book a Hair Loss Consultation',
   secondaryCTA: 'Chat on WhatsApp',
   trustSignals: [
-    '350+ Hair Loss Patients Treated',
+    'Comprehensive Scalp Care',
     'Pattern-Specific Protocols',
     'DHA-Licensed Practitioners',
     'Walking Distance from Circle Mall, JVC'
@@ -29,7 +29,7 @@ export const hairLossIntro = {
   label: 'THE QUICK ANSWER',
   title: 'Ayurvedic hair loss treatment in Dubai, in one paragraph.',
   blockquote: 'Ayurvedic treatment for hair loss in Dubai begins with identifying the specific clinical pattern — androgenetic alopecia, telogen effluvium, alopecia areata, postpartum hair loss, or scalp-condition-driven hair fall. Treatment typically combines Nasya (medicated nasal therapy, the classical Ayurvedic protocol for hair conditions), specific scalp therapies including <a href="/treatments/abhyanga-dubai/" class="doctor-specialty-link">Abhyanga</a> (Shiroabhyanga) and <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a>, internal herbal medicines selected for your dosha pattern, dietary regulation addressing root causes, and where indicated, integration with <a href="/dermatology-clinic-jvc/" class="doctor-specialty-link">dermatology</a>. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes typically run 3 to 9 months depending on the type and severity. Initial consultations start from AED 350.',
-  footer: 'Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026'
+  footer: 'Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026'
 };
 
 export const hairLossPhenotypes = {
@@ -305,25 +305,9 @@ export const hairLossReviews = {
   isDarkText: false,
   label: 'REAL PATIENT OUTCOMES',
   title: 'Real hair loss outcomes from our JVC clinic',
-  items: [
-    {
-      quote: '',
-      author: 'Sarah K.',
-      details: 'Age 32, Dubai Marina · Postpartum hair loss · 4-month programme'
-    },
-    {
-      quote: '',
-      author: 'Fatima A.',
-      details: 'Age 38, Jumeirah Village Circle · Telogen effluvium · 6-month programme'
-    },
-    {
-      quote: '',
-      author: 'Ahmed S.',
-      details: 'Age 42, Business Bay · Androgenetic alopecia · 9-month programme + maintenance'
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.5", label: 'Stars on Google' },
+    { value: "4.6", label: 'Stars on Google' },
     { value: '86%', label: ' reported visible improvement at 6 months' },
     { value: '78%', label: ' Hair loss reviews' }
   ],

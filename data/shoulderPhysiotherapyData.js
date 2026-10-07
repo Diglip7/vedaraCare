@@ -7,14 +7,14 @@ export const shoulderPhysioHero = {
   label: "SHOULDER PAIN PHYSIOTHERAPY · DHA-LICENSED 2509266 · JVC CLINIC",
   title: "Shoulder pain physiotherapy in Dubai. Comprehensive care across all shoulder conditions.",
   titleAccent: "Comprehensive care",
-  description: "Specialist shoulder physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DPT-qualified physiotherapists treating the full range of shoulder conditions — rotator cuff problems, shoulder impingement, AC joint pain, biceps tendinopathy, shoulder instability, post-surgical shoulder recovery, and more. Most shoulder pain responds excellently to evidence-based physiotherapy without requiring surgery.",
+  description: "Specialist shoulder physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed physiotherapists treating the full range of shoulder conditions — rotator cuff problems, shoulder impingement, AC joint pain, biceps tendinopathy, shoulder instability, post-surgical shoulder recovery, and more. Most shoulder pain responds excellently to evidence-based physiotherapy without requiring surgery.",
   primaryCTA: "Book Shoulder Pain Assessment",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20shoulder%20pain%20physiotherapy%20and%20book%20a%20consultation.",
   trustSignals: [
-    "DPT-qualified shoulder specialists",
-    "380+ shoulder patients treated",
+    "DHA-licensed shoulder specialists",
+    "Evidence-based Shoulder Care",
     "All shoulder conditions covered",
     "Walking distance from Circle Mall"
   ],
@@ -29,7 +29,7 @@ export const shoulderPhysioHero = {
 export const shoulderPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Shoulder pain physiotherapy at Vedara Care, in one paragraph.",
-  blockquote: "Shoulder pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based comprehensive treatment delivered by DPT-qualified specialists across the full range of shoulder conditions. The shoulder is the most mobile joint in the body, making it vulnerable to a wide range of problems requiring different specific treatment approaches: rotator cuff conditions (tears, tendinopathies, strains — the most common shoulder presentation), shoulder impingement syndrome (subacromial impingement, internal impingement), AC joint pain (acromioclavicular joint problems), biceps tendinopathy (long head of biceps tendon issues), shoulder instability (dislocations, hyperlaxity, post-traumatic instability), shoulder bursitis, calcific tendinopathy, post-surgical shoulder recovery (rotator cuff repair, labral repair, shoulder replacement), and frozen shoulder (adhesive capsulitis — see our <a href='/conditions/frozen-shoulder-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>dedicated frozen shoulder page</a> for phase-based deep-dive). Our approach starts with accurate diagnosis (the foundation of effective treatment), then applies condition-specific evidence-based protocols. Most shoulder pain responds excellently to physiotherapy without requiring surgery. Initial assessment from AED 350; structured programmes from AED 2,400. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support available for major insurers.",
+  blockquote: "Shoulder pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based comprehensive treatment delivered by DHA-licensed specialists across the full range of shoulder conditions. The shoulder is the most mobile joint in the body, making it vulnerable to a wide range of problems requiring different specific treatment approaches: rotator cuff conditions (tears, tendinopathies, strains — the most common shoulder presentation), shoulder impingement syndrome (subacromial impingement, internal impingement), AC joint pain (acromioclavicular joint problems), biceps tendinopathy (long head of biceps tendon issues), shoulder instability (dislocations, hyperlaxity, post-traumatic instability), shoulder bursitis, calcific tendinopathy, post-surgical shoulder recovery (rotator cuff repair, labral repair, shoulder replacement), and frozen shoulder (adhesive capsulitis — see our <a href='/conditions/frozen-shoulder-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>dedicated frozen shoulder page</a> for phase-based deep-dive). Our approach starts with accurate diagnosis (the foundation of effective treatment), then applies condition-specific evidence-based protocols. Most shoulder pain responds excellently to physiotherapy without requiring surgery. Initial assessment from AED 350; structured programmes from AED 2,400. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support available for major insurers.",
   footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Last updated June 2026"
 };
 
@@ -80,7 +80,7 @@ export const shoulderPhysioReviews = {
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
   items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "15", label: "reviews on Google" }
   ],
   buttonText: "Read All Shoulder Pain Reviews →"

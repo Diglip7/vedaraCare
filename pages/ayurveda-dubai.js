@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { SCHEMA_ADDRESS } from '../lib/site';
 import AyurvedaHero from '../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../components/ayurveda/AyurvedaIntro';
 import TreatmentMechanism from '../components/ayurveda/TreatmentMechanism';
@@ -15,6 +16,7 @@ import CTA from '../components/home/CTA';
 import Journal from '../components/home/Journal';
 import Physician from '../components/ayurveda/Physician';
 import ConsultationProcess from '../components/ayurveda/ConsultationProcess';
+import { ayurvedaReviewsBlock } from '../data/googleReviews';
 import {
   dubaiHubHero,
   dubaiHubIntro,
@@ -24,7 +26,6 @@ import {
   dubaiHubLocationDetails,
   dubaiHubNextSteps,
   dubaiHubTherapies,
-  dubaiHubReviews,
   dubaiHubFaqs,
   dubaiHubCTA,
   dubaiHubJournal,
@@ -52,7 +53,7 @@ const AyurvedaDubai = () => {
       "lastReviewed": "2026-05-25",
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Priya Menon",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "author": {
@@ -73,8 +74,8 @@ const AyurvedaDubai = () => {
       "dateModified": "2026-05-25",
       "author": {
         "@type": "Physician",
-        "name": "Dr. Priya Menon",
-        "url": "https://vedaracare.ae/doctors/dr-priya-menon-ayurveda/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
       },
       "publisher": {
         "@type": "Organization",
@@ -116,13 +117,7 @@ const AyurvedaDubai = () => {
       "url": "https://vedaracare.ae/",
       "logo": "https://vedaracare.ae/logo.png",
       "medicalSpecialty": ["Ayurveda", "PhysicalTherapy", "Dermatology"],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Building 123, Street 45A",
-        "addressLocality": "Jumeirah Village Circle",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
-      },
+      "address": SCHEMA_ADDRESS,
       "telephone": "+971-XX-XXX-XXXX",
       "areaServed": [
         { "@type": "City", "name": "Dubai" },
@@ -175,7 +170,7 @@ const AyurvedaDubai = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-05-25T09:00:00Z" />
         <meta property="article:modified_time" content="2026-05-25T09:00:00Z" />
-        <meta property="article:author" content="Dr. Priya Menon" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -209,8 +204,7 @@ const AyurvedaDubai = () => {
       <PricingSection />
       <AboutVedara />
       <HubLocation {...dubaiHubLocationDetails} />
-      <Reviews {...dubaiHubReviews} />
-
+      <Reviews {...ayurvedaReviewsBlock()} />
 
 
       <FAQ {...dubaiHubFaqs} />

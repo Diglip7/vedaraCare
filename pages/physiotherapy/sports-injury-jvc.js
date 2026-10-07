@@ -4,6 +4,7 @@ import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import SportsInjuryTypes from '../../components/ayurveda/SportsInjuryTypes';
 import SportsInjuryMechanism from '../../components/ayurveda/SportsInjuryMechanism';
 import SportsProtocols from '../../components/ayurveda/SportsProtocols';
+import PhysiotherapyMechanism from '../../components/ayurveda/PhysiotherapyMechanism';
 import SportsPhysiotherapyModalities from '../../components/ayurveda/SportsPhysiotherapyModalities';
 import PhysiotherapyIntegration from '../../components/ayurveda/PhysiotherapyIntegration';
 import OutcomeRanges from '../../components/ayurveda/OutcomeRanges';
@@ -14,13 +15,13 @@ import FAQ from '../../components/home/FAQ';
 import SportsPhysiotherapyLocation from '../../components/ayurveda/SportsPhysiotherapyLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
+import { physioReviewsBlock } from '../../data/googleReviews';
 import {
   sportsPhysiotherapyHero,
   sportsPhysiotherapyIntro,
   sportsPhysiotherapyConditions,
   sportsPhysiotherapyMechanism,
   sportsPhysiotherapyModalities,
-  sportsPhysiotherapyIntegration,
   sportsPhysiotherapyOutcomes,
   sportsPhysiotherapyTeam,
   sportsPhysiotherapyPricing,
@@ -29,357 +30,106 @@ import {
   sportsPhysiotherapyLocation,
   sportsPhysiotherapyFinalCTA,
   sportsPhysiotherapyRelatedPages,
-  sportsPhysiotherapyInjuryTypes
+  sportsPhysiotherapyInjuryTypes,
+  sportsPadelSection
 } from '../../data/sportsPhysiotherapyData';
 
+const PAGE = {
+  path: '/physiotherapy/sports-injury-jvc/',
+  title: "Sports Injury Physio in JVC, Dubai | Padel, Running, Gym | Vedara",
+  description: "Sports physio at our JVC clinic, Dubai: padel, running, gym and football injuries. Shockwave, dry needling, video gait analysis and return-to-sport testing.",
+};
+
 const SportsInjuryJvc = () => {
-  const currentDate = new Date().toISOString();
+  const SITE = 'https://vedaracare.ae';
+  const URL = `${SITE}/physiotherapy/sports-injury-jvc/`;
+  const ORG_ID = `${SITE}/#organization`;
+  const HAFSINA_ID = `${SITE}/doctors/hafsina-kk-physiotherapist/#physician`;
+  const REVIEWED = '2026-10-15';
+  const strip = (s) => String(s).replace(/<[^>]+>/g, '');
 
-  const schemaMarkup = [
-    // Site-wide Vedara Care Organization
-    {
-      "@context": "https://schema.org",
-      "@type": ["MedicalClinic", "Organization"],
-      "@id": "https://vedaracare.ae/#organization",
-      "name": "Vedara Care Polyclinic",
-      "url": "https://vedaracare.ae/",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Jumeirah Village Circle",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
-      }
-    },
+  const conditions = [
+    'Sports injury', 'Lateral epicondylitis', 'Ankle sprain', 'Hamstring strain', 'Calf strain',
+    'Patellofemoral pain syndrome', 'Achilles tendinopathy', 'Medial tibial stress syndrome',
+    'Rotator cuff tendinopathy', 'Iliotibial band syndrome',
+  ].map((name) => ({ '@type': 'MedicalCondition', name }));
 
-    // MedicalBusiness (Sports Physiotherapy)
-    {
-      "@context": "https://schema.org",
-      "@type": ["MedicalBusiness", "LocalBusiness", "PhysicalTherapy"],
-      "@id": "https://vedaracare.ae/physiotherapy/sports-injury-jvc/#sports-physiotherapy",
-      "name": "Vedara Care Sports Injury Physiotherapy",
-      "alternateName": ["Vedara Sports Physio JVC", "Vedara Sports Medicine Physiotherapy"],
-      "url": "https://vedaracare.ae/physiotherapy/sports-injury-jvc/",
-      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "DHA-licensed sports injury physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DPT-qualified sports physiotherapists treating padel injuries, running injuries, ACL rehabilitation, gym training injuries, and full sports medicine rehabilitation with evidence-based return-to-sport protocols.",
-      "telephone": "+971 55 573 6312",
-      "priceRange": "AED 300 - AED 12,000",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Building X, Street 2",
-        "addressLocality": "Jumeirah Village Circle",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'MedicalWebPage', '@id': `${URL}#webpage`, url: URL,
+        name: PAGE.title, description: PAGE.description,
+        inLanguage: 'en-AE', isPartOf: { '@id': `${SITE}/#website` }, publisher: { '@id': ORG_ID },
+        about: conditions, mainEntity: { '@id': `${URL}#service` },
+        reviewedBy: { '@id': HAFSINA_ID }, lastReviewed: REVIEWED, dateModified: REVIEWED,
+        breadcrumb: { '@id': `${URL}#breadcrumb` },
       },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "25.0478",
-        "longitude": "55.2418"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-          "opens": "09:00",
-          "closes": "21:00"
+      {
+        '@type': 'Service', '@id': `${URL}#service`,
+        name: 'Sports injury physiotherapy', serviceType: 'Sports physiotherapy',
+        provider: { '@id': ORG_ID },
+        areaServed: [{ '@type': 'Place', name: 'Jumeirah Village Circle (JVC), Dubai' }, { '@type': 'City', name: 'Dubai' }],
+        availableChannel: {
+          '@type': 'ServiceChannel', serviceUrl: `${SITE}/book/`,
+          servicePhone: { '@type': 'ContactPoint', telephone: '+971555736312', contactType: 'appointments' }
         },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "09:00",
-          "closes": "18:00"
-        }
-      ],
-      "areaServed": [
-        { "@type": "Place", "name": "Jumeirah Village Circle" },
-        { "@type": "Place", "name": "Dubai Sports City" },
-        { "@type": "Place", "name": "Motor City" },
-        { "@type": "Place", "name": "Jumeirah Village Triangle" },
-        { "@type": "Place", "name": "Al Barsha South" },
-        { "@type": "Place", "name": "Arjan" },
-        { "@type": "Place", "name": "Dubai Hills Estate" },
-        { "@type": "Place", "name": "Dubai Marina" },
-        { "@type": "Place", "name": "Downtown Dubai" },
-        { "@type": "Place", "name": "Palm Jumeirah" },
-        { "@type": "Place", "name": "Mirdif" },
-        { "@type": "Place", "name": "Circle Mall" },
-        { "@type": "Place", "name": "FIVE Jumeirah Village" },
-        { "@type": "Place", "name": "JSS Private School" },
-        { "@type": "City", "name": "Dubai" }
-      ],
-      "medicalSpecialty": [
-        "Sports Medicine",
-        "Sports Physiotherapy",
-        "Rehabilitation Medicine",
-        "Physical Therapy"
-      ],
-      "isAcceptingNewPatients": true,
-      "availableService": [
-        { "@type": "MedicalProcedure", "name": "Sports Injury Treatment" },
-        { "@type": "MedicalProcedure", "name": "ACL Rehabilitation" },
-        { "@type": "MedicalProcedure", "name": "Padel Injury Treatment" },
-        { "@type": "MedicalProcedure", "name": "Running Injury Treatment" },
-        { "@type": "MedicalProcedure", "name": "Manual Therapy" },
-        { "@type": "MedicalProcedure", "name": "Dry Needling" },
-        { "@type": "MedicalProcedure", "name": "Shockwave Therapy" },
-        { "@type": "MedicalProcedure", "name": "Biomechanical Analysis" },
-        { "@type": "MedicalProcedure", "name": "Gait Analysis" },
-        { "@type": "MedicalProcedure", "name": "Running Gait Analysis" },
-        { "@type": "MedicalProcedure", "name": "Return-to-Sport Testing" }
-      ],
-      "memberOf": {
-        "@type": "GovernmentOrganization",
-        "name": "Dubai Health Authority"
-      },
-      "insuranceProvider": [
-        { "@type": "Organization", "name": "Daman" },
-        { "@type": "Organization", "name": "AXA" },
-        { "@type": "Organization", "name": "Allianz" },
-        { "@type": "Organization", "name": "Oman Insurance" },
-        { "@type": "Organization", "name": "Now Health" },
-        { "@type": "Organization", "name": "Bupa" },
-        { "@type": "Organization", "name": "MetLife" }
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "15",
-        "bestRating": "5",
-        "worstRating": "1"
-      }
-    },
-
-    // Medical Conditions
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Lateral Epicondylitis",
-      "alternateName": ["Padel Elbow", "Tennis Elbow"],
-      "code": { "@type": "MedicalCode", "code": "M77.1", "codingSystem": "ICD-10" },
-      "possibleTreatment": [
-        { "@type": "MedicalProcedure", "name": "Manual Therapy" },
-        { "@type": "MedicalProcedure", "name": "Eccentric Loading" },
-        { "@type": "MedicalProcedure", "name": "Shockwave Therapy" },
-        { "@type": "MedicalProcedure", "name": "Dry Needling" }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Anterior Cruciate Ligament Injury",
-      "alternateName": ["ACL Injury", "ACL Tear"],
-      "code": { "@type": "MedicalCode", "code": "S83.5", "codingSystem": "ICD-10" },
-      "possibleTreatment": [
-        { "@type": "MedicalProcedure", "name": "ACL Reconstruction Rehabilitation" },
-        { "@type": "MedicalProcedure", "name": "Conservative Management" }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Hamstring Strain",
-      "code": { "@type": "MedicalCode", "code": "S76.3", "codingSystem": "ICD-10" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Patellofemoral Pain Syndrome",
-      "alternateName": ["Runner's Knee"],
-      "code": { "@type": "MedicalCode", "code": "M22.2", "codingSystem": "ICD-10" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Achilles Tendinopathy",
-      "code": { "@type": "MedicalCode", "code": "M76.6", "codingSystem": "ICD-10" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Rotator Cuff Injury"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Meniscus Injury"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Ankle Sprain"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Iliotibial Band Syndrome",
-      "alternateName": ["IT Band Syndrome"]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Plantar Fasciitis"
-    },
-
-    // Sports Events
-    {
-      "@context": "https://schema.org",
-      "@type": "SportsEvent",
-      "name": "Dubai Marathon"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "SportsEvent",
-      "name": "RAK Half Marathon"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Sports Injury Physiotherapy in JVC, Dubai",
-      "provider": { "@id": "https://vedaracare.ae/physiotherapy/sports-injury-jvc/#sports-physiotherapy" },
-      "areaServed": [
-        { "@type": "Place", "name": "Jumeirah Village Circle" },
-        { "@type": "City", "name": "Dubai" }
-      ],
-      "serviceType": "Sports Injury Physiotherapy and Sports Medicine",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Sports Physiotherapy Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Initial Sports Physiotherapy Assessment",
-            "priceCurrency": "AED",
-            "price": "350",
-            "description": "60-minute comprehensive assessment with DPT-qualified sports physiotherapist"
-          },
-          {
-            "@type": "Offer",
-            "name": "Sport-Specific Assessment and Gait Analysis",
-            "priceCurrency": "AED",
-            "price": "480",
-            "description": "90-minute biomechanical analysis and sport-specific assessment"
-          },
-          {
-            "@type": "Offer",
-            "name": "Sport-Specific Rehabilitation Package",
-            "priceCurrency": "AED",
-            "price": "2,400",
-            "description": "12-session structured rehabilitation programme"
-          },
-          {
-            "@type": "Offer",
-            "name": "ACL Reconstruction Rehabilitation Programme",
-            "priceCurrency": "AED",
-            "price": "6,500",
-            "description": "Comprehensive 20-30 session ACL rehabilitation programme"
-          },
-          {
-            "@type": "Offer",
-            "name": "Return-to-Sport Testing and Clearance",
-            "priceCurrency": "AED",
-            "price": "420",
-            "description": "Objective return-to-sport testing with criteria-based clearance"
-          }
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
-        { "@type": "ListItem", "position": 2, "name": "Physiotherapy in JVC", "item": "https://vedaracare.ae/physiotherapy-jvc/" },
-        { "@type": "ListItem", "position": 3, "name": "Sports Injury Physiotherapy", "item": "https://vedaracare.ae/physiotherapy/sports-injury-jvc/" }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can I get a same-day appointment for an acute sports injury?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes — same-day appointments are typically available for acute sports injuries at our JVC clinic. WhatsApp +971 55 573 6312 for fastest response, or call directly. Saturday and evening appointments also available. For very severe acute injuries with suspected fracture or neurological symptoms, A&E evaluation comes first, then physiotherapy follow-up."
-          }
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: '4.7',
+          reviewCount: '23',
+          bestRating: '5',
+          worstRating: '1',
         },
-        {
-          "@type": "Question",
-          "name": "Do you treat padel injuries specifically?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes — padel injuries are one of our largest treatment cohorts due to the sport's explosion in Dubai. Common padel injuries we treat: padel elbow (lateral epicondylitis), rotator cuff impingement, lower back strain, wrist tendinopathies, ankle sprains, and meniscus injuries. Our sports physiotherapists understand padel-specific biomechanics."
-          }
-        },
-        ...sportsPhysiotherapyFaqs.faqs.map((faq) => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Sports Injury Physiotherapy in JVC — Complete Service Guide",
-      "image": "https://vedaracare.ae/og-images/sports-injury-physiotherapy-jvc.jpg",
-      "datePublished": "2026-06-01",
-      "dateModified": currentDate,
-      "author": {
-        "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"
       },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic",
-        "logo": "https://vedaracare.ae/logo.png",
-        "@id": "https://vedaracare.ae/#organization"
+      {
+        '@type': 'Person', '@id': HAFSINA_ID, name: 'Hafsina K K', jobTitle: 'Physiotherapist',
+        url: `${SITE}/doctors/hafsina-kk-physiotherapist/`, worksFor: { '@id': ORG_ID },
+        knowsAbout: ['Sports physiotherapy', 'Return-to-sport testing', 'Dry needling', 'Shockwave therapy', 'Gait analysis'],
+        hasCredential: [
+          { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Bachelor of Physiotherapy' },
+          {
+            '@type': 'EducationalOccupationalCredential', credentialCategory: 'license', name: 'DHA Physiotherapist Licence',
+            identifier: '64812828', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Dubai Health Authority' }
+          },
+        ],
       },
-      "mainEntityOfPage": "https://vedaracare.ae/physiotherapy/sports-injury-jvc/"
-    },
-    // Team Physician
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician",
-      "name": "Hafsina K K",
-      "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/",
-      "image": "https://vedaracare.ae/images/hafsina-kk-physiotherapist-dubai.webp",
-      "medicalSpecialty": ["Sports Physiotherapy", "Orthopaedic Rehabilitation", "Neurological Physiotherapy", "Physiotherapy"],
-      "hasCredential": [
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "DHA-Licensed Physiotherapist",
-          "identifier": "DHA-P 64812828",
-          "issuingAuthority": {
-            "@type": "GovernmentOrganization",
-            "name": "Dubai Health Authority"
-          }
-        }
-      ],
-      "worksFor": { "@id": "https://vedaracare.ae/#organization" }
-    }
-  ];
+      {
+        '@type': 'BreadcrumbList', '@id': `${URL}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+          { '@type': 'ListItem', position: 2, name: 'Physiotherapy', item: `${SITE}/physiotherapy-jvc/` },
+          { '@type': 'ListItem', position: 3, name: 'Sports Injury Physiotherapy', item: URL },
+        ],
+      },
+      {
+        '@type': 'FAQPage', '@id': `${URL}#faq`,
+        mainEntity: sportsPhysiotherapyFaqs.faqs.map((f) => ({
+          '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: strip(f.answer) }
+        })),
+      },
+    ],
+  };
 
   return (
     <>
       <Head>
-        <title>Sports Injury Physiotherapy in JVC | Same-Day Care | Vedara</title>
-        <meta name="description" content="Specialist sports injury physiotherapy at our DHA-licensed JVC clinic, Dubai. Padel, running, ACL, gym injuries treated by DPT-qualified sports physios. Same-day appointments for acute injuries. Return-to-sport protocols. Insurance direct-billing." />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Sports Injury Physiotherapy in JVC Dubai — Same-Day Acute Care | Vedara" />
-        <meta property="og:description" content="DPT-qualified sports physiotherapists at our Jumeirah Village Circle clinic. Padel injuries, running injuries, ACL rehab, gym training injuries. Evidence-based return-to-sport protocols. Same-day appointments for acute injuries." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/sports-injury-physiotherapy-jvc.jpg" />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:image" content="https://vedaracare.ae/images/sports-injury-physiotherapy-jvc-hero.webp" />
         <meta property="og:url" content="https://vedaracare.ae/physiotherapy/sports-injury-jvc/" />
-        <meta property="og:type" content="business.business" />
+        <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_AE" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
 
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/physiotherapy/sports-injury-jvc/" />
@@ -387,13 +137,7 @@ const SportsInjuryJvc = () => {
         <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/physiotherapy/sports-injury-jvc/" />
 
         {/* Schema Markup */}
-        {schemaMarkup.map((schema, index) => (
-          <script
-            key={index}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </Head>
 
       <div className="sports-physiotherapy-content">
@@ -405,6 +149,8 @@ const SportsInjuryJvc = () => {
 
         {/* H2: Specific sport-injury protocols at our JVC clinic. */}
         <SportsProtocols />
+
+
 
         {/* H2: Specific injury types we treat at our JVC clinic. */}
         <SportsInjuryTypes {...sportsPhysiotherapyInjuryTypes} />
@@ -428,7 +174,7 @@ const SportsInjuryJvc = () => {
         <SportsPhysiotherapyPricing />
 
         {/* H2: Real return-to-sport outcomes from JVC patients. */}
-        <TreatmentReviews {...sportsPhysiotherapyReviews} />
+        <TreatmentReviews {...physioReviewsBlock()} />
 
         {/* H2: What sports patients ask before booking. [FAQ block] */}
         <FAQ {...sportsPhysiotherapyFaqs} />

@@ -70,8 +70,8 @@ const PanchakarmaDubai = () => {
       "sameAs": "https://en.wikipedia.org/wiki/Panchakarma",
       "performer": {
         "@type": "Physician",
-        "name": "Dr. Priya Nair",
-        "url": "https://vedaracare.ae/doctors/dr-priya-nair/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda"
       }
     },
     // Schema 2 — Service (with pricing)
@@ -124,7 +124,7 @@ const PanchakarmaDubai = () => {
       "lastReviewed": modifiedDate,
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Priya Nair",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/panchakarma-dubai-hero.webp"
@@ -139,8 +139,8 @@ const PanchakarmaDubai = () => {
       "dateModified": modifiedDate,
       "author": {
         "@type": "Physician",
-        "name": "Dr. Priya Nair",
-        "url": "https://vedaracare.ae/doctors/dr-priya-nair/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
       },
       "publisher": {
         "@type": "Organization",
@@ -197,7 +197,7 @@ const PanchakarmaDubai = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content={publishedDate} />
         <meta property="article:modified_time" content={modifiedDate} />
-        <meta property="article:author" content="Dr. Priya Nair" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
 
         {/* Twitter Tags */}
         <meta name="twitter:card" content="summary_large_image" />

@@ -34,7 +34,7 @@ export const oxygenFacialIntro = {
   label: "THE QUICK ANSWER",
   title: "Oxygen Facial at Vedara Care",
   blockquote: "At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, patients asking about an Oxygen Facial in JVC are usually trying to answer a few practical questions: what actually happens during the treatment, whether it genuinely involves oxygen in any meaningful sense, whether it suits their specific skin, and what kind of result is realistic. This page is written to walk through those questions honestly — including being upfront about the fact that \"Oxygen Facial\" is not one single, standardised procedure, and that the exact protocol depends on the clinic and equipment involved.",
-  footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed August 2026"
 };
 
 export const oxygenFacialAtAGlance = {

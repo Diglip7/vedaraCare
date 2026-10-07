@@ -5,7 +5,7 @@ export const ayurvedicMassageJVCHero = {
     { label: "Ayurvedic Massage in JVC", active: true }
   ],
   label: "AYURVEDIC MASSAGE IN JUMEIRAH VILLAGE CIRCLE",
-  title: "Authentic Ayurvedic massage in JVC — not the spa version, the medical one.",
+  title: "Ayurvedic massage in Jumeirah Village Circle",
   description: "Classical Ayurvedic body therapies — Abhyanga, Shirodhara, Kativasti, Njavarakizhi, and Udvartana — performed by trained therapists and prescribed by BAMS-qualified doctors at our DHA-licensed clinic in Jumeirah Village Circle, Dubai.",
   primaryCTA: "Book a Consultation",
   primaryCTAHref: "/book",
@@ -30,7 +30,7 @@ export const ayurvedicMassageJVCIntro = {
   label: "THE QUICK ANSWER",
   title: "What 'Ayurvedic massage' actually means.",
   blockquote: "'Ayurvedic massage' is not one treatment — it is a category of doctor-prescribed body therapies from classical Indian medicine, each designed for a specific therapeutic purpose. The most common are Abhyanga (full-body warm oil massage), Shirodhara (continuous oil stream on the forehead), Kativasti (medicated oil pooled over the lower back), Njavarakizhi (massage with herbal rice boluses), and Udvartana (herbal powder massage). At Vedara Care Polyclinic in JVC, all are performed by trained therapists after a BAMS-qualified doctor prescribes the right one for your specific need.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026"
 };
 
 export const ayurvedicMassageJVCTherapies = {
@@ -97,20 +97,6 @@ export const ayurvedicMassageJVCReviews = {
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
   items: [
     {
-      quote: "The Abhyanga changed how I sleep. Eight weeks in and I have stopped using sleep aids.",
-      content: "",
-      author: "Priya R.",
-      details: "Abhyanga course · JVC District 12 · February 2026",
-      alt: "Verified patient outcome from Ayurvedic massage at Vedara Care JVC Dubai"
-    },
-    {
-      quote: "I tried Shirodhara expecting relaxation. I left realizing it had touched something deeper than that.",
-      content: "",
-      author: "James M.",
-      details: "Shirodhara for chronic stress · Al Barsha South · January 2026",
-      alt: "Verified patient outcome from Ayurvedic massage at Vedara Care JVC Dubai"
-    },
-    {
       quote: "Three sessions of Kativasti did more for my back than a year of physiotherapy.",
       content: "",
       author: "Aisha K.",
@@ -119,7 +105,7 @@ export const ayurvedicMassageJVCReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "78", label: "reviews mentioning Ayurvedic massage" },
     { value: "97%", label: "would recommend" }
   ]
@@ -236,8 +222,8 @@ export const ayurvedicMassageJVCRelatedPages = {
     },
     {
       title: "Meet Your Ayurvedic Doctor →",
-      description: "Dr. Priya Sharma — BAMS, MD (Ayurveda), DHA-licensed. View credentials and book a consultation directly.",
-      href: "/doctors/dr-priya-sharma-ayurveda/"
+      description: "Dr. Zainab — BAMS, MD (Ayurveda), DHA-licensed. View credentials and book a consultation directly.",
+      href: "/doctors/dr-zainab-ayurveda/"
     }
   ]
 };

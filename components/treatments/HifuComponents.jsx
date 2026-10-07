@@ -1297,7 +1297,7 @@ export const HifuFaq = () => {
     { q: "Can I have HIFU if I have dark skin (Fitzpatrick IV-VI)?", a: "Yes. HIFU does not target melanin (unlike some laser modalities), so there is no increased risk of post-inflammatory hyperpigmentation in darker skin phototypes. The Suh et al. 2011 study specifically documented HIFU efficacy in Asian (Fitzpatrick IV-V) skin. Our Medical Director assesses individual patient factors at consultation." },
     { q: "Can men have HIFU?", a: "Yes. HIFU is appropriate for male patients addressing jawline definition, submental (double chin) laxity, and general facial skin quality. Male HIFU is a growing demographic in Dubai. Same protocol structure, same Medical Director oversight, same transparent pricing." },
     { q: "Is HIFU safe during pregnancy?", a: "No. Vedara Care JVC does not perform HIFU during pregnancy or breastfeeding. No safety data supports HIFU during pregnancy; theoretical caution applies. Post-pregnancy and post-breastfeeding, HIFU is appropriate once weight has stabilized." },
-    { q: "Does insurance cover HIFU in Dubai?", a: "HIFU is typically classified as elective aesthetic and not routinely covered by UAE health insurance. Vedara Care Polyclinic JVC operates on insurance reimbursement basis (not direct billing) for aesthetic procedures. Complimentary documentation supporting reimbursement enquiry is provided on request." },
+    { q: "Does insurance cover HIFU in Dubai?", a: "HIFU is typically classified as elective aesthetic and not routinely covered by UAE health insurance. Vedara Care Polyclinic JVC operates on an insurance reimbursement basis for aesthetic procedures. Complimentary documentation supporting reimbursement enquiry is provided on request." },
     { q: "Can HIFU be combined with other treatments (mesotherapy, PRP, filler)?", a: "Yes. HIFU is compatible with mesotherapy, PRP, and dermal filler in combined programme protocols. Spacing and sequencing designed by the Medical Director. Same-visit combined sessions available (HIFU + mesotherapy, HIFU + PRP). HIFU + filler typically sequenced across separate visits." },
     { q: "What age should I start HIFU?", a: "HIFU is rarely appropriate for patients under 25. Preventive-oriented HIFU can begin in the early 30s. Corrective HIFU is most impactful for mid-30s through mid-60s patients. Age over 65 is assessed case-by-case. The Medical Director's consultation assessment determines appropriateness at your specific age." },
     { q: "Where is Vedara Care Polyclinic JVC located?", a: "Vedara Care Polyclinic is in Jumeirah Village Circle, Dubai  -  walking distance from Circle Mall, 3 minutes from FIVE Jumeirah Village Hotel, 5 minutes from JSS Private School. DHA-licensed multi-specialty facility. Free parking available." },
@@ -1331,7 +1331,7 @@ export const HifuFaq = () => {
           <p className="font-serif text-[20px] text-white mb-2">20 questions answered.</p>
           <p className="font-sans text-white/70 text-[14px] mb-6">If the 20th is "when can I book a consultation?"  -  that's the right question to ask next.</p>
           <div className="flex flex-wrap gap-3 justify-center mb-6">
-            <Link href="\book" className="inline-flex items-center justify-center bg-[#C8A87F] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#B5956C] transition-colors no-underline">
+            <Link href="/book" className="inline-flex items-center justify-center bg-[#C8A87F] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#B5956C] transition-colors no-underline">
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
@@ -1412,7 +1412,7 @@ export const HifuFinalCta = () => {
 
           <div className="flex flex-col justify-between">
             <div className="space-y-4 mb-96">
-              <Link href="\book" className="inline-flex items-center justify-center bg-[#C8A87F] text-white font-sans text-[16px] font-medium w-full py-4 rounded hover:bg-[#B5956C] transition-colors no-underline">
+              <Link href="/book" className="inline-flex items-center justify-center bg-[#C8A87F] text-white font-sans text-[16px] font-medium w-full py-4 rounded hover:bg-[#B5956C] transition-colors no-underline">
                 Book HIFU Consultation
               </Link>
               <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[16px] font-medium w-full py-4 rounded hover:bg-[#1DA851] transition-colors no-underline">

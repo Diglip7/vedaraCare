@@ -140,7 +140,7 @@ export default function DrAnushaMakkenaPage() {
       <Head>
         <title>Dr. Anusha Makkena — Aesthetic Medicine Physician | Vedara Care</title>
         <meta name="description" content="Dr. Anusha Makkena, MBBS, MS ENT, is a General Practitioner and Aesthetic Medicine Physician specialising in injectables, skin rejuvenation, fillers, Botox, PRP/GFC, peels and laser treatments." />
-        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <meta name="robots" content="noindex, follow" />
 
         <meta property="og:title" content="Dr. Anusha Makkena — Aesthetic Medicine Physician | Vedara Care" />
         <meta property="og:description" content="Dr. Anusha Makkena, MBBS, MS ENT, is a General Practitioner and Aesthetic Medicine Physician focused on safe, individualized and natural-looking aesthetic treatments, injectables, skin rejuvenation and general medical care." />

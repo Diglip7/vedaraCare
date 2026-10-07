@@ -1,26 +1,24 @@
 import React from 'react';
+import Image from 'next/image';
 import { Check } from 'lucide-react';
 
 const HomeHealthcare = ({
-  label = "DOCTOR ON CALL | NURSING | PHYSIO AT HOME",
+  label = "HOME HEALTHCARE (COMING SOON) | PHYSIO AT HOME",
   title = "When coming to the clinic is not the right answer.",
-  description = "Our home healthcare team brings DHA-licensed doctors, registered nurses and qualified physiotherapists to your door across JVC, JVT, Al Barsha South, Sports City and all of Dubai. Same protocols. Same accountability. Faster access.",
-  image = "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=2070&auto=format&fit=crop",
+  description = "Our home healthcare team will soon bring DHA-licensed healthcare professionals and qualified physiotherapists to your door across JVC, JVT, Al Barsha South, Sports City and all of Dubai. Same protocols. Same accountability.",
+  image = "/images/doctor-on-call.webp",
   features = [
-    "Doctor on Call 24/7",
     "Physiotherapy at Home",
-    "Lab Collection",
-    "Newborn Care",
-    "Home Nursing",
-    "IV Drip Therapy",
-    "Vaccinations",
-    "Elderly Care"
+    "Elderly Care",
+    "Post-Hospital Rehab",
+    "Chronic Condition Monitoring",
+    "Home Healthcare (Coming Soon)"
   ],
-  button1Text = "Request a Home Visit",
-  button1Href = "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20request%20a%20home%20visit%20for%20home%20healthcare%20services.",
+  button1Text = "Inquire About Home Healthcare",
+  button1Href = "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20home%20healthcare%20services.",
   button2Text = "Learn More",
   button2Href = "/physiotherapy-at-home-dubai",
-  footer = "Typical response time within JVC: 30 to 60 minutes"
+  footer = "Launching soon across JVC and surrounding areas"
 }) => {
   return (
     <section className="bg-white py-24">
@@ -28,17 +26,20 @@ const HomeHealthcare = ({
         <div className="grid lg:grid-cols-[45%_55%] gap-12 items-center">
           {/* Image Content */}
           <div className="aspect-[4/5] bg-gradient-to-br from-[#F6F1EA] to-[#FAF8EF] rounded-[2rem] flex items-center justify-center text-[#A1A1A1] font-sans shadow-sm overflow-hidden">
-            <img
+            <Image
               src={image}
               alt={title}
+              width={800}
+              height={1000}
               className="w-full h-full object-cover"
+              loading="lazy"
            />
           </div>
 
           {/* Text Content */}
           <div className="space-y-8 lg:pl-12">
             <div className="space-y-4">
-              <span className="text-[13px] font-sans tracking-[0.1em] text-[#C9A961] uppercase block">
+              <span className="text-[13px] font-sans tracking-[0.1em] text-[#C9A961] uppercase font-bold block">
                 {label}
               </span>
               <h2 className="text-[42px] font-serif font-medium text-[#1A1A1A] leading-[1.2]">

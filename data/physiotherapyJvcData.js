@@ -1,20 +1,22 @@
+import { physioReviewsBlock } from './googleReviews';
+
 export const physiotherapyJvcHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Physiotherapy in JVC", active: true },
+    { label: "Physiotherapy", active: true },
 
   ],
   label: "PHYSIOTHERAPY · DHA-LICENSED CLINIC IN JVC, DUBAI",
-  title: "Physiotherapy in JVC. Evidence-based, hands-on, results-focused.",
-  description: "DPT-qualified physiotherapists at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. Specialised treatment for sports injuries, post-surgical rehabilitation, chronic pain, neurological recovery, women's health, and paediatric physiotherapy. Same-day appointments available. Insurance reimbursement support with all major insurers.",
+  title: "Physiotherapy in JVC, Dubai. One-to-one care from a DHA-licensed physiotherapist.",
+  description: "Hands-on physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. Back, neck and joint pain, sports injuries, post-surgery and neurological rehabilitation, pelvic floor care and children's physiotherapy, with Hafsina K K, our female DHA-licensed physiotherapist. Insurance reimbursement with all major insurers.",
   primaryCTA: "Book a Session",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20physiotherapy%20services%20at%20your%20JVC%20clinic.",
   trustSignals: [
-    "DPT-qualified physiotherapists",
-    "7 specialised treatment areas",
-    "Same-day appointments available",
+    "DHA-licensed physiotherapist (DHA-P 64812828)",
+    "Female physiotherapist",
+    "Open daily 9am to 10pm",
     "Walking distance from Circle Mall, JVC"
   ],
   floatingCard: {
@@ -22,26 +24,29 @@ export const physiotherapyJvcHero = {
     subtitle: "Standalone physiotherapy for most patients. Integrated Ayurveda + physiotherapy programmes for chronic conditions where combined care produces stronger outcomes."
   },
   image: "/images/physiotherapy-jvc-hero.webp",
-  alt: "Physiotherapist providing manual therapy at Vedara Care JVC clinic Dubai"
+  imageWidth: 600,
+  imageHeight: 750,
+  alt: "Hafsina K K, DHA-licensed physiotherapist, treating a patient at Vedara Care's JVC clinic, Dubai"
 };
 
 export const physiotherapyJvcIntro = {
   label: "THE QUICK ANSWER",
   title: "Physiotherapy at our JVC clinic, in one paragraph.",
-  blockquote: "Vedara Care Polyclinic offers comprehensive DHA-licensed physiotherapy at our Jumeirah Village Circle (JVC), Dubai clinic — walking distance from Circle Mall. Our DPT-qualified physiotherapists provide treatment across seven specialised areas: musculoskeletal physiotherapy (back pain, neck pain, joint conditions), sports physiotherapy (acute injuries, performance, return-to-play), post-surgical rehabilitation (ACL, joint replacement, spinal surgery), neurological rehabilitation (post-stroke, MS, Parkinson's), women's health physiotherapy (pelvic floor, postnatal, prenatal), paediatric physiotherapy (developmental, sports injuries in children), and cardiopulmonary rehabilitation. Techniques include manual therapy, dry needling, IFC, ultrasound therapy, neurodynamic mobilisation, exercise prescription, and integrated Ayurveda + physiotherapy programmes for chronic conditions. Single sessions from AED 350; structured programmes for chronic conditions from AED 2,400. Insurance reimbursement support with all major insurers.",
-  footer: "  Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026",
+  blockquote: "Vedara Care Polyclinic offers DHA-licensed physiotherapy at its clinic in Jumeirah Village Circle (JVC), Dubai, a short walk from Circle Mall. Treatment is led by Hafsina K K, a female physiotherapist (Bachelor of Physiotherapy, DHA-P 64812828, 7+ years' experience), and covers back, neck and joint pain, sports injuries, post-surgery rehabilitation, neurological rehabilitation, pelvic floor and pregnancy care, and children's physiotherapy. Every session is one-to-one with the same physiotherapist. Insurance works on reimbursement, with full documents provided. Open daily 9am to 10pm.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Reviewed October 2026.",
 };
 
 export const physiotherapyJvcSpecializations = {
   bgColor: "bg-[#F5F1E8]",
   cardBg: "bg-white",
   label: "SPECIALISED CARE",
-  title: "Seven physiotherapy specialisations at our JVC clinic.",
-  description: "Not all physiotherapy is the same. Each specialised area has different techniques, different evidence bases, and different expertise requirements. At our JVC clinic, you see a therapist with specific training in your specific need.",
+  title: "Six physiotherapy specialisations at our JVC clinic.",
+  description: "Not all physiotherapy is the same. Each area below uses different techniques and goals. At our JVC clinic, Hafsina K K assesses you, explains what is going on and builds a plan for your condition, then treats you herself at every session.",
   types: [
     {
       number: "01",
       title: "Musculoskeletal Physiotherapy",
+      href: "/conditions/back-pain-physiotherapy-jvc/",
       description: "The most-utilised area. Treatment of joint, muscle, and soft tissue conditions — chronic and acute. Includes back pain, neck pain, <a href='/conditions/shoulder-pain-physiotherapy-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>shoulder conditions</a>, knee problems, hip dysfunction, and joint arthritis. Treatment combines manual therapy techniques (joint mobilisation, soft tissue work, manipulation where appropriate), modalities (ultrasound, IFC, dry needling), and structured exercise prescription tailored to your specific condition and recovery stage.",
       commonConditions: [
         "lower back pain",
@@ -68,7 +73,7 @@ export const physiotherapyJvcSpecializations = {
     {
       number: "03",
       title: "Post-Surgical Rehabilitation",
-      description: "Structured rehabilitation after orthopaedic and other surgeries. ACL reconstruction recovery, joint replacement rehabilitation (knee, hip, shoulder), spinal surgery recovery, rotator cuff repair, meniscectomy, and other procedures. Protocols are calibrated to your surgeon's specific repair, your recovery stage, and your functional goals. Coordination with your operating surgeon is standard practice.",
+      description: "Structured rehabilitation after orthopaedic and other surgeries. <a href='/physiotherapy/post-surgery-rehab-dubai/'>ACL reconstruction recovery, joint replacement rehabilitation</a> (knee, hip, shoulder), spinal surgery recovery, rotator cuff repair, meniscectomy, and other procedures. Protocols are calibrated to your surgeon's specific repair, your recovery stage, and your functional goals. Coordination with your operating surgeon is standard practice.",
       commonConditions: [
         "ACL reconstruction",
         "total knee replacement",
@@ -91,12 +96,13 @@ export const physiotherapyJvcSpecializations = {
         "peripheral neuropathy",
         "Bell's palsy"
       ],
-      href: "/physiotherapy/neurological-dubai"
+      href: "/physiotherapy/neurological-dubai/"
     },
     {
       number: "05",
       title: "Women's Health Physiotherapy",
-      description: "Specialised area often unavailable elsewhere in JVC. Pelvic floor assessment and rehabilitation (incontinence, prolapse, painful intercourse), pregnancy physiotherapy (back pain, pelvic girdle pain, exercise guidance), postnatal recovery (diastasis recti, pelvic floor restoration, C-section scar work), perimenopausal musculoskeletal changes. All provided by trained female physiotherapists.",
+      href: "/conditions/pelvic-floor-physiotherapy-dubai/",
+      description: "Specialised area often unavailable elsewhere in JVC. Pelvic floor assessment and rehabilitation (incontinence, prolapse, painful intercourse), pregnancy physiotherapy (back pain, pelvic girdle pain, exercise guidance), postnatal recovery (diastasis recti, pelvic floor restoration, C-section scar work), perimenopausal musculoskeletal changes. Provided by Hafsina K K, our female physiotherapist, who is certified in antenatal and postnatal fitness.",
       commonConditions: [
         " pelvic floor dysfunction",
         "diastasis recti",
@@ -109,7 +115,7 @@ export const physiotherapyJvcSpecializations = {
       number: "06",
       title: "Paediatric Physiotherapy",
       href: "/physiotherapy/pediatric-dubai/",
-      description: "Physiotherapy for children — developmental concerns (gross motor delay, postural issues, scoliosis screening and management), sports injuries in children and adolescents, post-surgical paediatric rehabilitation, neurological conditions in children (cerebral palsy, developmental coordination disorder). Approach is age-appropriate, often play-based for younger children, with family involvement throughout.",
+      description: "Physiotherapy for children and teenagers: sports injuries, growth-related knee and heel pain, posture problems and recovery after fractures. Sessions are adapted to the child's age and a parent stays in the room.",
       commonConditions: [
         "developmental coordination delay",
         "sports injuries in adolescents",
@@ -118,20 +124,8 @@ export const physiotherapyJvcSpecializations = {
         "post-fracture recovery in children"
       ]
     },
-    {
-      number: "07",
-      title: "Cardiopulmonary Rehabilitation",
-      description: "Specialised rehabilitation for cardiac and respiratory conditions. Post-cardiac event recovery (post-MI, post-cardiac surgery), respiratory rehabilitation for COPD and asthma, post-COVID rehabilitation for patients with persistent respiratory or fatigue symptoms, pulmonary fibrosis support, pre-surgical conditioning.",
-      commonConditions: [
-        "Post-cardiac event ",
-        "Post-COVID syndrome ",
-        "COPD ",
-        "pulmonary fibrosis",
-        "pre-operative conditioning"
-      ]
-    }
   ],
-  footer: "At consultation, you are matched with the physiotherapist whose specific specialisation best fits your needs. For complex cases involving multiple specialisations, multi-therapist coordinated care is available."
+
 };
 
 export const physiotherapyJvcMechanism = {
@@ -145,11 +139,11 @@ export const physiotherapyJvcMechanism = {
     },
     {
       title: "Dry Needling",
-      description: "The technique of inserting fine needles into trigger points and tight muscle bands to release tension and reduce pain. Particularly effective for chronic muscle tension patterns, headache types, and persistent musculoskeletal pain. Performed by therapists with specific dry needling certification."
+      description: "Fine needles placed into trigger points and tight muscle bands to release tension and reduce pain. Performed by Hafsina K K, who is certified in dry needling."
     },
     {
       title: "Electrotherapy and Modalities",
-      description: "Interferential Current (IFC), Transcutaneous Electrical Nerve Stimulation (TENS), therapeutic ultrasound, shockwave therapy (for specific tendon conditions), and laser therapy. Used as adjuncts to manual therapy and exercise — never as standalone treatment."
+      description: "Advanced electrotherapy and rehabilitation equipment is used where it helps, alongside hands-on treatment and exercise - never on its own."
     },
     {
       title: "Exercise Prescription",
@@ -162,17 +156,37 @@ export const physiotherapyJvcMechanism = {
     {
       title: "Sport-Specific Rehabilitation",
       description: "Return-to-sport protocols including sport-specific movement assessment, biomechanical analysis, plyometric progression, and reactive testing. Critical for athletes returning from injury — premature return is the leading cause of re-injury."
+    },
+    {
+      title: "Biomechanical Cupping",
+      description: "Cupping used to improve tissue mobility and circulation, usually alongside manual therapy for tightness and restricted movement. Hafsina K K is certified in biomechanical cupping."
+    },
+    {
+      title: "IASTM (Instrument-Assisted Soft Tissue Mobilisation)",
+      description: "Handheld instruments used to treat soft-tissue restrictions, scar tissue and chronic tightness. Hafsina K K is certified in IASTM."
     }
   ],
   image: "/images/physiotherapy-treatment-vedara-jvc.webp",
   imageAlt: "Modern physiotherapy treatment techniques at Vedara Care JVC"
 };
 
+export const physiotherapyJvcChoosing = {
+  label: "CHOOSING A PHYSIOTHERAPIST",
+  title: "How to choose a physiotherapist in Dubai.",
+  techniques: [
+    { title: "Check the DHA licence", description: "Every physiotherapist in Dubai must hold a DHA licence. Search their name or licence number in the DHA Sheryan medical directory." },
+    { title: "Ask who will treat you", description: "Some clinics move you between therapists or assistants. At Vedara Care, the same physiotherapist treats you at every session." },
+    { title: "Expect one-to-one time", description: "Hands-on treatment and exercise need the physiotherapist's full attention, not a shared session." },
+    { title: "Ask for a written plan", description: "A good physiotherapist explains the cause, the plan, how many sessions to expect and what you do at home." },
+    { title: "Check insurance before you start", description: "Ask whether the clinic bills your insurer directly or gives you documents to claim. Vedara Care works on reimbursement." }
+  ]
+};
+
 export const physiotherapyJvcProtocol = {
   bgColor: "bg-[#FAF8F5]",
   label: "WHAT TO EXPECT",
-  title: "Your physiotherapy journey at our JVC clinic.",
-  description: "A representative treatment journey for moderate musculoskeletal conditions. Acute injuries, post-surgical rehabilitation, and chronic conditions follow modified versions calibrated to your specific situation.",
+  title: "What happens at your first physiotherapy appointment in JVC?",
+  description: "Your first visit is a full assessment and usually your first treatment. Here is how a typical course of physiotherapy runs at our clinic; acute injuries, post-surgery and neurological cases follow their own pace.",
   phases: [
     {
       number: "1",
@@ -242,16 +256,19 @@ export const physiotherapyJvcProtocol = {
 };
 
 export const physiotherapyJvcTeam = {
-  label: "MEET OUR TEAM",
-  title: "DPT-qualified physiotherapists at our JVC clinic.",
+  label: "YOUR PHYSIOTHERAPIST",
+  title: "Your physiotherapist at our JVC clinic.",
   team: [
     {
       name: "Hafsina K K",
-      credential: "DHA-Licensed Physiotherapist",
+      credentials: "Bachelor of Physiotherapy · DHA-P 64812828 · 7+ years' experience",
       specialty: "Orthopedic, Neurological, Sports & Women's Health Rehabilitation",
-      tags: ["Sports Physio", "Manual Therapy", "Dry Needling", "Women's Health", "Neurological Rehab", "Paediatric"],
+      tags: ["Sports Physiotherapy", "Manual Therapy", "Dry Needling", "Women's Health", "Neurological Rehab", "Paediatric"],
       experience: "7 years experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
+      languages: "English, Hindi, Malayalam",
       link: "/doctors/hafsina-kk-physiotherapist/",
+      verifyText: "Verify licence on DHA Sheryan",
+      verifyHref: "https://services.dha.gov.ae/sheryan/wps/portal/home/medical-directory",
       image: "/images/hafsina-kk-physiotherapist-dubai.webp"
     }
   ]
@@ -266,12 +283,6 @@ export const physiotherapyJvcImageCards = {
       alt: "Modern physiotherapy treatment techniques at Vedara Care JVC",
       title: "Treatment Rooms",
       description: "Modern, private treatment rooms equipped for hands-on physiotherapy."
-    },
-    {
-      image: "/images/physiotherapy-jvc-clinic.jpg",
-      alt: "Vedara Care physiotherapy clinic location JVC Dubai near Circle Mall",
-      title: "Rehabilitation Gym",
-      description: "Full rehabilitation space for exercise therapy and functional work."
     },
     {
       image: "/images/physiotherapy-jvc-waiting.jpg",
@@ -334,7 +345,7 @@ export const physiotherapyJvcHomeHealthcareNew = {
   // description: "For patients with mobility limitations or difficulty traveling to our JVC clinic, we provide home physiotherapy across Dubai — particularly useful for post-surgical patients in early recovery, elderly orthopaedic patients, and those with significant mobility restrictions.",
   quote: ["Vedara Care is one of the few DHA-licensed polyclinics in Dubai offering both physiotherapy and Ayurvedic medicine under one license, with both teams sharing clinical notes for joint patients. For the right patient, this integration produces outcomes neither modality achieves alone.",
     "The conditions where integrated Ayurveda + physiotherapy is most valuable include chronic back pain (where physiotherapy addresses biomechanics and Ayurvedic Kati Vasti addresses tissue-level inflammation), arthritis (combining physiotherapy strengthening with Ayurvedic Janu Vasti for knees, Greeva Vasti for cervical), frozen shoulder (physiotherapy mobilisation with Ayurvedic Patra Pinda Sweda), post-stroke neurological rehabilitation, postnatal recovery (pelvic floor physiotherapy with Sutika Paricharya), and chronic sports injuries that have plateaued with physiotherapy alone.",
-    "For most patients, however, conventional physiotherapy alone is what they need — acute injuries, post-surgical rehabilitation, paediatric physiotherapy, cardiopulmonary rehab, and women's health are typically physiotherapy-only services. Integration is offered when clinically appropriate, never as a default upsell.",
+    "For most patients, however, conventional physiotherapy alone is what they need — acute injuries, post-surgical rehabilitation, paediatric physiotherapy, and women's health are typically physiotherapy-only services. Integration is offered when clinically appropriate, never as a default upsell.",
 
   ],
   features: [
@@ -344,7 +355,7 @@ export const physiotherapyJvcHomeHealthcareNew = {
     "Honest assessment of when integration helps vs. when standalone physio is sufficient",
 
   ],
-  priceText: "Coming soon — launching at AED 600",
+  priceText: "Home physiotherapy: coming soon",
   priceNote: "Additional travel charges may apply for distant locations",
   footer: "Home visits are especially valuable for post-ACL repair, post-joint replacement, and neurological rehabilitation patients who find clinic travel challenging.",
   image: "/images/physiotherapy-team-vedara-jvc.webp",
@@ -356,187 +367,102 @@ export const physiotherapyJvcHomeHealthcareNew = {
 export const physiotherapyJvcInsurance = {
   bgColor: "bg-[#F5F1E8]",
   label: "INSURANCE",
-  title: "Insurance reimbursement support with all major insurers.",
-  insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
+  title: "Does insurance cover physiotherapy in Dubai?",
   paragraphs: [
-    "Most health insurance plans in Dubai cover physiotherapy treatments when there is medical justification.",
-    "We accept patients with all major insurance providers on a reimbursement basis — full documentation provided. WhatsApp your insurance card before booking to confirm coverage."
+    "Most Dubai health insurance plans include physiotherapy when it is medically needed, usually with a yearly session limit and sometimes a doctor's referral.",
+    "Vedara Care works on a reimbursement basis with all major insurers: you pay at the clinic and we give you the full documents your insurer needs. WhatsApp a photo of your insurance card before booking and we will help you check your cover."
   ],
+  sidebarTitle: "Reimbursement documents provided for:",
+  insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
   sidebarText: [
     '<a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20for%20physiotherapy%20at%20JVC" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm exact coverage and out-of-pocket costs.'
   ],
   whatsappNumber: "971555736312"
 };
 
-export const physiotherapyJvcPricing = {
-  bgColor: "bg-[#FAF8F5]",
-  label: "TRANSPARENT PRICING",
-  title: "What physiotherapy at our JVC clinic actually costs.",
-  description: "Specific pricing for our most-common services. Final pricing depends on condition complexity and any specialised modalities required, confirmed at your initial assessment.",
-  pricingCards: [
-    {
-      title: "Initial Physiotherapy Assessment",
-      price: "AED 500",
-      duration: "60 minutes at our JVC clinic",
-      bestFor: "First visit for any condition",
-      features: [
-        "Comprehensive consultation with DPT-qualified physiotherapist",
-        "Detailed history and physical examination",
-        "Postural and movement screening",
-        "Specific physiotherapy diagnosis",
-        "Written treatment plan with realistic timeline",
-        "First treatment intervention typically same session",
-        "Insurance documentation provided"
-      ]
-    },
-    {
-      title: "Single Follow-Up Session",
-      price: "AED 350 - AED 500",
-      duration: "45 min (AED 350) or 60 min (AED 500)",
-      bestFor: "Standard follow-up sessions after initial assessment",
-      features: [
-        "Hands-on manual therapy",
-        "Modalities as appropriate (dry needling, IFC, ultrasound)",
-        "Exercise prescription and progression",
-        "Documentation in your electronic medical record",
-        "Home programme updates"
-      ],
-      highlight: true
-    },
-    {
-      title: "6-Session Package",
-      price: "AED 2,400",
-      duration: "60-minute sessions",
-      bestFor: "Sub-acute conditions, moderate rehabilitation",
-      features: [
-        "20% savings vs single-session rate",
-        "Includes 1 free GP consultation",
-        "Includes specialised modalities",
-        "Coordinated care for complex conditions",
-        "Home programme with video guidance"
-      ]
-    },
-    {
-      title: "12-Session Package",
-      price: "AED 4,200",
-      duration: "60-minute sessions",
-      bestFor: "Chronic conditions, post-surgical rehab",
-      features: [
-        "30% savings vs single-session rate",
-        "Unlimited free GP consultations",
-        "Includes specialised modalities",
-        "Coordinated care for complex conditions",
-        "Home programme with video guidance"
-      ]
-    }
-  ],
 
-  additionalServices: [
-    { name: "Dry needling (add-on)", price: "AED 150" },
-    { name: "Sports performance assessment", price: "AED 500" },
-    { name: "Postnatal physiotherapy assessment", price: "AED 400" },
-    { name: "Home visit session", price: "Coming soon — launching at AED 600" }
-  ]
-};
-
-export const physiotherapyJvcReviews = {
-  label: "PATIENT STORIES",
-  title: "Real physiotherapy outcomes.",
-  bgColor: "bg-[#2D5A4A]",
-  cardBgColor: "rgba(255, 255, 255, 0.05)",
-  items: [
-    {
-      quote: "Torn ACL during a football game in Sports City. Vedara's post-surgical rehab programme had me running again in six months. The physiotherapy team was specific, evidence-based, and never let me cut corners on progression.",
-      author: "— James M.",
-      details: "ACL Reconstruction Recovery<br />24-session programme ”· JVC District 12 ”· February 2026"
-    },
-    {
-      quote: "Three years of chronic neck pain. Multiple clinics in Dubai. Vedara was the first to combine proper manual therapy with home exercise that actually worked. Three months later — I sleep through the night without pain.",
-      author: "— Sarah K.",
-      details: "Chronic Cervical Pain<br />14-session programme ”· Al Barsha South ”· January 2026"
-    },
-    {
-      quote: "Postnatal pelvic floor dysfunction after twin pregnancy. Found Vedara through their integrated postnatal programme. The pelvic floor work transformed my recovery. Female physiotherapist made all the difference.",
-      author: "— Priya R.",
-      details: "Postnatal Pelvic Floor Recovery<br />12-session programme ”· Dubai Hills ”· March 2026"
-    }
-  ],
-  stats: [
-    {
-      value: "4.5",
-      label: "stars on Google"
-    },
-    {
-      value: "15",
-      label: "reviews on Google"
-    },
-
-
-
-
-
-  ],
-  buttonText: "Read All Physiotherapy Reviews",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
-};
+export const physiotherapyJvcReviews = physioReviewsBlock();
 
 export const physiotherapyJvcFaqs = {
-  bgColor: "bg-[#F5F1EA]",
   label: "COMMON QUESTIONS",
-  sidebarLinks: [
-    { text: "Read about Ayurveda Clinic in JVC", href: "/ayurveda-clinic-jvc" },
-
-  ],
-  title: "What patients ask about physiotherapy at our JVC clinic.",
-  description: "For integrated Ayurveda + physiotherapy care, see specific condition pages.",
+  sidebarLinks: [{ text: "Read about Ayurveda Clinic in JVC", href: "/ayurveda-clinic-jvc/" }],
+  title: "Physiotherapy in JVC and Dubai: your questions answered.",
+  description: "Clear answers from Vedara Care Polyclinic, reviewed by Hafsina K K, DHA-licensed physiotherapist.",
   faqs: [
     {
       question: "Do I need a doctor's referral for physiotherapy in Dubai?",
-      answer: "No. In Dubai, physiotherapy is a direct-access service — you can book directly without a doctor's referral. However, for insurance coverage, your insurer may require referral from your GP or specialist depending on your plan. For complex conditions, we often recommend GP evaluation before physiotherapy to ensure appropriate diagnosis. For acute injuries with potential fracture or serious pathology, ER or GP evaluation first is standard practice."
+      answer: "No. You can book directly with a DHA-licensed physiotherapist. Some insurance plans ask for a doctor's referral before they reimburse sessions, so check your policy or WhatsApp us a photo of your insurance card."
     },
     {
-      question: "How quickly can I get an appointment at the JVC physiotherapy clinic?",
-      answer: 'Typically same-day or next-day for new patients. Our scheduling allows priority booking for acute injuries (within 24 hours when possible) and structured booking for chronic conditions. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response — typically within 15 minutes during business hours. Saturday and evening slots are available for working patients.'
+      question: "How much does physiotherapy cost in Dubai?",
+      answer: "It depends on your condition, how long each session is and how many sessions you need. Message us on WhatsApp with your condition and we will reply with the exact cost before you book. If you have insurance, we give you the documents you need to claim."
+    },
+    {
+      question: "Does insurance cover physiotherapy in Dubai?",
+      answer: "Most Dubai health insurance plans include physiotherapy when it is medically needed, usually with a yearly session limit and sometimes a doctor's referral. Vedara Care works on reimbursement with all major insurers: you pay at the clinic and we provide full documents for your claim."
+    },
+    {
+      question: "How quickly can I get a physiotherapy appointment in JVC?",
+      answer: "Same-day appointments are often available. The clinic is open daily from 9am to 10pm; WhatsApp us to check today's slots."
+    },
+    {
+      question: "Is there a female physiotherapist in JVC?",
+      answer: "Yes. Hafsina K K, our DHA-licensed physiotherapist, is female. She treats general musculoskeletal and sports problems as well as pelvic floor, pregnancy and postnatal conditions."
+    },
+    {
+      question: "What happens at my first physiotherapy appointment?",
+      answer: "Your physiotherapist asks about your symptoms and history, assesses how you move, explains what is causing the problem and agrees a plan with you. Most people also receive their first treatment and home exercises in the same visit."
     },
     {
       question: "How many physiotherapy sessions will I need?",
-      answer: "Varies enormously by condition. Acute injuries (ankle sprains, mild strains) often resolve in 4-8 sessions. Chronic conditions (back pain, neck pain) typically need 10-16 sessions. Post-surgical rehabilitation (ACL, joint replacement) usually 20-30+ sessions over 3-6 months. Neurological rehabilitation can be ongoing. At your initial assessment, we provide a realistic estimated session count for your specific condition."
+      answer: "It depends on the problem. Your physiotherapist gives you an estimate after the first assessment; recent strains usually need fewer sessions than long-standing pain or recovery after surgery, and progress is reviewed as you go."
     },
     {
-      question: "Will my insurance cover physiotherapy at the JVC clinic?",
-      answer: 'Most Dubai insurance plans cover physiotherapy when there is medical justification. We accept patients with all major insurance providers and provide full reimbursement documentation. Coverage varies by plan — annual session limits, copays, and condition restrictions apply. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking, and our team will confirm exact coverage and your out-of-pocket cost.'
+      question: "What should I bring to my first session?",
+      answer: "Any scan, X-ray or MRI reports, surgical notes if you have had an operation, a list of your medicines, your insurance card, and comfortable clothes you can move in."
     },
     {
       question: "What is the difference between physiotherapy and chiropractic care?",
-      answer: "Physiotherapy is a regulated healthcare profession requiring a Doctor of Physical Therapy (DPT) degree, evidence-based practice, and broader scope including exercise prescription, modalities, and rehabilitation across all body systems. Chiropractic focuses primarily on spinal manipulation. At Vedara Care, we offer physiotherapy with manual therapy techniques (including manipulation where appropriate), but our scope is much broader than chiropractic alone."
-    },
-    {
-      question: "Do you offer home visits for physiotherapy?",
-      answer: "Home physiotherapy is launching soon at Vedara Care. In the meantime, our JVC clinic offers same-day and next-day appointments for all patients."
-    },
-    {
-      question: "Can I book physiotherapy without seeing an Ayurvedic doctor first?",
-      answer: "Absolutely. Most physiotherapy patients at our JVC clinic see only physiotherapists — no Ayurvedic consultation involved. Integration with Ayurveda is available for specific conditions where combined care produces stronger outcomes, but it is never a default or required step. You can book straight physiotherapy and that is what you will receive."
-    },
-    {
-      question: "What conditions does dry needling help?",
-      answer: "Dry needling is effective for chronic muscle tension patterns, trigger points, certain headache types (particularly tension-type and some migraine patterns), persistent muscular pain that has not responded to other manual therapy, and certain tendinopathies. It is performed by certified physiotherapists with specific training. Most patients find it surprisingly comfortable and effective."
-    },
-    {
-      question: "Do you treat sports injuries from gym workouts and running in Dubai?",
-      answer: "Yes — sports injuries from gym training (CrossFit, F45, HIIT, weightlifting), running (Dubai's outdoor running community is significant despite the climate), padel (which has exploded in popularity in JVC), tennis, golf, and other recreational sports are a major part of our practice. We have therapists with specific sports physiotherapy expertise."
+      answer: "Physiotherapy is a DHA-regulated profession that covers assessment, hands-on treatment, exercise and rehabilitation for the whole body, including after surgery and for neurological conditions. Chiropractic care focuses mainly on spinal adjustment."
     },
     {
       question: "Can children have physiotherapy at the JVC clinic?",
-      answer: "Yes — we have paediatric physiotherapy specialists. Children and adolescents are treated for sports injuries, developmental concerns, postural issues, scoliosis screening, post-fracture recovery, and neurological conditions. Approach is age-appropriate, family-involved, and often play-based for younger children."
+      answer: "Yes. Hafsina K K treats children and teenagers, and a parent stays in the room throughout. See our paediatric physiotherapy page for the conditions we treat."
+    },
+    {
+      question: "Do you treat sports injuries from the gym, padel and running?",
+      answer: "Yes. Sprains, muscle strains, tendon problems and ligament injuries from gym training, padel, tennis, running and football are treated with hands-on care and a staged return to sport."
+    },
+    {
+      question: "Can I book physiotherapy without seeing an Ayurvedic doctor?",
+      answer: "Yes. Most patients see only the physiotherapist. Combined Ayurveda and physiotherapy care is available for some long-term conditions if you want it."
+    },
+    {
+      question: "Do you offer home physiotherapy?",
+      answer: "Home physiotherapy is coming soon. Until then, all physiotherapy takes place at our JVC clinic. WhatsApp us to be told when home visits start."
+    },
+    {
+      question: "How can I check that my physiotherapist is licensed?",
+      answer: "Search the DHA Sheryan medical directory for Hafsina K K or licence number 64812828. Every physiotherapist practising in Dubai must hold a DHA licence."
+    },
+    {
+      question: "Where is the physiotherapy clinic in JVC?",
+      answer: "Vedara Care Polyclinic, Binghatti Azure, Shop 4, Al Barsha South Fourth, Jumeirah Village Circle, Dubai, walking distance from Circle Mall. There is free and paid parking nearby."
     }
   ]
+};
+
+export const physiotherapyJvcAreas = {
+  label: "AREAS WE SERVE",
+  title: "Physiotherapy near JVC, JVT and Al Barsha South.",
+  text: "Our clinic is in Jumeirah Village Circle, next to Circle Mall. Patients come from JVC, Jumeirah Village Triangle (JVT), Al Barsha South, Arjan, Dubai Sports City, Motor City, Al Barsha, Barsha Heights and Dubai Hills, usually within 10 to 20 minutes by car.",
+  cta: { text: "Get directions", href: "https://maps.google.com/maps?cid=16711954996415388530" }
 };
 
 export const physiotherapyJvcLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
-  title: "Where physiotherapy happens at Vedara Care JVC.",
+  title: "Where to find our physiotherapy clinic in JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
@@ -554,20 +480,20 @@ export const physiotherapyJvcLocation = {
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   image: "",
   alt: "Vedara Care physiotherapy clinic location JVC Dubai near Circle Mall",
-  description: "Our JVC clinic has dedicated physiotherapy treatment rooms with modern equipment, a full rehabilitation gym, specialised pelvic floor assessment room, and integrated access to our Ayurveda department when needed. Free patient parking available.",
+  description: "Vedara Care Polyclinic, Binghatti Azure, Shop 4, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall. Private treatment rooms with advanced physiotherapy equipment, and the Ayurveda department in the same clinic. Free and paid parking nearby. Open daily 9am to 10pm.",
   buttonText: "Book a Physiotherapy Assessment"
 };
 
 export const physiotherapyJvcFinalCTA = {
   bgColor: "bg-[#FAF8F5]",
   label: "READY TO START?",
-  title: "Same-day physiotherapy appointments available at our JVC clinic.",
-  description: "If you have an acute injury, persistent pain, or a chronic condition that needs proper physiotherapy attention, the next step is a 60-minute initial assessment at our JVC clinic. We provide a specific physiotherapy diagnosis, a written treatment plan with realistic timeline, and your first treatment intervention typically the same session. Same-day and next-day appointments are usually available — particularly for acute injuries.",
+  title: "Book physiotherapy at our JVC clinic.",
+  description: "Whether it is a new injury, long-standing pain or recovery after surgery, the next step is a full assessment with Hafsina K K. Same-day appointments are often available; WhatsApp us to check today's slots.",
   button1Text: "Book a Physiotherapy Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20physiotherapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 500 · DHA-licensed JVC clinic · Insurance reimbursement with all major insurers · Same-day appointments often available · Home services launching soon"
+  footer: "DHA-licensed physiotherapist · Insurance reimbursement with all major insurers · Open daily 9am to 10pm · Near Circle Mall, JVC"
 };
 
 export const physiotherapyJvcRelatedPages = {
@@ -576,13 +502,16 @@ export const physiotherapyJvcRelatedPages = {
   linkText: "Browse all physiotherapy services",
   linkHref: "/physiotherapy-jvc/",
   pages: [
-
+    {
+      title: "Meet Hafsina K K",
+      description: "DHA-licensed physiotherapist providing one-to-one care at our JVC clinic.",
+      href: "/doctors/hafsina-kk-physiotherapist/"
+    },
     {
       title: "Ayurveda Clinic in JVC",
       description: "Our DHA-licensed Ayurveda department at the same JVC clinic. For chronic conditions where integrated care produces stronger outcomes.",
       href: "/ayurveda-clinic-jvc/"
     },
-
     {
       title: "Back Pain Treatment",
       description: "Integrated physiotherapy + Ayurveda for chronic back pain. Most-utilised integrated programme.",
@@ -596,7 +525,124 @@ export const physiotherapyJvcRelatedPages = {
     {
       title: "Postnatal Care",
       description: "Pelvic floor physiotherapy and 45-day Ayurvedic postnatal programmes for new mothers.",
-      href: "/conditions/pelvic-floor-physiotherapy-dubai"
+      href: "/conditions/pelvic-floor-physiotherapy-dubai/"
     },
   ]
+};
+
+export const physiotherapyConditions = {
+  bgColor: "bg-[#FFFFFF]",
+  label: "CONDITIONS",
+  title: "Specific conditions treated across Dubai patient populations.",
+  conditions: [
+    {
+      title: "Chronic Lower Back Pain",
+      description: "The most-utilised pathway",
+      link: "/conditions/back-pain-physiotherapy-jvc/"
+    },
+    {
+      title: "Cervical Spondylosis & Neck Pain",
+      description: "Common in Dubai's desk-working population",
+      link: "/conditions/neck-pain-physiotherapy-jvc"
+    },
+    {
+      title: "Frozen Shoulder",
+      description: "Often more common in diabetic patients (common in Dubai populations)",
+      link: "/conditions/frozen-shoulder-dubai"
+    },
+    {
+      title: "Knee Osteoarthritis",
+      description: "Hot climate compounds activity limitations",
+      link: "/conditions/knee-pain-physiotherapy-dubai"
+    },
+    {
+      title: "Tennis Elbow / Golfer's Elbow",
+      description: "Padel and tennis specific",
+      link: "/conditions/tennis-elbow-dubai/"
+    },
+    {
+      title: "Plantar Fasciitis",
+      description: "Footwear and surface-related"
+    },
+    {
+      title: "Ankle Sprains & Sports Injuries",
+      description: "Padel, football, basketball common",
+      link: "/physiotherapy/sports-injury-jvc"
+    },
+    {
+      title: "Running Injuries",
+      description: "Marathon and recreational running"
+    },
+    {
+      title: "Gym Training Injuries",
+      description: "F45, HIIT, weightlifting patterns",
+      link: "/physiotherapy/sports-injury-jvc"
+    },
+    {
+      title: "Padel-Specific Injuries",
+      description: "Growing Dubai patient cohort",
+      link: "/physiotherapy/sports-injury-jvc"
+    },
+    {
+      title: "ACL Reconstruction Recovery",
+      description: "Often sports-related",
+      link: "/physiotherapy/post-surgery-rehab-dubai"
+    },
+    {
+      title: "Joint Replacement Rehabilitation",
+      description: "Older expat populations",
+      link: "/physiotherapy/post-surgery-rehab-dubai"
+    },
+    {
+      title: "Post-Stroke Rehabilitation",
+      description: "Coordinated with neurology",
+      link: "/conditions/stroke-rehab-dubai"
+    },
+    {
+      title: "Pelvic Floor Dysfunction",
+      description: "Underserved specialty in Dubai",
+      link: "/conditions/pelvic-floor-physiotherapy-dubai"
+    },
+    {
+      title: "Postnatal Recovery",
+      description: "Diastasis recti, pelvic floor",
+      link: "/conditions/pelvic-floor-physiotherapy-dubai/"
+    }
+  ],
+  footerText: "See all conditions we treat →",
+  footerLink: "/conditions"
+};
+
+export const physiotherapyTwoImage = {
+  bgColor: "bg-white",
+  label: "SERVING ALL OF DUBAI",
+  title: "Patients travel to our JVC clinic from across Dubai.",
+  description1: "While our clinic is located in Jumeirah Village Circle (JVC), our patient base spans the full Dubai geography. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road makes the JVC location reachable from most parts of Dubai in 15-25 minutes.",
+  within10Minutes: [
+    "Jumeirah Village Circle (JVC)",
+    "Jumeirah Village Triangle (JVT)",
+    "Al Barsha South",
+    "Dubai Sports City",
+    "Motor City",
+    "Arjan"
+  ],
+  within1520Minutes: [
+    "Dubai Hills Estate",
+    "Dubai Marina",
+    "Jumeirah Beach Residence (JBR)",
+    "Al Furjan",
+    "Discovery Gardens"
+  ],
+  within2030Minutes: [
+    "Downtown Dubai",
+    "Business Bay",
+    "Palm Jumeirah",
+    "Mirdif",
+    "Damac Hills",
+    "Mudon",
+    "Town Square"
+  ],
+  description2: "For patients in areas outside reasonable commute distance, or patients with mobility constraints, our home physiotherapy service operates across Dubai. Home visits are particularly utilised for post-surgical patients in early recovery, elderly orthopaedic patients, and patients with significant mobility limitations.",
+  imageAlt: "Vedara Care JVC physiotherapy clinic Dubai serving all neighbourhoods",
+  image: "/images/physiotherapy-dubai-clinic-vedara-jvc.webp",
 };

@@ -1,66 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { drPriyaNair, drZainab } from '../../data/doctorData';
+import { drZainab } from '../../data/doctorData';
 
-const practitioners = [
-  {
-    name: 'Johanna Dianne U. Bautista',
-    specialty: 'Front Desk Receptionist',
-    focus: 'Patient Coordination & Front Desk Operations',
-    image: '/images/johanna-bautista.jpeg',
-    alt: 'Johanna Dianne U. Bautista, Front Desk Receptionist at Vedara Care, JVC',
-    slug: 'johanna-bautista',
-    url: '/doctors/johanna-bautista'
-  },
-  {
-    name: 'Dr. Zainab',
-    specialty: 'Ayurveda Practitioner · BAMS',
-    focus: 'PCOS, Nadi Pareeksha, Musculoskeletal, Postnatal',
-    image: '/images/dr-zainab-ayurveda-jvc.webp',
-    alt: drZainab.alt,
-    slug: 'dr-zainab-ayurveda',
-    url: '/doctors/dr-zainab-ayurveda'
-  },
-  // {
-  //   name: 'Dr. Meera Krishnan',
-  //   specialty: 'Senior Ayurvedic Physician',
-  //   focus: 'Panchakarma & Detox',
-  //   image: '/images/dr-meera-krishnan-ayurvedic-physician-jvc-dubai.webp',
-  //   alt: 'Dr. Meera Krishnan, BAMS-qualified DHA-licensed Ayurvedic physician at Vedara Care Polyclinic, JVC Dubai',
-  //   slug: 'dr-meera-krishnan-ayurveda',
-  //   url: '/doctors/dr-meera-krishnan-ayurveda'
-  // },
-  // {
-  //   name: 'Dr. James Okafor',
-  //   specialty: 'Lead Physiotherapist',
-  //   focus: 'Sports Rehabilitation',
-  //   image: '/images/dr-james-okafor-physiotherapist-jvc-dubai.webp',
-  //   alt: 'Dr. James Okafor, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
-  //   slug: 'dr-james-okafor-physiotherapy',
-  //   url: '/doctors/dr-james-okafor-physiotherapy'
-  // },
-  // {
-  //   name: 'Dr. Layla Al Rashid',
-  //   specialty: 'Consultant Dermatologist',
-  //   focus: 'Integrative Dermatology',
-  //   image: '/images/dr-layla-al-rashid-dermatologist-jvc-dubai.webp',
-  //   alt: 'Dr. Layla Al Rashid, DHA-licensed consultant dermatologist at Vedara Care Polyclinic, JVC Dubai',
-  //   slug: 'dr-layla-al-rashid-dermatology',
-  //   url: '/doctors/dr-layla-al-rashid-dermatology'
-  // },
-
-
-  {
-    name: 'Hafsina K K',
-    specialty: 'Physiotherapist',
-    focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
-    image: '/images/hafsina-kk-physiotherapist-dubai.webp',
-    alt: 'Hafsina K K, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'hafsina-kk-physiotherapist',
-    url: '/doctors/hafsina-kk-physiotherapist'
-  },
-
+const clinicians = [
   {
     name: 'Dr. Sanjida Islam Suchana',
     specialty: 'General Practitioner | Clinical Dermatology',
@@ -70,15 +13,35 @@ const practitioners = [
     slug: 'dr-sanjida-islam-suchana',
     url: '/doctors/dr-sanjida-islam-suchana'
   },
-
   {
-    name: 'Emiel Sanchez',
-    specialty: 'Clinic Receptionist',
-    focus: 'Administrative & Patient Relations',
-    image: '/images/emiel-sanchez-receptionist.webp',
-    alt: 'Emiel Sanchez, Clinic Receptionist at Vedara Care Polyclinic, JVC Dubai',
-    slug: 'emiel-sanchez',
-    url: '/doctors/emiel-sanchez'
+    name: 'Hafsina K K',
+    specialty: 'Physiotherapist',
+    focus: 'Neurological Rehabilitation, Musculoskeletal Disorders',
+    image: '/images/hafsina-kk-physiotherapist-dubai.webp',
+    alt: 'Hafsina K K, DHA-licensed physiotherapist at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'hafsina-kk-physiotherapist',
+    url: '/doctors/hafsina-kk-physiotherapist'
+  },
+  {
+    name: 'Dr. Zainab Sheikh',
+    specialty: 'Ayurveda Practitioner · BAMS',
+    focus: 'PCOS, Nadi Pareeksha, Musculoskeletal, Postnatal',
+    image: '/images/dr-zainab-ayurveda-jvc.webp',
+    alt: drZainab.alt,
+    slug: 'dr-zainab-ayurveda',
+    url: '/doctors/dr-zainab-ayurveda'
+  }
+];
+
+const team = [
+  {
+    name: 'Johanna Bautista',
+    specialty: 'Patient Care & Operations Specialist',
+    focus: 'Patient Coordination & Front Desk Operations',
+    image: '/images/johanna-bautista.jpeg',
+    alt: 'Johanna Bautista, Patient Care & Operations Specialist at Vedara Care, JVC',
+    slug: 'johanna-bautista',
+    url: '/doctors/johanna-bautista'
   },
   {
     name: 'Aesthetician Arfah Owais',
@@ -89,31 +52,30 @@ const practitioners = [
     slug: 'arfah-owais',
     url: '/doctors/arfah-owais'
   },
-  // {
-  //   name: 'Dr. Anusha Makkena',
-  //   specialty: 'MBBS, MS ENT',
-  //   focus: 'ENT Disorders, Head and Neck Surgery',
-  //   image: '/images/dr-anusha-makkena-ent-jvc-dubai.webp',
-  //   alt: 'Dr. Anusha Makkena, MBBS, MS ENT-qualified DHA-licensed ENT specialist at Vedara Care Polyclinic, JVC Dubai',
-  //   slug: 'dr-anusha-makkena',
-  //   url: '/doctors/dr-anusha-makkena'
-  // },
-
+  {
+    name: 'Emiel Sanchez',
+    specialty: 'Clinic Receptionist',
+    focus: 'Administrative & Patient Relations',
+    image: '/images/emiel-sanchez-receptionist.webp',
+    alt: 'Emiel Sanchez, Clinic Receptionist at Vedara Care Polyclinic, JVC Dubai',
+    slug: 'emiel-sanchez',
+    url: '/doctors/emiel-sanchez'
+  }
 ];
 
 export default function DoctorsPage() {
   return (
     <>
       <Head>
-        <title>Our Doctors | Vedara Care Polyclinic</title>
-        <meta name="description" content="Meet our team of DHA-licensed doctors at Vedara Care Polyclinic in JVC, Dubai. Ayurveda, physiotherapy, dermatology, and wellness specialists." />
+        <title>Our Clinicians & Team | Vedara Care Polyclinic</title>
+        <meta name="description" content="Meet our team of DHA-licensed doctors and clinical support staff at Vedara Care Polyclinic in JVC, Dubai." />
       </Head>
 
       <section className="py-24" style={{ backgroundColor: 'rgb(240, 233, 221)' }}>
         <div className="max-w-[1280px] mx-auto px-6">
           <div className="text-center mb-16">
             <span className="text-[13px] font-sans font-semibold tracking-[0.1em] uppercase block mb-4" style={{ color: 'rgb(201, 169, 97)' }}>
-              OUR TEAM
+              CLINICIANS
             </span>
             <h1 style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: 'clamp(32px, 4vw, 48px)', fontWeight: '500', color: 'rgb(26, 26, 26)', lineHeight: '1.2', marginBottom: '24px' }}>
               Meet Our Doctors
@@ -123,8 +85,8 @@ export default function DoctorsPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {practitioners.map((doc, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-24">
+            {clinicians.map((doc, index) => (
               <Link
                 key={index}
                 href={doc.url}
@@ -147,6 +109,48 @@ export default function DoctorsPage() {
                   </p>
                   <p className="text-[13px]" style={{ color: 'rgb(107, 107, 107)' }}>
                     {doc.focus}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mb-16">
+            <span className="text-[13px] font-sans font-semibold tracking-[0.1em] uppercase block mb-4" style={{ color: 'rgb(201, 169, 97)' }}>
+              OUR TEAM
+            </span>
+            <h2 style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: 'clamp(28px, 3.5vw, 40px)', fontWeight: '500', color: 'rgb(26, 26, 26)', lineHeight: '1.2', marginBottom: '24px' }}>
+              Clinic Operations & Patient Care
+            </h2>
+            <p className="text-[16px] font-sans max-w-2xl mx-auto" style={{ color: 'rgb(107, 107, 107)' }}>
+              Our dedicated support team ensuring a smooth and pleasant patient experience.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {team.map((member, index) => (
+              <Link
+                key={index}
+                href={member.url}
+                className="rounded-[8px] overflow-hidden cursor-pointer group"
+                style={{ background: 'rgb(255, 255, 255)', border: '1px solid rgb(229, 223, 211)' }}
+              >
+                <div className="overflow-hidden" style={{ aspectRatio: '4 / 5', background: 'rgb(228, 216, 200)' }}>
+                  <img
+                    src={member.image}
+                    alt={member.alt}
+                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-5">
+                  <p className="font-semibold text-[16px] mb-1" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26, 26, 26)' }}>
+                    {member.name}
+                  </p>
+                  <p className="text-[13px] mb-0.5" style={{ color: 'rgb(31, 69, 56)' }}>
+                    {member.specialty}
+                  </p>
+                  <p className="text-[13px]" style={{ color: 'rgb(107, 107, 107)' }}>
+                    {member.focus}
                   </p>
                 </div>
               </Link>

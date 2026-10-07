@@ -32,7 +32,7 @@ export const skinBoostersIntro = {
   label: "THE QUICK ANSWER",
   title: "Skin Boosters in JVC at Vedara Care, in one paragraph",
   blockquote: "Skin Boosters in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, are an injectable treatment designed to improve skin hydration, texture and overall skin quality rather than add facial volume. They may be considered for concerns such as dryness, dullness, uneven texture, or fine lines linked to dehydration. Because skin-booster products and protocols vary, the exact formulation depends on your treatment plan. At Vedara Care, your skin is assessed by a DHA-licensed dermatologist before treatment so the approach can be matched to your needs. Results vary, but many patients choose Skin Boosters in JVC for smoother, better-hydrated skin with limited downtime.",
-  footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+  footer: "Keep unpublished until Dr. Anusha's licence is issued"
 };
 
 export const skinBoostersAtAGlance = {

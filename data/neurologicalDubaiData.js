@@ -1,40 +1,38 @@
+import { physioReviewsBlock } from './googleReviews';
+
 export const neurologicalDubaiHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Physiotherapy in JVC", href: "/physiotherapy-jvc/" },
+    { label: "Physiotherapy", href: "/physiotherapy-jvc/" },
     { label: "Neurological Physiotherapy", active: true }
   ],
-  label: "NEUROLOGICAL PHYSIOTHERAPY · DHA-LICENSED 2509266 · SPECIALISED LONG-TERM CARE",
-  title: "Neurological physiotherapy in Dubai. Specialised care, honestly delivered.",
-  description:
-    "Neurological physiotherapy at our Jumeirah Village Circle (JVC) clinic (and soon at your home across Dubai). Specialised treatment for stroke recovery, Parkinson's disease, multiple sclerosis, traumatic brain injury, spinal cord injury, motor neurone disease, peripheral neuropathy, and other neurological conditions. Long-term care relationships, coordination with neurologists, family-involved approach. Home physiotherapy launching soon for patients who cannot easily travel.",
+  label: "NEUROLOGICAL PHYSIOTHERAPY · DHA-LICENSED CLINIC IN JVC, DUBAI",
+  title: "Neurological physiotherapy in Dubai, at our JVC clinic.",
+  description: "One-to-one physiotherapy for Parkinson's disease, peripheral neuropathy, multiple sclerosis, brain and spinal cord injury and other neurological conditions, with Hafsina K K, our DHA-licensed physiotherapist. Families are involved in every plan. Home visits are coming soon.",
   primaryCTA: "Book a Neurological Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "WhatsApp us",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20neurological%20physiotherapy%20services%20and%20book%20a%20consultation.%20Please%20assist%20me.",
   trustSignals: [
-    "Neurological-specialist physiotherapists",
-    "Home physiotherapy (launching soon)",
-    "Neurologist coordination",
-    "Insurance reimbursement"
+    "DHA-licensed physiotherapist (DHA-P 64812828)",
+    "Same physiotherapist every session",
+    "In-house GP for medical review",
+    "Wheelchair available at the clinic"
   ],
   floatingCard: {
-    title: "NEUROLOGICAL PHYSIOTHERAPY AT JVC",
-    subtitle:
-      "Specialised neurological rehabilitation at our fully equipped clinic in Jumeirah Village Circle (JVC). Home physiotherapy for neurological patients is launching soon across Dubai."
+    title: "NEUROLOGICAL PHYSIOTHERAPY IN JVC",
+    subtitle: "Task-specific training, gait and balance work and electrical stimulation at our JVC clinic, near Circle Mall."
   },
   image: "/images/neurological-physiotherapy-dubai-hero.webp",
-  alt: "Neurological physiotherapist working with patient at Vedara Care JVC Dubai"
+  alt: "Hafsina K K, DHA-licensed physiotherapist, during a neurological physiotherapy session at Vedara Care, JVC, Dubai"
 };
 
 export const neurologicalDubaiIntro = {
   bgColor: "bg-[#FFFFFF]",
   label: "THE QUICK ANSWER",
   title: "Neurological physiotherapy at Vedara Care, in one paragraph.",
-  blockquote:
-    "Neurological physiotherapy at Vedara Care Polyclinic — at our Jumeirah Village Circle (JVC) clinic, and soon launching at patient homes across Dubai — is specialised long-term rehabilitation for adults with neurological conditions. Delivered by physiotherapists with specific neurological training, we provide care for post-stroke recovery (CVA), Parkinson's disease (including LSVT-BIG protocols), multiple sclerosis (relapsing-remitting and progressive forms), traumatic brain injury, spinal cord injury, motor neurone disease, peripheral neuropathy, Bell's palsy, Guillain-Barré syndrome, functional neurological disorder, and adults with cerebral palsy. Treatment combines neurodynamic mobilisation, gait training, balance rehabilitation, functional electrical stimulation, constraint-induced movement therapy, falls prevention, and family caregiver education. We coordinate directly with neurologists, occupational therapists, speech therapists, and broader care teams. Our home physiotherapy service is launching soon across Dubai (join the waitlist via WhatsApp). Initial consultation from AED 450; structured neurological rehabilitation programmes from AED 3,800. Insurance direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-  footer:
-    "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated June 2026"
+  blockquote: "Neurological physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai helps adults living with Parkinson's disease, peripheral neuropathy, multiple sclerosis, brain or spinal cord injury, motor neurone disease, Guillain-Barré syndrome, Bell's palsy and other nerve conditions to move, balance and walk more safely and independently. Treatment is one-to-one with Hafsina K K, a DHA-licensed physiotherapist (DHA-P 64812828) with neurological rehabilitation experience, using task-specific training, large-amplitude movement training, gait and balance work, electrical stimulation and family coaching. Sessions are at our JVC clinic; home visits are coming soon. Insurance works on reimbursement. For stroke recovery, see our stroke rehabilitation page.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Reviewed October 2026."
 };
 
 export const neurologicalDubaiMechanism = {
@@ -49,9 +47,9 @@ export const neurologicalDubaiMechanism = {
 
     "<strong>Assessment is movement-based and functional</strong><br/>Neurological assessment differs from musculoskeletal assessment. We use standardised outcome measures appropriate to your condition, timed functional assessments, gait analysis, balance testing, and repeated measurements to track progress objectively. Functional assessment focuses on real-world activities you need or want to do, not just isolated movement.",
 
-    "<strong>Treatment is task-specific and intensive</strong><br/>Modern evidence supports task-specific repetitive training over older neurodevelopmental approaches. If walking is the goal, you walk — with appropriate progression, assistance, and challenge. If hand function is the goal, you practise hand tasks with appropriate intensity. General strengthening and stretching have value but specific practice produces the greatest gains. Sessions are typically 60–75 minutes because intensive practice requires time.",
+    "<strong>Treatment is task-specific and intensive</strong><br/>Modern evidence supports task-specific repetitive training over older neurodevelopmental approaches. If walking is the goal, you walk — with appropriate progression, assistance, and challenge. If hand function is the goal, you practise hand tasks with appropriate intensity. General strengthening and stretching have value but specific practice produces the greatest gains. Session length depends on your condition, energy and goals, and is agreed at your first assessment.",
 
-    "<strong>Long-term relationships matter</strong><br/>Neurological rehabilitation is measured in months and years, not weeks. The same therapist working with you throughout your care creates continuity, tracks subtle progress, adjusts to your evolving condition, and develops the therapeutic relationship that becomes long-term motivation. Hospital-style rotating therapist scheduling is generally incompatible with effective neurological rehabilitation.",
+    "<strong>Long-term relationships matter</strong><br/>Neurological rehabilitation is measured in months and years, not weeks. Hafsina K K working with you throughout your care creates continuity, tracks subtle progress, adjusts to your evolving condition, and develops the therapeutic relationship that becomes long-term motivation. Hospital-style rotating therapist scheduling is generally incompatible with effective neurological rehabilitation.",
 
     "<strong>Family and caregivers are part of the team</strong><br/>Neurological patients spend the vast majority of their time outside therapy sessions. What they do during those hours determines outcomes more than what happens during sessions. Family education on positioning, transfers, exercise programmes, falls prevention, communication strategies, and emotional support is essential. Caregivers are integrated into the care plan as active participants.",
 
@@ -69,87 +67,91 @@ export const neurologicalConditionsData = {
   bgColor: "bg-[#FAF8F3]",
   cardBg: "bg-white",
   label: "CONDITION-SPECIFIC PROTOCOLS",
-  title: "Neurological conditions we treat at our JVC clinic and across Dubai.",
-  description:
-    "Each neurological condition has specific rehabilitation principles, evidence-based protocols, and realistic outcome expectations. Our specialised approach is calibrated to your specific condition, current functional level, and individual goals.",
-
+  title: "Neurological conditions we treat at our JVC clinic.",
+  description: "Each condition needs a different approach and has different realistic goals. Hafsina K K assesses how the condition affects your movement, balance and daily life, then builds a plan around what matters to you.",
   types: [
     {
-      number: "01",
-      title: "Stroke Recovery (CVA)",
-      subtitle: "Cerebrovascular Accident Rehabilitation",
-      description:
-        "The most common neurological referral. Treatment focuses on regaining motor function (typically affected on one side — hemiparesis), gait training, balance restoration, hand and upper limb rehabilitation, falls prevention, and functional independence. We use evidence-based approaches including constraint-induced movement therapy, motor relearning, and task-specific training. Early intervention (within first 6 months) typically produces the strongest gains, but meaningful improvement is possible years after stroke. See our <a href='/conditions/stroke-rehab-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>dedicated stroke rehabilitation page</a> for detailed information.",
-      realisticOutcomes: "Most patients achieve substantial functional gains; complete recovery varies enormously by stroke severity, location, and intervention timing."
-    },
-
-    {
-      number: "02",
-      title: "Parkinson's Disease",
-      subtitle: "Progressive Neurodegenerative Disease",
-      description:
-        "Long-term physiotherapy is increasingly recognised as essential alongside medical management. Our protocols include LSVT-BIG (Lee Silverman Voice Treatment - BIG amplitude training), gait training to address shuffling and freezing, balance work to reduce falls, posture maintenance protocols, and exercise as medicine (cardiovascular work has neuroprotective effects in Parkinson's). Long-term relationships with the same therapist help track progression and adjust approach as the condition evolves.",
-      realisticOutcomes: " physiotherapy does not stop disease progression but can meaningfully maintain function, reduce falls, and improve quality of life"
+      number: "01", title: "Parkinson's Disease", subtitle: "Progressive movement disorder",
+      description: "Physiotherapy works alongside your neurologist's medication. Sessions use large-amplitude movement training, gait training for shuffling and freezing, cueing strategies, balance and falls-prevention work, posture exercises and regular aerobic exercise. <a href='#parkinsons' class='text-[#C9A84C] hover:underline'>Read more about physiotherapy for Parkinson's</a>.",
+      realisticOutcomes: "Physiotherapy does not stop Parkinson's progressing, but it can improve walking, balance and confidence and reduce the risk of falls."
     },
     {
-      number: "03",
-      title: "Multiple Sclerosis (MS)",
-      subtitle: "Demyelinating Neurological Disease",
-      description:
-        "Treatment varies by MS form (relapsing-remitting vs progressive) and current symptoms. Common focuses include fatigue management, balance and gait, spasticity management, exercise prescription (carefully calibrated to avoid heat-related symptom exacerbation), function preservation during disease progression, and adaptation strategies. Coordination with your neurologist regarding disease-modifying medications is essential.",
-      realisticOutcomes: "function preservation, quality of life improvement, fall reduction; physiotherapy is one component of comprehensive MS management"
+      number: "02", title: "Peripheral Neuropathy", subtitle: "Including diabetic and post-chemotherapy neuropathy",
+      description: "Balance and gait training, strengthening, sensory and foot-safety education, falls prevention and, where suitable, electrical stimulation. <a href='#neuropathy' class='text-[#C9A84C] hover:underline'>Read more about physiotherapy for neuropathy</a>.",
+      realisticOutcomes: "Better balance, walking confidence and fewer falls; the nerve damage itself may or may not improve, depending on the cause."
     },
     {
-      number: "04",
-      title: "Traumatic Brain Injury (TBI)",
-      subtitle: "Acquired Brain Injury Rehabilitation",
-      description:
-        "Complex rehabilitation often requiring multi-system intervention. Treatment addresses motor function, balance, gait, cognitive-motor integration, and gradual return to function. Often involves coordination with neuropsychologists, occupational therapists, and speech-language therapists. Particularly common for international patients evacuated to Dubai or expats who experienced TBI overseas and need continuing rehabilitation.",
-      realisticOutcomes: "highly variable depending on injury severity and location; most patients see meaningful gains over months to years"
+      number: "03", title: "Multiple Sclerosis (MS)", subtitle: "Relapsing-remitting and progressive forms",
+      description: "Fatigue management, balance and walking, spasticity management and exercise adjusted to heat sensitivity and your energy levels, coordinated with your neurologist's treatment.",
+      realisticOutcomes: "Maintaining function and independence, fewer falls and better quality of life."
     },
     {
-      number: "05",
-      title: "Spinal Cord Injury (SCI)",
-      subtitle: "Traumatic or Non-Traumatic SCI",
-      description:
-        "Treatment focuses on maximising function within the constraints of the injury — complete vs incomplete, paraplegia vs tetraplegia. Includes mobility training, transfers, wheelchair skills, residual function optimisation, and prevention of secondary complications (pressure injuries, contractures, deconditioning). Coordination with rehabilitation physicians and SCI specialists.",
-      realisticOutcomes: " function maximisation within injury constraints; independence focus; prevention of secondary complications"
+      number: "04", title: "Traumatic Brain Injury", subtitle: "Acquired brain injury",
+      description: "Movement, balance, walking and gradual return to daily activities, paced to fatigue and concentration.",
+      realisticOutcomes: "Varies widely with the injury; many people keep improving over months to years."
     },
     {
-      number: "06",
-      title: "Motor Neuron Disease (MND/ALS)",
-      subtitle: "Degenerative Motor Neuron Disease",
-      description:
-        "Palliative-oriented physiotherapy focused on quality of life, function preservation as long as possible, mobility aid prescription and training, caregiver education, and dignified adaptation as the disease progresses. Honest discussion with patient and family about goals and expectations. Often combined with palliative care team coordination.",
-      realisticOutcomes: "physiotherapy cannot halt disease progression; goal is quality of life maintenance and dignified function"
+      number: "05", title: "Spinal Cord Injury", subtitle: "Complete and incomplete injuries",
+      description: "Mobility and transfer training, wheelchair skills, strengthening of working muscles and prevention of stiffness and pressure problems.",
+      realisticOutcomes: "The most independence possible within the level of injury."
     },
     {
-      number: "07",
-      title: "Peripheral Neuropathy",
-      subtitle: "Including Diabetic & Post-Chemotherapy Neuropathy",
-      description:
-        "Treatment focuses on managing symptoms (balance, falls prevention, sensory awareness), preventing complications (foot care in diabetic neuropathy), exercise prescription appropriate to neuropathic considerations, and adaptation. Common in Dubai's diabetic population and post-chemotherapy patients.",
-      realisticOutcomes: "symptom management, function maintenance, falls prevention; underlying neuropathy may or may not improve"
+      number: "06", title: "Motor Neurone Disease (MND/ALS)", subtitle: "Progressive condition",
+      description: "Keeping movement and comfort for as long as possible, choosing and using mobility aids, and teaching family members safe ways to help.",
+      realisticOutcomes: "Physiotherapy cannot slow MND; the aim is comfort, safety and quality of life."
     },
     {
-      number: "08",
-      title: "Other Neurological Conditions",
-      subtitle: "Including Bell's Palsy, Guillain-Barré Syndrome & Functional Neurological Disorders",
-      description:
-        "Specialised protocols for less common but important conditions. Bell's palsy responds well to early facial neuromuscular re-education. Guillain-Barré requires structured rehabilitation through recovery. Functional neurological disorder requires specific physiotherapy approaches (very different from 'psychological' framing). Adults with cerebral palsy need ongoing condition management.",
-      realisticOutcomes: "vary by condition; many have good rehabilitation potential"
+      number: "07", title: "Guillain-Barré Syndrome", subtitle: "Recovery after the acute phase",
+      description: "Graded strengthening, walking and endurance training as the nerves recover, without overtiring the muscles.",
+      realisticOutcomes: "Many people recover well over months with structured rehabilitation."
+    },
+    {
+      number: "08", title: "Bell's Palsy, FND and Adults with Cerebral Palsy", subtitle: "Other neurological conditions",
+      description: "Facial muscle re-education for Bell's palsy; specific movement retraining for functional neurological disorder; ongoing mobility and stiffness management for adults with cerebral palsy.",
+      realisticOutcomes: "Varies by condition; many have good potential for improvement."
+    },
+    {
+      number: "09", title: "Stroke Recovery", subtitle: "See our stroke rehabilitation page",
+      description: "Walking, balance, arm and hand use and independence after a stroke. <a href='/conditions/stroke-rehab-dubai/' class='text-[#C9A84C] hover:underline'>Read about stroke rehabilitation at our JVC clinic</a>.",
+      realisticOutcomes: ""
     }
   ],
+  footer: "If your condition is not listed, WhatsApp us. Our in-house GP can review you if you need a medical assessment, and with your consent we prepare written progress reports for your neurologist."
+};
 
-  footer:
-    "If your specific neurological condition is not listed, contact us. Our team has experience across the spectrum of adult neurological rehabilitation. We coordinate with your neurologist to ensure our approach aligns with your overall medical management."
+export const neurologicalParkinsons = {
+  id: "parkinsons",
+  label: "PARKINSON'S DISEASE",
+  title: "Physiotherapy for Parkinson's disease in Dubai.",
+  content: [
+    "Physiotherapy helps people with Parkinson's walk more steadily, take bigger steps, turn and get up more easily, and fall less. It does not replace medication from your neurologist, and it does not stop the disease progressing, but regular, targeted exercise is one of the most effective ways to keep moving well.",
+    "<strong>What sessions include</strong><br/>Large-amplitude movement training (practising big, deliberate movements to counter small, slow ones), gait training for shuffling and freezing, cueing with rhythm or visual markers, balance and falls-prevention work, posture and flexibility exercises, and aerobic exercise.",
+    "<strong>How often</strong><br/>Usually a more intensive block of sessions at first, then regular review sessions and a daily home programme. Hafsina K K agrees the frequency with you after the first assessment, based on your stage and goals.",
+    "<strong>Family involvement</strong><br/>Family members learn how to help with cueing, safe turning and getting up from a chair or bed."
+  ],
+  image: "/images/neurological-physiotherapy-dubai.webp",
+  alt: "Physiotherapy for Parkinson's disease at Vedara Care, JVC, Dubai"
+};
+
+export const neurologicalNeuropathy = {
+  id: "neuropathy",
+  label: "PERIPHERAL NEUROPATHY",
+  title: "Physiotherapy for peripheral neuropathy in Dubai.",
+  content: [
+    "Physiotherapy for neuropathy improves balance, walking and strength and lowers the risk of falls when nerve damage causes numbness, tingling or weakness in the feet and hands. It works alongside the medical treatment of the cause, such as diabetes management.",
+    "<strong>What sessions include</strong><br/>Balance and gait training, strengthening of the legs and feet, exercises for coordination, electrical stimulation where suitable, and advice on footwear, foot checks and making your home safer.",
+    "<strong>Who it helps</strong><br/>People with diabetic neuropathy, neuropathy after chemotherapy, and other nerve conditions that affect walking and balance.",
+    "<strong>When to see a doctor first</strong><br/>If numbness or weakness is new, spreading quickly or affects bladder or bowel control, see a doctor urgently. Our in-house GP can see you at the clinic."
+  ],
+  image: "/images/home-neurological-physio-dubai.webp",
+  alt: "Balance training for peripheral neuropathy at Vedara Care, JVC, Dubai"
 };
 
 export const neurologicalPhasesData = {
   bgColor: "bg-[#FAF8F3]",
   label: "TREATMENT PHASES",
-  title: "The four phases of neurological rehabilitation.",
-  subtitle: "A representative progression for adult acquired neurological conditions (stroke, TBI, post-acute presentations). Progressive conditions like Parkinson's, MS, and MND follow different patterns calibrated to disease trajectory rather than recovery phases.",
+  title: "How neurological rehabilitation progresses.",
+  subtitle: "A typical progression after a sudden neurological event such as a brain injury, spinal cord injury or Guillain-Barré syndrome. Progressive conditions such as Parkinson's, MS and MND follow a different pattern: ongoing physiotherapy that adapts as the condition changes.",
   steps: [
     {
       week: "PHASE 1",
@@ -158,7 +160,7 @@ export const neurologicalPhasesData = {
         "Often hospital-based initially; transition to outpatient or home care as appropriate",
         "Frequency: typically 3-5 sessions per week if tolerated",
         "Focus on early motor recovery, preventing secondary complications, family education",
-        "Home physiotherapy often essential at this stage",
+        "Home visits are coming soon; until then, sessions take place at our JVC clinic",
         "Intensive task-specific practice within tolerance",
         "Coordination with hospital discharge team, neurologist, and other rehabilitation providers"
       ],
@@ -209,121 +211,49 @@ export const neurologicalPhasesData = {
 
 export const neurologicalHomePhysiotherapyData = {
   label: "HOME PHYSIOTHERAPY (LAUNCHING SOON)",
-  title: "Home neuro-rehabilitation is launching soon.",
+  title: "Home neurological physiotherapy is coming soon.",
   content: [
-    "Many neurological patients cannot easily travel to a clinic — particularly in early recovery, during disease progression, or for those with significant mobility limitations. Asking a recently-stroked patient or a person with advanced Parkinson's to navigate Dubai traffic and clinic parking for a 60-minute appointment can be impractical or impossible.",
-    "Our upcoming home physiotherapy service will operate across Dubai for neurological patients — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Our specialised neurological physiotherapists will travel to your home with portable assessment equipment, treatment supplies, and structured protocols.",
-    "When home physiotherapy is particularly valuable for neurological patients: early stroke recovery (first 3-6 months when transportation is difficult), Parkinson's patients with significant freezing or fall risk, MS patients during relapses or with significant fatigue, end-stage progressive conditions, and patients without family support for clinic transport.",
-    "Until this service launches, our JVC clinic is fully accessible for patients with mobility limitations, equipped with specialised rehabilitation tools to support your recovery."
+    "Many people with neurological conditions find travelling to a clinic hard. Home visits from Vedara Care are coming soon.",
+    "Until then, all sessions take place at our JVC clinic, near Circle Mall. A wheelchair is available at the clinic; tell us when you book if you need help getting in."
   ],
   sidebar: {
     label: "JOIN THE WAITLIST",
-    coverage: "Across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas",
-    useCases: [
-      "Early stroke recovery",
-      "Advanced Parkinson's",
-      "MS during relapses",
-      "Progressive conditions",
-      "Post-hospital discharge",
-      "Patients without transport support"
-    ],
-    duration: "60-75 minutes including travel time consideration",
-    pricing: "Pricing coming soon",
-    booking: "WhatsApp us to be notified when home visits launch",
+    useCases: ["Advanced Parkinson's", "MS during a relapse", "Progressive conditions", "Recently discharged from hospital", "No transport support"],
+    booking: "WhatsApp us to be told when home visits start",
     buttonLink: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20please%20notify%20me%20when%20home%20neurological%20physiotherapy%20launches",
-    buttonText: "Notify Me"
-  },
-
+    buttonText: "Notify me"
+  }
 };
 
 export const neurologicalDubaiMechanism2 = {
   label: "COORDINATED CARE",
-  title: "How we work with your broader neurological care team.",
+  title: "How we work with your doctors and family.",
   content: [
-    "Effective neurological rehabilitation requires coordination across multiple healthcare providers. Neurology is a multi-disciplinary specialty by necessity — different professionals address different aspects of complex conditions.",
-
-    "<strong>Neurologists</strong><br/>Your neurologist remains the medical lead for your condition. We coordinate with neurologists across Dubai and internationally — sharing initial assessments, milestone updates, observations about medication effects on function, and clinical questions where their guidance is essential. With your consent, we maintain regular communication appropriate to your condition's complexity.",
-
-    "<strong>Occupational Therapists</strong><br/>Occupational therapy addresses activities of daily living, fine motor function, cognitive-functional integration, and home/workplace adaptation. Many neurological patients benefit from concurrent OT alongside physiotherapy. We coordinate with occupational therapists across Dubai or can recommend colleagues if your child needs OT but does not yet have a therapist.",
-
-    "<strong>Speech-Language Therapists</strong><br/>For patients with communication or swallowing involvement (common in stroke, TBI, Parkinson's, MS, MND), speech-language therapy is essential. We coordinate with SLTs across Dubai. For Parkinson's patients specifically, we sometimes pair our LSVT-BIG protocols (which we deliver) with LSVT-LOUD voice protocols (delivered by SLTs).",
-
-    "<strong>Neuropsychologists and Psychologists</strong><br/>Many neurological conditions involve cognitive, emotional, or psychological components that benefit from specialised support. Post-stroke depression, MS-related psychological challenges, TBI-related cognitive issues, and caregiver mental health all matter. We coordinate with neuropsychologists and psychologists experienced in neurological conditions.",
-
-    "<strong>Rehabilitation Physicians and Pain Specialists</strong><br/>For patients with complex pain, spasticity management needs, or comprehensive rehabilitation oversight, we coordinate with rehabilitation physicians (physiatrists) and pain specialists. Botox for spasticity, intrathecal pump management, and other interventions sometimes complement physiotherapy.",
-
-    "<strong>Social Workers and Care Coordinators</strong><br/>For complex situations involving home care needs, equipment provision, financial concerns, family support, or long-term care planning, social work and care coordination matter. We can connect families with appropriate support services across Dubai.",
-    "<strong>Family and Caregivers</strong><br/>The family caregivers are often the most important members of the care team. Our family education involves teaching specific techniques for safe transfers, exercise facilitation, falls prevention, communication strategies, and emotional support. Caregiver burnout is a real risk — we monitor caregiver wellbeing and refer for caregiver support when needed."
+    "<strong>Your neurologist</strong><br/>Your neurologist stays in charge of your diagnosis and medication. With your consent, we prepare written progress reports you can share with them.",
+    "<strong>Our in-house GP</strong><br/>If you need a medical review, a referral or a check before starting exercise, our GP can see you at the same clinic.",
+    "<strong>Other therapists</strong><br/>Many people also benefit from occupational therapy or speech therapy. We tell you when that would help.",
+    "<strong>Family and caregivers</strong><br/>Family members learn safe transfers, how to support exercise at home, falls prevention and how to help with walking cues."
   ],
-  image: "/images/home-neurological-physio-dubai.webp",
+  image: "/images/home-neurological-physio.webp",
   alt: "Multi-disciplinary neurological care coordination Vedara Care JVC"
 };
 
-export const neurologicalPricingData = {
-  bgColor: "bg-[#f8f6f1]",
-  label: "TRANSPARENT PRICING",
-  title: "What neurological physiotherapy at our JVC clinic costs.",
-  tableData: [
-    { service: "Initial neurological assessment (60-75 minutes, clinic)", price: "AED 450" },
-    { service: "Initial neurological assessment (home)", price: "Coming Soon" },
-    { service: "Follow-up neurological session (clinic, 60 minutes)", price: "AED 350" },
-    { service: "Follow-up neurological session (home)", price: "Coming Soon" },
-    { service: "Post-stroke rehabilitation programme (24 sessions over 3 months)", price: "AED 7,800" },
-    { service: "Extended stroke rehabilitation (48 sessions over 6 months)", price: "AED 14,400" },
-    { service: "MS structured programme (12 sessions, calibrated to disease state)", price: "AED 3,900" },
-    { service: "Family caregiver training session", price: "AED 350" }
-  ],
-  footerText: 'We accept patients with all major insurers and provide full documentation for reimbursement, which depends on your policy. Long-term neurological physiotherapy typically benefits from annual coverage planning — <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> to discuss your coverage and out-of-pocket cost before committing to a programme.'
-};
 
-export const neurologicalDubaiReviews = {
-  bgColor: "bg-[#1A4D3E]",
-  label: "PATIENT OUTCOMES",
-  title: "Neurological rehabilitation outcomes at Vedara Care.",
-  items: [
-    {
-      quote: "My father had a stroke at 67 while visiting us in Dubai from India. Eight months of physiotherapy at Vedara — most of it at our home in Dubai Hills — and he walks independently, manages most daily activities, returned to India able to live independently. The team coordinated with his neurologist in India throughout. Recovery far exceeded what we were initially told to expect.",
-      author: "Family member of post-stroke patient",
-      condition: "8-Month Programme",
-      details: "Dubai Hills resident · February 2026"
-    },
-    {
-      quote: "Diagnosed with Parkinson's at 58. The LSVT-BIG programme at Vedara transformed how I move — more amplitude in my walking, better balance, less fear of falling. Now I do maintenance sessions monthly and a home programme daily. Five years later, I'm walking better than I was at diagnosis.",
-      author: "Patient with Parkinson's disease",
-      condition: "LSVT-BIG + Maintenance",
-      details: "JVC resident · January 2026"
-    },
-    {
-      quote: "My wife was diagnosed with primary progressive MS three years ago. The Vedara team has been with us throughout — adjusting protocols as the disease has evolved, supporting both of us through changes, providing honest information when other clinics gave us either false hope or hopelessness. The continuity of care has been priceless.",
-      author: "Family member of MS patient",
-      condition: "3-Year Ongoing Care",
-      details: "Marina resident · March 2026"
-    }
-  ],
-  stats: [
-    { value: "4.5", label: "stars on Google" },
-    { value: "15", label: "reviews on Google" }
-  ],
-  buttonText: "Read All Neurological Reviews",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai"
-};
+export const neurologicalDubaiReviews = physioReviewsBlock('What patients say about physiotherapy with Hafsina K K');
 
 export const neurologicalTeamData = {
-  label: "THE TEAM",
-  title: "Neurological rehabilitation specialists at our JVC clinic.",
+  label: "YOUR PHYSIOTHERAPIST",
+  title: "Your neurological physiotherapist at our JVC clinic.",
   members: [
     {
       name: "Hafsina K K",
-      credentials: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
-      tags: [
-        "Orthopedic Rehab",
-        "Neurological Rehab",
-        "Sports Rehab",
-        "Women's Health"
-      ],
-      description: "7 years' experience in orthopedic, neurological, sports & women's health rehab.",
-      languages: "Languages spoken: English, Malayalam, Hindi, Tamil",
+      credentials: "Bachelor of Physiotherapy · DHA-P 64812828 · 7+ years' experience",
+      tags: ["Neurological Rehab", "Parkinson's & Movement Training", "Balance & Falls Prevention", "Electrical Stimulation"],
+      description: "Hafsina K K has 7+ years' experience across neurological, orthopaedic, sports and women's health rehabilitation, and treats every neurological patient herself from first assessment to discharge.",
+      languages: "Languages spoken: English, Hindi, Malayalam",
       link: "/doctors/hafsina-kk-physiotherapist/",
+      verifyText: "Verify licence on DHA Sheryan",
+      verifyHref: "https://services.dha.gov.ae/sheryan/wps/portal/home/medical-directory",
       image: "/images/hafsina-kk-physiotherapist-dubai.webp",
       alt: "Hafsina K K neurological physiotherapy specialist Vedara Care JVC Dubai"
     }
@@ -333,13 +263,13 @@ export const neurologicalTeamData = {
 export const neurologicalInsuranceCoverageData = {
   bgColor: "bg-[#FFFFFF]",
   label: "INSURANCE COVERAGE",
-  title: "How insurance works for long-term neurological physiotherapy in Dubai.",
+  title: "Does insurance cover neurological physiotherapy in Dubai?",
   content: [
-    { text: "Neurological physiotherapy is typically covered by Dubai insurance with medical justification, but coverage parameters differ from short-term physiotherapy in important ways." },
-    { title: "What is typically covered well:", text: "acute neurological rehabilitation following stroke, TBI, or other acquired conditions (especially in first 6-12 months); structured physiotherapy programmes for progressive conditions with documented need; home physiotherapy with appropriate medical justification (mobility limitations, post-discharge requirements); and long-term care for established conditions with ongoing functional need." },
+    { text: "Most Dubai insurance plans cover neurological physiotherapy when it is medically needed, usually with a yearly session limit; longer programmes often need pre-approval from your insurer." },
+    { title: "What is typically covered well:", text: "acute neurological rehabilitation following stroke, TBI, or other acquired conditions (especially in first 6-12 months); structured physiotherapy programmes for progressive conditions with documented need; and long-term care for established conditions with ongoing functional need." },
     { title: "What may have limits:", text: "indefinite ongoing physiotherapy without documented goals or progress; physiotherapy for established stable conditions without acute change; certain newer or specialised techniques (some plans cover only standard physiotherapy modalities); and home physiotherapy beyond a certain duration may require periodic re-justification." },
     { title: "How insurance typically works for neurological care:", text: "most plans require pre-authorisation for extended rehabilitation programmes (typically beyond 10-15 initial sessions). For chronic conditions, annual coverage planning matters — we help patients and families understand annual session allocations, plan rehabilitation intensity accordingly, and submit appropriate documentation for renewed authorisation. For progressive conditions like MS or Parkinson's, we document functional status changes that support continued coverage." },
-    { title: "For patients with neurological conditions:", text: 'we particularly help with: pre-authorisation documentation, annual renewal applications, appeals when coverage is initially denied, and connecting families with patient advocacy resources when needed. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a>, condition documentation, and any prior physiotherapy authorisations before booking for specific coverage planning.' }
+    { title: "How Vedara Care helps:", text: "We work on reimbursement: you pay at the clinic and we give you the assessment reports and progress notes your insurer asks for. WhatsApp us a photo of your insurance card to check your cover before you start." }
   ],
   sidebar: {
     label: "ACCEPTED INSURERS (REIMBURSEMENT)",
@@ -352,20 +282,20 @@ export const neurologicalInsuranceCoverageData = {
 export const neurologicalDubaiLocationData = {
   bgColor: "bg-white",
   label: "WHERE WE WORK",
-  title: "At our JVC clinic (home visits launching soon).",
-  description: "Neurological physiotherapy happens at our JVC clinic, which is fully equipped with specialised rehabilitation equipment including gait training tools, functional electrical stimulation, and balance equipment. Our home physiotherapy service is launching soon across Dubai with our specialised neurological physiotherapists travelling to you (often essential for early recovery, advanced disease, or significant mobility limitations). Many patients will soon be able to benefit from a combination of both.",
+  title: "Where to find our neurological physiotherapy clinic in JVC.",
+  description: "Neurological physiotherapy takes place at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall. The clinic has electrical stimulation and balance-training equipment, a wheelchair for patients who need it, and an in-house GP.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
-  hours: "Monday - Sunday: 9:00AM to 10:00PM ",
+  hours: "Daily: 9:00am to 10:00pm",
   landmarks: [
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village",
     "5 minutes from JSS Private School"
   ],
-  image: "/images/neurological-physiotherapy-clinic-interior.webp",
-  alt: "Neurological physiotherapy clinic interior at Vedara Care JVC",
+  image: "/images/neurological-physiotherapy-dubai-hero.webp",
+  alt: "Vedara Care Polyclinic physiotherapy room, JVC, Dubai",
   buttonText: "Book a Neurological Consultation",
-  footerNote: "Our JVC clinic has accessible facilities with appropriate accommodations for neurological patients with mobility limitations, dedicated neurological treatment rooms with specialised equipment, parking spaces near clinic entrance for limited-mobility patients, and integrated access to our broader physiotherapy and Ayurveda departments when needed. Easy access from JVC, JVT, Al Barsha South, and across Dubai.",
+  footerNote: "Patients come from JVC, JVT, Al Barsha South, Arjan, Dubai Sports City, Motor City and Al Barsha. Tell us when you book if you need the wheelchair or help getting in.",
   reverse: true,
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
 };
@@ -373,67 +303,40 @@ export const neurologicalDubaiFAQData = {
   bgColor: "bg-[#F5F1E8]",
   label: "COMMON QUESTIONS",
   sidebarLinks: [
-    { text: "physiotherapy main page", href: "/physiotherapy-jvc/" },
-    { text: "Read about home physiotherapy", href: "/home-healthcare-jvc/" }
+    { text: "Physiotherapy in JVC", href: "/physiotherapy-jvc/" },
+    { text: "Stroke rehabilitation", href: "/conditions/stroke-rehab-dubai/" }
   ],
-  title: "What patients and families ask before booking.",
-  description: "For questions about specific conditions, see our condition-specific pages. For JVC-specific questions, see our clinic page.",
-  buttonText: "Ask Our Neurological Team",
+  title: "Neurological physiotherapy: questions patients and families ask.",
+  description: "Answers reviewed by Hafsina K K, DHA-licensed physiotherapist.",
+  buttonText: "Ask us on WhatsApp",
   faqs: [
-    {
-      question: "When should I start physiotherapy after a stroke?",
-      answer: "As early as possible — typically within the first week if medically stable. The first 6 months post-stroke is when most recovery happens (the 'golden window' of neuroplasticity), though meaningful gains continue for years. If you or a family member has had a recent stroke and physiotherapy is not yet established, contact us — we can typically begin clinic-based assessment within 48-72 hours."
-    },
-    {
-      question: "How long does neurological rehabilitation take?",
-      answer: "Highly variable. Acute conditions (stroke, TBI) typically involve 6-18 months of structured rehabilitation, with the most intensive phase in the first 3-6 months. Progressive conditions (Parkinson's, MS) involve ongoing physiotherapy throughout the disease course — months and years rather than weeks. Honest expectation-setting at initial assessment includes realistic timeline discussion for your specific condition."
-    },
-    {
-      question: "Do you provide home physiotherapy for neurological patients?",
-      answer: "Home physiotherapy for neurological patients is launching soon. In the meantime, our JVC clinic is fully equipped and accessible for patients with mobility limitations."
-    },
-    {
-      question: "Can you coordinate with my neurologist?",
-      answer: "Yes — neurologist coordination is essential and standard practice for our neurological patients. With your consent, we send initial assessment summaries, milestone updates, observations about medication effects on function, and clinical questions to your neurologist. We work with neurologists across Dubai and internationally. For complex cases, we maintain ongoing regular communication appropriate to your condition."
-    },
-    {
-      question: "What is LSVT-BIG and do you offer it?",
-      answer: "LSVT-BIG (Lee Silverman Voice Treatment - BIG) is an evidence-based, intensive amplitude training programme specifically developed for Parkinson's disease. It involves 16 sessions over 4 weeks, with high-amplitude movement training designed to overcome the bradykinesia and reduced movement amplitude characteristic of Parkinson's. Yes — we have LSVT-BIG certified physiotherapists at our JVC clinic. The programme has substantial research support for improving function in Parkinson's patients."
-    },
-    {
-      question: "My father had a stroke in India. Can he have rehabilitation in Dubai?",
-      answer: "Yes — international stroke patients are common at our clinic. Many Dubai expats bring elderly parents to Dubai for family care after stroke. We coordinate with the original treating neurologist in the home country (with consent), continue medications as prescribed by the neurologist, and provide structured rehabilitation in Dubai. WhatsApp your father's medical records, current medications, and original neurologist's contact to +971 55 573 6312 before bringing him to assessment."
-    },
-    {
-      question: "How does Parkinson's physiotherapy work long-term?",
-      answer: "Parkinson's physiotherapy is typically ongoing rather than time-limited. Initial intensive programme (often LSVT-BIG, 16 sessions over 4 weeks) establishes foundational improvements. Then transition to maintenance sessions (typically monthly to bi-weekly) plus daily home exercise programme. Annual or bi-annual intensive periodic refreshers help maintain gains. The relationship typically lasts years — same therapist tracking progression and adjusting approach as the disease evolves."
-    },
-    {
-      question: "Does physiotherapy help with MS?",
-      answer: "Yes — physiotherapy is increasingly recognised as essential alongside medical management of MS. Specific approaches address fatigue management, balance and falls prevention, spasticity management, function preservation during progression, and exercise as one of the few interventions with disease-modifying potential. Treatment varies by MS form (relapsing-remitting vs progressive) and current symptoms. Coordination with your neurologist regarding disease-modifying medications is essential."
-    },
-    {
-      question: "Where is your neurological physiotherapy clinic?",
-      answer: "Our clinic is at Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Our upcoming home physiotherapy service will also allow us to travel across Dubai for patients with significant mobility limitations."
-    },
-    {
-      question: "What about caregivers? Do they get any support?",
-      answer: "Yes — caregiver education and support is integral to our approach. Family members receive training in: safe transfers, exercise programme facilitation, falls prevention, communication strategies, equipment use, and emotional support. We also monitor caregiver wellbeing throughout the care relationship — caregiver burnout is a real risk for families managing neurological conditions, and we connect families with caregiver support resources when needed."
-    }
+    { question: "What is neurological physiotherapy?", answer: "Neurological physiotherapy is rehabilitation for people whose movement, balance or strength is affected by a condition of the brain, spinal cord or nerves, such as Parkinson's disease, multiple sclerosis, neuropathy or a brain or spinal cord injury. It uses targeted exercise and practice of everyday tasks to improve walking, balance and independence." },
+    { question: "Which neurological conditions do you treat?", answer: "Parkinson's disease, peripheral neuropathy (including diabetic and post-chemotherapy), multiple sclerosis, traumatic brain injury, spinal cord injury, motor neurone disease, Guillain-Barr\u00e9 syndrome, Bell's palsy, functional neurological disorder and adults with cerebral palsy. Stroke recovery has its own page." },
+    { question: "Can physiotherapy help Parkinson's disease?", answer: "Yes. Physiotherapy does not stop Parkinson's progressing, but it can improve walking, balance, posture and confidence and lower the risk of falls. It works best alongside the medication prescribed by your neurologist." },
+    { question: "How often should someone with Parkinson's have physiotherapy?", answer: "Usually a more intensive block of sessions at first, then regular review sessions and daily home exercise. Your physiotherapist agrees the frequency with you after the first assessment, based on your stage and goals." },
+    { question: "Can physiotherapy help peripheral neuropathy?", answer: "Yes. Physiotherapy improves balance, walking and leg strength and reduces falls in people with neuropathy. It does not cure the nerve damage, so treating the cause, such as diabetes, remains important." },
+    { question: "Do I need a neurologist's referral for neurological physiotherapy?", answer: "No. You can book directly. If you need a medical review first, our in-house GP can see you at the clinic, and some insurers ask for a doctor's referral before they reimburse sessions." },
+    { question: "Will you share my progress with my neurologist?", answer: "Yes. With your consent, we prepare written progress reports that you can share with your neurologist." },
+    { question: "How long does neurological rehabilitation take?", answer: "It depends on the condition. After a sudden event such as a brain injury, structured rehabilitation often runs for several months. Progressive conditions such as Parkinson's or MS usually need ongoing physiotherapy that changes as the condition changes." },
+    { question: "How long is each session?", answer: "Session length depends on your condition, energy levels and goals, and is agreed at your first assessment." },
+    { question: "Does insurance cover neurological physiotherapy in Dubai?", answer: "Most Dubai insurance plans cover it when it is medically needed, usually with a yearly session limit and sometimes pre-approval. Vedara Care works on reimbursement and provides the reports your insurer needs." },
+    { question: "Is the clinic suitable for wheelchair users?", answer: "A wheelchair is available at the clinic. Tell us when you book if you need help getting in, so we can be ready for you." },
+    { question: "Do you offer home physiotherapy for neurological conditions?", answer: "Home visits are coming soon. Until then, all sessions take place at our JVC clinic. WhatsApp us to be told when home visits start." },
+    { question: "Can family members attend sessions?", answer: "Yes, and we encourage it. Family members learn safe transfers, how to support exercise at home and how to help with walking and balance." },
+    { question: "Do you treat stroke?", answer: "Yes. See our stroke rehabilitation page for how stroke recovery works at our JVC clinic." },
+    { question: "Where is the clinic?", answer: "Vedara Care Polyclinic, Binghatti Azure, Shop 4, Al Barsha South Fourth, Jumeirah Village Circle, Dubai, walking distance from Circle Mall. Open daily 9am to 10pm." }
   ]
 };
 
 export const neurologicalDubaiFinalCTA = {
   label: "READY TO START?",
-  title: "Specialised neurological care delivered with honesty and continuity.",
-  description:
-    "Whether you (or a family member) are recovering from recent stroke, managing Parkinson's or MS, recovering from traumatic brain injury, or living with another neurological condition, the next useful step is a 60-75 minute initial assessment at our JVC clinic. We assess thoroughly, set honest expectations, design a treatment plan calibrated to your specific condition, and establish the long-term relationship that effective neurological rehabilitation requires. Same-week appointments typically available.",
+  title: "Book a neurological physiotherapy assessment in JVC.",
+  description: "Whether you or a family member are living with Parkinson's, neuropathy, MS or recovering from a brain or nerve injury, the first step is a full assessment with Hafsina K K. Family members are welcome to come.",
   button1Text: "Book a Neurological Consultation",
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20ask%20about%20neurological%20physiotherapy%20and%20book%20a%20consultation.%20Please%20assist%20me.",
-  footer:
-    "Initial assessment from AED 450 · Clinic in JVC · Home physiotherapy launching soon · Neurologist coordination · Long-term care relationships · Insurance direct-billing"
+  footer: "DHA-licensed physiotherapist · In-house GP · Insurance reimbursement · Open daily 9am to 10pm · Near Circle Mall, JVC"
 };
 
 export const neurologicalDubaiRelatedPages = {
@@ -443,34 +346,10 @@ export const neurologicalDubaiRelatedPages = {
   linkText: "Browse all physiotherapy services",
   linkHref: "/physiotherapy-jvc/",
   pages: [
-    {
-      title: "Physiotherapy in JVC",
-      description:
-        "Our complete physiotherapy department — all seven specialisations including neurological, team, conditions treated.",
-      href: "/physiotherapy-jvc/",
-      cta: "Learn more"
-    },
-    {
-      title: "Post-Surgery Rehabilitation",
-      description:
-        "For patients with neurosurgical procedures (post-craniotomy, post-spinal surgery) who need coordinated post-operative neurological rehabilitation.",
-      href: "/physiotherapy/post-surgery-rehab-dubai/",
-      cta: "Learn more"
-    },
-    {
-      title: "Home Healthcare in JVC",
-      description:
-        "Our home physiotherapy and broader home healthcare services across Dubai — essential for many neurological patients.",
-      href: "/home-healthcare-jvc/",
-      cta: "Learn more"
-    },
-    {
-      title: "Ayurveda Clinic in JVC",
-      description:
-        "For specific neurological conditions where integrated Ayurveda + physiotherapy produces additional benefits (post-stroke recovery, Parkinson's, certain neuropathies).",
-      href: "/ayurveda-clinic-jvc/",
-      cta: "Learn more"
-    }
+    { title: "Stroke Rehabilitation", description: "Walking, balance and arm recovery after a stroke, at our JVC clinic.", href: "/conditions/stroke-rehab-dubai/" },
+    { title: "Physiotherapy in JVC", description: "All physiotherapy services at our JVC clinic.", href: "/physiotherapy-jvc/" },
+    { title: "Post-Surgery Rehabilitation", description: "Rehabilitation after spinal and other operations, following your surgeon's plan.", href: "/physiotherapy/post-surgery-rehab-dubai/" },
+    { title: "Meet Hafsina K K", description: "Our DHA-licensed physiotherapist.", href: "/doctors/hafsina-kk-physiotherapist/" }
   ],
   footerLink: "Browse all physiotherapy services →"
 };

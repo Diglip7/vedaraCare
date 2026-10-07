@@ -32,7 +32,7 @@ export const ledLightTherapyIntro = {
   label: "INTRODUCTION",
   title: "LED Light Therapy in JVC",
   blockquote: "LED Light Therapy in JVC at Vedara Care Polyclinic in Jumeirah Village Circle(JVC), Dubai, is a gentle, non- invasive treatment that uses selected wavelengths of light to support specific skin concerns.It may be considered for acne - prone skin, visible redness, uneven tone, or a dull - looking complexion, depending on your individual needs.Unlike treatments that use needles, strong acids, or heat - based resurfacing, LED therapy does not break the skin and typically requires little to no downtime.Your skin is assessed before treatment to determine whether LED light therapy is appropriate and which approach best matches your concerns and treatment goals.",
-  footer: "Reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed August 2026"
 };
 
 export const ledLightTherapyExplanation = {

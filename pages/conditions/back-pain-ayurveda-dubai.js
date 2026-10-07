@@ -358,10 +358,11 @@ const AyurvedicBackPain = () => {
     {
       "@context": "https://schema.org",
       "@type": "EducationalOccupationalCredential",
-      "@id": "https://vedaracare.ae/conditions/back-pain-ayurveda-dubai/#dpt",
-      "name": "DPT",
-      "alternateName": ["Doctor of Physiotherapy"],
-      "description": "Professional doctoral degree in physiotherapy required for physiotherapists at Vedara Care",
+      "@id": "https://vedaracare.ae/conditions/back-pain-ayurveda-dubai/#bpt",
+      "name": "Bachelor of Physiotherapy",
+      "alternateName": ["BPT"],
+      "description": "Professional degree in physiotherapy required for physiotherapists at Vedara Care",
+      "credentialCategory": "Bachelor Degree",
       "recognizedBy": {"@type": "Organization", "name": "Dubai Health Authority"}
     },
     {
@@ -369,7 +370,7 @@ const AyurvedicBackPain = () => {
       "@type": "MedicalSpecialty",
       "@id": "https://vedaracare.ae/conditions/back-pain-ayurveda-dubai/#physiotherapy-specialty",
       "name": "Physiotherapy",
-      "alternateName": ["Physical Therapy", "DPT"],
+      "alternateName": ["Physical Therapy"],
       "description": "Healthcare specialty focused on movement, function, and rehabilitation, integrated with Ayurveda for back pain treatment at Vedara Care",
       "sameAs": "https://en.wikipedia.org/wiki/Physiotherapy"
     },
@@ -395,7 +396,7 @@ const AyurvedicBackPain = () => {
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/back-pain-ayurveda-dubai/" />
         <meta property="og:title" content="Ayurvedic Treatment for Back Pain in Dubai — Integrated With Physiotherapy" />
-        <meta property="og:description" content="DHA-licensed back pain treatment combining classical Ayurveda — Kativasti, Abhyanga, internal medicines — with DPT physiotherapy at our JVC clinic." />
+        <meta property="og:description" content="DHA-licensed back pain treatment combining classical Ayurveda — Kativasti, Abhyanga, internal medicines — with DHA-licensed physiotherapy at our JVC clinic." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/back-pain-ayurveda-dubai.jpg" />
         <meta property="og:locale" content="en_AE" />
 
@@ -403,7 +404,7 @@ const AyurvedicBackPain = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://vedaracare.ae/conditions/back-pain-ayurveda-dubai/" />
         <meta name="twitter:title" content="Ayurvedic Treatment for Back Pain in Dubai — Integrated With Physiotherapy" />
-        <meta name="twitter:description" content="DHA-licensed back pain treatment combining classical Ayurveda — Kativasti, Abhyanga, internal medicines — with DPT physiotherapy at our JVC clinic." />
+        <meta name="twitter:description" content="DHA-licensed back pain treatment combining classical Ayurveda — Kativasti, Abhyanga, internal medicines — with DHA-licensed physiotherapy at our JVC clinic." />
         <meta name="twitter:image" content="https://vedaracare.ae/og-images/back-pain-ayurveda-dubai.jpg" />
 
         {/* Canonical & Language Tags */}

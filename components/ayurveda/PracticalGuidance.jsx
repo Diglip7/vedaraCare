@@ -44,7 +44,7 @@ const PracticalGuidance = ({
         </div>
 
         <div className="text-center">
-          <a 
+          <a
             href={buttonLink}
             className="inline-flex items-center px-10 py-4 border border-[#1F4538] text-[#1F4538] font-sans font-semibold text-[15px] rounded-md hover:bg-[#1F4538] hover:text-white transition-all duration-300 shadow-sm"
           >

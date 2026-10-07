@@ -314,7 +314,7 @@ export const SciaticaPricing = ({
 
         <div className="bg-[#F2EDE5] rounded-lg p-8 border border-[#E5DFD3]">
           <div className="text-[#C9A84C] text-xs tracking-[0.2em] uppercase mb-4">
-            INSURANCE DIRECT-BILLING
+            INSURANCE REIMBURSEMENT SUPPORT
           </div>
           <p className="mb-8" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7', fontSize: '14px' }} dangerouslySetInnerHTML={{ __html: insuranceText }}>
           </p>
@@ -453,7 +453,7 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
           <div className="md:sticky md:top-6 lg:top-8 space-y-5 md:space-y-6 w-full max-w-md mx-auto md:max-w-none">
             {rightContent.image && (
               <div className="rounded-md overflow-hidden">
-                <img src={rightContent.image} alt={rightContent.alt || ''} className={rightContent.imageClassName || "w-full h-auto object-contain"} />
+                <img src={rightContent.image} alt={rightContent.alt || ''} width={rightContent.imageWidth || 1080} height={rightContent.imageHeight || 1080} loading="lazy" decoding="async" className={rightContent.imageClassName || "w-full h-auto object-contain"} />
               </div>
             )}
             {showComparison && (

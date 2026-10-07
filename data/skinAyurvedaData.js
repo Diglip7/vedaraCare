@@ -1,4 +1,4 @@
-﻿export const skinHero = {
+export const skinHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Conditions", href: "/conditions/" },
@@ -13,7 +13,7 @@
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Ayurvedic%20treatment%20for%20skin%20conditions%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "We Work With Dermatology",
-    "380+ Skin Patients Treated",
+    "Comprehensive Systemic Skin Protocols",
     "DHA-Licensed Practitioners",
     "Walking Distance from Circle Mall, JVC"
   ],
@@ -30,7 +30,7 @@ export const skinIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic skin treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for skin conditions in Dubai is a 4 to 9-month structured medical programme combining classical Panchakarma protocols (typically Virechana for Pitta-driven skin patterns, sometimes Rakta Mokshana for severe inflammatory skin conditions), specific internal medicines (Manjishtadi Kashayam, Mahatiktaka Ghrita, Patolakaturohinyadi Kashayam, Khadirarishta, condition-specific formulations), individualised dietary regulation, and external treatments (medicated oils, Mukha Lepa facial protocols where appropriate). At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are calibrated to your specific skin condition (eczema, psoriasis, chronic acne, rosacea, melasma, urticaria) and dosha pattern, working alongside dermatology including our own DHA-licensed dermatology department. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed June 2026"
 };
 
 export const skinMechanism = {
@@ -230,7 +230,7 @@ export const skinProtocol = {
 export const skinOutcomes = {
   label: "REALISTIC EXPECTATIONS",
   title: "Honest outcome ranges based on skin condition and adherence.",
-  description: "Different skin conditions respond differently to Ayurvedic adjunctive treatment. These ranges are based on our 380+ skin patients at the JVC clinic with documented before-and-after photography and patient-reported outcomes after structured programmes.",
+  description: "Different skin conditions respond differently to Ayurvedic adjunctive treatment. These ranges are based on our skin patients at the JVC clinic with documented before-and-after photography and patient-reported outcomes after structured programmes.",
   tableHeaders: ["Condition", "Disease Activity Reduction (6-9 months)", "Topical Treatment Needs", "Long-term Outlook"],
   tableRows: [
     {
@@ -355,18 +355,6 @@ export const skinReviews = {
   title: "",
   items: [
     {
-      quote: "Adult eczema for fifteen years. Steroid creams forever. Six months at Vedara alongside my dermatologist — the flares have reduced from monthly to occasional. My topical steroid use is half what it was.",
-      content: "",
-      author: "Sarah K.",
-      details: "Atopic Dermatitis · 6-Month Programme , JVC District 12 · February 2026"
-    },
-    {
-      quote: "Hormonal acne since my late 20s, worse after coming off the pill. Nothing topical worked long-term. Five months at Vedara, integrated with their dermatology team — my skin is clear and stable for the first time in a decade.",
-      content: "",
-      author: "Priya R.",
-      details: "5-Month Integrated Programme , Al Barsha South · January 2026"
-    },
-    {
       quote: "Plaque psoriasis on my elbows, knees, and scalp for years. On Stelara — managed but never gone. Vedara's nine-month programme alongside my dermatologist and biologic — my plaques have shrunk substantially. My dermatologist is impressed.",
       content: "",
       author: "Rohan G.",
@@ -374,7 +362,7 @@ export const skinReviews = {
     }
   ],
   stats: [
-    { label: "Patients Treated", value: "5,000+" },
+    { label: "Panchakarma Care", value: "DHA Licensed" },
     { label: "Improvement Reported", value: "74%" },
     { label: "Reduced Topical Needs", value: "62%" }
   ],
@@ -457,7 +445,7 @@ export const skinFaqs = {
   faqs: [
     {
       question: "Does Ayurvedic treatment actually work for chronic skin conditions?",
-      answer: "For most chronic skin conditions, yes — substantially, when treatment is a structured 4-9 month medical programme alongside dermatological care, not herbal supplements alone. Across our 380+ skin patients at the JVC clinic, chronic eczema patients typically see 50-75% reduction in flare frequency over 6 months. Hormonal acne patients typically see 60-80% lesion reduction. Rosacea responds particularly well. Psoriasis and vitiligo show meaningful improvement but are more variable. The single biggest predictor of outcome is consistent dietary and lifestyle adherence."
+      answer: "For most chronic skin conditions, yes — substantially, when treatment is a structured 4-9 month medical programme alongside dermatological care, not herbal supplements alone. Across our skin patients at the JVC clinic, chronic eczema patients typically see 50-75% reduction in flare frequency over 6 months. Hormonal acne patients typically see 60-80% lesion reduction. Rosacea responds particularly well. Psoriasis and vitiligo show meaningful improvement but are more variable. The single biggest predictor of outcome is consistent dietary and lifestyle adherence."
     },
     {
       question: "Can Ayurveda cure my skin condition?",

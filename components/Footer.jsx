@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Phone, Mail, Clock, MapPin, Stethoscope, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
+import { SITE } from '../lib/site';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -32,17 +33,15 @@ const Footer = () => {
               DHA-licensed holistic healthcare in Jumeirah Village Circle, Dubai.
             </p>
             <div className="space-y-4 text-sm text-[#F8F9FA]/80">
-              <p>Al Barsha South Fourth, Binghatti Azure,<br />
-                Jumeirah Village Circle Dubai, UAE
-              </p>
+              <p>{SITE.address.full}</p>
               <div className="space-y-2">
-                <a href="tel:+971 55 573 6312" className="flex items-center gap-2 hover:text-white transition-colors">
+                <a href={`tel:${SITE.phone}`} className="flex items-center gap-2 hover:text-white transition-colors">
                   <Phone size={14} />
-                  <span>+971 55 573 6312</span>
+                  <span>{SITE.phoneDisplay}</span>
                 </a>
-                <a href="mailto:booking@vedaracare.ae" className="flex items-center gap-2 hover:text-white transition-colors">
+                <a href={`mailto:${SITE.email}`} className="flex items-center gap-2 hover:text-white transition-colors">
                   <Mail size={14} />
-                  <span>booking@vedaracare.ae</span>
+                  <span>{SITE.email}</span>
                 </a>
               </div>
               <div className="flex gap-4 pt-2">
@@ -75,7 +74,6 @@ const Footer = () => {
               <li><Link href="/ayurveda-clinic-jvc" className="hover:text-white transition-colors">Ayurveda in JVC</Link></li>
               <li><Link href="/physiotherapy-jvc" className="hover:text-white transition-colors">Physiotherapy in JVC</Link></li>
               <li><Link href="/dermatology-clinic-jvc" className="hover:text-white transition-colors">Dermatology in JVC</Link></li>
-              <li><Link href="/home-healthcare-jvc" className="hover:text-white transition-colors">Home Healthcare in Dubai</Link></li>
               <li><Link href="/wellness-clinic-jvc" className="hover:text-white transition-colors">Wellness Clinic in JVC</Link></li>
             </ul>
           </div>
@@ -106,7 +104,6 @@ const Footer = () => {
                   <li><Link href="/services/physiotherapy" className="hover:text-white transition-colors">Sports Injury Rehab</Link></li>
                   <li><Link href="/physiotherapy/post-surgery-rehab-dubai/" className="hover:text-white transition-colors">Post-Surgery Rehab</Link></li>
                   <li><Link href="/services/dermatology" className="hover:text-white transition-colors">PRP Hair</Link></li>
-                  <li><Link href="/services/home-healthcare" className="hover:text-white transition-colors">IV Drip at Home</Link></li>
                 </>
               )}
 
@@ -180,7 +177,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#F8F9FA]/60">
-          <p>© {currentYear} Vedara Care Polyclinic. All rights reserved.</p>
+          <p>Vedara Care Polyclinic FZE - DHA-licensed facility, licence 2509266. © {currentYear} All rights reserved.</p>
           <div className="flex flex-wrap justify-center gap-6">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy</Link>
             <Link href="/terms-of-service" className="hover:text-white transition-colors">Terms</Link>

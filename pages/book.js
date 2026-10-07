@@ -266,8 +266,7 @@ export default function BookAppointment({ dynamicTreatments }) {
       treatments: dynamicTreatments?.['Physiotherapy'] || ['General Consultation'],
       doctors: [
         'Any Available DHA Specialist',
-        'Dr. Sarah Mitchell (Senior Physiotherapist)',
-        'Dr. Alex Vance (Sports Rehab Specialist)'
+        'Hafsina K K (Physiotherapist)'
       ]
     },
     'Ayurveda': {
@@ -277,8 +276,7 @@ export default function BookAppointment({ dynamicTreatments }) {
       treatments: dynamicTreatments?.['Ayurveda'] || ['General Consultation'],
       doctors: [
         'Any Available DHA Specialist',
-        'Dr. Ananya Sharma (BAMS Ayurveda Consultant)',
-        'Dr. Rajesh Kumar (Panchakarma Specialist)'
+        'Dr. Zainab Sheikh (Ayurveda Specialist)'
       ]
     },
     'Dermatology': {
@@ -288,7 +286,7 @@ export default function BookAppointment({ dynamicTreatments }) {
       treatments: dynamicTreatments?.['Dermatology'] || ['General Consultation'],
       doctors: [
         'Any Available DHA Specialist',
-        'Dr. Elena Rostova (Consultant Dermatologist)'
+        'Dr. Sanjida Islam Suchana (GP and Skin)'
       ]
     },
     'Home Healthcare': {
@@ -346,11 +344,7 @@ export default function BookAppointment({ dynamicTreatments }) {
 
       if (response.ok) {
         window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({
-          event: 'generate_lead',
-          form_name: 'booking_form',
-          page_path: window.location.pathname,
-        });
+        window.dataLayer.push({ event: 'booking_submit', department: formData.department || 'unknown', form_id: 'book' });
       }
 
       setIsSubmitting(false);
@@ -728,7 +722,7 @@ export default function BookAppointment({ dynamicTreatments }) {
                           required
                           value={formData.name}
                           onChange={handleInputChange}
-                          placeholder="e.g. Sarah Mitchell"
+                          placeholder=""
                           className="w-full px-4 py-3.5 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A]"
                         />
                       </div>
@@ -743,7 +737,7 @@ export default function BookAppointment({ dynamicTreatments }) {
                           required
                           value={formData.phone}
                           onChange={handleInputChange}
-                          placeholder="+971 50 123 4567"
+                          placeholder=""
                           className="w-full px-4 py-3.5 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A]"
                         />
                       </div>
@@ -759,7 +753,7 @@ export default function BookAppointment({ dynamicTreatments }) {
                           name="email"
                           value={formData.email}
                           onChange={handleInputChange}
-                          placeholder="sarah@example.com"
+                          placeholder=""
                           className="w-full px-4 py-3.5 bg-[#FAF8F5] border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-[#184C3A]"
                         />
                       </div>

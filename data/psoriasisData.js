@@ -30,7 +30,7 @@ export const psoriasisIntro = {
   title:
     "Psoriasis treatment at Vedara Care, in one paragraph.",
   blockquote: "Psoriasis treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist evidence-based dermatology care delivered by DHA-licensed consultant dermatologists with substantial expertise across all psoriasis presentations. We treat: chronic plaque psoriasis (the most common form), scalp psoriasis, nail psoriasis, guttate psoriasis, inverse psoriasis, pustular psoriasis, palmoplantar psoriasis, and considerations for psoriatic arthritis. Our approach combines comprehensive assessment (skin, nails, joints, associated systemic conditions), evidence-based topical treatments, phototherapy where available, oral systemic treatments (methotrexate, cyclosporine, acitretin, apremilast), and modern biologic treatments — including TNF inhibitors (adalimumab, etanercept), IL-17 inhibitors (secukinumab, ixekizumab), IL-23 inhibitors (guselkumab, risankizumab, tildrakizumab), and IL-12/23 inhibitor (ustekinumab). Realistic framing: well-controlled psoriasis with clear or nearly clear skin is achievable for most patients with modern treatments. Sustained partnership approach with regular follow-up. Medical psoriasis treatment is covered by most insurance with appropriate justification. Patients travel to our JVC clinic from across Dubai for specialist psoriasis care.",
-  footer: "Medically reviewed by Lead Consultant Dermatologist, MD, DHA-Licensed 2509266 · Last updated July 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed July 2026"
 };
 
 export const psoriasisUnderstanding = {
@@ -167,10 +167,6 @@ export const psoriasisPatientVoices = {
     {
       value: "4.9 / 5.0",
       description: "Google Rating"
-    },
-    {
-      value: "400+",
-      description: "Psoriasis Patients Treated"
     },
     {
       value: "Full Range",
@@ -396,7 +392,7 @@ export const psoriasisCTA = {
   button2BorderColor: "rgb(201, 165, 90)",
   button2TextColor: "rgb(201, 165, 90)",
   bullets: [
-    "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 400+ psoriasis patients treated · Access to full range of modern biologic treatments · Comprehensive systemic assessment · Multiple languages · Insurance direct-billing with biologic authorisation support"
+    "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · Access to full range of modern biologic treatments · Comprehensive systemic assessment · Multiple languages · Insurance direct-billing with biologic authorisation support"
   ]
 };
 export const psoriasisRelatedPages = {

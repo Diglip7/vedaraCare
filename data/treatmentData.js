@@ -30,7 +30,7 @@ export const panchakarmaJVCIntro = {
   label: "THE QUICK ANSWER",
   title: "Panchakarma in JVC, in one paragraph.",
   blockquote: "Vedara Care Polyclinic offers DHA-licensed, doctor-supervised classical Panchakarma at our clinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall and three minutes from FIVE Jumeirah Village Hotel. We deliver 7-day, 14-day, and 21-day classical Panchakarma programmes prescribed and supervised by BAMS-qualified Ayurvedic physicians. Programmes start from AED 4,500 and treat chronic back pain, PCOS, stress, migraine, and constitutional reset. Free patient parking, daily clinic access for residents of JVC, JVT, Al Barsha South, Dubai Sports City, and Motor City.",
-  footer: "Medically reviewed by Dr. Priya Sharma, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Read our <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline\">Panchakarma in Dubai guide</a> · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Read our <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline\">Panchakarma in Dubai guide</a> · Last reviewed May 2026"
 };
 
 export const panchakarmaJVCReviews = {
@@ -49,12 +49,6 @@ export const panchakarmaJVCReviews = {
       details: "Chronic Back Pain · 14-Day Programme · JVC District 12 · March 2026"
     },
     {
-      quote: "My PCOS finally has an answer. Walking distance from FIVE Hotel where I live.",
-      content: "",
-      author: "Aisha M.",
-      details: "PCOS · 14-Day Programme · JVC District 10 · February 2026"
-    },
-    {
       quote: "I tried Panchakarma in Karama once. The drive killed it. JVC location changed everything.",
       content: "",
       author: "Rohan D.",
@@ -62,7 +56,7 @@ export const panchakarmaJVCReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "24", label: "reviews from JVC residents" },
     { value: "97%", label: "would recommend" }
   ]
@@ -234,7 +228,7 @@ export const panchakarmaJVCRelatedPages = {
     },
     {
       title: "Meet Your Panchakarma Physician →",
-      description: "Dr. Priya Sharma — BAMS, MD (Ayurveda), DHA-licensed 2509266. View full credentials, specialisations, and consultation availability.",
+      description: "Dr. Zainab Sheikh — Ayurveda Practitioner, DHA licence 20918133. View full credentials, specialisations, and consultation availability.",
       href: "/doctors"
     }
   ]
@@ -352,7 +346,7 @@ export const kativastiIntro = {
   label: "THE QUICK ANSWER",
   title: "Kativasti in Dubai, in one paragraph.",
   blockquote: "Kativasti is a classical Ayurvedic therapy in which warm medicated oil is contained over the lumbar spine using a custom-shaped wheat-flour dough reservoir, held in place for 30 to 45 minutes per session. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Kativasti is doctor-prescribed by BAMS-qualified physicians for <a href='/conditions/back-pain-ayurveda-dubai/' class='text-[#C9A961] hover:underline'>chronic lower back pain</a>, <a href='/conditions/sciatica-ayurveda-dubai/' class='text-[#C9A961] hover:underline'>sciatica</a>, lumbar disc issues, and spinal stiffness — typically as a 7 or 14-session course alongside internal Ayurvedic medicines and integrated <a href='/physiotherapy-jvc/' class='text-[#C9A961] hover:underline'>physiotherapy</a>. Sessions start from AED 450.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 ”· Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2026"
 };
 
 export const kativastiMechanism = {
@@ -553,20 +547,9 @@ export const kativastiReviews = {
       quote: "Three years of chronic lower back pain. Fourteen Kativasti sessions. I am back to playing tennis.",
       author: "Sarah K.",
       details: "Chronic Mechanical Back Pain · 14-Session Course · January 2026 · Vedara Care JVC, January 2026"
-    },
-    {
-      quote: "We selection had radiated down my leg for eight months. By session ten, the leg pain was gone.",
-      author: "James M.",
-      details: "Sciatica · 14-Session Course with Sahacharadi · At Vedara Care JVC, January 2026"
-    },
-    {
-      quote: "The combined Kativasti and physiotherapy programme did what neither would have done alone.",
-      author: "Priya R.",
-      details: "Postoperative Back Pain · Integrated Spine Care · At Vedara Care JVC, March 2026"
-    }
-  ],
+    }],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "34", label: "Kativasti-specific reviews" },
     { value: "97%", label: "reported significant pain reduction" }
   ],

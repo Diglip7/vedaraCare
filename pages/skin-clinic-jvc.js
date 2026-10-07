@@ -99,10 +99,9 @@ const SkinClinicJvc = () => {
         { "@type": "ListItem", "position": 4, "name": "Hair Loss and Scalp Concerns" },
         { "@type": "ListItem", "position": 5, "name": "Eczema and Sensitive Skin" },
         { "@type": "ListItem", "position": 6, "name": "Skin Cancer Screening" },
-        { "@type": "ListItem", "position": 7, "name": "Unwanted Hair Removal" },
-        { "@type": "ListItem", "position": 8, "name": "Skin Health Maintenance" },
-        { "@type": "ListItem", "position": 9, "name": "Hyperhidrosis" },
-        { "@type": "ListItem", "position": 10, "name": "Uncategorised Concerns" }
+        { "@type": "ListItem", "position": 7, "name": "Skin Health Maintenance" },
+        { "@type": "ListItem", "position": 8, "name": "Hyperhidrosis" },
+        { "@type": "ListItem", "position": 9, "name": "Uncategorised Concerns" }
       ]
     },
     {
@@ -137,13 +136,13 @@ const SkinClinicJvc = () => {
   return (
     <>
       <Head>
-        <title>Skin Clinic in JVC | Find the Right Care | Vedara Care Dubai</title>
-        <meta name="description" content="Not sure what skin treatment you need? Our JVC skin clinic helps you identify your concern and find the right care. Acne, pigmentation, aging, hair, eczema, skin cancer — guidance for every concern. Consultant dermatologists. Walking distance from Circle Mall." />
+        <title>Aesthetic Treatments in JVC, Dubai | Vedara Care</title>
+        <meta name="description" content="Doctor-led skin boosters, Profhilo, PRP facial and laser skin treatments at Vedara Care Polyclinic, Binghatti Azure, JVC. WhatsApp to book." />
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
-        <meta property="og:title" content="Skin Clinic in JVC — Find the Right Care for Your Concerns | Vedara Care" />
-        <meta property="og:description" content="Patient-guided skin clinic at Jumeirah Village Circle, Dubai. Identify your skin concern from acne to aging to skin cancer screening, and navigate to the right care. DHA-licensed consultant dermatologists. Multiple languages. Both medical and aesthetic guidance." />
+        <meta property="og:title" content="Aesthetic Treatments in JVC, Dubai | Vedara Care" />
+        <meta property="og:description" content="Doctor-led skin boosters, Profhilo, PRP facial and laser skin treatments at Vedara Care Polyclinic, Binghatti Azure, JVC. WhatsApp to book." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/skin-clinic-jvc.jpg" />
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="business.business" />

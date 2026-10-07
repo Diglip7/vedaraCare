@@ -6,7 +6,7 @@ export const backPainJvcHero = {
   ],
   label: "Back Pain Ayurvedic Treatment · DHA-Licensed · Jumeirah Village Circle",
   title: "Back pain Ayurvedic treatment at our JVC clinic, Dubai.",
-  description: "Authentic Ayurvedic back pain management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall — serving Dubai's community with Kativasti, Panchakarma, Abhyanga, herbal medicines, and personalised lifestyle counselling. Female practitioner Dr. Zainab available. Coordinated with modern medical care. Serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, and every Dubai community.",
+  description: "Authentic Ayurvedic back pain management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall — serving Dubai's community with Kativasti, Panchakarma, Abhyanga, herbal medicines, and personalised lifestyle counselling. Female practitioner Dr. Zainab available. Coordinated with modern medical care. Serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, and every Dubai community.<br/><br/>Looking for physiotherapy instead? See <a href='/conditions/back-pain-physiotherapy-jvc/'>back pain physiotherapy in JVC</a>.",
   primaryCTA: "Book a Back Pain Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
@@ -293,8 +293,8 @@ export const backPainJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "Google Rating" },
-    { value: "5000+", label: "Patients Treated" },
+    { value: "4.6", label: "Google Rating" },
+    { value: "JVC", label: "Clinic Location" },
     { value: "Female", label: "Practitioner Available" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
 
@@ -457,7 +457,6 @@ export const backPainJvcCTA = {
     "90-minute comprehensive assessment",
     " Female DHA-Licensed BAMS Ayurvedic Doctor",
     "Flagship Kativasti back therapy",
-    "1400+ back pain patients treated",
     "Multi-language including Malayalam for Kerala tradition",
     "Coordinated with modern medical care",
     "Walking distance from Circle Mall, JVC"

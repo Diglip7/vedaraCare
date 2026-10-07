@@ -30,7 +30,7 @@ export const skinTagRemovalIntro = {
   label: "THE QUICK ANSWER",
   title: "Skin Tag Removal at Vedara Care",
   blockquote: "Skin tag removal is a straightforward dermatology procedure that involves detaching or destroying a small, benign skin growth using a technique suited to its size and location — but the process should always begin with an assessment, not the removal itself. Skin tags commonly appear on the neck, underarms, eyelids, and in skin folds such as the groin or under the breasts. Depending on what the dermatologist finds, removal may involve snip excision, electrocautery, cryotherapy, or another appropriate technique. Different lesions call for different approaches, which is one of several reasons patients shouldn't cut, tie off, or burn a skin tag at home. Occasionally, a growth that looks like a typical skin tag turns out, on closer examination, to be something else entirely — which is exactly why identification comes before treatment.",
-  // footer: "Medically reviewed by: [INSERT VERIFIED DERMATOLOGIST NAME]<br/>DHA-Licensed · Last updated August 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last updated August 2026"
 };
 
 export const skinTagWhatIs = {

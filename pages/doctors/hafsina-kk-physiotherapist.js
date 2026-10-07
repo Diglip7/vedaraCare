@@ -9,8 +9,8 @@ const HafsinaKKPage = () => {
   const schemaMarkup = [
     {
       "@context": "https://schema.org",
-      "@type": "Physician",
-      "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician",
+      "@type": "Person",
+      "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#person",
       "name": "Hafsina K K",
       "honorificPrefix": "",
       "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/",
@@ -110,14 +110,14 @@ const HafsinaKKPage = () => {
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
-      "employee": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" }
+      "employee": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#person" }
     },
     {
       "@context": "https://schema.org",
       "@type": "MedicalWebPage",
       "name": "Hafsina K K — DHA Licensed Physiotherapist in Dubai | Vedara Care",
       "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/",
-      "about": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
+      "about": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#person" },
       "reviewedBy": {
         "@type": "MedicalOrganization",
         "name": "Vedara Care Medical Team"
@@ -157,6 +157,7 @@ const HafsinaKKPage = () => {
       "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#person",
       "name": "Hafsina K K",
       "jobTitle": "DHA Licensed Physiotherapist",
+      "credential": "DHA professional licence DHA-P 64812828",
       "worksFor": { "@id": "https://vedaracare.ae/#organization" }
     },
     {

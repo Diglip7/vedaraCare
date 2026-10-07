@@ -386,7 +386,7 @@ export const insomniaCTA = {
   button2BorderColor: "rgb(201, 165, 90)",
   button2TextColor: "rgb(201, 165, 90)",
   bullets: [
-    "Initial consultation from AED [X] · 90-minute comprehensive sleep assessment · Female DHA-Licensed BAMS Ayurvedic Doctor · Authentic Shirodhara and Padabhyanga · 850+ sleep patients treated · Multi-language including Malayalam for Kerala tradition · Coordinated with modern sleep medicine · Walking distance from Circle Mall, JVC"
+    "Initial consultation from AED [X] · 90-minute comprehensive sleep assessment · Female DHA-Licensed BAMS Ayurvedic Doctor · Authentic Shirodhara and Padabhyanga · Multi-language including Malayalam for Kerala tradition · Coordinated with modern sleep medicine · Walking distance from Circle Mall, JVC"
   ]
 }
 export const insomniaJvcRelatedPages = {
@@ -444,8 +444,7 @@ export const insomniaJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "stars on Google" },
-    { value: "850+", label: "sleep patients treated" },
+    { value: "4.6", label: "stars on Google" },
     { value: "DHA-licensed", label: "BAMS Ayurvedic doctors" },
     { value: "Female", label: "practitioner available" }
   ],

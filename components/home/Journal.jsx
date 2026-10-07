@@ -90,14 +90,14 @@ const Journal = ({
       <div className="max-w-[1280px] mx-auto px-6">
         <div className="flex justify-between items-end mb-12">
           <div className="space-y-4">
-            <span className="text-[13px] font-sans tracking-[0.2em] text-[#C9A961] uppercase block">
+            <span className="text-[13px] font-sans tracking-[0.2em] text-[#C9A961] uppercase font-bold block">
               {label}
             </span>
             <h2 className="text-[42px] font-serif font-medium text-[#1A1A1A] leading-[1.2]">
               {title}
             </h2>
           </div>
-          <Link href="/blog" className="text-[#C9A961] font-sans font-medium text-[15px] hover:underline mb-2">
+          <Link href="/blog" className="text-[#184C3A] font-sans font-medium text-[15px] hover:underline mb-2">
             {linkText}
           </Link>
         </div>
@@ -134,7 +134,7 @@ const Journal = ({
 
                 {/* Content */}
                 <div>
-                  <div className="text-[14px] font-sans tracking-[0.1em] text-[#C9A961] uppercase mb-3">
+                  <div className="text-[14px] font-sans tracking-[0.1em] text-[#C9A961] uppercase font-bold mb-3">
                     {post.topics[0] || "HEALTH"}
                   </div>
                   <h3 className="text-[20px] font-serif font-medium text-[#1A1A1A] leading-snug mb-3 group-hover:text-[#184C3A] transition-colors">

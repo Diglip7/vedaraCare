@@ -7,7 +7,7 @@ export const postnatalHero = {
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20postnatal%20care%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "45 Day & Custom Postnatal Programmes",
-    "800+ Postpartum Mothers Cared For",
+    "Traditional Sutika Paricharya",
     "Home Services Across Dubai",
     "Walking Distance from Circle Mall, JVC"
   ],
@@ -28,7 +28,7 @@ export const postnatalIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic postnatal care in Dubai, in one paragraph.",
   blockquote: "Ayurvedic postnatal care in Dubai is the classical 45-day Sutika Paricharya programme — a structured, comprehensive postpartum recovery system from classical Ayurvedic medicine combining daily Abhyanga (warm medicated oil massage), specific internal medicines for uterine involution and lactation, dietary protocols calibrated by week, Udar Bandhana (belly binding), Yoni Pichu (intimate area care), sleep and emotional support, and integrated mother-baby bonding optimisation. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes are delivered primarily at your home across Dubai (JVC, JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown), beginning ideally within 7-10 days of delivery. Care is integrated with your obstetric postpartum follow-up. Programmes start from AED 12,500 for the full 45 days.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA Licensed 2509266 · Last updated May 2024"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2024"
 };
 
 export const postnatalMechanism1 = {
@@ -264,18 +264,8 @@ export const postnatalBoundaries = {
 export const postnatalReviews = {
   label: "PATIENT STORIES",
   title: "Real postpartum outcomes",
-  description: "4.5 stars on Google · 300+ postnatal care reviews · 94% of mothers completed the full programme · 97% would recommend to other expat mothers.",
+  description: "4.6 stars on Google · 94% of mothers completed the full programme · 97% would recommend to other expat mothers.",
   items: [
-    {
-      quote: "My mother could not come to Dubai for my postpartum. I had a C-section, a colicky baby, and no family support. Vedara's 45-day postnatal programme — the daily Abhyanga, the food, the doctor coming to check on me — was the care I would have received at home. I cried with relief on the first day.",
-      author: "Sarah K.",
-      details: "C-Section Recovery - 60 Day Programme - JVC District 12 - February 2024"
-    },
-    {
-      quote: "I was three months postpartum and falling apart. Weight not coming off, hair shedding everywhere, my mood dark. The 45-day late-start programme rebuilt me. By day 30 I felt like a person again.",
-      author: "Priya R.",
-      details: "Late-Start Programme - 45 Day Programme - Al Barsha South - January 2024"
-    },
     {
       quote: "Twins. Both NICU for the first week. Came home physically empty and emotionally shattered. Vedara's twins programme — 90 days, more visits than the standard, mental health support throughout — saved us.",
       author: "Aisha M.",
@@ -283,8 +273,8 @@ export const postnatalReviews = {
     }
   ],
   stats: [
-    { label: "Stars on Google", value: "4.5" },
-    { label: "Mothers Cared For", value: "800+" },
+    { label: "Stars on Google", value: "4.6" },
+    { label: "DHA Licensed", value: "Postnatal Care" },
     { label: "Completion Rate", value: "94%" }
   ],
   bgColor: "bg-[#184C3A]",

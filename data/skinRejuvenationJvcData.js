@@ -27,7 +27,7 @@ export const skinRejuvenationIntro = {
   label: "THE QUICK ANSWER",
   title: "Skin rejuvenation at Vedara Care, in one paragraph.",
   blockquote: "Skin rejuvenation at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is sophisticated aesthetic dermatology delivered by DHA-licensed consultant dermatologists with substantial expertise across all Fitzpatrick skin types (I–VI). Our approach combines multiple evidence-based modalities into personalised plans: chemical peels tailored to skin type, medical microneedling with growth factors or PRP, mesotherapy with vitamin and hyaluronic acid cocktails, laser skin rejuvenation using appropriate platforms, skin boosters for deep hydration, and coordination with injectables. Patients seek us for photoaging correction, texture improvement, pore refinement, uneven tone, mild-to-moderate acne scarring, pre-wedding preparation, and general aesthetic maintenance. Multi-modal combinations produce superior outcomes to single treatments. Initial consultation includes comprehensive skin analysis and personalised treatment plan. Cosmetic treatments are not insurance-covered. Patients travel to our JVC clinic from across Dubai for specialist skin rejuvenation care.",
-  footer: "Medically reviewed by Dr. Layla Hassan, MD, DHA-Licensed 2509266 · Last updated June 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed June 2026"
 };
 
 export const skinRejuvenationUnderstanding = {
@@ -196,7 +196,7 @@ export const skinRejuvenationCTA = {
   button2BorderColor: "rgb(201, 165, 90)",
   button2TextColor: "rgb(201, 165, 90)",
   bullets: [
-    "Initial consultation from AED 500 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · 1,000+ skin rejuvenation patients treated · Expertise across all Fitzpatrick skin types · Female and male dermatologists · Multiple languages · Comprehensive treatment packages"
+    "Initial consultation from AED 500 · Walking distance from Circle Mall, JVC · DHA-licensed consultant dermatologists · Expertise across all Fitzpatrick skin types · Female and male dermatologists · Multiple languages · Comprehensive treatment packages"
   ]
 };
 
@@ -386,12 +386,8 @@ export const skinRejuvenationPatientVoices = {
   ],
   stats: [
     {
-      value: "4.5",
+      value: "4.6",
       description: "on Google"
-    },
-    {
-      value: "1,000+",
-      description: "skin rejuvenation patients treated"
     },
     {
       value: "All",

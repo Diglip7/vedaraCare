@@ -4,7 +4,7 @@ export const dermatologyHero = {
     { label: "Dermatology Clinic in JVC", active: true }
   ],
   label: "DERMATOLOGY CLINIC · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
-  title: "Dermatology clinic in JVC. Specialist medical and cosmetic care. All skin types. All concerns.",
+  title: "Dermatology in Jumeirah Village Circle",
   description: "Specialist dermatology at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed consultant dermatologists delivering medical dermatology — acne, eczema, pigmentation, skin cancer screening — and aesthetic dermatology: anti-aging treatments, botulinum toxin, dermal fillers, laser treatments, hair restoration. Expertise across all Fitzpatrick skin types. Multiple languages: Arabic, English, Hindi, Urdu.",
   primaryCTA: "Book Dermatology Consultation",
   secondaryCTA: "Explore Treatments",
@@ -28,8 +28,8 @@ export const dermatologyHero = {
 export const dermatologyIntro = {
   label: "THE QUICK ANSWER",
   title: "Dermatology at Vedara Care, in one paragraph.",
-  blockquote: "Dermatology at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist medical and aesthetic dermatology delivered by DHA-licensed consultant dermatologists with expertise across all Fitzpatrick skin types (I–VI), particularly important for Dubai's diverse expat and Emirati population. Medical dermatology services include acne treatment (adolescent and adult), melasma and pigmentation treatment, eczema and atopic dermatitis management, psoriasis treatment, rosacea management, hyperhidrosis treatment, skin cancer screening and mole assessment, dermatology surgery, chronic skin condition management, and pediatric dermatology. Aesthetic dermatology services include botulinum toxin, dermal fillers, chemical peels, laser treatments (hair removal, pigmentation, skin resurfacing, vascular lesions), skin rejuvenation, and hair restoration. Climate-specific expertise addressing Dubai's specific patterns — sun damage, melasma, photoaging, hyperhidrosis, fungal conditions. Multiple languages including Arabic, English, Hindi, Urdu. Female and male dermatologists available. Initial consultation from AED 500. Insurance covers medical dermatology with appropriate justification; cosmetic procedures typically self-pay. Patients travel to our JVC clinic from across Dubai for specialist dermatology care.",
-  footer: "Medically reviewed by Dr. Sanjida, MBBS , DHA-Licensed 2509266 · Last updated June 2026"
+  blockquote: "Dermatology at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is specialist medical and aesthetic dermatology delivered by DHA-licensed consultant dermatologists with expertise across all Fitzpatrick skin types (I–VI), particularly important for Dubai's diverse expat and Emirati population. Medical dermatology services include acne treatment (adolescent and adult), melasma and pigmentation treatment, eczema and atopic dermatitis management, psoriasis treatment, rosacea management, hyperhidrosis treatment, skin cancer screening and mole assessment, dermatology surgery, chronic skin condition management, and pediatric dermatology. Aesthetic dermatology services include botulinum toxin, dermal fillers, chemical peels, laser treatments (pigmentation, skin resurfacing, vascular lesions), skin rejuvenation, and hair restoration. Climate-specific expertise addressing Dubai's specific patterns — sun damage, melasma, photoaging, hyperhidrosis, fungal conditions. Multiple languages including Arabic, English, Hindi, Urdu. Female and male dermatologists available. Initial consultation from AED 500. Insurance covers medical dermatology with appropriate justification; cosmetic procedures typically self-pay. Patients travel to our JVC clinic from across Dubai for specialist dermatology care.",
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed June 2026"
 };
 
 export const dermatologySciaticaSection1 = {
@@ -152,8 +152,9 @@ export const dermatologyAestheticTypes = {
     },
     {
       number: "04",
-      title: 'Laser Hair Removal',
-      description: 'Multiple laser platforms for hair removal across all skin types. Alexandrite, diode, and Nd:YAG lasers each have specific applications. Laser selection must match skin type — Nd:YAG appropriate for darker skin types where other lasers carry burn risk. Typical course 6–8 sessions every 4–6 weeks for substantial reduction. Maintenance sessions occasionally needed.',
+      title: 'Mole & Skin Tag Removal',
+      description: 'Expert assessment and removal of benign skin lesions, moles, and skin tags. Procedures performed by DHA-licensed consultant dermatologists ensuring complete removal with minimal scarring risk. Lesions evaluated carefully before removal to rule out malignancy. Quick, in-clinic procedure with local anaesthesia.',
+      linkHref: "/treatments/mole-removal-jvc"
     },
     {
       number: "05",
@@ -210,8 +211,7 @@ export const dermatologyReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "stars on Google" },
-    { value: "500+", label: "dermatology patients treated" },
+    { value: "4.6", label: "stars on Google" },
     // { value: "Int'l", label: "consultant dermatologists trained" },
     { value: "Both", label: "medical & aesthetic excellence" }
   ],
@@ -261,7 +261,6 @@ export const dermatologyPricing = {
     { name: "Dermal fillers (per syringe, premium products)", price: "FromAED 1,800" },
     { name: "Chemical peel — superficial", price: "From AED 500" },
     { name: "Chemical peel — medium-depth", price: "From AED 900" },
-    { name: "Laser hair removal (per session, small area)", price: "From AED 400" },
     { name: "Pigmentation laser treatment (per session)", price: "From AED 1,100" },
     { name: "Skin resurfacing laser session", price: "From AED 1,500" },
     { name: "PRP hair restoration (per session)", price: "From AED 1,400" },
@@ -325,10 +324,6 @@ export const dermatologyFaqs = {
     , {
       question: "How long do dermal fillers last?",
       answer: "Depends on product and area. Lip fillers typically 6–12 months. Cheek fillers typically 12–18 months. Tear trough fillers 9–18 months. Premium hyaluronic acid fillers we use have well-established longevity profiles. Individual variation occurs based on metabolism, lifestyle, and other factors. Reversibility with hyaluronidase available if needed."
-    },
-    {
-      question: "What is laser hair removal — and does it really work permanently?",
-      answer: "'Permanent reduction' is the accurate description — typical results 70–90% reduction in hair density after 6–8 sessions. Laser uses specific wavelengths targeting hair pigment to damage follicles, reducing future growth. Some hairs return, often finer and lighter. Maintenance sessions occasionally needed. Effectiveness varies by hair colour, skin colour (laser selection must match skin type), and hormonal factors."
     },
     {
       question: "Can I treat melasma effectively?",

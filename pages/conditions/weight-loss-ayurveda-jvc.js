@@ -81,7 +81,7 @@ const WeightLossAyurvedaJvc = () => {
         { "@type": "MedicalProcedure", "name": "PCOS Weight Support Programme" }
       ],
       "memberOf": { "@type": "Organization", "name": "Dubai Health Authority" },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1" },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "15", "bestRating": "5", "worstRating": "1" },
       "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician" },
       "lastReviewed": "2026-08-20"
     },

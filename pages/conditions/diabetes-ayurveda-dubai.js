@@ -43,7 +43,7 @@ const DiabetesAyurvedaDubai = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-05-01" />
         <meta property="article:modified_time" content={currentDate} />
-        <meta property="article:author" content="Dr. [Lead Ayurvedic Physician]" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         {/* Canonical & Language */}
@@ -195,7 +195,7 @@ const DiabetesAyurvedaDubai = () => {
             "lastReviewed": currentDate,
             "reviewedBy": {
               "@type": "Physician",
-              "name": "Dr. [Lead Ayurvedic Physician]",
+              "name": "Dr. Zainab Sheikh",
               "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
             },
             "primaryImageOfPage": "https://vedaracare.ae/images/diabetes-ayurveda-dubai-hero.webp"
@@ -268,8 +268,8 @@ const DiabetesAyurvedaDubai = () => {
             "dateModified": currentDate,
             "author": {
               "@type": "Physician",
-              "name": "Dr. [Lead Ayurvedic Physician]",
-              "url": "https://vedaracare.ae/doctors/dr-[name]-ayurveda/"
+              "name": "Dr. Zainab Sheikh",
+              "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
             },
             "publisher": {
               "@type": "Organization",

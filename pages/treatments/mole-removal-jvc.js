@@ -70,7 +70,7 @@ const MoleRemovalJVC = () => {
                   "lastReviewed": "2026-08-01",
                   "reviewedBy": {
                     "@type": "Person",
-                    "name": "[INSERT VERIFIED DERMATOLOGIST NAME]",
+                    "name": "Dr. Sanjida Islam Suchana",
                     "jobTitle": "Dermatologist",
                     "worksFor": { "@id": "https://www.vedaracare.com/#organization" }
                   },
@@ -592,7 +592,7 @@ const MoleRemovalJVC = () => {
           </div>
           <div className="relative h-[480px] lg:h-[580px] w-full rounded-2xl overflow-hidden shadow-lg border border-[#E5DFD3]">
             <img
-              src="/images/mole-removal-laser-hair-removal-jvc.webp"
+              src="/images/mole-removal-jvc.webp"
               alt="Mole Removal Safety and Consultation at Vedara Care JVC"
               className="w-full h-full object-cover object-top"
             />

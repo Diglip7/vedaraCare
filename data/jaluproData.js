@@ -32,7 +32,7 @@ export const jaluproIntro = {
   label: "THE QUICK ANSWER",
   title: "Jalupro Treatment at Vedara Care",
   blockquote: "Jalupro Treatment in JVC, offered at Vedara Care Polyclinic, refers to a family of injectable products rather than one single formula. Jalupro formulations generally combine hyaluronic acid with amino acids, and different products within the range are designed with different purposes in mind — which is why the exact formulation used should always be matched to the patient’s skin and goals, not assumed to be the same for everyone.Patients typically look into Jalupro when \they’re concerned about dehydrated- or dull-looking skin, visible fine lines, reduced skin quality, or early, subtle signs of ageing. It’s generally discussed alongside skin hydration and biorevitalisation rather than facial volume or contouring.Because Jalupro is formulation-dependent, and because skin condition and goals vary from person to person, the specific product used, the treatment area, the number of sessions, and the expected outcome all depend on individual clinical assessment. Results also vary between patients — no injectable treatment produces an identical outcome for everyone.A consultation at Vedara Care Polyclinic in JVC is the appropriate next step to determine whether Jalupro is suitable for you, and if so, which formulation and treatment plan make sense for your skin.",
-  footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+  footer: "Keep unpublished until Dr. Anusha's licence is issued"
 };
 
 export const jaluproExplanation = {

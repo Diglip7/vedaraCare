@@ -389,7 +389,7 @@ export const RfProtocol = () => {
             "Patients often ask me during the first session, 'is that it? It just feels warm.' That's exactly what it should feel like. RF is not supposed to be painful. The therapeutic window is comfortable warmth  -  like a warm stone massage on your face."
           </p>
           <div className="font-sans text-[12px] text-[#888888]">
-             -  Arfah Owais  -  DHA-Licensed Aesthetician, RF Device-Certified, Vedara Care JVC
+            -  Arfah Owais  -  DHA-Licensed Aesthetician, RF Device-Certified, Vedara Care JVC
           </div>
         </div>
 
@@ -424,7 +424,7 @@ export const RfProtocol = () => {
                 <td className="p-4">Superficial (topical  -  surface denaturing)</td>
               </tr>
               <tr className="border-b border-[#EAE3D9]">
-                <td className="p-4 font-bold text-[#1F1F1F]">Best Clinical Use</td>
+                <td className="p-4 font-bold text-[#1F1F1F]">Primary Clinical Use</td>
                 <td className="p-4 bg-[#FAF7F2]">Skin quality + mild-moderate firming</td>
                 <td className="p-4">Structural lift, SMAS-level</td>
                 <td className="p-4">Moderate laxity, immediate structural</td>

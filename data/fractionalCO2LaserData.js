@@ -36,7 +36,7 @@ export const co2LaserIntro = {
   label: "THE QUICK ANSWER",
   title: "Fractional CO2 laser treatment at Vedara Care, in one paragraph.",
   blockquote: "Fractional CO2 laser is a form of laser skin resurfacing that treats the skin in a grid-like pattern of tiny columns, leaving the surrounding tissue untouched to support faster healing. This \"fractional\" approach allows the laser to reach deeper skin layers to stimulate collagen remodelling while reducing the downtime associated with older, fully ablative CO2 lasers. It's commonly considered for acne scarring, uneven skin texture, fine lines, sun-damaged skin, and certain types of surgical or traumatic scarring.\n\nThough suitability depends on skin type, scar depth, and individual healing history. A dermatology assessment is used to determine whether the treatment is appropriate, what intensity setting is suitable, and how many sessions may be needed. Recovery can involve redness, swelling, and peeling that typically settles over one to two weeks, though this varies by treatment depth. Results develop gradually over several months as new collagen forms, and most patients need more than one session to see meaningful change.",
-  footer: "Medically reviewed by: [Verified Dermatologist Name]\nDHA Licensed · Last updated: [Month Year]"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed August 2026"
 };
 
 export const co2LaserSkinConcerns = {
@@ -311,7 +311,7 @@ export const co2LaserInsurance = {
 export const co2LaserResults = {
   label: "RESULTS",
   title: "Fractional CO2 Laser Results at Vedara Care",
-  // testimonialPlaceholder: "[INSERT VERIFIED PATIENT TESTIMONIAL]",
+
   photographyPlaceholder: "",
   note: "Genuine patient testimonials and before-and-after photography will be added here once collected with appropriate patient consent. We do not publish fabricated reviews or stock imagery presented as real patient outcomes.",
   disclaimer: ""

@@ -34,7 +34,7 @@ export const skinTighteningQuickAnswer = {
   label: "QUICK ANSWER",
   title: "Laser skin tightening at Vedara Care in JVC, in one paragraph.",
   text: "Laser skin tightening at Vedara Care uses controlled energy to gently heat targeted layers of the skin beneath the surface. This controlled heating triggers a healing response, prompting the skin to begin remodelling and producing new collagen. Because this is a biological process rather than an instant physical change, the resulting firmness develops gradually — the skin needs time to actually build and organise new collagen fibres following each session.\n\nOver the following weeks and months, many patients notice a gradual improvement to skin firmness and texture as this collagen remodelling continues. This is a progressive process, not a single-treatment transformation and it is one of the key reasons setting realistic expectations about what to expect is one of the most important things we discuss.\n\nIt's worth noting that laser skin tightening is not the same as treatment designed specifically to reduce fat, treat collagen-loss pigmentation and skin firmness; no fat reduction, unless a specific technology designed for that separate purpose is being discussed and confirmed.",
-  // reviewer: "Medically reviewed by: [VERIFIED DERMATOLOGIST NAME] DHA Licensed ”· Last updated August 2026",
+  reviewer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed August 2026",
 };
 
 export const skinTighteningUnderstanding = {
@@ -229,7 +229,7 @@ export const skinTighteningSessions = {
   title: "How many skin tightening sessions might you need?",
   paragraphs: [
     "There's no universal number of sessions that applies to everyone, and treatment plans that promise a specific number upfront should be approached with caution. The number recommended for you depends on your degree of laxity, the technology used, treatment intensity, how your skin responds, your age, the area being treated, and what results you're hoping to achieve.",
-    // "[INSERT VERIFIED CLINIC PROTOCOL AVAILABLE] — your dermatologist will discuss a personalised session plan once your assessment is complete, and this may be adjusted as treatment progresses based on how your skin actually responds.",
+    "Your dermatologist will discuss a personalised session plan once your assessment is complete, and this may be adjusted as treatment progresses based on how your skin actually responds.",
   ],
 };
 
@@ -269,12 +269,12 @@ export const skinTighteningPricing = {
   title: "How does laser skin tightening cost in JVC?",
   table: [
     ["Service", "Price"],
-    ["Initial Dermatology consultation", "AED[X]"],
-    ["Laser skin tightening — face", "AED[X]"],
-    ["Laser skin tightening — neck", "AED[X]"],
-    ["Face + neck treatment", "AED[X]"],
-    ["Follow-up assessment", "AED[X]"],
-    ["Treatment package", "AED[X]"],
+    ["Initial Dermatology consultation", "Prices are shared on WhatsApp"],
+    ["Laser skin tightening — face", "Prices are shared on WhatsApp"],
+    ["Laser skin tightening — neck", "Prices are shared on WhatsApp"],
+    ["Face + neck treatment", "Prices are shared on WhatsApp"],
+    ["Follow-up assessment", "Prices are shared on WhatsApp"],
+    ["Treatment package", "Prices are shared on WhatsApp"],
   ],
   note: "Cost can depend on the treatment area, the specific technology used, treatment intensity, the number of sessions recommended, and the overall assessment recommendation. A personalised cost estimate will be provided once your assessment is complete.",
 };
@@ -393,7 +393,7 @@ export const skinTighteningEEAT = {
 
 // BRACKETED PLACEHOLDERS — must be replaced with confirmed, accurate Vedara Care information
 // before this page is published:
-// [VERIFIED DERMATOLOGIST NAME], [VERIFY PRICE], [INSERT VERIFIED DEVICE / TECHNOLOGY USED BY VEDARA CARE],
+// [VERIFY PRICE], [INSERT VERIFIED DEVICE / TECHNOLOGY USED BY VEDARA CARE],
 // [INSERT VERIFIED PATIENT TESTIMONIAL], [VERIFIED DERMATOLOGIST PROFILE], [VERIFY TREATMENT AREA],
 // [INSERT VERIFIED CLINIC PROTOCOL IF AVAILABLE], [verified URL]
 // Word count (excluding metadata, tables, and structural labels): approximately 2,850 words.

@@ -75,7 +75,7 @@ const psoriasistreatment = () => {
         {"@type": "MedicalProcedure", "name": "Psoriatic Arthritis Screening"}
       ],
       "memberOf": {"@type": "Organization", "name": "Dubai Health Authority"},
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "15", "bestRating": "5", "worstRating": "1"}
+      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "15", "bestRating": "5", "worstRating": "1"}
     },
     {
       "@context": "https://schema.org",
@@ -139,7 +139,7 @@ const psoriasistreatment = () => {
       "image": "https://vedaracare.ae/images/psoriasis-treatment-jvc-dubai-hero.jpg",
       "datePublished": publishedDate,
       "dateModified": modifiedDate,
-      "author": {"@type": "Physician", "name": "Lead Consultant Dermatologist", "url": "https://vedaracare.ae/dermatologists/"},
+      "author": {"@type": "Physician", "name": "Dr. Sanjida Islam Suchana", "url": "https://vedaracare.ae/doctors/dr-sanjida-islam-suchana/"},
       "publisher": {"@type": "Organization", "name": "Vedara Care Polyclinic", "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}},
       "about": [
         {"@type": "MedicalCondition", "name": "Psoriasis"},

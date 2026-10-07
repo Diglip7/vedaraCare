@@ -100,7 +100,7 @@ const PrpHairTreatment = () => {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
+        "ratingValue": "4.6",
         "reviewCount": "15",
         "bestRating": "5",
         "worstRating": "1"
@@ -168,7 +168,7 @@ const PrpHairTreatment = () => {
       "image": "https://vedaracare.ae/images/prp-hair-jvc-dubai-hero.jpg",
       "datePublished": publishedDate,
       "dateModified": modifiedDate,
-      "author": { "@type": "Physician", "name": "Lead Consultant Dermatologist", "url": "https://vedaracare.ae/dermatologists/" },
+      "author": { "@type": "Physician", "name": "Dr. Sanjida Islam Suchana", "url": "https://vedaracare.ae/doctors/dr-sanjida-islam-suchana/" },
       "publisher": { "@type": "Organization", "name": "Vedara Care Polyclinic", "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" } },
       "about": [
         { "@type": "MedicalProcedure", "name": "PRP Hair Treatment" },

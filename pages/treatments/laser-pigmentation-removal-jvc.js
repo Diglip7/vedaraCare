@@ -60,7 +60,7 @@ const LaserPigmentationRemoval = () => {
               "description": "Laser pigmentation removal in JVC at Vedara Care. Dermatologist-led assessment for dark spots, sun damage and uneven tone.",
               "reviewedBy": {
                 "@type": "Person",
-                "name": "[VERIFIED DERMATOLOGIST NAME]",
+                "name": "Dr. Sanjida Islam Suchana",
                 "jobTitle": "Consultant Dermatologist",
                 "worksFor": {
                   "@type": "MedicalClinic",

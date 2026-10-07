@@ -227,12 +227,8 @@ export const detoxReviews = {
   ],
   stats: [
     {
-      value: "4.5",
+      value: "4.6",
       label: "Google Rating"
-    },
-    {
-      value: "800+",
-      label: "Authentic Panchakarma Programmes"
     },
     {
       value: "DHA",
@@ -461,6 +457,6 @@ export const detoxFinalCTA = {
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Ayurvedic%20detox%20and%20book%20a%20consultation.",
-  footer: "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed Ayurvedic doctors · 800+ programmes delivered · Female and male practitioners · Multiple languages"
+  footer: "Initial consultation from AED [X] · Walking distance from Circle Mall, JVC · DHA-licensed Ayurvedic doctors · Female and male practitioners · Multiple languages"
 };
 

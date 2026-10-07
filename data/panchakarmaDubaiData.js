@@ -30,7 +30,7 @@ export const panchakarmaDubaiIntro = {
   label: "THE QUICK ANSWER",
   title: "Panchakarma in Dubai, in one paragraph.",
   blockquote: "Panchakarma is the classical five-action Ayurvedic detoxification programme, supervised by a BAMS-qualified physician over 7, 14, or 21 days. It includes preparation (oleation and sudation), main therapies (Virechana, Basti, Nasya — and Vamana or Raktamokshana when indicated), and a structured recovery phase. At Vedara Care Polyclinic in <a href=\"/ayurveda-clinic-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Jumeirah Village Circle</a>, Dubai, authentic Panchakarma programmes start from AED 8,500 and address <a href=\"/conditions/back-pain-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">chronic back pain</a>, <a href=\"/conditions/pcos-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">PCOS</a>, <a href=\"/conditions/migraine-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">migraine</a>, stress, weight management, and full constitutional reset.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026"
 };
 
 export const panchakarmaDubaiFoundation = {
@@ -49,21 +49,21 @@ export const panchakarmaDubaiFoundation = {
 
 export const panchakarmaDubaiPhysician = {
   label: "YOUR PANCHAKARMA PHYSICIAN",
-  name: "Dr. Priya Nair",
-  qualification: "BAMS - MD (Panchakarma Specialization) · DHA Licensed",
-  description: "Dr. Nair is a DHA-licensed <a href=\"/doctors/\" class=\"text-[#C9A961] hover:underline transition-colors\">Ayurvedic physician</a> who has personally supervised over 500+ Panchakarma programmes — 8 years in Kerala and 6 years in Dubai. Her specialisation is in tailoring classical Panchakarma protocols to modern lifestyle conditions: chronic pain, hormonal disorders, and metabolic syndrome in particular.",
-  image: "https://vedaracare.ae/images/dr-priya-nair-panchakarma-specialist-jvc.webp",
-  alt: "Dr. Priya Nair, BAMS-qualified Panchakarma specialist and DHA-licensed Ayurvedic physician at Vedara Care JVC Dubai",
+  name: "Dr. Zainab Sheikh",
+  qualification: "BAMS · DHA Licensed",
+  description: "Dr. Zainab is a DHA-licensed <a href=\"/doctors/\" class=\"text-[#C9A961] hover:underline transition-colors\">Ayurvedic physician</a> who has personally supervised numerous Panchakarma programmes. Her specialisation is in tailoring classical Panchakarma protocols to modern lifestyle conditions: chronic pain, hormonal disorders, and metabolic syndrome in particular.",
+  image: "https://vedaracare.ae/images/dr-zainab-ayurveda-jvc.webp",
+  alt: "Dr. Zainab Sheikh, BAMS-qualified Panchakarma specialist and DHA-licensed Ayurvedic physician at Vedara Care JVC Dubai",
   stats: [
-    { value: "500+", label: "Programmes supervised" },
+    { value: "DHA Licensed", label: "Panchakarma Physician" },
     { value: "14+", label: "Years of practice" },
     { value: "DHA 2509266", label: "Licensed" }
   ],
   languages: "Languages: English · Hindi · Malayalam · Arabic (basic)",
-  button1Text: "Book with Dr. Nair",
+  button1Text: "Book with Dr. Zainab",
   button1Href: "/book",
   button2Text: "View Full Profile",
-  profileLink: "/doctors/dr-priya-nair-ayurveda"
+  profileLink: "/doctors/dr-zainab-ayurveda"
 };
 
 export const panchakarmaDubaiApplications = {
@@ -334,25 +334,9 @@ export const panchakarmaDubaiReviews = {
   isDarkText: true,
   label: "PATIENT STORIES",
   title: "Real Panchakarma Outcomes",
-  items: [
-    {
-      quote: "Three years of chronic back pain. Twenty-one days of Panchakarma. I am finally pain-free.",
-      author: "Sarah K.",
-      details: "Chronic Back Pain · 21-Day Programme, Dubai Marina · March 2026"
-    },
-    {
-      quote: "My PCOS markers improved more in one Panchakarma course than two years of medication did.",
-      author: "Aisha M.",
-      details: "PCOS · 14-Day Programme, JVC · February 2026"
-    },
-    {
-      quote: "I came skeptical, expecting a fancy spa. I left understanding why doctors call this medicine.",
-      author: "Rohan D.",
-      details: "Stress and Burnout · 7-Day Reset, Business Bay · January 2026"
-    }
-  ],
+  items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "38", label: "Panchakarma reviews" },
     { value: "97%", label: "would recommend" }
   ],

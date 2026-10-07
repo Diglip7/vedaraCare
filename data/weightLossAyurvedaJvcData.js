@@ -356,7 +356,6 @@ export const weightLossCTA = {
     "90-minute comprehensive assessment ",
     " Female DHA-Licensed BAMS Ayurvedic Doctor",
     " Constitutional Panchakarma and Udvartana",
-    "950+ weight management patients treated ",
     " Multi-language including Malayalam for Kerala tradition",
     "No crash diets, no extreme restrictions  ",
     "Sustainable approach ",
@@ -437,8 +436,7 @@ export const weightLossJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "Stars on Google" },
-    { value: "950+", label: "Weight management patients treated" },
+    { value: "4.6", label: "Stars on Google" },
     { value: "DHA", label: "Licensed BAMS Ayurvedic doctors" },
     { value: "100%", label: "Female practitioner available" }
   ]

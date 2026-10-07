@@ -277,18 +277,8 @@ export const postnataljvcBoundaries = {
 export const postnataljvcReviews = {
   label: "PATIENT STORIES",
   title: "Real postpartum outcomes",
-  description: "4.9 stars on Google · 300+ postnatal care reviews · 94% of mothers completed the full programme · 97% would recommend to other expat mothers.",
+  description: "4.9 stars on Google · 94% of mothers completed the full programme · 97% would recommend to other expat mothers.",
   items: [
-    {
-      quote: "My mother could not come to Dubai for my postpartum. I had a C-section, a colicky baby, and no family support. Vedara's 45”‘day postnatal programme — the daily Abhyanga, the food, the doctor coming to check on me — was the care I would have received at home. I cried with relief on the first day.",
-      author: "Sarah K.",
-      details: "C”‘Section Recovery - 60 Day Programme - JVC District 12 - February 2024"
-    },
-    {
-      quote: "I was three months postpartum and falling apart. Weight not coming off, hair shedding everywhere, my mood dark. The 45”‘day late”‘start programme rebuilt me. By day 30 I felt like a person again.",
-      author: "Priya R.",
-      details: "Late”‘Start Programme - 45 Day Programme - Al Barsha South - January 2024"
-    },
     {
       quote: "Twins. Both NICU for the first week. Came home physically empty and emotionally shattered. Vedara's twins programme — 90 days, more visits than the standard, mental health support throughout — saved us.",
       author: "Aisha M.",
@@ -296,8 +286,8 @@ export const postnataljvcReviews = {
     }
   ],
   stats: [
-    { label: "Stars on Google", value: "4.5" },
-    { label: "Mothers Cared For", value: "800+" },
+    { label: "Stars on Google", value: "4.6" },
+    { label: "DHA Licensed", value: "Postnatal Care" },
     { label: "Completion Rate", value: "94%" }
   ],
   bgColor: "bg-[#184C3A]",
@@ -490,7 +480,7 @@ export const postnataljvcFinalCTA = {
   button1Link: "/book",
   button2Text: "Chat on WhatsApp",
   button2Link: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20postnatal%20care%20and%20book%20a%20consultation.",
-  footer: "Initial consultation from AED 450 · Female DHA-Licensed Ayurvedic Doctor · Traditional 40-42 day Sutika Paricharya · Home delivery across Dubai · JVC clinic near Circle Mall · 400+ postnatal programmes delivered · Multi-language including Malayalam for Kerala tradition · Integrated with physiotherapy and home healthcare",
+  footer: "Initial consultation from AED 450 · Female DHA-Licensed Ayurvedic Doctor · Traditional 40-42 day Sutika Paricharya · Home delivery across Dubai · JVC clinic near Circle Mall · Multi-language including Malayalam for Kerala tradition · Integrated with physiotherapy and home healthcare",
   bgColor: "bg-[#FAF8F3]"
 };
 
@@ -712,8 +702,7 @@ export const postnataljvcReviewsNew = {
     }
   ],
   stats: [
-    { value: "4.5", label: "GOOGLE RATING" },
-    { value: "400+", label: "POSTNATAL PROGRAMMES DELIVERED" },
+    { value: "4.6", label: "GOOGLE RATING" },
     { value: "Female", label: "DHA-LICENSED AYURVEDIC DOCTOR" },
     { value: "All Dubai", label: "HOME DELIVERY COVERAGE" }
   ]

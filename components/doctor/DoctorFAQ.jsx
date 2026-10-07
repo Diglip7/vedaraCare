@@ -1,48 +1,49 @@
 import React, { useState } from 'react';
+import { SITE } from '../../lib/site';
 
 const DoctorFAQ = ({ doctor }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const faqs = [
+  const faqs = doctor?.faqs?.items || doctor?.faqs?.faqs || [
     {
-      question: 'Is Dr. Nair DHA-licensed?',
-      answer: 'Yes. Dr. Priya Nair is fully licensed by the Dubai Health Authority under Professional License DHA-P-0048291. The license is current and verifiable on the DHA Sheryan portal. We display the number publicly because medical credentials are not optional.'
+      question: `Is ${doctor?.firstName || 'the doctor'} DHA-licensed?`,
+      answer: `Yes. ${doctor?.name || 'Our doctor'} is fully licensed by the Dubai Health Authority. The license is current and verifiable on the DHA Sheryan portal.`
     },
     {
-      question: 'What are Dr. Nair\'s qualifications?',
-      answer: 'Dr. Nair holds a BAMS from Rajiv Gandhi University of Health Sciences and an MD (Ayurveda) in Kayachikitsa from Kerala University of Health Sciences. She completed clinical fellowship training at Kottakkal Arya Vaidya Sala in Kerala.'
+      question: `What are ${doctor?.firstName || 'the doctor'}'s qualifications?`,
+      answer: `Our clinicians hold specialized medical degrees and extensive clinical experience in their respective fields.`
     },
     {
-      question: 'How many years has Dr. Nair been practising?',
-      answer: 'Over 15 years total  -  eight years in Kerala\'s leading Ayurvedic hospitals and seven years serving patients in Dubai. She has personally treated over 5,000 patients across a range of chronic conditions.'
+      question: `How many years has ${doctor?.firstName || 'the doctor'} been practising?`,
+      answer: `Our clinicians have many years of dedicated clinical experience treating a wide range of conditions.`
     },
     {
-      question: 'What conditions does Dr. Nair specialise in?',
-      answer: 'Her clinical strengths are chronic back pain and sciatica, PCOS and hormonal health, migraine and chronic headache, postnatal recovery, stress and insomnia, and hair loss. Detailed treatment approaches are described in the Specialization section above.'
+      question: `What conditions does ${doctor?.firstName || 'the doctor'} specialise in?`,
+      answer: `Detailed treatment approaches and clinical strengths are described in the Specialization section above.`
     },
     {
       question: 'How long is a first consultation?',
-      answer: 'A first consultation is 45 to 60 minutes. This includes pulse diagnosis, dosha assessment, full history-taking, review of existing medical reports, and a written treatment plan. Follow-ups are typically 20 to 30 minutes.'
+      answer: 'A first consultation is 45 to 60 minutes. This includes full history-taking, review of existing medical reports, and a written treatment plan. Follow-ups are typically 20 to 30 minutes.'
     },
     {
       question: 'How much does a consultation cost?',
       answer: 'First consultations start at AED 350. Follow-up consultations are AED 200. Treatment programmes are quoted separately based on the plan agreed at consultation. All pricing is confirmed in writing before any treatment begins.'
     },
     {
-      question: 'Does insurance cover consultations with Dr. Nair?',
-      answer: 'We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. Ayurveda coverage varies by plan. WhatsApp us a photo of your insurance card and we will confirm your specific coverage before you book.'
+      question: `Does insurance cover consultations with ${doctor?.firstName || 'the doctor'}?`,
+      answer: `${SITE.insurance}. WhatsApp us a photo of your insurance card and we will confirm your specific coverage before you book.`
     },
     {
       question: 'Can I book a video consultation?',
-      answer: 'Yes. Tele-consultations are available for follow-up appointments and for new patients outside Dubai. For first consultations, in-person is strongly preferred because pulse diagnosis and physical assessment are central to classical Ayurveda. Tele-consultations are AED 200.'
+      answer: 'Yes. Tele-consultations are available for follow-up appointments and for new patients outside Dubai. Tele-consultations are AED 200.'
     },
     {
       question: 'Where exactly is the clinic in JVC?',
-      answer: 'Dr. Nair consults at Vedara Care Polyclinic, Building 7, Street 2, Jumeirah Village Circle, Dubai. The clinic is next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free covered parking is available.'
+      answer: 'Our clinicians consult at Vedara Care Polyclinic, Building 7, Street 2, Jumeirah Village Circle, Dubai. The clinic is next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free covered parking is available.'
     },
     {
-      question: 'How do I book an appointment with Dr. Nair specifically?',
-      answer: 'Three ways: tap Book a Consultation anywhere on this page for live calendar availability, WhatsApp us mentioning Dr. Nair by name for the fastest response, or call us at +971 55 573 6312. Same-day slots are usually available with 2-hour notice via WhatsApp.'
+      question: `How do I book an appointment with ${doctor?.firstName || 'the doctor'} specifically?`,
+      answer: 'Three ways: tap Book a Consultation anywhere on this page for live calendar availability, WhatsApp us mentioning the doctor by name for the fastest response, or call us at +971 55 573 6312. Same-day slots are usually available with 2-hour notice via WhatsApp.'
     }
   ];
 

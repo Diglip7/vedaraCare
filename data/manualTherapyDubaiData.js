@@ -86,7 +86,7 @@ export const manualTherapyReviews = {
   isDarkText: true,
   items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "15", label: "reviews on Google" },
   ],
   buttonText: "Read All Manual Therapy Reviews",
@@ -115,11 +115,11 @@ export const manualTherapyFaqs = {
     },
     {
       question: "How is manual therapy different from chiropractic?",
-      answer: "Manual therapy is delivered by DPT-qualified physiotherapists with specific manual therapy training, uses primarily graded mobilisation (with manipulation applied selectively), is based on evidence-based clinical reasoning, and is integrated with exercise prescription and broader physiotherapy. Chiropractic is delivered by chiropractors with different training pathway, traditionally emphasises high-velocity manipulation as primary technique, and historically has different theoretical foundations. Both can be valuable for the right patients; they have different applications."
+      answer: "Manual therapy is delivered by DHA-licensed physiotherapists with specific manual therapy training, uses primarily graded mobilisation (with manipulation applied selectively), is based on evidence-based clinical reasoning, and is integrated with exercise prescription and broader physiotherapy. Chiropractic is delivered by chiropractors with different training pathway, traditionally emphasises high-velocity manipulation as primary technique, and historically has different theoretical foundations. Both can be valuable for the right patients; they have different applications."
     },
     {
       question: "How is manual therapy different from massage?",
-      answer: "Manual therapy involves diagnostic precision — specific clinical assessment identifying particular joint, muscle, or neural dysfunctions, with specific techniques targeting specific conditions. Massage typically addresses general muscle tension or relaxation across body areas. Manual therapy is delivered by DPT-qualified physiotherapists; massage by massage therapists with different training. Both can be valuable; they have different applications."
+      answer: "Manual therapy involves diagnostic precision — specific clinical assessment identifying particular joint, muscle, or neural dysfunctions, with specific techniques targeting specific conditions. Massage typically addresses general muscle tension or relaxation across body areas. Manual therapy is delivered by DHA-licensed physiotherapists; massage by massage therapists with different training. Both can be valuable; they have different applications."
     },
     {
       question: "Does manual therapy hurt?",
@@ -216,7 +216,7 @@ export const manualTherapyFinalCTA = {
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20manual%20therapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 500 • Walking distance from Circle Mall, JVC • 500+ manual therapy patients treated • Certified specialists • Evidence-based techniques • Insurance direct-billing"
+  footer: "Initial assessment from AED 500 • Walking distance from Circle Mall, JVC • Certified specialists • Evidence-based techniques • Insurance direct-billing"
 };
 
 export const manualTherapyConditions = {

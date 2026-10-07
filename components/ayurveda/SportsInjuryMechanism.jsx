@@ -15,12 +15,12 @@ const SportsInjuryMechanism = () => {
     {
       number: "03",
       title: "Phase 3  -  Sport-Specific Progression",
-      description: "Where sports physiotherapy diverges most from general physiotherapy. Exercise prescription progresses through general strengthening to sport-specific movement patterns. For padel players: lateral movement, racquet swing biomechanics, change-of-direction protocols. For runners: running gait analysis, return-to-running protocols, surface and volume progression. For football players: cutting, change of direction, jumping, sport-specific agility. Each sport has its own progression sequence."
+      description: "Where sports physiotherapy diverges most from general physiotherapy. Exercise prescription progresses through general strengthening to sport-specific movement patterns. For padel players: lateral movement, racquet swing biomechanics, change-of-direction protocols. For runners: video running gait analysis, return-to-running protocols, surface and volume progression. For football players: cutting, change of direction, jumping, sport-specific agility. Each sport has its own progression sequence."
     },
     {
       number: "04",
       title: "Phase 4  -  Return-to-Sport Testing and Clearance",
-      description: "Before clearing patients to return to sport, we apply objective return-to-sport criteria  -  strength benchmarks (typically 90% of unaffected side), functional performance tests (hop tests, change-of-direction tests, sport-specific drills), and time-from-injury minimums based on tissue healing biology. Premature return to sport is the leading cause of re-injury. Patients who follow proper return-to-sport protocols have significantly lower re-injury rates than those who self-manage their return."
+      description: "Before clearing patients to return to sport, objective return-to-sport criteria are applied  -  strength benchmarks (typically 90% of unaffected side), functional performance tests (hop tests, change-of-direction tests, sport-specific drills), and time-from-injury minimums based on tissue healing biology. Premature return to sport is the leading cause of re-injury. Patients who follow proper return-to-sport protocols have significantly lower re-injury rates than those who self-manage their return."
     },
     {
       number: "05",
@@ -82,7 +82,7 @@ const SportsInjuryMechanism = () => {
                 5-PHASE PROTOCOL
               </p>
               <p className="text-sm leading-relaxed">
-                Every patient follows our structured 5-phase return-to-sport framework  -  from acute assessment through to objective clearance and prevention programming.
+                Every patient follows a structured 5-phase return-to-sport framework  -  from acute assessment through to objective clearance and prevention programming.
               </p>
             </div>
           </div>

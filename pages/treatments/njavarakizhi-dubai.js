@@ -192,7 +192,7 @@ const NjavarakizhiDubai = () => {
       "lastReviewed": currentDate,
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Priya Nair",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/njavarakizhi-dubai-hero.webp"
@@ -206,8 +206,8 @@ const NjavarakizhiDubai = () => {
       "dateModified": currentDate,
       "author": {
         "@type": "Physician",
-        "name": "Dr. Priya Nair",
-        "url": "https://vedaracare.ae/doctors/dr-priya-nair/"
+        "name": "Dr. Zainab Sheikh",
+        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda"
       },
       "publisher": {
         "@type": "Organization",
@@ -263,7 +263,7 @@ const NjavarakizhiDubai = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-05-01" />
         <meta property="article:modified_time" content={currentDate} />
-        <meta property="article:author" content="Dr. Priya Nair" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

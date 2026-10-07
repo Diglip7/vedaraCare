@@ -40,7 +40,7 @@ export const sciaticaPhysioReviews = {
   isDarkText: true,
   items: [],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "75-90%", label: "achieve substantial improvement in research populations" },
     { value: "<5%", label: "require surgery" }
   ],
@@ -397,7 +397,7 @@ export const sciaticaPhysioRelatedPages = {
   pages: [
     {
       title: "Back Pain Physiotherapy",
-      description: "Evidence-based physiotherapy for back pain without leg symptoms. Same evidence-based approach, related condition spectrum.",
+      description: "Lower back pain, slipped discs and desk-related back pain without leg symptoms.",
       href: "/conditions/back-pain-physiotherapy-jvc/"
     },
     {
@@ -464,7 +464,7 @@ export const sciaticaPhysioTimeline = {
   timeline: {
     label: "REALISTIC RECOVERY",
     title: "How long does sciatica take to resolve?",
-    description: "Honest expectation-setting based on research evidence and our clinical experience treating 250+ sciatica patients.",
+    description: "Honest expectation-setting based on research evidence and our clinical experience treating sciatica patients.",
     phases: [
       {
         number: "01",

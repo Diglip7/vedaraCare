@@ -128,7 +128,7 @@ const PanchakarmaJVC = () => {
       "lastReviewed": "2026-05-25",
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Priya Sharma",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/panchakarma-jvc-hero.jpg"

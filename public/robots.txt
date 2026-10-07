@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
-Disallow: /_next/
 
 Sitemap: https://vedaracare.ae/sitemap.xml
+Sitemap: https://vedaracare.ae/blog-sitemap.xml
+Sitemap: https://vedaracare.ae/doctors-sitemap.xml

@@ -12,7 +12,7 @@ export const migraineHero = {
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20migraine%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
   trustSignals: [
     "We Work With Your Neurologist",
-    "280+ Migraine Patients Treated",
+    "Comprehensive Neurological Protocol",
     "DHA-Licensed Practitioners",
     "Walking Distance from Circle Mall, JVC"
   ],
@@ -29,7 +29,7 @@ export const migraineIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic migraine treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for migraine in Dubai is a 4 to 6-month structured medical programme combining classical Shirodhara (continuous warm medicated oil therapy on the forehead, the foundational treatment for headache disorders in Ayurveda), Nasya (medicated nasal therapy, classically the most direct treatment for head conditions), Takradhara (buttermilk variant for inflammatory migraine patterns), internal herbal medicines (typically including Brahmi, Pathyadi Kashayam, Shirashooladi Vajra Ras, and Pittahara formulations), trigger identification and management, and lifestyle modification. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes work alongside neurology and existing migraine medications, never as replacement. Realistic outcomes: 40-70% reduction in migraine days for episodic migraine over 6 months. Initial consultations start from AED 350.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda), DHA-Licensed 2509266 · Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026"
 };
 
 export const migraineMechanism = {
@@ -144,18 +144,6 @@ export const migraineReviews = {
   alt: "Verified patient outcome from Ayurvedic migraine treatment at Vedara Care JVC Dubai",
   items: [
     {
-      quote: "Twelve migraine days a month for fifteen years. Six months at Vedara alongside my neurologist — down to three migraine days a month. My neurologist agreed to a topiramate dose reduction.",
-      content: "",
-      author: "Sarah K.",
-      details: "Episodic Migraine · 6-Month Programme · JVC District 12 · February 2026"
-    },
-    {
-      quote: "My menstrual migraines were so bad I lost two days every cycle. Five months at Vedara — the cycle migraines are gone, the occasional non-menstrual ones are mild.",
-      content: "",
-      author: "Priya R.",
-      details: "Menstrual Migraine · 5-Month Programme · Al Barsha South · January 2026"
-    },
-    {
       quote: "Daily headache for six years on three medications. The medication overuse withdrawal was hard. Twelve months later, I have migraine 7-9 days a month — and I am off two of the three medications.",
       content: "",
       author: "Rohan D.",
@@ -163,7 +151,7 @@ export const migraineReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "STARS ON GOOGLE" },
+    { value: "4.6", label: "STARS ON GOOGLE" },
     { value: "94", label: "MIGRAINE REVIEWS" },
     { value: "82%", label: "ACHIEVED 30%+ REDUCTION" },
     { value: "64%", label: "ACHIEVED 50%+ REDUCTION" }
@@ -247,7 +235,7 @@ export const migraineFaqs = {
   faqs: [
     {
       question: "Does Ayurvedic treatment actually work for migraine?",
-      answer: "For most migraine subtypes, yes — when treatment is a structured 4-6 month medical programme, not a single therapy or supplement. Across our 280+ migraine patients at the JVC clinic, episodic migraine patients typically see 40-70% reduction in migraine days over 6 months. Chronic migraine patients typically see 25-50% reduction. Menstrual migraine often responds particularly well. This is not a \"cure\"— migraine remains a lifelong neurological condition — but meaningful, sustained reduction in frequency and severity is realistic."
+      answer: "For most migraine subtypes, yes — when treatment is a structured 4-6 month medical programme, not a single therapy or supplement. Across our migraine patients at the JVC clinic, episodic migraine patients typically see 40-70% reduction in migraine days over 6 months. Chronic migraine patients typically see 25-50% reduction. Menstrual migraine often responds particularly well. This is not a \"cure\"— migraine remains a lifelong neurological condition — but meaningful, sustained reduction in frequency and severity is realistic."
     },
     {
       question: "Can Ayurveda cure migraine?",
@@ -393,7 +381,7 @@ export const migraineCTA = {
 export const migraineOutcomeRanges = {
   label: "REALISTIC EXPECTATIONS",
   title: "Honest outcome ranges based on migraine subtype.",
-  description: "Different migraine subtypes respond differently to Ayurvedic treatment. These ranges are based on our 280+ migraine patients at the JVC clinic with documented migraine diaries before and after 6-month programmes.",
+  description: "Different migraine subtypes respond differently to Ayurvedic treatment. These ranges are based on our migraine patients at the JVC clinic with documented migraine diaries before and after 6-month programmes.",
   tableHeaders: ["Subtype", "Reduction in Migraine Days (6 months)", "Reduction in Attack Severity", "Reduction in Acute Medication Use"],
   tableRows: [
     {

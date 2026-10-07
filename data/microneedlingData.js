@@ -31,7 +31,7 @@ export const microneedlingIntro = {
   label: "THE QUICK ANSWER",
   title: "Microneedling at Vedara Care, in one paragraph.",
   blockquote: "Microneedling in JVC at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, is a minimally invasive skin treatment that uses fine needles to create controlled micro-injuries in the skin. This process can support the skin’s natural repair response and collagen production, making it a treatment option for concerns such as acne scars, uneven texture, visible pores, and fine lines. Before treatment, your skin is assessed to determine whether microneedling is suitable for your needs. Recovery varies between individuals, but temporary redness or sensitivity may occur after treatment. Results depend on your skin condition, treatment plan, and response.",
-  // footer: "Medically reviewed by Dermatology Team, DHA-Licensed · Last updated August 2026"
+  footer: "Medically reviewed by Dr. Sanjida Islam Suchana, General Practitioner, DHA licence 33436347 · Last reviewed August 2026"
 };
 
 export const microneedlingExplanation = {

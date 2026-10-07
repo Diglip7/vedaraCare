@@ -6,13 +6,13 @@ export const ayurvedicBackPainHero = {
   ],
   label: "AYURVEDIC TREATMENT FOR BACK PAIN · DHA-LICENSED CLINIC IN JVC",
   title: "You have been managing back pain for too long. The question is no longer how to live with it.",
-  description: "Chronic back pain in Dubai responds well to authentic Ayurvedic treatment when prescribed correctly — Kativasti for lumbar conditions, Abhyanga and Panchakarma for systemic involvement, integrated with physiotherapy where indicated. This page explains which Ayurvedic protocols fit which types of back pain, written by the DHA-licensed Ayurvedic team at Vedara Care Polyclinic, Jumeirah Village Circle.",
+  description: "Chronic back pain in Dubai responds well to authentic Ayurvedic treatment when prescribed correctly — Kativasti for lumbar conditions, Abhyanga and Panchakarma for systemic involvement, integrated with physiotherapy where indicated. This page explains which Ayurvedic protocols fit which types of back pain, written by the DHA-licensed Ayurvedic team at Vedara Care Polyclinic, Jumeirah Village Circle.<br/><br/>Looking for physiotherapy instead? See <a href='/conditions/back-pain-physiotherapy-jvc/'>back pain physiotherapy in JVC</a>.",
   primaryCTA: "Book a Back Pain Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20ayurvedic%20back%20pain%20treatment%20at%20your%20JVC%20clinic.",
   trustSignals: [
-    "600+ Back Pain Patients Treated",
+    "DHA-Licensed BAMS Doctors",
     "Integrated Ayurveda + Physiotherapy",
     "DHA-Licensed Practitioners",
     "Consultations from AED 350"
@@ -30,7 +30,7 @@ export const ayurvedicBackPainIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic back pain treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for back pain in Dubai typically combines Kativasti (warm medicated oil reservoir over the lumbar spine), Abhyanga (full-body warm oil massage), specific internal Ayurvedic medicines selected for your dosha and condition, dietary regulation, and where appropriate, classical Panchakarma protocols. At Vedara Care Polyclinic in Jumeirah Village Circle, our BAMS-qualified Ayurvedic physicians work alongside DPT-qualified physiotherapists for integrated back pain care. Programmes typically run 4 to 8 weeks. Initial consultations start from AED 350 and include physical examination, imaging review where relevant, and a written treatment plan.",
-  footer: "Medically reviewed by Dr. Zainab , BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated May 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2026"
 };
 
 export const ayurvedicBackPainAssessment = {
@@ -293,7 +293,7 @@ export const ayurvedicBackPainOutcomes = {
     }
   ],
   stats: [
-    { value: "4.5", label: "stars on Google" },
+    { value: "4.6", label: "stars on Google" },
     { value: "142", label: "back pain reviews" },
     { value: "89%", label: "reported pain reduction" }
   ],

@@ -235,7 +235,7 @@ const schemaMarkup = [
     "lastReviewed": "2026-05-23",
     "reviewedBy": {
       "@type": "Physician",
-      "name": "Dr. Priya Sharma",
+      "name": "Dr. Zainab Sheikh",
       "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
     },
     "primaryImageOfPage": "https://vedaracare.ae/images/shirodhara-dubai-hero.webp"
@@ -249,8 +249,8 @@ const schemaMarkup = [
     "dateModified": "2026-05-23",
     "author": {
       "@type": "Physician",
-      "name": "Dr. Priya Sharma",
-      "url": "https://vedaracare.ae/doctors/dr-priya-sharma-ayurveda/"
+      "name": "Dr. Zainab Sheikh",
+      "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
     },
     "publisher": {
       "@type": "Organization",
@@ -319,7 +319,7 @@ const ShirodharaDubai = () => {
         <meta property="og:locale" content="en_AE" />
         <meta property="article:published_time" content="2026-05-23" />
         <meta property="article:modified_time" content="2026-05-23" />
-        <meta property="article:author" content="Dr. Priya Sharma" />
+        <meta property="article:author" content="Dr. Zainab Sheikh" />
         <meta name="twitter:card" content="summary_large_image" />
         
         {/* Canonical & Hreflang */}

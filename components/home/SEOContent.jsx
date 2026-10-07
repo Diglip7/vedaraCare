@@ -21,7 +21,7 @@ const SEOContent = () => {
           </p>
           <h3 className="text-lg md:text-xl font-serif font-medium mb-3">Easy Access and Patient Care</h3>
           <p>
-            We know life in Dubai is busy. That is why our clinic is easy to visit. We are right next to Circle Mall in JVC with free covered parking for patients. If you prefer to stay home, our Home Healthcare team can come to you. We offer 24/7 doctor visits, home nursing, IV drips, and home physiotherapy across JVC, JVT, Al Barsha South, and all of Dubai. At Vedara Care Polyclinic, we make good healthcare easy and friendly for you and your family.
+            We know life in Dubai is busy. That is why our clinic is easy to visit. We are right next to Circle Mall in JVC with free covered parking for patients. Our Home Healthcare team is launching soon to bring home physiotherapy and care across JVC, JVT, Al Barsha South, and all of Dubai. At Vedara Care Polyclinic, we make good healthcare easy and friendly for you and your family.
           </p>
         </div>
       </div>

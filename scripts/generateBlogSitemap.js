@@ -49,7 +49,7 @@ async function generateBlogSitemap() {
     validStaticFiles.forEach(slug => {
       urls += `
 <url>
-<loc>https://vedaracare.ae/blog/${slug}</loc>
+<loc>https://vedaracare.ae/blog/${slug}/</loc>
 <changefreq>monthly</changefreq>
 <priority>0.65</priority>
 </url>`;
@@ -60,7 +60,7 @@ async function generateBlogSitemap() {
       const date = p.updatedAt ? p.updatedAt.toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
       urls += `
 <url>
-<loc>https://vedaracare.ae/blog/${p.paramlink}</loc>
+<loc>https://vedaracare.ae/blog/${p.paramlink}/</loc>
 <lastmod>${date}</lastmod>
 <priority>0.65</priority>
 </url>`;

@@ -130,14 +130,14 @@ const AyurvedaClinicJVC = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "name": "Dr. Priya Menon",
-      "image": "https://vedaracare.ae/doctors/dr-priya-menon-ayurvedic-physician-jvc.webp",
-      "url": "https://vedaracare.ae/doctors/dr-priya-menon-ayurveda/",
+      "name": "Dr. Zainab Sheikh",
+      "image": "https://vedaracare.ae/doctors/dr-zainab-ayurvedic-physician-jvc.webp",
+      "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/",
       "medicalSpecialty": { "@type": "MedicalSpecialty", "name": "Ayurveda" },
       "hasCredential": [
         { "@type": "EducationalOccupationalCredential", "name": "BAMS", "credentialCategory": "degree", "sameAs": "https://en.wikipedia.org/wiki/Bachelor_of_Ayurvedic_Medicine_and_Surgery" },
         { "@type": "EducationalOccupationalCredential", "name": "MD (Ayurveda)", "credentialCategory": "degree" },
-        { "@type": "EducationalOccupationalCredential", "name": "DHA Professional License", "identifier": "DHA-P-2509266", "recognizedBy": { "@type": "Organization", "name": "Dubai Health Authority", "url": "https://www.dha.gov.ae/" } }
+        { "@type": "EducationalOccupationalCredential", "name": "DHA Professional License", "identifier": "DHA-P-20918133", "recognizedBy": { "@type": "Organization", "name": "Dubai Health Authority", "url": "https://www.dha.gov.ae/" } }
       ],
       "knowsLanguage": ["English", "Hindi", "Malayalam", "Arabic"],
       "yearsOfExperience": "15",
@@ -153,7 +153,7 @@ const AyurvedaClinicJVC = () => {
       "lastReviewed": "2026-05-23",
       "reviewedBy": {
         "@type": "Physician",
-        "name": "Dr. Priya Menon",
+        "name": "Dr. Zainab Sheikh",
         "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
       },
       "primaryImageOfPage": "https://vedaracare.ae/images/ayurveda-clinic-jvc-hero.webp",

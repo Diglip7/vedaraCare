@@ -85,7 +85,7 @@ const TreatmentIntegration = ({
           {/* Image */}
           <div className="lg:w-[40%]">
             <img 
-              src={image || "https://images.unsplash.com/photo-1731597076108-f3bbe268162f?w=600"} 
+              src={image || "/images/ayurveda-physiotherapy-integrated-back-pain-jvc.webp"} 
               alt={alt} 
               className="w-full h-[400px] object-cover rounded-xl shadow-lg"
             />

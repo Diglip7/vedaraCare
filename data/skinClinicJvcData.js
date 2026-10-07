@@ -4,7 +4,7 @@ export const skinClinicHero = {
     { label: "Skin Clinic in JVC", active: true }
   ],
   label: "SKIN CLINIC · DHA-LICENSED 2509266 · JUMEIRAH VILLAGE CIRCLE",
-  title: "Your skin clinic in JVC. Tell us what concerns you — we will guide you to the right care.",
+  title: "Aesthetic treatments in Jumeirah Village Circle",
   description: "Patients arrive at our Jumeirah Village Circle clinic with many different skin concerns — and often uncertain about what treatment they actually need. This page helps you identify your primary concern and guides you to the most relevant care pathway. Whether your concern is medical or aesthetic — or you simply do not know yet — start here.",
   primaryCTA: "Identify My Skin Concern",
   secondaryCTA: "Book a Consultation Directly",
@@ -132,18 +132,7 @@ export const skinConcernSelector = {
       linkText: "Learn more about Moles, Skin Cancer Concerns or Suspicious Lesions",
       linkHref: "/dermatology-clinic-jvc/#medical-dermatology"
     },
-    {
-      number: "08",
-      title: "Unwanted Hair — Removal Options",
-      description: "Excess facial or body hair, hirsutism, general unwanted hair patients want to address permanently rather than waxing. Laser hair removal is the primary modern treatment but requires expert selection based on skin and hair characteristics.",
-      commonQuestions: [
-        "· Does laser hair removal really work?",
-        "· Is it safe for my skin type?",
-        "· How many sessions do I need?"
-      ],
-      linkText: "Learn more about Unwanted Hair",
-      linkHref: "/dermatology-clinic-jvc/#aesthetic-dermatology"
-    },
+
     {
       number: "09",
       title: "Skin Health & Maintenance — General Wellness",
@@ -245,7 +234,7 @@ export const skinClinicFaqs = {
     },
     {
       question: "How do I know if my concern is medical or aesthetic?",
-      answer: "Some concerns are clearly medical (acne, eczema, suspicious lesions, skin cancer screening) and some are clearly aesthetic (wrinkle treatment, lip enhancement, laser hair removal). Many concerns sit in between — pigmentation can be medical or aesthetic; aging concerns can be medical (sun damage repair) or purely cosmetic. Our consultation helps identify the medical and aesthetic components of your specific situation."
+      answer: "Some concerns are clearly medical (acne, eczema, suspicious lesions, skin cancer screening) and some are clearly aesthetic (wrinkle treatment, lip enhancement, skin rejuvenation). Many concerns sit in between — pigmentation can be medical or aesthetic; aging concerns can be medical (sun damage repair) or purely cosmetic. Our consultation helps identify the medical and aesthetic components of your specific situation."
     },
     {
       question: "Where in Dubai is your skin clinic?",

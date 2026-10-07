@@ -1,19 +1,31 @@
-# Vedara Care AI Documentation
+# Vedara Care Polyclinic
 
-Vedara Care is a DHA-licensed holistic healthcare polyclinic located in Jumeirah Village Circle (JVC), Dubai.
-We offer comprehensive treatments including Ayurveda, Physiotherapy, Dermatology, Wellness, and Home Healthcare.
+> DHA-licensed polyclinic (DHA facility licence 2509266) in Jumeirah Village Circle (JVC), Dubai, UAE, offering physiotherapy, Ayurveda, general practice (GP), dermatology and aesthetic treatments. One location only.
 
-## Services
-- Ayurveda: Authentic Kerala Ayurvedic treatments, Panchakarma, Abhyanga, Shirodhara.
-- Physiotherapy: Manual therapy, sports injury rehab, post-surgery rehabilitation.
-- Dermatology: Skin rejuvenation, chemical peels, acne treatments, hair loss treatments.
-- Wellness: Cupping therapy, holistic wellness.
-- Home Healthcare: Physiotherapy at home, licensed home therapies.
+## Clinic facts
+- Address: Binghatti Azure, Shop 4, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai, UAE — walking distance from Circle Mall
+- Hours: daily 9:00am to 10:00pm
+- Phone / WhatsApp: +971 55 573 6312
+- Booking: https://vedaracare.ae/book/
+- Insurance: reimbursement with all major insurers (patient pays; clinic provides documents). No direct billing.
+- Prices: not published; ask on WhatsApp.
+- Home healthcare (home physiotherapy, home doctor visits): coming soon, not yet available.
+- Not offered: laser hair removal, hijama (wet cupping), cardiopulmonary rehabilitation.
 
-## Contact
-- Phone: +971 55 573 6312
-- Email: booking@vedaracare.ae
-- Address: Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle Dubai, UAE
+## Physiotherapy
+- Physiotherapist: Hafsina K K (female), Bachelor of Physiotherapy, DHA licence 64812828, 7+ years' experience: https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/
+- Physiotherapy in JVC (main page): https://vedaracare.ae/physiotherapy-jvc/
+- Neurological physiotherapy (Parkinson's, neuropathy, MS, brain and spinal cord injury): https://vedaracare.ae/physiotherapy/neurological-dubai/
+- Paediatric physiotherapy (children aged 5+ and teenagers): https://vedaracare.ae/physiotherapy/pediatric-dubai/
+- Stroke rehabilitation: https://vedaracare.ae/conditions/stroke-rehab-dubai/
+- Pelvic floor physiotherapy (female physiotherapist): https://vedaracare.ae/conditions/pelvic-floor-physiotherapy-dubai/
+- Sports injury physiotherapy: https://vedaracare.ae/physiotherapy/sports-injury-jvc/
+- Post-surgery rehabilitation: https://vedaracare.ae/physiotherapy/post-surgery-rehab-dubai/
 
-## Booking
-Appointments can be booked directly through our website at https://vedaracare.ae/book or via WhatsApp.
+## Other services
+- General practice (GP): Dr. Sanjida Islam Suchana, DHA licence 33436347
+- Ayurveda: https://vedaracare.ae/ayurveda-clinic-jvc/
+- Dermatology: https://vedaracare.ae/dermatology-clinic-jvc/
+
+## Doctors and staff
+- https://vedaracare.ae/doctors/

@@ -4,23 +4,23 @@ const defaultPricingCards = [
   {
     category: "FIRST CONSULTATION",
     title: "Doctor Consultation",
-    price: "AED 200  -  AED 800",
+    price: "Prices are shared on WhatsApp",
     description: "A 45 - 60 minute Ayurvedic consultation with a BAMS-qualified doctor, including pulse diagnosis, dosha assessment, and a written treatment plan. Some clinics charge less but offer shorter consultations.",
-    footer: "Vedara Care: From AED 350"
+    footer: "Prices are shared on WhatsApp"
   },
   {
     category: "INDIVIDUAL TREATMENTS",
     title: "Individual Treatment",
-    price: "AED 250  -  AED 800",
+    price: "Prices are shared on WhatsApp",
     description: "Single therapy sessions like Abhyanga (60 - 90 min), Shirodhara (45 - 60 min), or Kativasti (45 min). Prices vary depending on the practitioner, treatment duration, materials and what is included in the treatment plan.",
-    footer: "Vedara Care: From AED 280"
+    footer: "Prices are shared on WhatsApp"
   },
   {
     category: "PANCHAKARMA",
     title: "Panchakarma",
-    price: "AED 3,500  -  AED 15,000",
+    price: "Prices are shared on WhatsApp",
     description: "7-day, 14-day, or 21-day full Panchakarma detox programmes. Includes consultations, daily therapies, herbal medicines, dietary guidance, and follow-up. Length and inclusions vary.",
-    footer: "Vedara Care: From AED 3,800"
+    footer: "Prices are shared on WhatsApp"
   }
 ];
 
@@ -32,7 +32,7 @@ const PricingSection = ({
   description = "Indicative Ayurvedic treatment prices in Dubai. Final pricing depends on your individual treatment plan.",
   pricingCards = defaultPricingCards,
   insuranceTitle = "INSURANCE COVERAGE FOR AYURVEDA IN DUBAI (2026)",
-  insuranceDesc = "Some Dubai insurance plans cover Ayurveda partially or fully  -  most commonly Daman, AXA, and Now Health premium tiers. Coverage varies plan by plan. Vedara Care is a direct-billing partner with seven major insurers  -  send us a photo of your card on WhatsApp and we will confirm your specific coverage before you book.",
+  insuranceDesc = "Some Dubai insurance plans cover Ayurveda partially or fully — most commonly Daman, AXA, and Now Health premium tiers. Coverage varies plan by plan. Vedara Care supports reimbursement claims with major insurers — send us a photo of your card on WhatsApp and we will confirm your specific coverage before you book.",
   insurers = defaultInsurers,
   tableData = null,
   tableNote = null,
@@ -91,8 +91,8 @@ const PricingSection = ({
             <a href="/book" className="w-full sm:w-auto px-8 py-4 bg-[#1F4538] text-white font-sans font-semibold text-[15px] rounded hover:bg-[#1A3A2F] transition-colors">
               Book Ayurvedic Consultation
             </a>
-            <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20check%20my%20insurance%20coverage%20for%20Ayurveda." target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 bg-transparent border border-[#1F4538] text-[#1F4538] font-sans font-semibold text-[15px] rounded hover:bg-[#FAF6EF] transition-colors">
-              Check Insurance Coverage on WhatsApp
+            <a href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20pricing%20details." target="_blank" rel="noopener noreferrer" data-track="whatsapp_click" className="w-full sm:w-auto px-8 py-4 bg-transparent border border-[#1F4538] text-[#1F4538] font-sans font-semibold text-[15px] rounded hover:bg-[#FAF6EF] transition-colors">
+              Get Prices on WhatsApp
             </a>
           </div>
         </div>
@@ -111,7 +111,21 @@ const PricingSection = ({
                 {tableData.slice(1).map((row, i) => (
                   <tr key={i} className="border-b border-[#E5DFD3] last:border-b-0">
                     {row.map((cell, j) => (
-                      <td key={j} className="py-4 px-4 text-sm text-[#6B6B6B]">{cell}</td>
+                      <td key={j} className="py-4 px-4 text-sm text-[#6B6B6B]">
+                        {typeof cell === 'string' && (j === 1 || cell.includes('AED') || cell.includes('[X]') || cell.includes('Prices are shared on WhatsApp')) ? (
+                          <a
+                            href="https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20pricing%20details."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-track="whatsapp_click"
+                            className="text-[#1F4538] font-medium hover:underline inline-flex items-center gap-1"
+                          >
+                            Prices are shared on WhatsApp
+                          </a>
+                        ) : (
+                          cell
+                        )}
+                      </td>
                     ))}
                   </tr>
                 ))}

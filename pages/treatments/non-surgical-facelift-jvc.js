@@ -58,7 +58,7 @@ const NonSurgicalFacelift = () => {
               "lastReviewed": "2026-08-21",
               "reviewedBy": {
                 "@type": "Person",
-                "name": "[VERIFIED DERMATOLOGIST NAME]",
+                "name": "Keep unpublished until Dr. Anusha's licence is issued",
                 "jobTitle": "Dermatologist",
                 "url": "[VERIFIED DERMATOLOGIST PROFILE URL]"
               },
@@ -153,7 +153,7 @@ const NonSurgicalFacelift = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "[VERIFIED DERMATOLOGIST NAME]",
+              "name": "Keep unpublished until Dr. Anusha's licence is issued",
               "jobTitle": "Dermatologist",
               "worksFor": { "@type": "MedicalOrganization", "name": "Vedara Care Polyclinic" },
               "hasCredential": {

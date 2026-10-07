@@ -12,7 +12,7 @@ const Insights = ({
     },
     {
       category: "Physiotherapy",
-      title: "Best Treatments for Back Pain in Dubai: What Actually Works",
+      title: "Effective Treatments for Back Pain in Dubai: What Actually Works",
       readTime: "7 min read"
     },
     {

@@ -81,43 +81,6 @@ const BackPainAcuteAndPricing = ({ data }) => {
           </div>
         </div>
       </section>
-
-      {/* Pricing Section */}
-      <section className="bg-white" style={{ padding: '96px 24px' }}>
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <div className="text-sm tracking-widest uppercase mb-4" style={{ color: '#C9A84C' }}>
-              {pricing.label}
-            </div>
-            <h2 className="text-4xl" style={{ fontFamily: 'var(--font-display, Fraunces, Georgia, serif)', color: 'rgb(26, 26, 26)' }}>
-              {pricing.title}
-            </h2>
-          </div>
-
-          <div className="bg-white rounded-lg border border-[#E5DFD3] overflow-hidden mb-12">
-            {(pricing.services || []).map((service, index) => (
-              <div key={index} className={`flex items-center justify-between px-8 py-5 ${index % 2 === 1 ? 'bg-[#FAF8F5]' : 'bg-white'}`}>
-                <p className="text-sm" style={{ color: 'rgb(26, 26, 26)' }}>
-                  {service.name}
-                </p>
-                <p style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(201, 168, 76)' }}>
-                  {service.price}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <p className="text-center mb-8" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7', fontSize: '14px' }} dangerouslySetInnerHTML={{ __html: pricing.insuranceText }} />
-
-          <div className="flex flex-wrap justify-center gap-3">
-            {(pricing.insurances || []).map((insurer, index) => (
-              <span key={index} className="bg-[#FAF8F5] px-4 py-2 rounded-full text-xs border border-[#E5DFD3]" style={{ color: 'rgb(107, 107, 107)' }}>
-                {insurer}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   );
 };

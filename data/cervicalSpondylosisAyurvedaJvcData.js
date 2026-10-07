@@ -323,7 +323,7 @@ export const cervicalJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.5", label: "Google Rating" },
+    { value: "4.6", label: "Google Rating" },
     { value: "1200+", label: "Reviews" },
     { value: "Female", label: "Practitioner Available" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },
@@ -340,100 +340,100 @@ export const cervicalJvcPricing = {
       service:
         "Initial cervical spondylosis consultation with Dr. Zainab (Nadi Pareeksha + Greeva Sandhigata Vata assessment + myelopathy screening + treatment plan)",
       duration: "90 min",
-      price: "AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Follow-up consultation",
       duration: "30–45 min",
-      price: "AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Extended follow-up (complex cases with imaging review)",
       duration: "60 min",
-      price: "AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Individual Griva Basti session",
       duration: "45–60 min",
-      price: "AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Griva Basti package (7 sessions)",
       duration: "3–4 weeks",
-      price: "AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Griva Basti package (14 sessions)",
       duration: "6–8 weeks",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Griva Basti sustained maintenance (monthly subscription)",
       duration: "Ongoing",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Individual Nasya session",
       duration: "30-40 mins",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Nasya series (7 sessions)",
       duration: "1-2 weeks",
-      price: "AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Shiroabhyanga package (7 sessions)",
       duration: "3–4 weeks",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Individual Abhyanga session",
       duration: "75–90 min",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Elakizhi package (7 sessions — cervical region)",
       duration: "2–3 weeks",
-      price: "AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "7-day Panchakarma programme (cervical spondylosis focus with Nasya)",
       duration: "7 days",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "14-day Panchakarma programme (comprehensive cervical spondylosis reset)",
       duration: "14 days",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service:
         "21-day Panchakarma programme (intensive chronic cervical spondylosis)",
       duration: "21 days",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service:
         "Comprehensive 8-week active phase cervical spondylosis programme",
       duration: "8 weeks",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service:
         "Comprehensive 12-week programme (with Panchakarma phase)",
       duration: "12 weeks",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Sustained cervical spondylosis maintenance programme",
       duration: "Ongoing",
-      price: "From AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Trayodashang Guggulu monthly supply",
       duration: "1 month",
-      price: "AED [X]",
+      price: "Prices are shared on WhatsApp",
     },
     {
       service: "Combined Ayurvedic + Physiotherapy programme",
@@ -572,7 +572,7 @@ export const cervicalJvcCTA = {
   button2Text: "WhatsApp Us",
   button2Href: "https://wa.me/971555736312",
   bullets: [
-    "Initial consultation from AED [X] · 90-minute comprehensive assessment with neurological examination · Female DHA-Licensed BAMS Ayurvedic Doctor · Classical Greeva Sandhigata Vata tradition · Trayodashang Guggulu specifically for cervical spondylosis · 1200+ cervical spondylosis patients treated · Multi-language including Malayalam for Kerala tradition · Coordinated with modern medical care · Walking distance from Circle Mall, JVC · Sustained partnership approach"
+    "90-minute comprehensive assessment with neurological examination · Female DHA-Licensed BAMS Ayurvedic Doctor · Classical Greeva Sandhigata Vata tradition · Trayodashang Guggulu specifically for cervical spondylosis · Multi-language including Malayalam for Kerala tradition · Coordinated with modern medical care · Walking distance from Circle Mall, JVC · Sustained partnership approach"
   ]
 };
 

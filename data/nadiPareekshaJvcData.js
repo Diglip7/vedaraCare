@@ -1,4 +1,4 @@
-import { number } from "framer-motion";
+
 
 export const nadiPareekshaHero = {
   breadcrumb: [

@@ -13,7 +13,7 @@ export const arthritisHero = {
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'm%20interested%20in%20Arthritis%20treatment.%20Please%20share%20more%20details.",
   trustSignals: [
     "We Work With Your Rheumatologist",
-    "450+ Arthritis Patients Treated",
+    "Comprehensive Joint Care",
     "Integrated Ayurveda + Physiotherapy",
     "Walking Distance from Circle Mall, JVC"
   ],
@@ -30,7 +30,7 @@ export const arthritisIntro = {
   label: "THE QUICK ANSWER",
   title: "Ayurvedic arthritis treatment in Dubai, in one paragraph.",
   blockquote: "Ayurvedic treatment for arthritis in Dubai is a 3 to 9-month structured medical programme combining classical Panchakarma protocols (typically Virechana for inflammatory patterns; Basti for Vata-pattern joint disease), localised joint therapies (Janu Vasti for knees, Greeva Vasti for cervical, specific protocols for shoulders and other joints), Njavarakizhi (medicated rice bolus therapy for muscle and joint nourishment), internal Ayurvedic medicines (typically including Dashamoola, Yogaraja Guggulu, Maharasnadi Kashayam, Sahacharadi formulations), dietary regulation, and integrated physiotherapy where indicated. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are specific to your arthritis subtype and work alongside rheumatology or orthopaedic care. Initial consultations start from AED 350.",
-  footer: "Medically reviewed by Dr. Priya Menon, BAMS, MD (Ayurveda), DHA-Licensed 2509266· Last updated June 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed June 2026"
 };
 
 export const arthritisTypesData = {
@@ -150,7 +150,7 @@ export const arthritisFaqs = {
   faqs: [
     {
       question: "Does Ayurvedic treatment actually work for arthritis?",
-      answer: "For osteoarthritis: yes, substantially. Most of our knee, hip, and spine osteoarthritis patients at the JVC clinic see 50-70% reduction in pain and meaningful function improvement over 6 months. For rheumatoid arthritis and other inflammatory arthritis: Ayurvedic treatment is supportive — providing meaningful symptom relief and quality-of-life improvement but never replacing immunosuppressive medications. For frozen shoulder: outcomes are particularly strong, often shortening recovery from 18-24 months to 4-6 months."
+      answer: "For osteoarthritis: yes, substantially. Most of our knee, hip, and spine osteoarthritis patients at the JVC clinic see meaningful reduction in pain and function improvement over 6 months. For rheumatoid arthritis and other inflammatory arthritis: Ayurvedic treatment is supportive — providing meaningful symptom relief and quality-of-life improvement but never replacing immunosuppressive medications. For frozen shoulder: outcomes are particularly strong, often shortening recovery from 18-24 months to 4-6 months."
     },
     {
       question: "Can Ayurveda cure arthritis?",
@@ -191,7 +191,7 @@ export const arthritisCTA = {
   button1Href: "/book",
   button2Text: "Chat on WhatsApp",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Arthritis%20treatment.%20Please%20assist%20me.",
-  subtext: "Initial consultation from AED 350 · Walking distance from Circle Mall, JVC · Integrated Ayurveda + physiotherapy · Home services available · Insurance direct-billing",
+  subtext: "Initial consultation from AED 350 · Walking distance from Circle Mall, JVC · Integrated Ayurveda + physiotherapy · Insurance direct-billing",
   bgColor: "bg-[#F5F1E8]",
 };
 
