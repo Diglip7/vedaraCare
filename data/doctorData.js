@@ -150,7 +150,7 @@ const defaultReviews = (name) => ({
     }
   ],
   stats: [
-    { value: "4.6", label: "patient rating on Google" },
+    { value: "4.7", label: "patient rating on Google" },
     { value: "DHA", label: "licensed practitioner" }
   ],
   buttonText: "Read All Reviews →",
@@ -977,7 +977,7 @@ export const johannaBautistaTemplate = {
   alt: 'Johanna Bautista, Senior Aesthetician at Vedara Care Polyclinic, JVC Dubai',
   heroBadge: 'PATIENT CARE & OPERATIONS SPECIALIST',
   heroStats: 'Clinic & Patient Experience Lead',
-  ratingText: '4.6 rated on Google',
+  ratingText: '4.7 rated on Google',
   primaryCtaHref: '/book',
   secondaryCtaHref: 'https://wa.me/971555736312?text=' + encodeURIComponent("Hi, I'd like to enquire about aesthetic services with Johanna Bautista at Vedara Care JVC."),
   bio: "Johanna Bautista coordinates the overall patient experience and booking journey at Vedara Care.",
@@ -1311,7 +1311,7 @@ export const drZainab = {
       }
     ],
     stats: [
-      { value: "4.6", label: "Google Rating" },
+      { value: "4.7", label: "Google Rating" },
       { value: "11", label: "Documented Expertise Areas" },
       { value: "DHA", label: "Licensed & BAMS Qualified" },
     ],

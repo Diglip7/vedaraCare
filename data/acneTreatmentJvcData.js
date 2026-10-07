@@ -395,7 +395,7 @@ export const acneTreatmentReviews = {
     }
   ],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "85%", label: "reported significant improvement" }
   ],
   buttonText: "Read All Acne Treatment Reviews →",

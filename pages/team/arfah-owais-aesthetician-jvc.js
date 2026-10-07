@@ -179,7 +179,7 @@ export default function ArfahOwaisAestheticianJVC() {
       { "@type": "Service", "name": "Early Signs of Aging Prevention Programme" }
     ],
     "memberOf": { "@type": "GovernmentOrganization", "name": "Dubai Health Authority" },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "15", "bestRating": "5", "worstRating": "1" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "23", "bestRating": "5", "worstRating": "1" },
     "lastReviewed": currentDate
   };
 

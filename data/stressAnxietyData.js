@@ -189,7 +189,7 @@ export const stressAnxietyReviews = {
   alt: "Verified patient outcome from Ayurvedic stress and anxiety treatment at Vedara Care JVC Dubai",
   items: [],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "142", label: "stress and anxiety reviews" },
     { value: "88%", label: "reported significant sleep improvement" },
     { value: "72%", label: "reported meaningful baseline anxiety reduction" }

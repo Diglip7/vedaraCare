@@ -168,7 +168,7 @@ const MicrodermabrasionJVC = () => {
                 { "@type": "Service", "name": "Bridal Combined Manual Exfoliation Protocol" },
                 { "@type": "Service", "name": "Monthly Membership (Single Modality or Alternating)" }
               ],
-              "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "15", "bestRating": "5", "worstRating": "1" },
+              "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "23", "bestRating": "5", "worstRating": "1" },
               "lastReviewed": "2026-09-21"
             })
           }}
@@ -369,8 +369,8 @@ const MicrodermabrasionJVC = () => {
               "@context": "https://schema.org",
               "@type": "AggregateRating",
               "itemReviewed": { "@id": "https://vedaracare.ae/treatments/microdermabrasion-dermaplaning-jvc/#procedure" },
-              "ratingValue": "4.6",
-              "reviewCount": "15",
+              "ratingValue": "4.7",
+              "reviewCount": "23",
               "bestRating": "5",
               "worstRating": "1"
             })

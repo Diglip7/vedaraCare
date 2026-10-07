@@ -88,7 +88,7 @@ export const cuppingTherapyReviews = {
     }
   ],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "DHA", label: "licensed practitioners" },
     { value: "100%", label: "sterile single-use equipment" }
   ],

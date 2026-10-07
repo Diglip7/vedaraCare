@@ -19,26 +19,28 @@ walkDir(targetDir, function (filePath) {
     let original = content;
 
     // Schema JSON-LD ratings
-    content = content.replace(/"ratingValue"\s*:\s*"4\.5"/g, '"ratingValue": "4.6"');
+    content = content.replace(/"ratingValue"\s*:\s*"4\.6"/g, '"ratingValue": "4.7"');
+    content = content.replace(/"reviewCount"\s*:\s*"15"/g, '"reviewCount": "23"');
     
     // UI components and stats
-    content = content.replace(/value:\s*['"]4\.5['"]/gi, 'value: "4.6"');
-    content = content.replace(/value:\s*['"]4\.5★['"]/gi, 'value: "4.6★"');
-    content = content.replace(/label:\s*['"]4\.5 stars on Google['"]/gi, 'label: "stars on Google"');
-    content = content.replace(/ratingText:\s*['"]4\.5 rated on Google['"]/gi, "ratingText: '4.6 rated on Google'");
-    content = content.replace(/\{\s*label:\s*['"]4\.5 Google Rating['"],\s*type:\s*['"]star['"]\s*\}/g, '{ label: "4.6 Google Rating", type: "star" }');
+    content = content.replace(/value:\s*['"]4\.6['"]/gi, 'value: "4.7"');
+    content = content.replace(/value:\s*['"]4\.6★['"]/gi, 'value: "4.7★"');
+    content = content.replace(/label:\s*['"]4\.6 stars on Google['"]/gi, 'label: "4.7 stars on Google"');
+    content = content.replace(/ratingText:\s*['"]4\.6 rated on Google['"]/gi, "ratingText: '4.7 rated on Google'");
+    content = content.replace(/\{\s*label:\s*['"]4\.6 Google Rating['"],\s*type:\s*['"]star['"]\s*\}/g, '{ label: "4.7 Google Rating", type: "star" }');
     
     // HTML/JSX specific text replacements
-    content = content.replace(/>4\.5</g, '>4.6<');
-    content = content.replace(/>4\.5 stars on Google</g, '>4.6 stars on Google<');
-    content = content.replace(/"4\.5 stars on Google"/g, '"4.6 stars on Google"');
-    content = content.replace(/'4\.5 stars on Google'/g, "'4.6 stars on Google'");
+    content = content.replace(/>4\.6</g, '>4.7<');
+    content = content.replace(/>4\.6 stars on Google</g, '>4.7 stars on Google<');
+    content = content.replace(/"4\.6 stars on Google"/g, '"4.7 stars on Google"');
+    content = content.replace(/'4\.6 stars on Google'/g, "'4.7 stars on Google'");
     
-    // Review counts update (assuming they wanted "15" or similar based on existing script)
-    // Actually the user just said: "in every pages show 4.5 reviews show 4.6 in whole website"
+    // Review counts update
+    content = content.replace(/count:\s*['"]15['"]/gi, 'count: "23"');
+    content = content.replace(/value:\s*['"]15['"]/gi, 'value: "23"');
     
     // Additional general string matching for specific components
-    content = content.replace(/4\.5\s*stars on Google/gi, '4.6 stars on Google');
+    content = content.replace(/4\.6\s*stars on Google/gi, '4.7 stars on Google');
     
     if (content !== original) {
       fs.writeFileSync(filePath, content, 'utf8');

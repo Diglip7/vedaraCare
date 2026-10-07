@@ -105,7 +105,7 @@ export const ayurvedicMassageJVCReviews = {
     }
   ],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "78", label: "reviews mentioning Ayurvedic massage" },
     { value: "97%", label: "would recommend" }
   ]

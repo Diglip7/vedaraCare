@@ -310,7 +310,7 @@ export const njavarakizhiReviews = {
   description: "Individual experiences vary, and testimonials are not a guarantee of treatment outcomes.",
   items: [],
   stats: [
-    { value: "4.6", label: "stars on Google" }
+    { value: "4.7", label: "stars on Google" }
   ],
   buttonText: "Read All Reviews →",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"

@@ -250,7 +250,7 @@ export const tennisElbowReviews = {
   isDarkText: true,
   items: [],
   stats: [
-    { value: "4.6", label: "Google Rating" },
+    { value: "4.7", label: "Google Rating" },
     { value: "15", label: "reviews on Google" }
   ],
   buttonText: "Read All Elbow Pain Reviews",

@@ -280,7 +280,7 @@ export const abhyangaReviews = {
   title: "Abhyanga outcomes at Vedara Care.",
   items: [],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "52", label: "Abhyanga-specific reviews" },
     { value: "97%", label: "would recommend" }
   ],

@@ -377,7 +377,7 @@ export const hairLossTreatmentReviews = {
     }
   ],
   stats: [
-    { value: "4.6", label: "on Google" },
+    { value: "4.7", label: "on Google" },
     // { value: "Multi-modal", label: "evidence-based treatment" },
     { value: "DHA", label: "licensed specialist team" }
   ],

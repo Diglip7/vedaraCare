@@ -363,7 +363,7 @@ export const hydrafacialPatientVoices = {
   ],
   stats: [
     {
-      value: "4.6",
+      value: "4.7",
       description: "stars on Google"
     },
     {

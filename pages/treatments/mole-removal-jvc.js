@@ -565,40 +565,8 @@ const MoleRemovalJVC = () => {
       </div>
 
       {/* SAFETY */}
-      <div className="bg-white py-16 md:py-20 px-6">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-              {moleRemovalSafety.label}
-            </p>
-            <h2 className="text-2xl md:text-3xl font-serif mb-6 text-[rgb(26,26,26)]">
-              {moleRemovalSafety.title}
-            </h2>
-            {moleRemovalSafety.paragraphs.map((p, i) => (
-              <p key={i} className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4">
-                {p}
-              </p>
-            ))}
-            <ul className="list-disc pl-5 space-y-2 mb-4">
-              {moleRemovalSafety.points.map((point, i) => (
-                <li key={i} className="text-sm text-[rgb(107,107,107)] leading-relaxed">
-                  <strong className="text-[rgb(26,26,26)]">{point.name}:</strong> {point.desc}
-                </li>
-              ))}
-            </ul>
-            <p className="text-sm text-[rgb(107,107,107)] leading-relaxed italic">
-              {moleRemovalSafety.footer}
-            </p>
-          </div>
-          <div className="relative h-[480px] lg:h-[580px] w-full rounded-2xl overflow-hidden shadow-lg border border-[#E5DFD3]">
-            <img
-              src="/images/mole-removal-jvc.webp"
-              alt="Mole Removal Safety and Consultation at Vedara Care JVC"
-              className="w-full h-full object-cover object-top"
-            />
-          </div>
-        </div>
-      </div>
+
+
 
       {/* SKIN TONES */}
       <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
@@ -669,42 +637,42 @@ const MoleRemovalJVC = () => {
       </div>
 
       {/* LABORATORY */}
-    <div className="bg-white py-16 md:py-20 px-6">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+      <div className="bg-white py-16 md:py-20 px-6">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-14 items-center">
 
-    {/* Content */}
-    <div>
-      <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-        {moleRemovalLaboratory.label}
-      </p>
+          {/* Content */}
+          <div>
+            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
+              {moleRemovalLaboratory.label}
+            </p>
 
-      <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
-        {moleRemovalLaboratory.title}
-      </h2>
+            <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
+              {moleRemovalLaboratory.title}
+            </h2>
 
-      {moleRemovalLaboratory.paragraphs.map((p, i) => (
-        <p
-          key={i}
-          className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4"
-        >
-          {p}
-        </p>
-      ))}
-    </div>
+            {moleRemovalLaboratory.paragraphs.map((p, i) => (
+              <p
+                key={i}
+                className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4"
+              >
+                {p}
+              </p>
+            ))}
+          </div>
 
-    {/* Image */}
-    <div className="w-full">
-      <div className="overflow-hidden rounded-2xl">
-        <img
-          src="/images/mole-removal-laboratory.webp"
-          alt="Mole removal laboratory assessment"
-          className="w-full h-[350px] md:h-[450px] object-cover object-center"
-        />
+          {/* Image */}
+          <div className="w-full">
+            <div className="overflow-hidden rounded-2xl">
+              <img
+                src="/images/mole-removal-laboratory.webp"
+                alt="Mole removal laboratory assessment"
+                className="w-full h-[350px] md:h-[450px] object-cover object-center"
+              />
+            </div>
+          </div>
+
+        </div>
       </div>
-    </div>
-
-  </div>
-</div>
 
       {/* PRICING */}
       <PricingSection

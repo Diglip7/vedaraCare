@@ -265,7 +265,7 @@ export const neckPainReviews = {
   cardBgColor: "bg-[#FFFFFF12]",
   items: [],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "15", label: "reviews on Google" }
   ],
   buttonText: "Read All Neck Pain Reviews",

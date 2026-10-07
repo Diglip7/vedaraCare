@@ -372,7 +372,7 @@ export const nasyaBastiUdvartanaJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "1,200+", label: "Specialty therapy sessions delivered" },
     { value: "DHA-Licensed", label: "BAMS Ayurvedic doctors" },
     // { value: "Female", label: "Practitioner & therapist available" }

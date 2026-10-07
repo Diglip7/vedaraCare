@@ -40,7 +40,7 @@ export const sciaticaPhysioReviews = {
   isDarkText: true,
   items: [],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "75-90%", label: "achieve substantial improvement in research populations" },
     { value: "<5%", label: "require surgery" }
   ],

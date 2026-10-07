@@ -264,7 +264,7 @@ export const postnatalBoundaries = {
 export const postnatalReviews = {
   label: "PATIENT STORIES",
   title: "Real postpartum outcomes",
-  description: "4.6 stars on Google · 94% of mothers completed the full programme · 97% would recommend to other expat mothers.",
+  description: "4.7 stars on Google · 94% of mothers completed the full programme · 97% would recommend to other expat mothers.",
   items: [
     {
       quote: "Twins. Both NICU for the first week. Came home physically empty and emotionally shattered. Vedara's twins programme — 90 days, more visits than the standard, mental health support throughout — saved us.",
@@ -273,7 +273,7 @@ export const postnatalReviews = {
     }
   ],
   stats: [
-    { label: "Stars on Google", value: "4.6" },
+    { label: "Stars on Google", value: "4.7" },
     { label: "DHA Licensed", value: "Postnatal Care" },
     { label: "Completion Rate", value: "94%" }
   ],

@@ -293,7 +293,7 @@ export const backPainJvcReviews = {
     }
   ],
   stats: [
-    { value: "4.6", label: "Google Rating" },
+    { value: "4.7", label: "Google Rating" },
     { value: "JVC", label: "Clinic Location" },
     { value: "Female", label: "Practitioner Available" },
     { value: "DHA-Licensed", label: "BAMS Doctors" },

@@ -178,7 +178,7 @@ export const prpHairPatientVoices = {
   ],
   stats: [
     {
-      value: "4.6",
+      value: "4.7",
       description: "Stars on Google"
     },
     {

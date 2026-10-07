@@ -165,7 +165,7 @@ export const psoriasisPatientVoices = {
   ],
   stats: [
     {
-      value: "4.9 / 5.0",
+      value: "4.7",
       description: "Google Rating"
     },
     {

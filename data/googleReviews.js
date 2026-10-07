@@ -36,7 +36,7 @@ export const ayurvedaGoogleReviews = [
     text: 'Excellent Ayurveda treatment. Experienced doctors, caring staff, and effective results. Highly satisfied.',
     author_name: 'Seethubhoopesh Seethubhoopesh',
     relative_time_description: '8 months ago',
-    rating: 6,
+    rating: 5,
   },
 
 
@@ -44,14 +44,14 @@ export const ayurvedaGoogleReviews = [
     text: "I went to vedara clinic for my knee pain and taken Ayurveda treatment. Now i am really better. Thank you Vedara Team.",
     author_name: 'Preethi Mis',
     relative_time_description: '8 month ago',
-    rating: 4,
+    rating: 5,
   },
 
   {
     text: "The best ayurveda clinic in jvc i found thank you for the treatment",
     author_name: 'shamna tcam',
     relative_time_description: '8 month ago',
-    rating: 2,
+    rating: 5,
   },
 
 

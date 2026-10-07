@@ -228,7 +228,7 @@ export const kneePainReviews = {
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
   items: [],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "15", label: "reviews (real, verified)" }
   ],
   buttonText: "Read All Knee Pain Reviews"

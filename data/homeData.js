@@ -11,7 +11,7 @@ export const homeHero = {
   microLine: 'Most patients hear back on WhatsApp within minutes during clinic hours.',
   trust: [
     { type: 'shield', label: `DHA-licensed facility · Licence ${SITE.facilityLicence}` },
-    { type: 'star', label: 'GOOGLE_RATING' }, // replaced in Hero with "4.6 on Google · 21 reviews" (live, Step 9)
+    { type: 'star', label: 'GOOGLE_RATING' }, // replaced in Hero with "4.7 on Google · 21 reviews" (live, Step 9)
     { type: 'clock', label: 'Open daily, 9am–10pm' },
     { type: 'pin', label: 'Binghatti Azure, JVC · near Circle Mall' },
   ],
@@ -57,7 +57,7 @@ export const homeExperts = {
     { name: 'Hafsina K K', role: 'Physiotherapist', qualification: "Bachelor of Physiotherapy · 7 years' experience", licence: 'DHA-P 64812828', image: '/images/hafsina-kk-physiotherapist-dubai.webp', href: '/doctors/hafsina-kk-physiotherapist' },
     { name: 'Dr. Zainab Sheikh', role: 'Ayurveda Practitioner', qualification: "DHA Licensed Ayurveda Practitioner · 4.5 years' experience", licence: 'DHA licence 20918133', image: '/images/dr-zainab-ayurveda-jvc.webp', href: '/doctors/dr-zainab-ayurveda' },
     // Show when her DHA licence at Vedara is issued: set hidden:false and fill licence
-    { name: 'Dr. Anusha Makkena', role: 'General Practitioner & Aesthetic Medicine Physician', qualification: '', licence: '', image: '/images/dr-anusha-makkena.webp', href: '/doctors/dr-anusha-makkena', hidden: true },
+    { name: 'Dr. Anusha Makkena', role: 'General Practitioner & Aesthetic Medicine Physician', qualification: 'MBBS, MS ENT · MOH Licensed ', licence: 'DHA-P ', image: '/images/dr-anusha-makkena.webp', href: '/doctors/dr-anusha-makkena', hidden: true },
   ],
   allLink: { label: 'See all clinicians', href: '/doctors' },
 };

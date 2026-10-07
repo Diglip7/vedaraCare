@@ -211,7 +211,7 @@ export const dermatologyReviews = {
     }
   ],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     // { value: "Int'l", label: "consultant dermatologists trained" },
     { value: "Both", label: "medical & aesthetic excellence" }
   ],

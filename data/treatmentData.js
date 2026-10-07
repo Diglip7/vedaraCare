@@ -56,7 +56,7 @@ export const panchakarmaJVCReviews = {
     }
   ],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "24", label: "reviews from JVC residents" },
     { value: "97%", label: "would recommend" }
   ]
@@ -549,7 +549,7 @@ export const kativastiReviews = {
       details: "Chronic Mechanical Back Pain · 14-Session Course · January 2026 · Vedara Care JVC, January 2026"
     }],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "34", label: "Kativasti-specific reviews" },
     { value: "97%", label: "reported significant pain reduction" }
   ],

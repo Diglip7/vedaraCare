@@ -421,7 +421,7 @@ export const ayurvedaReviews = {
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
   items: [],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "62", label: "Ayurveda-specific reviews" },
     { value: "97%", label: "would recommend her" }
   ]
@@ -599,7 +599,7 @@ export const dubaiHubReviews = {
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
   items: [],
   stats: [
-    { value: "4.6", label: "Stars on Google" },
+    { value: "4.7", label: "Stars on Google" },
     { value: "240+", label: "Verified Reviews" },
     { value: "97%", label: "Would Recommend" }
   ]
@@ -728,7 +728,7 @@ export const dubaiHubGuidance = {
     },
     {
       title: "2. Are individual Ayurvedic doctors DHA-licensed?",
-      description: "The Dubai Health Authority licenses Ayurvedic physicians individually (DHA-P-XXXXXXX format). Real clinics display each doctor's DHA license number publicly. If you cannot find a license number on a doctor's profile, that is your answer."
+      description: "The Dubai Health Authority licenses Ayurvedic physicians individually . Real clinics display each doctor's DHA license number publicly. If you cannot find a license number on a doctor's profile, that is your answer."
     },
     {
       title: "3. Do the doctors hold BAMS qualifications?",

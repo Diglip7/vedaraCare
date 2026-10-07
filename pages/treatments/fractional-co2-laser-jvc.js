@@ -597,14 +597,7 @@ const FractionalCO2Laser = () => {
         ]}
         buttonText="Book a Consultation"
       />
-      <section className="bg-[#F8F9FA] py-16 md:py-20 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">LOCAL ACCESSIBILITY</p>
-          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">{co2LaserWhyJvc.title}</h2>
-          <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">{co2LaserWhyJvc.description}</p>
-          <p className="text-sm italic text-[rgb(107,107,107)]">{co2LaserWhyJvc.caption}</p>
-        </div>
-      </section>
+
 
       {/* <MedicalDisclaimer text={co2LaserCTA.disclaimer} /> */}
 

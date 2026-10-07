@@ -39,7 +39,7 @@ export const antiAgingSEO = {
       ],
       "isAcceptingNewPatients": true,
       "practitioner": { "@id": "https://vedaracare.ae/team/arfah-owais-aesthetician-jvc/#person" },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "15", "bestRating": "5", "worstRating": "1" }
     },
     {
       "@context": "https://schema.org",

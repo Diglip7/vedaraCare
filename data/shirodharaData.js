@@ -248,7 +248,7 @@ export const shirodharaReviews = {
   title: "What patients say.",
   items: [],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "41", label: "Shirodhara-specific reviews" },
     { value: "97%", label: "would recommend" }
   ],

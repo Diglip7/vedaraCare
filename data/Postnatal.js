@@ -286,7 +286,7 @@ export const postnataljvcReviews = {
     }
   ],
   stats: [
-    { label: "Stars on Google", value: "4.6" },
+    { label: "Stars on Google", value: "4.7" },
     { label: "DHA Licensed", value: "Postnatal Care" },
     { label: "Completion Rate", value: "94%" }
   ],
@@ -702,7 +702,7 @@ export const postnataljvcReviewsNew = {
     }
   ],
   stats: [
-    { value: "4.6", label: "GOOGLE RATING" },
+    { value: "4.7", label: "GOOGLE RATING" },
     { value: "Female", label: "DHA-LICENSED AYURVEDIC DOCTOR" },
     { value: "All Dubai", label: "HOME DELIVERY COVERAGE" }
   ]

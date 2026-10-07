@@ -386,7 +386,7 @@ export const homePhysioOutcomes = {
     }
   ],
   stats: [
-    { value: "4.6", label: "Home visit patient rating" },
+    { value: "4.7", label: "Home visit patient rating" },
     { value: "92%", label: "complete their full home programme" },
     { value: "160+", label: "home physiotherapy reviews" }
   ],

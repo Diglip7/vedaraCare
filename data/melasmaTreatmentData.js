@@ -175,7 +175,7 @@ export const melasmaTreatmentReviews = {
     }
   ],
   stats: [
-    { value: "4.5 stars", label: "on Google" },
+    { value: "4.7 ", label: "on Google" },
     { value: "Multi-modal", label: "evidence-based treatment" }
   ]
 };

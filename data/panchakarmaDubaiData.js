@@ -336,7 +336,7 @@ export const panchakarmaDubaiReviews = {
   title: "Real Panchakarma Outcomes",
   items: [],
   stats: [
-    { value: "4.6", label: "stars on Google" },
+    { value: "4.7", label: "stars on Google" },
     { value: "38", label: "Panchakarma reviews" },
     { value: "97%", label: "would recommend" }
   ],

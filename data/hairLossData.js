@@ -307,7 +307,7 @@ export const hairLossReviews = {
   title: 'Real hair loss outcomes from our JVC clinic',
   items: [],
   stats: [
-    { value: "4.6", label: 'Stars on Google' },
+    { value: "4.7", label: 'Stars on Google' },
     { value: '86%', label: ' reported visible improvement at 6 months' },
     { value: '78%', label: ' Hair loss reviews' }
   ],

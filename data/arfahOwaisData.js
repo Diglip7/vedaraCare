@@ -288,7 +288,7 @@ export const arfahOwaisPageData = {
     items: [],
     disclaimer: 'Individual outcomes vary substantially and depend on skin type, condition, adherence to pre- and post-treatment protocols, and realistic session-count expectations. All testimonials shared with written patient consent per DHA advertising framework. No absolute or superlative claims — aesthetic treatments provide meaningful cosmetic improvement within realistic parameters.',
     // stats: [
-    //   { value: "4.6", label: 'patient rating on Google' },
+    //   { value: "4.7", label: 'patient rating on Google' },
     //   { value: '8+', label: 'years clinical experience' },
     //   { value: 'DHA', label: 'licensed practitioner' },
     // ],

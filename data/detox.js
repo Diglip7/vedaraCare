@@ -227,7 +227,7 @@ export const detoxReviews = {
   ],
   stats: [
     {
-      value: "4.6",
+      value: "4.7",
       label: "Google Rating"
     },
     {

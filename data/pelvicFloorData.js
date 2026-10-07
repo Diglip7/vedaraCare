@@ -120,7 +120,7 @@ export const pelvicFloorReviews = {
   isDarkText: true,
   items: [],
   stats: [
-    { value: "4.6", label: "Stars on Google" },
+    { value: "4.7", label: "Stars on Google" },
     { value: "15", label: "Reviews on Google" }
   ],
   buttonText: "Read All Pelvic Floor Reviews",

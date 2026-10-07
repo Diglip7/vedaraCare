@@ -126,8 +126,8 @@ const PigmentationTreatmentDubai = () => {
       "sameAs": ["https://vedaracare.ae/conditions/melasma-treatment-dubai/"],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.6",
-        "reviewCount": "15",
+        "ratingValue": "4.7",
+        "reviewCount": "23",
         "bestRating": "5",
         "worstRating": "1"
       }
