@@ -104,40 +104,40 @@ export const pelvicFloorTypes = {
       description: "Pelvic girdle pain in pregnancy (sometimes called symphysis pubis dysfunction), pelvic floor preparation for birth, antenatal pelvic health work. Treatment safe in pregnancy with appropriate adaptations. Many patients find substantial relief during pregnancy and improved labour preparation.",
       typicalPatient: 'Pregnant woman, often in second or third trimester'
     },
-    { 
-      number: "04", 
-      title: "Urgency and Overactive Bladder", 
-      description: "A sudden, strong need to pass urine, often with leaking or frequent trips to the toilet. Treated with bladder retraining, urge-control techniques and pelvic floor training." 
+    {
+      number: "04",
+      title: "Urgency and Overactive Bladder",
+      description: "A sudden, strong need to pass urine, often with leaking or frequent trips to the toilet. Treated with bladder retraining, urge-control techniques and pelvic floor training."
     },
-    { 
-      number: "05", 
-      title: "Pelvic Organ Prolapse", 
-      description: "A feeling of heaviness or bulging when the bladder, womb or bowel drops lower. Physiotherapy can reduce symptoms for many women without surgery. <a href='#prolapse' class='underline'>Read more</a>." 
+    {
+      number: "05",
+      title: "Pelvic Organ Prolapse",
+      description: "A feeling of heaviness or bulging when the bladder, womb or bowel drops lower. Physiotherapy can reduce symptoms for many women without surgery. <a href='#prolapse' class='underline'>Read more</a>."
     },
-    { 
-      number: "06", 
-      title: "Chronic Pelvic Pain, Painful Intercourse and Vaginismus", 
-      description: "Pelvic pain that lasts, pain with intercourse, or involuntary tightening. Treated with relaxation, breathing, gentle external techniques and education, at your pace." 
+    {
+      number: "06",
+      title: "Chronic Pelvic Pain, Painful Intercourse and Vaginismus",
+      description: "Pelvic pain that lasts, pain with intercourse, or involuntary tightening. Treated with relaxation, breathing, gentle external techniques and education, at your pace."
     },
-    { 
-      number: "07", 
-      title: "Diastasis Recti (Abdominal Separation)", 
-      description: "A gap between the tummy muscles after pregnancy. Graded core and pelvic floor rehabilitation. <a href='#diastasis-recti' class='underline'>Read more</a>." 
+    {
+      number: "07",
+      title: "Diastasis Recti (Abdominal Separation)",
+      description: "A gap between the tummy muscles after pregnancy. Graded core and pelvic floor rehabilitation. <a href='#diastasis-recti' class='underline'>Read more</a>."
     },
-    { 
-      number: "08", 
-      title: "Bowel Problems and Constipation", 
-      description: "Straining, incomplete emptying or leaking linked to pelvic floor coordination. Toilet positioning, breathing and muscle coordination training." 
+    {
+      number: "08",
+      title: "Bowel Problems and Constipation",
+      description: "Straining, incomplete emptying or leaking linked to pelvic floor coordination. Toilet positioning, breathing and muscle coordination training."
     },
-    { 
-      number: "09", 
-      title: "Menopause and the Pelvic Floor", 
-      description: "Leaking, prolapse symptoms or discomfort that start or worsen around menopause. Pelvic floor training and advice; our GP can discuss other treatment." 
+    {
+      number: "09",
+      title: "Menopause and the Pelvic Floor",
+      description: "Leaking, prolapse symptoms or discomfort that start or worsen around menopause. Pelvic floor training and advice; our GP can discuss other treatment."
     },
-    { 
-      number: "10", 
-      title: "Before and After Gynaecological Surgery", 
-      description: "Pelvic floor preparation before surgery and recovery after hysterectomy or prolapse repair, following your surgeon's instructions." 
+    {
+      number: "10",
+      title: "Before and After Gynaecological Surgery",
+      description: "Pelvic floor preparation before surgery and recovery after hysterectomy or prolapse repair, following your surgeon's instructions."
     }
   ],
   footer: "Physiotherapy at Vedara Care is for women. Assessment is external only, in a private room.",
@@ -414,7 +414,7 @@ export const pelvicFloorSciaticaSection2 = {
     footer: "Most pelvic floor conditions are highly treatable. The combination of accurate assessment, specific exercise, manual therapy, and patient education produces excellent outcomes for most patients."
   },
   rightContent: {
-    image: "/images/female-pelvic-floor-physiotherapist-vedara-jvc.webp",
+    image: "/images/female-pelvic.webp",
     alt: "Female pelvic floor physiotherapy treatment at Vedara Care JVC Dubai",
     label: "FOR MODESTY PATIENTS",
     treatmentModalities: [
@@ -483,7 +483,7 @@ export const pelvicFloorDiastasis = {
     "<strong>What treatment includes</strong><br/>An external check of the gap and how the tummy muscles work, breathing and deep core training, graded strengthening, and advice on lifting your baby and returning to exercise.",
     "<strong>When to start</strong><br/>Gentle breathing and core work can usually start soon after birth; a full programme usually from about 6 weeks, or after a caesarean when your doctor agrees."
   ],
-  image: "/images/postnatal-pelvic-floor-recovery-vedara-jvc.webp",
+  image: "/images/postnatal-core-strength.webp",
   alt: "Diastasis recti rehabilitation after pregnancy at Vedara Care, JVC"
 };
 
@@ -496,6 +496,6 @@ export const pelvicFloorExercises = {
     "<strong>Relaxing matters too</strong><br/>For pelvic pain, painful intercourse or vaginismus, the muscles are often too tight; learning to relax them is the goal, so strengthening alone can make things worse.",
     "<strong>Not sure you are doing them correctly?</strong><br/>Many women are not. A pelvic floor assessment checks your technique and gives you the right programme."
   ],
-  image: "/images/pelvic-floor-physiotherapy-dubai-hero.webp",
+  image: "/images/pelvic-floor-kegels.webp",
   alt: "How to do pelvic floor exercises, Vedara Care, JVC"
 };

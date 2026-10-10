@@ -4,20 +4,20 @@ export const strokeRehabHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Post-Stroke Rehabilitation in Dubai", active: true }
   ],
-  label: "POST-STROKE REHABILITATION · DHA-LICENSED 2509266 · JVC + HOME ACROSS DUBAI",
-  title: "Post-stroke rehabilitation in Dubai. Evidence-based recovery. Honest about timelines. Family-centred.",
-  description: "Specialist post-stroke physiotherapy at our Jumeirah Village Circle (JVC) clinic, and across Dubai through our home physiotherapy service. Delivered by DHA-licensed physiotherapists with specific neurorehabilitation training using evidence-based protocols — constraint-induced movement therapy, mirror therapy, functional electrical stimulation, task-specific training, gait training, spasticity management coordination with your treating neurologist, balance retraining for falls prevention. We help you recover what matters to you: honest expectations and sustained partnerships. We start where you are, at home or in our clinic.",
+  label: "STROKE REHABILITATION · DHA-LICENSED CLINIC IN JVC, DUBAI",
+  title: "Stroke rehabilitation in Dubai, at our JVC clinic. Evidence-based, honest about timelines, family-centred.",
+  description: "Outpatient post-stroke physiotherapy at our Jumeirah Village Circle clinic, walking distance from Circle Mall, with Hafsina K K, our DHA-licensed physiotherapist. Walking, balance, arm and hand recovery, with families involved in every plan. Home visits are coming soon.",
   primaryCTA: "Book Stroke Rehabilitation Assessment",
   secondaryCTA: "WhatsApp us",
   trustSignals: [
-    "DHA-licensed neurorehabilitation specialists",
-    "Hospital discharge coordination",
-    "Insurance direct-billing",
-    "Cultural and language sensitivity"
+    "DHA-licensed physiotherapist (DHA-P 64812828)",
+    "Families involved in every plan",
+    "Wheelchair available at the clinic",
+    "In-house GP at the same clinic"
   ],
   floatingCard: {
     title: "MOST RECOVERY HAPPENS IN",
-    subtitle: "the first 6 months. We start within days of hospital discharge, if needed. We’ll meet you wherever you are in your recovery journey."
+    subtitle: "the first 6 months, and improvement is possible long after. We can start as soon as your medical team says you are ready."
   },
   image: "/images/stroke-rehab-dubai-hero.webp",
   alt: "Post-stroke rehabilitation at Vedara Care JVC Dubai with patient and physiotherapist"
@@ -26,8 +26,39 @@ export const strokeRehabHero = {
 export const strokeRehabIntro = {
   label: "THE QUICK ANSWER",
   title: "Post-stroke rehabilitation at Vedara Care, in one paragraph.",
-  blockquote: "Post-stroke rehabilitation at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — and across Dubai through our home physiotherapy service is evidence-based specialist neurorehabilitation delivered by DHA-licensed physiotherapists with specific stroke rehabilitation training. We treat ischaemic stroke recovery, haemorrhagic stroke recovery, transient ischaemic attack (TIA) recovery, brainstem stroke recovery, and cerebellar stroke recovery. Our approach uses current evidence-based protocols: constraint-induced movement therapy (CIMT) for upper limb hemiparesis, mirror therapy for motor recovery, functional electrical stimulation (FES) for foot drop and upper limb function, task-specific training for daily activities, body weight supported gait training, spasticity management coordination with your treating neurologist, balance retraining for falls prevention, and family caregiver education throughout. Care is delivered at our JVC clinic, at your home across Dubai, or in combination as recovery progresses. Initial assessment from AED 450; structured programmes from AED 3,800. Insurance direct-billing with seven major insurers.",
-  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated June 2026"
+  blockquote: "Post-stroke rehabilitation at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai is outpatient physiotherapy that helps people regain walking, balance, arm and hand use and independence after a stroke, from the first weeks after hospital discharge to years later. Hafsina K K, a DHA-licensed physiotherapist (DHA-P 64812828) with neurological rehabilitation experience, sets goals with the patient and family and uses task-specific training, gait and balance training, strengthening, electrical stimulation and caregiver coaching. Most recovery happens in the first 6 months, but improvement is possible long after. A wheelchair is available at the clinic, our in-house GP is on site, and home visits are coming soon. Insurance works on reimbursement.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Reviewed October 2026."
+};
+
+export const strokeEmergency = {
+  emergency: {
+    label: "STROKE IS AN EMERGENCY",
+    title: "Signs of a stroke: call 999 straight away (BE FAST).",
+    description1: "Emergency stroke treatment happens in hospital and works best within hours. Do not wait, and do not come to a physiotherapy clinic.",
+    subtitle2: "The BE FAST Test",
+    redFlags: [
+      "B - Balance: sudden loss of balance",
+      "E - Eyes: sudden loss of vision",
+      "F - Face: one side drooping",
+      "A - Arms: one arm weak or numb",
+      "S - Speech: slurred or confused",
+      "T - Time: call 999 immediately"
+    ],
+    caudaEquinaNote: "Vedara Care provides rehabilitation after hospital care, once your medical team says you are ready. A brief episode that settles (a TIA or 'mini-stroke') still needs urgent medical assessment the same day."
+  },
+  rightCard: {
+    label: "WHEN TO BOOK",
+    title: "Post-Stroke Physiotherapy",
+    features: [
+      "After medical stabilization",
+      "Upon hospital discharge",
+      "When cleared for rehabilitation"
+    ],
+    note: "Do not book physiotherapy if the patient is experiencing a new or evolving stroke.",
+    footer: "Call 999 for acute stroke.",
+    buttonText: "Book Rehabilitation Assessment",
+    buttonHref: "/book"
+  }
 };
 
 export const strokeRehabRecovery = {
@@ -46,7 +77,7 @@ export const strokeRehabRecovery = {
       },
       {
         title: "The time-dependent recovery window",
-        description: "Most recovery happens in the first 6 months post-stroke, with the steepest improvement typically in the first 3 months. This is the period when neuroplastic capacity is greatest and when intensive rehabilitation produces the largest gains. Recovery continues beyond 6 months for many patients — particularly with appropriate intervention — but at a slower rate."
+        description: "Most recovery happens in the first 6 months, with the fastest gains in the first 3 months, but people can keep improving for years with the right practice."
       },
       {
         title: "What determines individual recovery",
@@ -74,66 +105,17 @@ export const strokeRehabRecovery = {
 export const strokeRehabCareSettings = {
   bgColor: "bg-[#F8F5EE]",
   label: "CARE SETTINGS",
-  title: "Where we deliver post-stroke rehabilitation.",
-  description: "Stroke rehabilitation often requires flexibility about care setting. Many patients need home-based care initially with transition to clinic visits as mobility improves.",
+  title: "Where stroke rehabilitation takes place.",
+  description: "All stroke rehabilitation currently takes place at our JVC clinic, walking distance from Circle Mall. A wheelchair is available; tell us when you book if you need help getting in.",
   settings: [
     {
-      icon: "clinic",
-      title: "Clinic-Based Care at JVC",
-      description: "For patients with sufficient mobility to attend clinic visits. Our JVC clinic — walking distance from Circle Mall — has accessibility features for limited-mobility patients including ramps, accessible bathrooms, adjustable plinths, and specialised equipment.",
-      whenRight: [
-        "Patient has sufficient mobility to attend appointments",
-        "Family can support clinic visits (transportation, accompaniment)",
-        "Recovery phase where specialised equipment matters",
-        "Patient benefits from change of environment from home"
-      ],
-      whatWeDeliver: [
-        "Body weight support gait training, parallel bars, advanced rehab equipment",
-        "Constraint-induced movement therapy programmes",
-        "Mirror therapy with appropriate setups",
-        "FES with various devices",
-        "High-intensity gait training"
-      ]
+      icon: "clinic", title: "Clinic-Based Care at JVC", description: "For patients who can travel to the clinic, with family members welcome at every session.",
+      features: ["Task-specific and gait training", "Electrical stimulation", "Balance and falls-prevention work", "Wheelchair available at the clinic"]
     },
-    {
-      icon: "home",
-      title: "Home Physiotherapy Across Dubai",
-      description: "For patients who cannot easily attend clinic — common in early post-stroke phase, for patients with significant mobility limitations, or where home environment training is therapeutically essential.",
-      whenRight: [
-        "Early post-hospital discharge (first 2-4 weeks typically)",
-        "Significant mobility limitations preventing safe travel",
-        "Recovery phase where home environment training matters",
-        "Patient fatigue precludes travel"
-      ],
-      whatWeDeliver: [
-        "Comprehensive neurological assessment",
-        "Treatment with portable equipment",
-        "Training in actual home environment (real stairs, real bathroom, real bed)",
-        "Family caregiver education in their actual setting",
-        "Coordination with hospital discharge teams"
-      ]
-    },
-    {
-      icon: "combined",
-      title: "Combined Care Approach",
-      description: "For many stroke patients, the optimal approach combines home and clinic care, evolving over the recovery timeline. Most patients move through several phases of care setting during recovery.",
-      whenRight: [
-        "Most stroke patients benefit from this approach",
-        "Transition from home to clinic as mobility improves",
-        "Specific clinic visits for equipment-dependent training",
-        "Continued home visits for environmental work"
-      ],
-      whatWeDeliver: [
-        "Coordinated transitions between settings",
-        "Same therapist team across settings (continuity)",
-        "Adapted programming for each setting",
-        "Flexible scheduling responsive to recovery progression",
-        "Combined pricing structures available"
-      ]
-    }
+    { icon: "home", title: "Home Visits: Coming Soon", description: "Home stroke physiotherapy is coming soon. WhatsApp us to join the waitlist.", features: [] }
   ],
-  footer: "Most stroke patients move through several phases of care setting during recovery — typically starting with intensive home physiotherapy after hospital discharge, transitioning to combined home and clinic care as mobility improves, eventually moving to clinic-based care for advanced rehabilitation.",
-  linkText: "Read more about our home physiotherapy service →",
+  footer: "",
+  linkText: "Join the home physiotherapy waitlist →",
   linkHref: "/physiotherapy-at-home-dubai/"
 };
 
@@ -148,19 +130,15 @@ export const strokeRehabTreatment = {
       },
       {
         title: "Comprehensive Initial Assessment",
-        description: "The first session is comprehensive — typically 90 minutes for stroke patients given the complexity. Detailed medical history, detailed neurological imaging, assessment of motor function using standardised measures (Fugl-Meyer Assessment, Motricity Index, sensory assessment, balance assessment, functional assessment (Barthel Index, Modified Rankin Scale), assessment of spasticity, assessment of swallowing if indicated, and discussion of goals. The assessment identifies your specific pattern and the priorities for your situation."
+        description: "Your first session covers your medical history and hospital records, movement, strength, balance, walking and daily tasks, and the goals that matter to you and your family; session length depends on your needs."
       },
       {
-        title: "Constraint-Induced Movement Therapy (CIMT)",
-        description: "CIMT is one of the most evidence-supported therapies for upper limb hemiparesis post-stroke. The approach constrains the unaffected arm and involves intensive training practice with the affected arm. CIMT is particularly effective for patients with some preserved function (some active wrist and finger extension). Research shows CIMT produces clinically meaningful upper limb improvement that conventional rehab often misses."
+        title: "Electrical Stimulation",
+        description: "Electrical stimulation to activate weak muscles and support movement practice, alongside task-specific training."
       },
       {
-        title: "Mirror Therapy",
-        description: "Mirror therapy uses a mirror to provide visual feedback that the affected limb is moving normally — a powerful neuroplastic stimulus. The patient exercises the unaffected arm while looking in the mirror, making it appear as though the affected arm is moving normally. This approach is particularly effective for early stroke hemiparesis, and for patients with phantom limb sensations. It can even improve motor recovery."
-      },
-      {
-        title: "Functional Electrical Stimulation (FES)",
-        description: "FES uses electrical stimulation to produce muscle contractions in paralysed or weakened muscles. Two main applications: (1) Foot drop FES — stimulating the peroneal nerve during walking to produce dorsiflexion, dramatically improving gait pattern; (2) Upper limb FES — stimulating extensors to enable hand opening, combined with task-specific training. Modern wearable FES devices allow community use beyond clinic sessions."
+        title: "Large-Amplitude Movement and Strength Training",
+        description: "Practising bigger, deliberate movements and progressive strengthening of the weaker side."
       },
       {
         title: "Task-Specific Training",
@@ -183,17 +161,31 @@ export const strokeRehabTreatment = {
   },
   rightContent: {
     image: "/images/post-stroke-rehab-vedara-jvc.webp",
-    alt: "Evidence-based stroke rehabilitation CIMT mirror therapy FES at Vedara Care",
+    alt: "Evidence-based stroke rehabilitation at Vedara Care, JVC, Dubai",
     label: "KEY EVIDENCE-BASED PROTOCOLS",
     items: [
-      { text: "CIMT - Constraint-Induced Movement Therapy" },
-      { text: "FES - Functional Electrical Stimulation" },
-      { text: "Mirror Therapy - Neuroplastic Stimulation" },
-      { text: "Task-Specific Training - High Repetition" },
-      { text: "High-Intensity Gait Training" },
-      { text: "Spasticity Management - Coordination" }
+      { text: "Task-specific training" },
+      { text: "Gait and balance training" },
+      { text: "Electrical stimulation" },
+      { text: "Family caregiver coaching" }
     ]
   }
+};
+
+export const strokeComplications = {
+  id: "after-a-stroke",
+  label: "COMMON PROBLEMS AFTER A STROKE",
+  title: "Common problems after a stroke, and how physiotherapy helps.",
+  content: [
+    "<strong>One-sided weakness (hemiplegia)</strong><br/>Task-specific practice and strengthening to recover arm, hand and leg use.",
+    "<strong>Walking and balance</strong><br/>Gait and balance training, walking aids advice and falls prevention.",
+    "<strong>Spasticity (stiff, tight muscles)</strong><br/>Stretching, positioning and movement practice; your neurologist manages medication if needed.",
+    "<strong>Shoulder pain after a stroke</strong><br/>Correct positioning and support of the weak arm and gentle movement to prevent and ease pain.",
+    "<strong>Fatigue</strong><br/>Sessions paced to your energy, with a home programme you can manage.",
+    "Problems with speech, swallowing, thinking or daily tasks need speech or occupational therapy, which Vedara does not offer in-house; we tell you when they would help."
+  ],
+  image: "/images/post-stroke-rehab-vedara-jvc.webp",
+  alt: "Post-stroke physiotherapy for walking and balance at Vedara Care, JVC, Dubai"
 };
 
 export const strokeRehabTypes = {
@@ -245,7 +237,7 @@ export const strokeRehabTypes = {
     {
       number: "06",
       title: "TIA (Transient Ischaemic Attack)",
-      description: "Stroke-like symptoms that resolve within 24 hours (typically within an hour). Despite resolution of symptoms, TIA is a serious warning sign — substantial risk of subsequent full stroke in days to weeks. Physiotherapy involvement focuses on cardiovascular conditioning, fall prevention, and identifying any subtle persistent deficits.",
+      description: "A TIA needs urgent medical assessment the same day; it is a warning sign of stroke. Stroke-like symptoms that resolve within 24 hours (typically within an hour). Despite resolution of symptoms, TIA is a serious warning sign — substantial risk of subsequent full stroke in days to weeks. Physiotherapy involvement focuses on cardiovascular conditioning, fall prevention, and identifying any subtle persistent deficits.",
       typicalImpairmentPatterns: [
         "Stroke-like symptoms that resolve; substantial risk of subsequent stroke; intensive medical management plus rehabilitation prevention"
       ]
@@ -257,19 +249,19 @@ export const strokeRehabTypes = {
 export const strokeRehabCTA = {
   bgColor: "bg-white",
   label: "READY TO START STROKE REHABILITATION?",
-  title: "Most recovery happens in the first 6 months. Let us help maximize it.",
+  title: "Stroke rehabilitation in JVC: start as soon as your medical team says you are ready.",
   description: "Whether your family member is being discharged from hospital this week, you are months post-stroke and seeking better intervention, or you are searching from abroad to plan care for a Dubai-based relative — the first step is a comprehensive stroke rehabilitation assessment. We provide thorough evaluation, evidence-based treatment plan, realistic timeline discussion, and coordination with your broader medical team. Home physiotherapy available throughout Dubai for patients who cannot easily travel. Same-week appointments standard; same-day available for hospital discharge transitions.",
   button1Text: "Book Stroke Rehabilitation Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20stroke%20rehabilitation%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 450 · JVC clinic + home across Dubai · DHA-licensed neurorehabilitation specialists · Hospital discharge coordination · Insurance direct-billing · Cultural and language sensitivity"
+  footer: "DHA-licensed physiotherapist · Families welcome · Wheelchair available · In-house GP · Insurance reimbursement · Near Circle Mall, JVC"
 };
 
 export const strokeRehabLocation = {
   bgColor: "bg-[#F8F5EE]",
   label: "VISIT US",
-  title: "Where post-stroke rehabilitation happens at Vedara Care JVC.",
+  title: "Where to find our stroke rehabilitation clinic in JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   email: "",
@@ -280,121 +272,58 @@ export const strokeRehabLocation = {
     "Walking distance from Circle Mall",
     "3 minutes from FIVE Jumeirah Village Hotel",
     "5 minutes from JSS Private School",
-    "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road",
-    "Free patient parking · Accessible entrance · Adjustable plinths"
+    "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road"
   ],
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   image: "/images/stroke-clinic-jvc.webp",
   alt: "Vedara Care post-stroke rehabilitation clinic JVC Dubai",
-  description: "Our JVC clinic has dedicated neurorehabilitation treatment rooms, accessibility features for limited-mobility patients (ramps, accessible bathrooms, adjustable plinths), specialised equipment for stroke rehabilitation including body weight support equipment and FES devices, parallel bars for gait training, and a quiet environment supporting concentration. For patients with mobility limitations, home physiotherapy is available throughout Dubai.",
+  description: "Stroke rehabilitation takes place at Vedara Care Polyclinic in JVC, walking distance from Circle Mall, with electrical stimulation and balance-training equipment, a wheelchair for patients who need it, and an in-house GP. Patients come from JVC, JVT, Al Barsha South, Arjan, Dubai Sports City, Motor City and Al Barsha.",
   buttonText: "Book Stroke Rehabilitation Assessment"
 };
 
 export const strokeRehabFaqs = {
   bgColor: "bg-white",
   label: "COMMON QUESTIONS",
-  title: "What stroke patients and families ask before booking.",
+  title: "Stroke rehabilitation: questions patients and families ask.",
   description: 'For broader neurological physiotherapy questions, see our <a href=\"/physiotherapy/neurological-dubai/" class="text-[#C4A962] hover:underline">neurological page</a>.',
   sidebarLinks: [
     { text: "Visit physiotherapy main page →", href: "/physiotherapy-jvc/" },
     { text: "Browse neurological physiotherapy →", href: "/physiotherapy/neurological-dubai/" }
   ],
   faqs: [
-    {
-      question: "How soon after a stroke can rehabilitation begin?",
-      answer: "Rehabilitation begins in hospital, typically within 24–72 hours of stroke when medical condition is stable. Post-hospital rehabilitation at home or clinic typically starts within 48–72 hours of hospital discharge. The first 6 months post-stroke is when most recovery happens, so starting appropriate rehabilitation promptly substantially improves outcomes. We can coordinate with your hospital discharge team to begin home physiotherapy immediately after discharge."
-    },
-    {
-      question: "How long does stroke recovery take?",
-      answer: "Highly variable. Most patients experience the steepest recovery in the first 3 months. Substantial recovery typically continues through the first 6 months. Continued improvement happens beyond 6 months for many patients with appropriate intervention. Some patients see meaningful improvements years after stroke with specific intensive interventions. Most active rehabilitation programmes run 6–12 months; some patients benefit from longer programmes; periodic intensive interventions years post-stroke can produce meaningful gains."
-    },
-    {
-      question: "Will my family member recover fully?",
-      answer: "Honest answer: highly variable. Some patients recover so completely the stroke leaves minimal lasting impact. Others have substantial improvement with persistent impairments. Others have more limited recovery requiring ongoing care. Factors affecting recovery include stroke severity, stroke location, age, overall health, rehabilitation quality and intensity, and family support. We commit to maximising recovery for every patient while being honest about realistic expectations."
-    },
-    {
-      question: "What is constraint-induced movement therapy?",
-      answer: "CIMT is one of the most evidence-supported interventions for upper limb recovery after stroke. The unaffected arm is constrained (with a mitt or sling) while the patient practices intensive repetitive use of the affected arm. Original protocols involve 6 hours daily for 2 weeks; modified versions adapt this to practical contexts. Particularly effective for patients with some preserved upper limb function. Produces upper limb improvements that conventional therapy often does not achieve."
-    },
-    {
-      question: "Do you provide home physiotherapy for stroke patients?",
-      answer: "Yes — home physiotherapy is one of our most-utilised services for stroke patients. Particularly common in the first 2–4 weeks post-hospital discharge when clinic travel is impractical, and for patients with significant mobility limitations throughout recovery. Our home physiotherapists travel across Dubai including JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and surrounding areas. Many patients combine home and clinic care as mobility improves."
-    },
-    {
-      question: "Where in Dubai is your stroke rehabilitation clinic?",
-      answer: "Our DHA-licensed clinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking with accessibility for limited-mobility patients. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. We also provide home physiotherapy across Dubai. Many stroke patients begin with home care and transition to clinic visits as mobility improves."
-    },
-    {
-      question: "Can you coordinate with the hospital where my family member is being treated?",
-      answer: "Yes — hospital discharge coordination is a routine service. We can coordinate with any Dubai hospital's discharge team. Process: contact us during discharge planning, we coordinate timing with the hospital's discharge planners, first home physiotherapy visit typically within 24–72 hours of discharge. We can review hospital records, coordinate with hospital physiotherapy teams during transitions, and integrate with the broader medical plan."
-    },
-    {
-      question: "What about patients from outside Dubai — can you help with stroke care for relatives visiting?",
-      answer: "Yes — this is one of our common patient categories. Many Dubai expats bring elderly parents or relatives from other countries for family care after stroke. We provide both home and clinic-based rehabilitation throughout their Dubai stay. Coordination with the patient's home country medical team can be arranged for continuity when they return."
-    },
-    {
-      question: "How is post-stroke rehabilitation different from regular physiotherapy?",
-      answer: "Stroke rehabilitation is a specialised area of physiotherapy requiring specific neurological training, evidence-based protocols designed for neurological conditions (CIMT, mirror therapy, FES, task-specific training), longer sessions for thorough intervention, family caregiver integration, coordination with multiple specialists, longer treatment courses (months to years), and specific outcome measurement. Most general physiotherapy does not have this specialised focus."
-    },
-    {
-      question: "Does insurance cover stroke rehabilitation?",
-      answer: 'Most Dubai insurance plans cover stroke rehabilitation substantially given the well-documented medical need. Extended programmes typically require pre-authorisation, which we handle on your behalf. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> and brief patient information before booking — we can confirm specific coverage and discuss pre-authorisation requirements.'
-    },
-    {
-      question: "What about patients with severe impairments — can they still benefit?",
-      answer: "Yes — even patients with significant impairments typically benefit substantially from appropriate intervention. The treatment approach adapts to current capability and progresses as ability improves. Patients who cannot weight-bear initially can still benefit from positioning, range of motion, and early task practice. Patients who cannot communicate well still respond to functional training. Recovery is highly variable; we work with what each patient can do and progress from there."
-    },
-    {
-      question: "Can patients recover years after their stroke?",
-      answer: "Yes, often more than older treatment models recognised. The chronic phase (6+ months post-stroke) was historically considered limited for recovery, but current evidence shows substantial recovery is possible years post-stroke with appropriate intensive intervention. Constraint-induced movement therapy is particularly effective in chronic stroke. Periodic intensive intervention years after stroke can produce meaningful improvement."
-    },
-    {
-      question: "What about stroke prevention after the first stroke?",
-      answer: "Critical concern — patients who have had one stroke are at elevated risk for another. Recurrence prevention is a coordinated effort: cardiovascular medication management by your treating neurologist or cardiologist, lifestyle modifications (diet, exercise, smoking cessation), cardiovascular fitness training as part of rehabilitation (which we provide), and ongoing medical surveillance."
-    },
-    {
-      question: "Are there language considerations for Dubai's diverse population?",
-      answer: "Yes — our team includes Arabic-speaking physiotherapists, Hindi/Urdu-speaking physiotherapists, and physiotherapists with various other language capabilities. Stroke rehabilitation often involves substantial family communication, particularly for patients with aphasia or for elderly patients who prefer their native language. We match therapists to family language needs when possible."
-    },
-    {
-      question: "What about post-stroke depression — do you address this?",
-      answer: "Yes — post-stroke depression affects 30–40% of stroke patients and substantially affects rehabilitation engagement and outcomes. We screen for depression during rehabilitation, discuss with families about mood and engagement, recommend psychiatric or psychological assessment when indicated, and adapt rehabilitation approach to support engagement. Mental health support is part of comprehensive stroke care."
-    },
-    {
-      question: "What does a typical home physiotherapy session look like?",
-      answer: "A typical home session is 60 minutes total, including therapist arrival, assessment of current status, treatment intervention, family education, and planning. Therapists bring portable equipment (FES devices, exercise equipment, assessment tools). Sessions take place in your home, often using the actual home environment for functional training (real stairs, real bed, real bathroom). Family members are often included in education during sessions."
-    },
-    {
-      question: "Can patients return to work after a stroke?",
-      answer: "Many patients return to work, sometimes in modified roles. The return depends on stroke severity, occupation type, residual impairments, and patient motivation. Our rehabilitation includes return-to-work considerations when relevant — assessment of work-relevant abilities, vocational rehabilitation activities, coordination with occupational therapists for workplace assessment, and gradual return planning."
-    },
-    {
-      question: "How do family members support recovery?",
-      answer: "Family support is one of the strongest predictors of stroke recovery outcomes. We provide structured family education throughout the treatment course: understanding the stroke and impairments, safe transfer and assistance techniques, home exercise programme support, recognition of complications, fall prevention, communication strategies for patients with aphasia, and self-care for caregivers."
-    },
-    {
-      question: "What about driving after a stroke?",
-      answer: "Driving after stroke is a complex decision requiring evaluation. Many patients can return to driving with assessment; others should not drive due to specific impairments. Formal driving assessment by qualified Dubai providers is the appropriate pathway. We can identify when driving assessment is appropriate and discuss options for assessment."
-    },
-    {
-      question: "How do I book a stroke rehabilitation assessment?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> — fastest response, ideal for hospital discharge planning, sending hospital documents, or asking specific questions about your situation. (2) Call us — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For initial consultation, please provide: hospital discharge summary, imaging reports (CT/MRI), current medications, insurance details, brief description of impairments, and preferred care setting (clinic or home). We typically respond within 15 minutes during business hours.'
-    }
+    { question: "What are the warning signs of a stroke?", answer: "BE FAST: sudden loss of Balance, Eyes (vision) problems, Face drooping, Arm weakness, Speech difficulty: Time to call 999 immediately. Emergency treatment happens in hospital." },
+    { question: "How soon after a stroke can rehabilitation start?", answer: "Rehabilitation starts in hospital once you are medically stable. Outpatient physiotherapy at our JVC clinic can start as soon as your medical team says you are ready after discharge." },
+    { question: "How long does stroke recovery take?", answer: "Most recovery happens in the first 6 months, with the fastest gains in the first 3 months, but many people keep improving for years with regular practice." },
+    { question: "Can people recover years after a stroke?", answer: "Yes. Research shows meaningful improvement in walking, balance and arm use is possible years after a stroke with focused practice." },
+    { question: "Will my family member recover fully?", answer: "Recovery varies widely with the size and location of the stroke, age and health. Some people recover fully; many recover a lot of function. We set realistic goals with you at the first assessment." },
+    { question: "How many sessions a week are needed?", answer: "More practice usually means better recovery. Many patients start with two or three sessions a week plus daily home exercises; the plan is agreed at your assessment." },
+    { question: "What does physiotherapy do after a stroke?", answer: "It helps you regain walking, balance, arm and hand use, and independence through task-specific practice, strengthening, gait training and electrical stimulation, and teaches your family how to help." },
+    { question: "How can family members help?", answer: "By practising the home programme with the patient, helping safely with transfers and walking, and encouraging independence. Family members are welcome at sessions." },
+    { question: "Can physiotherapy help shoulder pain after a stroke?", answer: "Yes. Correct positioning and support of the weak arm and gentle movement help prevent and ease shoulder pain." },
+    { question: "Do you provide speech or occupational therapy?", answer: "No. We tell you when speech or occupational therapy would help so you can arrange it." },
+    { question: "Will you share progress with our neurologist?", answer: "Yes. With your consent, we prepare written progress reports you can share with your neurologist." },
+    { question: "Is the clinic suitable for wheelchair users?", answer: "A wheelchair is available at the clinic. Tell us when you book if you need help getting in." },
+    { question: "Do you offer home physiotherapy for stroke patients?", answer: "Home visits are coming soon. Until then, all sessions take place at our JVC clinic. WhatsApp us to join the waitlist." },
+    { question: "Does insurance cover stroke rehabilitation?", answer: "Most Dubai insurance plans cover stroke rehabilitation when it is medically needed, usually with a yearly session limit and sometimes pre-approval. Vedara Care works on reimbursement and provides the reports your insurer needs." },
+    { question: "Can I drive after a stroke?", answer: "Driving after a stroke needs medical clearance from your doctor and must follow UAE licensing rules. Physiotherapy helps with the physical skills involved." },
+    { question: "Can people return to work after a stroke?", answer: "Many do, sometimes with changes to their role or hours. Physiotherapy builds the stamina and physical skills for a gradual return." },
+    { question: "What about stroke prevention after the first stroke?", answer: "Your doctors manage blood pressure, medicines and other risk factors. Regular exercise, which physiotherapy helps you start safely, also lowers the risk." },
+    { question: "Where is the clinic?", answer: "Vedara Care Polyclinic, Binghatti Azure, Shop 4, Al Barsha South Fourth, Jumeirah Village Circle, Dubai, walking distance from Circle Mall. Open daily 9am to 10pm." }
   ]
 };
 
 export const strokeRehabTeam = {
   label: "THE TEAM",
-  title: "Specialised stroke rehabilitation physiotherapists at our JVC clinic.",
-  description: "Stroke rehabilitation is one of the most demanding physiotherapy specialisations — requiring substantial neurological training, patience for long recovery courses, and family-centred care skills.",
+  title: "Your stroke rehabilitation physiotherapist at our JVC clinic.",
+  description: "Hafsina K K treats every stroke patient herself, working with the patient and family from the first assessment.",
   bgColor: "bg-[#F8F5F0]",
   team: [
     {
       name: "Hafsina K K",
-      qualification: "DHA-Licensed Physiotherapist · DHA-P 64812828",
-      specialties: ["Neurological Physiotherapy", "Stroke Rehabilitation", "Orthopaedic Rehabilitation", "Women's Health"],
+      qualification: "Bachelor of Physiotherapy · DHA-P 64812828 · 7+ years' experience",
+      specialties: ["Stroke Rehabilitation", "Neurological Physiotherapy", "Gait and Balance", "Family Coaching"],
       experience: "7 years of clinical experience across orthopaedic, neurological, sports, and women's health rehabilitation in India and the UAE. Provides specialist neurological and stroke rehabilitation at our JVC clinic.",
-      languages: ["English", "Malayalam", "Hindi"],
+      languages: ["English", "Hindi", "Malayalam"],
       image: "/images/hafsina-kk-physiotherapist-dubai.webp ",
       alt: "Hafsina K K, DHA-Licensed Physiotherapist at Vedara Care JVC Dubai",
       link: "/doctors/hafsina-kk-physiotherapist/"
@@ -445,17 +374,16 @@ export const strokeRehabPhases = {
       ],
       rehabilitationFocus: [
         "Intensive daily rehabilitation (typically 3-5 sessions weekly minimum)",
-        "Constraint-induced movement therapy if appropriate",
+        "Upper limb rehabilitation with task-specific practice and electrical stimulation as appropriate",
         "Task-specific training of daily activities",
         "Gait training and balance retraining",
-        "Upper limb rehabilitation with mirror therapy, FES as appropriate",
         "Spasticity management coordination"
       ],
       familyConsiderations: [
         "This is the highest-intensity rehabilitation phase",
         "Home environment may need modifications",
         "Caregiver education and training crucial",
-        "We coordinate appropriate care setting based on patient mobility"
+        "Sessions take place at our JVC clinic; home visits are coming soon."
       ]
     },
     {
@@ -494,7 +422,7 @@ export const strokeRehabPhases = {
       ],
       rehabilitationFocus: [
         "Targeted intensive intervention for specific persistent impairments",
-        "Constraint-induced movement therapy for upper limb (very effective in chronic phase)",
+        "Upper limb rehabilitation with task-specific practice and electrical stimulation as appropriate",
         "Ongoing fitness and conditioning",
         "Vocational and recreational engagement support",
         "Annual review and assessment"
@@ -514,7 +442,7 @@ export const strokeRehabCoordinatedCare = {
   bgColor: "bg-white",
   label: "COORDINATED CARE",
   title: "Coordination with your broader medical team.",
-  description: "Stroke rehabilitation works best when integrated with the broader medical team. We routinely coordinate with the specialists involved in your care.",
+  description: "Stroke rehabilitation works best alongside your medical team. With your consent, we write progress reports for your neurologist and tell you when other therapists would help.",
   specialists: [
     {
       title: "",
@@ -522,27 +450,27 @@ export const strokeRehabCoordinatedCare = {
     },
     {
       title: "Your Treating Neurologist",
-      description: "Your neurologist manages the medical aspects of stroke care — medication for stroke prevention, management of vascular risk factors, assessment for stroke complications, decisions about spasticity injections, and evaluation for cognitive impairment. We coordinate regularly: sharing observations from rehabilitation, receiving guidance on medical issues affecting therapy, coordinating spasticity management."
+      description: "Your neurologist manages the medical aspects of stroke care — medication for stroke prevention, management of vascular risk factors, assessment for stroke complications, decisions about spasticity injections, and evaluation for cognitive impairment. With your consent, we send written progress reports."
     },
     {
       title: "Occupational Therapists (OTs)",
-      description: "Occupational therapy focuses on functional activities of daily living — dressing, bathing, meal preparation, return to work, driving, home environment modifications. Stroke OT and stroke physiotherapy work closely together. We coordinate goals and avoid duplication. If you have an existing OT team, we work with them."
+      description: "Not offered at Vedara Care; we tell you when they would help."
     },
     {
       title: "Speech and Language Therapists",
-      description: "For patients with aphasia, dysarthria, or dysphagia, speech and language therapy is essential. We coordinate with speech therapists on shared goals — particularly for swallowing safety affecting feeding and pneumonia prevention."
+      description: "Not offered at Vedara Care; we tell you when they would help."
     },
     {
       title: "Cardiologists",
-      description: "For patients whose stroke had cardiac contributions (atrial fibrillation, heart failure, valve disease), cardiology management is essential. Cardiovascular fitness training is part of stroke rehabilitation — we coordinate intensity with your cardiologist particularly for patients with significant cardiac considerations."
+      description: "For patients whose stroke had cardiac contributions (atrial fibrillation, heart failure, valve disease), cardiology management is essential. Cardiovascular fitness training is part of stroke rehabilitation."
     },
     {
       title: "Psychiatrists and Psychologists",
-      description: "Post-stroke depression affects 30–40% of stroke patients and substantially affects rehabilitation engagement and outcomes. We screen for depression during rehabilitation and recommend psychiatric or psychological assessment when indicated. Cognitive impairment screening and management also coordinated with appropriate specialists."
+      description: "Post-stroke depression affects 30–40% of stroke patients and substantially affects rehabilitation engagement and outcomes. We screen for depression during rehabilitation and recommend psychiatric or psychological assessment when indicated."
     },
     {
       title: "GPs and Family Physicians",
-      description: "Your GP often coordinates overall care, particularly for patients without a stroke-specific neurologist. We coordinate with your GP on shared care plans, medication management, and ongoing follow-up arrangements."
+      description: "Our in-house GP can see you at the same clinic."
     }
   ],
   protocols: [
@@ -555,56 +483,10 @@ export const strokeRehabCoordinatedCare = {
   ]
 };
 
-export const strokeRehabPricing = {
-  bgColor: "bg-[#F5F0E8]",
-  label: "TRANSPARENT PRICING",
-  title: "What post-stroke rehabilitation costs.",
-  services: [
-    { name: "Initial stroke rehabilitation assessment (90 minutes)", price: "AED [X]" },
-    { name: "Follow-up clinic-based session (60 minutes)", price: "AED [X]" },
-    { name: "Home physiotherapy session (60 minutes including travel)", price: "AED [X]" },
-    { name: "Hospital discharge coordination consultation", price: "AED [X]" },
-    { name: "Family caregiver training session", price: "AED [X]" },
-    { name: "Constraint-Induced Movement Therapy intensive (2 week programme)", price: "AED [X]" },
-    { name: "Acute phase intensive home programme (3 months, 3-5 sessions weekly)", price: "AED [X]" },
-    { name: "Subacute phase programme (3-6 months, combined home and clinic)", price: "AED [X]" },
-    { name: "Chronic phase rehabilitation programme (ongoing)", price: "AED [X]" },
-    { name: "Annual review and re-assessment", price: "AED [X]" }
-  ],
-  insurance: 'Insurance direct-billing with seven major insurers. Stroke rehabilitation is typically covered substantially by Dubai insurance plans given the documented need. Established programmes often require pre-authorisation — we handle this on your behalf and have experience with stroke rehabilitation insurance coverage. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> for specific coverage discussion.'
-};
 
-export const strokeRehabReviews = {
-  bgColor: "bg-white",
-  cardBgColor: "#FAF7F2",
-  statsBgColor: "white",
-  label: "PATIENT & FAMILY STORIES",
-  title: "Real recoveries.",
-  items: [
-    {
-      quote: "My father had a stroke at 71 visiting us in Dubai. Hospital discharge after two weeks. Vedara started home physiotherapy within 48 hours of discharge — daily sessions at our home in Dubai Hills. Eight months of consistent rehabilitation through home care transitioning to clinic visits. He returned home walking independently with a cane, managing his own self-care, talking with mild residual aphasia. The team coordinated with his treating neurologist throughout. We are grateful beyond words.",
-      author: "Family member of post-stroke patient",
-      details: "Right Middle Cerebral Artery Stroke · 8-Month Home + Clinic Programme · Dubai Hills · February 2026",
-    },
-    {
-      quote: "Stroke at 58 — successful executive, suddenly unable to use my right side or speak properly. Six months of intensive rehabilitation at Vedara — speech therapy, occupational therapy, and the physiotherapy programme. Constraint-induced movement therapy for the arm was the breakthrough — finally regained meaningful use after three months of intensive programme. Returned to a modified work role at 9 months. The honest discussion about realistic expectations balanced against genuine commitment to maximum recovery was exactly what I needed.",
-      author: "Rajan M.",
-      details: "Left Hemisphere Ischaemic Stroke · 12-Month Programme · Sports City · January 2026",
-    },
-    {
-      quote: "My mother had a cerebellar stroke at 67. Severe balance problems initially. Specialist physiotherapy at Vedara over four months — balance training, coordination work, gait retraining. She returned to walking independently, returned to her painting hobby, and travels again. The cerebellar-specific approach made all the difference — generic stroke rehab would not have produced this outcome.",
-      author: "Family member of post-stroke patient",
-      details: "Cerebellar Stroke · 4-Month Programme · JVT · March 2026",
-    }
-  ],
-  stats: [
-    { value: "4.7", label: "stars on Google" }
-  ],
-  buttonText: "Read All Stroke Rehabilitation Reviews →",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
-  isDarkText: true,
-  useKneeStyle: false
-};
+
+import { physioReviewsBlock } from './googleReviews';
+export const strokeRehabReviews = physioReviewsBlock('What patients say about physiotherapy with Hafsina K K');
 
 export const strokeRehabRelatedPages = {
   label: "EXPLORE FURTHER",
@@ -612,25 +494,9 @@ export const strokeRehabRelatedPages = {
   linkText: "Browse all physiotherapy services →",
   linkHref: "/physiotherapy-jvc/",
   pages: [
-    {
-      title: "Neurological Physiotherapy",
-      description: "Broader neurological physiotherapy covering Parkinson's, MS, TBI, MND, and other neurological conditions. Same neurorehabilitation team and approach across the broader specialty.",
-      href: "/physiotherapy/neurological-dubai/"
-    },
-    {
-      title: "Home Physiotherapy Across Dubai",
-      description: "Detailed home physiotherapy service information — critical for many stroke patients in early recovery and those with mobility limitations.",
-      href: "/physiotherapy-at-home-dubai/"
-    },
-    {
-      title: "Physiotherapy in JVC",
-      description: "Our complete physiotherapy department — all specialisations and conditions treated at our Jumeirah Village Circle clinic.",
-      href: "/physiotherapy-jvc/"
-    },
-    {
-      title: "Post-Surgery Rehabilitation",
-      description: "For stroke patients with subsequent surgical needs — orthopaedic procedures and more. Same physiotherapy team coordinates surgical recovery.",
-      href: "/physiotherapy/post-surgery-rehab-dubai/"
-    }
+    { title: "Neurological Physiotherapy", href: "/physiotherapy/neurological-dubai/", description: "Parkinson's, neuropathy, MS and other neurological conditions." },
+    { title: "Home Physiotherapy (Coming Soon)", href: "/physiotherapy-at-home-dubai/", description: "Join the waitlist for home visits." },
+    { title: "Physiotherapy in JVC", href: "/physiotherapy-jvc/", description: "All physiotherapy services at our JVC clinic." },
+    { title: "Meet Hafsina K K", href: "/doctors/hafsina-kk-physiotherapist/", description: "Our DHA-licensed physiotherapist." }
   ]
 };

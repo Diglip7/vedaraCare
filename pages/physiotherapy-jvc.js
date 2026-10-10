@@ -68,7 +68,7 @@ const PhysiotherapyJvc = () => {
         sameAs: ['https://maps.google.com/maps?cid=16711954996415388530'],
         openingHoursSpecification: [{
           '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
           opens: '09:00', closes: '22:00',
         }],
         medicalSpecialty: ['Physiotherapy', 'Ayurveda', 'Dermatology'],
@@ -141,8 +141,10 @@ const PhysiotherapyJvc = () => {
         worksFor: { '@id': ORG_ID },
         hasCredential: [
           { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Bachelor of Physiotherapy' },
-          { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license', name: 'DHA Physiotherapist Licence',
-            identifier: '64812828', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Dubai Health Authority' } },
+          {
+            '@type': 'EducationalOccupationalCredential', credentialCategory: 'license', name: 'DHA Physiotherapist Licence',
+            identifier: '64812828', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Dubai Health Authority' }
+          },
         ],
         knowsLanguage: ['English', 'Hindi', 'Malayalam'],
       },
@@ -186,12 +188,12 @@ const PhysiotherapyJvc = () => {
         <meta property="og:url" content="https://vedaracare.ae/physiotherapy-jvc/" />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="en_AE" />
-        
+
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={PAGE.title} />
         <meta name="twitter:description" content={PAGE.description} />
-        
+
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/physiotherapy-jvc/" />
         <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/physiotherapy-jvc/" />
@@ -222,6 +224,7 @@ const PhysiotherapyJvc = () => {
         {/* Section 6 - Home Healthcare (with different UI) */}
         <IntegrationSection
           {...physiotherapyJvcHomeHealthcareNew}
+
           primaryButtonHref="https://wa.me/971555736312?text=Hi,%20please%20notify%20me%20when%20home%20physiotherapy%20launches"
           secondaryButtonHref="/ayurveda-clinic-jvc"
         />
@@ -248,7 +251,7 @@ const PhysiotherapyJvc = () => {
         <FAQ {...physiotherapyJvcFaqs} />
 
         {/* Section 13.5 - Areas We Serve */}
-        <AyurvedaIntro 
+        <AyurvedaIntro
           bgColor="bg-[#FAF8F5]"
           label={physiotherapyJvcAreas.label}
           title={physiotherapyJvcAreas.title}

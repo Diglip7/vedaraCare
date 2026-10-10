@@ -10,7 +10,8 @@ import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import { physioReviewsBlock } from '../../data/googleReviews';
 import PhysiotherapyTeam from '../../components/ayurveda/PhysiotherapyTeam';
 import { SciaticaTypes, SciaticaTreatment } from '../../components/ayurveda/SciaticaSections';
-import { ShoulderSurgicalConsiderations, ShoulderActivityPatterns, ShoulderPricing } from '../../components/ayurveda/ShoulderSurgicalConsiderations';
+import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
+import { ShoulderSurgicalConsiderations, ShoulderActivityPatterns } from '../../components/ayurveda/ShoulderSurgicalConsiderations';
 import {
   shoulderPhysioHero,
   shoulderPhysioIntro,
@@ -25,7 +26,8 @@ import {
   shoulderPhysioApproach,
   shoulderPhysioSurgicalConsiderations,
   shoulderPhysioActivityPatterns,
-  shoulderPhysioPricing
+  shoulderRotatorCuff,
+  shoulderExercises
 } from '../../data/shoulderPhysiotherapyData';
 
 const ShoulderPainPhysiotherapyDubai = () => {
@@ -34,6 +36,12 @@ const ShoulderPainPhysiotherapyDubai = () => {
   useEffect(() => {
     setCurrentDate(new Date().toISOString());
   }, []);
+
+  const PAGE = {
+    path: '/conditions/shoulder-pain-physiotherapy-dubai/',
+    title: "Shoulder Pain Treatment in Dubai | Physiotherapy in JVC | Vedara",
+    description: "Shoulder pain physiotherapy at our JVC clinic, Dubai: rotator cuff, impingement, AC joint and shoulder injuries. Most improve without surgery. Same-day slots.",
+  };
 
   const schemaData = currentDate ? JSON.stringify([
     // Schema 1: MedicalBusiness with Shoulder Specialty
@@ -282,15 +290,15 @@ const ShoulderPainPhysiotherapyDubai = () => {
   return (
     <>
       <Head>
-        <title>Shoulder Pain Physiotherapy in JVC, Dubai | Vedara Care</title>
-        <meta name="description" content="Specialist shoulder pain physiotherapy at our JVC clinic, Dubai. Treating rotator cuff, impingement, AC joint, biceps, instability, and all shoulder conditions. Most shoulder pain responds without surgery. Book a same-week assessment." />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
-        <meta property="og:title" content="Shoulder Pain Physiotherapy in Dubai — Comprehensive Specialist Care | Vedara JVC" />
-        <meta property="og:description" content="DHA-licensed shoulder specialists at our Jumeirah Village Circle clinic treating the full range of shoulder conditions — rotator cuff problems, impingement, AC joint, biceps tendinopathy, instability, and more. Most shoulder pain responds excellently to evidence-based physiotherapy without surgery." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/shoulder-pain-physiotherapy-dubai.jpg" />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:image" content="https://vedaracare.ae/images/shoulder-pain-physiotherapy-dubai-hero.webp" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/" />
-        <meta property="og:type" content="business.business" />
+        <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_AE" />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -318,12 +326,17 @@ const ShoulderPainPhysiotherapyDubai = () => {
           {...shoulderPhysioConditions}
           gridCols="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6"
         />
+        <div id="rotator-cuff">
+          <TreatmentMechanism {...shoulderRotatorCuff} bgColor="bg-[#F8F5EE]" />
+        </div>
+        <div id="exercises">
+          <TreatmentMechanism {...shoulderExercises} bgColor="bg-white" />
+        </div>
         <ShoulderActivityPatterns data={shoulderPhysioActivityPatterns} />
         <SciaticaTreatment data={shoulderPhysioApproach} showBorderLeft={false} rightContentStyle="tags" bgColor="bg-white" showStepNumbers={true} />
         <ShoulderSurgicalConsiderations data={shoulderPhysioSurgicalConsiderations} />
-        <TreatmentReviews {...physioReviewsBlock()} />
+        <TreatmentReviews {...shoulderPhysioReviews} />
         <PhysiotherapyTeam {...shoulderPhysioTeam} />
-        <ShoulderPricing data={shoulderPhysioPricing} />
         <FAQ {...shoulderPhysioFaqs}
           bgColor="bg-[#F2EDE5]" />
         <TreatmentLocation {...shoulderPhysioLocation} />

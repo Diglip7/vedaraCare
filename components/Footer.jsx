@@ -164,14 +164,14 @@ const Footer = () => {
         {/* Medical Disclaimer & E-E-A-T Signals */}
         <div className="border-t border-white/10 pt-6 pb-6 text-xs text-[#F8F9FA]/60 leading-relaxed text-center md:text-left space-y-4">
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-4 gap-y-2">
-            <span><strong>Author:</strong> Vedara Care Medical Team</span>
+            <span><strong className="!text-white" style={{ color: 'white' }}>Author:</strong> Vedara Care Medical Team</span>
             <span className="hidden md:inline">-</span>
-            <span><strong>Expertise:</strong> DHA-Licensed Specialists (<Link href="/doctors" className="underline hover:text-white">View Credentials</Link>)</span>
+            <span><strong className="!text-white" style={{ color: 'white' }}>Expertise:</strong> DHA-Licensed Specialists (<Link href="/doctors" className="underline hover:text-white">View Credentials</Link>)</span>
             <span className="hidden md:inline">-</span>
-            <span><strong>Last Updated:</strong> September 2026</span>
+            <span><strong className="!text-white" style={{ color: 'white' }}>Last Updated:</strong> September 2026</span>
           </div>
           <p>
-            <strong>Medical Disclaimer:</strong> The information provided on this website is for educational and informational purposes only and does not constitute medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+            <strong className="!text-white" style={{ color: 'white' }}>Medical Disclaimer:</strong> The information provided on this website is for educational and informational purposes only and does not constitute medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
           </p>
         </div>
 

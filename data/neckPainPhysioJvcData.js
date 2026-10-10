@@ -165,7 +165,7 @@ export const neckPainExercises = {
     "<strong>Isometric holds</strong><br/>Press your palm against your forehead, then the side of your head, without letting the head move; hold for 5 seconds each.",
     "Hafsina K K will check which exercises suit your neck and progress them, including deep neck muscle training."
   ],
-  image: "/images/tech-neck-forward-head-posture-illustration.webp",
+  image: "/images/tech-neck-pain-exercises.webp",
   alt: "Neck pain exercises for tech neck, Vedara Care, JVC"
 };
 
@@ -179,7 +179,7 @@ export const neckPainSleepDesk = {
     "<strong>Phone</strong><br/>Lift the phone towards eye level instead of bending your head down to it.",
     "<strong>At the clinic</strong><br/>Hafsina K K can assess your posture and give a desk and sleep plan at the clinic; bring photos of your workstation if you can. We do not visit workplaces."
   ],
-  image: "/images/neck-pain-assessment-vedara-jvc.webp",
+  image: "/images/neck-pain-sleep.webp",
   alt: "Posture and desk-setup advice for neck pain, Vedara Care, JVC"
 };
 

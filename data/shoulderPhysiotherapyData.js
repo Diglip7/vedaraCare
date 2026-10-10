@@ -4,19 +4,19 @@ export const shoulderPhysioHero = {
     { label: "Conditions", href: "/conditions/" },
     { label: "Shoulder Pain Physiotherapy in Dubai", active: true }
   ],
-  label: "SHOULDER PAIN PHYSIOTHERAPY · DHA-LICENSED 2509266 · JVC CLINIC",
-  title: "Shoulder pain physiotherapy in Dubai. Comprehensive care across all shoulder conditions.",
-  titleAccent: "Comprehensive care",
-  description: "Specialist shoulder physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed physiotherapists treating the full range of shoulder conditions — rotator cuff problems, shoulder impingement, AC joint pain, biceps tendinopathy, shoulder instability, post-surgical shoulder recovery, and more. Most shoulder pain responds excellently to evidence-based physiotherapy without requiring surgery.",
+  label: "SHOULDER PAIN PHYSIOTHERAPY · DHA-LICENSED CLINIC IN JVC, DUBAI",
+  title: "Shoulder pain treatment in Dubai, at our JVC clinic. The right treatment for your exact condition.",
+  titleAccent: "The right treatment",
+  description: "Physiotherapy for rotator cuff problems, shoulder impingement, AC joint pain and shoulder injuries at our Jumeirah Village Circle clinic, walking distance from Circle Mall, with Hafsina K K, our DHA-licensed physiotherapist.",
   primaryCTA: "Book Shoulder Pain Assessment",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20shoulder%20pain%20physiotherapy%20and%20book%20a%20consultation.",
   trustSignals: [
-    "DHA-licensed shoulder specialists",
-    "Evidence-based Shoulder Care",
-    "All shoulder conditions covered",
-    "Walking distance from Circle Mall"
+    "DHA-licensed physiotherapist (DHA-P 64812828)",
+    "Same-day appointments available",
+    "Most shoulder pain improves without surgery",
+    "Shockwave for long-standing tendon problems"
   ],
   floatingCard: {
     title: "BROAD SHOULDER CONDITIONS COVERED",
@@ -29,8 +29,8 @@ export const shoulderPhysioHero = {
 export const shoulderPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Shoulder pain physiotherapy at Vedara Care, in one paragraph.",
-  blockquote: "Shoulder pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based comprehensive treatment delivered by DHA-licensed specialists across the full range of shoulder conditions. The shoulder is the most mobile joint in the body, making it vulnerable to a wide range of problems requiring different specific treatment approaches: rotator cuff conditions (tears, tendinopathies, strains — the most common shoulder presentation), shoulder impingement syndrome (subacromial impingement, internal impingement), AC joint pain (acromioclavicular joint problems), biceps tendinopathy (long head of biceps tendon issues), shoulder instability (dislocations, hyperlaxity, post-traumatic instability), shoulder bursitis, calcific tendinopathy, post-surgical shoulder recovery (rotator cuff repair, labral repair, shoulder replacement), and frozen shoulder (adhesive capsulitis — see our <a href='/conditions/frozen-shoulder-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>dedicated frozen shoulder page</a> for phase-based deep-dive). Our approach starts with accurate diagnosis (the foundation of effective treatment), then applies condition-specific evidence-based protocols. Most shoulder pain responds excellently to physiotherapy without requiring surgery. Initial assessment from AED 350; structured programmes from AED 2,400. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support available for major insurers.",
-  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Last updated June 2026"
+  blockquote: "Shoulder pain treatment at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai covers rotator cuff tendinopathy and tears, shoulder impingement, AC joint pain, biceps tendinopathy, bursitis, calcific tendinopathy, shoulder instability and shoulder arthritis. Hafsina K K, a DHA-licensed physiotherapist (DHA-P 64812828), identifies the exact cause and treats it with condition-specific exercise, shoulder-blade control, joint mobilisation and mobilisation with movement, dry needling, shockwave for long-standing tendon problems, and heat or TENS for pain. Most shoulder pain, including many rotator cuff tears, improves without surgery, usually over weeks to a few months. Same-day appointments are available, and our in-house GP can refer you for an injection if needed. Insurance works on reimbursement.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Reviewed October 2026."
 };
 
 export const shoulderPhysioTreatment = {
@@ -45,7 +45,7 @@ export const shoulderPhysioTreatment = {
       },
       {
         title: "The Dubai shoulder pain demographics",
-        description: "Several factors make shoulder pain particularly relevant in Dubai's population: The desk-working majority develops postural shoulder problems — rounded shoulders, forward head posture affecting shoulder mechanics, sustained mouse use producing shoulder girdle strain. The active fitness population produces specific patterns — padel-related shoulder injuries (overhead serving, rapid lateral movements), gym training issues (bench press, overhead press, pull-up patterns), and running-related shoulder tension. The substantial diabetic population has increased prevalence of frozen shoulder and rotator cuff tendinopathy."
+        description: "Several factors make shoulder pain particularly relevant in Dubai's population: Many people develop postural shoulder problems — rounded shoulders, forward head posture affecting shoulder mechanics, sustained mouse use producing shoulder girdle strain. The active fitness population produces specific patterns — padel-related shoulder injuries (overhead serving, rapid lateral movements), gym training issues (bench press, overhead press, pull-up patterns), and running-related shoulder tension. The substantial diabetic population has increased prevalence of frozen shoulder and rotator cuff tendinopathy."
       },
       {
         title: "Why imaging often misleads",
@@ -70,21 +70,8 @@ export const shoulderPhysioTreatment = {
   }
 };
 
-export const shoulderPhysioReviews = {
-  label: "PATIENT STORIES",
-  title: "Real shoulder pain recoveries.",
-  description: "Three different conditions, three different treatment approaches, three successful outcomes.",
-  bgColor: "bg-white",
-  cardBgColor: "bg-[#F8F5F0]",
-  isDarkText: true,
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
-  items: [],
-  stats: [
-    { value: "4.7", label: "stars on Google" },
-    { value: "15", label: "reviews on Google" }
-  ],
-  buttonText: "Read All Shoulder Pain Reviews →"
-};
+import { physioReviewsBlock } from './googleReviews';
+export const shoulderPhysioReviews = physioReviewsBlock('What patients say about physiotherapy with Hafsina K K');
 
 export const shoulderPhysioTeam = {
   label: "THE TEAM",
@@ -93,8 +80,8 @@ export const shoulderPhysioTeam = {
   team: [
     {
       name: "Hafsina K K",
-      qualification: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
-      specialties: ["Orthopedic", "Sports", "Neurological"],
+      qualification: "Bachelor of Physiotherapy · DHA-P 64812828 · 7+ years' experience",
+      specialties: ["Shoulder Pain", "Rotator Cuff Rehab", "Sports Shoulder Injuries", "Shockwave Therapy"],
       experience: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
       languages: ["English", "Hindi", "Malayalam"],
       image: "/images/hafsina-kk-physiotherapist-dubai.webp",
@@ -219,7 +206,7 @@ export const shoulderPhysioLocation = {
     "3 min from FIVE Jumeirah Village",
     "5 min from JSS Private School",
   ],
-  description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym with shoulder-specific equipment, dry needling equipment, and accessibility for patients with limited shoulder mobility. Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai.",
+  description: "Shoulder physiotherapy takes place at Vedara Care Polyclinic in JVC, walking distance from Circle Mall: treatment rooms, a strength and exercise area, shockwave, heat and electrical stimulation equipment, and an in-house GP. Free and paid parking nearby. Patients come from JVC, JVT, Al Barsha South, Arjan, Dubai Sports City, Motor City and Al Barsha.",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1781603404!5m2!1sen!2sus",
   image: "/images/shoulder-pain-clinic-location.webp",
   alt: "Vedara Care shoulder pain clinic JVC Dubai",
@@ -229,13 +216,13 @@ export const shoulderPhysioLocation = {
 export const shoulderPhysioCTA = {
   bgColor: "bg-[#F8F5EE]",
   label: "READY TO ADDRESS YOUR SHOULDER PAIN?",
-  title: "Most shoulder pain responds to the right specific treatment.",
+  title: "Shoulder pain? Start with the right diagnosis.",
   description: "Whether you have acute shoulder injury, chronic ongoing pain, suspected rotator cuff issues, impingement, AC joint problems, or any other shoulder condition — the first useful step is a comprehensive shoulder assessment at our JVC clinic. We provide accurate condition-specific diagnosis, evidence-based treatment plan matched to your specific shoulder condition, realistic timeline expectations, and honest discussion about treatment options including when surgery is and is not appropriate. Same-week appointments typically available.",
   button1Text: "Book Shoulder Pain Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20shoulder%20pain%20physiotherapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 350 · Walking distance from Circle Mall, JVC · Most patients avoid surgery with appropriate care · Insurance reimbursement supported"
+  footer: "DHA-licensed physiotherapist · Same-day appointments · In-house GP · Insurance reimbursement · Near Circle Mall, JVC"
 };
 
 export const shoulderPhysioConditions = {
@@ -254,7 +241,7 @@ export const shoulderPhysioConditions = {
     {
       number: "02",
       title: "Rotator Cuff Tears (Partial and Full-Thickness)",
-      description: "Tears in the rotator cuff tendons — partial-thickness tears (some fibres intact) or full-thickness tears (complete tendon disruption). Many rotator cuff tears do not require surgery, particularly degenerative tears in older patients. Comprehensive conservative care produces excellent outcomes in most cases. Surgery considered for active patients with significant function loss or specific tear patterns.",
+      description: "Tears in the rotator cuff tendons — partial-thickness tears (some fibres intact) or full-thickness tears (complete tendon disruption). Many rotator cuff tears do not require surgery, particularly degenerative tears in older patients. Comprehensive conservative care produces excellent outcomes in most cases. Surgery considered for active patients with significant function loss or specific tear patterns. <a href='#rotator-cuff' class='font-medium text-[#C9A55A] hover:underline'>Do you need surgery? Read more</a>",
       typicalSigns: [
         "Weakness with specific movements, pain, sometimes positive special tests"
       ]
@@ -309,16 +296,26 @@ export const shoulderPhysioConditions = {
     },
     {
       number: "09",
-      title: "Post-Surgical Shoulder Recovery",
-      description: "Rehabilitation after shoulder surgery — rotator cuff repair, labral repair, shoulder replacement, AC joint reconstruction, instability surgery. Each procedure has specific rehabilitation protocols coordinated with the operating surgeon. See our <a href='/physiotherapy/post-surgery-rehab-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>post-surgical rehabilitation page</a> for detailed surgical recovery information.",
+      title: "After Shoulder Surgery",
+      description: "Rotator cuff repair, labral repair, shoulder replacement and stabilisation surgery rehabilitation. See <a href='/physiotherapy/post-surgery-rehab-dubai/'>post-surgery physiotherapy</a>.",
       typicalSigns: [
         "Post-surgical patient, often coordinated with Dubai or international surgeons"
       ]
     },
     {
       number: "10",
+      title: "Shoulder Arthritis",
+      description: "Wear in the shoulder joint causing aching and stiffness, mostly over 60. Strengthening, mobility work and activity advice; our GP can refer you if injections are needed."
+    },
+    {
+      number: "11",
+      title: "Shoulder Blade Pain",
+      description: "Aching around or between the shoulder blades, often from posture, desk work or the neck. Shoulder-blade control, thoracic mobility and posture advice; see <a href='/conditions/neck-pain-physiotherapy-jvc/'>neck pain physiotherapy</a> if it starts in the neck."
+    },
+    {
+      number: "12",
       title: "Frozen Shoulder",
-      description: "Stiffness in every direction that builds over months. See our frozen shoulder treatment page.",
+      description: "Stiffness in every direction that builds over months. See our <a href='/conditions/frozen-shoulder-dubai/'>frozen shoulder treatment</a> page.",
       href: "/conditions/frozen-shoulder-dubai/"
     }
   ],
@@ -331,26 +328,11 @@ export const shoulderPhysioRelatedPages = {
   linkText: "Browse all physiotherapy services →",
   linkHref: "/physiotherapy-jvc/",
   pages: [
-    {
-      title: "Frozen Shoulder Specific Page",
-      description: "For frozen shoulder (adhesive capsulitis) specifically — detailed phase-based content covering freezing, frozen, and thawing phases. Particularly relevant for diabetic patients.",
-      href: "/conditions/frozen-shoulder-dubai/"
-    },
-    {
-      title: "Sports Injury Physiotherapy",
-      description: "For sports-related shoulder injuries — padel, swimming, tennis, gym training. Sport-specific protocols and return-to-sport progressions.",
-      href: "/physiotherapy/sports-injury-jvc/"
-    },
-    {
-      title: "Post-Surgery Rehabilitation",
-      description: "For patients post-shoulder surgery — rotator cuff repair, labral repair, shoulder replacement. Coordinated with operating surgeon.",
-      href: "/physiotherapy/post-surgery-rehab-dubai/"
-    },
-    {
-      title: "Neck Pain Physiotherapy",
-      description: "Related condition — many shoulder pain patients have associated neck involvement. Evidence-based cervical spine treatment.",
-      href: "/conditions/neck-pain-physiotherapy-jvc/"
-    }
+    { title: "Frozen Shoulder Treatment", href: "/conditions/frozen-shoulder-dubai/", description: "Stiffness in every direction: phase-based treatment." },
+    { title: "Sports Injury Physiotherapy", href: "/physiotherapy/sports-injury-jvc/", description: "Padel, swimming, tennis and gym shoulder injuries." },
+    { title: "Post-Surgery Physiotherapy", href: "/physiotherapy/post-surgery-rehab-dubai/", description: "Rehab after rotator cuff repair, labral repair or shoulder replacement." },
+    { title: "Neck Pain Physiotherapy", href: "/conditions/neck-pain-physiotherapy-jvc/", description: "When shoulder pain starts in the neck." },
+    { title: "Meet Hafsina K K", href: "/doctors/hafsina-kk-physiotherapist/", description: "Our DHA-licensed physiotherapist." }
   ]
 };
 
@@ -362,7 +344,7 @@ export const shoulderPhysioApproach = {
     steps: [
       {
         title: "Comprehensive initial assessment",
-        description: "The first session is comprehensive — typically 60 minutes including detailed history of your symptoms, postural assessment, cervical spine screening (neck often contributes to shoulder symptoms), comprehensive shoulder range of motion testing (active and passive), strength assessment, specific orthopaedic tests for shoulder conditions (Neer's, Hawkins-Kennedy, empty can, drop arm, AC joint tests, biceps tests, instability tests), scapular control assessment, and review of any imaging. The assessment identifies your specific shoulder condition and the contributing factors driving it."
+        description: "Your first session includes a detailed history, posture and neck screening, shoulder movement and strength testing, and usually your first treatment; session length depends on your needs."
       },
       {
         title: "<a href='/treatments/manual-therapy-dubai/' class='text-inherit hover:text-[#C9A55A] transition-colors'>Manual therapy</a> when indicated",
@@ -385,8 +367,12 @@ export const shoulderPhysioApproach = {
         description: "For chronic rotator cuff tendinopathy and calcific tendinopathy that has not responded to other approaches, shockwave therapy is evidence-based. Typically 3-6 sessions weekly. Can break down calcium deposits in calcific tendinopathy. Combined with manual therapy and exercise rather than used in isolation."
       },
       {
-        title: "Workplace and activity modification",
-        description: "For many shoulder conditions, sustained patterns of daily life contribute to the problem — workstation setup, sleep positioning, gym training technique, sport-specific patterns. We provide specific guidance on optimising these factors. Many patients find that activity modification alone produces meaningful improvement."
+        title: "Desk, sleep and activity advice",
+        description: "Changes to desk setup, sleep position, gym technique and sport load, assessed at the clinic; we do not visit workplaces."
+      },
+      {
+        title: "Heat, TENS and electrical stimulation",
+        description: "Used for pain relief in the early stage, alongside exercise, never on their own."
       }
     ],
     footer: "\"The shoulder treatment that works for rotator cuff tendinopathy can fail for impingement, which differs from instability, which differs from frozen shoulder. Pattern-specific treatment is the difference between adequate and excellent outcomes.\""
@@ -428,8 +414,8 @@ export const shoulderPhysioSurgicalConsiderations = {
       "Surgery without clear indication"
     ],
     surgicalCoordination: {
-      title: "Surgical coordination:",
-      description: "[CLINIC CONFIRMATION REQUIRED: Specific, unverified relationship claim removed] When surgery is appropriate, we can recommend surgeons and coordinate pre- and post-surgical physiotherapy."
+      title: "Surgical opinions and injections:",
+      description: "If surgery may be appropriate, we can suggest orthopaedic surgeons for an opinion on request; we have no referral arrangements. Our in-house GP can refer you for a shoulder injection. Physiotherapy before and after surgery is on our post-surgery page."
     },
     buttonText: "Book Assessment to Discuss Options"
   }
@@ -441,18 +427,19 @@ export const shoulderPhysioActivityPatterns = {
   description: "Different activities produce different shoulder pain patterns. Understanding the activity-specific pattern guides effective treatment.",
   cards: [
     {
-      title: "Office Work & Desk-Based Roles",
+      title: "Desk-Work",
       items: [
         "Rotator cuff strain from sustained mouse use",
         "Postural shoulder pain (rounded shoulders, forward head)",
         "Upper trapezius and levator scapulae tension referring to shoulder",
-        "Scapular dyskinesia — often combined with neck pain"
+        "Scapular dyskinesia — often combined with neck pain",
+        "Posture and desk-setup advice at the clinic"
       ],
       recoveryLabel: "Typical recovery:",
       recoveryText: "6–12 weeks with appropriate treatment and ergonomic adjustment"
     },
     {
-      title: "Gym Training (CrossFit, F45, Weightlifting)",
+      title: "Gym Training and Group Fitness Classes",
       items: [
         "Rotator cuff tendinopathy from overhead pressing",
         "AC joint pain from bench press and push-ups",
@@ -510,23 +497,35 @@ export const shoulderPhysioActivityPatterns = {
   footer: "For comprehensive sports injury treatment, see our <a href='/physiotherapy/sports-injury-jvc/' class='underline hover:text-[#B8963E] transition-colors'>sports physiotherapy page</a> →"
 };
 
-export const shoulderPhysioPricing = {
-  label: "TRANSPARENT PRICING",
-  title: "What shoulder pain physiotherapy at our JVC clinic costs.",
-  pricingItems: [
-    { name: "Initial shoulder pain assessment (60 minutes)", price: "AED 350" },
-    { name: "Follow-up physiotherapy session (45–60 minutes)", price: "AED 350" },
-    { name: "Same-week priority appointment", price: "AED 350" },
-    { name: "Dry needling (add-on per session)", price: "AED 150" },
-    { name: "Acute shoulder injury package (8 sessions over 4–6 weeks)", price: "AED 1,800" },
-    { name: "Chronic shoulder programme (12–16 sessions over 8–12 weeks)", price: "AED 2,800" },
-    { name: "Rotator cuff conservative programme (16–20 sessions over 12–16 weeks)", price: "AED 3,800" },
-    { name: "Post-surgical rotator cuff rehabilitation (24–36 sessions over 6–9 months)", price: "AED 5,200" },
-    { name: "Shoulder instability rehabilitation programme", price: "AED 3,200" }
+
+
+export const shoulderRotatorCuff = {
+  id: "rotator-cuff",
+  label: "ROTATOR CUFF",
+  title: "Rotator cuff tear or tendinopathy: do you need surgery?",
+  content: [
+    "Usually not. Rotator cuff tendinopathy and most partial tears, and many full-thickness tears in people over 50, improve with a structured physiotherapy programme, typically over about 3 months. Rotator cuff tears also show up on scans in many people with no pain, so the scan alone does not decide treatment.",
+    "<strong>What treatment includes</strong><br/>Progressive rotator cuff and shoulder-blade strengthening, adjusting overhead and lifting activity, manual therapy, and shockwave for long-standing or calcific tendon problems.",
+    "<strong>When surgery is more likely</strong><br/>A sudden large tear after an injury in a younger, active person, marked weakness lifting the arm, or no improvement after a good rehabilitation programme. Our in-house GP can refer you for an injection or, on request, we can suggest surgeons for an opinion.",
+    "<strong>See a doctor first if</strong><br/>you suddenly cannot lift your arm after a fall, the shoulder looks deformed, or you have fever with a hot, swollen shoulder. Go to A&E for a suspected dislocation or fracture."
   ],
-  insuranceSection: {
-    description: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm coverage.',
-    insurers: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"],
-    cta: "Book Shoulder Pain Assessment — "
-  }
+  image: "/images/shoulder-anatomy-illustration.webp",
+  alt: "Rotator cuff anatomy and physiotherapy, Vedara Care, JVC, Dubai"
+};
+
+export const shoulderExercises = {
+  id: "exercises",
+  label: "SELF-HELP",
+  title: "Shoulder pain exercises and sleeping positions.",
+  content: [
+    "These are safe for most ordinary shoulder pain; stop if pain becomes sharp, lasts more than an hour afterwards, or you notice new weakness. Exercises for instability or after an injury should be set by your physiotherapist.",
+    "<strong>Pendulum swings</strong><br/>Lean forward with the sore arm hanging relaxed and let it swing gently in small circles for 30 seconds.",
+    "<strong>Shoulder-blade squeezes</strong><br/>Sit or stand tall, squeeze your shoulder blades back and down, hold for 5 seconds, relax; repeat 10 times.",
+    "<strong>Doorway stretch</strong><br/>Place your forearm on a door frame at shoulder height and turn your body gently away until you feel a stretch at the front of the shoulder; hold for 15-20 seconds.",
+    "<strong>External rotation with a band</strong><br/>Elbow bent at your side, rotate the forearm outwards against a light band; 10-15 slow repetitions once pain allows.",
+    "<strong>Sleeping</strong><br/>Avoid lying on the painful side. On your back, rest the arm on a pillow; on the other side, hug a pillow to support the sore arm.",
+    "Hafsina K K will check which exercises suit your condition and progress them."
+  ],
+  image: "/images/shoulder-assessment-vedara-jvc.webp",
+  alt: "Shoulder pain exercises at Vedara Care, JVC, Dubai"
 };
