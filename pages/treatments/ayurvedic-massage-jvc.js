@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import { AyurvedaVsSpa, MassagesTable, PricingSection } from '../../components/ayurveda/MassageSpecificSections';
@@ -241,12 +242,7 @@ const AyurvedicMassageJVC = () => {
         <MassagesTable />
         <AyurvedaVsSpa />
         
-        <TreatmentReviews 
-          {...ayurvedicMassageJVCReviews}
-          isDarkText={false}
-          bgColor="bg-[#1F4538]"
-          cardBgColor="bg-white/10"
-        />
+        <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
         <PricingSection />
 

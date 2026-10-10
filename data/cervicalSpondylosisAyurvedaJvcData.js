@@ -6,7 +6,7 @@ export const cervicalJvcHero = {
   ],
   label: "Cervical Spondylosis Ayurvedic Treatment · Greeva Sandhigata Vata · DHA-Licensed · Jumeirah Village Circle",
   title: "Cervical spondylosis Ayurvedic treatment at our JVC clinic, Dubai — classical Greeva Sandhigata Vata care.",
-  description: "Authentic Ayurvedic cervical spondylosis management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. Cervical spondylosis is classically understood in Ayurveda through Greeva Sandhigata Vata framework — cervical joint degeneration from Vata dosha — extensively described in Charaka Samhita and Sushruta Samhita with dedicated treatment protocols. Sustained partnership approach appropriate for progressive degenerative condition.",
+  description: "Authentic Ayurvedic cervical spondylosis management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. Cervical spondylosis is classically understood in Ayurveda through Greeva Sandhigata Vata framework — cervical joint degeneration from Vata dosha — extensively described in Charaka Samhita and Sushruta Samhita with dedicated treatment protocols. Sustained partnership approach appropriate for progressive degenerative condition.<br/><br/>Looking for physiotherapy instead? See <a href='/conditions/neck-pain-physiotherapy-jvc/'>neck pain physiotherapy in JVC</a>.",
   primaryCTA: "Book a Cervical Spondylosis Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",

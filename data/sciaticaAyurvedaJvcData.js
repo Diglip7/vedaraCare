@@ -564,7 +564,7 @@ export const sciaticaJvcRelatedPages = {
     {
       title: "Sciatica Physiotherapy Care JVC",
       description: "Complementary physiotherapy approach available at same JVC clinic for integrated care including nerve gliding techniques.",
-      href: "/conditions/sciatica-physiotherapy-jvc/"
+      href: "/conditions/sciatica-physiotherapy-dubai/"
     },
     {
       title: "Panchakarma Detoxification Dubai",

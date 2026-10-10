@@ -10,7 +10,6 @@ import FAQ from '../../components/home/FAQ';
 import {
   SurgicalProcedures,
   HomePhysiotherapy,
-  TransparentPricing,
   PostSurgeryTeam,
   InsuranceCoverage,
   WhereWeWork
@@ -23,7 +22,6 @@ import {
   postSurgeryRehabRelatedPages,
   postSurgeryRehabReviews,
   homePhysiotherapyData,
-  transparentPricingData,
   postSurgeryTeamData,
   insuranceCoverageData,
   whereWeWorkData,
@@ -180,8 +178,6 @@ const PostSurgeryRehabDubai = () => {
         {/* 6. Home Physiotherapy */}
         <HomePhysiotherapy data={homePhysiotherapyData} />
 
-        {/* 7. Transparent Pricing */}
-        <TransparentPricing data={transparentPricingData} />
 
         {/* 13. Patient Reviews */}
         <TreatmentReviews {...postSurgeryRehabReviews} />

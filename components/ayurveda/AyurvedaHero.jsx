@@ -46,7 +46,7 @@ bgColor = "bg-[#FAF6EF]",
 
       <section className={`${bgColor} py-10 sm:py-16 md:py-24 px-4 sm:px-6 relative overflow-hidden`}>
         <div className="max-w-[1170px] mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-8 md:gap-10 lg:gap-14 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-[11fr_9fr] gap-8 md:gap-10 lg:gap-14 items-start">
             {/* Left Column: Heading + Desc */}
             <div className="order-1 lg:col-span-1">
               <div className="space-y-5 sm:space-y-7">
@@ -108,18 +108,24 @@ bgColor = "bg-[#FAF6EF]",
             {/* Right Column: Image */}
             <div className="relative order-2 lg:col-span-1 w-full">
               <div className="relative aspect-[4/5] rounded-[12px] overflow-hidden shadow-2xl max-h-[500px] sm:max-h-[628px] w-full">
-                <img
-                  src={image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`}
-                  srcSet={image.startsWith('http') || image.startsWith('/') ? undefined : `/images/${image.replace('.webp', '-640.webp')} 640w, /images/${image} 1080w`}
-                  alt={alt}
-                  width={imageWidth || 1080}
-                  height={imageHeight || 1080}
-                  fetchPriority="high"
-                  loading="eager"
-                  decoding="async"
-                  sizes="(min-width: 1024px) 50vw, 100vw"
-                  className="w-full h-full object-cover"
-                />
+                {(() => {
+                  const imageSrc = image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`;
+                  const srcSet = imageSrc.endsWith('.webp') ? `${imageSrc.replace('.webp', '-640.webp')} 640w, ${imageSrc} 1080w` : undefined;
+                  return (
+                    <img
+                      src={imageSrc}
+                      srcSet={srcSet}
+                      alt={alt}
+                      width={1080}
+                      height={1080}
+                      fetchPriority="high"
+                      loading="eager"
+                      decoding="async"
+                      sizes="(min-width: 1024px) 50vw, 100vw"
+                      className="w-full h-full object-cover"
+                    />
+                  );
+                })()}
               </div>
               {/* Patients Treated Badge */}
               {patientsTreated && (

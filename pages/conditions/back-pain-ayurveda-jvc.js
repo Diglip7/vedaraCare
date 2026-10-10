@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import Link from 'next/link';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
@@ -522,9 +523,7 @@ const BackPainAyurvedaJvc = () => {
         </section>
 
         {/* Section 7: Reviews */}
-        <TreatmentReviews
-          details1={backPainJvcReviews.details1}
-          {...backPainJvcReviews} />
+        <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
         {/* Section 8: Team */}
         <TeamSectionGrid {...backPainJvcTeam} />

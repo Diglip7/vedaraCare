@@ -27,7 +27,6 @@ import {
   pediatricPhysiotherapyLocation,
   pediatricPhysiotherapyFinalCTA,
   pediatricPhysiotherapyRelatedPages,
-  pediatricPhysiotherapyPricing,
   pediatricPhysiotherapyChecklist,
   pediatricPhysiotherapyGrowthPain
 } from '../../data/pediatricPhysiotherapyData';

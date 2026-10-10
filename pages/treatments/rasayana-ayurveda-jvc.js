@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import Link from 'next/link';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
@@ -430,7 +431,7 @@ const RasayanaAyurvedaJvc = () => {
         </section>
 
         {/* Section 7: Reviews */}
-        <TreatmentReviews {...rasayanaJvcReviews} />
+        <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
         {/* Section 8: Team */}
         <section style={{ background: "rgb(255, 255, 255)", padding: "96px 0px" }}>

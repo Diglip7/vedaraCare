@@ -81,8 +81,8 @@ export const HomePhysiotherapy = ({ data }) => {
                 <img
                   src={data.image}
                   alt={data.alt || "Home physiotherapy"}
-                  width={data.imageWidth || 1080}
-                  height={data.imageHeight || 1080}
+                  width={1080}
+                  height={1080}
                   loading="lazy"
                   decoding="async"
                   className="w-full h-full object-cover"
@@ -229,8 +229,8 @@ export const PostSurgeryTeam = ({ data, bgColor = "bg-white" }) => {
                   <img
                     src={member.image}
                     alt={member.alt || member.name}
-                    width={member.imageWidth || 1080}
-                    height={member.imageHeight || 1080}
+                    width={1080}
+                    height={1080}
                     loading="lazy"
                     decoding="async"
                     className="w-full h-full object-cover"

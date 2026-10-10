@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
@@ -17,281 +16,88 @@ import {
   sciaticaPhysioLocation,
   sciaticaPhysioCTA,
   sciaticaPhysioRelatedPages,
-  sciaticaPhysioReviews,
   sciaticaPhysioTeam,
   sciaticaPhysioTypes,
   sciaticaPhysioEmergency,
-  sciaticaPhysioPricing,
+  sciaticaPiriformis,
   sciaticaPhysioTreatment,
+  sciaticaExercises,
   sciaticaPhysioInfo,
   sciaticaPhysioTimeline
 } from '../../data/sciaticaPhysiotherapyData';
 
-const SciaticaPhysiotherapyDubai = () => {
-  const [currentDate, setCurrentDate] = useState('');
-  
-  useEffect(() => {
-    setCurrentDate(new Date().toISOString());
-  }, []);
+const SITE = 'https://vedaracare.ae';
+const URL = `${SITE}/conditions/sciatica-physiotherapy-dubai/`;
+const ORG_ID = `${SITE}/#organization`;
+const HAFSINA_ID = `${SITE}/doctors/hafsina-kk-physiotherapist/#physician`;
+const REVIEWED = '2026-10-15';
+const strip = (s) => String(s).replace(/<[^>]+>/g, '');
 
-  const schemaData = currentDate ? JSON.stringify([
-    {
-      "@context": "https://schema.org",
-      "@type": ["MedicalBusiness", "LocalBusiness", "PhysicalTherapy"],
-      "@id": "https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/#sciatica-physio",
-      "name": "Vedara Care Sciatica Physiotherapy",
-      "alternateName": ["Vedara Sciatica Physio Dubai"],
-      "url": "https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/",
-      "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
-      "description": "Specialist sciatica physiotherapy at our JVC clinic, Dubai. Most sciatica resolves without surgery. Disc herniation, piriformis syndrome, spinal stenosis, pregnancy sciatica. Same-week appointments. Walking distance from Circle Mall.",
-      "telephone": "+971 55 573 6312",
-      "priceRange": "AED 350 - AED 15,000",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
-        "addressLocality": "Dubai",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "25.068346",
-        "longitude": "55.2072235"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          "opens": "09:00",
-          "closes": "22:00"
-        }
-      ],
-      "employee": {"@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician"},
-      "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "Place", "name": "Dubai Marina"},
-        {"@type": "Place", "name": "Downtown Dubai"},
-        {"@type": "Place", "name": "Palm Jumeirah"},
-        {"@type": "Place", "name": "Mirdif"}
-      ],
-      "medicalSpecialty": [
-        "Physiotherapy",
-        "Physical Therapy",
-        "Manual Therapy",
-        "Spinal Rehabilitation"
-      ],
-      "isAcceptingNewPatients": true,
-      "availableService": [
-        {"@type": "MedicalProcedure", "name": "Sciatica Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "Nerve Mobilisation"},
-        {"@type": "MedicalProcedure", "name": "Manual Therapy"},
-        {"@type": "MedicalProcedure", "name": "Dry Needling"},
-        {"@type": "MedicalProcedure", "name": "Piriformis Syndrome Treatment"}
-      ],
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Dubai Health Authority"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.7",
-        "reviewCount": "23",
-        "bestRating": "5",
-        "worstRating": "1"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MedicalCondition",
-          "name": "Sciatica",
-          "alternateName": ["Lumbar Radiculopathy", "Sciatic Nerve Pain"],
-          "code": {"@type": "MedicalCode", "code": "M54.3", "codingSystem": "ICD-10"},
-          "possibleTreatment": [
-            {"@type": "MedicalProcedure", "name": "Targeted Exercise"},
-            {"@type": "MedicalProcedure", "name": "Nerve Mobilisation"},
-            {"@type": "MedicalProcedure", "name": "Manual Therapy"},
-            {"@type": "MedicalProcedure", "name": "Dry Needling"}
-          ]
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Lumbar Disc Herniation",
-          "alternateName": ["Herniated Disc", "Slipped Disc"],
-          "code": {"@type": "MedicalCode", "code": "M51.2", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Piriformis Syndrome",
-          "code": {"@type": "MedicalCode", "code": "G57.0", "codingSystem": "ICD-10"}
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Spinal Stenosis",
-          "code": {"@type": "MedicalCode", "code": "M48.06", "codingSystem": "ICD-10"}
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "MedicalCondition",
-          "name": "Foraminal Stenosis"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "MedicalCondition",
-          "name": "Pregnancy-Related Sciatica"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "MedicalCondition",
-          "name": "Cauda Equina Syndrome",
-          "alternateName": ["CES"],
-          "code": {"@type": "MedicalCode", "code": "G83.4", "codingSystem": "ICD-10"}
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Sciatica Physiotherapy Services in Dubai",
-      "provider": {"@id": "https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/#sciatica-physio"},
-      "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
-      ],
-      "serviceType": "Sciatica Physiotherapy Treatment",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Sciatica Physiotherapy Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Initial Sciatica Assessment",
-            "priceCurrency": "AED",
-            "price": "350",
-            "description": "60-minute comprehensive sciatica assessment"
-          },
-          {
-            "@type": "Offer",
-            "name": "Same-Week Priority Sciatica Appointment",
-            "priceCurrency": "AED",
-            "price": "275",
-            "description": "Same-week appointment for severe sciatica presentations"
-          },
-          {
-            "@type": "Offer",
-            "name": "Acute Sciatica Package",
-            "priceCurrency": "AED",
-            "price": "2200",
-            "description": "10-session structured programme for acute sciatica over 6-8 weeks"
-          },
-          {
-            "@type": "Offer",
-            "name": "Chronic Sciatica Programme",
-            "priceCurrency": "AED",
-            "price": "3400",
-            "description": "16-session structured programme for chronic sciatica over 8-12 weeks"
-          },
-          {
-            "@type": "Offer",
-            "name": "Pregnancy Sciatica Programme",
-            "priceCurrency": "AED",
-            "price": "1350",
-            "description": "6-session pregnancy-appropriate sciatica programme"
-          }
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Sciatica Physiotherapy in Dubai", "item": "https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": sciaticaPhysioFaqs.faqs.map(faq => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "headline": "Physiotherapy for Sciatica in Dubai — Complete Treatment Guide",
-      "image": "https://vedaracare.ae/images/sciatica-physiotherapy-dubai-hero.jpg",
-      "datePublished": currentDate,
-      "dateModified": currentDate,
-      "author": {
-        "@type": "Person",
-        "name": "Hafsina K K",
-        "url": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic"
-      },
-      "about": [
-        {"@type": "MedicalCondition", "name": "Sciatica"},
-        {"@type": "MedicalCondition", "name": "Disc Herniation"},
-        {"@type": "MedicalCondition", "name": "Piriformis Syndrome"}
-      ],
-      "mainEntityOfPage": "https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/"
-    },
-    ...sciaticaPhysioTeam.members.map(member => ({
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "name": member.name,
-      "url": `https://vedaracare.ae${member.link || ''}`,
-      "image": member.image || "",
-      "medicalSpecialty": ["Physiotherapy", "Spinal Rehabilitation", "Manual Therapy"],
-      "hasCredential": ["DHA-Licensed", "Dry Needling Certified"],
-      "worksFor": {"@id": "https://vedaracare.ae/#organization"}
-    }))
-  ]) : '';
-  
+const PAGE = {
+  path: '/conditions/sciatica-physiotherapy-dubai/',
+  title: "Sciatica Treatment in Dubai | Physiotherapy in JVC | Vedara Care",
+  description: "Sciatica and piriformis syndrome physiotherapy at our JVC clinic, Dubai. Most sciatica improves without surgery. Same-day appointments, in-house GP.",
+};
+
+const conditions = [
+  { name: 'Sciatica', alternateName: ['Sciatic nerve pain', 'Lumbar radiculopathy'] },
+  { name: 'Piriformis syndrome' },
+  { name: 'Herniated disc', alternateName: ['Slipped disc'] },
+  { name: 'Lumbar spinal stenosis' },
+  { name: 'Sacroiliac joint dysfunction' },
+].map((x) => ({ '@type': 'MedicalCondition', ...x }));
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'MedicalWebPage', '@id': `${URL}#webpage`, url: URL, name: PAGE.title, description: PAGE.description,
+      inLanguage: 'en-AE', isPartOf: { '@id': `${SITE}/#website` }, publisher: { '@id': ORG_ID },
+      about: conditions, mainEntity: { '@id': `${URL}#service` },
+      reviewedBy: { '@id': HAFSINA_ID }, lastReviewed: REVIEWED, dateModified: REVIEWED,
+      breadcrumb: { '@id': `${URL}#breadcrumb` } },
+    { '@type': 'Service', '@id': `${URL}#service`, name: 'Sciatica physiotherapy', serviceType: 'Physiotherapy',
+      provider: { '@id': ORG_ID },
+      areaServed: [{ '@type': 'Place', name: 'Jumeirah Village Circle (JVC), Dubai' }, { '@type': 'City', name: 'Dubai' }],
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE}/book/`,
+        servicePhone: { '@type': 'ContactPoint', telephone: '+971555736312', contactType: 'appointments' } } },
+    { '@type': 'Person', '@id': HAFSINA_ID, name: 'Hafsina K K', jobTitle: 'Physiotherapist',
+      url: `${SITE}/doctors/hafsina-kk-physiotherapist/`, worksFor: { '@id': ORG_ID },
+      knowsAbout: ['Sciatica', 'Piriformis syndrome', 'Nerve mobilisation', 'Dry needling', 'Spinal manipulation'],
+      knowsLanguage: ['English', 'Hindi', 'Malayalam'],
+      hasCredential: [
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Bachelor of Physiotherapy' },
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license', name: 'DHA Physiotherapist Licence',
+          identifier: '64812828', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Dubai Health Authority' } } ] },
+    { '@type': 'BreadcrumbList', '@id': `${URL}#breadcrumb`, itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Physiotherapy', item: `${SITE}/physiotherapy-jvc/` },
+      { '@type': 'ListItem', position: 3, name: 'Sciatica Treatment', item: URL } ] },
+    { '@type': 'FAQPage', '@id': `${URL}#faq`,
+      mainEntity: sciaticaPhysioFaqs.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: strip(f.answer) } })) },
+  ],
+};
+
+const SciaticaPhysiotherapyDubai = () => {
   return (
     <>
       <Head>
-        <title>Sciatica Physiotherapy in JVC, Dubai | Vedara Care</title>
-        <meta name="description" content="Specialist sciatica physiotherapy at our JVC clinic, Dubai. Most sciatica resolves without surgery. Disc herniation, piriformis syndrome, spinal stenosis, pregnancy sciatica. Same-week appointments. Walking distance from Circle Mall." />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
+        <link rel="canonical" href={`https://vedaracare.ae${PAGE.path}`} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        
-        <meta property="og:title" content="Sciatica Physiotherapy in JVC, Dubai | Vedara Care" />
-        <meta property="og:description" content="Specialist sciatica physiotherapy at our JVC clinic, Dubai. Most sciatica resolves without surgery. Disc herniation, piriformis syndrome, spinal stenosis, pregnancy sciatica. Same-week appointments. Walking distance from Circle Mall." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/sciatica-physiotherapy-dubai.jpg" />
-        <meta property="og:url" content="https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/" />
-        <meta property="og:type" content="business.business" />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={`https://vedaracare.ae${PAGE.path}`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://vedaracare.ae/images/sciatica-physiotherapy-dubai-hero.webp" />
         <meta property="og:locale" content="en_AE" />
-        
         <meta name="twitter:card" content="summary_large_image" />
-        
-        <link rel="canonical" href="https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/" />
-        <link rel="alternate" href="https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/" hrefLang="en-AE" />
-        <link rel="alternate" href="https://vedaracare.ae/conditions/sciatica-physiotherapy-dubai/" hrefLang="x-default" />
+        <link rel="alternate" href={`https://vedaracare.ae${PAGE.path}`} hrefLang="en-AE" />
+        <link rel="alternate" href={`https://vedaracare.ae${PAGE.path}`} hrefLang="x-default" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </Head>
       
-      {currentDate && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: schemaData }}
-        />
-      )}
       
       <div className="sciatica-physiotherapy-page">
         <AyurvedaHero
@@ -304,11 +110,16 @@ const SciaticaPhysiotherapyDubai = () => {
          <SciaticaTreatment data={sciaticaPhysioInfo} showBorderLeft={false} rightContentStyle="list" bgColor='bg-[#F0EBE3]' />
         <SciaticaTypes {...sciaticaPhysioTypes} />
         <SciaticaEmergency data={sciaticaPhysioEmergency} />
+        <div id="piriformis">
+          <SciaticaTreatment data={{ treatment: { ...sciaticaPiriformis, label: sciaticaPiriformis.label, title: sciaticaPiriformis.title, steps: sciaticaPiriformis.content.map((c, i) => ({ title: "", description: c })) }, rightContent: { image: sciaticaPiriformis.image, alt: sciaticaPiriformis.alt } }} />
+        </div>
         <SciaticaTreatment data={sciaticaPhysioTreatment} />
+        <div id="exercises">
+          <SciaticaTreatment data={{ treatment: { ...sciaticaExercises, label: sciaticaExercises.label, title: sciaticaExercises.title, steps: sciaticaExercises.content.map((c, i) => ({ title: "", description: c })) }, rightContent: { image: sciaticaExercises.image, alt: sciaticaExercises.alt } }} />
+        </div>
         <SciaticaTimeline data={sciaticaPhysioTimeline} />
-        <TreatmentReviews {...physioReviewsBlock()} />
+        <TreatmentReviews {...physioReviewsBlock('What patients say about physiotherapy with Hafsina K K')} />
         <PhysiotherapyTeam {...sciaticaPhysioTeam} />
-         <SciaticaPricing {...sciaticaPhysioPricing} />
         <FAQ {...sciaticaPhysioFaqs} 
         bgColor='bg-[#F2EDE5]'/>
         <TreatmentLocation {...sciaticaPhysioLocation} />

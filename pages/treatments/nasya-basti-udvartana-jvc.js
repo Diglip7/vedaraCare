@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import { SciaticaTreatment, SciaticaTypes } from '../../components/ayurveda/SciaticaSections';
@@ -431,7 +432,7 @@ const NasyaBastiUdvartanaJvc = () => {
         />
 
         {/* Section 7: Reviews */}
-        <TreatmentReviews {...nasyaBastiUdvartanaJvcReviews} />
+        <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
         {/* Section 8: Team */}
         <section className="bg-white py-24 px-6">

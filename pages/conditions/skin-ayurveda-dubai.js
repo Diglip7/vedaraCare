@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
@@ -408,7 +409,7 @@ const SkinAyurvedaDubai = () => {
       <ClinicalBoundaries {...skinBoundaries}
       bgColor="bg-[#FAF8F3]" />
       
-      <TreatmentReviews {...skinReviews} isDarkText={false} bgColor="bg-[#2D5F4F]" cardBgColor="bg-white" />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
       
       <TreatmentPrograms {...skinPrograms} />
       

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TherapyGrid from '../../components/ayurveda/TherapyGrid';
@@ -433,12 +434,7 @@ const AyurvedicBackPain = () => {
          <TreatmentIntegration {...ayurvedicBackPainIntegration} />
         <ClinicalBoundaries {...ayurvedicBackPainBoundaries} />
 
-        <TreatmentReviews 
-          {...ayurvedicBackPainOutcomes} 
-          isDarkText={false}
-          bgColor="bg-[#1F4538]"
-          cardBgColor="bg-white/10"
-        />
+        <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
         <TreatmentPrograms 
           label={ayurvedicBackPainPricing.label}

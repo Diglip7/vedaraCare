@@ -18,14 +18,14 @@ import {
   kneePainPhysioHero,
   kneePainPhysioIntro,
   kneePainMechanism1,
-  kneePainConditions,
   kneePainInjuryTypes,
+  kneePainWithoutSurgery,
+  kneePainArthritis,
   kneePainActivityTypes,
-  kneePainMechanism2,
   kneePainOutcomes,
   kneePainReviews,
   kneePainTeam,
-  kneePainPricing,
+
   kneePainFaqs,
   kneePainLocation,
   kneePainCTA,
@@ -38,125 +38,78 @@ const KneePainPhysioDubai = () => {
   const publishedDate = "2024-05-01T08:00:00+04:00";
   const modifiedDate = new Date().toISOString();
 
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": ["MedicalBusiness", "LocalBusiness", "PhysicalTherapy"],
-      "@id": `${currentUrl}#knee-pain-physio`,
-      "name": "Vedara Care Knee Pain Physiotherapy",
-      "alternateName": ["Vedara Knee Physio Dubai", "Vedara Care Knee Rehabilitation JVC"],
-      "url": currentUrl,
-      "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
-      "description": "Evidence-based specialist knee pain physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai, delivered by a DHA-licensed physiotherapist.",
-      "telephone": "+971555736312",
-      "priceRange": "AED 350 - AED 9,800",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC)",
-        "addressLocality": "Dubai", "addressRegion": "Dubai", "addressCountry": "AE"
-      },
-      "geo": { "@type": "GeoCoordinates", "latitude": "25.068346", "longitude": "55.207223" },
-      "openingHoursSpecification": [
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "22:00" }
-      ],
-      "areaServed": [
-        {"@type": "City", "name": "Dubai"}, {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"}, {"@type": "Place", "name": "Al Barsha South"}
-      ],
-      "medicalSpecialty": ["Knee Pain Physiotherapy", "Physiotherapy", "Sports Medicine", "Orthopaedic Rehabilitation"],
-      "isAcceptingNewPatients": true,
-      "employee": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
-      "availableService": [
-        {"@type": "MedicalProcedure", "name": "Knee Pain Physiotherapy"},
-        {"@type": "MedicalProcedure", "name": "Patellofemoral Pain Treatment"},
-        {"@type": "MedicalProcedure", "name": "Meniscus Injury Conservative Treatment"},
-        {"@type": "MedicalProcedure", "name": "ACL Rehabilitation"},
-        {"@type": "MedicalProcedure", "name": "Knee Osteoarthritis Management"},
-        {"@type": "MedicalProcedure", "name": "Running Gait Analysis"},
-        {"@type": "MedicalProcedure", "name": "Dry Needling"},
-        {"@type": "MedicalProcedure", "name": "Manual Therapy"}
-      ],
-      "memberOf": { "@type": "GovernmentOrganization", "name": "Dubai Health Authority" },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "23", "bestRating": "5", "worstRating": "1" }
-    },
-    {
-      "@context": "https://schema.org", "@graph": [
-        { "@type": "MedicalCondition", "name": "Patellofemoral Pain Syndrome", "alternateName": ["Runner's Knee"], "code": {"@type": "MedicalCode", "code": "M22.2", "codingSystem": "ICD-10"} },
-        { "@type": "MedicalCondition", "name": "Meniscus Tear", "code": {"@type": "MedicalCode", "code": "S83.2", "codingSystem": "ICD-10"} },
-        { "@type": "MedicalCondition", "name": "Anterior Cruciate Ligament Injury", "code": {"@type": "MedicalCode", "code": "S83.5", "codingSystem": "ICD-10"} },
-        { "@type": "MedicalCondition", "name": "Iliotibial Band Syndrome", "code": {"@type": "MedicalCode", "code": "M76.3", "codingSystem": "ICD-10"} },
-        { "@type": "MedicalCondition", "name": "Patellar Tendinopathy", "code": {"@type": "MedicalCode", "code": "M76.5", "codingSystem": "ICD-10"} },
-        { "@type": "MedicalCondition", "name": "Knee Osteoarthritis", "code": {"@type": "MedicalCode", "code": "M17", "codingSystem": "ICD-10"} },
-        { "@type": "MedicalCondition", "name": "Osgood-Schlatter Disease", "code": {"@type": "MedicalCode", "code": "M92.5", "codingSystem": "ICD-10"} }
-      ]
-    },
-    {
-      "@context": "https://schema.org", "@type": "Service",
-      "name": "Knee Pain Physiotherapy Services in JVC, Dubai",
-      "provider": {"@id": `${currentUrl}#knee-pain-physio`},
-      "areaServed": [{"@type": "Place", "name": "Jumeirah Village Circle"}, {"@type": "City", "name": "Dubai"}],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog", "name": "Knee Pain Physiotherapy Services",
-        "itemListElement": [
-          {"@type": "Offer", "name": "Initial Knee Pain Assessment", "priceCurrency": "AED", "price": "350"},
-          {"@type": "Offer", "name": "Running Gait Analysis", "priceCurrency": "AED", "price": "450"},
-          {"@type": "Offer", "name": "Acute Knee Injury Package", "priceCurrency": "AED", "price": "1800"},
-          {"@type": "Offer", "name": "Chronic Knee Pain Programme", "priceCurrency": "AED", "price": "2800"},
-          {"@type": "Offer", "name": "ACL Rehabilitation Programme", "priceCurrency": "AED", "price": "9800"}
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org", "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Knee Pain Physiotherapy in JVC", "item": currentUrl}
-      ]
-    },
-    {
-      "@context": "https://schema.org", "@type": "FAQPage",
-      "mainEntity": kneePainFaqs.faqs.map(faq => ({
-        "@type": "Question", "name": faq.question,
-        "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
-      }))
-    },
-    {
-      "@context": "https://schema.org", "@type": "MedicalWebPage",
-      "headline": "Knee Pain Physiotherapy in JVC, Dubai — Complete Treatment Guide",
-      "image": "https://vedaracare.ae/og-images/knee-pain-physiotherapy-dubai.jpg",
-      "datePublished": "2026-05-01", "dateModified": modifiedDate,
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
-      "publisher": { "@type": "Organization", "name": "Vedara Care Polyclinic" },
-      "about": [{"@type": "MedicalCondition", "name": "Knee Pain"}, {"@type": "MedicalCondition", "name": "Knee Osteoarthritis"}],
-      "mainEntityOfPage": currentUrl
-    }
-  ];
+  const PAGE = {
+    path: '/conditions/knee-pain-physiotherapy-dubai/',
+    title: "Knee Pain Physiotherapy & Treatment in Dubai | JVC Clinic | Vedara",   // 66 characters
+    description: "Knee pain treatment without surgery at our JVC clinic, Dubai: runner's knee, meniscus, ligament injuries and knee arthritis, with a DHA-licensed physio.",   // 152 characters
+  };
+
+  const SITE = 'https://vedaracare.ae';
+  const URL = `${SITE}/conditions/knee-pain-physiotherapy-dubai/`;
+  const ORG_ID = `${SITE}/#organization`;
+  const HAFSINA_ID = `${SITE}/doctors/hafsina-kk-physiotherapist/#physician`;
+  const REVIEWED = '2026-10-15';   // change only when Hafsina actually reviews the page
+  const strip = (s) => String(s).replace(/<[^>]+>/g, '');
+
+  const conditions = [
+    { name: 'Knee pain' },
+    { name: 'Patellofemoral pain syndrome', alternateName: ["Runner's knee"] },
+    { name: 'Meniscus tear' }, { name: 'Anterior cruciate ligament injury', alternateName: ['ACL injury'] },
+    { name: 'Medial collateral ligament injury', alternateName: ['MCL injury'] },
+    { name: 'Knee osteoarthritis', alternateName: ['Knee arthritis'] },
+    { name: 'Patellar tendinopathy', alternateName: ["Jumper's knee"] }, { name: 'Iliotibial band syndrome' },
+  ].map((x) => ({ '@type': 'MedicalCondition', ...x }));
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'MedicalWebPage', '@id': `${URL}#webpage`, url: URL, name: PAGE.title, description: PAGE.description,
+        inLanguage: 'en-AE', isPartOf: { '@id': `${SITE}/#website` }, publisher: { '@id': ORG_ID },
+        about: conditions, mainEntity: { '@id': `${URL}#service` },
+        reviewedBy: { '@id': HAFSINA_ID }, lastReviewed: REVIEWED, dateModified: REVIEWED,
+        breadcrumb: { '@id': `${URL}#breadcrumb` } },
+      { '@type': 'Service', '@id': `${URL}#service`, name: 'Knee pain physiotherapy', serviceType: 'Physiotherapy',
+        provider: { '@id': ORG_ID },
+        areaServed: [{ '@type': 'Place', name: 'Jumeirah Village Circle (JVC), Dubai' }, { '@type': 'City', name: 'Dubai' }],
+        availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE}/book/`,
+          servicePhone: { '@type': 'ContactPoint', telephone: '+971555736312', contactType: 'appointments' } } },
+      { '@type': 'Person', '@id': HAFSINA_ID, name: 'Hafsina K K', jobTitle: 'Physiotherapist',
+        url: `${SITE}/doctors/hafsina-kk-physiotherapist/`, worksFor: { '@id': ORG_ID },
+        knowsAbout: ['Knee pain', 'Sports knee injuries', 'Knee osteoarthritis', 'Gait analysis', 'Shockwave therapy'],
+        knowsLanguage: ['English', 'Hindi', 'Malayalam'],
+        hasCredential: [
+          { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Bachelor of Physiotherapy' },
+          { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license', name: 'DHA Physiotherapist Licence',
+            identifier: '64812828', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Dubai Health Authority' } } ] },
+      { '@type': 'BreadcrumbList', '@id': `${URL}#breadcrumb`, itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+        { '@type': 'ListItem', position: 2, name: 'Physiotherapy', item: `${SITE}/physiotherapy-jvc/` },
+        { '@type': 'ListItem', position: 3, name: 'Knee Pain Physiotherapy', item: URL } ] },
+      { '@type': 'FAQPage', '@id': `${URL}#faq`,
+        mainEntity: kneePainFaqs.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: strip(f.answer) } })) },
+    ],
+  };
 
   return (
     <>
       <Head>
-        <title>Knee Pain Physiotherapy in JVC, Dubai | Vedara Care</title>
-        <meta name="description" content="Specialist knee pain physiotherapy at our JVC clinic, Dubai — runner's knee, meniscus injuries, ACL recovery, osteoarthritis. Most knee pain responds without surgery. Book a same-week assessment." />
-        <link rel="canonical" href={currentUrl} />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
+        <link rel="canonical" href="https://vedaracare.ae/conditions/knee-pain-physiotherapy-dubai/" />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        <meta property="og:title" content="Knee Pain Physiotherapy in Dubai — Evidence-Based Specialist Care | Vedara JVC" />
-        <meta property="og:description" content="Most knee pain responds to appropriate physiotherapy without requiring surgery. DHA-licensed specialists at our Jumeirah Village Circle clinic for runner's knee, meniscus injuries, ACL recovery, knee osteoarthritis, patellar tendinopathy, and the full range of knee conditions." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/knee-pain-physiotherapy-dubai.jpg" />
-        <meta property="og:url" content={currentUrl} />
-        <meta property="og:type" content="business.business" />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content="https://vedaracare.ae/conditions/knee-pain-physiotherapy-dubai/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://vedaracare.ae/images/knee-pain-physiotherapy-dubai-hero.webp" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
-        {schemas.map((schema, index) => (
-          <script
-            key={index}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </Head>
+
 
       <AyurvedaHero 
         {...kneePainPhysioHero}
@@ -195,6 +148,21 @@ const KneePainPhysioDubai = () => {
         variant="condition"
       />
 
+      <div id="without-surgery">
+        <TreatmentMechanism 
+          {...kneePainWithoutSurgery}
+          bgColor="bg-[#F8F4EE]"
+        />
+      </div>
+
+      <div id="knee-arthritis">
+        <TreatmentMechanism 
+          {...kneePainArthritis}
+          bgColor="bg-white"
+          imageLeft={true}
+        />
+      </div>
+
       <SportsInjuryTypes 
         {...kneePainActivityTypes}
         bgColor="rgb(248, 244, 238)"
@@ -221,40 +189,8 @@ const KneePainPhysioDubai = () => {
       cardColor="bg-white"
       {...kneePainTeam} />
 
-      <div className={`bg-white py-24 px-6 ${kneePainPricing.bgColor}`}>
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <div className="text-sm tracking-widest uppercase mb-4 text-[#C9A84C]">
-              {kneePainPricing.label}
-            </div>
-            <h2 className="text-4xl font-serif text-[#1A1A1A]">
-              {kneePainPricing.title}
-            </h2>
-          </div>
 
-          <div className="bg-white rounded-lg border border-[#E5DFD3] overflow-hidden mb-12">
-            {kneePainPricing.services.map((service, index) => (
-              <div key={index} className={`flex items-center justify-between px-8 py-5 ${index % 2 === 1 ? 'bg-[#FAF8F5]' : 'bg-white'}`}>
-                <p className="text-sm font-sans text-[#1A1A1A]">
-                  {service.name}
-                </p>
-                <p className="font-serif text-[#C9A84C]">
-                  {service.price}
-                </p>
-              </div>
-            ))}
-          </div>
 
-          <p className="text-center mb-8 font-sans text-[#6B6B6B] leading-relaxed text-sm" dangerouslySetInnerHTML={{ __html: kneePainPricing.insuranceText }} />
-          <div className="flex flex-wrap justify-center gap-3">
-            {kneePainPricing.insurances && kneePainPricing.insurances.map((insurer, index) => (
-              <span key={index} className="bg-[#FAF8F5] px-4 py-2 rounded-full text-xs border border-[#E5DFD3] text-[#6B6B6B]">
-                {insurer}
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
 
       <FAQ {...kneePainFaqs} />
 
@@ -293,7 +229,6 @@ const KneePainPhysioDubai = () => {
       <div className="md:hidden fixed bottom-20 left-0 right-0 p-4 bg-white border-t border-gray-200 z-40 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] flex justify-between items-center pb-safe">
         <div>
           <div className="text-xs font-semibold text-[#C4A962] tracking-wider uppercase mb-1">Assessment</div>
-          <div className="font-medium text-[#1A1A1A] text-sm">AED 350</div>
         </div>
         <div className="flex gap-2">
           <a

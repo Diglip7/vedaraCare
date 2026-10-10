@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
+import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentPrograms from '../../components/ayurveda/TreatmentPrograms';
@@ -199,7 +201,9 @@ const PanchakarmaJVC = () => {
       <TreatmentPrograms {...panchakarmaJVCPrograms} />
       <PanchakarmaTimeline {...panchakarmaJVCTimeline} />
       <Reviews {...panchakarmaJVCReviews} isDarkText={false} />
-      <FAQ {...panchakarmaJVCFaqs} />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
+
+        <FAQ {...panchakarmaJVCFaqs} />
       <TreatmentLocation {...panchakarmaJVCLocation} />
       <CTA {...panchakarmaJVCCTA} />
       <RelatedPages {...panchakarmaJVCRelatedPages} />

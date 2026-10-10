@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
+import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import ClinicalBoundaries from '../../components/ayurveda/ClinicalBoundaries';
@@ -244,6 +246,8 @@ const AyurvedaArthritis = () => {
           {...arthritisPillars}
           bgColor="bg-[#F5F1E8]"
         />
+
+        <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
         <FAQ {...arthritisFaqs} />
 

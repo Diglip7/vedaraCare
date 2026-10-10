@@ -251,7 +251,7 @@ const CoordinatedCare = ({
           )}
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[60%_37%] gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-8 lg:gap-16 items-start">
           <div className=" space-y-8">
             {specialists.map((specialist, index) => (
               <div key={index} className=" space-y-2">

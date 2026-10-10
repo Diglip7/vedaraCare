@@ -48,7 +48,7 @@ const DermatologyClinicJVC = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist dermatology clinic at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed consultant dermatologists delivering medical dermatology (acne, melasma, eczema, psoriasis, rosacea, skin cancer screening, hyperhidrosis, hair and scalp conditions) and aesthetic dermatology (botulinum toxin, dermal fillers, chemical peels, laser treatments, hair restoration, skin rejuvenation). Expertise across all Fitzpatrick skin types (I-VI). Multiple languages including Arabic, English, Hindi, Urdu. Premium clinical environment with premium FDA/EMA-approved products including Botox, Restylane, Juvederm, Belotero.",
-      "telephone": "+971 4 567 8900",
+      "telephone": "+971555736312",
       "priceRange": "AED 400 - AED 20,000",
       "address": {
         "@type": "PostalAddress",

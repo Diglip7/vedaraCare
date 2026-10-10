@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentProtocol from '../../components/ayurveda/TreatmentProtocol';
@@ -703,7 +704,7 @@ const DiabetesAyurvedaDubai = () => {
       </section>
 
       {/* Section 10: Real diabetes outcomes from Dubai patients */}
-      <TreatmentReviews {...diabetesReviews} />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
       {/* Section 11: What Ayurvedic diabetes treatment at our JVC clinic actually costs */}
       <section className="bg-white py-24 px-4">

@@ -7,9 +7,6 @@ const TherapyGrid = ({
   subtitle = "",
   items = []
 }) => {
-  const firstRow = items.slice(0, 3);
-  const secondRow = items.slice(3);
-  
   return (
     <section className={`${bgColor} py-24 px-6`}>
       <div className="max-w-7xl mx-auto">
@@ -21,41 +18,22 @@ const TherapyGrid = ({
           )}
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 mb-6">
-          {firstRow.map((item, index) => (
-            <div key={index} className="bg-white rounded-lg p-7 shadow-sm border-t-4 border-[#B8860B]">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+          {items.map((item, index) => (
+            <div key={index} className="bg-white rounded-lg p-7 shadow-sm border-t-4 border-[#B8860B] flex flex-col">
               <h3 className="text-xl text-[#B8860B] mb-2" style={{ fontFamily: 'Georgia, serif' }} dangerouslySetInnerHTML={{ __html: item.title }} />
               <p className="text-sm mb-3" dangerouslySetInnerHTML={{ __html: item.subtitle }} />
-              <p className="text-sm leading-relaxed text-muted-foreground mb-4" dangerouslySetInnerHTML={{ __html: item.description }} />
+              <p className="text-sm leading-relaxed text-muted-foreground mb-4 flex-grow" dangerouslySetInnerHTML={{ __html: item.description }} />
               {item.link && (
                 <a 
                   href={item.link} 
-                  className="text-[#B8860B] text-sm hover:underline"
+                  className="text-[#B8860B] text-sm hover:underline mt-auto inline-block"
                   dangerouslySetInnerHTML={{ __html: (item.linkText || "Read more") + " →" }}
                 />
               )}
             </div>
           ))}
         </div>
-
-        {secondRow.length > 0 && (
-          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            {secondRow.map((item, index) => (
-              <div key={index} className="bg-white rounded-lg p-7 shadow-sm border-t-4 border-[#B8860B]">
-                <h3 className="text-xl text-[#B8860B] mb-2" style={{ fontFamily: 'Georgia, serif' }} dangerouslySetInnerHTML={{ __html: item.title }} />
-                <p className="text-sm mb-3" dangerouslySetInnerHTML={{ __html: item.subtitle }} />
-                <p className="text-sm leading-relaxed text-muted-foreground mb-4" dangerouslySetInnerHTML={{ __html: item.description }} />
-                {item.link && (
-                  <a 
-                    href={item.link} 
-                    className="text-[#B8860B] text-sm hover:underline"
-                    dangerouslySetInnerHTML={{ __html: (item.linkText || "Read more") + " →" }}
-                  />
-                )}
-              </div>
-            ))}
-          </div>
-        )}
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
@@ -349,10 +350,7 @@ const PostnatalAyurvedaDubai = () => {
         <ClinicalBoundaries {...postnatalBoundaries} />
 
         {/* Section 8: Real Postpartum Outcomes */}
-        <TreatmentReviews 
-          {...postnatalReviews}
-          items={postnatalReviews.items} 
-        />
+        <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
         {/* Section 9: Pricing & Programs */}
         <TreatmentPrograms {...postnatalPricing} />

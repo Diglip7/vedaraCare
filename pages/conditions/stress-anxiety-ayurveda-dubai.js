@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import { SCHEMA_ADDRESS } from '../../lib/site';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
@@ -335,10 +336,7 @@ const AyurvedaStressAnxiety = () => {
           cardBg="bg-[#F6F1E9]"
         />
 
-        <TreatmentReviews 
-          {...stressAnxietyReviews}
-          bgColor="bg-[#1F4538]"
-        />
+        <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
         <TreatmentPrograms 
           {...stressAnxietyPrograms}

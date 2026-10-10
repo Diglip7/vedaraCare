@@ -25,294 +25,17 @@ import {
   frozenShoulderInjectionsSurgery,
   frozenShoulderReviews,
   frozenShoulderTeam,
-  frozenShoulderPricing,
+  // frozenShoulderPricing,
   frozenShoulderFaqs,
   frozenShoulderLocation,
   frozenShoulderCTA,
-  frozenShoulderRelatedPages
+  frozenShoulderRelatedPages,
+  frozenShoulderSymptoms,
+  frozenShoulderExercises
 } from '../../data/frozenShoulderData';
 
 const FrozenShoulderDubai = () => {
-  const currentUrl = "https://vedaracare.ae/conditions/frozen-shoulder-dubai/";
-  const publishedDate = "2024-06-01T08:00:00+04:00";
-  const modifiedDate = new Date().toISOString();
 
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": ["MedicalBusiness", "LocalBusiness", "PhysicalTherapy"],
-      "@id": `${currentUrl}#frozen-shoulder`,
-      "name": "Vedara Care Frozen Shoulder Treatment",
-      "alternateName": ["Vedara Adhesive Capsulitis Treatment Dubai", "Vedara Frozen Shoulder JVC"],
-      "url": currentUrl,
-      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Specialist frozen shoulder treatment at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Phase-specific physiotherapy for adhesive capsulitis delivered by DHA-licensed specialists. Particular expertise in diabetic frozen shoulder. Coordination with rheumatologists for hydrodilatation when appropriate.",
-      "telephone": "+971 55 573 6312",
-      "priceRange": "AED 350 - AED 18,000",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Unit G-05, Circle Mall, JVC District 12",
-        "addressLocality": "Jumeirah Village Circle",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "25.068346",
-        "longitude": "55.2072235"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          "opens": "09:00",
-          "closes": "22:00"
-        }
-      ],
-      "areaServed": [
-        { "@type": "City", "name": "Dubai" },
-        { "@type": "Place", "name": "Jumeirah Village Circle" },
-        { "@type": "Place", "name": "Jumeirah Village Triangle" },
-        { "@type": "Place", "name": "Al Barsha South" },
-        { "@type": "Place", "name": "Dubai Sports City" },
-        { "@type": "Place", "name": "Motor City" },
-        { "@type": "Place", "name": "Arjan" },
-        { "@type": "Place", "name": "Dubai Hills Estate" },
-        { "@type": "Place", "name": "Dubai Marina" },
-        { "@type": "Place", "name": "Downtown Dubai" },
-        { "@type": "Place", "name": "Palm Jumeirah" },
-        { "@type": "Place", "name": "Mirdif" }
-      ],
-      "medicalSpecialty": [
-        "Frozen Shoulder Treatment",
-        "Adhesive Capsulitis Treatment",
-        "Physiotherapy",
-        "Physical Therapy",
-        "Manual Therapy",
-        "Shoulder Rehabilitation"
-      ],
-      "isAcceptingNewPatients": true,
-      "availableService": [
-        { "@type": "MedicalProcedure", "name": "Frozen Shoulder Physiotherapy" },
-        { "@type": "MedicalProcedure", "name": "Adhesive Capsulitis Treatment" },
-        { "@type": "MedicalProcedure", "name": "Phase-Specific Joint Mobilisation" },
-        { "@type": "MedicalProcedure", "name": "Capsular Stretching" },
-        { "@type": "MedicalProcedure", "name": "Manual Therapy" },
-        { "@type": "MedicalProcedure", "name": "Dry Needling" },
-        { "@type": "MedicalProcedure", "name": "Diabetic Frozen Shoulder Treatment" },
-        { "@type": "MedicalProcedure", "name": "Post-Surgical Frozen Shoulder Treatment" },
-        { "@type": "MedicalProcedure", "name": "Hydrodilatation Coordination" },
-        { "@type": "MedicalProcedure", "name": "Manipulation Under Anaesthesia Coordination" },
-        { "@type": "MedicalProcedure", "name": "Capsular Release Surgery Coordination" }
-      ],
-      "memberOf": {
-        "@type": "GovernmentOrganization",
-        "name": "Dubai Health Authority (DHA)"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.7",
-        "reviewCount": "23",
-        "bestRating": "5",
-        "worstRating": "1"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MedicalClinic",
-          "@id": "https://vedaracare.ae/#organization",
-          "name": "Vedara Care Polyclinic"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Adhesive Capsulitis (Frozen Shoulder)",
-          "alternateName": ["Frozen Shoulder", "Adhesive Capsulitis", "Shoulder Capsulitis"],
-          "code": { "@type": "MedicalCode", "code": "M75.0", "codingSystem": "ICD-10" },
-          "possibleTreatment": [
-            { "@type": "MedicalProcedure", "name": "Phase-Specific Physiotherapy" },
-            { "@type": "MedicalProcedure", "name": "Phase-Specific Joint Mobilisation" },
-            { "@type": "MedicalProcedure", "name": "Capsular Stretching" },
-            { "@type": "MedicalProcedure", "name": "Manual Therapy" },
-            { "@type": "MedicalProcedure", "name": "Dry Needling" },
-            { "@type": "MedicalProcedure", "name": "Hydrodilatation" },
-            { "@type": "MedicalProcedure", "name": "Manipulation Under Anaesthesia" },
-            { "@type": "MedicalProcedure", "name": "Capsular Release Surgery" }
-          ],
-          "associatedAnatomy": [
-            { "@type": "AnatomicalStructure", "name": "Glenohumeral Joint" },
-            { "@type": "AnatomicalStructure", "name": "Shoulder Joint Capsule" },
-            { "@type": "AnatomicalStructure", "name": "Rotator Cuff" }
-          ]
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Diabetic Frozen Shoulder",
-          "alternateName": ["Diabetic Adhesive Capsulitis"]
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Bilateral Frozen Shoulder"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Post-Surgical Frozen Shoulder",
-          "alternateName": ["Secondary Frozen Shoulder"]
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Type 2 Diabetes"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Thyroid Disorders"
-        },
-        {
-          "@type": "MedicalProcessStage",
-          "name": "Freezing Phase of Frozen Shoulder"
-        },
-        {
-          "@type": "MedicalProcessStage",
-          "name": "Frozen Phase of Frozen Shoulder"
-        },
-        {
-          "@type": "MedicalProcessStage",
-          "name": "Thawing Phase of Frozen Shoulder"
-        },
-        {
-          "@type": "Organization",
-          "name": "Daman"
-        },
-        {
-          "@type": "Organization",
-          "name": "AXA"
-        },
-        {
-          "@type": "Organization",
-          "name": "Allianz"
-        },
-        {
-          "@type": "Organization",
-          "name": "Oman Insurance"
-        },
-        {
-          "@type": "Organization",
-          "name": "Now Health"
-        },
-        {
-          "@type": "Organization",
-          "name": "Bupa"
-        },
-        {
-          "@type": "Organization",
-          "name": "MetLife"
-        },
-        {
-          "@type": "Place",
-          "name": "Circle Mall"
-        },
-        {
-          "@type": "Place",
-          "name": "FIVE Jumeirah Village"
-        },
-        {
-          "@type": "Place",
-          "name": "JSS Private School"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Frozen Shoulder Treatment Services in Dubai",
-      "provider": { "@id": `${currentUrl}#frozen-shoulder` },
-      "areaServed": [
-        { "@type": "City", "name": "Dubai" },
-        { "@type": "Place", "name": "United Arab Emirates" }
-      ],
-      "serviceType": "Frozen Shoulder Physiotherapy and Adhesive Capsulitis Treatment",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Frozen Shoulder Treatment Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Initial frozen shoulder assessment (60 minutes)",
-            "priceCurrency": "AED",
-            "price": "350",
-            "description": "60-minute comprehensive assessment with phase identification"
-          },
-          {
-            "@type": "Offer",
-            "name": "Freezing phase programme (8–12 sessions over 8–12 weeks)",
-            "priceCurrency": "AED",
-            "price": "2800",
-            "description": "8-12 session programme over 8-12 weeks focused on pain management"
-          },
-          {
-            "@type": "Offer",
-            "name": "Frozen phase programme (16–24 sessions over 4–6 months)",
-            "priceCurrency": "AED",
-            "price": "4900",
-            "description": "16-24 session active rehabilitation over 4-6 months"
-          },
-          {
-            "@type": "Offer",
-            "name": "Complete frozen shoulder programme (30–40 sessions over 8–12 months)",
-            "priceCurrency": "AED",
-            "price": "8500",
-            "description": "30-40 session comprehensive programme from initial phase through recovery"
-          },
-          {
-            "@type": "Offer",
-            "name": "Diabetic frozen shoulder programme (extended timeline)",
-            "priceCurrency": "AED",
-            "price": "9500",
-            "description": "Extended programme accounting for diabetic patient considerations"
-          }
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
-        { "@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/" },
-        { "@type": "ListItem", "position": 3, "name": "Frozen Shoulder Treatment in JVC", "item": currentUrl }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": frozenShoulderFaqs.faqs.map(faq => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "headline": "Frozen Shoulder Treatment in JVC, Dubai — Complete Phase-Based Guide",
-      "image": "https://vedaracare.ae/og-images/frozen-shoulder-treatment-vedara-jvc.webp",
-      "datePublished": "2026-06-01",
-      "dateModified": modifiedDate,
-      "reviewedBy": { "@type": "Physician", "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
-      "publisher": { "@type": "Organization", "name": "Vedara Care Polyclinic" },
-      "about": [
-        { "@type": "MedicalCondition", "name": "Adhesive Capsulitis" },
-        { "@type": "MedicalCondition", "name": "Frozen Shoulder" },
-        { "@type": "MedicalCondition", "name": "Diabetic Frozen Shoulder" }
-      ],
-      "mainEntityOfPage": currentUrl
-    },
-
-  ];
 
   // First, let's create the injections/surgery section component structure
   const InjectionsSurgerySection = () => (
@@ -452,74 +175,27 @@ const FrozenShoulderDubai = () => {
           <div className="relative">
             <div className="absolute left-5 top-6 bottom-6 w-[2px] bg-gradient-to-b from-[#E8A87C] via-[#B8975A] to-[#5A8A6A]"></div>
             <div className="space-y-0">
-              {[
-                {
-                  number: 1,
-                  phase: "Months 0–3",
-                  title: "Freezing begins",
-                  description: "Gradual onset of pain and stiffness",
-                  treatment: "Treatment: Diagnosis, pain management",
-                  color: "rgb(232, 168, 124)"
-                },
-                {
-                  number: 2,
-                  phase: "Months 3–6",
-                  title: "Freezing peak",
-                  description: "Peak pain, sleep disruption common",
-                  treatment: "Treatment: Gentle therapy, pain modulation",
-                  color: "rgb(212, 147, 92)"
-                },
-                {
-                  number: 3,
-                  phase: "Months 6–9",
-                  title: "Frozen phase",
-                  description: "Pain easing, stiffness dominant",
-                  treatment: "Treatment: Active joint mobilisation",
-                  color: "rgb(184, 151, 90)"
-                },
-                {
-                  number: 4,
-                  phase: "Months 9–12",
-                  title: "Active recovery",
-                  description: "Substantial functional gains",
-                  treatment: "Treatment: Intensive mobilisation + strengthening",
-                  color: "rgb(154, 125, 72)"
-                },
-                {
-                  number: 5,
-                  phase: "Months 12–18",
-                  title: "Continued improvement",
-                  description: "Progressive return of function",
-                  treatment: "Treatment: Functional progression",
-                  color: "rgb(122, 155, 118)"
-                },
-                {
-                  number: 6,
-                  phase: "Months 18–24",
-                  title: "Full recovery",
-                  description: "Most patients substantially or fully recovered",
-                  treatment: "Treatment: Discharge planning",
-                  color: "rgb(90, 138, 106)",
-                  isLast: true
-                }
-              ].map((item, index) => (
-                <div key={index} className="flex gap-6 relative pb-0">
-                  <div className="flex flex-col items-center">
-                    <div className="w-10 h-10 rounded-full flex items-center justify-center z-10 shrink-0" style={{ backgroundColor: item.color }}>
-                      <span className="text-white font-sans font-semibold text-xs">{item.number}</span>
+              {frozenShoulderOutcomes.timeline.map((item, index) => {
+                const colors = ["rgb(232, 168, 124)", "rgb(212, 147, 92)", "rgb(184, 151, 90)", "rgb(154, 125, 72)"];
+                const color = item.color || colors[index % colors.length];
+                const isLast = index === frozenShoulderOutcomes.timeline.length - 1;
+                return (
+                  <div key={index} className="flex gap-6 relative pb-0">
+                    <div className="flex flex-col items-center">
+                      <div className="w-10 h-10 rounded-full flex items-center justify-center z-10 shrink-0" style={{ backgroundColor: color }}>
+                        <span className="text-white font-sans font-semibold text-xs">{index + 1}</span>
+                      </div>
+                      {!isLast && (
+                        <div className="w-[2px] flex-1 min-h-[48px]" style={{ backgroundColor: `${color}25` }}></div>
+                      )}
                     </div>
-                    {!item.isLast && (
-                      <div className="w-[2px] flex-1 min-h-[48px]" style={{ backgroundColor: `${item.color}25` }}></div>
-                    )}
+                    <div className="pb-8 pt-1.5">
+                      <p className="text-[#B8975A] text-xs tracking-[0.14em] mb-0.5 font-sans font-semibold">{item.phase}</p>
+                      <p className="text-[#4A4239] font-sans text-sm leading-relaxed">{item.description}</p>
+                    </div>
                   </div>
-                  <div className="pb-8 pt-1.5">
-                    <p className="text-[#B8975A] text-xs tracking-[0.14em] mb-0.5 font-sans font-semibold">{item.phase}</p>
-                    <p className="text-[#1C1612] mb-1 font-serif font-medium text-base">{item.title}</p>
-                    <p className="text-[#4A4239] font-sans text-sm leading-relaxed">{item.description}</p>
-                    <p className="text-[#7A6E62] text-xs mt-1 font-sans">{item.treatment}</p>
-                  </div>
-                </div>
-              ))}
+                )
+              })}
             </div>
           </div>
           <div className="space-y-8">
@@ -564,29 +240,92 @@ const FrozenShoulderDubai = () => {
     </section>
   );
 
+  const PAGE = {
+    path: '/conditions/frozen-shoulder-dubai/',
+    title: "Frozen Shoulder Treatment in Dubai | Physiotherapy in JVC | Vedara",
+    description: "Frozen shoulder (adhesive capsulitis) physiotherapy at our JVC clinic, Dubai: phase-based care, shockwave, exercises and GP support for diabetes.",
+  };
+
+  const SITE = 'https://vedaracare.ae';
+  const URL = `${SITE}/conditions/frozen-shoulder-dubai/`;
+  const ORG_ID = `${SITE}/#organization`;
+  const HAFSINA_ID = `${SITE}/doctors/hafsina-kk-physiotherapist/#physician`;
+  const REVIEWED = '2026-10-15';   // change only when Hafsina actually reviews the page
+  const strip = (s) => String(s).replace(/<[^>]+>/g, '');
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'MedicalWebPage', '@id': `${URL}#webpage`, url: URL, name: PAGE.title, description: PAGE.description,
+        inLanguage: 'en-AE', isPartOf: { '@id': `${SITE}/#website` }, publisher: { '@id': ORG_ID },
+        about: {
+          '@type': 'MedicalCondition', name: 'Frozen shoulder', alternateName: ['Adhesive capsulitis'],
+          riskFactor: [{ '@type': 'MedicalRiskFactor', name: 'Diabetes' }, { '@type': 'MedicalRiskFactor', name: 'Thyroid disease' }],
+          possibleTreatment: [
+            { '@type': 'MedicalTherapy', name: 'Physiotherapy' },
+            { '@type': 'MedicalTherapy', name: 'Shockwave therapy' },
+            { '@type': 'MedicalProcedure', name: 'Corticosteroid injection' },
+            { '@type': 'MedicalProcedure', name: 'Hydrodilatation' }]
+        },
+        mainEntity: { '@id': `${URL}#service` },
+        reviewedBy: { '@id': HAFSINA_ID }, lastReviewed: REVIEWED, dateModified: REVIEWED,
+        breadcrumb: { '@id': `${URL}#breadcrumb` }
+      },
+      {
+        '@type': 'Service', '@id': `${URL}#service`, name: 'Frozen shoulder physiotherapy', serviceType: 'Physiotherapy',
+        provider: { '@id': ORG_ID },
+        areaServed: [{ '@type': 'Place', name: 'Jumeirah Village Circle (JVC), Dubai' }, { '@type': 'City', name: 'Dubai' }],
+        availableChannel: {
+          '@type': 'ServiceChannel', serviceUrl: `${SITE}/book/`,
+          servicePhone: { '@type': 'ContactPoint', telephone: '+971555736312', contactType: 'appointments' }
+        }
+      },
+      {
+        '@type': 'Person', '@id': HAFSINA_ID, name: 'Hafsina K K', jobTitle: 'Physiotherapist',
+        url: `${SITE}/doctors/hafsina-kk-physiotherapist/`, worksFor: { '@id': ORG_ID },
+        knowsAbout: ['Frozen shoulder', 'Mobilisation with movement', 'Shockwave therapy', 'Dry needling'],
+        knowsLanguage: ['English', 'Hindi', 'Malayalam'],
+        hasCredential: [
+          { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Bachelor of Physiotherapy' },
+          {
+            '@type': 'EducationalOccupationalCredential', credentialCategory: 'license', name: 'DHA Physiotherapist Licence',
+            identifier: '64812828', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Dubai Health Authority' }
+          }]
+      },
+      {
+        '@type': 'BreadcrumbList', '@id': `${URL}#breadcrumb`, itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+          { '@type': 'ListItem', position: 2, name: 'Physiotherapy', item: `${SITE}/physiotherapy-jvc/` },
+          { '@type': 'ListItem', position: 3, name: 'Frozen Shoulder', item: URL }]
+      },
+      {
+        '@type': 'FAQPage', '@id': `${URL}#faq`,
+        mainEntity: frozenShoulderFaqs.faqs.map((f) => ({
+          '@type': 'Question', name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: strip(f.answer) }
+        }))
+      },
+    ],
+  };
+
   return (
     <>
       <Head>
-        <title>Frozen Shoulder Treatment in JVC, Dubai | Vedara Care</title>
-        <meta name="description" content="Specialist frozen shoulder treatment at our JVC clinic, Dubai. Phase-specific physiotherapy for adhesive capsulitis, honest realistic timelines, diabetic frozen shoulder expertise. Book a same-week assessment." />
-        <link rel="canonical" href={currentUrl} />
-        <link rel="alternate" hreflang="en-AE" href={currentUrl} />
-        <link rel="alternate" hreflang="x-default" href={currentUrl} />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
+        <link rel="canonical" href="https://vedaracare.ae/conditions/frozen-shoulder-dubai/" />
+        <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/frozen-shoulder-dubai/" />
+        <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/frozen-shoulder-dubai/" />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        <meta property="og:title" content="Frozen Shoulder Treatment in Dubai — Phase-Specific Specialist Care | Vedara JVC" />
-        <meta property="og:description" content="Frozen shoulder (adhesive capsulitis) is highly treatable with phase-specific physiotherapy. DHA-licensed specialists at our Jumeirah Village Circle clinic with specific expertise in diabetic frozen shoulder, common in Dubai's patient population. Honest realistic timelines." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/frozen-shoulder-treatment-vedara-jvc.webp" />
-        <meta property="og:url" content={currentUrl} />
-        <meta property="og:type" content="business.business" />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content="https://vedaracare.ae/conditions/frozen-shoulder-dubai/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://vedaracare.ae/images/frozen-shoulder-treatment-vedara-jvc.webp" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
-        {schemas.map((schema, index) => (
-          <script
-            key={index}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </Head>
 
       <AyurvedaHero
@@ -596,6 +335,19 @@ const FrozenShoulderDubai = () => {
       <AyurvedaIntro
         {...frozenShoulderIntro}
       />
+
+      <div id="is-it-frozen-shoulder">
+        <TreatmentMechanism
+          bgColor="bg-white"
+          label={frozenShoulderSymptoms.label}
+          title={frozenShoulderSymptoms.title}
+          content={frozenShoulderSymptoms.content}
+          image={frozenShoulderSymptoms.image}
+          alt={frozenShoulderSymptoms.alt}
+          imageLeft={true}
+          showStats={false}
+        />
+      </div>
 
       <TreatmentMechanism
         bgColor="bg-[#F8F4EE]"
@@ -615,6 +367,18 @@ const FrozenShoulderDubai = () => {
         {...frozenShoulderPhases}
       />
 
+      <div id="exercises">
+        <TreatmentMechanism
+          bgColor="bg-white"
+          label={frozenShoulderExercises.label}
+          title={frozenShoulderExercises.title}
+          content={frozenShoulderExercises.content}
+          image={frozenShoulderExercises.image}
+          alt={frozenShoulderExercises.alt}
+          imageLeft={false}
+          showStats={false}
+        />
+      </div>
 
       <TimelineSection />
 
@@ -638,6 +402,7 @@ const FrozenShoulderDubai = () => {
         }}
       />
 
+      {/* 
       <div className={`bg-white py-24 px-6 ${frozenShoulderPricing.bgColor}`}>
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
@@ -675,6 +440,7 @@ const FrozenShoulderDubai = () => {
           </div>
         </div>
       </div>
+      */}
 
       <FAQ {...frozenShoulderFaqs} />
 

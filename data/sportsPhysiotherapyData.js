@@ -179,50 +179,7 @@ export const sportsPhysiotherapyTeam = {
   ]
 };
 
-export const sportsPhysiotherapyPricing = {
-  bgColor: "bg-[#FAF7F2]",
-  label: "TRANSPARENT PRICING",
-  title: "What sports physiotherapy at Vedara Care costs.",
-  description: "Most Dubai sports physiotherapy clinics hide their pricing. Our approach: you know what you will pay before you commit. Final pricing confirmed at your initial assessment.",
-  pricingCards: [
-    {
-      title: "Initial Sports Assessment",
-      price: "AED 550",
-      duration: "60 minutes at our JVC clinic",
-      bestFor: "First-time sports injury patients, biomechanical assessment",
-      features: [
-        "Comprehensive assessment with DHA-licensed physiotherapist",
-        "Biomechanical analysis if relevant",
-        "Written treatment plan and timeline",
-        "Initial treatment typically starts same session"
-      ]
-    },
-    {
-      title: "Follow-up Session",
-      price: "AED 380",
-      duration: "45 minutes",
-      bestFor: "Ongoing treatment and rehab progression",
-      highlight: true,
-      features: [
-        "Manual therapy and modalities",
-        "Exercise progression and home programme updates",
-        "Rehab tracking and adjustments"
-      ]
-    },
-    {
-      title: "Return-to-Sport Package",
-      price: "From AED 2,400",
-      duration: "8 sessions",
-      bestFor: "Structured post-injury return to sport",
-      features: [
-        "8 45-minute sports physiotherapy sessions",
-        "Progressive loading and sport-specific rehab",
-        "Return-to-sport testing included",
-        "Home exercise programme with video guidance"
-      ]
-    }
-  ]
-};
+
 
 export const sportsPhysiotherapyReviews = physioReviewsBlock('What patients say about physiotherapy with Hafsina K K');
 

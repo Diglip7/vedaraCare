@@ -9,7 +9,6 @@ import SportsPhysiotherapyModalities from '../../components/ayurveda/SportsPhysi
 import PhysiotherapyIntegration from '../../components/ayurveda/PhysiotherapyIntegration';
 import OutcomeRanges from '../../components/ayurveda/OutcomeRanges';
 import PhysiotherapyTeam from '../../components/ayurveda/PhysiotherapyTeam';
-import SportsPhysiotherapyPricing from '../../components/ayurveda/SportsPhysiotherapyPricing';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import FAQ from '../../components/home/FAQ';
 import SportsPhysiotherapyLocation from '../../components/ayurveda/SportsPhysiotherapyLocation';
@@ -24,7 +23,6 @@ import {
   sportsPhysiotherapyModalities,
   sportsPhysiotherapyOutcomes,
   sportsPhysiotherapyTeam,
-  sportsPhysiotherapyPricing,
   sportsPhysiotherapyReviews,
   sportsPhysiotherapyFaqs,
   sportsPhysiotherapyLocation,
@@ -170,8 +168,6 @@ const SportsInjuryJvc = () => {
         {/* H2: Sports physiotherapy specialists at our JVC clinic. */}
         <PhysiotherapyTeam {...sportsPhysiotherapyTeam} />
 
-        {/* H2: What sports injury physiotherapy at our JVC clinic costs. */}
-        <SportsPhysiotherapyPricing />
 
         {/* H2: Real return-to-sport outcomes from JVC patients. */}
         <TreatmentReviews {...physioReviewsBlock()} />

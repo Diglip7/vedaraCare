@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
+import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import ContentWithSidebar from '../../components/ayurveda/ContentWithSidebar';
@@ -473,7 +475,9 @@ const JanuBastiTreatment = () => {
         }}
       />
 
-      <FAQ
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
+
+        <FAQ
         bgColor="bg-[#F5F0E8]"
         label="FAQ"
         title="Frequently Asked Questions About Janu Basti"

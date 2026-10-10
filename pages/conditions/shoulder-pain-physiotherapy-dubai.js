@@ -45,7 +45,7 @@ const ShoulderPainPhysiotherapyDubai = () => {
       "alternateName": ["Vedara Shoulder Physio Dubai", "Vedara Care Shoulder Rehabilitation JVC"],
       "url": "https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/",
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Comprehensive shoulder pain physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed specialists treating rotator cuff problems, shoulder impingement, AC joint pain, biceps tendinopathy, shoulder instability, bursitis, calcific tendinopathy, post-surgical recovery, and frozen shoulder. Most shoulder pain responds to evidence-based physiotherapy without surgery.",
+      "description": "Comprehensive shoulder pain physiotherapy at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed specialists treating rotator cuff problems, shoulder impingement, AC joint pain, biceps tendinopathy, shoulder instability, bursitis, calcific tendinopathy, and post-surgical recovery. Most shoulder pain responds to evidence-based physiotherapy without surgery.",
       "telephone": "+971 55 573 6312",
       "priceRange": "AED 300 - AED 25,000",
       "address": {
@@ -244,16 +244,7 @@ const ShoulderPainPhysiotherapyDubai = () => {
             }
           };
         }
-        if (faq.question === "How is my shoulder pain different from frozen shoulder?") {
-          return {
-            "@type": "Question",
-            "name": "How is my shoulder pain different from frozen shoulder?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Frozen shoulder is a specific condition with restriction of both active and passive movement in all directions and progressive worsening over months. Most shoulder pain involves specific structures and typically restricts certain movements rather than all directions."
-            }
-          };
-        }
+
         // Use the rest from the data
         return {
           "@type": "Question",

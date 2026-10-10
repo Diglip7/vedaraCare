@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
@@ -373,7 +374,7 @@ const AbhyangaDubai = () => {
       <TreatmentHomeHealthcare {...abhyangaHomeHealthcare} />
       
       {/* Section 9 - Reviews with Image 5 (dark green background) */}
-      <TreatmentReviews {...abhyangaReviews} />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
       
       {/* Section 10 - FAQ */}
       <FAQ {...abhyangaFaqs} />

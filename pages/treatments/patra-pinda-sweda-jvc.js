@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
+import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import Link from 'next/link';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
@@ -714,7 +716,9 @@ const PatraPindaSwedaJVC = () => {
       </section> */}
 
       {/* FAQ Section */}
-      <FAQ
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
+
+        <FAQ
         bgColor="bg-white"
         label="FAQ"
         title="Frequently Asked Questions About Patra Pinda Sweda"

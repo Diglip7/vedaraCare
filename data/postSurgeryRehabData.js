@@ -103,47 +103,6 @@ export const homePhysiotherapyData = {
   }
 };
 
-export const transparentPricingData = {
-  label: "TRANSPARENT PRICING",
-  title: "What post-surgery rehabilitation at our JVC clinic costs.",
-  subtitle: "Comprehensive rehabilitation packages reflect the long-term commitment that post-surgical care requires. Single-session pricing is also available for patients who prefer pay-as-you-go.",
-  sections: [
-    {
-      title: "Initial Assessment",
-      hasDuration: false,
-      items: [
-        { name: "Post-surgery initial assessment (60 minutes, clinic)", price: "AED 350" },
-        { name: "Post-surgery initial assessment (60 minutes, home)", price: "AED 450" },
-        { name: "Surgeon coordination & protocol review", price: "Included in initial" }
-      ]
-    },
-    {
-      title: "Single Sessions",
-      hasDuration: false,
-      items: [
-        { name: "Single post-surgery physiotherapy session (clinic, 45-60 min)", price: "AED 300" },
-        { name: "Single home physiotherapy session", price: "AED 450" },
-        { name: "Specialist modality add-on (shockwave, dry needling)", price: "AED 150" }
-      ]
-    },
-    {
-      title: "Structured Programmes",
-      hasDuration: true,
-      items: [
-        { name: "Total Knee Replacement programme (30 sessions)", price: "AED 8,500", duration: "4-6 months" },
-        { name: "Total Hip Replacement programme (24 sessions)", price: "AED 6,800", duration: "3-4 months" },
-        { name: "ACL Reconstruction programme (40-60 sessions)", price: "AED 13,500", duration: "9-12 months" },
-        { name: "Rotator Cuff Repair programme (24-40 sessions)", price: "AED 8,200", duration: "4-6 months" },
-        { name: "Spinal Surgery programme (20-30 sessions)", price: "AED 7,500", duration: "3-6 months" },
-        { name: "Meniscectomy programme (8-12 sessions)", price: "AED 2,800", duration: "6-12 weeks" },
-        { name: "Meniscus Repair programme (16-24 sessions)", price: "AED 5,500", duration: "12-24 weeks" },
-        { name: "Hip Arthroscopy programme (20-30 sessions)", price: "AED 7,200", duration: "4-6 months" },
-        { name: "Custom procedure programme", price: "Contact us", duration: "Variable" }
-      ]
-    }
-  ],
-  footer: 'Insurance coverage for post-surgery rehabilitation is typically substantial — most plans cover physiotherapy with documented surgical procedure. Direct-billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage%20and%20share%20my%20surgical%20report%20for%20post-surgery%20rehab." target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card and surgical report to +971 55 573 6312</a> before booking for specific coverage confirmation.'
-};
 
 export const postSurgeryTeamData = {
   label: "YOUR PHYSIOTHERAPIST",

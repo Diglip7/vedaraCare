@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import ConditionPhenotypes from '../../components/ayurveda/ConditionPhenotypes';
@@ -439,7 +440,7 @@ const HairLossAyurvedaDubai = () => {
       <ConditionBoundaries {...hairLossBoundaries} />
 
       {/* Section 9: Treatment Reviews */}
-      <TreatmentReviews {...hairLossReviews} />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
       {/* Section 10: Treatment Programs */}
       <TreatmentPrograms {...hairLossPrograms} />

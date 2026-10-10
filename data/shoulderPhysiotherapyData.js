@@ -129,7 +129,7 @@ export const shoulderPhysioFaqs = {
     },
     {
       question: "How is my shoulder pain different from frozen shoulder?",
-      answer: "Frozen shoulder (adhesive capsulitis) is a specific distinct condition with characteristic features: restriction of both active and passive movement in all directions, progressive worsening over months, often pain worse at night. Most shoulder pain involves specific structures (rotator cuff, AC joint, biceps) and typically restricts certain movements rather than all directions. For frozen shoulder specifically, see our <a href='/conditions/frozen-shoulder-dubai/' class='text-[#C9A55A] hover:text-[#B8965A] transition-colors'>dedicated frozen shoulder page</a> for detailed phase-based content."
+      answer: "If your shoulder is stiff in every direction, even when someone else lifts your arm, it may be frozen shoulder; see our <a href='/conditions/frozen-shoulder-dubai/'>frozen shoulder treatment</a> page. Other shoulder problems usually hurt only with certain movements."
     },
     {
       question: "How long does shoulder pain take to resolve?",
@@ -145,7 +145,7 @@ export const shoulderPhysioFaqs = {
     },
     {
       question: "Why does my shoulder hurt at night?",
-      answer: "Night shoulder pain is common in several conditions: rotator cuff tears (lying on the affected side compresses the tear), frozen shoulder (capsular position-related pain), severe impingement, and acute injuries. Different conditions cause night pain through different mechanisms. Sleep position guidance, sometimes pain management, and treating the underlying condition typically resolves night pain."
+      answer: "Night shoulder pain is common in several conditions: rotator cuff tears (lying on the affected side compresses the tear), frozen shoulder (see our <a href='/conditions/frozen-shoulder-dubai/'>frozen shoulder page</a>), severe impingement, and acute injuries. Different conditions cause night pain through different mechanisms. Sleep position guidance, sometimes pain management, and treating the underlying condition typically resolves night pain."
     },
     {
       question: "Where in Dubai is your shoulder pain physiotherapy clinic?",
@@ -317,11 +317,8 @@ export const shoulderPhysioConditions = {
     },
     {
       number: "10",
-      title: "Frozen Shoulder (Adhesive Capsulitis)",
-      description: "Distinct condition with phase-based progression (freezing, frozen, thawing). Requires specific phase-aware treatment. We have a dedicated frozen shoulder page with detailed phase-based content — particularly relevant for diabetic patients given Dubai's demographics.",
-      typicalSigns: [
-        "See dedicated frozen shoulder page for full details →"
-      ],
+      title: "Frozen Shoulder",
+      description: "Stiffness in every direction that builds over months. See our frozen shoulder treatment page.",
       href: "/conditions/frozen-shoulder-dubai/"
     }
   ],

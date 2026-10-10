@@ -171,6 +171,9 @@ export const scarResults = {
 };
 
 export const scarFAQ = {
+  label: "QUESTIONS, ANSWERED",
+  title: "Everything patients ask before their first visit.",
+  description: "Short, honest answers from our clinical team. Cannot find what you are looking for? WhatsApp us, usually answered in under 15 minutes.",
   faqs: [
     { question: "What is laser scar removal?", answer: "Laser scar removal uses controlled laser energy to stimulate the skin's natural healing process, encouraging collagen remodelling that can improve the texture, colour, or visibility of certain scars over time." },
     { question: "Can laser completely remove scars?", answer: "No honest provider can promise complete removal. Laser treatment generally aims to improve the appearance of a scar rather than erasing it entirely." },

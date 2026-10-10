@@ -36,8 +36,8 @@ const PhysiotherapyTeam = ({ label, title, description, team = [], members = [],
                     <img
                       src={member.image}
                       alt={member.alt}
-                      width={member.imageWidth || 1080}
-                      height={member.imageHeight || 1080}
+                      width={1080}
+                      height={1080}
                       loading="lazy"
                       decoding="async"
                       className="w-full h-full object-cover object-top"

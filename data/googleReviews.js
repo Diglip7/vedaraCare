@@ -60,13 +60,21 @@ export const ayurvedaGoogleReviews = [
 ];
 
 export const ayurvedaReviewsBlock = (title = 'What patients say about Ayurveda at Vedara Care') => ({
-  eyebrow: 'PATIENT REVIEWS',
+  bgColor: 'bg-[#FAF6EF]',
+  cardBgColor: 'white',
+  isDarkText: true,
+  label: 'PATIENT REVIEWS',
   title,
-  rating: '4.7',
-  count: '23',
-  reviews: ayurvedaGoogleReviews,
-  allLink: {
-    label: 'Read all reviews on Google',
-    href: GOOGLE_PROFILE_URL,
-  }
+  description: 'Real reviews from our Google Business Profile, quoted as written.',
+  items: ayurvedaGoogleReviews.map(r => ({
+    quote: r.text,
+    author: r.author_name,
+    details: `Google review · ${r.rating} stars · ${r.relative_time_description}`
+  })),
+  stats: [
+    { value: '4.7', label: 'Google rating' },
+    { value: '23', label: 'Google reviews' },
+  ],
+  buttonText: 'Read all reviews on Google',
+  buttonHref: GOOGLE_PROFILE_URL,
 });

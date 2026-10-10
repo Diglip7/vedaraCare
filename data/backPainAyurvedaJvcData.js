@@ -543,7 +543,7 @@ export const backPainJvcTeam = {
       role: "Trained Therapists",
       tags: "Kativasti Specialists · Multi-Language · Cultural Sensitivity",
       description: "Trained female and male therapists delivering Kativasti, Panchakarma protocols, Abhyanga, Elakizhi, Pizhichil under doctor supervision. Kativasti requires specific training for authentic protocol delivery. Cultural sensitivity. Multi-language capability.",
-      image: "",
+      image: "/images/ayurveda-therapist-dubai.webp",
       alt: "Ayurvedic Therapy Team"
     },
     {
@@ -551,7 +551,7 @@ export const backPainJvcTeam = {
       role: "Complementary Care",
       tags: "On-Site at JVC Clinic · Coordinated Back Pain Care",
       description: "Our JVC clinic houses physiotherapy alongside Ayurvedic back pain care. Many patients benefit from combined approach — Ayurvedic constitutional and traditional therapy alongside physiotherapy movement rehabilitation. Coordinated treatment planning between teams.",
-      image: "",
+      image: "/images/physiotherapy-team-dubai.webp",
       alt: "Physiotherapy Team Integration"
     }
   ]

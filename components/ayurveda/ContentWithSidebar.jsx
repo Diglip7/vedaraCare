@@ -203,8 +203,8 @@ const ContentOnlySection = ({
                 <img
                   src={sidebar.image}
                   alt={sidebar.altText || 'Sidebar Image'}
-                  width={sidebar.imageWidth || 1080}
-                  height={sidebar.imageHeight || 1080}
+                  width={1080}
+                  height={1080}
                   loading="lazy"
                   decoding="async"
                   className={`w-full h-full ${sidebar.height ? 'object-cover' : 'object-contain'}`}
@@ -219,8 +219,8 @@ const ContentOnlySection = ({
                 <img
                   src={sidebar.image}
                   alt={sidebar.altText || 'Sidebar Image'}
-                  width={sidebar.imageWidth || 1080}
-                  height={sidebar.imageHeight || 1080}
+                  width={1080}
+                  height={1080}
                   loading="lazy"
                   decoding="async"
                   className={`w-full h-full ${sidebar.height ? 'object-cover' : 'object-contain'}`}
@@ -482,7 +482,7 @@ const PRPCombinationSection = ({
               )}
               {showSectionImage && image && (
                 <div className="mt-6 rounded-xl overflow-hidden shadow-md border border-[#E5DFD3]/40 aspect-[4/3] w-full">
-                  <img src={image} alt={alt || 'Section Image'} width={imageWidth || 1080} height={imageHeight || 1080} loading="lazy" decoding="async" className="w-full h-full object-cover" />
+                  <img src={image} alt={alt || 'Section Image'} width={1080} height={1080} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                 </div>
               )}
             </div>
@@ -534,8 +534,8 @@ const TreatmentTimelineSection = ({
             <img
               src={image}
               alt={alt || 'Timeline Image'}
-              width={imageWidth || 1080}
-              height={imageHeight || 1080}
+              width={1080}
+              height={1080}
               loading="lazy"
               decoding="async"
               className="w-full h-full object-cover"

@@ -42,8 +42,8 @@ const PhysiotherapyMechanism = ({
               <img
                 src={image}
                 alt={alt}
-                width={imageWidth}
-                height={imageHeight}
+                width={1080}
+                height={1080}
                 loading="lazy"
                 decoding="async"
                 className="w-full h-auto object-contain rounded-xl"

@@ -38,10 +38,10 @@ const PostnatalAyurvedaJvc = () => {
     {
       "@context": "https://schema.org",
       "@type": ["MedicalBusiness", "LocalBusiness", "MedicalClinic"],
-      "@id": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/#postnatal",
+      "@id": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-jvc/#postnatal",
       "name": "Vedara Care Postnatal Ayurvedic Care Dubai",
       "alternateName": ["Vedara Sutika Paricharya JVC", "Traditional Postnatal Ayurveda Dubai", "Vedara Postnatal Care Home Visits Dubai"],
-      "url": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/",
+      "url": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-jvc/",
       "parentOrganization": {"@id": "https://vedaracare.ae/#organization"},
       "description": "Traditional postnatal Ayurvedic care (Sutika Paricharya) at Vedara Care Polyclinic, Jumeirah Village Circle (JVC), Dubai. Female DHA-licensed Ayurvedic doctor delivering authentic 42-day postnatal programmes with home visits across Dubai.",
       "telephone": "+971 55 573 6312",
@@ -124,7 +124,7 @@ const PostnatalAyurvedaJvc = () => {
       "@context": "https://schema.org",
       "@type": "Service",
       "name": "Postnatal Ayurvedic Care Services at JVC Dubai",
-      "provider": {"@id": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/#postnatal"},
+      "provider": {"@id": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-jvc/#postnatal"},
       "areaServed": [{"@type": "City", "name": "Dubai"}, {"@type": "Place", "name": "Jumeirah Village Circle"}, {"@type": "Place", "name": "United Arab Emirates"}],
       "serviceType": "Traditional Postnatal Ayurvedic Care",
       "hasOfferCatalog": {
@@ -148,7 +148,7 @@ const PostnatalAyurvedaJvc = () => {
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
         {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Postnatal Ayurvedic Care in Dubai (JVC Clinic)", "item": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/"}
+        {"@type": "ListItem", "position": 3, "name": "Postnatal Ayurvedic Care in Dubai (JVC Clinic)", "item": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-jvc/"}
       ]
     },
     {
@@ -193,7 +193,7 @@ const PostnatalAyurvedaJvc = () => {
       ],
       "reviewedBy": {"@type": "Physician", "@id": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/#physician"},
       "lastReviewed": "2026-06-03",
-      "mainEntityOfPage": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/"
+      "mainEntityOfPage": "https://vedaracare.ae/conditions/postnatal-care-ayurveda-jvc/"
     },
     {
       "@context": "https://schema.org",
@@ -235,7 +235,7 @@ const PostnatalAyurvedaJvc = () => {
         <meta property="og:title" content="Postnatal Ayurvedic Care in Dubai — Traditional Sutika Paricharya at Our JVC Clinic | Vedara Care" />
         <meta property="og:description" content="Authentic postnatal Ayurvedic care at Vedara Care JVC clinic with home delivery across Dubai. Female DHA-licensed Ayurvedic doctor delivering traditional Sutika Paricharya. Serving Marina, Downtown, Business Bay, all Dubai." />
         <meta property="og:image" content="https://vedaracare.ae/og-images/postnatal-ayurvedic-care-dubai-jvc.jpg" />
-        <meta property="og:url" content="https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/" />
+        <meta property="og:url" content="https://vedaracare.ae/conditions/postnatal-care-ayurveda-jvc/" />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="en_AE" />
 
@@ -244,9 +244,9 @@ const PostnatalAyurvedaJvc = () => {
         <meta name="twitter:description" content="Female DHA-licensed Ayurvedic doctor. Traditional 42-day postnatal programme. Home delivery across Dubai." />
         <meta name="twitter:image" content="https://vedaracare.ae/og-images/postnatal-ayurvedic-care-dubai-jvc.jpg" />
 
-        <link rel="canonical" href="https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/" />
-        <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/" />
-        <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/conditions/postnatal-care-ayurveda-JVC/" />
+        <link rel="canonical" href="https://vedaracare.ae/conditions/postnatal-care-ayurveda-jvc/" />
+        <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/conditions/postnatal-care-ayurveda-jvc/" />
+        <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/conditions/postnatal-care-ayurveda-jvc/" />
 
         <script
           type="application/ld+json"

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
@@ -427,7 +428,9 @@ const PcosAyurvedaDubai = () => {
       <TreatmentPrograms {...pcosPrograms} />
       
       {/* Section 12 - FAQ */}
-      <FAQ {...pcosFaqs} />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
+
+        <FAQ {...pcosFaqs} />
       
       {/* Section 13 - Location */}
       <TreatmentLocation {...pcosTreatmentLocation} />

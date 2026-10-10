@@ -41,7 +41,7 @@ const HairLossTreatmentJvc = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Specialist hair loss treatment at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed consultant dermatologists treating male and female pattern hair loss, postnatal hair loss, alopecia areata, telogen effluvium, and other hair loss conditions. Comprehensive workup including hormonal and nutritional evaluation. Evidence-based treatments including topical and oral medications, PRP injections, hair mesotherapy, and coordination with qualified hair transplant surgeons.",
-      "telephone": "+971 4 567 8900",
+      "telephone": "+971555736312",
       "priceRange": "AED 400 - AED 25,000",
       "address": {
         "@type": "PostalAddress",
@@ -385,7 +385,7 @@ const HairLossTreatmentJvc = () => {
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+971 4 567 8900",
+        "telephone": "+971555736312",
         "contactType": "Customer Service",
         "areaServed": "AE",
         "availableLanguage": ["English", "Arabic", "Hindi", "Urdu"]

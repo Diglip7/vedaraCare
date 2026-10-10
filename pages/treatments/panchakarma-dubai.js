@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
@@ -248,10 +249,7 @@ const PanchakarmaDubai = () => {
 
       <Physician {...panchakarmaDubaiPhysician} />
 
-      <TreatmentReviews 
-        {...panchakarmaDubaiReviews}
-        bgColor="bg-[#FAF6EF]" 
-      />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
       <FAQ 
         {...panchakarmaDubaiFaqs}

@@ -1,19 +1,21 @@
+import { physioReviewsBlock } from './googleReviews';
+
 export const kneePainPhysioHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Conditions", href: "/conditions/" },
     { label: "Knee Pain Physiotherapy in Dubai", active: true }
   ],
-  label: "Knee Pain Physiotherapy · DHA-Licensed 2509266 · JVC Clinic",
-  title: "Knee pain physiotherapy in JVC. Most knee pain responds to the right treatment.",
-  description: "Specialist knee pain physiotherapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. DHA-licensed physiotherapists treating runner's knee, meniscus injuries, ACL recovery, IT band syndrome, patellar tendinopathy, knee osteoarthritis, and the full range of knee conditions. Most knee pain — even with concerning MRI findings — responds excellently to evidence-based physiotherapy.",
+  label: "KNEE PAIN PHYSIOTHERAPY · DHA-LICENSED CLINIC IN JVC, DUBAI",
+  title: "Knee pain physiotherapy and treatment in Dubai, at our JVC clinic.",
+  description: "Physiotherapy for runner's knee, meniscus tears, ligament injuries and knee arthritis at our Jumeirah Village Circle clinic, walking distance from Circle Mall. Hafsina K K, our DHA-licensed physiotherapist, treats the cause, and most knee pain improves without surgery.",
   primaryCTA: "Book Knee Pain Assessment",
   secondaryCTA: "Ask a Question on WhatsApp",
   trustSignals: [
-    "DHA-licensed knee specialists",
-    "DHA-Licensed Physiotherapist",
-    "Same-week appointments",
-    "Walking distance from Circle Mall"
+    "DHA-licensed physiotherapist (DHA-P 64812828)",
+    "Same-day appointments for new knee injuries",
+    "Most knee pain improves without surgery",
+    "In-house GP: weight support and referrals"
   ],
   floatingCard: {
     title: "Most knee pain does not need surgery.",
@@ -26,8 +28,8 @@ export const kneePainPhysioHero = {
 export const kneePainPhysioIntro = {
   label: "THE QUICK ANSWER",
   title: "Knee pain physiotherapy at Vedara Care, in one paragraph.",
-  blockquote: "Knee pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is evidence-based specialist treatment delivered by DHA-licensed physiotherapists. Knee pain has multiple distinct causes: patellofemoral pain syndrome (runner's knee), meniscus injuries (often without surgery), ligament injuries (MCL, ACL, LCL), iliotibial band syndrome, patellar tendinopathy (jumper's knee), knee osteoarthritis, Osgood-Schlatter disease, and post-injury conditions. Our approach combines accurate diagnosis, evidence-based manual therapy, specific exercise prescription, biomechanical analysis, dry needling, and patient education. Initial assessment from AED 350; structured knee pain programmes from AED 2,800. Patients travel to our JVC clinic from across Dubai. Insurance reimbursement support for seven major insurers.",
-  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
+  blockquote: "Knee pain physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai treats runner's knee, meniscus tears, ACL and MCL injuries that do not need surgery, knee osteoarthritis, patellar tendinopathy, IT band pain and other knee problems. Hafsina K K, a DHA-licensed physiotherapist (DHA-P 64812828), finds the cause and treats it with targeted strengthening, manual therapy, dry needling, shockwave and electrical stimulation where suitable, and video gait analysis for runners. Most knee pain improves without surgery. Our in-house GP can help with weight management for knee arthritis and refer you for injections if needed. Same-day appointments are available for new injuries. Open daily 9am to 10pm near Circle Mall. Insurance works on reimbursement.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Reviewed October 2026."
 };
 
 export const kneePainMechanism1 = {
@@ -43,89 +45,13 @@ export const kneePainMechanism1 = {
   content: [
     "The knee is one of the most complex joints in the body — bearing weight, allowing both stability and substantial range of motion, integrating ligaments, tendons, cartilage, menisci, and bone structures that must work together precisely. When something disrupts this complex system, pain results. But the cause of that disruption varies enormously between patients with seemingly similar symptoms.",
     "Dubai's active lifestyle — padel, running, gym training, desert adventures — puts significant stress on knees. Add to that long hours sitting at desks (weakening the glutes and quadriceps that support knees) and you have a perfect recipe for knee pain.",
-    "<strong>The most common knee pain patterns we see</strong><br/>Patellofemoral pain (runner's knee), IT band friction syndrome, meniscus tears, ACL/ligament injuries, osteoarthritis, tendinopathies (patellar, quadriceps), and post-surgical stiffness.",
+    "<strong>The most common knee pain patterns</strong><br/>Patellofemoral pain (runner's knee), IT band friction syndrome, meniscus tears, ACL/ligament injuries, osteoarthritis, tendinopathies (patellar, quadriceps), and post-surgical stiffness.",
     "<strong>The good news</strong><br/>Most knee pain responds extremely well to physiotherapy. Even degenerative changes like osteoarthritis can be managed effectively with the right exercise programme and activity modification."
   ],
   quote: "Knee pain rarely has a single cause. It's almost always a combination of factors — anatomy, movement patterns, muscle imbalances, and load."
 };
 
-export const kneePainConditions = {
-  bgColor: "bg-white",
-  label: "Specific Knee Pain Types",
-  title: "The different knee conditions we treat at our JVC clinic.",
-  description: "Different knee pain patterns require different treatment approaches. Identifying your specific pattern is the first step.",
-  types: [
-    {
-      number: "01",
-      title: "Patellofemoral Pain Syndrome (Runner's Knee)",
-      description: "Pain around or behind the kneecap, often worse with running, stairs, or prolonged sitting. The most common knee presentation in our clinic, especially in runners and gym-goers. Responds extremely well to specific exercise programmes.",
-      typicalSigns: "Kneecap pain, worse with stairs/squatting, pain after prolonged sitting"
-    },
-    {
-      number: "02",
-      title: "Meniscus Injuries",
-      description: "Tears in the knee cartilage (meniscus), often from twisting injuries or degenerative changes. Many meniscus tears can be managed successfully with physiotherapy without surgery.",
-      typicalSigns: "Knee locking/catching, pain with twisting, swelling"
-    },
-    {
-      number: "03",
-      title: "ACL & Ligament Injuries",
-      description: "Anterior Cruciate Ligament (ACL) tears and other ligament injuries (MCL, LCL, PCL), common in sports like padel, football, and basketball. Both surgical and non-surgical rehabilitation available.",
-      typicalSigns: "Feeling of instability, giving way, significant swelling after injury"
-    },
-    {
-      number: "04",
-      title: "IT Band Syndrome (ITBS)",
-      description: "Pain on the outer side of the knee, common in runners and cyclists. Caused by friction of the iliotibial band over the knee joint.",
-      typicalSigns: "Outer knee pain, worse with running, especially downhill"
-    },
-    {
-      number: "05",
-      title: "Knee Osteoarthritis",
-      description: "Degenerative joint changes in the knee, common from the 50s onwards. While we can't reverse arthritis, we can dramatically reduce pain and improve function.",
-      typicalSigns: "Stiffness after rest, pain with activity, creaking/grinding sensation"
-    },
-    {
-      number: "06",
-      title: "Patellar Tendinopathy (Jumper's Knee)",
-      description: "Pain in the patellar tendon just below the kneecap, common in sports involving jumping (basketball, volleyball) and repetitive knee bending.",
-      typicalSigns: "Pain below kneecap, worse with jumping/landing, stiffness in morning"
-    },
-    {
-      number: "07",
-      title: "Post-Surgical Knee Rehabilitation",
-      description: "Structured rehabilitation after knee surgery — ACL reconstruction, meniscus repair, total knee replacement, or other knee procedures.",
-      typicalSigns: "Post-operative stiffness, weakness, fear of movement"
-    },
-    {
-      number: "08",
-      title: "Quadriceps & Hamstring Tendinopathies",
-      description: "Tendon pain in the front or back of the knee, often from overuse or training errors. Highly responsive to load management and specific exercise.",
-      typicalSigns: "Pain with muscle contraction, stiffness after rest, focal tenderness"
-    }
-  ],
-  footer: "Not sure which pattern matches your knee pain? <a href=\"/book\" class=\"text-[#C9A55A] hover:underline\">Book an assessment for accurate diagnosis →</a>"
-};
 
-export const kneePainMechanism2 = {
-  bgColor: "bg-white",
-  label: "THE APPROACH",
-  title: "How we actually treat knee pain at our JVC clinic.",
-  description: "Effective knee pain treatment starts with accurate diagnosis. Generic 'knee exercises' rarely resolve knee pain because the underlying cause varies enormously between patients.",
-  image: "/images/",
-  alt: "Evidence-based knee pain treatment at Vedara Care JVC Dubai",
-  imageLeft: true,
-  content: [
-    "<strong>Comprehensive initial assessment</strong><br/>The first session is typically 60 minutes — detailed history, specific orthopaedic tests for knee conditions, movement screening, gait analysis where relevant, strength and flexibility assessment, and review of any imaging. The assessment identifies your specific knee condition and the contributing factors driving it.",
-    "<strong><a href='/treatments/manual-therapy-dubai/' class='text-inherit hover:text-[#C9A55A] transition-colors'>Manual therapy</a> when indicated</strong><br/>Hands-on manual therapy — joint mobilisation, soft tissue work, manual stretching — helps reduce pain and improve mobility in restricted areas. Manual therapy creates a window for active rehabilitation to be more effective.",
-    "<strong>Condition-specific exercise prescription</strong><br/>The most evidence-supported intervention for knee pain is structured exercise — but specific exercises for your condition. Patellofemoral pain needs different exercise to ACL reconstruction. Tendinopathies require eccentric loading protocols. Each condition has its own evidence-based exercise approach.",
-    "<strong>Biomechanical analysis and movement assessment</strong><br/>Many chronic knee conditions have underlying biomechanical contributors — hip weakness causing knee valgus, foot position affecting alignment, gait patterns putting repetitive stress. Our assessment includes biomechanical analysis appropriate to your activity demands.",
-    "<strong>Dry needling for chronic muscle patterns</strong><br/>For chronic muscle tension affecting knee mechanics — dry needling is effective at releasing trigger points and reducing protective muscle guarding.",
-    "<strong>Modalities where evidence supports</strong><br/>Shockwave therapy is evidence-based for chronic patellar tendinopathy, IT band tendinopathy, and pes anserinus bursitis. We use it as an adjunct to active rehabilitation, not replace it.",
-    "<strong>Patient education and self-management</strong><br/>Understanding your knee condition substantially improves outcomes. We explain what is happening, why specific treatments work, expected recovery timelines, what activities are safe, what to avoid, and how to prevent recurrence."
-  ],
-  quote: "\"Generic knee exercises produce generic outcomes. Treatment matched to your specific condition produces meaningfully better results.\""
-};
 
 export const kneePainOutcomes = {
   bgColor: "bg-[#F5F1EB]",
@@ -158,12 +84,6 @@ export const kneePainOutcomes = {
       days: "4–8 weeks",
       severity: "8–16 weeks",
       medication: "Return to sport timing"
-    },
-    {
-      subtype: "ACL reconstruction recovery",
-      days: "0–12 weeks",
-      severity: "9–12 months",
-      medication: "Return-to-sport criteria adherence"
     },
     {
       subtype: "IT band syndrome",
@@ -219,33 +139,20 @@ export const kneePainOutcomes = {
   footer: "These timelines represent typical patterns. Your specific timeline depends on condition severity, when treatment starts, compliance with home programmes, return-to-activity goals, age and overall health, and underlying contributing factors. At initial assessment, you receive a specific timeline estimate for your situation."
 };
 
-export const kneePainReviews = {
-  label: "PATIENT STORIES",
-  title: "Real knee pain recoveries.",
-  bgColor: "bg-white",
-  cardBgColor: "rgb(248, 244, 238)",
-  isDarkText: true,
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara+Care+Polyclinic+JVC+Dubai",
-  items: [],
-  stats: [
-    { value: "4.7", label: "stars on Google" },
-    { value: "15", label: "reviews (real, verified)" }
-  ],
-  buttonText: "Read All Knee Pain Reviews"
-};
+export const kneePainReviews = physioReviewsBlock('What patients say about physiotherapy with Hafsina K K');
 
 export const kneePainTeam = {
   bgColor: "bg-[#F8F4EE]",
   cardColor: "bg-white",
   label: "THE TEAM",
-  title: "Your knee pain physiotherapist at our JVC clinic.",
+  title: "Your knee physiotherapist at our JVC clinic.",
   members: [
     {
-      name: "Hafsina K K, DHA-Licensed Physiotherapist",
-      qualification: "DHA-P 64812828",
-      specialties: ["Orthopedic Rehabilitation", "Sports Knee", "Post-Surgical Rehab"],
+      name: "Hafsina K K",
+      qualification: "Bachelor of Physiotherapy · DHA-P 64812828 · 7+ years' experience",
+      specialties: ["Knee Pain", "Sports Knee Injuries", "Knee Arthritis", "Gait Analysis"],
       experience: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
-      languages: ["English"],
+      languages: ["English", "Hindi", "Malayalam"],
       image: "/images/hafsina-kk-physiotherapist-dubai.webp",
       alt: "Hafsina K K knee pain physiotherapist Vedara Care JVC Dubai",
       link: "/doctors/hafsina-kk-physiotherapist/"
@@ -253,22 +160,7 @@ export const kneePainTeam = {
   ]
 };
 
-export const kneePainPricing = {
-  label: "TRANSPARENT PRICING",
-  bgColor: "bg-[#F5F1E8]",
-  title: "What knee pain physiotherapy at our JVC clinic costs.",
-  services: [
-    { name: "Initial knee pain assessment (60 min)", price: "AED 350" },
-    { name: "Follow-up session (45-60 min)", price: "AED 350" },
-    { name: "Running gait analysis (90 min)", price: "AED 450" },
-    { name: "Dry needling (add-on)", price: "AED 150" },
-    { name: "Acute knee injury package (8 sessions)", price: "AED 1,800" },
-    { name: "Chronic knee pain programme (12 sessions)", price: "AED 2,800" },
-    { name: "ACL rehabilitation programme (40-60 sessions, 9-12 months)", price: "AED 9,800" }
-  ],
-  insuranceText: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> before booking to confirm coverage.',
-  // insurances: ["Daman", "AXA", "Allianz", "Oman Insurance", "Now Health", "Bupa", "MetLife"]
-};
+
 
 export const kneePainFaqs = {
   bgColor: "bg-[#F2EDE5]",
@@ -277,109 +169,33 @@ export const kneePainFaqs = {
     { text: "Visit physiotherapy main page", href: "/physiotherapy-jvc/" },
     { text: "Sports injury physiotherapy", href: "/physiotherapy/sports-injury-jvc/" }
   ],
-  title: "What knee pain patients ask before booking.",
-  description: "For general physiotherapy questions, see our main physiotherapy page.",
+  title: "Knee pain physiotherapy: your questions answered.",
+  description: "Answers reviewed by Hafsina K K, DHA-licensed physiotherapist.",
   faqs: [
-    {
-      question: "Do I need surgery for my knee pain?",
-      answer: "Most knee pain does not require surgery. Research consistently shows that physiotherapy is at least as effective as surgery for many common knee conditions including degenerative meniscus tears, knee osteoarthritis, and patellofemoral pain. Surgery is appropriate for specific situations — significant ACL tears in active patients, complex meniscus tears causing mechanical symptoms, severe osteoarthritis after exhaustive conservative care. Even when surgery is appropriate, good physiotherapy supports better surgical outcomes."
-    },
-    {
-      question: "What is causing my knee pain?",
-      answer: "Knee pain has many possible causes — patellofemoral pain syndrome, meniscus injuries, ligament strains, IT band syndrome, patellar tendinopathy, osteoarthritis, bursitis, and others. The specific cause determines the appropriate treatment. Accurate diagnosis requires comprehensive clinical assessment — detailed history, specific orthopaedic tests, movement assessment, sometimes review of imaging."
-    },
-    {
-      question: "How long will my knee pain take to resolve?",
-      answer: "Highly variable by condition. Patellofemoral pain typically resolves in 8–16 weeks. Meniscus injuries in 12–24 weeks with conservative treatment. Patellar tendinopathy in 12–24 weeks. ACL reconstruction recovery 9–12 months. Knee osteoarthritis requires ongoing management. At initial assessment, you receive a specific timeline estimate for your specific condition."
-    },
-    {
-      question: "My MRI showed a meniscus tear — do I need surgery?",
-      answer: "Not necessarily. Research consistently shows that conservative treatment is often as effective as surgery for many meniscus tears, particularly degenerative tears in older patients. Surgery is appropriate for specific situations — locking knees, specific tear types in younger active patients, tears with associated significant damage. Many patients with meniscus tears on MRI do well with physiotherapy without surgery."
-    },
-    {
-      question: "What is 'runner's knee' and how is it treated?",
-      answer: "Runner's knee usually refers to patellofemoral pain syndrome — pain around or behind the kneecap, particularly with stairs, squatting, prolonged sitting, or running. Most often caused by a combination of factors: hip weakness allowing knee valgus, quadriceps imbalance, training load issues, foot mechanics. Highly responsive to specific treatment including hip strengthening, motor control training, and gait analysis. Most patients improve substantially in 8–12 weeks."
-    },
-    {
-      question: "Why does my knee hurt going down stairs?",
-      answer: "Pain going down stairs is classic patellofemoral pain — the patella experiences high loads with the knee bent under body weight. Other causes include patellar tendinopathy and early knee osteoarthritis. Treatment depends on accurate diagnosis but typically involves addressing hip strength, quadriceps function, and movement patterns. Most patients improve substantially with structured treatment."
-    },
-    {
-      question: "Can knee osteoarthritis be treated with physiotherapy?",
-      answer: "Yes — physiotherapy is the evidence-based first-line treatment for knee osteoarthritis. Despite irreversible structural changes, the dynamic factors driving symptoms respond well to treatment. Strength training, weight management coordination, and activity modification often substantially reduce symptoms. Many patients with significant imaging changes maintain excellent function with appropriate ongoing care, deferring or avoiding knee replacement surgery."
-    },
-    {
-      question: "Where in Dubai is your knee pain physiotherapy clinic?",
-      answer: "Our DHA-licensed clinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Patients travel to us from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and across Dubai."
-    },
-    {
-      question: "How quickly can I get an appointment for knee pain?",
-      answer: 'Same-week appointments are typical for knee pain assessment. For acute knee injuries (sudden onset, recent trauma, inability to weight-bear), same-day or next-day appointments are often available. <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> for fastest response — typically within 15 minutes during business hours.'
-    },
-    {
-      question: "Do I need imaging before physiotherapy for knee pain?",
-      answer: "Often not. Most knee pain diagnosis is clinical — based on history, examination, and movement assessment. Imaging may be appropriate if specific clinical findings suggest serious pathology, if treatment is not progressing as expected, or if surgical consideration arises. Imaging alone does not determine treatment — patients with significant imaging findings often respond excellently to physiotherapy."
-    },
-    {
-      question: "Does insurance cover knee pain physiotherapy?",
-      answer: 'Most Dubai insurance plans cover knee pain physiotherapy with medical justification. We provide insurance reimbursement support for Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking to confirm specific coverage.'
-    },
-    {
-      question: "Can I run with knee pain?",
-      answer: "Depends on the specific cause. Some knee conditions improve with continued modified running; others require temporary running cessation while other conditioning continues. At assessment, you receive specific guidance on what activities are safe and beneficial for your specific condition. Calibrated activity modification produces better outcomes than either 'push through the pain' or complete rest."
-    },
-    {
-      question: "What about gym training with knee pain?",
-      answer: "Most knee conditions allow modified gym training during treatment. Some movements may need temporary modification (deep squats, lunges, jumping movements); other training continues. Continuing appropriate training during knee treatment often produces better outcomes than complete cessation — it maintains general fitness while the knee recovers."
-    },
-    {
-      question: "Can adolescents have knee pain treated?",
-      answer: "Yes — adolescent knee pain is common, particularly Osgood-Schlatter disease in active young athletes, Sinding-Larsen-Johansson syndrome, patellar instability, sports injuries. Our physiotherapists provide age-appropriate treatment accounting for growth factors and the unique aspects of adolescent musculoskeletal development. For younger children, see our <a href=\"/physiotherapy/pediatric-dubai/\" style=\"color: rgb(184, 150, 90); text-decoration: underline;\">paediatric physiotherapy page</a>."
-    }
-    , {
-      question: "What about knee pain during pregnancy?",
-      answer: "Pregnancy-related knee pain is common, related to weight gain, postural changes, hormonal effects on ligaments, and biomechanical changes. Treatment is calibrated to pregnancy considerations — modified positions, pregnancy-appropriate exercises, manual therapy techniques safe for pregnancy. Treatment is provided by our DHA-licensed female physiotherapist."
-
-    },
-
-    {
-      question: "What is dry needling for knee pain?",
-      answer: "Dry needling uses fine needles to release trigger points and tight muscle bands contributing to knee pain — particularly chronic quadriceps tension, tight calves affecting knee mechanics, hip muscle patterns referring to the knee. Different from acupuncture in mechanism. Performed by certified physiotherapists. Particularly useful for chronic patterns that have not responded to other approaches."
-    },
-    {
-      question: "What about ACL injuries — surgery or physiotherapy?",
-      answer: "The decision depends on multiple factors: completeness of the tear, your activity level and goals, presence of associated injuries, age, lifestyle. Active patients in cutting sports typically benefit from reconstruction. Less active patients may do well with conservative management without surgery. For rehabilitation after ACL reconstruction, see our <a href=\"/physiotherapy/post-surgery-rehab-dubai/\" style=\"color: rgb(184, 150, 90); text-decoration: underline;\">post-surgery physiotherapy page</a>."
-    },
-    {
-      question: "Do you provide rehabilitation after knee surgery or ACL reconstruction?",
-      answer: "Yes. Rehabilitation after knee replacement, ACL reconstruction and meniscus surgery, plus prehab before surgery, is covered on our <a href=\"/physiotherapy/post-surgery-rehab-dubai/\" style=\"color: rgb(184, 150, 90); text-decoration: underline;\">post-surgery physiotherapy page</a>."
-    }
-
-    , {
-      question: "What about post-surgical knee rehabilitation?",
-      answer: "We provide structured, protocol-driven post-surgical knee rehabilitation for meniscectomy, meniscus repair, ACL reconstruction, and knee replacement. Our physiotherapists coordinate with your operating surgeon to follow their specific protocol. Learn more on our <a href=\"/physiotherapy/post-surgery-rehab-dubai/\" style=\"color: rgb(184, 150, 90); text-decoration: underline;\">post-surgical rehabilitation page</a>."
-    }
-
-    , {
-      question: "Will my knee pain come back?",
-      answer: "Recurrence depends on whether the underlying causes are addressed. Knee pain that resolves with symptomatic treatment often returns because underlying biomechanical or training factors continue. Knee pain treated comprehensively — addressing the underlying patterns — typically has lower recurrence rates. Our approach includes prevention strategies and long-term self-management capability."
-    }
-
-    , {
-      question: "How is knee pain physiotherapy at Vedara different?",
-      answer: "Accurate condition-specific diagnosis, evidence-based protocols specific to your condition, longer sessions (60 minutes) allowing thorough assessment, gait analysis available for running-related knee pain, same therapist throughout treatment for continuity, transparent published pricing, coordination with orthopaedic surgeons when surgical consideration arises, and honest discussion about when surgery is and is not needed. For general physiotherapy questions, see our <a href=\"/physiotherapy-jvc/\" style=\"color: rgb(184, 150, 90); text-decoration: underline;\">physiotherapy main page</a>."
-    }
-
-    , {
-      question: "How do I book a knee pain physiotherapy assessment?",
-      answer: 'Three ways: (1) <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp +971 55 573 6312</a> — fastest response, ideal for sending imaging and brief symptom description. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, bring: any imaging (MRI, X-rays), medical reports, current medication list, insurance card, comfortable clothing, and athletic shoes if relevant.'
-    }]
+    { question: "Do I need surgery for my knee pain?", answer: "Most knee pain does not need surgery. For runner's knee, knee arthritis, many meniscus tears and most ligament sprains, physiotherapy is the first-line treatment and often works as well as an operation." },
+    { question: "When should I see a doctor instead of a physiotherapist for knee pain?", answer: "See a doctor first if your knee swelled quickly after a twist, you cannot put weight on it, it locks or keeps giving way, it is hot and red, or you have a fever. Our in-house GP can see you; go to A&E for severe injuries." },
+    { question: "What is causing my knee pain?", answer: "Common causes are runner's knee, meniscus tears, ligament sprains, IT band pain, patellar tendinopathy and osteoarthritis. An assessment of how your knee moves and takes load usually identifies the cause." },
+    { question: "My MRI shows a meniscus tear. Do I need surgery?", answer: "Not necessarily. Many meniscus tears, especially wear-related ones, improve with physiotherapy, and tears are common in people with no knee pain. Surgery is considered if the knee keeps locking or does not improve with good rehabilitation." },
+    { question: "Do I need a scan before physiotherapy for knee pain?", answer: "Usually not. Most knee problems are diagnosed by examination; a scan is useful if the knee locks, gives way, or does not improve." },
+    { question: "Can physiotherapy help knee arthritis?", answer: "Yes. Exercise is the most effective treatment for knee osteoarthritis: strengthening, low-impact activity and weight management reduce pain and improve walking." },
+    { question: "Does losing weight help knee pain?", answer: "Yes. Even a small weight loss reduces the load on the knee and can reduce arthritis pain. Our in-house GP can support weight management alongside physiotherapy." },
+    { question: "Do you give knee injections?", answer: "No. If pain stays severe despite exercise, our GP can refer you to a specialist to discuss steroid or other injections." },
+    { question: "What is runner's knee and how is it treated?", answer: "Pain around or behind the kneecap, often with running, stairs or long sitting. Treatment strengthens the hip and thigh, adjusts training load, and checks running technique with video gait analysis." },
+    { question: "Why does my knee hurt going down stairs?", answer: "Going downstairs puts high load through the kneecap, so it is a typical sign of runner's knee or arthritis. Strengthening the thigh and hip usually helps." },
+    { question: "Can I keep running or going to the gym with knee pain?", answer: "Often yes, with changes. Your physiotherapist tells you which exercises and distances to keep, reduce or pause while the knee recovers." },
+    { question: "Can I get a same-day appointment for a knee injury?", answer: "Yes. Same-day appointments are available for new knee injuries at our JVC clinic, open daily 9am to 10pm." },
+    { question: "Do you treat ACL injuries?", answer: "Yes, without surgery here. After ACL reconstruction, see our post-surgery physiotherapy page, which covers return-to-sport testing." },
+    { question: "Do you treat knee pain in children?", answer: "Yes. Knee pain in under-18s, including Osgood-Schlatter, is covered on our paediatric physiotherapy page." },
+    { question: "Can pregnant women have physiotherapy for knee pain?", answer: "Yes, with exercises and positions adapted to pregnancy, by a female physiotherapist." },
+    { question: "Does insurance cover knee physiotherapy?", answer: "Most Dubai plans cover it when it is medically needed, usually with a yearly session limit. Vedara Care works on reimbursement and provides the documents your insurer needs." },
+    { question: "Where is the clinic?", answer: "Vedara Care Polyclinic, Binghatti Azure, Shop 4, Al Barsha South Fourth, Jumeirah Village Circle, Dubai, walking distance from Circle Mall. Open daily 9am to 10pm." }
+  ]
 };
 
 export const kneePainLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
-  title: "Where knee pain physiotherapy happens at Vedara Care JVC.",
+  title: "Where to find our knee physiotherapy clinic in JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
@@ -393,7 +209,7 @@ export const kneePainLocation = {
     "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road",
     "Patients travel from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills"
   ],
-  description: "Our JVC clinic has dedicated physiotherapy treatment rooms, manual therapy plinths, a full rehabilitation gym with strength training equipment for knee rehabilitation, dry needling and shockwave therapy equipment, modern modalities, gait analysis capability, and accessibility for patients with limited mobility.",
+  description: "Knee physiotherapy takes place at Vedara Care Polyclinic in JVC, walking distance from Circle Mall: treatment rooms, a strength and exercise area, shockwave and electrical stimulation equipment, video gait analysis and an in-house GP. Free and paid parking nearby. Patients come from JVC, JVT, Al Barsha South, Arjan, Dubai Sports City, Motor City and Al Barsha.",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   image: "/images/vedara-care-jvc-clinic.jpg",
   alt: "Vedara Care JVC clinic",
@@ -404,19 +220,13 @@ export const kneePainLocation = {
 export const kneePainCTA = {
   bgColor: "bg-[#F5F1E8]",
   label: "Ready to Address Your Knee Pain?",
-  title: "Most knee pain responds to the right treatment. Let us help you find what works.",
-  description: "Whether you have acute injury, chronic ongoing issues, or are considering whether you might need surgery — the first useful step is a comprehensive knee pain assessment at our JVC clinic. We provide accurate diagnosis, condition-specific treatment plan, realistic timeline expectations, and honest discussion about treatment options. Same-week appointments typically available; same-day for acute injuries.",
+  title: "Knee pain? Start with an assessment, not a scan.",
+  description: "Whether it is a new injury, long-standing pain or arthritis, the first step is an assessment with Hafsina K K at our JVC clinic. Same-day appointments are available for new knee injuries.",
   button1Text: "Book Knee Pain Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20knee%20pain%20physiotherapy%20and%20book%20a%20consultation.",
-  bullets: [
-    "Initial assessment from AED 350",
-    "DHA-Licensed Physiotherapist",
-    "Insurance reimbursement support",
-    "Most patients avoid surgery with appropriate care",
-    "Walking distance from Circle Mall"
-  ]
+  footer: "DHA-licensed physiotherapist · In-house GP · Insurance reimbursement · Open daily 9am to 10pm · Near Circle Mall, JVC"
 };
 
 export const kneePainInjuryTypes = {
@@ -438,8 +248,8 @@ export const kneePainInjuryTypes = {
     },
     {
       number: "03",
-      title: 'ACL Injuries',
-      description: 'Anterior cruciate ligament injury — partial tears, complete tears. Conservative management is appropriate for many tears without surgery. For rehabilitation after ACL reconstruction surgery, see our <a href="/physiotherapy/post-surgery-rehab-dubai/" class="underline text-[#C9A55A] hover:opacity-85">post-surgery physiotherapy page</a>.',
+      title: "ACL Injuries (without surgery)",
+      description: "Partial ACL tears, and complete tears in people who choose rehabilitation without reconstruction: strength, balance and movement control. After ACL surgery, see <a href='/physiotherapy/post-surgery-rehab-dubai/#acl'>ACL rehabilitation</a>.",
       typicalPatient: 'Sport-related injury, padel, football, basketball, skiing'
     },
     {
@@ -480,14 +290,14 @@ export const kneePainInjuryTypes = {
     },
     {
       number: "10",
-      title: 'Osgood-Schlatter Disease',
-      description: 'Growth-related condition in adolescent athletes — pain and prominence at the tibial tuberosity below the knee. Common in adolescents during growth spurts, particularly in jumping and running sports.',
+      title: "Knee Pain in Children and Teenagers",
+      description: "Osgood-Schlatter and other growth-related knee pain. See <a href='/physiotherapy/pediatric-dubai/#growth-pain'>paediatric physiotherapy</a>.",
       typicalPatient: ' Adolescent athlete, often in football, basketball, padel academies'
     },
     {
       number: "11",
-      title: 'Post-Surgical Knee Conditions',
-      description: 'Rehabilitation after knee surgery — meniscectomy, meniscus repair, ACL reconstruction, knee replacement, arthroscopic procedures. Coordinated with operating surgeon. Specific protocols depending on procedure. Learn more on our <a href="/physiotherapy/post-surgery-rehab-dubai/" class="underline text-[#C9A55A] hover:opacity-85">post-surgical rehabilitation page</a>.',
+      title: "After Knee Surgery",
+      description: "Knee replacement, ACL reconstruction and meniscus surgery rehabilitation. See <a href='/physiotherapy/post-surgery-rehab-dubai/'>post-surgery physiotherapy</a>.",
       typicalPatient: ' Post-surgical patient, often coordinated with international surgeons'
     },
     {
@@ -528,8 +338,8 @@ export const kneePainActivityTypes = {
     },
     {
       title: 'Cycling',
-      description: 'Patellofemoral pain (often related to bike fit), IT band syndrome, anterior knee pain. Bike fit assessment often resolves many cycling-related knee issues. We provide bike fit guidance alongside treatment.',
-      typicalRecovery: '4–8 weeks with bike fit correction and treatment'
+      description: "Patellofemoral pain, IT band syndrome and front-of-knee pain from riding volume and position. We treat the knee and the strength and movement factors; a professional bike setup from a cycle shop can help too.",
+      typicalRecovery: "4-8 weeks with treatment and load changes"
     },
     {
       title: 'Recreational Sports & Activity',
@@ -547,31 +357,11 @@ export const kneePainRelatedPages = {
   linkText: "Browse all physiotherapy services",
   linkHref: "/physiotherapy-jvc/",
   pages: [
-    {
-      title: "Shoulder Pain Physiotherapy",
-      description: "Comprehensive shoulder pain treatment for rotator cuff, impingement, and other shoulder conditions — our sister pillar page.",
-      href: "/conditions/shoulder-pain-physiotherapy-dubai/"
-    },
-    {
-      title: "Sports Injury Physiotherapy",
-      description: "For sports-related knee injuries — ACL, meniscus, padel injuries, running injuries. Sport-specific protocols.",
-      href: "/physiotherapy/sports-injury-jvc/"
-    },
-    {
-      title: "Physiotherapy in JVC",
-      description: "Our complete physiotherapy department — all specialisations including knee conditions.",
-      href: "/physiotherapy-jvc/"
-    },
-    {
-      title: "Post-Surgery Physiotherapy",
-      description: "Prehab and rehabilitation after knee replacement, ACL and meniscus surgery.",
-      href: "/physiotherapy/post-surgery-rehab-dubai/"
-    },
-    {
-      title: "Arthritis Integrated Care",
-      description: "For knee osteoarthritis patients interested in integrated Ayurveda + physiotherapy care. Optional pathway combining traditional and conventional approaches.",
-      href: "/conditions/arthritis-ayurveda-dubai/"
-    }
+    { title: "Post-Surgery Physiotherapy", href: "/physiotherapy/post-surgery-rehab-dubai/", description: "Knee replacement, ACL reconstruction and meniscus surgery rehab, plus prehab." },
+    { title: "Sports Injury Physiotherapy", href: "/physiotherapy/sports-injury-jvc/", description: "Padel, running, gym and football injuries." },
+    { title: "Paediatric Physiotherapy", href: "/physiotherapy/pediatric-dubai/", description: "Knee pain in children and teenagers." },
+    { title: "Back Pain Physiotherapy", href: "/conditions/back-pain-physiotherapy-jvc/", description: "Lower back pain that can affect the knee." },
+    { title: "Ayurvedic Arthritis Treatment", href: "/conditions/arthritis-ayurveda-dubai/", description: "An optional Ayurvedic approach to arthritis at the same clinic." }
   ]
 };
 
@@ -582,7 +372,7 @@ export const kneePainTreatmentApproach = {
   content: [
     {
       title: "Comprehensive initial assessment",
-      description: "The first session is typically 60 minutes — detailed history, specific orthopaedic tests for knee conditions, movement screening, gait analysis where relevant, strength and flexibility assessment, and review of any imaging. The assessment identifies your specific knee condition and the contributing factors driving it."
+      description: "Your first session includes a full assessment and usually your first treatment; session length depends on your needs."
     },
     {
       title: "Manual therapy when indicated",
@@ -594,7 +384,7 @@ export const kneePainTreatmentApproach = {
     },
     {
       title: "Biomechanical analysis and movement assessment",
-      description: "Many chronic knee conditions have underlying biomechanical contributors — hip weakness driving knee valgus, foot pronation affecting alignment, gait patterns producing repetitive stress. Our assessment includes biomechanical analysis appropriate to your activity demands."
+      description: "Many chronic knee conditions have underlying biomechanical contributors — hip weakness driving knee valgus, foot pronation affecting alignment, gait patterns producing repetitive stress. Our assessment includes biomechanical analysis appropriate to your activity demands, including video gait analysis for runners."
     },
     {
       title: "Dry needling for chronic muscle patterns",
@@ -602,7 +392,7 @@ export const kneePainTreatmentApproach = {
     },
     {
       title: "Modalities where evidence supports",
-      description: "Shockwave therapy is evidence-based for chronic patellar tendinopathy. IFC and TENS for pain modulation. We do not use modality-heavy treatment that creates passive dependency — modalities support active rehabilitation, not replace it."
+      description: "Shockwave for long-standing patellar tendinopathy; heat, TENS and electrical stimulation for pain; never as the main treatment."
     },
     {
       title: "Patient education and self-management",
@@ -622,4 +412,33 @@ export const kneePainTreatmentApproach = {
     "Patient Education",
     "Sports Rehab"
   ]
+};
+
+export const kneePainWithoutSurgery = {
+  id: "without-surgery",
+  label: "WITHOUT SURGERY",
+  title: "Knee pain treatment without surgery: when physiotherapy is enough.",
+  content: [
+    "Most knee pain improves without surgery. For runner's knee, knee osteoarthritis, patellar tendinopathy, many meniscus tears and most MCL injuries, physiotherapy is the first-line treatment, and for degenerative meniscus tears and knee arthritis it often works as well as an operation.",
+    "<strong>A scan is not the whole story</strong><br/>MRI changes such as meniscus tears and cartilage wear are common in people with no knee pain at all. How your knee moves and how strong it is usually matter more than the scan.",
+    "<strong>When surgery is more likely to be needed</strong><br/>A knee that keeps locking or giving way, a complete ACL tear in someone returning to cutting sports, or severe arthritis that still limits daily life after good rehabilitation. If you do have surgery, see our <a href='/physiotherapy/post-surgery-rehab-dubai/'>post-surgery physiotherapy</a> page.",
+    "<strong>See a doctor first if</strong><br/>your knee swelled up quickly after a twist, you cannot put weight on it, it is hot and red or you have a fever, or it looks deformed. Our in-house GP can see you at the same clinic; go to A&E for severe injuries."
+  ],
+  image: "/images/knee-pain-assessment-vedara-jvc.webp",
+  alt: "Knee pain assessment at Vedara Care, JVC, Dubai"
+};
+
+export const kneePainArthritis = {
+  id: "knee-arthritis",
+  label: "KNEE ARTHRITIS",
+  title: "Knee arthritis (osteoarthritis): what helps.",
+  content: [
+    "Exercise is the most effective treatment for knee osteoarthritis. Strengthening the thigh and hip muscles, staying active with low-impact exercise such as walking, cycling or swimming, and losing a little weight if needed can reduce pain and improve walking, even though the joint changes themselves do not reverse.",
+    "<strong>What physiotherapy includes</strong><br/>A strength and balance programme, manual therapy, heat, TENS or electrical stimulation for pain, advice on pacing activity, and a plan you can continue at home or in the gym.",
+    "<strong>Weight management</strong><br/>Each kilogram lost reduces the load through the knee. Our in-house GP can support weight management alongside your physiotherapy.",
+    "<strong>Injections</strong><br/>Vedara Care does not give knee injections. If pain stays severe despite exercise, our GP can refer you to a specialist to discuss steroid or other injections.",
+    "<strong>Ayurvedic option</strong><br/>Some patients also choose Ayurvedic care for arthritis at our clinic; see <a href='/conditions/arthritis-ayurveda-dubai/'>Ayurvedic arthritis treatment</a>."
+  ],
+  image: "/images/knee-anatomy-illustration.webp",
+  alt: "Knee osteoarthritis physiotherapy at Vedara Care, JVC, Dubai"
 };

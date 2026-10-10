@@ -6,7 +6,7 @@ export const neckPainJvcHero = {
   ],
   label: "Neck Pain Ayurvedic Treatment · DHA-Licensed · Jumeirah Village Circle",
   title: "Neck pain Ayurvedic treatment at our JVC clinic, Dubai.",
-  description: "Authentic Ayurvedic neck pain management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. Serving Dubai's professional community across all neck pain presentations: tech neck, chronic cervical conditions, tension neck pain, post-whiplash concerns, and cervicogenic headache. Featuring Griva Basti (traditional cervical-focused therapy), Nasya nasal medication, and Shiroabhyanga head massage.",
+  description: "Authentic Ayurvedic neck pain management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. Serving Dubai's professional community across all neck pain presentations: tech neck, chronic cervical conditions, tension neck pain, post-whiplash concerns, and cervicogenic headache. Featuring Griva Basti (traditional cervical-focused therapy), Nasya nasal medication, and Shiroabhyanga head massage.<br/><br/>Looking for physiotherapy instead? See <a href='/conditions/neck-pain-physiotherapy-jvc/'>neck pain physiotherapy in JVC</a>.",
   primaryCTA: "Book a Neck Pain Consultation",
   primaryCTAHref: "/book",
   secondaryCTA: "Chat on WhatsApp",

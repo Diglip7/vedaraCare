@@ -21,6 +21,10 @@ export const pediatricPhysiotherapyHero = {
     "Parent stays in the room",
     "In-house GP at the same clinic"
   ],
+  floatingCard: {
+    title: "Pediatric physiotherapy in JVC —",
+    subtitle: " supportive, age-appropriate care for children and teens, helping improve movement, strength, balance, coordination, posture, and everyday physical activities through individualized physiotherapy plans."
+  },
   image: "/images/pediatric-physiotherapy-dubai-hero.webp",
   alt: "Hafsina K K, DHA-licensed physiotherapist, treating a child at Vedara Care's JVC clinic, Dubai"
 };

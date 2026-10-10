@@ -58,7 +58,7 @@ const SkinClinicJvc = () => {
       "url": currentUrl,
       "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
       "description": "Skin clinic at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. DHA-licensed consultant dermatologists treating all skin concerns. Patient-guided navigation helping patients identify appropriate care.",
-      "telephone": "+971 4 567 8900",
+      "telephone": "+971555736312",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Building 23, District 12",

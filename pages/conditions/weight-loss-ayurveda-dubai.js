@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import Link from 'next/link';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
@@ -631,7 +632,7 @@ const WeightLossAyurvedaDubai = () => {
       <ConditionBoundaries {...weightLossBoundaries} />
 
       {/* Section 10: Treatment Reviews */}
-      <TreatmentReviews {...weightLossJvcReviews} useKneeStyle={true} />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
       {/* Ayurvedic Team */}
       <AyurvedicTeam {...weightLossTeam} />

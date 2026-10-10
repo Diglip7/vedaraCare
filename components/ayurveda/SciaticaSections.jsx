@@ -218,6 +218,11 @@ export const SciaticaEmergency = ({ data }) => {
                     </li>
                   ))}
                 </ul>
+                {emergency.physioIndicationsNote && (
+                  <p className="mt-4 text-sm" style={{ color: 'rgb(107, 107, 107)' }}>
+                    {emergency.physioIndicationsNote}
+                  </p>
+                )}
               </div>
             )}
           </div>
@@ -453,7 +458,7 @@ export const SciaticaTreatment = ({ data, showBorderLeft = true, rightContentSty
           <div className="md:sticky md:top-6 lg:top-8 space-y-5 md:space-y-6 w-full max-w-md mx-auto md:max-w-none">
             {rightContent.image && (
               <div className="rounded-md overflow-hidden">
-                <img src={rightContent.image} alt={rightContent.alt || ''} width={rightContent.imageWidth || 1080} height={rightContent.imageHeight || 1080} loading="lazy" decoding="async" className={rightContent.imageClassName || "w-full h-auto object-contain"} />
+                <img src={rightContent.image} alt={rightContent.alt || ''} width={1080} height={1080} loading="lazy" decoding="async" className={rightContent.imageClassName || "w-full h-auto object-contain"} />
               </div>
             )}
             {showComparison && (
