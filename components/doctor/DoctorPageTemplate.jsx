@@ -417,7 +417,7 @@ const DoctorPageTemplate = ({ doctor }) => {
       )}
 
       {/* ================= SECTION 8: PRICING & INSURANCE TABLE ================= */}
-      {pricing && (
+      {/* {pricing && (
         <section className="py-20 md:py-28" style={{ backgroundColor: '#FAF6EF' }}>
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16 max-w-3xl mx-auto">
@@ -473,7 +473,7 @@ const DoctorPageTemplate = ({ doctor }) => {
             </div>
           </div>
         </section>
-      )}
+      )} */}
 
       {/* ================= SECTION 9: FAQ ================= */}
       {faqs && <FAQ {...faqs} />}

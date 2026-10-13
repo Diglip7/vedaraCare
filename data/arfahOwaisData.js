@@ -278,23 +278,23 @@ export const arfahOwaisPageData = {
   ],
 
   // ---- H2: REVIEWS ----
-  reviews: {
-    bgColor: 'bg-[#F0EBE3]',
-    cardBgColor: 'white',
-    isDarkText: true,
-    label: 'What Patients Say',
-    title: 'Real feedback from patients Arfah has worked with.',
-    // description: 'Aesthetic outcomes measured over sessions and programmes. Representative patient experiences from our Jumeirah Village Circle clinic.',
-    items: [],
-    disclaimer: 'Individual outcomes vary substantially and depend on skin type, condition, adherence to pre- and post-treatment protocols, and realistic session-count expectations. All testimonials shared with written patient consent per DHA advertising framework. No absolute or superlative claims — aesthetic treatments provide meaningful cosmetic improvement within realistic parameters.',
-    // stats: [
-    //   { value: "4.7", label: 'patient rating on Google' },
-    //   { value: '8+', label: 'years clinical experience' },
-    //   { value: 'DHA', label: 'licensed practitioner' },
-    // ],
-    // buttonText: 'Read All Reviews \u2192',
-    // buttonHref: 'https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai',
-  },
+  // reviews: {
+  //   bgColor: 'bg-[#F0EBE3]',
+  //   cardBgColor: 'white',
+  //   isDarkText: true,
+  //   label: 'What Patients Say',
+  //   title: 'Real feedback from patients Arfah has worked with.',
+  //   // description: 'Aesthetic outcomes measured over sessions and programmes. Representative patient experiences from our Jumeirah Village Circle clinic.',
+  //   items: [],
+  //   disclaimer: 'Individual outcomes vary substantially and depend on skin type, condition, adherence to pre- and post-treatment protocols, and realistic session-count expectations. All testimonials shared with written patient consent per DHA advertising framework. No absolute or superlative claims — aesthetic treatments provide meaningful cosmetic improvement within realistic parameters.',
+  //   // stats: [
+  //   //   { value: "4.7", label: 'patient rating on Google' },
+  //   //   { value: '8+', label: 'years clinical experience' },
+  //   //   { value: 'DHA', label: 'licensed practitioner' },
+  //   // ],
+  //   // buttonText: 'Read All Reviews \u2192',
+  //   // buttonHref: 'https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai',
+  // },
 
   // ---- H2: PRICING ----
   pricing: {
@@ -427,13 +427,13 @@ export const arfahOwaisPageData = {
         image: '/images/skin-analysis.webp',
         href: '/treatments/comprehensive-skin-analysis-jvc/'
       },
-      {
-        category: 'FACIAL',
-        title: 'HydraFacial JVC',
-        description: 'Signature medical-grade facial.',
-        image: '/images/hydrafacial.webp',
-        href: '/treatments/hydrafacial-jvc/'
-      },
+      // {
+      //   category: 'FACIAL',
+      //   title: 'HydraFacial JVC',
+      //   description: 'Signature medical-grade facial.',
+      //   image: '/images/hydrafacial.webp',
+      //   href: '/treatments/hydrafacial-jvc/'
+      // },
       {
         category: 'SKIN LIFTING',
         title: 'HIFU Skin Lifting JVC',

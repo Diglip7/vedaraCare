@@ -1159,7 +1159,7 @@ export const drZainab = {
     'Current Position — Ayurvedic Doctor, Vedara Care Polyclinic, JVC Dubai'
   ],
   languagesSpoken: [
-    'English only (until clinic confirms)'
+    'English'
   ],
   professionalMemberships: [
     'Dubai Health Authority (DHA) — licensed practitioner',
