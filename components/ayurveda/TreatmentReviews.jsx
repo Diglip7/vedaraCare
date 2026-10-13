@@ -42,7 +42,11 @@ const TreatmentReviews = ({
           </div>
 
           {/* Reviews Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className={`grid grid-cols-1 ${
+            items.length === 1 ? 'md:grid-cols-1 max-w-md mx-auto' : 
+            items.length === 2 ? 'md:grid-cols-2 max-w-3xl mx-auto' : 
+            'md:grid-cols-3'
+          } gap-8 mb-16`}>
             {items.map((review, index) => (
               <div
                 key={index}
@@ -140,7 +144,11 @@ const TreatmentReviews = ({
         </div>
 
         {/* Reviews Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className={`grid grid-cols-1 ${
+          items.length === 1 ? 'md:grid-cols-1 max-w-md mx-auto' : 
+          items.length === 2 ? 'md:grid-cols-2 max-w-3xl mx-auto' : 
+          'md:grid-cols-3'
+        } gap-8 mb-16`}>
           {items.map((review, index) => (
             <div
               key={index}

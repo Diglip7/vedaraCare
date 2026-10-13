@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Plus, Minus, MessageCircle } from 'lucide-react';
 
 const FAQ = ({
+  bgColor,
   eyebrow,
   label,
   title,
@@ -27,7 +28,7 @@ const FAQ = ({
     { label: "Ask Our Team on WhatsApp", href: defaultWhatsApp };
 
   return (
-    <section className="bg-white py-24">
+    <section className={`${bgColor || 'bg-white'} py-24`}>
       <div className="max-w-[1440px] mx-auto px-6 md:px-12">
         <div className="grid lg:grid-cols-[40%_60%] gap-12">
           {/* Left Side: Header Content */}

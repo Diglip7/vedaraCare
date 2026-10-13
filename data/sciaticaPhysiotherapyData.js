@@ -258,7 +258,7 @@ export const sciaticaPiriformis = {
     "<strong>How physiotherapy treats it</strong><br/>Dry needling and soft-tissue release for the piriformis, hip and gluteal strengthening, nerve mobilisation, stretching, and advice on sitting and training load. Most people improve within a few weeks.",
     "<strong>Can sitting cause it?</strong><br/>Yes. Long hours sitting, especially on a wallet or a hard seat, is a common trigger; short movement breaks every 30-45 minutes help."
   ],
-  image: "/images/lumbar-spine-sciatica-anatomy-illustration.webp",
+  image: "/images/lumbar-sciatica-piriformis.webp",
   alt: "Piriformis syndrome and sciatic nerve, Vedara Care physiotherapy, JVC"
 };
 

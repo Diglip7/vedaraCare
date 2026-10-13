@@ -24,8 +24,8 @@ const TreatmentMechanism = ({
 
   return (
     <section className={`${bgColor} py-24 px-6 relative`}>
-      <div className="max-w-7xl mx-auto">
-        
+      <div className="max-w-5xl mx-auto">
+
         {/* Text Header - Centered */}
         <div className="text-center mb-16">
           <div className="text-[#C8975F] text-sm font-semibold tracking-wider mb-3">
@@ -45,7 +45,7 @@ const TreatmentMechanism = ({
             {/* Text Content */}
             <div className={`lg:w-[50%] space-y-6 text-gray-700 leading-relaxed ${imageLeft ? 'lg:order-2' : 'lg:order-1'}`}>
               {content.map((paragraph, index) => (
-                <p 
+                <p
                   key={index}
                   dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
@@ -84,10 +84,10 @@ const TreatmentMechanism = ({
             {/* Image + Key Fact / Comparison */}
             <div className={`lg:w-[50%] sticky top-24 self-start ${imageLeft ? 'lg:order-1' : 'lg:order-2'}`}>
               {image && (
-                <img 
-                  src={image} 
-                  alt={alt} 
-                  className="w-full h-auto object-contain rounded-xl shadow-lg"/>
+                <img
+                  src={image}
+                  alt={alt}
+                  className="w-full h-auto object-contain rounded-xl shadow-lg" />
               )}
 
               {/* Comparison Section */}
@@ -131,8 +131,8 @@ const TreatmentMechanism = ({
                   </p>
                   <div className="space-y-3">
                     {keyAnatomy.map((item, index) => (
-                      <div 
-                        key={index} 
+                      <div
+                        key={index}
                         className="pb-3 last:pb-0"
                         style={{ borderBottom: index < keyAnatomy.length - 1 ? "1px solid rgba(28, 21, 10, 0.06)" : "none" }}
                       >
@@ -177,19 +177,19 @@ const TreatmentMechanism = ({
 
               {/* Our Coordination Approach */}
               {coordinationApproach && (
-                <div className="p-7 sticky top-24 mt-6" style={{border: "1.5px solid rgb(184, 151, 90)", borderRadius: "8px", background: "rgb(250, 246, 238)", fontFamily: "var(--font-sans), sans-serif"}}>
-                  <p className="text-[10px] font-medium tracking-widest uppercase mb-5" style={{color: "rgb(184, 151, 90)"}}>
+                <div className="p-7 sticky top-24 mt-6" style={{ border: "1.5px solid rgb(184, 151, 90)", borderRadius: "8px", background: "rgb(250, 246, 238)", fontFamily: "var(--font-sans), sans-serif" }}>
+                  <p className="text-[10px] font-medium tracking-widest uppercase mb-5" style={{ color: "rgb(184, 151, 90)" }}>
                     {coordinationApproach.label}
                   </p>
                   {coordinationApproach.subtitle && (
-                    <p className="text-sm font-medium mb-4" style={{color: "rgb(28, 26, 22)"}}>
+                    <p className="text-sm font-medium mb-4" style={{ color: "rgb(28, 26, 22)" }}>
                       {coordinationApproach.subtitle}
                     </p>
                   )}
                   {coordinationApproach.items && coordinationApproach.items.length > 0 && (
                     coordinationApproach.items.map((item, index) => (
-                      <div key={index} className="flex items-start gap-2 mb-3 text-sm" style={{color: "rgb(107, 100, 86)"}}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check" style={{color: "rgb(184, 151, 90)", marginTop: "2px", flexShrink: "0"}}>
+                      <div key={index} className="flex items-start gap-2 mb-3 text-sm" style={{ color: "rgb(107, 100, 86)" }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check" style={{ color: "rgb(184, 151, 90)", marginTop: "2px", flexShrink: "0" }}>
                           <path d="M20 6 9 17l-5-5"></path>
                         </svg>
                         {item}
@@ -197,13 +197,13 @@ const TreatmentMechanism = ({
                     ))
                   )}
                   {coordinationApproach.bottomSection && (
-                    <div className="mt-6 pt-6" style={{borderTop: "1px solid rgba(184, 151, 90, 0.2)"}}>
-                      <p className="text-sm font-medium mb-3" style={{color: "rgb(28, 26, 22)"}}>
+                    <div className="mt-6 pt-6" style={{ borderTop: "1px solid rgba(184, 151, 90, 0.2)" }}>
+                      <p className="text-sm font-medium mb-3" style={{ color: "rgb(28, 26, 22)" }}>
                         {coordinationApproach.bottomSection.title}
                       </p>
                       {coordinationApproach.bottomSection.items && coordinationApproach.bottomSection.items.length > 0 && (
                         coordinationApproach.bottomSection.items.map((item, index) => (
-                          <p key={index} className="text-xs mb-2 leading-[1.5]" style={{color: "rgb(107, 100, 86)"}}>
+                          <p key={index} className="text-xs mb-2 leading-[1.5]" style={{ color: "rgb(107, 100, 86)" }}>
                             {item}
                           </p>
                         ))

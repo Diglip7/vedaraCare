@@ -316,7 +316,7 @@ export const strokeRehabTeam = {
   label: "THE TEAM",
   title: "Your stroke rehabilitation physiotherapist at our JVC clinic.",
   description: "Hafsina K K treats every stroke patient herself, working with the patient and family from the first assessment.",
-  bgColor: "bg-[#F8F5F0]",
+  bgColor: "bg-[#FFFFFF]",
   team: [
     {
       name: "Hafsina K K",

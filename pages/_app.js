@@ -3,25 +3,19 @@ import { useEffect } from 'react';
 import "@/styles/globals.css";
 import Layout from "@/components/Layout";
 import { useRouter } from 'next/router';
-import { Inter, Nunito_Sans, Fraunces } from 'next/font/google';
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
+import '@fontsource/nunito-sans/300.css';
+import '@fontsource/nunito-sans/400.css';
+import '@fontsource/nunito-sans/500.css';
+import '@fontsource/nunito-sans/600.css';
+import '@fontsource/nunito-sans/700.css';
+import '@fontsource/nunito-sans/900.css';
+import '@fontsource/nunito-sans/400-italic.css';
+import '@fontsource-variable/fraunces';
 
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-});
-
-const nunitoSans = Nunito_Sans({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-nunito-sans',
-});
-
-const fraunces = Fraunces({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-fraunces',
-});
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
@@ -54,7 +48,7 @@ export default function App({ Component, pageProps }) {
   }, [router.asPath]);
 
   return (
-    <div className={`font-sans antialiased ${inter.variable} ${nunitoSans.variable} ${fraunces.variable}`}>
+    <div className="font-sans antialiased">
       <Script id="gtm" strategy="afterInteractive">
         {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M3JC2THK');`}
       </Script>

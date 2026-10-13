@@ -315,7 +315,7 @@ export const shoulderPhysioConditions = {
     {
       number: "12",
       title: "Frozen Shoulder",
-      description: "Stiffness in every direction that builds over months. See our <a href='/conditions/frozen-shoulder-dubai/'>frozen shoulder treatment</a> page.",
+      description: "Stiffness in every direction that builds over months. See our frozen shoulder treatment page.",
       href: "/conditions/frozen-shoulder-dubai/"
     }
   ],
@@ -378,7 +378,7 @@ export const shoulderPhysioApproach = {
     footer: "\"The shoulder treatment that works for rotator cuff tendinopathy can fail for impingement, which differs from instability, which differs from frozen shoulder. Pattern-specific treatment is the difference between adequate and excellent outcomes.\""
   },
   rightContent: {
-    image: "/images/shoulder-assessment-vedara-jvc.webp",
+    image: "/images/shoulder-rotator.webp",
     alt: "Evidence-based shoulder pain treatment at Vedara Care JVC Dubai",
     label: "",
     tags: [
@@ -509,7 +509,7 @@ export const shoulderRotatorCuff = {
     "<strong>When surgery is more likely</strong><br/>A sudden large tear after an injury in a younger, active person, marked weakness lifting the arm, or no improvement after a good rehabilitation programme. Our in-house GP can refer you for an injection or, on request, we can suggest surgeons for an opinion.",
     "<strong>See a doctor first if</strong><br/>you suddenly cannot lift your arm after a fall, the shoulder looks deformed, or you have fever with a hot, swollen shoulder. Go to A&E for a suspected dislocation or fracture."
   ],
-  image: "/images/shoulder-anatomy-illustration.webp",
+  image: "/images/shoulder-rotator-cuff.webp",
   alt: "Rotator cuff anatomy and physiotherapy, Vedara Care, JVC, Dubai"
 };
 

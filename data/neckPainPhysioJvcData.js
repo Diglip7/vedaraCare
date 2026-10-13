@@ -171,6 +171,7 @@ export const neckPainExercises = {
 
 export const neckPainSleepDesk = {
   id: "sleep-and-desk",
+  bgColor: "bg-white",
   label: "SLEEP AND DESK",
   title: "Pillow, sleeping position and desk setup for neck pain.",
   content: [
@@ -179,7 +180,7 @@ export const neckPainSleepDesk = {
     "<strong>Phone</strong><br/>Lift the phone towards eye level instead of bending your head down to it.",
     "<strong>At the clinic</strong><br/>Hafsina K K can assess your posture and give a desk and sleep plan at the clinic; bring photos of your workstation if you can. We do not visit workplaces."
   ],
-  image: "/images/neck-pain-sleep.webp",
+  image: "/images/neck-pain-sleeping-position.webp",
   alt: "Posture and desk-setup advice for neck pain, Vedara Care, JVC"
 };
 
