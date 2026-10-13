@@ -57,7 +57,7 @@ export const homeExperts = {
     { name: 'Hafsina K K', role: 'Physiotherapist', qualification: "Bachelor of Physiotherapy · 7 years' experience", licence: 'DHA-P 64812828', image: '/images/hafsina-kk-physiotherapist-dubai.webp', href: '/doctors/hafsina-kk-physiotherapist' },
     { name: 'Dr. Zainab Sheikh', role: 'Ayurveda Practitioner', qualification: "DHA Licensed Ayurveda Practitioner · 4.5 years' experience", licence: 'DHA licence 20918133', image: '/images/dr-zainab-ayurveda-jvc.webp', href: '/doctors/dr-zainab-ayurveda' },
     // Show when her DHA licence at Vedara is issued: set hidden:false and fill licence
-    { name: 'Dr. Anusha Makkena', role: 'General Practitioner & Aesthetic Medicine Physician', qualification: 'MBBS, MS ENT · MOH Licensed ', licence: 'DHA-P ', image: '/images/dr-anusha-makkena.webp', href: '/doctors/dr-anusha-makkena', hidden: true },
+    { name: 'Dr. Arfah Owais', role: 'Aesthetician', qualification: 'CIBTAC-UK Diploma · 8+ years experience', licence: ' DHA licence 19479630', image: '/images/arfah-owais-portrait.webp ', href: '/doctors/arfah-owais/', hidden: false },
   ],
   allLink: { label: 'See all clinicians', href: '/doctors' },
 };

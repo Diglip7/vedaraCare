@@ -1360,27 +1360,27 @@ export const drZainab = {
       ]
     }
   },
-  pricing: {
-    label: "TRANSPARENT PRICING",
-    title: "Consultation with Dr. Zainab — pricing and insurance.",
-    consultationRows: [
-      { type: "Initial consultation (Nadi Pareeksha + Prakriti assessment + treatment plan)", duration: "90 minutes", price: "AED [X]" },
-      { type: "Follow-up consultation", duration: "30–45 minutes", price: "AED [X]" },
-      { type: "Extended follow-up (complex cases)", duration: "60 minutes", price: "AED [X]" },
-      { type: "Consultation with Panchakarma programme discussion", duration: "60 minutes", price: "AED [X]" },
-      { type: "Postnatal Ayurvedic care initial consultation", duration: "90 minutes", price: "AED [X]" },
-      { type: "WhatsApp consultation follow-up (existing patients only)", duration: "Message-based", price: "AED [X]" }
-    ],
-    insurance: {
-      title: "Insurance Information",
-      paragraph1: "Ayurvedic consultations for medically indicated conditions may be covered by some Dubai insurance policies with appropriate justification. Direct billing available with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
-      paragraph2: "WhatsApp your insurance card to +971 155 573 6312  for specific coverage discussion."
-    },
-    treatmentCosts: {
-      title: "Treatment Costs",
-      description: "Treatment costs are separate from consultation pricing. Panchakarma programmes, individual therapies, and internal Ayurvedic medicines are priced per treatment or programme. See Detox Treatment Dubai and Ayurveda Clinic JVC pages for treatment pricing."
-    }
-  },
+  // pricing: {
+  //   label: "TRANSPARENT PRICING",
+  //   title: "Consultation with Dr. Zainab — pricing and insurance.",
+  //   consultationRows: [
+  //     { type: "Initial consultation (Nadi Pareeksha + Prakriti assessment + treatment plan)", duration: "90 minutes", price: "AED [X]" },
+  //     { type: "Follow-up consultation", duration: "30–45 minutes", price: "AED [X]" },
+  //     { type: "Extended follow-up (complex cases)", duration: "60 minutes", price: "AED [X]" },
+  //     { type: "Consultation with Panchakarma programme discussion", duration: "60 minutes", price: "AED [X]" },
+  //     { type: "Postnatal Ayurvedic care initial consultation", duration: "90 minutes", price: "AED [X]" },
+  //     { type: "WhatsApp consultation follow-up (existing patients only)", duration: "Message-based", price: "AED [X]" }
+  //   ],
+  //   insurance: {
+  //     title: "Insurance Information",
+  //     paragraph1: "Ayurvedic consultations for medically indicated conditions may be covered by some Dubai insurance policies with appropriate justification. Direct billing available with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife.",
+  //     paragraph2: "WhatsApp your insurance card to +971 155 573 6312  for specific coverage discussion."
+  //   },
+  //   treatmentCosts: {
+  //     title: "Treatment Costs",
+  //     description: "Treatment costs are separate from consultation pricing. Panchakarma programmes, individual therapies, and internal Ayurvedic medicines are priced per treatment or programme. See Detox Treatment Dubai and Ayurveda Clinic JVC pages for treatment pricing."
+  //   }
+  // },
   faqs: {
     label: "COMMON QUESTIONS",
     sidebarLinks: [
@@ -1806,11 +1806,11 @@ export const drSanjida = {
 // AESTHETICIAN ARFAH OWAIS — FULL TEMPLATE DATA
 // =====================================================
 export const arfahOwaisTemplate = {
-  name: 'Meet Arfah Owais — DHA-licensed aesthetician at our JVC clinic in Dubai.',
-  firstName: 'Meet Arfah Owais DHA-licensed aesthetician at our JVC clinic in Dubai.',
+  name: 'Meet Arfah Owais — DHA-licensed Aesthetician at our JVC clinic in Dubai.',
+  firstName: 'Meet Arfah Owais DHA-licensed Aesthetician at our JVC clinic in Dubai.',
   title: 'DHA Licensed Aesthetician | CIBTAC-UK Diploma Holder | NCLC Certified | PMU Certified | Advanced Skin Treatments | Luxury Skin Care.',
   image: '/images/arfah-owais-portrait.webp',
-  alt: 'Meet Arfah Owais — DHA-licensed aesthetician at our JVC clinic in Dubai.',
+  alt: 'Meet Arfah Owais — DHA-licensed Aesthetician at our JVC clinic in Dubai.',
   heroBadge: 'Our Team · Aesthetician · JVC',
   heroStats: '8+ Years Clinical Experience',
   subtitle: 'Advanced Facial Therapy & Aesthetic Skincare',
