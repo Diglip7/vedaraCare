@@ -36,7 +36,7 @@ export const sciaticaPhysioTeam = {
   label: "THE TEAM",
   title: "Your sciatica physiotherapist at our JVC clinic.",
   description: "Hafsina K K treats every sciatica patient herself, from the first assessment and nerve check to discharge.",
-  bgColor: "bg-[#F8F5F0]",
+  bgColor: "bg-[#FFFFFF]",
   members: [
     {
       name: "Hafsina K K",
@@ -345,7 +345,7 @@ export const sciaticaExercises = {
     "<strong>Sleeping</strong><br/>On your side with a pillow between your knees, or on your back with a pillow under your knees.",
     "Hafsina K K will identify your direction of relief and give you the exercises that suit your sciatica."
   ],
-  image: "/images/sciatica-directional-preference-exercise-vedara-jvc.webp",
+  image: "/images/sciatica-directional-exercise-vedara-jvc.webp",
   alt: "Sciatica exercises and stretches, Vedara Care, JVC"
 };
 

@@ -26,78 +26,78 @@ const ShoulderSurgicalConsiderations = ({ data }) => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[60fr_40fr] gap-12 items-start">
-          <div className="space-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
+          <div className="space-y-6">
             {content.map((paragraph, idx) => (
               <div key={idx}>
                 {idx === 0 && (
-                  <p className="text-[#4A4A4A] leading-relaxed ">
+                  <p className="text-[#4A4A4A] leading-relaxed text-base md:text-[17px] mb-2">
                     {paragraph}
                   </p>
                 )}
                 {idx > 0 && (
-                  <div className="bg-white p-8 rounded-xl shadow-sm mb-8 text-[14px]" dangerouslySetInnerHTML={{ __html: paragraph }} />
+                  <div className="bg-white p-7 md:p-8 rounded-xl shadow-sm text-[15px] leading-relaxed" dangerouslySetInnerHTML={{ __html: paragraph }} />
                 )}
               </div>
             ))}
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-6 lg:sticky lg:top-24">
             {approachToSurgery && (
-              <div className="bg-[#1F4538] p-8 rounded-lg">
-                <div className="flex items-center gap-3 mb-4">
-                  <span className="text-[#C9A55A] text-xs font-medium tracking-wider uppercase">
+              <div className="bg-[#1F4538] p-8 md:p-10 lg:p-12 rounded-2xl shadow-xl">
+                <div className="flex items-center gap-3 mb-6">
+                  <span className="text-[#C9A55A] text-xs md:text-sm font-bold tracking-widest uppercase">
                     {approachToSurgery.label}
                   </span>
                 </div>
                 
-                <div className="mb-6">
-                  <p className="text-white font-medium mb-3">We recommend surgery when:</p>
-                  <ul className="space-y-2">
+                <div className="mb-8">
+                  <p className="text-white text-base md:text-lg font-semibold mb-4">We recommend surgery when:</p>
+                  <ul className="space-y-3.5">
                     {(approachToSurgery.recommendWhen || []).map((item, idx) => (
-                      <li key={idx} className="flex items-center gap-2 text-sm text-white">
-                        <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                      <li key={idx} className="flex items-start gap-3 text-sm md:text-base text-white/95 leading-relaxed">
+                        <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
-                        {item}
+                        <span>{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
 
-                <div className="mb-6">
-                  <p className="text-white font-medium mb-3">We do NOT recommend:</p>
-                  <ul className="space-y-2">
+                <div className="mb-8">
+                  <p className="text-white text-base md:text-lg font-semibold mb-4">We do NOT recommend:</p>
+                  <ul className="space-y-3.5">
                     {(approachToSurgery.doNotRecommend || []).map((item, idx) => (
-                      <li key={idx} className="flex items-center gap-2 text-sm text-white">
-                        <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                      <li key={idx} className="flex items-start gap-3 text-sm md:text-base text-white/95 leading-relaxed">
+                        <svg className="w-5 h-5 text-rose-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
                         </svg>
-                        {item}
+                        <span>{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
 
                 {approachToSurgery.surgicalCoordination && (
-                  <div className="border-t border-[#3B6B5A] pt-4 mb-6">
-                    <p className="text-[#C9A55A] font-medium mb-2">
+                  <div className="border-t border-[#3B6B5A] pt-6 mb-8">
+                    <p className="text-[#C9A55A] text-base md:text-lg font-semibold mb-2.5">
                       {approachToSurgery.surgicalCoordination.title}
                     </p>
-                    <p className="text-white text-sm leading-relaxed">
+                    <p className="text-white/90 text-sm md:text-[15px] leading-relaxed">
                       {approachToSurgery.surgicalCoordination.description}
                     </p>
                   </div>
                 )}
 
-                <Link href="/book" className="block text-center w-full bg-[#C9A55A] text-[#1F4538] font-semibold py-4 px-6 rounded hover:bg-[#b8944a] transition-colors text-sm">
+                <Link href="/book" className="block text-center w-full bg-[#C9A55A] text-[#1F4538] font-bold py-4 px-8 rounded-lg hover:bg-[#b8944a] transition-all duration-200 text-sm md:text-base shadow-md hover:shadow-lg">
                   {approachToSurgery.buttonText}
                 </Link>
               </div>
             )}
 
             {keyStat && (
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-xl shadow-sm">
                 <p className="text-xs text-[#C9A55A] font-medium tracking-wider uppercase mb-2">
                   {keyStat.label}
                 </p>

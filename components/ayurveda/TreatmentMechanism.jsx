@@ -87,7 +87,7 @@ const TreatmentMechanism = ({
                 <img
                   src={image}
                   alt={alt}
-                  className="w-full h-auto object-contain rounded-xl shadow-lg" />
+                  className="w-full h-[550px] object-contain rounded-xl shadow-lg" />
               )}
 
               {/* Comparison Section */}
