@@ -31,7 +31,7 @@ export const pelvicFloorIntro = {
   label: "THE QUICK ANSWER",
   title: "Pelvic floor physiotherapy at Vedara Care, in one paragraph.",
   blockquote: "Pelvic floor and women's health physiotherapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai is provided by Hafsina K K, a female DHA-licensed physiotherapist (DHA-P 64812828) certified in antenatal and postnatal fitness. She treats bladder leakage and urgency, pelvic organ prolapse, chronic pelvic pain, painful intercourse and vaginismus, bowel and constipation problems, pelvic girdle pain in pregnancy, diastasis recti, postnatal recovery, menopause-related pelvic floor changes, and rehabilitation around gynaecological surgery. Assessment is external only, in a private room, with a female chaperone available, and you can stop at any time. Women only. Open daily 9am to 10pm near Circle Mall; insurance works on reimbursement.",
-  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Reviewed October 2026."
+  footer: "Pelvic floor physiotherapy at Vedara is delivered by Hafsina K K, DHA-licensed physiotherapist (DHA-P 64812828)."
 };
 
 export const pelvicFloorSciaticaSection1 = {

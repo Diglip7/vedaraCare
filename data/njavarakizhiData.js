@@ -374,7 +374,7 @@ export const njavarakizhiFaqs = {
     },
     {
       question: "Where exactly is your Njavarakizhi clinic in Dubai?",
-      answer: "Our clinic is in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. We also offer <a href=\"/home-healthcare-dubai/\">home Njavarakizhi</a> service across Dubai — particularly common for elderly and post-illness patients in JVC, JVT, Al Barsha, Dubai Marina, Downtown, and Palm Jumeirah."
+      answer: "Our clinic is in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. We also offer <a href=\"/home-healthcare-dubai/\">home Njavarakizhi</a> service across Dubai — particularly common for elderly and post-illness patients in JVC, JVT, Al Barsha, Jumeirah Village Circle, Jumeirah Village Triangle, Al Barsha South, Arjan, Dubai Sports City, Motor City"
     },
     {
       question: "Do you offer home Njavarakizhi in Dubai?",

@@ -93,42 +93,42 @@ export const HifuQuickAnswer = () => {
 export const HifuAtAGlance = () => {
   const points = [
     {
-      icon: "ðŸ”¬",
+
       title: "Treatment Type",
       desc: "Non-invasive ultrasound based skin lifting and tightening. No needles, no incisions, no anaesthesia beyond topical numbing. Device-based structural intervention targeting SMAS, reticular dermis, and superficial dermis at controlled depths."
     },
     {
-      icon: "â±ï¸",
+
       title: "Session Duration",
       desc: "Full face + neck: 60-90 minutes chair time. Face-only or single-zone (jawline, submental, brow, décolletage): 30-45 minutes. Consultation and mapping added to first session."
     },
     {
-      icon: "ðŸ’§",
+
       title: "Recovery & Downtime",
       desc: "Zero clinical downtime. Mild redness or slight tenderness 24-72 hours possible. Return to normal activity same day. Makeup permitted next day. No exercise restrictions beyond first 24 hours."
     },
     {
-      icon: "ðŸ“…",
+
       title: "Results Timeline",
       desc: "Initial subtle tightening within 2-4 weeks. Peak collagen remodelling 60-90 days post-session. Continued improvement to 6 months. Result durability typically 12-18 months in appropriate candidates."
     },
     {
-      icon: "ðŸ’°",
+
       title: "Investment Range",
       desc: "Single-zone from AED 1,200. Full face from AED 2,000. Full face + neck from AED 2,400. Face + neck + décolletage from AED 3,000. Programme course of 2 sessions delivers 15-20% savings."
     },
     {
-      icon: "ðŸ‘©”âš•ï¸",
+
       title: "Primary Delivery",
       desc: "Arfah Owais, DHA-Licensed Aesthetician (CIBTAC-UK), HIFU device-specific certified, 8+ years aesthetic experience. Medical clearance and protocol design by our DHA-Licensed Consultant Dermatologist Medical Director."
     },
     {
-      icon: "ðŸŽ¯",
+
       title: "Best For",
       desc: "Mild-to-moderate skin laxity, early jawline softening, submental laxity, brow position adjustment, décolletage skin quality. Patients with severe laxity or significant excess skin are referred to plastic surgery consultation."
     },
     {
-      icon: "ðŸ”„",
+
       title: "Sessions Required",
       desc: "Most patients: single annual session with maintenance. Established laxity: programme course of 2 sessions 6-9 months apart, then annual. Determined at consultation, not sold as fixed package."
     }
@@ -164,7 +164,7 @@ export const HifuAtAGlance = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
+              <span className="mr-2"></span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex justify-center flex-wrap gap-4">
@@ -244,7 +244,7 @@ export const HifuWhyUs = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
+              <span className="mr-2"></span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex justify-center flex-wrap gap-4">
@@ -426,7 +426,7 @@ export const HifuClinicalEducation = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
+              <span className="mr-2"></span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex justify-center flex-wrap gap-4">
@@ -443,62 +443,62 @@ export const HifuClinicalEducation = () => {
 export const HifuPatientSelection = () => {
   const populations = [
     {
-      icon: "ðŸ‘©",
+
       title: "Early Intervention Seeker (Mid-30s Prevention)",
       desc: "Female or male, 32-38, Dubai professional, first indicators of skin quality decline or jawline softening. Wants to intervene before more visible aging occurs. Appropriate as preventive-oriented single-session intervention with annual maintenance."
     },
     {
-      icon: "ðŸ’Ž",
+
       title: "Structural Correction Candidate (Mid-40s)",
       desc: "Female, 40-48, visible mid-face and jawline laxity, evaluating non-surgical alternatives to facelift. Strong appropriateness for this profile. Typical protocol: programme course of 2 sessions 6-9 months apart, then annual maintenance. Highest conversion cluster."
     },
     {
-      icon: "âš–ï¸",
+
       title: "Post-Weight-Loss Patient",
       desc: "Female or male, 35-55, post-significant weight loss, mild-to-moderate facial and submental laxity. Appropriate for mild-to-moderate residual laxity. Patients with severe redundancy are referred to plastic surgery consultation."
     },
     {
-      icon: "ðŸ‘”",
+
       title: "Male Executive",
       desc: "Male, 38-55, Dubai C-suite, discreet aesthetic consumer. Jawline definition and submental focus, minimal downtime requirement. Highly appropriate  -  HIFU produces natural-appearance structural change without visible intervention markers."
     },
     {
-      icon: "ðŸ’",
+
       title: "Pre-Event / Pre-Milestone Patient",
       desc: "Female, 30-50, planning a wedding, anniversary, or major event 4-6 months out. Appropriate IF the event is 4+ months away (matches 60-90 day peak result window). NOT appropriate for events within 4 weeks."
     },
     {
-      icon: "â˜€ï¸",
+
       title: "Fitzpatrick IV-V Patient (South Asian, Middle Eastern)",
       desc: "Female or male, 30-55, seeking practitioner experienced with darker skin phenotypes. HIFU does not target melanin  -  no post-inflammatory hyperpigmentation risk. Suh 2011 study specifically documents efficacy in Asian skin."
     },
     {
-      icon: "ðŸŒ¸",
+
       title: "Post-Pregnancy Recovery Patient",
       desc: "Female, 32-42, out of breastfeeding window, weight-stable, seeking facial recontouring. Appropriate once no longer nursing and weight has stabilized. Often combined with mesotherapy or PRP for hydration + collagen layered protocol."
     },
     {
-      icon: "ðŸŒ¿",
+
       title: "Menopausal / Peri-Menopausal Patient",
       desc: "Female, 45-55, oestrogen decline visible in skin quality and laxity acceleration. Appropriate as one component of broader menopausal skin support programme. Cross-integration with perimenopause programme available."
     },
     {
-      icon: "âœ¨",
+
       title: "Décolletage-Focused Patient",
       desc: "Female, 38-55, primary concern is neck and décolletage laxity, sun-damage-driven. Ultherapy holds specific FDA clearance for décolletage lifting. Often combined with facial HIFU as full programme."
     },
     {
-      icon: "âœ‚ï¸",
+
       title: "Post-Surgical Facelift Maintenance",
       desc: "Female, 50-65, has had surgical facelift 2-5+ years prior, seeks non-surgical maintenance to extend the surgical result. Medical Director oversight is essential for this cluster."
     },
     {
-      icon: "ðŸ‘ï¸",
+
       title: "Brow Position Correction Patient",
       desc: "Female or male, 35-55, primary concern is lateral brow descent. Ultherapy holds specific FDA clearance for non-invasive brow lift. HIFU at 4.5mm can produce visible brow position improvement over 60-90 days."
     },
     {
-      icon: "ðŸ”„",
+
       title: "Combined Modality Programme Patient",
       desc: "Any age 30-58, has used other Vedara Care aesthetic modalities and wants to integrate HIFU as the structural layer in a broader personalized programme. Medical Director designs sequencing to optimize collagen response."
     }
@@ -544,7 +544,7 @@ export const HifuPatientSelection = () => {
               "Unrealistic expectations not addressable at consultation"
             ].map((item, i) => (
               <div key={i} className="flex items-start">
-                <span className="text-[#D9534F] mr-2 mt-0.5 text-[12px]">âœ—</span>
+                <span className="text-[#D9534F] mr-2 mt-0.5 text-[12px]"></span>
                 <span className="font-sans text-[13px] text-[#555555] leading-[1.4]">{item}</span>
               </div>
             ))}
@@ -565,7 +565,7 @@ export const HifuPatientSelection = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
+              <span className="mr-2"></span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex justify-center flex-wrap gap-4">
@@ -758,7 +758,7 @@ export const HifuPatientJourney = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
+              <span className="mr-2"></span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
@@ -962,7 +962,7 @@ export const HifuTeam = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
+              <span className="mr-2"></span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
@@ -1131,7 +1131,7 @@ export const HifuInvestment = () => {
               Book HIFU Consultation
             </Link>
             <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[14px] font-medium px-8 py-3.5 rounded hover:bg-[#1DA851] transition-colors no-underline">
-              <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
+              <span className="mr-2"></span> Ask on WhatsApp
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
@@ -1416,7 +1416,7 @@ export const HifuFinalCta = () => {
                 Book HIFU Consultation
               </Link>
               <a href="https://wa.me/971555736312" target="_blank" className="inline-flex items-center justify-center bg-[#25D366] text-white font-sans text-[16px] font-medium w-full py-4 rounded hover:bg-[#1DA851] transition-colors no-underline">
-                <span className="mr-2">ðŸ’¬</span> Ask on WhatsApp
+                <span className="mr-2"></span> Ask on WhatsApp
               </a>
 
             </div>

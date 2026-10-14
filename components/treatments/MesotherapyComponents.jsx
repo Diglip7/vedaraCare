@@ -191,7 +191,7 @@ export const MesotherapyUnderstanding = ({ data }) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 mb-6">
             {data.notRight.items.map((item, i) => (
               <div key={i} className="flex gap-3 items-start">
-                <span className="text-[#C8A87F] text-[14px] font-sans mt-0.5">âœ•</span>
+                <span className="text-[#C8A87F] text-[14px] font-sans mt-0.5">✕</span>
                 <p className="font-sans text-[14px] text-[#555] m-0 leading-[1.5]">{item}</p>
               </div>
             ))}
@@ -429,7 +429,7 @@ export const MesotherapyPractitioner = ({ data }) => {
           <div className="bg-[#F0EBE3] p-8 rounded-lg border border-[#E8E1D8]">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-[50px] h-[50px] rounded-full bg-[#1F1F1F] flex items-center justify-center shrink-0">
-                <span className="text-white text-[20px]">ðŸ©º</span>
+                <span className="text-white text-[20px]">🩺</span>
               </div>
               <div>
                 <p className="text-[11px] font-sans font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-1">{data.primary.role}</p>
@@ -453,7 +453,7 @@ export const MesotherapyPractitioner = ({ data }) => {
           <div className="bg-[#F0EBE3] p-8 rounded-lg border border-[#E8E1D8]">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-[50px] h-[50px] rounded-full bg-[#C8A87F] flex items-center justify-center shrink-0">
-                <span className="text-white text-[20px]">ðŸ‘¤</span>
+                <span className="text-white text-[20px]">👤</span>
               </div>
               <div>
                 <p className="text-[11px] font-sans font-medium text-[#C8A87F] tracking-[0.12em] uppercase mb-1">{data.support.role}</p>
@@ -575,42 +575,42 @@ export const MesotherapyRelated = () => {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           <Link href="/treatments/prp-facial-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">ðŸ©¸</span>
+            <span className="text-2xl flex-shrink-0 mt-1">🩸</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">PRP Facial JVC</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Autologous blood-derived regenerative pathway  -  honest comparison available at consultation.</p>
             </div>
           </Link>
           <Link href="/treatments/exosome-skin-rejuvenation-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">âœ¨</span>
+            <span className="text-2xl flex-shrink-0 mt-1">✨</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Exosome Skin Rejuvenation JVC</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Exogenous exosome topical application, typically aesthetician-scope with microneedling adjunct.</p>
             </div>
           </Link>
           <Link href="/treatments/dermal-fillers-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">ðŸ’‰</span>
+            <span className="text-2xl flex-shrink-0 mt-1">💉</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Dermal Fillers JVC</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Hyaluronic acid volumization  -  complementary to mesotherapy, not a substitute.</p>
             </div>
           </Link>
           <Link href="/treatments/microneedling-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">ðŸª¡</span>
+            <span className="text-2xl flex-shrink-0 mt-1">🪡</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Microneedling JVC</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Mechanical modality that can pair with mesotherapy for enhanced active delivery.</p>
             </div>
           </Link>
           <Link href="/treatments/anti-aging-skin-firming-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">ðŸŒ¿</span>
+            <span className="text-2xl flex-shrink-0 mt-1">🌿</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Customized Anti-Aging &amp; Skin-Firming Protocol</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Aesthetician-led programme integrating around mesotherapy sessions.</p>
             </div>
           </Link>
           <Link href="/treatments/comprehensive-skin-analysis-jvc/" className="p-6 rounded-lg flex gap-4 cursor-pointer transition-colors bg-[#F0EBE3] border border-[#E8E1D8] hover:border-[#C8A87F]">
-            <span className="text-2xl flex-shrink-0 mt-1">ðŸ”¬</span>
+            <span className="text-2xl flex-shrink-0 mt-1">🔬</span>
             <div>
               <p className="font-sans text-[15px] font-medium mb-1 text-[#1F1F1F]">Comprehensive Skin Analysis JVC</p>
               <p className="font-sans text-[13px] leading-relaxed text-[#555]">Foundation diagnostic informing treatment design across all modalities.</p>

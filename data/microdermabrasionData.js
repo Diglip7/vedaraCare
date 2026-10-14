@@ -398,9 +398,9 @@ export const microdermabrasionLocation = {
   clinicName: "Vedara Care Polyclinic",
   contactDetails: [
     "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai",
-    "ðŸ“ž +971 55 573 6312",
-    "ðŸ’¬ WhatsApp Available",
-    "âœ‰ï¸ booking@vedaracare.ae"
+    "📞 +971 55 573 6312",
+    "💬 WhatsApp Available",
+    "✉️ booking@vedaracare.ae"
   ],
   landmarkNavigation: {
     label: "Landmark navigation",

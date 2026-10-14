@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Link from 'next/link';
+import { ShieldCheck, Check, X } from 'lucide-react';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import ContentWithSidebar from '../../components/ayurveda/ContentWithSidebar';
@@ -281,10 +283,12 @@ const FractionalCO2Laser = () => {
               <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">
                 {co2LaserSuitability.description}
               </p>
-              <ul className="space-y-2">
+              <ul className="space-y-2.5">
                 {co2LaserSuitability.suitableFor.map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white" style={{ backgroundColor: '#C9A55A' }}>✓</span>
+                    <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-white" style={{ backgroundColor: '#C9A55A' }}>
+                      <Check size={12} strokeWidth={2.5} />
+                    </span>
                     <span className="text-sm text-[rgb(107,107,107)] leading-relaxed">{item}</span>
                   </li>
                 ))}
@@ -302,10 +306,12 @@ const FractionalCO2Laser = () => {
               <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">
                 {co2LaserSuitability.notSuitableTitle}
               </p>
-              <ul className="space-y-2">
+              <ul className="space-y-2.5">
                 {co2LaserSuitability.notSuitableFor.map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white bg-[rgb(107,107,107)]">âœ•</span>
+                    <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-white bg-[rgb(120,120,120)]">
+                      <X size={11} strokeWidth={2.5} />
+                    </span>
                     <span className="text-sm text-[rgb(107,107,107)] leading-relaxed">{item}</span>
                   </li>
                 ))}
@@ -403,11 +409,20 @@ const FractionalCO2Laser = () => {
         label={co2LaserSessionsNeeded.label}
         title={co2LaserSessionsNeeded.title}
         contentSections={[
-          { subtitle: '', description: co2LaserSessionsNeeded.description },
-          ...co2LaserSessionsNeeded.factors.map((f, i) => ({
+          {
             subtitle: '',
-            description: `”· ${f}`
-          }))
+            description: `
+              <p class="mb-4 text-base leading-relaxed text-[rgb(107,107,107)]">${co2LaserSessionsNeeded.description}</p>
+              <ul class="space-y-3 my-4">
+                ${co2LaserSessionsNeeded.factors.map(f => `
+                  <li class="flex items-start gap-3 text-base text-[rgb(107,107,107)] leading-relaxed">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#A0713F] mt-2.5 shrink-0"></span>
+                    <span>${f}</span>
+                  </li>
+                `).join('')}
+              </ul>
+            `
+          }
         ]}
         sidebar={{
           image: "/images/co2-laser-treatment-session-jvc.webp",
@@ -420,7 +435,7 @@ const FractionalCO2Laser = () => {
       />
 
       {/* Section 14: Pricing */}
-      <div className="bg-white py-16 md:py-20 px-6">
+      {/* <div className="bg-white py-16 md:py-20 px-6">
         <div className="max-w-5xl mx-auto">
           <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
             {co2LaserPricing.label}
@@ -459,7 +474,7 @@ const FractionalCO2Laser = () => {
             {co2LaserPricing.footer}
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* Section 15: Insurance */}
       <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
@@ -511,30 +526,107 @@ const FractionalCO2Laser = () => {
       {/* Section 17: Specialists */}
       <div className="bg-[#F5F0E8] py-16 md:py-20 px-6">
         <div className="max-w-5xl mx-auto">
-          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-            {co2LaserSpecialists.label}
-          </p>
-          <h2 className="text-3xl md:text-4xl font-serif mb-10 text-[rgb(26,26,26)]">
-            {co2LaserSpecialists.title}
-          </h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="mb-10">
+            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-3 uppercase">
+              {co2LaserSpecialists.label}
+            </p>
+            <h2 className="text-3xl md:text-4xl font-serif text-[rgb(26,26,26)] mb-3">
+              {co2LaserSpecialists.title}
+            </h2>
+            {co2LaserSpecialists.subtitle && (
+              <p className="text-sm md:text-base text-[rgb(107,107,107)] max-w-3xl leading-relaxed">
+                {co2LaserSpecialists.subtitle}
+              </p>
+            )}
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
             {co2LaserSpecialists.doctors.map((doc, idx) => (
-              <div key={idx} className="rounded-2xl p-6 bg-white border border-[#E5DFD3] shadow-sm">
-                <h3 className="text-lg font-serif mb-4 text-[rgb(26,26,26)]">{doc.name}</h3>
-                <div className="space-y-2 text-sm text-[rgb(107,107,107)]">
-                  <p><span className="font-medium text-[rgb(26,26,26)]">Data shown as:</span> {doc.title}</p>
-                  <p><span className="font-medium text-[rgb(26,26,26)]">Specialty:</span> {doc.specialty}</p>
-                  <p><span className="font-medium text-[rgb(26,26,26)]">DHA License:</span> {doc.dhaLicense}</p>
-                  <p><span className="font-medium text-[rgb(26,26,26)]">Subspecialty:</span> {doc.subspecialty}</p>
-                  <p><span className="font-medium text-[rgb(26,26,26)]">Languages:</span> {doc.languages}</p>
-                  <p><span className="font-medium text-[rgb(26,26,26)]">Profile:</span> {doc.profileLink}</p>
+              <div
+                key={idx}
+                className="bg-white rounded-2xl border border-[#E5DFD3] shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden flex flex-col"
+              >
+                {/* Doctor Photo with DHA Badge */}
+                <div className="relative aspect-[4/3] bg-[#F7F4EE] overflow-hidden">
+                  <img
+                    src={doc.image}
+                    alt={`${doc.name} - ${doc.role} at Vedara Care Polyclinic JVC`}
+                    className="w-full h-full object-cover object-top"
+                    loading="lazy"
+                  />
+                  <div className="absolute top-4 right-4 bg-[#184C3A]/95 backdrop-blur-sm text-white text-[11px] font-medium px-3.5 py-1.5 rounded-full flex items-center gap-1.5 shadow-sm">
+                    <ShieldCheck size={13} className="text-[#C9A55A]" />
+                    <span>{doc.dhaLicense}</span>
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className="p-6 md:p-7 flex flex-col flex-grow space-y-4">
+                  <div>
+                    <h3 className="text-2xl font-serif text-[rgb(26,26,26)] mb-1">
+                      {doc.name}
+                    </h3>
+                    <p className="text-xs text-[rgb(160,113,63)] font-semibold uppercase tracking-wider">
+                      {doc.role}
+                    </p>
+                    {doc.qualification && (
+                      <p className="text-xs text-[rgb(107,107,107)] font-medium mt-1">
+                        {doc.qualification}
+                      </p>
+                    )}
+                  </div>
+
+                  {/* License & Credentials Highlight */}
+                  <div className="space-y-2.5 pt-2 border-t border-[#F5F0E8] text-sm text-[rgb(107,107,107)]">
+                    <div className="flex items-center gap-2">
+                      <span className="font-medium text-[rgb(26,26,26)] text-xs uppercase tracking-wider">DHA License:</span>
+                      <span className="text-xs font-semibold text-[#184C3A] bg-[#EDF4F0] px-2.5 py-1 rounded-md border border-[#D1E3D8]">
+                        {doc.dhaLicense}
+                      </span>
+                    </div>
+
+                    <div>
+                      <span className="font-medium text-[rgb(26,26,26)]">Specialty: </span>
+                      <span>{doc.specialty}</span>
+                    </div>
+
+                    {doc.subspecialty && (
+                      <div>
+                        <span className="font-medium text-[rgb(26,26,26)]">Clinical Focus: </span>
+                        <span>{doc.subspecialty}</span>
+                      </div>
+                    )}
+
+                    {doc.experience && (
+                      <p className="text-xs text-[rgb(107,107,107)] leading-relaxed pt-1">
+                        {doc.experience}
+                      </p>
+                    )}
+
+                    <div className="pt-1">
+                      <span className="font-medium text-[rgb(26,26,26)]">Languages: </span>
+                      <span>{doc.languages}</span>
+                    </div>
+                  </div>
+
+                  {/* Profile Link Button */}
+                  <div className="mt-auto pt-4 border-t border-[#F5F0E8]">
+                    <Link
+                      href={doc.profileLink}
+                      className="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-[#FAF8F5] border border-[#E5DFD3] text-sm font-semibold text-[rgb(26,26,26)] hover:bg-[#184C3A] hover:text-white hover:border-[#184C3A] transition-all duration-300"
+                    >
+                      View Profile →
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
-          <p className="text-xs italic text-[rgb(107,107,107)] leading-relaxed mt-6">
-            {co2LaserSpecialists.footer}
-          </p>
+
+          <div className="flex items-center gap-2.5 mt-8 text-xs text-[rgb(107,107,107)]">
+            <ShieldCheck size={16} className="text-[#184C3A] shrink-0" />
+            <p className="italic leading-relaxed">{co2LaserSpecialists.footer}</p>
+          </div>
         </div>
       </div>
 

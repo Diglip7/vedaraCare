@@ -259,7 +259,7 @@ const ChemicalPeelTreatment = () => {
         rightContentStyle="peelDepthAndFitzpatrick"
         bgColor="bg-[#F0EBE3]"
       />
-<SciaticaTypes
+      <SciaticaTypes
         {...chemicalPeelFormulations}
       />
       <ContentWithSidebar
@@ -311,14 +311,14 @@ const ChemicalPeelTreatment = () => {
         gridColumns={chemicalPeelTeam.gridColumns}
       />
 
-      <ContentWithSidebar
+      {/* <ContentWithSidebar
         bgColor={chemicalPeelPricing.bgColor}
         label={chemicalPeelPricing.label}
         title={chemicalPeelPricing.title}
         services={chemicalPeelPricing.services}
         insuranceText={chemicalPeelPricing.insuranceText}
         insurances={chemicalPeelPricing.insurances}
-      />
+      /> */}
 
       <FAQ
         bgColor={chemicalPeelFAQ.bgColor}

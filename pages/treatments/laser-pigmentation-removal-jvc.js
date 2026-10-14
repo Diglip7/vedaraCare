@@ -345,7 +345,7 @@ const LaserPigmentationRemoval = () => {
               <ul className="space-y-3">
                 {pigmentationSuitability.notSuitableFor.map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-[rgb(107,107,107)]">
-                    <span className="text-[rgb(160,113,63)] mt-0.5">”·</span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#A0713F] mt-2 shrink-0"></span>
                     <span className="leading-relaxed">{item}</span>
                   </li>
                 ))}
@@ -390,11 +390,20 @@ const LaserPigmentationRemoval = () => {
         label={pigmentationSideEffects.label}
         title={pigmentationSideEffects.title}
         contentSections={[
-          { subtitle: '', description: pigmentationSideEffects.description },
-          ...pigmentationSideEffects.temporaryEffects.map(e => ({
+          {
             subtitle: '',
-            description: `”· ${e}`
-          }))
+            description: `
+              <p class="mb-4 text-base leading-relaxed text-[rgb(107,107,107)]">${pigmentationSideEffects.description}</p>
+              <ul class="space-y-3 my-4">
+                ${pigmentationSideEffects.temporaryEffects.map(e => `
+                  <li class="flex items-start gap-3 text-base text-[rgb(107,107,107)] leading-relaxed">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#A0713F] mt-2.5 shrink-0"></span>
+                    <span>${e}</span>
+                  </li>
+                `).join('')}
+              </ul>
+            `
+          }
         ]}
         sidebar={{
           image: "/images/vedara-care-dermatology-treatment-room-jvc.webp",
@@ -448,7 +457,7 @@ const LaserPigmentationRemoval = () => {
             <ul className="space-y-3 mb-8">
               {pigmentationSessionsNeeded.factors.map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-sm text-[rgb(107,107,107)]">
-                  <span className="text-[rgb(160,113,63)] mt-0.5">”·</span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#A0713F] mt-2 shrink-0"></span>
                   <span className="leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -472,7 +481,7 @@ const LaserPigmentationRemoval = () => {
       </div>
 
       {/* Pricing */}
-      <div className="bg-white py-16 md:py-20 px-6">
+      {/* <div className="bg-white py-16 md:py-20 px-6">
         <div className="max-w-5xl mx-auto">
           <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
             {pigmentationPricing.label}
@@ -508,7 +517,7 @@ const LaserPigmentationRemoval = () => {
             {pigmentationPricing.footer}
           </p>
         </div>
-      </div>
+      </div> */}
 
 
 

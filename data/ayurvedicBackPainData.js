@@ -419,7 +419,7 @@ export const ayurvedicBackPainFaqs = {
     },
     {
       question: "Where exactly is your back pain clinic in Dubai?",
-      answer: "Our clinic is at Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Dubai Marina, Downtown, Palm Jumeirah, and Mirdif."
+      answer: "Our clinic is at Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including Jumeirah Village Circle, Jumeirah Village Triangle, Al Barsha South, Arjan, Dubai Sports City, Motor City"
     },
     {
       question: "Does insurance cover Ayurvedic back pain treatment in Dubai?",

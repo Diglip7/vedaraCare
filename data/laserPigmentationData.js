@@ -339,27 +339,36 @@ export const pigmentationResults = {
 export const pigmentationSpecialists = {
   label: "OUR TEAM",
   title: "Dermatology Specialists for Pigmentation Treatment at Our JVC Clinic",
+  subtitle: "Consultations and laser pigmentation procedures at Vedara Care Polyclinic are conducted by DHA-licensed clinicians with recognized post-graduate qualifications and extensive clinical experience.",
   doctors: [
     {
       name: "Dr. Sanjida Islam Suchana",
-      title: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      title: "General Practitioner · Clinical Dermatology",
+      role: "General Practitioner · Clinical Dermatology",
+      qualification: "MBBS · Professional Diploma in Dermatology (RCPI)",
+      dhaLicense: "DHA Licence 33436347",
       specialty: "Clinical Dermatology",
-      dhaLicense: "DHA-Licensed",
-      subspecialty: "Skin Health & Primary Care",
+      subspecialty: "Laser Pigmentation, Melasma & Medical Dermatology",
+      experience: "DHA-licensed practitioner with post-graduate diploma in Clinical Dermatology from the Royal College of Physicians of Ireland (RCPI). Focuses on medical diagnosis of pigmentation conditions and laser therapy.",
       languages: "English, Hindi, Bengali, Urdu",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
       profileLink: "/doctors/dr-sanjida-islam-suchana/"
     },
     {
       name: "Aesthetician Arfah Owais",
-      title: "DHA-Licensed · Aesthetician",
-      specialty: "Aesthetics",
-      dhaLicense: "DHA-Licensed",
-      subspecialty: "Advanced Facial Therapy & Laser",
+      title: "DHA-Licensed Aesthetician",
+      role: "DHA-Licensed Aesthetician",
+      qualification: "CIBTAC-UK Diploma · NCLC Certified · PMU Certified",
+      dhaLicense: "DHA Licence 19479630",
+      specialty: "Aesthetic & Device-Based Dermatology",
+      subspecialty: "Laser Toning, Carbon Laser Peel & Complexion Refinement",
+      experience: "DHA-licensed aesthetician with over 8 years of clinical experience. Specializes in laser pigment clearing protocols, medical facials, and customized skin brightening treatments.",
       languages: "Arabic, English, Hindi, Urdu",
+      image: "/images/arfah-owais-portrait.webp",
       profileLink: "/doctors/arfah-owais/"
     }
   ],
-  footer: "Practitioner details will be updated with verified credentials before publication. Doctors are not invented or approximated."
+  footer: "All pigmentation consultations and laser procedures at Vedara Care Polyclinic are delivered by DHA-licensed medical professionals and certified aestheticians."
 };
 
 export const pigmentationFAQ = {

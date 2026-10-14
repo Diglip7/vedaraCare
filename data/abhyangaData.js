@@ -346,7 +346,7 @@ export const abhyangaFaqs = {
     },
     {
       question: "Where exactly is your Abhyanga clinic in Dubai?",
-      answer: "Our clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients regularly travel from JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Dubai Marina, Downtown, and Palm Jumeirah."
+      answer: "Our clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients regularly travel from JVC, JVT, Jumeirah Village Circle, Jumeirah Village Triangle, Al Barsha South, Arjan, Dubai Sports City, Motor City"
     },
     {
       question: "Do you offer Abhyanga at home in Dubai?",

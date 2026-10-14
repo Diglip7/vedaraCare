@@ -320,27 +320,36 @@ export const co2LaserResults = {
 export const co2LaserSpecialists = {
   label: "OUR TEAM",
   title: "Dermatology Specialists at Our JVC Clinic",
+  subtitle: "Consultations and laser resurfacing procedures at Vedara Care Polyclinic are conducted by DHA-licensed clinicians with recognized post-graduate qualifications and extensive clinical experience.",
   doctors: [
     {
       name: "Dr. Sanjida Islam Suchana",
-      title: "DHA-Licensed · General Practitioner | Clinical Dermatology",
+      title: "General Practitioner · Clinical Dermatology",
+      role: "General Practitioner · Clinical Dermatology",
+      qualification: "MBBS · Professional Diploma in Dermatology (RCPI)",
+      dhaLicense: "DHA Licence 33436347",
       specialty: "Clinical Dermatology",
-      dhaLicense: "DHA-Licensed",
-      subspecialty: "Skin Health & Primary Care",
+      subspecialty: "Fractional CO2 Laser, Acne Scars & Medical Dermatology",
+      experience: "DHA-licensed practitioner with post-graduate diploma in Clinical Dermatology from the Royal College of Physicians of Ireland (RCPI). Focuses on comprehensive skin evaluations, acne scar revision, and advanced laser resurfacing.",
       languages: "English, Hindi, Bengali, Urdu",
+      image: "/images/dr-sanjida-islam-suchana-gp-dubai.webp",
       profileLink: "/doctors/dr-sanjida-islam-suchana/"
     },
     {
       name: "Aesthetician Arfah Owais",
-      title: "DHA-Licensed · Aesthetician",
-      specialty: "Aesthetics",
-      dhaLicense: "DHA-Licensed",
-      subspecialty: "Advanced Facial Therapy & Laser",
+      title: "DHA-Licensed Aesthetician",
+      role: "DHA-Licensed Aesthetician",
+      qualification: "CIBTAC-UK Diploma · NCLC Certified · PMU Certified",
+      dhaLicense: "DHA Licence 19479630",
+      specialty: "Aesthetic & Device-Based Dermatology",
+      subspecialty: "Laser Skin Resurfacing, Advanced Facial Therapy & Skin Renewal",
+      experience: "DHA-licensed aesthetician with over 8 years of clinical experience holding a UK CIBTAC diploma. Specializes in advanced device-based skin resurfacing, medical facials, and structured rejuvenation protocols.",
       languages: "Arabic, English, Hindi, Urdu",
+      image: "/images/arfah-owais-portrait.webp",
       profileLink: "/doctors/arfah-owais/"
     }
   ],
-  footer: "Practitioner details will be updated with verified credentials before publication."
+  footer: "All clinical consultations and laser resurfacing treatments at Vedara Care Polyclinic are delivered by DHA-licensed medical professionals and certified aestheticians."
 };
 
 export const co2LaserFAQ = {

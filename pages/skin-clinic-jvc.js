@@ -218,7 +218,7 @@ const SkinClinicJvc = () => {
       />
 
       {/* Pricing Section */}
-      <div className={`${skinClinicPricing.bgColor} py-24 px-6`}>
+      {/* <div className={`${skinClinicPricing.bgColor} py-24 px-6`}>
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <div className="text-sm tracking-widest uppercase mb-4" style={{ color: '#C9A84C' }}>
@@ -257,7 +257,7 @@ const SkinClinicJvc = () => {
             dangerouslySetInnerHTML={{ __html: skinClinicPricing.insuranceText }}
           />
         </div>
-      </div>
+      </div> */}
 
       <FAQ
         bgColor={skinClinicFaqs.bgColor}

@@ -272,14 +272,14 @@ const CarbonLaserPeelTreatment = () => {
         sidebar={carbonLaserPeelProviderChoice.sidebar}
       />
 
-      <ContentWithSidebar
+      {/* <ContentWithSidebar
         bgColor={carbonLaserPeelPricing.bgColor}
         label={carbonLaserPeelPricing.label}
         title={carbonLaserPeelPricing.title}
         services={carbonLaserPeelPricing.services}
         insuranceText={carbonLaserPeelPricing.insuranceText}
         insurances={carbonLaserPeelPricing.insurances}
-      />
+      /> */}
 
       <FAQ
         bgColor={carbonLaserPeelFAQ.bgColor}

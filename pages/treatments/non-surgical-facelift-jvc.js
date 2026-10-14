@@ -201,7 +201,7 @@ const NonSurgicalFacelift = () => {
         secondaryCTA={nonSurgicalFaceliftHero.secondaryCTA}
         secondaryCTAHref={nonSurgicalFaceliftHero.secondaryCTAHref}
         trustSignals={nonSurgicalFaceliftHero.trustSignals}
-         floatingCard={{
+        floatingCard={{
           title: "Start With a Facial Assessment",
           subtitle: "Every face has different skin quality, contours, and signs of ageing. A proper assessment helps evaluate facial firmness, skin texture, areas of concern, and your aesthetic goals before recommending the most suitable non-surgical facelift approach."
         }}
@@ -570,7 +570,7 @@ const NonSurgicalFacelift = () => {
       </div>
 
       {/* PRICING */}
-      <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
+      {/* <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
             {nonSurgicalFaceliftPricing.label}
@@ -600,7 +600,7 @@ const NonSurgicalFacelift = () => {
           </div>
           <p className="text-sm text-[rgb(107,107,107)] mt-6 italic">{nonSurgicalFaceliftPricing.note}</p>
         </div>
-      </div>
+      </div> */}
 
       {/* INSURANCE + OUTCOMES */}
       <div className="bg-white py-16 md:py-20 px-6">

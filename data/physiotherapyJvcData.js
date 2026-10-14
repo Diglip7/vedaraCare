@@ -184,6 +184,7 @@ export const physiotherapyJvcChoosing = {
 
 export const physiotherapyJvcProtocol = {
   bgColor: "bg-[#FAF8F5]",
+  cardBg: "bg-white",
   label: "WHAT TO EXPECT",
   title: "What happens at your first physiotherapy appointment in JVC?",
   description: "Your first visit is a full assessment and usually your first treatment. Here is how a typical course of physiotherapy runs at our clinic; acute injuries, post-surgery and neurological cases follow their own pace.",

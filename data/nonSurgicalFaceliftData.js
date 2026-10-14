@@ -322,7 +322,7 @@ export const nonSurgicalFaceliftOutcomes = {
   label: "FACIAL REJUVENATION OUTCOMES AT VEDARA CARE",
   title: "Facial Rejuvenation Outcomes at Vedara Care",
   paragraphs: [
-    "[INSERT VERIFIED PATIENT TESTIMONIAL]",
+    "",
     "Where genuine, consented before-and-after photography is available, it will be displayed with clear patient consent and an accurate treatment timeline. We do not publish fabricated names, ages, dates, ratings, or outcomes.",
   ],
 };

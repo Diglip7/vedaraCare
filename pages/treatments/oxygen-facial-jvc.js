@@ -709,7 +709,7 @@ const OxygenFacialJVC = () => {
       <section className="py-16" style={{ backgroundColor: COLORS.sage }}>
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
           <div>
-            <Eyebrow>How to Choose a Microneedling Clinic in JVC</Eyebrow>
+            <Eyebrow>How to Choose an Oxygen Facial Clinic in JVC</Eyebrow>
             <h3 className="text-2xl font-serif mb-2" style={{ fontFamily: 'Fraunces, Georgia, serif', color: INK }}>Worth checking before booking anywhere</h3>
             <p className="text-[13.5px] mb-5" style={{ color: COLORS.stone }}>
               A few practical points are worth checking before booking anywhere:
@@ -747,7 +747,7 @@ const OxygenFacialJVC = () => {
             <ul className="space-y-3">
               {redFlagsItems.map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="mt-1">â—</span>
+                  <X size={16} color="#A24E3B" className="shrink-0 mt-0.5" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -758,7 +758,7 @@ const OxygenFacialJVC = () => {
       {/* Before booking */}
       <section className="max-w-6xl mx-auto px-6 py-16">
         <SectionHeading
-          eyebrow="Before Booking Microneedling"
+          eyebrow="Before Booking an Oxygen Facial"
           title="Questions to Ask Before Booking"
           sub="It's worth going into a consultation with a short list of your own questions:"
           center
