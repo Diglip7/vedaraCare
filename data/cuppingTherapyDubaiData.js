@@ -330,14 +330,14 @@ export const cuppingTherapyTeam = {
   description: "Cupping at Vedara Care is delivered by DHA-licensed practitioners with appropriate training. Dry cupping and massage cupping are integrated into physiotherapy practice by qualified physiotherapists.",
   members: [
     {
-      name: "Daniel Mendes, MSc PT",
-      qualification: "DHA-Licensed · Sports & Massage Cupping",
-      specialties: ["Massage Cupping", "Dry Cupping", "Sports Recovery"],
-      experience: "Post-graduate training in cupping therapy. Specialises in sports cupping for athletic performance recovery and muscle rehabilitation.",
-      languages: ["English", "Portuguese"],
-      image: "https://vedaracare.ae/wp-content/uploads/2024/01/team-daniel.jpg",
-      alt: "Daniel Mendes, MSc PT cupping practitioner Vedara Care JVC Dubai",
-      link: "/physiotherapists/daniel-mendes/"
+      name: "Hafsina K K",
+      qualification: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
+      specialties: ["Biomechanical Cupping", "Dry Needling", "Myofascial Release", "Sports Recovery"],
+      experience: "7+ years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation. Certified in Biomechanical Cupping and Dry Needling.",
+      languages: ["English", "Hindi", "Malayalam"],
+      image: "/images/hafsina-kk-physiotherapist-dubai.webp",
+      alt: "Hafsina K K, DHA-Licensed Physiotherapist cupping practitioner Vedara Care JVC Dubai",
+      link: "/doctors/hafsina-kk-physiotherapist/"
     }
   ]
 };

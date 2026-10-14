@@ -11,15 +11,33 @@ const PostnatalComponents = ({
   row1Columns = "lg:grid-cols-4",
   row2Columns = "lg:grid-cols-3",
   row1Count = 4,
-  techniquesLabel = "SPECIFIC TECHNIQUES APPLIED:"
+  techniquesLabel = "SPECIFIC TECHNIQUES APPLIED:",
+  maxWidth = "max-w-[1400px]"
 }) => {
   const row1 = items.slice(0, row1Count);
   const row2 = items.slice(row1Count);
 
+  // Auto-adjust maxWidth if only 3 items exist so they have elegant margins and don't stretch edge-to-edge
+  let effectiveMaxWidth = maxWidth;
+  let effectiveRow1Cols = row1Columns;
+  if (items.length <= 1) {
+    effectiveRow1Cols = 'lg:grid-cols-1 max-w-xl mx-auto';
+    if (maxWidth === "max-w-[1400px]" || maxWidth === "max-w-7xl") effectiveMaxWidth = "max-w-xl";
+  } else if (items.length === 2) {
+    effectiveRow1Cols = 'lg:grid-cols-2 max-w-4xl mx-auto';
+    if (maxWidth === "max-w-[1400px]" || maxWidth === "max-w-7xl") effectiveMaxWidth = "max-w-4xl";
+  } else if (items.length === 3) {
+    effectiveRow1Cols = 'lg:grid-cols-3';
+    if (maxWidth === "max-w-[1400px]" || maxWidth === "max-w-7xl") effectiveMaxWidth = "max-w-5xl";
+  }
+
+  // Row 2 respects row2Columns so it vertically aligns with row 1 columns
+  const effectiveRow2Cols = row2Columns;
+
   return (
-    <section className="py-24 px-6" style={{ backgroundColor: bgColor }}>       
-      <div className="max-w-[1400px] mx-auto">
-        <div className="text-center mb-16  mx-auto">
+    <section className="py-20 md:py-24 px-6 sm:px-8 lg:px-12 xl:px-16" style={{ backgroundColor: bgColor }}>       
+      <div className={`${effectiveMaxWidth} mx-auto`}>
+        <div className="text-center mb-12 md:mb-16 mx-auto">
           <p className="text-[13px] font-sans font-semibold tracking-[0.15em] text-[#C9A961] uppercase mb-4">
             {label}
           </p>
@@ -35,7 +53,7 @@ const PostnatalComponents = ({
 
         <div className="space-y-6">
           {/* Row 1 */}
-          <div className={`grid grid-cols-1 md:grid-cols-2 ${row1Columns} gap-6`}>
+          <div className={`grid grid-cols-1 md:grid-cols-2 ${effectiveRow1Cols} gap-6`}>
             {row1.map((item, index) => (
               <ComponentCard key={index} item={item} cardBg={cardBg} techniquesLabel={techniquesLabel} />
             ))}
@@ -43,7 +61,7 @@ const PostnatalComponents = ({
 
           {/* Row 2 */}
           {row2.length > 0 && (
-            <div className={`grid grid-cols-1 md:grid-cols-2 ${row2Columns} gap-6`}>
+            <div className={`grid grid-cols-1 md:grid-cols-2 ${effectiveRow2Cols} gap-6`}>
               {row2.map((item, index) => (
                 <ComponentCard key={index} item={item} cardBg={cardBg} techniquesLabel={techniquesLabel} />       
               ))}
@@ -63,7 +81,7 @@ const PostnatalComponents = ({
 
 const ComponentCard = ({ item, cardBg, techniquesLabel }) => (
   <div
-    className="p-8 rounded-xl border-t-1 flex flex-col h-full transition-all duration-300 hover:shadow-lg"
+    className="p-6 md:p-8 rounded-xl border-t-1 flex flex-col h-full transition-all duration-300 hover:shadow-lg"
     style={{
       backgroundColor: cardBg,
       borderTopColor: '#C9A961',
@@ -75,13 +93,13 @@ const ComponentCard = ({ item, cardBg, techniquesLabel }) => (
       borderBottomColor: '#C9A961'
     }}
   >
-    <div className="text-[48px] font-serif text-[#C9A961] mb-2 leading-none opacity-40">{item.number}</div>
-    <h3 className="text-[18px] font-sans font-semibold text-[#1A1A1A] mb-4 leading-tight" dangerouslySetInnerHTML={{ __html: item.title }} />
-    <p className="text-[14px] text-[#4A4A4A] font-sans leading-relaxed flex-grow" dangerouslySetInnerHTML={{ __html: item.content }} />
+    <div className="text-[40px] md:text-[48px] font-serif text-[#C9A961] mb-2 leading-none opacity-40">{item.number}</div>
+    <h3 className="text-[17px] md:text-[18px] font-sans font-semibold text-[#1A1A1A] mb-3 leading-tight" dangerouslySetInnerHTML={{ __html: item.title }} />
+    <p className="text-[13.5px] md:text-[14px] text-[#4A4A4A] font-sans leading-relaxed mb-4 flex-grow" dangerouslySetInnerHTML={{ __html: item.content }} />
     {item.techniques && (
-      <div className="mt-6 pt-4 border-t border-[#C9A961]/30">
-        <p className="text-[11px] font-sans font-semibold tracking-[0.15em] uppercase text-[#C9A961] mb-2">{techniquesLabel}</p>
-        <p className="text-[13px] text-[#4A4A4A] font-sans leading-relaxed" dangerouslySetInnerHTML={{ __html: item.techniques }} />
+      <div className="mt-auto pt-4 border-t border-[#C9A961]/30">
+        <p className="text-[11px] font-sans font-semibold tracking-[0.15em] uppercase text-[#C9A961] mb-1.5">{techniquesLabel}</p>
+        <p className="text-[12.5px] md:text-[13px] text-[#4A4A4A] font-sans leading-relaxed" dangerouslySetInnerHTML={{ __html: item.techniques }} />
       </div>
     )}
   </div>

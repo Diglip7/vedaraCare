@@ -126,27 +126,69 @@ const DoctorPageTemplate = ({ doctor }) => {
       />
 
 
-      {/* ================= SECTION 4: EXPERTISE AREAS GRID (7+ cards) ================= */}
-      {doctor.specialtiesList && doctor.specialtiesList.length > 0 && (
-        <PostnatalComponents
-          bgColor={doctor.specialtiesBgColor || "#FFFFFF"}
-          cardBg={doctor.specialtiesCardBg || "#FBF7F1"}
-          label={doctor.specialtiesLabel || "AREAS OF EXPERTISE"}
-          title={doctor.specialtiesTitle || `${doctor.firstName || doctor.name}'s documented areas of expertise at our JVC clinic.`}
-          description={doctor.specialtiesSubtitle || ""}
-          footerNote={doctor.specialtiesFooter || ""}
-          row1Columns="lg:grid-cols-4"
-          row2Columns="lg:grid-cols-4"
-          row1Count={4}
-          items={doctor.specialtiesList.map((s) => ({
-            number: s.number,
-            title: s.title,
-            content: s.description,
-            techniques: s.related
-          }))}
-          techniquesLabel="CORE STRENGTH:"
-        />
-      )}
+      {/* ================= SECTION 4: EXPERTISE AREAS GRID ================= */}
+      {doctor.specialtiesList && doctor.specialtiesList.length > 0 && (() => {
+        const count = doctor.specialtiesList.length;
+        let r1Cols = "lg:grid-cols-4";
+        let r2Cols = "lg:grid-cols-4";
+        let r1Count = 4;
+        let maxWidth = "max-w-[1400px]";
+
+        if (count === 1) {
+          r1Cols = "lg:grid-cols-1 max-w-xl mx-auto";
+          r1Count = 1;
+          maxWidth = "max-w-2xl";
+        } else if (count === 2) {
+          r1Cols = "lg:grid-cols-2 max-w-4xl mx-auto";
+          r1Count = 2;
+          maxWidth = "max-w-4xl";
+        } else if (count === 3) {
+          r1Cols = "lg:grid-cols-3";
+          r1Count = 3;
+          maxWidth = "max-w-5xl";
+        } else if (count === 4) {
+          r1Cols = "lg:grid-cols-4";
+          r1Count = 4;
+          maxWidth = "max-w-7xl";
+        } else if (count === 5) {
+          r1Cols = "lg:grid-cols-3";
+          r2Cols = "lg:grid-cols-2 max-w-4xl mx-auto";
+          r1Count = 3;
+          maxWidth = "max-w-6xl";
+        } else if (count === 6) {
+          r1Cols = "lg:grid-cols-3";
+          r2Cols = "lg:grid-cols-3";
+          r1Count = 3;
+          maxWidth = "max-w-6xl";
+        } else if (count === 7) {
+          r1Cols = "lg:grid-cols-4";
+          r2Cols = "lg:grid-cols-4";
+          r1Count = 4;
+          maxWidth = "max-w-7xl";
+        }
+
+        return (
+          <PostnatalComponents
+            bgColor={doctor.specialtiesBgColor || "#FFFFFF"}
+            cardBg={doctor.specialtiesCardBg || "#FBF7F1"}
+            label={doctor.specialtiesLabel || "AREAS OF EXPERTISE"}
+            title={doctor.specialtiesTitle || `${doctor.firstName || doctor.name}'s documented areas of expertise at our JVC clinic.`}
+            description={doctor.specialtiesSubtitle || ""}
+            footerNote={doctor.specialtiesFooter || ""}
+            row1Columns={r1Cols}
+            row2Columns={r2Cols}
+            row1Count={r1Count}
+            maxWidth={maxWidth}
+            items={doctor.specialtiesList.map((s) => ({
+              number: s.number,
+              title: s.title,
+              content: s.description,
+              techniques: s.related
+            }))}
+            techniquesLabel="CORE STRENGTH:"
+          />
+        );
+      })()}
 
 
 
@@ -278,28 +320,46 @@ const DoctorPageTemplate = ({ doctor }) => {
             </div>
 
             <div className="space-y-12">
-              {(doctor.conditionsTreated.categories || []).map((cat, catIdx) => (
-                <div key={catIdx}>
-                  <h3 className="mb-5 pb-2 border-l-4 pl-4" style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '22px', fontWeight: '500', color: '#1A1A1A', borderLeftColor: '#C9A55B' }}>
-                    {cat.category}
-                  </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-                    {(cat.conditions || []).map((cond, cIdx) => (
-                      <div key={cIdx} className="p-6 rounded-[8px] border h-full flex flex-col" style={{ backgroundColor: '#FBF7F1', borderColor: '#E5DFD3' }}>
-                        <p className="condition-title text-[14px] font-semibold mb-3" style={{ color: '#1A1A1A' }} dangerouslySetInnerHTML={{ __html: cond.title }} />
-                        <p className="text-[12.5px] leading-relaxed" style={{ color: '#6B6B6B' }} dangerouslySetInnerHTML={{ __html: cond.description }} />
-                      </div>
-                    ))}
+              {(doctor.conditionsTreated.categories || []).map((cat, catIdx) => {
+                const count = (cat.conditions || []).length;
+                let gridClass = "grid-cols-1 md:grid-cols-2 lg:grid-cols-4";
+                if (count === 1) {
+                  gridClass = "grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
+                } else if (count === 2) {
+                  gridClass = "grid-cols-1 md:grid-cols-2 lg:grid-cols-2";
+                } else if (count === 3) {
+                  gridClass = "grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
+                } else if (count === 4) {
+                  gridClass = "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4";
+                } else if (count === 5 || count === 6) {
+                  gridClass = "grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
+                }
+
+                return (
+                  <div key={catIdx}>
+                    <h3 className="mb-5 pb-2 border-l-4 pl-4" style={{ fontFamily: 'Fraunces, Georgia, serif', fontSize: '22px', fontWeight: '500', color: '#1A1A1A', borderLeftColor: '#C9A55B' }}>
+                      {cat.category}
+                    </h3>
+                    <div className={`grid ${gridClass} gap-5`}>
+                      {(cat.conditions || []).map((cond, cIdx) => (
+                        <div key={cIdx} className="p-6 rounded-[8px] border h-full flex flex-col transition-all duration-300 hover:shadow-md" style={{ backgroundColor: '#FBF7F1', borderColor: '#E5DFD3' }}>
+                          <p className="condition-title text-[14px] font-semibold mb-3" style={{ color: '#1A1A1A' }} dangerouslySetInnerHTML={{ __html: cond.title }} />
+                          <p className="text-[12.5px] leading-relaxed flex-grow" style={{ color: '#6B6B6B' }} dangerouslySetInnerHTML={{ __html: cond.description }} />
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
 
 
             {doctor.conditionsTreated.footer && (
-              <p className="text-center mt-14 text-[14px] font-medium" style={{ color: '#6B6B6B' }}>
-                <u>{doctor.conditionsTreated.footer}</u>
-              </p>
+              <p
+                className="text-center mt-14 text-[14px] font-medium [&_a]:underline [&_a]:hover:text-[#C9A55B] [&_a]:transition-colors"
+                style={{ color: '#6B6B6B' }}
+                dangerouslySetInnerHTML={{ __html: doctor.conditionsTreated.footer }}
+              />
             )}
           </div>
         </section>
