@@ -20,7 +20,7 @@ import {
   nasyaBastiUdvartanaJvcApproaches,
   nasyaBastiUdvartanaJvcJourney,
   nasyaBastiUdvartanaJvcReviews,
-  nasyaBastiUdvartanaJvcPricing,
+  // nasyaBastiUdvartanaJvcPricing,
   nasyaBastiUdvartanaJvcFaqs,
   nasyaBastiUdvartanaJvcLocation,
   nasyaBastiUdvartanaJvcCTA,
@@ -359,7 +359,6 @@ const NasyaBastiUdvartanaJvc = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href="https://vedaracare.ae/treatments/nasya-basti-udvartana-jvc/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/treatments/nasya-basti-udvartana-jvc/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/nasya-basti-udvartana-jvc/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/treatments/nasya-basti-udvartana-jvc/" />
 
         {/* Open Graph & Twitter Tags */}
@@ -443,7 +442,7 @@ const NasyaBastiUdvartanaJvc = () => {
                 Ayurvedic doctors and therapists for specialty therapy delivery at our JVC clinic serving Dubai.
               </h2>
               <p className="text-[16px] text-[#555555] leading-[1.7] max-w-[720px] mx-auto">
-                Specialty therapy delivery requires appropriate practitioner and therapist expertise for authentic classical delivery. Female practitioner (Dr. Zainab) and female therapist team available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.
+                Specialty therapy delivery requires appropriate practitioner and therapist expertise for authentic classical delivery. Female practitioner (Dr. Zainab) and female therapist team available.
               </p>
             </div>
 
@@ -504,7 +503,7 @@ const NasyaBastiUdvartanaJvc = () => {
         </section>
 
         {/* Section 9: Pricing */}
-        <PostnatalPricingTableImage data={nasyaBastiUdvartanaJvcPricing} />
+        {/* <PostnatalPricingTableImage data={nasyaBastiUdvartanaJvcPricing} /> */}
 
         {/* Section 10: FAQ */}
         <FAQ

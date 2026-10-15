@@ -55,18 +55,17 @@ export default function RfSkinTighteningJvc() {
     "logo": "https://vedaracare.ae/images/logo.png",
     "image": "https://vedaracare.ae/images/clinic-exterior-jvc.jpg",
     "description": "DHA-Licensed multi-specialty polyclinic in Jumeirah Village Circle (JVC), Dubai. RF skin tightening delivered under hybrid protocol (DHA-Licensed Aesthetician primary operator + Consultant Dermatologist Medical Director oversight).",
-    "telephone": "[clinic phone]",
-    "email": "[clinic email]",
+    "telephone": "+971555736312",
+    "email": "info@vedaracare.ae",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "[clinic street address]",
-      "addressLocality": "Jumeirah Village Circle",
+      "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4",
+      "addressLocality": "Jumeirah Village Circle (JVC)",
       "addressRegion": "Dubai",
-      "postalCode": "[postal code]",
+      "postalCode": "00000",
       "addressCountry": "AE"
     },
-    "geo": { "@type": "GeoCoordinates", "latitude": "[JVC latitude]", "longitude": "[JVC longitude]" },
-    "hasMap": "[Google Maps URL]",
+    "geo": { "@type": "GeoCoordinates", "latitude": "25.068346", "longitude": "55.2072235" },
     "openingHoursSpecification": [
       { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "09:00", "closes": "21:00" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "18:00" }

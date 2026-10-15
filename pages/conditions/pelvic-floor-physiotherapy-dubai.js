@@ -54,7 +54,7 @@ const PelvicFloorDubai = () => {
 
   const PAGE = {
     path: '/conditions/pelvic-floor-physiotherapy-dubai/',
-    title: "Pelvic Floor & Women's Health Physiotherapy Dubai | Female Physio JVC",
+    title: "Pelvic Floor & Women's Health Physio in JVC, Dubai | Vedara",
     description: "Pelvic floor and women's health physiotherapy with a female physiotherapist in JVC, Dubai: incontinence, prolapse, pelvic pain, pregnancy and postnatal care.",
   };
 
@@ -110,6 +110,8 @@ const PelvicFloorDubai = () => {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </Head>
 

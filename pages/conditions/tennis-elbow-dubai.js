@@ -5,26 +5,23 @@ import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
 import SportsInjuryTypes from '../../components/ayurveda/SportsInjuryTypes';
 import TennisElbowRecoveryTimeline from '../../components/ayurveda/TennisElbowRecoveryTimeline';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
-import { physioReviewsBlock } from '../../data/googleReviews';
 import FAQ from '../../components/home/FAQ';
 import PhysiotherapyTeam from '../../components/ayurveda/PhysiotherapyTeam';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
 import { SciaticaTreatment } from '../../components/ayurveda/SciaticaSections';
-// import {SciaticaTreatment} from '../../components/ayurveda/SciaticaTreatment';
 import {
   tennisElbowHero,
   tennisElbowIntro,
   tennisElbowTypes,
-  tennisElbowMechanism2,
   tennisElbowRecoveryTimeline,
-  tennisElbowMechanism3,
   tennisElbowReviews,
   tennisElbowTeam,
-  tennisElbowPricing,
   tennisElbowFaqs,
   tennisElbowSciaticaSection2,
+  tennisElbowShockwave,
+  tennisElbowExercises,
   tennisElbowLocation,
   tennisElbowCTA,
   tennisElbowRelatedPages,
@@ -34,271 +31,85 @@ import {
 
 
 const TennisElbowDubai = () => {
-  const currentUrl = "https://vedaracare.ae/conditions/tennis-elbow-dubai/";
-  const publishedDate = "2024-06-01T08:00:00+04:00";
-  const modifiedDate = new Date().toISOString();
+  const SITE = 'https://vedaracare.ae';
+  const URL = `${SITE}/conditions/tennis-elbow-dubai/`;
+  const currentUrl = URL;
+  const ORG_ID = `${SITE}/#organization`;
+  const HAFSINA_ID = `${SITE}/doctors/hafsina-kk-physiotherapist/#physician`;
+  const REVIEWED = '2026-10-15';   // fixed; change only when Hafsina actually reviews the page
+  const strip = (s) => String(s).replace(/<[^>]+>/g, '');
 
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": ["MedicalBusiness", "LocalBusiness", "PhysicalTherapy"],
-      "@id": `${currentUrl}#tennis-elbow`,
-      "name": "Vedara Care Tennis Elbow Treatment",
-      "alternateName": ["Vedara Tennis Elbow Treatment Dubai", "Vedara Lateral Epicondylalgia JVC"],
-      "url": currentUrl,
-      "parentOrganization": { "@id": "https://vedaracare.ae/#organization" },
-      "description": "Specialist tennis elbow (lateral epicondylalgia) treatment at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai. Evidence-based eccentric and isometric loading protocols. Particular expertise in padel-related elbow injuries and office worker patterns. Most tennis elbow patients have never played tennis.",
-      "telephone": "+971 55 573 6312",
-      "priceRange": "AED 350 - AED 12,000",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle",
-        "addressLocality": "Dubai",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "25.068346",
-        "longitude": "55.2072235"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          "opens": "09:00",
-          "closes": "22:00"
-        }
-      ],
-      "areaServed": [
-        { "@type": "City", "name": "Dubai" },
-        { "@type": "Place", "name": "Jumeirah Village Circle" },
-        { "@type": "Place", "name": "Jumeirah Village Triangle" },
-        { "@type": "Place", "name": "Al Barsha South" },
-        { "@type": "Place", "name": "Dubai Sports City" },
-        { "@type": "Place", "name": "Motor City" },
-        { "@type": "Place", "name": "Arjan" },
-        { "@type": "Place", "name": "Dubai Hills Estate" },
-        { "@type": "Place", "name": "Dubai Marina" },
-        { "@type": "Place", "name": "Downtown Dubai" },
-        { "@type": "Place", "name": "Palm Jumeirah" },
-        { "@type": "Place", "name": "Mirdif" },
-        { "@type": "Place", "name": "Circle Mall" },
-        { "@type": "Place", "name": "FIVE Jumeirah Village" },
-        { "@type": "Place", "name": "JSS Private School" }
-      ],
-      "medicalSpecialty": [
-        "Tennis Elbow Treatment",
-        "Physiotherapy",
-        "Physical Therapy",
-        "Tendinopathy Treatment",
-        "Sports Medicine"
-      ],
-      "isAcceptingNewPatients": true,
-      "availableService": [
-        { "@type": "MedicalProcedure", "name": "Tennis Elbow Physiotherapy" },
-        { "@type": "MedicalProcedure", "name": "Lateral Epicondylalgia Treatment" },
-        { "@type": "MedicalProcedure", "name": "Eccentric Loading Protocols" },
-        { "@type": "MedicalProcedure", "name": "Isometric Loading Exercises" },
-        { "@type": "MedicalProcedure", "name": "Manual Therapy" },
-        { "@type": "MedicalProcedure", "name": "Dry Needling" },
-        { "@type": "MedicalProcedure", "name": "Mulligan Mobilisation With Movement" },
-        { "@type": "MedicalProcedure", "name": "Ergonomic Assessment" },
-        { "@type": "MedicalProcedure", "name": "Tyler Twist" },
-        { "@type": "MedicalProcedure", "name": "Stanish Protocol" }
-      ],
-      "memberOf": {
-        "@type": "GovernmentOrganization",
-        "name": "Dubai Health Authority"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.7",
-        "reviewCount": "23",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "knowsAbout": [
-        { "@type": "AnatomicalStructure", "name": "Common Extensor Tendon" },
-        { "@type": "AnatomicalStructure", "name": "Lateral Epicondyle" },
-        { "@type": "AnatomicalStructure", "name": "Extensor Carpi Radialis Brevis" },
-        { "@type": "Sport", "name": "Padel" },
-        { "@type": "Sport", "name": "Tennis" },
-        { "@type": "Sport", "name": "Gym Training" }
-      ]
-    },
-    [
-      {
-        "@context": "https://schema.org",
-        "@type": "MedicalCondition",
-        "name": "Lateral Epicondylalgia",
-        "alternateName": ["Tennis Elbow", "Lateral Epicondylitis", "Common Extensor Tendinopathy"],
-        "code": { "@type": "MedicalCode", "code": "M77.1", "codingSystem": "ICD-10" },
-        "possibleTreatment": [
-          { "@type": "MedicalProcedure", "name": "Eccentric Loading Protocols" },
-          { "@type": "MedicalProcedure", "name": "Isometric Loading" },
-          { "@type": "MedicalProcedure", "name": "Manual Therapy" },
-          { "@type": "MedicalProcedure", "name": "Tyler Twist" },
-          { "@type": "MedicalProcedure", "name": "Stanish Protocol" }
+  const PAGE = {
+    path: '/conditions/tennis-elbow-dubai/',
+    title: "Tennis Elbow Treatment in JVC, Dubai | Physiotherapy | Vedara",   // 61 characters
+    description: "Tennis elbow and elbow pain physiotherapy at our JVC clinic near Circle Mall, Dubai: loading exercises, shockwave and dry needling. Same-day appointments.",   // 154 characters
+  };
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'MedicalWebPage', '@id': `${URL}#webpage`, url: URL, name: PAGE.title, description: PAGE.description,
+        inLanguage: 'en-AE', isPartOf: { '@id': `${SITE}/#website` }, publisher: { '@id': ORG_ID },
+        about: [
+          { '@type': 'MedicalCondition', name: 'Lateral epicondylitis', alternateName: ['Tennis elbow', 'Lateral epicondylalgia', 'Padel elbow'],
+            possibleTreatment: [
+              { '@type': 'MedicalTherapy', name: 'Eccentric and isometric loading exercise' },
+              { '@type': 'MedicalTherapy', name: 'Extracorporeal shockwave therapy' },   // delete if shockwave is not confirmed
+              { '@type': 'MedicalTherapy', name: 'Dry needling' } ] },
+          { '@type': 'MedicalCondition', name: 'Medial epicondylitis', alternateName: ["Golfer's elbow"] },   // delete if not confirmed
         ],
-        "associatedAnatomy": [
-          { "@type": "AnatomicalStructure", "name": "Common Extensor Tendon" },
-          { "@type": "AnatomicalStructure", "name": "Lateral Epicondyle" },
-          { "@type": "AnatomicalStructure", "name": "Extensor Carpi Radialis Brevis" }
-        ]
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "MedicalCondition",
-        "name": "Padel-Related Tennis Elbow"
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "MedicalCondition",
-        "name": "Chronic Tennis Elbow"
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "MedicalCondition",
-        "name": "Office Worker Tennis Elbow"
-      }
+        mainEntity: { '@id': `${URL}#service` },
+        reviewedBy: { '@id': HAFSINA_ID }, lastReviewed: REVIEWED, dateModified: REVIEWED,
+        breadcrumb: { '@id': `${URL}#breadcrumb` } },
+      { '@type': 'Service', '@id': `${URL}#service`, name: 'Tennis elbow physiotherapy', serviceType: 'Physiotherapy',
+        provider: { '@id': ORG_ID },
+        areaServed: [
+          { '@type': 'Place', name: 'Jumeirah Village Circle (JVC), Dubai' },
+          { '@type': 'Place', name: 'Jumeirah Village Triangle (JVT), Dubai' },
+          { '@type': 'Place', name: 'Al Barsha South, Dubai' },
+          { '@type': 'City', name: 'Dubai' } ],
+        availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE}/book/`,
+          servicePhone: { '@type': 'ContactPoint', telephone: '+971555736312', contactType: 'appointments' } } },
+      { '@type': 'Person', '@id': HAFSINA_ID, name: 'Hafsina K K', jobTitle: 'Physiotherapist',
+        url: `${SITE}/doctors/hafsina-kk-physiotherapist/`, worksFor: { '@id': ORG_ID },
+        knowsAbout: ['Tennis elbow', 'Tendinopathy rehabilitation', 'Dry needling', 'Shockwave therapy'],
+        knowsLanguage: ['English', 'Hindi', 'Malayalam'],
+        hasCredential: [
+          { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Bachelor of Physiotherapy' },
+          { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license', name: 'DHA Physiotherapist Licence',
+            identifier: '64812828', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Dubai Health Authority' } } ] },
+      { '@type': 'BreadcrumbList', '@id': `${URL}#breadcrumb`, itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+        { '@type': 'ListItem', position: 2, name: 'Physiotherapy', item: `${SITE}/physiotherapy-jvc/` },
+        { '@type': 'ListItem', position: 3, name: 'Tennis Elbow Treatment', item: URL } ] },
+      { '@type': 'FAQPage', '@id': `${URL}#faq`,
+        mainEntity: tennisElbowFaqs.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: strip(f.answer) } })) },
     ],
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Tennis Elbow Treatment Services in Dubai",
-      "provider": { "@id": `${currentUrl}#tennis-elbow` },
-      "areaServed": [
-        { "@type": "City", "name": "Dubai" },
-        { "@type": "Place", "name": "United Arab Emirates" }
-      ],
-      "serviceType": "Tennis Elbow Physiotherapy and Lateral Epicondylalgia Treatment",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tennis Elbow Treatment Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Initial Tennis Elbow Assessment",
-            "priceCurrency": "AED",
-            "price": "450",
-            "description": "60-minute comprehensive assessment with DHA-licensed physiotherapist"
-          },
-          {
-            "@type": "Offer",
-            "name": "Acute Tennis Elbow Programme",
-            "priceCurrency": "AED",
-            "price": "2800",
-            "description": "8-10 session programme over 8-12 weeks for acute presentations"
-          },
-          {
-            "@type": "Offer",
-            "name": "Standard Tennis Elbow Programme",
-            "priceCurrency": "AED",
-            "price": "4200",
-            "description": "12-16 session programme over 12-20 weeks for typical presentations"
-          },
-          {
-            "@type": "Offer",
-            "name": "Padel-Specific Return-to-Sport Programme",
-            "priceCurrency": "AED",
-            "price": "3600",
-            "description": "Sport-specific programme for padel players"
-          }
-        ]
-      },
-      "employee": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/" },
-        { "@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/" },
-        { "@type": "ListItem", "position": 3, "name": "Tennis Elbow Treatment in Dubai", "item": currentUrl }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is tennis elbow exactly?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tennis elbow (formally lateral epicondylalgia) is a tendinopathy of the common extensor tendon at the outer elbow. The condition affects the muscles that extend the wrist and fingers. Despite the name, most patients have never played tennis. The condition develops from any repetitive wrist extension or sustained gripping activity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should I get a cortisone injection?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Generally no, based on current evidence. Multiple research studies show that cortisone injections produce short-term pain relief but worse long-term outcomes than physiotherapy. Patients with injections often have higher recurrence rates and longer overall recovery. We recommend evidence-based loading protocols as the appropriate first-line treatment."
-          }
-        },
-        ...tennisElbowFaqs.faqs.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalScholarlyArticle",
-      "headline": "Tennis Elbow Treatment in Dubai — Evidence-Based Treatment Guide",
-      "image": "https://vedaracare.ae/images/tennis-elbow-eccentric-loading-vedara-jvc.webp",
-      "datePublished": publishedDate,
-      "dateModified": modifiedDate,
-      "author": { "@id": "https://vedaracare.ae/doctors/hafsina-kk-physiotherapist/#physician" },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic"
-      },
-      "about": [
-        { "@type": "MedicalCondition", "name": "Lateral Epicondylalgia" },
-        { "@type": "MedicalCondition", "name": "Tennis Elbow" }
-      ],
-      "mainEntityOfPage": currentUrl
-    },
-    // Insurance partners
-    { "@context": "https://schema.org", "@type": "Organization", "name": "Daman" },
-    { "@context": "https://schema.org", "@type": "Organization", "name": "AXA" },
-    { "@context": "https://schema.org", "@type": "Organization", "name": "Allianz" },
-    { "@context": "https://schema.org", "@type": "Organization", "name": "Oman Insurance" },
-    { "@context": "https://schema.org", "@type": "Organization", "name": "Now Health" },
-    { "@context": "https://schema.org", "@type": "Organization", "name": "Bupa" },
-    { "@context": "https://schema.org", "@type": "Organization", "name": "MetLife" }
-  ];
+  };
 
   return (
     <>
       <Head>
-        <title>Tennis Elbow Treatment in JVC, Dubai | Vedara Care</title>
-        <meta name="description" content="Specialist tennis elbow treatment at our JVC clinic, Dubai. Evidence-based eccentric loading protocols. Padel and office worker expertise. Most tennis elbow resolves without cortisone injection. Book a same-week assessment." />
-        <link rel="canonical" href={currentUrl} />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
+        <link rel="canonical" href="https://vedaracare.ae/conditions/tennis-elbow-dubai/" />
         <link rel="alternate" hreflang="en-AE" href={currentUrl} />
         <link rel="alternate" hreflang="x-default" href={currentUrl} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        <meta property="og:title" content="Tennis Elbow Treatment in JVC, Dubai | Vedara Care" />
-        <meta property="og:description" content="Most tennis elbow patients have never played tennis. DHA-licensed tendinopathy specialists at our Jumeirah Village Circle clinic using evidence-based eccentric loading protocols and ergonomic guidance. Better long-term outcomes than cortisone injections." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/tennis-elbow-dubai.webp" />
-        <meta property="og:url" content={currentUrl} />
-        <meta property="og:type" content="business.business" />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content="https://vedaracare.ae/conditions/tennis-elbow-dubai/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://vedaracare.ae/images/tennis-elbow-dubai-hero.webp" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
-        {schemas.map((schema, index) => (
-          <script
-            key={index}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
       </Head>
 
       <AyurvedaHero
@@ -335,7 +146,19 @@ const TennisElbowDubai = () => {
         showStepNumbers={false}
       />
 
+      <div id="shockwave" className="scroll-mt-24">
+        <TreatmentMechanism
+          {...tennisElbowShockwave}
+          bgColor="bg-white"
+        />
+      </div>
 
+      <div id="exercises" className="scroll-mt-24">
+        <TreatmentMechanism
+          {...tennisElbowExercises}
+          bgColor="bg-[#F5F1E8]"
+        />
+      </div>
 
       <TennisElbowRecoveryTimeline
         {...tennisElbowRecoveryTimeline}
@@ -349,48 +172,13 @@ const TennisElbowDubai = () => {
         showComparison={true}
       />
 
-      <TreatmentReviews {...physioReviewsBlock()} />
+      <TreatmentReviews {...tennisElbowReviews} />
 
       <PhysiotherapyTeam
         bgColor="bg-[#F8F4EE]"
         cardColor="bg-white"
         {...tennisElbowTeam}
       />
-
-      <div className={`bg-white py-24 px-6 ${tennisElbowPricing.bgColor}`}>
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <div className="text-sm tracking-widest uppercase mb-4" style={{ color: '#C9A84C' }}>
-              {tennisElbowPricing.label}
-            </div>
-            <h2 className="text-4xl" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26, 26, 26)' }}>
-              {tennisElbowPricing.title}
-            </h2>
-          </div>
-
-          <div className="bg-white rounded-lg border border-[#E5DFD3] overflow-hidden mb-12">
-            {tennisElbowPricing.services.map((service, index) => (
-              <div key={index} className={`flex items-center justify-between px-8 py-5 ${index % 2 === 1 ? 'bg-[#FAF8F5]' : 'bg-white'}`}>
-                <p className="text-sm" style={{ color: 'rgb(26, 26, 26)' }}>
-                  {service.name}
-                </p>
-                <p style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(201, 168, 76)' }}>
-                  {service.price}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <p className="text-center mb-8" style={{ color: 'rgb(107, 107, 107)', lineHeight: '1.7', fontSize: '14px' }} dangerouslySetInnerHTML={{ __html: tennisElbowPricing.insuranceText }} />
-          <div className="flex flex-wrap justify-center gap-3">
-            {tennisElbowPricing.insurances && tennisElbowPricing.insurances.map((insurer, index) => (
-              <span key={index} className="bg-[#FAF8F5] px-4 py-2 rounded-full text-xs border border-[#E5DFD3]" style={{ color: 'rgb(107, 107, 107)' }}>
-                {insurer}
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
 
       <FAQ {...tennisElbowFaqs} />
 
@@ -400,7 +188,6 @@ const TennisElbowDubai = () => {
 
       <FinalCTA
         {...tennisElbowCTA}
-        title="Most tennis elbow resolves with evidence-based loading protocols."
         primaryCTATrackingEvent={{ event: 'generate_lead', lead_type: 'booking_click', service: 'tennis_elbow_treatment' }}
         secondaryCTATrackingEvent={{ event: 'click_whatsapp' }}
       />

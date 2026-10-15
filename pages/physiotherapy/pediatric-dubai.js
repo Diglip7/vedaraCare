@@ -51,7 +51,7 @@ const schema = {
       '@type': 'MedicalWebPage',
       '@id': `${URL}#webpage`,
       url: URL,
-      name: 'Pediatric Physiotherapy in Dubai | Kids Physio in JVC | Vedara',
+      name: 'Pediatric Physiotherapy in JVC, Dubai | Kids Physio | Vedara',
       description: 'Physiotherapy for children aged 5+ and teens at our JVC clinic, Dubai: sports and growth injuries, posture, scoliosis, developmental and neuro conditions.',
       inLanguage: 'en-AE',
       isPartOf: { '@id': `${SITE}/#website` },
@@ -128,7 +128,7 @@ const PediatricDubai = () => {
 
   const PAGE = {
     path: '/physiotherapy/pediatric-dubai/',
-    title: "Pediatric Physiotherapy in Dubai | Kids Physio in JVC | Vedara",
+    title: "Pediatric Physiotherapy in JVC, Dubai | Kids Physio | Vedara",
     description: "Physiotherapy for children aged 5+ and teens at our JVC clinic, Dubai: sports and growth injuries, posture, scoliosis, developmental and neuro conditions.",
   };
 

@@ -121,7 +121,7 @@ export const patraPindaSwedaConcerns = {
     },
     {
       title: "Patra Pinda Sweda for Muscle Tension",
-      description: "Many patients look into warm herbal fomentation therapy for more general reasons — muscle tightness, overall stiffness, physical fatigue, or a broader sense of musculoskeletal discomfort that doesn’t necessarily point to one specific diagnosis. This is a reasonable reason to explore Patra Pinda Sweda following assessment. We’d avoid language like “deep tissue detoxification” here, since that overstates what the treatment can be reliably shown to do. What can be said honestly is that Patra Pinda Sweda has a long traditional association with supporting comfort and relaxation in areas of muscular tension."
+      description: "Many patients look into warm herbal fomentation therapy for more general reasons — muscle tightness, overall stiffness, physical fatigue, or a broader sense of musculoskeletal discomfort that doesn’t necessarily point to one specific diagnosis. This is a reasonable reason to explore Patra Pinda Sweda following assessment. We’d avoid language like “deep tissue detoxification” here, since that overstates what the treatment can be reliably shown to do. What can be said honestly is that Patra Pinda Sweda has a long traditional association with supporting comfort and relaxation in areas of muscular tension."
     }
   ]
 };
@@ -150,7 +150,7 @@ export const patraPindaSwedaComparisons = {
         "It’s a fair question whether Patra Pinda Sweda is simply a variation on massage, so it’s worth explaining the distinction clearly.",
         "Ordinary massage primarily involves manual pressure and manipulation of the soft tissue, using the hands (or sometimes tools) directly on the skin.",
         "Patra Pinda Sweda combines traditional Ayurvedic massage and fomentation concepts with warm herbal boluses — the herb-filled bundles themselves, and the controlled heat they carry, are central to the therapy, not simply an add-on to manual technique. Some protocols may begin with an Abhyanga-style oil massage before the bolus application starts.",
-        "It wouldn’t be accurate to describe Patra Pinda Sweda simply as a form of “hot stone massage” — while both involve heat, the mechanism, ingredients, and traditional purpose are quite different."
+        "It wouldn’t be accurate to describe Patra Pinda Sweda simply as a form of “hot stone massage” — while both involve heat, the mechanism, ingredients, and traditional purpose are quite different."
       ]
     },
     {

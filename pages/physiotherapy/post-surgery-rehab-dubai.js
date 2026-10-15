@@ -54,7 +54,7 @@ const PostSurgeryRehabDubai = () => {
         '@type': 'MedicalWebPage',
         '@id': `${URL}#webpage`,
         url: URL,
-        name: 'Post-Surgery Physiotherapy in Dubai | Rehab & Prehab in JVC | Vedara',
+        name: 'Post-Surgery Physiotherapy in JVC, Dubai | Rehab & Prehab | Vedara',
         description: "Pre- and post-surgery physiotherapy at our JVC clinic, Dubai: knee and hip replacement, ACL, shoulder, spine and fracture rehab, following your surgeon's plan.",
         inLanguage: 'en-AE',
         isPartOf: { '@id': `${SITE}/#website` },
@@ -126,7 +126,7 @@ const PostSurgeryRehabDubai = () => {
 
   const PAGE = {
     path: '/physiotherapy/post-surgery-rehab-dubai/',
-    title: "Post-Surgery Physiotherapy in Dubai | Rehab & Prehab in JVC | Vedara",
+    title: "Post-Surgery Physiotherapy in JVC, Dubai | Rehab & Prehab | Vedara",
     description: "Pre- and post-surgery physiotherapy at our JVC clinic, Dubai: knee and hip replacement, ACL, shoulder, spine and fracture rehab, following your surgeon's plan.",
   };
 

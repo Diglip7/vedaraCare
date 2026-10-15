@@ -142,7 +142,7 @@ export const panchakarmaJVCCTA = {
   bgColor: "bg-white",
   label: "READY TO BEGIN?",
   title: "Panchakarma in JVC starts with a consultation.",
-  description: "We do not sell Panchakarma packages over WhatsApp. Every programme begins with a 45-60 minute consultation where your doctor assesses whether Panchakarma is the right protocol for you, what specific actions to use, and what length your case calls for. For full educational background, see our <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline\">Panchakarma in Dubai guide</a>.",
+  description: "We do not sell Panchakarma packages over WhatsApp. Every programme begins with a 45-60 minute consultation where your doctor assesses whether Panchakarma is the right protocol for you, what specific actions to use, and what length your case calls for. For full educational background, see our Panchakarma in Dubai guide.",
   button1Text: "Book a Consultation",
   button2Text: "Chat on WhatsApp",
   button1Href: "/book",

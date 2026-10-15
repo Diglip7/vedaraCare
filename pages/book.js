@@ -344,7 +344,12 @@ export default function BookAppointment({ dynamicTreatments }) {
 
       if (response.ok) {
         window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({ event: 'booking_submit', department: formData.department || 'unknown', form_id: 'book' });
+        window.dataLayer.push({
+          event: 'booking_submit',
+          page_path: router.asPath.split('?')[0],
+          department: formData.department || 'unknown',
+          form_id: 'book'
+        });
       }
 
       setIsSubmitting(false);

@@ -499,7 +499,7 @@ const NonSurgicalFacelift = () => {
               ))}
             </div>
           </div>
-          <div className="relative h-[580px] lg:h-[680px] w-full rounded-2xl overflow-hidden shadow-lg border border-[#E5DFD3]">
+          <div className="relative h-[380px] lg:h-[640px] w-full rounded-2xl overflow-hidden shadow-lg border border-[#E5DFD3]">
             <img
               src="/images/non-surgical-consultation-jvc.webp"
               alt="Non-surgical facelift safety consultation at Vedara Care JVC"
@@ -512,7 +512,7 @@ const NonSurgicalFacelift = () => {
       {/* DARKER SKIN TONES */}
       <div className="bg-white py-16 md:py-20 px-6">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative h-[480px] lg:h-[580px] w-full rounded-2xl overflow-hidden shadow-lg border border-[#E5DFD3] order-2 lg:order-1">
+          <div className="relative h-[280px] lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-lg border border-[#E5DFD3] order-2 lg:order-1">
             <img
               src="/images/non-surgical.webp"
               alt="Skin rejuvenation consultation for darker skin tones at Vedara Care JVC"
@@ -630,25 +630,7 @@ const NonSurgicalFacelift = () => {
         </div>
       </div>
 
-      {/* FAQ */}
-      {/* <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
-        <div className="max-w-3xl mx-auto">
-          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-            {nonSurgicalFaceliftFAQ.label}
-          </p>
-          <h2 className="text-3xl md:text-4xl font-serif mb-10 text-[rgb(26,26,26)]">
-            Non-surgical facelift — common questions answered
-          </h2>
-          <div className="space-y-6">
-            {nonSurgicalFaceliftFAQ.faqs.map((faq, i) => (
-              <div key={i} className="border-b border-[#E5DFD3] pb-6">
-                <h3 className="text-base font-semibold text-[rgb(26,26,26)] mb-2">{faq.question}</h3>
-                <p className="text-sm text-[rgb(107,107,107)] leading-relaxed">{faq.answer}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div> */}
+
 
 
       <FAQ {...nonSurgicalFaceliftFAQ} />

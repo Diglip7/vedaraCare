@@ -257,7 +257,6 @@ const HydraFacialTreatmentJVC = () => {
 
         <link rel="canonical" href={currentUrl} />
         <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/hydrafacial-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={currentUrl} />
 
         <meta property="og:title" content="HydraFacial at Vedara Care JVC Dubai | CIBTAC-UK Certified Aesthetician | Walking Distance from Circle Mall" />

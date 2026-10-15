@@ -118,7 +118,7 @@ const AyurvedaDubai = () => {
       "logo": "https://vedaracare.ae/logo.png",
       "medicalSpecialty": ["Ayurveda", "PhysicalTherapy", "Dermatology"],
       "address": SCHEMA_ADDRESS,
-      "telephone": "+971-XX-XXX-XXXX",
+      "telephone": "+971555736312",
       "areaServed": [
         { "@type": "City", "name": "Dubai" },
         { "@type": "Place", "name": "United Arab Emirates" }

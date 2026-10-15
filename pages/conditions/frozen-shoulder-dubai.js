@@ -242,7 +242,7 @@ const FrozenShoulderDubai = () => {
 
   const PAGE = {
     path: '/conditions/frozen-shoulder-dubai/',
-    title: "Frozen Shoulder Treatment in Dubai | Physiotherapy in JVC | Vedara",
+    title: "Frozen Shoulder Treatment in JVC, Dubai | Physiotherapy | Vedara",
     description: "Frozen shoulder (adhesive capsulitis) physiotherapy at our JVC clinic, Dubai: phase-based care, shockwave, exercises and GP support for diabetes.",
   };
 
@@ -325,6 +325,8 @@ const FrozenShoulderDubai = () => {
         <meta property="og:image" content="https://vedaracare.ae/images/frozen-shoulder-treatment-vedara-jvc.webp" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </Head>
 

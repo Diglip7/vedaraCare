@@ -40,7 +40,7 @@ const KneePainPhysioDubai = () => {
 
   const PAGE = {
     path: '/conditions/knee-pain-physiotherapy-dubai/',
-    title: "Knee Pain Physiotherapy & Treatment in Dubai | JVC Clinic | Vedara",   // 66 characters
+    title: "Knee Pain Treatment in JVC, Dubai | Physiotherapy | Vedara",   // 58 characters
     description: "Knee pain treatment without surgery at our JVC clinic, Dubai: runner's knee, meniscus, ligament injuries and knee arthritis, with a DHA-licensed physio.",   // 152 characters
   };
 
@@ -107,6 +107,8 @@ const KneePainPhysioDubai = () => {
         <meta property="og:image" content="https://vedaracare.ae/images/knee-pain-physiotherapy-dubai-hero.webp" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </Head>
 

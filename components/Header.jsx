@@ -174,9 +174,7 @@ const Header = () => {
               Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE
             </span>
           </div>
-          <div className="flex items-center gap-3">
 
-          </div>
         </div>
       </div>
 

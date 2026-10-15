@@ -38,7 +38,7 @@ const REVIEWED = '2026-10-15';   // fixed; change only when Hafsina actually rev
 const strip = (s) => String(s).replace(/<[^>]+>/g, '');
 
 const PAGE = {
-  title: 'Stroke Rehabilitation in Dubai | Post-Stroke Physio in JVC | Vedara',
+  title: 'Stroke Rehabilitation in JVC, Dubai | Post-Stroke Physio | Vedara',
   description: 'Outpatient stroke rehabilitation at our JVC clinic, Dubai: walking, balance, arm and hand recovery with a DHA-licensed physiotherapist. Families welcome.'
 };
 
@@ -82,18 +82,20 @@ const StrokeRehabDubai = () => {
   return (
     <>
       <Head>
-        <title>Stroke Rehabilitation in Dubai | Post-Stroke Physio in JVC | Vedara</title>
-        <meta name="description" content="Outpatient stroke rehabilitation at our JVC clinic, Dubai: walking, balance, arm and hand recovery with a DHA-licensed physiotherapist. Families welcome." />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
 
-        <meta property="og:title" content="Stroke Rehabilitation in Dubai | Post-Stroke Physio in JVC | Vedara" />
-        <meta property="og:description" content="Outpatient stroke rehabilitation at our JVC clinic, Dubai: walking, balance, arm and hand recovery with a DHA-licensed physiotherapist. Families welcome." />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
         <meta property="og:image" content="https://vedaracare.ae/images/stroke-rehab-dubai-hero.webp" />
         <meta property="og:url" content="https://vedaracare.ae/conditions/stroke-rehab-dubai/" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_AE" />
 
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
 
         <link rel="canonical" href="https://vedaracare.ae/conditions/stroke-rehab-dubai/" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/stroke-rehab-dubai/" hreflang="en-AE" />

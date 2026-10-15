@@ -291,8 +291,8 @@ const CervicalSpondylosisAyurvedaJvc = () => {
       "name": "Vedara Care Polyclinic",
       "url": "https://vedaracare.ae/",
       "logo": { "@type": "ImageObject", "url": "https://vedaracare.ae/logo.png" },
-      "sameAs": ["https://www.facebook.com/[handle]", "https://www.instagram.com/[handle]", "https://www.linkedin.com/company/[handle]", "https://www.google.com/maps/place/[place_id]"],
-      "contactPoint": { "@type": "ContactPoint", "telephone": "[Phone]", "contactType": "Customer Service", "areaServed": "AE", "availableLanguage": ["English", "Arabic", "Hindi", "Malayalam", "Urdu"] }
+      "sameAs": ["https://www.instagram.com/vedaracare/"],
+      "contactPoint": { "@type": "ContactPoint", "telephone": "+971555736312", "contactType": "Customer Service", "areaServed": "AE", "availableLanguage": ["English", "Arabic", "Hindi", "Malayalam", "Urdu"] }
     }
   ];
 

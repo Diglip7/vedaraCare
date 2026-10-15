@@ -67,7 +67,6 @@ const AntiAgingSkinFirmingJVC = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href={antiAgingSEO.canonicalUrl} />
         <link rel="alternate" hrefLang="en-AE" href={antiAgingSEO.canonicalUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/anti-aging-skin-firming-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={antiAgingSEO.canonicalUrl} />
 
         {/* Schema Markup */}

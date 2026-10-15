@@ -30,7 +30,7 @@ export const stressJvcIntro = {
   label: "THE QUICK ANSWER",
   title: "Stress and anxiety Ayurvedic care at Vedara Care, in one paragraph.",
   blockquote: "Stress and anxiety Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic care delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab. Comprehensive approach includes constitutional assessment (Prakriti and Vikriti), Nadi Pareeksha pulse examination, and a personalised treatment plan combining Shirodhara (flagship therapy — continuous warm oil flow across forehead calming the nervous system), Nasya nasal therapy, Abhyanga oil massage, constitution-matched herbal medicines (Brahmi, Ashwagandha, Jatamansi, Shankhpushpi), dietary guidance, and lifestyle recommendations sustainable within Dubai professional life. Conditions addressed span chronic work stress, generalised anxiety, sleep concerns, burnout, expatriate adjustment stress, and panic episodes. Coordinated with modern mental health care throughout — complementary, not a replacement. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, and across Dubai.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated August 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated October 2026"
 };
 
 export const stressJvcMechanism = {

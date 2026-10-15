@@ -55,7 +55,7 @@ const NeurologicalDubai = () => {
         '@type': 'MedicalWebPage',
         '@id': `${URL}#webpage`,
         url: URL,
-        name: "Neurological Physiotherapy Dubai | Parkinson's & Neuropathy | Vedara",
+        name: "Neurological Physiotherapy in JVC, Dubai | Parkinson's | Vedara",
         description: "Neuro physiotherapy at our JVC clinic, Dubai: Parkinson's, neuropathy, MS, brain and spinal cord injury. One-to-one care from a DHA-licensed physiotherapist.",
         inLanguage: 'en-AE',
         isPartOf: { '@id': `${SITE}/#website` },
@@ -128,7 +128,7 @@ const NeurologicalDubai = () => {
 
   const PAGE = {
     path: '/physiotherapy/neurological-dubai/',
-    title: "Neurological Physiotherapy Dubai | Parkinson's & Neuropathy | Vedara",
+    title: "Neurological Physiotherapy in JVC, Dubai | Parkinson's | Vedara",
     description: "Neuro physiotherapy at our JVC clinic, Dubai: Parkinson's, neuropathy, MS, brain and spinal cord injury. One-to-one care from a DHA-licensed physiotherapist.",
   };
 

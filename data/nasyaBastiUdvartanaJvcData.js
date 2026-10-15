@@ -33,7 +33,7 @@ export const nasyaBastiUdvartanaJvcIntro = {
   label: "THE QUICK ANSWER",
   title: "Nasya, Basti, Udvartana specialty therapies at Vedara Care, in one paragraph.",
   blockquote: "Nasya, Basti, and Udvartana classical Ayurvedic specialty therapies at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai — are authentic classical Ayurvedic therapies delivered as standalone specialty offerings for specific conditions, distinct from full Panchakarma programmes. Delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab. Nasya is a classical nasal administration therapy following 'Nasa hi shirasa dwaram' (the nose is the doorway to the head) for cervical presentations, chronic sinusitis, headache, and cognitive support. Basti is a classical therapy for Vata-dominant conditions like sciatica, lumbar presentations, joint disorders, and chronic constipation. Udvartana is a classical herbal powder massage for Rukshana (drying/lightening therapy) often integrated into weight management and Kapha-predominant protocols. Nadi Pareeksha diagnostic recommended. Coordinated with modern medical care throughout.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, DHA-Licensed Ayurvedic Doctor"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated October 2026"
 };
 
 export const nasyaBastiUdvartanaJvcMechanism = {

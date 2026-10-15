@@ -506,9 +506,24 @@ const NasyaTherapyJVC = () => {
               <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
                 {nasyaTherapyExperience.sensation.title}
               </h3>
-              <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl whitespace-pre-line">
-                {nasyaTherapyExperience.sensation.description}
+              <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl mb-4">
+                {nasyaTherapyExperience.sensation.intro || nasyaTherapyExperience.sensation.description}
               </p>
+              {nasyaTherapyExperience.sensation.points && (
+                <ul className="space-y-3 mb-6 max-w-3xl">
+                  {nasyaTherapyExperience.sensation.points.map((point, idx) => (
+                    <li key={idx} className="flex items-start gap-3">
+                      <span className="w-2 h-2 rounded-full mt-2.5 flex-shrink-0" style={{ backgroundColor: '#C9A55A' }}></span>
+                      <span className="text-base text-[rgb(107,107,107)] leading-relaxed">{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {nasyaTherapyExperience.sensation.footer && (
+                <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl pt-2">
+                  {nasyaTherapyExperience.sensation.footer}
+                </p>
+              )}
             </div>
             
           </div>
@@ -535,9 +550,24 @@ const NasyaTherapyJVC = () => {
             <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
               {nasyaTherapyExperience.recovery.title}
             </h3>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed whitespace-pre-line">
-              {nasyaTherapyExperience.recovery.description}
+            <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">
+              {nasyaTherapyExperience.recovery.intro || nasyaTherapyExperience.recovery.description}
             </p>
+            {nasyaTherapyExperience.recovery.points && (
+              <ul className="space-y-3 mb-6">
+                {nasyaTherapyExperience.recovery.points.map((point, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <span className="w-2 h-2 rounded-full mt-2.5 flex-shrink-0" style={{ backgroundColor: '#C9A55A' }}></span>
+                    <span className="text-base text-[rgb(107,107,107)] leading-relaxed">{point}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {nasyaTherapyExperience.recovery.footer && (
+              <p className="text-base text-[rgb(107,107,107)] leading-relaxed pt-4 border-t border-[#E5DFD3]/60">
+                {nasyaTherapyExperience.recovery.footer}
+              </p>
+            )}
           </div>
 
           <div className="grid md:grid-cols-5 gap-8 items-start">
@@ -546,9 +576,24 @@ const NasyaTherapyJVC = () => {
               <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
                 {nasyaTherapyExperience.aftercare.title}
               </h3>
-              <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl whitespace-pre-line">
-                {nasyaTherapyExperience.aftercare.description}
+              <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl mb-4">
+                {nasyaTherapyExperience.aftercare.intro || nasyaTherapyExperience.aftercare.description}
               </p>
+              {nasyaTherapyExperience.aftercare.points && (
+                <ul className="space-y-3 mb-6 max-w-3xl">
+                  {nasyaTherapyExperience.aftercare.points.map((point, idx) => (
+                    <li key={idx} className="flex items-start gap-3">
+                      <span className="w-2 h-2 rounded-full mt-2.5 flex-shrink-0" style={{ backgroundColor: '#C9A55A' }}></span>
+                      <span className="text-base text-[rgb(107,107,107)] leading-relaxed">{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {nasyaTherapyExperience.aftercare.footer && (
+                <p className="text-sm italic text-[rgb(107,107,107)] leading-relaxed max-w-3xl">
+                  {nasyaTherapyExperience.aftercare.footer}
+                </p>
+              )}
             </div>
           </div>
         </div>

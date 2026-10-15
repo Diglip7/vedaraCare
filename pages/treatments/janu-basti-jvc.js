@@ -393,18 +393,48 @@ const JanuBastiTreatment = () => {
             <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
               {januBastiExperience.recovery.title}
             </h3>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed whitespace-pre-line">
-              {januBastiExperience.recovery.description}
+            <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">
+              {januBastiExperience.recovery.intro || januBastiExperience.recovery.description}
             </p>
+            {januBastiExperience.recovery.points && (
+              <ul className="space-y-3 mb-6">
+                {januBastiExperience.recovery.points.map((point, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <span className="w-2 h-2 rounded-full mt-2.5 flex-shrink-0" style={{ backgroundColor: '#C9A55A' }}></span>
+                    <span className="text-base text-[rgb(107,107,107)] leading-relaxed">{point}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {januBastiExperience.recovery.footer && (
+              <p className="text-base text-[rgb(107,107,107)] leading-relaxed pt-4 border-t border-[#E5DFD3]/60">
+                {januBastiExperience.recovery.footer}
+              </p>
+            )}
           </div>
 
           <div>
             <h3 className="text-2xl md:text-3xl font-serif mb-4 text-[rgb(26,26,26)]">
               {januBastiExperience.aftercare.title}
             </h3>
-            <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl whitespace-pre-line">
-              {januBastiExperience.aftercare.description}
+            <p className="text-base text-[rgb(107,107,107)] leading-relaxed max-w-3xl mb-4">
+              {januBastiExperience.aftercare.intro || januBastiExperience.aftercare.description}
             </p>
+            {januBastiExperience.aftercare.points && (
+              <ul className="space-y-3 mb-6 max-w-3xl">
+                {januBastiExperience.aftercare.points.map((point, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <span className="w-2 h-2 rounded-full mt-2.5 flex-shrink-0" style={{ backgroundColor: '#C9A55A' }}></span>
+                    <span className="text-base text-[rgb(107,107,107)] leading-relaxed">{point}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {januBastiExperience.aftercare.footer && (
+              <p className="text-sm italic text-[rgb(107,107,107)] leading-relaxed max-w-3xl">
+                {januBastiExperience.aftercare.footer}
+              </p>
+            )}
           </div>
         </div>
       </div>

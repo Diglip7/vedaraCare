@@ -44,27 +44,27 @@ const PanchakarmaJVC = () => {
       "name": "Vedara Care Polyclinic — Panchakarma Department, JVC",
       "url": "https://vedaracare.ae/treatments/panchakarma-jvc/",
       "image": "https://vedaracare.ae/images/panchakarma-jvc-hero.jpg",
-      "telephone": "+971-XX-XXX-XXXX",
+      "telephone": "+971555736312",
       "priceRange": "AED",
       "medicalSpecialty": "Ayurveda",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Building 123, Street 45A",
+        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4",
         "addressLocality": "Jumeirah Village Circle",
         "addressRegion": "Dubai",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "25.0XXX",
-        "longitude": "55.2XXX"
+        "latitude": "25.068346",
+        "longitude": "55.2072235"
       },
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-          "opens": "09:00",
-          "closes": "21:00"
+          "opens": "10:00",
+          "closes": "19:00"
         },
         {
           "@type": "OpeningHoursSpecification",
@@ -203,7 +203,7 @@ const PanchakarmaJVC = () => {
       <Reviews {...panchakarmaJVCReviews} isDarkText={false} />
       <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
-        <FAQ {...panchakarmaJVCFaqs} />
+      <FAQ {...panchakarmaJVCFaqs} />
       <TreatmentLocation {...panchakarmaJVCLocation} />
       <CTA {...panchakarmaJVCCTA} />
       <RelatedPages {...panchakarmaJVCRelatedPages} />

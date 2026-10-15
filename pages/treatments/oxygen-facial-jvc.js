@@ -260,7 +260,7 @@ const OxygenFacialJVC = () => {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": oxygenFacialFAQ.map(faq => ({
+      "mainEntity": (oxygenFacialFAQ.faqs || oxygenFacialFAQ).map(faq => ({
         "@type": "Question",
         "name": faq.question,
         "acceptedAnswer": {
@@ -774,7 +774,7 @@ const OxygenFacialJVC = () => {
       </section>
 
       {/* FAQs */}
-      <FAQ faqs={oxygenFacialFAQ} />
+      <FAQ {...oxygenFacialFAQ} />
 
       <MedicalDisclaimer text={oxygenFacialCTA.disclaimer} />
       <FinalCTA

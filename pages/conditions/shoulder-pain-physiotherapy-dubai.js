@@ -39,7 +39,7 @@ const ShoulderPainPhysiotherapyDubai = () => {
 
   const PAGE = {
     path: '/conditions/shoulder-pain-physiotherapy-dubai/',
-    title: "Shoulder Pain Treatment in Dubai | Physiotherapy in JVC | Vedara",
+    title: "Shoulder Pain Treatment in JVC, Dubai | Physiotherapy | Vedara",
     description: "Shoulder pain physiotherapy at our JVC clinic, Dubai: rotator cuff, impingement, AC joint and shoulder injuries. Most improve without surgery. Same-day slots.",
   };
 
@@ -302,6 +302,8 @@ const ShoulderPainPhysiotherapyDubai = () => {
         <meta property="og:locale" content="en_AE" />
 
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
 
         <link rel="canonical" href="https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/" />
         <link rel="alternate" href="https://vedaracare.ae/conditions/shoulder-pain-physiotherapy-dubai/" hreflang="en-AE" />

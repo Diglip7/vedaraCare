@@ -30,7 +30,7 @@ export const backPainJvcIntro = {
   label: "THE QUICK ANSWER",
   title: "Back pain Ayurvedic care at Vedara Care, in one paragraph.",
   blockquote: "Back pain Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall — is authentic multi-modal Ayurvedic back pain management delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab with substantial musculoskeletal expertise. Comprehensive approach: constitutional assessment (Prakriti and Vikriti) identifying your specific back pain pattern, Nadi Pareeksha pulse-based assessment, red flag symptom screening for concerning presentations requiring immediate specialist referral. Treatment components typically combine: Kativasti (flagship traditional Ayurvedic back-focused therapy — warm medicated oil retained on lower back within a dough dam for sustained therapeutic contact), Panchakarma for chronic back pain patterns, Abhyanga oil massage, Elakizhi herbal leaf pouch therapy, Pizhichil oil pouring therapy, Ayurvedic herbal medicines matched to constitution. Coordinated with modern medical care throughout. Female practitioner (Dr. Zainab) available. Multi-language: Arabic, English, Hindi, Malayalam, Urdu. Patients travel from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and across Dubai.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated October 2026"
 };
 
 export const backPainJvcMechanism = {

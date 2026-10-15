@@ -35,7 +35,7 @@ const strip = (s) => String(s).replace(/<[^>]+>/g, '');
 
 const PAGE = {
   path: '/conditions/sciatica-physiotherapy-dubai/',
-  title: "Sciatica Treatment in Dubai | Physiotherapy in JVC | Vedara Care",
+  title: "Sciatica Treatment in JVC, Dubai | Physiotherapy | Vedara",
   description: "Sciatica and piriformis syndrome physiotherapy at our JVC clinic, Dubai. Most sciatica improves without surgery. Same-day appointments, in-house GP.",
 };
 
@@ -93,6 +93,8 @@ const SciaticaPhysiotherapyDubai = () => {
         <meta property="og:image" content="https://vedaracare.ae/images/sciatica-physiotherapy-dubai-hero.webp" />
         <meta property="og:locale" content="en_AE" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
         <link rel="alternate" href={`https://vedaracare.ae${PAGE.path}`} hrefLang="en-AE" />
         <link rel="alternate" href={`https://vedaracare.ae${PAGE.path}`} hrefLang="x-default" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />

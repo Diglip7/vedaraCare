@@ -372,7 +372,7 @@ export default function ArfahOwaisAestheticianJVC() {
         {/* ===== CANONICAL & HREFLANG ===== */}
         <link rel="canonical" href={canonicalUrl} />
         <link rel="alternate" hrefLang="en-AE" href={canonicalUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/team/arfah-owais-aesthetician-jvc/" />
+
         <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
 
         {/* ===== 8 SCHEMA BLOCKS ===== */}

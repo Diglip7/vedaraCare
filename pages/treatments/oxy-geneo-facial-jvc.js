@@ -44,7 +44,7 @@ const OxyGeneoFacialJVC = () => {
 
         <link rel="canonical" href="https://vedaracare.ae/treatments/oxy-geneo-facial-jvc/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/treatments/oxy-geneo-facial-jvc/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/oxy-geneo-facial-jvc/" />
+
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/treatments/oxy-geneo-facial-jvc/" />
 
         <meta property="og:title" content="Oxy-Geneo Facial at Vedara Care JVC Dubai | Israeli Pollogen Technology | Walking Distance from Circle Mall" />

@@ -65,7 +65,6 @@ const AdvancedFacialRejuvenationJVC = () => {
         {/* Canonical & Language Tags */}
         <link rel="canonical" href={advancedFacialSEO.canonicalUrl} />
         <link rel="alternate" hrefLang="en-AE" href={advancedFacialSEO.canonicalUrl} />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/advanced-facial-rejuvenation-jvc/" />
         <link rel="alternate" hrefLang="x-default" href={advancedFacialSEO.canonicalUrl} />
 
         {/* Schema Markup */}

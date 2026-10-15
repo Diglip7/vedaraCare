@@ -307,9 +307,22 @@ export const oxygenFacialCTA = {
   button1Text: "Book a Oxygen Facial Consultation",
   button1TextHref: "/book",
   button2Text: "Whatsapp Us",
-  button2TextHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20migraine%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai."
+  button2TextHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Oxygen%20Facial%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai."
 };
-export const oxygenFacialFAQ = [
+export const oxygenFacialFAQ = {
+  bgColor: "bg-white",
+  label: "COMMON QUESTIONS",
+  title: "Frequently Asked Questions About Oxygen Facial",
+  description: "Find clear answers to common questions about Oxygen Facial treatments, expected results, suitability, protocol steps, and aftercare at Vedara Care in JVC, Dubai.",
+  buttonText: "Ask Our Team on WhatsApp",
+  buttonHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Oxygen%20Facial%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  sidebarLinks: [
+    { text: "HydraFacial in JVC", href: "/hydrafacial-jvc" },
+    { text: "Skin Rejuvenation in JVC", href: "/treatments/skin-rejuvenation-jvc" },
+    { text: "Chemical Peel in Dubai", href: "/treatments/chemical-peel-dubai" },
+    { text: "Dermatology Clinic in JVC", href: "/dermatology-clinic-jvc" }
+  ],
+  faqs: [
   {
     question: "What is an Oxygen Facial?",
     answer:
@@ -410,4 +423,5 @@ export const oxygenFacialFAQ = [
     answer:
       "Vedara Care Polyclinic offers Oxygen Facial consultations at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE.",
   },
-];
+  ]
+};

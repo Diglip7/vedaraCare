@@ -14,7 +14,13 @@ import '@fontsource/nunito-sans/600.css';
 import '@fontsource/nunito-sans/700.css';
 import '@fontsource/nunito-sans/900.css';
 import '@fontsource/nunito-sans/400-italic.css';
-import '@fontsource-variable/fraunces';
+import '@fontsource/fraunces/300.css';
+import '@fontsource/fraunces/400.css';
+import '@fontsource/fraunces/500.css';
+import '@fontsource/fraunces/600.css';
+import '@fontsource/fraunces/700.css';
+import '@fontsource/fraunces/400-italic.css';
+import '@fontsource/fraunces/500-italic.css';
 
 
 export default function App({ Component, pageProps }) {
@@ -27,9 +33,9 @@ export default function App({ Component, pageProps }) {
       const href = a.getAttribute('href') || '';
       let event = a.dataset.track || null;
       if (!event) {
-        if (href.includes('wa.me') || href.includes('api.whatsapp.com')) event = 'whatsapp_click';
-        else if (href.startsWith('tel:')) event = 'phone_click';
-        else if (href.startsWith('/book')) event = 'appointment_click';
+        if (href.includes('wa.me') || href.includes('api.whatsapp.com')) event = 'click_whatsapp';
+        else if (href.startsWith('tel:')) event = 'click_call';
+        else if (href.startsWith('/book')) event = 'click_book';
         else if (href.includes('maps.google') || href.includes('maps.app.goo.gl')) event = 'directions_click';
         else if (href.startsWith('/doctors/')) event = 'practitioner_profile_click';
       }

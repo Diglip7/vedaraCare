@@ -323,7 +323,7 @@ const NadiPareekshaJvc = () => {
         <meta name="description" content="Authentic classical Nadi Pareeksha Ayurvedic pulse assessment at our JVC clinic Dubai. Ashtavidha Pareeksha eightfold examination. Dr. Zainab's #1 documented expertise. Female DHA-licensed doctor. Multi-language including Malayalam." />
         <link rel="canonical" href="https://vedaracare.ae/treatments/nadi-pareeksha-jvc/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/treatments/nadi-pareeksha-jvc/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/nadi-pareeksha-jvc/" />
+
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/treatments/nadi-pareeksha-jvc/" />
         <meta property="og:title" content="Nadi Pareeksha Ayurvedic Assessment at Our JVC Clinic Dubai — Classical Ashtavidha Pareeksha Tradition | Vedara Care" />
         <meta property="og:description" content="Authentic classical Nadi Pareeksha Ayurvedic pulse-based diagnostic assessment at Vedara Care JVC clinic, walking distance from Circle Mall. Ashtavidha Pareeksha eightfold examination flagship component. Dr. Zainab — Nadi Pareeksha & Ayurvedic Assessment is her #1 documented expertise area. Female DHA-licensed BAMS Ayurvedic doctor. Kerala Ayurvedic classical tradition. Multi-language including Malayalam." />

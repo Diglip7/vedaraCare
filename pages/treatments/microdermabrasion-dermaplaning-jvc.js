@@ -53,7 +53,6 @@ const MicrodermabrasionJVC = () => {
 
         <link rel="canonical" href="https://vedaracare.ae/treatments/microdermabrasion-dermaplaning-jvc/" />
         <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/treatments/microdermabrasion-dermaplaning-jvc/" />
-        <link rel="alternate" hrefLang="ar-AE" href="https://vedaracare.ae/ar/treatments/microdermabrasion-dermaplaning-jvc/" />
         <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/treatments/microdermabrasion-dermaplaning-jvc/" />
 
         <meta property="og:title" content="Microdermabrasion & Dermaplaning at Vedara Care JVC Dubai | Diamond-Tip and Sterile-Blade Manual Exfoliation | Walking Distance from Circle Mall" />

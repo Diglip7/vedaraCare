@@ -95,7 +95,7 @@ const AyurvedicMassageJVC = () => {
       "name": "Vedara Care Polyclinic — Ayurvedic Massage in JVC",
       "url": "https://vedaracare.ae/treatments/ayurvedic-massage-jvc/",
       "image": "https://vedaracare.ae/images/ayurvedic-massage-jvc-hero.jpg",
-      "telephone": "+971-XX-XXX-XXXX",
+      "telephone": "+971555736312",
       "priceRange": "AED",
       "medicalSpecialty": "Ayurveda",
       "address": {

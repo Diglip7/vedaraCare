@@ -31,7 +31,7 @@ export const sciaticaJvcIntro = {
   label: "THE QUICK ANSWER",
   title: "Sciatica Ayurvedic care at Vedara Care, in one paragraph.",
   blockquote: "Sciatica Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai — is authentic multi-modal care delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab. Sciatica is classically termed Gridhrasi in Ayurveda, extensively described in Charaka Samhita and Sushruta Samhita with dedicated traditional treatment protocols emphasising Basti (medicated enema) as classically most powerful therapy for Vata pacification. Comprehensive approach includes constitutional assessment, classical Basti series (Yoga Basti 8-day, Kala Basti 16-day, Karma Basti 30-day protocols), Kativasti with extended lower body attention, Panchakarma with Basti emphasis, Abhyanga, Elakizhi, Pizhichil, Ayurvedic herbal medicines (Rasnadi Kwatham, Trayodashang Guggulu, Guggul preparations), and personalised lifestyle counselling. Covers acute sciatica, chronic sciatica, piriformis-related, disc-related with specialist coordination, pregnancy-related (Basti contraindicated — modified protocol), post-surgical, and bilateral presentations. Explicit escalation for red flag symptoms including cauda equina features. Serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and all Dubai communities.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, DHA-Licensed Ayurvedic Doctor · Last updated September 2026"
+  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated October 2026"
 };
 
 export const sciaticaJvcMechanism = {
