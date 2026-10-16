@@ -41,6 +41,7 @@ export const sciaticaPhysioTeam = {
     {
       name: "Hafsina K K",
       qualification: "Bachelor of Physiotherapy · DHA-P 64812828 · 7+ years' experience",
+      description: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
       specialties: ["Sciatica", "Nerve Mobilisation", "Spinal Mobilisation and Manipulation", "Dry Needling"],
       languages: ["English", "Hindi", "Malayalam"],
       image: "/images/hafsina-kk-physiotherapist-dubai.webp",
