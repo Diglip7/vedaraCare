@@ -1,17 +1,20 @@
+import { physioReviewsBlock } from './googleReviews';
+
 export const manualTherapyHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Treatments", href: "/treatments" },
     { label: "Manual Therapy in Dubai", active: true }
   ],
-  label: "MANUAL THERAPY · DHA-LICENSED 2509266 · JVC",
-  title: "Manual therapy in Dubai. Hands-on physiotherapy. Specific techniques. Not chiropractic. Not massage.",
-  description: "Specialist manual therapy at our Jumeirah Village Circle (JVC) clinic, walking distance from Circle Mall. Delivered by a DHA-licensed physiotherapist. Joint mobilisation, soft tissue work, myofascial release, neural mobilisation, and comprehensive integrated physiotherapy programmes for sustainable outcomes.",
+  label: "MANUAL THERAPY · DHA-LICENSED CLINIC IN JVC, DUBAI",
+  title: "Manual therapy in JVC, Dubai. Hands-on physiotherapy. Not chiropractic. Not massage.",
+  description: "Hands-on physiotherapy at our Jumeirah Village Circle clinic, walking distance from Circle Mall: joint mobilisation and manipulation, soft-tissue and nerve techniques, always combined with exercise, with Hafsina K K, our DHA-licensed physiotherapist.",
   primaryCTA: "Book Manual Therapy Assessment",
   secondaryCTA: "What Manual Therapy Is",
   trustSignals: [
-    "DHA-Licensed Physiotherapist",
-    "Joint mobilisation and soft tissue expertise",
+    "DHA-licensed physiotherapist (DHA-P 64812828)",
+    "Same-day appointments available",
+    "Techniques chosen for your condition",
     "Walking distance from Circle Mall, JVC"
   ],
   floatingCard: {
@@ -19,13 +22,13 @@ export const manualTherapyHero = {
     subtitle: "Manual therapy is the hands-on component of evidence-based physiotherapy. Joint mobilisation, soft tissue work, and specific exercise — delivered by a DHA-licensed physiotherapist."
   },
   image: "/images/manual-therapy-dubai-hero.webp",
-  alt: "Manual therapy treatment at Vedara Care JVC Dubai clinic with certified specialist"
+  alt: "Manual therapy treatment at Vedara Care JVC Dubai clinic with DHA-licensed physiotherapist"
 };
 export const manualTherapyIntro = {
   label: "THE QUICK ANSWER",
   title: "Manual therapy at Vedara Care, in one paragraph.",
-  blockquote: "Manual therapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall — is the hands-on component of evidence-based physiotherapy, delivered by a DHA-licensed physiotherapist. It encompasses several specific techniques: joint mobilisation for restricted joints and joint pain; myofascial release for fascial restrictions and chronic tension patterns; soft tissue mobilisation for muscle and connective tissue dysfunction; and neural mobilisation for nerve-related pain conditions. We use manual therapy for chronic back and neck pain, frozen shoulder, sciatica, sports injuries, post-surgical rehabilitation, headaches with cervical contribution, TMJ dysfunction, and many other musculoskeletal conditions. It is fundamentally different from chiropractic and massage therapy. Single sessions from AED 350; structured programmes from AED 2,400. Manual therapy is rarely standalone — integrated with exercise prescription, patient education, and other modalities for sustainable outcomes. Insurance reimbursement support available for major insurers.",
-  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828) · Last updated 2026"
+  blockquote: "Manual therapy at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, near Circle Mall, is the hands-on part of physiotherapy: joint mobilisation and manipulation, mobilisation with movement, soft-tissue and myofascial release, nerve mobilisation, instrument-assisted soft tissue work (IASTM) and biomechanical cupping, always combined with exercise. It is delivered by Hafsina K K, a DHA-licensed physiotherapist (DHA-P 64812828), for back and neck pain, stiff joints, shoulder and frozen shoulder problems, sciatica, sports injuries and stiffness after surgery. It is different from massage and from chiropractic. Same-day appointments are available; insurance works on reimbursement.",
+  footer: "Medically reviewed by Hafsina K K, DHA-Licensed Physiotherapist (DHA-P 64812828). Reviewed October 2026."
 };
 
 export const manualTherapyWhatIs = {
@@ -41,7 +44,7 @@ export const manualTherapyWhatIs = {
         },
         {
           title: "The specific techniques within manual therapy",
-          description: "Manual therapy is not one technique but a family of approaches: Joint mobilisation — graded, oscillatory movements applied to joints to restore range of motion and reduce pain, performed at varying intensities depending on patient response. Mobilisation with movement — combining therapist-applied mobilisation with patient active movement, often producing immediate pain reduction and range improvement. Specific exercise methods — using repeated movements to assess and treat disc-related and other mechanical spinal conditions. Myofascial release — sustained pressure techniques addressing fascial restrictions and chronic tension patterns. Soft tissue mobilisation — specific work for muscle, tendon, and connective tissue dysfunction. Neural mobilisation — techniques addressing nerve mobility restrictions contributing to pain."
+          description: "Manual therapy is not one technique but a family of approaches: Joint mobilisation — graded, oscillatory movements applied to joints to restore range of motion and reduce pain, performed at varying intensities depending on patient response. Mobilisation with movement — combining therapist-applied mobilisation with patient active movement, often producing immediate pain reduction and range improvement. Instrument-assisted soft tissue mobilisation (IASTM) — specialized clinical instruments used to address fascial adhesions and scar tissue. Biomechanical cupping — dynamic decompression improving blood flow, fascial mobility and tissue glide. Specific exercise methods — using repeated movements to assess and treat disc-related and other mechanical spinal conditions. Myofascial release — sustained pressure techniques addressing fascial restrictions and chronic tension patterns. Soft tissue mobilisation — specific work for muscle, tendon, and connective tissue dysfunction. Neural mobilisation — techniques addressing nerve mobility restrictions contributing to pain."
         },
         {
           title: "How manual therapy differs from chiropractic",
@@ -50,6 +53,10 @@ export const manualTherapyWhatIs = {
         {
           title: "How manual therapy differs from massage therapy",
           description: "Manual therapy and massage therapy share some superficial similarities but are fundamentally different. Training — Manual therapy is delivered by DHA-licensed physiotherapists; massage therapy is delivered by massage therapists with different training. Diagnostic precision — Manual therapy involves specific clinical assessment identifying particular joint, muscle, or neural dysfunctions; massage typically addresses general muscle tension or relaxation. Treatment specificity — Manual therapy uses specific techniques for specific conditions; massage uses general techniques across body areas. Clinical purpose — Manual therapy targets specific musculoskeletal dysfunctions; massage may target relaxation, general muscle tension, or wellness. Both can be valuable; they have different applications."
+        },
+        {
+          title: "How manual therapy differs from osteopathy",
+          description: "How it differs from osteopathy: osteopaths are a separate profession using similar hands-on methods; at Vedara Care manual therapy is delivered by a physiotherapist as part of an exercise-based plan."
         },
         {
           title: "The evidence base",
@@ -69,6 +76,8 @@ export const manualTherapyWhatIs = {
       tags: [
         "Joint Mobilisation",
         "Mobilisation with Movement",
+        "IASTM",
+        "Biomechanical Cupping",
         "Specific Exercise",
         "Myofascial Release",
         "Neural Mobilisation",
@@ -78,25 +87,12 @@ export const manualTherapyWhatIs = {
   },
   bgColor: "bg-[#EDE8DF]"
 };
-export const manualTherapyReviews = {
-  label: "PATIENT STORIES",
-  title: "Real recoveries. Real outcomes.",
-  bgColor: "bg-white",
-  cardBgColor: "bg-[#F5F0E6]",
-  isDarkText: true,
-  items: [],
-  stats: [
-    { value: "4.7", label: "stars on Google" },
-    { value: "15", label: "reviews on Google" },
-  ],
-  buttonText: "Read All Manual Therapy Reviews",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
-};
+export const manualTherapyReviews = physioReviewsBlock('What patients say about hands-on physiotherapy with Hafsina K K');
 
 export const manualTherapyFaqs = {
   bgColor: "bg-[#EDE8DF]",
   label: "COMMON QUESTIONS",
-  title: "What patients ask about manual therapy before booking.",
+  title: "Manual therapy: your questions answered.",
   description: "For broader physiotherapy questions, see our main physiotherapy page.",
   sidebarLinks: [
     {
@@ -104,92 +100,34 @@ export const manualTherapyFaqs = {
       href: "/physiotherapy-jvc/"
     },
     {
-      text: "Dry needling treatment",
-      href: "/treatments/dry-needling-dubai/"
+      text: "Dry needling and sports physiotherapy",
+      href: "/physiotherapy/sports-injury-jvc/"
     }
   ],
   faqs: [
-    {
-      question: "What exactly is manual therapy?",
-      answer: "Manual therapy is the hands-on component of physiotherapy — a family of treatment techniques delivered by physiotherapists with specific manual therapy training. It encompasses joint mobilisation, mobilisation with movement, specific exercise methods, myofascial release, soft tissue mobilisation, and neural mobilisation, all guided by evidence-based clinical reasoning."
-    },
-    {
-      question: "How is manual therapy different from chiropractic?",
-      answer: "Manual therapy is delivered by DHA-licensed physiotherapists with specific manual therapy training, uses primarily graded mobilisation (with manipulation applied selectively), is based on evidence-based clinical reasoning, and is integrated with exercise prescription and broader physiotherapy. Chiropractic is delivered by chiropractors with different training pathway, traditionally emphasises high-velocity manipulation as primary technique, and historically has different theoretical foundations. Both can be valuable for the right patients; they have different applications."
-    },
-    {
-      question: "How is manual therapy different from massage?",
-      answer: "Manual therapy involves diagnostic precision — specific clinical assessment identifying particular joint, muscle, or neural dysfunctions, with specific techniques targeting specific conditions. Massage typically addresses general muscle tension or relaxation across body areas. Manual therapy is delivered by DHA-licensed physiotherapists; massage by massage therapists with different training. Both can be valuable; they have different applications."
-    },
-    {
-      question: "Does manual therapy hurt?",
-      answer: "Most techniques are comfortable to mildly uncomfortable, not painful. Joint mobilisation feels like specific firm pressure. Soft tissue work feels like deep pressure or sustained holds. Mulligan techniques feel like assisted movement. Neural mobilisation involves specific limb movements potentially producing mild nerve symptoms briefly. Manipulation (when used) involves a brief quick movement. Treatment should never be severely painful — discomfort guides treatment but pain limits are respected."
-    },
-    {
-      question: "Will manual therapy help my specific condition?",
-      answer: "Manual therapy is effective for many conditions including chronic back and neck pain, frozen shoulder, sciatica, sports injuries with joint or soft tissue restrictions, post-surgical rehabilitation, headaches with cervical contribution, and TMJ dysfunction. It is less effective for conditions without joint, muscle, or neural component. Comprehensive assessment determines whether it is appropriate for your specific situation."
-    },
-    {
-      question: "How many sessions will I need?",
-      answer: "Variable by condition. Acute conditions sometimes resolve in 2–4 sessions. Subacute conditions typically 4–8 sessions. Chronic conditions often 6–12 sessions integrated with broader treatment. Sessions are typically weekly initially, reducing as treatment progresses. Manual therapy alone rarely produces sustainable outcomes — combined with exercise and education, outcomes are typically excellent."
-    },
-    {
-      question: "Where in Dubai is your manual therapy clinic?",
-      answer: "Our DHA-licensed clinic is in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking. Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road. Patients travel to us from JVT, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, Mirdif, and across Dubai for skilled manual therapy."
-    },
-
-    {
-      question: "Is manual therapy safe?",
-      answer: "Yes, when delivered by appropriately trained practitioners with proper protocols. Comprehensive contraindication screening, informed consent for specific techniques, graded application respecting patient tolerance, and continuous communication during treatment are standard. Adverse events are rare. Common side effects: mild post-treatment soreness 24–48 hours after treatment (normal). Significant adverse events are very rare with appropriate practitioner training and patient screening."
-    },
-
-    {
-      question: "What about back pain — when is manual therapy useful?",
-      answer: "Manual therapy is one of the most evidence-supported treatments for chronic mechanical low back pain. Particularly effective when combined with specific exercise programmes. Specific exercise methods are especially valuable for disc-related conditions and sciatica with directional preference. For non-specific low back pain, joint mobilisation and mobilisation with movement often produce substantial improvement."
-    },
-    {
-      question: "How quickly will I see results?",
-      answer: "Many patients experience immediate improvement in range of motion or pain reduction after the first session. Mobilisation with movement in particular often produces immediate dramatic improvement when correctly applied. Lasting improvement typically requires multiple sessions integrated with broader treatment. Patients with chronic conditions often see progressive improvement over the treatment programme."
-    },
-    {
-      question: "Can I exercise after manual therapy?",
-      answer: "Light to moderate exercise is generally fine and often encouraged. We recommend avoiding heavy exercise for 24 hours after treatment to allow tissue response to develop normally. Specific guidance depends on your condition and activities. Continue with prescribed home exercises as instructed."
-    },
-    {
-      question: "Will insurance cover manual therapy?",
-      answer: "Yes — manual therapy is part of standard physiotherapy benefits in most Dubai insurance plans. We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy."
-    },
-    {
-      question: "Can pregnant women receive manual therapy?",
-      answer: "Yes, with appropriate adaptations. Many pregnancy-related conditions (pelvic girdle pain, back pain, neck pain) respond well to manual therapy. Specific techniques are modified for pregnancy (positioning, technique selection, avoiding certain approaches). Treatment requires informed consent and obstetric awareness. Particularly useful for pregnancy-related musculoskeletal conditions where medication use is restricted."
-    },
-    {
-      question: "What about elderly patients?",
-      answer: "Manual therapy is appropriate for many elderly patients with appropriate adaptations. Treatment intensity is calibrated to tissue tolerance. Specific techniques are modified for conditions common in elderly patients (osteoporosis, joint replacements, cardiovascular conditions). Comprehensive screening ensures appropriateness. Many elderly patients benefit substantially from skilled manual therapy."
-    },
-    {
-      question: "Can manual therapy fix disc problems?",
-      answer: "Manual therapy cannot anatomically 'fix' disc bulges or herniations, but it can substantially improve symptoms and function in many disc-related conditions. Specific exercise methods address disc-related conditions through directional preference identification and treatment. Many patients with imaging-confirmed disc conditions achieve excellent functional outcomes with manual therapy combined with exercise."
-    },
-    {
-      question: "How is manual therapy at Vedara different?",
-      answer: "DHA-licensed physiotherapists, comprehensive assessment determining appropriate technique selection, evidence-based clinical reasoning guiding treatment, integration with exercise prescription and patient education (not standalone manual therapy), longer initial sessions allowing thorough assessment, transparent published pricing, and honest discussion of when manual therapy is or is not the right approach."
-    },
-    {
-      question: "Can manual therapy help avoid surgery?",
-      answer: "For many conditions, yes. Patients with chronic back pain, frozen shoulder, sciatica, certain knee conditions, and various other musculoskeletal problems often achieve excellent outcomes with manual therapy combined with exercise — avoiding or postponing surgery. We provide honest assessment of whether conservative care is realistic for your specific situation. We do not delay clearly appropriate surgical referral when surgery is the right approach."
-    },
-    {
-      question: "How do I book a manual therapy assessment?",
-      answer: "Three ways: (1) <a href=\"https://wa.me/971555736312\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp +971 55 573 6312</a> — fastest response, ideal for asking specific questions about whether manual therapy would help your situation. (2) Call +971 55 573 6312 — direct booking, available 9 AM to 9 PM seven days a week. (3) Book online through our website. For your first appointment, please bring: any relevant medical reports, imaging if available, current medication list, insurance card, and comfortable clothing allowing assessment of the affected area."
-    }
+    { question: "What is manual therapy?", answer: "Manual therapy is the hands-on part of physiotherapy: joint mobilisation and manipulation, soft-tissue and myofascial release, and nerve mobilisation, used to reduce pain and restore movement, always alongside exercise." },
+    { question: "Is manual therapy the same as massage?", answer: "No. Massage mainly relaxes muscles; manual therapy uses specific techniques on joints, muscles and nerves, chosen after a physiotherapy assessment to treat the cause of pain and stiffness." },
+    { question: "How is manual therapy different from chiropractic or osteopathy?", answer: "They are separate professions that also use hands-on methods. At Vedara Care, manual therapy is delivered by a DHA-licensed physiotherapist as one part of an exercise-based treatment plan." },
+    { question: "Does manual therapy hurt?", answer: "It should not be more than mildly uncomfortable. Pressure is adjusted to you, and you can ask to stop at any time. Some people feel slightly sore for a day afterwards." },
+    { question: "Do you use spinal manipulation?", answer: "Yes, where suitable and only with your consent, after screening for safety. Many patients are treated with gentler mobilisation instead." },
+    { question: "Is manual therapy safe?", answer: "Yes, when performed by a licensed physiotherapist after a proper assessment. We screen for conditions where some techniques are not suitable, such as recent fractures or severe osteoporosis, and adapt treatment." },
+    { question: "What conditions does manual therapy help?", answer: "Back and neck pain, stiff joints, shoulder and frozen shoulder problems, sciatica, tennis elbow, sports injuries and stiffness after surgery, usually combined with exercise." },
+    { question: "How many sessions will I need?", answer: "Many people notice a change within the first few sessions; most courses are a few weeks long, combined with home exercise. You get an estimate after your assessment." },
+    { question: "What should I wear?", answer: "Comfortable clothing that lets us reach the area being treated, such as shorts for knee or hip treatment or a vest top for the shoulder." },
+    { question: "Do you offer cupping?", answer: "Yes, biomechanical dry cupping as part of physiotherapy. Vedara Care does not offer hijama (wet cupping)." },
+    { question: "Can I exercise after manual therapy?", answer: "Yes. Exercise is part of the plan, and you will usually be given exercises to do the same day." },
+    { question: "Can pregnant women have manual therapy?", answer: "Yes, with positions and techniques adapted to pregnancy, by a female physiotherapist." },
+    { question: "Is manual therapy suitable for older adults?", answer: "Yes, with gentler techniques where needed, for example with osteoporosis." },
+    { question: "Can I get a same-day manual therapy appointment in JVC?", answer: "Yes. Same-day appointments are available at our JVC clinic, open daily 9am to 10pm." },
+    { question: "Does insurance cover manual therapy?", answer: "Manual therapy is part of physiotherapy, which most Dubai plans cover when it is medically needed. Vedara Care works on reimbursement and provides the documents your insurer needs." },
+    { question: "Where is the clinic?", answer: "Vedara Care Polyclinic, Binghatti Azure, Shop 4, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai, walking distance from Circle Mall. Open daily 9am to 10pm." }
   ]
 };
 
 export const manualTherapyLocation = {
   bgColor: "bg-white",
   label: "VISIT US",
-  title: "Where manual therapy happens at Vedara Care JVC.",
+  title: "Where to find our manual therapy clinic in JVC.",
   address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
   phone: "+971 55 573 6312",
   whatsapp: "+971 55 573 6312",
@@ -200,7 +138,7 @@ export const manualTherapyLocation = {
     "5 minutes from JSS Private School",
     "Free patient parking"
   ],
-  description: "Our JVC clinic has dedicated manual therapy treatment rooms with adjustable plinths, all necessary equipment for the specific techniques described, full rehabilitation gym for integrated exercise prescription, and broader physiotherapy facilities for comprehensive treatment. Patients travel from JVC, Al Barsha South, Sports City, Motor City, Arjan, Dubai Hills, and across Dubai for manual therapy expertise.",
+  description: "Manual therapy takes place in a private treatment room at Vedara Care Polyclinic in Jumeirah Village Circle, walking distance from Circle Mall, with a strength and exercise area for the exercise part of your plan. Free and paid parking nearby. Patients come from JVC, JVT, Al Barsha South, Arjan, Dubai Sports City, Motor City and Al Barsha.",
   buttonText: "Book Manual Therapy Assessment",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   image: "/images/manual-therapy-clinic-jvc.webp",
@@ -210,13 +148,13 @@ export const manualTherapyLocation = {
 export const manualTherapyFinalCTA = {
   bgColor: "bg-[#F5F0E6]",
   label: "READY FOR SKILLED MANUAL THERAPY?",
-  title: "The hands-on craft of evidence-based physiotherapy.",
-  description: "If you have chronic back or neck pain, frozen shoulder, sciatica, post-surgical rehabilitation needs, headaches with cervical contribution, TMJ dysfunction, sports injuries with joint or soft tissue restrictions, or other musculoskeletal conditions — skilled manual therapy may substantially help. The first step is comprehensive assessment determining manual therapy is appropriate for your specific situation and which techniques will be most effective. We are honest about when manual therapy helps and when other treatments are more appropriate. Same-week appointments typically available.",
+  title: "Hands-on physiotherapy in JVC, matched to your condition.",
+  description: "If you have chronic back or neck pain, frozen shoulder, sciatica, post-surgical rehabilitation needs, headaches with cervical contribution, sports injuries with joint or soft tissue restrictions, or other musculoskeletal conditions — skilled manual therapy may substantially help. The first step is comprehensive assessment determining manual therapy is appropriate for your specific situation and which techniques will be most effective. We are honest about when manual therapy helps and when other treatments are more appropriate. Same-week appointments typically available.",
   button1Text: "Book Manual Therapy Assessment",
   button1Href: "/book",
   button2Text: "WhatsApp us",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20manual%20therapy%20and%20book%20a%20consultation.",
-  footer: "Initial assessment from AED 500 • Walking distance from Circle Mall, JVC • Certified specialists • Evidence-based techniques • Insurance direct-billing"
+  footer: "DHA-licensed physiotherapist · Same-day appointments · Insurance reimbursement · Open daily 9am to 10pm · Near Circle Mall, JVC"
 };
 
 export const manualTherapyConditions = {
@@ -229,50 +167,50 @@ export const manualTherapyConditions = {
     {
       number: "01",
       title: "Chronic Low Back Pain",
+      href: "/conditions/back-pain-physiotherapy-jvc/",
+      link: "/conditions/back-pain-physiotherapy-jvc/",
       content: "The most common application. Joint mobilisation and specific exercise methods address spinal joint dysfunction and disc-related conditions. Soft tissue work for associated muscle tension. Combined with exercise prescription for sustainable outcomes.",
       techniques: "Spinal mobilisation, specific exercise methods, soft tissue work"
     },
     {
       number: "02",
       title: "Chronic Neck Pain & Cervicogenic Headaches",
+      href: "/conditions/neck-pain-physiotherapy-jvc/",
+      link: "/conditions/neck-pain-physiotherapy-jvc/",
       content: "Highly responsive to manual therapy. Cervical joint mobilisation addresses restricted segments. Mobilisation with movement often produces immediate improvement. Suboccipital release for headache patterns. Combined with postural work and exercise. Particularly effective for headaches with cervical contribution.",
       techniques: "Cervical mobilisation, mobilisation with movement, suboccipital release, soft tissue work"
     },
     {
       number: "03",
       title: "Frozen Shoulder (Adhesive Capsulitis)",
+      href: "/conditions/frozen-shoulder-dubai/",
+      link: "/conditions/frozen-shoulder-dubai/",
       content: "Manual therapy is core treatment. Glenohumeral joint mobilisation in specific directions restores capsular mobility. Mobilisation with movement may produce immediate improvement. Combined with active and assisted range of motion exercises. Treatment progresses through frozen shoulder phases.",
       techniques: "Glenohumeral glides, joint mobilisation, mobilisation with movement, scapular mobilisation"
     },
     {
       number: "04",
       title: "Sciatica & Lumbar Disc Conditions",
+      href: "/conditions/sciatica-physiotherapy-dubai/",
+      link: "/conditions/sciatica-physiotherapy-dubai/",
       content: "Specific exercise methods are particularly effective. Repeated movements assess directional preference and guide treatment. Neural mobilisation for sciatic nerve involvement. Lumbar mobilisation addressing joint dysfunction. Combined with specific exercises based on directional preference.",
       techniques: "Specific exercise methods, neural mobilisation, lumbar mobilisation, directional preference exercises"
     },
     {
       number: "05",
       title: "Sports Injuries with Joint Restrictions",
+      href: "/physiotherapy/sports-injury-jvc/",
+      link: "/physiotherapy/sports-injury-jvc/",
       content: "Sport-specific applications. Ankle mobilisation after sprains. Hip mobilisation for restricted hip range. Mobilisation with movement for various joints. Soft tissue work for sport-related muscle dysfunction. Neural mobilisation when relevant. Combined with sport-specific rehabilitation.",
       techniques: "Joint mobilisation (multiple regions), soft tissue work, neural mobilisation, sport-specific application"
     },
     {
       number: "06",
       title: "Post-Surgical Rehabilitation",
+      href: "/physiotherapy/post-surgery-rehab-dubai/",
+      link: "/physiotherapy/post-surgery-rehab-dubai/",
       content: "After many surgical procedures, joint mobilisation is essential to restore range of motion. Knee mobilisation after ACL reconstruction or knee replacement. Shoulder mobilisation after rotator cuff surgery. Ankle mobilisation after ankle surgery. Specific protocols respecting surgical precautions.",
       techniques: "Surgery-specific joint mobilisation, soft tissue work for scar tissue, neural mobilisation when relevant"
-    },
-    {
-      number: "07",
-      title: "TMJ Dysfunction",
-      content: "Temporomandibular joint dysfunction often involves joint restriction and associated muscle tension. Specific TMJ mobilisation techniques. Soft tissue work for masseter and temporalis. Cervical involvement often present and addressed. Combined with patient education about jaw mechanics.",
-      techniques: "TMJ mobilisation techniques where appropriate, cervical mobilisation, soft tissue work"
-    },
-    {
-      number: "08",
-      title: "Chronic Musculoskeletal Pain",
-      content: "Various chronic pain presentations involving joint restrictions, soft tissue dysfunction, or neural mobility issues. Multimodal manual therapy approach. Particularly relevant for patients with persistent pain despite previous treatment. Integrated with chronic pain management approaches.",
-      techniques: "Multiple techniques based on assessment findings, integrated with chronic pain principles"
     }
   ],
   footerNote: "Many other conditions benefit from manual therapy — comprehensive assessment identifies whether your specific condition is appropriate →"
@@ -290,15 +228,15 @@ export const manualTherapySession = {
     },
     {
       title: "The comprehensive initial assessment",
-      content: "The first session is typically 60–75 minutes — longer than standard physiotherapy because manual therapy assessment is detailed. The session includes: thorough history-taking, posture assessment, movement screening, specific joint assessment (range of motion, end-feel, accessory motion), neurological assessment, muscle assessment, palpation findings, and integration of findings into a working diagnosis. The assessment identifies which specific techniques are likely to be most effective for your specific situation."
+      content: "The initial assessment includes: thorough history-taking, posture assessment, movement screening, specific joint assessment (range of motion, end-feel, accessory motion), neurological assessment, muscle assessment, palpation findings, and integration of findings into a working diagnosis. The assessment identifies which specific techniques are likely to be most effective for your specific situation."
     },
     {
       title: "The first treatment session",
-      content: "Treatment typically begins in the same session as assessment. Specific techniques are chosen based on assessment findings — which joints need mobilisation, which soft tissues need work, which neural structures may be involved, whether manipulation is appropriate. Treatment is graded — meaning the intensity and depth are calibrated to your specific tolerance and response. Pain guides treatment intensity. Many patients experience immediate improvement after the first session."
+      content: "Treatment typically begins in the same session as assessment. Specific techniques are chosen based on assessment findings — which joints need mobilisation, which soft tissues need work, which neural structures may be involved, whether manipulation is appropriate. Treatment is graded — meaning the intensity and depth are calibrated to your specific tolerance and response. Pain guides treatment intensity. Wear comfortable clothing that lets us reach the area being treated, such as shorts for knee or hip treatment. Many patients experience immediate improvement after the first session."
     },
     {
       title: "What manual therapy actually feels like",
-      content: "Most manual therapy techniques are comfortable to mildly uncomfortable, not painful. Joint mobilisation feels like specific firm pressure or oscillating movements at the joint. Soft tissue work feels like deep pressure or sustained holds. Mobilisation with movement feels like assisted movement with the therapist guiding direction. Neural mobilisation involves specific limb movements that may produce mild nerve symptoms briefly. Treatment should never be severely painful."
+      content: "Most manual therapy techniques are comfortable to mildly uncomfortable, not painful. Joint mobilisation feels like specific firm pressure or oscillating movements at the joint. Soft tissue work feels like deep pressure or sustained holds. Mobilisation with movement feels like assisted movement with the therapist guiding direction. Neural mobilisation involves specific limb movements that may produce mild nerve symptoms briefly. Manipulation, if used, is always explained first and done only with your consent. Treatment should never be severely painful."
     },
 
     {
@@ -318,7 +256,7 @@ export const manualTherapySession = {
       "Graded treatment intensity respecting your tolerance",
       "Continuous communication during treatment",
       "Stopping point you can request anytime",
-      "DHA-licensed manual therapy-trained practitioners only"
+      "Treatment by Hafsina K K, DHA-licensed physiotherapist, only"
     ],
     contraindications: [
       "Acute fractures",
@@ -386,6 +324,36 @@ export const manualTherapyTechniques = {
         "Cubital tunnel",
         "Nerve-related symptoms"
       ]
+    },
+    {
+      name: "Spinal and Joint Manipulation",
+      developer: "Used only where suitable, with your consent",
+      description: "A small, quick, controlled movement to a stiff joint, often with a 'click'. Used selectively for spinal and joint stiffness after screening for safety, and always with your consent; many people are treated with mobilisation instead.",
+      applications: ["Stiff spinal segments", "Some neck and back pain", "Peripheral joint stiffness"]
+    },
+    {
+      name: "Mobilisation with Movement",
+      developer: "Hands-on technique combined with your own movement",
+      description: "The physiotherapist holds a joint in a precise position while you move, which often reduces pain straight away and is then turned into a home exercise.",
+      applications: ["Shoulder and frozen shoulder", "Tennis elbow", "Ankle and knee stiffness"]
+    },
+    {
+      name: "Instrument-Assisted Soft Tissue Mobilisation (IASTM)",
+      developer: "Hand-held instruments",
+      description: "Smooth-edged instruments used over tight or thickened soft tissue and scar tissue, alongside exercise.",
+      applications: ["Tendon problems", "Scar tissue after surgery", "Chronic muscle tightness"]
+    },
+    {
+      name: "Biomechanical Cupping",
+      developer: "Dry cupping used within physiotherapy",
+      description: "Light suction cups, often moved during active movement, to ease tight muscles and improve movement. This is dry cupping, not hijama (wet cupping), which Vedara does not offer.",
+      applications: ["Back and neck muscle tightness", "Sports recovery", "Shoulder and hip mobility"]
+    },
+    {
+      name: "Manual Trigger Point Release",
+      developer: "Hands-on pressure, no injections",
+      description: "Sustained pressure on tender knots in muscle to reduce local and referred pain. Dry needling may be used for the same problem where suitable.",
+      applications: ["Neck and shoulder knots", "Buttock and piriformis pain", "Headaches from the neck"]
     }
   ],
   footerNote: "Specific technique selection depends on your specific presentation. Comprehensive assessment identifies which techniques are most likely to produce results in your situation. Most patients benefit from combination of techniques rather than single approach."
@@ -393,14 +361,14 @@ export const manualTherapyTechniques = {
 
 export const manualTherapyTeam = {
   bgColor: "bg-[#EDE8DF]",
-  label: "THE TEAM",
-  title: "Manual therapy specialists at our JVC clinic.",
-  description: "Manual therapy is a craft developed through clinical experience. Our team includes DHA-licensed physiotherapists with substantial experience in the techniques described.",
+  label: "YOUR PHYSIOTHERAPIST",
+  title: "Your manual therapy physiotherapist at our JVC clinic.",
+  description: "Manual therapy at Vedara Care is delivered by Hafsina K K, our DHA-licensed physiotherapist, who treats every patient herself.",
   members: [
     {
       name: "Hafsina K K",
-      qualification: "DHA-Licensed Physiotherapist (DHA-P 64812828)",
-      specialties: ["Manual Therapy", "Dry Needling", "Myofascial Release", "Exercise Prescription"],
+      qualification: "Bachelor of Physiotherapy · DHA-P 64812828 · 7+ years' experience",
+      specialties: ["Manual Therapy", "Mobilisation with Movement", "Dry Needling", "IASTM and Cupping"],
       experience: "7 years of clinical experience across orthopedic, neurological, sports, and women's health rehabilitation in India and the UAE.",
       languages: ["English", "Hindi", "Malayalam"],
       link: "/doctors/hafsina-kk-physiotherapist/",
@@ -417,43 +385,10 @@ export const manualTherapyRelatedPages = {
   linkText: "Browse all treatments →",
   linkHref: "/treatments",
   pages: [
-    {
-      title: "Physiotherapy in JVC",
-      description: "Our complete physiotherapy department — manual therapy is foundational to comprehensive physiotherapy care.",
-      href: "/physiotherapy-jvc/"
-    },
-    {
-      title: "Dry Needling Treatment",
-      description: "Often combined with manual therapy for chronic muscle tension and trigger point conditions.",
-      href: "/treatments/dry-needling-dubai/"
-    },
-    {
-      title: "Back Pain Physiotherapy",
-      description: "The most common manual therapy application — chronic back pain with disc, joint, and soft tissue components.",
-      href: "/conditions/back-pain-physiotherapy-jvc/"
-    },
-    {
-      title: "Frozen Shoulder Treatment",
-      description: "Manual therapy is core to frozen shoulder treatment — joint mobilisation in specific directions for capsular restriction.",
-      href: "/conditions/frozen-shoulder-dubai/"
-    }
+    { title: "Physiotherapy in JVC", href: "/physiotherapy-jvc/", description: "All physiotherapy services at our JVC clinic." },
+    { title: "Back Pain Physiotherapy", href: "/conditions/back-pain-physiotherapy-jvc/", description: "The most common use of manual therapy." },
+    { title: "Neck Pain Physiotherapy", href: "/conditions/neck-pain-physiotherapy-jvc/", description: "Tech neck, stiff neck and neck-related headaches." },
+    { title: "Frozen Shoulder Treatment", href: "/conditions/frozen-shoulder-dubai/", description: "Joint mobilisation and mobilisation with movement." },
+    { title: "Sports Injury Physiotherapy", href: "/physiotherapy/sports-injury-jvc/", description: "Dry needling, shockwave and return to sport." }
   ]
-};
-
-export const manualTherapyPricing = {
-  bgColor: "bg-[#F5F0E6]",
-  label: "TRANSPARENT PRICING",
-  title: "What manual therapy costs at our JVC clinic.",
-  pricingItems: [
-    { name: 'Initial assessment with manual therapy (60-75 minutes)', price: 'AED 500', bg: 'rgb(255, 255, 255)' },
-    { name: 'Standard manual therapy session (45-60 minutes)', price: 'AED 350', bg: 'rgb(250, 247, 242)' },
-    { name: 'Extended manual therapy session (60-90 minutes, complex cases)', price: 'AED 500', bg: 'rgb(255, 255, 255)' },
-    { name: 'Chronic neck pain programme (8 sessions)', price: 'AED 2,100', bg: 'rgb(250, 247, 242)' },
-    { name: 'Chronic back pain programme (8-10 sessions)', price: 'AED 2,400', bg: 'rgb(255, 255, 255)' },
-    { name: 'Frozen shoulder programme (12-16 sessions)', price: 'AED 3,600', bg: 'rgb(250, 247, 242)' },
-    { name: 'Sciatica programme (6-8 sessions)', price: 'AED 1,900', bg: 'rgb(255, 255, 255)' },
-    { name: 'Sports injury manual therapy programme (variable)', price: 'From AED 2,200', bg: 'rgb(250, 247, 242)' }
-  ],
-  insuranceNote: 'We accept patients with all major insurance providers and provide full documentation for reimbursement, which depends on your specific policy. <a href="https://wa.me/971555736312?text=Hi,%20I%27d%20like%20to%20verify%20my%20insurance%20coverage" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp your insurance card</a> to +971 55 573 6312 before booking for specific coverage confirmation.',
-  insurers: ['Daman', 'AXA', 'Allianz', 'Oman Insurance', 'Now Health', 'Bupa', 'MetLife']
 };

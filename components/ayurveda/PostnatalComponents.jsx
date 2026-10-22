@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const PostnatalComponents = ({
   bgColor = "#FFFFFF",
@@ -79,30 +80,54 @@ const PostnatalComponents = ({
   );
 };
 
-const ComponentCard = ({ item, cardBg, techniquesLabel }) => (
-  <div
-    className="p-6 md:p-8 rounded-xl border-t-1 flex flex-col h-full transition-all duration-300 hover:shadow-lg"
-    style={{
-      backgroundColor: cardBg,
-      borderTopColor: '#C9A961',
-      borderLeftWidth: '4px',
-      borderRightWidth: '1.5px',
-      borderBottomWidth: '1.5px',
-      borderLeftColor: '#C9A961',
-      borderRightColor: '#C9A961',
-      borderBottomColor: '#C9A961'
-    }}
-  >
-    <div className="text-[40px] md:text-[48px] font-serif text-[#C9A961] mb-2 leading-none opacity-40">{item.number}</div>
-    <h3 className="text-[17px] md:text-[18px] font-sans font-semibold text-[#1A1A1A] mb-3 leading-tight" dangerouslySetInnerHTML={{ __html: item.title }} />
-    <p className="text-[13.5px] md:text-[14px] text-[#4A4A4A] font-sans leading-relaxed mb-4 flex-grow" dangerouslySetInnerHTML={{ __html: item.content }} />
-    {item.techniques && (
-      <div className="mt-auto pt-4 border-t border-[#C9A961]/30">
-        <p className="text-[11px] font-sans font-semibold tracking-[0.15em] uppercase text-[#C9A961] mb-1.5">{techniquesLabel}</p>
-        <p className="text-[12.5px] md:text-[13px] text-[#4A4A4A] font-sans leading-relaxed" dangerouslySetInnerHTML={{ __html: item.techniques }} />
-      </div>
-    )}
-  </div>
-);
+const ComponentCard = ({ item, cardBg, techniquesLabel }) => {
+  const linkHref = item.href || item.link;
+
+  return (
+    <div
+      className="p-6 md:p-8 rounded-xl border-t-1 flex flex-col h-full transition-all duration-300 hover:shadow-lg"
+      style={{
+        backgroundColor: cardBg,
+        borderTopColor: '#C9A961',
+        borderLeftWidth: '4px',
+        borderRightWidth: '1.5px',
+        borderBottomWidth: '1.5px',
+        borderLeftColor: '#C9A961',
+        borderRightColor: '#C9A961',
+        borderBottomColor: '#C9A961'
+      }}
+    >
+      <div className="text-[40px] md:text-[48px] font-serif text-[#C9A961] mb-2 leading-none opacity-40">{item.number}</div>
+      {linkHref ? (
+        <h3 className="text-[17px] md:text-[18px] font-sans font-semibold text-[#1A1A1A] mb-3 leading-tight">
+          <Link href={linkHref} className="hover:text-[#C9A961] transition-colors inline-flex items-center gap-1 group">
+            <span dangerouslySetInnerHTML={{ __html: item.title }} />
+            <span className="text-[#C9A961] opacity-70 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all text-sm">→</span>
+          </Link>
+        </h3>
+      ) : (
+        <h3 className="text-[17px] md:text-[18px] font-sans font-semibold text-[#1A1A1A] mb-3 leading-tight" dangerouslySetInnerHTML={{ __html: item.title }} />
+      )}
+      <p className="text-[13.5px] md:text-[14px] text-[#4A4A4A] font-sans leading-relaxed mb-4 flex-grow" dangerouslySetInnerHTML={{ __html: item.content }} />
+      {linkHref && (
+        <div className="mb-4">
+          <Link
+            href={linkHref}
+            className="text-[12.5px] font-medium text-[#C9A961] hover:underline inline-flex items-center gap-1"
+          >
+            <span>Learn more about this condition</span>
+            <span>→</span>
+          </Link>
+        </div>
+      )}
+      {item.techniques && (
+        <div className="mt-auto pt-4 border-t border-[#C9A961]/30">
+          <p className="text-[11px] font-sans font-semibold tracking-[0.15em] uppercase text-[#C9A961] mb-1.5">{techniquesLabel}</p>
+          <p className="text-[12.5px] md:text-[13px] text-[#4A4A4A] font-sans leading-relaxed" dangerouslySetInnerHTML={{ __html: item.techniques }} />
+        </div>
+      )}
+    </div>
+  );
+};
 
 export default PostnatalComponents;

@@ -153,7 +153,7 @@ export const backPainPhysioModalities = {
     {
       number: "01",
       title: "<a href='/treatments/manual-therapy-dubai/' class='text-inherit hover:text-[#C9A55A] transition-colors'>Manual Therapy</a>",
-      description: "Spinal mobilisation (graded oscillatory movements to restore joint motion), spinal manipulation where appropriate (high-velocity thrust techniques in carefully selected patients), soft tissue mobilisation, myofascial release, and manual stretching. Evidence-based for acute and chronic back pain. Performed by DPT-qualified physiotherapists trained in manual therapy techniques."
+      description: "Spinal mobilisation (graded oscillatory movements to restore joint motion), spinal manipulation where appropriate (high-velocity thrust techniques in carefully selected patients), soft tissue mobilisation, myofascial release, and manual stretching. Evidence-based for acute and chronic back pain. Performed by Hafsina K K, our DHA-licensed physiotherapist trained in manual therapy techniques."
     },
     {
       number: "02",
