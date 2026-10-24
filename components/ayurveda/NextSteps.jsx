@@ -51,7 +51,7 @@ const NextSteps = ({
                 {page.description}
               </p>
               <span className="text-[13px] font-semibold text-[#C9A961] flex items-center gap-1">
-                {getLinkText(page.title)}
+                {page.linkText || getLinkText(page.title)}
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </span>
             </Link>

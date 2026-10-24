@@ -12,7 +12,7 @@ const ClinicalApplications = ({
   footerNote = "At Vedara Care, we work alongside conventional medicine, not against it. Patients often see both an Ayurvedic and conventional doctor for the same condition."
 }) => {
   return (
-    <section className={`${bgColor} py-24 px-6`}>
+    <section id="conditions" className={`${bgColor} py-24 px-6`}>
       <div className="max-w-[1280px] mx-auto">
         <div className="text-center mb-14 space-y-3">
           <span className="text-[13px] font-sans font-semibold tracking-[0.12em] text-[#C9A961] uppercase block mb-4" dangerouslySetInnerHTML={{ __html: label }} />
@@ -30,7 +30,7 @@ const ClinicalApplications = ({
               {strongOutcomes.map((item, index) => (
                 <li key={index} className="flex items-start gap-4 text-[14.5px] text-[#1A1A1A] font-sans">
                   <Check className="w-5 h-5 text-[#1A1A1A] mt-0.5 shrink-0" />
-                  <span dangerouslySetInnerHTML={{ __html: item }} />
+                  <span className="[&_a]:text-[#1F4538] [&_a]:underline hover:[&_a]:text-[#C9A961]" dangerouslySetInnerHTML={{ __html: item }} />
                 </li>
               ))}
             </ul>

@@ -23,8 +23,8 @@ export const physioReviewsBlock = (title = 'What patients say about physiotherap
   description: 'Real reviews from our Google Business Profile, quoted as written.',
   items: physioGoogleReviews,
   stats: [
-    { value: '4.7', label: 'Google rating' },
-    { value: '23', label: 'Google reviews' },
+    { value: '4.5', label: 'Google rating' },
+    { value: '25', label: 'Google reviews' },
   ],
   buttonText: 'Read all reviews on Google',
   buttonHref: GOOGLE_PROFILE_URL,
@@ -72,8 +72,8 @@ export const ayurvedaReviewsBlock = (title = 'What patients say about Ayurveda a
     details: `Google review · ${r.rating} stars · ${r.relative_time_description}`
   })),
   stats: [
-    { value: '4.7', label: 'Google rating' },
-    { value: '23', label: 'Google reviews' },
+    { value: '4.5', label: 'Google rating' },
+    { value: '25', label: 'Google reviews' },
   ],
   buttonText: 'Read all reviews on Google',
   buttonHref: GOOGLE_PROFILE_URL,

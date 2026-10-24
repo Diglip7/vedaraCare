@@ -38,13 +38,13 @@ const AboutVedara = ({
 
             <div className="flex flex-wrap gap-4 pt-4">
               <Link
-                href="/ayurveda-clinic-jvc"
+                href="/ayurveda-clinic-jvc/"
                 className="bg-[#C9A961] text-[#184C3A] px-8 py-4 rounded-[4px] font-sans font-semibold text-[14px] hover:bg-[#B89850] transition-colors"
               >
                 <span dangerouslySetInnerHTML={{ __html: primaryCTA + " →" }} />
               </Link>
               <Link
-                href="/doctors"
+                href="/doctors/"
                 className="border border-white/20 text-white px-8 py-4 rounded-[4px] font-sans font-semibold text-[14px] hover:bg-white/5 transition-colors"
               >
                 <span dangerouslySetInnerHTML={{ __html: secondaryCTA }} />

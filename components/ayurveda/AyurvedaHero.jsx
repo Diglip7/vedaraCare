@@ -5,7 +5,7 @@ import Link from "next/link";
 const AyurvedaHero = ({
   primaryCTATrackingEvent = "",
   secondaryCTATrackingEvent = "",
-bgColor = "bg-[#FAF6EF]",
+  bgColor = "bg-[#FAF6EF]",
   breadcrumb = [],
   label = "",
   title = "",
@@ -72,9 +72,9 @@ bgColor = "bg-[#FAF6EF]",
                     href={primaryCTAHref}
                     data-event={primaryCTATrackingEvent}
                     onClick={() => {
-                        if (primaryCTATrackingEvent && typeof window !== 'undefined' && window.dataLayer) {
-                            window.dataLayer.push({ event: primaryCTATrackingEvent });
-                        }
+                      if (primaryCTATrackingEvent && typeof window !== 'undefined' && window.dataLayer) {
+                        window.dataLayer.push({ event: primaryCTATrackingEvent });
+                      }
                     }}
                     className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#1F4538] text-white rounded-md hover:bg-[#184C3A] transition-all text-[14px] sm:text-[15px] font-sans font-bold shadow-lg">
                     {primaryCTA}
@@ -85,9 +85,9 @@ bgColor = "bg-[#FAF6EF]",
                     rel="noopener noreferrer"
                     data-event={secondaryCTATrackingEvent}
                     onClick={() => {
-                        if (secondaryCTATrackingEvent && typeof window !== 'undefined' && window.dataLayer) {
-                            window.dataLayer.push({ event: secondaryCTATrackingEvent });
-                        }
+                      if (secondaryCTATrackingEvent && typeof window !== 'undefined' && window.dataLayer) {
+                        window.dataLayer.push({ event: secondaryCTATrackingEvent });
+                      }
                     }}
                     className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#4A7C59] text-white rounded-md hover:opacity-95 transition-all text-[14px] sm:text-[15px] font-sans font-bold shadow-lg">
                     <MessageCircle size={20} className="fill-current" />
@@ -110,7 +110,7 @@ bgColor = "bg-[#FAF6EF]",
               <div className="relative aspect-[4/5] rounded-[12px] overflow-hidden shadow-2xl max-h-[500px] sm:max-h-[628px] w-full">
                 {(() => {
                   const imageSrc = image.startsWith('http') || image.startsWith('/') ? image : `/images/${image}`;
-                  const srcSet = imageSrc.endsWith('.webp') ? `${imageSrc.replace('.webp', '-640.webp')} 640w, ${imageSrc} 1080w` : undefined;
+                  const srcSet = undefined;
                   return (
                     <img
                       src={imageSrc}

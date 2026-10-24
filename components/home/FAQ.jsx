@@ -91,7 +91,7 @@ const FAQ = ({
                   </button>
                 </h3>
                 <div 
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index ? 'max-h-40 mt-4' : 'max-h-0'}`}
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index ? 'max-h-[500px] mt-4' : 'max-h-0'}`}
                   aria-hidden={openIndex !== index}
                 >
                   <p 

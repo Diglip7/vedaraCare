@@ -1,11 +1,14 @@
 import Head from 'next/head';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
+import TreatmentBenefits from '../../components/ayurveda/TreatmentBenefits';
 import TreatmentProtocol from '../../components/ayurveda/TreatmentProtocol';
 import TreatmentOils from '../../components/ayurveda/TreatmentOils';
 import TreatmentApplications from '../../components/ayurveda/TreatmentApplications';
+import ClinicalBoundaries from '../../components/ayurveda/ClinicalBoundaries';
 import TreatmentPrograms from '../../components/ayurveda/TreatmentPrograms';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import FAQ from '../../components/home/FAQ';
@@ -16,322 +19,142 @@ import {
   shirodharaHero, 
   shirodharaIntro, 
   shirodharaMechanism, 
+  shirodharaBenefits,
   shirodharaProtocol, 
   shirodharaOils,
   shirodharaApplications,
+  shirodharaSafety,
   shirodharaPrograms,
-  shirodharaReviews,
   shirodharaFaqs,
   shirodharaTreatmentLocation,
   shirodharaFinalCTA,
   shirodharaRelatedPages
 } from '../../data/shirodharaData';
 
-const schemaMarkup = [
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "@id": "https://vedaracare.ae/treatments/shirodhara-dubai/#procedure",
-    "name": "Shirodhara",
-    "alternateName": ["Shirodhara Therapy", "Oil Stream Therapy", "Third Eye Oil Therapy", "Classical Ayurvedic Forehead Oil Therapy"],
-    "description": "Shirodhara is the classical Ayurvedic therapy in which a continuous stream of warm medicated oil is poured rhythmically across the forehead for 30 to 60 minutes, targeting the Ajna marma point. Performed at Vedara Care Polyclinic in Jumeirah Village Circle, Dubai for chronic insomnia, anxiety, migraine, and stress-related disorders.",
-    "url": "https://vedaracare.ae/treatments/shirodhara-dubai/",
-    "image": "https://vedaracare.ae/images/shirodhara-dubai-hero.webp",
-    "procedureType": "Ayurveda",
-    "bodyLocation": ["Forehead", "Autonomic nervous system", "Hypothalamic-pituitary axis", "Trigeminal nerve"],
-    "preparation": "BAMS doctor consultation to confirm indication and select the appropriate medicated oil. Brief preparatory head and neck Abhyanga.",
-    "followup": "10 to 15-minute rest period on the droni. Oil left in hair for several hours. Shower at clinic or later in the day. Avoid demanding activities for 2-4 hours.",
-    "indication": [
-      {"@type": "MedicalIndication", "name": "Chronic insomnia"},
-      {"@type": "MedicalIndication", "name": "Anxiety disorders"},
-      {"@type": "MedicalIndication", "name": "Chronic migraine"},
-      {"@type": "MedicalIndication", "name": "Chronic stress and burnout"},
-      {"@type": "MedicalIndication", "name": "PTSD support"},
-      {"@type": "MedicalIndication", "name": "ADHD support"},
-      {"@type": "MedicalIndication", "name": "Tension headaches"},
-      {"@type": "MedicalIndication", "name": "Hair loss (Khalitya)"},
-      {"@type": "MedicalIndication", "name": "Postnatal mood disorders"},
-      {"@type": "MedicalIndication", "name": "Menopausal sleep disturbances"}
-    ],
-    "contraindication": [
-      {"@type": "MedicalContraindication", "name": "First trimester of pregnancy"},
-      {"@type": "MedicalContraindication", "name": "Acute migraine attack"},
-      {"@type": "MedicalContraindication", "name": "Severe head trauma history (without medical clearance)"},
-      {"@type": "MedicalContraindication", "name": "Active scalp infections"},
-      {"@type": "MedicalContraindication", "name": "Recent eye surgery"}
-    ],
-    "sameAs": "https://en.wikipedia.org/wiki/Shirodhara",
-    "performer": {"@id": "https://vedaracare.ae/#organization"}
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalTherapy",
-    "@id": "https://vedaracare.ae/treatments/shirodhara-dubai/#ayurveda",
-    "name": "Ayurveda",
-    "sameAs": "https://en.wikipedia.org/wiki/Ayurveda"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Takradhara"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Abhyanga"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalSubstance",
-    "name": "Brahmi Taila"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalSubstance",
-    "name": "Ksheerabala Taila"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalSubstance",
-    "name": "Chandanadi Taila"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalSubstance",
-    "name": "Mahanarayana Taila"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Substance",
-    "name": "Brahmi",
-    "alternateName": "Bacopa monnieri"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Book",
-    "name": "Ashtanga Hridayam"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Book",
-    "name": "Bhavaprakasha"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Place",
-    "name": "Kerala"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Place",
-    "name": "Jumeirah Village Circle"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Sutika Paricharya"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalEntity",
-    "name": "Ajna marma"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalEntity",
-    "name": "Heart rate variability"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalEntity",
-    "name": "Cortisol"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalEntity",
-    "name": "EEG"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "EducationalCredential",
-    "name": "BAMS"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalCondition",
-    "name": "Insomnia"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalCondition",
-    "name": "Anxiety"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalCondition",
-    "name": "Migraine"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalCondition",
-    "name": "Hair loss"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalCondition",
-    "name": "Postnatal mood disorders"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Shirodhara Programmes at Vedara Care",
-    "provider": {"@id": "https://vedaracare.ae/#organization"},
-    "areaServed": [
-      {"@type": "City", "name": "Dubai"},
-      {"@type": "Place", "name": "United Arab Emirates"}
-    ],
-    "serviceType": "Ayurvedic Nervous-System Therapy",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Shirodhara Programmes",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Single-Session Shirodhara (75 min total)",
-          "priceCurrency": "AED",
-          "price": "450",
-          "description": "Single Shirodhara session with brief preparatory Abhyanga and rest period"
-        },
-        {
-          "@type": "Offer",
-          "name": "Shirodhara 7-Session Course",
-          "priceCurrency": "AED",
-          "price": "2800",
-          "description": "Seven Shirodhara sessions over 2-3 weeks, doctor-prescribed oil, mid-course doctor review"
-        },
-        {
-          "@type": "Offer",
-          "name": "Shirodhara 14-Session Therapeutic Course",
-          "priceCurrency": "AED",
-          "price": "5200",
-          "description": "Fourteen Shirodhara sessions over 4-6 weeks for severe insomnia, migraine, or chronic anxiety"
-        },
-        {
-          "@type": "Offer",
-          "name": "Home Shirodhara Session (Dubai-wide)",
-          "priceCurrency": "AED",
-          "price": "680",
-          "description": "Home-delivered Shirodhara across Dubai for postnatal, elderly, and established patients"
-        }
-      ]
-    }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    "name": "Shirodhara in Dubai",
-    "url": "https://vedaracare.ae/treatments/shirodhara-dubai/",
-    "about": {"@id": "https://vedaracare.ae/treatments/shirodhara-dubai/#procedure"},
-    "audience": {"@type": "PatientAudience"},
-    "lastReviewed": "2026-05-23",
-    "reviewedBy": {
-      "@type": "Physician",
-      "name": "Dr. Zainab Sheikh",
-      "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
+const SITE_URL = SITE.url;
+const URL = `${SITE_URL}/treatments/shirodhara-dubai/`;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = '2026-11-01';                 // same as PAGE.reviewed
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
     },
-    "primaryImageOfPage": "https://vedaracare.ae/images/shirodhara-dubai-hero.webp"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Shirodhara in Dubai — A Complete Treatment Guide",
-    "image": "https://vedaracare.ae/images/shirodhara-dubai-hero.webp",
-    "datePublished": "2026-05-23",
-    "dateModified": "2026-05-23",
-    "author": {
-      "@type": "Physician",
-      "name": "Dr. Zainab Sheikh",
-      "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Shirodhara Treatment & Massage in JVC, Dubai | Vedara Care',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#procedure` },
+      mainEntity: { '@id': `${URL}#procedure` },
+      audience: { '@type': 'PatientAudience' },
+      primaryImageOfPage: `${SITE_URL}/images/shirodhara-dubai-hero.webp`,
+      datePublished: '2026-05-23',
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
     },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Vedara Care Polyclinic",
-      "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}
+    {
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#procedure`,
+      name: 'Shirodhara',
+      alternateName: ['Shirodhara treatment', 'Shirodhara massage', 'Ayurvedic oil stream therapy'],
+      description: 'A classical Ayurvedic therapy in which a continuous stream of warm medicated oil is poured across the forehead, used for stress, anxiety, poor sleep and headaches.',
+      sameAs: 'https://en.wikipedia.org/wiki/Shirodhara',
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      bodyLocation: 'Forehead',
+      indication: ['Stress', 'Anxiety', 'Insomnia', 'Tension headache', 'Migraine']
+        .map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['First trimester of pregnancy', 'Migraine attack in progress', 'Fever or acute illness',
+        'Scalp infection or open scalp wound', 'Recent eye surgery', 'Serious head injury without medical clearance']
+        .map((name) => ({ '@type': 'MedicalContraindication', name })),
+      adverseOutcome: ['Temporary drowsiness', 'Heavy feeling in the head', 'Skin irritation from the oil (rare)']
+        .map((name) => ({ '@type': 'MedicalEntity', name })),
     },
-    "mainEntityOfPage": "https://vedaracare.ae/treatments/shirodhara-dubai/"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-      {"@type": "ListItem", "position": 2, "name": "Ayurvedic Treatment in Dubai", "item": "https://vedaracare.ae/ayurveda-dubai/"},
-      {"@type": "ListItem", "position": 3, "name": "Shirodhara in Dubai", "item": "https://vedaracare.ae/treatments/shirodhara-dubai/"}
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": "https://vedaracare.ae/#organization",
-    "name": "Vedara Care Polyclinic",
-    "url": "https://vedaracare.ae/",
-    "logo": "https://vedaracare.ae/logo.png"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": shirodharaFaqs.faqs.map((faq) => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
-  }
-];
+    {
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Shirodhara in JVC, Dubai',
+      serviceType: 'Shirodhara',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/`,
+        servicePhone: { '@type': 'ContactPoint', telephone: SITE.phone, contactType: 'appointments' } },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Shirodhara in JVC, Dubai', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: shirodharaFaqs.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
+const PAGE = {
+  url: 'https://vedaracare.ae/treatments/shirodhara-dubai/',
+  title: 'Shirodhara Treatment & Massage in JVC, Dubai | Vedara Care',   // 58 characters
+  description: 'Shirodhara treatment in JVC, Dubai, near Circle Mall: warm medicated oil therapy for stress, sleep and headaches, prescribed by a DHA-licensed doctor.',   // 150 characters
+  image: 'https://vedaracare.ae/images/shirodhara-dubai-hero.webp',
+  reviewed: '2026-11-01',   // the day Dr. Zainab signs off this version; never new Date()
+};
 
 const ShirodharaDubai = () => {
-  const currentDate = new Date().toISOString();
-  
-  // Update lastReviewed and dateModified in schema
-  schemaMarkup.forEach((schema) => {
-    if (schema['@type'] === 'MedicalWebPage') {
-      schema.lastReviewed = currentDate;
-    }
-    if (schema['@type'] === 'Article') {
-      schema.dateModified = currentDate;
-    }
-  });
-  
   return (
     <>
       <Head>
-        <title>Shirodhara Treatment in Dubai | Classical Oil Therapy | Vedara Care</title>
-        <meta name="description" content="Authentic Shirodhara at our DHA-licensed Dubai clinic — continuous warm medicated oil stream therapy for insomnia, anxiety & migraine. From AED 450. Book today." />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content="Shirodhara in Dubai — Classical Oil Stream Therapy at Vedara Care" />
-        <meta property="og:description" content="Doctor-prescribed Shirodhara at our DHA-licensed JVC clinic. For insomnia, anxiety, migraine, and chronic stress. From AED 450." />
-        <meta property="og:image" content="https://vedaracare.ae/images/shirodhara-dubai-hero.webp" />
-        <meta property="og:url" content="https://vedaracare.ae/treatments/shirodhara-dubai/" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
-        <meta property="article:published_time" content="2026-05-23" />
-        <meta property="article:modified_time" content="2026-05-23" />
-        <meta property="article:author" content="Dr. Zainab Sheikh" />
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content="2026-05-23T09:00:00+04:00" />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
-        
-        {/* Canonical & Hreflang */}
-        <link rel="canonical" href="https://vedaracare.ae/treatments/shirodhara-dubai/" />
-        <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/treatments/shirodhara-dubai/" />
-        <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/treatments/shirodhara-dubai/" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
         
         {/* Schema Markup */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       </Head>
       
@@ -344,31 +167,37 @@ const ShirodharaDubai = () => {
       {/* Section 3 - Mechanism with Image 3 */}
       <TreatmentMechanism {...shirodharaMechanism} />
       
-      {/* Section 4 - Protocol with Image 4 */}
+      {/* Section 4 - Benefits */}
+      <TreatmentBenefits {...shirodharaBenefits} />
+      
+      {/* Section 5 - Protocol with Image 4 */}
       <TreatmentProtocol {...shirodharaProtocol} />
       
-      {/* Section 5 - Oils with Image 5 */}
+      {/* Section 6 - Oils with Image 5 */}
       <TreatmentOils {...shirodharaOils} />
       
-      {/* Section 6 - Applications with Image 1 */}
+      {/* Section 7 - Applications with Image 1 */}
       <TreatmentApplications {...shirodharaApplications} />
       
-      {/* Section 7 - Programs with Image 2 */}
+      {/* Section 8 - Safety */}
+      <ClinicalBoundaries {...shirodharaSafety} />
+      
+      {/* Section 9 - Programs with Image 2 */}
       <TreatmentPrograms {...shirodharaPrograms} />
       
-      {/* Section 8 - Reviews with Image 3 */}
+      {/* Section 10 - Reviews with Image 3 */}
       <TreatmentReviews {...ayurvedaReviewsBlock()} />
       
-      {/* Section 9 - FAQ with Image 4 */}
+      {/* Section 11 - FAQ with Image 4 */}
       <FAQ {...shirodharaFaqs} />
       
-      {/* Section 10 - Location with Image 5 */}
+      {/* Section 12 - Location with Image 5 */}
       <TreatmentLocation {...shirodharaTreatmentLocation} />
       
-      {/* Section 11 - Final CTA */}
+      {/* Section 13 - Final CTA */}
       <FinalCTA {...shirodharaFinalCTA} />
       
-      {/* Section 12 - Related Pages */}
+      {/* Section 14 - Related Pages */}
       <RelatedPages {...shirodharaRelatedPages} />
     </>
   );

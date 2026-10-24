@@ -25,19 +25,41 @@ const nextConfig = {
       // www -> non-www (skip if done at host level)
       { source: '/:path*', has: [{ type: 'host', value: 'www.vedaracare.ae' }], destination: 'https://vedaracare.ae/:path*', permanent: true },
 
-      // duplicate pages -> one page per topic (COMMENTED OUT SO JVC PAGES RENDER)
-      // { source: '/treatments/panchakarma-jvc', destination: '/treatments/panchakarma-dubai', permanent: true },
-      // { source: '/conditions/back-pain-ayurveda-jvc', destination: '/conditions/back-pain-ayurveda-dubai', permanent: true },
-      // { source: '/conditions/postnatal-care-ayurveda-jvc', destination: '/conditions/postnatal-ayurveda-dubai', permanent: true },
-      // { source: '/conditions/stress-anxiety-ayurveda-jvc', destination: '/conditions/stress-anxiety-ayurveda-dubai', permanent: true },
-      // { source: '/conditions/weight-loss-ayurveda-jvc', destination: '/conditions/weight-loss-ayurveda-dubai', permanent: true },
-      { source: '/wellness-jvc', destination: '/wellness-clinic-jvc', permanent: true },
+      // duplicate pages -> one page per topic
+      { source: '/treatments/panchakarma-jvc', destination: '/treatments/panchakarma-dubai/', permanent: true },
+      { source: '/treatments/panchakarma-jvc/', destination: '/treatments/panchakarma-dubai/', permanent: true },
+      { source: '/conditions/back-pain-ayurveda-jvc', destination: '/conditions/back-pain-ayurveda-dubai/', permanent: true },
+      { source: '/conditions/back-pain-ayurveda-jvc/', destination: '/conditions/back-pain-ayurveda-dubai/', permanent: true },
+      { source: '/conditions/postnatal-care-ayurveda-jvc', destination: '/conditions/postnatal-ayurveda-dubai/', permanent: true },
+      { source: '/conditions/postnatal-care-ayurveda-jvc/', destination: '/conditions/postnatal-ayurveda-dubai/', permanent: true },
+      { source: '/conditions/stress-anxiety-ayurveda-jvc', destination: '/conditions/stress-anxiety-ayurveda-dubai/', permanent: true },
+      { source: '/conditions/stress-anxiety-ayurveda-jvc/', destination: '/conditions/stress-anxiety-ayurveda-dubai/', permanent: true },
+      { source: '/conditions/weight-loss-ayurveda-jvc', destination: '/conditions/weight-loss-ayurveda-dubai/', permanent: true },
+      { source: '/conditions/weight-loss-ayurveda-jvc/', destination: '/conditions/weight-loss-ayurveda-dubai/', permanent: true },
+      { source: '/wellness-jvc', destination: '/wellness-clinic-jvc/', permanent: true },
+      { source: '/wellness-jvc/', destination: '/wellness-clinic-jvc/', permanent: true },
 
       // removed / renamed doctors
-      { source: '/doctors/dr-priya-nair-ayurveda', destination: '/doctors', permanent: true },
-      { source: '/doctors/dr-priya-nair', destination: '/doctors', permanent: true },
-      { source: '/doctors/dr-ansiya-ayurveda', destination: '/doctors/dr-zainab-ayurveda', permanent: true },
-      { source: '/doctors/dr-zainab', destination: '/doctors/dr-zainab-ayurveda', permanent: true },
+      { source: '/doctors/dr-priya-menon-ayurveda', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+      { source: '/doctors/dr-priya-menon-ayurveda/', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+      { source: '/doctors/dr-meera-krishnan-ayurveda', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+      { source: '/doctors/dr-meera-krishnan-ayurveda/', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+      { source: '/doctors/dr-neethu-ayurveda', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+      { source: '/doctors/dr-neethu-ayurveda/', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+      { source: '/doctors/dr-priya-nair-ayurveda', destination: '/doctors/', permanent: true },
+      { source: '/doctors/dr-priya-nair-ayurveda/', destination: '/doctors/', permanent: true },
+      { source: '/doctors/dr-priya-nair', destination: '/doctors/', permanent: true },
+      { source: '/doctors/dr-priya-nair/', destination: '/doctors/', permanent: true },
+      { source: '/doctors/dr-ansiya-ayurveda', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+      { source: '/doctors/dr-ansiya-ayurveda/', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+      { source: '/doctors/dr-zainab', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+      { source: '/doctors/dr-zainab/', destination: '/doctors/dr-zainab-ayurveda/', permanent: true },
+
+      // blog competing posts consolidation
+      { source: '/blog/what-is-panchakarma-and-how-does-it-actually-work', destination: '/blog/what-is-panchakarma/', permanent: true },
+      { source: '/blog/what-is-panchakarma-and-how-does-it-actually-work/', destination: '/blog/what-is-panchakarma/', permanent: true },
+      { source: '/blog/is-ayurveda-effective-for-back-pain-an-honest-evidence-based', destination: '/blog/ayurveda-for-back-pain-evidence/', permanent: true },
+      { source: '/blog/is-ayurveda-effective-for-back-pain-an-honest-evidence-based/', destination: '/blog/ayurveda-for-back-pain-evidence/', permanent: true },
     ];
   },
 

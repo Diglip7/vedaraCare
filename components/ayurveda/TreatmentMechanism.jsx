@@ -18,7 +18,8 @@ const TreatmentMechanism = ({
   keyAnatomy = [],
   whatWeRecommendAgainst = null,
   comparisonSection = null,
-  coordinationApproach = null
+  coordinationApproach = null,
+  sources = null
 }) => {
   const isContentFormat = content.length > 0;
 
@@ -50,6 +51,10 @@ const TreatmentMechanism = ({
                   dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
               ))}
+
+              {sources && (
+                <p className="mt-6 text-[13px] text-[#6B6B6B]" dangerouslySetInnerHTML={{ __html: sources }} />
+              )}
 
               {/* What we recommend against */}
               {whatWeRecommendAgainst && (
@@ -87,7 +92,12 @@ const TreatmentMechanism = ({
                 <img
                   src={image}
                   alt={alt}
-                  className="w-full h-[500px]" />
+                  width={1080}
+                  height={1080}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-[500px] object-cover"
+                />
               )}
 
               {/* Comparison Section */}

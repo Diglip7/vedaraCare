@@ -46,6 +46,8 @@ const PracticalGuidance = ({
         <div className="text-center">
           <a
             href={buttonLink}
+            target={buttonLink.startsWith('http') ? '_blank' : undefined}
+            rel={buttonLink.startsWith('http') ? 'noopener noreferrer' : undefined}
             className="inline-flex items-center px-10 py-4 border border-[#1F4538] text-[#1F4538] font-sans font-semibold text-[15px] rounded-md hover:bg-[#1F4538] hover:text-white transition-all duration-300 shadow-sm"
           >
             {buttonText} →

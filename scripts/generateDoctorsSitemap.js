@@ -13,10 +13,21 @@ function generateDoctorsSitemap() {
     process.exit(1);
   }
 
-  // Filter out index.js, [slug].js, and any non-js files
+  // Filter out index.js, [slug].js, unlicenced, and redirected doctors
+  const excludedSlugs = [
+    'dr-anusha-makkena',
+    'dr-priya-nair-ayurveda',
+    'dr-priya-nair',
+    'dr-ansiya-ayurveda',
+    'dr-priya-menon-ayurveda',
+    'dr-meera-krishnan-ayurveda',
+    'dr-neethu-ayurveda'
+  ];
+
   const slugs = files
     .filter(file => file.endsWith('.js') && file !== 'index.js' && file !== '[slug].js')
-    .map(file => file.replace('.js', ''));
+    .map(file => file.replace('.js', ''))
+    .filter(slug => !excludedSlugs.includes(slug));
 
   // Generate the XML for each URL
   const urls = slugs

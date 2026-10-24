@@ -17,7 +17,7 @@ const TreatmentPrograms = ({
   // Helper function to build WhatsApp URL
   const buildWhatsAppUrl = (program) => {
     const message = program.whatsappMessage || defaultWhatsappMessage;
-    const cleanNumber = whatsappNumber.replace(/\s/g, '');
+    const cleanNumber = whatsappNumber.replace(/\D/g, '');
     if (message) {
       return `https://wa.me/${cleanNumber}?text=${encodeURIComponent(message)}`;
     }

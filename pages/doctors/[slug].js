@@ -14,3 +14,7 @@ export default function DoctorSlugPage() {
     </>
   );
 }
+
+export async function getServerSideProps() {
+  return { notFound: true };
+}

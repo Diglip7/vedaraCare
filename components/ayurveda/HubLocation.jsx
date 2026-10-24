@@ -8,6 +8,7 @@ const HubLocation = ({
   description = "Our clinic is located in Jumeirah Village Circle, but our patients live across Dubai. For some, home healthcare is the better option.",
   mapImage = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
   inClinicNeighborhoods = [],
+  secondaryTitle = "",
   homeHealthcareNeighborhoods = [],
   footerLinkText = "Learn about our home Ayurveda services →",
   footerLinkHref = "/home-healthcare-jvc/"
@@ -67,25 +68,29 @@ const HubLocation = ({
               </div>
             </div>
 
-            {/* Home Healthcare */}
-            <div className="pt-8 border-t border-[#F5F5F5]">
-              <p className="text-[13px] font-sans font-semibold tracking-[0.12em] text-[#C9A961] uppercase mb-4">
-                HOME HEALTHCARE AVAILABLE ACROSS DUBAI:
-              </p>
-              <div className="grid grid-cols-2 gap-2">
-                {homeHealthcareNeighborhoods.map((item, index) => (
-                  <div key={index} className="flex items-center gap-2 text-[14px] text-[#6B6B6B] font-sans">
-                    <Home size={14} className="text-[#C9A961] shrink-0" />
-                    <span>{item}</span>
+            {/* Secondary / Wider Neighborhoods */}
+            {homeHealthcareNeighborhoods && homeHealthcareNeighborhoods.length > 0 && (
+              <div className="pt-8 border-t border-[#F5F5F5]">
+                <p className="text-[13px] font-sans font-semibold tracking-[0.12em] text-[#C9A961] uppercase mb-4">
+                  {secondaryTitle || "WIDER DUBAI COMMUNITIES:"}
+                </p>
+                <div className="grid grid-cols-2 gap-2">
+                  {homeHealthcareNeighborhoods.map((item, index) => (
+                    <div key={index} className="flex items-center gap-2 text-[14px] text-[#6B6B6B] font-sans">
+                      <Check size={14} className="text-[#C9A961] shrink-0" />
+                      <span>{item}</span>
+                    </div>
+                  ))}
+                </div>
+                {footerLinkText && footerLinkHref && (
+                  <div className="mt-8">
+                    <a href={footerLinkHref} className="text-[14px] font-sans font-semibold text-[#C9A961] hover:underline flex items-center gap-1">
+                      {footerLinkText}
+                    </a>
                   </div>
-                ))}
+                )}
               </div>
-              <div className="mt-8">
-                <a href={footerLinkHref} className="text-[14px] font-sans font-semibold text-[#C9A961] hover:underline flex items-center gap-1">
-                    {footerLinkText}
-                </a>
-              </div>
-            </div>
+            )}
           </div>
         </div>
       </div>
