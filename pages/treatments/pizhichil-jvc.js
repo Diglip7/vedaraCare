@@ -10,6 +10,7 @@ import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import MedicalDisclaimer from '../../components/ayurveda/MedicalDisclaimer';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import {
   pizhichilHero,
   pizhichilIntro,
@@ -19,156 +20,147 @@ import {
   pizhichilWhyWarmOil,
   pizhichilFeelLike,
   pizhichilHowPerformed,
-  pizhichilFullBody,
-  pizhichilConcerns,
+    pizhichilConcerns,
   pizhichilDoshaAndPanchakarma,
   pizhichilComparisons,
   pizhichilSuitability,
   pizhichilHeatSafety,
   pizhichilPracticalGuidance,
   pizhichilCost,
-  pizhichilWhyJvcList,
-  pizhichilWhyVedara,
+    pizhichilWhyVedara,
   pizhichilRelatedConditions,
   pizhichilFAQ,
-  pizhichilLocation,
-  pizhichilCTA,
+    pizhichilCTA,
   pizhichilRelatedPages,
 } from "../../data/pizhichilJvcData";
 
+const PAGE = {
+  url: 'https://vedaracare.ae/treatments/pizhichil-jvc/',      // trailing slash
+  title: 'Pizhichil Treatment in JVC, Dubai | Oil Bath | Vedara Care',   // 58 characters
+  description: 'Pizhichil (Ayurvedic warm oil bath) in JVC, Dubai, near Circle Mall: doctor-prescribed oils, same-gender therapists, for stiffness, joint pain and recovery.',   // 156 characters
+  image: 'https://vedaracare.ae/images/patient-receiving-pizhichil-oil-therapy-jvc.webp',
+  published: '2026-08-14T08:00:00+04:00',
+  reviewed: '2026-11-10',   // the day Dr. Zainab signs off this version
+};
+
+const SITE_URL = SITE.url;
+const URL = `${SITE_URL}/treatments/pizhichil-jvc/`;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = '2026-11-10';
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      email: 'booking@vedaracare.ae',
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
+    },
+    {
+      '@type': 'Physician',
+      '@id': ZAINAB_ID,
+      name: 'Dr. Zainab Sheikh',
+      url: `${SITE_URL}/doctors/dr-zainab-ayurveda/`,
+      medicalSpecialty: 'Ayurveda',
+      knowsLanguage: ['en', 'ml', 'hi'],
+      worksFor: { '@id': ORG_ID },
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Pizhichil Treatment in JVC, Dubai | Oil Bath | Vedara Care',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#therapy` },
+      mainEntity: { '@id': `${URL}#therapy` },
+      audience: { '@type': 'PatientAudience' },
+      primaryImageOfPage: `${SITE_URL}/images/patient-receiving-pizhichil-oil-therapy-jvc.webp`,
+      datePublished: '2026-08-14',
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
+    },
+    {
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#therapy`,
+      name: 'Pizhichil',
+      alternateName: ['Sarvanga Dhara', 'Kaya Seka', 'Taila Dhara', 'Ayurvedic oil bath', 'Pizhichil treatment'],
+      description: 'A classical Kerala Ayurvedic therapy in which warm medicated oil is poured over the body in a steady stream while it is gently massaged in.',
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      indication: ['Muscle stiffness', 'Joint stiffness', 'Back and neck tension', 'Weakness after illness']
+        .map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['Fever', 'Acute infection', 'Open wounds or skin infection', 'Acute injury', 'Active inflammation',
+        'Reduced sensation to heat', 'Certain cardiovascular conditions', 'Uncontrolled medical conditions', 'Pregnancy without medical clearance']
+        .map((name) => ({ '@type': 'MedicalContraindication', name })),
+      adverseOutcome: ['Burns if overheated', 'Skin irritation', 'Dizziness'].map((name) => ({ '@type': 'MedicalEntity', name })),
+    },
+    {
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Pizhichil in JVC, Dubai',
+      serviceType: 'Pizhichil',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Pizhichil in JVC', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: pizhichilFAQ.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
 const PizhichilJVC = () => {
-  const currentUrl = "https://vedaracare.ae/treatments/pizhichil-jvc";
-  const publishedDate = "2026-08-14T08:00:00+04:00";
-  const modifiedDate = new Date().toISOString();
-
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalClinic",
-      "name": "Vedara Care Polyclinic",
-      "url": "https://vedaracare.ae/",
-      "image": "https://vedaracare.ae/images/about.webp",
-      "telephone": "+971555736312",
-      "email": "booking@vedaracare.ae",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4",
-        "addressLocality": "Jumeirah Village Circle (JVC)",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
-      },
-      "medicalSpecialty": "Ayurveda"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "name": "Pizhichil Therapy in JVC",
-      "url": currentUrl,
-      "description": "Pizhichil Therapy in JVC at Vedara Care Polyclinic — traditional Ayurvedic warm oil treatment with individualized assessment by BAMS practitioners.",
-      "mainContentOfPage": {
-        "@type": "WebPageElement",
-        "cssSelector": "main"
-      },
-      "medicalAudience": {
-        "@type": "Patient"
-      },
-      "lastReviewed": "2026-08-12",
-      "publisher": {
-        "@type": "MedicalClinic",
-        "name": "Vedara Care Polyclinic"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Pizhichil Therapy in JVC",
-      "name": "Pizhichil Therapy in JVC",
-      "url": currentUrl,
-      "description": "Pizhichil is a traditional Ayurvedic therapy involving warm medicated oil poured over the body in a controlled stream, combined with gentle massage. Offered at Vedara Care Polyclinic following individual Ayurvedic assessment by BAMS-qualified practitioners. Suitability, oil selection, treatment area and duration are determined case by case; results are not guaranteed.",
-      "provider": {
-        "@type": "MedicalClinic",
-        "name": "Vedara Care Polyclinic",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4",
-          "addressLocality": "Jumeirah Village Circle (JVC)",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        }
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Jumeirah Village Circle, Dubai, UAE"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://vedaracare.ae/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Treatments",
-          "item": "https://vedaracare.ae/ayurveda-clinic-jvc"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Pizhichil Therapy in JVC",
-          "item": currentUrl
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": pizhichilFAQ.faqs.map(faq => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
-    }
-  ];
-
   return (
     <>
       <Head>
-        <title>Pizhichil Therapy in JVC | Ayurvedic Warm Oil Care</title>
-        <meta name="description" content="Pizhichil Therapy in JVC at Vedara Care Polyclinic — traditional Ayurvedic warm oil treatment with individualized assessment by BAMS practitioners." />
-        <link rel="canonical" href={currentUrl} />
-        <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="x-default" href={currentUrl} />
-        <meta property="og:title" content="Pizhichil Therapy in JVC | Ayurvedic Warm Oil Care" />
-        <meta property="og:description" content="Pizhichil Therapy in JVC at Vedara Care Polyclinic — traditional Ayurvedic warm oil treatment with individualized assessment by BAMS practitioners." />
-        <meta property="og:image" content="https://vedaracare.ae/images/pizhichil-treatment-room-setup-jvc.jpg" />
-        <meta property="og:url" content={currentUrl} />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
-        <meta property="article:published_time" content={publishedDate} />
-        <meta property="article:modified_time" content={modifiedDate} />
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content={PAGE.published} />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Pizhichil Therapy in JVC | Ayurvedic Warm Oil Care" />
-        <meta name="twitter:description" content="Pizhichil Therapy in JVC at Vedara Care Polyclinic — traditional Ayurvedic warm oil treatment with individualized assessment by BAMS practitioners." />
-        <meta name="twitter:image" content="https://vedaracare.ae/images/pizhichil-treatment-room-setup-jvc.jpg" />
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <meta name="googlebot" content="index, follow, max-image-preview:large" />
-        <meta name="bingbot" content="index, follow" />
-        {schemas.map((schema, index) => (
-          <script
-            key={index}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </Head>
 
       {/* Hero Section */}
@@ -204,38 +196,51 @@ const PizhichilJVC = () => {
             {pizhichilTerminology.title}
           </h2>
           {pizhichilTerminology.paragraphs.map((p, i) => (
-            <p key={i} className="text-sm md:text-base text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0">
-              {p}
-            </p>
+            <p
+              key={i}
+              className="text-sm md:text-base text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0"
+              dangerouslySetInnerHTML={{ __html: p }}
+            />
           ))}
         </div>
       </div>
 
-      {/* Section 3: What Is Used During Pizhichil? */}
-      <ContentWithSidebar
-        bgColor="bg-[#F5F0E8]"
-        label={pizhichilUsedDuring.label}
-        title={pizhichilUsedDuring.title}
-        description={pizhichilUsedDuring.description}
-        contentSections={[
-          {
-            subtitle: '',
-            description: pizhichilUsedDuring.content
-          },
-          {
-            subtitle: '',
-            description: pizhichilUsedDuring.footer
-          }
-        ]}
-        sidebar={{
-          image: pizhichilUsedDuring.image,
-          altText: pizhichilUsedDuring.alt,
-          width: "w-full",
-          height: "h-[320px]",
-          borderPosition: "right"
-        }}
-        footer={pizhichilUsedDuring.caption}
-      />
+      {/* Section 3: Which Oils Are Used During Pizhichil? */}
+      <section className="bg-[#F5F0E8] py-16 md:py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-3 uppercase">
+              {pizhichilUsedDuring.label}
+            </p>
+            <h2 className="text-3xl md:text-4xl font-serif text-[rgb(26,26,26)]">
+              {pizhichilUsedDuring.title}
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-[60fr_40fr] gap-8 items-center">
+            <div className="space-y-4">
+              <p className="text-base text-[rgb(107,107,107)] leading-relaxed">
+                {pizhichilUsedDuring.description}
+              </p>
+              <p className="text-xs text-[rgb(107,107,107)] italic pt-2">
+                {pizhichilUsedDuring.caption}
+              </p>
+            </div>
+
+            <div className="w-full rounded-xl overflow-hidden h-[300px] md:h-[320px] shadow-sm">
+              <img
+                src={pizhichilUsedDuring.image}
+                alt={pizhichilUsedDuring.alt}
+                width={1080}
+                height={1080}
+                loading="lazy"
+                decoding="async"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Section 4: Why Is Warm Oil Used? */}
       <div className="bg-white py-16 md:py-20 px-6">
@@ -293,22 +298,7 @@ const PizhichilJVC = () => {
         footer={pizhichilHowPerformed.caption}
       />
 
-      {/* Section 7: Is Pizhichil a Full-Body Treatment? */}
-      <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
-        <div className="max-w-5xl mx-auto">
-          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-            {pizhichilFullBody.label}
-          </p>
-          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">
-            {pizhichilFullBody.title}
-          </h2>
-          <div className="space-y-4 text-base text-[rgb(107,107,107)] leading-relaxed max-w-4xl">
-            {pizhichilFullBody.paragraphs.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
-        </div>
-      </div>
+      
 
       {/* Section 8-12: Indications & Concerns */}
       <ContentWithSidebar
@@ -321,8 +311,8 @@ const PizhichilJVC = () => {
           description: c.description
         }))}
         sidebar={{
-          image: "/images/pizhichil-treatment-roomie-setup-jvc.webp",
-          altText: "Treatment room set up for Pizhichil therapy at an Ayurveda clinic in JVC",
+          image: "/images/patient-receiving-pizhichil-oil-therapy-jvc.webp",
+          altText: "Pizhichil for stiffness and recovery at Vedara Care, JVC Dubai",
           width: "w-full",
           height: "h-[550px]",
           borderPosition: "left"
@@ -341,9 +331,11 @@ const PizhichilJVC = () => {
               {pizhichilDoshaAndPanchakarma.dosha.title}
             </h2>
             {pizhichilDoshaAndPanchakarma.dosha.paragraphs.map((p, i) => (
-              <p key={i} className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0">
-                {p}
-              </p>
+              <p
+                key={i}
+                className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0"
+                dangerouslySetInnerHTML={{ __html: p }}
+              />
             ))}
           </div>
 
@@ -355,9 +347,11 @@ const PizhichilJVC = () => {
               {pizhichilDoshaAndPanchakarma.panchakarma.title}
             </h2>
             {pizhichilDoshaAndPanchakarma.panchakarma.paragraphs.map((p, i) => (
-              <p key={i} className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0">
-                {p}
-              </p>
+              <p
+                key={i}
+                className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0"
+                dangerouslySetInnerHTML={{ __html: p }}
+              />
             ))}
           </div>
         </div>
@@ -418,9 +412,11 @@ const PizhichilJVC = () => {
               <div key={idx} className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
                 <h3 className="text-xl font-serif mb-4 text-[rgb(26,26,26)]">{c.name}</h3>
                 {c.paragraphs.map((p, pi) => (
-                  <p key={pi} className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-3 last:mb-0">
-                    {p}
-                  </p>
+                  <p
+                    key={pi}
+                    className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-3 last:mb-0"
+                    dangerouslySetInnerHTML={{ __html: p }}
+                  />
                 ))}
               </div>
             ))}
@@ -592,44 +588,16 @@ const PizhichilJVC = () => {
         </div>
       </div>
 
-      {/* Section 25-26: Why Choose Pizhichil in JVC & Vedara Care */}
-      <div className="bg-white py-16 md:py-20 px-6">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
-          {/* Why Choose Pizhichil Therapy in JVC? */}
-          <div className="rounded-2xl p-8 bg-[#FAF7F2] border border-[#E5DFD3]">
-            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-              {pizhichilWhyJvcList.label}
-            </p>
-            <h3 className="text-2xl font-serif mb-5 text-[rgb(26,26,26)]">
-              {pizhichilWhyJvcList.title}
-            </h3>
-            <p className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-6">
-              {pizhichilWhyJvcList.description}
-            </p>
-            <ul className="space-y-3 mb-6">
-              {pizhichilWhyJvcList.points.map((pt, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white" style={{ backgroundColor: '#C9A55A' }}>✓</span>
-                  <span className="text-sm text-[rgb(107,107,107)] leading-relaxed">{pt}</span>
-                </li>
-              ))}
-            </ul>
-            <p className="text-xs italic text-[rgb(107,107,107)] leading-relaxed">
-              {pizhichilWhyJvcList.footer}
-            </p>
-          </div>
-
-          {/* Why Choose Vedara Care Polyclinic? */}
-          <div className="rounded-2xl p-8 bg-[#FAF7F2] border border-[#E5DFD3]">
+      {/* Section 25: Why Vedara Care */}
+      <div className="bg-[#FAF7F2] py-16 md:py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
             <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
               {pizhichilWhyVedara.label}
             </p>
             <h3 className="text-2xl font-serif mb-5 text-[rgb(26,26,26)]">
               {pizhichilWhyVedara.title}
             </h3>
-            <p className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-6">
-              {pizhichilWhyVedara.description}
-            </p>
             <ul className="space-y-3 mb-6">
               {pizhichilWhyVedara.points.map((pt, i) => (
                 <li key={i} className="flex items-start gap-3">
@@ -638,9 +606,6 @@ const PizhichilJVC = () => {
                 </li>
               ))}
             </ul>
-            <p className="text-xs italic text-[rgb(107,107,107)] leading-relaxed">
-              {pizhichilWhyVedara.footer}
-            </p>
           </div>
         </div>
       </div>
@@ -650,17 +615,17 @@ const PizhichilJVC = () => {
 
         <FAQ
         bgColor="bg-white"
-        label="FAQ"
-        title="Frequently Asked Questions About Pizhichil Therapy"
-        description="Answers to common questions about Pizhichil Therapy, Sarvanga Dhara terminology, oil selection, session protocol, recovery, suitability and cost in JVC, Dubai."
+        label={pizhichilFAQ.label}
+        title={pizhichilFAQ.title}
+        description="Answers reviewed by Dr. Zainab Sheikh."
         faqs={pizhichilFAQ.faqs}
-        buttonText="Book Consultation"
-        buttonHref="/book"
+        buttonText="Book a consultation"
+        buttonHref="/book/"
         sidebarLinks={[
-          { text: "Ayurveda Clinic in JVC", href: "/ayurveda-clinic-jvc" },
-          { text: "Abhyanga in Dubai", href: "/treatments/abhyanga-dubai" },
-          { text: "Shirodhara in Dubai", href: "/treatments/shirodhara-dubai" },
-          { text: "Panchakarma in JVC", href: "/treatments/panchakarma-jvc" }
+          { text: "Abhyanga", href: "/treatments/abhyanga-dubai/" },
+          { text: "Shirodhara", href: "/treatments/shirodhara-dubai/" },
+          { text: "Kizhi (Elakizhi)", href: "/treatments/patra-pinda-sweda-jvc/" },
+          { text: "Panchakarma", href: "/treatments/panchakarma-dubai/" }
         ]}
       />
 
@@ -675,56 +640,33 @@ const PizhichilJVC = () => {
           </h2>
           <div className="space-y-4 text-base text-[rgb(107,107,107)] leading-relaxed max-w-4xl">
             <p>
-              Pizhichil is rarely considered in isolation. Depending on your concerns, an Ayurvedic practitioner may discuss it alongside other therapies or as part of a broader treatment plan. If you are exploring Ayurveda more generally, the <Link href="/ayurveda-clinic-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Ayurveda Clinic in JVC</Link> page offers a wider overview of the services available, while <Link href="/ayurveda-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Ayurveda in Dubai</Link> covers the practice across the city more broadly.
+              Pizhichil is rarely considered in isolation. Depending on your concerns, an Ayurvedic practitioner may discuss it alongside other therapies or as part of a broader treatment plan. If you are exploring Ayurveda more generally, the <Link href="/ayurveda-clinic-jvc/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Ayurveda Clinic in JVC</Link> page offers a wider overview of the services available, while <Link href="/ayurveda-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Ayurveda in Dubai</Link> covers the practice across the city more broadly.
             </p>
             <p>
-              For patients interested in a more comprehensive, multi-step Ayurvedic approach, <Link href="/treatments/panchakarma-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Panchakarma in JVC</Link> describes a structured programme that may, in some cases, include therapies similar to Pizhichil. Those specifically curious about massage-based Ayurvedic care can read about <Link href="/treatments/abhyanga-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Abhyanga</Link>, while <Link href="/treatments/shirodhara-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Shirodhara</Link> explains the related but distinct head-focused pouring therapy. Patients weighing warmth-based options may also want to compare <Link href="/treatments/njavarakizhi-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Njavarakizhi</Link>, which uses herbal boluses rather than poured liquid, or <Link href="/treatments/kativasti-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Kativasti</Link>, a localized oil-retention therapy often considered for lower back concerns.
+              For patients interested in a more comprehensive, multi-step Ayurvedic approach, <Link href="/treatments/panchakarma-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Panchakarma</Link> describes a structured programme that may, in some cases, include therapies similar to Pizhichil. Those specifically curious about massage-based Ayurvedic care can read about <Link href="/treatments/abhyanga-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Abhyanga</Link>, while <Link href="/treatments/shirodhara-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Shirodhara</Link> explains the related but distinct head-focused pouring therapy. Patients weighing warmth-based options may also want to compare <Link href="/treatments/njavarakizhi-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Njavarakizhi</Link>, which uses herbal boluses rather than poured liquid, or <Link href="/treatments/kativasti-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Kativasti</Link>, a localized oil-retention therapy often considered for lower back concerns.
             </p>
             <p>
-              If your primary concern is a specific condition rather than a specific therapy, it may be more useful to start with a condition page. These include <Link href="/conditions/back-pain-ayurveda-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Back Pain (Ayurveda)</Link>, <Link href="/conditions/back-pain-physiotherapy-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Back Pain (Physiotherapy)</Link>, <Link href="/conditions/arthritis-ayurveda-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Arthritis (Ayurveda)</Link>, and <Link href="/conditions/frozen-shoulder-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Frozen Shoulder</Link>. Where a condition is primarily musculoskeletal and involves movement, strength or functional limitation, <Link href="/physiotherapy-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Physiotherapy in JVC</Link> is a separate, evidence-based service that may be more directly appropriate, either instead of or alongside Ayurvedic care.
+              If your primary concern is a specific condition rather than a specific therapy, it may be more useful to start with a condition page. These include <Link href="/conditions/back-pain-ayurveda-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Back Pain (Ayurveda)</Link>, <Link href="/conditions/back-pain-physiotherapy-jvc/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Back Pain (Physiotherapy)</Link>, <Link href="/conditions/arthritis-ayurveda-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Arthritis (Ayurveda)</Link>, and <Link href="/conditions/frozen-shoulder-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Frozen Shoulder</Link>. Where a condition is primarily musculoskeletal and involves movement, strength or functional limitation, <Link href="/physiotherapy-jvc/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Physiotherapy in JVC</Link> is a separate, evidence-based service that may be more directly appropriate, either instead of or alongside Ayurvedic care.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* Location Section */}
-      <section className="bg-white" style={{ padding: '96px 24px' }}>
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="text-sm tracking-[0.2em] uppercase mb-4" style={{ color: '#C9A84C' }}>
-            OUR LOCATION
-          </div>
-          <h2 className="text-3xl md:text-4xl mb-8" style={{ fontFamily: 'Fraunces, Georgia, serif', color: 'rgb(26,26,26)' }}>
-            {pizhichilLocation.title}
-          </h2>
-          <p className="text-base" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
-            {pizhichilLocation.address}
-          </p>
-          {pizhichilLocation.caption && (
-            <p className="text-sm mt-6 italic" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
-              {pizhichilLocation.caption}
-            </p>
-          )}
         </div>
       </section>
 
       <TreatmentLocation
         bgColor="bg-[#FAF7F2]"
-        label="GET IN TOUCH"
-        title="Book a Pizhichil Therapy Consultation at Vedara Care Polyclinic"
-        address="For patients across JVC and wider Dubai researching traditional Kerala Ayurvedic warm oil pouring therapy, Pizhichil (Sarvanga Dhara / Kaya Seka) is offered at Vedara Care Polyclinic following an individual assessment by BAMS-qualified practitioners, delivered locally in JVC without needing to travel elsewhere in Dubai."
+        label="VISIT US"
+        title="Pizhichil in JVC, near Circle Mall."
+        address="Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai"
         phone="+971555736312"
-        email="info@vedaracare.ae"
+        email="booking@vedaracare.ae"
         whatsapp="+971555736312"
-        whatsappMessage="Hello Vedara Care, I would like to inquire about Pizhichil Therapy at your JVC clinic in Dubai."
-        hours={[
-          { day: "Monday - Sunday", time: "9:00 AM – 10:00 PM" },
-
-        ]}
-        landmarks={[
-          "Binghatti Azure building, Al Barsha South Fourth",
-          "Near JVC Circle roundabout, accessible from Hessa Street and Al Khail Road"
-        ]}
-        buttonText="Book a Consultation"
+        whatsappMessage="Hello Vedara Care, I would like to ask about Pizhichil at your JVC clinic."
+        hours={[{ day: "Monday - Sunday", time: "9:00 AM - 10:00 PM" }]}
+        landmarks={["Near Circle Mall", "Close to JSS Private School", "Free and paid parking available"]}
+        description="Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City."
+        distances={[]}
+        buttonText="Book a Pizhichil consultation"
+        buttonHref="/book/"
       />
 
       <MedicalDisclaimer text={pizhichilCTA.disclaimer} />

@@ -38,9 +38,13 @@ const PanchakarmaPhases = ({
               <div className="space-y-6">
                 <div className="space-y-4">
                   {phase.items.slice(0, 2).map((item, i) => (
-                    <p key={i} className="text-[15px] leading-[1.6] text-[#4A4A4A] font-sans">
-                      {item}
-                    </p>
+                    typeof item === 'string' && item.includes('<') ? (
+                      <p key={i} className="text-[15px] leading-[1.6] text-[#4A4A4A] font-sans" dangerouslySetInnerHTML={{ __html: item }} />
+                    ) : (
+                      <p key={i} className="text-[15px] leading-[1.6] text-[#4A4A4A] font-sans">
+                        {item}
+                      </p>
+                    )
                   ))}
                 </div>
 
@@ -52,7 +56,11 @@ const PanchakarmaPhases = ({
                     {phase.items.slice(3).map((item, i) => (
                       <li key={i} className="flex items-start gap-2 text-[14px] text-[#5A5A5A] font-sans">
                         <span className="w-1 h-1 rounded-full bg-[#C9A961] mt-2 shrink-0" />
-                        <span>{item}</span>
+                        {typeof item === 'string' && item.includes('<') ? (
+                          <span dangerouslySetInnerHTML={{ __html: item }} />
+                        ) : (
+                          <span>{item}</span>
+                        )}
                       </li>
                     ))}
                   </ul>

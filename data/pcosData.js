@@ -68,7 +68,7 @@ export const pcosPhenotypes = {
       title: "Ovulatory PCOS",
       description: "Hyperandrogenism + Polycystic Ovaries (regular cycles)",
       content: "Cycles appear regular on the surface but ovulation may be irregular or absent. Androgen symptoms present. Often misdiagnosed because cycles look normal. Common in women trying to conceive who cannot understand why.",
-      ayurvedicEmphasis: "Detailed cycle-tracking protocols, Shatavari-based programmes, fertility-supportive Rasayana, 4-6 month programme"
+      ayurvedicEmphasis: "Detailed cycle-tracking protocols, Shatavari-based programmes, <a href=\"/treatments/rasayana-ayurveda-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">fertility-supportive Rasayana</a>, 4-6 month programme"
     },
     {
       letter: "C",

@@ -35,7 +35,7 @@ const ConsultationProcess = () => {
         </div>
 
         <p className="mt-10 text-[15px] text-[#6B6B6B] font-sans max-w-[720px] mx-auto">
-          Your first consultation takes 45-60 minutes. Follow-ups usually take 20-30 minutes.
+          Your first <a href="/treatments/nadi-pareeksha-jvc/" className="text-[#C9A961] hover:underline">Ayurvedic consultation</a> takes 45-60 minutes. Follow-ups usually take 20-30 minutes.
         </p>
         <p className="mt-4 text-[15px] text-[#6B6B6B] font-sans max-w-[720px] mx-auto">
           <strong>About herbal medicines.</strong> If herbal medicines are part of your plan, Dr. Zainab writes a prescription and tells you where to buy them from licensed pharmacies in the UAE. Vedara Care does not sell medicines, so there is no pressure to buy anything at the clinic.

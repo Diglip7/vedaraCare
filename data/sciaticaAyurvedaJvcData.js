@@ -58,7 +58,7 @@ export const sciaticaJvcMechanism = {
       },
       {
         title: "Kativasti with lower body extension for sciatica",
-        description: "Traditional Kativasti therapy adapted for sciatica includes extended attention to affected lower body — extended Abhyanga to affected leg, systematic massage of buttock, thigh, and lower leg during and after Kativasti. Different medicated oils for different constitutional presentations — Ksheerabala for Vata-predominant pain, Mahanarayana for chronic musculoskeletal conditions. Series of 7–14 sessions typical."
+        description: "Traditional <a href="/treatments/kativasti-dubai/" style="color: #C9A55A; text-decoration: underline;">Kati Vasti</a> (Kativasti) therapy adapted for sciatica includes extended attention to affected lower body — extended Abhyanga to affected leg, systematic massage of buttock, thigh, and lower leg during and after Kativasti. Different medicated oils for different constitutional presentations — Ksheerabala for Vata-predominant pain, Mahanarayana for chronic musculoskeletal conditions. Series of 7–14 sessions typical."
       },
       {
         title: "Coordinated with modern medical care — red flag recognition",

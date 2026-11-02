@@ -1,381 +1,211 @@
-export const januBastiHero = {
+// data/januBastiData.js (replace the whole file)
+export const januHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Ayurveda", href: "/ayurveda-dubai" },
-    { label: "Janu Basti Treatment in JVC", active: true }
+    { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
+    { label: "Janu Basti in JVC", active: true }
   ],
-  label: "AYURVEDIC KNEE THERAPY · WARM OIL RETENTION · JVC DUBAI",
-  title: "Janu Basti Treatment in JVC | Vedara Care Polyclinic",
-  description: "Janu Basti Treatment in JVC is a traditional Ayurvedic therapy in which warm herbal oil is gently retained around the knee within a specially formed boundary. Also written as Janu Vasti, this localized treatment has long been used within Ayurveda for knee-related concerns such as stiffness and discomfort. At Vedara Care Polyclinic in Jumeirah Village Circle, every Janu Basti plan begins with an individual consultation, because not every knee concern responds the same way to the same approach. If you’re exploring Ayurvedic options for your knee near JVC, our team can help you understand whether this therapy may be appropriate for you",
-  canonicalUrl: "https://vedaracare.ae/ayurveda/janu-basti-jvc/",
-  h1: "Janu Basti Treatment in JVC",
-  primaryCTA: "Book Consultation",
-  secondaryCTA: "WhatsApp Us",
-  primaryCTAHref: "/book",
-  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Janu%20Basti%20Treatment%20and%20book%20a%20consultation.",
-  trustSignals: [
-    "Traditional Ayurvedic warm-oil knee therapy",
-    "Individual assessment before treatment",
-    "Practitioner-monitored session comfort",
-    "Clinic located in JVC, Al Barsha South"
-  ],
-  floatingCard: {
-    title: "Localised Knee Warmth",
-    subtitle: "Janu Basti (Janu Vasti) is a traditional Ayurvedic retention therapy in which warm herbal oil is held over the knee joint within a custom boundary."
-  },
-  image: "/images/janu-basti-knee-therapy-consultation-vedara-care-jvc.webp",
-  alt: "Janu Basti treatment consultation at Vedara Care Polyclinic in JVC",
-  caption: "Every Janu Basti plan begins with an individual knee consultation."
-};
-
-export const januBastiIntro = {
-  label: "THE QUICK ANSWER",
-  title: "What is Janu Basti Treatment in JVC?",
-  blockquote: "Janu Basti (also spelled Janu Vasti) is a localized Ayurvedic therapy focused specifically on the knee joint. During the treatment, a practitioner forms a low reservoir — traditionally made using a dough-like paste or a specially designed frame — around the knee. Warm herbal oil, or another Ayurvedic liquid selected by the practitioner, is then poured into this reservoir and retained over the knee for a period of time determined individually for each patient.\n\nWithin Ayurvedic practice, Janu Basti may be considered as part of an individualized care plan for selected knee-related concerns, including general stiffness, discomfort, reduced flexibility, and certain chronic musculoskeletal complaints affecting the knee. It is not applied the same way for every person, and it is not intended as a one-size-fits-all solution.\n\nWhether Janu Basti is suitable depends heavily on the underlying cause of your knee symptoms. It is not presented as a cure for osteoarthritis or for structural damage within the joint. A proper assessment — ideally combined with awareness of any relevant medical history — helps determine whether this therapy has a role in your care.",
-  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed August 2026"
-};
-
-export const januBastiExplanation = {
-  label: "THE THERAPY",
-  title: "What Is Janu Basti?",
-  // description: "In Ayurveda, the term \"Janu\" refers to the knee, while \"Basti\" in this context describes a localized retention therapy — quite different from the internal Basti procedures used in Panchakarma. Janu Basti, therefore, translates roughly to a \"knee-retention therapy,\" in which warm oil is held in place over the knee joint rather than administered internally. You may also see this treatment written as Janu Vasti — the two names refer to the same therapy, and the difference is purely one of transliteration from Sanskrit rather than a distinct clinical procedure.",
-  paragraphs: [
-
-    "In Ayurveda, the term “Janu” refers to the knee, while “Basti” in this context describes a localized retention therapy — quite different from the internal Basti procedures used in Panchakarma. Janu Basti, therefore, translates roughly to a “knee-retention therapy,” in which warm oil is held in place over the knee joint rather than administered internally. You may also see this treatment written as Janu Vasti — the two names refer to the same therapy, and the difference is purely one of transliteration from Sanskrit rather than a distinct clinical procedure.",
-    "Traditional Ayurvedic texts describe the knee as a joint that can be particularly affected by imbalance, especially as people age or place repeated stress on it through daily activity. Because the knee is a weight-bearing joint with relatively less surrounding soft tissue than areas like the lower back, Ayurvedic tradition holds that localized, sustained warmth may be more comfortably and effectively delivered through an external retention method rather than a brief massage alone.",
-    "Unlike oral Ayurvedic medicines, which work through the digestive and metabolic systems over time, Janu Basti is an external, localized application. The oil is meant to stay in direct, prolonged contact with the skin over the knee, rather than being absorbed through general circulation. This is one of the reasons Ayurvedic practitioners view it as a targeted therapy rather than a whole-body treatment.",
-    "It's worth emphasizing early on: Janu Basti is not standardized in the way a manufactured pharmaceutical product might be. The oil selected, the duration of retention, and the overall treatment plan are meant to be personalized based on an individual's constitution, symptoms, and health history, as assessed by the treating practitioner."
-  ],
+  label: "JANU BASTI · JANU VASTI · AYURVEDIC KNEE TREATMENT · JVC, DUBAI",
+  title: "Janu Basti (Janu Vasti) in JVC, Dubai — Ayurvedic knee treatment with warm medicated oil.",
+  description: "Janu Basti holds warm medicated oil over the knee inside a ring of dough, so the warmth and oil stay on the painful joint. It is used for knee pain, stiffness and osteoarthritis, often alongside knee physiotherapy. At Vedara Care near Circle Mall, JVC, Dr. Zainab Sheikh (BAMS, MD Ayurveda) chooses the oil and course, and a same-gender therapist gives the treatment.",
+  primaryCTA: "Book a Janu Basti consultation",
+  primaryCTAHref: "/book/",
+  secondaryCTA: "Chat on WhatsApp",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Janu%20Basti.",
+  trustSignals: ["DHA Facility Licence 2509266", "BAMS, MD (Ayurveda) doctor", "Knee physiotherapy at the same clinic", "Same-gender therapist"],
+  floatingCard: { title: "NOT AN ENEMA", subtitle: "Janu Basti stays on the skin of the knee. Basti, the enema therapy, is different." },
   image: "/images/janu-basti-warm-oil-therapy-knee-ayurveda-jvc.webp",
-  alt: "Janu Basti Ayurvedic warm-oil knee therapy being prepared at a JVC clinic",
-  caption: "Warm herbal oil is retained around the knee within a specially formed boundary."
+  alt: "Warm medicated oil held in a dough ring on the knee during Janu Basti at Vedara Care, JVC Dubai"
 };
 
-export const januBastiProtocol = {
-  title: "How Janu Basti Is Performed",
-  description: "While exact protocols can vary between practitioners and clinics, a typical Janu Basti session generally follows a structured patient journey:",
-  steps: [
-    {
-      title: "Step 1 — Initial Assessment",
-      description: "The practitioner begins by understanding your primary knee concern — where the discomfort is located, how long it has been present, and how it affects your daily activities."
-    },
-    {
-      title: "Step 2 — Knee and Health History Review",
-      description: "A more detailed history is taken, covering previous knee injuries, any diagnosed joint conditions, other medical conditions, and current medications, since these factors can influence whether Janu Basti is appropriate and how it should be approached."
-    },
-    {
-      title: "Step 3 — Treatment Preparation",
-      description: "The treatment area is prepared, and the practitioner selects an Ayurvedic oil or preparation suited to your individual case."
-    },
-    {
-      title: "Step 4 — Creating the Oil-Retaining Boundary",
-      description: "A boundary — traditionally shaped from a dough-like paste, or using a purpose-made ring or frame — is formed around the knee to create a shallow reservoir capable of holding the oil in place."
-    },
-    {
-      title: "Step 5 — Applying Warm Ayurvedic Oil",
-      description: "Warm oil is gently poured into the reservoir until the knee is covered, and the practitioner monitors the temperature to keep it within a comfortable range throughout."
-    },
-    {
-      title: "Step 6 — Maintaining the Treatment",
-      description: "The oil is retained over the knee for a period determined by the practitioner, who periodically checks in on comfort and may replenish or gently warm the oil as needed."
-    },
-    {
-      title: "Step 7 — Removing the Oil and Cleaning the Area",
-      description: "Once the retention period is complete, the boundary is removed, excess oil is cleared away, and the knee area is cleaned."
-    },
-    {
-      title: "Step 8 — Practitioner Guidance and Aftercare",
-      description: "The practitioner typically discusses what to expect afterward, any activity recommendations, and whether follow-up sessions may be considered."
-    }
+export const januIntro = {
+  bgColor: "bg-white",
+  label: "THE QUICK ANSWER",
+  title: "Janu Basti, in one paragraph.",
+  blockquote: "Janu Basti (also written Janu Vasti) is a classical Ayurvedic therapy in which warm medicated oil is held over the knee inside a ring of dough, then massaged in. It is used mainly for knee pain and stiffness, knee osteoarthritis, recovery after sports strains and rheumatoid arthritis outside a flare, and often works best alongside knee physiotherapy. It eases pain and stiffness but does not reverse joint damage, and it is not Basti: nothing is given internally. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), near Circle Mall, Janu Basti starts with a 45 to 60-minute consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda, DHA-licensed), who chooses the oil and course, and a same-gender therapist gives the treatment. The clinic is open daily 9am to 10pm and is close to JVT, Al Barsha South and Arjan.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, BAMS, MD (Ayurveda), DHA licence 20918133. Reviewed November 2026."
+};
+
+export const januMechanism = {
+  bgColor: "bg-[#F9F6F1]",
+  label: "WHAT JANU BASTI IS",
+  title: "How Janu Basti works.",
+  content: [
+    "A ring of dough (usually black gram or wheat flour) is shaped around the knee and sealed to the skin. Warm medicated oil is poured inside and replaced as it cools, so steady warmth and oil stay on the joint.",
+    "In Ayurveda, knee osteoarthritis is called Janu Sandhigata Vata — a Vata disorder of the joint. Warm, nourishing oil held in place is the classical way to calm it; the doctor chooses the oil for your knee.",
+    "What does the research say? Studies are small and usually combine Janu Basti with other Ayurvedic treatment: in one open study of 30 people with knee osteoarthritis, Janu Basti with Matra Basti for 9 days improved most measures. We use it alongside physiotherapy and medical care."
   ],
-  footer: "Exact details such as oil temperature, quantity, session duration, and the number of sessions recommended are determined individually by the treating Ayurvedic practitioner at Vedara Care based on your specific assessment — they are not fixed figures that apply to everyone."
+  sources: "Sources: <a href='https://www.wisdomlib.org/uploads/journals/iamj/2021-issue-11-november/2684_2691.pdf' target='_blank' rel='noopener'>Janu Basti and Matra Basti in knee osteoarthritis, 30 patients (IAMJ 2021, PDF)</a> · <a href='https://doaj.org/article/25c011fe4caa431abfbcefe4be47c80b' target='_blank' rel='noopener'>Janu Basti for knee osteoarthritis, pilot study (2020)</a>",
+  image: "/images/traditional-ayurvedic-warm-oil-preparation-vedara.webp",
+  alt: "Medicated oil warmed for Janu Basti at Vedara Care, JVC"
 };
 
-export const januBastiWarmOil = {
-  label: "TRADITIONAL RATIONALE",
-  title: "Why Warm Oil Is Used",
-  paragraphs: [
-    "The use of warm oil in Janu Basti reflects a traditional Ayurvedic rationale rather than a claim rooted in modern biomedical research. Within Ayurvedic principles, sustained, localized warmth is thought to support comfort and relaxation in the treated area, and oil is traditionally viewed as a vehicle that interacts meaningfully with the tissue it contacts.",
-    "It's important to draw a clear line here between traditional Ayurvedic perspective and modern medical evidence. Ayurvedic theory has its own internal logic regarding warmth, oils, and localized treatment that has been passed down through centuries of practice. Modern clinical research on Janu Basti specifically is limited, and results can vary significantly between individuals. Warm oil application should not be understood as something that will reliably repair cartilage, reverse joint degeneration, or produce a specific measurable outcome for every patient. Instead, it is best understood as a traditional therapeutic approach that some patients seek out as part of a broader, individualized Ayurvedic care plan.",
-    "During a Janu Basti session, the warm oil is typically maintained over the knee for a period of time rather than applied briefly and removed immediately. This prolonged contact is consistent with the traditional purpose of creating a gentle, soothing experience around the joint. Some people may find the warmth calming and may experience temporary relief from feelings of stiffness or discomfort after treatment. However, these experiences are subjective and should not be interpreted as proof of structural healing. The choice of oil, temperature, duration, and overall treatment approach may also vary according to the practitioner's assessment and the individual's needs. For this reason, Janu Basti is generally better considered as a complementary wellness practice rather than a replacement for appropriate medical assessment or evidence-based treatment when knee symptoms require further evaluation."
+export const januProtocol = {
+  label: "WHAT HAPPENS",
+  title: "What happens at a Janu Basti session.",
+  description: "Every session follows the same steps; the oil, length and course are set by your doctor.",
+  phases: [
+    { time: "Step 1", title: "Check-in", content: "Your first visit is a 45-60 minute consultation with Dr. Zainab. At later visits, a short check of pain, swelling and movement." },
+    { time: "Step 2", title: "Dough ring and oil", content: "You lie on your back. A same-gender therapist shapes the dough ring around the knee and fills it with warm oil." },
+    { time: "Step 3", title: "Holding the warmth", content: "The oil is replaced as it cools; the therapist checks the temperature throughout." },
+    { time: "Step 4", title: "Massage and rest", content: "The ring is removed, the knee is gently massaged, and you rest. Your plan may add knee physiotherapy." }
+  ],
+  footer: "Session length and the number of sessions depend on your plan."
+};
+
+export const januOils = {                                   // rendered with TreatmentOils
+  label: "OILS",
+  title: "Oils commonly used for Janu Basti.",
+  description: "The doctor chooses the oil after your consultation.",
+  oils: [
+    { name: "Ksheerabala Taila", description: "Nourishing", content: "Sesame oil processed with Bala and milk.", indication: "age-related knee pain, dryness, stiffness" },
+    { name: "Mahanarayana Taila", description: "Warming", content: "A classical oil with Bala, Ashwagandha and Dashamoola.", indication: "osteoarthritis, chronic stiffness" },
+    { name: "Dhanwantharam Taila", description: "Strengthening", content: "A classical Kerala oil for joints and muscles.", indication: "weak, painful knees" },
+    { name: "Sahacharadi Taila", description: "For nerve-related pain", content: "A classical oil with Sahachara (Barleria prionitis).", indication: "knee pain with radiating or nerve-type pain" }
+  ],
+  footer: "Oils may be changed during a course depending on how you respond."
+};
+
+export const januApplications = {
+  label: "WHAT JANU BASTI IS USED FOR",
+  title: "When Janu Basti may help your knee.",
+  description: "The doctor checks the cause first; some knee problems need imaging or an orthopaedic doctor.",
+  whereItExcels: [
+    { title: "Knee osteoarthritis", subtitle: "Often with knee physiotherapy", href: "/conditions/arthritis-ayurveda-dubai/" },
+    { title: "Knee stiffness and age-related knee pain", subtitle: "Usually a course", href: "/conditions/knee-pain-physiotherapy-dubai/" },
+    { title: "Recovery after sports strains", subtitle: "Once the acute phase has settled", href: "/conditions/knee-pain-physiotherapy-dubai/" },
+    { title: "Rheumatoid arthritis outside a flare", subtitle: "Alongside your rheumatologist", href: "/conditions/arthritis-ayurveda-dubai/" },
+    { title: "Part of a wider plan", subtitle: "With Kizhi, Abhyanga or Panchakarma", href: "/treatments/patra-pinda-sweda-jvc/" }
   ]
 };
 
-export const januBastiConcerns = {
-  label: "COMMON CONCERNS",
-  title: "Knee Concerns Janu Basti May Be Considered For",
-  description: "Patients researching Janu Basti typically have one or more of the concerns below. None of these outcomes is guaranteed — suitability and response depend on individual assessment, the underlying cause, and the broader care plan being followed.",
-  concernsList: [
-    {
-      title: "Janu Basti for Knee Pain",
-      description: "Knee pain is one of the most common reasons people search for Ayurvedic knee therapy JVC options, but it's worth understanding that \"knee pain\" is not a single condition — it's a symptom that can arise from many different underlying causes, including osteoarthritis, tendon-related problems, ligament injury, overuse from repetitive activity or sport, trauma or a recent injury, localized inflammation, and pain referred from the hip or lower back.\n\nBecause the causes of knee pain differ so widely, Janu Basti should not be assumed to be the right approach for every case. A practitioner assessing your knee pain will typically want to understand the pattern, triggers, and history of your symptoms before considering whether this therapy has a place in your care plan — and whether a conventional medical opinion should come first."
-    },
-    {
-      title: "Janu Basti for Knee Stiffness",
-      description: "Knee stiffness can feel different from pain — some people describe a sense of tightness, restricted bending, or difficulty with certain movements like climbing stairs or getting up from a low seat. Stiffness can affect how confidently someone moves through their day, particularly if it's present first thing in the morning or after periods of inactivity.\n\nAs with pain, identifying what's causing the stiffness matters. In an individualized Ayurvedic plan, localized warmth and Janu Basti may be incorporated as one part of addressing stiffness-related discomfort. However, this treatment is not presented as a guarantee of restoring full mobility, and results are understood to vary from person to person depending on the underlying cause and overall treatment approach."
-    },
-    {
-      title: "Janu Basti and Osteoarthritis",
-      description: "Knee osteoarthritis is a condition involving gradual changes within the joint, including changes to the cartilage that cushions the bones, and it's one of the more common reasons people research knee-related Ayurvedic treatment in Dubai. Because osteoarthritis is such a frequent search topic, it deserves particularly careful and responsible discussion.\n\nJanu Basti should not be presented — and is not presented here — as a cure for osteoarthritis. It does not reverse the structural changes associated with the condition. What can be said, within a responsible framework, is that Ayurvedic therapy, including Janu Basti, may be considered as part of a broader individualized care plan for managing certain symptoms associated with osteoarthritis, when this is judged clinically appropriate by the treating practitioner.\n\nFor many patients with osteoarthritis, a conventional medical assessment — potentially including clinical examination or imaging — remains an important part of understanding the condition and the treatment options available, alongside or independent of any Ayurvedic therapy being considered."
-    },
-    {
-      title: "Janu Basti for Age-Related Knee Discomfort",
-      description: "Knee-related symptoms become more common as people get older, but age is only one part of a much larger picture. Several different conditions — from osteoarthritis to tendon changes to reduced muscle support around the joint — can produce broadly similar symptoms in older adults, which is exactly why a proper assessment matters before assuming a cause.\n\nFor older patients, an individualized treatment plan should also take into account general health status, any other medical conditions present, and current medications, since these can all influence what's appropriate. Age alone does not automatically make someone a suitable candidate for Janu Basti — the decision is based on the full clinical picture rather than a birthday."
-    }
-  ]
-};
-
-export const januBastiBenefits = {
-  title: "Possible Benefits of Janu Basti",
-  description: "Within a balanced and honest view of this therapy, some potential aims associated with Janu Basti — based on traditional use and patient-reported experience — include:",
-  points: [
-    "A sense of local warmth around the treated knee",
-    "Relaxation in the surrounding area",
-    "Temporary comfort following treatment",
-    "A reduced feeling of stiffness for some individuals",
-    "Support for mobility as one part of a broader, individualized care plan"
-  ],
-  footer: "These are described deliberately using cautious language — may, can be considered, some patients report — because they are not guaranteed medical outcomes, and experiences differ meaningfully from person to person."
-};
-
-export const januBastiSuitability = {
-  introduction: "Interest in the treatment is only the starting point — actual suitability depends on a proper assessment by a qualified practitioner, not simply on matching one of the categories below.",
-  rightFor: [
-    "Mild to moderate knee discomfort",
-    "General stiffness around the knee",
-    "Chronic musculoskeletal concerns affecting the joint",
-    "Selected symptoms related to osteoarthritis",
-    "Reduced comfort during everyday movement"
-  ],
-  seekMedicalFirst: [
-    "Sudden, severe knee pain",
-    "Major trauma to the knee",
-    "Inability to bear weight on the affected leg",
-    "Significant swelling",
-    "Severe redness or warmth around the joint",
-    "Fever accompanying joint symptoms",
-    "Suspected fracture",
-    "A knee that feels \"locked\" or won't move through its normal range",
-    "Sudden instability or the knee giving way",
-    "Unexplained, persistent pain that hasn't been evaluated"
-  ],
-  seekMedicalFooter: "If any of these apply to you, please seek appropriate medical care rather than booking Janu Basti as a first step. This page is not intended to diagnose your condition, and only a qualified healthcare professional who examines you can do that.",
-  notAppropriate: [
-    "Active skin infection in or around the treatment area",
-    "Open wounds near the knee",
-    "Significant skin irritation",
-    "A recent acute injury that hasn't yet been medically assessed",
-    "Fever or systemic illness",
-    "Certain inflammatory conditions",
-    "Certain other medical conditions identified during consultation"
-  ],
-  notAppropriateFooter: "These can include, but are not limited to the above. This is not an exhaustive list, and your practitioner at Vedara Care will discuss your specific situation with you during consultation."
-};
-
-export const januBastiConsultation = {
-  label: "ASSESSMENT & PLANNING",
-  title: "Consultation at Vedara Care",
-  description: "Every Janu Basti Treatment in JVC at Vedara Care Polyclinic begins with a consultation rather than an assumption. During this conversation, the practitioner may consider:",
-  points: [
-    "Your main knee symptoms",
-    "How long you've had these symptoms",
-    "Any previous knee injuries",
-    "Your broader medical history",
-    "Current medications",
-    "Any treatments you've already tried",
-    "Your general activity level",
-    "Relevant lifestyle factors",
-    "How your knee currently moves",
-    "What you're hoping to achieve from treatment"
-  ],
-  footer: "If, based on this assessment, Janu Basti doesn't appear to be the most appropriate option, the practitioner may recommend a different Ayurvedic approach — or suggest that you seek conventional medical evaluation instead. This willingness to recommend alternatives, rather than defaulting to a single treatment, reflects a responsible, patient-first approach to care."
-};
-
-export const januBastiExperience = {
-  sensation: {
-    title: "What Does Janu Basti Feel Like?",
-    description: "Most people describe the sensation of Janu Basti as one of gentle, contained warmth settling around the knee as the oil is poured and retained. There's often a sense of relaxation as the treatment continues, particularly once the initial temperature of the oil has settled to a comfortable level.\n\nThat said, it wouldn't be accurate to say the treatment is always entirely painless for every person — sensitivity varies, and some individuals may notice mild discomfort, particularly if the knee is already inflamed or sensitive. This is exactly why the practitioner should actively monitor your comfort and the temperature of the oil throughout the session, adjusting as needed."
+export const januSafety = {                                 // rendered with ClinicalBoundaries
+  label: "SAFETY",
+  title: "When to see a doctor first, and possible side effects.",
+  leftCard: {
+    label: "SEE A DOCTOR FIRST",
+    title: "Janu Basti is postponed if you have:",
+    useWarningIcon: true,
+    items: [
+      "A hot, red, swollen knee (possible infection or gout flare)",
+      "A recent injury with severe swelling or inability to bear weight",
+      "Fever or acute illness",
+      "Broken skin or infection on the knee",
+      "Calf pain or swelling (possible blood clot)",
+      "A fresh surgical wound — Vedara does not perform knee surgery; after surgery elsewhere, only with your surgeon's clearance"
+    ]
   },
-  duration: {
-    title: "How Long Does Janu Basti Take?",
-    description: "Session length isn't fixed — it depends on several factors, including the specific clinical plan developed for you, the oil or preparation being used, your individual needs, the area being treated, and whether the session is part of a longer course of procedures. Rather than quoting a single duration that may not apply to your situation, your practitioner at Vedara Care will explain the expected time commitment during your consultation."
+  rightCard: {
+    label: "POSSIBLE SIDE EFFECTS",
+    title: "Usually mild and short-lived:",
+    items: [
+      { text: "Warmth or redness of the skin", icon: "check" },
+      { text: "Mild stiffness the next day", icon: "check" },
+      { text: "Rarely, skin irritation from the oil or dough (tell us about gluten or skin allergies)", icon: "check" }
+    ]
   },
-  recovery: {
-    title: "Janu Basti Recovery",
-    intro: "Janu Basti is generally considered a localized, external Ayurvedic therapy rather than an invasive procedure, but that doesn't mean aftercare instructions can be skipped. Following your practitioner's specific guidance remains important. General recovery considerations include:",
-    points: [
-      "Keeping the treated area comfortable in the hours following treatment",
-      "Following any activity recommendations given by your practitioner",
-      "Maintaining basic cleanliness around the treated knee",
-      "Watching for any unusual irritation and reporting it promptly"
-    ],
-    footer: "It would be inaccurate to promise \"zero recovery time\" for every patient — while Janu Basti doesn't involve incisions or injections, individual responses to the warm oil and treatment process can still vary."
-  },
-  aftercare: {
-    title: "Janu Basti Aftercare",
-    intro: "After your session, general aftercare guidance typically includes:",
-    points: [
-      "Following the specific instructions given by your practitioner",
-      "Avoiding excessive rubbing or pressure on the treated area immediately afterward",
-      "Keeping the area appropriately clean",
-      "Following any activity recommendations discussed during your consultation",
-      "Reporting any unusual or persistent irritation to your practitioner",
-      "Attending any recommended follow-up sessions or reviews"
-    ],
-    footer: "Please note that Ayurvedic practitioners at Vedara Care do not provide pharmaceutical medication prescriptions as part of Ayurvedic aftercare guidance."
-  }
+  footer: "The therapist checks the oil temperature throughout the session."
 };
 
-export const januBastiSessions = {
-  title: "How Many Janu Basti Sessions May Be Needed?",
-  description: "There's no universal number of sessions that applies to everyone, and it would be misleading to suggest otherwise. The number of sessions that may be recommended in your case can depend on:",
-  points: [
-    "The nature and severity of your symptoms",
-    "How long you've been experiencing them",
-    "Your age and general health",
-    "The underlying condition contributing to your knee concern",
-    "The Ayurvedic assessment carried out during consultation",
-    "How you respond to initial treatment",
-    "The overall care plan agreed upon with your practitioner"
+export const januPrograms = {                               // rendered with TreatmentPrograms
+  label: "COURSES",
+  title: "Janu Basti courses. Your doctor sets the length.",
+  description: "Most people need a course. The doctor recommends the length at your consultation.",
+  whatsappNumber: "971555736312",
+  programs: [
+    { name: "Knee course", price: "Prices shared on WhatsApp", duration: "Length set by your doctor", featured: true,
+      features: ["Consultation and oil selection", "A course of Janu Basti sessions", "Doctor reviews during the course", "Home exercise advice"],
+      bestFor: "Knee osteoarthritis, chronic stiffness", buttonText: "Ask about the course", whatsappMessage: "Hello Vedara Care, I would like to ask about a Janu Basti course." },
+    { name: "Janu Basti with knee physiotherapy", price: "Prices shared on WhatsApp", duration: "Length set by your doctor",
+      features: ["Janu Basti course", "Knee physiotherapy sessions", "Plan coordinated at one clinic"],
+      bestFor: "Osteoarthritis with weak muscles or poor movement", buttonText: "Ask about the combined plan", whatsappMessage: "Hello Vedara Care, I would like to ask about Janu Basti with knee physiotherapy." }
   ],
-  footer: "Your practitioner will discuss a proposed plan with you, but this remains something that may be adjusted as treatment progresses rather than a fixed prescription."
+  footer: "Vedara Care does not bill insurers directly; where Janu Basti is part of treatment for a medical condition, we provide the invoice and report for a reimbursement claim."
 };
 
-export const januBastiResults = {
-  title: "When Can Patients Notice Changes?",
-  description: "Experiences with Janu Basti vary considerably from person to person, and it wouldn't be honest to promise a specific timeline. Some people report noticing a degree of temporary comfort shortly after a session, while for others, any perceived change may take longer to become noticeable — if it does at all. Longer-term improvement, where it occurs, tends to depend heavily on the underlying cause of the knee concern and the broader care plan being followed, not on Janu Basti in isolation.\n\nIt's also worth noting that Janu Basti shouldn't be judged based on a single session. Ayurvedic therapy is generally approached as a course of treatment integrated into a wider plan, rather than a one-time fix. Claims such as \"pain disappears after three sessions\" are not something this page — or a responsible clinic — should make."
-};
-
-export const januBastiVsPhysiotherapy = {
-  label: "COMPARATIVE VIEW",
-  title: "Janu Basti and Physiotherapy",
-  description: "Janu Basti and physiotherapy approach the knee from genuinely different angles, and understanding this distinction is useful. Physiotherapy typically focuses on:",
-  physiotherapyPoints: [
-    "Building strength around the joint",
-    "Improving mobility and range of motion",
-    "Restoring functional movement patterns",
-    "Addressing muscle imbalance",
-    "Structured rehabilitation following injury or surgery"
+export const januFaqs = {
+  bgColor: "bg-[#F9F6F1]",
+  label: "JANU BASTI QUESTIONS",
+  sidebarLinks: [
+    { text: "Knee physiotherapy", href: "/conditions/knee-pain-physiotherapy-dubai/" },
+    { text: "Kati Vasti (back)", href: "/treatments/kativasti-dubai/" },
+    { text: "Ayurveda clinic in JVC", href: "/ayurveda-clinic-jvc/" }
   ],
-  januBastiDescription: "Janu Basti, by contrast, is a localized Ayurvedic retention therapy centered on warmth and traditional principles rather than active strengthening or movement-based rehabilitation. Where clinically appropriate, a practitioner may view these two approaches as complementary rather than interchangeable — but this isn't automatic, and not every patient will need both. From a practical perspective, physiotherapy for knee pain is generally more focused on measurable functional goals such as strength, flexibility, joint mobility, and movement control. Janu Basti does not replace these rehabilitation principles. Where clinically appropriate, a practitioner may view the two approaches as complementary rather than interchangeable — but this isn't automatic, and not every patient will need both. For people considering Janu Basti and physiotherapy, the most appropriate approach depends on the underlying cause of knee symptoms, functional limitations, previous injuries, and overall treatment goals. A proper assessment can help determine whether physiotherapy, Ayurvedic care, or a coordinated approach is appropriate.",
-
-  // footer: "If you're also looking into structured rehabilitation, you can learn more on our Physiotherapy in JVC page."
-};
-
-export const januBastiLocation = {
-  title: "Janu Basti Treatment at Vedara Care Polyclinic",
-  address: "Vedara Care Polyclinic is located at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE. Patients considering Janu Basti Treatment in JVC begin with a consultation and individual assessment, so that any treatment plan reflects their specific knee concern, medical history, and goals rather than a one-size-fits-all approach.\n\nOur approach centres on personalised Ayurvedic care planning: understanding your knee, your history, and your objectives before recommending whether Janu Basti genuinely fits your needs, and explaining clearly what it can realistically support within a responsible framework. Patient education is part of every consultation, so you leave understanding not just what the treatment involves, but why it has (or has not) been recommended for your specific concern.",
-  image: "/images/vedara-care-polyclinic-jvc-treatment-environment.jpg",
-  alt: "Vedara Care Polyclinic treatment environment in Jumeirah Village Circle, Dubai",
-  caption: "Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, JVC, Dubai",
-  buttonText: "Book Janu Basti Consultation at Our JVC Clinic"
-};
-
-export const januBastiWhyJvc = {
-  title: "Why Choose Janu Basti Treatment in JVC?",
-  description: "Jumeirah Village Circle has grown into one of Dubai's most established residential communities, with a steady population of residents from neighbouring areas including Al Barsha South, Jumeirah Village Triangle, Dubai Sports City and Motor City who look locally for Ayurvedic therapy options rather than travelling across the city. For a traditional, session-based therapy like Janu Basti — where a course of sessions rather than a single visit is often involved — having a clinic within the community makes it far more practical to stay consistent with a treatment plan.",
-  image: "/images/ayurveda-knee-consultation-jvc-dubai.webp",
-  alt: "Ayurvedic knee consultation and Janu Basti planning session at a JVC clinic",
-  caption: "A proper assessment helps confirm whether Janu Basti is suitable for your knee concern."
-};
-
-export const januBastiCTA = {
-  title: "Explore Janu Basti Treatment in JVC",
-  description: "If you are considering Janu Basti Treatment for knee discomfort, stiffness, or localized support for your knee, the most useful next step is a consultation at Vedara Care Polyclinic, Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE. During your consultation, it helps to discuss your specific knee symptoms, how long they have been present, any previous injuries or diagnosed conditions, your current medications and relevant medical factors, any treatments you've already tried, and what you're realistically hoping to achieve. We will not promise a specific outcome — our aim is to help you understand whether Janu Basti is a reasonable option for your case, and what to expect if it is.",
-  address: "Vedara Care Polyclinic\nAl Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE",
-  disclaimer: "This page provides general educational information about Janu Basti (Janu Vasti) as a traditional Ayurvedic therapy and is not a substitute for personalised medical advice. Janu Basti may not be suitable for everyone, and results vary between individuals. Certain medical conditions, injuries, and medications may affect suitability or require that a conventional medical opinion be sought first. A professional assessment is recommended before beginning any course of treatment, and any decisions about your knee care should be made in consultation with a qualified provider.",
-  button1Text: "Book a Consultation",
-  button1TextHref: "/book",
-  button2Text: "Whatsapp Us",
-  button2TextHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20inquire%20about%20Janu%20Basti%20Treatment%20at%20your%20JVC%20clinic%20in%20Dubai."
-};
-
-export const januBastiFAQ = {
+  title: "Janu Basti: your questions answered.",
+  description: "Answers reviewed by Dr. Zainab Sheikh. For other therapies, see our <a href=\"/ayurveda-dubai/\">guide to Ayurvedic treatment in Dubai</a>.",
+  buttonText: "Ask the team on WhatsApp",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Janu%20Basti.",
   faqs: [
-    {
-      question: "What is Janu Basti?",
-      answer: "Janu Basti (also spelled Janu Vasti) is a localized Ayurvedic therapy focused on the knee, in which warm herbal oil or another Ayurvedic preparation is gently retained around the knee joint within a specially formed boundary for a period determined by the treating practitioner."
-    },
-    {
-      question: "What is the difference between Janu Basti and Janu Vasti?",
-      answer: "There is no difference in treatment itself — Janu Basti and Janu Vasti are two transliterations of the same Sanskrit term, referring to the same Ayurvedic knee-retention therapy."
-    },
-    {
-      question: "Is Janu Basti the same as the internal Basti used in Panchakarma?",
-      answer: "No. In the context of Janu Basti, \"Basti\" refers to a localized external retention therapy over the knee. This is different from the internal Basti procedures used as part of Panchakarma."
-    },
-    {
-      question: "What is Janu Basti used for?",
-      answer: "Within individualized Ayurvedic practice, Janu Basti may be considered as part of a care plan for selected knee concerns such as general stiffness, discomfort, reduced flexibility, and certain chronic musculoskeletal complaints affecting the knee. Suitability depends on proper assessment."
-    },
-    {
-      question: "Can Janu Basti help with knee pain?",
-      answer: "Some patients report temporary comfort following treatment, but \"knee pain\" is a symptom with many different causes. Janu Basti should not be assumed to be the right approach for every case of knee pain, and a proper assessment helps determine whether this therapy is appropriate or whether a conventional medical opinion should come first."
-    },
-    {
-      question: "Can Janu Basti help with knee stiffness?",
-      answer: "A reduced feeling of stiffness is reported by some individuals after Janu Basti, but results vary from person to person depending on the underlying cause and overall treatment approach. Janu Basti is not presented as a guarantee of restoring full mobility."
-    },
-    {
-      question: "Is Janu Basti a cure for osteoarthritis?",
-      answer: "No. Janu Basti is not presented as a cure for osteoarthritis, and it does not reverse structural changes within the joint. It may, where clinically appropriate, be considered as part of a broader individualized care plan for managing certain symptoms associated with osteoarthritis."
-    },
-    {
-      question: "How is Janu Basti performed?",
-      answer: "A typical session generally includes assessment, history review, treatment preparation, forming an oil-retaining boundary around the knee, pouring and retaining warm oil over the knee, maintaining the treatment for a set period, cleaning the area, and providing aftercare guidance. Exact details vary by patient and practitioner."
-    },
-    {
-      question: "How long does Janu Basti take?",
-      answer: "Session length isn't fixed — it depends on the clinical plan, the preparation used, and individual needs. Your practitioner will explain the expected time commitment during consultation rather than quoting a one-size-fits-all duration."
-    },
-    {
-      question: "Does Janu Basti hurt?",
-      answer: "Most people describe gentle, contained warmth and a sense of relaxation. However, sensitivity varies between individuals, and some may notice mild discomfort, especially if the knee is already inflamed or sensitive. The practitioner should actively monitor your comfort throughout the session."
-    },
-    {
-      question: "What oil is used in Janu Basti?",
-      answer: "The oil or Ayurvedic preparation used is selected by the practitioner based on your individual case rather than being the same for every patient. The specific choice should be explained to you during consultation."
-    },
-    {
-      question: "Is there any downtime after Janu Basti?",
-      answer: "Janu Basti is an external, localized therapy and does not involve incisions or injections. However, it would be inaccurate to promise \"zero recovery time\" for every patient — individual responses vary, and following your practitioner's aftercare instructions remains important."
-    },
-    {
-      question: "How many Janu Basti sessions are needed?",
-      answer: "There is no universal number. Sessions depend on the nature and severity of symptoms, duration, age, general health, the underlying condition, Ayurvedic assessment, and response to initial treatment."
-    },
-    {
-      question: "When can I notice changes from Janu Basti?",
-      answer: "Experiences vary significantly. Some patients report temporary comfort shortly after a session; for others any perceived change may take longer — if it occurs at all. Ayurvedic therapy is generally approached as a course of treatment rather than a one-time fix."
-    },
-    {
-      question: "Who should not get Janu Basti?",
-      answer: "Situations in which Janu Basti may need to be postponed or avoided can include active skin infection, open wounds near the knee, significant skin irritation, recent acute injury not yet medically assessed, fever or systemic illness, certain inflammatory conditions, and other medical factors identified during consultation."
-    },
-    {
-      question: "When should I seek medical assessment first instead of booking Janu Basti?",
-      answer: "Urgent or conventional medical evaluation should take priority for symptoms such as sudden severe knee pain, major trauma, inability to bear weight, significant swelling, severe redness or warmth, fever with joint symptoms, suspected fracture, a locked knee, sudden instability, or unexplained persistent pain that hasn't been evaluated."
-    },
-    {
-      question: "Is Janu Basti the same as physiotherapy?",
-      answer: "No. They approach the knee from different angles. Physiotherapy focuses on strength, mobility, movement patterns, and rehabilitation; Janu Basti is a localized Ayurvedic retention therapy centered on warmth and traditional principles. They may be complementary in some cases but are not interchangeable."
-    },
-    {
-      question: "Where can I get Janu Basti Treatment in JVC?",
-      answer: "Vedara Care Polyclinic offers Janu Basti consultations at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE."
-    }
+    { question: "What is Janu Basti?",
+      answer: "Janu Basti (also written Janu Vasti) is a classical Ayurvedic therapy in which warm medicated oil is held over the knee inside a ring of dough. It is used mainly for knee pain, stiffness and osteoarthritis." },
+    { question: "Is Janu Basti the same as Basti?",
+      answer: "No. Basti is a medicated enema given internally. Janu Basti only pools warm oil on the skin of the knee; nothing is given internally." },
+    { question: "Where can I get Janu Basti in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall. It is prescribed by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor, and the clinic is open daily 9am to 10pm. It is close to JVT, Al Barsha South and Arjan." },
+    { question: "Is Janu Basti good for knee osteoarthritis?",
+      answer: "It can ease pain and stiffness: small studies of Janu Basti, usually combined with other Ayurvedic treatment, report improvement in knee osteoarthritis. It does not reverse joint damage, so we often combine it with knee physiotherapy." },
+    { question: "What else is Janu Basti used for?",
+      answer: "Knee stiffness and age-related knee pain, recovery after sports strains once the acute phase has settled, and rheumatoid arthritis outside a flare. The doctor checks for warning signs first." },
+    { question: "Which oil is used for Janu Basti?",
+      answer: "The doctor chooses it for your knee. Common choices include Ksheerabala, Mahanarayana, Dhanwantharam and Sahacharadi Taila; all classical oils are available at Vedara Care." },
+    { question: "How long does a session take, and how many do I need?",
+      answer: "It depends on your needs. After the consultation, the doctor sets the session length and the course; Janu Basti is usually given as a course over one to a few weeks." },
+    { question: "Is Janu Basti painful?",
+      answer: "No. You feel steady warmth around the knee. The therapist checks the oil temperature throughout; tell them at once if it feels too hot." },
+    { question: "Can I combine Janu Basti with physiotherapy?",
+      answer: "Yes, and for knee osteoarthritis it often works best that way: Janu Basti eases pain and stiffness, physiotherapy strengthens the muscles that support the knee. Both are available at our JVC clinic." },
+    { question: "Can I have Janu Basti after knee surgery or a knee replacement?",
+      answer: "Vedara Care does not perform knee surgery or knee replacement. After surgery elsewhere, Janu Basti can be considered only once the wound has fully healed and your surgeon agrees." },
+    { question: "Who should not have Janu Basti?",
+      answer: "It is postponed with a hot, red, swollen knee, a recent injury with severe swelling or inability to bear weight, fever, broken skin or infection on the knee, a suspected blood clot in the leg, or a fresh surgical wound. These need medical assessment first." },
+    { question: "Will a male or female therapist treat me?",
+      answer: "A same-gender therapist: men are treated by a male therapist and women by a female therapist." },
+    { question: "How much does Janu Basti cost in Dubai?",
+      answer: "Across Dubai, an Ayurvedic therapy session such as Janu Basti commonly costs around AED 250 to 700, depending on the clinic and session length. The total depends on how many sessions you need. Vedara Care shares exact prices on WhatsApp." },
+    { question: "How do I book Janu Basti in JVC?",
+      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number. Your first visit is a 45 to 60-minute consultation with Dr. Zainab." }
   ]
 };
 
-export const januBastiRelatedPages = {
-  label: "EXPLORE MORE",
-  title: "Related services and conditions",
+export const januLocation = {
+  bgColor: "bg-[#F5F1E8]",
+  label: "VISIT US",
+  title: "Janu Basti in JVC, near Circle Mall.",
+  address: "Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai",
+  phone: "+971 55 573 6312",
+  whatsapp: "971555736312",
+  whatsappMessage: "Hello Vedara Care, I would like to ask about Janu Basti at your JVC clinic.",
+  email: "booking@vedaracare.ae",
+  hours: "Monday - Sunday - 9:00AM to 10:00PM",
+  landmarks: ["Near Circle Mall", "Close to JSS Private School", "Free and paid parking available"],
+  description: "Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City.",
+  distances: [],
+  buttonText: "Book a Janu Basti consultation",
+  buttonHref: "/book/"
+};
+
+export const januFinalCTA = {
+  bgColor: "bg-[#FAF8F5]",
+  label: "READY?",
+  title: "Start with a consultation. The right plan for your knee follows from it.",
+  description: "In 45 to 60 minutes, Dr. Zainab will check your knee, whether Janu Basti suits you, and whether to combine it with physiotherapy.",
+  button1Text: "Book a Janu Basti consultation",
+  button1Href: "/book/",
+  button2Text: "Chat on WhatsApp",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Janu%20Basti.",
+  bullets: ["Prices shared on WhatsApp", "Same-gender therapist", "Free and paid parking", "Near Circle Mall, JVC"]
+};
+
+export const januRelatedPages = {
+  label: "EXPLORE FURTHER",
+  title: "Related pages.",
+  linkText: "See all Ayurvedic treatments",
+  linkHref: "/ayurveda-dubai/",
   pages: [
-    { title: "Ayurveda Treatment in JVC", href: "/ayurveda-clinic-jvc", description: "Broader Ayurvedic care context and full range of traditional therapies in JVC." },
-    { title: "Physiotherapy in JVC", href: "/physiotherapy-jvc", description: "Structured rehabilitation, strength, mobility and knee-focused physiotherapy options." },
-    { title: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai", description: "Overview of broader Ayurvedic services offered by Vedara Care Polyclinic across Dubai." },
-    { title: "Abhyanga", href: "/treatments/abhyanga-dubai", description: "A broader Ayurvedic oil massage, generally applied more widely across the body." },
-    { title: "Panchakarma", href: "/treatments/panchakarma-dubai", description: "Broader classical Ayurvedic purification framework." },
-    { title: "Ayurvedic Back Pain Treatment", href: "/conditions/back-pain-ayurveda-dubai", description: "Ayurvedic management considerations for related musculoskeletal concerns like back pain." }
+    { title: "Knee physiotherapy", description: "Strength and movement for painful knees.", href: "/conditions/knee-pain-physiotherapy-dubai/" },
+    { title: "Kati Vasti", description: "The same warm-oil method for the lower back.", href: "/treatments/kativasti-dubai/" },
+    { title: "Ayurveda for arthritis", description: "The full Ayurvedic plan for arthritis.", href: "/conditions/arthritis-ayurveda-dubai/" },
+    { title: "Kizhi (Elakizhi)", description: "Herbal bundle therapy for stiff joints.", href: "/treatments/patra-pinda-sweda-jvc/" },
+    { title: "Ayurvedic massage", description: "Compare all Ayurvedic massages in JVC.", href: "/treatments/ayurvedic-massage-jvc/" }
   ]
 };

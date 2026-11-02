@@ -226,8 +226,8 @@ export const panchakarmaBlog = {
   finalCtaBgColor: "bg-[#FAF8F5]",
   author: {
     name: "Dr. Zainab Sheikh",
-    credentials: "BAMS, MD (Ayurveda), DHA-Licensed · Lead Ayurvedic Physician, Vedara Care Polyclinic JVC",
-    bio: "Dr. Zainab is a DHA-licensed Ayurvedic physician with over 12 years of clinical experience, specialising in Panchakarma protocols and integrated Ayurvedic care for chronic conditions. She practises at the Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, where she leads the Panchakarma programmes for patients across Dubai's neighbourhoods.",
+    credentials: "BAMS, MD (Ayurveda) · DHA licence 20918133 · Lead Ayurvedic Physician, Vedara Care Polyclinic JVC",
+    bio: "Dr. Zainab Sheikh is a DHA-licensed Ayurvedic doctor (BAMS, MD Ayurveda, DHA licence 20918133) with 4.5 years of clinical practice, specialising in Panchakarma protocols and integrated Ayurvedic care for chronic conditions. She plans and supervises Panchakarma at Vedara Care in Jumeirah Village Circle (JVC), Dubai.",
     readMoreHref: "/doctors/dr-zainab-ayurveda",
     bookHref: "/book"
   },
@@ -255,7 +255,7 @@ export const panchakarmaBlog = {
   ],
   quickAnswer: {
     title: "What is Panchakarma?",
-    content: "Panchakarma is a structured 7 to 21-day Ayurvedic therapeutic programme involving five specific medical procedures — Vamana (therapeutic vomiting), Virechana (medicated purgation), Basti (medicated enema therapy), Nasya (medicated nasal therapy), and Rakta Mokshana (controlled bloodletting) — performed in sequence with preparatory and recovery phases. Originating in classical Sanskrit texts including the Charaka Samhita (circa 200 BCE), Panchakarma is the most clinically significant therapeutic intervention in Ayurvedic medicine, used to treat chronic disease, address systemic inflammation and metabolic dysfunction, and clear deeply-seated patterns that internal medicines alone cannot reach. At authentic clinics like the Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, Panchakarma is a doctor-led medical procedure — not a spa treatment, not a detox programme, and not a wellness retreat."
+    content: "Panchakarma is a structured 7 to 21-day Ayurvedic therapeutic programme involving five specific medical procedures — Vamana (therapeutic vomiting), Virechana (medicated purgation), Basti (medicated enema therapy), Nasya (medicated nasal therapy), and Rakta Mokshana (controlled bloodletting) — performed in sequence with preparatory and recovery phases. Originating in classical Sanskrit texts including the Charaka Samhita (circa 200 BCE), Panchakarma is the most clinically significant therapeutic intervention in Ayurvedic medicine, used to treat chronic disease, address systemic inflammation and metabolic dysfunction, and clear deeply-seated patterns that internal medicines alone cannot reach. At authentic clinics like the Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai, <a href="/treatments/panchakarma-dubai/" class="text-[#A0713F] underline hover:text-[#80582F] transition-colors">Panchakarma treatment in Dubai</a> is a doctor-led medical procedure — not a spa treatment, not a detox programme, and not a wellness retreat."
   },
   sections: [
     {
@@ -327,7 +327,7 @@ export const panchakarmaBlog = {
     title: "Want to learn if Panchakarma is right for you?",
     text: "For comprehensive information about our Panchakarma programmes, clinical protocols, and pricing — read our complete service page.",
     buttonText: "See our Panchakarma Programmes",
-    buttonHref: "/treatments/panchakarma-dubai"
+    buttonHref: "/treatments/panchakarma-dubai/"
   },
   finalCta: {
     id: "how-to-start",

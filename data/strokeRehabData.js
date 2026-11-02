@@ -495,6 +495,7 @@ export const strokeRehabRelatedPages = {
   linkHref: "/physiotherapy-jvc/",
   pages: [
     { title: "Neurological Physiotherapy", href: "/physiotherapy/neurological-dubai/", description: "Parkinson's, neuropathy, MS and other neurological conditions." },
+    { title: "Ayurvedic support: Njavarakizhi", href: "/treatments/njavarakizhi-dubai/", description: "Warm rice-bolus therapy supporting strength and recovery alongside physiotherapy." },
     { title: "Home Physiotherapy (Coming Soon)", href: "/physiotherapy-at-home-dubai/", description: "Join the waitlist for home visits." },
     { title: "Physiotherapy in JVC", href: "/physiotherapy-jvc/", description: "All physiotherapy services at our JVC clinic." },
     { title: "Meet Hafsina K K", href: "/doctors/hafsina-kk-physiotherapist/", description: "Our DHA-licensed physiotherapist." }

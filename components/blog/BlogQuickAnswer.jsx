@@ -9,9 +9,13 @@ const BlogQuickAnswer = ({ title, content }) => {
           {title}
         </h2>
         <div className="border-l-[3px] border-[#D4A373] pl-8 md:pl-12">
-          <p className="text-[19px]  leading-[1.7] text-[#1A1A1A] font-sans">
-            {content}
-          </p>
+          {typeof content === 'string' && content.includes('<') ? (
+            <p className="text-[19px] leading-[1.7] text-[#1A1A1A] font-sans" dangerouslySetInnerHTML={{ __html: content }} />
+          ) : (
+            <p className="text-[19px] leading-[1.7] text-[#1A1A1A] font-sans">
+              {content}
+            </p>
+          )}
         </div>
       </div>
     </div>

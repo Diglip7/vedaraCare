@@ -35,9 +35,7 @@ const PracticalGuidance = ({
                 <h4 className="text-[15px] font-semibold text-[#1F4538] leading-snug">
                   {item.title}
                 </h4>
-                <p className="text-[13.5px] leading-[1.65] text-[#6B6B6B] font-sans">
-                  {item.description}
-                </p>
+                <p className="text-[13.5px] leading-[1.65] text-[#6B6B6B] font-sans" dangerouslySetInnerHTML={{ __html: item.description }} />
               </div>
             </div>
           ))}

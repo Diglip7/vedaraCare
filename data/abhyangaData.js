@@ -167,8 +167,7 @@ export const abhyangaApplications = {
       href: "/conditions/back-pain-ayurveda-dubai/"
     },
     {
-      title: "Frozen shoulder (with Patra Pinda Sweda, Nasya)",
-      href: "/conditions/frozen-shoulder-ayurveda-dubai/"
+      title: "<a href=\"/conditions/frozen-shoulder-ayurveda-dubai/\" class=\"hover:underline\">Frozen shoulder</a> (with <a href=\"/treatments/patra-pinda-sweda-jvc/\" class=\"underline hover:text-[#C5A572]\">Patra Pinda Sweda</a>, Nasya)"
     },
     {
       title: "Migraine (with Shirodhara, Nasya)",
@@ -401,6 +400,11 @@ export const abhyangaRelatedPages = {
   linkText: "Browse all Ayurvedic treatments",
   linkHref: "/ayurveda-dubai/",
   pages: [
+    {
+      title: "Pizhichil (Ayurvedic Oil Bath)",
+      description: "Continuous warm medicated oil stream poured over the body combined with gentle massage, for deeper warmth and joint stiffness.",
+      href: "/treatments/pizhichil-jvc/"
+    },
     {
       title: "Compare All Ayurvedic Massages",
       description: "Not sure if Abhyanga is right for you? Compare with Shirodhara, Kativasti, Njavarakizhi, and Udvartana - and find the right match.",

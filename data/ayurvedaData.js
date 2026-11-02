@@ -96,7 +96,7 @@ export const ayurvedaTherapies = {
       duration: "30-45 min",
       bestFor: "chronic sinusitis, migraine, hair loss",
       alt: "Nasya nasal therapy treatment at our JVC Ayurveda clinic",
-      link: "/treatments/nasya-therapy-jvc"
+      link: "/treatments/nasya-therapy-jvc/"
     },
     {
       title: "Basti",
@@ -104,7 +104,7 @@ export const ayurvedaTherapies = {
       duration: "Course-based",
       bestFor: "chronic pain, neurological conditions, IBS",
       alt: "Doctor-supervised Basti treatment room at Vedara Care, Jumeirah Village Circle",
-      link: "/treatments/janu-basti-jvc"
+      link: "/treatments/janu-basti-jvc/"
     },
     {
       title: "Udvartana",
@@ -514,14 +514,14 @@ export const dubaiHubTherapies = {
     { title: "Panchakarma", description: "The classical five-action detox programme, doctor-supervised.", duration: "Duration: 7, 14 or 21 days", bestFor: "chronic conditions, deep detox, metabolic reset", image: "panchakarma-droni-treatment-room-jvc.webp", alt: "Panchakarma treatment room at Vedara Care Ayurveda clinic, JVC", link: "/treatments/panchakarma-dubai/" },
     { title: "Abhyanga", description: "Full-body warm medicated oil massage.", duration: "Duration: 60-90 min", bestFor: "stress, sleep, stiffness, circulation", image: "abhyanga-dubai-hero.webp", alt: "Abhyanga warm oil massage at Vedara Care, JVC", link: "/treatments/abhyanga-dubai/" },
     { title: "Shirodhara", description: "A continuous stream of warm medicated oil over the forehead.", duration: "Duration: 45-60 min", bestFor: "anxiety, insomnia, migraine", image: "shirodhara-dubai-hero.webp", alt: "Shirodhara warm oil therapy at Vedara Care, JVC", link: "/treatments/shirodhara-dubai/" },
-    { title: "Kativasti", description: "Warm medicated oil held over the lower back.", duration: "Duration: 45 min", bestFor: "lower back pain, sciatica", image: "kativasti-back-pain-vedara-jvc.webp", alt: "Kativasti oil therapy for lower back pain at Vedara Care, JVC", link: "/treatments/kativasti-dubai/" },
+    { title: "Kati Vasti (Kativasti)", description: "Warm medicated oil held over the lower back.", duration: "Duration: 45 min", bestFor: "lower back pain, sciatica", image: "kativasti-back-pain-vedara-jvc.webp", alt: "Kativasti oil therapy for lower back pain at Vedara Care, JVC", link: "/treatments/kativasti-dubai/" },
     { title: "Janu Vasti", description: "Warm medicated oil pooled over the knee.", duration: "Duration: 45 min", bestFor: "knee pain, osteoarthritis", image: "janu-basti-warm-oil-therapy-knee-ayurveda-jvc.webp", alt: "Janu Vasti knee oil therapy at Vedara Care, JVC", link: "/treatments/janu-basti-jvc/" },
     { title: "Pizhichil", description: "Warm medicated oil poured over the body with gentle massage.", duration: "Duration: 60-75 min", bestFor: "arthritis, stiffness, recovery after neurological illness", image: "patient-receiving-pizhichil-oil-therapy-jvc.webp", alt: "Pizhichil oil therapy at Vedara Care, JVC", link: "/treatments/pizhichil-jvc/" },
     { title: "Njavarakizhi", description: "Massage with medicated rice boluses cooked in herbal milk.", duration: "Duration: 60-75 min", bestFor: "muscle weakness, post-illness recovery", image: "njavarakizhi-dubai-hero.webp", alt: "Njavarakizhi rice bolus massage at Vedara Care, JVC", link: "/treatments/njavarakizhi-dubai/" },
-    { title: "Patra Pinda Sweda (Elakizhi)", description: "Warm herbal-leaf bundles applied to painful joints and muscles.", duration: "Duration: 45-60 min", bestFor: "joint and muscle pain, frozen shoulder", image: "patra-pinda-sweda-herbal-bolus-therapy-jvc.webp", alt: "Patra Pinda Sweda herbal bolus therapy at Vedara Care, JVC", link: "/treatments/patra-pinda-sweda-jvc/" },
+    { title: "Kizhi (Elakizhi)", description: "Warm herbal-leaf bundles applied to painful joints and muscles.", duration: "Duration: 45-60 min", bestFor: "joint and muscle pain, frozen shoulder", image: "patra-pinda-sweda-herbal-bolus-therapy-jvc.webp", alt: "Patra Pinda Sweda herbal bolus therapy at Vedara Care, JVC", link: "/treatments/patra-pinda-sweda-jvc/" },
     { title: "Nasya", description: "Medicated oils given through the nose.", duration: "Duration: 30-45 min", bestFor: "sinus, headache, hair fall", image: "nasya-therapy-jvc.webp", alt: "Nasya therapy at Vedara Care, JVC", link: "/treatments/nasya-therapy-jvc/" },
-    { title: "Basti", description: "Medicated enema therapy, the most important of the five Panchakarma actions.", duration: "Duration: course-based", bestFor: "chronic pain, IBS, neurological support", image: "basti-treatment-room-panchakarma-dubai.webp", alt: "Basti therapy room at Vedara Care, JVC", link: "/treatments/nasya-basti-udvartana-jvc/" },
-    { title: "Udvartana", description: "Vigorous herbal powder massage.", duration: "Duration: 45-60 min", bestFor: "weight management, sluggish metabolism", image: "udvartana-herbal-powder-massage-vedara-jvc.webp", alt: "Udvartana herbal powder massage at Vedara Care, JVC", link: "/treatments/nasya-basti-udvartana-jvc/" },
+    { title: "Basti", description: "Medicated enema therapy, the most important of the five Panchakarma actions.", duration: "Duration: course-based", bestFor: "chronic pain, IBS, neurological support", image: "basti-treatment-room-panchakarma-dubai.webp", alt: "Basti therapy room at Vedara Care, JVC", link: "/treatments/basti-jvc/" },
+    { title: "Udvartana", description: "Vigorous herbal powder massage.", duration: "Duration: 45-60 min", bestFor: "weight management, sluggish metabolism", image: "udvartana-herbal-powder-massage-vedara-jvc.webp", alt: "Udvartana herbal powder massage at Vedara Care, JVC", link: "/treatments/udvartana-jvc/" },
     { title: "Nadi Pareeksha", description: "Pulse-based Ayurvedic diagnosis.", duration: "Part of your consultation", bestFor: "understanding your constitution and imbalance", image: "nadi-pareeksha-jvc.webp", alt: "Nadi Pareeksha pulse diagnosis at Vedara Care, JVC", link: "/treatments/nadi-pareeksha-jvc/" }
   ],
   footer: 'Also offered on prescription: Shirovasti, Greeva Vasti, Podikizhi, Netra Tarpana and <a href="/treatments/rasayana-ayurveda-jvc/">Rasayana rejuvenation</a>. <a href="/treatments/ayurvedic-massage-jvc/">Not sure which Ayurvedic massage you need? Compare them</a>.'
@@ -651,7 +651,7 @@ export const dubaiHubGuidance = {
     },
     {
       title: "4. Does the first consultation actually take time?",
-      description: "Authentic Ayurvedic consultations in Dubai take 45 to 60 minutes. They include pulse diagnosis, dosha assessment, full history-taking, and a written treatment plan. A 10-minute consultation is a sales pitch, not a diagnosis."
+      description: "Authentic <a href="/treatments/nadi-pareeksha-jvc/" class="text-[#C9A961] hover:underline">Ayurvedic consultations</a> in Dubai take 45 to 60 minutes. They include pulse diagnosis, dosha assessment, full history-taking, and a written treatment plan. A 10-minute consultation is a sales pitch, not a diagnosis."
     },
     {
       title: "5. Are medicines prescribed, not pushed?",

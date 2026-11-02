@@ -373,6 +373,7 @@ export const shirodharaRelatedPages = {
     { title: "Abhyanga in Dubai", description: "Full-body warm oil massage, often combined with Shirodhara.", href: "/treatments/abhyanga-dubai/" },
     { title: "Ayurveda for insomnia in JVC", description: "How sleep problems are treated, with Shirodhara as one part of the plan.", href: "/conditions/insomnia-ayurveda-jvc/" },
     { title: "Ayurveda for stress and anxiety", description: "Shirodhara alongside diet, routine and other therapies.", href: "/conditions/stress-anxiety-ayurveda-dubai/" },
+    { title: "Ayurvedic rejuvenation (Rasayana)", description: "Consultation, prescription, follow-ups and therapies for energy, sleep and healthy ageing in JVC.", href: "/treatments/rasayana-ayurveda-jvc/" },
     { title: "Compare Ayurvedic massages", description: "Shirodhara, Abhyanga, Kativasti, Njavarakizhi and Udvartana side by side.", href: "/treatments/ayurvedic-massage-jvc/" }
   ]
 };

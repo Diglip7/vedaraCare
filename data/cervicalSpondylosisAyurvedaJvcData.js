@@ -71,7 +71,7 @@ export const cervicalJvcMechanism = {
 
   },
   rightContent: {
-    image: "/images/basti-cervical spondylosis-vedara-jvc.webp",
+    image: "/images/basti-cervical-spondylosis-vedara-jvc.webp",
     alt: "Classical Greeva Sandhigata Vata Ayurvedic care Dr Zainab Vedara Care JVC",
     imageClassName: "w-full h-[400px] lg:h-[500px] object-cover object-center",
     description: (
@@ -121,7 +121,7 @@ export const cervicalJvcTypes = {
       number: "02",
       title: "Cervical Spondylosis With Radiculopathy",
       description: "Cervical spondylosis with nerve root compression producing radiating arm pain, sensory changes, or weakness. Requires neurological assessment alongside Ayurvedic approach.",
-      typicalSigns: ["Coordinated with neurological assessment, Griva Basti, Nasya, Trayodashang Guggulu"],
+      typicalSigns: ["Coordinated with neurological assessment, Griva Basti, <a href="/treatments/nasya-therapy-jvc/" style="color: #C9A55A; text-decoration: underline;">Nasya</a>, Trayodashang Guggulu"],
       alt: "Cervical spondylosis with radiculopathy Ayurvedic care Vedara Care JVC"
     },
     {

@@ -129,7 +129,7 @@ export const postnatalComponents = {
     {
       number: "1",
       title: "Daily Postpartum Abhyanga",
-      content: "The classical postpartum <a href=\"/treatments/abhyanga-dubai/\" class=\"text-[#C9A961] hover:underline\">Abhyanga</a> — warm medicated oil therapy delivered by trained female therapists at your home across Dubai. Specific oils (typically Mahanarayana Taila, Bala Taila, Dhanwantharam) selected for postpartum. Typically 60-75 minutes per session. Daily or near-daily for 10-45 days."
+      content: "The classical postpartum <a href=\"/treatments/abhyanga-dubai/\" class=\"text-[#C9A961] hover:underline\">Abhyanga</a> — warm medicated oil therapy delivered by trained female therapists at your home across Dubai. Specific oils (typically Mahanarayana Taila, Bala Taila, Dhanwantharam) selected for postpartum. Typically 60-75 minutes per session. Daily or near-daily for 10-45 days. In later weeks, restorative <a href="/treatments/njavarakizhi-dubai/" class="text-[#C9A961] hover:underline">Njavarakizhi</a> (warm rice-bolus therapy) may be added to nourish depleted tissues."
     },
     {
       number: "2",

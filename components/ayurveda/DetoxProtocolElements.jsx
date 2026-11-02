@@ -53,9 +53,7 @@ const DetoxProtocolElements = ({
                       </span>
                     )}
                   </div>
-                  <p className="text-[13.5px] leading-relaxed text-[#5A5A5A] font-sans">
-                    {p.description}
-                  </p>
+                  <p className="text-[13.5px] leading-relaxed text-[#5A5A5A] font-sans" dangerouslySetInnerHTML={{ __html: p.description }} />
                 </div>
               ))}
             </div>

@@ -82,7 +82,11 @@ const BlogBody = ({ sections, tableOfContents, cta, bgColor = "bg-[#FDFCF9]" }) 
                 )}
 
                 {section.content && section.content.map((para, i) => (
-                  <p key={i} className="mb-8 text-[18px] leading-relaxed font-sans text-[#4A4A4A]">{para}</p>
+                  typeof para === 'string' && para.includes('<') ? (
+                    <p key={i} className="mb-8 text-[18px] leading-relaxed font-sans text-[#4A4A4A]" dangerouslySetInnerHTML={{ __html: para }} />
+                  ) : (
+                    <p key={i} className="mb-8 text-[18px] leading-relaxed font-sans text-[#4A4A4A]">{para}</p>
+                  )
                 ))}
 
                 {section.quote && (

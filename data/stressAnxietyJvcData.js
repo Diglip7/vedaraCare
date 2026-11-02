@@ -164,7 +164,7 @@ export const stressJvcComponents = {
       alt: "Burnout recovery Ayurvedic programme Vedara Care JVC",
       description: "Accumulated stress producing exhaustion, disengagement, cynicism. Common in Dubai's high-intensity professional environment. Comprehensive multi-modal restoration approach.",
       typicalSigns: [
-        "Comprehensive assessment, Panchakarma consideration, Shirodhara series, Rasayana rejuvenation"
+        "Comprehensive assessment, Panchakarma consideration, Shirodhara series, <a href=\"/treatments/rasayana-ayurveda-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Rasayana rejuvenation</a>"
       ]
     },
     {

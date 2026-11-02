@@ -361,6 +361,7 @@ export const kneePainRelatedPages = {
     { title: "Sports Injury Physiotherapy", href: "/physiotherapy/sports-injury-jvc/", description: "Padel, running, gym and football injuries." },
     { title: "Paediatric Physiotherapy", href: "/physiotherapy/pediatric-dubai/", description: "Knee pain in children and teenagers." },
     { title: "Back Pain Physiotherapy", href: "/conditions/back-pain-physiotherapy-jvc/", description: "Lower back pain that can affect the knee." },
+    { title: "Janu Basti (Janu Vasti)", href: "/treatments/janu-basti-jvc/", description: "Warm medicated oil pooled over the knee for knee pain, osteoarthritis and stiffness." },
     { title: "Ayurvedic Arthritis Treatment", href: "/conditions/arthritis-ayurveda-dubai/", description: "An optional Ayurvedic approach to arthritis at the same clinic." }
   ]
 };
@@ -437,7 +438,7 @@ export const kneePainArthritis = {
     "<strong>What physiotherapy includes</strong><br/>A strength and balance programme, manual therapy, heat, TENS or electrical stimulation for pain, advice on pacing activity, and a plan you can continue at home or in the gym.",
     "<strong>Weight management</strong><br/>Each kilogram lost reduces the load through the knee. Our in-house GP can support weight management alongside your physiotherapy.",
     "<strong>Injections</strong><br/>Vedara Care does not give knee injections. If pain stays severe despite exercise, our GP can refer you to a specialist to discuss steroid or other injections.",
-    "<strong>Ayurvedic option</strong><br/>Some patients also choose Ayurvedic care for arthritis at our clinic; see <a href='/conditions/arthritis-ayurveda-dubai/'>Ayurvedic arthritis treatment</a>."
+    "<strong>Ayurvedic option</strong><br/>Some patients also choose Ayurvedic care for knee pain and osteoarthritis at our clinic; see <a href='/treatments/janu-basti-jvc/'>Janu Basti (Janu Vasti)</a> or broader <a href='/conditions/arthritis-ayurveda-dubai/'>Ayurvedic arthritis treatment</a>."
   ],
   image: "/images/knee-anatomy-illustration.webp",
   alt: "Knee osteoarthritis physiotherapy at Vedara Care, JVC, Dubai"

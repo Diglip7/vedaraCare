@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
@@ -8,7 +9,6 @@ import TreatmentOils from '../../components/ayurveda/TreatmentOils';
 import TreatmentApplications from '../../components/ayurveda/TreatmentApplications';
 import TreatmentBenefits from '../../components/ayurveda/TreatmentBenefits';
 import TreatmentPrograms from '../../components/ayurveda/TreatmentPrograms';
-import TreatmentHomeHealthcare from '../../components/ayurveda/TreatmentHomeHealthcare';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import FAQ from '../../components/home/FAQ';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
@@ -25,284 +25,161 @@ import {
   njavarakizhiApplications,
   njavarakizhiBenefits,
   njavarakizhiPrograms,
-  njavarakizhiHomeHealthcare,
-  njavarakizhiReviews,
   njavarakizhiFaqs,
   njavarakizhiTreatmentLocation,
   njavarakizhiFinalCTA,
   njavarakizhiRelatedPages
 } from '../../data/njavarakizhiData';
 
+const SITE_URL = SITE.url;
+const URL = `${SITE_URL}/treatments/njavarakizhi-dubai/`;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = '2026-11-10';
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      email: 'booking@vedaracare.ae',
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
+    },
+    {
+      '@type': 'Physician',
+      '@id': ZAINAB_ID,
+      name: 'Dr. Zainab Sheikh',
+      url: `${SITE_URL}/doctors/dr-zainab-ayurveda/`,
+      medicalSpecialty: 'Ayurveda',
+      knowsLanguage: ['en', 'ml', 'hi'],
+      worksFor: { '@id': ORG_ID },
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Njavarakizhi (Njavara Kizhi) in JVC, Dubai | Vedara Care',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#therapy` },
+      mainEntity: { '@id': `${URL}#therapy` },
+      primaryImageOfPage: `${SITE_URL}/images/njavarakizhi-dubai-hero.webp`,
+      datePublished: '2026-05-01',
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
+    },
+    {
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#therapy`,
+      name: 'Njavarakizhi',
+      alternateName: ['Njavara Kizhi', 'Navarakizhi', 'Shashtika Shali Pinda Sweda', 'Rice bolus massage', 'Njavara rice potli massage'],
+      description: 'A classical Kerala Ayurvedic therapy in which warm bundles of Njavara rice cooked in milk and herbs are massaged over the body; nourishing, used for weakness and recovery.',
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      indication: ['Muscle weakness', 'Recovery after illness', 'Age-related muscle loss', 'Joint stiffness', 'Support after stroke', "Bell's palsy support"]
+        .map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['Fever', 'Acute infection', 'Active inflammation', 'Open wounds or skin infection', 'Pregnancy', 'Severe heart conditions without clearance']
+        .map((name) => ({ '@type': 'MedicalContraindication', name })),
+    },
+    {
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Njavarakizhi in JVC, Dubai',
+      serviceType: 'Njavarakizhi',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Njavarakizhi in JVC', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: njavarakizhiFaqs.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
+const PAGE = {
+  url: 'https://vedaracare.ae/treatments/njavarakizhi-dubai/',
+  title: 'Njavarakizhi (Njavara Kizhi) in JVC, Dubai | Vedara Care',   // 56 characters
+  description: 'Njavarakizhi (Njavara Kizhi) in JVC, Dubai, near Circle Mall: warm Kerala rice-bolus therapy for weakness, recovery and stiffness, by a DHA-licensed doctor.',   // 156 characters
+  image: 'https://vedaracare.ae/images/njavarakizhi-dubai-hero.webp',
+  reviewed: '2026-11-10',
+};
+
 const NjavarakizhiDubai = () => {
-  const currentDate = new Date().toISOString();
-  
-  const schemaMarkup = [
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "@id": "https://vedaracare.ae/treatments/njavarakizhi-dubai/#procedure",
-      "name": "Njavarakizhi",
-      "alternateName": ["Navarakizhi", "Shashtika Shali Pinda Sweda", "Rice Bolus Massage", "Ayurvedic Rice Pudding Massage", "Njavara Kizhi"],
-      "description": "Njavarakizhi is a specialised Ayurvedic restorative therapy in which cloth boluses filled with Shashtika Shali (Njavara) rice cooked in herbal medicated milk are used to massage the body in synchronised strokes for 60 to 75 minutes. Performed at Vedara Care Polyclinic in Jumeirah Village Circle, Dubai for muscle wasting, post-illness recovery, neurological rehabilitation, sarcopenia, and rheumatoid conditions.",
-      "url": "https://vedaracare.ae/treatments/njavarakizhi-dubai/",
-      "image": "https://vedaracare.ae/images/njavarakizhi-dubai-hero.webp",
-      "procedureType": "Ayurveda",
-      "bodyLocation": "Whole body",
-      "preparation": "BAMS doctor clinical assessment. Rice and herbal milk preparation begins 90 minutes before patient arrival.",
-      "followup": "10-15 minute recovery period on the droni. Residual rice and milk left on skin for several hours. Avoid showering for 2 hours. Remain in warm environment for the rest of the day.",
-      "indication": [
-        {"@type": "MedicalIndication", "name": "Muscle wasting"},
-        {"@type": "MedicalIndication", "name": "Sarcopenia"},
-        {"@type": "MedicalIndication", "name": "Sciatica"},
-        {"@type": "MedicalIndication", "name": "Post-stroke rehabilitation"},
-        {"@type": "MedicalIndication", "name": "Bell's palsy"},
-        {"@type": "MedicalIndication", "name": "Rheumatoid arthritis"},
-        {"@type": "MedicalIndication", "name": "Pakshaghata"},
-        {"@type": "MedicalIndication", "name": "Postpartum weakness"},
-        {"@type": "MedicalIndication", "name": "Post-immobilisation muscle recovery"}
-      ],
-      "contraindication": [
-        {"@type": "MedicalContraindication", "name": "Pregnancy"},
-        {"@type": "MedicalContraindication", "name": "Acute infections or active inflammation"},
-        {"@type": "MedicalContraindication", "name": "Severe cardiac conditions without clearance"},
-        {"@type": "MedicalContraindication", "name": "Active skin infections"}
-      ],
-      "sameAs": "https://en.wikipedia.org/wiki/Panchakarma",
-      "performer": {"@id": "https://vedaracare.ae/#organization"}
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Shashtika Shali Pinda Sweda"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalTherapy",
-      "name": "Ayurveda",
-      "sameAs": "https://en.wikipedia.org/wiki/Ayurveda"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Substance",
-      "name": "Njavara rice",
-      "alternateName": "Shashtika Shali"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Substance",
-      "name": "Dashamoola"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Substance",
-      "name": "Bala",
-      "alternateName": "Sida cordifolia"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalSubstance",
-      "name": "Mahanarayana Taila"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Book",
-      "name": "Sushruta Samhita"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Book",
-      "name": "Charaka Samhita"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Place",
-      "name": "Kerala"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Sutika Paricharya"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Abhyanga"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Place",
-      "name": "Jumeirah Village Circle"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationalCredential",
-      "name": "BAMS"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Njavarakizhi Programmes at Vedara Care",
-      "provider": {"@id": "https://vedaracare.ae/#organization"},
-      "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
-      ],
-      "serviceType": "Ayurvedic Restorative Therapy",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Njavarakizhi Programmes",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Njavarakizhi Trial Course (7 sessions)",
-            "priceCurrency": "AED",
-            "price": "2950",
-            "description": "Seven-session introductory Njavarakizhi course for first-time patients or mild convalescence"
-          },
-          {
-            "@type": "Offer",
-            "name": "Njavarakizhi Clinical Restorative Course (14 sessions)",
-            "priceCurrency": "AED",
-            "price": "5600",
-            "description": "Fourteen-session clinical course for post-illness recovery, sarcopenia, and rheumatoid conditions"
-          },
-          {
-            "@type": "Offer",
-            "name": "Njavarakizhi Intensive Restorative Programme (21-30 sessions)",
-            "priceCurrency": "AED",
-            "price": "7800",
-            "description": "Intensive programme for post-stroke rehabilitation and severe muscle wasting"
-          },
-          {
-            "@type": "Offer",
-            "name": "Home Njavarakizhi Session (Dubai-wide)",
-            "priceCurrency": "AED",
-            "price": "880",
-            "description": "Home-delivered Njavarakizhi with freshly prepared Njavara rice and two trained therapists"
-          }
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "name": "Njavarakizhi Treatment in Dubai",
-      "url": "https://vedaracare.ae/treatments/njavarakizhi-dubai/",
-      "about": {"@id": "https://vedaracare.ae/treatments/njavarakizhi-dubai/#procedure"},
-      "audience": {"@type": "PatientAudience"},
-      "lastReviewed": currentDate,
-      "reviewedBy": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
-      },
-      "primaryImageOfPage": "https://vedaracare.ae/images/njavarakizhi-dubai-hero.webp"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Njavarakizhi Treatment in Dubai — A Complete Clinical Guide",
-      "image": "https://vedaracare.ae/images/njavarakizhi-dubai-hero.webp",
-      "datePublished": "2026-05-01",
-      "dateModified": currentDate,
-      "author": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic",
-        "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}
-      },
-      "mainEntityOfPage": "https://vedaracare.ae/treatments/njavarakizhi-dubai/"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "@id": "https://vedaracare.ae/#organization",
-      "name": "Vedara Care Polyclinic",
-      "url": "https://vedaracare.ae/",
-      "logo": "https://vedaracare.ae/logo.png"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Ayurvedic Treatment in Dubai", "item": "https://vedaracare.ae/ayurveda-dubai/"},
-        {"@type": "ListItem", "position": 3, "name": "Njavarakizhi in Dubai", "item": "https://vedaracare.ae/treatments/njavarakizhi-dubai/"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": njavarakizhiFaqs.faqs.map((faq) => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
-    }
-  ];
-  
   return (
     <>
       <Head>
-        <title>Njavarakizhi in Dubai | Classical Rice Bolus Therapy | Vedara Care</title>
-        <meta name="description" content="Authentic Njavarakizhi at our DHA-licensed Dubai clinic — classical rice bolus therapy for muscle wasting, post-illness recovery & neurological rehabilitation." />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content="Njavarakizhi in Dubai — Classical Ayurvedic Rice Bolus Therapy" />
-        <meta property="og:description" content="Doctor-prescribed Njavarakizhi at our DHA-licensed JVC clinic. For muscle wasting, post-illness recovery, and neurological rehabilitation. From AED 480." />
-        <meta property="og:image" content="https://vedaracare.ae/images/njavarakizhi-dubai-hero.webp" />
-        <meta property="og:url" content="https://vedaracare.ae/treatments/njavarakizhi-dubai/" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
-        <meta property="article:published_time" content="2026-05-01" />
-        <meta property="article:modified_time" content={currentDate} />
-        <meta property="article:author" content="Dr. Zainab Sheikh" />
-        
-        {/* Twitter */}
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content="2026-05-01T09:00:00+04:00" />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
-        
-        {/* Canonical & Hreflang */}
-        <link rel="canonical" href="https://vedaracare.ae/treatments/njavarakizhi-dubai/" />
-        <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/treatments/njavarakizhi-dubai/" />
-        <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/treatments/njavarakizhi-dubai/" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
 
         {/* Schema Markup */}
-        {schemaMarkup.map((schema, index) => (
-          <script
-            key={index}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
       </Head>
 
-      {/* Section 1 - Hero with Image */}
+      {/* Section 1 - Hero */}
       <AyurvedaHero {...njavarakizhiHero} />
       
       {/* Section 2 - Intro */}
       <AyurvedaIntro {...njavarakizhiIntro} />
       
-      {/* Section 3 - Mechanism with Image */}
+      {/* Section 3 - Mechanism */}
       <TreatmentMechanism {...njavarakizhiMechanism} />
       
-      {/* Section 4 - Protocol with Image (4 phases) */}
+      {/* Section 4 - Protocol */}
       <TreatmentProtocol {...njavarakizhiProtocol} />
       
-      {/* Section 5 - Oils/Kashayams (Clinical Variations) */}
+      {/* Section 5 - Oils/Kashayams */}
       <TreatmentOils {...njavarakizhiOils} />
       
       {/* Section 6 - Applications */}
       <TreatmentApplications {...njavarakizhiApplications} />
       
-      {/* Section 7 - Benefits (PATIENTS WHO BENEFIT MOST) */}
+      {/* Section 7 - Benefits */}
       <TreatmentBenefits {...njavarakizhiBenefits} />
       
       {/* Section 8 - Programmes */}
@@ -313,9 +190,6 @@ const NjavarakizhiDubai = () => {
       
       {/* Doctor Trust Block */}
       <Physician {...ayurvedaPhysician} />
-
-      {/* Section 9 - Home Healthcare */}
-      <TreatmentHomeHealthcare {...njavarakizhiHomeHealthcare} />
       
       {/* Section 10 - Reviews */}
       <TreatmentReviews {...ayurvedaReviewsBlock()} />

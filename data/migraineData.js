@@ -59,7 +59,7 @@ export const migrainePillars = {
     },
     {
       title: "Nasya — The Direct Head Therapy",
-      description: "Medicated oils administered through the nasal passages — considered in classical Ayurvedic texts the most direct route to nourish and treat the structures of the head. For migraine, Nasya is typically prescribed as two 7-day intensive courses during the 6-month programme (typically months 2 and 4). Oils include Anu Taila, Shadbindu Taila, and specific Pitta-pacifying preparations. Patients often describe Nasya as the treatment that most changes the underlying migraine pattern, not just the symptoms."
+      description: "<a href=\"/treatments/nasya-therapy-jvc/\" class=\"text-[#C9A961] hover:underline\">Nasya</a> medicated oils administered through the nasal passages — considered in classical Ayurvedic texts the most direct route to nourish and treat the structures of the head. For migraine, Nasya is typically prescribed as two 7-day intensive courses during the 6-month programme (typically months 2 and 4). Oils include Anu Taila, Shadbindu Taila, and specific Pitta-pacifying preparations. Patients often describe Nasya as the treatment that most changes the underlying migraine pattern, not just the symptoms."
     },
     {
       title: "Internal Medicines for Migraine",

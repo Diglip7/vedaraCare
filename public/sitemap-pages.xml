@@ -66,6 +66,16 @@
 
   <!-- Treatment Pages -->
   <url>
+    <loc>https://vedaracare.ae/treatments/udvartana-jvc/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vedaracare.ae/treatments/basti-jvc/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://vedaracare.ae/treatments/advanced-facial-rejuvenation-jvc/</loc>
     <lastmod>2024-05-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -115,11 +125,6 @@
   </url>
   <url>
     <loc>https://vedaracare.ae/treatments/panchakarma-dubai/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vedaracare.ae/treatments/panchakarma-jvc/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -320,7 +325,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vedaracare.ae/treatments/janu-basti-jvc</loc>
+    <loc>https://vedaracare.ae/treatments/janu-basti-jvc/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

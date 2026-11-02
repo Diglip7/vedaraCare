@@ -1133,7 +1133,7 @@ export const drZainab = {
     {
       title: "Nadi Pareeksha — authentic Ayurvedic pulse assessment",
       description:
-        "Nadi Pareeksha is the traditional Ayurvedic diagnostic method reading pulse characteristics to understand internal balance. Dr. Zainab's expertise provides insights into your current state (Vikriti), individual constitutional patterns (Prakriti), and specific imbalances requiring attention."
+        "<a href="/treatments/nadi-pareeksha-jvc/">Nadi Pareeksha</a> is the traditional Ayurvedic diagnostic method reading pulse characteristics to understand internal balance. Dr. Zainab's expertise provides insights into your current state (Vikriti), individual constitutional patterns (Prakriti), and specific imbalances requiring attention."
     },
     {
       title: "Prakriti assessment — understanding your individual constitution",
@@ -1224,9 +1224,9 @@ export const drZainab = {
     },
     {
       number: '10',
-      title: 'Ayurvedic Rejuvenation (Rasayana)',
+      title: '<a href="/treatments/rasayana-ayurveda-jvc/" class="doctor-specialty-link">Ayurvedic Rejuvenation (Rasayana)</a>',
       description: 'Rejuvenation and wellness therapies supporting vitality, strength, immunity, and long-term wellbeing. Rasayana is classical Ayurvedic category focused on sustained vitality. Particularly relevant for post-illness recovery, aging population wellness, and general maintenance for health-conscious patients seeking long-term partnership.',
-      related: 'Related: Ayurveda Clinic JVC · Wellness Clinic JVC'
+      related: 'Related: <a href="/treatments/rasayana-ayurveda-jvc/">Rasayana Ayurveda JVC</a> · Wellness Clinic JVC'
     },
     {
       number: '11',

@@ -164,7 +164,7 @@ export const detoxProtocolData = {
     {
       phaseName: "Paschatkarma — Restoration Phase",
       duration: "DAYS 22-28+ (EXTENDING POST-PROGRAMME)",
-      description: "Samsarjana krama — graduated dietary re-introduction rebuilding digestive fire. Rasayana — rejuvenating therapies restoring tissues and vitality. Lifestyle guidance for sustained results. Home practices supporting continued wellness. This phase determines whether detox produces sustained results or temporary benefit."
+      description: "Samsarjana krama — graduated dietary re-introduction rebuilding digestive fire. <a href=\"/treatments/rasayana-ayurveda-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Rasayana</a> — rejuvenating therapies restoring tissues and vitality. Lifestyle guidance for sustained results. Home practices supporting continued wellness. This phase determines whether detox produces sustained results or temporary benefit."
     },
     {
       phaseName: "Integration with Dermatology & Physiotherapy",

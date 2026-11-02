@@ -1,229 +1,201 @@
-export const ayurvedicMassageJVCHero = {
+// data/ayurvedicMassageJvcData.js (replace the whole file)
+export const massageHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Ayurveda Clinic in JVC", href: "/ayurveda-clinic-jvc/" },
+    { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
     { label: "Ayurvedic Massage in JVC", active: true }
   ],
-  label: "AYURVEDIC MASSAGE IN JUMEIRAH VILLAGE CIRCLE",
-  title: "Ayurvedic massage in Jumeirah Village Circle",
-  description: "Classical Ayurvedic body therapies — Abhyanga, Shirodhara, Kativasti, Njavarakizhi, and Udvartana — performed by trained therapists and prescribed by BAMS-qualified doctors at our DHA-licensed clinic in Jumeirah Village Circle, Dubai.",
-  primaryCTA: "Book a Consultation",
-  primaryCTAHref: "/book",
+  label: "AYURVEDIC MASSAGE · JVC, DUBAI · DHA FACILITY LICENCE 2509266",
+  title: "Ayurvedic massage in JVC, Dubai — chosen by a doctor, given by a same-gender therapist.",
+  description: "Abhyanga, Shirodhara, Kizhi, Pizhichil, head and foot massage and more: classical Ayurvedic body therapies with medicated oils chosen for you. At Vedara Care near Circle Mall, JVC, every first visit includes a consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda), and a same-gender therapist gives the massage in a private room.",
+  primaryCTA: "Book an Ayurvedic massage",
+  primaryCTAHref: "/book/",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.",
-  trustSignals: [
-    "DHA-Licensed Practitioners",
-    "Trained Kerala-Style Therapists",
-    "Same-Gender Therapists Always",
-    "From AED 250 per session"
-  ],
-  floatingCard: {
-    title: "DOCTOR-PRESCRIBED, NOT WALK-IN.",
-    subtitle: "Every Ayurvedic massage at Vedara Care begins with a consultation. We do not offer walk-in spa services."
-  },
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20book%20an%20Ayurvedic%20massage%20in%20JVC.",
+  trustSignals: ["DHA Facility Licence 2509266", "BAMS, MD (Ayurveda) doctor", "Same-gender therapist, private rooms", "Near Circle Mall, JVC"],
+  floatingCard: { title: "NOT A SPA MASSAGE", subtitle: "Medicated oils and a plan chosen by a doctor, not one oil for everyone." },
   image: "/images/ayurvedic-massage-jvc-hero.webp",
-  alt: "Brass vessel with warm medicated Ayurvedic oil at Vedara Care Ayurvedic massage clinic in JVC Dubai"
+  alt: "Ayurvedic massage with warm medicated oil at Vedara Care, JVC Dubai"
 };
 
-export const ayurvedicMassageJVCIntro = {
+export const massageIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
-  title: "What 'Ayurvedic massage' actually means.",
-  blockquote: "'Ayurvedic massage' is not one treatment — it is a category of doctor-prescribed body therapies from classical Indian medicine, each designed for a specific therapeutic purpose. The most common are Abhyanga (full-body warm oil massage), Shirodhara (continuous oil stream on the forehead), Kativasti (medicated oil pooled over the lower back), Njavarakizhi (massage with herbal rice boluses), and Udvartana (herbal powder massage). At Vedara Care Polyclinic in JVC, all are performed by trained therapists after a BAMS-qualified doctor prescribes the right one for your specific need.",
-  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026"
+  title: "Ayurvedic massage, in one paragraph.",
+  blockquote: "Ayurvedic massage is a group of classical Indian body therapies that use warm medicated oils, herbal powders or herbal bundles chosen for your constitution and condition; the best known is Abhyanga, a full-body warm oil massage. Others include Shirodhara (oil poured on the forehead), Kizhi (warm herbal bundles), Pizhichil (warm oil poured over the body), Kati, Janu and Greeva Vasti (oil held on the back, knee or neck), Udvartana (herbal powder), and Ayurvedic head and foot massage. Unlike a spa massage, it starts with a consultation and follows a plan, and it is used for relaxation, sleep, stiffness, back and neck pain and recovery. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), near Circle Mall, every first visit includes a consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda, DHA-licensed), and a same-gender therapist gives the massage in a private room; prenatal and postnatal massage are also offered. The clinic is open daily 9am to 10pm and is close to JVT, Al Barsha South and Arjan.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, BAMS, MD (Ayurveda), DHA licence 20918133. Reviewed November 2026."
 };
 
-export const ayurvedicMassageJVCTherapies = {
-  bgColor: "bg-white",
-  label: "NOT SURE WHICH ONE?",
-  title: "Five classical Ayurvedic massages, each for a specific need.",
-  description: "A practical guide to choosing. At consultation, your doctor will confirm or recommend a different one.",
-  items: [
-    {
-      title: "Abhyanga",
-      description: "Full-body warm medicated oil massage performed by two therapists in synchronized strokes.",
-      duration: "Duration: 60-90 min",
-      bestFor: "Stress, circulation, joint stiffness",
-      image: "abhyanga-massage-jvc-dubai.webp",
-      alt: "Abhyanga massage icon",
-      link: "/treatments/abhyanga-dubai/"
-    },
-    {
-      title: "Shirodhara",
-      description: "Continuous gentle stream of warm medicated oil poured over the forehead.",
-      duration: "Duration: 45-60 min",
-      bestFor: "Anxiety, insomnia, migraine",
-      image: "shirodhara-treatment-jvc.webp",
-      alt: "Shirodhara treatment icon",
-      link: "/treatments/shirodhara-dubai/"
-    },
-    {
-      title: "Kativasti",
-      description: "Warm medicated oil held over the lower back using a custom dough reservoir.",
-      duration: "Duration: 45 min",
-      bestFor: "Chronic lower back pain, sciatica",
-      image: "kativasti-back-pain-jvc.webp",
-      alt: "Kativasti treatment icon",
-      link: "/treatments/kativasti-dubai/"
-    },
-    {
-      title: "Njavarakizhi",
-      description: "Massage using medicated rice boluses cooked in herbal milk and decoctions.",
-      duration: "Duration: 60-75 min",
-      bestFor: "Muscle strengthening, neurological recovery",
-      image: "njavarakizhi-treatment-vedara-jvc.webp",
-      alt: "Njavarakizhi treatment icon",
-      link: "/treatments/njavarakizhi-dubai/"
-    },
-    {
-      title: "Udvartana",
-      description: "Vigorous herbal powder massage that supports metabolism and lymphatic drainage.",
-      duration: "Duration: 45-60 min",
-      bestFor: "Weight management, lymphatic stagnation",
-      image: "udvartana-dubai.webp",
-      alt: "Udvartana treatment icon",
-      link: "/treatments/udvartana-dubai/"
-    }
-  ]
-};
-
-export const ayurvedicMassageJVCReviews = {
-  bgColor: "bg-[#F0E9DD]",
-  cardBgColor: "bg-white",
-  label: "PATIENT STORIES",
-  title: "Ayurvedic massage outcomes at Vedara Care.",
-  description: "",
-  buttonText: "Read All Reviews",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
-  items: [
-    {
-      quote: "Three sessions of Kativasti did more for my back than a year of physiotherapy.",
-      content: "",
-      author: "Aisha K.",
-      details: "Kativasti for lower back pain · JVT · March 2026",
-      alt: "Verified patient outcome from Ayurvedic massage at Vedara Care JVC Dubai"
-    }
+export const massageTypes = {                                // rendered with TreatmentOils
+  label: "TYPES OF AYURVEDIC MASSAGE",
+  title: "Which Ayurvedic massage is right for you?",
+  description: "A guide to the main types. At your consultation, Dr. Zainab confirms the right one or suggests another.",
+  oils: [
+    { name: "<a href='/treatments/abhyanga-dubai/'>Abhyanga</a>", description: "Full-body warm oil massage", content: "The classic Ayurvedic massage with medicated oil chosen for you.", indication: "stress, sleep, stiffness, general well-being" },
+    { name: "Shiro Abhyanga", description: "Head, neck and shoulder massage", content: "Warm oil massaged into the scalp, neck and shoulders.", indication: "tension headaches, stress, dry scalp" },
+    { name: "Padabhyanga", description: "Foot massage", content: "Warm oil massage of the feet and lower legs.", indication: "tired feet, poor sleep, relaxation" },
+    { name: "<a href='/treatments/shirodhara-dubai/'>Shirodhara</a>", description: "Oil stream on the forehead", content: "A steady stream of warm oil over the forehead.", indication: "anxiety, insomnia, migraine" },
+    { name: "<a href='/treatments/patra-pinda-sweda-jvc/'>Kizhi (potli massage)</a>", description: "Warm herbal bundles", content: "Elakizhi, Podikizhi and other bundles pressed over stiff areas.", indication: "joint and muscle stiffness, back and neck pain" },
+    { name: "<a href='/treatments/njavarakizhi-dubai/'>Njavarakizhi</a>", description: "Medicated rice bundles", content: "Rice cooked in milk and herbs; nourishing.", indication: "weakness, recovery, older age" },
+    { name: "<a href='/treatments/pizhichil-jvc/'>Pizhichil</a>", description: "Oil poured over the body", content: "Warm oil poured in a stream while it is massaged in.", indication: "stiffness, recovery, deep relaxation" },
+    { name: "<a href='/treatments/kativasti-dubai/'>Kati</a>, <a href='/treatments/janu-basti-jvc/'>Janu</a> and Greeva Vasti", description: "Oil held on one area", content: "Warm oil held on the lower back, knee or neck inside a dough ring.", indication: "back pain, knee pain, neck stiffness" },
+    { name: "<a href='/treatments/udvartana-jvc/'>Udvartana</a>", description: "Herbal powder massage", content: "Firm upward strokes with warm herbal powder.", indication: "heaviness, weight-management support" },
+    { name: "Prenatal and <a href='/conditions/postnatal-ayurveda-dubai/'>postnatal</a> massage", description: "For mothers", content: "Gentle oils and positions; prenatal from the second trimester after the doctor's assessment.", indication: "pregnancy aches, recovery after birth" }
   ],
-  stats: [
-    { value: "4.7", label: "stars on Google" },
-    { value: "78", label: "reviews mentioning Ayurvedic massage" },
-    { value: "97%", label: "would recommend" }
-  ]
+  footer: "Every massage is given by one same-gender therapist in a private room."
 };
 
-export const ayurvedicMassageJVCFaqs = {
-  bgColor: "bg-white",
+export const massageVsSpa = {                                // rendered with ClinicalBoundaries
+  label: "AYURVEDIC MASSAGE VS SPA MASSAGE",
+  title: "What makes a clinic Ayurvedic massage different.",
+  leftCard: {
+    label: "A TYPICAL SPA MASSAGE",
+    title: "Usually:",
+    useWarningIcon: false,
+    items: ["No health assessment before the massage", "The same oil for everyone", "Chosen from a menu", "Aimed at relaxation only"]
+  },
+  rightCard: {
+    label: "AYURVEDIC MASSAGE AT VEDARA CARE",
+    title: "At our JVC clinic:",
+    items: [
+      { text: "A consultation with a DHA-licensed doctor on your first visit", icon: "check" },
+      { text: "Medicated oils chosen for your constitution and condition", icon: "check" },
+      { text: "A plan with a goal, and follow-up", icon: "check" },
+      { text: "One same-gender therapist, private room", icon: "check" }
+    ]
+  },
+  footer: "Both can be relaxing; the difference is the assessment and the plan."
+};
+
+export const massageBenefits = {                             // rendered with TreatmentBenefits
+  label: "BENEFITS",
+  title: "What people use Ayurvedic massage for.",
+  benefitGroups: [
+    { title: "Relaxation and sleep", description: "Deep calm and better sleep, especially with Abhyanga, Shirodhara and head massage.", benefits: ["Stress and burnout", "Poor sleep", "Tension headaches"] },
+    { title: "Pain and stiffness", description: "Warmth and oils for muscles and joints, often with physiotherapy.", benefits: ["Lower back and neck pain", "Knee and joint stiffness", "Desk-work tension"] },
+    { title: "Recovery", description: "Nourishing therapies to rebuild strength.", benefits: ["After illness", "Older age", "After childbirth"] }
+  ],
+  footer: "Results build over a course and differ from person to person."
+};
+
+export const massageProtocol = {                             // rendered with TreatmentProtocol
+  label: "YOUR FIRST VISIT",
+  title: "How your first Ayurvedic massage works.",
+  description: "Your first visit includes a consultation so the massage suits you.",
+  phases: [
+    { time: "Step 1", title: "Consultation", content: "Dr. Zainab checks your health, medicines and goals, and chooses the massage and oil." },
+    { time: "Step 2", title: "The massage", content: "A same-gender therapist gives the massage in a private room, checking pressure and warmth with you." },
+    { time: "Step 3", title: "Rest and advice", content: "Time to rest, then simple advice for the rest of the day (warm shower later, light food, no cold drinks)." },
+    { time: "Next visits", title: "Your plan", content: "If a course is recommended, the length is set by your needs." }
+  ],
+  footer: ""
+};
+
+export const massageSafety = {                               // rendered with ClinicalBoundaries
+  label: "SAFETY",
+  title: "When a massage is postponed.",
+  leftCard: {
+    label: "TELL US FIRST",
+    title: "The doctor will postpone or change the massage if you have:",
+    useWarningIcon: true,
+    items: ["Fever or an acute illness", "Broken skin, a rash or skin infection", "A recent injury with swelling, or a suspected blood clot", "First trimester of pregnancy", "Uncontrolled blood pressure or a heart condition", "Just eaten a heavy meal"]
+  },
+  rightCard: {
+    label: "POSSIBLE SIDE EFFECTS",
+    title: "Usually mild:",
+    items: [
+      { text: "Feeling sleepy or slow afterwards", icon: "check" },
+      { text: "Oily skin and hair until you shower", icon: "check" },
+      { text: "Rarely, skin irritation from an oil (tell the therapist)", icon: "check" }
+    ]
+  },
+  footer: "Tell us about allergies and all medicines you take."
+};
+
+export const massageFaqs = {
+  bgColor: "bg-[#F9F6F1]",
   label: "AYURVEDIC MASSAGE QUESTIONS",
-  title: "What patients ask before booking.",
-  description: "Honest answers from our clinical team. For the deep version on any specific massage, follow the treatment-page link.",
-  buttonText: "Ask the Team",
-  buttonHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20ask%20a%20question%20about%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  sidebarLinks: [
+    { text: "Abhyanga", href: "/treatments/abhyanga-dubai/" },
+    { text: "Shirodhara", href: "/treatments/shirodhara-dubai/" },
+    { text: "Ayurveda clinic in JVC", href: "/ayurveda-clinic-jvc/" }
+  ],
+  title: "Ayurvedic massage: your questions answered.",
+  description: "Answers reviewed by Dr. Zainab Sheikh. For other therapies, see our <a href=\"/ayurveda-dubai/\">guide to Ayurvedic treatment in Dubai</a>.",
+  buttonText: "Ask the team on WhatsApp",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Ayurvedic%20massage.",
   faqs: [
-    {
-      question: "What is the most common type of Ayurvedic massage at your JVC clinic?",
-      answer: "Abhyanga is the most-prescribed Ayurvedic massage at our JVC clinic — a 60 to 90-minute full-body warm medicated oil massage performed by two trained therapists in synchronized strokes. It is the foundation of most Ayurvedic protocols."
-    },
-    {
-      question: "Do I need a doctor consultation before booking an Ayurvedic massage?",
-      answer: "Yes. We do not offer walk-in massages. Every treatment at Vedara Care is prescribed by a BAMS-qualified doctor after a consultation to ensure the therapy and the specific oils used are safe and appropriate for your constitution and health condition."
-    },
-    {
-      question: "How long does an Ayurvedic massage session take?",
-      answer: "Depending on the therapy, sessions range from 45 minutes (Kativasti) to 90 minutes (Abhyanga). We recommend allowing an extra 30 minutes for preparation and post-treatment rest."
-    },
-    {
-      question: "How many Ayurvedic massage sessions do I need to see results?",
-      answer: "While many patients feel immediate relaxation after one session, therapeutic results for chronic conditions typically require a course of 7 to 14 sessions."
-    },
-    {
-      question: "How much does Ayurvedic massage cost at your JVC clinic?",
-      answer: "Single sessions start from AED 250. We offer discounted packages for doctor-prescribed treatment courses. Full pricing is shared after your initial consultation."
-    },
-    {
-      question: "Are the oils used safe and authentic?",
-      answer: "Yes. We use only classical Ayurvedic oils sourced from reputable pharmacies in Kerala. Each oil is selected by your doctor based on your specific needs."
-    },
-    {
-      question: "Will I be treated by a male or female therapist?",
-      answer: "We guarantee same-gender therapists for all body treatments. Female patients are treated by female therapists, and male patients by male therapists."
-    },
-    {
-      question: "Can pregnant women have Ayurvedic massage?",
-      answer: "We offer specialized prenatal and postnatal Ayurvedic massages. However, certain classical therapies are contraindicated during pregnancy. A doctor consultation is mandatory to determine safety."
-    },
-    {
-      question: "Where exactly is your Ayurvedic massage clinic in JVC?",
-      answer: "We are located in Building 23, District 12, Jumeirah Village Circle, right next to Circle Mall."
-    },
-    {
-      question: "Does insurance cover Ayurvedic massage in Dubai?",
-      answer: "Coverage depends on your specific insurance plan. Some premium plans cover doctor-prescribed Ayurvedic treatments. We can help you verify your coverage."
-    },
-    {
-      question: "Do you offer Ayurvedic massage at home?",
-      answer: "Yes, we offer home healthcare services for selected Ayurvedic therapies across many Dubai neighborhoods."
-    },
-    {
-      question: "How do I book an Ayurvedic massage at your JVC clinic?",
-      answer: "You can book by tapping the 'Book a Consultation' button, via <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20book%20a%20consultation%20for%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp</a>, or by calling <a href=\"tel:+971 55 573 6312\" class=\"hover:underline\">our clinic directly</a>."
-    }
+    { question: "What is Ayurvedic massage?",
+      answer: "Ayurvedic massage is a group of classical Indian body therapies using warm medicated oils, herbal powders or herbal bundles, chosen for your constitution and condition. The best known is Abhyanga, a full-body warm oil massage; others include Shirodhara, Kizhi, Pizhichil and Udvartana." },
+    { question: "Where can I get an Ayurvedic massage in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall, open daily 9am to 10pm. Every massage is prescribed by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor. It is close to JVT, Al Barsha South and Arjan." },
+    { question: "What are the types of Ayurvedic massage?",
+      answer: "Abhyanga (full body), Shiro Abhyanga (head), Padabhyanga (foot), Shirodhara (oil stream on the forehead), Kizhi (warm herbal bundles), Pizhichil (warm oil poured over the body), Kati, Janu and Greeva Vasti (oil held on the back, knee or neck) and Udvartana (herbal powder). The doctor chooses which suits you." },
+    { question: "How is Ayurvedic massage different from a spa massage?",
+      answer: "An Ayurvedic massage at a clinic starts with a doctor's consultation, uses medicated oils chosen for you, and follows a plan with a goal and follow-up. A spa massage is mainly for relaxation, with the same oil for everyone." },
+    { question: "Do I need a consultation before an Ayurvedic massage?",
+      answer: "Yes. Your first visit includes a consultation with the doctor, so the massage, oil and pressure suit your health. It also checks for anything that makes a massage unsafe." },
+    { question: "What are the benefits of Ayurvedic massage?",
+      answer: "People use it to relax deeply, sleep better, ease muscle and joint stiffness and back or neck tension, and recover after illness. Results build over a course; the doctor sets realistic goals at consultation." },
+    { question: "Which Ayurvedic massage is best for back pain?",
+      answer: "Usually Kati Vasti for the lower back, often with Elakizhi or Abhyanga and physiotherapy. The doctor confirms after checking the cause." },
+    { question: "Which is best for stress and sleep?",
+      answer: "Shirodhara and Abhyanga are the most used, sometimes with a head massage (Shiro Abhyanga)." },
+    { question: "Do you offer head and foot massage?",
+      answer: "Yes. Shiro Abhyanga (Ayurvedic head massage) and Padabhyanga (Ayurvedic foot massage) are available, on their own or with other therapies." },
+    { question: "Can I have an Ayurvedic massage during pregnancy?",
+      answer: "Yes, prenatal Ayurvedic massage is offered from the second trimester after the doctor's assessment, with gentle oils and positions. Postnatal massage is also available as part of postnatal care." },
+    { question: "Will a male or female therapist treat me?",
+      answer: "A same-gender therapist: men are treated by a male therapist and women by a female therapist, in a private room." },
+    { question: "Do you offer Ayurvedic massage at home?",
+      answer: "No. All massages are given at our JVC clinic." },
+    { question: "How much does an Ayurvedic massage cost in Dubai?",
+      answer: "Across Dubai, an Ayurvedic massage session commonly costs around AED 250 to 700, depending on the clinic, the type and session length. Vedara Care shares exact prices on WhatsApp." },
+    { question: "Is Ayurvedic massage covered by insurance?",
+      answer: "Usually not when it is for relaxation. Vedara Care does not bill insurers directly; where a massage is part of treatment for a medical condition, we provide the invoice and report for a reimbursement claim." },
+    { question: "How do I book?",
+      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number." }
   ]
 };
 
-export const ayurvedicMassageJVCLocation = {
-  bgColor: "bg-[#F0E9DD]",
-  label: "VISIT US IN JVC",
-  title: "Our Ayurvedic massage clinic in Jumeirah Village Circle.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
+export const massageLocation = {
+  bgColor: "bg-[#F5F1E8]",
+  label: "VISIT US",
+  title: "Ayurvedic massage in JVC, near Circle Mall.",
+  address: "Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai",
   phone: "+971 55 573 6312",
-  whatsapp: "+971 55 573 6312",
-  hours: "Mon-Sun - 9:00 AM - 10:00 PM",
-  landmarks: [
-    "Next to Circle Mall (2 min walk)",
-    "3 minutes from FIVE Jumeirah Village",
-    "5 minutes from JSS Private School",
-    "Serves JVC, JVT, Al Barsha South, Sports City, Motor City"
-  ],
-  description: "All Ayurvedic massage sessions are in private treatment rooms with traditional Kerala-style wooden droni tables. Same-gender therapists guaranteed.",
-  buttonText: "Book a Consultation",
-  buttonHref: "/book",
-  mapAlt: "Vedara Care Ayurvedic massage clinic in Jumeirah Village Circle near Circle Mall",
-  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
+  whatsapp: "971555736312",
+  whatsappMessage: "Hello Vedara Care, I would like to book an Ayurvedic massage at your JVC clinic.",
+  email: "booking@vedaracare.ae",
+  hours: "Monday - Sunday - 9:00AM to 10:00PM",
+  landmarks: ["Near Circle Mall", "Close to JSS Private School", "Free and paid parking available"],
+  description: "Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City.",
+  distances: [],
+  buttonText: "Book an Ayurvedic massage",
+  buttonHref: "/book/"
 };
 
-export const ayurvedicMassageJVCCTA = {
-  bgColor: "bg-white",
-  label: "READY TO START?",
-  title: "Begin with a consultation. The right massage will follow.",
-  description: "We do not take direct massage bookings without a consultation first — because the wrong Ayurvedic massage is at best ineffective and at worst counterproductive. A 45-60 minute consultation costs AED 250 and ensures you get the right protocol from the first session.",
-  button1Text: "Book a Consultation",
-  button1Href: "/book",
+export const massageFinalCTA = {
+  bgColor: "bg-[#FAF8F5]",
+  label: "READY?",
+  title: "Book your first Ayurvedic massage in JVC.",
+  description: "Your first visit includes a consultation, so the massage and oil are right for you.",
+  button1Text: "Book an Ayurvedic massage",
+  button1Href: "/book/",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20massage%20at%20your%20JVC%20clinic%20in%20Dubai.",
-  subtext: "First consultation from AED 250 · Free patient parking · Walking distance from Circle Mall"
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20book%20an%20Ayurvedic%20massage.",
+  bullets: ["Prices shared on WhatsApp", "Same-gender therapist", "Free and paid parking", "Near Circle Mall, JVC"]
 };
 
-export const ayurvedicMassageJVCRelatedPages = {
-  bgColor: "bg-[#FAF6EF]",
-  label: "EXPLORE MORE",
+export const massageRelatedPages = {
+  label: "EXPLORE FURTHER",
   title: "Related pages.",
-  linkText: "Browse all Ayurvedic treatments →",
-  columns: 3,
+  linkText: "See all Ayurvedic treatments",
+  linkHref: "/ayurveda-dubai/",
   pages: [
-    {
-      title: "Our Ayurveda Clinic in JVC →",
-      description: "The full picture: consultations, treatments, doctors, and conditions we treat at our JVC Ayurveda clinic.",
-      href: "/ayurveda-clinic-jvc/"
-    },
-    {
-      title: "Panchakarma in JVC →",
-      description: "For deeper therapeutic protocols — 7, 14, or 21-day classical Panchakarma programmes combining multiple massages with internal medicines.",
-      href: "/treatments/panchakarma-jvc/"
-    },
-    {
-      title: "Meet Your Ayurvedic Doctor →",
-      description: "Dr. Zainab — BAMS, MD (Ayurveda), DHA-licensed. View credentials and book a consultation directly.",
-      href: "/doctors/dr-zainab-ayurveda/"
-    }
+    { title: "Abhyanga", description: "The full-body warm oil massage.", href: "/treatments/abhyanga-dubai/" },
+    { title: "Shirodhara", description: "Warm oil stream for stress and sleep.", href: "/treatments/shirodhara-dubai/" },
+    { title: "Kizhi (potli massage)", description: "Herbal bundles for stiff joints.", href: "/treatments/patra-pinda-sweda-jvc/" },
+    { title: "Postnatal Ayurveda", description: "Massage and care after childbirth.", href: "/conditions/postnatal-ayurveda-dubai/" }
   ]
 };

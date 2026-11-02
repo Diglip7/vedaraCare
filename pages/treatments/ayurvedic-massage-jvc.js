@@ -1,263 +1,176 @@
 import Head from 'next/head';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
-import { AyurvedaVsSpa, MassagesTable, PricingSection } from '../../components/ayurveda/MassageSpecificSections';
+import TreatmentOils from '../../components/ayurveda/TreatmentOils';
+import ClinicalBoundaries from '../../components/ayurveda/ClinicalBoundaries';
+import TreatmentBenefits from '../../components/ayurveda/TreatmentBenefits';
+import TreatmentProtocol from '../../components/ayurveda/TreatmentProtocol';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import FAQ from '../../components/home/FAQ';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
-import CTA from '../../components/home/CTA';
+import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
-
 import {
-  ayurvedicMassageJVCHero,
-  ayurvedicMassageJVCIntro,
-  ayurvedicMassageJVCReviews,
-  ayurvedicMassageJVCFaqs,
-  ayurvedicMassageJVCLocation,
-  ayurvedicMassageJVCCTA,
-  ayurvedicMassageJVCRelatedPages
+  massageHero,
+  massageIntro,
+  massageTypes,
+  massageVsSpa,
+  massageBenefits,
+  massageProtocol,
+  massageSafety,
+  massageFaqs,
+  massageLocation,
+  massageFinalCTA,
+  massageRelatedPages
 } from '../../data/ayurvedicMassageJvcData';
 
-const AyurvedicMassageJVC = () => {
-  const schemaMarkup = [
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "@id": "https://vedaracare.ae/treatments/ayurvedic-massage-jvc/#procedure",
-      "name": "Ayurvedic Massage",
-      "alternateName": ["Classical Ayurvedic Body Therapy", "Kerala-Style Ayurvedic Massage"],
-      "description": "Classical Ayurvedic body therapies including Abhyanga, Shirodhara, Kativasti, Njavarakizhi, and Udvartana, performed by trained therapists and prescribed by BAMS-qualified doctors at Vedara Care Polyclinic, Jumeirah Village Circle, Dubai.",
-      "url": "https://vedaracare.ae/treatments/ayurvedic-massage-jvc/",
-      "image": "https://vedaracare.ae/images/ayurvedic-massage-jvc-hero.jpg",
-      "procedureType": "Ayurveda",
-      "bodyLocation": "Whole body",
-      "preparation": "BAMS doctor consultation including dosha assessment and clinical history.",
-      "followup": "Recommended rest period, hydration guidance, and possible follow-up sessions.",
-      "indication": [
-        {"@type": "MedicalIndication", "name": "Chronic stress and burnout"},
-        {"@type": "MedicalIndication", "name": "Insomnia"},
-        {"@type": "MedicalIndication", "name": "Chronic back pain"},
-        {"@type": "MedicalIndication", "name": "Migraine and chronic headache"},
-        {"@type": "MedicalIndication", "name": "Joint stiffness"},
-        {"@type": "MedicalIndication", "name": "Weight management"},
-        {"@type": "MedicalIndication", "name": "General dosha imbalance"}
-      ],
-      "sameAs": "https://en.wikipedia.org/wiki/Ayurveda",
-      "performer": {"@id": "https://vedaracare.ae/treatments/ayurvedic-massage-jvc/#clinic"}
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "name": "Classical Ayurvedic Massages Offered in JVC",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Abhyanga",
-          "url": "https://vedaracare.ae/treatments/abhyanga-dubai/",
-          "description": "Full-body warm medicated oil massage"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Shirodhara",
-          "url": "https://vedaracare.ae/treatments/shirodhara-dubai/",
-          "description": "Continuous warm oil stream on the forehead"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Kativasti",
-          "url": "https://vedaracare.ae/treatments/kativasti-dubai/",
-          "description": "Localized lower back oil therapy"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Njavarakizhi",
-          "url": "https://vedaracare.ae/treatments/njavarakizhi-dubai/",
-          "description": "Massage with herbal rice boluses"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Udvartana",
-          "url": "https://vedaracare.ae/treatments/udvartana-dubai/",
-          "description": "Dry herbal powder massage for metabolism"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": ["MedicalClinic", "LocalBusiness"],
-      "@id": "https://vedaracare.ae/treatments/ayurvedic-massage-jvc/#clinic",
-      "name": "Vedara Care Polyclinic — Ayurvedic Massage in JVC",
-      "url": "https://vedaracare.ae/treatments/ayurvedic-massage-jvc/",
-      "image": "https://vedaracare.ae/images/ayurvedic-massage-jvc-hero.jpg",
-      "telephone": "+971555736312",
-      "priceRange": "AED",
-      "medicalSpecialty": "Ayurveda",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Building 23, District 12",
-        "addressLocality": "Jumeirah Village Circle",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "25.0",
-        "longitude": "55.2"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-          "opens": "09:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "10:00",
-          "closes": "19:00"
-        }
-      ],
-      "areaServed": [
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Ayurvedic Massage at Vedara Care JVC",
-      "provider": {"@id": "https://vedaracare.ae/#organization"},
-      "areaServed": {"@type": "Place", "name": "Jumeirah Village Circle, Dubai"},
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Ayurvedic Massage Treatments",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Abhyanga",
-            "priceCurrency": "AED",
-            "price": "350",
-            "url": "https://vedaracare.ae/treatments/abhyanga-dubai/"
-          },
-          {
-            "@type": "Offer",
-            "name": "Shirodhara",
-            "priceCurrency": "AED",
-            "price": "450",
-            "url": "https://vedaracare.ae/treatments/shirodhara-dubai/"
-          },
-          {
-            "@type": "Offer",
-            "name": "Kativasti",
-            "priceCurrency": "AED",
-            "price": "380",
-            "url": "https://vedaracare.ae/treatments/kativasti-dubai/"
-          },
-          {
-            "@type": "Offer",
-            "name": "Njavarakizhi",
-            "priceCurrency": "AED",
-            "price": "480",
-            "url": "https://vedaracare.ae/treatments/njavarakizhi-dubai/"
-          },
-          {
-            "@type": "Offer",
-            "name": "Udvartana",
-            "priceCurrency": "AED",
-            "price": "420",
-            "url": "https://vedaracare.ae/treatments/udvartana-dubai/"
-          }
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Ayurveda Clinic in JVC", "item": "https://vedaracare.ae/ayurveda-clinic-jvc/"},
-        {"@type": "ListItem", "position": 3, "name": "Ayurvedic Massage in JVC", "item": "https://vedaracare.ae/treatments/ayurvedic-massage-jvc/"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": ayurvedicMassageJVCFaqs.faqs.map(faq => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
-    }
-  ];
+const FAQS = massageFaqs;
 
+const SITE_URL = SITE.url;
+const URL = `${SITE_URL}/treatments/ayurvedic-massage-jvc/`;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = '2026-11-10';
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      email: 'booking@vedaracare.ae',
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
+    },
+    {
+      '@type': 'Physician',
+      '@id': ZAINAB_ID,
+      name: 'Dr. Zainab Sheikh',
+      url: `${SITE_URL}/doctors/dr-zainab-ayurveda/`,
+      medicalSpecialty: 'Ayurveda',
+      knowsLanguage: ['en', 'ml', 'hi'],
+      worksFor: { '@id': ORG_ID },
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Ayurvedic Massage in JVC, Dubai | Doctor-Prescribed | Vedara',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#therapy` },
+      mainEntity: { '@id': `${URL}#therapy` },
+      audience: { '@type': 'PatientAudience' },
+      primaryImageOfPage: `${SITE_URL}/images/ayurvedic-massage-jvc-hero.webp`,
+      datePublished: REVIEWED,
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
+    },
+    {
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#therapy`,
+      name: 'Ayurvedic massage',
+      alternateName: ['Ayurveda massage', 'Kerala-style Ayurvedic massage', 'Abhyanga', 'Shiro Abhyanga', 'Padabhyanga', 'Ayurvedic oil massage'],
+      description: "Classical Ayurvedic body therapies using warm medicated oils, herbal powders or herbal bundles chosen for the person's constitution and condition, prescribed after a consultation.",
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      indication: ['Stress', 'Poor sleep', 'Muscle and joint stiffness', 'Back and neck pain', 'Recovery after illness', 'Pregnancy and postnatal care'].map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['Fever', 'Broken skin or skin infection', 'Acute injury', 'Suspected blood clot', 'First trimester of pregnancy', 'Uncontrolled heart conditions'].map((name) => ({ '@type': 'MedicalContraindication', name })),
+      adverseOutcome: ['Drowsiness', 'Skin irritation'].map((name) => ({ '@type': 'MedicalEntity', name })),
+    },
+    {
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Ayurvedic massage in JVC, Dubai',
+      serviceType: 'Ayurvedic massage',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Ayurvedic massage in JVC', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: FAQS.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
+const PAGE = {
+  url: 'https://vedaracare.ae/treatments/ayurvedic-massage-jvc/',
+  title: 'Ayurvedic Massage in JVC, Dubai | Doctor-Prescribed | Vedara',   // 60 characters
+  description: 'Ayurvedic massage in JVC, Dubai, near Circle Mall: Abhyanga, Shirodhara, Kizhi, Pizhichil, head and foot massage, prescribed by a DHA-licensed doctor.',   // 150 characters
+  image: 'https://vedaracare.ae/images/ayurvedic-massage-jvc-hero.webp',
+  reviewed: '2026-11-10',
+};
+
+const AyurvedicMassageJVC = () => {
   return (
     <>
       <Head>
-        <title>Ayurvedic Massage in JVC, Dubai | Vedara Care</title>
-        <meta name="description" content="Abhyanga and therapeutic Ayurvedic massage at Vedara Care Polyclinic, Binghatti Azure, JVC. Open daily 9am–10pm." />
-         <meta name="robots" content="index, follow, max-image-preview:large" />
-        {/* Open Graph / Facebook */}
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vedaracare.ae/treatments/ayurvedic-massage-jvc/" />
-        <meta property="og:title" content="Ayurvedic Massage in JVC, Dubai | Vedara Care" />
-        <meta property="og:description" content="Abhyanga and therapeutic Ayurvedic massage at Vedara Care Polyclinic, Binghatti Azure, JVC. Open daily 9am–10pm." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/ayurvedic-massage-jvc.jpg" />
         <meta property="og:locale" content="en_AE" />
-
-        {/* Twitter */}
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://vedaracare.ae/treatments/ayurvedic-massage-jvc/" />
-        <meta name="twitter:title" content="Ayurvedic Massage in JVC, Dubai | Vedara Care" />
-        <meta name="twitter:description" content="Abhyanga and therapeutic Ayurvedic massage at Vedara Care Polyclinic, Binghatti Azure, JVC. Open daily 9am–10pm." />
-        <meta name="twitter:image" content="https://vedaracare.ae/og-images/ayurvedic-massage-jvc.jpg" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
 
-        {/* Canonical & Language Tags */}
-        <link rel="canonical" href="https://vedaracare.ae/treatments/ayurvedic-massage-jvc/" />
-        <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/treatments/ayurvedic-massage-jvc/" />
-        <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/treatments/ayurvedic-massage-jvc/" />
-
+        {/* Schema Markup */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       </Head>
 
-      <main>
-        <AyurvedaHero {...ayurvedicMassageJVCHero} />
-        <AyurvedaIntro {...ayurvedicMassageJVCIntro} />
-        
-        <MassagesTable />
-        <AyurvedaVsSpa />
-        
-        <TreatmentReviews {...ayurvedaReviewsBlock()} />
-
-        <PricingSection />
-
-        <FAQ {...ayurvedicMassageJVCFaqs} />
-
-        <TreatmentLocation {...ayurvedicMassageJVCLocation} />
-
-        <CTA 
-          {...ayurvedicMassageJVCCTA}
-          button1Class="bg-[#184C3A] text-white hover:bg-[#123a2c]"
-          button2Class="bg-white border-2 border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white"
-        />
-
-        <RelatedPages {...ayurvedicMassageJVCRelatedPages} />
-      </main>
+      {/* Render order: */}
+      <AyurvedaHero {...massageHero} />
+      <AyurvedaIntro {...massageIntro} />
+      <TreatmentOils {...massageTypes} />
+      <ClinicalBoundaries {...massageVsSpa} />
+      <TreatmentBenefits {...massageBenefits} />
+      <TreatmentProtocol {...massageProtocol} />
+      <ClinicalBoundaries {...massageSafety} />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
+      <FAQ {...massageFaqs} />
+      <TreatmentLocation {...massageLocation} />
+      <FinalCTA {...massageFinalCTA} />
+      <RelatedPages {...massageRelatedPages} />
     </>
   );
 };

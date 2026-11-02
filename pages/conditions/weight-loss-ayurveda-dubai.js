@@ -163,7 +163,7 @@ const WeightLossAyurvedaDubai = () => {
                   {"@type": "MedicalSymptom", "name": "Postprandial energy crashes"}
                 ],
                 "possibleTreatment": [
-                  {"@type": "MedicalProcedure", "name": "Virechana-led Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-jvc/"},
+                  {"@type": "MedicalProcedure", "name": "Virechana-led Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
                   {"@type": "MedicalTherapy", "name": "Guduchi-Methika-Karela combination"}
                 ]
               },

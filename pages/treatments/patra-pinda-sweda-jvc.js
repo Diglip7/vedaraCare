@@ -10,9 +10,12 @@ import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import MedicalDisclaimer from '../../components/ayurveda/MedicalDisclaimer';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
+import TreatmentOils from '../../components/ayurveda/TreatmentOils';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import {
   patraPindaSwedaHero,
   patraPindaSwedaIntro,
+  kizhiTypes,
   patraPindaSwedaExplanation,
   patraPindaSwedaBolusHow,
   patraPindaSwedaBolusInside,
@@ -26,170 +29,146 @@ import {
   patraPindaSwedaPanchakarma,
   patraPindaSwedaDosha,
   patraPindaSwedaCost,
-  patraPindaSwedaWhyJvcList,
   patraPindaSwedaWhyVedara,
   patraPindaSwedaRelatedConditions,
   // beforeBookingItems,
   patraPindaSwedaFAQ,
-  patraPindaSwedaLocation,
-  patraPindaSwedaWhyJvc,
   patraPindaSwedaCTA,
   patraPindaSwedaRelatedPages,
 } from "../../data/patraPindaSwedaData";
 
-const PatraPindaSwedaJVC = () => {
-  const currentUrl = "https://vedaracare.ae/treatments/patra-pinda-sweda-jvc/";
-  const publishedDate = "2026-08-13T08:00:00+04:00";
-  const modifiedDate = new Date().toISOString();
+const SITE_URL = SITE.url;
+const URL = `${SITE_URL}/treatments/patra-pinda-sweda-jvc/`;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = '2026-11-10';
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
 
-  const schemas = [
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
     {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "name": "Patra Pinda Sweda Therapy in JVC",
-      "url": currentUrl,
-      "description": "Patra Pinda Sweda Therapy in JVC at Vedara Care Polyclinic — a traditional Ayurvedic fomentation therapy using warm herbal boluses, offered as part of an individualized Ayurvedic consultation in Jumeirah Village Circle, Dubai.",
-      "medicalAudience": {
-        "@type": "MedicalAudience",
-        "audienceType": "Patient"
-      },
-      "about": {
-        "@type": "MedicalTherapy",
-        "name": "Patra Pinda Sweda",
-        "alternateName": ["Patra Pinda Swedana", "Ela Kizhi", "Patra Potli Sweda"],
-        "description": "A traditional Ayurvedic fomentation therapy in which warm herbal boluses, prepared from selected leaves and herbs, are applied to the body to create a controlled warming effect."
-      },
-      "provider": {
-        "@type": "MedicalClinic",
-        "name": "Vedara Care Polyclinic",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4",
-          "addressLocality": "Jumeirah Village Circle (JVC)",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        },
-        "url": "https://vedaracare.ae"
-      }
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      email: 'booking@vedaracare.ae',
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
     },
     {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Patra Pinda Sweda Therapy",
-      "name": "Patra Pinda Sweda Therapy in JVC",
-      "provider": {
-        "@type": "MedicalClinic",
-        "name": "Vedara Care Polyclinic",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4",
-          "addressLocality": "Jumeirah Village Circle (JVC)",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        }
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Jumeirah Village Circle, Dubai"
-      },
-      "url": currentUrl
+      '@type': 'Physician',
+      '@id': ZAINAB_ID,
+      name: 'Dr. Zainab Sheikh',
+      url: `${SITE_URL}/doctors/dr-zainab-ayurveda/`,
+      medicalSpecialty: 'Ayurveda',
+      knowsLanguage: ['en', 'ml', 'hi'],
+      worksFor: { '@id': ORG_ID },
     },
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://vedaracare.ae/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Treatments",
-          "item": "https://vedaracare.ae/treatments/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Patra Pinda Sweda Therapy in JVC",
-          "item": currentUrl
-        }
-      ]
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Kizhi & Patra Pinda Sweda (Elakizhi) in JVC, Dubai | Vedara',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#therapy` },
+      mainEntity: { '@id': `${URL}#therapy` },
+      audience: { '@type': 'PatientAudience' },
+      primaryImageOfPage: `${SITE_URL}/images/patra-pinda-sweda-herbal-bolus-therapy-jvc.webp`,
+      datePublished: '2026-08-13',
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
     },
     {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": patraPindaSwedaFAQ.faqs.map(faq => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#therapy`,
+      name: 'Kizhi (Pinda Sweda)',
+      alternateName: ['Patra Pinda Sweda', 'Elakizhi', 'Ela Kizhi', 'Patra Potli Sweda', 'Potli massage', 'Herbal bolus therapy',
+        'Podikizhi', 'Dhanyamla Kizhi', 'Jambeera Kizhi', 'Manal Kizhi'],
+      description: 'A classical Ayurvedic heat therapy in which warm cloth bundles of herbs, leaves, powders or rice are pressed rhythmically over the body, mainly for muscle and joint stiffness and pain.',
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      indication: ['Muscle stiffness', 'Joint stiffness', 'Back pain', 'Neck stiffness', 'Frozen shoulder', 'Osteoarthritis-related stiffness']
+        .map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['Fever', 'Active infection', 'Open wounds or skin infection', 'Acute injury', 'Severe inflammatory flare',
+        'Reduced sensation to heat', 'Certain cardiovascular conditions', 'Pregnancy without medical advice']
+        .map((name) => ({ '@type': 'MedicalContraindication', name })),
+      adverseOutcome: ['Burns if overheated', 'Skin irritation', 'Dizziness'].map((name) => ({ '@type': 'MedicalEntity', name })),
     },
     {
-      "@context": "https://schema.org",
-      "@type": "MedicalClinic",
-      "name": "Vedara Care Polyclinic",
-      "url": "https://vedaracare.ae",
-      "telephone": "+971555736312",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Al Barsha South Fourth, Binghatti Azure, Shop -4",
-        "addressLocality": "Jumeirah Village Circle (JVC), Dubai",
-        "addressCountry": "AE"
-      }
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Kizhi and Patra Pinda Sweda in JVC, Dubai',
+      serviceType: 'Kizhi',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/` },
     },
     {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Patra Pinda Sweda Therapy in JVC",
-      "alternateName": ["Patra Pinda Sweda", "Patra Pinda Swedana", "Ela Kizhi", "Patra Potli Sweda"],
-      "url": currentUrl,
-      "description": "Patra Pinda Sweda Therapy in JVC at Vedara Care Polyclinic is a traditional Ayurvedic herbal bolus fomentation therapy in which warm cloth bundles filled with selected leaves and herbs are gently applied to the body.",
-      "procedureType": "Ayurveda",
-      "bodyLocation": ["Muscles", "Joints", "Back", "Shoulder", "Neck", "Knee"],
-      "provider": {
-        "@type": "MedicalClinic",
-        "name": "Vedara Care Polyclinic",
-        "url": "https://vedaracare.ae"
-      }
-    }
-  ];
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Kizhi (Patra Pinda Sweda) in JVC', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: patraPindaSwedaFAQ.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
+const PAGE = {
+  url: 'https://vedaracare.ae/treatments/patra-pinda-sweda-jvc/',
+  title: 'Kizhi & Patra Pinda Sweda (Elakizhi) in JVC, Dubai | Vedara',   // 59 characters
+  description: 'Kizhi (potli massage) in JVC, Dubai, near Circle Mall: Elakizhi (Patra Pinda Sweda), Podikizhi and more, prescribed by a DHA-licensed Ayurvedic doctor.',   // 151 characters
+  image: 'https://vedaracare.ae/images/patra-pinda-sweda-herbal-bolus-therapy-jvc.webp',
+  published: '2026-08-13T08:00:00+04:00',
+  reviewed: '2026-11-10',   // the day Dr. Zainab signs off this version; fixed reviewed date
+};
+
+const PatraPindaSwedaJVC = () => {
 
   return (
     <>
       <Head>
-        <title>Patra Pinda Sweda Therapy in JVC | Vedara Care</title>
-        <meta name="description" content="Patra Pinda Sweda Therapy in JVC at Vedara Care — traditional Ayurvedic herbal bolus therapy for stiffness and pain. Book a personalized consultation in JVC." />
-        <link rel="canonical" href={currentUrl} />
-        <link rel="alternate" hrefLang="en-AE" href={currentUrl} />
-        <link rel="alternate" hrefLang="x-default" href={currentUrl} />
-        <meta property="og:title" content="Patra Pinda Sweda Therapy in JVC | Vedara Care" />
-        <meta property="og:description" content="Patra Pinda Sweda Therapy in JVC at Vedara Care — traditional Ayurvedic herbal bolus therapy for stiffness and pain. Book a personalized consultation in JVC." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/patra-pinda-sweda-jvc-dubai.jpg" />
-        <meta property="og:url" content={currentUrl} />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
-        <meta property="article:published_time" content={publishedDate} />
-        <meta property="article:modified_time" content={modifiedDate} />
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content={PAGE.published} />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Patra Pinda Sweda Therapy in JVC | Vedara Care" />
-        <meta name="twitter:description" content="Patra Pinda Sweda Therapy in JVC at Vedara Care — traditional Ayurvedic herbal bolus therapy for stiffness and pain. Book a personalized consultation in JVC." />
-        <meta name="twitter:image" content="https://vedaracare.ae/og-images/patra-pinda-sweda-jvc-dubai.jpg" />
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <meta name="googlebot" content="index, follow, max-image-preview:large" />
-        <meta name="bingbot" content="index, follow" />
-        {schemas.map((schema, index) => (
-          <script
-            key={index}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
       </Head>
 
       {/* Hero Section */}
@@ -197,6 +176,9 @@ const PatraPindaSwedaJVC = () => {
 
       {/* Quick Answer Section */}
       <AyurvedaIntro {...patraPindaSwedaIntro} />
+
+      {/* Types of Kizhi Section */}
+      <TreatmentOils {...kizhiTypes} />
 
       {/* Section 1: What Is Patra Pinda Sweda */}
       <ContentWithSidebar
@@ -212,7 +194,7 @@ const PatraPindaSwedaJVC = () => {
           height: "h-[450px]",
           borderPosition: "right"
         }}
-        footer={patraPindaSwedaExplanation.caption}
+        footer={patraPindaSwedaExplanation.sources || patraPindaSwedaExplanation.caption}
       />
 
       {/* Section 2: How Does the Herbal Bolus Work? */}
@@ -330,9 +312,11 @@ const PatraPindaSwedaJVC = () => {
               <div key={idx} className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
                 <h3 className="text-xl font-serif mb-4 text-[rgb(26,26,26)]">{c.name}</h3>
                 {c.paragraphs.map((p, pi) => (
-                  <p key={pi} className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-3 last:mb-0">
-                    {p}
-                  </p>
+                  <p
+                    key={pi}
+                    className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-3 last:mb-0"
+                    dangerouslySetInnerHTML={{ __html: p }}
+                  />
                 ))}
               </div>
             ))}
@@ -441,7 +425,7 @@ const PatraPindaSwedaJVC = () => {
             <ul className="space-y-3 mb-6">
               {patraPindaSwedaExperience.recovery.points.map((pt, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white" style={{ backgroundColor: '#C9A55A' }}>”·</span>
+                  <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white" style={{ backgroundColor: '#C9A55A' }}>•</span>
                   <span className="text-sm text-[rgb(107,107,107)] leading-relaxed">{pt}</span>
                 </li>
               ))}
@@ -587,9 +571,11 @@ const PatraPindaSwedaJVC = () => {
               {patraPindaSwedaPanchakarma.title}
             </h2>
             {patraPindaSwedaPanchakarma.paragraphs.map((p, i) => (
-              <p key={i} className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0">
-                {p}
-              </p>
+              <p
+                key={i}
+                className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0"
+                dangerouslySetInnerHTML={{ __html: p }}
+              />
             ))}
           </div>
 
@@ -601,9 +587,11 @@ const PatraPindaSwedaJVC = () => {
               {patraPindaSwedaDosha.title}
             </h2>
             {patraPindaSwedaDosha.paragraphs.map((p, i) => (
-              <p key={i} className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0">
-                {p}
-              </p>
+              <p
+                key={i}
+                className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-4 last:mb-0"
+                dangerouslySetInnerHTML={{ __html: p }}
+              />
             ))}
           </div>
         </div>
@@ -636,54 +624,31 @@ const PatraPindaSwedaJVC = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Why Choose Patra Pinda Sweda in JVC? */}
-            <div className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
-              <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-                {patraPindaSwedaWhyJvcList.label}
-              </p>
-              <h3 className="text-2xl font-serif mb-5 text-[rgb(26,26,26)]">
-                {patraPindaSwedaWhyJvcList.title}
-              </h3>
-              <p className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-6">
-                {patraPindaSwedaWhyJvcList.description}
-              </p>
-              <ul className="space-y-3 mb-6">
-                {patraPindaSwedaWhyJvcList.points.map((pt, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white" style={{ backgroundColor: '#C9A55A' }}>✓</span>
-                    <span className="text-sm text-[rgb(107,107,107)] leading-relaxed">{pt}</span>
-                  </li>
-                ))}
-              </ul>
-              <p className="text-xs italic text-[rgb(107,107,107)] leading-relaxed">
-                {patraPindaSwedaWhyJvcList.footer}
-              </p>
-            </div>
-
-            {/* Why Choose Vedara Care Polyclinic? */}
-            <div className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
-              <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
-                {patraPindaSwedaWhyVedara.label}
-              </p>
-              <h3 className="text-2xl font-serif mb-5 text-[rgb(26,26,26)]">
-                {patraPindaSwedaWhyVedara.title}
-              </h3>
+          <div className="rounded-2xl p-8 bg-white border border-[#E5DFD3]">
+            <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">
+              {patraPindaSwedaWhyVedara.label}
+            </p>
+            <h3 className="text-2xl font-serif mb-5 text-[rgb(26,26,26)]">
+              {patraPindaSwedaWhyVedara.title}
+            </h3>
+            {patraPindaSwedaWhyVedara.description && (
               <p className="text-sm text-[rgb(107,107,107)] leading-relaxed mb-6 whitespace-pre-line">
                 {patraPindaSwedaWhyVedara.description}
               </p>
-              <ul className="space-y-3 mb-6">
-                {patraPindaSwedaWhyVedara.points.map((pt, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white" style={{ backgroundColor: '#C9A55A' }}>✓</span>
-                    <span className="text-sm text-[rgb(107,107,107)] leading-relaxed">{pt}</span>
-                  </li>
-                ))}
-              </ul>
+            )}
+            <ul className="space-y-3 mb-6">
+              {patraPindaSwedaWhyVedara.points.map((pt, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full mt-0.5 flex-shrink-0 flex items-center justify-center text-xs text-white" style={{ backgroundColor: '#C9A55A' }}>✓</span>
+                  <span className="text-sm text-[rgb(107,107,107)] leading-relaxed">{pt}</span>
+                </li>
+              ))}
+            </ul>
+            {patraPindaSwedaWhyVedara.footer && (
               <p className="text-xs italic text-[rgb(107,107,107)] leading-relaxed">
                 {patraPindaSwedaWhyVedara.footer}
               </p>
-            </div>
+            )}
           </div>
         </div>
       </div>
@@ -720,17 +685,17 @@ const PatraPindaSwedaJVC = () => {
 
         <FAQ
         bgColor="bg-white"
-        label="FAQ"
-        title="Frequently Asked Questions About Patra Pinda Sweda"
-        description="Answers to common questions about Patra Pinda Sweda, suitability, herbal bolus formulation, protocol, aftercare, recovery and cost in JVC, Dubai."
+        label={patraPindaSwedaFAQ.label}
+        title={patraPindaSwedaFAQ.title}
+        description="Answers reviewed by Dr. Zainab Sheikh."
         faqs={patraPindaSwedaFAQ.faqs}
-        buttonText="Book Consultation"
-        buttonHref="/book"
+        buttonText="Book a consultation"
+        buttonHref="/book/"
         sidebarLinks={[
-          { text: "Ayurveda Clinic in JVC", href: "/ayurveda-clinic-jvc" },
-          { text: "Abhyanga in Dubai", href: "/treatments/abhyanga-dubai" },
-          { text: "Janu Basti Treatment in JVC", href: "/treatments/janu-basti-jvc" },
-          { text: "Physiotherapy in JVC", href: "/physiotherapy-jvc" }
+          { text: "Njavarakizhi", href: "/treatments/njavarakizhi-dubai/" },
+          { text: "Abhyanga", href: "/treatments/abhyanga-dubai/" },
+          { text: "Ayurveda clinic in JVC", href: "/ayurveda-clinic-jvc/" },
+          { text: "Physiotherapy in JVC", href: "/physiotherapy-jvc/" }
         ]}
       />
 
@@ -749,51 +714,30 @@ const PatraPindaSwedaJVC = () => {
               Stiffness and pain can have many different underlying causes, and Patra Pinda Sweda Therapy in JVC is only one possible part of a broader, individualized Ayurvedic care plan. Because the right treatment depends heavily on what's actually causing your symptoms, we'd encourage a proper Ayurvedic consultation before assuming this particular therapy is the right fit.
             </p>
             <p>
-              If your concern is specifically knee-related, our <Link href="/treatments/janu-basti-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Janu Basti Treatment in JVC</Link> page covers a different, knee-specific Ayurvedic therapy. For head, sinus, or neck-related concerns, our <Link href="/treatments/nasya-therapy-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Nasya Therapy in JVC</Link> page may be more directly relevant. If you're interested in broader Ayurvedic oil massage, our <Link href="/treatments/abhyanga-dubai" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Abhyanga in JVC</Link> page explains that therapy in more detail, and our <Link href="/treatments/panchakarma-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Panchakarma in JVC</Link> page covers the wider classical Ayurvedic framework that Patra Pinda Sweda can sometimes form part of.
+              If your concern is specifically knee-related, our <Link href="/treatments/janu-basti-jvc/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Janu Basti Treatment in JVC</Link> page covers a different, knee-specific Ayurvedic therapy. For head, sinus, or neck-related concerns, our <Link href="/treatments/nasya-therapy-jvc/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Nasya Therapy in JVC</Link> page may be more directly relevant. If you're interested in broader Ayurvedic oil massage, our <Link href="/treatments/abhyanga-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Abhyanga in JVC</Link> page explains that therapy in more detail, and our <Link href="/treatments/panchakarma-dubai/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Panchakarma</Link> page covers the wider classical Ayurvedic framework that Patra Pinda Sweda can sometimes form part of.
             </p>
             <p>
-              For musculoskeletal concerns with a stronger functional or rehabilitation component — such as building strength or restoring movement after injury — our <Link href="/physiotherapy-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Physiotherapy in JVC</Link> service may be a more directly relevant starting point, either instead of or alongside Ayurvedic therapy. You can also explore our full range of services on our <Link href="/ayurveda-clinic-jvc" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Ayurveda Treatment in JVC</Link> page.
+              For musculoskeletal concerns with a stronger functional or rehabilitation component — such as building strength or restoring movement after injury — our <Link href="/physiotherapy-jvc/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Physiotherapy in JVC</Link> service may be a more directly relevant starting point, either instead of or alongside Ayurvedic therapy. You can also explore our full range of services on our <Link href="/ayurveda-clinic-jvc/" className="text-[rgb(160,113,63)] underline font-medium hover:opacity-80 font-semibold">Ayurveda Treatment in JVC</Link> page.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Location Sections */}
-      <section className="bg-white py-16 md:py-20 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">OUR LOCATION</p>
-          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">{patraPindaSwedaLocation.title}</h2>
-          <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">{patraPindaSwedaLocation.address}</p>
-          <p className="text-sm italic text-[rgb(107,107,107)]">{patraPindaSwedaLocation.caption}</p>
-        </div>
-      </section>
-
-      <section className="bg-[#F5F0E8] py-16 md:py-20 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xs tracking-[0.2em] text-[rgb(160,113,63)] font-semibold mb-4 uppercase">LOCAL ACCESSIBILITY</p>
-          <h2 className="text-3xl md:text-4xl font-serif mb-6 text-[rgb(26,26,26)]">{patraPindaSwedaWhyJvc.title}</h2>
-          <p className="text-base text-[rgb(107,107,107)] leading-relaxed mb-4">{patraPindaSwedaWhyJvc.description}</p>
-          <p className="text-sm italic text-[rgb(107,107,107)]">{patraPindaSwedaWhyJvc.caption}</p>
-        </div>
-      </section>
-
       <TreatmentLocation
         bgColor="bg-[#FAF7F2]"
-        label="GET IN TOUCH"
-        title="Book a Patra Pinda Sweda Therapy Consultation at Vedara Care Polyclinic"
-        address="For patients across JVC and wider Dubai researching traditional Ayurvedic herbal fomentation options, Patra Pinda Sweda (Ela Kizhi / Patra Potli Sweda) is one part of the broader approach available at Vedara Care Polyclinic. Whether your interest is stiffness, localized discomfort, frozen shoulder, back or neck-related concerns, or general musculoskeletal tension, the starting point is the same: a proper assessment to confirm whether this therapy is the right fit for your specific case, delivered locally in JVC without needing to travel elsewhere in Dubai."
+        label="VISIT US"
+        title="Kizhi in JVC, near Circle Mall."
+        address="Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai"
         phone="+971555736312"
-        email="info@vedaracare.ae"
+        email="booking@vedaracare.ae"
         whatsapp="+971555736312"
-        whatsappMessage="Hello Vedara Care, I would like to inquire about Patra Pinda Sweda Therapy at your JVC clinic in Dubai."
-        hours={[
-          { day: "Monday - Sunday", time: "9:00 AM – 10:00 PM" },
-        ]}
-        landmarks={[
-          "Binghatti Azure building, Al Barsha South Fourth",
-          "Near JVC Circle roundabout, accessible from Hessa Street and Al Khail Road"
-        ]}
-        buttonText="Book a Consultation"
+        whatsappMessage="Hello Vedara Care, I would like to ask about kizhi (Patra Pinda Sweda) at your JVC clinic."
+        hours={[{ day: "Monday - Sunday", time: "9:00 AM - 10:00 PM" }]}
+        landmarks={["Near Circle Mall", "Close to JSS Private School", "Free and paid parking available"]}
+        description="Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City."
+        distances={[]}
+        buttonText="Book a kizhi consultation"
+        buttonHref="/book/"
       />
 
       <MedicalDisclaimer text={patraPindaSwedaCTA.disclaimer} />

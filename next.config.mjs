@@ -25,7 +25,13 @@ const nextConfig = {
       // www -> non-www (skip if done at host level)
       { source: '/:path*', has: [{ type: 'host', value: 'www.vedaracare.ae' }], destination: 'https://vedaracare.ae/:path*', permanent: true },
 
+      // typo redirects
+      { source: '/treatments/janu-basti-jvs', destination: '/treatments/janu-basti-jvc/', permanent: true },
+      { source: '/treatments/janu-basti-jvs/', destination: '/treatments/janu-basti-jvc/', permanent: true },
+
       // duplicate pages -> one page per topic
+      { source: '/treatments/nasya-basti-udvartana-jvc', destination: '/treatments/basti-jvc/', permanent: true },
+      { source: '/treatments/nasya-basti-udvartana-jvc/', destination: '/treatments/basti-jvc/', permanent: true },
       { source: '/treatments/panchakarma-jvc', destination: '/treatments/panchakarma-dubai/', permanent: true },
       { source: '/treatments/panchakarma-jvc/', destination: '/treatments/panchakarma-dubai/', permanent: true },
       { source: '/conditions/back-pain-ayurveda-jvc', destination: '/conditions/back-pain-ayurveda-dubai/', permanent: true },

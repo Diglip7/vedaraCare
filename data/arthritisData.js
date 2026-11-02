@@ -72,7 +72,7 @@ export const arthritisTypesData = {
       title: "Frozen Shoulder (Adhesive Capsulitis)",
       sanskritName: "Apabahuka in classical Sanskrit",
       description: "Distinct condition not strictly arthritis but commonly grouped with arthritis presentations. Progressive shoulder stiffness and pain with limited range of motion. Typically affects 40-60 age group, particularly diabetics. Self-limiting over 12-24 months without treatment but profoundly disabling during active phase. Ayurvedic treatment significantly shortens recovery timeline and reduces pain.",
-      emphasis: "Specific shoulder protocols including Patra Pinda Sweda, Nasya, internal medicines for Vata pacification, integrated physiotherapy is essential"
+      emphasis: "Specific shoulder protocols including <a href=\"/treatments/patra-pinda-sweda-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Patra Pinda Sweda</a>, Nasya, internal medicines for Vata pacification, integrated physiotherapy is essential"
     },
     {
       title: "Cervical and Lumbar Spondylosis",
@@ -124,7 +124,7 @@ export const arthritisPillars = {
   pillars: [
     {
       title: "Localised Joint Therapies",
-      description: "The most clinically distinctive Ayurvedic intervention for arthritis. Specific localised therapies depending on affected joint — Janu Vasti (warm medicated oil reservoir over the knee) for knee arthritis, Greeva Vasti for cervical spondylosis, <a href=\"/treatments/kativasti-dubai/\" class=\"text-[#C9A961] hover:underline\">Kati Vasti</a> for lumbar spondylosis, specific protocols for shoulders, Pizhichil for whole-body arthritis presentations. These therapies deliver medicated oils directly to the affected joint tissue with sustained warmth — typically 30-45 minutes per session, courses of 7-14 sessions."
+      description: "The most clinically distinctive Ayurvedic intervention for arthritis. Specific localised therapies depending on affected joint — <a href=\"/treatments/janu-basti-jvc/\" class=\"text-[#C9A961] hover:underline\">Janu Vasti</a> (warm medicated oil reservoir over the knee) for knee arthritis, Greeva Vasti for cervical spondylosis, <a href=\"/treatments/kativasti-dubai/\" class=\"text-[#C9A961] hover:underline\">Kati Vasti</a> for lumbar spondylosis, specific protocols for shoulders, Pizhichil for whole-body arthritis presentations. These therapies deliver medicated oils directly to the affected joint tissue with sustained warmth — typically 30-45 minutes per session, courses of 7-14 sessions."
     },
     {
       title: "Panchakarma Cleansing",

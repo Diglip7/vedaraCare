@@ -16,7 +16,7 @@ const AyurvedaHero = ({
   alt = "Ayurvedic Treatment",
   primaryCTA = "",
   secondaryCTA = "",
-  primaryCTAHref = "/book",
+  primaryCTAHref = "/book/",
   secondaryCTAHref = "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20your%20treatments%20and%20book%20a%20consultation.%20Please%20assist%20me.",
   trustSignals = [],
   floatingCard = {},

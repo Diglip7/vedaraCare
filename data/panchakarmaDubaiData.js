@@ -1,36 +1,36 @@
 export const panchakarmaDubaiHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai" },
-    { label: "Panchakarma Treatment in Dubai", active: true }
+    { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
+    { label: "Panchakarma in Dubai", active: true }
   ],
-  label: "PANCHAKARMA TREATMENT IN DUBAI · DHA-LICENSED 2509266",
-  title: "Classical\nPanchakarma in\nDubai, the way it\nwas meant to be\npractised.",
-  description: "Authentic 7-day, 14-day, and 21-day Panchakarma programmes at our <a href=\"/ayurveda-clinic-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Jumeirah Village Circle clinic</a>, doctor-supervised by BAMS-qualified physicians. The five-action classical detoxification — properly assessed, properly executed, properly followed up.",
-  primaryCTA: "Book a Panchakarma Consultation",
-  primaryCTAHref: "/book",
+  label: "PANCHAKARMA TREATMENT IN DUBAI · JVC · DHA FACILITY LICENCE 2509266",
+  title: "Panchakarma treatment in Dubai — classical 7, 14 and 21-day plans at our JVC clinic.",
+  description: "Authentic Panchakarma with all five classical actions, planned and supervised by Dr. Zainab Sheikh (BAMS, MD Ayurveda) at our DHA-licensed clinic near Circle Mall, JVC. Every plan starts with a consultation and includes preparation, main therapy and recovery.",
+  primaryCTA: "Book a Panchakarma consultation",
+  primaryCTAHref: "/book/",
   secondaryCTA: "Chat on WhatsApp",
   secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Panchakarma%20treatment%20at%20your%20JVC%20clinic.",
   trustSignals: [
-    "DHA-Licensed Practitioners",
-    "Programmes from 7 to 21 days",
-    "Authentic Kerala Protocol",
-    "From AED 8,500"
+    "DHA Facility Licence 2509266",
+    "BAMS, MD (Ayurveda) doctor",
+    "All five classical actions",
+    "Same-gender therapists"
   ],
   floatingCard: {
-    title: "DOCTOR-SUPERVISED THROUGHOUT",
-    subtitle: "Daily consultations included in every Panchakarma programme."
+    title: "DOCTOR-LED THROUGHOUT",
+    subtitle: "Your plan is set at consultation and reviewed by the doctor as you go."
   },
   image: "/images/panchakarma-dubai-hero.webp",
-  alt: "Wooden Panchakarma droni with brass medicated oil vessels at Vedara Care Ayurveda clinic, JVC Dubai"
+  alt: "Wooden Panchakarma droni with medicated oil vessels at Vedara Care, JVC Dubai"
 };
 
 export const panchakarmaDubaiIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
   title: "Panchakarma in Dubai, in one paragraph.",
-  blockquote: "Panchakarma is the classical five-action Ayurvedic detoxification programme, supervised by a BAMS-qualified physician over 7, 14, or 21 days. It includes preparation (oleation and sudation), main therapies (Virechana, Basti, Nasya — and Vamana or Raktamokshana when indicated), and a structured recovery phase. At Vedara Care Polyclinic in <a href=\"/ayurveda-clinic-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Jumeirah Village Circle</a>, Dubai, authentic Panchakarma programmes start from AED 8,500 and address <a href=\"/conditions/back-pain-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">chronic back pain</a>, <a href=\"/conditions/pcos-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">PCOS</a>, <a href=\"/conditions/migraine-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">migraine</a>, stress, weight management, and full constitutional reset.",
-  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026"
+  blockquote: "Panchakarma is Ayurveda's classical five-action cleansing programme: Vamana (therapeutic vomiting), Virechana (purgation), Basti (medicated enema), Nasya (nasal therapy) and Raktamokshana (bloodletting, including leech therapy). It runs over 7, 14 or 21 days in three phases — preparation with oiling and steam, the main actions chosen by the doctor, and a structured recovery with a graduated diet — and most people need two or three of the five actions, not all. It is used mainly for long-standing conditions such as chronic back pain, PCOS, stress and burnout, migraine, digestive problems and some skin conditions. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), near Circle Mall, Panchakarma starts with a 45 to 60-minute consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda, DHA-licensed), and every plan includes the therapies, oils and medicines used, the diet plan and follow-up. The clinic is open daily 9am to 10pm and is close to JVT, Al Barsha South, Arjan, Sports City and Motor City.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, BAMS, MD (Ayurveda), DHA licence 20918133. Reviewed November 2026."
 };
 
 export const panchakarmaDubaiFoundation = {
@@ -40,9 +40,11 @@ export const panchakarmaDubaiFoundation = {
   content: [
     "The word Panchakarma means \"five actions\" — referring to the five classical therapies described in Ayurvedic texts over 2,000 years ago: Vamana, Virechana, Basti, Nasya, and Raktamokshana. Together, they remove deep-seated toxins (ama) and rebalance the three <a href=\"/ayurveda-dubai/#what-is-ayurveda\" class=\"text-[#C9A961] hover:underline transition-colors\">doshas</a> (Vata, Pitta, Kapha).",
     "Panchakarma is not a wellness retreat, not a juice cleanse, and not a massage package. It is a medical protocol — prescribed by a doctor after assessment, executed by trained therapists, monitored daily, and followed by a structured recovery period that often matters more than the treatment itself.",
-    "Done properly, Panchakarma takes a minimum of 7 days for a basic reset and 21 days for full classical treatment. Done in a single day, or \"added to\" a spa weekend, it is not Panchakarma."
+    "Done properly, Panchakarma takes a minimum of 7 days for a basic reset and 21 days for full classical treatment. Done in a single day, or \"added to\" a spa weekend, it is not Panchakarma.",
+    "What does the research say? Studies of Panchakarma are few and small. In one observational study of 20 women on a 5-day programme, quality of life did not change significantly, but healthy habits improved and, three months later, so did reported social support and mood. We present Panchakarma as a structured, doctor-led programme with realistic expectations, not a guaranteed cure."
   ],
   quote: "Panchakarma is medicine, not maintenance. The body needs preparation, treatment, and recovery — in that order.",
+  sources: "Source: <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2699273/' target='_blank' rel='noopener'>Conboy et al., Ayurveda and Panchakarma: measuring the effects of a holistic health intervention (PMC)</a>",
   image: "/images/panchakarma-droni-treatment-room-jvc.webp",
   alt: "Wooden Panchakarma droni treatment room at Vedara Care Ayurveda clinic in JVC Dubai"
 };
@@ -50,20 +52,21 @@ export const panchakarmaDubaiFoundation = {
 export const panchakarmaDubaiPhysician = {
   label: "YOUR PANCHAKARMA PHYSICIAN",
   name: "Dr. Zainab Sheikh",
-  qualification: "BAMS · DHA Licensed",
-  description: "Dr. Zainab is a DHA-licensed <a href=\"/doctors/\" class=\"text-[#C9A961] hover:underline transition-colors\">Ayurvedic physician</a> who has personally supervised numerous Panchakarma programmes. Her specialisation is in tailoring classical Panchakarma protocols to modern lifestyle conditions: chronic pain, hormonal disorders, and metabolic syndrome in particular.",
+  qualification: "BAMS, MD (Ayurveda) · DHA licence 20918133",
+  description: "Dr. Zainab Sheikh is a DHA-licensed Ayurvedic doctor with a BAMS and an MD in Ayurveda. She plans and supervises Panchakarma at Vedara Care, tailoring the classical protocol to modern conditions such as chronic pain, hormonal problems and metabolic health.",
   image: "https://vedaracare.ae/images/dr-zainab-ayurveda-jvc.webp",
-  alt: "Dr. Zainab Sheikh, BAMS-qualified Panchakarma specialist and DHA-licensed Ayurvedic physician at Vedara Care JVC Dubai",
+  alt: "Dr. Zainab Sheikh, BAMS, MD (Ayurveda), Panchakarma doctor at Vedara Care, JVC Dubai",
   stats: [
-    { value: "DHA Licensed", label: "Panchakarma Physician" },
-    { value: "14+", label: "Years of practice" },
-    { value: "DHA 2509266", label: "Licensed" }
+    { value: "BAMS, MD", label: "Ayurveda" },
+    { value: "4.5 years", label: "In clinical practice" },
+    { value: "DHA 20918133", label: "Professional licence" }
   ],
-  languages: "Languages: English · Hindi · Malayalam · Arabic (basic)",
+  languages: "Languages: English · Malayalam · Hindi",
   button1Text: "Book with Dr. Zainab",
-  button1Href: "/book",
+  button1Href: "/book/",
   button2Text: "View Full Profile",
-  profileLink: "/doctors/dr-zainab-ayurveda"
+  button2Href: "/doctors/dr-zainab-ayurveda/",
+  profileLink: "/doctors/dr-zainab-ayurveda/"
 };
 
 export const panchakarmaDubaiApplications = {
@@ -99,17 +102,16 @@ export const panchakarmaDubaiApplications = {
     bgColor: "bg-[#F0E9DD]",
     borderColor: "border-[#E5DFD3]",
     labelColor: "text-[#C9A961]",
-    titleClass: "text-[24px] font-serif font-medium",
-    description: "Real Ayurvedic doctors say no when Panchakarma is not indicated. We will tell you when modern medicine is the right first step, or when a lighter Ayurvedic protocol is more appropriate.",
     items: [
-      "Acute infections requiring antibiotics",
-      "Pregnancy and immediate postnatal (different protocols apply)",
-      "Severe heart conditions",
-      "Active cancer treatment (we may support recovery — never replace oncology)",
-      "Acute mental health crises",
-      "Young children (paediatric Ayurveda follows different protocols)"
+      "Pregnancy (specialised Ayurvedic prenatal care instead)",
+      "Active acute infection or fever",
+      "Severe cardiac conditions or uncontrolled hypertension",
+      "Active cancer or patients undergoing chemotherapy",
+      "Acute injury or surgical recovery (initial phase)",
+      "Severe emaciation or extreme debility",
+      "Young children. Teenagers (12+) and older patients may have a modified protocol after assessment"
     ],
-    footer: "Roughly 15% of patients who come to us asking for Panchakarma do not actually need it. Honest assessment matters more than booking the package."
+    footer: "Some people who ask for Panchakarma do not need it. The <a href="/treatments/nadi-pareeksha-jvc/" class="text-[#C9A961] hover:underline">consultation</a> decides; a lighter Ayurvedic plan is often enough."
   }
 };
 
@@ -148,10 +150,10 @@ export const panchakarmaDubaiProtocol = {
       title: "Paschatkarma",
       items: [
         "Recovery",
-        "The phase most clinics skip — and why most Panchakarma elsewhere fails. After main therapies, the body is depleted and sensitive. A structured 7-14 day recovery period rebuilds digestive fire, gradually re-introduces foods, and locks in the benefits.",
-        "Duration: 7-14 days, partly at home",
+        "After the main therapies the body is sensitive. A structured recovery rebuilds digestion, re-introduces food step by step and protects the benefit. Part of this phase continues at home with the diet and routine your doctor gives you.",
+        "Duration: set by your plan, partly at home",
         "Samsarjana Krama (graduated diet protocol)",
-        "Herbal rejuvenation medicines",
+        "Herbal rejuvenation medicines (<a href=\"/treatments/rasayana-ayurveda-jvc/\" class=\"text-[#A0713F] underline hover:text-[#80582F] transition-colors\">Rasayana</a>)",
         "Lifestyle and dietary guidance",
         "Follow-up visits on Day 7 and Day 14"
       ]
@@ -168,7 +170,7 @@ export const panchakarmaDubaiActions = {
   items: [
     {
       id: "01",
-      label: "Vamana (à¤µà¤®à¤¨ — Therapeutic Emesis)",
+      label: "Vamana (Therapeutic emesis)",
       title: "Therapeutic Vomiting Protocol",
       description: "A carefully prepared, doctor-induced therapeutic vomiting protocol used to remove excess Kapha from the upper digestive and respiratory tracts. Vamana is the most intensive of the five actions and is prescribed selectively.",
       typicalUse: "Kapha disorders, asthma, severe sinusitis",
@@ -176,7 +178,7 @@ export const panchakarmaDubaiActions = {
     },
     {
       id: "02",
-      label: "Virechana (à¤µà¤¿à¤°à¥‡à¤šà°¨ — Therapeutic Purgation)",
+      label: "Virechana (Therapeutic purgation)",
       title: "Medicated Purgation",
       description: "Medicated purgation to clear accumulated Pitta from the liver, gallbladder, and small intestine. One of the most clinically useful Panchakarma actions for modern conditions.",
       typicalUse: "<a href=\"/conditions/pcos-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">PCOS</a>, skin conditions, liver health, metabolic imbalance",
@@ -186,7 +188,7 @@ export const panchakarmaDubaiActions = {
     },
     {
       id: "03",
-      label: "Basti (à¤¬à¤¸à¥à¤¤à¤¿ — Medicated Enema)",
+      label: "Basti (Medicated enema)",
       title: "Medicated Enema Therapy",
       description: "Considered the most important of the five actions in classical texts — \"half of all treatment is Basti.\" A series of medicated enemas using either herbal decoctions or medicated oils.",
       typicalUse: "<a href=\"/conditions/back-pain-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">Chronic pain</a>, sciatica, <a href=\"/conditions/ibs-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">IBS</a>, neurological recovery, Vata disorders",
@@ -196,9 +198,9 @@ export const panchakarmaDubaiActions = {
     },
     {
       id: "04",
-      label: "Nasya (à¤¨à¤¸à¥à¤¯ — Nasal Therapy)",
+      label: "Nasya (Nasal therapy)",
       title: "Nasal Administration",
-      description: "Medicated oils or herbal preparations administered through the nasal passages, addressing everything from chronic sinusitis to migraines, hair loss, and head-and-neck conditions.",
+      description: "<a href="/treatments/nasya-therapy-jvc/" class="text-[#C9A961] hover:underline transition-colors">Nasya</a>: medicated oils or herbal preparations administered through the nasal passages, addressing everything from chronic sinusitis to migraines, hair loss, and head-and-neck conditions.",
       typicalUse: "Chronic sinusitis, <a href=\"/conditions/migraine-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">migraine</a>, <a href=\"/conditions/hair-loss-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">hair loss</a>, cervical spondylosis",
       duration: "7-14 day courses",
       image: "/images/nasya-procedure-jvc-ayurveda.webp",
@@ -206,9 +208,9 @@ export const panchakarmaDubaiActions = {
     },
     {
       id: "05",
-      label: "Raktamokshana (à¤°à¤•à¥à¤¤à¤®à±‹à°•à¥à¤·à¤£ — Therapeutic Bloodletting)",
+      label: "Raktamokshana (Therapeutic bloodletting)",
       title: "Selective Bloodletting",
-      description: "Selective bloodletting through controlled methods including leech therapy (Jalaukavacharana) or venesection. Used for specific Pitta-Raktha conditions like certain skin diseases and gout.",
+      description: "Selective bloodletting through controlled methods including leech therapy (Jalaukavacharana) or venesection. Used for specific Pitta-Raktha conditions like certain skin diseases and gout. At Vedara Care it is used selectively, after assessment, with strict hygiene.",
       typicalUse: "Severe skin conditions, gout, varicose veins (selective)",
       duration: "Procedure-based, vary recovery"
     }
@@ -218,72 +220,37 @@ export const panchakarmaDubaiActions = {
 export const panchakarmaDubaiDaily = {
   bgColor: "bg-white",
   label: "THE DAILY REALITY",
-  title: "A day in a Vedara Care Panchakarma programme.",
-  subtitle: "A representative day during Pradhanakarma (main therapy phase). Days vary by phase and protocol.",
+  title: "What a treatment day looks like.",
+  subtitle: "An example from the main-therapy phase. How long you spend at the clinic depends on the phase and your plan.",
   image: "/images/panchakarma-daily-schedule-vedara.webp",
   alt: "Panchakarma daily schedule at Vedara Care",
   items: [
-    {
-      time: "07:30",
-      title: "Wake and Light Activity",
-      description: "Light walking or stretching prescribed by your doctor. No phones until after morning consultation. Hot water with prescribed herbs to begin digestive activation."
-    },
-    {
-      time: "08:30",
-      title: "Doctor Consultation",
-      description: "Daily 15-20 minute clinical review with your Ayurvedic physician. Pulse check, dosha assessment, symptom tracking, and adjustment of the day's protocol based on how your body is responding."
-    },
-    {
-      time: "09:30",
-      title: "Morning Therapy: Abhyanga & Swedana",
-      description: "60-90 minutes of full-body warm medicated oil massage by trained therapists of your same gender, followed by medicated steam therapy in a wooden steam chamber. Oils are selected for your dosha and condition."
-    },
-    {
-      time: "11:30",
-      title: "Main Therapy Session",
-      description: "The day's principal Panchakarma action — Virechana, Basti, Nasya, or Vamana — depending on the day in your protocol. Each is doctor-administered or doctor-monitored throughout."
-    },
-    {
-      time: "13:30",
-      title: "Prescribed Meal",
-      description: "A specific dietary preparation calibrated to the day's protocol — often kitchari (rice and mung dal preparation) with specific spices. Eaten slowly, in quiet, in the dining area."
-    },
-    {
-      time: "14:30",
-      title: "Rest and Recovery",
-      description: "Mandatory rest period. Panchakarma is physically demanding work. Light reading, quiet, or sleep. No screens, no calls, no social media."
-    },
-    {
-      time: "16:30",
-      title: "Afternoon Light Therapy or Yoga",
-      description: "Light therapeutic yoga, pranayama (breathing practices), or a second supportive therapy depending on protocol — often Shirodhara on alternate days."
-    },
-    {
-      time: "18:30",
-      title: "Evening Consultation and Day Closure",
-      description: "Brief evening check-in with your doctor or senior therapist. Tomorrow's protocol explained. Prescribed evening herbs. Home by 20:00."
-    }
+    { time: "Arrive", title: "Doctor check", description: "A short review with Dr. Zainab: pulse, symptoms and how you responded the day before. The day's therapies are adjusted if needed." },
+    { time: "Then", title: "Oil massage and steam", description: "Abhyanga with your prescribed oil by a same-gender therapist, followed by medicated steam (Swedana)." },
+    { time: "Main therapy", title: "The day's main action", description: "Virechana, Basti, Nasya, Vamana or Raktamokshana, depending on your plan, with the doctor supervising." },
+    { time: "Rest", title: "Rest at the clinic", description: "Time to rest in a private room before you go home." },
+    { time: "At home", title: "Diet and rest", description: "Your prescribed diet (often kitchari), rest, no alcohol or caffeine, and early sleep." }
   ]
 };
 
 export const panchakarmaDubaiPrograms = {
   bgColor: "bg-[#F5F1E8]",
   label: "PROGRAMMES",
-  title: "Three Panchakarma programmes, calibrated to what you actually need.",
-  description: "Your doctor will recommend the right programme length at consultation based on your condition, constitution, and what you can individually commit to.",
-  whatsappNumber: "+971 55 573 6312",
+  title: "Three Panchakarma plans. Your doctor chooses the length.",
+  description: "Every plan includes everything used in your programme: consultations and doctor reviews, all therapies, the oils, medicated ghee and medicines used, your diet plan and follow-up. The doctor recommends the length at your consultation.",
+  whatsappNumber: "971555736312",
   defaultWhatsappMessage: "Hi, I'd like to inquire about Panchakarma treatment programmes at your clinic.",
   programs: [
     {
       name: "Panchakarma Reset",
-      price: "From AED 8,500",
-      duration: "7 days at clinic",
+      price: "Prices shared on WhatsApp",
+      duration: "7 days",
       features: [
         "Initial <a href=\"/doctors/\" class=\"text-[#C9A961] hover:underline transition-colors\">doctor</a> consultation and <a href=\"/ayurveda-dubai/#what-is-ayurveda\" class=\"text-[#C9A961] hover:underline transition-colors\">dosha assessment</a>",
         "3 days Purvakarma (Snehapana, Abhyanga, Swedana)",
         "1-2 main actions (typically Virechana or Basti course)",
         "3 days structured Paschatkarma recovery",
-        "All herbal medicines and dietary plan",
+        "All oils, ghee and medicines used, and your diet plan",
         "4 weeks follow-up support"
       ],
       bestFor: "First-time Panchakarma, mild Kapha-Pitta imbalance, general detoxification, stress reset",
@@ -292,7 +259,7 @@ export const panchakarmaDubaiPrograms = {
     },
     {
       name: "Classical Panchakarma",
-      price: "From AED 15,500",
+      price: "Prices shared on WhatsApp",
       duration: "14 days",
       featured: true,
       featuredLabel: "MOST CHOSEN",
@@ -301,7 +268,7 @@ export const panchakarmaDubaiPrograms = {
         "5-7 days Purvakarma preparation",
         "2-3 main actions selected for your dosha pattern",
         "4-7 days Paschatkarma recovery",
-        "All medicines, oils, dietary plan included",
+        "All oils, ghee and medicines used, and your diet plan",
         "8 weeks follow-up support including home protocol"
       ],
       bestFor: "<a href=\"/conditions/pcos-ayurveda-dubai/\" class=\"text-[#C9A961]  transition-colors\">PCOS</a>, <a href=\"/conditions/back-pain-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">chronic back pain</a>, <a href=\"/conditions/weight-loss-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">weight management</a>, acid reflux/<a href=\"/conditions/ibs-ayurveda-dubai/\" class=\"text-[#C9A961]  transition-colors\">IBS</a>, hormonal balance",
@@ -310,14 +277,14 @@ export const panchakarmaDubaiPrograms = {
     },
     {
       name: "Deep Panchakarma",
-      price: "From AED 24,000",
+      price: "Prices shared on WhatsApp",
       duration: "21 days",
       features: [
         "Comprehensive constitutional and clinical assessment",
         "7 days Purvakarma with intensive Snehapana protocol",
         "7 days Pradhanakarma with up to 4 of the 5 classical actions",
         "7 days structured Paschatkarma with Samsarjana Krama",
-        "All medicines, oils, and Rasayana rejuvenation therapies",
+        "All medicines, oils, and <a href=\"/treatments/rasayana-ayurveda-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Rasayana rejuvenation therapies</a>",
         "3-month follow-up support"
       ],
       bestFor: "Chronic conditions resistant to other care, deep constitutional reset, severe metabolic imbalance, post-illness recovery",
@@ -325,80 +292,59 @@ export const panchakarmaDubaiPrograms = {
       whatsappMessage: "Hi, I'd like to inquire about the Deep Panchakarma (21-day) programme at your clinic."
     }
   ],
-  footer: "Daily duration: 2-3 hours at clinic. Programmes can be partially home-delivered for select patients — discuss at consultation."
+  footer: "Time at the clinic each day depends on the phase and your plan. Full pricing is given in writing after your consultation."
 };
 
-export const panchakarmaDubaiReviews = {
-  bgColor: "bg-[#1A4D2E]",
-  cardBgColor: "bg-white",
-  isDarkText: true,
-  label: "PATIENT STORIES",
-  title: "Real Panchakarma Outcomes",
-  items: [],
-  stats: [
-    { value: "4.7", label: "stars on Google" },
-    { value: "38", label: "Panchakarma reviews" },
-    { value: "97%", label: "would recommend" }
-  ],
-  buttonText: "Read All Reviews",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
-};
 
 export const panchakarmaDubaiFaqs = {
-  doctor: { firstName: "the Team" }, // Hack to make DoctorFAQ work for general team
-  buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20Panchakarma%20treatment%20at%20your%20clinic.",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Panchakarma.",
   faqs: [
-    {
-      question: "What is Panchakarma, in simple terms?",
-      answer: "Panchakarma is the classical five-action Ayurvedic detoxification protocol described in 2,000-year-old Sanskrit texts. It involves preparation (oleation and steam therapy), main therapies (a doctor-selected combination of Virechana, Basti, Nasya, Vamana, and Raktamokshana), and a structured recovery phase. Panchakarma is medical, not cosmetic — it must be prescribed and supervised by a BAMS-qualified physician."
-    },
-    {
-      question: "How long does a real Panchakarma programme last?",
-      answer: "A minimum of 7 days for a basic reset, 14 days for classical Panchakarma, and 21 days for full intensive protocols. Anyone offering \"1-day Panchakarma\" or \"weekend Panchakarma\" is offering something else — typically Abhyanga and Shirodhara, which are individual therapies, not the full classical protocol."
-    },
-    {
-      question: "How much does Panchakarma cost in Dubai?",
-      answer: "At Vedara Care, our 7-day Panchakarma Reset starts from AED 8,500, the 14-day Classical Panchakarma from AED 15,500, and the 21-day Intensive from AED 24,000. These prices include consultations, all therapies, herbal medicines, medicated oils, dietary plans, and follow-up support. Pricing across Dubai's main Ayurvedic clinics ranges from AED 3,500 to AED 20,000 depending on length and inclusions."
-    },
-    {
-      question: "Does insurance cover Panchakarma in Dubai?",
-      answer: "Some insurance plans cover Panchakarma, others do not. Most often partial coverage is available through Daman, AXA, Now Health, and certain Allianz premium tiers. Vedara Care is a direct-billing partner with seven major insurers. Send a photo of your insurance card on WhatsApp before booking and we will confirm your specific coverage in writing."
-    },
-    {
-      question: "Who should consider Panchakarma?",
-      answer: "Patients with chronic conditions that have not responded to other treatment — chronic back pain, PCOS, stress and burnout, migraine, weight management, IBS, certain skin conditions, and rheumatoid arthritis. Also for constitutional reset (recommended every 3-5 years), pre-conception preparation, and post-illness recovery. Your doctor will tell you honestly if Panchakarma is the right protocol for your specific case."
-    },
-    {
-      question: "Who should NOT do Panchakarma?",
-      answer: "Pregnant women (different Ayurvedic protocols apply), patients in acute infection requiring antibiotics, those with severe heart conditions, anyone in active cancer treatment, severe mental health crises, and young children. Panchakarma is also typically deferred for elderly patients with multiple comorbidities — a lighter Ayurvedic protocol is usually safer."
-    },
-    {
-      question: "Can I do Panchakarma while working?",
-      answer: "Yes, but expect to spend 3-5 hours per day at the clinic during the main programme. Most working patients reduce work commitments significantly during the 7-14 day main period. The 21-day intensive often requires extended leave. We help you plan timing realistically at consultation — Panchakarma performed half-heartedly while juggling deadlines does not deliver results."
-    },
-    {
-      question: "What does daily life look like during Panchakarma?",
-      answer: "Early start (around 7:00 AM), morning doctor consultation, 2-3 hours of therapy, prescribed meals (typically kitchari preparations), mandatory rest, light afternoon activity, and an evening check-in. No alcohol, no caffeine, no heavy social activities, no intense exercise, and minimal screen time. The lifestyle restrictions matter as much as the therapies."
-    }
+    { question: "What is Panchakarma, in simple terms?",
+      answer: "Panchakarma is Ayurveda's classical five-action cleansing programme. It has three phases — preparation, the main actions chosen by the doctor, and a structured recovery — and runs over 7, 14 or 21 days under an Ayurvedic doctor's supervision." },
+    { question: "What are the five actions of Panchakarma?",
+      answer: "Vamana (therapeutic vomiting), Virechana (purgation), Basti (medicated enema), Nasya (nasal therapy) and Raktamokshana (bloodletting, including leech therapy). Most people need two or three of them; the doctor selects which." },
+    { question: "Where can I get Panchakarma in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall. Panchakarma is planned by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor, and the clinic is open daily 9am to 10pm. It is close to JVT, Al Barsha South, Arjan, Sports City and Motor City." },
+    { question: "How long does Panchakarma take?",
+      answer: "Plans run for 7, 14 or 21 days; the doctor recommends the length at consultation. How long you spend at the clinic each day depends on the phase and your plan, and part of the recovery continues at home." },
+    { question: "What are the benefits of Panchakarma?",
+      answer: "People use Panchakarma for long-standing problems such as chronic back pain, PCOS, stress and burnout, migraine, digestive and some skin conditions, and as a reset after illness. Research is limited and small, so we set realistic expectations at consultation." },
+    { question: "How much does Panchakarma cost in Dubai?",
+      answer: "Across Dubai, Panchakarma programmes commonly range from about AED 3,500 for 7 days to AED 15,000 or more for 21 days, depending on the clinic, the length and what is included. At Vedara Care, every plan includes the therapies, oils and medicines used, the diet plan and follow-up; exact prices are shared on WhatsApp." },
+    { question: "What is included in a Panchakarma plan at Vedara Care?",
+      answer: "Everything used in your programme: consultations and doctor reviews, all therapies, the oils, medicated ghee and medicines used, your diet plan and follow-up." },
+    { question: "Does insurance cover Panchakarma?",
+      answer: "Usually not, as many plans treat it as wellness care. Vedara Care does not bill insurers directly; where Panchakarma treats a medical condition, we provide the invoice and medical report you need for a reimbursement claim." },
+    { question: "Who should not have Panchakarma?",
+      answer: "It is not suitable during pregnancy, with an acute infection, severe heart conditions, during active cancer treatment, in an acute mental health crisis, or for young children. Teenagers (12+) and older patients may have a modified protocol after assessment." },
+    { question: "Can I work during Panchakarma?",
+      answer: "Usually only lightly. The 7-day plan is often manageable with light work; for the 14-day plan most people take a few days off during the main-therapy week; the 21-day plan usually needs longer leave. We plan the timing with you." },
+    { question: "What do I eat during Panchakarma?",
+      answer: "A light, prescribed diet — often kitchari (rice and mung dal) — with no alcohol or caffeine. After the main therapies, food is re-introduced step by step (Samsarjana Krama)." },
+    { question: "Will a male or female therapist treat me?",
+      answer: "Same-gender therapists: men are treated by male therapists and women by female therapists, in private treatment rooms." },
+    { question: "How do I book Panchakarma in JVC?",
+      answer: "Booking always starts with a 45 to 60-minute consultation, not a package. Book online, message us on WhatsApp at +971 55 573 6312, or call the same number." }
   ]
 };
 
 export const panchakarmaDubaiLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "THE CLINIC",
-  title: "Our Panchakarma clinic in Jumeirah Village Circle.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
+  title: "Panchakarma in JVC, near Circle Mall.",
+  address: "Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai",
   phone: "+971 55 573 6312",
-  whatsapp: "+971 55 573 6312",
+  whatsapp: "971555736312",
   whatsappMessage: "Hi, I'd like to inquire about Panchakarma treatment at your JVC clinic.",
   email: "booking@vedaracare.ae",
   hours: "Monday - Sunday: 9:00AM to 10:00PM",
+  description: "Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City.",
   landmarks: [
-    "Five private Panchakarma treatment rooms",
-    "Wooden droni tables (traditional Kerala style)",
-    "Same-gender therapists always",
-    "Free covered parking"
+    "Near Circle Mall",
+    "Close to JSS Private School",
+    "Free and paid parking available"
   ],
+  distances: [],
   buttonText: "Get Directions",
   buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
@@ -407,11 +353,28 @@ export const panchakarmaDubaiLocation = {
 export const panchakarmaDubaiCTA = {
   bgColor: "bg-white",
   label: "READY TO START?",
-  title: "Panchakarma starts with a consultation, not a booking.",
+  title: "Panchakarma starts with a consultation, not a package.",
   description: "We do not sell Panchakarma packages over WhatsApp. Every programme starts with a 45-60 minute consultation where your doctor assesses whether Panchakarma is the right protocol for you, and what specific actions and length your case calls for.",
   button1Text: "Book a Panchakarma Consultation",
-  button1Href: "/book",
+  button1Href: "/book/",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Panchakarma%20treatment%20at%20your%20JVC%20clinic.",
-  bullets: ["First consultation from AED 350", "Insurance direct-billing available"]
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20book%20a%20Panchakarma%20consultation%20at%20your%20JVC%20clinic.",
+  bullets: [
+    "Prices shared on WhatsApp",
+    "Same-gender therapists",
+    "Near Circle Mall, JVC"
+  ]
+};
+
+export const panchakarmaDubaiJvcPlanning = {
+  label: "PLANNING PANCHAKARMA FROM JVC",
+  title: "Doing Panchakarma while living and working nearby.",
+  description: "Panchakarma means visiting the clinic on most days for one to three weeks. Being close makes it realistic.",
+  contentSections: [
+    { subtitle: "Close to home", description: "The clinic is near Circle Mall in JVC, a short drive from JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City. Free and paid parking are available." },
+    { subtitle: "Working during Panchakarma", description: "The 7-day Reset is usually manageable with light work. For the 14-day plan, most people take a few days off during the main-therapy week. The 21-day plan usually needs longer leave. We plan the timing with you at consultation." },
+    { subtitle: "Same-gender therapists, private rooms", description: "Men are treated by male therapists and women by female therapists, in private treatment rooms with traditional droni tables." },
+    { subtitle: "Working with your other doctors", description: "If you see an endocrinologist, cardiologist or rheumatologist, we can coordinate timing and share your plan, with your consent." }
+  ],
+  sidebar: { image: "/images/panchakarma-jvc-hero.webp", altText: "Vedara Care Panchakarma clinic entrance near Circle Mall, JVC Dubai", width: "w-full", height: "h-[500px]", borderPosition: "right" }
 };

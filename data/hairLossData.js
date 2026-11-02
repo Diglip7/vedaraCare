@@ -43,7 +43,7 @@ export const hairLossPhenotypes = {
       title: 'Androgenetic Alopecia (Male and Female Pattern)',
       subtitle: 'Khalatiya in classical Sanskrit',
       content: 'The most common hair loss pattern globally. In men, presents as receding hairline and crown thinning, usually progressive from late 20s onwards. In women, presents as diffuse thinning across the crown, often noticed in 30s and 40s. Strongly genetic, hormone-mediated (androgens), and often family-clustered. Particularly common in South Asian and Middle Eastern men in Dubai.',
-      ayurvedicEmphasis: 'Nasya, <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a>, internal Bhringraja-based protocols, 6-9 month programme alongside <a href="/dermatology-clinic-jvc/" class="doctor-specialty-link">dermatology</a> where indicated'
+      ayurvedicEmphasis: '<a href="/treatments/nasya-therapy-jvc/" class="doctor-specialty-link">Nasya</a>, <a href="/treatments/shirodhara-dubai/" class="doctor-specialty-link">Shirodhara</a>, internal Bhringraja-based protocols, 6-9 month programme alongside <a href="/dermatology-clinic-jvc/" class="doctor-specialty-link">dermatology</a> where indicated'
     },
     {
       letter: 'B',

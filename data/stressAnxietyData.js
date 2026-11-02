@@ -537,7 +537,7 @@ export const stressAnxietyRelatedPages = {
     {
       title: "Panchakarma in Dubai →",
       description: "For severe or long-standing anxiety patterns, intensive Panchakarma over 14-21 days addresses systemic root patterns.",
-      href: "/treatments/panchakarma-jvc/"
+      href: "/treatments/panchakarma-dubai/"
     },
     {
       title: "Our Ayurveda Clinic in JVC →",

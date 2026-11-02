@@ -191,9 +191,7 @@ const ContentOnlySection = ({
               </div>
             ))}
             {footer && (
-              <p className="text-sm mt-6 italic" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }}>
-                {footer}
-              </p>
+              <p className="text-sm mt-6 italic" style={{ color: 'rgb(107,107,107)', lineHeight: '1.7' }} dangerouslySetInnerHTML={{ __html: footer }} />
             )}
           </div>
 

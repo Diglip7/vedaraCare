@@ -53,7 +53,7 @@ export const backPainJvcMechanism = {
       },
       {
         title: "Why Kativasti is the flagship Ayurvedic therapy specifically for back pain",
-        description: "Kativasti is traditional Ayurvedic therapy developed specifically for back pain conditions. Warm medicated oil is retained on the lower back within a dough dam (typically black gram flour) for 30–45 minutes, providing sustained localised therapeutic contact allowing deep tissue penetration. Documented efficacy for lower back pain, lumbar spondylosis, disc-related conditions, and chronic back pain patterns. A series of 7–14 sessions is typical for meaningful outcomes — fundamentally different from generic back massage."
+        description: "<a href="/treatments/kativasti-dubai/" style="color: #C9A55A; text-decoration: underline;">Kati Vasti</a> (Kativasti) is traditional Ayurvedic therapy developed specifically for back pain conditions. Warm medicated oil is retained on the lower back within a dough dam (typically black gram flour) for 30–45 minutes, providing sustained localised therapeutic contact allowing deep tissue penetration. Documented efficacy for lower back pain, lumbar spondylosis, disc-related conditions, and chronic back pain patterns. A series of 7–14 sessions is typical for meaningful outcomes — fundamentally different from generic back massage."
       },
 
       {
