@@ -354,7 +354,7 @@ export const insomniaFaqs = {
   sidebarLinks: [
     { text: "Dr. Zainab's Profile", href: "/doctors/dr-zainab-ayurveda" },
     { text: "Shirodhara Treatment", href: "/treatments/shirodhara-dubai" },
-    { text: "Stress & Anxiety Care", href: "/conditions/stress-anxiety-ayurveda-dubai" },
+    { text: "Stress & Anxiety Care", href: "/conditions/stress-anxiety-ayurveda-dubai/" },
     { text: "Ayurveda clinic JVC", href: "/ayurveda-clinic-jvc" }
   ]
 
@@ -406,7 +406,7 @@ export const insomniaJvcRelatedPages = {
     {
       title: "Stress & Anxiety Ayurvedic Care JVC",
       description: "Stress and sleep are bidirectional. Integrated stress management approach at our JVC clinic.",
-      href: "/conditions/stress-anxiety-ayurveda-jvc/"
+      href: "/conditions/stress-anxiety-ayurveda-dubai/"
     },
     {
       title: "Ayurveda Clinic JVC",

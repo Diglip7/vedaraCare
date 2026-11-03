@@ -49,7 +49,7 @@ export const bastiTypes = {                                 // rendered with Tre
     { name: "Matra Basti", description: "Small daily oil dose", content: "A small dose of oil that can be given daily, often over a longer period.", indication: "chronic back pain, older patients, long courses" },
     { name: "Uttara Basti", description: "Specialised form", content: "Medicated oil or decoction given into the bladder or uterus. A specialised procedure, done only after a separate assessment.", indication: "selected urinary and gynaecological conditions" }
   ],
-  footer: "Basti is not the same as <a href='/treatments/kativasti-dubai/'>Kati Vasti</a> or <a href='/treatments/janu-basti-jvc/'>Janu Vasti</a>, where warm oil is held on the back or knee and nothing is given internally. See <a href='/treatments/kativasti-dubai/'>Kativasti</a>."
+  footer: "Basti is not the same as external vasti therapies: see <a href='/treatments/kativasti-dubai/'>Kati Vasti</a> for the lower back, <a href='/treatments/janu-basti-jvc/'>Janu Vasti</a> for the knee, or Greeva Vasti for <a href='/conditions/cervical-spondylosis-ayurveda-jvc/'>neck pain and cervical spondylosis</a>."
 };
 
 export const bastiProtocol = {
@@ -72,7 +72,7 @@ export const bastiApplications = {
   whereItExcels: [
     { title: "Chronic lower back pain and sciatica", subtitle: "Often Matra or alternating Basti", href: "/conditions/back-pain-ayurveda-dubai/" },
     { title: "Joint stiffness and arthritis-related pain", subtitle: "Usually a course", href: "/conditions/arthritis-ayurveda-dubai/" },
-    { title: "Constipation and IBS", subtitle: "Alongside diet changes", href: "/conditions/ibs-ayurveda-dubai/" },
+    { title: "Ayurveda for IBS and digestion", subtitle: "Alongside diet changes", href: "/conditions/ibs-ayurveda-dubai/" },
     { title: "Nerve-related conditions", subtitle: "As support, alongside neurology and physiotherapy", href: "/physiotherapy/neurological-dubai/" },
     { title: "Within Panchakarma", subtitle: "One of the five actions", href: "/treatments/panchakarma-dubai/" }
   ]
@@ -113,6 +113,9 @@ export const bastiFaqs = {
   sidebarLinks: [
     { text: "Panchakarma", href: "/treatments/panchakarma-dubai/" },
     { text: "Kativasti", href: "/treatments/kativasti-dubai/" },
+    { text: "Neck pain & cervical spondylosis", href: "/conditions/cervical-spondylosis-ayurveda-jvc/" },
+    { text: "Ayurvedic skin treatment", href: "/conditions/skin-ayurveda-dubai/" },
+    { text: "Ayurvedic weight loss", href: "/conditions/weight-loss-ayurveda-dubai/" },
     { text: "Ayurveda clinic in JVC", href: "/ayurveda-clinic-jvc/" }
   ],
   title: "Basti: your questions answered.",

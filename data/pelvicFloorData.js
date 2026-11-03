@@ -304,7 +304,7 @@ export const pelvicFloorPostnatalSection = {
   description: "After childbirth, pelvic floor and tummy recovery is often left unchecked. Whether you are 6 weeks, 6 months or several years after birth, physiotherapy helps.",
   content: [
     {
-      paragraph: "Postnatal pelvic floor recovery is a major area of our practice. Dubai has a substantial expat and Emirati birth rate, and postnatal care for pelvic floor concerns is often inadequate across maternity systems. We provide structured postnatal pelvic floor recovery from 6 weeks postpartum onwards."
+      paragraph: "Postnatal pelvic floor recovery is a major area of our practice. Dubai has a substantial expat and Emirati birth rate, and postnatal care for pelvic floor concerns is often inadequate across maternity systems. We provide structured postnatal pelvic floor recovery from 6 weeks postpartum onwards, and work alongside our in-clinic <a href='/conditions/postnatal-ayurveda-dubai/' class='text-[#184C3A] hover:underline font-medium'>Ayurvedic postnatal care and massage</a> (Sutika Paricharya) team at the same polyclinic."
     },
     {
       heading: "The 6-week postnatal check is just the beginning",

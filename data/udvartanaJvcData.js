@@ -55,7 +55,7 @@ export const udvartanaProtocol = {
   title: "What happens at an Udvartana session.",
   description: "Every session follows the same steps; the form, powder and course are set by your doctor.",
   phases: [
-    { time: "Step 1", title: "Consultation", content: "Your first visit is a 45-60 minute <a href="/treatments/nadi-pareeksha-jvc/" class="text-[#C9A961] hover:underline">consultation</a> with Dr. Zainab: your health, skin, weight goals and medicines are checked, and she decides whether Udvartana suits you." },
+    { time: "Step 1", title: "Consultation", content: "Your first visit is a 45-60 minute <a href='/treatments/nadi-pareeksha-jvc/' class='text-[#C9A961] hover:underline'>consultation</a> with Dr. Zainab: your health, skin, weight goals and medicines are checked, and she decides whether Udvartana suits you." },
     { time: "Step 2", title: "The massage", content: "A same-gender therapist rubs the warm powder firmly upwards over the body, area by area." },
     { time: "Step 3", title: "Steam (if prescribed)", content: "Some plans add medicated steam (Swedana) afterwards." },
     { time: "Step 4", title: "Shower and advice", content: "You shower to remove the powder and receive diet and activity advice." }

@@ -1,363 +1,185 @@
 import Head from 'next/head';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import { ayurvedaReviewsBlock } from '../../data/googleReviews';
-import { SCHEMA_ADDRESS } from '../../lib/site';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
-import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
-import ArthritisTypes from '../../components/ayurveda/ArthritisTypes';
-import ArthritisPillars from '../../components/ayurveda/ArthritisPillars';
 import ClinicalBoundaries from '../../components/ayurveda/ClinicalBoundaries';
-import PositioningStatement from '../../components/ayurveda/PositioningStatement';
-import RelatedPages from '../../components/ayurveda/RelatedPages';
-import FinalCTA from '../../components/ayurveda/FinalCTA';
+import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
+import TreatmentOils from '../../components/ayurveda/TreatmentOils';
+import TreatmentProtocol from '../../components/ayurveda/TreatmentProtocol';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
-import TreatmentPrograms from '../../components/ayurveda/TreatmentPrograms';
 import FAQ from '../../components/home/FAQ';
-import { 
-  StressAnxietyTimeline, 
-  StressAnxietySleepSection, 
-  StressAnxietyVisitSection 
-} from '../../components/ayurveda/StressAnxietyCustomSections';
-
+import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
+import FinalCTA from '../../components/ayurveda/FinalCTA';
+import RelatedPages from '../../components/ayurveda/RelatedPages';
 import {
   stressAnxietyHero,
   stressAnxietyIntro,
+  stressAnxietyUrgent,
   stressAnxietyMechanism,
   stressAnxietyPatterns,
-  stressAnxietyPillars,
-  stressAnxietyPositioning,
-  stressAnxietyBoundaries,
-  stressAnxietyReviews,
-  stressAnxietyPrograms,
+  stressAnxietyPlan,
+  stressAnxietyProtocol,
   stressAnxietyFaqs,
+  stressAnxietyLocation,
   stressAnxietyCTA,
-  stressAnxietyRelatedPages,
-  stressAnxietyTimelineData,
-  stressAnxietySleepSectionData,
-  stressAnxietyVisitSectionData
+  stressAnxietyRelatedPages
 } from '../../data/stressAnxietyData';
 
-const AyurvedaStressAnxiety = () => {
-  const schemaMarkup = [
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/#condition",
-      "name": "Chronic Stress and Anxiety Disorders",
-      "alternateName": ["Anxiety", "Chronic Stress", "Burnout", "Manas Roga", "Chittodvega", "Generalised Anxiety Disorder"],
-      "code": [
-        {"@type": "MedicalCode", "code": "F41.1", "codingSystem": "ICD-10"},
-        {"@type": "MedicalCode", "code": "F43.9", "codingSystem": "ICD-10"},
-        {"@type": "MedicalCode", "code": "F48", "codingSystem": "ICD-10"}
-      ],
-      "associatedAnatomy": [
-        {"@type": "AnatomicalStructure", "name": "Autonomic nervous system"},
-        {"@type": "AnatomicalStructure", "name": "Hypothalamic-pituitary-adrenal axis"},
-        {"@type": "AnatomicalStructure", "name": "Central nervous system"}
-      ],
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Persistent worry"},
-        {"@type": "MedicalSymptom", "name": "Sleep disturbance"},
-        {"@type": "MedicalSymptom", "name": "Restlessness"},
-        {"@type": "MedicalSymptom", "name": "Fatigue"},
-        {"@type": "MedicalSymptom", "name": "Difficulty concentrating"},
-        {"@type": "MedicalSymptom", "name": "Muscle tension"},
-        {"@type": "MedicalSymptom", "name": "Irritability"},
-        {"@type": "MedicalSymptom", "name": "Digestive disturbances"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Shirodhara", "url": "https://vedaracare.ae/treatments/shirodhara-dubai/"},
-        {"@type": "MedicalProcedure", "name": "Abhyanga", "url": "https://vedaracare.ae/treatments/abhyanga-dubai/"},
-        {"@type": "MedicalProcedure", "name": "Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-        {"@type": "MedicalTherapy", "name": "Ayurvedic nervous-system medicines"},
-        {"@type": "MedicalTherapy", "name": "Dietary regulation"},
-        {"@type": "MedicalTherapy", "name": "Lifestyle modification"}
-      ],
-      "riskFactor": [
-        {"@type": "MedicalRiskFactor", "name": "Chronic work demands"},
-        {"@type": "MedicalRiskFactor", "name": "Sleep dysfunction"},
-        {"@type": "MedicalRiskFactor", "name": "Genetic predisposition"},
-        {"@type": "MedicalRiskFactor", "name": "Traumatic life events"},
-        {"@type": "MedicalRiskFactor", "name": "Family history of anxiety"},
-        {"@type": "MedicalRiskFactor", "name": "Hormonal changes"},
-        {"@type": "MedicalRiskFactor", "name": "Substance use"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Generalised Anxiety Disorder",
-      "alternateName": ["GAD", "Vata-Dominant Anxiety Pattern"],
-      "code": {"@type": "MedicalCode", "code": "F41.1", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Persistent worry"},
-        {"@type": "MedicalSymptom", "name": "Difficulty controlling worry"},
-        {"@type": "MedicalSymptom", "name": "Restlessness"},
-        {"@type": "MedicalSymptom", "name": "Sleep onset difficulty"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Shirodhara with Brahmi or Ksheerabala", "url": "https://vedaracare.ae/treatments/shirodhara-dubai/"},
-        {"@type": "MedicalTherapy", "name": "Saraswatarishta"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Chronic Stress",
-      "alternateName": ["Cortisol-Dominant Stress Pattern"],
-      "code": {"@type": "MedicalCode", "code": "F43.9", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Irritability"},
-        {"@type": "MedicalSymptom", "name": "Mid-afternoon energy crashes"},
-        {"@type": "MedicalSymptom", "name": "Wired but tired feeling"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Shirodhara with Ksheerabala Taila", "url": "https://vedaracare.ae/treatments/shirodhara-dubai/"},
-        {"@type": "MedicalTherapy", "name": "Ashwagandha"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Burnout",
-      "alternateName": ["Exhaustion-Dominant Pattern"],
-      "code": {"@type": "MedicalCode", "code": "QD85", "codingSystem": "ICD-11"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Physical exhaustion"},
-        {"@type": "MedicalSymptom", "name": "Emotional fatigue"},
-        {"@type": "MedicalSymptom", "name": "Cynicism"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalTherapy", "name": "Deep restorative protocols"},
-        {"@type": "MedicalTherapy", "name": "Restorative diet"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Panic Disorder",
-      "alternateName": ["Vata-Pitta Anxiety Pattern"],
-      "code": {"@type": "MedicalCode", "code": "F41.0", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Panic attacks"},
-        {"@type": "MedicalSymptom", "name": "Heart racing"},
-        {"@type": "MedicalSymptom", "name": "Breathlessness"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Shirodhara", "url": "https://vedaracare.ae/treatments/shirodhara-dubai/"},
-        {"@type": "MedicalTherapy", "name": "Amygdala reactivity support"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Post-Traumatic Stress Response",
-      "alternateName": ["Trauma-Pattern Anxiety"],
-      "code": {"@type": "MedicalCode", "code": "F43.1", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Hyper-vigilance"},
-        {"@type": "MedicalSymptom", "name": "Intrusive thoughts"},
-        {"@type": "MedicalSymptom", "name": "Emotional numbing"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Gentle Shirodhara", "url": "https://vedaracare.ae/treatments/shirodhara-dubai/"},
-        {"@type": "MedicalTherapy", "name": "System restoration"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/#webpage",
-      "name": "Ayurveda for Stress & Anxiety in Dubai",
-      "url": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/",
-      "about": {"@id": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/#condition"},
-      "audience": {
-        "@type": "PatientAudience",
-        "geographicArea": {"@type": "Place", "name": "Dubai, United Arab Emirates"}
-      },
-      "lastReviewed": "2026-05-28",
-      "reviewedBy": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
-      },
-      "primaryImageOfPage": "https://vedaracare.ae/images/stress-anxiety-ayurveda-dubai-hero.jpg"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Ayurvedic Stress and Anxiety Treatment Programmes",
-      "provider": {"@id": "https://vedaracare.ae/#organization"},
-      "areaServed": [
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
-      ],
-      "serviceType": "Ayurvedic Mental Health Treatment",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Stress & Anxiety Programmes",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Stress & Anxiety Initial Assessment",
-            "priceCurrency": "AED",
-            "price": "450",
-            "description": "60-minute consultation with BAMS physician at JVC clinic, pattern identification, written plan with realistic expectations"
-          },
-          {
-            "@type": "Offer",
-            "name": "Standard 3-Month Stress Programme",
-            "priceCurrency": "AED",
-            "price": "8500",
-            "description": "Three-month structured Ayurvedic treatment for chronic stress, mild-to-moderate anxiety, and burnout"
-          },
-          {
-            "@type": "Offer",
-            "name": "Comprehensive 6-Month Anxiety Programme",
-            "priceCurrency": "AED",
-            "price": "15000",
-            "description": "Six-month integrated programme for generalised anxiety, post-trauma patterns, and complex anxiety alongside psychiatric care"
-          }
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Ayurveda for Stress & Anxiety in Dubai — A Complete Clinical Guide",
-      "image": "https://vedaracare.ae/images/stress-anxiety-ayurveda-dubai-hero.jpg",
-      "datePublished": "2026-05-28",
-      "dateModified": "2026-05-28",
-      "author": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic",
-        "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}
-      },
-      "mainEntityOfPage": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/"
-    },
-    {
-      "@context": "https://schema.org",
-      "@id": "https://vedaracare.ae/#organization",
-      "@type": "Organization",
-      "name": "Vedara Care Polyclinic",
-      "url": "https://vedaracare.ae/",
-      "logo": "https://vedaracare.ae/logo.png",
-      "address": SCHEMA_ADDRESS
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Ayurveda for Stress & Anxiety in Dubai", "item": "https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": stressAnxietyFaqs.faqs.map(faq => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
-    }
-  ];
+const FAQS = stressAnxietyFaqs;
 
+const PAGE = {
+  url: 'https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/',
+  title: 'Ayurvedic Treatment for Stress & Anxiety, JVC Dubai | Vedara',   // 60 characters
+  description: 'Ayurvedic care for stress, anxiety and burnout in JVC, Dubai: Shirodhara, herbs and routine, alongside your doctor or therapist. DHA-licensed clinic.',   // 149 characters
+  image: 'https://vedaracare.ae/images/stress-anxiety-ayurveda-dubai-hero.webp',
+  reviewed: '2026-11-10',
+};
+
+const SITE_URL = SITE.url;
+const URL = `${SITE_URL}/conditions/stress-anxiety-ayurveda-dubai/`;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = '2026-11-10';
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      email: 'booking@vedaracare.ae',
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
+    },
+    {
+      '@type': 'Physician',
+      '@id': ZAINAB_ID,
+      name: 'Dr. Zainab Sheikh',
+      url: `${SITE_URL}/doctors/dr-zainab-ayurveda/`,
+      medicalSpecialty: 'Ayurveda',
+      knowsLanguage: ['en', 'ml', 'hi'],
+      worksFor: { '@id': ORG_ID },
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Ayurvedic Treatment for Stress & Anxiety, JVC Dubai | Vedara',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#condition` },
+      mainEntity: { '@id': `${URL}#therapy` },
+      audience: { '@type': 'PatientAudience' },
+      primaryImageOfPage: `${SITE_URL}/images/stress-anxiety-ayurveda-dubai-hero.webp`,
+      datePublished: REVIEWED,
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
+    },
+    {
+      '@type': 'MedicalCondition',
+      '@id': `${URL}#condition`,
+      name: 'Stress and anxiety',
+      alternateName: ['Chronic stress', 'Burnout', 'Anxiety'],
+      possibleTreatment: { '@id': `${URL}#therapy` },
+    },
+    {
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#therapy`,
+      name: 'Ayurvedic support for stress and anxiety',
+      alternateName: ['Ayurveda for stress', 'Ayurveda for anxiety', 'Ayurvedic treatment for burnout'],
+      description: "Ayurvedic supportive care for stress, anxiety and burnout — Shirodhara, Abhyanga, Nasya, prescribed herbs and daily routine — given alongside, not instead of, psychiatric or psychological care.",
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      indication: ['Chronic stress', 'Mild to moderate anxiety', 'Burnout', 'Stress-related insomnia'].map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['Suicidal ideation or self-harm (urgent care first)', 'Severe depression or anxiety (specialist care first)', 'Psychosis or bipolar disorder'].map((name) => ({ '@type': 'MedicalContraindication', name })),
+      adverseOutcome: ['Drowsiness', 'Herb-medicine interactions if unsupervised'].map((name) => ({ '@type': 'MedicalEntity', name })),
+    },
+    {
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Ayurvedic support for stress and anxiety in JVC, Dubai',
+      serviceType: 'Ayurvedic support for stress and anxiety',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Ayurvedic support for stress and anxiety in JVC', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: FAQS.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
+const StressAnxietyAyurvedaDubai = () => {
   return (
     <>
       <Head>
-        <title>Ayurveda for Stress & Anxiety in Dubai | JVC Clinic | Vedara Care</title>
-        <meta name="description" content="DHA-licensed Ayurvedic treatment for chronic stress, anxiety, and burnout at our JVC clinic, Dubai. Shirodhara, herbal medicines, sleep protocols. Alongside psychiatry where appropriate." />
-        <link rel="canonical" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/" />
-        <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/" />
-        <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/" />
-        <meta property="og:title" content="Ayurveda for Stress & Anxiety in Dubai — Treatment at Our JVC Clinic" />
-        <meta property="og:description" content="DHA-licensed Ayurvedic treatment for chronic stress, anxiety, burnout, and post-trauma patterns at our Jumeirah Village Circle clinic. Alongside psychiatry and therapy where appropriate." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/stress-anxiety-ayurveda-dubai.jpg" />
-        <meta property="og:url" content="https://vedaracare.ae/conditions/stress-anxiety-ayurveda-dubai/" />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
-        <meta property="article:published_time" content="2026-05-28" />
-        <meta property="article:modified_time" content="2026-05-28" />
-        <meta property="article:author" content="Dr. Zainab Sheikh" />
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
+
+        {/* Schema Markup */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       </Head>
-      <main>
-        <AyurvedaHero {...stressAnxietyHero} />
-        <AyurvedaIntro {...stressAnxietyIntro} bgColor="bg-white" />
-        <TreatmentMechanism 
-          {...stressAnxietyMechanism}
-          bgColor="bg-[#EAE3D5]"
-        />
-        <ArthritisTypes 
-          {...stressAnxietyPatterns}
-          bgColor="bg-white"
-          cardBg="bg-[#F6F1E9]"
-        />
-        <PositioningStatement 
-          {...stressAnxietyPositioning}
-          bgColor="bg-[#F6F1E9]"
-          cardBg="bg-white"
-        />
-        <ArthritisPillars 
-          {...stressAnxietyPillars}
-          bgColor="bg-white"
-          cardBg="bg-[#F6F1E9]"
-        />
-        <StressAnxietyTimeline {...stressAnxietyTimelineData}
-         />
 
-        <StressAnxietySleepSection {...stressAnxietySleepSectionData} />
-
-        <ClinicalBoundaries 
-          {...stressAnxietyBoundaries}
-          bgColor="bg-[#F6F1E9]"
-          cardBg="bg-[#F6F1E9]"
-        />
-
-        <TreatmentReviews {...ayurvedaReviewsBlock()} />
-
-        <TreatmentPrograms 
-          {...stressAnxietyPrograms}
-          bgColor="bg-white"
-        />
-        <FAQ {...stressAnxietyFaqs} 
-        bgColor="bg-[#EAE3D5]"
-        />
-
-        <StressAnxietyVisitSection {...stressAnxietyVisitSectionData} />
-        <FinalCTA 
-          {...stressAnxietyCTA}
-          bgColor="bg-[#F6F1E9]"
-        />
-        <RelatedPages 
-          {...stressAnxietyRelatedPages}
-          bgColor="bg-[#EAE3D5]"
-        />
-      </main>
+      {/* Render order: */}
+      <AyurvedaHero {...stressAnxietyHero} />
+      <AyurvedaIntro {...stressAnxietyIntro} />
+      <ClinicalBoundaries {...stressAnxietyUrgent} />
+      <TreatmentMechanism {...stressAnxietyMechanism} />
+      <TreatmentOils {...stressAnxietyPatterns} />
+      <TreatmentOils {...stressAnxietyPlan} />
+      <TreatmentProtocol {...stressAnxietyProtocol} />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
+      <FAQ {...stressAnxietyFaqs} />
+      <TreatmentLocation {...stressAnxietyLocation} />
+      <FinalCTA {...stressAnxietyCTA} />
+      <RelatedPages {...stressAnxietyRelatedPages} />
     </>
   );
 };
 
-export default AyurvedaStressAnxiety;
+export default StressAnxietyAyurvedaDubai;

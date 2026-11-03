@@ -218,6 +218,8 @@ export const nasyaRelatedPages = {
     { title: "Panchakarma", description: "Nasya is one of the five Panchakarma actions.", href: "/treatments/panchakarma-dubai/" },
     { title: "Shirodhara", description: "Warm-oil therapy for stress, sleep and headaches.", href: "/treatments/shirodhara-dubai/" },
     { title: "Ayurveda for migraine", description: "How migraine is treated with Ayurveda.", href: "/conditions/migraine-ayurveda-dubai/" },
+    { title: "Ayurvedic skin treatment", description: "Ayurvedic care for skin and scalp conditions.", href: "/conditions/skin-ayurveda-dubai/" },
+    { title: "Ayurveda for stress and anxiety", description: "Nasya and Shirodhara for mental calm and stress relief.", href: "/conditions/stress-anxiety-ayurveda-dubai/" },
     { title: "Ayurvedic consultation", description: "Pulse diagnosis and a full assessment.", href: "/treatments/nadi-pareeksha-jvc/" }
   ]
 };

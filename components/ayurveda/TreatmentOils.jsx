@@ -94,14 +94,13 @@ const TreatmentOils = ({
                   Typically prescribed for:
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  {oil.indication.split(', ').map((item, i) => (
+                  {oil.indication && oil.indication.split(', ').map((item, i) => (
                     <span 
                       key={i}
-                      className="text-xs px-3 py-1 rounded-full"
+                      className="text-xs px-3 py-1 rounded-full [&_a]:underline hover:[&_a]:text-[#B8915A] transition-colors"
                       style={{ background: 'rgb(245, 240, 232)', color: 'rgb(90, 82, 72)' }}
-                    >
-                      {item}
-                    </span>
+                      dangerouslySetInnerHTML={{ __html: item }}
+                    />
                   ))}
                 </div>
               </div>

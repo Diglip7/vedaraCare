@@ -1,53 +1,45 @@
+// data/pcosData.js
+
 export const pcosHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Conditions", href: "/conditions/" },
-    { label: "Ayurveda for PCOS in Dubai", active: true }
+    { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
+    { label: "PCOS (Ayurveda)", active: true }
   ],
-  label: "AYURVEDIC TREATMENT FOR PCOS · DHA-LICENSED CLINIC IN JVC, DUBAI",
-  title: "PCOS is more than irregular cycles. Your treatment plan should be more than metformin and birth control.",
-  description: "Authentic Ayurvedic treatment for PCOS in Dubai addresses the underlying metabolic and hormonal patterns — not just the symptoms. This page is written for women who have read enough Instagram posts about PCOS and want to understand what a serious 3 to 6-month Ayurvedic programme actually involves, who it works for, and where the honest limits are. Written by the female BAMS-qualified physicians at our JVC clinic.",
-  primaryCTA: "Book PCOS Consultation",
+  label: "AYURVEDA FOR PCOS & PCOD · JVC, DUBAI · DHA FACILITY LICENCE 2509266",
+  title: "Ayurvedic treatment for PCOS and PCOD in JVC, Dubai — with a female Ayurvedic doctor.",
+  description: "Support for irregular cycles, weight, skin and energy through diet, routine, prescribed herbs and therapies, planned by Dr. Zainab Sheikh (BAMS, MD Ayurveda) alongside your gynaecologist. Our GP can arrange blood tests and a pelvic ultrasound. Near Circle Mall, JVC.",
+  primaryCTA: "Book a PCOS consultation",
+  primaryCTAHref: "/book/",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20PCOS%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
-  trustSignals: [
-    "Female Ayurvedic Physicians",
-    "Comprehensive Hormonal Care",
-    "Works Alongside Your Gynaecologist",
-    "From AED 450 per consultation"
-  ],
-  floatingCard: {
-    title: "WE HEAR YOU FIRST",
-    subtitle: "First consultation is 60 minutes. Most of it is you talking. We listen before we prescribe."
-  },
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Ayurvedic%20PCOS%20care.",
+  trustSignals: ["DHA Facility Licence 2509266", "Female Ayurvedic doctor (BAMS, MD)", "GP blood tests and scan referral", "Near Circle Mall, JVC"],
+  floatingCard: { title: "ALONGSIDE YOUR GYNAECOLOGIST", subtitle: "Ayurveda supports your care; it does not replace it." },
   image: "/images/pcos-ayurveda-dubai-hero.webp",
-  alt: "Female Ayurvedic doctor in PCOS consultation with female patient at Vedara Care JVC Dubai"
+  alt: "Female Ayurvedic doctor consulting a patient about PCOS at Vedara Care, JVC Dubai"
 };
 
 export const pcosIntro = {
-  bgColor: "bg-[#FFFFFF]",
+  bgColor: "bg-white",
   label: "THE QUICK ANSWER",
-  title: "Ayurvedic treatment for PCOS in Dubai, in one paragraph.",
-  blockquote: "Ayurvedic treatment for PCOS in Dubai is a 3 to 6-month structured programme combining classical <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> cleansing protocols (<a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Virechana</a> and selective Basti), constitution-specific herbal medicines (typically including Shatavari, Ashoka, Guduchi, and Kanchanara Guggulu), individualized dietary regulation based on dosha analysis, lifestyle and stress management protocols, and where indicated, integration with your gynaecologist. At Vedara Care Polyclinic in Jumeirah Village Circle, our female BAMS-qualified Ayurvedic physicians design protocols for irregular cycles, insulin resistance, weight management, hirsutism, hair loss, acne, and fertility support. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2026"
+  title: "Ayurveda for PCOS, in one paragraph.",
+  blockquote: "Ayurvedic care for PCOS (also called PCOD) aims to support more regular cycles, healthier weight and blood sugar, clearer skin and better energy through diet and daily routine, prescribed herbs such as Shatavari or Kanchanara Guggulu, and, where suitable, Panchakarma or Basti. Studies suggest a promising role for Ayurveda in managing PCOS symptoms, but research is still limited, so results vary and it works best alongside your gynaecologist. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), near Circle Mall, care starts with a 45 to 60 minute consultation with Dr. Zainab Sheikh, a female Ayurvedic doctor (BAMS, MD Ayurveda, DHA-licensed), and our GP can arrange PCOS blood tests and a pelvic ultrasound at the same clinic. Plans are reviewed regularly and their length depends on your needs. The clinic is open daily 9am to 10pm and is close to JVT, Al Barsha South and Arjan.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, BAMS, MD (Ayurveda), DHA licence 20918133. Reviewed November 2026."
 };
-
 
 export const pcosMechanism = {
-  bgColor: "bg-[#F5F1E8]",
-  label: "WHY YOU ARE HERE",
-  title: "PCOS is the most under-treated common condition in women's health.",
-  content: [
-    "Roughly one in seven women in Dubai live with PCOS — a prevalence higher than the global average, partly due to genetic factors common in South Asian and Middle Eastern populations, partly due to lifestyle patterns common to expat life in the UAE.",
-    "Most are offered the same protocol: metformin for insulin resistance, combined oral contraceptives for cycle regulation, often a recommendation to 'lose weight' without specific guidance on how. For some women, this protocol works. For many — perhaps most — it manages symptoms without addressing the underlying patterns. Side effects accumulate. The acne returns. The weight does not move. The next gynaecology appointment ends with the same prescriptions and a fifteen-minute slot.",
-    "Authentic Ayurvedic treatment for PCOS does not replace your gynaecologist. It does what conventional 15-minute appointments cannot — a thorough constitutional assessment, a 3-6 month structured programme addressing the metabolic root, and the time to actually treat PCOS as the complex endocrine-metabolic-dosha imbalance it is. Your conventional doctor manages the markers. Ayurveda addresses what is underneath."
-  ],
-  quote: "PCOS is not one condition. It is a clinical pattern with at least four major presentations. Your treatment plan should reflect that.",
+  bgColor: "bg-[#F9F6F1]",
+  label: "HOW AYURVEDA SEES PCOS",
+  title: "Addressing cycles, metabolism and digestion together.",
   image: "/images/pcos-research-dubai-woman.webp",
-  alt: "Dubai woman researching PCOS treatment options — Ayurvedic perspective on under-treated condition"
+  alt: "Ayurvedic consultation for PCOS at Vedara Care, JVC Dubai",
+  content: [
+    "PCOS affects cycles, hormones and metabolism, and looks different in every woman: some have irregular periods, some weight and insulin resistance, some acne or extra hair growth, many a mix.",
+    "Ayurveda links PCOS mainly to Kapha and Vata imbalance and weak digestion (Agni; see <a href='/conditions/ibs-ayurveda-dubai/'>Ayurveda for IBS and digestion</a>), and treats the whole picture: food, routine, sleep, stress and herbs, with cleansing therapies when needed.",
+    "What does the research say? A 2023 scoping review found 57 studies of Ayurveda in PCOS, including 13 randomised trials, with a promising role in managing symptoms but clear gaps in the evidence. That is why we work alongside your gynaecologist and track progress with tests."
+  ],
+  sources: "Source: <a href='https://researchers.westernsydney.edu.au/en/publications/a-scoping-review-of-ayurveda-studies-in-women-with-polycystic-ova/' target='_blank' rel='noopener'>Rao et al. 2023, scoping review of Ayurveda studies in PCOS (J Integr Complement Med)</a>"
 };
-
-
 
 export const pcosPhenotypes = {
   bgColor: "bg-[#FFFFFF]",
@@ -59,30 +51,34 @@ export const pcosPhenotypes = {
     {
       letter: "A",
       title: "Classic PCOS",
+      subtitle: "Hyperandrogenism + Ovulatory Dysfunction + Polycystic Ovaries",
       description: "Hyperandrogenism + Ovulatory Dysfunction + Polycystic Ovaries",
       content: "The 'full picture' presentation. Irregular or absent cycles, signs of androgen excess (acne, hirsutism, hair loss), and polycystic appearance on ultrasound. Usually the most insulin-resistant phenotype. Most commonly seen in South Asian and Middle Eastern women in Dubai, often diagnosed in late teens or early 20s.",
-      ayurvedicEmphasis: "Virechana-led Panchakarma, Kanchanara Guggulu, comprehensive metabolic protocol, sustained 6-month programme"
+      ayurvedicEmphasis: "Diet and metabolic focus, herbs such as Kanchanara Guggulu, Panchakarma if suitable"
     },
     {
       letter: "B",
       title: "Ovulatory PCOS",
+      subtitle: "Hyperandrogenism + Polycystic Ovaries (regular cycles)",
       description: "Hyperandrogenism + Polycystic Ovaries (regular cycles)",
       content: "Cycles appear regular on the surface but ovulation may be irregular or absent. Androgen symptoms present. Often misdiagnosed because cycles look normal. Common in women trying to conceive who cannot understand why.",
-      ayurvedicEmphasis: "Detailed cycle-tracking protocols, Shatavari-based programmes, <a href=\"/treatments/rasayana-ayurveda-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">fertility-supportive Rasayana</a>, 4-6 month programme"
+      ayurvedicEmphasis: "Cycle support, herbs such as Shatavari, diet and routine"
     },
     {
       letter: "C",
       title: "Non-Hyperandrogenic PCOS",
+      subtitle: "Ovulatory Dysfunction + Polycystic Ovaries (no androgen excess)",
       description: "Ovulatory Dysfunction + Polycystic Ovaries (no androgen excess)",
       content: "Irregular cycles and polycystic ovaries on ultrasound but no acne, hirsutism, or hair loss. Often the most stress-driven and Vata-dominant phenotype. Frequently seen in athletic, high-achieving women.",
-      ayurvedicEmphasis: "Stress reduction protocols (Shirodhara, Abhyanga), Vata-pacifying herbs, dietary regulation, 4-month programme"
+      ayurvedicEmphasis: "Stress and sleep support (Shirodhara, Abhyanga), calming herbs, diet"
     },
     {
       letter: "D",
       title: "Mild PCOS",
+      subtitle: "Hyperandrogenism + Ovulatory Dysfunction (no polycystic ovaries on ultrasound)",
       description: "Hyperandrogenism + Ovulatory Dysfunction (no polycystic ovaries on ultrasound)",
       content: "Androgen symptoms and irregular cycles but ultrasound is normal. Often the most controversial phenotype to diagnose. Many women in this category are told they 'don't really have PCOS' — but the metabolic patterns and symptoms are real.",
-      ayurvedicEmphasis: "Dosha-specific herbal protocols, careful metabolic assessment, integration with endocrinology if needed, 3-6 month programme"
+      ayurvedicEmphasis: "Herbs for your pattern, diet, and GP tests to rule out other causes"
     }
   ],
   footer: "Not sure which phenotype you are? Your initial consultation includes review of your existing diagnoses, ultrasound reports, and hormone panels. Most patients learn at their consultation that they are a different phenotype than they had been treating themselves as."
@@ -90,452 +86,210 @@ export const pcosPhenotypes = {
 
 export const pcosBenefits = {
   bgColor: "bg-[#EDE8DE]",
-  label: "THE TREATMENT APPROACH",
-  title: "PCOS treatment in classical Ayurveda has four pillars. Skip any one and outcomes plateau.",
+  label: "THE AYURVEDIC APPROACH",
+  title: "What Ayurvedic PCOS care includes.",
   benefitGroups: [
-    {
-      title: "Panchakarma Cleansing ",
-      description: "The classical detoxification protocol that addresses insulin resistance, lipid metabolism, and hormonal clearance. For PCOS, <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Virechana</a> (medicated purgation targeting liver and Pitta) is the most-prescribed action, often followed by selective Basti (medicated enema). Typically performed once during the programme — usually in month 2 — over 7-14 days. Learn more in our <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma guide</a>.",
-      benefits: [
-
-      ]
-    },
-    {
-      title: "Constitution-Specific Herbal Medicines",
-      description: "Internal Ayurvedic medicines selected for your dosha pattern, phenotype, and specific symptoms. Core medicines often include Shatavari (for hormonal balance), Ashoka (for uterine support), Guduchi (for metabolic and immune support), and Kanchanara Guggulu (for follicular regulation). Specific combinations are dosed for 3-6 months with adjustments at each monthly review.",
-      benefits: [
-
-      ]
-    },
-    {
-      title: "Individualized Dietary Regulation",
-      description: "Not a generic 'PCOS diet.' A specific eating protocol designed around your dosha, your phenotype, your insulin resistance markers, and your real life in Dubai — accounting for your cultural food preferences, work schedule, family meals, and access to ingredients. Implemented gradually. Sustainable for the 6 months it takes to see meaningful change.",
-      benefits: [
-
-      ]
-    },
-    {
-      title: "Lifestyle, Sleep & Stress Protocols",
-      description: "PCOS is profoundly stress-responsive. Cortisol dysregulation worsens insulin resistance. Sleep quality affects every hormone in your body. Our programmes include specific protocols for sleep (often <a href=\"/treatments/shirodhara-dubai/\" class=\"doctor-specialty-link\">Shirodhara-supported</a>), stress regulation, exercise prescription, and lifestyle modification — calibrated to what you can actually sustain.",
-      benefits: [
-
-      ]
-    }
-
+    { title: "Diet and routine", description: "Regular, warm, freshly cooked meals, fewer refined carbohydrates and sugary drinks, regular sleep.", benefits: ["Supports weight and blood sugar", "Adapted to your constitution"] },
+    { title: "Prescribed herbs", description: "For example Shatavari or Kanchanara Guggulu, chosen for your pattern and checked against your medicines.", benefits: ["Bought at a licensed pharmacy", "Reviewed at follow-ups"] },
+    { title: "Therapies", description: "<a href='/treatments/panchakarma-dubai/'>Panchakarma</a> (often Virechana) or <a href='/treatments/basti-jvc/'>Basti</a> when suitable; <a href='/treatments/shirodhara-dubai/'>Shirodhara</a> or Abhyanga for stress.", benefits: ["After assessment", "Female therapists"] },
+    { title: "Tests and monitoring", description: "Our GP can arrange hormone tests, insulin or HbA1c and a pelvic ultrasound.", benefits: ["Progress checked, not guessed", "Shared with your gynaecologist if you wish"] }
   ],
-  footer: "Each pillar without the others delivers incomplete results. The 'herbal medicine alone' or 'just do Panchakarma' approaches that some clinics offer for PCOS are exactly why patients return six months later having seen little change."
+  footer: ""
 };
-
 
 export const pcosProtocol = {
   bgColor: "bg-white",
-  label: "WHAT TO EXPECT",
-  title: "What six months of PCOS treatment at Vedara Care actually looks like.",
-  subtitle: "A representative protocol. Your specific plan varies based on phenotype, symptom severity, and life context — but this gives you a realistic picture of the commitment and what unfolds.",
+  label: "HOW IT WORKS",
+  title: "Your PCOS care at Vedara, step by step.",
+  subtitle: "Plan length depends on your needs; most plans run for a few months.",
   steps: [
-    {
-      week: "MONTH 1",
-      title: "Assessment & Foundation",
-      items: [
-        "Initial 60-minute consultation with female Ayurvedic physician",
-        "Review of existing diagnoses, ultrasounds, hormone panels, current medications",
-        "Pulse diagnosis, dosha assessment, phenotype classification",
-        "Cycle history mapping and symptom baseline",
-        "Initial herbal medicine protocol begins",
-        "Dietary plan introduced gradually",
-        "Weekly <a href=\"/treatments/abhyanga-dubai/\" class=\"doctor-specialty-link\">Abhyanga</a> (3-4 sessions) for foundational Vata pacification"
-      ],
-      expected: "Clear phenotype diagnosis, baseline tracking established, initial medicines well-tolerated, first dietary adjustments adopted"
-    },
-    {
-      week: "MONTH 2",
-      title: "<a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> Cleansing",
-      items: [
-        "7-14 day <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> programme (timing planned around your cycle)",
-        "Pre-Panchakarma preparation (Snehapana, <a href=\"/treatments/abhyanga-dubai/\" class=\"doctor-specialty-link\">Abhyanga</a>, Swedana)",
-        "<a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Virechana</a> as primary action; selective Basti where indicated",
-        "Structured Paschatkarma (recovery) with specific dietary protocol",
-        "Resumption of monthly herbal medicines with adjusted dosing post-Panchakarma"
-      ],
-      expected: "Significant initial shifts often visible — improved digestion, better sleep, some cycle regulation. Patients commonly describe feeling \"lighter\" or \"clearer\""
-    },
-    {
-      week: "MONTH 3",
-      title: "Active Treatment Phase",
-      items: [
-        "Mid-programme doctor review with updated assessment",
-        "Refined herbal medicine protocol",
-        "Dietary plan deepened based on response",
-        "Specific lifestyle protocols added (sleep optimisation, stress regulation)",
-        "Weekly or fortnightly <a href=\"/treatments/shirodhara-dubai/\" class=\"doctor-specialty-link\">Shirodhara</a> if stress is a major factor",
-        "First cycle data review (typically 2-3 cycles since starting)"
-      ],
-      expected: "Meaningful change typically visible — cycle regulation improving, acne and skin texture changes, energy improvements, sometimes weight changes"
-    },
-    {
-      week: "MONTH 4",
-      title: "Consolidation",
-      items: [
-        "Continued herbal medicines with phenotype-specific adjustments",
-        "Continued dietary protocol with cultural integration",
-        "Possible second short <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> (5-7 days) for complex phenotypes",
-        "Ongoing symptom and cycle tracking",
-        "Lab work review (if you bring updated hormone panels)"
-      ],
-      expected: "Cycle regularity often substantially improved, insulin resistance markers may show change on bloodwork, symptomatic improvements consolidating"
-    },
-    {
-      week: "MONTH 5",
-      title: "Refinement",
-      items: [
-        "Personalised medicine protocol approaching maintenance dose",
-        "Dietary plan transitioning to long-term sustainable version",
-        "Stress and sleep protocols becoming habit rather than effort",
-        "Discussion of fertility timing if applicable",
-        "Plan for life beyond the active programme"
-      ],
-      expected: "Most symptomatic improvements stable, cycle pattern often near-regular, lifestyle changes becoming natural"
-    },
-    {
-      week: "MONTH 6",
-      title: "Discharge & Long-Term Plan",
-      items: [
-        "Final comprehensive review",
-        "Transition to maintenance protocol",
-        "Home herbal protocol (3-month maintenance course)",
-        "Lifestyle and dietary plan documented for long-term",
-        "3-month and 6-month follow-up appointments scheduled",
-        "Annual return visits recommended for many patients"
-      ],
-      expected: "Substantial sustained improvement, clear home maintenance protocol, return to gynaecology with documented improvements for joint review"
-    }
+    { week: "STEP 1", title: "Consultation", items: ["45-60 minute consultation with Dr. Zainab", "Your cycles, symptoms, diet, sleep and medicines", "Constitution and pulse assessment"] },
+    { week: "STEP 2", title: "Tests", items: ["Our GP arranges hormone tests, insulin or HbA1c and a pelvic ultrasound if needed", "Or bring recent results"] },
+    { week: "STEP 3", title: "Your plan", items: ["Diet and routine", "Prescribed herbs", "Therapies if suitable"] },
+    { week: "STEP 4", title: "Reviews", items: ["Regular follow-ups", "Plan adjusted to how you respond", "Repeat tests when useful"] }
   ],
-  footer: "This is a representative 6-month programme. Some patients need 4 months, others need 9. Some need a second Panchakarma in month 4 or 5. Some need ongoing support beyond 6 months. Your plan is documented and updated at each monthly review — never a static package."
+  footer: ""
 };
 
 export const pcosSymptoms = {
   bgColor: "bg-[#F7F3EC]",
-  label: "REALISTIC EXPECTATIONS",
-  title: "What changes when — symptom by symptom.",
-  description: "PCOS symptoms respond on different timelines. Understanding this prevents the disappointment of expecting acne to clear in week three when realistically it takes 8-12 weeks.",
+  label: "WHAT TO EXPECT",
+  title: "Symptoms change at different speeds.",
+  description: "Everyone responds differently; these are general patterns, not promises.",
   symptoms: [
-    {
-      title: "Irregular Cycles",
-      content: "The most-asked-about symptom. Most patients see initial cycle changes within 2 months — first cycle typically more predictable than baseline, second more so. Substantial regulation (cycles within a 28-35 day window) usually emerges by months 3-4. Full stability typically by month 6.",
-      expected: "Expected meaningful change: Months 2-4"
-    },
-    {
-      title: "<a href=\"/conditions/weight-loss-ayurveda-dubai/\" class=\"hover:underline\">Insulin Resistance and Weight</a>",
-      content: "Insulin resistance markers (HOMA-IR, fasting insulin) typically show change on bloodwork by month 3-4. Weight changes vary enormously — some patients see meaningful loss by month 4, others not until month 6 or beyond. Body composition (muscle vs fat ratio) usually improves before scale weight does.",
-      expected: "Expected meaningful change: Months 3-4"
-    },
-    {
-      title: "<a href=\"/conditions/skin-ayurveda-dubai/\" class=\"hover:underline\">Acne and Skin</a>",
-      content: "Hormonal acne is one of the slower-responding symptoms. Initial improvement in skin texture and oiliness often visible by month 2. Significant acne reduction typically emerges months 3-5. Old acne scarring takes longer or requires <a href=\"/dermatology-clinic-jvc/\" class=\"doctor-specialty-link\">dermatology</a> integration.",
-      expected: "Expected meaningful change: Months 3-5"
-    },
-    {
-      title: "Hirsutism (Unwanted Hair Growth)",
-      content: "The slowest-responding PCOS symptom. Hair follicles affected by androgen exposure need 4-6 months to show pattern change. Realistic expectations: thicker hair growing in finer over months 4-6. Existing hair density does not reduce; new growth pattern shifts.",
-      expected: "Expected meaningful change: Months 4-6"
-    },
-    {
-      title: "<a href=\"/conditions/hair-loss-ayurveda-dubai/\" class=\"hover:underline\">Hair Loss (Scalp)</a>",
-      content: "Androgenic hair thinning responds to reduced androgen activity but new hair growth is slow. Reduction in shedding typically by month 2-3. Visible regrowth by month 5-6. Long-term hair density restoration takes 8-12 months total.",
-      expected: "Expected meaningful change: Months 5-6"
-
-    },
-    {
-      title: "Mood, Energy, Sleep",
-      content: "Often the first symptoms to improve — sometimes by week 4-6. Reduction in PMS severity, <a href=\"/conditions/migraine-ayurveda-dubai/\" class=\"hover:underline\">menstrual migraine</a> reduction, improved sleep quality, more stable energy through the day, and lower baseline anxiety usually emerge in the first 6-8 weeks. This early improvement is often what keeps patients committed through the slower-changing symptoms.",
-      expected: "Expected meaningful change: Months 1-3"
-    }
+    { title: "Irregular cycles", content: "Often among the first things to change when diet, routine and herbs settle in.", expected: "" },
+    { title: "<a href='/conditions/weight-loss-ayurveda-dubai/'>Weight and insulin resistance</a>", content: "Change is gradual and depends a lot on diet and activity; tests help track it.", expected: "" },
+    { title: "<a href='/conditions/skin-ayurveda-dubai/'>Acne and skin</a>", content: "Skin usually improves slowly, over a few months.", expected: "" },
+    { title: "Extra hair growth", content: "The slowest to change; Ayurveda can support, but other treatments may also be needed.", expected: "" },
+    { title: "<a href='/conditions/hair-loss-ayurveda-dubai/'>Hair thinning</a>", content: "Shedding may settle before new growth is seen.", expected: "" },
+    { title: "Mood, energy and sleep", content: "Often helped by routine, sleep and calming therapies; see <a href='/conditions/migraine-ayurveda-dubai/'>Ayurveda for migraine</a> if headaches are linked to cycles.", expected: "" }
   ],
-  footer: "Your specific timeline depends on phenotype, severity, adherence to dietary and lifestyle protocols, and underlying factors like genetics and life stress. We track each symptom monthly and adjust the protocol based on response."
+  footer: "We review your progress regularly and adjust the plan."
 };
 
 export const pcosFertility = {
   bgColor: "bg-[#2D5F4F]",
-  label: "A SPECIFIC SECTION FOR SOMETHING THAT MATTERS",
-  title: "PCOS, fertility, and Ayurveda — honestly.",
+  label: "PCOS AND PREGNANCY",
+  title: "Trying to conceive with PCOS? Here is where Ayurveda fits.",
   image: "/images/pcos-fertility-ayurveda-dubai.webp",
-  imageAlt: "Dubai woman thoughtful in soft natural light — PCOS fertility treatment integrated with Ayurveda",
+  imageAlt: "Woman with PCOS discussing pregnancy plans at Vedara Care, JVC Dubai",
   paragraphs: [
-    "Many women with PCOS come to Ayurveda specifically because they are trying to conceive. The honest position is this: Ayurvedic treatment cannot replace fertility medicine, but it can meaningfully improve the conditions in which fertility medicine works.",
-    "What Ayurvedic treatment for PCOS can realistically do for fertility: improve cycle regularity, support ovulation in some Phenotype B and C patients, reduce insulin resistance that interferes with implantation, address inflammation, and improve overall metabolic health before conception. For many women with mild to moderate PCOS, this is sometimes enough to conceive naturally.",
-    "What Ayurvedic treatment cannot do: induce ovulation in patients with severe anovulation, address tubal factors, replace IVF or IUI when fertility specialists indicate them, or guarantee conception. For severe PCOS phenotypes or longer-standing infertility, Ayurveda is most useful alongside a fertility specialist — improving the body's response to treatment rather than replacing it.",
-    "We work with several Dubai <a href=\"/partners/\" class=\"doctor-specialty-link\">fertility clinics</a> for joint patients. Many of our most-successful conception stories involve Ayurvedic preparation for 3-6 months, then IUI or IVF — and the fertility specialist often comments on how responsive the treatment cycle is."
+    "Many women with PCOS come to Ayurveda while trying to conceive. Ayurveda may help by supporting more regular cycles, weight and stress, but it cannot guarantee pregnancy.",
+    "If you are trying to conceive, please also see a gynaecologist or fertility doctor. We work alongside them and never ask you to delay their tests or treatment.",
+    "If you become pregnant, tell us straight away: herbs and therapies are reviewed for pregnancy."
   ],
-  buttonText: "Book a Fertility-Focused PCOS Consultation"
+  buttonText: "Book a PCOS consultation"
 };
 
 export const pcosBoundaries = {
   bgColor: "bg-[#F5F0E8]",
-  label: "HONEST CLINICAL BOUNDARIES",
-  title: "When we refer you elsewhere first.",
-  description: "Ayurvedic treatment for PCOS is powerful. It is not the right starting point for every woman.",
+  label: "SAFETY & INTEGRATION",
+  title: "When to see your doctor first, and when we work alongside them.",
+  description: "Ayurvedic PCOS care supports your health; it does not replace medical evaluation.",
   columns: [
     {
-      title: "When conventional evaluation comes first",
-      label: "GET EVALUATED FIRST",
+      label: "GET CHECKED FIRST",
+      title: "See your doctor or our GP first if you have:",
       items: [
-        "You have not had a recent gynaecological evaluation (Ayurveda complements, does not replace)",
-        "You suspect non-PCOS hormonal disorders (Cushing's, thyroid disorders, adrenal hyperplasia, prolactinoma)",
-        "You have been bleeding for more than 14 consecutive days (needs urgent evaluation)",
-        "You have severe pelvic pain (needs to rule out <a href=\"/conditions/endometriosis-ayurveda-dubai/\" class=\"doctor-specialty-link\">endometriosis</a>, fibroids, other pathology)",
-        "You are pregnant or could be pregnant (different protocols entirely)",
-        "You have undiagnosed mental health symptoms that need primary attention"
+        "No recent gynaecology check or ultrasound (our GP can arrange tests and a scan)",
+        "Very heavy bleeding, or bleeding for more than 14 days",
+        "Possible pregnancy",
+        "Symptoms that may be another hormonal condition (thyroid, prolactin, adrenal) — our GP can test"
       ]
     },
     {
-      title: "When Ayurveda works best alongside, not instead",
-      label: "BEST USED IN COMBINATION",
+      label: "BEST ALONGSIDE YOUR DOCTOR",
+      title: "Ayurveda works best alongside your care if you are:",
       items: [
-        "You are on metformin and want to address root patterns alongside (Ayurveda can complement, sometimes allow dose reduction over time with your gynaecologist's input)",
-        "You are trying to conceive and using ovulation induction (Ayurvedic preparation improves cycle response)",
-        "You have insulin resistance with diabetes risk (Ayurveda alongside endocrinology, not instead)",
-        "You are post-bariatric surgery (Ayurvedic support, not primary)",
-        "You have severe acne requiring <a href=\"/dermatology-clinic-jvc/\" class=\"doctor-specialty-link\">dermatology</a> (Ayurveda for root, dermatology for active lesions)"
+        "On metformin, the pill or fertility treatment",
+        "Trying to conceive",
+        "Living with diabetes or high blood pressure",
+        "Experiencing significant depression or anxiety"
       ]
     }
   ],
-  footer: "Real Ayurvedic doctors at our JVC clinic refer to your gynaecologist, endocrinologist, fertility specialist, or dermatologist when appropriate — and coordinate care, not compete with it."
-};
-
-export const pcosReviews = {
-  bgColor: "bg-[#FAF8F5]",
-  isDarkText: true,
-  label: "PATIENT OUTCOMES",
-  title: "Real PCOS outcomes from our JVC clinic.",
-  items: [
-    {
-      quote: "I was told 'you don't really have <a href=\"/conditions/pcos-ayurveda-dubai/\" class=\"hover:underline\">PCOS</a>.' Vedara confirmed Phenotype D and treated the real condition. I lost 11 kilos in 6 months — not as a diet, as a side effect of the treatment working.",
-      author: "Aisha M.",
-      details: "Phenotype D (Mild PCOS) · 6-Month Programme · Al Barsha South · January 2026"
-    },
-    {
-      quote: "Three years of IVF that did not work. Four months of Ayurvedic preparation, then one more IVF cycle. We have a 7-month-old daughter.",
-      author: "Anonymous (on request)",
-      details: "Phenotype B · Fertility-Focused Programme · Dubai Marina · 2025"
-    }
-  ],
-  stats: [
-    { value: "74%", label: "reported cycle improvement" },
-    { value: "87", label: "PCOS reviews" },
-    { value: "4.7", label: "stars on Google" }
-  ],
-  buttonText: "Read All PCOS Reviews →",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
+  footer: "Our GP and Dr. Zainab coordinate care with your gynaecologist or specialist."
 };
 
 export const pcosPrograms = {
   bgColor: "bg-white",
-  label: "TRANSPARENT PRICING",
-  title: "What Ayurvedic PCOS treatment in Dubai actually costs.",
-  description: "Indicative pricing for our three most-common PCOS programmes. Final pricing depends on phenotype, severity, and treatment intensity agreed at consultation.",
+  label: "HOW TO START",
+  title: "Three ways to start.",
+  description: "",
+  whatsappNumber: "971555736312",
   programs: [
-    {
-      name: "PCOS Initial Assessment",
-      price: "From AED 450",
-      duration: "1 session, 60 minutes",
-      features: [
-        "Comprehensive consultation with female Ayurvedic physician",
-        "Review of all existing diagnoses, scans, hormone panels",
-        "Phenotype classification (Rotterdam criteria)",
-        "Pulse diagnosis and dosha assessment",
-        "Written treatment plan with realistic expectations",
-        "Full programme pricing provided in writing",
-        "30-day initial herbal medicines included (if you choose to start)"
-      ],
-      bestFor: "First step for every PCOS patient — required before any treatment programme"
-    },
-    {
-      name: "Standard PCOS Programme",
-      price: "From AED 18,500",
-      duration: "6 months · ~24-30 visits",
-      featured: true,
-      badge: "Most Common for PCOS",
-      features: [
-        "All Initial Assessment components",
-        "6 months of herbal medicines (with monthly adjustments)",
-        "One Panchakarma cleansing programme (7-14 days, typically month 2)",
-        "Weekly Abhyanga during first month, fortnightly thereafter",
-        "Shirodhara as indicated (typically 7-14 sessions)",
-        "Monthly doctor reviews with protocol adjustments",
-        "Dietary, lifestyle, and stress protocols throughout",
-        "3-month and 6-month follow-up after programme"
-      ],
-      bestFor: "Standard PCOS treatment for Phenotypes A, B, and C; most patients fit this programme"
-    },
-    {
-      name: "Comprehensive PCOS + Fertility",
-      price: "From AED 24,500",
-      duration: "6-9 months · ~30-40 visits",
-      features: [
-        "All Standard Programme components",
-        "Additional fertility-specific protocols",
-        "Coordination with your fertility specialist (if applicable)",
-        "Cycle-specific timing of therapies for ovulation support",
-        "Extended herbal protocol with fertility-supportive medicines",
-        "Second Panchakarma (if indicated for conception preparation)",
-        "Coordinated handover for IUI/IVF cycles if planned",
-        "Extended 12-month follow-up"
-      ],
-      bestFor: "Women trying to conceive with PCOS, coordinated with fertility care, intensive multi-modal protocol"
-    }
+    { name: "PCOS consultation", price: "Prices shared on WhatsApp", duration: "45-60 minutes",
+      features: ["With Dr. Zainab (female Ayurvedic doctor)", "Pattern assessment", "Advice on tests", "Diet and routine plan"], bestFor: "Understanding your options",
+      buttonText: "Book a consultation", whatsappMessage: "Hello Vedara Care, I would like to book an Ayurvedic PCOS consultation." },
+    { name: "PCOS care plan", price: "Prices shared on WhatsApp", duration: "Length set by your doctor", featured: true,
+      features: ["Consultation and regular reviews", "GP tests and ultrasound if needed", "Prescribed herbs", "Diet and routine"], bestFor: "Cycles, weight, skin, energy",
+      buttonText: "Ask about the plan", whatsappMessage: "Hello Vedara Care, I would like to ask about an Ayurvedic PCOS care plan." },
+    { name: "Plan with Panchakarma", price: "Prices shared on WhatsApp", duration: "Length set by your doctor",
+      features: ["Everything in the plan", "Panchakarma or Basti if suitable"], bestFor: "Selected patients, after assessment",
+      buttonText: "Ask about Panchakarma", whatsappMessage: "Hello Vedara Care, I would like to ask about Panchakarma for PCOS." }
   ],
-  footer: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic women's health varies by plan. <a href=\"https://wa.me/971555736312\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> before booking to confirm coverage."
+  footer: "Vedara Care does not bill insurers directly; where treatment is for a diagnosed condition, we provide the invoice and report for a reimbursement claim."
 };
 
 export const pcosFaqs = {
-  bgColor: "bg-[#F5F0E8]",
+  bgColor: "bg-[#F9F6F1]",
   label: "PCOS QUESTIONS",
   sidebarLinks: [
-    { text: "Read about Panchakarma", href: "/treatments/panchakarma-dubai/" },
-    { text: "Read about Shirodhara", href: "/treatments/shirodhara-dubai/" }
+    { text: "Ayurvedic weight loss", href: "/conditions/weight-loss-ayurveda-dubai/" },
+    { text: "Ayurveda for thyroid", href: "/conditions/thyroid-ayurveda-dubai/" },
+    { text: "Ayurveda clinic in JVC", href: "/ayurveda-clinic-jvc/" }
   ],
-  title: "What women ask before starting Ayurvedic PCOS treatment.",
-  description: "For specific treatment details, see the Panchakarma and treatment pages. For women's health blog posts on PCOS, see our journal.",
-  buttonText: "Ask the Team",
-  buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20Ayurvedic%20PCOS%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  title: "Ayurveda for PCOS and PCOD: your questions answered.",
+  description: "Answers reviewed by Dr. Zainab Sheikh. For other therapies, see our <a href='/ayurveda-dubai/'>guide to Ayurvedic treatment in Dubai</a>.",
+  buttonText: "Ask the team on WhatsApp",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Ayurvedic%20PCOS%20care.",
   faqs: [
-    {
-      question: "Does Ayurvedic treatment actually work for PCOS?",
-      answer: "Yes — for the right patient, with the right protocol, over the right time. Ayurvedic treatment is most effective for irregular cycles, insulin resistance, hormonal acne, and metabolic factors underlying PCOS. It is moderately effective for hirsutism (slower-responding) and weight, and supportive but not always sufficient for fertility (often best combined with fertility specialist care). The honest answer is: it works substantially for most women who complete a structured 6-month programme. It does not work as a 2-month intervention or as herbal supplements alone."
-    },
-    {
-      question: "Can Ayurveda cure PCOS?",
-      answer: "Ayurvedic medicine does not use the word 'cure' for chronic conditions like PCOS — and we will not either. What we honestly say is: many of our patients achieve sustained cycle regularity, normalised insulin resistance, significant symptom improvement, and stable hormonal patterns that persist for years after the treatment programme. Some require occasional maintenance returns. Calling this a 'cure' overstates the science. Calling it 'management' understates the depth of change. The honest word is 'remission' — meaningful, sustained improvement that requires lifestyle continuity to maintain."
-    },
-    {
-      question: "How is Ayurvedic PCOS treatment different from conventional treatment?",
-      answer: "Conventional PCOS treatment focuses on managing the markers — metformin for insulin resistance, oral contraceptives for cycle regulation, spironolactone for androgen effects, specific medications for fertility. Ayurvedic treatment addresses the metabolic and hormonal root patterns — using cleansing protocols, herbal medicines, dosha-specific dietary regulation, and lifestyle modification over 3-6 months. They are not competing approaches. The strongest outcomes come from women who use both — managing acute factors conventionally while addressing root patterns Ayurvedically."
-    },
-    {
-      question: "Can I do Ayurvedic PCOS treatment while taking metformin or birth control?",
-      answer: "Yes. Most of our PCOS patients begin treatment while on conventional medications and continue them throughout. Over the 6-month programme, with your gynaecologist's input, some patients reduce or discontinue medications as cycle patterns and metabolic markers improve. Many continue on lower doses. This is a coordinated medical decision with your conventional doctor — not something to stop independently."
-    },
-    {
-      question: "How long does Ayurvedic PCOS treatment take?",
-      answer: "A structured PCOS programme runs 6 months for most patients. Phenotype A (Classic PCOS) often needs the full 6 months. Phenotype C (Non-Hyperandrogenic) sometimes responds in 4 months. Phenotype B with fertility focus may extend to 9 months for conception preparation. Maintenance protocols continue indefinitely at low intensity — annual or biannual programme returns are common."
-    },
-    {
-      question: "How much does Ayurvedic PCOS treatment cost in Dubai?",
-      answer: "At Vedara Care, an initial PCOS consultation starts from AED 450. A standard 6-month programme starts from AED 18,500. A comprehensive PCOS + fertility programme starts from AED 24,500. Across Dubai, comprehensive Ayurvedic PCOS programmes typically range from AED 12,000 to AED 30,000 depending on length and intensity. We are direct-billing partners with seven major insurers — coverage varies by plan."
-    },
-    {
-      question: "Do you have female Ayurvedic doctors?",
-      answer: "Yes. Our PCOS programmes are led by our female BAMS-qualified physicians. We understand that many women prefer female doctors for women's health conditions — and we built our PCOS team accordingly. Our female Ayurvedic doctors hold full BAMS and MD (Ayurveda) qualifications and DHA Professional Licenses, with specific clinical focus on women's health."
-    },
-    {
-      question: "Will I have to follow a strict diet?",
-      answer: "Not as strict as you fear — but consistent. Our dietary plans are dosha and phenotype specific, not generic 'PCOS diets.' For most women, this means stable meal timings, protein at each meal, reduced refined sugar, and balanced fats. No extreme calorie restriction. Sustainable changes that work with your life, not against it."
-    },
-    {
-      question: "What is Panchakarma and do I need it for PCOS?",
-      answer: "<a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> is the classical Ayurvedic cleansing and rejuvenation protocol. For Classic PCOS (Phenotype A), <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Virechana</a>-led Panchakarma is strongly recommended — it provides a metabolic reset that diet and herbs alone cannot achieve in the same timeframe. For milder phenotypes (C or D), Panchakarma may not be necessary, and we can focus more on herbs, diet, and stress reduction. Read about <a href=\"/treatments/panchakarma-dubai/\" class=\"doctor-specialty-link\">Panchakarma</a> in our guide. Your doctor will recommend whether Panchakarma is right for you at your initial assessment."
-    },
-    {
-      question: "Will Ayurvedic treatment help with PCOS-related weight gain?",
-      answer: "For many patients, yes — but not as a primary weight loss programme. Ayurvedic PCOS treatment addresses the insulin resistance, metabolic patterns, and hormonal factors that drive PCOS-related weight gain. As these improve over months 3-6, weight often follows. Realistic expectations: 4-12 kg loss over 6 months for many patients, with body composition improvements often preceding scale changes. We will not promise specific weight outcomes — sustainable weight changes happen as a side effect of metabolic improvement."
-    },
-    {
-      question: "Can Ayurvedic treatment help PCOS-related fertility issues?",
-      answer: "For mild to moderate PCOS, yes — many of our patients conceive naturally during or after a 6-month programme. For severe PCOS or longer-standing infertility, Ayurveda is most useful as preparation alongside a fertility specialist. We will not replace IVF or IUI when fertility specialists indicate them — but Ayurvedic preparation often improves response to fertility treatment. We work with several Dubai fertility clinics for joint patients."
-    },
-    {
-      question: "How does the consultation work?",
-      answer: "Initial consultations are 60 minutes — significantly longer than conventional appointments. The first 20-30 minutes are you talking. We ask detailed questions about your cycle history, symptoms, lifestyle, stress patterns, family history, current medications, and what you have tried before. The next phase includes pulse diagnosis, dosha assessment, and physical examination as appropriate. The final phase is written treatment plan, realistic expectations, and full pricing — provided in writing before you commit."
-    },
-    {
-      question: "What if I am on the contraceptive pill?",
-      answer: "Many of our PCOS patients are on the pill when they start treatment. We do not ask you to discontinue — that is a decision for you and your gynaecologist together. We design the Ayurvedic protocol to work alongside hormonal contraception. Over the 6-month programme, some patients (with their gynaecologist's input) decide to come off the pill to assess natural cycle patterns. Others stay on it throughout. Both paths work."
-    },
-    {
-      question: "Can teenagers and young women have Ayurvedic PCOS treatment?",
-      answer: "Yes. PCOS is increasingly diagnosed in late teens and early 20s, particularly in South Asian and Middle Eastern populations. Ayurvedic treatment for younger patients is modified — lighter Panchakarma protocols, gentler herbal doses, and stronger emphasis on dietary and lifestyle establishment that will serve them for decades. We treat patients from age 16 onwards (with parental consultation for minors)."
-    },
-    {
-      question: "Do I need to bring my medical records?",
-      answer: "Yes, please. Bring everything you have: ultrasound reports, hormone panel results (LH, FSH, AMH, testosterone, DHEA-S, prolactin, thyroid panel, insulin, HbA1c, lipid profile, vitamin D), current medication list, any gynaecology summaries, and any previous PCOS investigations. The more we have, the more precise the assessment and treatment plan. If you have not had bloodwork recently, we can arrange it."
-    },
-    {
-      question: "Where exactly is your PCOS clinic in Dubai?",
-      answer: "Yes. PCOS is increasingly diagnosed in late teens and early 20s, particularly in South Asian and Middle Eastern populations. Ayurvedic treatment for younger patients is modified — lighter Panchakarma protocols, gentler herbal doses, and stronger emphasis on dietary and lifestyle establishment that will serve them for decades. We treat patients from age 16 onwards (with parental consultation for minors)."
-    },
-    {
-      question: "Do you offer PCOS consultations virtually?",
-      answer: "We offer video consultations for follow-up appointments and for patients located outside Dubai who want to start with an initial assessment before travelling. For first-time PCOS consultations, in-person is strongly preferred — pulse diagnosis, physical examination, and the depth of conversation work better in person. Many of our international patients fly in for the initial consultation and the Panchakarma component, then continue with video follow-ups."
-    },
-    {
-      question: "How do I start?",
-      answer: "Tap 'Book a PCOS Consultation' on this page, <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20PCOS%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\"><a href=\"https://wa.me/971555736312\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> at +971 55 573 6312</a> for the fastest response, or call <a href=\"tel:+971 55 573 6312\" class=\"text-[#C9A961] hover:underline transition-colors\">+971 55 573 6312</a>. If you have specific questions before booking, <a href=\"https://wa.me/971555736312\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> — our team typically replies within 15 minutes during clinic hours. Many women find it easier to ask their initial questions on WhatsApp first."
-    }
+    { question: "Can Ayurveda help PCOS?",
+      answer: "Ayurveda can support women with PCOS through diet and routine, prescribed herbs and therapies such as Panchakarma, aiming at more regular cycles, weight, skin and energy. Research shows a promising role but is still limited, and Ayurveda works alongside your gynaecologist rather than replacing them." },
+    { question: "Is PCOS the same as PCOD?",
+      answer: "The terms are often used for the same condition. PCOS (polycystic ovary syndrome) is the medical name; PCOD is commonly used in India and the Gulf. Ayurvedic care is the same for both." },
+    { question: "Where can I get Ayurvedic PCOS treatment in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall, with Dr. Zainab Sheikh, a female DHA-licensed Ayurvedic doctor. Our GP can arrange PCOS blood tests and a pelvic ultrasound. Open daily 9am to 10pm." },
+    { question: "Which Ayurvedic medicine is used for PCOS?",
+      answer: "There is no single medicine. Doctors commonly use herbs such as Shatavari or preparations such as Kanchanara Guggulu, chosen for your pattern and checked against your other medicines. Vedara prescribes; you buy them at a pharmacy." },
+    { question: "What is a good PCOS diet?",
+      answer: "Regular meals, enough protein and fibre, fewer refined carbohydrates and sugary drinks, and less ultra-processed food suit most women with PCOS. Ayurveda adds warm, freshly cooked food and regular meal times; Dr. Zainab adapts this to you." },
+    { question: "Can Ayurveda help me get pregnant with PCOS?",
+      answer: "Ayurveda may help by supporting more regular cycles, weight and stress, but it cannot guarantee pregnancy. If you are trying to conceive, we work alongside your gynaecologist or fertility doctor and never ask you to delay their treatment." },
+    { question: "Can I take Ayurvedic medicines with metformin or the pill?",
+      answer: "Usually yes, with your doctor's knowledge. Do not stop or change prescribed medicines yourself; Dr. Zainab checks herbs against everything you take." },
+    { question: "What tests do I need?",
+      answer: "Usually hormone tests, insulin or HbA1c, and a pelvic ultrasound. Our GP can arrange these, or you can bring recent results." },
+    { question: "Is Panchakarma used for PCOS?",
+      answer: "Sometimes. Virechana or Basti may be suggested after assessment; many women do well with diet, routine and herbs alone." },
+    { question: "What is Uttara Basti?",
+      answer: "A specialised Ayurvedic procedure that the doctor may suggest for some women after a full assessment. It is not needed for most patients and is explained fully before any decision." },
+    { question: "How long does Ayurvedic PCOS treatment take?",
+      answer: "It depends on your symptoms and goals. Most plans run for a few months with regular reviews; some changes, such as cycle regularity, usually come before others, such as hair growth." },
+    { question: "Is the doctor female?",
+      answer: "Yes. Dr. Zainab Sheikh is a female Ayurvedic doctor, and women are treated by female therapists." },
+    { question: "How much does Ayurvedic PCOS treatment cost in Dubai?",
+      answer: "Across Dubai, an Ayurvedic consultation commonly costs around AED 200 to 500; herbs, tests and therapies are extra and depend on your plan. Vedara Care shares exact prices on WhatsApp." },
+    { question: "How do I book?",
+      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number. Bring any recent blood tests or scan reports." }
   ]
 };
 
 export const pcosTreatmentLocation = {
-  bgColor: "bg-[#FFFFFF]",
+  bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
-  title: "Where PCOS treatment happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4 , Circle Mall, Jumeirah Village Circle Dubai, UAE",
-  landmarks: [
-    "Next to Circle Mall ·FIVE Jumeirah Village · JVC District 12 · JSS Private School "
-  ],
+  title: "PCOS care in JVC, near Circle Mall.",
+  address: "Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai",
   phone: "+971 55 573 6312",
-  whatsapp: "+971 55 573 6312",
-  whatsappMessage: "Hi, I'd like to inquire about Ayurvedic PCOS treatment at your JVC clinic in Dubai.",
-  hours: "Monday - Sunday: 9:00AM to 10:00PM",
-  description: "Dedicated consultation rooms for women's health, female reception staff available on request, private treatment areas. We schedule PCOS consultations in longer 60-minute slots rather than rushing them into 20-minute appointments.",
-  buttonText: "Book PCOS Consultation",
-  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
-  mapAlt: "Vedara Care female health Ayurveda clinic location in Jumeirah Village Circle Dubai"
+  whatsapp: "971555736312",
+  whatsappMessage: "Hello Vedara Care, I would like to ask about Ayurvedic PCOS care at your JVC clinic.",
+  email: "booking@vedaracare.ae",
+  hours: "Monday - Sunday - 9:00AM to 10:00PM",
+  landmarks: ["Near Circle Mall", "Close to JSS Private School", "Free and paid parking available"],
+  description: "Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City.",
+  distances: [],
+  buttonText: "Book PCOS consultation",
+  buttonHref: "/book/"
 };
 
 export const pcosFinalCTA = {
   bgColor: "bg-[#FAF8F5]",
   label: "READY?",
-  title: ["Begin with the consultation you have not had before.",
-  ],
-  description: "Most women with PCOS have had short conventional appointments where they felt unheard, misunderstood, or dismissed. The first thing we do differently is give you 60 minutes. Most of it is you talking. We listen before we prescribe. By the end, you will have a clear written plan — including honest expectations about what is possible in 6 months, what is harder, and what will not change.",
-  button1Text: "Book PCOS Consultation",
+  title: "A clear, supportive plan for your PCOS.",
+  description: "Dr. Zainab will review your cycles, symptoms, diet and tests and build an Ayurvedic plan that works alongside your doctor.",
+  button1Text: "Book a PCOS consultation",
+  button1Href: "/book/",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20PCOS%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
-  bullets: [
-    "Initial consultation from AED 450",
-    "Female Ayurvedic physicians",
-    " 60-minute appointments",
-    " Insurance direct-billing",
-    "Free clinic parking"
-  ]
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Ayurvedic%20PCOS%20care.",
+  bullets: ["Prices shared on WhatsApp", "Female Ayurvedic doctor", "GP tests on site", "Near Circle Mall, JVC"]
 };
 
 export const pcosRelatedPages = {
   bgColor: "bg-[#F5F0E8]",
   label: "EXPLORE FURTHER",
   title: "Related pages.",
-  linkText: "Browse all Ayurvedic treatments",
+  linkText: "See all Ayurvedic treatments",
   linkHref: "/ayurveda-dubai/",
   pages: [
     {
-      title: "Panchakarma in Dubai",
-      description: "The classical cleansing protocol used in nearly every PCOS programme. Full description of the five actions and what to expect.",
-      href: "/treatments/panchakarma-dubai/"
+      title: "Ayurvedic weight loss",
+      description: "When weight resistance is linked to PCOS and metabolism.",
+      href: "/conditions/weight-loss-ayurveda-dubai/"
     },
     {
-      title: "Shirodhara in Dubai",
-      description: "For PCOS patients with significant stress, sleep, or anxiety components — often integrated into the treatment programme.",
-      href: "/treatments/shirodhara-dubai/"
+      title: "Ayurveda for thyroid",
+      description: "Supportive care for thyroid conditions alongside your medicine.",
+      href: "/conditions/thyroid-ayurveda-dubai/"
     },
     {
-      title: "Abhyanga Massage in Dubai",
-      description: "Used throughout PCOS programmes for Vata pacification and supportive therapy alongside the main protocol.",
-      href: "/treatments/abhyanga-dubai/"
+      title: "Ayurvedic skin treatment",
+      description: "Acne, pigmentation and hormonal skin care in JVC.",
+      href: "/conditions/skin-ayurveda-dubai/"
     },
     {
-      title: "Our Ayurveda Clinic in JVC",
-      description: "The full picture of our Ayurveda department, doctors, treatments, and other conditions we treat.",
-      href: "/ayurveda-clinic-jvc/"
+      title: "Ayurveda for stress",
+      description: "Calming therapies, Shirodhara and routine for nervous system support.",
+      href: "/conditions/stress-anxiety-ayurveda-dubai/"
     }
   ]
 };

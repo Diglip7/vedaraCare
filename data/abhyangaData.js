@@ -1,429 +1,220 @@
+// data/abhyangaData.js (replace the whole file)
 export const abhyangaHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
-    { label: "Abhyanga Massage in Dubai", active: true }
+    { label: "Abhyanga in JVC", active: true }
   ],
-  label: "ABHYANGA OIL MASSAGE IN DUBAI · DHA-LICENSED 2509266",
-  title: "Warm oil, two pairs of hands, ninety minutes of silence.",
-  description: "Classical Abhyanga — the foundational full-body Ayurvedic oil massage performed by two synchronized therapists. Doctor-prescribed at our DHA-licensed Ayurveda clinic in JVC, Dubai. The treatment that changes how you sleep, move, and think.",
-  primaryCTA: "Book Abhyanga Consultation",
+  label: "ABHYANGA · ABHYANGAM · JVC, DUBAI",
+  title: "Abhyanga (Abhyangam) massage in JVC, Dubai — warm medicated oil, chosen for you.",
+  description: "Abhyanga is the classical Ayurvedic full-body oil massage. Dr. Zainab Sheikh (BAMS, MD Ayurveda) chooses the oil for your constitution, a same-gender therapist gives the massage in a private room, and medicated steam often follows. At our DHA-licensed clinic near Circle Mall, JVC.",
+  primaryCTA: "Book Abhyanga",
+  primaryCTAHref: "/book/",
   secondaryCTA: "Chat on WhatsApp",
-  trustSignals: [
-    "Two-Therapist Classical Technique",
-    "Dosha-Specific Medicated Oils",
-    "Same-Gender Therapists Always",
-    "From AED 450 per session"
-  ],
-  floatingCard: {
-    title: "TRADITIONAL KERALA TECHNIQUE",
-    subtitle: "Performed on a wooden droni by two synchronized therapists — the way it was meant to be."
-  },
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20book%20Abhyanga%20in%20JVC.",
+  trustSignals: ["DHA Facility Licence 2509266", "BAMS, MD (Ayurveda) doctor", "Same-gender therapist, private room", "Near Circle Mall, JVC"],
+  floatingCard: { title: "THE OIL IS THE MEDICINE", subtitle: "Chosen for your dosha by the doctor — not one oil for everyone." },
   image: "/images/abhyanga-dubai-hero.webp",
-  alt: "Two therapists pouring warm medicated oil during Abhyanga on a wooden droni at Vedara Care Ayurveda clinic, JVC Dubai"
+  alt: "Abhyanga full-body warm oil massage at Vedara Care Ayurveda clinic, JVC Dubai"
 };
 
 export const abhyangaIntro = {
-  bgColor: "bg-[#FFFFFF]",
+  bgColor: "bg-white",
   label: "THE QUICK ANSWER",
-  title: "Abhyanga in Dubai, in one paragraph.",
-  blockquote: "Abhyanga is the classical full-body Ayurvedic oil massage —  60 to 90-minute therapy in which warm dosha-specific medicated oils are applied head-to-toe in synchronized strokes by two trained therapists. At Vedara Care Polyclinic in Jumeirah Village Circle, Dubai, Abhyanga is doctor-prescribed by BAMS-qualified physicians after dosha assessment, performed on traditional wooden droni tables, and used both as a standalone weekly therapy and as the foundation of <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">Panchakarma</a> protocols. Sessions start from AED 450.",
-  footer: "Medically reviewed by Dr. Zainab, BAMS, MD (Ayurveda),DHA License 2509266 · Last updated May 2026"
+  title: "Abhyanga, in one paragraph.",
+  blockquote: "Abhyanga (Abhyangam in Malayalam) is the classical Ayurvedic full-body massage with warm medicated oil, chosen for your constitution (dosha); it is the most common Ayurvedic massage and is often followed by medicated steam (Swedana). It is used for stress, poor sleep, muscle and joint stiffness, dry skin and general well-being, and as preparation in Panchakarma. A small 2011 pilot study found a single Abhyanga lowered reported stress and heart rate, though larger studies are needed. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), near Circle Mall, your first visit includes a 45 to 60-minute consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda, DHA-licensed), who chooses the oil, and a same-gender therapist gives the massage in a private room; she can also teach you a simple daily self-Abhyanga routine for home. The clinic is open daily 9am to 10pm and is close to JVT, Al Barsha South and Arjan.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, BAMS, MD (Ayurveda), DHA licence 20918133. Reviewed November 2026."
 };
 
 export const abhyangaMechanism = {
-  bgColor: "bg-[#F5F1E8]",
-  label: "THE CLASSICAL THERAPY",
-  title: "A 2,000-year-old daily medicine, performed in Dubai exactly as the classical texts describe.",
+  bgColor: "bg-[#F9F6F1]",
+  label: "WHAT ABHYANGA IS",
+  title: "A full-body warm oil massage, with the oil as the medicine.",
   content: [
-    "The Sanskrit word Abhyanga combines 'abhi' (toward) and 'anga' (limb) — meaning the motion of oil flowing toward, around, and along every limb of the body. It is described in detail in the Charaka Samhita and Ashtanga Hridayam, codified over 2,000 years ago.",
-    "In classical Ayurveda, Abhyanga is not occasional therapy. It is daily self-care — what brushing teeth is to dental health. Most Ayurvedic physicians prescribe daily self-Abhyanga to their patients alongside the weekly clinical sessions performed in clinic.",
-    "What separates clinical Abhyanga at a DHA-licensed Ayurveda clinic in Dubai from self-Abhyanga at home is three things: the oils (medicated to your specific dosha imbalance), the technique (two trained therapists working in synchronized strokes with controlled pressure and direction), and the setting (a warmed wooden droni table designed for the therapy, in a heated private room).",
-    // "\"Abhyanga is the closest thing classical medicine has to a daily multivitamin — except it works through the skin, not the stomach.\""
+    "In Ayurveda, daily oiling of the body is part of healthy routine (Dinacharya), like brushing your teeth. Clinical Abhyanga adds three things: a medicated oil chosen for you, a trained therapist, and a doctor's plan.",
+    "The therapist uses long strokes on the limbs and circular strokes on the joints, warming the oil and working from head to feet. Steam (Swedana) afterwards helps the oil work, then you rest before showering.",
+    "What does the research say? In a 2011 pilot study of 20 healthy adults, a one-hour Abhyanga reduced reported stress and heart rate, and lowered blood pressure in those with prehypertension. It was small, so we present Abhyanga as relaxation and well-being support, not a cure."
   ],
-  quote: "Abhyanga is the closest thing classical medicine has to a daily multivitamin — except it works through the skin, not the stomach.",
+  sources: "Source: <a href='https://pubmed.ncbi.nlm.nih.gov/21568717/' target='_blank' rel='noopener'>Basler 2011, Abhyanga massage and subjective stress, J Altern Complement Med (PubMed)</a>",
   image: "/images/abhyanga-medicated-oil-brass-bowl-jvc.webp",
-  alt: "Brass bowl with warm sesame oil and Ayurvedic herbs prepared for Abhyanga in Dubai"
+  alt: "Warm medicated Abhyanga oil in a brass bowl at Vedara Care, JVC"
 };
 
 export const abhyangaProtocol = {
-  bgColor: "bg-[#FFFFFF]",
-  label: "THE TREATMENT PROTOCOL",
-  title: "Ninety minutes, seven phases, two therapists.",
-  description: "A clinical Abhyanga at Vedara Care follows the classical sequence described in Ayurvedic texts. Each phase has a specific purpose.",
+  bgColor: "bg-white",
+  label: "WHAT HAPPENS",
+  title: "What happens at an Abhyanga session.",
+  description: "Every session follows the same steps; the oil, length and course are set by your doctor.",
   phases: [
-    {
-      time: "0-5 MIN",
-      title: "Phase 1 — Consultation & Dosha Reassessment",
-      content: "Your assigned therapist begins with a brief check-in — confirming your current dosha state, any musculoskeletal sensitivities, and reviewing your prescription. The oils are warmed to body temperature in a brass bowl. You change into a cotton wrap, and the heated wooden droni table is prepared."
-    },
-    {
-      time: "5-15 MIN",
-      title: "Phase 2 — Murdha Taila - Head & Crown",
-      content: "The session begins with oil applied to the crown (the marma point known as Adhipati). Slow, circular strokes work outward to the temples, the back of the neck, and the upper shoulders. This phase calms the nervous system before the body work begins."
-    },
-    {
-      time: "15-25 MIN",
-      title: "Phase 3 — Pada Abhyanga — Feet",
-      content: "Both therapists work simultaneously on each foot — applying warm oil and using deep, deliberate strokes from the soles upward to the calves. In classical Ayurveda, foot massage is considered second only to head massage in importance. This is the phase patients remember most."
-    },
-    {
-      time: "25-55 MIN",
-      title: "Phase 4 — Sapta Anga — Back & Spine",
-      content: "You turn onto your front. Both therapists work in synchronized parallel strokes from the shoulders along the length of the spine to the lower back and gluteals. Specific direction of strokes follows lymphatic and energetic pathways described in classical texts."
-    },
-    {
-      time: "50-70 MIN",
-      title: "Phase 5 — Sapta Anga — Front",
-      content: "You turn onto your back. Synchronized strokes move along the chest, abdomen (gentle circular motions clockwise, following digestive direction), arms, and front of legs. Abdominal work is always lighter, always clockwise, always slow."
-    },
-    {
-      time: "70-80 MIN",
-      title: "Phase 6 — Marma Stimulation",
-      content: "The therapists work on specific marma points — the 107 vital energy points described in Ayurvedic and martial arts traditions. Particular focus on <a href='/conditions/stress-anxiety-ayurveda-dubai/' class='text-[#C9A961] hover:underline transition-colors'>stress-relief</a> marma at the temples, sternum, and palms. This phase is what makes Abhyanga therapeutic rather than recreational.  "
-    },
-    {
-      time: "80-90 MIN",
-      title: "Phase 7 — Stillness & Recovery",
-      content: "The final 10 minutes are stillness. You remain on the droni with oil on the body — no further manipulation. This rest period is non-negotiable. The oil and the work need time to absorb. Premature movement undoes the therapy."
-    }
+    { time: "Step 1", title: "Consultation", content: "Your first visit includes a 45-60 minute consultation with Dr. Zainab, who chooses the oil for your dosha and checks you are fit for massage." },
+    { time: "Step 2", title: "Head and face", content: "A same-gender therapist starts with warm oil on the scalp, face and neck." },
+    { time: "Step 3", title: "Full-body massage", content: "Long strokes on the arms and legs, circular strokes on the joints, then the back and front of the body." },
+    { time: "Step 4", title: "Steam (Swedana)", content: "Medicated steam, if prescribed, while the oil is still on the skin." },
+    { time: "Step 5", title: "Rest and shower", content: "A short rest, then a warm shower; light food and no cold drinks afterwards." }
   ],
-  footer: "Followed by Swedana (medicated steam therapy) on most days, included in your session price. Showering happens after Swedana, not directly after Abhyanga."
+  footer: "Session length and the number of sessions depend on your plan."
 };
 
 export const abhyangaOils = {
   bgColor: "bg-[#FAF6EF]",
-  label: "DOSHA-SPECIFIC OILS",
-  title: "Three patients. Three different oils. That is the whole point.",
-  // description: "The oil used in Abhyanga is not 'aromatherapy oil' — it is a classical medicated preparation, selected for your specific dosha imbalance.",
+  label: "OILS FOR YOUR DOSHA",
+  title: "Different people, different oils.",
+  description: "The oil in Abhyanga is a classical medicated preparation chosen for your constitution and current imbalance.",
   oils: [
-    {
-      name: "Vata ",
-      description: "COLD, DRY, IRREGULAR",
-      content: "Patients with predominant Vata imbalance — <a href='/conditions/stress-anxiety-ayurveda-dubai/' class='text-[#C9A961] hover:underline transition-colors'>anxiety, insomnia</a>, dry skin, joint cracking, irregular digestion — receive heavy, warming, deeply penetrating oils. Sesame oil is the foundation, medicated with classical preparations like Mahanarayana taila or Dhanvantaram taila. Pressure is slower, longer, deeper. The objective is grounding.",
-      indication: "Anxiety, Insomnia, Joint stiffness"
-    },
-    {
-      name: "Pitta ",
-      description: "HOT, SHARP, INTENSE",
-      content: "Pitta-imbalanced patients — irritability, heat sensitivity, inflammatory conditions, certain skin issues — receive cooling oils. Coconut oil or specifically processed sunflower oil base, medicated with cooling herbs like Chandanadi or Pinda taila. Pressure is moderate. The objective is cooling and softening.",
-      indication: "Skin conditions, Headaches, Inflammation"
-    },
-    {
-      name: "Kapha ",
-      description: "HEAVY, SLOW, CONGESTED",
-      content: "Kapha-dominant patients — sluggishness, weight retention, congestion, lymphatic stagnation — receive lighter, warmer, more stimulating oils. Mustard oil base or specialised preparations like Murchita taila. Strokes are faster, more vigorous. The objective is mobilisation, not relaxation.",
-      indication: "Weight management, Lymphatic stagnation, Congestion"
-    }
+    { name: "Vata", description: "Cold, dry, irregular", content: "Warming, heavier oils on a sesame base, such as Ksheerabala or Dhanwantharam Taila.", indication: "<a href='/conditions/stress-anxiety-ayurveda-dubai/'>anxiety</a>, <a href='/conditions/insomnia-ayurveda-jvc/'>poor sleep</a>, joint stiffness, dry skin" },
+    { name: "Pitta", description: "Hot, sharp, intense", content: "Cooling oils, often coconut-based preparations.", indication: "heat sensitivity, irritability, some skin problems" },
+    { name: "Kapha", description: "Heavy, slow, congested", content: "Lighter, warming oils used more briskly.", indication: "sluggishness, heaviness, congestion" }
   ],
-  footer: "Most patients are not a single dosha. Your doctor assesses your specific Vata-Pitta-Kapha pattern and prescribes a blend or sequence. The oils used at Vedara Care are sourced from classical Ayurvedic pharmacies in Kerala with documented quality testing."
+  footer: "Most people are a mix of doshas; the doctor prescribes a blend or changes the oil during a course."
 };
 
-export const abhyangaApplications = {
-  bgColor: "bg-white",
-  label: "CLINICAL APPLICATIONS",
-  title: "What Abhyanga actually treats — and what it complements.",
-  description: "Abhyanga can be used as standalone therapy or as part of a larger treatment plan. Honest guidance on what it does best.",
-  strongIndicationsLabel: "STANDALONE TREATMENT",
-  complementaryUseLabel: "COMBINED THERAPY",
-  honestLimitsDescription: "Conditions where Abhyanga is one component of a larger treatment plan — combined with internal medicines, dietary correction, or other therapies.",
-  whereItExcels: [
-    {
-      title: "Chronic stress and burnout",
-      href: "/conditions/stress-anxiety-ayurveda-dubai/"
-    },
-    {
-      title: "Insomnia and disturbed sleep",
-      href: "/conditions/stress-anxiety-ayurveda-dubai/"
-    },
-    {
-      title: "General joint stiffness (without acute pathology)",
-
-    },
-    {
-      title: "Anxiety (alongside conventional care)",
-      href: "/conditions/stress-anxiety-ayurveda-dubai/"
-    },
-    {
-      title: "Daily fatigue and low energy",
-
-    },
-    {
-      title: "Dry skin and skin texture issues",
-
-    },
-    {
-      title: "Pre-menstrual symptoms",
-
-    },
-    {
-      title: "Constitutional reset (Vata pacification)",
-
-    }
+export const abhyangaBenefits = {                           // rendered with TreatmentBenefits
+  label: "ABHYANGA BENEFITS",
+  title: "What people use Abhyanga for.",
+  benefitGroups: [
+    { title: "Stress and sleep", description: "The most common reason people book Abhyanga.", benefits: ["Calmer mind after the session", "Better sleep, especially with a course", "Often combined with <a href='/treatments/shirodhara-dubai/'>Shirodhara</a>"] },
+    { title: "Stiffness and tension", description: "Warm oil and steam for tight muscles and stiff joints.", benefits: ["Desk-work neck and shoulder tension", "Morning stiffness", "Often combined with <a href='/treatments/patra-pinda-sweda-jvc/'>Kizhi</a> or physiotherapy"] },
+    { title: "Skin and well-being", description: "Daily oiling is a classical part of healthy routine.", benefits: ["Dry skin", "Recovery after illness or childbirth", "Preparation for <a href='/treatments/panchakarma-dubai/'>Panchakarma</a>"] }
   ],
-  honestLimitsList: [
-    {
-      title: "Chronic back pain (with Kativasti, internal medicines)",
-      href: "/conditions/back-pain-ayurveda-dubai/"
-    },
-    {
-      title: "<a href=\"/conditions/frozen-shoulder-ayurveda-dubai/\" class=\"hover:underline\">Frozen shoulder</a> (with <a href=\"/treatments/patra-pinda-sweda-jvc/\" class=\"underline hover:text-[#C5A572]\">Patra Pinda Sweda</a>, Nasya)"
-    },
-    {
-      title: "Migraine (with Shirodhara, Nasya)",
-      href: "/conditions/migraine-ayurveda-dubai/"
-    },
-    {
-      title: "PCOS (within Panchakarma protocols)",
-      href: "/conditions/pcos-ayurveda-dubai/"
-    },
-    {
-      title: "Arthritis and joint disorders (with internal medicines, lifestyle protocol)",
-      href: "/conditions/arthritis-ayurveda-dubai/"
-    },
-    {
-      title: "Postnatal recovery (45-day Sutika Paricharya)",
-      href: "/conditions/postnatal-ayurveda-dubai/"
-    },
-    {
-      title: "Cervical spondylosis (with Greeva Vasti, Nasya)",
-
-    },
-    {
-      title: "Sciatica (with Kativasti, Basti)",
-
-    }
-  ],
-  // honestNote: "Real Ayurvedic not the primary answer. Abhyanga is foundational — but not always sufficient alone",
-  image: "/images/wooden-droni-table-abhyanga-vedara-jvc.webp",
-  alt: "Dosha-specific medicated oils for classical Ayurvedic Abhyanga Dubai"
+  footer: "Results differ from person to person."
 };
 
-export const abhyangaPrograms = {
-  bgColor: "bg-[#F0E9DD]",
-  label: "PROGRAMMES",
-  title: "Three ways patients work with Abhyanga at our Dubai clinic.",
+export const abhyangaVariants = {                           // NEW — rendered with TreatmentOils
+  label: "HEAD, FOOT AND AT HOME",
+  title: "Other ways to have Abhyanga.",
+  description: "All available at our JVC clinic, plus a routine you can do yourself.",
+  oils: [
+    { name: "Shiro Abhyanga", description: "Head, neck and shoulders", content: "Warm oil massaged into the scalp, neck and shoulders.", indication: "tension headaches, stress, dry scalp" },
+    { name: "Padabhyanga", description: "Feet and lower legs", content: "Warm oil massage of the feet and lower legs.", indication: "tired feet, poor sleep" },
+    { name: "Self-Abhyanga at home", description: "Daily self-care", content: "Dr. Zainab can teach you a simple daily routine: warm a small amount of the oil she recommends (bought at a pharmacy), massage head to feet for a few minutes, rest, then shower.", indication: "keeping the benefit between sessions" }
+  ],
+  footer: "Vedara Care does not offer home massage; self-Abhyanga is advice for your own routine. Compare all types on our <a href='/treatments/ayurvedic-massage-jvc/'>Ayurvedic massage</a> page."
+};
+
+export const abhyangaSafety = {                             // rendered with ClinicalBoundaries
+  label: "SAFETY",
+  title: "When Abhyanga is postponed, and possible side effects.",
+  leftCard: {
+    label: "NOT TODAY IF YOU HAVE",
+    title: "The doctor will postpone or change Abhyanga if you have:",
+    useWarningIcon: true,
+    items: ["Fever, a cold or acute illness", "Indigestion, or have just eaten a heavy meal", "Broken skin, a rash or skin infection", "A recent injury with swelling, or calf pain or swelling", "First trimester of pregnancy", "Uncontrolled blood pressure or a heart condition (steam is adjusted)"]
+  },
+  rightCard: {
+    label: "POSSIBLE SIDE EFFECTS",
+    title: "Usually mild:",
+    items: [
+      { text: "Feeling sleepy or slow afterwards", icon: "check" },
+      { text: "Oily hair and skin until you shower", icon: "check" },
+      { text: "Feeling light-headed after steam (rest and drink water)", icon: "check" },
+      { text: "Rarely, skin irritation from an oil (tell the therapist)", icon: "check" }
+    ]
+  },
+  footer: "Prenatal Abhyanga from the second trimester and <a href='/conditions/postnatal-ayurveda-dubai/' className='underline hover:text-[#B8915A]'>postnatal Abhyanga</a> are available after the doctor's assessment."
+};
+
+export const abhyangaPrograms = {                           // rendered with TreatmentPrograms
+  bgColor: "bg-[#F9F6F1]",
+  label: "SESSIONS AND COURSES",
+  title: "A single session or a course. Your doctor recommends which.",
+  whatsappNumber: "971555736312",
   programs: [
-    {
-      name: "Single Session",
-      price: "From AED 450",
-      duration: "90 MINUTES · PER SESSION",
-      features: [
-        "Consultation if first visit (AED 150)",
-        "90-minute classical Abhyanga",
-        "15-minute Swedana steam therapy",
-        "Same-gender therapists",
-        "Aftercare guidance provided"
-      ],
-      bestFor: "First-time Abhyanga, occasional relaxation, gift sessions",
-      buttonText: "Enquire on WhatsApp"
-    },
-    {
-      name: "7-Session Course",
-      price: "From AED 2,800",
-      duration: "7 SESSIONS · 3-4 WEEKS",
-      featured: true,
-      features: [
-        "Initial doctor consultation included",
-        "7 prescribed Abhyanga sessions + Swedana",
-        "Doctor-selected medicated oils for your dosha",
-        "10-15% per-session discount",
-        "Mid-course doctor review (Session 4)",
-        "4-week home self-Abhyanga protocol"
-      ],
-      bestFor: "<a href='/conditions/stress-anxiety-ayurveda-dubai/' class='text-[#C9A961] hover:underline transition-colors'>Chronic stress, insomnia</a>, dosha rebalancing, regular wellbeing",
-      buttonText: "Enquire on WhatsApp"
-    },
-    {
-      name: "14-Session Course",
-      price: "From AED 4,900",
-      duration: "14 SESSIONS · 6-10 WEEKS",
-      features: [
-        "Comprehensive initial consultation",
-        "14 calibrated Abhyanga sessions + Swedana",
-        "Multiple medicated oil prescriptions",
-        "15-20% per-session discount",
-        "Two doctor reviews (Sessions 5 & 10)",
-        "8-week home protocol + dietary guidance"
-      ],
-      bestFor: "Specific conditions, sustained therapeutic objectives, integrated with internal medicines",
-      buttonText: "Enquire on WhatsApp"
-    }
+    { name: "Single Abhyanga", price: "Prices shared on WhatsApp", duration: "Length set at consultation",
+      features: ["Consultation on your first visit", "Oil chosen for your dosha", "Steam (Swedana) if prescribed", "Same-gender therapist"], bestFor: "Stress relief, a reset",
+      buttonText: "Ask about a session", whatsappMessage: "Hello Vedara Care, I would like to ask about an Abhyanga session." },
+    { name: "Abhyanga course", price: "Prices shared on WhatsApp", duration: "Length set by your doctor", featured: true,
+      features: ["Consultation and oil selection", "A course of Abhyanga with steam", "Doctor review during the course", "A self-Abhyanga routine for home"], bestFor: "Poor sleep, long-term stress, stiffness",
+      buttonText: "Ask about a course", whatsappMessage: "Hello Vedara Care, I would like to ask about an Abhyanga course." },
+    { name: "Abhyanga with Shirodhara", price: "Prices shared on WhatsApp", duration: "Length set by your doctor",
+      features: ["Abhyanga and Shirodhara in one plan", "Oils chosen for you", "Doctor review"], bestFor: "Anxiety, insomnia, burnout",
+      buttonText: "Ask about the combined plan", whatsappMessage: "Hello Vedara Care, I would like to ask about Abhyanga with Shirodhara." }
   ],
-  footer: "Course pricing is paid in full at start, with flexible scheduling over the programme window. Sessions are non-refundable but transferrable."
-};
-
-export const abhyangaHomeHealthcare = {
-  bgColor: "bg-[#FFFFFF]",
-  label: "HOME HEALTHCARE",
-  title: "We bring Abhyanga to your home across Dubai.",
-  description: "For new mothers, elderly patients, patients with limited mobility, or anyone whose schedule does not permit clinic visits — Abhyanga is one of our most-requested home services. <a href='/home-healthcare-dubai/' class='text-[#C9A961] hover:underline transition-colors'>Read about Home Healthcare</a>.",
-  quote: "Our home Ayurvedic therapists travel to JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Downtown, Dubai Marina, Palm Jumeirah, Mirdif, and across Dubai. They bring authentic medicated oils, a portable folding wooden droni table, towels, and all required equipment.",
-  image: "/images/abhyanga-home-service-dubai.webp",
-  imageAlt: "Home Ayurvedic therapist arriving at a Dubai residence for Abhyanga home service",
-  features: [
-    "Same DHA-licensed clinical standards",
-    "Same trained therapists from our JVC clinic",
-    "Same-gender therapist guaranteed",
-    "Same medicated oils sourced from classical pharmacies"
-  ],
-  priceText: "Home Abhyanga: From AED 550 per session",
-  priceNote: "Slightly higher than in-clinic to cover travel and setup",
-  footer: "Most often requested for <a href='/conditions/postnatal-ayurveda-dubai/' class='text-[#C9A961] hover:underline transition-colors'>postnatal mothers</a> (the classical 45-day Sutika Paricharya protocol), elderly patients with limited mobility, busy executives who genuinely cannot commit to 90-minute clinic visits, or as part of recovery care."
-};
-
-export const abhyangaReviews = {
-  bgColor: "bg-[#F7F3EC]",
-  isDarkText: true,
-  label: "PATIENT OUTCOMES",
-  title: "Abhyanga outcomes at Vedara Care.",
-  items: [],
-  stats: [
-    { value: "4.7", label: "stars on Google" },
-    { value: "52", label: "Abhyanga-specific reviews" },
-    { value: "97%", label: "would recommend" }
-  ],
-  buttonText: "Read All Reviews →",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai",
+  footer: "Vedara Care does not bill insurers directly; where Abhyanga is part of treatment for a medical condition, we provide the invoice and report for a reimbursement claim."
 };
 
 export const abhyangaFaqs = {
-  bgColor: "bg-white",
+  bgColor: "bg-[#F9F6F1]",
   label: "ABHYANGA QUESTIONS",
   sidebarLinks: [
-    { text: "Compare Ayurvedic massages", href: "/treatments/ayurvedic-massage-jvc/" }
+    { text: "Ayurvedic massage (all types)", href: "/treatments/ayurvedic-massage-jvc/" },
+    { text: "Shirodhara", href: "/treatments/shirodhara-dubai/" },
+    { text: "Ayurveda clinic in JVC", href: "/ayurveda-clinic-jvc/" }
   ],
-  title: "What patients ask before their first Abhyanga.",
-  description: "For a comparison with other Ayurvedic massages, see our category guide.",
-
-
-  buttonText: "Ask the Team",
+  title: "Abhyanga: your questions answered.",
+  description: "Answers reviewed by Dr. Zainab Sheikh. For other therapies, see our <a href=\"/ayurveda-dubai/\">guide to Ayurvedic treatment in Dubai</a>.",
+  buttonText: "Ask the team on WhatsApp",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Abhyanga.",
   faqs: [
-    {
-      question: "What is Abhyanga in simple terms?",
-      answer: "Abhyanga is the classical full-body Ayurvedic oil massage from India, described in medical texts over 2,000 years old. It involves applying warm dosha-specific medicated oils across the entire body in synchronized strokes by two trained therapists, typically over 60 to 90 minutes. It is performed on a wooden table called a droni and followed by a brief steam therapy (Swedana)."
-    },
-    {
-      question: "How long does an Abhyanga session take?",
-      answer: "A complete classical Abhyanga at Vedara Care runs 90 minutes — including the oil application phases (head to feet), marma point work, and final stillness phase. Adding the Swedana steam therapy that follows brings total clinic time to about 110 minutes. Shorter 60-minute Abhyanga sessions are available but reduce the marma and stillness phases."
-    },
-    {
-      question: "Why does authentic Abhyanga use two therapists?",
-      answer: "Classical Abhyanga is performed by two synchronized therapists working in parallel — one on each side of the body for limbs, both following identical stroke patterns. This synchrony is described in classical texts and matters for two reasons: it doubles the lymphatic and energetic effect, and it cuts treatment time in half. Single-therapist Abhyanga exists but is technically called Ekanga Abhyanga and produces a different effect."
-    },
-    {
-      question: "How much does Abhyanga cost in Dubai?",
-      answer: "At Vedara Care, single-session Abhyanga starts from AED 450 for 90 minutes including Swedana. Seven-session courses start from AED 2,800 (10–15% per-session discount). Fourteen-session courses start from AED 4,900 (15–20% per-session discount). Home Abhyanga is slightly higher to cover travel. Across Dubai, authentic two-therapist Abhyanga typically ranges from AED 400 to AED 900 per session."
-    },
-    {
-      question: "How many Abhyanga sessions do I need?",
-      answer: "For general wellbeing, relaxation, or first-time Ayurveda, one to three sessions is enough. For dosha rebalancing or <a href='/conditions/stress-anxiety-ayurveda-dubai/' class='text-[#C9A961] hover:underline transition-colors'>chronic stress</a>, 7 sessions over 3–4 weeks is the standard protocol. For specific conditions like <a href='/conditions/stress-anxiety-ayurveda-dubai/' class='text-[#C9A961] hover:underline transition-colors'>chronic insomnia</a> or <a href='/conditions/back-pain-ayurveda-dubai/' class='text-[#C9A961] hover:underline transition-colors'>back pain</a> alongside internal medicines, 14 sessions over 6–10 weeks is typical. Your doctor will recommend the right course at consultation."
-    },
-    {
-      question: "Will I feel different after one session?",
-      answer: "Most patients feel a distinct shift after a single session — deeper sleep that night, slower mental tempo, slight muscle soreness on Day 2 (similar to gentle exercise), and a softer skin feel for several days. Therapeutic effects (<a href='/conditions/stress-anxiety-ayurveda-dubai/' class='text-[#C9A961] hover:underline transition-colors'>sleep quality, anxiety reduction</a>, joint stiffness improvement) typically require a course, not a session."
-    },
-    {
-      question: "What should I wear and bring?",
-      answer: "Bring nothing. We provide everything. You will undress fully and wear a disposable cotton wrap during the session. Female patients are always treated by female therapists, male patients by male therapists. The treatment room is private and warmed. After the session, you shower at the clinic using our facilities — do not arrive in clothes you want to wear afterwards (oil stains)."
-    },
-    {
-      question: "Can I drive home after Abhyanga?",
-      answer: "Yes, but slowly. Most patients feel deeply relaxed and slightly slowed for 1–2 hours after. We recommend not scheduling anything mentally demanding for at least 3 hours post-session. Many patients book Abhyanga in late afternoon and go straight home for an early sleep. "
-    },
-    {
-      question: "Is Abhyanga safe during pregnancy?",
-      answer: "Modified Abhyanga is safe and beneficial from the second trimester onwards, performed by a therapist specifically trained in prenatal protocols. Pressure is lighter, certain marma points are avoided, and the abdomen is not worked. Classical Abhyanga is not performed in the first trimester or in high-risk pregnancies. Always consult before booking when pregnant."
-    },
-    {
-      question: "Can I do Abhyanga while menstruating?",
-      answer: "Classical Ayurveda recommends pausing Abhyanga during the heaviest menstrual days (typically days 1–3 of the cycle), and resuming after. The reasoning relates to the body's natural detoxification cycle. Light or specific Abhyanga protocols may be prescribed during difficult menstruation as part of a treatment plan — your doctor will guide you."
-    },
-    {
-      question: "What oils do you use at Vedara Care?",
-      answer: "The oils used depend on your dosha and condition. Common bases are sesame oil (for Vata), coconut oil (for Pitta), and mustard oil (for Kapha). These are then medicated with classical preparations such as Mahanarayana taila, Dhanvantaram taila, Chandanadi taila, Pinda taila, or Murchita taila — depending on what your doctor prescribes. All our oils are sourced from classical Ayurvedic pharmacies in Kerala and Maharashtra with documented quality testing. "
-    },
-    {
-      question: "Where exactly is your Abhyanga clinic in Dubai?",
-      answer: "Our clinic is located in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients regularly travel from JVC, JVT, Jumeirah Village Circle, Jumeirah Village Triangle, Al Barsha South, Arjan, Dubai Sports City, Motor City"
-    },
-    {
-      question: "Do you offer Abhyanga at home in Dubai?",
-      answer: "Yes. Our home Ayurvedic team brings authentic Abhyanga to your home across Dubai — JVC, JVT, Al Barsha South, Sports City, Motor City, Marina, Downtown, Palm Jumeirah, Mirdif, and all Dubai neighbourhoods. They bring a portable wooden droni table, warm medicated oils, and all required equipment. Pricing is slightly higher to cover travel and setup. Most-requested for postnatal mothers, elderly patients, and busy executives."
-    },
-
-    {
-      question: "How do I book Abhyanga at your clinic?",
-      answer: 'For first-time patients, booking begins with a brief consultation (15–20 minutes, AED 150) where your doctor confirms Abhyanga is the right therapy and selects the right oils for your dosha. Existing patients can rebook directly. Tap \"Book Abhyanga Consultation\" anywhere on this page, <a href="https://wa.me/971555736312" target="_blank" rel="noopener noreferrer" class="hover:underline">WhatsApp us</a> at +971 55 573 6312 for the fastest response, or call +971 55 573 6312.'
-    }
+    { question: "What is Abhyanga?",
+      answer: "Abhyanga is the classical Ayurvedic full-body massage with warm medicated oil chosen for your constitution (dosha). It is used for stress, sleep, stiffness and general well-being, and is often followed by medicated steam (Swedana)." },
+    { question: "Is Abhyangam the same as Abhyanga?",
+      answer: "Yes. Abhyangam is the Malayalam name used in Kerala; Abhyanga is the Sanskrit name. They are the same full-body oil massage." },
+    { question: "Where can I get Abhyanga in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall. Abhyanga is prescribed by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor, and the clinic is open daily 9am to 10pm. It is close to JVT, Al Barsha South and Arjan." },
+    { question: "What are the benefits of Abhyanga?",
+      answer: "People use it to relax, sleep better, ease muscle and joint stiffness and improve dry skin. A small 2011 pilot study found a single Abhyanga lowered reported stress and heart rate, and blood pressure in people with slightly raised blood pressure; larger studies are still needed." },
+    { question: "Which oil is used for Abhyanga?",
+      answer: "The doctor chooses it for your dosha: warming oils such as sesame-based Ksheerabala or Dhanwantharam for Vata, cooling oils such as coconut-based preparations for Pitta, and lighter, warming oils for Kapha. Most people get a blend." },
+    { question: "How long does Abhyanga take, and how many sessions do I need?",
+      answer: "It depends on your needs. After the consultation, the doctor sets the session length and whether you need a single session or a course." },
+    { question: "Is steam part of Abhyanga?",
+      answer: "Usually, yes. Medicated steam (Swedana) often follows Abhyanga to help the oil work; the doctor decides whether it suits you." },
+    { question: "Can I do Abhyanga at home?",
+      answer: "Yes, as self-care. Dr. Zainab can teach you a simple daily self-Abhyanga routine with an oil you buy at a pharmacy. Vedara Care does not offer home massage." },
+    { question: "Do you offer head and foot Abhyanga?",
+      answer: "Yes. Shiro Abhyanga (head, neck and shoulders) and Padabhyanga (feet and lower legs) are available on their own or with a full-body Abhyanga." },
+    { question: "How is Abhyanga different from a spa oil massage?",
+      answer: "Abhyanga starts with a doctor's consultation, uses medicated oils chosen for you, and follows a plan; a spa massage usually uses one oil for everyone and is mainly for relaxation." },
+    { question: "Who should not have Abhyanga?",
+      answer: "It is postponed with fever or acute illness, indigestion or right after a heavy meal, broken skin or a skin infection, a recent injury with swelling, and in the first trimester of pregnancy. The doctor checks this at consultation." },
+    { question: "Will a male or female therapist treat me?",
+      answer: "A same-gender therapist: men are treated by a male therapist and women by a female therapist, in a private room." },
+    { question: "How much does Abhyanga cost in Dubai?",
+      answer: "Across Dubai, an Abhyanga session commonly costs around AED 250 to 700, depending on the clinic, session length and whether steam is included. Vedara Care shares exact prices on WhatsApp." },
+    { question: "How do I book Abhyanga in JVC?",
+      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number. Your first visit includes a 45 to 60-minute consultation with Dr. Zainab." }
   ]
 };
 
 export const abhyangaTreatmentLocation = {
   bgColor: "bg-[#F5F1E8]",
   label: "VISIT US",
-  title: "Where Abhyanga happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
-  landmarks: [
-    "Next to Circle Mall · Near FIVE Hotel · 5 min from JSS School"
-  ],
+  title: "Abhyanga in JVC, near Circle Mall.",
+  address: "Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai",
   phone: "+971 55 573 6312",
-  whatsapp: "+971 55 573 6312",
-  hours: "Monday - Sunday: 9:00AM to 10:00PM",
-  description: "Five private Abhyanga treatment rooms, each with traditional Kerala-style wooden droni table and brass oil-warming station. Heated rooms maintained at 26–28°C during sessions. Free patient parking available.",
-  mapAlt: "Vedara Care Abhyanga clinic location in Jumeirah Village Circle Dubai near Circle Mall",
-  buttonText: "Book Abhyanga Consultation",
-  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
+  whatsapp: "971555736312",
+  whatsappMessage: "Hello Vedara Care, I would like to book Abhyanga at your JVC clinic.",
+  email: "booking@vedaracare.ae",
+  hours: "Monday - Sunday - 9:00AM to 10:00PM",
+  landmarks: ["Near Circle Mall", "Close to JSS Private School", "Free and paid parking available"],
+  description: "Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City.",
+  distances: [],
+  buttonText: "Book Abhyanga",
+  buttonHref: "/book/"
 };
 
 export const abhyangaFinalCTA = {
-  bgColor: "bg-[#FFFFFF]",
+  bgColor: "bg-[#FAF8F5]",
   label: "READY?",
-  title: ["Begin with a brief consultation.",
-    <br />,
-    "The right oils will follow."],
-  description: "First-time Abhyanga always begins with a brief consultation — we cannot select the right medicated oils for your body without it. Returning patients book directly. The consultation takes 15 to 20 minutes and costs AED 150.",
-  button1Text: "Book Abhyanga Consultation",
+  title: "Book your Abhyanga in JVC.",
+  description: "Your first visit includes a consultation, so the oil and the plan are right for you.",
+  button1Text: "Book Abhyanga",
+  button1Href: "/book/",
   button2Text: "Chat on WhatsApp",
-  bullets: [
-    "From AED 450 per session",
-    "Same-gender therapists",
-    "Free clinic parking",
-    "Walking distance from Circle Mall"
-  ]
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20book%20Abhyanga.",
+  bullets: ["Prices shared on WhatsApp", "Same-gender therapist", "Free and paid parking", "Near Circle Mall, JVC"]
 };
 
 export const abhyangaRelatedPages = {
-  bgColor: "bg-[#F5F0E8]",
   label: "EXPLORE FURTHER",
   title: "Related pages.",
-  linkText: "Browse all Ayurvedic treatments",
-  linkHref: "/ayurveda-dubai/",
+  linkText: "See all Ayurvedic massages",
+  linkHref: "/treatments/ayurvedic-massage-jvc/",
   pages: [
-    {
-      title: "Pizhichil (Ayurvedic Oil Bath)",
-      description: "Continuous warm medicated oil stream poured over the body combined with gentle massage, for deeper warmth and joint stiffness.",
-      href: "/treatments/pizhichil-jvc/"
-    },
-    {
-      title: "Compare All Ayurvedic Massages",
-      description: "Not sure if Abhyanga is right for you? Compare with Shirodhara, Kativasti, Njavarakizhi, and Udvartana - and find the right match.",
-      href: "/treatments/ayurvedic-massage-jvc/"
-    },
-    {
-      title: "Panchakarma in Dubai",
-      description: "Abhyanga is the foundation of every Panchakarma programme. See our 7, 14, and 21-day classical Panchakarma protocols.",
-      href: "/treatments/panchakarma-dubai/"
-    },
-    {
-      title: "Shirodhara in Dubai",
-      description: "Most often combined with Abhyanga — the continuous warm oil stream therapy for stress, insomnia, and migraine.",
-      href: "/treatments/shirodhara-dubai/"
-    },
-    {
-      title: "Home Healthcare in Dubai",
-      description: "Abhyanga at home — the most-requested Ayurvedic home service across Dubai, for new mothers, elderly patients, and busy schedules.",
-      href: "/home-healthcare-dubai/"
-    }
+    { title: "Shirodhara", description: "Most often combined with Abhyanga.", href: "/treatments/shirodhara-dubai/" },
+    { title: "Pizhichil", description: "Warm oil poured over the body while it is massaged.", href: "/treatments/pizhichil-jvc/" },
+    { title: "Kizhi (Elakizhi)", description: "Herbal bundles for stiff joints.", href: "/treatments/patra-pinda-sweda-jvc/" },
+    { title: "Udvartana", description: "Herbal powder massage, the drying opposite of Abhyanga.", href: "/treatments/udvartana-jvc/" },
+    { title: "Ayurveda for stress and anxiety", description: "Abhyanga and Shirodhara for stress, anxiety and burnout.", href: "/conditions/stress-anxiety-ayurveda-dubai/" }
   ]
 };

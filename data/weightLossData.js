@@ -1,536 +1,222 @@
+// data/weightLossData.js (replace the whole file)
 export const weightLossHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Conditions", href: "/conditions" },
-    { label: "Ayurveda for Weight Loss in Dubai", active: true }
+    { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
+    { label: "Ayurvedic Weight Loss", active: true }
   ],
-  bgColor: "bg-[#FAF8F3]",
-  label: "AYURVEDIC TREATMENT FOR WEIGHT LOSS | DHA-LICENSED CLINIC IN JVC, DUBAI",
-  title: "We are not going to promise you twenty kilos in three months.",
-  description: "Authentic Ayurvedic weight loss treatment in Dubai is not a 21-day detox, not a herbal supplement, and not a guarantee. It is a 4 to 6-month structured medical programme that identifies why your specific body holds weight, addresses those root patterns through Panchakarma, herbal medicines, dietary correction, and lifestyle modification — and produces sustainable change, typically 6 to 15 kilograms over 6 months, that does not return when you stop. Written by the BAMS-qualified physicians at our Jumeirah Village Circle (JVC) clinic.",
-  primaryCTA: "Book a Weight Loss Consultation",
-  primaryCTAHref: "/book",
+  label: "AYURVEDIC WEIGHT LOSS · JVC, DUBAI · DHA FACILITY LICENCE 2509266",
+  title: "Ayurvedic treatment for weight loss in JVC, Dubai — steady, realistic, doctor-led.",
+  description: "No crash diets and no promised numbers. Dr. Zainab Sheikh (BAMS, MD Ayurveda) finds your weight-gain pattern, our GP checks your blood tests, and your plan combines diet, daily routine, prescribed herbs and Udvartana — with Panchakarma when needed. At our clinic near Circle Mall, JVC.",
+  primaryCTA: "Book a weight-loss consultation",
+  primaryCTAHref: "/book/",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
-  trustSignals: [
-    "Sustainable Ayurvedic Approach",
-    "No Before/After Marketing",
-    "DHA-Licensed Practitioners",
-    "Walking Distance from Circle Mall, JVC"
-  ],
-  floatingCard: {
-    title: "WE DO NOT WEIGH YOU AT EVERY VISIT.",
-    subtitle: "Weight loss consultation at our JVC clinic begins with lab review, pattern identification, and honest expectations."
-  },
-  image: "/images/weight-loss-ayurveda-jvc-hero.webp",
-  alt: "Ayurvedic doctor in weight loss consultation reviewing lab results with patient at Vedara Care JVC Dubai",
-  altText: "Ayurvedic doctor in weight loss consultation reviewing lab results with patient at Vedara Care JVC Dubai"
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Ayurvedic%20weight%20loss.",
+  trustSignals: ["DHA Facility Licence 2509266", "BAMS, MD (Ayurveda) doctor", "GP blood tests at the same clinic", "Near Circle Mall, JVC"],
+  floatingCard: { title: "NO NUMBERS PROMISED", subtitle: "A plan you can keep, built around why you gained weight." },
+  image: "/images/weight-loss-ayurveda-dubai-hero.webp",
+  alt: "Ayurvedic weight-management consultation at Vedara Care, JVC Dubai"
 };
 
 export const weightLossIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
-  title: "Ayurvedic weight loss treatment in Dubai, in one paragraph.",
-  blockquote: "Ayurvedic treatment for weight loss in Dubai is a 4 to 6-month structured medical programme combining classical Panchakarma protocols (typically Virechana cleansing and selective Udvartana herbal powder massage), dosha-specific herbal medicines for metabolic correction, individualised dietary regulation, and lifestyle modification addressing sleep, stress, and movement patterns. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — programmes are calibrated to your specific Kapha-Vata-Pitta metabolic pattern rather than generic protocols, and address root causes including insulin resistance, hormonal patterns, emotional eating, and lifestyle factors. Realistic outcomes: 6 to 15 kilograms over 6 months with sustained maintenance. Initial consultations start from AED 450.",
-  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated May 2026"
+  title: "Ayurvedic weight loss, in one paragraph.",
+  blockquote: "Ayurvedic treatment for weight loss aims for steady, lasting change rather than fast results: it looks for why you gained weight — slow digestion and metabolism, stress and poor sleep, hormonal changes or insulin resistance — and treats that pattern. A plan usually combines a diet and daily routine for your constitution, prescribed herbs such as Triphala or Vyoshadi Guggulu, Udvartana (dry herbal powder massage) and, for some people, Panchakarma or Lekhana Basti. Evidence for Ayurvedic herbs in obesity is promising but limited, and no honest clinic can promise a set number of kilos. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), near Circle Mall, the plan starts with a 45 to 60-minute consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda, DHA-licensed), and our GP can arrange blood tests such as thyroid and HbA1c at the same clinic. The clinic is open daily 9am to 10pm and is close to JVT, Al Barsha South and Arjan.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, BAMS, MD (Ayurveda), DHA licence 20918133. Reviewed November 2026."
 };
 
-export const weightLossMechanism1 = {
-  bgColor: "bg-[#FAF8F3]",
-  label: "AN HONEST OBSERVATION",
-  title: "Why most weight loss approaches in Dubai produce short-term results and long-term frustration.",
+export const weightLossMechanism = {                         // rendered with TreatmentMechanism
+  bgColor: "bg-[#F9F6F1]",
+  label: "WHY THE WEIGHT STAYS",
+  title: "Why diets alone often fail, and how Ayurveda looks at weight.",
   content: [
-    "Dubai has a saturated weight loss market — 21-day 'Ayurvedic detox' packages, GLP-1 prescription services, weight loss spas, surgical clinics offering bariatric procedures, supplement brands, influencer-promoted herbal teas. Most patients arriving at our JVC clinic have tried two or three of these. Most have lost weight and gained it back. Many have ended up heavier than when they started.",
-    "The reason is simple. Weight is a downstream marker of upstream patterns — insulin metabolism, hormonal balance, sleep quality, cortisol patterns, emotional regulation, gut function, dosha-specific metabolic tendency, and lifestyle factors. Approaches that address only the marker (calorie restriction, drug-induced suppression, lymphatic drainage, fat-burning herbs) produce short-term scale changes without changing what produced the weight in the first place. When the intervention stops — or the body adapts — the weight returns, often with interest.",
-    "\"Authentic Ayurvedic weight loss treatment works because it addresses upstream patterns over enough time for the body to actually adapt. Panchakarma cleansing resets metabolic patterns. Internal medicines correct dosha-specific imbalances. Dietary regulation addresses the eating patterns producing the problem. Lifestyle modification addresses sleep, stress, and movement systematically. This requires 4-6 months minimum. There are no Ayurvedic shortcuts — anyone selling them is selling you the same problem in a different package.\""
+    "Many people in Dubai have tried diets, gyms and meal plans, lost weight, then regained it. Ayurveda starts by asking why the weight came on: slow digestion (weak Agni), a heavy Kapha pattern, stress and poor sleep, hormonal change, or blood-sugar problems.",
+    "In Ayurveda, excess weight is called Sthaulya or Medoroga. Treatment lightens and clears (Langhana), strengthens digestion, and changes daily routine so the result lasts.",
+    "What does the research say? A recent trial of the Ayurvedic formulas Vyoshadi Guggulu and Vidanga Churna reported improvements in body measurements and symptoms as a complementary therapy, but the same researchers note these formulas are widely used with limited scientific validation. We treat Ayurveda as support for lasting habits, not a quick fix."
   ],
-  quote: "The clinic that promises you the fastest weight loss is usually the one whose patients are the heaviest two years later",
-
-  pillars: [
-    {
-      number: "1",
-      title: "Panchakarma Cleansing",
-      description: "Resets metabolic patterns through classical cleansing protocols — typically <a href=\"/treatments/udvartana-dubai/\">Udvartana</a> (dry herbal powder massage) for Kapha-predominant patterns, Virechana (therapeutic purgation) for insulin-resistance patterns, and <a href=\"/treatments/shirodhara-dubai/\">Shirodhara</a> for stress-pattern weight gain. Performed once during the programme, typically in month 2. Learn more about <a href=\"/treatments/panchakarma-dubai/\">Panchakarma</a>."
-    },
-    {
-      number: "2",
-      title: "Pattern-Specific Internal Medicines",
-      description: "Individualised herbal formulations based on your metabolic pattern — Triphala Guggulu or Medohar Vidangadi for Kapha, Guduchi-Methi-Karela combinations for insulin-resistance, Ashwagandha and Brahmi for stress patterns, and Vata-pacifying herbs for irregular eating patterns. Doses adjusted monthly."
-    },
-    {
-      number: "3",
-      title: "Dietary Regulation",
-      description: "Not a generic diet — dosha-specific, pattern-specific eating protocols that address the root eating patterns producing your weight gain. Low-glycaemic for insulin-resistance, warming and stimulating for Kapha, regular and grounding for Vata, calming for stress patterns. Gradually implemented to become sustainable."
-    },
-    {
-      number: "4",
-      title: "Lifestyle, Sleep & Stress Modification",
-      description: "Systematic protocols for sleep optimisation, stress reduction, and movement tailored to your life context. Addresses the upstream factors that produce weight gain — late-night eating, poor sleep, chronic stress, sedentary lifestyle. Requires consistent implementation over 4-6 months."
-    }
-  ],
-  footer: "The 'herbal supplement alone,' 'Panchakarma package alone,' or 'just eat less' approaches that dominate the Dubai weight loss market all fail because they address one pillar without the others. Real change requires all four for 4-6 months minimum."
-};
-
-
-// footer: "The 'herbal supplement alone,' 'Panchakarma package alone,' or 'just eat less' approaches that dominate the Dubai weight loss market all fail because they address one pillar without the others. Real change requires all four for 4-6 months minimum."
-
-
-export const weightLossMechanism2 = {
-  bgColor: "bg-white",
-  label: "AN HONEST OBSERVATION",
-  title: "Why most weight loss approaches in Dubai produce short-term results and long-term frustration.",
-  content: [
-    "Patients arrive at our JVC clinic exhausted from weight loss cycles — gym memberships, generic diet plans, meal delivery services, and often, GLP-1 medications (Ozempic, Wegovy, Mounjaro). The pattern is always the same: initial weight loss, then rebound, then frustration.",
-    "What most approaches miss is pattern identification — not all weight gain is the same. A Kapha-predominant person needs completely different treatment than someone with insulin-resistance weight gain, which is different than stress-pattern weight gain. Without identifying the pattern, any approach will only address the surface, not the root.",
-    "What works is a structured 4-6 month medical programme at a DHA-licensed clinic — pattern identification, Panchakarma, herbal medicines, dietary correction, and lifestyle protocols. This is not a '30-day detox' or a 'fat burner' — it's authentic Ayurvedic treatment."
-  ],
-  quote: "If your weight loss solution came in a box or a subscription, it's not treatment — it's marketing.",
-  // image: "/images/ayurvedic-massage-jvc-hero.webp",
+  sources: "Source: <a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12231980/' target='_blank' rel='noopener'>Vyoshadi Guggulu and Vidanga Churna in obesity (PMC)</a>",
   image: "/images/weight-loss-consultation-vedara-jvc.webp",
-  alt: "Sustainable healthy lifestyle imagery — Ayurvedic weight loss approach in Dubai",
-
-  imageLeft: false,
-  imageHeight: "h-[500px]"
+  alt: "Doctor discussing an Ayurvedic weight-loss plan at Vedara Care, JVC"
 };
 
-export const weightLossOils = {
-  bgColor: "bg-white",
-  label: "A REAL QUESTION IN DUBAI 2026",
-  title: "What about Ozempic, Wegovy, and Mounjaro?",
-  description: "GLP-1 medications have transformed the Dubai weight loss conversation. Our honest position — neither dismissive nor evangelistic.",
-  cards: [
-    {
-      title: "If You Are Currently on GLP-1 Medication",
-      content: "Many of our weight loss patients arrive on Ozempic, Wegovy, or Mounjaro — prescribed for diabetes, obesity, or metabolic syndrome. Ayurvedic treatment is compatible with GLP-1 use and often complementary. The medication addresses appetite and glucose; Ayurveda addresses underlying metabolic patterns, dietary habits, sleep, stress, and lifestyle factors that will determine whether weight returns when the medication eventually stops. We coordinate with your prescribing physician throughout the programme."
-    },
-    {
-      title: "If You Are Considering GLP-1 Medication",
-      content: "For some patients — particularly those with significant obesity, metabolic syndrome, or type 2 diabetes — GLP-1 medications are clinically appropriate. For others, they are an expensive way to mask root patterns that Ayurvedic treatment can address directly. We will give you an honest opinion at consultation about whether your specific situation suggests medication, Ayurvedic treatment alone, or both in combination."
-    },
-    {
-      title: "If You Came Off GLP-1 With Rebound",
-      content: "This is one of our fastest-growing patient categories at our JVC clinic. Patients who lost 15-30 kg on GLP-1 medications, came off them, and regained most of the weight within 6-12 months. The honest reason is that the medications did not address dietary habits, metabolic root patterns, lifestyle factors, or emotional eating. Ayurvedic treatment specifically targets these patterns — and works best when started during the medication tapering phase or shortly after."
-    }
+export const weightLossPatterns = {                          // rendered with TreatmentOils
+  label: "FIVE WEIGHT-GAIN PATTERNS",
+  title: "Which pattern sounds like you?",
+  description: "The doctor confirms your pattern at consultation; most people are a mix.",
+  oils: [
+    { name: "Slow metabolism (Kapha)", description: "Heavy, slow, steady gain", content: "Weight comes on easily, with sluggish digestion and low energy.", indication: "Udvartana, warming herbs, lighter diet" },
+    { name: "Blood-sugar pattern", description: "Belly weight, cravings", content: "Weight around the waist, energy dips after meals, sometimes raised sugar or insulin.", indication: "GP blood tests, diet timing, herbs; <a href='/conditions/diabetes-ayurveda-dubai/'>diabetes support</a>" },
+    { name: "Stress and sleep pattern", description: "Gain during busy, stressful periods", content: "Late meals, poor sleep, comfort eating.", indication: "Routine, sleep, calming herbs; <a href='/treatments/shirodhara-dubai/'>Shirodhara</a>" },
+    { name: "Hormonal pattern", description: "PCOS, thyroid, after childbirth, perimenopause", content: "Weight linked to a hormonal change.", indication: "GP blood tests, <a href='/conditions/pcos-ayurveda-dubai/'>PCOS care</a>, <a href='/conditions/thyroid-ayurveda-dubai/'>thyroid care</a>, <a href='/conditions/postnatal-ayurveda-dubai/'>postnatal care</a>" },
+    { name: "Digestive pattern", description: "Bloating, irregular digestion", content: "Weight that fluctuates with digestion problems.", indication: "Agni-building diet and herbs; <a href='/conditions/ibs-ayurveda-dubai/'>Ayurveda for IBS and digestion</a>" }
   ],
-  footer: "We are not anti-medication. We are anti-pretending that medication alone produces sustainable change. Many of our most successful patients are those who use GLP-1s strategically alongside structured Ayurvedic treatment that addresses what the medication cannot."
+  footer: "This list helps you understand the idea; it does not replace a consultation."
 };
 
-export const weightLossPhenotypes = {
-  bgColor: "bg-[#F7F3EC]",
-  label: "ROOT PATTERN IDENTIFICATION",
-  title: "Five metabolic patterns. Different treatment for each.",
-  description: "Weight is not one problem with one solution. At our JVC clinic, the first step is identifying which of these patterns is primary for you — because the treatment for one is wrong for another.",
-  phenotypes: [
-    {
-      letter: "A",
-      title: "Kapha-Predominant Weight Gain",
-      subtitle: "Heavy, slow, water-retaining",
-      content: "The classical Ayurvedic weight gain pattern — slow metabolism, easy fluid retention, energy that feels heavy and sluggish, eating that feels comforting rather than urgent, weight distributed broadly across the body, particularly around the hips, thighs, and abdomen. Often runs in families. Often present from childhood or adolescence.",
-      ayurvedicEmphasis: "Vigorous Udvartana, Virechana, stimulating herbs, structured movement protocols"
-    },
-    {
-      letter: "B",
-      title: "Insulin-Resistance Weight Gain",
-      subtitle: "Central, visceral, blood-sugar-driven",
-      content: "Weight gain concentrated around the abdomen, often with fasting blood sugar elevation, lipid panel changes, and energy crashes after meals. Strongly linked to PCOS, prediabetes, type 2<a href=\"/conditions/diabetes-ayurveda-dubai/\"> diabetes</a>, and metabolic syndrome. Common in South Asian and Middle Eastern populations in Dubai due to genetic predisposition.",
-      ayurvedicEmphasis: "Virechana-led Panchakarma, insulin-sensitising herbs (Guduchi, Methi, Karela), low-glycaemic dietary protocols"
-    },
-    {
-      letter: "C",
-      title: "<a href=\"/conditions/stress-anxiety-ayurveda-dubai/\">Stress-Pattern Weight Gain</a>",
-      subtitle: "Visceral, restless, late-night eating",
-      content: "Weight gain associated with chronic stress, poor sleep, late-night eating, emotional eating, and cortisol dysregulation. Often visible as abdominal weight gain in patients who eat reasonably but cannot lose weight. Common in high-performance professionals in Dubai working in finance, executive roles, founders, and parents of young children.",
-      ayurvedicEmphasis: "Shirodhara, Vata-Pitta pacification, sleep optimisation protocols, stress-specific herbs (Ashwagandha, Brahmi)"
-    },
-    {
-      letter: "D",
-      title: "<a href=\"/conditions/postnatal-ayurveda-dubai/\">Hormonal Weight Gain</a>",
-      subtitle: "Cyclical, hormone-driven, PCOS/postpartum",
-      content: "Weight gain linked to hormonal life stages — <a href=\"/conditions/pcos-ayurveda-dubai/\">PCOS</a>-related weight (often present from teens or twenties), postpartum retention (failure to return to pre-pregnancy weight within 12 months), and perimenopausal weight redistribution. Each has different underlying patterns requiring different protocols.",
-      ayurvedicEmphasis: "Specific hormonal protocols, <a href=\"/conditions/postnatal-ayurveda-dubai/\">classical Sutika Paricharya</a> for postpartum, Vata-pacification for perimenopause"
-    },
-    {
-      letter: "E",
-      title: "Vata-Pattern Weight Gain",
-      subtitle: "Anxiety-driven, irregular eating",
-      content: "The less-recognised pattern: weight gain in patients who are typically lean or normal weight but accumulate weight during specific high-anxiety periods, often with irregular eating patterns, skipped meals followed by overeating, and weight that comes off easily but returns easily. Requires gentle approach.",
-      ayurvedicEmphasis: "Gentle protocols, regular eating regulation, Vata-pacifying foods, light Abhyanga and Shirodhara"
-    }
+export const weightLossPlan = {                              // rendered with TreatmentOils
+  label: "YOUR AYURVEDIC PLAN",
+  title: "What an Ayurvedic weight-loss plan includes.",
+  description: "Chosen for your pattern and reviewed as you go.",
+  oils: [
+    { name: "Diet for your constitution", description: "What and when to eat", content: "Simple, practical changes that fit life in Dubai, including meal timing.", indication: "every plan" },
+    { name: "Daily routine (Dinacharya)", description: "Sleep, wake and meal rhythm", content: "Regular timing to support digestion and energy.", indication: "every plan" },
+    { name: "Prescribed herbs", description: "Bought at a pharmacy", content: "For example Triphala, Vyoshadi Guggulu or Vidanga, checked against your other medicines.", indication: "most plans" },
+    { name: "<a href='/treatments/udvartana-jvc/'>Udvartana</a>", description: "Dry herbal powder massage", content: "Traditionally used to reduce heaviness; given by a same-gender therapist.", indication: "Kapha pattern" },
+    { name: "<a href='/treatments/panchakarma-dubai/'>Panchakarma</a> or <a href='/treatments/basti-jvc/'>Lekhana Basti</a>", description: "When needed", content: "Classical cleansing for some patterns.", indication: "selected patients" }
   ],
-  footer: "Most patients are not a single pattern — many have a primary pattern (most often Kapha or insulin-resistance) with secondary stress or hormonal components. Pattern identification at consultation is what allows treatment to actually work."
+  footer: "Your plan is Ayurvedic; for other medical treatment, we coordinate with your doctor."
 };
 
-export const weightLossApplications = {
-  bgColor: "bg-[#FAF8F3]",
-  label: "AN IMPORTANT DISCUSSION",
-  title: "What about Ozempic, Wegovy, and Mounjaro?",
-  content: [
-    "We get this question at every weight loss consultation at our JVC clinic. GLP-1 medications (semaglutide, liraglutide, tirzepatide) are powerful pharmaceutical tools — but they are not a solution on their own.",
-    "For patients currently on GLP-1 medication, we work alongside your endocrinologist to support metabolic health. For patients considering GLP-1 medication, we help you understand the long-term implications. For patients who came off GLP-1 with rebound weight gain, we help you rebuild metabolic health and prevent further rebound.",
-    "The key distinction: GLP-1 medication manages symptoms (suppressed appetite). Ayurvedic treatment addresses root patterns (metabolic health, Agni, Ama). The strongest outcomes often come from combining them when appropriate."
-  ],
-  quote: "We will not tell you to stop your medication. We will tell you the truth about what medication can and cannot do."
-};
-
-export const weightLossProtocol = {
-  bgColor: "bg-white",
-  label: "WHAT TO EXPECT",
-  title: "What four to six months of Ayurvedic weight loss treatment at our JVC clinic actually looks like.",
-  description: "A representative protocol for metabolic weight loss. Severe insulin-resistance patterns may need 9 months; mild stress-pattern weight gain may resolve in 3-4 months. Your plan is calibrated to your pattern.",
+export const weightLossProtocol = {                          // rendered with TreatmentProtocol
+  label: "HOW IT WORKS",
+  title: "Your first weeks at Vedara Care.",
+  description: "",
   phases: [
-    {
-      time: "Month 1",
-      title: "Assessment & Foundation",
-      items: [
-        "60-75 minute consultation with BAMS-qualified Ayurvedic physician at our JVC clinic",
-        "Comprehensive lab review (HbA1c, fasting insulin, lipid panel, thyroid panel)",
-        "Review of any existing diagnoses or medications",
-        "Pattern identification (which of the five metabolic patterns)",
-        "Pulse diagnosis and dosha assessment",
-        "Initial herbal medicine protocol begins",
-        "Dietary and lifestyle framework introduced"
-      ],
-      expected: "clear pattern diagnosis, baseline lab work reviewed, treatment plan signed off"
-    },
-    {
-      time: "Month 2",
-      title: "Panchakarma & Active Treatment",
-      items: [
-        "7-14 day Panchakarma intensive (typically Udvartana, Abhyanga, Virechana if indicated)",
-        "2-3 Udvartana sessions weekly through the month",
-        "Continued internal herbal medicines",
-        "Dietary protocol fully implemented",
-        "Lifestyle and sleep routines established"
-      ],
-      expected: "initial weight loss (often 2-4 kg), improved digestion, reduced Ama"
-    },
-    {
-      time: "Month 3",
-      title: "Active Treatment Continues",
-      items: [
-        "Mid-programme doctor review with follow-up lab work if indicated",
-        "Refined herbal medicine protocol",
-        "Continuation of weekly Udvartana",
-        "Lifestyle protocols fully integrated",
-        "Shirodhara added if stress is a major factor"
-      ],
-      expected: "steady weight loss, improved energy, better sleep, reduced cravings"
-    },
-    {
-      time: "Month 4",
-      title: "Consolidation",
-      items: [
-        "Second doctor review with progress assessment",
-        "Herbal medicines simplified to maintenance level",
-        "Udvartana reduced to bi-weekly",
-        "Focus on sustaining habits",
-        "Mid-cycle progress check"
-      ],
-      expected: "weight loss continues, habits consolidated, improved metabolic markers"
-    },
-    {
-      time: "Month 5",
-      title: "Refinement",
-      items: [
-        "Personalised maintenance protocol finalised",
-        "Udvartana reduced to monthly",
-        "Focus on long-term lifestyle habits",
-        "Progress assessment and planning",
-        "Maintenance planning begins"
-      ],
-      expected: "weight loss approaching target, habits fully integrated, clear maintenance plan"
-    },
-    {
-      time: "Month 6",
-      title: "Discharge & Long-Term Plan",
-      items: [
-        "Final doctor review with full assessment",
-        "Maintenance protocol clearly outlined",
-        "Quarterly follow-up plan established",
-        "Home care protocol finalised",
-        "Emergency support contact provided"
-      ],
-      expected: "target weight reached or closely approached, confident in self-care, clear long-term plan"
-    }
+    { time: "Step 1", title: "Consultation", content: "A 45-60 minute consultation with Dr. Zainab: your history, eating, sleep, stress, medicines and goals." },
+    { time: "Step 2", title: "Blood tests if needed", content: "Our GP can order tests such as thyroid function, HbA1c, insulin and lipids." },
+    { time: "Step 3", title: "Your plan", content: "Diet, routine, herbs and therapies such as Udvartana, written down for you." },
+    { time: "Step 4", title: "Regular reviews", content: "Weight, waist, energy and digestion are checked and the plan adjusted. Plan length depends on your needs, usually a few months." }
   ],
-  footer: "This is a representative 4-6 month programme. Mild stress-pattern weight gain often resolves in 3 months. Severe insulin-resistance weight gain typically requires 6-9 months with maintenance. Outcomes vary based on pattern and adherence."
+  footer: "Herbs are prescribed and bought at a licensed pharmacy."
 };
 
-export const weightLossSymptoms = {
-  bgColor: "bg-[#F7F3EC]",
-  label: "REALISTIC EXPECTATIONS",
-  title: "What weight loss is realistic — and why we resist promising specific numbers.",
-  description: "Different weight gain patterns respond at different rates and to different degrees. Realistic expectations prevent the frustration that comes from unmet promises.",
-  image: "/images/udvartana-herbal-powder-massage-vedara-jvc.webp",
-  alt: "Sustained healthy living for Ayurvedic weight loss patients in Dubai",
-  symptoms: [
-    {
-      title: "Kapha-Predominant Weight Gain",
-      content: "Typically the most responsive pattern — 8-15 kg over 6 months is common, especially with regular Udvartana and Panchakarma. Weight loss is steady rather than rapid. The biggest improvements are in energy levels and reduced water retention.",
-      expected: "Realistic expectation: 8-15 kg over 6 months"
-    },
-    {
-      title: "Insulin-Resistance Weight Gain",
-      content: "Typically 6-12 kg over 6 months, with improvements in metabolic markers (fasting insulin, HbA1c, lipids) being as important as weight loss. Often requires the longest commitment, and Panchakarma is almost always indicated.",
-      expected: "Realistic expectation: 6-12 kg over 6 months plus improved metabolic markers"
-    },
-    {
-      title: "Stress-Pattern Weight Gain",
-      content: "Often responds quickly to stress-reduction protocols and Ashwagandha — 5-10 kg over 6 months is common, plus improved sleep and reduced anxiety. The biggest challenge is maintaining habits after stress levels reduce.",
-      expected: "Realistic expectation: 5-10 kg over 6 months plus improved sleep and reduced anxiety"
-    },
-    {
-      title: "Hormonal Weight Gain",
-      content: "Highly variable depending on the hormonal trigger — postpartum weight gain often responds well to Sutika Paricharya (6-10 kg over 6 months), while perimenopausal weight gain is slower (3-7 kg) but with significant improvement in other symptoms.",
-      expected: "Realistic expectation: Variable — from 3-10 kg depending on hormonal trigger"
-    },
-    {
-      title: "Vata-Pattern Weight Gain",
-      content: "Often less about total weight loss and more about stabilising weight and digestion — 3-7 kg over 6 months is common, plus improved regularity and reduced bloating. The biggest improvement is in consistency of weight rather than just total loss.",
-      expected: "Realistic expectation: 3-7 kg plus stabilised weight and digestion"
-    }
-  ],
-  footer: "We are reluctant to promise specific weight loss numbers, but patients reasonably want to know what to expect. Honest range based on our weight loss patients at the JVC clinic: 6-15 kg over 6 months for most patterns, with some patterns slower and some faster. These are honest ranges — no transformations, no guarantees."
-};
-
-export const weightLossBoundaries = {
-  bgColor: "bg-[#F5F0E8]",
-  label: "HONEST CLINICAL BOUNDARIES",
-  title: "When we refer you elsewhere first.",
-  description: "Ayurvedic weight loss treatment is powerful for the right patient. It is not appropriate for everyone.",
-  columns: [
-    {
-      label: "When conventional evaluation comes first",
-      title: "",
-      items: [
-        "Unintentional weight loss in the last 6 months (rule out medical causes)",
-        "BMI over 40 with significant comorbidities (bariatric evaluation may be the right first step)",
-        "Active eating disorders (specialised eating disorder care needed)",
-        "Pregnancy or active fertility treatment (different protocols, not weight loss)",
-        "Type 1 diabetes with complications (endocrinology lead with Ayurvedic support)",
-        "Severe mental health crises affecting eating (mental health stabilisation first)"
-      ]
-    },
-    {
-      label: " When Ayurveda works best alongside other care",
-      title: "",
-      items: [
-        "You are on GLP-1 medications (Ayurveda complements, see above)",
-        "You have PCOS (treat both conditions together)",
-        "You have type 2 diabetes (alongside endocrinology, not instead)",
-        "You have hypothyroidism (alongside endocrinology with thyroid-specific support)",
-        "You have had bariatric surgery (post-bariatric Ayurvedic support is increasingly common)"
-      ]
-    }
-  ],
-  footer: "Real Ayurvedic doctors at our JVC clinic refer to endocrinology, gastroenterology, or psychiatry when appropriate — and coordinate care rather than compete with it. For patients with complex weight loss situations, integrated care produces the strongest outcomes."
-};
-
-export const weightLossReviews = {
-  bgColor: "bg-[#2D5F4F]",
-  cardBgColor: "rgba(255, 255, 255, 0.05)",
-  isDarkText: false,
-  label: " PATIENT OUTCOMES",
-  title: "Real weight loss outcomes from our JVC clinic",
-  items: [],
-  stats: [
-    { value: "94", label: "Weight Loss  reviews" },
-    { value: "78%", label: "achieved their target range" },
-    { value: "4.7", label: "stars on Google " },
-    { value: "97%", label: " maintained it at 12 months " }
-  ],
-  buttonText: "Read All Weight Loss Reviews →",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
-};
-
-export const weightLossPrograms = {
+export const weightLossGlp1 = {                              // rendered with TreatmentMechanism
   bgColor: "bg-white",
-  label: "TRANSPARENT PRICING",
-  title: "What Ayurvedic weight loss treatment at our JVC clinic actually costs.",
-  description: "Indicative pricing for our three most-common weight loss programmes. Final pricing depends on pattern, severity, and treatment intensity confirmed at consultation.",
-  programs: [
-    {
-      name: "Weight Loss Initial Assessment",
-      price: "From AED 450",
-      duration: "1 session, 60-75 minutes at our JVC clinic",
-      features: [
-        "CComprehensive consultation with BAMS-qualified physician",
-        "Detailed history including dietary, lifestyle, medical patterns",
-        "Body composition assessment (where equipment available)",
-        "Pattern identification (which of the five metabolic types)",
-        "Pulse diagnosis and dosha assessment",
-        "Lab orders if needed (insulin, HbA1c, lipid, thyroid, hormones)",
-        "Honest written treatment plan with realistic expectations",
-        "Full programme pricing in writing"
-      ],
-      bestFor: "First step for every weight loss patient — required before any treatment programme",
-      whatsappMessage: "Hi, I'd like to book an initial weight loss assessment at your JVC clinic in Dubai."
-    },
-    {
-      name: "Standard 6-Month Weight Loss Programme",
-      price: "From AED 18,500",
-      duration: "6 months · ~25-35 visits to our JVC clinic",
-      featured: true,
-      badge: "Most Common for Metabolic Weight Loss",
-      features: [
-        "All Initial Assessment components",
-        "One Panchakarma programme (7-14 days, typically month 2)",
-        "Weekly Udvartana sessions during active phase (where indicated)",
-        "6 months of pattern-specific herbal medicines",
-        "Comprehensive dietary protocol with monthly refinement",
-        "Lifestyle, sleep, and movement protocols",
-        "Monthly doctor reviews",
-        "3-month and 12-month follow-up after programme"
-      ],
-      bestFor: "Standard weight loss programme for Kapha-predominant and insulin-resistance patterns",
-      whatsappMessage: "Hi, I'd like to inquire about the Standard 6-Month Weight Loss Programme at your JVC clinic in Dubai."
-    },
-    {
-      name: "Extended Integrated Weight Loss Programme",
-      price: "From AED 28,500",
-      duration: "9-12 months · ~40-60 visits",
-      features: [
-        "All standard programme components",
-        "Second Panchakarma component (typically month 5 or 6)",
-        "Coordination with endocrinology/gynaecology/conventional team",
-        "Body composition tracking with monthly measurements",
-        "Extended dietary support including cooking education sessions",
-        "Group support cohort options",
-        "6-month and 12-month formal follow-up"
-      ],
-      bestFor: "Patients with significant weight to lose (over 20 kg), complex metabolic patterns, post-GLP-1 rebound",
-      whatsappMessage: "Hi, I'd like to inquire about the Extended Integrated Weight Loss Programme at your JVC clinic in Dubai."
-    }
+  label: "AYURVEDA AND GLP-1 MEDICINES",
+  title: "Ozempic, Wegovy or Mounjaro? Here is where Ayurveda fits.",
+  content: [
+    "GLP-1 medicines can be the right choice for some people, especially with significant obesity or type 2 diabetes. They are prescribed by your doctor, and Ayurveda does not replace them.",
+    "If you take one, Ayurveda can work alongside it with your doctor's knowledge, focusing on digestion, diet and routine. If you have stopped and regained weight, Ayurveda can help you build habits that support a stable weight.",
+    "Dr. Zainab checks any herbs against your medicines before prescribing."
   ],
-  footer: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic weight loss varies by plan and is usually partial. Bariatric-indication coverage may apply for severe obesity. <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20confirm%20my%20insurance%20coverage%20for%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us your insurance card</a> before booking to confirm."
+  image: "/images/ayurveda-weight-management-consultation-jvc-dubai.webp",
+  alt: "Ayurvedic weight-management consultation at Vedara Care, JVC"
+};
+
+export const weightLossBoundaries = {                        // rendered with ClinicalBoundaries
+  label: "SEE A DOCTOR FIRST",
+  title: "When weight needs a medical check before Ayurveda.",
+  leftCard: {
+    label: "GET CHECKED FIRST",
+    title: "Talk to our GP or your doctor if you have:",
+    useWarningIcon: true,
+    items: ["Unexplained weight gain or weight loss", "Known thyroid disease, diabetes or PCOS", "Heart disease or high blood pressure", "An eating disorder now or in the past", "Pregnancy or breastfeeding", "Many regular medicines"]
+  },
+  rightCard: {
+    label: "WHAT WE DO NOT DO",
+    title: "At Vedara Care we do not:",
+    items: [
+      { text: "Promise a number of kilos", icon: "check" },
+      { text: "Offer crash diets or 'detox' fasts", icon: "check" },
+      { text: "Sell weight-loss products", icon: "check" },
+      { text: "Ask you to stop prescribed medicines", icon: "check" }
+    ]
+  },
+  footer: "Blood tests through our GP help make the plan safe and specific."
+};
+
+export const weightLossPrograms = {                          // rendered with TreatmentPrograms
+  bgColor: "bg-[#F9F6F1]",
+  label: "HOW TO START",
+  title: "Three ways to start.",
+  whatsappNumber: "971555736312",
+  programs: [
+    { name: "Consultation", price: "Prices shared on WhatsApp", duration: "45-60 minutes",
+      features: ["Pattern assessment", "Diet and routine advice", "Prescription if needed", "Advice on blood tests"], bestFor: "Finding out what suits you",
+      buttonText: "Book a consultation", whatsappMessage: "Hello Vedara Care, I would like to book an Ayurvedic weight-loss consultation." },
+    { name: "Weight-management plan", price: "Prices shared on WhatsApp", duration: "Length set by your doctor", featured: true,
+      features: ["Consultation and regular reviews", "GP blood tests if needed", "Udvartana sessions", "Diet, routine and herbs"], bestFor: "Steady, lasting change",
+      buttonText: "Ask about the plan", whatsappMessage: "Hello Vedara Care, I would like to ask about an Ayurvedic weight-management plan." },
+    { name: "Plan with Panchakarma", price: "Prices shared on WhatsApp", duration: "Length set by your doctor",
+      features: ["Everything in the plan", "Panchakarma or Lekhana Basti", "Closer doctor supervision"], bestFor: "Selected patterns, after assessment",
+      buttonText: "Ask about Panchakarma", whatsappMessage: "Hello Vedara Care, I would like to ask about Panchakarma for weight management." }
+  ],
+  footer: "Vedara Care does not bill insurers directly; where treatment is for a diagnosed medical condition, we provide the invoice and report for a reimbursement claim."
 };
 
 export const weightLossFaqs = {
-  bgColor: "bg-[#F5F0E8]",
-  label: "WEIGHT LOSS QUESTIONS",
-  title: "What patients ask before starting Ayurvedic weight loss treatment.",
-  description: "For PCOS-related weight loss, see our PCOS condition page. For specific treatments, see the Panchakarma and Udvartana pages.",
-  buttonText: "Ask the Weight Loss Team",
-  buttonHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20ask%20a%20question%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
+  bgColor: "bg-[#F9F6F1]",
+  label: "WEIGHT-LOSS QUESTIONS",
+  sidebarLinks: [
+    { text: "Udvartana", href: "/treatments/udvartana-jvc/" },
+    { text: "Panchakarma", href: "/treatments/panchakarma-dubai/" },
+    { text: "Ayurveda for PCOS", href: "/conditions/pcos-ayurveda-dubai/" }
+  ],
+  title: "Ayurvedic weight loss: your questions answered.",
+  description: "Answers reviewed by Dr. Zainab Sheikh. For other therapies, see our <a href=\"/ayurveda-dubai/\">guide to Ayurvedic treatment in Dubai</a>.",
+  buttonText: "Ask the team on WhatsApp",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Ayurvedic%20weight%20loss.",
   faqs: [
-    {
-      question: "Does Ayurvedic weight loss treatment actually work?",
-      answer: "Yes — when it is a structured 4-6 month medical programme, not a single supplement or detox package. Most of our weight loss patients at the JVC clinic lose 6-15 kg over 6 months and maintain it at 12-month follow-up. What does not work: Ayurvedic supplements alone, '21-day Ayurvedic detox' packages, herbal teas, or any approach that promises rapid results. We will tell you honestly at consultation whether your specific situation is suited to Ayurvedic treatment."
-    },
-
-    {
-      question: "How much weight will I actually lose?",
-      answer: "Honest ranges: Kapha-predominant patients typically lose 6-10 kg over 6 months. Insulin-resistance patterns with Panchakarma typically lose 8-15 kg over 6 months. Stress-pattern patients typically lose 3-7 kg over 4 months. PCOS-related patterns typically lose 5-12 kg over 6 months. Some patients exceed these ranges; some land below them. Patients who do not implement dietary and lifestyle protocols lose less. We do not promise specific numbers — that is how the rest of the Dubai weight loss market disappoints patients."
-    },
-    {
-      question: "How is this different from GLP-1 medications like Ozempic?",
-      answer: "GLP-1 medications reduce appetite and improve glucose handling through pharmacological mechanism. They are powerful but address the chemistry without changing the underlying behaviours, metabolic patterns, sleep, stress, or dietary habits that produced the weight. When the medication stops, the weight typically returns unless the underlying patterns have changed. Ayurvedic treatment addresses these patterns directly over 4-6 months — producing change that does not require ongoing medication. For some patients, the strongest outcomes come from using both strategically."
-    },
-
-    {
-      question: "Can I do Ayurvedic weight loss treatment while on Ozempic, Wegovy, or Mounjaro?",
-      answer: "Yes. We have a growing population of patients on GLP-1 medications who add Ayurvedic treatment specifically to address what the medication does not — the dietary habits, lifestyle factors, and metabolic root patterns that determine long-term outcomes. The two approaches are compatible. We coordinate with your prescribing physician throughout."
-    },
-
-    {
-      question: "How much does Ayurvedic weight loss treatment cost in Dubai?",
-      answer: "At Vedara Care, initial assessment starts from AED 450. A standard 6-month programme starts from AED 18,500. An extended integrated programme starts from AED 28,500. Across Dubai, comprehensive Ayurvedic weight loss programmes typically range from AED 10,000 to AED 30,000 depending on length and intensity. This is comparable to or less than the annual cost of GLP-1 medications without insurance coverage."
-    },
-
-    {
-      question: "Will I gain the weight back when I stop?",
-      answer: "Most of our patients do not — at 12-month follow-up, 91% have maintained their loss within 2-3 kg. The programme is specifically designed to produce sustainable change rather than temporary loss. Patients who do regain are typically those who completely abandon the dietary and lifestyle protocols rather than maintaining the modified versions. Some annual or biannual return visits are common for ongoing support."
-    },
-
-    {
-      question: "Where exactly is your weight loss clinic in Dubai?",
-      answer: "Our clinic is at Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif."
-    },
-    {
-      question: "How do I start?",
-      answer: "Always with an assessment, never directly with a treatment package. Tap 'Book a Weight Loss Consultation' on this page, <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"hover:underline\">WhatsApp us</a> for the fastest response, or call us. The initial 60-75 minute consultation at our JVC clinic includes comprehensive history, examination, pattern identification, and a honest written treatment plan with realistic expectations and pricing — including a clear answer to whether Ayurvedic treatment is right for your specific situation."
-    }]
-
+    { question: "Does Ayurveda work for weight loss?",
+      answer: "Ayurveda can support steady weight loss when it changes daily habits: diet, routine, sleep and stress, with herbal medicines and therapies such as Udvartana. Small studies of Ayurvedic herbal formulas report improvements in body measurements, but evidence is limited, and there is no quick fix." },
+    { question: "Where can I get Ayurvedic treatment for weight loss in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall, with Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor. Our GP can arrange blood tests at the same clinic. Open daily 9am to 10pm, close to JVT, Al Barsha South and Arjan." },
+    { question: "How much weight can I lose with Ayurveda?",
+      answer: "It depends on your body, health, starting point and how closely you follow the plan, so we do not promise a number. A slow, steady loss that you can keep up is the aim; the doctor will set realistic goals with you." },
+    { question: "What does an Ayurvedic weight-loss plan include?",
+      answer: "A consultation, blood tests if needed, a diet and daily routine for your constitution, prescribed herbs, and therapies such as Udvartana; some people also need Panchakarma or Lekhana Basti. The plan is reviewed as you go." },
+    { question: "Does Udvartana burn fat?",
+      answer: "No massage burns fat on its own. Udvartana, a dry herbal powder massage, is traditionally used to reduce heaviness and support weight management alongside diet and routine." },
+    { question: "Which Ayurvedic medicine is best for weight loss?",
+      answer: "There is no single best medicine. Doctors commonly use preparations such as Triphala, Vyoshadi Guggulu or Vidanga, chosen for your pattern and checked against your other medicines. Vedara Care prescribes; you buy them at a licensed pharmacy." },
+    { question: "Why do I need blood tests?",
+      answer: "Weight gain can come from thyroid problems, insulin resistance, PCOS or medicines. Our GP can order tests such as thyroid function, HbA1c, insulin and lipids so the plan treats the real cause." },
+    { question: "Can I use Ayurveda with Ozempic, Wegovy or Mounjaro?",
+      answer: "Often, yes, with your prescribing doctor's knowledge. Ayurveda focuses on diet, digestion and routine, which can help you keep weight off; the doctor checks for interactions with any herbs." },
+    { question: "I regained weight after stopping a GLP-1 medicine. Can Ayurveda help?",
+      answer: "It can help you build the eating and daily habits that support a stable weight. Talk to your prescribing doctor about the medicine itself; we plan the Ayurvedic side around it." },
+    { question: "How long does Ayurvedic weight-loss treatment take?",
+      answer: "It depends on your needs; most plans run for a few months, with regular reviews. The doctor sets the length at your first consultation." },
+    { question: "Who should see a doctor first?",
+      answer: "Anyone with unexplained weight gain or loss, a thyroid problem, diabetes, PCOS, heart disease, an eating disorder, or who is pregnant or breastfeeding. Our GP and Dr. Zainab will check this before starting." },
+    { question: "Will a male or female therapist treat me?",
+      answer: "A same-gender therapist: men are treated by a male therapist and women by a female therapist." },
+    { question: "How much does Ayurvedic weight-loss treatment cost in Dubai?",
+      answer: "Across Dubai, an Ayurvedic consultation commonly costs around AED 200 to 500 and a therapy session such as Udvartana around AED 250 to 700; herbs are bought separately. The total depends on your plan. Vedara Care shares exact prices on WhatsApp." },
+    { question: "How do I book?",
+      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number. Bring recent blood test results if you have them." }
+  ]
 };
 
 export const weightLossTreatmentLocation = {
-  bgColor: "bg-[#F8FAF3]",
-  label: "WHERE WE TREAT",
-  title: "Where weight loss treatment happens at Vedara Care.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC) Dubai",
+  bgColor: "bg-[#F5F1E8]",
+  label: "VISIT US",
+  title: "Ayurvedic weight management in JVC, near Circle Mall.",
+  address: "Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai",
   phone: "+971 55 573 6312",
-  whatsapp: "+971 55 573 6312",
+  whatsapp: "971555736312",
+  whatsappMessage: "Hello Vedara Care, I would like to ask about Ayurvedic weight loss at your JVC clinic.",
   email: "booking@vedaracare.ae",
-  hours: {
-    monday: "9:00 AM - 10:00 PM",
-    tuesday: "9:00 AM - 10:00 PM",
-    wednesday: "9:00 AM - 10:00 PM",
-    thursday: "9:00 AM - 10:00 PM",
-    friday: "9:00 AM - 10:00 PM",
-    saturday: "9:00 AM - 10:00 PM",
-    sunday: "9:00 AM - 10:00 PM"
-  },
-  landmarks: [
-    "Walking distance from Circle Mall",
-    "2-minute drive from Jumeirah Village Triangle",
-    "Easy access from Sheikh Mohammed Bin Zayed Road and Al Khail Road",
-    "Near Dubai Sports City and Motor City",
-    "Free patient parking available"
-  ],
-  description: "Our JVC clinic has dedicated Panchakarma rooms with traditional positioning, Udvartana treatment areas, private consultation rooms, and body composition assessment equipment. Female doctors and therapists available on request. Walking distance from Circle Mall, easy access from JVC Districts 10, 11, 12, 13, JVT, and Al Barsha South.",
-  buttonText: "Book a Weight Loss Consultation",
-  mapAlt: "Vedara Care weight loss clinic location in Jumeirah Village Circle Dubai near Circle Mall",
-  directions: "From Sheikh Mohammed Bin Zayed Road: Take Exit 27 for JVC, follow signs for Circle Mall. From Al Khail Road: Take JVC exit, follow signs for Circle Mall. Our clinic is next to Circle Mall with free patient parking.",
-  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
+  hours: "Monday - Sunday - 9:00AM to 10:00PM",
+  landmarks: ["Near Circle Mall", "Close to JSS Private School", "Free and paid parking available"],
+  description: "Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City.",
+  distances: [],
+  buttonText: "Book a consultation",
+  buttonHref: "/book/"
 };
 
 export const weightLossFinalCTA = {
-  bgColor: "bg-[#FFFFFF]",
+  bgColor: "bg-[#FAF8F5]",
   label: "READY?",
-  title: ["Start with an honest consultation, not a package."],
-  description: "If you have been trying to lose weight in Dubai and finding that nothing sticks, the first useful step is not another product or programme — it is an honest 60-minute conversation. At consultation, we identify which of the five metabolic patterns is primary for you, what Ayurvedic treatment can realistically achieve for your specific situation, and whether you should start a programme with us, work with us alongside GLP-1 medication or other care, or whether something different would serve you better. The consultation is honest before it is anything else.",
-  button1Text: "Book a Weight Loss Consultation",
-  button1Href: "/book",
+  title: "Start with a consultation, not a crash diet.",
+  description: "In 45 to 60 minutes, Dr. Zainab will find your weight-gain pattern, advise on blood tests and build a plan you can keep.",
+  button1Text: "Book a consultation",
+  button1Href: "/book/",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20weight%20loss%20treatment%20at%20your%20JVC%20clinic%20in%20Dubai.",
-  bullets: [
-    "Initial consultation from AED 350",
-    "Walking distance from Circle Mall, JVC",
-    " Female doctors available",
-    "Insurance direct-billing available",
-
-    "Free clinic parking"
-  ]
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Ayurvedic%20weight%20loss.",
+  bullets: ["Prices shared on WhatsApp", "GP blood tests on site", "Free and paid parking", "Near Circle Mall, JVC"]
 };
 
 export const weightLossRelatedPages = {
-  bgColor: "bg-[#F8FAF3]",
   label: "EXPLORE FURTHER",
   title: "Related pages.",
-  linkText: "Browse all Ayurvedic treatments",
+  linkText: "See all Ayurvedic treatments",
   linkHref: "/ayurveda-dubai/",
   pages: [
-    {
-      title: "Panchakarma in Dubai →",
-      description: "For metabolic cleansing, classical Panchakarma protocols provide the deep reset needed for long-term weight management.",
-      href: "/treatments/panchakarma-dubai/"
-    },
-    {
-      title: "Udvartana in Dubai →",
-      description: "The signature Ayurvedic dry powder massage for Kapha-predominant weight loss and lymphatic drainage.",
-      href: "/treatments/udvartana-dubai/"
-    },
-    {
-      title: "Ayurveda for PCOS in Dubai →",
-      description: "For hormonal weight gain linked to PCOS, see our comprehensive guide to Ayurvedic PCOS treatment.",
-      href: "/conditions/pcos-ayurveda-dubai/"
-    },
-    {
-      title: "Our Ayurveda Clinic in JVC →",
-      description: "Learn more about our Jumeirah Village Circle clinic and the team of Ayurvedic doctors.",
-      href: "/ayurveda-clinic-jvc/"
-    }
+    { title: "Udvartana", description: "Dry herbal powder massage.", href: "/treatments/udvartana-jvc/" },
+    { title: "Panchakarma", description: "Classical cleansing, when needed.", href: "/treatments/panchakarma-dubai/" },
+    { title: "Ayurveda for PCOS", description: "When weight is linked to PCOS.", href: "/conditions/pcos-ayurveda-dubai/" },
+    { title: "Ayurvedic consultation", description: "Pulse diagnosis and a full assessment.", href: "/treatments/nadi-pareeksha-jvc/" }
   ]
 };
-
-

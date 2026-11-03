@@ -1,12 +1,13 @@
 import Head from 'next/head';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
+import ClinicalBoundaries from '../../components/ayurveda/ClinicalBoundaries';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
 import ArthritisTypes from '../../components/ayurveda/ArthritisTypes';
 import ArthritisPillars from '../../components/ayurveda/ArthritisPillars';
-import TreatmentProtocol from '../../components/ayurveda/TreatmentProtocol';
 import TreatmentPrograms from '../../components/ayurveda/TreatmentPrograms';
 import FAQ from '../../components/home/FAQ';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
@@ -15,11 +16,10 @@ import TreatmentLocationCustom from '../../components/ayurveda/TreatmentLocation
 import {
   ayurvedaIbsHero,
   ayurvedaIbsIntro,
+  ayurvedaIbsRedFlags,
   ayurvedaIbsMechanism1,
-  ayurvedaIbsMechanism2,
   ayurvedaIbsPillars,
   ayurvedaIbsArthritisTypes,
-  ayurvedaIbsProtocol,
   ayurvedaIbsPrograms,
   ayurvedaIbsFaqs,
   ayurvedaIbsFinalCTA,
@@ -27,359 +27,187 @@ import {
   ayurvedaIbsTreatmentLocationCustom,
 } from '../../data/ayurvedaIbs';
 
-const AyurvedaIbsDubai = () => {
-  const currentDate = new Date().toISOString();
-  const schemaMarkup = [
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "@id": "https://vedaracare.ae/conditions/ibs-ayurveda-dubai/#condition",
-      "name": "Irritable Bowel Syndrome",
-      "alternateName": ["IBS", "Grahani Roga", "Functional Bowel Disorder", "Spastic Colon", "Sangrahani"],
-      "code": [
-        {"@type": "MedicalCode", "code": "K58", "codingSystem": "ICD-10"},
-        {"@type": "MedicalCode", "code": "K58.0", "codingSystem": "ICD-10"},
-        {"@type": "MedicalCode", "code": "K58.9", "codingSystem": "ICD-10"}
-      ],
-      "associatedAnatomy": [
-        {"@type": "AnatomicalStructure", "name": "Colon"},
-        {"@type": "AnatomicalStructure", "name": "Small intestine"},
-        {"@type": "AnatomicalStructure", "name": "Enteric nervous system"},
-        {"@type": "AnatomicalStructure", "name": "Gut microbiome"},
-        {"@type": "AnatomicalStructure", "name": "Brain-gut axis"},
-        {"@type": "AnatomicalStructure", "name": "Vagus nerve"}
-      ],
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Abdominal pain"},
-        {"@type": "MedicalSymptom", "name": "Altered bowel habits"},
-        {"@type": "MedicalSymptom", "name": "Diarrhoea"},
-        {"@type": "MedicalSymptom", "name": "Constipation"},
-        {"@type": "MedicalSymptom", "name": "Bloating"},
-        {"@type": "MedicalSymptom", "name": "Abdominal distension"},
-        {"@type": "MedicalSymptom", "name": "Post-meal urgency"},
-        {"@type": "MedicalSymptom", "name": "Sense of incomplete evacuation"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-        {"@type": "MedicalProcedure", "name": "Virechana"},
-        {"@type": "MedicalProcedure", "name": "Basti"},
-        {"@type": "MedicalProcedure", "name": "Abhyanga", "url": "https://vedaracare.ae/treatments/abhyanga-dubai/"},
-        {"@type": "MedicalProcedure", "name": "Shirodhara", "url": "https://vedaracare.ae/treatments/shirodhara-dubai/"},
-        {"@type": "MedicalTherapy", "name": "Hingvashtaka Churna"},
-        {"@type": "MedicalTherapy", "name": "Dadimashtaka Churna"},
-        {"@type": "MedicalTherapy", "name": "Kutaja Ghana Vati"},
-        {"@type": "MedicalTherapy", "name": "Bilva Marmala"},
-        {"@type": "MedicalTherapy", "name": "Chitrakadi Vati"},
-        {"@type": "MedicalTherapy", "name": "Avipattikara Churna"},
-        {"@type": "MedicalTherapy", "name": "Trivrit Lehyam"},
-        {"@type": "MedicalTherapy", "name": "Pippali"},
-        {"@type": "MedicalTherapy", "name": "Trikatu"},
-        {"@type": "MedicalTherapy", "name": "Vidanga"},
-        {"@type": "MedicalTherapy", "name": "Triphala"},
-        {"@type": "MedicalTherapy", "name": "Dietary regulation"},
-        {"@type": "DietaryApproach", "name": "Low-FODMAP diet"},
-        {"@type": "Drug", "name": "Mebeverine"},
-        {"@type": "Drug", "name": "Hyoscine"},
-        {"@type": "Drug", "name": "Loperamide"},
-        {"@type": "Drug", "name": "Amitriptyline"},
-        {"@type": "Drug", "name": "Rifaximin"}
-      ],
-      "riskFactor": [
-        {"@type": "MedicalRiskFactor", "name": "Previous GI infection (post-infectious IBS)"},
-        {"@type": "MedicalRiskFactor", "name": "Chronic stress"},
-        {"@type": "MedicalRiskFactor", "name": "SIBO"},
-        {"@type": "MedicalRiskFactor", "name": "Family history"},
-        {"@type": "MedicalRiskFactor", "name": "Female sex (IBS-C)"},
-        {"@type": "MedicalRiskFactor", "name": "Dietary patterns"},
-        {"@type": "MedicalRiskFactor", "name": "Antibiotic use history"},
-        {"@type": "MedicalRiskFactor", "name": "Irregular eating patterns"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "IBS-D (Diarrhoea-Predominant Irritable Bowel Syndrome)",
-      "alternateName": ["IBS-D", "Pitta-Vata Pattern Grahani"],
-      "code": {"@type": "MedicalCode", "code": "K58.0", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Loose stools 25%+ of the time"},
-        {"@type": "MedicalSymptom", "name": "Bowel urgency"},
-        {"@type": "MedicalSymptom", "name": "Post-meal urgency"},
-        {"@type": "MedicalSymptom", "name": "Morning bowel movements"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Virechana", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-        {"@type": "MedicalTherapy", "name": "Kutaja Ghana Vati"},
-        {"@type": "MedicalTherapy", "name": "Bilva Marmala"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "IBS-C (Constipation-Predominant Irritable Bowel Syndrome)",
-      "alternateName": ["IBS-C", "Vata Pattern Grahani"],
-      "code": {"@type": "MedicalCode", "code": "K58.9", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Infrequent bowel movements (fewer than 3 per week)"},
-        {"@type": "MedicalSymptom", "name": "Hard or pellet-like stools"},
-        {"@type": "MedicalSymptom", "name": "Straining"},
-        {"@type": "MedicalSymptom", "name": "Sense of incomplete evacuation"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Basti"},
-        {"@type": "MedicalTherapy", "name": "Triphala"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "IBS-M (Mixed Alternating Irritable Bowel Syndrome)",
-      "alternateName": ["IBS-M", "Mixed Dosha Pattern Grahani"],
-      "code": {"@type": "MedicalCode", "code": "K58.9", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Alternating periods of diarrhoea and constipation"},
-        {"@type": "MedicalSymptom", "name": "Significant abdominal discomfort"},
-        {"@type": "MedicalSymptom", "name": "Bloating"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Panchakarma"},
-        {"@type": "MedicalTherapy", "name": "Tridoshic balancing medicines"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Post-Infectious IBS",
-      "alternateName": ["PI-IBS", "Pitta-Pittaja with Ama component"],
-      "code": {"@type": "MedicalCode", "code": "K58.9", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "IBS symptoms after GI infection"},
-        {"@type": "MedicalSymptom", "name": "Persistent symptoms post-infection"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Panchakarma"},
-        {"@type": "MedicalTherapy", "name": "Pippali-based formulations"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "SIBO-Related IBS",
-      "alternateName": ["SIBO-IBS", "Ajeerna or Ama-Grahani patterns"],
-      "code": {"@type": "MedicalCode", "code": "K58.9", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Bloating"},
-        {"@type": "MedicalSymptom", "name": "Abdominal distension"},
-        {"@type": "MedicalSymptom", "name": "Changes after carbohydrate-containing meals"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Panchakarma"},
-        {"@type": "MedicalTherapy", "name": "Vidanga"},
-        {"@type": "MedicalTherapy", "name": "Pippali-based formulations"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "@id": "https://vedaracare.ae/conditions/ibs-ayurveda-dubai/#webpage",
-      "name": "Ayurveda for IBS in Dubai",
-      "url": "https://vedaracare.ae/conditions/ibs-ayurveda-dubai/",
-      "about": {"@id": "https://vedaracare.ae/conditions/ibs-ayurveda-dubai/#condition"},
-      "audience": {
-        "@type": "PatientAudience",
-        "geographicArea": {"@type": "Place", "name": "Dubai, United Arab Emirates"}
-      },
-      "lastReviewed": currentDate,
-      "reviewedBy": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
-      },
-      "primaryImageOfPage": "https://vedaracare.ae/images/ibs-ayurveda-dubai-hero.webp"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Ayurvedic IBS Treatment Programmes",
-      "provider": {"@id": "https://vedaracare.ae/#organization"},
-      "areaServed": [
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
-      ],
-      "serviceType": "Ayurvedic Treatment for IBS",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "IBS Programmes",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "IBS Initial Assessment",
-            "priceCurrency": "AED",
-            "price": "[X]",
-            "description": "60-minute consultation with BAMS physician at JVC clinic, subtype identification, treatment plan with realistic expectations"
-          },
-          {
-            "@type": "Offer",
-            "name": "Standard 3-Month IBS Programme",
-            "priceCurrency": "AED",
-            "price": "[X]",
-            "description": "Three-month structured Ayurvedic IBS treatment with Panchakarma, subtype-specific medicines, dietary protocols"
-          },
-          {
-            "@type": "Offer",
-            "name": "Comprehensive 6-Month IBS Programme",
-            "priceCurrency": "AED",
-            "price": "[X]",
-            "description": "Six-month integrated programme for complex IBS, post-infectious IBS, SIBO-related IBS, and treatment-resistant patterns"
-          }
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Ayurveda for IBS in Dubai — A Complete Clinical Guide",
-      "image": "https://vedaracare.ae/images/ibs-ayurveda-dubai-hero.webp",
-      "datePublished": "2026-05-01",
-      "dateModified": currentDate,
-      "author": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic",
-        "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}
-      },
-      "mainEntityOfPage": "https://vedaracare.ae/conditions/ibs-ayurveda-dubai/",
-      "citation": [
-        {"@type": "Book", "name": "Charaka Samhita"},
-        {"@type": "Book", "name": "Sushruta Samhita"},
-        {"@type": "Book", "name": "Ashtanga Hridayam"}
-      ],
-      "guideline": {"@type": "MedicalGuideline", "name": "Rome IV criteria"},
-      "medicalSpecialty": [
-        {"@type": "MedicalSpecialty", "name": "Gastroenterology"},
-        {"@type": "MedicalSpecialty", "name": "Ayurveda"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "@id": "https://vedaracare.ae/#organization",
-      "name": "Vedara Care Polyclinic",
-      "url": "https://vedaracare.ae/",
-      "logo": "https://vedaracare.ae/logo.png"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Ayurveda for IBS in Dubai", "item": "https://vedaracare.ae/conditions/ibs-ayurveda-dubai/"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": ayurvedaIbsFaqs.faqs.map(faq => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
-    }
-  ];
+const PAGE = {
+  url: 'https://vedaracare.ae/conditions/ibs-ayurveda-dubai/',
+  title: 'Ayurvedic Treatment for IBS & Digestion, JVC Dubai | Vedara',   // 59 characters
+  description: 'Ayurvedic care for IBS, acidity, gastritis, bloating and constipation in JVC, Dubai, with a GP for basic tests and referral at the same clinic.',   // 143 characters
+  image: 'https://vedaracare.ae/images/ibs-ayurveda-dubai-hero.webp',
+  reviewed: '2026-11-10',
+};
 
+const SITE_URL = SITE.url;
+const URL = `${SITE_URL}/conditions/ibs-ayurveda-dubai/`;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = '2026-11-10';
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      email: 'booking@vedaracare.ae',
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
+    },
+    {
+      '@type': 'Physician',
+      '@id': ZAINAB_ID,
+      name: 'Dr. Zainab Sheikh',
+      url: `${SITE_URL}/doctors/dr-zainab-ayurveda/`,
+      medicalSpecialty: 'Ayurveda',
+      knowsLanguage: ['en', 'ml', 'hi'],
+      worksFor: { '@id': ORG_ID },
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Ayurvedic Treatment for IBS & Digestion, JVC Dubai | Vedara',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#condition` },
+      mainEntity: { '@id': `${URL}#therapy` },
+      audience: { '@type': 'PatientAudience' },
+      primaryImageOfPage: `${SITE_URL}/images/ibs-ayurveda-dubai-hero.webp`,
+      datePublished: REVIEWED,
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
+    },
+    {
+      '@type': 'MedicalCondition',
+      '@id': `${URL}#condition`,
+      name: 'Irritable bowel syndrome',
+      alternateName: ['IBS', 'Grahani'],
+      possibleTreatment: { '@id': `${URL}#therapy` },
+    },
+    {
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#therapy`,
+      name: 'Ayurvedic treatment for IBS and digestive problems',
+      alternateName: ['Ayurveda for IBS', 'Grahani treatment', 'Ayurvedic treatment for acidity', 'Ayurvedic treatment for gastritis', 'Ayurvedic treatment for constipation'],
+      description: "Ayurvedic management of IBS and digestive problems through diet, digestion-focused herbs, routine and stress care, with Panchakarma only where needed; GP tests and referral at the same clinic.",
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      indication: ['Irritable bowel syndrome', 'Functional dyspepsia', 'Gastritis', 'Acid reflux', 'Chronic constipation', 'Bloating'].map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['Rectal bleeding before assessment', 'Unexplained weight loss before assessment', 'Inflammatory bowel disease flare'].map((name) => ({ '@type': 'MedicalContraindication', name })),
+      adverseOutcome: ['Digestive upset from herbs', 'Herb-medicine interactions if unsupervised'].map((name) => ({ '@type': 'MedicalEntity', name })),
+    },
+    {
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Ayurvedic treatment for IBS and digestive problems in JVC, Dubai',
+      serviceType: 'Ayurvedic treatment for IBS and digestive problems',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Ayurvedic treatment for IBS and digestive problems in JVC', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: ayurvedaIbsFaqs.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
+const AyurvedaIbsDubai = () => {
   return (
     <>
       <Head>
-        <title>Ayurveda for IBS in Dubai | JVC Clinic | Vedara Care</title>
-        <meta name="description" content="DHA-licensed Ayurvedic treatment for IBS at our JVC clinic, Dubai — subtype-specific programmes for IBS-D, IBS-C, IBS-M, post-infectious IBS, and SIBO. Coordinated with gastroenterology." />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content="Ayurveda for IBS in Dubai — Subtype-Specific Treatment at Our JVC Clinic" />
-        <meta property="og:description" content="DHA-licensed Ayurvedic IBS treatment at our Jumeirah Village Circle clinic. Different protocols for IBS-D, IBS-C, IBS-M, post-infectious IBS, and SIBO. Treats your IBS as the real biological condition it is." />
-        <meta property="og:image" content="https://vedaracare.ae/images/ibs-ayurveda-dubai-hero.webp" />
-        <meta property="og:url" content="https://vedaracare.ae/conditions/ibs-ayurveda-dubai/" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
-        <meta property="article:published_time" content="2026-05-01" />
-        <meta property="article:modified_time" content={currentDate} />
-        <meta property="article:author" content="Dr. Zainab Sheikh" />
-        
-        {/* Twitter */}
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
-        
-        {/* Canonical & Language */}
-        <link rel="canonical" href="https://vedaracare.ae/conditions/ibs-ayurveda-dubai/" />
-        <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/conditions/ibs-ayurveda-dubai/" />
-        <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/conditions/ibs-ayurveda-dubai/" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
 
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       </Head>
 
-      <main>
-        {/* Section 1: Hero */}
-        <AyurvedaHero {...ayurvedaIbsHero} />
+      {/* Section 1: Hero */}
+      <AyurvedaHero {...ayurvedaIbsHero} />
 
-        {/* Section 2: Intro */}
-        <AyurvedaIntro {...ayurvedaIbsIntro} />
+      {/* Section 2: Intro */}
+      <AyurvedaIntro {...ayurvedaIbsIntro} />
 
-        {/* Section 3: History & Framework */}
-        <TreatmentMechanism {...ayurvedaIbsMechanism1} />
+      {/* Section 2b: Red Flags */}
+      <ClinicalBoundaries {...ayurvedaIbsRedFlags} />
 
-        {/* Section 4: Condition Phenotypes */}
-        <ArthritisTypes {...ayurvedaIbsArthritisTypes} 
+      {/* Section 3: History & Framework */}
+      <TreatmentMechanism {...ayurvedaIbsMechanism1} />
+
+      {/* Section 4: Condition Phenotypes */}
+      <ArthritisTypes 
+        {...ayurvedaIbsArthritisTypes} 
         bgColor="bg-white"
-          cardBg="bg-[#FAF7F2]" />
+        cardBg="bg-[#FAF7F2]" 
+      />
 
-        {/* Section 5: Treatment Pillars */}
-        <ArthritisPillars {...ayurvedaIbsPillars} />
+      {/* Section 5: Treatment Pillars */}
+      <ArthritisPillars {...ayurvedaIbsPillars} />
 
-        {/* Section 6: Treatment Protocol */}
-        {/* <TreatmentProtocol {...ayurvedaIbsProtocol} /> */}
-
-        {/* Section 7: Treatment Programs */}
-        <TreatmentPrograms {...ayurvedaIbsPrograms}
+      {/* Section 6: Treatment Programs */}
+      <TreatmentPrograms 
+        {...ayurvedaIbsPrograms}
         bgColor="bg-white"
-          cardBg="bg-[#FFFFFF]"
-          buttonBg="#C9A55B"
-          buttonText="Book Assessment"
-        />
+        cardBg="bg-[#FFFFFF]"
+        buttonBg="#C9A55B"
+        buttonText="Book Assessment"
+      />
 
-        {/* Section 8: Treatment Pillars Mechanism */}
-        {/* <TreatmentMechanism {...ayurvedaIbsMechanism2} /> */}
+      {/* Section 7: Reviews */}
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
-        {/* Section 9: FAQ */}
-        <TreatmentReviews {...ayurvedaReviewsBlock()} />
+      {/* Section 8: FAQ */}
+      <FAQ {...ayurvedaIbsFaqs} />
 
-        <FAQ {...ayurvedaIbsFaqs} />
+      {/* Section 9: Treatment Location */}
+      <TreatmentLocationCustom {...ayurvedaIbsTreatmentLocationCustom} />
 
-        {/* Section 10: Treatment Location */}
-        <TreatmentLocationCustom {...ayurvedaIbsTreatmentLocationCustom} />
-
-        {/* Section 11: Related Pages */}
+      {/* Section 10: Final CTA */}
       <FinalCTA {...ayurvedaIbsFinalCTA} />
 
-        {/* Section 12: Final CTA */}
-         <RelatedPages {...ayurvedaIbsRelatedPages} />
-      </main>
+      {/* Section 11: Related Pages */}
+      <RelatedPages {...ayurvedaIbsRelatedPages} />
     </>
   );
 };

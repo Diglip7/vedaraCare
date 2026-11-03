@@ -313,7 +313,7 @@ export const ayurvedaConditions = {
       category: "Womens Health and Hormonal",
       description: "Internal medicines + Nasya + diet",
       programme: "Typical programme: 3-6 months",
-      href: "/conditions/thyroid-ayurveda-dubai"
+      href: "/conditions/thyroid-ayurveda-dubai/"
     },
     {
       title: "Menopausal Symptoms",
@@ -335,7 +335,7 @@ export const ayurvedaConditions = {
       category: "Metabolic and Lifestyle",
       description: "Shirodhara + Medhya herbs",
       programme: "Typical programme: 4-8 weeks",
-      href: "/conditions/stress-anxiety-ayurveda-dubai"
+      href: "/conditions/stress-anxiety-ayurveda-dubai/"
     },
     {
       title: "Insomnia",
@@ -377,7 +377,7 @@ export const ayurvedaConditions = {
       category: "Metabolic and Lifestyle",
       description: "Udvartana + Virechana + lifestyle programme",
       programme: "Typical programme: 2-4 months",
-      href: "/conditions/weight-loss-ayurveda-dubai"
+      href: "/conditions/weight-loss-ayurveda-dubai/"
     }
   ],
   footer: "Browse all conditions"
@@ -616,7 +616,7 @@ export const dubaiHubApplications = {
   strongOutcomes: [
     "<strong>Joints, spine and muscles:</strong> <a href=\"/conditions/back-pain-ayurveda-dubai/\">back pain</a>, <a href=\"/conditions/sciatica-ayurveda-jvc/\">sciatica</a>, <a href=\"/conditions/cervical-spondylosis-ayurveda-jvc/\">neck pain and cervical spondylosis</a>, <a href=\"/conditions/arthritis-ayurveda-dubai/\">knee pain and arthritis</a>, frozen shoulder",
     "<strong>Women's health:</strong> <a href=\"/conditions/pcos-ayurveda-dubai/\">PCOS</a>, irregular cycles, <a href=\"/conditions/thyroid-ayurveda-dubai/\">thyroid support</a>, <a href=\"/conditions/postnatal-ayurveda-dubai/\">postnatal recovery (Sutika Paricharya)</a>",
-    "<strong>Digestion and metabolism:</strong> <a href=\"/conditions/ibs-ayurveda-dubai/\">IBS</a>, acidity, bloating, <a href=\"/conditions/diabetes-ayurveda-dubai/\">type 2 diabetes support</a>, <a href=\"/conditions/weight-loss-ayurveda-dubai/\">weight management</a>",
+    "<strong>Digestion and metabolism:</strong> <a href=\"/conditions/ibs-ayurveda-dubai/\">IBS and digestive problems</a>, acidity, bloating, <a href=\"/conditions/diabetes-ayurveda-dubai/\">type 2 diabetes support</a>, <a href=\"/conditions/weight-loss-ayurveda-dubai/\">weight management</a>",
     "<strong>Skin and hair:</strong> <a href=\"/conditions/skin-ayurveda-dubai/\">eczema, psoriasis, acne</a>, dandruff, <a href=\"/conditions/hair-loss-ayurveda-dubai/\">hair fall</a>",
     "<strong>Stress, sleep and headache:</strong> <a href=\"/conditions/stress-anxiety-ayurveda-dubai/\">stress, anxiety, burnout</a>, <a href=\"/conditions/insomnia-ayurveda-jvc/\">insomnia</a>, <a href=\"/conditions/migraine-ayurveda-dubai/\">migraine</a>",
     "<strong>ENT and eyes:</strong> chronic sinusitis and allergic rhinitis (<a href=\"/treatments/nasya-therapy-jvc/\">Nasya</a>), eye strain and dry eyes (Netra Tarpana)",
@@ -651,7 +651,7 @@ export const dubaiHubGuidance = {
     },
     {
       title: "4. Does the first consultation actually take time?",
-      description: "Authentic <a href="/treatments/nadi-pareeksha-jvc/" class="text-[#C9A961] hover:underline">Ayurvedic consultations</a> in Dubai take 45 to 60 minutes. They include pulse diagnosis, dosha assessment, full history-taking, and a written treatment plan. A 10-minute consultation is a sales pitch, not a diagnosis."
+      description: "Authentic <a href='/treatments/nadi-pareeksha-jvc/' class='text-[#C9A961] hover:underline'>Ayurvedic consultations</a> in Dubai take 45 to 60 minutes. They include pulse diagnosis, dosha assessment, full history-taking, and a written treatment plan. A 10-minute consultation is a sales pitch, not a diagnosis."
     },
     {
       title: "5. Are medicines prescribed, not pushed?",

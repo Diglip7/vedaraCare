@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
 import Head from 'next/head';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
@@ -10,12 +10,13 @@ import TreatmentProtocol from '../../components/ayurveda/Protocols';
 import ConditionSymptoms from '../../components/ayurveda/ConditionSymptoms';
 import ConditionFertility from '../../components/ayurveda/ConditionFertility';
 import ConditionBoundaries from '../../components/ayurveda/ConditionBoundaries';
-import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import TreatmentPrograms from '../../components/ayurveda/TreatmentPrograms';
 import FAQ from '../../components/home/FAQ';
+import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
+
 import { 
   pcosHero, 
   pcosIntro, 
@@ -26,7 +27,6 @@ import {
   pcosSymptoms,
   pcosFertility,
   pcosBoundaries,
-  pcosReviews,
   pcosPrograms,
   pcosFaqs,
   pcosTreatmentLocation,
@@ -34,367 +34,142 @@ import {
   pcosRelatedPages
 } from '../../data/pcosData';
 
-const PcosAyurvedaDubai = () => {
-  const [currentDate, setCurrentDate] = useState('');
-  
-  useEffect(() => {
-    setCurrentDate(new Date().toISOString());
-  }, []);
+const PAGE = {
+  url: 'https://vedaracare.ae/conditions/pcos-ayurveda-dubai/',
+  title: 'Ayurvedic Treatment for PCOS & PCOD in JVC, Dubai | Vedara',   // 58 characters
+  description: 'Ayurvedic PCOS and PCOD care in JVC, Dubai: herbs, diet, Panchakarma and Basti with a female Ayurvedic doctor, plus GP blood tests and scan referral.',   // 149 characters
+  image: 'https://vedaracare.ae/images/pcos-ayurveda-dubai-hero.webp',
+  reviewed: '2026-11-10',
+};
 
+const SITE_URL = SITE.url;
+const URL = `${SITE_URL}/conditions/pcos-ayurveda-dubai/`;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = '2026-11-10';
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      email: 'booking@vedaracare.ae',
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
+    },
+    {
+      '@type': 'Physician',
+      '@id': ZAINAB_ID,
+      name: 'Dr. Zainab Sheikh',
+      url: `${SITE_URL}/doctors/dr-zainab-ayurveda/`,
+      medicalSpecialty: 'Ayurveda',
+      knowsLanguage: ['en', 'ml', 'hi'],
+      worksFor: { '@id': ORG_ID },
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Ayurvedic Treatment for PCOS & PCOD in JVC, Dubai | Vedara',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#condition` },
+      mainEntity: { '@id': `${URL}#therapy` },
+      audience: { '@type': 'PatientAudience' },
+      primaryImageOfPage: `${SITE_URL}/images/pcos-ayurveda-dubai-hero.webp`,
+      datePublished: REVIEWED,
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
+    },
+    {
+      '@type': 'MedicalCondition',
+      '@id': `${URL}#condition`,
+      name: 'Polycystic ovary syndrome',
+      alternateName: ['PCOS', 'PCOD'],
+      possibleTreatment: { '@id': `${URL}#therapy` },
+    },
+    {
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#therapy`,
+      name: 'Ayurvedic care for PCOS',
+      alternateName: ['Ayurvedic treatment for PCOS', 'Ayurvedic treatment for PCOD', 'Ayurveda for polycystic ovary syndrome'],
+      description: "Supportive Ayurvedic care for PCOS — diet, routine, prescribed herbs and, where suitable, Panchakarma or Basti — alongside gynaecological care, with GP tests at the same clinic.",
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      indication: ['Polycystic ovary syndrome', 'Irregular periods', 'Insulin resistance', 'Hormonal acne'].map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['Pregnancy (herbs reviewed)', 'Abnormal bleeding before gynaecological assessment'].map((name) => ({ '@type': 'MedicalContraindication', name })),
+      adverseOutcome: ['Digestive upset from herbs', 'Herb-medicine interactions if unsupervised'].map((name) => ({ '@type': 'MedicalEntity', name })),
+    },
+    {
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Ayurvedic care for PCOS in JVC, Dubai',
+      serviceType: 'Ayurvedic care for PCOS',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Ayurvedic care for PCOS in JVC', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: pcosFaqs.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
+const PcosAyurvedaDubai = () => {
   return (
     <>
       <Head>
-        <title>Ayurveda for PCOS in Dubai | Female Doctors | Vedara Care JVC</title>
-        <meta name="description" content="DHA-licensed Ayurvedic treatment for PCOS in Dubai by female BAMS doctors — Panchakarma, herbal medicine, dietary protocols. 6-month programme. From AED 450." />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content="Ayurveda for PCOS in Dubai — Female Doctors, 6-Month Programme" />
-        <meta property="og:description" content="DHA-licensed Ayurvedic PCOS treatment by female BAMS physicians at our JVC clinic. Panchakarma, herbal medicine, integrated with gynaecology." />
-        <meta property="og:image" content="https://vedaracare.ae/images/pcos-ayurveda-dubai-hero.webp" />
-        <meta property="og:url" content="https://vedaracare.ae/conditions/pcos-ayurveda-dubai/" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
-        <meta property="article:published_time" content="2026-05-01" />
-        {currentDate && <meta property="article:modified_time" content={currentDate} />}
-        <meta property="article:author" content="Dr. Zainab Sheikh" />
-        
-        {/* Twitter */}
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
         
-        {/* Canonical & Language */}
-        <link rel="canonical" href="https://vedaracare.ae/conditions/pcos-ayurveda-dubai/" />
-        <link rel="alternate" hrefLang="en-AE" href="https://vedaracare.ae/conditions/pcos-ayurveda-dubai/" />
-        <link rel="alternate" hrefLang="x-default" href="https://vedaracare.ae/conditions/pcos-ayurveda-dubai/" />
+        {/* Schema Markup */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
       </Head>
-
-      {currentDate && (
-        <>
-          {/* Schema Markup */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "MedicalCondition",
-                "@id": "https://vedaracare.ae/conditions/pcos-ayurveda-dubai/#condition",
-                "name": "Polycystic Ovary Syndrome (PCOS)",
-                "alternateName": ["PCOS", "PCOD", "Polycystic Ovarian Syndrome", "Polycystic Ovarian Disease", "Stein-Leventhal Syndrome"],
-                "code": [{"@type": "MedicalCode", "code": "E28.2", "codingSystem": "ICD-10"}],
-                "associatedAnatomy": [
-                  {"@type": "AnatomicalStructure", "name": "Ovary"},
-                  {"@type": "AnatomicalStructure", "name": "Endocrine system"}
-                ],
-                "signOrSymptom": [
-                  {"@type": "MedicalSymptom", "name": "Irregular menstrual cycles"},
-                  {"@type": "MedicalSymptom", "name": "Absent menstruation (amenorrhoea)"},
-                  {"@type": "MedicalSymptom", "name": "Hirsutism (unwanted hair growth)"},
-                  {"@type": "MedicalSymptom", "name": "Acne"},
-                  {"@type": "MedicalSymptom", "name": "Hair loss"},
-                  {"@type": "MedicalSymptom", "name": "Weight gain"},
-                  {"@type": "MedicalSymptom", "name": "Insulin resistance"},
-                  {"@type": "MedicalSymptom", "name": "Mood changes"},
-                  {"@type": "MedicalSymptom", "name": "Fertility difficulties"},
-                  {"@type": "MedicalSymptom", "name": "Polycystic ovaries on ultrasound"}
-                ],
-                "possibleTreatment": [
-                  {"@type": "MedicalProcedure", "name": "Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-                  {"@type": "MedicalProcedure", "name": "Virechana", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-                  {"@type": "MedicalProcedure", "name": "Basti", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-                  {"@type": "MedicalProcedure", "name": "Abhyanga", "url": "https://vedaracare.ae/treatments/abhyanga-dubai/"},
-                  {"@type": "MedicalProcedure", "name": "Shirodhara", "url": "https://vedaracare.ae/treatments/shirodhara-dubai/"},
-                  {"@type": "MedicalTherapy", "name": "Ayurvedic herbal medicines"},
-                  {"@type": "MedicalTherapy", "name": "Dietary regulation"},
-                  {"@type": "MedicalTherapy", "name": "Lifestyle modification"},
-                  {"@type": "MedicalProcedure", "name": "IUI"},
-                  {"@type": "MedicalProcedure", "name": "IVF"}
-                ],
-                "riskFactor": [
-                  {"@type": "MedicalRiskFactor", "name": "Family history of PCOS"},
-                  {"@type": "MedicalRiskFactor", "name": "Insulin resistance"},
-                  {"@type": "MedicalRiskFactor", "name": "Obesity"},
-                  {"@type": "MedicalRiskFactor", "name": "South Asian or Middle Eastern ethnicity"},
-                  {"@type": "MedicalRiskFactor", "name": "Sedentary lifestyle"},
-                  {"@type": "MedicalRiskFactor", "name": "Chronic stress"}
-                ],
-                "epidemiology": "Affects approximately 1 in 7 women of reproductive age globally, with higher prevalence in South Asian and Middle Eastern populations including Dubai residents."
-              })
-            }}
-          />
-
-          {/* Additional Semantic Entities */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify([
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalCondition",
-                  "name": "Phenotype A (Rotterdam) PCOS",
-                  "alternateName": ["Classic PCOS"]
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalCondition",
-                  "name": "Phenotype B (Rotterdam) PCOS",
-                  "alternateName": ["Ovulatory PCOS"]
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalCondition",
-                  "name": "Phenotype C (Rotterdam) PCOS",
-                  "alternateName": ["Non-Hyperandrogenic PCOS"]
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalCondition",
-                  "name": "Phenotype D (Rotterdam) PCOS",
-                  "alternateName": ["Mild PCOS"]
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalCondition",
-                  "name": "Hyperandrogenism"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalGuideline",
-                  "name": "Rotterdam criteria"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Substance",
-                  "name": "Shatavari"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Substance",
-                  "name": "Ashoka"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Substance",
-                  "name": "Guduchi"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Substance",
-                  "name": "Kanchanara Guggulu"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Substance",
-                  "name": "Metformin"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Substance",
-                  "name": "Oral contraceptives"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Substance",
-                  "name": "Spironolactone"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Organization",
-                  "name": "Dubai Health Authority"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Place",
-                  "name": "Jumeirah Village Circle"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "EducationalCredential",
-                  "name": "BAMS"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "EducationalCredential",
-                  "name": "MD (Ayurveda)"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalClinic",
-                  "@id": "https://vedaracare.ae/#organization",
-                  "name": "Vedara Care Polyclinic"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalCondition",
-                  "name": "Infertility"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalEntity",
-                  "name": "Vata"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalEntity",
-                  "name": "Pitta"
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "MedicalEntity",
-                  "name": "Kapha"
-                }
-              ])
-            }}
-          />
-
-          {/* Schema 3 — MedicalWebPage */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "MedicalWebPage",
-                "@id": "https://vedaracare.ae/conditions/pcos-ayurveda-dubai/#webpage",
-                "name": "Ayurveda for PCOS in Dubai",
-                "url": "https://vedaracare.ae/conditions/pcos-ayurveda-dubai/",
-                "about": {"@id": "https://vedaracare.ae/conditions/pcos-ayurveda-dubai/#condition"},
-                "audience": {
-                  "@type": "PatientAudience",
-                  "geographicArea": {"@type": "Place", "name": "Dubai, United Arab Emirates"},
-                  "requiredGender": "Female"
-                },
-                "lastReviewed": currentDate,
-                "reviewedBy": {
-                  "@type": "Physician",
-                  "name": "Dr. Zainab Sheikh",
-                  "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
-                },
-                "primaryImageOfPage": "https://vedaracare.ae/images/pcos-ayurveda-dubai-hero.webp"
-              })
-            }}
-          />
-
-          {/* Schema 4 — Service with OfferCatalog */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Service",
-                "name": "Ayurvedic PCOS Treatment Programmes",
-                "provider": {"@id": "https://vedaracare.ae/#organization"},
-                "areaServed": [
-                  {"@type": "City", "name": "Dubai"},
-                  {"@type": "Place", "name": "United Arab Emirates"}
-                ],
-                "serviceType": "Ayurvedic Treatment for PCOS",
-                "hasOfferCatalog": {
-                  "@type": "OfferCatalog",
-                  "name": "PCOS Programmes",
-                  "itemListElement": [
-                    {
-                      "@type": "Offer",
-                      "name": "PCOS Initial Assessment",
-                      "priceCurrency": "AED",
-                      "price": "450",
-                      "description": "60-minute consultation with female Ayurvedic physician, phenotype classification, written treatment plan"
-                    },
-                    {
-                      "@type": "Offer",
-                      "name": "Standard 6-Month PCOS Programme",
-                      "priceCurrency": "AED",
-                      "price": "18500",
-                      "description": "Comprehensive 6-month Ayurvedic PCOS treatment with Panchakarma, herbal medicines, dietary and lifestyle protocols"
-                    },
-                    {
-                      "@type": "Offer",
-                      "name": "Comprehensive PCOS + Fertility Programme",
-                      "priceCurrency": "AED",
-                      "price": "24500",
-                      "description": "Extended 6-9 month programme for women trying to conceive, coordinated with fertility specialists"
-                    }
-                  ]
-                }
-              })
-            }}
-          />
-
-          {/* Schema 5 — Article */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Article",
-                "headline": "Ayurveda for PCOS in Dubai — A Complete Clinical Guide",
-                "image": "https://vedaracare.ae/images/pcos-ayurveda-dubai-hero.webp",
-                "datePublished": "2026-05-01",
-                "dateModified": currentDate,
-                "author": {
-                  "@type": "Physician",
-                  "name": "Dr. Zainab Sheikh",
-                  "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
-                },
-                "publisher": {
-                  "@type": "Organization",
-                  "name": "Vedara Care Polyclinic",
-                  "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}
-                },
-                "mainEntityOfPage": "https://vedaracare.ae/conditions/pcos-ayurveda-dubai/"
-              })
-            }}
-          />
-
-          {/* Schema 7 — BreadcrumbList */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-                  {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-                  {"@type": "ListItem", "position": 3, "name": "Ayurveda for PCOS in Dubai", "item": "https://vedaracare.ae/conditions/pcos-ayurveda-dubai/"}
-                ]
-              })
-            }}
-          />
-
-          {/* Schema 7 — Organization */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                "@id": "https://vedaracare.ae/#organization",
-                "name": "Vedara Care Polyclinic",
-                "url": "https://vedaracare.ae/",
-                "logo": "https://vedaracare.ae/logo.png"
-              })
-            }}
-          />
-
-          {/* Schema 8 — FAQPage */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": pcosFaqs.faqs.map((faq, index) => ({
-                  "@type": "Question",
-                  "name": faq.question,
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": faq.answer
-                  }
-                }))
-              })
-            }}
-          />
-        </>
-      )}
 
       {/* Section 1 - Hero */}
       <AyurvedaHero {...pcosHero} />
@@ -402,7 +177,7 @@ const PcosAyurvedaDubai = () => {
       {/* Section 2 - Intro */}
       <AyurvedaIntro {...pcosIntro} />
       
-      {/* Section 3 - Mechanism with Image 1 */}
+      {/* Section 3 - Mechanism */}
       <TreatmentMechanism {...pcosMechanism} />
       
       {/* Section 4 - Phenotypes */}
@@ -411,10 +186,10 @@ const PcosAyurvedaDubai = () => {
       {/* Section 5 - Benefits (Four Pillars) */}
       <TreatmentBenefits {...pcosBenefits} />
       
-      {/* Section 6 - Protocol (6-Month Programme) */}
+      {/* Section 6 - Protocol */}
       <TreatmentProtocol {...pcosProtocol} />
       
-      {/* Section 7 - Symptoms (Symptom-by-Symptom) */}
+      {/* Section 7 - Symptoms */}
       <ConditionSymptoms {...pcosSymptoms} />
       
       {/* Section 8 - Fertility */}
@@ -423,14 +198,14 @@ const PcosAyurvedaDubai = () => {
       {/* Section 9 - Boundaries */}
       <ConditionBoundaries {...pcosBoundaries} />
       
-      {/* Section 10 - Reviews Removed */}
-      {/* Section 11 - Programmes (Pricing) */}
+      {/* Section 10 - Programmes */}
       <TreatmentPrograms {...pcosPrograms} />
       
-      {/* Section 12 - FAQ */}
+      {/* Section 11 - Reviews */}
       <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
-        <FAQ {...pcosFaqs} />
+      {/* Section 12 - FAQ */}
+      <FAQ {...pcosFaqs} />
       
       {/* Section 13 - Location */}
       <TreatmentLocation {...pcosTreatmentLocation} />

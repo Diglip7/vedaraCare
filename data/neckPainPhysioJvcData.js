@@ -398,6 +398,6 @@ export const neckPainRelatedPages = {
     { title: "Back Pain Physiotherapy", href: "/conditions/back-pain-physiotherapy-jvc/", description: "Upper and lower back pain, including desk-related pain." },
     { title: "Sciatica Physiotherapy", href: "/conditions/sciatica-physiotherapy-dubai/", description: "Leg pain that starts in the lower back." },
     { title: "Paediatric Physiotherapy", href: "/physiotherapy/pediatric-dubai/", description: "Neck and posture problems in children and teenagers." },
-    { title: "Ayurvedic Neck Pain Treatment", href: "/conditions/neck-pain-ayurveda-jvc/", description: "An optional Ayurvedic approach to neck pain and cervical spondylosis at the same clinic." }
+    { title: "Ayurvedic treatment for neck pain", href: "/conditions/cervical-spondylosis-ayurveda-jvc/", description: "An optional Ayurvedic approach to neck pain and cervical spondylosis at the same clinic." }
   ]
 };

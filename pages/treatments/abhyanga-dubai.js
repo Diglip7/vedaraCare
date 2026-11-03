@@ -1,391 +1,181 @@
 import Head from 'next/head';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
 import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
 import TreatmentProtocol from '../../components/ayurveda/TreatmentProtocol';
 import TreatmentOils from '../../components/ayurveda/TreatmentOils';
-import TreatmentApplications from '../../components/ayurveda/TreatmentApplications';
-import TreatmentHomeHealthcare from '../../components/ayurveda/TreatmentHomeHealthcare';
+import TreatmentBenefits from '../../components/ayurveda/TreatmentBenefits';
+import ClinicalBoundaries from '../../components/ayurveda/ClinicalBoundaries';
 import TreatmentPrograms from '../../components/ayurveda/TreatmentPrograms';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import FAQ from '../../components/home/FAQ';
 import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import FinalCTA from '../../components/ayurveda/FinalCTA';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
-import { 
-  abhyangaHero, 
-  abhyangaIntro, 
-  abhyangaMechanism, 
-  abhyangaProtocol, 
-  abhyangaBenefits,
+import {
+  abhyangaHero,
+  abhyangaIntro,
+  abhyangaMechanism,
+  abhyangaProtocol,
   abhyangaOils,
-  abhyangaApplications,
+  abhyangaBenefits,
+  abhyangaVariants,
+  abhyangaSafety,
   abhyangaPrograms,
-  abhyangaHomeHealthcare,
-  abhyangaReviews,
   abhyangaFaqs,
   abhyangaTreatmentLocation,
   abhyangaFinalCTA,
   abhyangaRelatedPages
 } from '../../data/abhyangaData';
 
+const FAQS = abhyangaFaqs;
+
+const SITE_URL = SITE.url;
+const URL = `${SITE_URL}/treatments/abhyanga-dubai/`;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = '2026-11-10';
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      email: 'booking@vedaracare.ae',
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
+    },
+    {
+      '@type': 'Physician',
+      '@id': ZAINAB_ID,
+      name: 'Dr. Zainab Sheikh',
+      url: `${SITE_URL}/doctors/dr-zainab-ayurveda/`,
+      medicalSpecialty: 'Ayurveda',
+      knowsLanguage: ['en', 'ml', 'hi'],
+      worksFor: { '@id': ORG_ID },
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Abhyanga (Abhyangam) Massage in JVC, Dubai | Vedara Care',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#therapy` },
+      mainEntity: { '@id': `${URL}#therapy` },
+      audience: { '@type': 'PatientAudience' },
+      primaryImageOfPage: `${SITE_URL}/images/abhyanga-dubai-hero.webp`,
+      datePublished: REVIEWED,
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
+    },
+    {
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#therapy`,
+      name: 'Abhyanga',
+      alternateName: ['Abhyangam', 'Abhyanga massage', 'Ayurvedic full-body oil massage', 'Shiro Abhyanga', 'Padabhyanga'],
+      description: "The classical Ayurvedic full-body massage with warm medicated oil chosen for the person's constitution, often followed by medicated steam (Swedana).",
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      indication: ['Stress', 'Poor sleep', 'Muscle and joint stiffness', 'Dry skin', 'Recovery after illness', 'Preparation for Panchakarma'].map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['Fever or acute illness', 'Indigestion', 'Broken skin or skin infection', 'Acute injury', 'First trimester of pregnancy', 'Uncontrolled heart conditions'].map((name) => ({ '@type': 'MedicalContraindication', name })),
+      adverseOutcome: ['Drowsiness', 'Light-headedness after steam', 'Skin irritation'].map((name) => ({ '@type': 'MedicalEntity', name })),
+    },
+    {
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Abhyanga in JVC, Dubai',
+      serviceType: 'Abhyanga',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Abhyanga in JVC', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: FAQS.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
+const PAGE = {
+  url: 'https://vedaracare.ae/treatments/abhyanga-dubai/',
+  title: 'Abhyanga (Abhyangam) Massage in JVC, Dubai | Vedara Care',   // 56 characters
+  description: 'Abhyanga (Abhyangam) in JVC, Dubai, near Circle Mall: warm medicated oil massage with steam, chosen by a DHA-licensed doctor, given by a same-gender therapist.',   // 159 characters
+  image: 'https://vedaracare.ae/images/abhyanga-dubai-hero.webp',
+  reviewed: '2026-11-10',
+};
+
 const AbhyangaDubai = () => {
-  const currentDate = new Date().toISOString();
-  
-  const schemaMarkup = [
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "@id": "https://vedaracare.ae/treatments/abhyanga-dubai/#procedure",
-      "name": "Abhyanga",
-      "alternateName": ["Abhyanga Massage", "Classical Ayurvedic Oil Massage", "Two-Therapist Ayurvedic Massage"],
-      "description": "Abhyanga is the classical full-body Ayurvedic oil massage in which warm dosha-specific medicated oils are applied head-to-toe in synchronized strokes by two trained therapists, typically over 60 to 90 minutes. Performed at Vedara Care Polyclinic in Jumeirah Village Circle, Dubai by therapists trained in classical Kerala technique.",
-      "url": "https://vedaracare.ae/treatments/abhyanga-dubai/",
-      "image": "https://vedaracare.ae/images/abhyanga-dubai-hero.webp",
-      "procedureType": "Ayurveda",
-      "bodyLocation": "Whole body",
-      "preparation": "BAMS doctor consultation including dosha assessment to select appropriate medicated oils.",
-      "followup": "Swedana (medicated steam therapy), then rest, then shower. Aftercare guidance provided.",
-      "indication": [
-        {"@type": "MedicalIndication", "name": "Chronic stress and burnout"},
-        {"@type": "MedicalIndication", "name": "Insomnia"},
-        {"@type": "MedicalIndication", "name": "Joint stiffness"},
-        {"@type": "MedicalIndication", "name": "Anxiety"},
-        {"@type": "MedicalIndication", "name": "Chronic fatigue"},
-        {"@type": "MedicalIndication", "name": "Dry skin and skin texture issues"},
-        {"@type": "MedicalIndication", "name": "Pre-menstrual symptoms"},
-        {"@type": "MedicalIndication", "name": "Postnatal recovery (modified protocol)"},
-        {"@type": "MedicalIndication", "name": "Chronic back pain (combined therapy)"},
-        {"@type": "MedicalIndication", "name": "Migraine (combined therapy)"}
-      ],
-      "contraindication": [
-        {"@type": "MedicalContraindication", "name": "First trimester of pregnancy"},
-        {"@type": "MedicalContraindication", "name": "Heavy menstruation (days 1-3)"},
-        {"@type": "MedicalContraindication", "name": "Active acute infection"},
-        {"@type": "MedicalContraindication", "name": "Open wounds or active skin infections"}
-      ],
-      "sameAs": "https://en.wikipedia.org/wiki/Abhyanga",
-      "performer": {"@id": "https://vedaracare.ae/#organization"}
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Swedana",
-      "sameAs": "https://en.wikipedia.org/wiki/Swedana",
-      "description": "Ayurvedic medicated steam therapy used after Abhyanga"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalTherapy",
-      "name": "Ayurveda",
-      "sameAs": "https://en.wikipedia.org/wiki/Ayurveda",
-      "description": "Traditional Indian system of medicine"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Sutika Paricharya",
-      "description": "Ayurvedic postnatal care protocol"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalEntity",
-      "name": "Vata",
-      "alternateName": ["Vata dosha"],
-      "description": "One of the three Ayurvedic doshas in Ayurveda"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalEntity",
-      "name": "Pitta",
-      "alternateName": ["Pitta dosha"],
-      "description": "One of the three Ayurvedic doshas in Ayurveda"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalEntity",
-      "name": "Kapha",
-      "alternateName": ["Kapha dosha"],
-      "description": "One of the three Ayurvedic doshas in Ayurveda"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalEntity",
-      "name": "Marma points",
-      "description": "Vital energy points in Ayurveda"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalSubstance",
-      "name": "Mahanarayana taila"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalSubstance",
-      "name": "Dhanvantaram taila"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalSubstance",
-      "name": "Chandanadi taila"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalSubstance",
-      "name": "Pinda taila"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalSubstance",
-      "name": "Murchita taila"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Substance",
-      "name": "Sesame oil"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Substance",
-      "name": "Coconut oil"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Substance",
-      "name": "Mustard oil"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Book",
-      "name": "Charaka Samhita",
-      "description": "Classical Ayurvedic text"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Book",
-      "name": "Ashtanga Hridayam",
-      "description": "Classical Ayurvedic text"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Place",
-      "name": "Kerala",
-      "description": "Region in India where the technique originates"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Place",
-      "name": "Jumeirah Village Circle",
-      "description": "Location of the clinic"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationalCredential",
-      "name": "BAMS",
-      "description": "Bachelor of Ayurvedic Medicine and Surgery"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Stress"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Insomnia"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Back pain"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Abhyanga Programmes at Vedara Care",
-      "provider": {"@id": "https://vedaracare.ae/#organization"},
-      "areaServed": [
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
-      ],
-      "serviceType": "Ayurvedic Body Therapy",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Abhyanga Programmes",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Single-Session Abhyanga (90 min)",
-            "priceCurrency": "AED",
-            "price": "450",
-            "description": "Single 90-minute classical Abhyanga session including Swedana steam therapy"
-          },
-          {
-            "@type": "Offer",
-            "name": "Abhyanga 7-Session Course",
-            "priceCurrency": "AED",
-            "price": "2800",
-            "description": "Seven Abhyanga sessions over 3-4 weeks, doctor-prescribed oils, mid-course doctor review"
-          },
-          {
-            "@type": "Offer",
-            "name": "Abhyanga 14-Session Course",
-            "priceCurrency": "AED",
-            "price": "5200",
-            "description": "Fourteen Abhyanga sessions over 6-10 weeks, multiple oil prescriptions, two doctor reviews"
-          },
-          {
-            "@type": "Offer",
-            "name": "Home Abhyanga Session (Dubai-wide)",
-            "priceCurrency": "AED",
-            "price": "650",
-            "description": "Home-delivered Abhyanga across Dubai by trained therapists with portable droni and authentic oils"
-          }
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "name": "Abhyanga Massage in Dubai",
-      "url": "https://vedaracare.ae/treatments/abhyanga-dubai/",
-      "about": {"@id": "https://vedaracare.ae/treatments/abhyanga-dubai/#procedure"},
-      "audience": {"@type": "PatientAudience"},
-      "lastReviewed": currentDate,
-      "reviewedBy": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
-      },
-      "primaryImageOfPage": "https://vedaracare.ae/images/abhyanga-dubai-hero.webp"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Abhyanga Massage in Dubai — A Complete Treatment Guide",
-      "image": "https://vedaracare.ae/images/abhyanga-dubai-hero.webp",
-      "datePublished": "2026-05-01",
-      "dateModified": currentDate,
-      "author": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic",
-        "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}
-      },
-      "mainEntityOfPage": "https://vedaracare.ae/treatments/abhyanga-dubai/"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "@id": "https://vedaracare.ae/#organization",
-      "name": "Vedara Care Polyclinic",
-      "url": "https://vedaracare.ae/",
-      "logo": "https://vedaracare.ae/logo.png"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Ayurvedic Treatment in Dubai", "item": "https://vedaracare.ae/ayurveda-dubai/"},
-        {"@type": "ListItem", "position": 3, "name": "Abhyanga Massage in Dubai", "item": "https://vedaracare.ae/treatments/abhyanga-dubai/"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": abhyangaFaqs.faqs.map((faq) => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
-    }
-  ];
-  
   return (
     <>
       <Head>
-        <title>Abhyanga Massage Dubai | DHA-Licensed Ayurveda | Vedara Care</title>
-        <meta name="description" content="Authentic 90-minute Abhyanga at our DHA-licensed Dubai clinic — two synchronized therapists, dosha-specific medicated oils, traditional Kerala technique. Prices are shared on WhatsApp." />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content="Abhyanga Massage in Dubai — Classical 90-Minute Ayurvedic Oil Therapy" />
-        <meta property="og:description" content="Two synchronized therapists, dosha-specific medicated oils, traditional Kerala technique. DHA-licensed Ayurvedic Abhyanga in JVC, Dubai. Prices are shared on WhatsApp." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/abhyanga-dubai.webp" />
-        <meta property="og:url" content="https://vedaracare.ae/treatments/abhyanga-dubai/" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
-        <meta property="article:published_time" content="2026-05-01" />
-        <meta property="article:modified_time" content={currentDate} />
-        <meta property="article:author" content="Dr. Zainab Sheikh" />
-        
-        {/* Twitter */}
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
-        
-        {/* Canonical & Hreflang */}
-        <link rel="canonical" href="https://vedaracare.ae/treatments/abhyanga-dubai/" />
-        <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/treatments/abhyanga-dubai/" />
-        <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/treatments/abhyanga-dubai/" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
 
         {/* Schema Markup */}
-        {schemaMarkup.map((schema, index) => (
-          <script
-            key={index}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-          />
-        ))}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
       </Head>
 
-      {/* Section 1 - Hero with Image 1 */}
+      {/* Render order: */}
       <AyurvedaHero {...abhyangaHero} />
-      
-      {/* Section 2 - Intro with Image 2 */}
       <AyurvedaIntro {...abhyangaIntro} />
-      
-      {/* Section 3 - Mechanism with Image 3 */}
       <TreatmentMechanism {...abhyangaMechanism} />
-      
-      {/* Section 4 - Protocol with Image 4 */}
       <TreatmentProtocol {...abhyangaProtocol} />
-      
-      {/* Section 5 - Oils/Kashayams with Image 5 */}
       <TreatmentOils {...abhyangaOils} />
-      
-      {/* Section 6 - Applications with Image 1 */}
-      <TreatmentApplications {...abhyangaApplications} />
-      
-      {/* Section 7 - Protocols with TreatmentPrograms */}
-      <TreatmentPrograms {...abhyangaPrograms}
-      buttonBg="#C9A55B"
-      buttonText="Book Assessment"
-      />
-      
-      {/* Section 8 - Home Healthcare with new UI */}
-      <TreatmentHomeHealthcare {...abhyangaHomeHealthcare} />
-      
-      {/* Section 9 - Reviews with Image 5 (dark green background) */}
+      <TreatmentBenefits {...abhyangaBenefits} />
+      <TreatmentOils {...abhyangaVariants} />
+      <ClinicalBoundaries {...abhyangaSafety} />
+      <TreatmentPrograms {...abhyangaPrograms} />
       <TreatmentReviews {...ayurvedaReviewsBlock()} />
-      
-      {/* Section 10 - FAQ */}
       <FAQ {...abhyangaFaqs} />
-      
-      {/* Section 11 - Location */}
       <TreatmentLocation {...abhyangaTreatmentLocation} />
-      
-      {/* Section 12 - Final CTA with Image 3 */}
       <FinalCTA {...abhyangaFinalCTA} />
-      
-      {/* Section 13 - Related Pages with Image 4 */}
       <RelatedPages {...abhyangaRelatedPages} />
     </>
   );

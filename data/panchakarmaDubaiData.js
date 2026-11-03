@@ -88,7 +88,7 @@ export const panchakarmaDubaiApplications = {
       "<a href=\"/conditions/weight-loss-ayurveda-dubai/\" class=\" transition-colors\">Weight management (with metabolic basis)</a>",
       "<a href=\"/conditions/hair-loss-ayurveda-dubai/\" class=\"  transition-colors\">Hair loss</a> and <a href=\"/conditions/skin-ayurveda-dubai/\" class=\"hover:underline transition-colors\">skin conditions</a>",
       "<a href=\"/conditions/diabetes-ayurveda-dubai/\" class=\"  transition-colors\">Type 2 diabetes (alongside endocrinology)</a>",
-      "<a href=\"/conditions/ibs-ayurveda-dubai/\" class=\" transition-colors\">Chronic IBS and digestive disorders</a>",
+      "<a href=\"/conditions/ibs-ayurveda-dubai/\" class=\"hover:underline transition-colors\">Ayurveda for IBS and digestion</a>",
       "<a href=\"/conditions/thyroid-ayurveda-dubai/\" class=\" transition-colors\">Thyroid conditions (alongside endocrinology)</a>",
       "Post-illness recovery and rejuvenation",
       "<a href=\"/conditions/arthritis-ayurveda-dubai/\" class=\"  transition-colors\">Arthritis, Rheumatoid arthritis and chronic joint pain</a>",
@@ -111,7 +111,7 @@ export const panchakarmaDubaiApplications = {
       "Severe emaciation or extreme debility",
       "Young children. Teenagers (12+) and older patients may have a modified protocol after assessment"
     ],
-    footer: "Some people who ask for Panchakarma do not need it. The <a href="/treatments/nadi-pareeksha-jvc/" class="text-[#C9A961] hover:underline">consultation</a> decides; a lighter Ayurvedic plan is often enough."
+    footer: "Some people who ask for Panchakarma do not need it. The <a href='/treatments/nadi-pareeksha-jvc/' class='text-[#C9A961] hover:underline'>consultation</a> decides; a lighter Ayurvedic plan is often enough."
   }
 };
 
@@ -200,7 +200,7 @@ export const panchakarmaDubaiActions = {
       id: "04",
       label: "Nasya (Nasal therapy)",
       title: "Nasal Administration",
-      description: "<a href="/treatments/nasya-therapy-jvc/" class="text-[#C9A961] hover:underline transition-colors">Nasya</a>: medicated oils or herbal preparations administered through the nasal passages, addressing everything from chronic sinusitis to migraines, hair loss, and head-and-neck conditions.",
+      description: "<a href='/treatments/nasya-therapy-jvc/' class='text-[#C9A961] hover:underline transition-colors'>Nasya</a>: medicated oils or herbal preparations administered through the nasal passages, addressing everything from chronic sinusitis to migraines, hair loss, and head-and-neck conditions.",
       typicalUse: "Chronic sinusitis, <a href=\"/conditions/migraine-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">migraine</a>, <a href=\"/conditions/hair-loss-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">hair loss</a>, cervical spondylosis",
       duration: "7-14 day courses",
       image: "/images/nasya-procedure-jvc-ayurveda.webp",
@@ -299,32 +299,58 @@ export const panchakarmaDubaiPrograms = {
 export const panchakarmaDubaiFaqs = {
   buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Panchakarma.",
   faqs: [
-    { question: "What is Panchakarma, in simple terms?",
-      answer: "Panchakarma is Ayurveda's classical five-action cleansing programme. It has three phases — preparation, the main actions chosen by the doctor, and a structured recovery — and runs over 7, 14 or 21 days under an Ayurvedic doctor's supervision." },
-    { question: "What are the five actions of Panchakarma?",
-      answer: "Vamana (therapeutic vomiting), Virechana (purgation), Basti (medicated enema), Nasya (nasal therapy) and Raktamokshana (bloodletting, including leech therapy). Most people need two or three of them; the doctor selects which." },
-    { question: "Where can I get Panchakarma in JVC?",
-      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall. Panchakarma is planned by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor, and the clinic is open daily 9am to 10pm. It is close to JVT, Al Barsha South, Arjan, Sports City and Motor City." },
-    { question: "How long does Panchakarma take?",
-      answer: "Plans run for 7, 14 or 21 days; the doctor recommends the length at consultation. How long you spend at the clinic each day depends on the phase and your plan, and part of the recovery continues at home." },
-    { question: "What are the benefits of Panchakarma?",
-      answer: "People use Panchakarma for long-standing problems such as chronic back pain, PCOS, stress and burnout, migraine, digestive and some skin conditions, and as a reset after illness. Research is limited and small, so we set realistic expectations at consultation." },
-    { question: "How much does Panchakarma cost in Dubai?",
-      answer: "Across Dubai, Panchakarma programmes commonly range from about AED 3,500 for 7 days to AED 15,000 or more for 21 days, depending on the clinic, the length and what is included. At Vedara Care, every plan includes the therapies, oils and medicines used, the diet plan and follow-up; exact prices are shared on WhatsApp." },
-    { question: "What is included in a Panchakarma plan at Vedara Care?",
-      answer: "Everything used in your programme: consultations and doctor reviews, all therapies, the oils, medicated ghee and medicines used, your diet plan and follow-up." },
-    { question: "Does insurance cover Panchakarma?",
-      answer: "Usually not, as many plans treat it as wellness care. Vedara Care does not bill insurers directly; where Panchakarma treats a medical condition, we provide the invoice and medical report you need for a reimbursement claim." },
-    { question: "Who should not have Panchakarma?",
-      answer: "It is not suitable during pregnancy, with an acute infection, severe heart conditions, during active cancer treatment, in an acute mental health crisis, or for young children. Teenagers (12+) and older patients may have a modified protocol after assessment." },
-    { question: "Can I work during Panchakarma?",
-      answer: "Usually only lightly. The 7-day plan is often manageable with light work; for the 14-day plan most people take a few days off during the main-therapy week; the 21-day plan usually needs longer leave. We plan the timing with you." },
-    { question: "What do I eat during Panchakarma?",
-      answer: "A light, prescribed diet — often kitchari (rice and mung dal) — with no alcohol or caffeine. After the main therapies, food is re-introduced step by step (Samsarjana Krama)." },
-    { question: "Will a male or female therapist treat me?",
-      answer: "Same-gender therapists: men are treated by male therapists and women by female therapists, in private treatment rooms." },
-    { question: "How do I book Panchakarma in JVC?",
-      answer: "Booking always starts with a 45 to 60-minute consultation, not a package. Book online, message us on WhatsApp at +971 55 573 6312, or call the same number." }
+    {
+      question: "What is Panchakarma, in simple terms?",
+      answer: "Panchakarma is Ayurveda's classical five-action cleansing programme. It has three phases — preparation, the main actions chosen by the doctor, and a structured recovery — and runs over 7, 14 or 21 days under an Ayurvedic doctor's supervision."
+    },
+    {
+      question: "What are the five actions of Panchakarma?",
+      answer: "Vamana (therapeutic vomiting), Virechana (purgation), Basti (medicated enema), Nasya (nasal therapy) and Raktamokshana (bloodletting, including leech therapy). Most people need two or three of them; the doctor selects which."
+    },
+    {
+      question: "Where can I get Panchakarma in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall. Panchakarma is planned by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor, and the clinic is open daily 9am to 10pm. It is close to JVT, Al Barsha South, Arjan, Sports City and Motor City."
+    },
+    {
+      question: "How long does Panchakarma take?",
+      answer: "Plans run for 7, 14 or 21 days; the doctor recommends the length at consultation. How long you spend at the clinic each day depends on the phase and your plan, and part of the recovery continues at home."
+    },
+    {
+      question: "What are the benefits of Panchakarma?",
+      answer: "People use Panchakarma for long-standing problems such as chronic back pain, PCOS, stress and burnout, migraine, digestive and some skin conditions, and as a reset after illness. Research is limited and small, so we set realistic expectations at consultation."
+    },
+    {
+      question: "How much does Panchakarma cost in Dubai?",
+      answer: "Across Dubai, Panchakarma programmes commonly range from about AED 3,500 for 7 days to AED 15,000 or more for 21 days, depending on the clinic, the length and what is included. At Vedara Care, every plan includes the therapies, oils and medicines used, the diet plan and follow-up; exact prices are shared on WhatsApp."
+    },
+    {
+      question: "What is included in a Panchakarma plan at Vedara Care?",
+      answer: "Everything used in your programme: consultations and doctor reviews, all therapies, the oils, medicated ghee and medicines used, your diet plan and follow-up."
+    },
+    {
+      question: "Does insurance cover Panchakarma?",
+      answer: "Usually not, as many plans treat it as wellness care. Vedara Care does not bill insurers directly; where Panchakarma treats a medical condition, we provide the invoice and medical report you need for a reimbursement claim."
+    },
+    {
+      question: "Who should not have Panchakarma?",
+      answer: "It is not suitable during pregnancy, with an acute infection, severe heart conditions, during active cancer treatment, in an acute mental health crisis, or for young children. Teenagers (12+) and older patients may have a modified protocol after assessment."
+    },
+    {
+      question: "Can I work during Panchakarma?",
+      answer: "Usually only lightly. The 7-day plan is often manageable with light work; for the 14-day plan most people take a few days off during the main-therapy week; the 21-day plan usually needs longer leave. We plan the timing with you."
+    },
+    {
+      question: "What do I eat during Panchakarma?",
+      answer: "A light, prescribed diet — often kitchari (rice and mung dal) — with no alcohol or caffeine. After the main therapies, food is re-introduced step by step (Samsarjana Krama)."
+    },
+    {
+      question: "Will a male or female therapist treat me?",
+      answer: "Same-gender therapists: men are treated by male therapists and women by female therapists, in private treatment rooms."
+    },
+    {
+      question: "How do I book Panchakarma in JVC?",
+      answer: "Booking always starts with a 45 to 60-minute consultation, not a package. Book online, message us on WhatsApp at +971 55 573 6312, or call the same number."
+    }
   ]
 };
 

@@ -146,7 +146,7 @@ export const patraPindaSwedaConcerns = {
     },
     {
       title: "Neck stiffness",
-      description: "Sedentary desk work and poor posture frequently lead to persistent cervical tightness. Elakizhi relaxes tight neck musculature, while acute pain or nerve symptoms need physician evaluation."
+      description: "Sedentary desk work and poor posture frequently lead to persistent cervical tightness. Elakizhi relaxes tight neck musculature; see <a href='/conditions/cervical-spondylosis-ayurveda-jvc/'>neck pain and cervical spondylosis care</a>."
     },
     {
       title: "Joint stiffness (knee, shoulder, elbow, wrist)",
@@ -221,7 +221,7 @@ export const patraPindaSwedaComparisons = {
       paragraphs: [
         "Kativasti is another therapy patients often ask about alongside Elakizhi, particularly for back-related concerns.",
         "Elakizhi involves targeted herbal fomentation using warm boluses, which can be applied to various areas of the body depending on the treatment plan.",
-        "<a href="/treatments/kativasti-dubai/">Kati Vasti</a> (Kativasti) is a localized warm oil therapy specifically applied to the lower back, using a retained oil reservoir in a dough ring. Read more about <a href='/treatments/kativasti-dubai/' class='text-[#A0713F] underline hover:text-[#80582F] transition-colors'>Kativasti</a>.",
+        "<a href='/treatments/kativasti-dubai/'>Kati Vasti</a> (Kativasti) is a localized warm oil therapy specifically applied to the lower back, using a retained oil reservoir in a dough ring. Read more about <a href='/treatments/kativasti-dubai/' class='text-[#A0713F] underline hover:text-[#80582F] transition-colors'>Kativasti</a>.",
         "A practitioner assessment helps determine which treatment fits your particular back concern."
       ]
     },

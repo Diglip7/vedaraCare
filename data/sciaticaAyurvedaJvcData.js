@@ -1,621 +1,194 @@
-export const sciaticaJvcHero = {
+// data/sciaticaAyurvedaJvcData.js (replace the whole file)
+export const sciaticaHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Conditions", href: "/conditions" },
-    { label: "Sciatica Ayurveda JVC", active: true }
+    { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
+    { label: "Sciatica (Ayurveda) in JVC", active: true }
   ],
-  label: "Sciatica Ayurvedic Treatment · Gridhrasi · DHA-Licensed · Jumeirah Village Circle",
-  title: "Sciatica Ayurvedic treatment at our JVC clinic, Dubai — classical Gridhrasi care.",
-  description: "Authentic Ayurvedic sciatica management at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), walking distance from Circle Mall. Classical Gridhrasi care through Basti, Kativasti, Panchakarma, and constitutional assessment. Female practitioner Dr. Zainab available. Coordinated with modern medical care for red flag presentations.",
-  primaryCTA: "Book a Sciatica Consultation",
-  primaryCTAHref: "/book",
+  label: "AYURVEDIC TREATMENT FOR SCIATICA · GRIDHRASI · JVC, DUBAI",
+  title: "Ayurvedic treatment for sciatica (Gridhrasi) in JVC, Dubai — with physiotherapy at the same clinic.",
+  description: "Sciatica is pain that runs from the lower back down one leg. At Vedara Care near Circle Mall, JVC, Dr. Zainab Sheikh (BAMS, MD Ayurveda) checks the cause, screens for warning signs, and plans Kati Vasti, Basti, herbal bundles, Agnikarma and herbs — combined with physiotherapy when that helps more.",
+  primaryCTA: "Book a sciatica consultation",
+  primaryCTAHref: "/book/",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20Ayurvedic%20sciatica%20treatment%20at%20your%20JVC%20clinic.",
-  trustSignals: [
-    "DHA-licensed BAMS Ayurvedic doctors",
-    "Classical Basti therapy for Gridhrasi",
-    "Female practitioner available",
-    "Coordinated with modern medical care"
-  ],
-  floatingCard: {
-    title: "Classical Gridhrasi Care, Not Pain Suppression.",
-    subtitle: "Sciatica is one of the most extensively described conditions in classical Ayurvedic texts — termed Gridhrasi with dedicated protocols emphasising Basti as classically most powerful intervention.",
-    alt: "Classical Ayurvedic Gridhrasi care vs pain suppression Vedara Care"
-  },
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Ayurvedic%20treatment%20for%20sciatica.",
+  trustSignals: ["DHA Facility Licence 2509266", "BAMS, MD (Ayurveda) doctor", "Ayurveda + physiotherapy, one clinic", "Near Circle Mall, JVC"],
+  floatingCard: { title: "WARNING SIGNS FIRST", subtitle: "Every plan starts by ruling out problems that need a hospital or surgeon." },
   image: "/images/sciatica-ayurveda-jvc-hero.webp",
-  alt: "Sciatica Ayurvedic treatment Gridhrasi care Vedara Care JVC Dubai"
+  alt: "Ayurvedic treatment for sciatica at Vedara Care, JVC Dubai"
 };
 
-export const sciaticaJvcIntro = {
+export const sciaticaIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
-  title: "Sciatica Ayurvedic care at Vedara Care, in one paragraph.",
-  blockquote: "Sciatica Ayurvedic treatment at Vedara Care Polyclinic — DHA-licensed clinic at Jumeirah Village Circle (JVC), Dubai — is authentic multi-modal care delivered by DHA-licensed BAMS-qualified Ayurvedic doctors including female practitioner Dr. Zainab. Sciatica is classically termed Gridhrasi in Ayurveda, extensively described in Charaka Samhita and Sushruta Samhita with dedicated traditional treatment protocols emphasising Basti (medicated enema) as classically most powerful therapy for Vata pacification. Comprehensive approach includes constitutional assessment, classical Basti series (Yoga Basti 8-day, Kala Basti 16-day, Karma Basti 30-day protocols), Kativasti with extended lower body attention, Panchakarma with Basti emphasis, Abhyanga, Elakizhi, Pizhichil, Ayurvedic herbal medicines (Rasnadi Kwatham, Trayodashang Guggulu, Guggul preparations), and personalised lifestyle counselling. Covers acute sciatica, chronic sciatica, piriformis-related, disc-related with specialist coordination, pregnancy-related (Basti contraindicated — modified protocol), post-surgical, and bilateral presentations. Explicit escalation for red flag symptoms including cauda equina features. Serving Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif, and all Dubai communities.",
-  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last updated October 2026"
+  title: "Ayurvedic treatment for sciatica, in one paragraph.",
+  blockquote: "Sciatica is pain, tingling or numbness that runs from the lower back or buttock down one leg, usually from an irritated sciatic nerve root, for example from a disc bulge; in Ayurveda it is called Gridhrasi and is treated as a Vata disorder. Ayurvedic treatment usually combines Kati Vasti (warm oil held on the lower back), Basti (medicated enema), herbal bundles (Elakizhi), oil massage with steam, Agnikarma (controlled therapeutic heat) and prescribed herbs, and often works best alongside physiotherapy. It is not a substitute for urgent care: loss of bladder or bowel control, groin numbness or weakness in both legs needs a hospital straight away. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), near Circle Mall, treatment starts with a 45 to 60-minute consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda, DHA-licensed), and Ayurveda and physiotherapy can be planned together at the same clinic. The clinic is open daily 9am to 10pm and is close to JVT, Al Barsha South and Arjan.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, BAMS, MD (Ayurveda), DHA licence 20918133. Reviewed November 2026."
 };
 
-export const sciaticaJvcMechanism = {
-  treatment: {
-    label: "Understanding Ayurvedic Approach",
-    title: "How Ayurveda approaches sciatica — Gridhrasi in classical Ayurvedic tradition and modern clinical application.",
-    intro: "Understanding authentic Ayurvedic sciatica care and the classical Gridhrasi tradition helps you evaluate options in Dubai's sciatica landscape and set realistic expectations.",
-    steps: [
-      {
+export const sciaticaMechanism = {                           // rendered with TreatmentMechanism
+  bgColor: "bg-[#F9F6F1]",
+  label: "UNDERSTANDING SCIATICA",
+  title: "What sciatica is, and how Ayurveda sees it.",
+  content: [
+    "The sciatic nerve runs from the lower back through the buttock and down each leg. When one of its roots is irritated — most often by a bulging disc, narrowing in the spine or a tight piriformis muscle — pain, tingling or numbness travels down the leg.",
+    "Ayurveda calls this Gridhrasi ('vulture-like', after the stiff walk it causes) and links it to aggravated Vata. Treatment aims to calm Vata with warmth, oil and Basti, reduce stiffness and support the nerve to heal, while physiotherapy restores movement and strength.",
+    "What does the research say? In an open study of 30 people with sciatica, a protocol of an oral Ayurvedic preparation with Kati Basti and Patra Pinda Sweda showed promising improvement in symptoms and function, with no serious side effects. It was small and uncontrolled, so we set realistic expectations."
+  ],
+  sources: "Source: <a href='https://www.msjonline.org/index.php/ijrms/article/view/16432' target='_blank' rel='noopener'>Ayurvedic protocol in Gridhrasi (sciatica), open-label study of 30 patients (IJRMS)</a>",
+  image: "/images/lumbar-spine-sciatica-anatomy-illustration.webp",
+  alt: "Illustration of the lumbar spine and sciatic nerve"
+};
 
-        description: "Sciatica is classically termed Gridhrasi in Ayurveda — one of the most extensively described musculoskeletal conditions in classical texts including Charaka Samhita and Sushruta Samhita, with dedicated traditional treatment protocols developed over centuries emphasising Basti (medicated enema) as classically most powerful therapeutic intervention."
-      },
-      {
-        title: "Gridhrasi — classical Ayurvedic understanding of sciatica",
-        description: "Gridhrasi is the classical Ayurvedic name for sciatica, described extensively in Charaka Samhita and Sushruta Samhita. The name refers to the vulture-like gait patients develop from radiating leg pain. Classical description matches modern sciatica: pain from lower back radiating through buttock, thigh, calf, and foot. Two main types — Vataja Gridhrasi (sharp pain) and Vata-Kaphaja Gridhrasi (heaviness, stiffness, dull pain alongside sharp pain). This differentiation guides treatment selection in contemporary practice."
-      },
-      {
-        title: "Why Basti is classically most emphasised therapy for Gridhrasi",
-        description: "Classical Ayurvedic texts identify Basti (medicated enema therapy) as most powerful therapeutic intervention for Vata-related conditions and Gridhrasi specifically. Multiple Basti variations used — Anuvasana Vasti (oil-based), Kashaya Vasti (decoction-based), Yoga Basti (8-day protocol), Kala Basti (16-day), Karma Basti (30-day). Selection matched to individual presentation, chronicity, and constitutional factors. Requires trained practitioner delivery."
-      },
-      {
-        title: "Constitutional approach — why different sciatica patterns need different treatment",
-        description: "Different Ayurvedic constitutions (Prakriti) produce different sciatica vulnerability patterns. Vata constitutions: sharp shooting pain, spasm, cold-worsened — requiring warming and oleation. Pitta constitutions: burning radiating pain with inflammation — requiring cooling within Vata pacification. Kapha constitutions: heavy dull pain with stiffness — requiring stimulating approaches. Dr. Zainab's assessment identifies your specific pattern during initial consultation."
-      },
-      {
-        title: "Kativasti with lower body extension for sciatica",
-        description: "Traditional <a href="/treatments/kativasti-dubai/" style="color: #C9A55A; text-decoration: underline;">Kati Vasti</a> (Kativasti) therapy adapted for sciatica includes extended attention to affected lower body — extended Abhyanga to affected leg, systematic massage of buttock, thigh, and lower leg during and after Kativasti. Different medicated oils for different constitutional presentations — Ksheerabala for Vata-predominant pain, Mahanarayana for chronic musculoskeletal conditions. Series of 7–14 sessions typical."
-      },
-      {
-        title: "Coordinated with modern medical care — red flag recognition",
-        description: "Sciatica red flag symptoms requiring immediate evaluation: loss of bladder or bowel control (potential cauda equina syndrome — surgical emergency), saddle anaesthesia, progressive neurological weakness particularly foot drop, bilateral sciatica with concerning features, unexplained weight loss, fever with sciatica, history of cancer with new sciatica. Consultation includes systematic red flag screening with immediate specialist referral when indicated. Cauda equina syndrome requires intervention within hours."
-      }
-
-    ],
-    footer: "Sciatica is classically termed Gridhrasi in Ayurveda — extensively described in Charaka Samhita and Sushruta Samhita with dedicated treatment protocols emphasising Basti as classically most powerful therapeutic intervention for Vata pacification in radicular conditions."
+export const sciaticaRedFlags = {                           // rendered with ClinicalBoundaries
+  label: "WARNING SIGNS",
+  title: "When sciatica needs a hospital or a surgeon first.",
+  leftCard: {
+    label: "GO TO HOSPITAL NOW",
+    title: "Emergency signs:",
+    useWarningIcon: true,
+    items: ["Loss of bladder or bowel control", "Numbness around the groin, genitals or buttocks", "Weakness or numbness in both legs"]
   },
-  rightContent: {
-    image: "/images/basti-sciatica-vedara-jvc.webp",
-    alt: "Classical Gridhrasi Ayurvedic treatment Dr Zainab Vedara Care JVC",
-  }
+  rightCard: {
+    label: "SEE A DOCTOR SOON",
+    title: "Get checked before Ayurvedic treatment if you have:",
+    items: [
+      { text: "One leg getting weaker, or foot drop", icon: "check" },
+      { text: "Pain after a fall or accident", icon: "check" },
+      { text: "Fever, unexplained weight loss or a history of cancer", icon: "check" },
+      { text: "Severe pain at night that does not ease with rest", icon: "check" }
+    ]
+  },
+  footer: "Vedara Care does not do MRI or surgery. Dr. Zainab will refer you for imaging or a surgeon's opinion when needed."
 };
 
-export const sciaticaJvcTypes = {
-  bgColor: "bg-white",
-  cardBg: "bg-[#FAF8F3]",
-  label: "Sciatica Conditions We Address",
-  title: "The sciatica types and radicular conditions we address with Ayurvedic care at our JVC clinic serving Dubai.",
-  description: "Comprehensive Ayurvedic approach across the sciatica spectrum with realistic outcome framing and appropriate medical coordination.",
-  alt: "Types of sciatica treated at Vedara Care JVC",
-  types: [
-    {
-      number: "01",
-      title: "Acute Sciatica",
-      description: "Sudden onset radiating leg pain from muscular strain, nerve irritation, or specific incident. Duration less than 6 weeks.",
-      typicalSigns: [" Constitutional assessment, red flag screening, initial Kativasti, appropriate Basti timing, herbal medicines."],
-      alt: "Acute sciatica Ayurvedic treatment Vedara Care JVC"
-    },
-    {
-      number: "02",
-      title: "Chronic Sciatica (Chronic Gridhrasi)",
-      description: "Persistent radiating leg pain lasting three or more months. Substantial burden affecting daily function.",
-      typicalSigns: ["Panchakarma with Basti emphasis (Yoga Basti or Kala Basti), Kativasti series, sustained herbal medicines, lifestyle counselling."],
-      alt: "Chronic sciatica Gridhrasi Ayurvedic care Vedara Care JVC"
-    },
-    {
-      number: "03",
-      title: "Recurrent Episodic Sciatica",
-      description: "Pattern of recurring sciatica episodes with pain-free intervals. Ayurvedic approach addresses underlying vulnerability.",
-      typicalSigns: ["Constitutional assessment identifying vulnerability, preventive Panchakarma with Basti, maintenance Kativasti."],
-      alt: "Recurrent episodic sciatica Ayurveda Vedara Care"
-    },
-    {
-      number: "04",
-      title: "Sciatica with Lower Back Component",
-      description: "Most common presentation combining lower back pain with radiating leg pain. Integrated approach addressing both components.",
-      typicalSigns: ["<a href=\"/conditions/back-pain-ayurveda-jvc/\" style=\"color: #C9A55A; text-decoration: underline;\">Integrated back pain Ayurvedic care</a>, Kativasti with extended lower body attention, Basti series."],
-      alt: "Sciatica lower back Ayurvedic care Vedara Care"
-    },
-    {
-      number: "05",
-      title: "Piriformis-Related Sciatica",
-      description: "Sciatica from piriformis muscle compression on sciatic nerve — common in sedentary Dubai populations.",
-      typicalSigns: ["Targeted Abhyanga to piriformis region, Elakizhi, appropriate Basti, sustainable movement counselling."],
-      alt: "Piriformis sciatica Ayurveda Vedara Care"
-    },
-    {
-      number: "06",
-      title: "Disc-Related Sciatica",
-      description: "Sciatica from disc-related nerve compression requiring imaging and specialist coordination.",
-      typicalSigns: [" Imaging review, coordination with orthopaedic or neurosurgical care, careful Basti and Kativasti."],
-      alt: "Disc-related sciatica Ayurvedic coordinated care Vedara Care"
-    },
-    {
-      number: "07",
-      title: "Post-Injury Sciatica",
-      description: "Sciatica following specific injury — lifting, sports, or motor vehicle. Coordinated with modern medical assessment.",
-      typicalSigns: ["Coordinated assessment, imaging review, comprehensive Ayurvedic support after acute resolution."],
-      alt: "Post-injury sciatica Ayurveda Vedara Care"
-    },
-    {
-      number: "08",
-      title: "Post-Surgical Continuing Sciatica",
-      description: "Continuing sciatica after spine surgery — always coordinated with treating surgeon.",
-      typicalSigns: ["Surgeon coordination, appropriate timing after clearance, gentle Kativasti, sustained Basti approach."],
-      alt: "Post-surgical sciatica Ayurvedic supportive care Vedara Care"
-    },
-    {
-      number: "09",
-      title: "Pregnancy-Related Sciatica",
-      description: "Sciatica during pregnancy from anatomical changes. Basti specifically contraindicated — modified approach.",
-      typicalSigns: ["Pregnancy-safe assessment, gentle therapies excluding Basti, coordination with obstetric care."],
-      alt: "Pregnancy sciatica pregnancy-safe Ayurveda Vedara Care"
-    },
-    {
-      number: "10",
-      title: "Post-Pregnancy Sustained Sciatica",
-      description: "Continuing sciatica postpartum from pregnancy strain and postural adaptations.",
-      typicalSigns: ["Integrated postnatal recovery, breastfeeding-safe protocols, appropriate Basti timing post-recovery."],
-      alt: "Post-pregnancy sustained sciatica Ayurveda Vedara Care"
-    },
-    {
-      number: "11",
-      title: "Chronic Pain Sciatica",
-      description: "Sciatica as component of chronic pain condition — often on sustained gabapentinoid medications.",
-      typicalSigns: [" Coordination with pain management, sustained Ayurvedic programme, medication coordination with prescribing doctor."],
-      alt: "Chronic pain sciatica Ayurveda coordinated care Vedara Care"
-    },
-    {
-      number: "12",
-      title: "Bilateral Sciatica",
-      description: "Sciatica affecting both legs — requires immediate assessment for cauda equina syndrome before treatment initiation.",
-      typicalSigns: ["Comprehensive red flag screening for cauda equina, specialist coordination before Ayurvedic treatment."],
-      alt: "Bilateral sciatica Ayurvedic care with red flag screening Vedara Care"
-    }
+export const sciaticaTherapies = {                          // rendered with TreatmentOils
+  label: "HOW AYURVEDA TREATS SCIATICA",
+  title: "The therapies in an Ayurvedic sciatica plan.",
+  description: "The doctor chooses which you need, based on the cause and how long you have had it.",
+  oils: [
+    { name: "<a href='/treatments/kativasti-dubai/'>Kati Vasti</a>", description: "Warm oil on the lower back", content: "Medicated oil held over the lower spine inside a dough ring.", indication: "lower back pain and stiffness" },
+    { name: "<a href='/treatments/basti-jvc/'>Basti</a>", description: "Medicated enema", content: "Matra, Yoga or Kala Basti — the classical main treatment for Vata disorders.", indication: "long-standing sciatica, disc-related pain" },
+    { name: "<a href='/treatments/patra-pinda-sweda-jvc/'>Elakizhi</a>", description: "Herbal bundles", content: "Warm leaf bundles pressed over the back, buttock and leg.", indication: "muscle spasm, stiffness" },
+    { name: "<a href='/treatments/abhyanga-dubai/'>Abhyanga</a> with steam", description: "Oil massage and Swedana", content: "Prepares the body and eases tension.", indication: "general stiffness" },
+    { name: "Agnikarma", description: "Controlled therapeutic heat", content: "A heated metal instrument applied briefly to specific points on the back or leg.", indication: "localised, persistent pain" },
+    { name: "Prescribed herbs", description: "Taken at home", content: "Classical preparations for nerve pain and Vata, bought at a licensed pharmacy.", indication: "supporting the therapies" }
   ],
-  footer: "<a href=\"/book\" class=\"hover:underline\"> Comprehensive consultation identifies your specific sciatica pattern and appropriate approach →</a>"
+  footer: "Some people need <a href='/treatments/panchakarma-dubai/'>Panchakarma</a>. Sessions are given by a same-gender therapist."
 };
 
-export const sciaticaJvcApproaches = {
-  bgColor: "bg-[#F5F0E8]",
-  label: "Ayurvedic Approach Components",
-  title: "What comprehensive Ayurvedic sciatica care includes at our JVC clinic.",
-  intro: "Multi-modal approach combining assessment, targeted therapies (particularly Basti and Kativasti), Panchakarma, herbal medicines, and lifestyle counselling.",
-  alt: "Comprehensive Ayurvedic sciatica Gridhrasi care components Vedara Care JVC",
-  contentSections: [
-    {
-
-      description: "Comprehensive Ayurvedic sciatica care combines multiple components addressing different aspects of radicular pain. Classical Ayurvedic tradition places Basti (medicated enema therapy) at the centre of authentic Gridhrasi care with supporting therapies providing integrated approach."
-    },
-    {
-      subtitle: "Comprehensive Sciatica Assessment",
-      description: "Initial 90-minute consultation with Dr. Zainab including detailed sciatica history, Nadi Pareeksha, Prakriti and Vikriti assessment, Gridhrasi type identification (Vataja vs Vata-Kaphaja), imaging review, current medications review, and neurological examination including straight-leg raise, dermatomal sensory testing, motor strength assessment, and cauda equina screening."
-    },
-    {
-      subtitle: "Basti — Flagship Classical Therapy for Gridhrasi",
-      description: "Classical medicated enema therapy — most emphasised therapeutic intervention for Gridhrasi in classical Ayurvedic texts. Variations: Anuvasana Vasti (oil-based), Kashaya Vasti (decoction-based), Yoga Basti (structured 8-day protocol), Kala Basti (16-day protocol), Karma Basti (30-day for chronic Gridhrasi). Requires trained practitioner delivery."
-    },
-    {
-      subtitle: "Kativasti with Lower Body Extension",
-      description: "Warm medicated oil retained on lower back within dough dam for 30–45 minutes, followed by extended Abhyanga to affected leg including buttock, thigh, calf, and foot. Oils selected by constitutional presentation — Ksheerabala for Vata-predominant, Mahanarayana for chronic, Dhanwantharam for specific presentations. Series of 7–14 sessions typical."
-    },
-    {
-      subtitle: "Panchakarma Programme with Basti Emphasis",
-      description: "Classical Yoga Basti (8-day) or Kala Basti (16-day) integrated with Abhyanga, Swedana, and appropriate herbal support. Purvakarma preparation includes Snehapana and Swedana. Programme provides comprehensive constitutional reset for sustained chronic sciatica management. Duration 8–21 days."
-    },
-    {
-      subtitle: "Abhyanga with Systematic Lower Body Attention",
-      description: "Systematic full-body oil massage extending to entire sciatic distribution — buttock, thigh, calf, foot — supporting muscular relaxation, tissue nourishment, and musculoskeletal support. Different oils and techniques for different constitutional presentations."
-    },
-    {
-      subtitle: "Elakizhi to Lower Back and Lower Body",
-      description: "Traditional Ayurvedic therapy using warm herbal poultices applied to lower back and affected lower body regions providing localised therapeutic warmth and herbal delivery. Particularly valuable for chronic sciatica and muscular tension component."
-    },
-    {
-      subtitle: "Pizhichil — Oil Pouring for Chronic Sciatica",
-      description: "Continuous stream of warm medicated oil poured across body during massage. Particularly valuable for chronic sciatica, degenerative conditions with radicular component, and sustained radicular pain. Component of comprehensive programme for appropriate presentations."
-    },
-    {
-      subtitle: "Ayurvedic Herbal Medicines for Radicular Support",
-      description: "Prescribed internal herbal preparations: Rasnasaptakam Kwatham, Rasnadi Kwatham (Gridhrasi-specific), Yogaraj Guggulu and Mahayogaraj Guggulu, Trayodashang Guggulu (radicular presentations), Ashtavargam Kwatham, Balaristam, Dhanwantharam capsules. All from DHA-approved Ayurvedic pharmacy sources, coordinated with modern medications."
-    },
-    {
-      subtitle: "Lifestyle and Postural Counselling",
-      description: "Sitting posture modifications (breaks every 30–45 minutes, appropriate lumbar support), sleeping positions for sciatica, sustainable movement recommendations, ergonomic guidance for Dubai's sedentary work environment, dietary guidance supporting musculoskeletal health. Practical recommendations for Dubai lifestyle constraints."
-    },
-
+export const sciaticaProtocol = {                           // rendered with TreatmentProtocol
+  label: "YOUR PLAN",
+  title: "How Ayurvedic sciatica treatment works at Vedara.",
+  description: "",
+  phases: [
+    { time: "Step 1", title: "Consultation and screening", content: "A 45-60 minute consultation with Dr. Zainab: your history, warning signs, nerve checks and any MRI or X-ray reports you bring." },
+    { time: "Step 2", title: "Your plan", content: "A written plan of therapies, herbs and home advice — and physiotherapy if it will help." },
+    { time: "Step 3", title: "Treatment", content: "Kati Vasti, Basti, Elakizhi, Agnikarma or other therapies as prescribed, alongside physiotherapy sessions." },
+    { time: "Step 4", title: "Review", content: "Regular reviews; the plan changes as the pain eases, then focuses on preventing it coming back." }
   ],
-  sidebar: {
-    label: "Comprehensive Sciatica Care",
-    groups: [
-      {
-        title: "Assessment foundation",
-        items: [
-          "90-minute initial consultation",
-          "Detailed sciatica history",
-          "Gridhrasi type identification",
-          "Imaging review",
-          "Sciatica red flag screening",
-          "Cauda equina screening",
-          "Straight-leg raise assessment",
-          "Neurological examination"
-        ]
-      },
-      {
-        title: "Flagship classical therapy for Gridhrasi",
-        items: [
-          "Basti (medicated enema)",
-          "Anuvasana and Kashaya Vasti",
-          "Yoga Basti (8-day protocol)",
-          "Kala Basti (16-day protocol)",
-          "Karma Basti (30-day for chronic)",
-        ]
-      },
-      {
-        title: "Sciatica-specific therapies",
-        items: [
-          "Kativasti with lower body extension",
-          "30–45 min sustained therapeutic contact",
-          "7–14 session series typical"
-        ]
-      },
-      {
-        title: "Herbal medicine support",
-        items: [
-          "Rasnasaptakam Kwatham",
-          "Rasnadi Kwatham (Gridhrasi-specific)",
-          "Trayodashang Guggulu for radicular pain",
-          "Guggul preparations",
-          "Constitution-matched formulations"
-        ]
-      }
-    ],
-    buttonText: "Book JVC Sciatica Consultation",
-    buttonHref: "/book"
-  }
+  footer: "Plan length depends on the cause and how long you have had sciatica."
 };
 
-export const sciaticaJvcReviews = {
-  bgColor: "bg-[#F0EBE3]",
-  cardBgColor: "bg-[#FFFFFF]",
-  statsBgColor: "rgb(24, 20, 18)",
-  isDarkText: true,
-  label: "PATIENT VOICES",
-  title: "Real sciatica management outcomes with authentic Ayurvedic Gridhrasi care at our JVC clinic.",
-  image: "/images/sciatica-reviews-vedara-jvc.webp",
-  alt: "Sciatica Gridhrasi management patient testimonials Vedara Care JVC Dubai",
-  items: [
-    {
-      quote: "Business Bay executive with chronic sciatica for six years — radiating pain into right leg with intermittent foot numbness from L5-S1 disc bulge. Tried gabapentin with cognitive side effects, physiotherapy with temporary relief, considered spinal injection and disc surgery. Dr. Zainab's comprehensive assessment identified my Vata-predominant Vataja Gridhrasi presentation. The 16-day Kala Basti protocol was unlike any sciatica treatment I'd encountered. Four months in: substantially reduced radiating pain, dramatically reduced foot numbness, tapered gabapentin with prescribing doctor coordination, avoided disc surgery.",
-      author: "MALE PATIENT, 45",
-      details: " Chronic Sciatica L5-S1 Disc-Related",
-      details1: "Business Bay Executive · February 2026"
-    },
-    {
-      quote: "Indian expat mother with post-pregnancy sciatica never fully resolved after my second child — radiating right buttock and thigh pain for two years. Cultural preference for traditional Ayurvedic approach given familiarity with Gridhrasi tradition. Dr. Zainab as female Ayurvedic doctor was important for my cultural preferences. The Yoga Basti 8-day protocol, Kativasti series, and sustained postural counselling for infant care patterns produced substantial sustained improvement. Traditional Gridhrasi approach through DHA-licensed female doctor provided authentic care I couldn't find elsewhere.",
-      author: "FEMALE PATIENT, 34",
-      details: "Post-Pregnancy Chronic Sciatica",
-      details1: "Al Barsha Family · January 2026"
-    },
-    {
-      quote: "Filipino IT specialist with piriformis-related sciatica from years of sedentary work — radiating pain into left buttock and posterior thigh worsening with prolonged sitting. Straight-leg raise negative, imaging clear, diagnosed piriformis syndrome. Wanted Ayurvedic approach avoiding sustained pain medications. Targeted Abhyanga to piriformis region, Elakizhi, Anuvasana Vasti series, and comprehensive sitting posture counselling for my desk work produced substantial sustained improvement in ten weeks. Piriformis-focused Ayurvedic approach with lifestyle changes gave sustained resolution.",
-      author: "MALE PATIENT, 39",
-      details: "Piriformis-Related Sciatica",
-      details1: "Dubai Sports City · March 2026"
-    }
+export const sciaticaIntegration = {                        // rendered with TreatmentIntegration
+  bgColor: "bg-[#F5F1E8]",
+  label: "AYURVEDA + PHYSIOTHERAPY",
+  title: "One plan, two approaches, one clinic in JVC.",
+  paragraphs: [
+    "Ayurvedic therapies ease pain, spasm and stiffness. <a href='/conditions/sciatica-physiotherapy-dubai/'>Physiotherapy for sciatica</a> restores movement, strengthens the back and teaches you how to keep the nerve calm.",
+    "At Vedara Care, Dr. Zainab and our physiotherapist plan both together, so sessions fit around each other and you have one plan to follow."
   ],
-  stats: [
-    { value: "4.7", label: "Google Rating" },
-    { value: "850+", label: "Reviews" },
-    { value: "DHA-Licensed", label: "BAMS Doctors" },
-    { value: "Female", label: "Practitioner Available" }
-  ]
+  image: "/images/basti-sciatica-vedara-jvc.webp",
+  alt: "Ayurvedic and physiotherapy care for sciatica at Vedara Care, JVC",
+  features: ["Ayurveda and physiotherapy at one clinic", "Sessions planned around each other", "One plan and one review", "Home exercises and daily-routine advice"],
+  button1Text: "Book a consultation",
+  button1Link: "/book/",
+  button2Text: "Physiotherapy for sciatica",
+  button2Link: "/conditions/sciatica-physiotherapy-dubai/"
 };
 
-export const sciaticaJvcPricing = {
-  label: "TRANSPARENT PRICING",
-  title: "Sciatica Ayurvedic care consultation and treatment pricing at our JVC clinic.",
-  headers: ["SERVICE", "DURATION", "INVESTMENT"],
-  rows: [
-    {
-      service:
-        "Initial sciatica consultation with Dr. Zainab (Nadi Pareeksha + Prakriti + Gridhrasi type + red flag screening + neurological examination + treatment plan)",
-      duration: "90 min",
-      price: "AED 400",
-    },
-    {
-      service: "Follow-up consultation",
-      duration: "30–45 min",
-      price: "AED 250",
-    },
-    {
-      service: "Extended follow-up (complex cases)",
-      duration: "60 min",
-      price: "AED [X]",
-    },
-    {
-      service: "Individual Anuvasana Vasti (oil-based Basti)",
-      duration: "45–60 min",
-      price: "AED [X]",
-    },
-    {
-      service: "Individual Kashaya Vasti (decoction Basti)",
-      duration: "45–60 min",
-      price: "AED [X]",
-    },
-    {
-      service: "Yoga Basti protocol (8-day structured Basti programme)",
-      duration: "8 days",
-      price: "From AED 3,500",
-    },
-    {
-      service: "Kala Basti protocol (16-day structured Basti programme)",
-      duration: "16 days",
-      price: "From AED 6,500",
-    },
-    {
-      service: "Karma Basti protocol (30-day intensive Basti for chronic Gridhrasi)",
-      duration: "30 days",
-      price: "From AED 12,000",
-    },
-    {
-      service: "Individual Kativasti session with lower body extension",
-      duration: "60–75 min",
-      price: "AED 450",
-    },
-    {
-      service: "Kativasti with lower body package (7 sessions)",
-      duration: "3–4 weeks",
-      price: "From AED 2,800",
-    },
-    {
-      service: "Kativasti with lower body package (14 sessions)",
-      duration: "6–7 weeks",
-      price: "From AED [X]",
-    },
-    {
-      service: "Individual Abhyanga session with lower body attention",
-      duration: "75–90 min",
-      price: "AED [X]",
-    },
-    {
-      service: "8-day Panchakarma programme with Yoga Basti (sciatica focus)",
-      duration: "8 days",
-      price: "From AED [X]",
-    },
-    {
-      service: "16-day Panchakarma programme with Kala Basti",
-      duration: "16 days",
-      price: "From AED [X]",
-    },
-    {
-      service:
-        "Comprehensive 4-week sciatica programme (Kativasti + herbs + consultation)",
-      duration: "4 weeks",
-      price: "From AED [X]",
-    },
-    {
-      service:
-        "Comprehensive 8-week sciatica programme (with Yoga Basti phase)",
-      duration: "8 weeks",
-      price: "From AED [X]",
-    },
-    {
-      service:
-        "Comprehensive 12-week chronic sciatica programme (with Kala Basti phase)",
-      duration: "12 weeks",
-      price: "From AED [X]",
-    },
-    {
-      service: "Pregnancy-safe sciatica programme (excludes Basti)",
-      duration: "Bespoke",
-      price: "From AED [X]",
-    },
-    {
-      service: "Combined Ayurvedic + Physiotherapy sciatica programme",
-      duration: "Bespoke",
-      price: "Consultation required",
-    }
-
-  ],
-  footer: "Programme pricing typically includes: initial comprehensive consultation, all therapy sessions specified, follow-up consultations, herbal medicines, and transition guidance. Insurance coverage available — direct billing with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, MetLife for covered elements. WhatsApp your insurance card for coverage discussion."
-};
-
-export const sciaticaJvcFaqs = {
-  label: "Common Questions",
-  title: "What patients ask about Ayurvedic sciatica care at our JVC clinic.",
+export const sciaticaFaqs = {
+  bgColor: "bg-[#F9F6F1]",
+  label: "SCIATICA QUESTIONS",
   sidebarLinks: [
-    { text: "Dr. Zainab's Profile", href: "/doctors/dr-zainab-ayurveda" },
-    { text: "Ayurveda clinic JVC", href: "/ayurveda-clinic-jvc/" },
-    { text: "Physiotherapy at JVC", href: "/physiotherapy-jvc/" }
+    { text: "Physiotherapy for sciatica", href: "/conditions/sciatica-physiotherapy-dubai/" },
+    { text: "Kati Vasti", href: "/treatments/kativasti-dubai/" },
+    { text: "Ayurveda for back pain", href: "/conditions/back-pain-ayurveda-dubai/" }
   ],
-  buttonText: "Ask the Clinical Team",
-  buttonHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20ask%20about%20Ayurvedic%20sciatica%20treatment%20at%20your%20JVC%20clinic.",
-  isButtonExternal: true,
+  title: "Ayurvedic treatment for sciatica: your questions answered.",
+  description: "Answers reviewed by Dr. Zainab Sheikh. For other therapies, see our <a href=\"/ayurveda-dubai/\">guide to Ayurvedic treatment in Dubai</a>.",
+  buttonText: "Ask the team on WhatsApp",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Ayurvedic%20treatment%20for%20sciatica.",
   faqs: [
-    {
-      "question": "Can Ayurveda help with sciatica?",
-      "answer": "Yes — sciatica is classically termed Gridhrasi in Ayurveda, extensively described in Charaka Samhita and Sushruta Samhita with dedicated traditional treatment protocols. Comprehensive Ayurvedic approach includes classical Basti (medicated enema) therapy as most powerful intervention, Kativasti with lower body extension, Panchakarma programmes with Basti emphasis, herbal medicines particularly Rasnadi Kwatham for Gridhrasi, and lifestyle counselling. Effective for acute and chronic sciatica."
-    },
-    {
-      "question": "What is Gridhrasi in Ayurveda?",
-      "answer": "Gridhrasi is the classical Ayurvedic term for sciatica, extensively described in classical Ayurvedic texts. Name refers to vulture-like gait patients develop from radiating leg pain. Classical texts identify two main types: Vataja Gridhrasi (pure Vata with sharp pain) and Vata-Kaphaja Gridhrasi (mixed presentation with heaviness, stiffness, and dull pain). Constitutional Ayurvedic assessment identifies specific Gridhrasi type guiding treatment selection."
-    },
-    {
-      "question": "What is Basti and why is it classically most emphasised for sciatica?",
-      "answer": "Basti is traditional Ayurvedic medicated enema therapy — classically most emphasised therapeutic intervention for Gridhrasi/sciatica. Provides systemic Vata pacification affecting nervous system function through absorption pathway. Multiple variations: Anuvasana Vasti (oil-based), Kashaya Vasti (decoction-based), Yoga Basti (8-day protocol), Kala Basti (16-day protocol), Karma Basti (30-day protocol for chronic Gridhrasi). Requires trained practitioner delivery."
-    },
-    {
-      "question": "What are sciatica red flag symptoms requiring immediate medical attention?",
-      "answer": "Sciatica red flag symptoms requiring immediate orthopaedic or neurosurgical evaluation: loss of bladder or bowel control (potential cauda equina syndrome — surgical emergency requiring intervention within hours), saddle anaesthesia, progressive neurological weakness in legs particularly foot drop, bilateral sciatica with concerning features, unexplained weight loss with sciatica, fever with sciatica, history of cancer with new sciatica. Consultation includes red flag screening."
-    },
-    {
-      "question": "How is Ayurvedic sciatica care different from physiotherapy?",
-      "answer": "Complementary rather than competing approaches. Ayurvedic approach: constitutional assessment, classical Gridhrasi treatment protocols particularly Basti-centred, herbal medicines, comprehensive lifestyle patterns. Physiotherapy approach: movement rehabilitation, nerve gliding techniques, manual therapy, targeted exercise protocols. Many patients benefit from combined approach. Our JVC clinic houses both approaches enabling integrated care."
-    },
-    {
-      "question": "Can Ayurveda replace gabapentin or pregabalin for sciatica?",
-      "answer": "Depends on situation and clinical judgement. Many patients successfully reduce gabapentinoid dependence with sustained Ayurvedic approach and appropriate medical coordination. Severe pain may require sustained coordinated approach. Discussion with prescribing doctor essential before medication changes — abrupt gabapentinoid cessation not recommended given withdrawal considerations."
-    },
-    {
-      "question": "What Ayurvedic herbs help with sciatica?",
-      "answer": "Common Ayurvedic herbs for sciatica include Rasnadi Kwatham (specifically emphasised for Gridhrasi), Rasnasaptakam Kwatham, Guggul preparations particularly Trayodashang Guggulu for radicular presentations, Yogaraj Guggulu and Mahayogaraj Guggulu, Ashtavargam Kwatham, Balaristam, Dhanwantharam capsules. Prescribed by qualified Ayurvedic doctors matched to individual presentation and Gridhrasi type."
-    },
-    {
-      "question": "Can Ayurveda help avoid disc surgery?",
-      "answer": "Depends on presentation severity and clinical judgement. Many patients with disc-related sciatica benefit from sustained Ayurvedic approach avoiding need for surgery. Severe disc pathology with progressive neurological deficit or cauda equina features requires surgical assessment — Ayurvedic approach not appropriate as primary treatment for surgical emergencies. Comprehensive consultation with imaging review identifies appropriate approach."
-    },
-    {
-      "question": "Can Ayurveda help avoid spinal injections?",
-      "answer": "Many patients considering spinal injections benefit from sustained Ayurvedic approach as less invasive alternative. Injections provide temporary relief through local corticosteroid effect. Ayurvedic approach addresses root patterns through classical Gridhrasi treatment. Some patients benefit from combined approach with appropriate medical coordination."
-    },
-    {
-      "question": "What is Panchakarma with Basti emphasis for sciatica?",
-      "answer": "Panchakarma programme with particular emphasis on Basti therapy for Gridhrasi. Classical Yoga Basti (8-day protocol) or Kala Basti (16-day protocol) provide structured comprehensive Basti-centred programme integrated with other Panchakarma components. Provides comprehensive constitutional reset supporting sustained sciatica management. Duration typically 8-21 days."
-    },
-    {
-      "question": "Where in Dubai is your clinic?",
-      "answer": "DHA-licensed clinic in Jumeirah Village Circle (JVC), Dubai — walking distance from Circle Mall, three minutes from FIVE Jumeirah Village Hotel, five minutes from JSS Private School. Accessible from Marina, Downtown, Business Bay, Palm Jumeirah, Al Barsha, Dubai Hills, JLT, Mirdif."
-    },
-    {
-      "question": "Do you have female Ayurvedic doctor for sciatica?",
-      "answer": "Yes — Dr. Zainab is female DHA-licensed BAMS-qualified Ayurvedic doctor with substantial musculoskeletal expertise including specific sciatica/Gridhrasi capability. Female practitioner particularly important for pregnancy-related sciatica, post-pregnancy sciatica, and cultural preferences."
-    },
-    {
-      "question": "Can you treat sciatica during pregnancy?",
-      "answer": "Yes — pregnancy-safe Ayurvedic sciatica support available. Important: Basti (medicated enema) is specifically contraindicated in pregnancy — modified approach without Basti for pregnant patients. Female practitioner Dr. Zainab provides pregnancy-appropriate care. Coordinated with obstetric care throughout."
-    },
-    {
-      "question": "What about post-surgical continuing sciatica?",
-      "answer": "Post-surgical supportive Ayurvedic care available for patients with continuing sciatica after spine surgery. Always coordinated with treating surgeon and appropriate timing after surgical clearance. Not replacement for surgical follow-up care."
-    },
-    {
-      "question": "How long does Ayurvedic sciatica treatment take?",
-      "answer": "Timeline varies by presentation. Acute sciatica typically improves within 2-4 weeks of active treatment including Basti protocol. Chronic sciatica requires sustained approach — meaningful improvement typically 6-12 weeks with committed Basti-centred programme. Long-term chronic conditions benefit from sustained partnership with periodic maintenance."
-    },
-    {
-      "question": "Can I have imaging (MRI) reviewed as part of consultation?",
-      "answer": "Yes — please bring any imaging reports and images to consultation. Dr. Zainab will review alongside clinical assessment. Coordination with treating specialists as appropriate. Imaging findings guide treatment planning and identify presentations requiring specialist coordination."
-    },
-    {
-      "question": "Which languages do you speak?",
-      "answer": "Arabic, English, Hindi, Malayalam (particularly relevant for Kerala Ayurvedic tradition), Urdu across our team."
-    },
-    {
-      "question": "Is Ayurvedic sciatica treatment covered by insurance?",
-      "answer": "May be covered with medical justification particularly for chronic diagnosed conditions (lumbar disc conditions with radiculopathy, chronic sciatica, coordinated care with modern medical management). Direct billing with seven major insurers for covered elements."
-    },
-    {
-      "question": "Can I combine Ayurvedic and physiotherapy sciatica treatment?",
-      "answer": "Yes — many patients benefit from combined approach. Our JVC clinic houses both approaches enabling coordinated care. Combined programme available with treatment planning between Ayurvedic and physiotherapy teams."
-    },
-    {
-      "question": "How do I book sciatica consultation?",
-      "answer": "Three ways: WhatsApp specifying sciatica consultation ideally with Dr. Zainab; call 9AM-9PM seven days a week; book online. Please bring: description of sciatica history and radiating pain distribution, any imaging reports and images, current medications including gabapentinoids, previous treatments including any injection history, insurance card if applicable."
-    }
+    { question: "Can Ayurveda treat sciatica?",
+      answer: "Ayurveda can help relieve sciatica pain and stiffness for many people, usually with Kati Vasti, Basti, herbal bundles (Kizhi), oil massage with steam and prescribed herbs. In Ayurveda, sciatica is called Gridhrasi. Results vary, and some causes need a surgeon first." },
+    { question: "What is Gridhrasi?",
+      answer: "Gridhrasi is the classical Ayurvedic name for sciatica. It means 'vulture-like', describing the stiff, careful walk of someone with pain running from the lower back down the leg." },
+    { question: "Where can I get Ayurvedic treatment for sciatica in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall, with Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor. Physiotherapy is available at the same clinic. Open daily 9am to 10pm, close to JVT, Al Barsha South and Arjan." },
+    { question: "Which Ayurvedic therapies are used for sciatica?",
+      answer: "Kati Vasti (warm oil on the lower back), Basti (medicated enema, often Matra or Kala Basti), Elakizhi (herbal bundles), Abhyanga with steam, Agnikarma (controlled therapeutic heat) and prescribed herbs. Some people need Panchakarma. The doctor chooses what suits your cause." },
+    { question: "When should I see a doctor urgently for sciatica?",
+      answer: "Go to hospital straight away if you lose bladder or bowel control, have numbness around the groin or buttocks, or weakness in both legs. See a doctor soon if one leg is getting weaker, or pain follows a fall or comes with fever or weight loss." },
+    { question: "Can Ayurveda help me avoid back surgery?",
+      answer: "Many people with sciatica improve without surgery, whatever treatment they choose. Ayurveda and physiotherapy may help you recover without an operation, but if there is severe nerve compression or worsening weakness, surgery may be the right choice, and we will tell you." },
+    { question: "Can I combine Ayurveda with physiotherapy for sciatica?",
+      answer: "Yes. At our JVC clinic, Dr. Zainab and our physiotherapist can plan Ayurvedic therapies and physiotherapy together as one plan." },
+    { question: "Do you do MRI scans?",
+      answer: "No. Vedara Care does not do imaging or surgery. Bring any MRI or X-ray reports you have; if you need imaging or a surgeon's opinion, Dr. Zainab will refer you." },
+    { question: "How long does Ayurvedic sciatica treatment take?",
+      answer: "It depends on the cause and how long you have had it. Many plans run for a few weeks; the doctor sets yours at consultation and reviews it as you go." },
+    { question: "Can I have Ayurvedic treatment after spine surgery?",
+      answer: "Only once your surgeon agrees. Gentle therapies and physiotherapy can then support recovery." },
+    { question: "Is sciatica in pregnancy or after childbirth treated?",
+      answer: "After childbirth, yes, as part of postnatal care. During pregnancy, only gentle, doctor-approved therapies are used." },
+    { question: "Will a male or female therapist treat me?",
+      answer: "A same-gender therapist: men are treated by a male therapist and women by a female therapist." },
+    { question: "How much does Ayurvedic treatment for sciatica cost in Dubai?",
+      answer: "Across Dubai, an Ayurvedic consultation commonly costs around AED 200 to 500 and a therapy session around AED 250 to 700. The total depends on your plan. Vedara Care shares exact prices on WhatsApp." },
+    { question: "How do I book?",
+      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number. Bring any MRI or X-ray reports to your first 45 to 60-minute consultation." }
   ]
 };
 
-export const sciaticaJvcLocation = {
-  title: "Where sciatica care happens at Vedara Care JVC.",
-  address: "Jumeirah Village Circle (JVC), Dubai, UAE",
+export const sciaticaLocation = {
+  bgColor: "bg-[#F5F1E8]",
+  label: "VISIT US",
+  title: "Sciatica care in JVC, near Circle Mall.",
+  address: "Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai",
   phone: "+971 55 573 6312",
+  whatsapp: "971555736312",
+  whatsappMessage: "Hello Vedara Care, I would like to ask about Ayurvedic treatment for sciatica at your JVC clinic.",
   email: "booking@vedaracare.ae",
-  hours: "9AM – 10PM , 7 days a week",
-  landmarks: ["Walking distance from Circle Mall", "3 min from FIVE Jumeirah Village Hotel"],
-  buttonText: "Book Consultation",
-  buttonSecondaryText: "WhatsApp Us",
-  buttonSecondaryHref: "https://wa.me/971555736312",
-  buttonHref: "/book",
-  image: "/images/vedara-jvc-clinic-sciatica.webp",
-  alt: "Vedara Care JVC clinic Ayurvedic sciatica Gridhrasi care Dubai",
-  mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus"
+  hours: "Monday - Sunday - 9:00AM to 10:00PM",
+  landmarks: ["Near Circle Mall", "Close to JSS Private School", "Free and paid parking available"],
+  description: "Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City.",
+  distances: [],
+  buttonText: "Book a sciatica consultation",
+  buttonHref: "/book/"
 };
 
-export const sciaticaJvcCTA = {
-  label: "Ready for Classical Ayurvedic Gridhrasi Care?",
-  title: "Comprehensive sciatica consultation is the starting point.",
-  description: "Whether you're experiencing acute radiating leg pain, chronic sciatica lasting months or years, recurrent episodic sciatica, piriformis-related sciatica from Dubai's sedentary work environment, disc-related sciatica requiring specialist coordination, post-injury or post-surgical continuing sciatica, pregnancy-related sciatica requiring a pregnancy-safe approach, or chronic pain sciatica on sustained gabapentinoid medications — comprehensive consultation with Dr. Zainab identifies your specific pattern and designs a personalised approach. DHA-licensed authentic Ayurvedic care with classical Basti therapy for Gridhrasi, Kativasti with lower body extension, coordinated with modern medical care when appropriate. Same-week appointments typically available.",
-  button1Text: "Book Sciatica Consultation",
-  button1Href: "/book",
-  button2Text: "WhatsApp Us",
-  button2Href: "https://wa.me/971555736312",
-  bullets: [
-    "Initial consultation from AED [X]",
-    "90-minute comprehensive assessment  with neurological examination  ",
-    "Female DHA-Licensed BAMS Ayurvedic Doctor",
-    "Flagship Basti therapy protocols",
-    "Classical Basti therapy for Gridhrasi ",
-    "Multi-language including Malayalam for Kerala tradition · Coordinated with modern medical care · Walking distance from Circle Mall, JVC"
-  ]
+export const sciaticaFinalCTA = {
+  bgColor: "bg-[#FAF8F5]",
+  label: "READY?",
+  title: "Start with a consultation and a warning-sign check.",
+  description: "In 45 to 60 minutes, Dr. Zainab will check what is causing your sciatica, rule out warning signs and plan Ayurveda — with physiotherapy if it helps.",
+  button1Text: "Book a sciatica consultation",
+  button1Href: "/book/",
+  button2Text: "Chat on WhatsApp",
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20sciatica%20treatment.",
+  bullets: ["Prices shared on WhatsApp", "Ayurveda + physiotherapy", "Free and paid parking", "Near Circle Mall, JVC"]
 };
 
-export const sciaticaJvcRelatedPages = {
-  bgColor: "bg-[#EAE3D5]",
-  label: "Explore Further",
-  title: "Related pages for musculoskeletal care.",
-  linkText: "Browse all conditions",
-  linkHref: "/conditions/",
+export const sciaticaRelatedPages = {
+  label: "EXPLORE FURTHER",
+  title: "Related pages.",
+  linkText: "See all Ayurvedic treatments",
+  linkHref: "/ayurveda-dubai/",
   pages: [
-    {
-      title: "Dr. Zainab — Ayurvedic Doctor",
-      description: "Female DHA-licensed BAMS practitioner with substantial musculoskeletal expertise including specific Gridhrasi capability.",
-      href: "/doctors/dr-zainab-ayurveda/"
-    },
-    {
-      title: "Back Pain Ayurvedic Care JVC",
-      description: "Related condition — musculoskeletal continuity. Back pain and sciatica commonly intersect with integrated care approach.",
-      href: "/conditions/back-pain-ayurveda-jvc/"
-    },
-    {
-      title: "Sciatica Physiotherapy Care JVC",
-      description: "Complementary physiotherapy approach available at same JVC clinic for integrated care including nerve gliding techniques.",
-      href: "/conditions/sciatica-physiotherapy-dubai/"
-    },
-    {
-      title: "Panchakarma Detoxification Dubai",
-      description: "Detailed information on Panchakarma programmes with Basti emphasis for chronic Gridhrasi constitutional reset.",
-      href: "/treatments/panchakarma-dubai/"
-    }
-  ],
-  columns: 3
-};
-
-export const sciaticaJvcRelatedArticles = {
-  label: "FURTHER READING",
-  title: "Related sciatica and musculoskeletal wellness content.",
-  articles: [
-    {
-      title: "Understanding Basti therapy for Sciatica",
-      description: "Complete guide to Basti — what it is and how it targets Gridhrasi.",
-      href: "",
-      image: "/images/basti-therapy-sciatica.webp"
-    }
-  ]
-};
-
-export const sciaticaJvcTeam = {
-  eyebrow: "THE TEAM",
-  title: "Ayurvedic doctors for sciatica care at our JVC clinic serving Dubai.",
-  intro: "DHA-licensed BAMS-qualified Ayurvedic doctors with substantial musculoskeletal expertise. Female practitioner available. Multi-language including Arabic, English, Hindi, Malayalam, Urdu.",
-  teamMembers: [
-    {
-      tags: "DHA-LICENSED · BAMS-QUALIFIED",
-      name: "Dr. Zainab",
-      role: "Lead Musculoskeletal Ayurvedic Doctor",
-      description: "Female practitioner with substantial musculoskeletal expertise including specific sciatica/Gridhrasi capability. Classical Gridhrasi treatment protocols, personalised programme design, sustained partnership approach. Basti expertise for classical Gridhrasi treatment. Multi-language: Arabic, English, Hindi, Malayalam, Urdu.<br><br><a href=\"/doctors/dr-zainab-ayurveda/\" class=\"hover:underline\" style=\"color: #C9A55A; text-decoration: underline;\">View Dr. Zainab's full profile →</a>",
-      image: "/images/dr-zainab-ayurveda-jvc.webp",
-      alt: "Dr Zainab Ayurvedic sciatica team Vedara Care JVC"
-    },
-    {
-      tags: "UNDER DOCTOR SUPERVISION",
-      name: "Ayurvedic Therapy Team",
-      role: "Trained Therapists",
-      description: "Trained female and male therapists delivering Kativasti, Abhyanga, Elakizhi, Pizhichil under doctor supervision. Note: Basti requires practitioner-level delivery — cannot be delegated to therapists. Cultural sensitivity and multi-language capability.",
-      image: "/images/ayurvedic-therapy-team.webp",
-      alt: "Ayurvedic Therapy Team"
-    },
-    {
-      tags: "SAME JVC CLINIC",
-      name: "Physiotherapy Team",
-      role: "Integrated Physiotherapy",
-      description: "Our JVC clinic houses physiotherapy alongside Ayurvedic sciatica care. Many patients benefit from combined approach including nerve gliding techniques and targeted exercise protocols. Combined programme available with coordinated treatment planning between teams.",
-      image: "/images/physiotherapy-team.webp",
-      alt: "Physiotherapy Team"
-    }
+    { title: "Physiotherapy for sciatica", description: "Movement and strength for sciatica.", href: "/conditions/sciatica-physiotherapy-dubai/" },
+    { title: "Kati Vasti", description: "Warm oil therapy for the lower back.", href: "/treatments/kativasti-dubai/" },
+    { title: "Basti", description: "The classical Ayurvedic treatment for Vata disorders.", href: "/treatments/basti-jvc/" },
+    { title: "Ayurveda for back pain", description: "When the pain stays in the back.", href: "/conditions/back-pain-ayurveda-dubai/" }
   ]
 };

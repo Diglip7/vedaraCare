@@ -1,4 +1,4 @@
-﻿export const rasayanaJvcHero = {
+export const rasayanaJvcHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
     { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
@@ -70,7 +70,7 @@ export const rasayanaJvcTypes = {
     { number: "01", title: "Healthy ageing and low energy", description: "Support for energy and vitality as you get older, usually with Chyawanprash, diet and routine.", typicalSigns: ["Chyawanprash · Diet · Daily routine"] },
     { number: "02", title: "Memory, focus and mental fatigue", description: "Medhya Rasayana herbs such as Brahmi and Shankhpushpi, chosen for you by the doctor.", typicalSigns: ["Brahmi · Shankhpushpi · Mandukaparni"] },
     { number: "03", title: "Recovery after illness", description: "A gentle plan to rebuild strength after a long illness or treatment, alongside your own doctor.", typicalSigns: ["Gentle start · Doctor review · Diet"] },
-    { number: "04", title: "Burnout and long-term tiredness", description: "Rest, routine and herbs such as Ashwagandha, often with Abhyanga or <a href='/treatments/shirodhara-dubai/'>Shirodhara</a>.", typicalSigns: ["Ashwagandha · Routine · Therapies"] },
+    { number: "04", title: "Burnout and long-term tiredness", description: "Rest, routine and herbs such as Ashwagandha, often with Abhyanga or <a href='/treatments/shirodhara-dubai/'>Shirodhara</a>; see <a href='/conditions/stress-anxiety-ayurveda-dubai/'>Ayurveda for stress and anxiety</a>.", typicalSigns: ["Ashwagandha · Routine · Therapies"] },
     { number: "05", title: "Frequent colds and low resilience", description: "A seasonal plan with Chyawanprash or Guduchi, adjusted for Dubai's climate.", typicalSigns: ["Chyawanprash · Guduchi · Seasonal routine"] },
     { number: "06", title: "After Panchakarma", description: "The classical next step after <a href='/treatments/panchakarma-dubai/'>Panchakarma</a>, to rebuild and maintain the benefit.", typicalSigns: ["Panchakarma first · Rasayana after"] },
     { number: "07", title: "Perimenopause and menopause", description: "Support for energy and sleep through the transition, often with Shatavari, alongside your gynaecologist.", typicalSigns: ["Shatavari · Sleep · Routine"] },
@@ -92,7 +92,7 @@ export const rasayanaJvcApproaches = {
     },
     {
       subtitle: "Comprehensive Rasayana Consultation",
-      description: "First consultation is 45 to 60 minutes, covering rejuvenation goals discussion, <a href="/treatments/nadi-pareeksha-jvc/" class="text-[#C9A961] hover:underline">Nadi Pareeksha</a> (Ayurvedic pulse examination), Prakriti and Vikriti assessment, comprehensive medication and comorbidity review, digestive vitality (Agni) assessment, sleep quality and cognitive function assessment, discussion of Panchakarma preparation appropriateness. Foundation for personalised Rasayana programme design."
+      description: "First consultation is 45 to 60 minutes, covering rejuvenation goals discussion, <a href='/treatments/nadi-pareeksha-jvc/' class='text-[#C9A961] hover:underline'>Nadi Pareeksha</a> (Ayurvedic pulse examination), Prakriti and Vikriti assessment, comprehensive medication and comorbidity review, digestive vitality (Agni) assessment, sleep quality and cognitive function assessment, discussion of Panchakarma preparation appropriateness. Foundation for personalised Rasayana programme design."
     },
     {
       subtitle: "Vatatapika Rasayana Programme Design",
@@ -211,7 +211,7 @@ export const rasayanaJvcSafety = {
     useWarningIcon: true,
     items: [
       "Have diabetes (Chyawanprash contains sugar; sugar-free options exist)",
-      "Take thyroid medicine, sedatives or sleeping tablets (Ashwagandha can interact)",
+      "Take <a href='/conditions/thyroid-ayurveda-dubai/' class='hover:underline'>thyroid medicine</a>, sedatives or sleeping tablets (Ashwagandha can interact)",
       "Take medicines that suppress the immune system, or have an autoimmune condition",
       "Have liver disease (rare liver problems have been reported with some herbs, including Ashwagandha and Guduchi)",
       "Are pregnant, trying to conceive or breastfeeding",
