@@ -1,125 +1,165 @@
 export const ayurvedicBackPainHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Conditions", href: "/conditions" },
-    { label: "Ayurvedic Treatment for Back Pain In Dubai", active: true }
+    { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
+    { label: "Back Pain (Ayurveda)", active: true }
   ],
-  label: "AYURVEDIC TREATMENT FOR BACK PAIN · DHA-LICENSED CLINIC IN JVC",
-  title: "You have been managing back pain for too long. The question is no longer how to live with it.",
-  description: "Chronic back pain in Dubai responds well to authentic Ayurvedic treatment when prescribed correctly — Kativasti for lumbar conditions, Abhyanga and Panchakarma for systemic involvement, integrated with physiotherapy where indicated. This page explains which Ayurvedic protocols fit which types of back pain, written by the DHA-licensed Ayurvedic team at Vedara Care Polyclinic, Jumeirah Village Circle.<br/><br/>Looking for physiotherapy instead? See <a href='/conditions/back-pain-physiotherapy-jvc/'>back pain physiotherapy in JVC</a>.",
-  primaryCTA: "Book a Back Pain Consultation",
-  primaryCTAHref: "/book",
+  label: "AYURVEDIC BACK PAIN TREATMENT · JVC, DUBAI · DHA FACILITY LICENCE 2509266",
+  title: "Ayurvedic back pain treatment in JVC, Dubai — with physiotherapy at the same clinic.",
+  description: "Kati Vasti, Basti, herbal bundles, Agnikarma and herbs for chronic back pain, disc bulge and spondylosis, planned by Dr. Zainab Sheikh (BAMS, MD Ayurveda) and combined with physiotherapy when that helps more. Near Circle Mall, JVC.",
+  primaryCTA: "Book a back pain consultation",
+  primaryCTAHref: "/book/",
   secondaryCTA: "Chat on WhatsApp",
-  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20ayurvedic%20back%20pain%20treatment%20at%20your%20JVC%20clinic.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Ayurvedic%20back%20pain%20treatment.",
   trustSignals: [
-    "DHA-Licensed BAMS Doctors",
-    "Integrated Ayurveda + Physiotherapy",
-    "DHA-Licensed Practitioners",
-    "Consultations from AED 350"
+    "DHA Facility Licence 2509266",
+    "BAMS, MD (Ayurveda) doctor",
+    "Ayurveda + physiotherapy, one clinic",
+    "Near Circle Mall, JVC"
   ],
   floatingCard: {
     title: "ASSESSMENT FIRST",
-    subtitle: "We do not prescribe back pain treatment without examination. The wrong protocol for the wrong condition is worse than no protocol at all."
+    subtitle: "We do not prescribe back pain treatment without examination. The plan follows your specific cause."
   },
   image: "/images/back-pain-ayurveda-dubai-hero.webp",
-  alt: "Ayurvedic doctor examining patient's lower back during back pain consultation at Vedara Care JVC Dubai"
+  alt: "Ayurvedic doctor examining patient's lower back during consultation at Vedara Care JVC Dubai"
 };
 
 export const ayurvedicBackPainIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
-  title: "Ayurvedic back pain treatment in Dubai, in one paragraph.",
-  blockquote: "Ayurvedic treatment for back pain in Dubai typically combines Kativasti (warm medicated oil reservoir over the lumbar spine), Abhyanga (full-body warm oil massage), specific internal Ayurvedic medicines selected for your dosha and condition, dietary regulation, and where appropriate, classical Panchakarma protocols. At Vedara Care Polyclinic in Jumeirah Village Circle, our BAMS-qualified Ayurvedic physicians work alongside DPT-qualified physiotherapists for integrated back pain care. Programmes typically run 4 to 8 weeks. Initial consultations start from AED 350 and include physical examination, imaging review where relevant, and a written treatment plan.",
-  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed May 2026"
+  title: "Ayurveda for back pain, in one paragraph.",
+  blockquote: "Ayurvedic treatment for back pain usually combines Kati Vasti (warm medicated oil held over the lower spine), Elakizhi (warm herbal bundles), Abhyanga with steam, Basti for long-standing cases, Agnikarma for localised pain and prescribed herbs, chosen after finding the cause. In Ayurveda, low back pain is called Kati Shoola, a Vata disorder; a randomised trial of 64 people found Ayurvedic external treatment effective for short-term pain relief, though longer studies are needed, and it often works best alongside physiotherapy. Loss of bladder or bowel control, groin numbness or weakness in both legs needs a hospital straight away. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), near Circle Mall, care starts with a 45 to 60 minute consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda, DHA-licensed), and Ayurveda and physiotherapy can be planned together at the same clinic. The clinic is open daily 9am to 10pm and is close to JVT, Al Barsha South and Arjan.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, BAMS, MD (Ayurveda), DHA licence 20918133. Reviewed November 2026."
 };
 
 export const ayurvedicBackPainAssessment = {
   bgColor: "bg-[#FAF6EF]",
   label: "ASSESSMENT MATTERS",
-  title: "\"Back pain\" describes ten different conditions. Treatment for one is wrong for another.",
-  subtitle: "Real Ayurvedic back pain care begins with identifying which pattern you have. This is also where most treatment plans go wrong — generic protocols applied without diagnostic differentiation.",
+  title: "Back pain has different causes. The plan follows yours.",
+  subtitle: "Careful diagnostic differentiation decides which therapies and exercises will help most.",
   items: [
     {
       title: "Mechanical Lower Back Pain",
-      description: "The most common pattern — pain in the lumbar region without radiation down the leg, often worse with prolonged sitting or standing, partial relief with movement, no neurological signs. Usually muscular, ligamentous, or facet-joint in origin. Responds particularly well to Ayurvedic treatment.",
-      approach: "Kativasti, Abhyanga, internal medicines",
+      description: "Pain in the lumbar spine from strain, poor posture or prolonged sitting, without radiating nerve pain.",
+      approach: "Kati Vasti, Elakizhi, Abhyanga and posture guidance",
       link: "/treatments/kativasti-dubai/",
-      linkText: "Read more about Kativasti"
+      linkText: "Read about Kati Vasti →"
     },
     {
       title: "Sciatica (Lumbar Radiculopathy)",
-      description: "Pain radiating from the lower back down one or both legs, sometimes with numbness, tingling, or weakness. Typically caused by nerve root compression. Ayurvedic treatment is most effective in subacute and chronic phases, less appropriate during severe acute attacks.",
-      approach: "Sahacharadi-based Kativasti, Basti therapy, internal medicines",
+      description: "Pain radiating from the lower back down through the hip, buttock and leg along the sciatic nerve path.",
+      approach: "Kati Vasti, Basti, herbal therapies and physiotherapy",
+      link: "/conditions/sciatica-ayurveda-jvc/",
+      linkText: "Ayurveda for sciatica →"
+    },
+    {
+      title: "Disc Bulge (Non-Surgical)",
+      description: "Pain and stiffness from a bulging lumbar disc where surgery is not indicated.",
+      approach: "Kati Vasti, gentle Kizhi, internal herbs and physiotherapy",
       link: "/treatments/kativasti-dubai/",
-      linkText: "Read more about Kativasti for sciatica"
+      linkText: "Read about Kati Vasti →"
     },
     {
-      title: "Lumbar Disc Bulge or Herniation",
-      description: "Pain from disc displacement causing nerve compression. When neurological signs are absent or mild, Ayurvedic treatment combined with physiotherapy often produces meaningful long-term outcomes. Severe cases with neurological deficit require conventional workup first.",
-      approach: "Combined Kativasti, Panchakarma, integrated physiotherapy",
-      link: "/treatments/panchakarma-dubai/",
-      linkText: "Read more about Panchakarma for chronic conditions"
+      title: "Lumbar Spondylosis",
+      description: "Age-related wear and tear in the lumbar vertebrae and discs causing stiffness and chronic ache.",
+      approach: "Nourishing warm oil therapies, Basti and gentle mobility care",
+      link: "/treatments/kativasti-dubai/",
+      linkText: "Read about Kati Vasti →"
     },
     {
-      title: "Cervical and Upper Back Pain",
-      description: "Pain affecting the neck and upper back, often related to posture, screen time, or sedentary work patterns common in Dubai. Different from lumbar pain in both Ayurvedic and modern diagnosis — needs Greeva Vasti (cervical reservoir therapy) rather than Kativasti.",
-      approach: "Greeva Vasti, Nasya, internal medicines"
+      title: "Sacroiliac Joint Pain",
+      description: "Pain over the sacroiliac joint and buttocks, often worse with standing, stairs or turning.",
+      approach: "Localised oil pooling, Kizhi and pelvic stabilisation physiotherapy",
+      link: "/treatments/kativasti-dubai/",
+      linkText: "Read about Kati Vasti →"
     },
     {
-      title: "<a href=\"/conditions/arthritis-ayurveda-dubai/\">Spondylosis and Spinal Arthritis</a>",
-      description: "Age-related wear-and-tear changes in the spine and <a href='/conditions/arthritis-ayurveda-dubai/' class='hover:underline'>spinal arthritis</a>, often with chronic stiffness and intermittent acute episodes. Ayurvedic treatment can meaningfully slow degeneration progression and manage symptoms — particularly valuable for patients in their 40s and beyond.",
-      approach: "Kativasti or Greeva Vasti based on level, Njavarakizhi, internal medicines",
-      link: "/treatments/njavarakizhi-dubai/",
-      linkText: "Read more about Njavarakizhi"
+      title: "Muscle Spasm and Postural Strain",
+      description: "Acute or chronic muscular tension in the lumbar extensors from heavy lifting, stress or sedentary desk work.",
+      approach: "Abhyanga with steam, Elakizhi and ergonomic guidance",
+      link: "/treatments/abhyanga-dubai/",
+      linkText: "Read about Abhyanga →"
     },
     {
       title: "Postpartum Back Pain",
-      description: "Back pain following childbirth — particularly common after caesarean delivery, prolonged labour, or epidural analgesia. Classical Sutika Paricharya (45-day postnatal Ayurvedic care) specifically addresses postpartum musculoskeletal recovery.",
-      approach: "Modified Kativasti, postnatal Abhyanga, classical Sutika protocol"
+      description: "Lower back ache and pelvic girdle discomfort following pregnancy and childbirth.",
+      approach: "Restorative warm oils, gentle Kizhi, core recovery and routine",
+      link: "/conditions/postnatal-ayurveda-dubai/",
+      linkText: "Postnatal Ayurveda care →"
+    },
+    {
+      title: "Back Pain in Older Adults",
+      description: "Degenerative lower spine changes, facet arthrosis and stiffness in seniors, adjusted for bone health.",
+      approach: "Gentle Vata-pacifying therapies, warm oils and supervised physiotherapy",
+      link: "/treatments/kativasti-dubai/",
+      linkText: "Read about Kati Vasti →"
     }
   ],
-  footer: "Not sure which pattern matches your back pain? Your consultation includes physical examination, history-taking, and imaging review where relevant — to identify exactly which pattern you have before any treatment is prescribed."
-};
-
-export const ayurvedicBackPainVsSpa = {
-  label: "AYURVEDA VS SPA",
-  title: "Most \"Ayurvedic back pain treatment\" in Dubai is just massage.",
-  subtitle: "The difference is not the oils. It is the clinical depth of the protocol.",
-  spaLabel: "SPA POSITIONING",
-  spaTitle: "\"Generic massage with warm oil\"",
-  spaItems: [
-    "No medical assessment or physical examination",
-    "Generic oils used without consideration of condition",
-    "Single sessions without a structured treatment plan",
-    "Performed by massage therapists, not medical staff",
-    "Focuses on temporary relaxation of surface muscles"
-  ],
-  medicalLabel: "MEDICAL POSITIONING",
-  medicalTitle: "\"Prescribed, integrated, clinical care\"",
-  medicalItems: [
-    "BAMS-qualified doctor assessment before any treatment",
-    "Condition-specific medicated oils (Ksheerabala, Sahacharadi)",
-    "4-8 week protocols matched to clinical objectives",
-    "DHA-licensed clinicians sharing notes with physiotherapy",
-    "Addresses the underlying Vata imbalance and tissue inflammation"
-  ],
-  quote: "\"If a clinic offers back pain treatment without a medical consultation, they are offering relief — not a cure. For chronic conditions, the protocol must be as deep as the problem.\""
+  footer: ""
 };
 
 export const ayurvedicBackPainMechanism = {
   bgColor: "bg-white",
   label: "THE AYURVEDIC PERSPECTIVE",
-  title: "Back pain in classical Ayurveda is rarely just a back problem.",
-  subtitle: "Why authentic Ayurvedic treatment often produces lasting outcomes where symptomatic management has plateaued.",
+  title: "Back pain through an Ayurvedic lens.",
+  subtitle: "Why addressing the whole body produces lasting relief where symptomatic treatment plateaus.",
   content: [
-    "In classical Ayurveda, most chronic back pain is understood as a Vata-dominant disorder — Vata being the dosha governing movement, the nervous system, and the joints and bones. Specifically, chronic back pain is classified under Kati Shoola (lower back) and Greeva Shoola (cervical), with subtypes corresponding to the conditions described above.",
-    "The Ayurvedic approach addresses back pain through four parallel mechanisms. First, local therapies like Kativasti deliver sustained warmth and medicated oils directly to the affected region — improving tissue quality, reducing inflammation, and addressing the local Vata imbalance. Second, systemic therapies like Abhyanga and Panchakarma address the broader doshic patterns that often underlie chronic pain — including chronic stress, poor sleep, sedentary work patterns, and dietary factors. Third, internal Ayurvedic medicines support tissue repair and dosha rebalancing from within. Fourth, lifestyle and dietary correction addresses the daily factors that perpetuate the pain.",
-    "This four-pillar approach is what distinguishes authentic Ayurvedic back pain treatment from the spa-style 'Ayurvedic massage for back pain' common in Dubai. The therapies are similar; the clinical depth is not."
+    "Most long-term back pain comes from strain, posture, weak core muscles, worn joints or a bulging disc. A careful assessment decides which therapies fit.",
+    "Ayurveda calls low back pain Kati Shoola and links it to aggravated Vata. Warm oil held on the area, herbal bundles, Basti and nourishing herbs are the classical ways to calm it; posture, movement and routine keep it calm.",
+    "What does the research say? A randomised trial of 64 people with chronic low back pain found Ayurvedic massage and external treatment effective for short-term pain relief and well tolerated; the authors call for longer studies. Case reports, such as a 2025 report of chronic low back pain, also call for larger controlled trials."
   ],
-  quote: "Chronic pain is the body's way of saying something larger is out of balance. The pain is the symptom. The treatment addresses what is underneath.",
+  sources: "Sources: <a href='https://pubmed.ncbi.nlm.nih.gov/27704865/' target='_blank' rel='noopener'>Kessler et al. 2017, Ayurvedic massage in chronic low back pain, randomised trial (PubMed)</a> · <a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12437230/' target='_blank' rel='noopener'>Ayurvedic management of chronic low back pain, case report (PMC 2025)</a>",
+  quote: "Chronic pain is a signal of deeper tissue and metabolic imbalance. Authentic care treats what is underneath.",
   image: "/images/ayurvedic-back-pain-assessment-vedara-jvc.webp",
-  alt: "Ayurvedic physician performing pulse diagnosis on back pain patient at Vedara Care JVC",
+  alt: "Ayurvedic physician examining back pain patient at Vedara Care JVC",
   imageLeft: false
+};
+
+export const ayurvedicBackPainProtocol = {
+  bgColor: "bg-[#FAF8F3]",
+  label: "A TYPICAL PROTOCOL",
+  title: "How Ayurvedic back pain care works at Vedara Care.",
+  subtitle: "Plan length depends on the cause and how long you have had back pain.",
+  steps: [
+    {
+      week: "Step 1",
+      title: "Consultation and screening",
+      items: [
+        "45 to 60 minute consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda)",
+        "Comprehensive physical examination, history-taking, and screening for red flags",
+        "Review of recent MRI, X-ray or specialist scan reports"
+      ]
+    },
+    {
+      week: "Step 2",
+      title: "Your plan",
+      items: [
+        "Tailored selection of in-clinic therapies (Kati Vasti, Elakizhi, Abhyanga)",
+        "Prescribed internal herbal medicines to calm Vata and ease inflammation",
+        "Integration with physiotherapy at the same clinic when beneficial"
+      ]
+    },
+    {
+      week: "Step 3",
+      title: "Active treatment",
+      items: [
+        "Targeted warm oil therapies: Kati Vasti, Elakizhi or Basti as prescribed",
+        "Agnikarma (controlled therapeutic heat) for stubborn localised tender points",
+        "Targeted physiotherapy sessions to restore mobility and stability"
+      ]
+    },
+    {
+      week: "Step 4",
+      title: "Review and home plan",
+      items: [
+        "Progress evaluation with movement and flexibility reassessment",
+        "Personalised home routine: posture guidance, core exercises, and daily habits",
+        "Follow-up reviews scheduled as needed to prevent recurrence"
+      ]
+    }
+  ],
+  footer: "Plan length depends on the cause and how long you have had back pain."
 };
 
 export const ayurvedicBackPainTherapies = {
@@ -128,34 +168,67 @@ export const ayurvedicBackPainTherapies = {
   description: "Each therapy serves a specific purpose in the protocol. Not every patient receives every therapy — your doctor selects based on your diagnostic pattern.",
   items: [
     {
-      title: "Kativasti",
-      subtitle: "The targeted lumbar therapy",
-      description: "The cornerstone of Ayurvedic lumbar back pain treatment. Warm medicated oil contained over the lumbar spine in a custom dough reservoir for 30-45 minutes per session. Different oils are used for different pain patterns — Mahanarayana Taila for mechanical pain, Sahacharadi Taila for sciatica. Typically prescribed as a 14-session course over 4-6 weeks for chronic conditions.",
+      title: "Kati Vasti",
+      subtitle: "Targeted lumbar therapy",
+      description: "Warm medicated oil contained over the lower back in a custom dough reservoir. Keeps steady warmth and oil directly over the painful area.",
       link: "/treatments/kativasti-dubai/",
-      linkText: "Read about Kativasti"
+      linkText: "Read about Kati Vasti →"
     },
     {
-      title: "Abhyanga",
-      subtitle: "The systemic support therapy",
-      description: "Full-body warm medicated oil massage by two synchronized therapists, addressing the broader Vata imbalance that underlies most chronic back pain. Typically prescribed alongside Kativasti — 2-3 Abhyanga sessions per week during active treatment phase, then weekly maintenance during consolidation.",
+      title: "Elakizhi (Herbal Bundles)",
+      subtitle: "Warm herbal poultice massage",
+      description: "Warm boluses of medicinal leaves fried in herbal oils rhythmically massaged over the lower back and legs to relieve stiffness, muscle spasm and inflammation.",
+      link: "/treatments/patra-pinda-sweda-jvc/",
+      linkText: "Read about Kizhi →"
+    },
+    {
+      title: "Abhyanga with Steam (Swedana)",
+      subtitle: "Full-body warm oil massage",
+      description: "Rhythmic warm medicated oil massage followed by herbal steam to soften rigid muscles, calm aggravated Vata, and promote whole-body relaxation.",
       link: "/treatments/abhyanga-dubai/",
-      linkText: "Read about Abhyanga"
+      linkText: "Read about Abhyanga →"
     },
     {
-      title: "Internal Ayurvedic Medicines",
-      subtitle: "The foundational support",
-      description: "Classical Ayurvedic preparations selected for your specific dosha pattern and condition — typically including formulations from the Rasna and Guggulu families (anti-inflammatory and tissue-supporting), and Vata-pacifying medicines. Prescribed as a 6-8 week course with adjustments based on response. Sourced from classical Ayurvedic pharmacies in Kerala with documented quality testing.",
-      link: "#",
-      linkText: "Read about Internal Ayurvedic Medicines"
+      title: "Basti (Medicated Enema)",
+      subtitle: "For long-standing pain and sciatica",
+      description: "Medicated oil or herbal decoction enema, the primary classical Ayurvedic therapy for systemic Vata and chronic lumbar or nerve-related pain.",
+      link: "/treatments/basti-jvc/",
+      linkText: "Read about Basti →"
     },
     {
-      title: "Panchakarma",
-      subtitle: "For complex or long-standing conditions",
-      description: "For severely chronic back pain, multi-region pain involving systemic Vata imbalance, or back pain unresponsive to other treatment, classical Panchakarma over 14-21 days addresses the systemic root. Combines the above therapies with Virechana or Basti as the main Pradhanakarma actions.",
-      link: "/treatments/panchakarma-dubai/",
-      linkText: "Read about Panchakarma"
+      title: "Prescribed Internal Herbs",
+      subtitle: "Systemic anti-inflammatory care",
+      description: "Classical Ayurvedic formulations (such as Guggulu and Rasna preparations) prescribed by the doctor to support joint tissue repair and ease inflammation.",
+      link: "/ayurveda-dubai/",
+      linkText: "Ayurvedic treatments →"
+    },
+    {
+      title: "Agnikarma",
+      subtitle: "Controlled therapeutic heat",
+      description: "A heated instrument applied briefly to specific points for localised, persistent pain, after assessment."
     }
   ]
+};
+
+export const ayurvedicBackPainIntegration = {
+  label: "WHAT MAKES VEDARA CARE DIFFERENT",
+  title: "One plan for your back, at one clinic in JVC.",
+  paragraphs: [
+    "Ayurvedic therapies ease pain and stiffness; <a href='/conditions/back-pain-physiotherapy-jvc/'>physiotherapy for back pain</a> rebuilds strength, posture and movement so the pain is less likely to return.",
+    "At Vedara Care, Dr. Zainab and our physiotherapist plan both together, so sessions fit around each other and you have one plan to follow."
+  ],
+  features: [
+    "Joint clinical assessment at first visit (both teams)",
+    "Coordinated schedule between Ayurveda and physiotherapy",
+    "Shared progress notes between clinicians",
+    "Single point of contact for bookings and follow-ups"
+  ],
+  button1Text: "Book Back Pain Consultation",
+  button1Link: "/book/",
+  button2Text: "Read about Physiotherapy in JVC",
+  button2Link: "/physiotherapy-jvc/",
+  image: "/images/kativasti-back-pain-treatment-vedara-jvc.webp",
+  alt: "Ayurvedic doctor and physiotherapist reviewing back pain case notes together at Vedara Care JVC"
 };
 
 export const ayurvedicBackPainBoundaries = {
@@ -163,275 +236,154 @@ export const ayurvedicBackPainBoundaries = {
   title: "When we refer you elsewhere first.",
   subtitle: "Ayurvedic back pain treatment is powerful — but not appropriate for every patient. These are the situations where we send you for conventional workup before any Ayurvedic plan is considered.",
   leftCard: {
-    label: "URGENT CONVENTIONAL CARE FIRST",
-    title: "If you have any of these symptoms, do not start any treatment — Ayurvedic or otherwise — without first seeing a conventional orthopaedic specialist or neurosurgeon.",
+    label: "URGENT MEDICAL CARE FIRST",
+    title: "Go to emergency or call 999 immediately for:",
     items: [
-      "Bowel or bladder incontinence with back pain (cauda equina syndrome — medical emergency)",
-      "Numbness in the genital or saddle region",
-      "Progressive weakness in one or both legs",
-      "Back pain with unexplained weight loss, fever, or night sweats",
-      "Back pain after recent significant trauma",
-      "History of cancer with new back pain"
+      "Loss of bowel or bladder control (cauda equina syndrome — medical emergency)",
+      "Numbness around the genitals, groin or saddle region",
+      "Sudden or progressive weakness in one or both legs",
+      "Back pain after a major fall, car crash or trauma",
+      "Back pain accompanied by high fever or unexplained weight loss"
     ],
-    footer: "Vedara Care will not start treatment for back pain with these features without conventional clearance. We will refer you and coordinate care."
+    footer: ""
   },
   rightCard: {
-    label: "COMBINED CARE APPROPRIATE",
-    title: "For these conditions, Ayurveda often supports conventional treatment but is not the primary intervention.",
+    label: "COMBINED CARE",
+    title: "Medical clearance recommended before or alongside care for:",
     items: [
-      { text: "Acute disc herniation with significant neurological deficit (surgical consult first)", icon: "check" },
-      { text: "Recent spinal surgery (post-surgical clearance and rehabilitation phase needed)", icon: "check" },
-      { text: "Active spinal infection or suspected tumour (conventional workup essential)", icon: "check" },
-      { text: "Severe osteoporosis with vertebral fractures (orthopaedic management primary)", icon: "check" },
-      { text: "Inflammatory back pain (Ankylosing Spondylitis, etc.) — alongside rheumatology, not instead of", icon: "check" }
+      { text: "Suspected spinal infection or tumour workup", icon: "check" },
+      { text: "Severe acute disc herniation with motor deficit needing surgical review", icon: "check" },
+      { text: "Recent spinal surgery requiring post-surgical rehabilitation clearance", icon: "check" },
+      { text: "Severe osteoporosis with vertebral compression fractures", icon: "check" }
     ]
   },
-  footer: "Real Ayurvedic doctors at our JVC clinic refer to conventional specialists when appropriate. We are integrated with several Dubai orthopaedic, neurology, and physiotherapy practices — and we coordinate referrals when needed."
+  footer: "Vedara Care does not do MRI or surgery; the doctor refers when needed."
 };
 
-export const ayurvedicBackPainProtocol = {
-  label: "A TYPICAL PROTOCOL",
-  title: "What six weeks of Ayurvedic back pain treatment at Vedara Care looks like in practice.",
-  subtitle: "A representative protocol for chronic mechanical back pain. Your specific plan may vary based on assessment, but this gives you a realistic picture.",
-  steps: [
+export const ayurvedicBackPainPrograms = {
+  label: "BACK PAIN PROGRAMMES",
+  title: "Structured care plans for your back.",
+  bgColor: "bg-[#FAF8F3]",
+  whatsappNumber: "971555736312",
+  defaultWhatsappMessage: "Hello Vedara Care, I would like to inquire about back pain treatment.",
+  programs: [
     {
-      week: "Week 1",
-      title: "Assessment & Foundation",
-      items: [
-        "Initial 45-60 minute consultation with Ayurvedic physician",
-        "Physical examination, history-taking, imaging review",
-        "Joint assessment with physiotherapist (where indicated)",
-        "Pulse diagnosis and dosha assessment",
-        "Written treatment plan with realistic expectations",
-        "Begin internal Ayurvedic medicines",
-        "2 introductory Abhyanga sessions"
+      name: "Back pain consultation",
+      price: "Prices shared on WhatsApp",
+      duration: "45-60 minutes",
+      features: [
+        "Detailed medical history and physical examination",
+        "Screening for red flags and scan review",
+        "Ayurvedic dosha diagnosis",
+        "Personalised care plan advice"
       ],
-      expected: "Expected by end of Week 1: Clear understanding of your specific back pain pattern, baseline pain score documented, treatment plan signed off"
+      bestFor: "First step for all patients",
+      buttonText: "Book consultation",
+      whatsappMessage: "Hello Vedara Care, I would like to book a back pain consultation."
     },
     {
-      week: "Weeks 2-3",
-      title: "Active Treatment Begins",
-      items: [
-        "4-6 Kativasti sessions (most common protocol)",
-        "2-3 additional Abhyanga sessions",
-        "2-4 physiotherapy sessions (if integrated programme)",
-        "Continue internal medicines",
-        "Mid-Week 3 doctor review"
+      name: "Back pain plan (Ayurveda)",
+      price: "Prices shared on WhatsApp",
+      duration: "Length set by your doctor",
+      featured: true,
+      features: [
+        "Consultation and regular reviews",
+        "Prescribed Kati Vasti and Kizhi therapies",
+        "Internal herbal medicines",
+        "Postural advice and home plan"
       ],
-      expected: "Expected by end of Weeks 2-3: Noticeable pain reduction (typically 30-50%), improved range of motion, better sleep quality"
+      bestFor: "Chronic lower back pain, disc bulge, lumbar spondylosis",
+      buttonText: "Ask about the plan",
+      whatsappMessage: "Hello Vedara Care, I would like to ask about the Ayurvedic back pain plan."
     },
     {
-      week: "Weeks 4-5",
-      title: "Intensive Therapy",
-      items: [
-        "6-8 Kativasti sessions concentrated in these weeks",
-        "Possible introduction of Patra Pinda Sweda or other adjunct therapies",
-        "Continued physiotherapy",
-        "Refinement of internal medicines based on response"
+      name: "Ayurveda + physiotherapy plan",
+      price: "Prices shared on WhatsApp",
+      duration: "Length set by your doctor",
+      features: [
+        "Combined Ayurveda therapies and physiotherapy",
+        "Joint assessment and shared clinical notes",
+        "Core strengthening and spine mobility rehab",
+        "Comprehensive long-term prevention plan"
       ],
-      expected: "Expected by end of Weeks 4-5: Substantial pain reduction (typically 60-80%), return to most daily activities, possibly some return to exercise"
-    },
-    {
-      week: "Week 6 onwards",
-      title: "Consolidation & Home Protocol",
-      items: [
-        "Final 2-3 Kativasti sessions",
-        "Comprehensive home protocol: daily self-Abhyanga, dietary plan, exercise prescription",
-        "Final doctor review and discharge plan",
-        "3-month and 6-month follow-up appointments scheduled",
-        "Internal medicines tapered"
-      ],
-      expected: "Expected by end of Week 6 onwards: Significant lasting improvement, clear home maintenance plan, prevention of recurrence as primary focus going forward"
+      bestFor: "Complex, long-standing back pain and returning to activity",
+      buttonText: "Ask about joint plan",
+      whatsappMessage: "Hello Vedara Care, I would like to ask about the joint Ayurveda + physiotherapy plan."
     }
   ],
-  footer: "This is a representative protocol. Actual treatment plans vary based on specific diagnosis, response to therapy, and patient circumstances. Your plan is written and agreed at consultation, with documented adjustments at each doctor review."
+  footer: "Vedara Care does not bill insurers directly; where treatment is for a diagnosed condition, we provide the invoice and report for a reimbursement claim."
 };
 
-export const ayurvedicBackPainIntegration = {
-  label: "WHAT MAKES VEDARA CARE DIFFERENT",
-  title: "For back pain, the strongest outcomes come from combining Ayurveda with physiotherapy.",
-  paragraphs: [
-    "Chronic back pain involves both tissue-level factors (inflammation, muscle quality, tissue stiffness) and biomechanical factors (posture, motor control, muscle activation patterns, functional movement). Ayurveda primarily addresses the first set. Physiotherapy primarily addresses the second. Patients who receive both — coordinated between the two teams — outperform patients who receive either alone.",
-    "At Vedara Care, our Ayurvedic doctors and DPT-qualified physiotherapists share clinical notes for joint back pain patients. A typical integrated week looks like Monday and Thursday for Kativasti and Ayurvedic medicines review, Tuesday and Friday for physiotherapy and movement assessment, Saturday for combined Abhyanga or recovery work."
-  ],
-  features: [
-    "Joint clinical assessment at first visit (both teams)",
-    "Coordinated 6-8 week protocol",
-    "Shared progress notes between teams",
-    "Single point of contact for scheduling and updates"
-  ],
-  button1Text: "Book Joint Consultation",
-  button1Link: "/book",
-  button2Text: "Read about Physiotherapy in JVC",
-  button2Link: "/physiotherapy-jvc/",
-  image: "/images/kativasti-back-pain-treatment-vedara-jvc.webp",
-  alt: "Ayurvedic doctor and physiotherapist reviewing back pain case notes together at Vedara Care JVC"
-};
-
-export const ayurvedicBackPainOutcomes = {
-  bgColor: "bg-[#1F4538]",
-  label: "OUTCOMES",
-  title: "Real back pain outcomes.",
-  description: "",
-  items: [
-    {
-      quote: "Three years of chronic lower back pain. Six weeks at Vedara Care. I am playing tennis again.",
-      content: "",
-      author: "Sarah K.",
-      details: "Chronic Mechanical Back Pain · 6-Week Integrated Programme · JVC District 12 · February 2026"
-    },
-    {
-      quote: "My sciatica had radiated down my left leg for eight months. By week four of the Kativasti and Basti programme, the leg pain was gone.",
-      content: "",
-      author: "James M.",
-      details: "Sciatica · 8-Week Programme · Dubai Marina · January 2026"
-    },
-    {
-      quote: "After my caesarean, the back pain was constant for ten months. The 45-day Sukhu programme rebuilt me.",
-      author: "Priya R.",
-      details: "Postpartum Back Pain · Sukhu Pathways · Al Barsha South · March 2026"
-    }
-  ],
-  stats: [
-    { value: "4.7", label: "stars on Google" },
-    { value: "142", label: "back pain reviews" },
-    { value: "89%", label: "reported pain reduction" }
-  ],
-  buttonText: "Read All Back Pain Reviews →",
-  buttonHref: "https://www.google.com/maps/search/?api=1&query=Vedara%20Care%20Polyclinic%20JVC%20Dubai"
-};
-
-export const ayurvedicBackPainPricing = {
-  label: "TRANSPARENT PRICING",
-  title: "What Ayurvedic back pain treatment in Dubai actually costs.",
-  description: "Indicative pricing for our three most common back pain programmes. Final pricing always depends on specific diagnosis and protocol agreed at consultation.",
-  items: [
-    {
-      name: "Initial Assessment",
-      price: "350",
-      duration: "1 session",
-      features: [
-        "45-60 minute consultation with Ayurvedic physician",
-        "Physical examination and history-taking",
-        "Imaging review (if you bring scans)",
-        "Pulse diagnosis and dosha assessment",
-        "Written treatment plan",
-        "Pricing for full programme provided in writing"
-      ],
-      footer: "Best for: First step for everyone — required before any treatment programme begins"
-    },
-    {
-      name: "Standard Chronic Back Pain Programme",
-      isRecommended: true,
-      price: "4,200",
-      duration: "6 weeks · ~20 visits",
-      features: [
-        "Initial consultation included",
-        "14 Kativasti sessions",
-        "6 Abhyanga sessions",
-        "Internal Ayurvedic medicines (6-week course)",
-        "Mid-programme doctor review",
-        "Final review with home maintenance plan",
-        "3-month and 6-month follow-up appointments"
-      ],
-      footer: "Best for: Chronic mechanical back pain, sciatica, spondylosis without surgical indication"
-    },
-    {
-      name: "Integrated Back Pain Programme",
-      price: "6,800",
-      duration: "6-8 weeks · ~30 visits",
-      features: [
-        "All Standard Programme components",
-        "10 additional physiotherapy sessions",
-        "Joint Ayurveda-physiotherapy assessment",
-        "Coordinated weekly schedule between teams",
-        "Comprehensive functional movement programme",
-        "12-month follow-up support"
-      ],
-      footer: "Best for: Complex back pain, disc-related conditions, multiple-region involvement, patients who want maximum-outcome integrated care"
-    }
-  ],
-  footerNote: "Insurance direct-billing available with seven major insurers — coverage for Ayurvedic chronic pain care varies by plan. <a href=\"https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20verify%20my%20insurance%20coverage%20for%20ayurvedic%20back%20pain%20treatment.\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#C9A961] hover:underline transition-colors\">WhatsApp us your card</a> before booking to confirm."
-};
+export const ayurvedicBackPainPricing = ayurvedicBackPainPrograms;
 
 export const ayurvedicBackPainFaqs = {
+  bgColor: "bg-[#F9F6F1]",
   label: "BACK PAIN QUESTIONS",
-  title: "What patients ask before starting Ayurvedic back pain treatment.",
   sidebarLinks: [
-    {
-      text: "Read about Kativasti",
-      href: "/treatments/kativasti-dubai/"
-    },
-    {
-      text: "Read about Physiotherapy in JVC",
-      href: "/physiotherapy-jvc/"
-    }
+    { text: "Physiotherapy for back pain", href: "/conditions/back-pain-physiotherapy-jvc/" },
+    { text: "Kati Vasti", href: "/treatments/kativasti-dubai/" },
+    { text: "Ayurveda for sciatica", href: "/conditions/sciatica-ayurveda-jvc/" }
   ],
-  description: "For specific treatment details, see the Kativasti, Abhyanga, and Panchakarma pages. For physiotherapy alone, see the physio page.",
+  title: "Ayurveda for back pain: your questions answered.",
+  description: "Answers reviewed by Dr. Zainab Sheikh. For other therapies, see our <a href=\"/ayurveda-dubai/\">guide to Ayurvedic treatment in Dubai</a>.",
+  buttonText: "Ask the team on WhatsApp",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Ayurvedic%20back%20pain%20treatment.",
   faqs: [
     {
-      question: "Does Ayurvedic treatment actually work for back pain?",
-      answer: "Yes — for the right type of back pain, with the right protocol prescribed by a qualified physician. Published research and clinical experience consistently show that authentic Ayurvedic treatment is effective for chronic mechanical back pain, sciatica without neurological deficit, spondylosis, and postpartum back pain. It is less effective for acute disc herniation with neurological deficit (which often needs surgical evaluation) and not appropriate for back pain caused by infection, tumour, or fracture."
+      question: "What is the Ayurvedic treatment for back pain?",
+      answer: "Usually a combination of Kati Vasti (warm medicated oil held on the lower back), Elakizhi (herbal bundles), Abhyanga with steam, Basti for long-standing cases, Agnikarma for localised pain, and prescribed herbs, chosen after a consultation. It often works best with physiotherapy."
+    },
+    {
+      question: "Where can I get Ayurvedic back pain treatment in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall, with Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor. Physiotherapy is available at the same clinic. Open daily 9am to 10pm."
+    },
+    {
+      question: "Does Ayurveda work for back pain?",
+      answer: "Evidence is encouraging but limited. A randomised trial of 64 people with chronic low back pain found Ayurvedic massage and external treatment effective for short-term pain relief and well tolerated; longer studies are still needed."
+    },
+    {
+      question: "Which back problems do you treat?",
+      answer: "Chronic lower back pain, non-surgical disc bulge, lumbar spondylosis, sacroiliac joint pain, muscle spasm, back pain after childbirth and back pain in older adults. Sciatica has its own page."
+    },
+    {
+      question: "Can Ayurveda help a slip disc or disc bulge?",
+      answer: "It can help ease pain and stiffness from a disc bulge when surgery is not needed, often with Kati Vasti, Basti and physiotherapy. Weakness, numbness or loss of bladder or bowel control need a doctor first."
+    },
+    {
+      question: "Which Ayurvedic oil is best for back pain?",
+      answer: "It depends on the cause. Common choices include Mahanarayana, Sahacharadi and Dhanwantharam Taila; the doctor chooses after your consultation."
+    },
+    {
+      question: "Can I combine Ayurveda with physiotherapy?",
+      answer: "Yes. At our JVC clinic, Dr. Zainab and our physiotherapist plan both together: Ayurveda eases pain and stiffness, physiotherapy rebuilds strength and movement."
+    },
+    {
+      question: "When should I see a doctor urgently?",
+      answer: "Go to hospital or call 999 for loss of bladder or bowel control, numbness around the groin, or weakness in both legs. See a doctor soon for back pain after a fall, with fever or weight loss, or severe night pain."
+    },
+    {
+      question: "Do you do MRI scans?",
+      answer: "No. Vedara Care does not do imaging or surgery. Bring any MRI or X-ray reports; the doctor will refer you if you need a scan or a specialist."
     },
     {
       question: "How long does Ayurvedic back pain treatment take?",
-      answer: "A typical chronic back pain programme runs 6 weeks of active treatment, followed by a 6-12 week consolidation phase with home protocols. Most patients notice meaningful improvement by week 3 and substantial improvement by week 5-6. For complex conditions like disc involvement or multi-region pain, programmes may extend to 8-10 weeks. We will give you a realistic timeline at consultation."
+      answer: "It depends on the cause and how long you have had it. Many plans run for a few weeks with regular reviews, followed by home exercises and routine."
     },
     {
-      question: "What is the difference between Ayurvedic back pain treatment and physiotherapy?",
-      answer: "Physiotherapy addresses biomechanics, motor control, movement patterns, and muscle activation. Ayurveda addresses tissue quality, inflammation, dosha imbalance, and the systemic factors underlying chronic pain. For most chronic back pain, combining both is more effective than either alone — which is why Vedara Care offers integrated programmes with both teams working from the same case notes."
+      question: "Is it suitable for older adults?",
+      answer: "Yes. Gentle therapies are often well suited to older adults; the doctor checks bone health, heart health and medicines first."
+    },
+    {
+      question: "Will a male or female therapist treat me?",
+      answer: "A same-gender therapist: men are treated by a male therapist and women by a female therapist."
     },
     {
       question: "How much does Ayurvedic back pain treatment cost in Dubai?",
-      answer: "At Vedara Care, an initial 45-60 minute assessment starts from AED 350. A standard 6-week chronic back pain programme starts from AED 4,200. An integrated Ayurveda + physiotherapy programme starts from AED 6,800. Across Dubai, comprehensive Ayurvedic back pain programmes typically range from AED 4,000 to AED 12,000 depending on length, integration, and severity."
+      answer: "Across Dubai, an Ayurvedic consultation commonly costs around AED 200 to 500 and a therapy session such as Kati Vasti around AED 250 to 700. The total depends on your plan. Vedara Care shares exact prices on WhatsApp. We do not bill insurers directly; we provide the invoice and report for a reimbursement claim."
     },
     {
-      question: "Will Ayurvedic medicines interact with my conventional pain medication?",
-      answer: "Most Ayurvedic medicines used in back pain treatment are well-tolerated alongside conventional analgesics, anti-inflammatories, and muscle relaxants. Your Ayurvedic physician will review all current medications at consultation and prescribe accordingly. We coordinate with your conventional doctors when needed — particularly for patients on long-term NSAIDs, opioids, or muscle relaxants."
-    },
-    {
-      question: "Do I need to stop my current physiotherapy or chiropractic to start Ayurveda?",
-      answer: "No — and often we recommend continuing. If your current physiotherapy is helping, your Ayurvedic physician will design the protocol around it. If you are considering switching to our integrated Ayurveda-physiotherapy programme, we can coordinate the transition. Stopping effective treatment to start something new is rarely the right approach."
-    },
-    {
-      question: "Can Ayurveda help with slipped disc or herniated disc?",
-      answer: "For non-surgical disc bulges and herniations without significant neurological signs, yes — particularly when combined with appropriate physiotherapy. Treatment typically takes 6-10 weeks and includes Kativasti, internal medicines, and structured movement therapy. For acute herniation with neurological deficit (severe weakness, numbness, bowel/bladder symptoms), conventional evaluation comes first."
-    },
-    {
-      question: "Is Kativasti the only Ayurvedic treatment for back pain?",
-      answer: 'No. Kativasti is the most-prescribed Ayurvedic therapy for lumbar back pain, but the protocol typically includes <a href="/treatments/abhyanga-dubai/" class="text-[#184C3A] hover:underline font-medium">Abhyanga</a>, internal Ayurvedic medicines, dietary regulation, and where appropriate, <a href="/treatments/panchakarma-dubai/" class="text-[#184C3A] hover:underline font-medium">Panchakarma</a>. For cervical back pain (upper back, neck), the equivalent of Kativasti is Greeva Vasti. Your doctor selects the combination based on diagnosis.'
-    },
-    {
-      question: "How quickly will I feel relief?",
-      answer: 'Most patients feel some relief within the first 2-3 <a href="/treatments/kativasti-dubai/" class="text-[#184C3A] hover:underline font-medium">Kativasti</a> sessions — typically reduced muscle tension and improved flexibility for several hours after each session. Sustained pain reduction usually requires 4-6 sessions (about 2-3 weeks). Maximum benefit accumulates over the full 6-week programme. We will not promise instant cures — Ayurvedic treatment for chronic pain works through accumulation, not single dramatic interventions.'
-    },
-    {
-      question: "Can pregnant women receive Ayurvedic back pain treatment?",
-      answer: 'For back pain during pregnancy (after the first trimester), modified Ayurvedic protocols are available — including gentle Abhyanga, specific positional therapies, and Ayurvedic medicines safe in pregnancy. Classical Kativasti is not performed during pregnancy because of the position and sustained heat. For postpartum back pain, the classical 45-day <a href="/conditions/postnatal-ayurveda-dubai/" class="text-[#184C3A] hover:underline font-medium">Sutika Paricharya</a> protocol is one of the most effective Ayurvedic programmes in the entire system.'
-    },
-    {
-      question: "What if my back pain is mainly muscle spasm, not structural?",
-      answer: "Chronic muscular back pain — including spasm patterns, postural pain, and stress-related lumbar tension — responds particularly well to Ayurvedic treatment. Often these patterns resolve more quickly than structural conditions (4-5 weeks rather than 6-8). The combination of Kativasti, Abhyanga, internal Vata-pacifying medicines, and lifestyle correction addresses the root patterns rather than just the spasm."
-    },
-    {
-      question: "Will my back pain come back after treatment?",
-      answer: "For most patients, the structured home protocol and lifestyle modifications taught during treatment significantly reduce recurrence risk. Approximately 70% of our chronic back pain patients report that pain has not returned to pre-treatment severity at 6-month follow-up. Recurrence is most common in patients who return to pre-treatment lifestyle factors (poor posture, sedentary work, chronic stress) without home maintenance."
-    },
-    {
-      question: "Where exactly is your back pain clinic in Dubai?",
-      answer: "Our clinic is at Jumeirah Village Circle (JVC), Dubai — next to Circle Mall, three minutes from FIVE Jumeirah Village Hotel, and five minutes from JSS Private School. Free patient parking is available. Patients travel to us from across Dubai including Jumeirah Village Circle, Jumeirah Village Triangle, Al Barsha South, Arjan, Dubai Sports City, Motor City"
-    },
-    {
-      question: "Does insurance cover Ayurvedic back pain treatment in Dubai?",
-      answer: "Some Dubai insurance plans cover Ayurvedic treatment for chronic pain — most commonly Daman, AXA, Now Health, and certain Allianz tiers. Coverage varies enormously by plan and policy tier. We are direct-billing partners with seven major insurers. WhatsApp us a photo of your insurance card and our team will confirm your specific coverage before you book the initial consultation."
-    },
-    {
-      question: "Can elderly patients receive Ayurvedic back pain treatment?",
-      answer: "Yes. Elderly patients are one of the groups who benefit most from Ayurvedic back pain treatment — particularly for spondylosis, age-related degeneration, and chronic muscular pain. We modify protocols appropriately — shorter sessions, gentler intensity, and often home-delivered services for patients who cannot easily travel. Most of our elderly back pain patients are in their 60s and 70s."
-    },
-    {
-      question: "How do I start treatment?",
-      answer: "Always with an assessment, never directly with a treatment package. Tap \"Book a Back Pain Consultation\" on this page, WhatsApp us at +971 55 573 6312 for the fastest response, or call the same number. The initial 45-60 minute assessment includes physical examination, history-taking, imaging review if you bring scans, dosha assessment, and a written treatment plan with realistic expectations and pricing."
+      question: "How do I book?",
+      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number. Bring any scan reports to your first 45 to 60-minute consultation."
     }
   ]
 };
@@ -440,65 +392,73 @@ export const ayurvedicBackPainLocation = {
   bgColor: "bg-[#F5F3EE]",
   label: "VISIT OUR BACK PAIN CLINIC",
   title: "Expert back pain care in Jumeirah Village Circle.",
-  address: "Al Barsha South Fourth, Binghatti Azure, Shop -4,Jumeirah Village Circle (JVC) Dubai",
+  address: "Shop 4, Binghatti Azure, Al Barsha South Fourth, JVC, Dubai",
   phone: "+971 55 573 6312",
-  whatsapp: "+971 55 573 6312",
-  whatsappMessage: "Hi, I'd like to inquire about ayurvedic back pain treatment at your JVC clinic.",
+  whatsapp: "971555736312",
+  whatsappMessage: "Hello Vedara Care, I would like to ask about Ayurvedic back pain treatment at your JVC clinic.",
   email: "booking@vedaracare.ae",
   hours: "Monday - Sunday - 9:00AM to 10:00PM",
   landmarks: [
-    "Next to Circle Mall",
-    "3 minutes from FIVE Jumeirah Village Hotel",
-    "5 minutes from JSS Private School"
+    "Near Circle Mall",
+    "Close to JSS Private School",
+    "Free and paid parking available"
   ],
-  description: "Integrated Ayurveda and Physiotherapy departments under one roof, sharing case notes for back pain patients. Dedicated Kativasti and Greeva Vasti treatment rooms. Free patient parking.",
+  description: "Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City.",
+  distances: [],
   buttonText: "Book a Back Pain Consultation",
-  buttonHref: "/book",
+  buttonHref: "/book/",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9894568193345!2d55.20722358578439!3d25.068346479666594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6dd72f3da587%3A0xe7ecca8687a75b72!2sVedara%20Care%20Polyclinic!5e0!3m2!1sen!2sus!4v1780727442216!5m2!1sen!2sus",
-  mapAlt: "Vedara Care JVC back pain clinic location"
+  mapAlt: "Vedara Care JVC back pain clinic location near Circle Mall"
 };
 
 export const ayurvedicBackPainCTA = {
   bgColor: "bg-white",
   label: "READY?",
   title: "Begin with the right assessment.",
-  description: "Chronic back pain deserves more than another generic treatment package. A 45-60 minute consultation at our JVC clinic includes physical examination, imaging review, dosha assessment, and a clear written treatment plan — including honest guidance on whether Ayurvedic treatment is appropriate for your specific condition, or whether you should see a conventional specialist first.",
+  description: "In 45 to 60 minutes, Dr. Zainab will review your back pain history, examine your spine, check scan reports and recommend a clear, personalised plan combining Ayurveda and physiotherapy.",
   button1Text: "Book a Back Pain Consultation",
-  button1Href: "/book",
+  button1Href: "/book/",
   button2Text: "Chat on WhatsApp",
-  button2Href: "https://wa.me/971555736312?text=Hi,%20I'd%20like%20to%20inquire%20about%20ayurvedic%20back%20pain%20treatment%20at%20your%20JVC%20clinic.",
-  subtext: "Initial consultation from AED 350 · Joint Ayurveda + Physiotherapy assessment available · Insurance direct-billing · Free clinic parking"
+  button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Ayurvedic%20back%20pain%20treatment.",
+  bullets: [
+    "Prices shared on WhatsApp",
+    "Ayurveda + physiotherapy at one clinic",
+    "Free and paid parking",
+    "Near Circle Mall, JVC"
+  ]
 };
 
 export const ayurvedicBackPainRelatedPages = {
   bgColor: "bg-[#FAF6EF]",
   label: "EXPLORE FURTHER",
-  title: "Related pages.",
-  linkText: "Browse all conditions →",
+  title: "Related treatments and services.",
+  linkText: "Browse all treatments →",
+  linkHref: "/ayurveda-dubai/",
   pages: [
     {
-      title: "Kativasti Treatment in Dubai →",
-      description: "The cornerstone Ayurvedic therapy for lumbar back pain. Read the full protocol, oils used, and what to expect.",
-      href: "/treatments/kativasti-dubai/",
-      linkText: "Learn more →"
+      title: "Kati Vasti in Dubai",
+      description: "Warm medicated oil reservoir over the lower spine for chronic lumbar pain.",
+      href: "/treatments/kativasti-dubai/"
     },
     {
-      title: "Physiotherapy in JVC →",
-      description: "For mechanical and structural back pain, physiotherapy alongside Ayurveda delivers the strongest outcomes. See our physio services.",
-      href: "/physiotherapy-jvc/",
-      linkText: "Learn more →"
+      title: "Physiotherapy for Back Pain in JVC",
+      description: "Movement assessment, core strengthening, and biomechanical rehabilitation.",
+      href: "/conditions/back-pain-physiotherapy-jvc/"
     },
     {
-      title: "Abhyanga Massage in Dubai →",
-      description: "The systemic support therapy used in nearly every back pain protocol. Full description and pricing.",
-      href: "/treatments/abhyanga-dubai/",
-      linkText: "Learn more →"
+      title: "Elakizhi (Kizhi) in Dubai",
+      description: "Warm herbal bundle therapy for back stiffness, joint pain, and muscle spasm.",
+      href: "/treatments/patra-pinda-sweda-jvc/"
     },
     {
-      title: "Panchakarma in Dubai →",
-      description: "For severe or long-standing back pain, classical Panchakarma addresses systemic Vata imbalance. 7, 14, and 21 day programmes.",
-      href: "/treatments/panchakarma-dubai/",
-      linkText: "Learn more →"
+      title: "Ayurveda for Sciatica in JVC",
+      description: "Targeted Ayurvedic care when pain radiates down the hip and leg.",
+      href: "/conditions/sciatica-ayurveda-jvc/"
+    },
+    {
+      title: "Ayurveda for Arthritis",
+      description: "Joint pain, osteoarthritis, and spondylosis care at our JVC clinic.",
+      href: "/conditions/arthritis-ayurveda-dubai/"
     }
   ]
 };

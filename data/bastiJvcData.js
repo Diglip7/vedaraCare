@@ -70,7 +70,7 @@ export const bastiApplications = {
   title: "When Basti may help.",
   description: "The doctor checks the cause first; some problems need medical care instead.",
   whereItExcels: [
-    { title: "Chronic lower back pain and sciatica", subtitle: "Often Matra or alternating Basti", href: "/conditions/back-pain-ayurveda-dubai/" },
+    { title: "Ayurvedic back pain treatment and sciatica", subtitle: "Often Matra or alternating Basti", href: "/conditions/back-pain-ayurveda-dubai/" },
     { title: "Joint stiffness and arthritis-related pain", subtitle: "Usually a course", href: "/conditions/arthritis-ayurveda-dubai/" },
     { title: "Ayurveda for IBS and digestion", subtitle: "Alongside diet changes", href: "/conditions/ibs-ayurveda-dubai/" },
     { title: "Nerve-related conditions", subtitle: "As support, alongside neurology and physiotherapy", href: "/physiotherapy/neurological-dubai/" },

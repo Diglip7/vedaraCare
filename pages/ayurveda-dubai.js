@@ -217,7 +217,7 @@ const AyurvedaDubai = () => {
         pages={[
           { title: "What is Panchakarma?", description: "What the five actions are, who needs them and how long they take.", href: "/blog/what-is-panchakarma/" },
           { title: "Is Ayurveda effective for back pain?", description: "An honest look at the evidence.", href: "/blog/ayurveda-for-back-pain-evidence/" },
-          { title: "Ayurveda clinic in JVC", description: "Visiting us, parking and opening hours.", href: "/ayurveda-clinic-jvc/" }
+          { title: "Our Ayurveda clinic in JVC", description: "Visiting us, parking and opening hours.", href: "/ayurveda-clinic-jvc/" }
         ]}
       />
     </>

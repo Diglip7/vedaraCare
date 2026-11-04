@@ -295,34 +295,62 @@ export const njavarakizhiFaqs = {
   buttonText: "Ask the Team",
   buttonHref: "https://wa.me/971555736312?text=Hi,%20I%20have%20a%20question%20about%20njavarakizhi%20treatment%20at%20your%20clinic.",
   faqs: [
-    { question: "What is Njavarakizhi?",
-      answer: "Njavarakizhi is a classical Kerala Ayurvedic therapy in which warm cloth bundles of Njavara rice, cooked in milk and herbs, are massaged over the body. It is nourishing rather than drying, and is used mainly for weakness, recovery after illness and joint stiffness." },
-    { question: "Is Njavarakizhi the same as Njavara Kizhi or Navarakizhi?",
-      answer: "Yes. Njavarakizhi, Njavara Kizhi and Navarakizhi are spellings of the same therapy; its Sanskrit name is Shashtika Shali Pinda Sweda." },
-    { question: "What is Njavara rice?",
-      answer: "A medicinal red rice from Kerala that matures in about 60 days, which is why it is called Shashtika ('sixty'). Classical texts describe it as nourishing; Vedara Care uses Njavara rice sourced from Kerala." },
-    { question: "Where can I get Njavarakizhi in JVC?",
-      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall. It is prescribed by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor, and the clinic is open daily 9am to 10pm. It is close to JVT, Al Barsha South and Arjan." },
-    { question: "What are the benefits of Njavarakizhi?",
-      answer: "People use it to rebuild strength after illness or inactivity, to support muscle strength in older age, to ease joint stiffness, and to support recovery after a stroke or Bell's palsy alongside physiotherapy. Studies are small, so we set realistic expectations at consultation." },
-    { question: "How is Njavarakizhi different from Elakizhi?",
-      answer: "Elakizhi uses bundles of medicinal leaves and is drying, chosen mainly for pain and stiffness. Njavarakizhi uses rice cooked in milk and is nourishing, chosen mainly for weakness and recovery." },
-    { question: "How is Njavarakizhi different from Abhyanga?",
-      answer: "Abhyanga is a warm oil massage by hand. Njavarakizhi follows a short oil massage with warm rice bundles, which add gentle heat and nourishment." },
-    { question: "How long is a session, and how many do I need?",
-      answer: "It depends on your needs. After the consultation, the doctor sets the length of each session and the course; Njavarakizhi is usually given as a course rather than a single session." },
-    { question: "Can older patients have Njavarakizhi?",
-      answer: "Yes. Older adults with muscle weakness are one of the main groups it is used for. The doctor checks heart health, skin and mobility first and adapts the session." },
-    { question: "Can I have Njavarakizhi during pregnancy?",
-      answer: "Classical Njavarakizhi is not given during pregnancy. Postnatal Njavarakizhi is offered after the standard recovery period as part of postnatal Ayurvedic care." },
-    { question: "Who should not have Njavarakizhi?",
-      answer: "It is postponed with fever, an acute infection or active inflammation, open wounds or skin infection, and needs cardiology clearance with severe heart conditions. The doctor checks this at consultation." },
-    { question: "Will a male or female therapist treat me?",
-      answer: "A same-gender therapist: men are treated by a male therapist and women by a female therapist." },
-    { question: "How much does Njavarakizhi cost in Dubai?",
-      answer: "Across Dubai, an Ayurvedic therapy session such as Njavarakizhi commonly costs around AED 250 to 700, depending on the clinic and session length. The total depends on how many sessions you need. Vedara Care shares exact prices on WhatsApp." },
-    { question: "How do I book Njavarakizhi in JVC?",
-      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number. Your first visit is a 45 to 60-minute consultation with Dr. Zainab." }
+    {
+      question: "What is Njavarakizhi?",
+      answer: "Njavarakizhi is a classical Kerala Ayurvedic therapy in which warm cloth bundles of Njavara rice, cooked in milk and herbs, are massaged over the body. It is nourishing rather than drying, and is used mainly for weakness, recovery after illness and joint stiffness."
+    },
+    {
+      question: "Is Njavarakizhi the same as Njavara Kizhi or Navarakizhi?",
+      answer: "Yes. Njavarakizhi, Njavara Kizhi and Navarakizhi are spellings of the same therapy; its Sanskrit name is Shashtika Shali Pinda Sweda."
+    },
+    {
+      question: "What is Njavara rice?",
+      answer: "A medicinal red rice from Kerala that matures in about 60 days, which is why it is called Shashtika ('sixty'). Classical texts describe it as nourishing; Vedara Care uses Njavara rice sourced from Kerala."
+    },
+    {
+      question: "Where can I get Njavarakizhi in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall. It is prescribed by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor, and the clinic is open daily 9am to 10pm. It is close to JVT, Al Barsha South and Arjan."
+    },
+    {
+      question: "What are the benefits of Njavarakizhi?",
+      answer: "People use it to rebuild strength after illness or inactivity, to support muscle strength in older age, to ease joint stiffness, and to support recovery after a stroke or Bell's palsy alongside physiotherapy. Studies are small, so we set realistic expectations at consultation."
+    },
+    {
+      question: "How is Njavarakizhi different from Elakizhi?",
+      answer: "Elakizhi uses bundles of medicinal leaves and is drying, chosen mainly for pain and stiffness. Njavarakizhi uses rice cooked in milk and is nourishing, chosen mainly for weakness and recovery."
+    },
+    {
+      question: "How is Njavarakizhi different from Abhyanga?",
+      answer: "Abhyanga is a warm oil massage by hand. Njavarakizhi follows a short oil massage with warm rice bundles, which add gentle heat and nourishment."
+    },
+    {
+      question: "How long is a session, and how many do I need?",
+      answer: "It depends on your needs. After the consultation, the doctor sets the length of each session and the course; Njavarakizhi is usually given as a course rather than a single session."
+    },
+    {
+      question: "Can older patients have Njavarakizhi?",
+      answer: "Yes. Older adults with muscle weakness are one of the main groups it is used for. The doctor checks heart health, skin and mobility first and adapts the session."
+    },
+    {
+      question: "Can I have Njavarakizhi during pregnancy?",
+      answer: "Classical Njavarakizhi is not given during pregnancy. Postnatal Njavarakizhi is offered after the standard recovery period as part of postnatal Ayurvedic care."
+    },
+    {
+      question: "Who should not have Njavarakizhi?",
+      answer: "It is postponed with fever, an acute infection or active inflammation, open wounds or skin infection, and needs cardiology clearance with severe heart conditions. The doctor checks this at consultation."
+    },
+    {
+      question: "Will a male or female therapist treat me?",
+      answer: "A same-gender therapist: men are treated by a male therapist and women by a female therapist."
+    },
+    {
+      question: "How much does Njavarakizhi cost in Dubai?",
+      answer: "Across Dubai, an Ayurvedic therapy session such as Njavarakizhi commonly costs around AED 250 to 700, depending on the clinic and session length. The total depends on how many sessions you need. Vedara Care shares exact prices on WhatsApp."
+    },
+    {
+      question: "How do I book Njavarakizhi in JVC?",
+      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number. Your first visit is a 45 to 60-minute consultation with Dr. Zainab."
+    }
   ]
 };
 
@@ -392,6 +420,11 @@ export const njavarakizhiRelatedPages = {
       title: "Panchakarma in Dubai",
       description: "For complex chronic conditions, Njavarakizhi is sometimes included as part of a 14–21 day classical Panchakarma protocol.",
       href: "/treatments/panchakarma-dubai/"
+    },
+    {
+      title: "Ayurveda for arthritis",
+      description: "Nourishing and anti-inflammatory care for joint and spine arthritis.",
+      href: "/conditions/arthritis-ayurveda-dubai/"
     },
     {
       title: "Compare All Ayurvedic Massages",

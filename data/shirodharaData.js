@@ -52,32 +52,32 @@ export const shirodharaBenefits = {
   label: "SHIRODHARA BENEFITS",
   title: "What people use Shirodhara for.",
   benefitGroups: [
-    { 
-      title: "Stress and anxiety", 
+    {
+      title: "Stress and anxiety",
       description: "A deeply calming therapy for long-term stress and anxiety, used alongside your usual care.",
       benefits: [
-        "Calmer mind and slower breathing during the session", 
-        "Often used in courses for work-related stress and burnout", 
+        "Calmer mind and slower breathing during the session",
+        "Often used in courses for work-related stress and burnout",
         "Can sit alongside counselling or medication"
-      ] 
+      ]
     },
-    { 
-      title: "Sleep", 
+    {
+      title: "Sleep",
       description: "One of the most common reasons people book Shirodhara.",
       benefits: [
-        "Used for difficulty falling or staying asleep", 
-        "Brahmi or Ksheerabala oil is often chosen", 
+        "Used for difficulty falling or staying asleep",
+        "Brahmi or Ksheerabala oil is often chosen",
         "Best results come from a course, not one session"
-      ] 
+      ]
     },
-    { 
-      title: "Headache, scalp and hair", 
+    {
+      title: "Headache, scalp and hair",
       description: "Used for tension headaches and, with the doctor's plan, for migraine and some hair-fall patterns.",
       benefits: [
-        "Tension and stress-related headaches", 
-        "Migraine support between attacks (not during one)", 
+        "Tension and stress-related headaches",
+        "Migraine support between attacks (not during one)",
         "Takradhara (buttermilk) for some scalp and hair-fall patterns"
-      ] 
+      ]
     }
   ],
   footer: "Results differ from person to person. Dr. Zainab will tell you at your consultation whether Shirodhara suits your condition."
@@ -161,7 +161,7 @@ export const shirodharaApplications = {
     { title: "Anxiety (alongside your usual care)", subtitle: "Usually a course of sessions", href: "/conditions/stress-anxiety-ayurveda-dubai/" },
     { title: "Poor sleep and insomnia", subtitle: "Usually a course of sessions", href: "/conditions/insomnia-ayurveda-jvc/" },
     { title: "Tension headaches and migraine", subtitle: "Between attacks, as part of a wider plan", href: "/conditions/migraine-ayurveda-dubai/" },
-    { title: "Some hair-fall and scalp patterns", subtitle: "Often with Takradhara", href: "/conditions/hair-loss-ayurveda-dubai/" }
+    { title: "Ayurveda for hair loss", subtitle: "Often with Takradhara", href: "/conditions/hair-loss-ayurveda-dubai/" }
   ],
   honestLimitsList: [
     {
@@ -227,48 +227,48 @@ export const shirodharaPrograms = {
   label: "PROGRAMMES",
   title: "Single session or a course: how Shirodhara is planned.",
   programs: [
-    { 
-      name: "Single session", 
-      price: "Prices shared on WhatsApp", 
+    {
+      name: "Single session",
+      price: "Prices shared on WhatsApp",
       duration: "Length set by your doctor",
       features: [
-        "Doctor consultation on your first visit", 
-        "Oil chosen for your condition", 
-        "Same-gender therapist", 
+        "Doctor consultation on your first visit",
+        "Oil chosen for your condition",
+        "Same-gender therapist",
         "Aftercare advice"
       ],
       bestFor: "Trying Shirodhara, or an occasional reset for <a href='/conditions/stress-anxiety-ayurveda-dubai/'>stress</a>",
-      buttonText: "Ask about a single session", 
-      whatsappMessage: "Hello Vedara Care, I would like to ask about a single Shirodhara session at your JVC clinic." 
+      buttonText: "Ask about a single session",
+      whatsappMessage: "Hello Vedara Care, I would like to ask about a single Shirodhara session at your JVC clinic."
     },
-    { 
-      name: "7-session course", 
-      price: "Prices shared on WhatsApp", 
-      duration: "Sessions usually 2-3 days apart", 
+    {
+      name: "7-session course",
+      price: "Prices shared on WhatsApp",
+      duration: "Sessions usually 2-3 days apart",
       featured: true,
       features: [
-        "Doctor consultation and oil selection", 
-        "7 Shirodhara sessions", 
-        "Doctor review during the course", 
+        "Doctor consultation and oil selection",
+        "7 Shirodhara sessions",
+        "Doctor review during the course",
         "Diet and sleep advice to follow at home"
       ],
       bestFor: "Long-term stress, <a href='/conditions/insomnia-ayurveda-jvc/'>poor sleep</a>, anxiety",
-      buttonText: "Ask about the 7-session course", 
-      whatsappMessage: "Hello Vedara Care, I would like to ask about the 7-session Shirodhara course at your JVC clinic." 
+      buttonText: "Ask about the 7-session course",
+      whatsappMessage: "Hello Vedara Care, I would like to ask about the 7-session Shirodhara course at your JVC clinic."
     },
-    { 
-      name: "14-session course", 
-      price: "Prices shared on WhatsApp", 
+    {
+      name: "14-session course",
+      price: "Prices shared on WhatsApp",
       duration: "Sessions usually 2-3 days apart",
       features: [
-        "Doctor consultation and oil selection", 
-        "14 Shirodhara sessions", 
-        "Oil may change during the course", 
+        "Doctor consultation and oil selection",
+        "14 Shirodhara sessions",
+        "Oil may change during the course",
         "Two doctor reviews"
       ],
       bestFor: "<a href='/conditions/migraine-ayurveda-dubai/'>Migraine</a>, severe sleep problems, <a href='/conditions/hair-loss-ayurveda-dubai/'>hair fall</a>",
-      buttonText: "Ask about the 14-session course", 
-      whatsappMessage: "Hello Vedara Care, I would like to ask about the 14-session Shirodhara course at your JVC clinic." 
+      buttonText: "Ask about the 14-session course",
+      whatsappMessage: "Hello Vedara Care, I would like to ask about the 14-session Shirodhara course at your JVC clinic."
     }
   ],
   footer: "Most Shirodhara courses are most effective when sessions are 2-3 days apart, not consecutive days. Your doctor will schedule the course rhythm based on your condition."
@@ -286,36 +286,66 @@ export const shirodharaFaqs = {
   buttonText: "Ask the team on WhatsApp",
   buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Shirodhara.",
   faqs: [
-    { question: "What is Shirodhara?",
-      answer: "Shirodhara is a classical Ayurvedic therapy in which a continuous stream of warm medicated oil is poured slowly across the forehead while you lie still. The name comes from Sanskrit: shiro (head) and dhara (flow). It is mainly used for stress, anxiety, poor sleep and headaches." },
-    { question: "Where can I get Shirodhara in JVC?",
-      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall. Shirodhara is prescribed by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor, and the clinic is open daily 9am to 10pm. It is close to JVT, Al Barsha South and Arjan." },
-    { question: "What are the benefits of Shirodhara?",
-      answer: "People use Shirodhara to feel calmer, sleep better and ease tension headaches. It is also used, as part of a wider plan, for migraine between attacks and some hair-fall patterns. Benefits usually build over a course of sessions rather than one visit." },
-    { question: "Does Shirodhara really work?",
-      answer: "Small studies report lower anxiety scores and better sleep after courses of Shirodhara, but reviews describe the overall evidence as limited. We use it alongside your usual medical care, not instead of it, and the doctor will tell you honestly whether it suits your condition." },
-    { question: "What does Shirodhara feel like?",
-      answer: "Most people feel warm and deeply relaxed. Many drift into a calm, half-asleep state during the oil stream, and feel slow and sleepy for a few hours afterwards." },
-    { question: "How long does a Shirodhara session take?",
-      answer: "It depends on your condition. Classical Shirodhara uses 30 to 60 minutes of oil stream; at Vedara Care the doctor sets your session length, which also includes a short head massage beforehand and rest afterwards." },
-    { question: "How many Shirodhara sessions do I need?",
-      answer: "One session can help with occasional stress. For sleep problems, anxiety or migraine, the doctor usually recommends a course, such as 7 or 14 sessions spaced 2 to 3 days apart." },
-    { question: "How much does Shirodhara cost in Dubai?",
-      answer: "Across Dubai, a Shirodhara session commonly costs around AED 350 to 800, depending on the clinic, session length and oil. The total depends on your condition and the number of sessions. Vedara Care shares exact prices on WhatsApp." },
-    { question: "Is Shirodhara good for hair growth?",
-      answer: "It can help some hair-fall patterns linked to stress or scalp conditions, usually with Takradhara (medicated buttermilk) as part of a wider plan. It is not a stand-alone hair-growth treatment; the doctor will assess the cause of your hair fall first." },
-    { question: "Are there side effects or people who should not have Shirodhara?",
-      answer: "Side effects are usually mild: feeling sleepy, oily hair, or a heavy head for a few hours. Shirodhara is not given in the first trimester of pregnancy, during a migraine attack, with fever or acute illness, with a scalp infection, or soon after eye surgery." },
-    { question: "Is Shirodhara safe during pregnancy?",
-      answer: "Shirodhara is not given in the first trimester. From the second trimester, Dr. Zainab may approve a gentler, modified session after assessing you. Postnatal Shirodhara is also available as part of postnatal Ayurvedic care." },
-    { question: "Will a male or female therapist treat me?",
-      answer: "A same-gender therapist: men are treated by male therapists and women by female therapists." },
-    { question: "Can I do Shirodhara at home?",
-      answer: "It is not recommended. The oil temperature, flow and positioning need a trained therapist and the right equipment. Vedara Care offers Shirodhara at the clinic only." },
-    { question: "Can I drive after Shirodhara?",
-      answer: "Most people can, but you may feel slow and sleepy for a few hours. Avoid long drives or demanding work straight afterwards; many patients book in the late afternoon and go home to rest." },
-    { question: "What is the difference between Shirodhara, Shirovasti and Abhyanga?",
-      answer: "Shirodhara pours a continuous stream of oil over the forehead. Shirovasti holds warm oil on the head inside a leather cap for a set time. Abhyanga is a full-body warm oil massage. All three are offered at Vedara Care; the doctor chooses which suits you." }
+    {
+      question: "What is Shirodhara?",
+      answer: "Shirodhara is a classical Ayurvedic therapy in which a continuous stream of warm medicated oil is poured slowly across the forehead while you lie still. The name comes from Sanskrit: shiro (head) and dhara (flow). It is mainly used for stress, anxiety, poor sleep and headaches."
+    },
+    {
+      question: "Where can I get Shirodhara in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall. Shirodhara is prescribed by Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor, and the clinic is open daily 9am to 10pm. It is close to JVT, Al Barsha South and Arjan."
+    },
+    {
+      question: "What are the benefits of Shirodhara?",
+      answer: "People use Shirodhara to feel calmer, sleep better and ease tension headaches. It is also used, as part of a wider plan, for migraine between attacks and some hair-fall patterns. Benefits usually build over a course of sessions rather than one visit."
+    },
+    {
+      question: "Does Shirodhara really work?",
+      answer: "Small studies report lower anxiety scores and better sleep after courses of Shirodhara, but reviews describe the overall evidence as limited. We use it alongside your usual medical care, not instead of it, and the doctor will tell you honestly whether it suits your condition."
+    },
+    {
+      question: "What does Shirodhara feel like?",
+      answer: "Most people feel warm and deeply relaxed. Many drift into a calm, half-asleep state during the oil stream, and feel slow and sleepy for a few hours afterwards."
+    },
+    {
+      question: "How long does a Shirodhara session take?",
+      answer: "It depends on your condition. Classical Shirodhara uses 30 to 60 minutes of oil stream; at Vedara Care the doctor sets your session length, which also includes a short head massage beforehand and rest afterwards."
+    },
+    {
+      question: "How many Shirodhara sessions do I need?",
+      answer: "One session can help with occasional stress. For sleep problems, anxiety or migraine, the doctor usually recommends a course, such as 7 or 14 sessions spaced 2 to 3 days apart."
+    },
+    {
+      question: "How much does Shirodhara cost in Dubai?",
+      answer: "Across Dubai, a Shirodhara session commonly costs around AED 350 to 800, depending on the clinic, session length and oil. The total depends on your condition and the number of sessions. Vedara Care shares exact prices on WhatsApp."
+    },
+    {
+      question: "Is Shirodhara good for hair growth?",
+      answer: "It can help some hair-fall patterns linked to stress or scalp conditions, usually with Takradhara (medicated buttermilk) as part of a wider plan. It is not a stand-alone hair-growth treatment; the doctor will assess the cause of your hair fall first."
+    },
+    {
+      question: "Are there side effects or people who should not have Shirodhara?",
+      answer: "Side effects are usually mild: feeling sleepy, oily hair, or a heavy head for a few hours. Shirodhara is not given in the first trimester of pregnancy, during a migraine attack, with fever or acute illness, with a scalp infection, or soon after eye surgery."
+    },
+    {
+      question: "Is Shirodhara safe during pregnancy?",
+      answer: "Shirodhara is not given in the first trimester. From the second trimester, Dr. Zainab may approve a gentler, modified session after assessing you. Postnatal Shirodhara is also available as part of postnatal Ayurvedic care."
+    },
+    {
+      question: "Will a male or female therapist treat me?",
+      answer: "A same-gender therapist: men are treated by male therapists and women by female therapists."
+    },
+    {
+      question: "Can I do Shirodhara at home?",
+      answer: "It is not recommended. The oil temperature, flow and positioning need a trained therapist and the right equipment. Vedara Care offers Shirodhara at the clinic only."
+    },
+    {
+      question: "Can I drive after Shirodhara?",
+      answer: "Most people can, but you may feel slow and sleepy for a few hours. Avoid long drives or demanding work straight afterwards; many patients book in the late afternoon and go home to rest."
+    },
+    {
+      question: "What is the difference between Shirodhara, Shirovasti and Abhyanga?",
+      answer: "Shirodhara pours a continuous stream of oil over the forehead. Shirovasti holds warm oil on the head inside a leather cap for a set time. Abhyanga is a full-body warm oil massage. All three are offered at Vedara Care; the doctor chooses which suits you."
+    }
   ]
 };
 

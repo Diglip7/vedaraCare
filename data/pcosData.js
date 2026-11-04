@@ -121,7 +121,7 @@ export const pcosSymptoms = {
     { title: "<a href='/conditions/weight-loss-ayurveda-dubai/'>Weight and insulin resistance</a>", content: "Change is gradual and depends a lot on diet and activity; tests help track it.", expected: "" },
     { title: "<a href='/conditions/skin-ayurveda-dubai/'>Acne and skin</a>", content: "Skin usually improves slowly, over a few months.", expected: "" },
     { title: "Extra hair growth", content: "The slowest to change; Ayurveda can support, but other treatments may also be needed.", expected: "" },
-    { title: "<a href='/conditions/hair-loss-ayurveda-dubai/'>Hair thinning</a>", content: "Shedding may settle before new growth is seen.", expected: "" },
+    { title: "<a href='/conditions/hair-loss-ayurveda-dubai/'>Ayurveda for hair loss</a> (hair thinning)", content: "Shedding may settle before new growth is seen.", expected: "" },
     { title: "Mood, energy and sleep", content: "Often helped by routine, sleep and calming therapies; see <a href='/conditions/migraine-ayurveda-dubai/'>Ayurveda for migraine</a> if headaches are linked to cycles.", expected: "" }
   ],
   footer: "We review your progress regularly and adjust the plan."
@@ -280,6 +280,11 @@ export const pcosRelatedPages = {
       title: "Ayurveda for thyroid",
       description: "Supportive care for thyroid conditions alongside your medicine.",
       href: "/conditions/thyroid-ayurveda-dubai/"
+    },
+    {
+      title: "Ayurveda for diabetes",
+      description: "Metabolic and insulin-resistance support alongside medicine.",
+      href: "/conditions/diabetes-ayurveda-dubai/"
     },
     {
       title: "Ayurvedic skin treatment",

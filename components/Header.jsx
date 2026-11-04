@@ -5,16 +5,15 @@ import { Phone, MessageCircle, Globe, Menu, X, Calendar, ChevronDown } from 'luc
 
 
 const AYURVEDA_PAGES = [
-  { href: '/ayurveda-dubai', label: 'Ayurveda in Dubai' },
-  { href: '/ayurveda-clinic-jvc', label: 'Ayurveda Clinic in JVC' },
+  { href: '/ayurveda-dubai/', label: 'Ayurveda in Dubai' },
+  { href: '/ayurveda-clinic-jvc/', label: 'Ayurveda Clinic in JVC' },
 ];
 const AYURVEDA_CONDITIONS = [
-  { href: '/conditions/arthritis-ayurveda-dubai', label: 'Arthritis (Ayurveda)' },
-  { href: '/conditions/back-pain-ayurveda-dubai', label: 'Back Pain (Ayurveda)' },
-  { href: '/conditions/back-pain-ayurveda-jvc', label: 'Back Pain in JVC (Ayurveda)' },
+  { href: '/conditions/arthritis-ayurveda-dubai/', label: 'Arthritis (Ayurveda)' },
+  { href: '/conditions/back-pain-ayurveda-dubai/', label: 'Back Pain (Ayurveda)' },
   { href: '/conditions/cervical-spondylosis-ayurveda-jvc/', label: 'Neck Pain & Cervical Spondylosis (Ayurveda)' },
-  { href: '/conditions/diabetes-ayurveda-dubai', label: 'Diabetes (Ayurveda)' },
-  { href: '/conditions/hair-loss-ayurveda-dubai', label: 'Hair Loss (Ayurveda)' },
+  { href: '/conditions/diabetes-ayurveda-dubai/', label: 'Diabetes (Ayurveda)' },
+  { href: '/conditions/hair-loss-ayurveda-dubai/', label: 'Hair Loss (Ayurveda)' },
   { href: '/conditions/ibs-ayurveda-dubai/', label: 'IBS & Digestion (Ayurveda)' },
   { href: '/conditions/migraine-ayurveda-dubai/', label: 'Migraine (Ayurveda)' },
   { href: '/conditions/pcos-ayurveda-dubai/', label: 'PCOS & PCOD (Ayurveda)' },

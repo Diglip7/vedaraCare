@@ -18,7 +18,7 @@ import {
   cuppingTherapyConditions,
   cuppingTherapySession,
   cuppingTherapyTeam,
-  cuppingTherapyPricing,
+  // cuppingTherapyPricing,
   cuppingTherapyReviews,
   cuppingTherapyFaqs,
   cuppingTherapyLocation,
@@ -278,7 +278,7 @@ const CuppingTherapyDubai = () => {
           bgColor={cuppingTherapyTeam.bgColor}
           gridColumns="lg:grid-cols-3"
         />
-        <ManualTherapyPricing {...cuppingTherapyPricing} />
+
         <FAQ {...cuppingTherapyFaqs} />
         <TreatmentLocation {...cuppingTherapyLocation} />
         <FinalCTA {...cuppingTherapyFinalCTA} />

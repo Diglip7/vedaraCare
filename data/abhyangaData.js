@@ -84,7 +84,7 @@ export const abhyangaVariants = {                           // NEW — rendered 
   title: "Other ways to have Abhyanga.",
   description: "All available at our JVC clinic, plus a routine you can do yourself.",
   oils: [
-    { name: "Shiro Abhyanga", description: "Head, neck and shoulders", content: "Warm oil massaged into the scalp, neck and shoulders.", indication: "tension headaches, stress, dry scalp" },
+    { name: "Shiro Abhyanga", description: "Head, neck and shoulders", content: "Warm oil massaged into the scalp, neck and shoulders.", indication: "tension headaches, stress, dry scalp; see <a href='/conditions/hair-loss-ayurveda-dubai/'>Ayurveda for hair loss</a>" },
     { name: "Padabhyanga", description: "Feet and lower legs", content: "Warm oil massage of the feet and lower legs.", indication: "tired feet, poor sleep" },
     { name: "Self-Abhyanga at home", description: "Daily self-care", content: "Dr. Zainab can teach you a simple daily routine: warm a small amount of the oil she recommends (bought at a pharmacy), massage head to feet for a few minutes, rest, then shower.", indication: "keeping the benefit between sessions" }
   ],

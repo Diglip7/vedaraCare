@@ -422,18 +422,18 @@ export const cuppingTherapyRelatedPages = {
   ]
 };
 
-export const cuppingTherapyPricing = {
-  bgColor: "bg-[#FAF7F2]",
-  label: "TRANSPARENT PRICING",
-  title: "What cupping therapy costs at our JVC clinic.",
-  pricingItems: [
-    { name: "Dry cupping session (30–45 minutes)", price: "AED 250", bg: "#FFFFFF" },
-    { name: "Dry cupping add-on to physiotherapy session", price: "AED 120", bg: "#FAF7F2" },
-    { name: "Massage cupping session (45–60 minutes)", price: "AED 290", bg: "#FFFFFF" },
-    { name: "Sports recovery cupping session", price: "AED 300", bg: "#FAF7F2" },
-    { name: "Chronic pain cupping programme (6 sessions)", price: "AED 1,200", bg: "#FAF7F2" },
-    { name: "Cupping integrated into physiotherapy programme (variable)", price: "From AED 1,500", bg: "#FFFFFF" }
-  ],
-  insuranceNote: "Insurance coverage for cupping varies by plan and condition — many insurance plans do not cover cupping as standalone treatment but may cover it when integrated with physiotherapy treatment for specific conditions. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife for physiotherapy services. <a href=\"https://wa.me/971555736312\" style=\"color: #C9A84C; text-decoration: underline; font-weight: 600;\">WhatsApp for coverage discussion</a>.",
-  insurers: []
-};
+// export const cuppingTherapyPricing = {
+//   bgColor: "bg-[#FAF7F2]",
+//   label: "TRANSPARENT PRICING",
+//   title: "What cupping therapy costs at our JVC clinic.",
+//   pricingItems: [
+//     { name: "Dry cupping session (30–45 minutes)", price: "AED 250", bg: "#FFFFFF" },
+//     { name: "Dry cupping add-on to physiotherapy session", price: "AED 120", bg: "#FAF7F2" },
+//     { name: "Massage cupping session (45–60 minutes)", price: "AED 290", bg: "#FFFFFF" },
+//     { name: "Sports recovery cupping session", price: "AED 300", bg: "#FAF7F2" },
+//     { name: "Chronic pain cupping programme (6 sessions)", price: "AED 1,200", bg: "#FAF7F2" },
+//     { name: "Cupping integrated into physiotherapy programme (variable)", price: "From AED 1,500", bg: "#FFFFFF" }
+//   ],
+//   insuranceNote: "Insurance coverage for cupping varies by plan and condition — many insurance plans do not cover cupping as standalone treatment but may cover it when integrated with physiotherapy treatment for specific conditions. We are direct-billing partners with Daman, AXA, Allianz, Oman Insurance, Now Health, Bupa, and MetLife for physiotherapy services. <a href=\"https://wa.me/971555736312\" style=\"color: #C9A84C; text-decoration: underline; font-weight: 600;\">WhatsApp for coverage discussion</a>.",
+//   insurers: []
+// };

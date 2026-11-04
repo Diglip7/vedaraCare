@@ -8,8 +8,28 @@ const ClinicalBoundaries = ({
   subtitle = "",
   leftCard = { items: [] },
   rightCard = { items: [] },
+  leftLabel,
+  leftTitle,
+  leftItems,
+  rightLabel,
+  rightTitle,
+  rightItems,
   footer = ""
 }) => {
+  const resolvedLeft = {
+    ...leftCard,
+    label: leftCard.label || leftLabel || "",
+    title: leftCard.title || leftTitle || "",
+    items: (leftCard.items && leftCard.items.length > 0) ? leftCard.items : (leftItems || []),
+  };
+
+  const resolvedRight = {
+    ...rightCard,
+    label: rightCard.label || rightLabel || "",
+    title: rightCard.title || rightTitle || "",
+    items: (rightCard.items && rightCard.items.length > 0) ? rightCard.items : (rightItems || []),
+  };
+
   return (
     <section className={`${bgColor} py-24 px-6`}>
       <div className="max-w-[1400px] mx-auto">
@@ -23,56 +43,58 @@ const ClinicalBoundaries = ({
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Left Card */}
-          <div className={`${leftCard.bgColor || 'bg-red-50'} p-8 rounded-xl border-2 ${leftCard.borderColor || 'border-red-200'}`}>
-            <div className={`text-sm font-sans font-semibold tracking-wider uppercase mb-4 ${leftCard.labelColor || 'text-red-500'}`} dangerouslySetInnerHTML={{ __html: leftCard.label }} />
+          <div className={`${resolvedLeft.bgColor || 'bg-red-50'} p-8 rounded-xl border-2 ${resolvedLeft.borderColor || 'border-red-200'}`}>
+            <div className={`text-sm font-sans font-semibold tracking-wider uppercase mb-4 ${resolvedLeft.labelColor || 'text-red-500'}`} dangerouslySetInnerHTML={{ __html: resolvedLeft.label }} />
             
-            {leftCard.alertBox && (
-              <div className={`${leftCard.alertBg || 'bg-red-100'} p-4 rounded-lg mb-6 border-l-4 ${leftCard.alertBorder || 'border-red-500'}`}>
-                <p className={`text-sm ${leftCard.alertTextColor || 'text-red-900'} font-sans leading-relaxed`} dangerouslySetInnerHTML={{ __html: leftCard.alertBox }} />
+            {resolvedLeft.alertBox && (
+              <div className={`${resolvedLeft.alertBg || 'bg-red-100'} p-4 rounded-lg mb-6 border-l-4 ${resolvedLeft.alertBorder || 'border-red-500'}`}>
+                <p className={`text-sm ${resolvedLeft.alertTextColor || 'text-red-900'} font-sans leading-relaxed`} dangerouslySetInnerHTML={{ __html: resolvedLeft.alertBox }} />
               </div>
             )}
 
             <h3 
-              className={`${leftCard.titleClass || 'text-lg font-sans font-medium'} text-[#1A1A1A] mb-8 leading-relaxed`}
-              dangerouslySetInnerHTML={{ __html: leftCard.title }}
+              className={`${resolvedLeft.titleClass || 'text-lg font-sans font-medium'} text-[#1A1A1A] mb-8 leading-relaxed`}
+              dangerouslySetInnerHTML={{ __html: resolvedLeft.title }}
             />
             <ul className="space-y-4 mb-8">
-              {leftCard.items.map((item, index) => (
+              {resolvedLeft.items.map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm text-gray-700 font-sans">
-                  {leftCard.useWarningIcon ? (
-                    <AlertTriangle className={`w-4 h-4 mt-0.5 shrink-0 ${leftCard.iconColor || 'text-red-500'}`} />
+                  {resolvedLeft.useWarningIcon ? (
+                    <AlertTriangle className={`w-4 h-4 mt-0.5 shrink-0 ${resolvedLeft.iconColor || 'text-red-500'}`} />
+                  ) : item.icon === 'check' ? (
+                    <Check className={`w-4 h-4 mt-0.5 shrink-0 text-red-500`} />
                   ) : (
-                    <span className={`w-1.5 h-1.5 rounded-full mt-2 shrink-0 ${leftCard.bulletColor || 'bg-red-500'}`} />
+                    <span className={`w-1.5 h-1.5 rounded-full mt-2 shrink-0 ${resolvedLeft.bulletColor || 'bg-red-500'}`} />
                   )}
-                  <span dangerouslySetInnerHTML={{ __html: item }} />
+                  <span dangerouslySetInnerHTML={{ __html: item.text || item }} />
                 </li>
               ))}
             </ul>
-            {leftCard.footer && (
-              <p className="text-sm text-gray-500 font-sans leading-relaxed pt-6 border-t border-gray-100" dangerouslySetInnerHTML={{ __html: leftCard.footer }} />
+            {resolvedLeft.footer && (
+              <p className="text-sm text-gray-500 font-sans leading-relaxed pt-6 border-t border-gray-100" dangerouslySetInnerHTML={{ __html: resolvedLeft.footer }} />
             )}
           </div>
 
           {/* Right Card */}
-          <div className={`${rightCard.bgColor || 'bg-[#FAF8F3]'} p-8 rounded-xl border-2 ${rightCard.borderColor || 'border-[#C9A961]/30'}`}>
-            <div className={`text-sm font-sans font-semibold tracking-wider uppercase mb-4 ${rightCard.labelColor || 'text-[#C9A961]'}`} dangerouslySetInnerHTML={{ __html: rightCard.label }} />
+          <div className={`${resolvedRight.bgColor || 'bg-[#FAF8F3]'} p-8 rounded-xl border-2 ${resolvedRight.borderColor || 'border-[#C9A961]/30'}`}>
+            <div className={`text-sm font-sans font-semibold tracking-wider uppercase mb-4 ${resolvedRight.labelColor || 'text-[#C9A961]'}`} dangerouslySetInnerHTML={{ __html: resolvedRight.label }} />
             <h3 
-              className={`${rightCard.titleClass || 'text-lg font-sans font-medium'} text-[#1A1A1A] mb-8 leading-relaxed`}
-              dangerouslySetInnerHTML={{ __html: rightCard.title }}
+              className={`${resolvedRight.titleClass || 'text-lg font-sans font-medium'} text-[#1A1A1A] mb-8 leading-relaxed`}
+              dangerouslySetInnerHTML={{ __html: resolvedRight.title }}
             />
             <ul className="space-y-5">
-              {rightCard.items.map((item, index) => (
+              {resolvedRight.items.map((item, index) => (
                 <li key={index} className="flex items-start gap-4 text-sm text-gray-700 font-sans leading-relaxed">
-                  <Check className={`w-5 h-5 mt-0.5 shrink-0 ${rightCard.checkColor || 'text-[#C9A961]'}`} />
+                  <Check className={`w-5 h-5 mt-0.5 shrink-0 ${resolvedRight.checkColor || 'text-[#C9A961]'}`} />
                   <span dangerouslySetInnerHTML={{ __html: item.text || item }} />
                 </li>
               ))}
             </ul>
 
-            {rightCard.bestPractice && (
+            {resolvedRight.bestPractice && (
               <div className="mt-8 p-6 bg-[#F2F2E2] rounded-lg border border-[#C9A961]/20">
                 <p className="text-[14px] text-gray-700 leading-relaxed font-sans">
-                  <span className="font-bold">Best practice:</span> <span dangerouslySetInnerHTML={{ __html: rightCard.bestPractice }} />
+                  <span className="font-bold">Best practice:</span> <span dangerouslySetInnerHTML={{ __html: resolvedRight.bestPractice }} />
                 </p>
               </div>
             )}

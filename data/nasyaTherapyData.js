@@ -74,7 +74,7 @@ export const nasyaApplications = {
     { title: "Chronic sinusitis and allergic rhinitis", subtitle: "Alongside your ENT or GP", href: "/ayurveda-dubai/#conditions" },
     { title: "Migraine and headaches", subtitle: "Between attacks, as part of a plan", href: "/conditions/migraine-ayurveda-dubai/" },
     { title: "Neck stiffness and cervical spondylosis", subtitle: "Often with physiotherapy", href: "/conditions/cervical-spondylosis-ayurveda-jvc/" },
-    { title: "Hair fall and early greying", subtitle: "Part of a wider plan", href: "/conditions/hair-loss-ayurveda-dubai/" },
+    { title: "Ayurveda for hair loss", subtitle: "Part of a wider plan", href: "/conditions/hair-loss-ayurveda-dubai/" },
     { title: "Poor sleep", subtitle: "Often with Shirodhara", href: "/treatments/shirodhara-dubai/" }
   ]
 };

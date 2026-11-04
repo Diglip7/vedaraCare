@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { SITE, SCHEMA_ADDRESS } from '../../lib/site';
 import { ayurvedaReviewsBlock } from '../../data/googleReviews';
 import TreatmentReviews from '../../components/ayurveda/TreatmentReviews';
 import AyurvedaHero from '../../components/ayurveda/AyurvedaHero';
@@ -6,10 +7,12 @@ import AyurvedaIntro from '../../components/ayurveda/AyurvedaIntro';
 import ClinicalBoundaries from '../../components/ayurveda/ClinicalBoundaries';
 import ArthritisTypes from '../../components/ayurveda/ArthritisTypes';
 import ArthritisPillars from '../../components/ayurveda/ArthritisPillars';
+import TreatmentMechanism from '../../components/ayurveda/TreatmentMechanism';
+import TreatmentIntegration from '../../components/ayurveda/TreatmentIntegration';
+import TreatmentLocation from '../../components/ayurveda/TreatmentLocation';
 import RelatedPages from '../../components/ayurveda/RelatedPages';
 import FAQ from '../../components/home/FAQ';
 import CTA from '../../components/home/CTA';
-
 
 import {
   arthritisHero,
@@ -17,247 +20,178 @@ import {
   arthritisBoundaries,
   arthritisTypesData,
   arthritisPillars,
+  arthritisEvidence,
+  arthritisIntegration,
   arthritisFaqs,
+  arthritisLocation,
   arthritisCTA,
   arthritisRelatedPages,
 } from '../../data/arthritisData';
 
+const PAGE = {
+  url: 'https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/',
+  title: 'Ayurvedic Treatment for Arthritis in JVC, Dubai | Vedara',   // 56 characters
+  description: 'Ayurvedic arthritis and joint pain care in JVC, Dubai: Janu Basti, Kizhi, herbs and Panchakarma alongside your rheumatologist, with GP tests on site.',   // 149 characters
+  image: 'https://vedaracare.ae/images/arthritis-ayurveda-dubai-hero.webp',
+  reviewed: '2026-11-10',
+};
+
+const SITE_URL = SITE.url;
+const URL = PAGE.url;
+const ORG_ID = `${SITE_URL}/#organization`;
+const ZAINAB_ID = `${SITE_URL}/doctors/dr-zainab-ayurveda/#physician`;
+const REVIEWED = PAGE.reviewed;
+const stripTags = (s) => String(s).replace(/<[^>]+>/g, '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': ['MedicalClinic', 'LocalBusiness'],
+      '@id': ORG_ID,
+      name: SITE.name,
+      url: `${SITE_URL}/`,
+      telephone: SITE.phone,
+      address: SCHEMA_ADDRESS,
+      geo: { '@type': 'GeoCoordinates', latitude: 25.0683417, longitude: 55.2120945 },
+      hasMap: SITE.mapsUrl,
+      openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '09:00', closes: '22:00' }],
+      medicalSpecialty: ['Ayurveda', 'Physiotherapy', 'Dermatology'],
+      hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'license',
+        name: 'DHA Healthcare Facility Licence', identifier: SITE.facilityLicence },
+    },
+    {
+      '@type': 'Physician',
+      '@id': ZAINAB_ID,
+      name: 'Dr. Zainab Sheikh',
+      url: `${SITE_URL}/doctors/dr-zainab-ayurveda/`,
+      medicalSpecialty: 'Ayurveda',
+      knowsLanguage: ['en', 'ml', 'hi'],
+      worksFor: { '@id': ORG_ID },
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${URL}#webpage`,
+      url: URL,
+      name: 'Ayurvedic Treatment for Arthritis in JVC, Dubai | Vedara',
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      publisher: { '@id': ORG_ID },
+      about: { '@id': `${URL}#condition` },
+      mainEntity: { '@id': `${URL}#therapy` },
+      audience: { '@type': 'PatientAudience' },
+      primaryImageOfPage: `${SITE_URL}/images/arthritis-ayurveda-dubai-hero.webp`,
+      datePublished: REVIEWED,
+      dateModified: REVIEWED,
+      lastReviewed: REVIEWED,
+      reviewedBy: { '@id': ZAINAB_ID },
+      breadcrumb: { '@id': `${URL}#breadcrumb` },
+    },
+    {
+      '@type': 'MedicalCondition',
+      '@id': `${URL}#condition`,
+      name: 'Arthritis',
+      alternateName: ['Osteoarthritis', 'Sandhivata', 'Amavata'],
+      possibleTreatment: { '@id': `${URL}#therapy` },
+    },
+    {
+      '@type': 'MedicalTherapy',
+      '@id': `${URL}#therapy`,
+      name: 'Ayurvedic treatment for arthritis',
+      alternateName: ['Ayurveda for arthritis', 'Ayurvedic treatment for joint pain', 'Sandhivata treatment', 'Amavata treatment'],
+      description: "Ayurvedic care for arthritis and joint pain — local oil therapies, herbal bundles, monitored herbs, diet and Panchakarma where needed — alongside rheumatology, with GP tests and physiotherapy at the same clinic.",
+      relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Ayurveda' },
+      indication: ['Osteoarthritis', 'Knee osteoarthritis', 'Rheumatoid arthritis (supportive)', 'Gout (between flares)', 'Psoriatic arthritis (supportive)', 'Ankylosing spondylitis (supportive)'].map((name) => ({ '@type': 'MedicalIndication', name })),
+      contraindication: ['Acute hot swollen joint before assessment', 'Stopping DMARDs or biologics', 'Herbs without liver monitoring when indicated'].map((name) => ({ '@type': 'MedicalContraindication', name })),
+      adverseOutcome: ['Temporary liver-enzyme rise with some herbs', 'Skin irritation from oils'].map((name) => ({ '@type': 'MedicalEntity', name })),
+    },
+    {
+      '@type': 'Service',
+      '@id': `${URL}#service`,
+      name: 'Ayurvedic treatment for arthritis in JVC, Dubai',
+      serviceType: 'Ayurvedic treatment for arthritis',
+      provider: { '@id': ORG_ID },
+      areaServed: ['Jumeirah Village Circle (JVC)', 'Jumeirah Village Triangle (JVT)', 'Al Barsha South', 'Arjan', 'Dubai']
+        .map((name) => ({ '@type': 'Place', name })),
+      availableChannel: { '@type': 'ServiceChannel', serviceUrl: `${SITE_URL}/book/` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${URL}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: 'Ayurvedic Treatment in Dubai', item: `${SITE_URL}/ayurveda-dubai/` },
+        { '@type': 'ListItem', position: 3, name: 'Ayurvedic treatment for arthritis in JVC', item: URL },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': `${URL}#faq`,
+      mainEntity: arthritisFaqs.faqs.map((f) => ({ '@type': 'Question', name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: stripTags(f.answer) } })),
+    },
+  ],
+};
+
 const AyurvedaArthritis = () => {
-  const schemaMarkup = [
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "@id": "https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/#condition",
-      "name": "Arthritis",
-      "alternateName": ["Joint Disease", "Sandhi Roga", "Inflammatory Arthritis", "Degenerative Joint Disease"],
-      "code": [
-        {"@type": "MedicalCode", "code": "M19", "codingSystem": "ICD-10"},
-        {"@type": "MedicalCode", "code": "M05", "codingSystem": "ICD-10"},
-        {"@type": "MedicalCode", "code": "M10", "codingSystem": "ICD-10"}
-      ],
-      "associatedAnatomy": [
-        {"@type": "AnatomicalStructure", "name": "Joint"},
-        {"@type": "AnatomicalStructure", "name": "Synovium"},
-        {"@type": "AnatomicalStructure", "name": "Cartilage"}
-      ],
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Joint pain"},
-        {"@type": "MedicalSymptom", "name": "Joint stiffness"},
-        {"@type": "MedicalSymptom", "name": "Reduced range of motion"},
-        {"@type": "MedicalSymptom", "name": "Joint swelling"},
-        {"@type": "MedicalSymptom", "name": "Morning stiffness"},
-        {"@type": "MedicalSymptom", "name": "Joint deformity (advanced)"},
-        {"@type": "MedicalSymptom", "name": "Functional impairment"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Janu Vasti"},
-        {"@type": "MedicalProcedure", "name": "Greeva Vasti"},
-        {"@type": "MedicalProcedure", "name": "Kati Vasti", "url": "https://vedaracare.ae/treatments/kativasti-dubai/"},
-        {"@type": "MedicalProcedure", "name": "Patra Pinda Sweda"},
-        {"@type": "MedicalProcedure", "name": "Pizhichil"},
-        {"@type": "MedicalProcedure", "name": "Njavarakizhi", "url": "https://vedaracare.ae/treatments/njavarakizhi-dubai/"},
-        {"@type": "MedicalProcedure", "name": "Panchakarma", "url": "https://vedaracare.ae/treatments/panchakarma-dubai/"},
-        {"@type": "MedicalTherapy", "name": "Physiotherapy", "url": "https://vedaracare.ae/physiotherapy-jvc/"},
-        {"@type": "MedicalTherapy", "name": "Ayurvedic anti-inflammatory medicines"}
-      ],
-      "riskFactor": [
-        {"@type": "MedicalRiskFactor", "name": "Age (osteoarthritis)"},
-        {"@type": "MedicalRiskFactor", "name": "Genetic predisposition"},
-        {"@type": "MedicalRiskFactor", "name": "Autoimmune disease (inflammatory arthritis)"},
-        {"@type": "MedicalRiskFactor", "name": "Obesity"},
-        {"@type": "MedicalRiskFactor", "name": "Previous joint injury"},
-        {"@type": "MedicalRiskFactor", "name": "Sedentary lifestyle"},
-        {"@type": "MedicalRiskFactor", "name": "HLA-B27 (ankylosing spondylitis)"},
-        {"@type": "MedicalRiskFactor", "name": "Hyperuricaemia (gout)"}
-      ]
-    },
-    // Replicate for all subtypes
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalCondition",
-      "name": "Knee Osteoarthritis",
-      "alternateName": ["Janu Sandhivata", "Knee OA"],
-      "code": {"@type": "MedicalCode", "code": "M17", "codingSystem": "ICD-10"},
-      "signOrSymptom": [
-        {"@type": "MedicalSymptom", "name": "Knee pain with activity"},
-        {"@type": "MedicalSymptom", "name": "Morning stiffness less than 30 minutes"},
-        {"@type": "MedicalSymptom", "name": "Crepitus"},
-        {"@type": "MedicalSymptom", "name": "Reduced knee range of motion"}
-      ],
-      "possibleTreatment": [
-        {"@type": "MedicalProcedure", "name": "Janu Vasti"},
-        {"@type": "MedicalTherapy", "name": "Yogaraja Guggulu"},
-        {"@type": "MedicalTherapy", "name": "Integrated physiotherapy"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "@id": "https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/#webpage",
-      "name": "Ayurveda for Arthritis in Dubai",
-      "url": "https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/",
-      "about": {"@id": "https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/#condition"},
-      "audience": {
-        "@type": "PatientAudience",
-        "geographicArea": {"@type": "Place", "name": "Dubai, United Arab Emirates"}
-      },
-      "lastReviewed": "2026-05-28",
-      "reviewedBy": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "hasCredential": "DHA-Licensed BAMS, MD (Ayurveda)"
-      },
-      "primaryImageOfPage": "https://vedaracare.ae/images/arthritis-ayurveda-dubai-hero.webp"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Ayurvedic Arthritis Treatment Programmes",
-      "provider": {"@id": "https://vedaracare.ae/#organization"},
-      "areaServed": [
-        {"@type": "Place", "name": "Jumeirah Village Circle"},
-        {"@type": "Place", "name": "Jumeirah Village Triangle"},
-        {"@type": "Place", "name": "Al Barsha South"},
-        {"@type": "Place", "name": "Dubai Sports City"},
-        {"@type": "Place", "name": "Motor City"},
-        {"@type": "Place", "name": "Arjan"},
-        {"@type": "Place", "name": "Dubai Hills Estate"},
-        {"@type": "City", "name": "Dubai"},
-        {"@type": "Place", "name": "United Arab Emirates"}
-      ],
-      "serviceType": "Ayurvedic Treatment for Arthritis",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Arthritis Programmes",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Arthritis Initial Assessment",
-            "priceCurrency": "AED",
-            "price": "350",
-            "description": "60-minute consultation with BAMS physician at JVC clinic, type identification, written plan with realistic expectations"
-          },
-          {
-            "@type": "Offer",
-            "name": "Standard 4-6 Month Arthritis Programme",
-            "priceCurrency": "AED",
-            "price": "0",
-            "description": "Four to six month structured Ayurvedic arthritis treatment with localised joint therapies, internal medicines, dietary protocols"
-          },
-          {
-            "@type": "Offer",
-            "name": "Comprehensive Integrated Arthritis Programme",
-            "priceCurrency": "AED",
-            "price": "0",
-            "description": "Six to nine month programme with integrated physiotherapy, Panchakarma where appropriate, coordination with rheumatology and orthopaedics"
-          }
-        ]
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Ayurveda for Arthritis in Dubai — A Complete Clinical Guide",
-      "image": "https://vedaracare.ae/images/arthritis-ayurveda-dubai-hero.jpg",
-      "datePublished": "2026-05-28",
-      "dateModified": "2026-05-28",
-      "author": {
-        "@type": "Physician",
-        "name": "Dr. Zainab Sheikh",
-        "url": "https://vedaracare.ae/doctors/dr-zainab-ayurveda/"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Vedara Care Polyclinic",
-        "logo": {"@type": "ImageObject", "url": "https://vedaracare.ae/logo.png"}
-      },
-      "mainEntityOfPage": "https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vedaracare.ae/"},
-        {"@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://vedaracare.ae/conditions/"},
-        {"@type": "ListItem", "position": 3, "name": "Ayurveda for Arthritis in Dubai", "item": "https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/"}
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Does Ayurvedic treatment actually work for arthritis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For osteoarthritis: yes, substantially. Most of our knee, hip, and spine osteoarthritis patients at the JVC clinic see meaningful reduction in pain and function improvement over 6 months. For rheumatoid arthritis and other inflammatory arthritis: Ayurvedic treatment is supportive — providing meaningful symptom relief and quality-of-life improvement but never replacing immunosuppressive medications. For frozen shoulder: outcomes are particularly strong."
-          }
-        },
-        ...arthritisFaqs.faqs.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
-      ]
-    }
-  ];
   return (
     <>
       <Head>
-        <title>Ayurveda for Arthritis in Dubai | JVC Clinic | Vedara Care</title>
-        <meta name="description" content="DHA-licensed Ayurvedic arthritis treatment at our JVC clinic, Dubai — type-specific programmes for osteoarthritis, RA, gout, frozen shoulder, spondylosis. Integrated with rheumatology." />
-        <link rel="canonical" href="https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/" />
-        <link rel="alternate" hreflang="en-AE" href="https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/" />
-        <link rel="alternate" hreflang="x-default" href="https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/" />
-        
-        <meta property="og:title" content="Ayurveda for Arthritis in Dubai — Type-Specific Treatment at Our JVC Clinic" />
-        <meta property="og:description" content="DHA-licensed Ayurvedic arthritis treatment at our Jumeirah Village Circle clinic. Different protocols for osteoarthritis, rheumatoid arthritis, gout, ankylosing spondylitis, frozen shoulder. Coordinated with rheumatology and orthopaedics." />
-        <meta property="og:image" content="https://vedaracare.ae/og-images/arthritis-ayurveda-dubai.jpg" />
-        <meta property="og:url" content="https://vedaracare.ae/conditions/arthritis-ayurveda-dubai/" />
+        <title>{PAGE.title}</title>
+        <meta name="description" content={PAGE.description} />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <link rel="canonical" href={PAGE.url} />
+        <link rel="alternate" hrefLang="en-AE" href={PAGE.url} />
+        <link rel="alternate" hrefLang="x-default" href={PAGE.url} />
+        <meta property="og:title" content={PAGE.title} />
+        <meta property="og:description" content={PAGE.description} />
+        <meta property="og:url" content={PAGE.url} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="en_AE" />
-        <meta property="article:published_time" content="2026-05-28T09:00:00Z" />
-        <meta property="article:modified_time" content="2026-05-28T09:00:00Z" />
-        <meta property="article:author" content="Dr. Zainab Sheikh" />
+        <meta property="og:image" content={PAGE.image} />
+        <meta property="article:published_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
+        <meta property="article:modified_time" content={`${PAGE.reviewed}T09:00:00+04:00`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <meta name="twitter:title" content={PAGE.title} />
+        <meta name="twitter:description" content={PAGE.description} />
+        <meta name="twitter:image" content={PAGE.image} />
 
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       </Head>
-      <main>
-        <AyurvedaHero {...arthritisHero} />
-        
-        <AyurvedaIntro {...arthritisIntro} />
-         <ArthritisTypes 
-          {...arthritisTypesData}
-          bgColor="bg-[#FAF8F3]"
-        />
-        <ClinicalBoundaries 
-          {...arthritisBoundaries}
-          bgColor="bg-white"/>
-        <ArthritisPillars 
-          {...arthritisPillars}
-          bgColor="bg-[#F5F1E8]"
-        />
 
-        <TreatmentReviews {...ayurvedaReviewsBlock()} />
+      <AyurvedaHero {...arthritisHero} />
+      <AyurvedaIntro {...arthritisIntro} />
+      <ArthritisTypes 
+        {...arthritisTypesData}
+        bgColor="bg-[#FAF8F3]"
+      />
+      <ClinicalBoundaries 
+        {...arthritisBoundaries}
+        bgColor="bg-white"
+      />
+      <ArthritisPillars 
+        {...arthritisPillars}
+        bgColor="bg-[#F5F1E8]"
+      />
+      <TreatmentMechanism {...arthritisEvidence} />
+      <TreatmentIntegration {...arthritisIntegration} />
 
-        <FAQ {...arthritisFaqs} />
+      <TreatmentReviews {...ayurvedaReviewsBlock()} />
 
-        <CTA {...arthritisCTA} />
+      <FAQ {...arthritisFaqs} />
 
-        <RelatedPages 
-          {...arthritisRelatedPages}
-          bgColor="bg-white"
-        />
-      </main>
+      <TreatmentLocation {...arthritisLocation} />
+
+      <CTA {...arthritisCTA} />
+
+      <RelatedPages 
+        {...arthritisRelatedPages}
+        bgColor="bg-white"
+      />
     </>
   );
 };

@@ -438,7 +438,7 @@ export const kneePainArthritis = {
     "<strong>What physiotherapy includes</strong><br/>A strength and balance programme, manual therapy, heat, TENS or electrical stimulation for pain, advice on pacing activity, and a plan you can continue at home or in the gym.",
     "<strong>Weight management</strong><br/>Each kilogram lost reduces the load through the knee. Our in-house GP can support weight management alongside your physiotherapy.",
     "<strong>Injections</strong><br/>Vedara Care does not give knee injections. If pain stays severe despite exercise, our GP can refer you to a specialist to discuss steroid or other injections.",
-    "<strong>Ayurvedic option</strong><br/>Some patients also choose Ayurvedic care for knee pain and osteoarthritis at our clinic; see <a href='/treatments/janu-basti-jvc/'>Janu Basti (Janu Vasti)</a> or broader <a href='/conditions/arthritis-ayurveda-dubai/'>Ayurvedic arthritis treatment</a>."
+    "<strong>Ayurvedic option</strong><br/>Some patients also choose Ayurvedic care for knee pain and osteoarthritis at our clinic; see <a href='/treatments/janu-basti-jvc/'>Janu Basti (Janu Vasti)</a> or broader <a href='/conditions/arthritis-ayurveda-dubai/'>Ayurveda for arthritis</a>."
   ],
   image: "/images/knee-anatomy-illustration.webp",
   alt: "Knee osteoarthritis physiotherapy at Vedara Care, JVC, Dubai"

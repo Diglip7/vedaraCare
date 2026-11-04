@@ -53,7 +53,7 @@ export const thyroidTypes = {                               // rendered with Tre
   title: "Which thyroid condition do you have?",
   description: "Ayurvedic care differs by condition; your thyroid medicine always comes first.",
   oils: [
-    { name: "Hypothyroidism on levothyroxine", description: "Underactive thyroid", content: "Results in range but still tired, gaining weight or feeling low.", indication: "energy, digestion, weight, mood" },
+    { name: "Hypothyroidism on levothyroxine", description: "Underactive thyroid", content: "Results in range but still tired, gaining weight, hair thinning or feeling low.", indication: "energy, digestion, weight, <a href='/conditions/hair-loss-ayurveda-dubai/'>Ayurveda for hair loss</a>" },
     { name: "Hashimoto's thyroiditis", description: "Autoimmune, underactive", content: "Diet, stress and routine support alongside levothyroxine.", indication: "symptoms and overall well-being" },
     { name: "Subclinical hypothyroidism", description: "Borderline results", content: "Monitored by our GP; Ayurveda supports diet and routine.", indication: "early, mild changes" },
     { name: "After thyroid removal or radioactive iodine", description: "Lifelong levothyroxine", content: "Support for energy and quality of life; the medicine dose is never affected by Ayurveda.", indication: "quality of life" },
@@ -184,6 +184,7 @@ export const thyroidRelatedPages = {
   pages: [
     { title: "Ayurvedic weight loss", description: "When weight is part of the picture.", href: "/conditions/weight-loss-ayurveda-dubai/" },
     { title: "Ayurveda for PCOS", description: "Hormonal care for women.", href: "/conditions/pcos-ayurveda-dubai/" },
+    { title: "Ayurveda for diabetes", description: "Metabolic and blood-sugar support alongside medicine.", href: "/conditions/diabetes-ayurveda-dubai/" },
     { title: "Postnatal Ayurveda", description: "Including thyroid problems after birth.", href: "/conditions/postnatal-ayurveda-dubai/" },
     { title: "Ayurvedic consultation", description: "Pulse diagnosis and a full assessment.", href: "/treatments/nadi-pareeksha-jvc/" }
   ]

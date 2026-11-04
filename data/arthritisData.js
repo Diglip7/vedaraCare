@@ -1,198 +1,305 @@
 export const arthritisHero = {
   breadcrumb: [
     { label: "Home", href: "/" },
-    { label: "Conditions", href: "/conditions/" },
-    { label: "Ayurveda for Arthritis in Dubai", active: true }
+    { label: "Ayurvedic Treatment in Dubai", href: "/ayurveda-dubai/" },
+    { label: "Arthritis & Joint Pain (Ayurveda)", active: true }
   ],
-  label: "AYURVEDA FOR ARTHRITIS · DHA-LICENSED CLINIC IN JVC, DUBAI",
-  title: "\"Arthritis\" describes\nfifteen different\ndiseases. Your\ntreatment should\nreflect which one you\nhave.",
-  description: "Authentic Ayurvedic treatment for arthritis in Dubai begins with identifying which type — osteoarthritis, rheumatoid arthritis, gout, ankylosing spondylitis, frozen shoulder, psoriatic arthritis. Each has different Ayurvedic protocols, different realistic outcomes, and different roles for conventional rheumatology. At our Jumeirah Village Circle (JVC) clinic, structured 3 to 9-month programmes combine Panchakarma, localised joint therapies, internal medicines, and integrated physiotherapy — working alongside your rheumatologist or orthopaedic specialist.",
-  primaryCTA: "Book an Arthritis Consultation",
+  label: "AYURVEDA FOR ARTHRITIS & JOINT PAIN · JVC, DUBAI · DHA FACILITY LICENCE 2509266",
+  title: "Ayurvedic treatment for arthritis in JVC, Dubai — type first, alongside your rheumatologist.",
+  description: "Osteoarthritis, rheumatoid and other arthritis need different plans. Dr. Zainab Sheikh (BAMS, MD Ayurveda) identifies your type, then combines Janu Basti, herbal bundles, prescribed herbs and diet — with GP blood tests and physiotherapy at the same clinic near Circle Mall, JVC.",
+  primaryCTA: "Book an arthritis consultation",
+  primaryCTAHref: "/book/",
   secondaryCTA: "Chat on WhatsApp",
-  primaryCTAHref: "/book",
-  secondaryCTAHref: "https://wa.me/971555736312?text=Hi,%20I'm%20interested%20in%20Arthritis%20treatment.%20Please%20share%20more%20details.",
+  secondaryCTAHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20would%20like%20to%20ask%20about%20Ayurvedic%20arthritis%20treatment.",
   trustSignals: [
-    "We Work With Your Rheumatologist",
-    "Comprehensive Joint Care",
-    "Integrated Ayurveda + Physiotherapy",
-    "Walking Distance from Circle Mall, JVC"
+    "DHA Facility Licence 2509266",
+    "BAMS, MD (Ayurveda) doctor",
+    "GP tests + physiotherapy on site",
+    "Never stop DMARDs"
   ],
   floatingCard: {
     title: "EXAMINATION FIRST, TREATMENT SECOND.",
     subtitle: "Range of motion assessment, joint examination, inflammatory pattern review. The treatment plan follows from what we find."
   },
-  image: "arthritis-ayurveda-dubai-hero.webp",
+  image: "/images/arthritis-ayurveda-dubai-hero.webp",
   alt: "Ayurvedic doctor examining knee joint range of motion at Vedara Care JVC clinic Dubai"
 };
 
 export const arthritisIntro = {
   bgColor: "bg-white",
   label: "THE QUICK ANSWER",
-  title: "Ayurvedic arthritis treatment in Dubai, in one paragraph.",
-  blockquote: "Ayurvedic treatment for arthritis in Dubai is a 3 to 9-month structured medical programme combining classical Panchakarma protocols (typically Virechana for inflammatory patterns; Basti for Vata-pattern joint disease), localised joint therapies (Janu Vasti for knees, Greeva Vasti for cervical, specific protocols for shoulders and other joints), Njavarakizhi (medicated rice bolus therapy for muscle and joint nourishment), internal Ayurvedic medicines (typically including Dashamoola, Yogaraja Guggulu, Maharasnadi Kashayam, Sahacharadi formulations), dietary regulation, and integrated physiotherapy where indicated. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), Dubai — next to Circle Mall — protocols are specific to your arthritis subtype and work alongside rheumatology or orthopaedic care. Initial consultations start from AED 350.",
-  footer: "Medically reviewed by Dr. Zainab Sheikh, Ayurveda Practitioner, DHA licence 20918133 · Last reviewed June 2026"
+  title: "Ayurveda for arthritis, in one paragraph.",
+  blockquote: "Ayurvedic treatment for arthritis starts with the type: osteoarthritis (Sandhivata) is treated mainly with local oil therapies such as Janu Basti, herbal bundles (Kizhi), prescribed herbs like Shallaki (Boswellia) and diet, while inflammatory types such as rheumatoid arthritis (closest to Amavata) receive only supportive care alongside a rheumatologist, without stopping methotrexate, biologics or other DMARDs. In a 440-patient double-blind trial, an Ayurvedic formulation was as effective as glucosamine and celecoxib for knee osteoarthritis pain and function over six months, though a few patients had a temporary liver-enzyme rise, so herbs are monitored. Ayurveda cannot cure arthritis, but it can ease pain and stiffness and support movement, often best together with physiotherapy. At Vedara Care Polyclinic in Jumeirah Village Circle (JVC), near Circle Mall, care starts with a 45 to 60 minute consultation with Dr. Zainab Sheikh (BAMS, MD Ayurveda, DHA-licensed); our GP can order arthritis and liver blood tests, and our physiotherapists work at the same clinic. The clinic is open daily 9am to 10pm and is close to JVT, Al Barsha South and Arjan.",
+  footer: "Medically reviewed by Dr. Zainab Sheikh, BAMS, MD (Ayurveda), DHA licence 20918133. Reviewed November 2026."
 };
 
 export const arthritisTypesData = {
   label: "TYPE MATTERS",
-  title: "Seven major arthritis types. Each has different Ayurvedic treatment.",
-  description: "The single biggest reason Ayurvedic arthritis treatment underperforms is treating all arthritis types identically. At our JVC clinic, identifying your specific type is the foundation of an effective protocol.",
+  title: "Seven arthritis types. Each needs a different plan.",
+  description: "Dr. Zainab confirms your type at the consultation; our GP can order blood tests to help.",
   types: [
     {
       title: "Osteoarthritis (Degenerative)",
       sanskritName: "Sandhivata in classical Sanskrit",
-      description: "The most common arthritis type. Wear and tear degeneration of joint cartilage, typically affecting knees, hips, spine, and small finger joints. Onset usually after age 45. Pain worsens with use, improves with rest. Common in JVC's older population. Ayurvedic treatment is particularly valuable for pain management, joint mobility, slowing progression, and improving quality of life. Sometimes delays the timing of <a href=\"/physiotherapy/post-surgery-rehab-dubai/\" class=\"text-[#C9A961] hover:underline\">joint replacement</a>.",
-      emphasis: "Janu Vasti for knees, Vata-pacifying Panchakarma, Yogaraja Guggulu, Njavarakizhi for muscle support, integrated physiotherapy"
+      description: "The most common arthritis type. Wear and tear degeneration of joint cartilage, typically affecting knees, hips, spine, and small finger joints. Onset usually after age 45. Pain worsens with use, improves with rest. Ayurvedic care focuses on pain relief, joint mobility, muscle support and daily function.",
+      emphasis: "<a href='/treatments/janu-basti-jvc/'>Janu Basti</a> for knees, warm oil therapies, <a href='/treatments/njavarakizhi-dubai/'>Njavarakizhi</a>, prescribed herbs such as Shallaki, and integrated physiotherapy"
     },
     {
       title: "Rheumatoid Arthritis (Inflammatory Autoimmune)",
       sanskritName: "Amavata in classical Sanskrit",
-      description: "Autoimmune inflammatory arthritis affecting small joints symmetrically, typically hands, wrists, feet. Morning stiffness exceeding one hour is characteristic. Onset usually 30-60, female predominance 3:1. Requires ongoing rheumatology care including DMARDs (methotrexate, leflunomide) and often biologics (adalimumab, infliximab, tocilizumab). Ayurvedic treatment provides supportive care — pain modulation, joint protection, immune balance support — never replacing immunosuppressive medications.",
-      emphasis: "Amavata-specific protocols, Yogaraja Guggulu, dietary regulation (specific anti-Ama protocols), gentle Panchakarma, rheumatology coordination throughout"
+      description: "Autoimmune inflammatory arthritis affecting small joints symmetrically, typically hands, wrists, feet. Requires ongoing rheumatology care including DMARDs (methotrexate, leflunomide) and biologics. Never stop or change immunosuppressive medications.",
+      emphasis: "Supportive care only, alongside your rheumatologist; gentle therapies outside flares, anti-Ama diet, and herbs monitored with blood tests"
     },
     {
       title: "Gout (Crystalline)",
       sanskritName: "Vatarakta in classical Sanskrit",
-      description: "Inflammatory arthritis from monosodium urate crystal deposition. Acute attacks of severe joint pain — classically big toe, but any joint. Predominantly affects men 40+, women post-menopause. Linked to hyperuricaemia, diet, alcohol, and metabolic syndrome. Ayurvedic treatment particularly valuable for prevention, lifestyle modification, and acute attack management — alongside allopurinol or colchicine where prescribed.",
-      emphasis: "Pitta-Vata pacification, dietary protocols (specific anti-Ama, low-purine principles), Punarnava-based medicines, lifestyle modification, integration with conventional uric acid management"
+      description: "Inflammatory arthritis from uric acid crystal deposition. Acute attacks of severe joint pain — classically big toe, but any joint. Linked to diet, metabolic factors and kidney clearance.",
+      emphasis: "Supportive care only, alongside your doctor; dietary guidance, Pitta-pacifying herbs, and GP monitoring of uric acid levels"
     },
     {
       title: "Ankylosing Spondylitis (Spinal Inflammatory)",
       sanskritName: "Asthi-Majja Gata Vata patterns",
-      description: "Inflammatory arthritis primarily affecting the spine and sacroiliac joints. Typically men 20-40, characteristic morning stiffness, gradual fusion of spinal vertebrae over years. Strong HLA B27 genetic association. Requires rheumatology care including NSAIDs and often biologics. Ayurvedic treatment provides adjunctive support — pain management, postural protection, quality of life — alongside conventional immunosuppression.",
-      emphasis: "Pizhichil and Kati Vasti protocols, Vata pacification, postural and movement protocols, rheumatology coordination throughout"
+      description: "Inflammatory arthritis primarily affecting the spine and sacroiliac joints. Characterised by morning stiffness and reduced spinal flexibility. Requires rheumatology care.",
+      emphasis: "Supportive care only, alongside your rheumatologist; gentle warm oil therapies, posture care and physiotherapy"
     },
     {
       title: "Psoriatic Arthritis (Inflammatory with Skin Component)",
       sanskritName: "Multiple classical patterns including Vatarakta-Kustha overlap",
-      description: "Inflammatory arthritis associated with psoriasis. Can affect any joint pattern — sometimes RA-like, sometimes spine-predominant, sometimes asymmetric. Complex disease often requiring biologics for both skin and joints. Ayurvedic treatment addresses both components — joint inflammation and skin manifestations — but always alongside dermatology and rheumatology.",
-      emphasis: "Combined skin-joint protocols, Panchakarma where appropriate, integration with dermatology and rheumatology"
+      description: "Inflammatory arthritis associated with psoriasis. Can affect peripheral joints or the spine. Complex condition requiring coordinated care.",
+      emphasis: "Supportive care only, alongside your rheumatologist; soothing external therapies, dietary care and stress support"
     },
     {
       title: "Frozen Shoulder (Adhesive Capsulitis)",
       sanskritName: "Apabahuka in classical Sanskrit",
-      description: "Distinct condition not strictly arthritis but commonly grouped with arthritis presentations. Progressive shoulder stiffness and pain with limited range of motion. Typically affects 40-60 age group, particularly diabetics. Self-limiting over 12-24 months without treatment but profoundly disabling during active phase. Ayurvedic treatment significantly shortens recovery timeline and reduces pain.",
-      emphasis: "Specific shoulder protocols including <a href=\"/treatments/patra-pinda-sweda-jvc/\" class=\"text-[#C9A961] hover:underline transition-colors\">Patra Pinda Sweda</a>, Nasya, internal medicines for Vata pacification, integrated physiotherapy is essential"
+      description: "Progressive shoulder stiffness and pain with restricted range of motion, common in people with diabetes or after minor injury.",
+      emphasis: "Kizhi, localised warm oils, gentle mobilising therapies and shoulder physiotherapy"
     },
     {
-      title: "Cervical and Lumbar Spondylosis",
-      sanskritName: "Greevasandhigata Vata, Katisandhigata Vata",
-      description: "Degenerative arthritis of the cervical (neck) and <a href=\"/conditions/back-pain-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline\">lumbar spondylosis</a>. Common in 40+ population, particularly in office workers with poor posture, prevalent in Dubai's expat working population. Different from back pain — involves specific joint and disc degeneration patterns. Often responds well to Ayurvedic treatment combined with physiotherapy.",
-      emphasis: "Greeva Vasti for cervical, Kati Vasti for lumbar, Vata pacification, postural and ergonomic protocols, integrated physiotherapy"
+      title: "Cervical or Lumbar Spondylosis (Spinal Osteoarthritis)",
+      sanskritName: "Sandhigata Vata of the spine",
+      description: "Degenerative changes in cervical or lumbar vertebrae and facet joints causing neck, shoulder or back pain.",
+      emphasis: "<a href='/treatments/kativasti-dubai/'>Kati Vasti</a> for lower back, Greeva Vasti for neck, Elakizhi and spinal physiotherapy"
     }
   ]
 };
 
 export const arthritisBoundaries = {
-  label: "A FUNDAMENTAL DISTINCTION",
-  title: "Inflammatory vs degenerative arthritis — completely different treatment philosophy.",
-  subtitle: "",
+  label: "INFLAMMATORY VS DEGENERATIVE",
+  title: "Two very different disease categories. Two completely different protocols.",
+  subtitle: "Understanding this distinction is the single most important diagnostic decision in Ayurvedic arthritis care.",
   leftCard: {
-    label: "AUTOIMMUNE DISEASE",
-    title: "Inflammatory Arthritis",
+    label: "INFLAMMATORY ARTHRITIS (RA, AS, PSORIATIC)",
+    title: "Autoimmune systemic inflammation",
     items: [
-      "Rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, juvenile arthritis",
-      "These are autoimmune diseases where the immune system attacks joint tissue. They are progressive without treatment, can cause permanent joint damage, and have systemic effects beyond the joints. Modern medicine has transformed these conditions through DMARDs and biologics that genuinely slow or stop disease progression.",
-      "Conventional treatment is essential — methotrexate, biologics, immunosuppressants are disease-modifying",
-      "Ayurveda is supportive only — never replaces disease-modifying therapy",
-      "Rheumatology lead — Ayurvedic doctor coordinates with rheumatologist",
-      "Goal is supportive care — pain modulation, joint protection, quality of life, adjunctive immune balance",
-      "What we explicitly do not do — recommend stopping methotrexate, biologics, or other DMARDs"
+      { text: "Our GP can order ESR, CRP, rheumatoid factor and anti-CCP tests and refer you to a rheumatologist", icon: "check" },
+      { text: "Must always be coordinated with a conventional rheumatologist", icon: "check" },
+      { text: "Conventional DMARDs / biologics must NEVER be stopped without rheumatologist approval", icon: "check" },
+      { text: "Ayurvedic treatment is supportive / adjunctive — not primary disease-modifying therapy", icon: "check" },
+      { text: "Deep Panchakarma contraindicated during active acute inflammatory flares", icon: "check" },
+      { text: "Different internal medicine protocols (Ama-reducing, not purely Vata-nourishing)", icon: "check" },
+      { text: "Joint damage prevention requires conventional immunosuppressive control", icon: "check" }
     ],
     footer: ""
   },
   rightCard: {
-    label: "WEAR-AND-TEAR",
-    title: "Degenerative Arthritis",
+    label: "DEGENERATIVE ARTHRITIS (OSTEOARTHRITIS)",
+    title: "\"Wear and tear\" cartilage loss",
     items: [
-      { text: "Osteoarthritis (knee, hip, spine, hand), cervical and lumbar spondylosis, frozen shoulder", icon: "check" },
-      { text: "These are conditions of cumulative joint wear, cartilage loss, and biomechanical change over time. They are not autoimmune. Modern medicine offers limited disease-modifying treatment — primarily pain management, physiotherapy, joint replacement when severe. Ayurvedic treatment often produces meaningful symptom improvement and may slow progression.", icon: "check" },
-      { text: "Ayurveda can be primary treatment — for many patients, particularly early-to-moderate disease", icon: "check" },
-      { text: "Sometimes delays surgery — joint replacement timing may be deferred meaningfully", icon: "check" },
-      { text: "Strong pain management — particularly with localised therapies like Janu Vasti", icon: "check" },
-      { text: "Combined with physiotherapy — produces best outcomes", icon: "check" },
-      { text: "Orthopaedic coordination essential — for advanced disease and surgical decisions", icon: "check" }
+      { text: "Primary intervention can be Ayurvedic — high clinical effectiveness", icon: "check" },
+      { text: "Localised therapies (Janu Basti) deliver direct benefit to joint structures", icon: "check" },
+      { text: "Vata-pacifying internal medicines and external oils indicated", icon: "check" },
+      { text: "Integrated physiotherapy provides functional movement and muscle strengthening", icon: "check" },
+      { text: "Aim: pain reduction, improved mobility, slowing progression, preserving joint function", icon: "check" },
+      { text: "Safe for long-term supportive management with periodic physician reviews", icon: "check" }
     ]
   },
-  footer: "Confusing these categories — treating rheumatoid arthritis as if it were osteoarthritis or vice versa — produces poor outcomes and sometimes harm. The first step at our JVC clinic is confirming which category your arthritis falls into."
+  leftLabel: "INFLAMMATORY ARTHRITIS (RA, AS, PSORIATIC)",
+  leftTitle: "Autoimmune systemic inflammation",
+  leftItems: [
+    { text: "Our GP can order ESR, CRP, rheumatoid factor and anti-CCP tests and refer you to a rheumatologist", icon: "check" },
+    { text: "Must always be coordinated with a conventional rheumatologist", icon: "check" },
+    { text: "Conventional DMARDs / biologics must NEVER be stopped without rheumatologist approval", icon: "check" },
+    { text: "Ayurvedic treatment is supportive / adjunctive — not primary disease-modifying therapy", icon: "check" },
+    { text: "Deep Panchakarma contraindicated during active acute inflammatory flares", icon: "check" },
+    { text: "Different internal medicine protocols (Ama-reducing, not purely Vata-nourishing)", icon: "check" },
+    { text: "Joint damage prevention requires conventional immunosuppressive control", icon: "check" }
+  ],
+  rightLabel: "DEGENERATIVE ARTHRITIS (OSTEOARTHRITIS)",
+  rightTitle: "\"Wear and tear\" cartilage loss",
+  rightItems: [
+    { text: "Primary intervention can be Ayurvedic — high clinical effectiveness", icon: "check" },
+    { text: "Localised therapies (Janu Basti) deliver direct benefit to joint structures", icon: "check" },
+    { text: "Vata-pacifying internal medicines and external oils indicated", icon: "check" },
+    { text: "Integrated physiotherapy provides functional movement and muscle strengthening", icon: "check" },
+    { text: "Aim: pain reduction, improved mobility, slowing progression, preserving joint function", icon: "check" },
+    { text: "Safe for long-term supportive management with periodic physician reviews", icon: "check" }
+  ],
+  footer: "We will never tell a rheumatoid arthritis patient to stop methotrexate or biologics. Doing so causes irreversible joint destruction. Authentic Ayurvedic physicians understand immunology and know where our medicine stops."
 };
 
 export const arthritisPillars = {
   label: "THE TREATMENT APPROACH",
-  title: "Ayurvedic arthritis treatment has four pillars.",
-  description: "Single-pillar approaches — 'just take this anti-inflammatory herb,' 'just do Panchakarma,' 'just rest the joint' — produce limited results because arthritis involves multiple layers requiring integrated treatment. The 3-9 month programme addresses all four pillars consistently.",
+  title: "Ayurvedic arthritis care has four parts.",
+  description: "Most plans combine all four, adjusted for your type.",
   pillars: [
     {
-      title: "Localised Joint Therapies",
-      description: "The most clinically distinctive Ayurvedic intervention for arthritis. Specific localised therapies depending on affected joint — <a href=\"/treatments/janu-basti-jvc/\" class=\"text-[#C9A961] hover:underline\">Janu Vasti</a> (warm medicated oil reservoir over the knee) for knee arthritis, Greeva Vasti for cervical spondylosis, <a href=\"/treatments/kativasti-dubai/\" class=\"text-[#C9A961] hover:underline\">Kati Vasti</a> for lumbar spondylosis, specific protocols for shoulders, Pizhichil for whole-body arthritis presentations. These therapies deliver medicated oils directly to the affected joint tissue with sustained warmth — typically 30-45 minutes per session, courses of 7-14 sessions."
+      title: "Local joint therapies",
+      description: "<a href='/treatments/janu-basti-jvc/'>Janu Basti</a> for knees, <a href='/treatments/kativasti-dubai/'>Kati Vasti</a> for the lower back, Greeva Vasti for the neck, and <a href='/treatments/patra-pinda-sweda-jvc/'>Kizhi</a> herbal bundles for stiff joints."
     },
     {
-      title: "Panchakarma Cleansing",
-      description: "For inflammatory arthritis subtypes (RA, PsA, gout) and complex osteoarthritis with systemic involvement, classical <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline\">Panchakarma</a> — typically Virechana for inflammatory patterns, sometimes Basti for Vata-pattern joint disease — addresses underlying systemic inflammation. Performed once during the programme, typically months 2-3. Carefully contraindicated in patients on biologics or with active inflammatory flares; coordinated with rheumatology."
+      title: "Panchakarma where needed",
+      description: "<a href='/treatments/panchakarma-dubai/'>Panchakarma</a> or Basti for selected patients after assessment — not needed for most people."
     },
     {
-      title: "Internal Medicines for Joint Disease",
-      description: "Specific Ayurvedic medicines selected for your arthritis type and dosha pattern. For osteoarthritis: Dashamoola, Yogaraja Guggulu, Maharasnadi Kashayam. For rheumatoid arthritis: Amavata-specific Yogaraja Guggulu, Simhanada Guggulu, Vaiswanara Churna. For gout: Punarnava-based formulations, Kaishore Guggulu. For ankylosing spondylitis: specific Vata-pacifying combinations. Doses are individualised, adjusted monthly, and reviewed for interactions with conventional medications."
+      title: "Prescribed herbs, monitored",
+      description: "For example Shallaki (Boswellia) or classical Guggulu preparations, chosen for your type, checked against your medicines, with GP liver tests when needed."
     },
     {
-      title: "<a href=\"/physiotherapy-jvc/\" class=\" \">Dietary Regulation, Lifestyle & Integrated Physiotherapy",
-      description: "Most arthritis subtypes respond significantly to dietary modification — anti-inflammatory protocols, dosha-specific adjustments, and for gout specifically, dietary purine management. Movement protocols are calibrated to your joints — protective range-of-motion work for inflammatory arthritis, strengthening protocols for osteoarthritis, postural protocols for spondylosis. Integration with physiotherapy at our JVC clinic, often incorporating specialized therapies like <a href=\"/treatments/njavarakizhi-dubai/\" class=\"text-[#C9A961] hover:underline\">Njavarakizhi</a>, provides combined Ayurvedic-physiotherapy care that consistently outperforms either approach alone."
+      title: "Diet, weight and movement",
+      description: "Anti-inflammatory, easy-to-digest food, healthy weight for weight-bearing joints, and movement planned with our physiotherapists."
     }
   ]
 };
 
+export const arthritisEvidence = {
+  bgColor: "bg-white",
+  label: "WHAT THE RESEARCH SAYS",
+  title: "The evidence, honestly.",
+  content: [
+    "In a 6-month, double-blind trial of 440 people with knee osteoarthritis, standardised Ayurvedic formulations significantly reduced knee pain and improved function, and were equivalent to glucosamine and celecoxib.",
+    "In the same trial, some patients had a temporary, symptom-free rise in a liver enzyme that returned to normal after stopping; the researchers called for further safety study. That is why we monitor herbs with blood tests.",
+    "A review of this research programme found Ayurvedic medicines consistently safe in trials but often not superior to standard treatment. We use Ayurveda to ease symptoms, alongside medical care."
+  ],
+  sources: "Sources: <a href='https://pubmed.ncbi.nlm.nih.gov/23365148/' target='_blank' rel='noopener'>Chopra et al. 2013, Rheumatology (PubMed)</a> · <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3087360/' target='_blank' rel='noopener'>Chopra et al. 2010, Ayurveda-modern medicine interface in arthritis (PMC)</a>",
+  image: "/images/arthritis-ayurveda-dubai-hero.webp",
+  alt: "Ayurvedic arthritis consultation at Vedara Care, JVC"
+};
+
+export const arthritisIntegration = {
+  bgColor: "bg-[#F5F1E8]",
+  label: "AYURVEDA + PHYSIOTHERAPY",
+  title: "One plan for your joints, at one clinic in JVC.",
+  paragraphs: [
+    "Ayurvedic therapies ease pain and stiffness; physiotherapy strengthens the muscles around the joint and keeps you moving. For knee osteoarthritis, see also <a href='/conditions/knee-pain-physiotherapy-dubai/'>knee physiotherapy</a>.",
+    "At Vedara Care, Dr. Zainab, our GP and our physiotherapists plan your care together."
+  ],
+  image: "/images/janu-basti-warm-oil-therapy-knee-ayurveda-jvc.webp",
+  alt: "Janu Basti and physiotherapy for knee arthritis at Vedara Care, JVC",
+  features: [
+    "Ayurveda, GP and physiotherapy at one clinic",
+    "Sessions planned around each other",
+    "Blood-test monitoring of herbs",
+    "Home exercises"
+  ],
+  button1Text: "Book a consultation",
+  button1Link: "/book/",
+  button2Text: "Knee physiotherapy",
+  button2Link: "/conditions/knee-pain-physiotherapy-dubai/"
+};
+
 export const arthritisFaqs = {
+  bgColor: "bg-[#F9F6F1]",
   label: "ARTHRITIS QUESTIONS",
-  title: "What patients ask before starting Ayurvedic arthritis treatment.",
-  description: "For specific joint treatments (Kativasti for back), see the treatment pages. For back-specific arthritis, see our <a href=\"/conditions/back-pain-ayurveda-dubai/\" class=\"text-[#C9A961] hover:underline transition-colors\">back pain page</a>. <a href=\"/treatments/panchakarma-dubai/\" class=\"text-[#C9A961] hover:underline\">Read about Panchakarma</a> or <a href=\"/physiotherapy-jvc/\" class=\"text-[#C9A961] hover:underline\">Read about Physiotherapy in JVC</a>.",
-  buttonText: "Ask the Clinical Team",
-  bgColor: "bg-[#F9F7F3]",
+  sidebarLinks: [
+    { text: "Janu Basti", href: "/treatments/janu-basti-jvc/" },
+    { text: "Knee physiotherapy", href: "/conditions/knee-pain-physiotherapy-dubai/" },
+    { text: "Ayurveda for back pain", href: "/conditions/back-pain-ayurveda-dubai/" }
+  ],
+  title: "Ayurveda for arthritis: your questions answered.",
+  description: "Answers reviewed by Dr. Zainab Sheikh. For other therapies, see our <a href=\"/ayurveda-dubai/\">guide to Ayurvedic treatment in Dubai</a>.",
+  buttonText: "Ask the team on WhatsApp",
+  buttonHref: "https://wa.me/971555736312?text=Hello%20Vedara%20Care%2C%20I%20have%20a%20question%20about%20Ayurvedic%20arthritis%20treatment.",
   faqs: [
     {
-      question: "Does Ayurvedic treatment actually work for arthritis?",
-      answer: "For osteoarthritis: yes, substantially. Most of our knee, hip, and spine osteoarthritis patients at the JVC clinic see meaningful reduction in pain and function improvement over 6 months. For rheumatoid arthritis and other inflammatory arthritis: Ayurvedic treatment is supportive — providing meaningful symptom relief and quality-of-life improvement but never replacing immunosuppressive medications. For frozen shoulder: outcomes are particularly strong, often shortening recovery from 18-24 months to 4-6 months."
+      question: "Can Ayurveda help arthritis?",
+      answer: "Ayurveda can help many people with arthritis manage pain, stiffness and function, especially osteoarthritis, using local oil therapies, herbal bundles, prescribed herbs and diet. A large trial found an Ayurvedic formulation as effective as glucosamine and celecoxib for knee osteoarthritis pain over six months."
     },
     {
       question: "Can Ayurveda cure arthritis?",
-      answer: "No — and any clinic that promises this is being dishonest. Osteoarthritis is a progressive degenerative condition; Ayurvedic treatment can substantially slow progression and manage symptoms but not reverse joint degeneration. Rheumatoid arthritis and other autoimmune arthritis are chronic diseases requiring ongoing management. What sustained Ayurvedic treatment can produce: meaningful pain reduction, function improvement, slowed progression for OA, fewer flares for inflammatory arthritis, reduced medication needs in some cases, and improved quality of life."
+      answer: "No, and any clinic that promises this is being dishonest. Osteoarthritis is a long-term degenerative condition and inflammatory arthritis is an autoimmune disease; Ayurveda aims to ease symptoms and support function."
     },
     {
-      question: "Will Ayurvedic treatment delay my knee replacement surgery?",
-      answer: "Often, yes — particularly for moderate osteoarthritis without severe structural changes on X-ray. Many of our knee OA patients at the JVC clinic significantly delay or sometimes avoid joint replacement through 4-6 month programmes combining Janu Vasti, internal medicines, and physiotherapy. The decision about timing of joint replacement remains your orthopaedic surgeon's; we provide the symptom and function improvement that supports deferring surgery when clinically appropriate."
+      question: "Where can I get Ayurvedic arthritis treatment in JVC?",
+      answer: "At Vedara Care Polyclinic, Shop 4, Binghatti Azure, Jumeirah Village Circle (JVC), near Circle Mall, with Dr. Zainab Sheikh, a DHA-licensed Ayurvedic doctor. Our GP and physiotherapists work at the same clinic. Open daily 9am to 10pm."
     },
     {
-      question: "How is Ayurvedic treatment different for RA vs osteoarthritis?",
-      answer: "Fundamentally different. Rheumatoid arthritis is autoimmune disease requiring conventional DMARDs (methotrexate, leflunomide) and often biologics — these are disease-modifying and essential. Ayurvedic treatment for RA is supportive — pain modulation, joint protection, adjunctive immune balance, quality of life. We never recommend stopping RA medications. Osteoarthritis is degenerative; Ayurvedic treatment can be primary therapy for many patients, particularly with strong localised joint therapies and physiotherapy integration."
+      question: "Can I continue methotrexate or biologics with Ayurveda?",
+      answer: "Yes. We never recommend stopping methotrexate, biologics or other DMARDs. Ayurvedic care is planned around your rheumatologist's treatment, and herbs are checked against your medicines."
     },
     {
-      question: "Can I do Ayurvedic treatment while on methotrexate or biologics?",
-      answer: "Yes. Many of our rheumatoid arthritis and ankylosing spondylitis patients are on methotrexate, hydroxychloroquine, biologics (adalimumab, etanercept, infliximab, tocilizumab), or JAK inhibitors. Ayurvedic treatment is compatible. We do not adjust your immunosuppressive medications — that is your rheumatologist's decision based on disease activity, ESR/CRP, and clinical response. We coordinate throughout the programme."
+      question: "Is Ayurveda good for knee osteoarthritis?",
+      answer: "It can help. Local therapies such as Janu Basti and herbal bundles ease pain and stiffness, and in a 440-patient trial an Ayurvedic formulation matched glucosamine and celecoxib for knee pain and function. Physiotherapy to strengthen the knee usually helps too."
+    },
+    {
+      question: "Can Ayurveda help rheumatoid arthritis?",
+      answer: "As supportive care alongside your rheumatologist: diet, gentle therapies outside flares, and herbs only after checking your medicines. Rheumatoid arthritis always needs disease-modifying treatment."
+    },
+    {
+      question: "What is Amavata?",
+      answer: "Amavata is the classical Ayurvedic description closest to rheumatoid arthritis: joint pain and swelling linked to poor digestion and 'Ama' (undigested residue)."
+    },
+    {
+      question: "What is Shallaki (Boswellia)?",
+      answer: "Shallaki is the Ayurvedic name for Boswellia serrata, a resin traditionally used for joint pain and inflammation and included in some trial formulations. It is prescribed by the doctor and bought at a licensed pharmacy."
+    },
+    {
+      question: "Are Ayurvedic herbs for arthritis safe?",
+      answer: "Generally well tolerated, but in one large trial some patients had a temporary rise in a liver enzyme. That is why our GP can check liver tests while you take herbs, and herbs are always checked against your other medicines."
+    },
+    {
+      question: "Can Ayurveda help gout?",
+      answer: "It can support diet and lifestyle between attacks. A hot, swollen joint during a gout flare needs medical treatment first; our GP can check uric acid levels."
+    },
+    {
+      question: "Can I combine Ayurveda with physiotherapy?",
+      answer: "Yes. At our JVC clinic, Dr. Zainab and our physiotherapists can plan both together, so you have one plan for pain, stiffness and strength."
+    },
+    {
+      question: "How long does Ayurvedic arthritis treatment take?",
+      answer: "It depends on the type of arthritis and how long you have had it. Most plans run for a few months with regular reviews."
     },
     {
       question: "How much does Ayurvedic arthritis treatment cost in Dubai?",
-      answer: "At Vedara Care, initial assessment starts from AED [price]. A standard 4-6 month arthritis programme starts from AED [price]. A comprehensive integrated programme starts from AED [price]. Across Dubai, comprehensive Ayurvedic arthritis programmes typically range from AED 8,000 to AED 25,000. Knee replacement surgery in Dubai typically costs AED 40,000-80,000 — for OA patients potentially delaying or avoiding surgery, the Ayurvedic programme often pays for itself many times over."
+      answer: "Across Dubai, an Ayurvedic consultation commonly costs around AED 200 to 500 and a therapy session around AED 250 to 700; tests and herbs are extra. Vedara Care shares exact prices on WhatsApp and does not bill insurers directly."
     },
     {
-      question: "How quickly will I feel improvement?",
-      answer: "Most osteoarthritis patients feel meaningful pain reduction within the first 4-5 sessions of localised therapy (typically 2-3 weeks). For frozen shoulder, range of motion often improves visibly by week 2-3. For rheumatoid arthritis, the supportive effects accumulate over 8-12 weeks. For inflammatory arthritis flares, expect supportive symptom relief but not rapid disease modification."
-    },
-    {
-      question: "Where exactly is your arthritis clinic in Dubai?",
-      answer: "Our clinic is at Al Barsha South Fourth, Binghatti Azure, Shop -4, Jumeirah Village Circle (JVC), Dubai, UAE. Free patient parking is available. Patients travel to us from across Dubai including JVC, JVT, Al Barsha South, Dubai Sports City, Motor City, Arjan, Dubai Hills, Marina, Downtown, Palm Jumeirah, and Mirdif. For elderly patients with mobility limitations, we also offer home services for some sessions."
+      question: "How do I book?",
+      answer: "Book online, message us on WhatsApp at +971 55 573 6312, or call the same number. Bring recent X-rays, blood tests and your rheumatologist's notes."
     }
   ]
+};
+
+export const arthritisLocation = {
+  bgColor: "bg-[#F5F1E8]",
+  label: "VISIT US",
+  title: "Arthritis care in JVC, near Circle Mall.",
+  address: "Shop 4, Binghatti Azure, Al Barsha South Fourth, Jumeirah Village Circle (JVC), Dubai",
+  phone: "+971 55 573 6312",
+  whatsapp: "971555736312",
+  whatsappMessage: "Hello Vedara Care, I would like to ask about Ayurvedic arthritis treatment at your JVC clinic.",
+  email: "booking@vedaracare.ae",
+  hours: "Monday - Sunday - 9:00AM to 10:00PM",
+  landmarks: [
+    "Near Circle Mall",
+    "Close to JSS Private School",
+    "Free and paid parking available"
+  ],
+  description: "Patients visit us from JVC, JVT, Al Barsha South, Arjan, Dubai Production City, Sports City and Motor City.",
+  distances: [],
+  buttonText: "Book an arthritis consultation",
+  buttonHref: "/book/"
 };
 
 export const arthritisCTA = {
   label: "READY?",
   title: "Begin with the assessment that treats your specific arthritis.",
-  description: "If you have been managing arthritis with general \"anti-inflammatory\" approaches that do not address your specific type, the first useful step is a 60-minute consultation that takes your specific condition seriously. We confirm your arthritis type, examine your specific joints, review your current treatments, and design a 4-9 month programme tailored to whether you have osteoarthritis, rheumatoid arthritis, gout, ankylosing spondylitis, frozen shoulder, or another specific pattern. We coordinate with your rheumatologist or orthopaedic specialist throughout.",
+  description: "In 45 to 60 minutes, Dr. Zainab will review your joint symptoms, check recent X-rays or blood tests, confirm your arthritis type and design a personalised plan. Our GP can order tests on site, and we coordinate with your rheumatologist throughout.",
   button1Text: "Book an Arthritis Consultation",
-  button1Href: "/book",
+  button1Href: "/book/",
   button2Text: "Chat on WhatsApp",
   button2Href: "https://wa.me/971555736312?text=Hello%20Vedara%20Care,%20I%20would%20like%20to%20know%20more%20about%20Arthritis%20treatment.%20Please%20assist%20me.",
-  subtext: "Initial consultation from AED 350 · Walking distance from Circle Mall, JVC · Integrated Ayurveda + physiotherapy · Insurance direct-billing",
-  bgColor: "bg-[#F5F1E8]",
+  subtext: "Prices shared on WhatsApp · Near Circle Mall, JVC · Ayurveda, GP and physiotherapy at one clinic",
+  bgColor: "bg-[#F5F1E8]"
 };
 
 export const arthritisRelatedPages = {
@@ -202,23 +309,23 @@ export const arthritisRelatedPages = {
   linkHref: "/ayurveda-dubai/",
   pages: [
     {
-      title: "Panchakarma in Dubai →",
-      description: "For systemic inflammatory arthritis, classical Panchakarma protocols provide the deep cleansing needed for long-term management.",
-      href: "/treatments/panchakarma-dubai/"
+      title: "Janu Basti (Knee Therapy)",
+      description: "Warm medicated oil held over the knee inside a dough ring for stiffness and osteoarthritis.",
+      href: "/treatments/janu-basti-jvc/"
     },
     {
-      title: "Physiotherapy in JVC →",
-      description: "Integrated physiotherapy care at our Jumeirah Village Circle clinic provides combined support for joint mobility and strength.",
-      href: "/physiotherapy-jvc/"
+      title: "Knee Physiotherapy in JVC",
+      description: "Exercise-based rehabilitation to strengthen the supporting thigh and hip muscles.",
+      href: "/conditions/knee-pain-physiotherapy-dubai/"
     },
     {
-      title: "Ayurvedic Back Pain Treatment Dubai →",
-      description: "For back-specific arthritis like spondylosis or sciatica, see our comprehensive guide to Ayurvedic back care in Dubai.",
+      title: "Ayurveda for Back Pain in JVC",
+      description: "For spinal osteoarthritis, lumbar spondylosis and chronic stiffness.",
       href: "/conditions/back-pain-ayurveda-dubai/"
     },
     {
-      title: "Njavarakizhi in Dubai →",
-      description: "Medicated rice bolus therapy for muscle and joint nourishment, essential for degenerative joint conditions.",
+      title: "Njavarakizhi in Dubai",
+      description: "Warm rice-bundle therapy for joint stiffness, muscle nourishment and recovery.",
       href: "/treatments/njavarakizhi-dubai/"
     }
   ]

@@ -561,7 +561,8 @@ export const patraPindaSwedaRelatedPages = {
     { title: "Pizhichil", href: "/treatments/pizhichil-jvc/", description: "Warm oil poured over the body with gentle massage." },
     { title: "Kativasti", href: "/treatments/kativasti-dubai/", description: "Warm oil held over the lower back." },
     { title: "Janu Vasti", href: "/treatments/janu-basti-jvc/", description: "Warm oil held over the knee." },
-    { title: "Ayurveda for back pain", href: "/conditions/back-pain-ayurveda-dubai/", description: "How back pain is treated with Ayurveda." },
+    { title: "Ayurveda for arthritis", href: "/conditions/arthritis-ayurveda-dubai/", description: "Joint and spine arthritis care in JVC." },
+    { title: "Ayurvedic back pain treatment", href: "/conditions/back-pain-ayurveda-dubai/", description: "How back pain is treated with Ayurveda." },
     { title: "Frozen shoulder physiotherapy", href: "/conditions/frozen-shoulder-dubai/", description: "Physiotherapy for stiff, painful shoulders." },
     { title: "Ayurveda clinic in JVC", href: "/ayurveda-clinic-jvc/", description: "All Ayurvedic services near Circle Mall." }
   ]

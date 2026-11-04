@@ -113,7 +113,7 @@ export const sciaticaFaqs = {
   sidebarLinks: [
     { text: "Physiotherapy for sciatica", href: "/conditions/sciatica-physiotherapy-dubai/" },
     { text: "Kati Vasti", href: "/treatments/kativasti-dubai/" },
-    { text: "Ayurveda for back pain", href: "/conditions/back-pain-ayurveda-dubai/" }
+    { text: "Ayurvedic back pain treatment", href: "/conditions/back-pain-ayurveda-dubai/" }
   ],
   title: "Ayurvedic treatment for sciatica: your questions answered.",
   description: "Answers reviewed by Dr. Zainab Sheikh. For other therapies, see our <a href=\"/ayurveda-dubai/\">guide to Ayurvedic treatment in Dubai</a>.",
@@ -189,6 +189,6 @@ export const sciaticaRelatedPages = {
     { title: "Physiotherapy for sciatica", description: "Movement and strength for sciatica.", href: "/conditions/sciatica-physiotherapy-dubai/" },
     { title: "Kati Vasti", description: "Warm oil therapy for the lower back.", href: "/treatments/kativasti-dubai/" },
     { title: "Basti", description: "The classical Ayurvedic treatment for Vata disorders.", href: "/treatments/basti-jvc/" },
-    { title: "Ayurveda for back pain", description: "When the pain stays in the back.", href: "/conditions/back-pain-ayurveda-dubai/" }
+    { title: "Ayurvedic back pain treatment", description: "When the pain stays in the back.", href: "/conditions/back-pain-ayurveda-dubai/" }
   ]
 };

@@ -65,7 +65,7 @@ export const postnatalTiming = {                            // rendered with Tre
     { time: "First visit", title: "Consultation with Dr. Zainab", content: "Your delivery, recovery, feeding and medicines are checked, and the plan is set." },
     { time: "Ongoing", title: "Sessions and reviews", content: "Sessions are planned around feeds and sleep; plan length depends on your needs." }
   ],
-  footer: "Started later than 6 weeks? Postnatal care can still help with lingering tiredness, back pain or digestion."
+  footer: "Started later than 6 weeks? Postnatal care can still help with lingering tiredness, back pain, postpartum hair fall (<a href='/conditions/hair-loss-ayurveda-dubai/'>Ayurveda for hair loss</a>) or digestion."
 };
 
 export const postnatalPrenatal = {                          // rendered with TreatmentMechanism

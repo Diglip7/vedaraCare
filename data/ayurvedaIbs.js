@@ -331,6 +331,11 @@ export const ayurvedaIbsRelatedPages = {
       title: "Ayurvedic Weight Loss",
       description: "Metabolism, Agni and sustainable weight management planned by our doctors.",
       href: "/conditions/weight-loss-ayurveda-dubai/"
+    },
+    {
+      title: "Ayurveda for Diabetes",
+      description: "Supportive metabolic and blood-sugar care planned with your doctor.",
+      href: "/conditions/diabetes-ayurveda-dubai/"
     }
   ]
 };

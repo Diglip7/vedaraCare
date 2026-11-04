@@ -33,7 +33,7 @@ export const kativastiMechanism = {
   content: [
     "A ring of dough is shaped on the lower back and sealed to the skin. Warm medicated oil is poured inside it and kept warm by replacing it as it cools, so heat and oil stay on the painful area rather than passing over it as in a massage.",
     "In Ayurveda, chronic back pain and stiffness are linked to Vata. Warm, nourishing oil held in place is the classical way to calm it; the doctor chooses the oil for your condition.",
-    "What does the research say? Studies are small: a randomized trial adding Kati Basti to yoga reported less pain and disability in chronic low back pain, and a 15-patient study found improvement when it followed medicated Basti in disc degeneration. We use it alongside physiotherapy and medical care."
+    "What does the research say? Studies are small: in a randomised trial, yoga with added Kati Basti reduced pain and disability about as much as yoga alone, with extra gains in physical health, and a 15-patient study found improvement when it followed medicated Basti in disc degeneration. We use it alongside physiotherapy and medical care."
   ],
   sources: "Sources: <a href='https://ayushnet.clirnet.com/content/Kc5b29wlIJ1' target='_blank' rel='noopener'>Yoga with add-on Kati Basti for chronic low back pain (J Ayurveda Integr Med, summary)</a> · <a href='https://doaj.org/article/23992bda063f4514858c82d788ca2404' target='_blank' rel='noopener'>Panchatikta Ksheera Basti with Kati Basti in lumbar disc degeneration</a>",
   quote: "Most therapies pass over the painful area. Kati Vasti stays on it.",
@@ -179,7 +179,7 @@ export const kativastiFaqs = {
   bgColor: "bg-[#F9F6F1]",
   label: "KATI VASTI QUESTIONS",
   sidebarLinks: [
-    { text: "Ayurveda for back pain", href: "/conditions/back-pain-ayurveda-dubai/" },
+    { text: "Ayurvedic back pain treatment", href: "/conditions/back-pain-ayurveda-dubai/" },
     { text: "Physiotherapy in JVC", href: "/physiotherapy-jvc/" },
     { text: "Ayurveda clinic in JVC", href: "/ayurveda-clinic-jvc/" }
   ],
@@ -197,7 +197,7 @@ export const kativastiFaqs = {
     { question: "What is Kati Vasti used for?",
       answer: "Chronic mechanical lower back pain, sciatica, non-surgical lumbar disc bulge, lumbar spondylosis, sacroiliac joint pain, postpartum back pain and chronic muscle spasm. The doctor checks for warning signs first." },
     { question: "Does Kati Vasti really work?",
-      answer: "Small studies, including a randomized trial combining it with yoga, report less pain and disability in chronic low back pain. Evidence is limited, so we often combine it with physiotherapy and set realistic expectations." },
+      answer: "Small studies suggest it can help. In one randomised trial, yoga with added Kati Basti reduced pain and disability about as much as yoga alone, with extra gains in physical health. Evidence is limited, so we often combine it with physiotherapy and set realistic expectations." },
     { question: "How long does a Kati Vasti session take, and how many do I need?",
       answer: "It depends on your needs. After the consultation, the doctor sets the session length and the course; Kati Vasti is usually given as a course over a few weeks." },
     { question: "Is Kati Vasti painful?",
@@ -254,9 +254,10 @@ export const kativastiRelatedPages = {
   linkText: "See all Ayurvedic treatments",
   linkHref: "/ayurveda-dubai/",
   pages: [
-    { title: "Ayurveda for back pain", description: "The full plan for back pain.", href: "/conditions/back-pain-ayurveda-dubai/" },
+    { title: "Ayurvedic back pain treatment", description: "The full plan for back pain.", href: "/conditions/back-pain-ayurveda-dubai/" },
     { title: "Sciatica (Ayurveda)", description: "How sciatica is treated.", href: "/conditions/sciatica-ayurveda-jvc/" },
     { title: "Janu Vasti", description: "Warm oil therapy for the knee.", href: "/treatments/janu-basti-jvc/" },
+    { title: "Ayurveda for arthritis", description: "Comprehensive joint and spine care.", href: "/conditions/arthritis-ayurveda-dubai/" },
     { title: "Kizhi (Elakizhi)", description: "Herbal bundle therapy, often combined with Kati Vasti.", href: "/treatments/patra-pinda-sweda-jvc/" },
     { title: "Ayurvedic massage", description: "Compare all Ayurvedic massages in JVC.", href: "/treatments/ayurvedic-massage-jvc/" }
   ]
